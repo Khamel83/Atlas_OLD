@@ -1,7 +1,7 @@
 # The Mystery Of The 2000 Ikea Shopping Bag
 
 **Source**: https://hbr.org/2020/02/the-mystery-of-the-2000-ikea-shopping-bag
-**Extracted**: 2025-09-30T23:18:10.388268+00:00
+**Extracted**: 2025-09-30T23:28:55.534925+00:00
 
 ---
 

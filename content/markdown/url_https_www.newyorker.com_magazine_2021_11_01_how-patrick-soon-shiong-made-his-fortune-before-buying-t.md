@@ -1,7 +1,7 @@
 # How Patrick Soon Shiong Made His Fortune Before Buying The La Times
 
 **Source**: https://www.newyorker.com/magazine/2021/11/01/how-patrick-soon-shiong-made-his-fortune-before-buying-the-la-times
-**Extracted**: 2025-09-30T23:17:59.394730+00:00
+**Extracted**: 2025-09-30T23:28:43.680493+00:00
 
 ---
 

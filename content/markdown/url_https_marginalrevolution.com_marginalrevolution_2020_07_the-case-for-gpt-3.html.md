@@ -1,7 +1,7 @@
 # The Case For Gpt 3.Html
 
 **Source**: https://marginalrevolution.com/marginalrevolution/2020/07/the-case-for-gpt-3.html
-**Extracted**: 2025-09-30T23:18:19.487426+00:00
+**Extracted**: 2025-09-30T23:29:03.270032+00:00
 
 ---
 

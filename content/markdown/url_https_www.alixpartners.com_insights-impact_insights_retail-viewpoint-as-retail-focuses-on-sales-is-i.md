@@ -1,7 +1,7 @@
 # Retail Viewpoint As Retail Focuses On Sales Is It Ignoring Its Massive Free Cashflow Problem
 
 **Source**: https://www.alixpartners.com/insights-impact/insights/retail-viewpoint-as-retail-focuses-on-sales-is-it-ignoring-its-massive-free-cashflow-problem/
-**Extracted**: 2025-09-30T23:18:05.623853+00:00
+**Extracted**: 2025-09-30T23:28:50.509195+00:00
 
 ---
 

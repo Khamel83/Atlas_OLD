@@ -46,7 +46,7 @@ The Universal Google Search Fallback system is the ultimate safety net for Atlas
 ### 1. Environment Setup
 ```bash
 # Set Google API credentials in .env
-GOOGLE_SEARCH_API_KEY=AIzaSyA7uuIP20bBoSrvn_gxEttzubV5Ws-XDjU
+GOOGLE_SEARCH_API_KEY=YOUR_GOOGLE_SEARCH_API_KEY_HERE
 GOOGLE_SEARCH_ENGINE_ID=107aa7122dc84433e
 
 # Create required directories
