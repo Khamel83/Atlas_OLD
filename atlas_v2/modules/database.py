@@ -90,6 +90,18 @@ class DatabaseManager:
                 )
             """)
 
+            # Processed content table (for RealContentProcessor)
+            await db.execute("""
+                CREATE TABLE IF NOT EXISTS processed_content (
+                    content_id TEXT PRIMARY KEY,
+                    content_type TEXT NOT NULL,
+                    content TEXT NOT NULL,
+                    metadata_json TEXT,
+                    created_at TEXT NOT NULL,
+                    FOREIGN KEY (content_id) REFERENCES content_metadata(content_id)
+                )
+            """)
+
             # Legacy migration tracking
             await db.execute("""
                 CREATE TABLE IF NOT EXISTS migration_log (
@@ -108,6 +120,7 @@ class DatabaseManager:
             await db.execute("CREATE INDEX IF NOT EXISTS idx_content_type ON content_metadata(content_type)")
             await db.execute("CREATE INDEX IF NOT EXISTS idx_queue_status ON processing_queue(status)")
             await db.execute("CREATE INDEX IF NOT EXISTS idx_queue_priority ON processing_queue(priority)")
+            await db.execute("CREATE INDEX IF NOT EXISTS idx_processed_content_type ON processed_content(content_type)")
             await db.execute("CREATE INDEX IF NOT EXISTS idx_log_content_id ON processing_log(content_id)")
             await db.execute("CREATE INDEX IF NOT EXISTS idx_log_timestamp ON processing_log(timestamp DESC)")
 

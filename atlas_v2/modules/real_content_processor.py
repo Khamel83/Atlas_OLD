@@ -111,7 +111,11 @@ class RealContentProcessor:
 
             logger.info(f"🎙️ Extracting podcast transcript from: {url}")
 
-            async with self.session.get(url) as response:
+            # Try transcript-specific URLs first
+            transcript_url = self.get_transcript_url(url)
+            actual_url = transcript_url if transcript_url else url
+
+            async with self.session.get(actual_url) as response:
                 if response.status != 200:
                     return {"status": "retry", "message": f"HTTP {response.status}"}
 
@@ -123,17 +127,21 @@ class RealContentProcessor:
             transcript_content = None
             title = self.extract_title(soup)
 
-            # Method 1: Look for transcript sections
+            # Method 1: Look for transcript sections (prioritized by content likelihood)
             transcript_selectors = [
+                '.transcript-container', '.rich-text-block-6',  # Main transcript content
                 '.transcript', '#transcript', '.episode-transcript',
                 '[class*="transcript"]', '[id*="transcript"]',
-                '.transcript-content', '.episode-content'
+                '.transcript-content', '.episode-content',
+                '.rich-text-block-7'  # Header content (lower priority)
             ]
 
             for selector in transcript_selectors:
                 element = soup.select_one(selector)
                 if element:
+                    logger.info(f"✅ Found transcript with selector: {selector}")
                     transcript_content = self.clean_text(element.get_text())
+                    logger.info(f"📏 Extracted {len(transcript_content)} characters")
                     break
 
             # Method 2: Look for large text blocks that might be transcripts
@@ -162,14 +170,39 @@ class RealContentProcessor:
                     "message": f"Extracted {len(transcript_content)} characters",
                     "content": transcript_content,
                     "title": title,
-                    "source_url": url
+                    "source_url": actual_url
                 }
             else:
+                if transcript_content:
+                    logger.warning(f"Found transcript but too short: {len(transcript_content)} characters")
+                else:
+                    logger.warning("No transcript content found")
                 return {"status": "failure", "message": "No substantial transcript found"}
 
         except Exception as e:
             logger.error(f"❌ Transcript extraction failed: {e}")
             return {"status": "retry", "message": f"Extraction error: {str(e)}"}
+
+    def get_transcript_url(self, url: str) -> str:
+        """Convert podcast episode URL to transcript URL"""
+        # Lex Fridman: https://lexfridman.com/guest -> https://lexfridman.com/guest-transcript
+        if 'lexfridman.com' in url:
+            # Remove trailing slash and add -transcript
+            if url.endswith('/'):
+                url = url[:-1]
+            return f"{url}-transcript"
+
+        # Acquired: Transcripts are embedded in the episode page itself
+        # No URL conversion needed - they're on the same page
+        if 'acquired.fm' in url:
+            return url  # Use the original URL
+
+        # Tim Ferriss: Try /transcript endpoint
+        if 'tim.blog' in url:
+            return f"{url}/transcript"
+
+        # Default: try adding /transcript
+        return f"{url}/transcript"
 
     async def extract_article_content(self, url: str, content_id: str) -> Dict[str, Any]:
         """Extract content from article"""
@@ -345,7 +378,30 @@ class RealContentProcessor:
                 f.write("---\n\n")
                 f.write(result['content'])
 
-            # Update database
+            # CRITICAL FIX: Insert into processed_content table
+            import aiosqlite
+            async with aiosqlite.connect(self.db_manager.db_path) as db:
+                await db.execute("""
+                    INSERT OR REPLACE INTO processed_content
+                    (content_id, content_type, content, metadata_json, created_at)
+                    VALUES (?, ?, ?, ?, ?)
+                """, (
+                    content_id,
+                    content_info.get('content_type', 'unknown'),
+                    result['content'],
+                    json.dumps({
+                        'title': result.get('title'),
+                        'source_url': result.get('source_url'),
+                        'file_path': filepath,
+                        'content_length': len(result['content']),
+                        'extraction_method': 'real_processor',
+                        'processed_at': datetime.now().isoformat()
+                    }),
+                    datetime.now().isoformat()
+                ))
+                await db.commit()
+
+            # Update processing queue status
             await self.db_manager.update_content_status(content_id, 'completed', {
                 'file_path': filepath,
                 'content_length': len(result['content']),
