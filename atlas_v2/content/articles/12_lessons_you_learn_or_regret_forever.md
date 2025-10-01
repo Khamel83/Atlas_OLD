@@ -1,0 +1,206 @@
+# 12 lessons you learn or regret forever
+
+**Source**: http://qz.com/580727/12-lessons-you-learn-or-regret-forever/
+**Type**: article
+**Created**: 2025-08-13T18:34:26.653213
+
+---
+
+title: 12 lessons you learn or regret forever
+source: http://qz.com/580727/12-lessons-you-learn-or-regret-forever/
+date: 2025-08-13T18:34:17.760386
+tags: []
+---
+_This post originally appeared at_[
+_LinkedIn_](http://web.archive.org/web/20230928092340/https://www.linkedin.com/pulse/boss-
+painful-valuable-lessons-from-taking-charge-my-career-bradberry) _. Follow the
+author_[
+_here_](http://web.archive.org/web/20230928092340/https://www.linkedin.com/in/travisbradberry?trk=pulse-
+det-athr_prof-art_hdr) _._
+
+Sticking your neck out and taking charge of your career is no trivial matter.
+Whether that’s switching careers, going back to school, or walking away from a
+j-o-b to start your own business, it takes a lot of guts.
+
+But guts will only get you so far. Once you build up the nerve and make the
+leap, you’re no more than 5% of the way there. You still have to succeed in
+your new endeavor, and trying to succeed is when your worst fears (the ones
+that made you hesitate in the first place) will come true.
+
+I’m going to assume you’re like me and don’t have a brilliant mentor, a rich
+uncle, or some other person who is going to show you the ropes and explain
+each step you need to take to take charge of your career.
+
+You see, it’s been almost 20 years since I last had a boss. I went from
+working in a surf shop to striking out on my own, eventually starting
+[TalentSmart](http://web.archive.org/web/20230928092340/http://www.talentsmart.com/)
+(with a partner) before I’d finished grad school.
+
+When I set out on my own, I had all the gumption and appetite for risk that I
+needed to take charge of my career. At the time I thought that was all I
+needed to succeed.
+
+It wasn’t. I also needed guidance. Without it, I learned some difficult (and
+often painful) lessons along the way.
+
+I’d like to share some of my biggest lessons learned with you so that they can
+help you as you take charge of your career (in whatever form that takes). As I
+look back on these lessons, I realize that they’re really great reminders for
+us all.
+
+### **1\. Confidence must come first**
+
+Successful people often exude confidence—it’s obvious that they believe in
+themselves and what they’re doing. It isn’t their success that makes them
+confident, however. The confidence was there first.
+
+Think about it:
+
+  1. **_Doubt breeds doubt._ **Why would anyone believe in you, your ideas, or your abilities if you didn’t believe in them yourself?
+  2. **_It takes confidence to reach for new challenges._** People who are fearful or insecure tend to stay within their comfort zones. But comfort zones rarely expand on their own. That’s why people who lack confidence get stuck in dead-end jobs and let valuable opportunities pass them by.
+  3. **_Unconfident people often feel at the mercy of external circumstances._ **Successful people aren’t deterred by obstacles, which is how they rise up in the first place.
+
+Confidence is a crucial building block in a successful career, and embracing
+it fully will take you places you never thought possible. No one is stopping
+you from what you want to accomplish but yourself. It’s time to remove any
+barriers created by self-doubt.
+
+### **2\. You’re living the life that you’ve created**
+
+You are not a victim of circumstance. No one can force you to make decisions
+and take actions that run contrary to your values and aspirations. The
+circumstances you’re living in today are your own—you created them. Likewise,
+your future is entirely up to you. If you’re feeling stuck, it’s probably
+because you’re afraid to take the risks necessary to achieve your goals and
+live your dreams.
+
+When it’s time to take action, remember that it’s always better to be at the
+bottom of the ladder you want to climb than at the top of one you don’t.
+
+### **3\. Being busy does not equal being productive**
+
+Look at everyone around you. They all seem so busy—running from meeting to
+meeting and firing off emails. Yet how many of them are really producing,
+really succeeding at a high level?
+
+Success doesn’t come from movement and activity. It comes from focus—from
+ensuring that your time is used efficiently and productively. You get the same
+number of hours in the day as everyone else. Use yours wisely. After all,
+you’re the product of your output, not your effort. Make certain your efforts
+are dedicated to tasks that get results.
+
+### **4\. You’reonly as good as those you associate with**
+
+You should strive to surround yourself with people who inspire you, people who
+make you want to be better. And you probably do. But what about the people who
+drag you down? Why do you allow them to be a part of your life? Anyone who
+makes you feel worthless, anxious, or uninspired is wasting your time and,
+quite possibly, making you more like them. Life is too short to associate with
+people like this. Cut them loose.
+
+### **5\. Don’t say yes unless you really want to**
+
+Research conducted at the University of California in San Francisco shows that
+the more difficulty that you have saying no, the more likely you are to
+experience stress, burnout, and even depression, all of which make it
+difficult to take charge of your career. Saying no is indeed a major challenge
+for many people. “No” is a powerful word that you should not be afraid to
+wield. When it’s time to say no, avoid phrases like “I don’t think I can” or
+“I’m not certain.” Saying no to a new commitment honors your existing
+commitments and gives you the opportunity to successfully fulfill them.
+
+### **6\. Squash your negative self-talk**
+
+When you’re taking charge of your career, you won’t always have a cheerleader
+in your corner. This magnifies the effects of self-doubt. The more you
+ruminate on negative thoughts, the more power you give them. Most of our
+negative thoughts are just that—thoughts, not facts. When you find yourself
+believing the negative and pessimistic things your inner voice says, it’s time
+to stop and write them down. Literally stop what you’re doing and write down
+what you’re thinking. Once you’ve taken a moment to slow down the negative
+momentum of your thoughts, you will be more rational and clear-headed in
+evaluating their veracity.
+
+### **7\. Avoid asking “what if?”**
+
+“What if?” statements throw fuel on the fire of stress and worry, which are
+detrimental to reaching your goals. Things can go in a million different
+directions, and the more time you spend worrying about the possibilities, the
+less time you’ll spend taking action and staying productive. Asking “what if?”
+will only take you to a place you don’t want—or need—to go. Of course,
+scenario planning is a necessary and effective planning technique. The key
+distinction here is to recognize the difference between worry and strategic
+thinking about your future.
+
+### **8\. Schedule exercise and sleep**
+
+I can’t say enough about the importance of quality sleep. When you sleep your
+brain removes toxic proteins from its neurons that are by-products of neural
+activity when you’re awake. Unfortunately, your brain can remove them
+adequately only while you’re asleep. So when you don’t get enough sleep, the
+toxic proteins remain in your brain cells, wreaking havoc by impairing your
+ability to think—something no amount of caffeine can fix.
+
+Your self-control, attention, and memory are all reduced when you don’t get
+enough—or the right kind—of sleep. Sleep deprivation raises stress hormone
+levels on its own, even without a stressor present, which are a major
+productivity killer. Ambition often makes you feel as if you must sacrifice
+sleep to stay productive, but sleep deprivation diminishes your productivity
+so much throughout the day that you’re better off sleeping.
+
+A study conducted at the Eastern Ontario Research Institute found that people
+who exercised twice a week for 10 weeks felt more competent socially,
+academically, and athletically. They also rated their body image and self-
+esteem higher. Best of all, rather than the physical changes in their bodies
+being responsible for the uptick in confidence, it was the immediate,
+endorphin-fueled positivity from exercise that made all the difference.
+Schedule your exercise to make certain it happens, or the days will just slip
+away.
+
+### **9\. Seek out small victories**
+
+Small victories can seem unimportant when you’re really after something big,
+but small victories build new androgen receptors in the areas of the brain
+responsible for reward and motivation. This increase in androgen receptors
+increases the influence of testosterone, which further increases your
+confidence and your eagerness to tackle future challenges. When you have a
+series of small victories, the boost in your confidence can last for months.
+
+### **10\. Don’t seek perfection**
+
+Don’t set perfection as your target. It doesn’t exist. Human beings, by our
+very nature, are fallible. When perfection is your goal, you’re always left
+with a nagging sense of failure that makes you want to give up or reduce your
+effort. You end up spending your time lamenting what you failed to accomplish
+and what you should have done differently instead of moving forward excited
+about what you’ve achieved and what you will accomplish in the future.
+
+### **11\. Focus on solutions**
+
+Where you focus your attention determines your emotional state. When you
+fixate on the problems that you’re facing, you create and prolong negative
+emotions which hinder your ability to reach your goals. When you focus on the
+actions you’ll take to better yourself and your circumstances, you create a
+sense of personal efficacy that produces positive emotions and improves
+performance.
+
+### **12\. Forgive yourself**
+
+When you slip up, it is critical that you forgive yourself and move on. Don’t
+ignore how the mistake makes you feel; just don’t wallow in it. Instead, shift
+your attention to what you’re going to do to improve yourself in the future.
+
+Failure can erode your self-confidence and make it hard to believe you’ll
+achieve a better outcome in the future. Most of the time, failure results from
+taking risks and trying to achieve something that isn’t easy. Success lies in
+your ability to rise in the face of failure, and you can’t do this when you’re
+living in the past. Anything worth achieving is going to require you to take
+some risks, and you can’t allow failure to stop you from believing in your
+ability to succeed. When you live in the past, that is exactly what happens,
+and your past becomes your present, preventing you from moving forward.
+
+### **Bringing it all together**
+
+I hope these lessons are as useful to you as they have been to me over the
+years. As I write them, I’m reminded of their power and my desire to use them
+every day.

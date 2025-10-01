@@ -1,0 +1,82 @@
+# Four Seasons Total Tech
+
+**Source**: inputs/saved_emails/Four Seasons Total Tech_Mon,_5_Dec_2022_13-56-52_+0000_184e293eb051bc0a.eml
+**Type**: email
+**Created**: 2025-08-25T02:53:57.690454
+
+---
+
+View this post on the web at https://www.notboring.co/p/four-seasons-total-tech
+
+Welcome to the 4,399 newly Not Boring people who have joined us since our last Monday post! If you haven’t subscribed, join 175,133 smart, curious folks by subscribing here:
+🎧  For the audio version, subscribe on Spotify [ https://substack.com/redirect/c72588d8-0f0d-4e48-8f46-7d1809e24135?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] or Apple Podcasts [ https://substack.com/redirect/1da2d18f-761e-47e7-a191-892ebb739702?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] (this essay coming soon)
+Today’s Not Boring is brought to you by… Oceans [ https://substack.com/redirect/52de8412-070d-4dfd-be9c-ec3e857ad573?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Oceans [ https://substack.com/redirect/52de8412-070d-4dfd-be9c-ec3e857ad573?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] matches busy executives and high-growth teams with top EA+ candidates from global talent pools. Oceans recruits, vets, trains, and employs top talent and you get a high-quality, reliable, and affordable EA+. 
+For $2,850 per month (<$35K/yr), you can hire folks like Tehani and Lawrence at an 50-80% discount to US-based EA+s.
+Austin Rief [ https://substack.com/redirect/d258301a-c666-4bc6-aa3a-3c8af4e2ea17?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] (co-founder and CEO of Morning Brew) had this to say: “I was hesitant to work with an offshore EA, but Ocean’s talent is exceptional. My EA+ has quickly become invaluable, I couldn’t get through the week without her.”
+Ndamukong Suh [ https://substack.com/redirect/c0256d80-3b86-4326-af86-e2fd3dbfbdf2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] (NFL Player & Investor) added: “I’m constantly managing all the things pulling at my time. I finally caved and got an Oceans EA+ to help with admin, scheduling, research, and planning. She’s amazing and helps me stay focused on what matters every day. Highly recommend." 
+Join dozens of founders, execs, and high growth teams that are hiring affordable EA+ so you can stay lean and focus on the most important work. Schedule a quick call to learn more here: 
+Hi friends 👋, 
+Happy Monday! Now that AI is really here — I spent a dangerous amount of time playing with ChatGPT over the past few days — it seems like it was inevitable. It wasn’t. AI went through its own Winters, during which the smart money was on the technology never living up to its promise. 
+On Friday, Anton [ https://substack.com/redirect/e1b28992-d81c-4171-9c5c-1e7fa40bab34?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and I recorded our third episode of Anton Teaches Packy AI [ https://substack.com/redirect/e1e526fc-145d-4bc3-8def-7da6658b073e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], and he suggested that we go all the way back to the beginning, to the 1943 paper that inspired neural networks and the AI Winter that followed when neural networks and connectionism failed to live up to the substantial hype. 
+The juxtaposition of everything happening right now with the strongly negative sentiment during the first AI Winter got me thinking about the seasons that any technology inevitably goes through, and why, despite the inevitability, people keep counting technologies out during their Winters. 
+Let’s get to it. 
+Four Seasons Total Tech
+"Happy families are all alike; every unhappy family is unhappy in its own way."
+– Leo Tolstoy, Anna Karenina 
+A question I’ve been wrestling with during this bear market is why technological Winters, which appear after periods of hype like clockwork, feel so existential while they’re happening. If we know Winter is Coming, and we’re prepared ahead of time, why don’t we just throw on a heavy coat and face the storm head on, warmed by the knowledge that it will end, like all seasons do? 
+I think the answer has something to do with that Tolstoy quote. “Periods of hype are all alike; every Winter is unhappy in its own way.” In other words, each Winter is the result of real, unique challenges that feel as if they may be too much for the technology in question to overcome. And there’s a proportionality at play: the greater the hype, the colder the Winter. 
+But most Winters do end. Spring brings new shoots of promise, and that promise is realized during Summers. 
+Despite the number in your portfolio or on your thermometer, it’s Spring right now. And we might be heading towards what looks to be the hottest Summer on record, as technologies that have endured very long, cold Winters all begin to thaw at the same time. Maybe it’s global warming, maybe it’s just time, or maybe these technologies need each other to reach their full potential. Whatever the cause, I think the next decade is going to be far warmer than anyone expects. 
+Created with Stable Diffusion
+The most obvious sign that Summer is Coming is the AI Spring. For the past four days, my Twitter feed has been filled with screenshots from ChatGPT [ https://substack.com/redirect/ee8d6b77-b344-41ca-a2aa-05a67f95abb3?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], OpenAI’s new conversational interface on top of GPT-3. 
+ChatGPT is the latest, and most tangibly impressive, in a months-long series of lightning fast innovation in AI. It won’t be the last. If the past few mind-blowing products are a guide, we’ll be used to it in a few days. It will just be normal that we can chat with AI and get anything from essays written in anyone’s voice to full-blown code [ https://substack.com/redirect/023bdc4c-c790-40f0-a61a-51f87891b9bc?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] back.  
+But while we’re right in the thick of it, we should pause and appreciate what’s happening. ChatGPT is a product 79 years in the making, and most of those 79 years were pretty cold. 
+On Friday, Anton and I recorded our third episode of Anton Teaches Packy AI. The theme of the conversation was AI Winters. 
+(Requisite SMASH THAT LIKE/SUBSCRIBE/ETC…)
+An analogy to nuclear winter, a theoretical scenario in which a large-scale nuclear war would cause a significant reduction in temperatures around the world, leading to widespread crop failures and other adverse effects on the environment and human society, AI Winter was the first of the many technological winters that we’ve come to know and love. 
+In addition to AI Winter and the Crypto Winter we’re experiencing now, various once-promising industries have gone through their own cold periods over the past half-century or so: 
+The Dot-com Bubble and Burst in the late 1990s and early 2000s, which saw a rapid increase in investment in internet-based companies followed by a crash in the stock market and a sharp decline in the value of these companies.
+The Solar Energy Winter in the 1980s, when the price of solar panels increased dramatically and the industry struggled to compete with other forms of energy.
+The Nuclear Winter in the 1970s and 1980s, when concerns about the environmental and safety risks of nuclear power led to a decrease in investment and the cancellation of many planned nuclear power plants.
+The Space Race Winter in the late 1960s and early 1970s, when the end of the space race between the US and the Soviet Union led to a decrease in funding for space exploration and a shift in focus away from space-related technologies.
+The Biotech Winter in the early 1990s, when a series of high-profile failures and controversies in the biotech industry led to a decrease in investment and a downturn in the sector.
+Winters, whether in AI, crypto, solar, or any sufficiently novel technology, are what the Gartner Hype Cycle calls the Trough of Disillusionment, that dark period after a technological trigger causes people to lose their collective minds with the possibilities of the shiny new thing.
+They’re bigger versions of the troughs, troughs that hit entire categories instead of the specific technologies within those categories that Gartner tends to cover. When a Winter hits, it signals a belief that the entire category may never recover. The reason Winters elicit that belief is that they result from specific, seemingly insurmountable challenges. 
+“Inflated Expectations periods are all alike; every Trough of Disillusionment is disillusioning in its own way.”
+All Peaks of Inflated Expectations are similar in that they involve a high level of excitement and optimism about a new technology. However, each Trough of Disillusionment is disillusioning in its own way, because the specific challenges and limitations that a technology encounters can vary. For example, one technology may encounter challenges related to its cost or complexity, while another technology may face challenges related to its compatibility with existing systems or its ability to solve real-world problems.
+The stages of the Hype Cycle mirror the four seasons, too. 
+Fall: A Time for New Beginnings
+The Technology Trigger and Peak of Inflated Expectations are the Fall on our metaphorical calendar. Just as students enter a new school year with a fresh report card and high hopes, a technology trigger provides a blank canvas on which practitioners and the commentariat can paint big visions, unmarred by the harshness of reality. 
+Whenever there’s an exciting new technology, people predictably predict that it will deliver untold wonders, and soon. In 1957, for example, 65 years ago, Herbert Simon and Allen Newell wrote of progress in the field that would later be called Artificial Intelligence:
+On the basis of these developments, and the speed with which research in this field is progressing, I am willing to make the following predictions, to be realized within the next ten years: 
+1. That within ten years a digital computer will be the world's chess champion, unless the rules bar it from competition.
+2. That within ten years a digital computer will discover and prove an important new mathematical theorem.
+3. That within ten years a digital computer will write music that will be accepted by critics as possessing considerable aesthetic value.
+4. That within ten years most theories in psychology will take the form of computer programs, or of qualitative statements.
+It is not my aim to surprise or shock you if indeed that were possible in an age of nuclear fission and prospective interplanetary travel. But the simplest way I can summarize the situation is to say that there are now in the world machines that think, that learn, and that create. Moreover, their ability to do these things is going to increase rapidly until in a visible future the range of problems they can handle will be coextensive with the range to which the human mind has been applied.
+That quote, delivered in a speech by Simon, predicts Golden Ages not just for AI, but for nuclear and space travel to boot. As Anton pointed out during our conversation, that was a sign of the times. The 1950s were a period of great optimism, for a number of reasons:
+The end of World War II and the beginning of the Cold War, which brought a sense of stability and security to many countries.
+The growth of the middle class and the rise of consumer culture, which led to an increase in personal wealth and spending power.
+The development of new technologies, such as television and the commercial jet airplane, which brought people closer together and made the world seem smaller.
+The rise of international organizations, such as the United Nations and the North Atlantic Treaty Organization (NATO), which promoted cooperation and collaboration between countries.
+Looking back, it seems absurd that anyone alive in 1957 could have believed that within a “visible future,” machines would be able to handle a “range of problems coextensive with the range to which the human mind has been applied.” In 1957, those machines looked like this:
+But again and again, the same thing happens. A new technology is born, and in its infantile period, the world silently agrees to assume the absolute best. The technology baby just lies there, not talking, not walking, totally dependent on the support of others, and we think, “Albert Einstein was once a blob of a baby, too, and look how he turned out! This kid is going to be the next Albert Einstein!” If that baby so much as crawls a week ahead of schedule, or makes a sound that could be interpreted as “mama,” we lose our shit. “See! Einstein.” 
+That’s why Peaks of Inflated Expectations are all alike. We extrapolate from so close to nothing that all there really is is a formless expectation that this thing will change the world, somehow. It has too much potential not to. 
+But then the infant grows up, and those expectations become a weight. 
+Winter: A Cold, Uncertain Period
+The Trough of Disillusionment is Winter. It’s cold, dark, and on the harshest of days, it feels like it’s never going to end. 
+The three things that so excited Simon and Newell that they took their dominance for granted – AI, nuclear fission, and space travel – are also three of the handful of Tech Winters we covered above. There’s a direct relationship between how excited we get about something and how strongly we recoil when it fails to live up to our inflated expectations. 
+And it fails to live up to our expectations in very specific ways. 
+Winters feel so harsh because of that specificity. Your kid crawled a week early, but by the time she hit middle school, she was the second slowest person on the track team. That near-mama was cute, but your son just got a 510 on his SAT Verbal. Potential dies in the details. 
+There’s that great Tim Urban [ https://substack.com/redirect/d15f2ff4-5020-43fc-8e37-7d5596480b0e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] image that shows how life paths close off as time advances. 
+We can apply that image to technologies too. Actually going out and doing things, hitting up against limitations and edge cases, instead of just dreaming about them means exposing very real weaknesses and closing off potential paths.
+Every Trough of Disillusionment is disillusioning in its own way. Every Winter has its own wintry mix. In each case, that uniqueness makes the situation feel particularly bleak. That’s a tradition as old as tech Winters. Let’s go back to the first AI Winter to see how it works. 
+Here’s the gist of the issue: far from doing everything the human mind could within a decade, early AI couldn’t even do the one thing the Department of Defense paid it to do: translate Russian to English. 
+That punch card is from a 1954 experiment that used a 250-word dictionary and syntactical analysis to perform crude translations between the two languages. Three years later, Frank Rosenblatt invented perceptrons, the first neural network. Small, early machine translation wins and the big promise of perceptrons created the hype that led to the Simon & Newell quote above, and ones like The New York Times’ observation that [ https://substack.com/redirect/29a0691d-eed7-416c-b4cb-e95197ae090d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], “The Navy revealed the embryo of an electronic computer that it expects will be able to walk, talk, see, write, reproduce itself and be conscious of its existence.”
+Then, in the 1960s, progress stalled.
+To hit the rest of Winter, Spring, and Summer… 
+Thanks to Dan [ https://substack.com/redirect/a4e50e8d-ad53-4934-8258-955ee19aa2cc?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for editing - both the essay and YouTube - kid’s got range, and to Anton for the conversation that inspired this essay!
+That’s all for today.
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZPRGczTlRrMU1UQXNJbWxoZENJNk1UWTNNREkwT0RZek1Td2laWGh3SWpveE5qY3lPRFF3TmpNeExDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKa2FYTmhZbXhsWDJWdFlXbHNJbjAueVA5MV9RQVNuNmVLdUJHUHpnQW9ibDFobTRpdGpWbzJVX3hiVEtrZVNzSSIsInAiOjg4NzU5NTEwLCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY3MDI0ODYzMSwiZXhwIjoxNjcyODQwNjMxLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.4nfDZjgx-tqEoXjlM1Q_1XtitkK87uyW7nidkHoiaD4?

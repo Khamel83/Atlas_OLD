@@ -1,0 +1,50 @@
+# How to Disinfect a Variety of Materials, as Demonstrated by a Car Detailing Expert - Core77
+
+**Source**: https://www.core77.com/posts/96246/How-to-Disinfect-a-Variety-of-Materials-as-Demonstrated-by-a-Car-Detailing-Expert
+**Type**: article
+**Created**: 2025-08-13T15:58:15.356804
+
+---
+
+title: How to Disinfect a Variety of Materials, as Demonstrated by a Car Detailing Expert - Core77
+source: https://www.core77.com/posts/96246/How-to-Disinfect-a-Variety-of-Materials-as-Demonstrated-by-a-Car-Detailing-Expert
+date: 2025-08-13T15:58:08.356872
+tags: []
+---
+Car interiors contain everything from plastic, metal and glass to leather,
+fabric and rubber. Cleaning and disinfecting them requires different
+approaches.  
+
+![](http://web.archive.org/web/20250711221448im_/https://s3files.core77.com/blog/images/1017703_81_96246_Egvxa4gbU.jpg)  
+
+Learning these techniques can be helpful for disinfecting not just your car,
+but a variety of items that you carry in and out of your house. In the video
+below, car detailing expert Larry Kosilla of [Ammo Auto
+Care](http://web.archive.org/web/20250711221448/https://www.ammonyc.com/)
+shows you how he disinfects--not just cleans nor sanitizes, but disinfects--
+the multi-material interior of a car. (He also explains the difference between
+those three terms.)
+
+![](http://web.archive.org/web/20250711221448im_/https://s3files.core77.com/blog/images/1017699_81_96246_CdXsSw6zn.jpg)  
+
+You might think "What does a car detailer know about germs?" While he points
+out he isn't a medical expert, the chemistry-savvy Kosilla has carefully gone
+through the EPA, WHO and CDC recommendations, and taken pains to spot helpful
+information buried in the label copy that you or I might have missed. (As one
+example: One product requires being left on a surface and visibly wet for just
+15 seconds to sanitize--but a full three minutes to disinfect.)
+
+![](http://web.archive.org/web/20250711221448im_/https://s3files.core77.com/blog/images/1017695_81_96246_JOJXhQUJF.jpg)  
+
+And as a bonus, he demonstrates the proper way to remove germ-covered gloves
+without touching your exposed skin in the process. (Hint: You use different
+methods for the first and second gloves.)
+
+![](http://web.archive.org/web/20250711221448im_/https://s3files.core77.com/blog/images/1017697_81_96246_ojF4iTFk5.jpg)  
+
+Check it all out:
+
+VIDEO _Enter a caption (optional)_
+
+_via[Jalopnik](http://web.archive.org/web/20250711221448/https://jalopnik.com/get-
+the-coronavirus-out-of-your-car-1842460296)_

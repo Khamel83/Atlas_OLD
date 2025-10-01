@@ -1,0 +1,24 @@
+# Legendary, Crispy-As-Heck Chicken Thighs We'd Want for Dinner Any Night Food52
+
+**Source**: https://food52.com/blog/22509-legendary-crispy-as-heck-chicken-thighs-we-d-want-for-dinner-any-night
+**Type**: article
+**Created**: 2025-08-25T02:53:37.615913
+
+---
+
+# Legendary, Crispy-As-Heck Chicken Thighs We'd Want for Dinner Any Night Food52
+
+
+---
+
+# Attention Required!
+
+Unknown author • Unknown date 
+
+![Attention Required!]()
+
+This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.  
+  
+What can I do to resolve this?  
+  
+You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.

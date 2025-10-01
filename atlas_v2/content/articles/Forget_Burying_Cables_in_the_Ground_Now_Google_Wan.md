@@ -1,0 +1,67 @@
+# Forget Burying Cables in the Ground. Now Google Wants to Beam Its Super-Fast Internet Service.
+
+**Source**: http://www.slate.com/blogs/future_tense/2016/08/16/google_fiber_tries_experimental_transmitters_to_beam_its_internet_service.html
+**Type**: article
+**Created**: 2025-08-13T17:57:24.309937
+
+---
+
+title: Google Fiber tries experimental transmitters to beam its internet service.
+source: http://www.slate.com/blogs/future_tense/2016/08/16/google_fiber_tries_experimental_transmitters_to_beam_its_internet_service.html
+date: 2025-08-13T17:57:23.186882
+tags: []
+---
+Tired of digging up front lawns and fighting over telephone poles, Google
+Fiber is expanding its plan to include the transmission of super-fast internet
+through the air.
+
+So far, Google Fiber has built out its municipal internet service in a half-
+dozen U.S. cities by laying cables in the ground or stringing them along
+utility poles. Depending on your package, it can be cheaper than buying
+internet from Comcast or Verizon, and it’s much, much faster than traditional
+service. Naturally, it’s [not a money-
+maker](http://www.fiercetelecom.com/telecom/google-fiber-augments-alphabet-s-
+revenues-but-also-raises-capital-expenditures) for Alphabet, Google’s parent
+company, in part because of the high costs of expanding the network.
+
+So the model is changing. The next rounds of expansion—to cities including
+Chicago, Los Angeles, and Dallas—will be predicated on wireless transmission,
+the _Wall Street Journal_[reports](http://www.wsj.com/articles/googles-high-
+speed-web-plans-hit-snags-1471193165). Roll-outs in [San
+Jose](http://www.mercurynews.com/bay-area-news/ci_30221848/google-fibers-
+silicon-valley-rollout-is-delayed-while) and Silicon Valley in California, and
+Portland, Oregon, have been suspended as the company adjusts its tactics.
+
+It’s all happened very fast: In February, Google
+[applied](https://apps.fcc.gov/els/GetAtt.html?id=172888&x=) for Federal
+Communications Commission permission to test experimental transmitters in
+Kansas City, Missouri. In April, Google Fiber got
+[permission](http://www.kansascity.com/news/business/technology/article71782332.html)
+from the Kansas City Council to conduct a two-year trial of wireless internet
+beamed from antennae mounted on light poles and other structures, both indoors
+and out. Those transmissions will take place on a slice of spectrum in the
+3.5-GHz band called the “Citizens Broadband Radio Service,” which the FCC
+opened up in 2015. In June, Google Fiber acquired Webpass, a wireless internet
+service provider that combines landline ethernet with beams of internet
+between rooftop transmitters. Two weeks ago, in a filing with the FCC first
+spotted by _Business Insider_ , Google
+[asked](http://www.businessinsider.com/google-fiber-new-fcc-filing-expanding-
+wireless-tests-2016-8) for approval to test wireless transmitters in two dozen
+cities.
+
+The [filing](https://apps.fcc.gov/els/GetAtt.html?id=180386&x=) indicates
+Google Fiber plans initial deployment in San Francisco, Silicon Valley, and
+San Jose, as well as in Boulder, Colorado; Kansas City, Kansas; Omaha;
+Raleigh; Provo, Utah; and Reston, Virginia. This isn’t a substitute for Fiber,
+at least for now—the filing is for a volunteer group of “trusted testers” and
+rules out any commercial operations. Still, it suggests a potentially
+revolutionary technology with a “radius of operations” that extends up to 24
+miles from the transmitter. Google is also seeking permission to test in some
+of the nation’s largest cities, including Phoenix, Atlanta, Chicago, New York,
+and Austin.
+
+According to a timeline that Google presented to Kansas City leaders this
+spring, testing wasn’t supposed to begin until November 2017. But the latest
+filing—and the stalled projects in San Jose, Portland and elsewhere—suggests
+the company wants to figure out its approach to internet in the sky before it
+keeps digging in the ground.

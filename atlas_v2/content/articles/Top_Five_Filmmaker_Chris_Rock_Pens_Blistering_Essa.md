@@ -1,0 +1,245 @@
+# 'Top Five' Filmmaker Chris Rock Pens Blistering Essay on Hollywood's Race Problem: "It's a White Industry" | Hollywood Reporter
+
+**Source**: http://www.hollywoodreporter.com/news/top-five-filmmaker-chris-rock-753223
+**Type**: article
+**Created**: 2025-08-13T19:21:12.885306
+
+---
+
+title: 'Top Five' Filmmaker Chris Rock Pens Blistering Essay on Hollywood's Race Problem: "It's a White Industry" | Hollywood Reporter
+source: http://www.hollywoodreporter.com/news/top-five-filmmaker-chris-rock-753223
+date: 2025-08-13T19:21:03.295822
+tags: []
+---
+## Writing for THR's current issue, the 'Top Five' writer, director and star
+tackles Hollywood's third rail as he explains what it's really like to be
+black in the entertainment industry (hint: you get asked to be Huggy Bear, not
+Starsky or Hutch) and the "slave state" of Mexicans: "If Kevin Hart is playing
+40,000 seats a night, and Jon Stewart is playing 3,000 ... why does Kevin Hart
+have to cross over?"
+
+I was probably 19 when I first came to Hollywood. Eddie Murphy brought me out
+to do _Beverly Hills Cop II_ and he had a deal at Paramount, so I remember
+going through the gates of the Paramount lot. He's in a Rolls-Royce, and he's
+not just a star, he's the biggest star in the world. Don Simpson and Jerry
+Bruckheimer's office was in the same building as Eddie's office, and they
+would come to work every day with matching cars. Some days it would be the
+Porsches, and the next day it would be Ferraris. I was like the kid in _A
+Bronx Tale_. I got to just hang around when the biggest parts of show business
+were happening. I was only there a couple of weeks, but I remember every day
+Jeffrey Katzenberg would call Eddie Murphy — I don't even know if Eddie was
+calling him back — but it was like, "Jeffrey Katzenberg called again." "Janet
+Jackson just called." "Michael Jackson called." It was _that_ crazy. I've
+still never seen anything like it. I had a small part in the movie, but my
+dream was bigger than that. I wanted to have a convertible Rolls-Royce with a
+fine girl driving down Melrose blasting Prince.
+
+Now I'm not Murphy, but I've done fine. And I try to help young black guys
+coming up because those people took chances on me. Eddie didn't have to put me
+in _Beverly Hills Cop II_. Keenen Wayans didn't have to put me in _I'm Gonna
+Git You Sucka. _ Arsenio didn't have to let me on his show. I'd do the same
+for a young white guy, but here's the difference: Someone's going to help the
+white guy. Multiple people will. The people whom I've tried to help, I'm not
+sure anybody was going to help them.
+
+And I have a decent batting average. I still remember people thinking I was
+crazy for hiring Wanda Sykes on my old HBO show. I recommended J.B. Smoove for
+_Saturday Night Live_ , and I just helped Leslie Jones get on that show. She's
+about as funny as a human being can be, but she didn't go to Second City, she
+doesn't do stand-up at The Cellar and she's not in with Judd Apatow, so how
+the hell was she ever going to get through unless somebody like me says to
+Lorne Michaels, "Hey, look at this person"? I saw her at a comedy club four or
+five years ago, and I wrote her name down in my phone. I probably called four
+managers — the biggest managers in comedy — to manage her, and all of them
+said no. They didn't get it. They didn't get it until Lorne said yes a few
+years later, and then it was too late.
+
+Some of these younger black guys just want me to see their act. Some come to
+me for advice. Hannibal Buress called the other day. They want to know about
+agents and managers and the business; this kind of deal and that kind of deal;
+dealing with the media and dealing with family; money crap and where they
+should live. It's big brother shit, and they ask because there aren't that
+many black people to turn to. Who do you hire? Where's the big black PR
+agency? Where are the big black agents? Where's the big black film producer?
+That's why I've been all over Steve McQueen. I put a microchip in Steve's
+pocket and track him like an Uber driver. Steve thinks we keep bumping into
+each other by accident. "Hey, Steve, my man!" I don't care if I have to play a
+whip, I'm going to be in a Steve McQueen movie. But I digress.
+
+It's a white industry. Just as the NBA is a black industry. I'm not even
+saying it's a bad thing. It just is. And the black people they do hire tend to
+be the same person. That person tends to be female and that person tends to be
+Ivy League. And there's nothing wrong with that. As a matter of fact, that's
+what I want for my daughters. But something tells me that the life my
+privileged daughters are leading right now might not make them the best
+candidates to run the black division of anything. And the person who runs the
+black division of a studio should probably have worked with black people at
+some point in their life. Clint Culpepper [a white studio chief who
+specializes in black movies] does a good job at Screen Gems because he's the
+kind of guy who would actually go see  _Best Man Holiday_. But how many black
+men have you met working in Hollywood? They don't really hire black men. A
+black man with bass in his voice and maybe a little hint of facial hair? Not
+going to happen. It is what it is. I'm a guy who's accepted it all.
+
+We cut it out in _Top Five_ , but there had been a scene where Kevin Hart, who
+plays my character's agent, is in his office talking to me, and he finds out
+that "Zoolander" (Ben Stiller) is down the hall and he's mad because none of
+the agents called him. He's the only black agent at the agency, and there was
+a line in the movie like, "I'm the only black agent here. They never invite me
+to anything, and these people are liberals. This isn't the Klan."
+
+But forget whether Hollywood is black enough. A better question is: Is
+Hollywood Mexican enough? You're in L.A, you've got to _try_ not to hire
+Mexicans. It's the most liberal town in the world, and there's a part of it
+that's kind of racist — not racist like "F— you, nigger" racist, but just an
+acceptance that there's a slave state in L.A. There's this acceptance that
+Mexicans are going to take care of white people in L.A. that doesn't exist
+anywhere else. I remember I was renting a house in Beverly Park while doing
+some movie, and you just see all of the Mexican people at 8 o'clock in the
+morning in a line driving into Beverly Park like it's General Motors. It's
+this weird town.
+
+You're telling me no Mexicans are qualified to do anything at a studio?
+Really? Nothing but mop up? What are the odds that that's true? The odds are,
+because people are people, that there's probably a Mexican David Geffen
+mopping up for somebody's company right now. The odds are that there's
+probably a Mexican who's that smart who's never going to be given a shot. And
+it's not about being given a shot to greenlight a movie because nobody is
+going to give you that — you've got to take that. The shot is that a Mexican
+guy or a black guy is qualified to go and give his opinion about how loud the
+boings are in _Dodgeball_ or whether it's the right shit sound you hear when
+[Jeff
+Daniels](http://web.archive.org/web/20210423154523/https://www.hollywoodreporter.com/news/jeff-
+daniels-two-faces-how-748596) is on the toilet in _Dumb and Dumber_. It's
+like, "We only let white people do that." This is a system where only white
+people can chime in on that. There would be a little naivete to sitting around
+and going, "Oh, no black person has ever greenlighted a movie," but those
+other jobs? You're kidding me, right? They don't even require education. When
+you're on the lower levels, they're just about taste, nothing else. And you
+don't have to go to Harvard to have taste.
+
+Fifteen years ago, I tried to create an equivalent to _The Harvard Lampoon_ at
+Howard University, to give young black comedy writers the same opportunity
+that white comedy writers have. I wish we could've made it work. The reason it
+worked at Harvard and not at Howard is that the kids at Howard need money.
+It's that simple. Kids at Harvard come from money — even the broke ones come
+from money. They can afford to work at a newspaper and make no money. The kids
+at Howard are like, "Dude, I love comedy, but I've got a f—ing tuition that
+I've got to pay for here." But that was 15 years ago; it might be easier to do
+it now because of the Internet. I don't know.
+
+I really don't think there's any difference between what black audiences find
+funny and what white audiences find funny, but everyone likes to see
+themselves onscreen, so there are some instances where there's a black
+audience laughing at something that a white audience wouldn't laugh at because
+a black audience is really just happy to see itself. Things that would be
+problems in a world where there were a lot of black movies get overlooked. The
+same thing happened with those _Sex and the City_ movies. You don't really see
+that level of female movie that much, so women were like, "We're only going to
+get this every whatever, so f— you, f— the reviews, we're going, we like it."
+
+And you should at least be able to count on your people, and then it grows
+from there. If someone's people don't love them, that's a problem. No one
+crosses over without a base. But if we're going to just be honest and count
+dollars and seats and not look at skin color, Kevin Hart is the biggest
+comedian in the world. If Kevin Hart is playing 40,000 seats in a night and
+Jon Stewart is playing 3,000, the fact that Jon Stewart's 3,000 are white
+means Kevin has to cross over? That makes no sense. If anybody needs to cross
+over, it's the guy who's selling 3,000 seats.
+
+But here's one thing I've noticed in the last five to seven years, and I
+didn't think I'd live to see this day. There used to be black film and Eddie
+Murphy, and the two had nothing to do with each other. Literally nothing. And
+in the world of black film, everything was judged on a relative basis — almost
+the same curve that indie films get judged on. It was, "Hey, _House Party_
+made a lot of money relative to its budget," or "Oh, we only paid $7 million
+for _New Jack City_ and it made $50 million." Now, not only are black movies
+making money, they're expected to make money — and they're expected to make
+money on the same scale as everything else.
+
+I think they've been better in the last few years, too — a little more daring,
+a little funnier. But look, most movies suck. Absolutely suck. They just do.
+Most TV shows suck. Most books suck. If most things were good, I'd make $15 an
+hour. I don't live the way I live because most things are even remotely good.
+But when you have a system where you probably only see three movies with
+African-American leads in them a year, they're going to be judged more
+harshly, and you're really rooting for them to be good a little more so than
+the 140 movies starring white people every year.
+
+The best ones are made outside of the studio system because they're not made
+with that many white people — maybe one or two, but not a whole system of
+white people. I couldn't have made _Top Five_ at a studio. First of all, no
+one's going to make a movie with a premise so little and artsy: a star putting
+out a movie and getting interviewed by a woman from _The New York Times_. I
+would have had to have three two-hour meetings explaining that black people
+also read _The New York Times_. A studio would've made it like _Malibu's Most
+Wanted_. And never in a million years would they have allowed a scene where
+the rich guy comes back to the projects and actually gets along with
+everybody. No way. In most black movies — and in most black TV shows and even
+in most black plays — anyone with money or an education is evil, even movies
+made by black directors. They have to be saved by the poor people. This goes
+back to _Good Times_ and _What's Happening!!_
+
+Now, when it comes to casting, Hollywood pretty much decides to cast a black
+guy or they don't. We're never on the "short list." We're never "in the mix."
+When there's a hot part in town and the guys are reading for it, that's just
+what happens. It was never like, "Is it going to be Ryan Gosling or Chiwetel
+Ejiofor for _Fifty Shades of Grey_?" And you know, black people f—, too. White
+women actually want to f— black guys, sometimes more than white guys. More
+women want to f— Tyrese than Jamie Dornan, and it's not even close. It's not a
+contest. Even Jamie would go, "OK, you got it."
+
+Or how about _True Detective_? I never heard anyone go, "Is it going to be Amy
+Adams or Gabrielle Union?" for that show. I didn't hear one black girl's name
+on those lists. Not one. Literally everyone in town was up for that part,
+unless you were black. And I haven't read the script, but something tells me
+if Gabrielle Union were Colin Farrell's wife, it wouldn't change a thing. And
+there are almost no black women in film. You can go to whole movies and not
+see one black woman. They'll throw a black guy a bone. OK, here's a black guy.
+But is there a single black woman in _Interstellar_? Or _Gone Girl_?
+_Birdman_? _The Purge_? _Neighbors_? I'm not sure there are. I don't remember
+them. I go to the movies almost every week, and I can go a month and not see a
+black woman having an actual speaking part in a movie. That's the truth.
+
+But there's been progress. When I was on _Saturday Night Live_ a few weeks
+ago, we did a sketch where I was Sasheer Zamata's dad and she had an Internet
+show. Twenty years ago when I was on _Saturday Night Live_ , anything with
+black people on the show had to deal with race, and that sketch we did didn't
+have anything to do with race. That was the beauty: The sketch is funny
+because it's funny, and that's the progress. And there are black guys who are
+making it: Whatever Kevin Hart wants to do right now, he can do; I think
+Chiwetel is a really respected actor who is getting a lot of great shots just
+because he's really good; if Steve McQueen wants to direct a Marvel movie,
+they would salivate to get him. Change just takes time. The Triborough Bridge
+has been the Robert F. Kennedy Bridge for almost 20 years now, but we still
+call it the Triborough Bridge. That's how long it takes shit to change. We're
+not going to be calling it the Robert F. Kennedy Bridge for another 10, 15
+years. People will have to die for it actually to be the Robert F. Kennedy
+Bridge.
+
+I don't think the world expected things to change overnight because Obama got
+elected president. Of course it's changed, though, it's just changed with
+kids. And when you're a kid, you're not thinking of any of this shit. Black
+kids watch _The Lord of the Rings_ and they want to be the Lord of the Rings.
+I remember when they were doing _Starsky & Hutch_, and my manager was like,
+"We might be able to get you the part of Huggy Bear," which eventually went to
+Snoop Dogg. I was like: "Do you understand that when my brother and I watched
+_Starsky & Hutch_ growing up, I would play Starsky and he would play Hutch? I
+don't want to play f—ing Huggy Bear. This is not a historical drama. This is
+not Thomas Jefferson. It's a movie based on a shitty TV show, it can be
+anybody. Who cares. If they want me to play Starsky or Hutch, or even the bad
+guy, I'm down. But Huggy Bear?"
+
+I wouldn't be here if I thought I couldn't play those parts. I never limited
+myself. And that's the beauty of Obama. It might be a generational thing,
+because the difference between Barack Obama and Jesse Jackson was that Jesse
+Jackson never actually ran for president. He ran to disrupt the presidency. If
+he actually ran for president, he probably could have been president. Jesse
+Jackson won a bunch of primaries in Southern states, but not for five seconds
+did he think he could be president, whereas Obama was like, "Yeah, I could be
+president," and nobody stopped him. Literally, nobody stopped him.
+
+![](/web/20210423154523im_/https://www.hollywoodreporter.com/sites/default/files/custom/43cover_lores.jpg.jpg)
+
+_This story first appeared in the Dec. 12, 2014 issue of The Hollywood
+Reporter magazine._

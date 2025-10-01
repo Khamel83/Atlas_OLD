@@ -1,0 +1,190 @@
+# Defying Logic, the Chicago Bulls Are Getting It Done: Adam Mares' NBA Wraparound | VICE Sports
+
+**Source**: https://sports.vice.com/en_us/article/defying-logic-the-chicago-bulls-are-getting-it-done-adam-mares-nba-wraparound
+**Type**: article
+**Created**: 2025-08-13T17:43:05.415043
+
+---
+
+title: Defying Logic, the Chicago Bulls Are Getting It Done: Adam Mares' NBA Wraparound | VICE Sports
+source: https://sports.vice.com/en_us/article/defying-logic-the-chicago-bulls-are-getting-it-done-adam-mares-nba-wraparound
+date: 2025-08-13T17:42:55.722185
+tags: []
+---
+![](//web.archive.org/web/20161209232613im_/https://sports-
+images.vice.com/images/2016/12/08/kyrie-irving-isnt-a-prototypical-point-
+guard-and-thats-what-makes-him-great-body-
+image-1481217394.jpg?resize=1220:*&output-quality=75)
+
+The Chicago Bulls are a tough team to figure out. Statistically, they're
+slightly above average on both offense and defense, and have an equal number
+of impressive wins and embarrassing losses. They are loaded with stars, yet
+those pieces aren't exactly a perfect fit on either end of the court. They are
+Jimmy Butler's team, but Dwyane Wade is now their leader.
+
+In other words, there's a lot going on in Chicago, which is part of what makes
+the Bulls interesting. The other part? The team has some of the toughest, most
+confident players in the NBA. On paper, they could pose the biggest threat to
+LeBron James and the defending champion Cleveland Cavaliers in a seven-game
+Eastern Conference playoff series.
+
+**[Read More: Kyrie Irving Isn't a Prototypical Point Guard, and That's What
+Makes Him
+Great](http://web.archive.org/web/20161209232613/https://sports.vice.com/en_us/article/kyrie-
+irving-isnt-a-prototypical-point-guard-and-thats-what-makes-him-great)**
+
+To get there, of course, Chicago will have to figure a lot of things out.
+Let's take a closer look to see what's working for the Bulls, and what needs
+to work better.
+
+## Offensive Rebounding and Transition
+
+It's very difficult for teams to be great at both offensive rebounding and
+transition defense. When you crash the offensive glass, there's an inherent
+trade-off: more guys pursuing a rebound means fewer guys are in position to
+get back on defense. This is especially true for teams that use their guards
+and wings to crash, since those players are often charged with stopping the
+ball in transition.
+
+The Bulls defy this logic. They lead the league in offensive rebound
+percentage and are second in the league in second chance points, yet allow the
+sixth fewest opponent fast break points per game. No other team is in the top
+six in both categories, and only the Miami Heat and the Oklahoma City Thunder
+are in the top ten. Chicago scores roughly three more points per 100
+possessions off the offensive glass than league average.
+
+Why does that matter? With the Bulls' offensive rating (ORTG) of 104.8âjust
+1.4 points per 100 possessions above league averageâthose three points are
+the difference between Chicago having the NBA's 11th best offense and the 20th
+best offense.
+
+The Bulls have two solid interior rebounders in Taj Gibson and Robin Lopez,
+but it's the rebounding of their wing players that makes them special. In the
+clip below, watch how the Bulls send four guys to the offensive glass as soon
+as the shot goes up. Gibson and Wade don't hesitate to rush toward prime
+rebounding location on the blocks, while Lopez and Rajon Rondo occupy the
+paint.
+
+VIDEO
+
+The Bulls crash the glass like this for 48 minutes per game, and while they
+have been beaten badly in transition on certain nights, for the most part
+they've been able to make that trade-off work in their favor.
+
+## No Easy Buckets
+
+The reason Chicago needs those second chances is simple: the Bulls' half-court
+offense has a really hard time generating easy scores because the team often
+goes without shooters who can open up the court.
+
+The Bulls are last in "wide open" three-point field goal attempts and third to
+last in "open" three-point field goal attempts, according to
+[NBA.com](http://web.archive.org/web/20161209232613/http://nba.com/). Their
+starting lineup has played more than 250 minutes together so far this
+seasonâthe ninth most minutes of any five-man combination in the NBAâyet
+doesn't feature a single elite three-point shooter. Gibson and Lopez have made
+only one three-pointer between the two of them in their entire careers, and
+Rondo has made ten total three-pointers so far this season. Even Butler and
+Wade are merely average three-point shooters, and they don't rely on the
+three-point shot very often.
+
+Without reliable threats surrounding the perimeter, Chicago is forced to
+relentlessly attack the paint, often against a second line of defense that is
+waiting for them at the rim. In the clips below, watch how far all five
+defenders sink into the paint before the Bulls even begin their attack.
+Stagnant offensive possessions and a shortage of floor spacers allow defenders
+to over-rotate, walling off the painted area.
+
+VIDEO
+
+## Hero(es) Ball
+
+The Bulls are 24th in assists per game, 25th in potential assists per game,
+and 26th in points created off of assists per game. Between tepid shooting and
+mediocre sharing, you'd expect Chicago's offense to be much, much worse.
+However, the Bulls are above average, thanks in large part to the heroics of
+Butler and Wade.
+
+Butler in particular is having a monster year, averaging career highs in
+points, rebounds, three-point percentage, two-point percentage, and free-throw
+attempts per game. Chicago isn't doing anything fancy to get him buckets,
+either. Most of the Bulls' offense comes from simple, relatively stagnant play
+designs that give Butler several opportunities to attack on each possession.
+
+In the clip below, watch how Butler and Wade probe the defense for scoring
+opportunities. It's almost as if they just drive and reset until they can find
+an opening, forcing the opponent to defend those drives over and over again.
+
+VIDEO
+
+The numbers reflect what you're seeing above. Wade currently is ranked in the
+NBA's top ten in points per possession off of isolations; Butler sits in the
+top 20. Butler also scores eight points per game off drives, the fifth most in
+the NBA, while only tuning it over on three percent of his driving
+attemptsâthe eighth lowest turnover rate for players who average at least
+five drives per game. This is key. Butler attacks the basket on nearly every
+possession, scores efficiently off of those drives, and doesn't turn the ball
+over. All of that allows him to put pressure on defenders from tip-off to
+buzzer.
+
+When drives to the basket fail to produce points, the Bulls rely on Wade and
+Butler to make tough, contested shots. And it's working! As a team, the Bulls
+have attempted the fifth most shots with a defender 0-2 feet away from the
+shooter, and have the sixth best effective field goal percentage on those
+shots. Moreover, Wade and Butler are in the top 11 in "contested" field goals
+made this season, which means they are frequently bailing out otherwise bad
+offensive possessions.
+
+## Transition Offense
+
+Even with the impressive half-court play of Butler and Wade, the Bulls rank
+22nd in ORTG on possessions following a made basket. In transition, however,
+they're much better: sixth in the NBA in points per 100 possessions following
+a defensive rebound, and fifth following a turnover. Wade and Butler are each
+ranked in the top 25 in both steals per game and fast-break points per game.
+
+In that regard, the duo is reminiscent of LeBron James and Wade in Miami,
+feasting off of ball pressure and turning steals into fast breaks. Just look
+at the fast break below. It's straight out of the Heatles playbook.
+
+VIDEO
+
+## The Others  
+
+Butler and Wade wouldn't be effective playing this way without Chicago's
+supporting cast, especially Gibson and Lopez. Those two provide the safety net
+for Wade's constant gambling on the perimeter. Lopez is a very good positional
+defender, rarely misreading when to drop into rim protection and when to step
+out and contest a mid-range jump shot. Gibson is a solid post defender who can
+also switch out on to guards in a pinch. In the clip below, watch how smoothly
+he defends both D.J. Augustine and Reggie Jackson.
+
+VIDEO
+
+Shooters Nikola Mirotic and Doug McDermott make for an interesting combination
+alongside Wade, Butler, and Gibson, since they provide a lot of extra spacing.
+Butler and McDermott have been deadlyâthe Bulls have a scorching 124.6 ORTG
+in their 132 minutes togetherâand when you add Mirotic to the mix, that
+number becomes 130.8. It's enough to wonder what Butler would be doing on a
+better shooting team. His already absurdly efficient scoring numbers might be
+even more impressive on a roster like Portland's, where there are spot-up
+threats all around the arc. Expect the Bulls to give Mirotic and McDermott
+more minutes going forward, particularly as they try to mix and match Butler
+and Wade with their second units.
+
+The Bulls are far from perfect, and their offense is far from exciting most
+nights. Teams that slow them down and force a half-court game can make things
+ugly, but Chicago has a lot of above-average talent who can bear down on
+defense and win slugfests. That's what makes them an interesting postseason
+contenderâthey have players who can hit tough shots and make offenses work
+on the other end of the court, and enough confidence to honestly think they
+can beat anybody.
+
+The Bulls are probably a few pieces away from being a serious threat to make
+the NBA Finals, but they're already a major threat to conference rivals like
+Toronto and Boston. A little bit of luck might be all that Chicago needs to
+meet Cleveland in the Eastern Conference Finals.
+
+_Want to read more stories like this from VICE
+Sports?[Subscribe](http://web.archive.org/web/20161209232613/https://confirmsubscription.com/h/i/1035B041208249BB)
+to our daily newsletter._

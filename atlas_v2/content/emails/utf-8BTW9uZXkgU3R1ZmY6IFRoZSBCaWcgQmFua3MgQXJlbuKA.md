@@ -1,0 +1,308 @@
+# =?utf-8?B?TW9uZXkgU3R1ZmY6IFRoZSBCaWcgQmFua3MgQXJlbuKAmXQgU3RyZXNzZWQ=?=
+
+**Source**: inputs/saved_emails/=utf-8BTW9uZXkgU3R1ZmY6IFRoZSBCaWcgQmFua3MgQXJlbuKAmXQgU3RyZXNzZWQ==_Thu,_29_Jun_2023_14-37-11_-0400_(EDT)_1890872048852ffa.eml
+**Type**: email
+**Created**: 2025-08-25T02:53:56.907774
+
+---
+
+Programming note: Money Stuff will be off tomorrow, back on Monday.If you are a risk manager at a big bank, you might want to run some stres
+      
+    
+  
+  
+    
+      
+        
+          
+          
+        
+        
+          
+            
+          
+        
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          Programming note: Money Stuff will be off tomorrow, back on Monday.
+
+  
+    
+      Stress tests
+    
+  
+
+If you are a risk manager at a big bank, you might want to run some stress tests examining how your bank will perform under stressful scenarios. If you are creative and good at your job, you will have fun thinking up the scenarios. You will get in a room with some of your subordinates, and ideally with some front-line traders and managers, and brainstorm bad stuff that might happen.
+Your brainstorming might include some history: “What if 2008 happens again?” “What if 1929 happens again?” “What if  LTCM happens again?” It might include some simple numerical questions: “What if the S&P falls by 20%?” “What if the Fed raises rates to 7%?” “What if the Fed lowers rates to 0%?” You might think about social and geopolitical and technological questions and try to translate them into economic scenarios: “What if nobody goes back to the office and office rents fall 50%?” “What if artificial intelligence causes mass unemployment?” “What if Russia’s war in Ukraine keeps pushing up oil prices?” You might think about scenarios specific to your bank’s operations: “What if our CEO gets run over by a bus?” “What if our CEO steals the corporate treasury?”
+Have fun, go nuts, be creative. Think of lots of scenarios. Then model how those scenarios will translate into market prices, how they will affect your funding costs and the cash flows from your assets. Then model how much capital and liquidity you will have in each scenario. Part of the goal here is to make sure that you will have plenty of capital and liquidity in a wide range of stressful scenarios. Part of the goal is to figure out which scenarios will be worse for you, so you can know what to worry about and hedge: If your model tells you that you’ll be fine if the Fed raises rates and bankrupt if it lowers rates, maybe you should do something about that. 
+If there is some specific event that you are worried about — some new worry that crops up — you might sit down and design a stress test for that event to make sure that you’d survive it. But your overall approach to stress testing will be something like “let’s constantly think of new things to worry about, and test for those.” It will not be “let me think of the one biggest thing to worry about, and test only for that.” Lots of things can go wrong in different directions! If you only worry about one thing, you will miss the other things.
+Also separately the Federal Reserve conducts annual stress tests for big US banks, but those are … different. The Fed’s stress tests were created after the 2008 crisis, basically to shore up confidence in the banks so that they could raise capital. The Fed is in the business of supervising big banks, and as part of that business it prods the banks to consider various risks, to prepare for different scenarios, to build a robust culture of stress testing and risk management. But the Fed’s official stress tests are a public exercise designed to make sure — and tell everyone — that the banking system could survive another 2008. 
+And so each year the Fed sits down and thinks something like “what is the most plausible way for 2008 to happen this year,” and then it writes one stress-test scenario
+  [1]
+ that is basically “there’s a recession and real estate prices collapse,” and the banks run their models to see how much money they would lose in that scenario, and generally the answer is “a certain amount, but not enough to leave us undercapitalized,” and the banks pass the stress tests. 
+This became  slightly awkward in 2020 when the stress-test scenario involved the US unemployment rate peaking at 10%, while the actual stress of Covid-19 caused unemployment to peak at 14.7%. If you ask questions like “can banks survive another 2008,” you will not quite get an answer to the question “can banks survive a global pandemic?” The answer to that question, however, turned out to be yes: For a combination of reasons (supportive government policy and Fed lending, but also profiting on volatility), the big banks did pretty well in Covid.
+It also became slightly awkward this year when the Fed released its stress-test scenario in February, and it went like this:
+
+The severely adverse scenario is characterized by a severe global recession accompanied by a period of heightened stress in both commercial and residential real estate markets, as well as in corporate debt markets. The U.S. unemployment rate rises nearly 6½ percentage points from the starting point of the scenario in the fourth quarter of 2022 to its peak of 10 percent in the third quarter of 2024. The sharp decline in economic activity is also accompanied by an increase in market volatility, widening corporate bond spreads, and a collapse in asset prices, including a 38 percent decline in house prices and a 40 percent decline in commercial real estate prices. …
+The rising unemployment rate and the rapid decline in aggregate demand for goods and services significantly reduce inflationary pressures. …
+Short-term interest rates, as measured by the 3-month Treasury rate, fall significantly to near zero by the third quarter of 2023 and remain there for the remainder of the scenario. Long-term interest rates, as measured by the 10-year Treasury yield, fall by nearly 3¼ percentage points by the second quarter of 2023, and then gradually rise in late 2023 to about 1½ percent by the end of the scenario.
+
+Fine, right, recession, real-estate collapse, corporate credit blows out, rates go to zero, the 2008 of 2023. But then in March a   couple of US banks   failed, and many others   came under a lot of stress, for exactly the opposite reason: Inflation was persistently high, interest rates went up, and those banks had to pay more on deposits even as their holdings of Treasury bonds lost value. Silicon Valley Bank was not subject to the Fed’s stress tests, as a mid-sized bank, but if it had been it would have done great! It did not do great in real life.
+Anyway yesterday the 23 big banks subject to the stress tests   all passed. Here are the Fed’s  press release and the full results. One of the banks that passed is the US arm of Credit Suisse Group AG, which survived the Fed’s hypothetical stress scenario just fine but which   vanished due to the stress of real life. From the Fed’s press release:
+"Today's results confirm that the banking system remains strong and resilient," Vice Chair for Supervision Michael S. Barr said. "At the same time, this stress test is only one way to measure that strength. We should remain humble about how risks can arise and continue our work to ensure that banks are resilient to a range of economic scenarios, market shocks, and other stresses."
+Yes.
+Now, this year’s stress test did include another scenario for the eight biggest banks, which (1) is different from the regular stress test and (2) is closer to what actually happened:
+
+In February 2023, for the first time, the Federal Reserve published an additional, exploratory market shock component that applied only to U.S. G-SIBs. The purpose of the stress test is to understand a firm’s  resilience to a range of severe but plausible events, and the exploratory component furthers that purpose by posing a different set of risks than is probed by this year’s global market shock component.
+In contrast to this year’s global market shock component, which was characterized by a severe recession  with fading inflation expectations, the exploratory market shock is characterized by a less severe recession with greater inflationary pressures induced by higher inflation expectations, increases in interest rates, an appreciation of the U.S. dollar, and increases in commodity prices.
+
+This scenario doesn’t count for bank capital requirements — “Consistent with the nature of an exploratory exercise, the exploratory market shock will not contribute to the capital requirements set by this year’s stress test” — but it is intellectually interesting. Broadly speaking the big banks did a little better in this scenario than in the severe-recession scenario. 
+But also, in real life, the big banks did fine in the scenario that actually happened (except Credit Suisse!): The problems at US regional banks seem to have driven deposits into the biggest banks, as depositors got nervous about small banks and fled to the safety of big banks. (Look how safe they are, they keep passing the stress tests.) The actual world of 2023 was different from the hypothetical world of the stress tests, and in some ways more stressful for the US banking system, but it  worked out fine for the biggest banks. 
+A general feature of the Fed’s stress tests is that, when the Fed serves up a “severely adverse” stress scenario to the banks, the banks go off and model the effect it would have on their business, and if they come back to the Fed and say “actually this would be good for us,” the Fed gets mad at them. You’re not supposed to say that! Goldman Sachs Group notably did this in 2020, arguing that its trading business was countercyclical, and that in a stressful scenario it would simply make a ton of money trading derivatives;   the Fed was not amused. But sometimes it is true! Some hypothetical scenarios would be very bad for the big banks, other hypothetical scenarios would be good for the big banks, and it’s perfectly plausible that some scenarios would be bad — for the world, for the economy, for the banking system — while also being good for the big banks. The way to manage this risk is to think about lots of scenarios and make sure the banks would survive all of them. 
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      Hot vs. cold money
+    
+  
+
+See this is how banking is supposed to work:
+
+Bank of America is bearing the cost of decisions made three years ago to pump the majority of $670bn in pandemic-era deposit inflows into debt markets at a time when bonds traded at historically high prices and low yields.
+The moves left BofA, the second-largest US bank by assets, with more than $100bn in paper losses at the end of the first quarter, according to data from the Federal Deposit Insurance Corporation. The sum far exceeds unrealised bond market losses reported by its largest peers.
+The differing results reflect strategies undertaken early in the Covid-19 pandemic, when banks absorbed a flood of deposits from savers. BofA put more money into bonds, while others parked a greater share in cash.
+Now that yields have risen and bond prices have fallen, the value of BofA’s portfolio has plunged. By contrast, JPMorgan Chase and Wells Fargo — the nation’s first and third-largest banks, respectively — each had about $40bn in unrealised bond market losses, while fourth-largest Citigroup’s paper losses were $25bn. …
+BofA has said it has no plans to sell the underwater bonds, avoiding crystallised losses that for now exist only on paper. The bank’s portfolio consists of highly rated government-backed securities that are likely to eventually be paid back when the underlying loans mature.
+But holding on to the relatively low-yielding investments, many of which are backed by 30-year home loans, at a time when newly purchased bonds yield significantly more, could limit the income that BofA can generate from its customer deposits.
+“I think the jury is still out,” said Jason Goldberg, a bank analyst at Barclays, of BofA’s bond portfolio. “When rates were low they were making more money then rivals. Fast-forward to today and they are making less.”
+
+The headline on that story is “Bank of America nurses $100bn paper loss after big bet in bond market,” but it’s … kind of … fine? The key words are “they are making less.” When interest rates were near 0%, Bank of America paid about 0.5% on deposits and earned about 2.5% on its portfolio of long-term Treasury bonds, a spread of about 2 percentage points. Now that interest rates are above 5%, Bank of America pays about 1.4% on deposits and earns about 2.6% on its portfolio of long-term Treasury bonds, a spread of about 1.2 percentage points.
+  [2]
+ Obviously you would rather earn 2 points than 1.2 points; 2 is more than 1.2.
+But earning 1.2 points is better than earning, say, nothing, or a negative amount. Bank of America invested a lot of money in fixed-rate Treasury bonds starting in 2020, and as interest rates went up it has not earned any more money on those Treasuries (because they have fixed rates). But in 2020 it was using cheap deposits to fund those Treasuries, and as interest rates went up it has not had to pay much more money for those deposits. Short-term interest rates have gone up by about 5 percentage points; Bank of America’s deposit rates have gone up by about 0.9 percentage points; its income from its Treasury portfolio has gone up almost not at all, so its margins are tighter. 
+It could be worse! Bloomberg’s Jennifer Surane, Linly Lin and Mathieu Benhamou report:
+
+US banks have found a way to replace some of the hundreds of billions of dollars in deposits that flooded out their doors early this year. But it's expensive, and not particularly sticky.
+To shore up their books after a flurry of withdrawals by customers, midsize banks across the US have turned to a patchwork of other sources that demand significantly higher interest, typically around 5% or more. Regional banks borrowed billions more from the Federal Reserve, Federal Home Loan Bank system and — to an eye-popping degree — leaned on brokered deposits cobbled together by little-known intermediaries.
+An analysis of quarterly regulatory filings for the 84 biggest banks — commanding more than 80% of the industry’s assets — shows not only how much they were borrowing through those channels at the end of March, but also the toll that it was just starting to take on some of their earnings. Those rising costs threaten to turn the most strained banks upside down: leaving them paying more to amass the cash they need than they earn by lending it out.
+
+I would not worry so much about the stickiness there. A bank’s funding from the Fed or the FHLBs is reasonably sticky, in the sense that the Fed and FHLBs seem unlikely to pull funding from a bank unless, you know, they want the bank to fail.
+But the rates are the rates, and they move with the market. If you are just borrowing money at short-term market rates, well, the rate is about 5%. If you are a US regional bank, you are doing a lot of that. If you are a US regional bank that got a flood of deposits in around 2020 and invested all the money in long-term fixed-rate Treasuries, and then your deposits fled and you had to start borrowing money at short-term market rates, well, you are Silicon Valley Bank, or First Republic, and you have disappeared. But if you are a US megabank and you did that, you’re fine, because your cost of deposits is still pretty low. Bank of America’s realized “deposit beta” — the sensitivity of its deposit rates to the Fed’s interest rates — is something like 0.2.
+  [3]
+ At some regional banks it was more like 1. If the cost of your funding goes from 0% to 5%, and the yield on your bonds goes from 2.5% to 2.5%, you go from making 2.5% every year to losing 2.5% every year, and that’s bad.
+We have   talked a   lot about two theories of banking. The traditional theory is that banks have long-term deposit franchises, and when short-term interest rates rise that has only a minor effect on the banks’ funding costs. Therefore, the banks can and should use their deposits to buy long-term loans and bonds with long duration, because they can hold those bonds to maturity. If rates go up, the banks will have mark-to-market losses on their bonds, but that doesn’t matter: They will, in some approximate but economically meaningful sense, have offsetting gains on their deposit franchise. They have cheap long-term funding, which allows them to hold long-term bonds to maturity, so the mark-to-market losses don’t matter. 
+The other theory is that banks have short-term deposits that can vanish overnight, and that they have to pay short-term market rates for that deposit funding. If they use that funding to buy long-term bonds, and then rates go up, they will earn less on their bonds than they pay on their deposits, and will have to sell the bonds at a loss, and might face a bank run and insolvency.
+The traditional theory is basically true of the big banks. Bank of America has a $100 billion loss on its bond portfolio and doesn’t care. The other theory is basically true of the regional banks. They’re borrowing hot money at 5% and it’s a mess.
+
+  
+    
+      DWAC
+    
+  
+
+In October 2021, a special-purpose acquisition company called Digital World Acquisition Corp. announced that it was going to merge with Trump Media & Technology Group, a company backed by Donald Trump that would soon be launching a social network called TRUTH Social.   I was skeptical at the time, because I figured (1) Donald Trump would probably not be launching a social network? but (2) doing this sort of SPAC deal was a good way for him to raise some money from enthusiastic retail investors. I have to say, I seem to have been wrong on both counts: TRUTH Social, as far as I can tell, exists, while almost two years later Trump has not gotten that SPAC money, as the US Securities and Exchange Commission   has held up the merger for, like, suspected miscellaneous illegality.
+One sort of suspected miscellaneous illegality is that there seems to have been some insider trading around the announcement of the deal. Here is the rough sequence of events:
+	The DWAC people and the Trump people talked about doing a SPAC to take TMTG public.	The DWAC people launched DWAC and sold shares to the public at $10 per share.	DWAC and TMTG announced the deal, and the DWAC shares soared to $94.20 on retail enthusiasm for Donald Trump.
+
+If you were involved in the negotiations, you could have bought stock at $10 between Step 2 and Step 3 and made a quick 800% profit. Today the  US Securities and Exchange Commission and  federal prosecutors brought a case against some DWAC insiders:
+
+The Securities and Exchange Commission today filed insider trading charges against Bruce Garelick, a former board member of Digital World Acquisition Corporation (DWAC), a special purpose acquisition company (SPAC); Michael Shvartsman and his firm Rocket One Capital LLC; and Gerald Shvartsman for trading in advance of DWAC’s October 2021 announcement that it had reached an agreement to acquire Trump Media & Technology Group Corp. (TMTG).
+The SEC’s complaint alleges that, after DWAC appointed Garelick as a member of its board of directors in September 2021, Garelick learned about, and voted on, material nonpublic actions and updates regarding the negotiations between DWAC and its merger target, TMTG. Garelick, who was separately employed as the chief strategy officer at Rocket One Capital, then allegedly shared those updates with his boss, Michael Shvartsman, who in turn shared them with his brother, Gerald Shvartsman. Each then allegedly purchased DWAC securities on the open market based on the material nonpublic information they learned about DWAC. Michael Shvartsman placed his trades through an account in the name of Rocket One Capital. The defendants then sold their positions shortly after DWAC announced it had signed a merger agreement with TMTG and collectively realized illicit profits of more than $22.9 million from those trades. The complaint further alleges that, despite being a DWAC director and thus having certain reporting obligations, Garelick failed to file SEC Forms 4 and 5 related to his transactions in DWAC securities.
+
+Fine, right. I have trouble thinking of anything less surprising than “people involved in the Donald Trump SPAC (allegedly) did some insider trading,” but there you go.
+The more interesting question — the one that seems to be holding up the closing of the DWAC/TMTG deal — is whether DWAC lied to investors when it went public by not disclosing its plans for TMTG. A SPAC is meant to be a blank-check company, a way to raise a pot of money to look for an acquisition target; if you’ve already got the acquisition target lined up, you can’t use the SPAC format. (If you’ve already got the acquisition lined up, the theory goes, you should give potential investors financial and business disclosure about the target, instead of just raising a blank check.) And so when it went public in September 2021,  DWAC said, as is normal in SPACs, that “We have not selected any specific business combination target and we have not, nor has anyone on our behalf, initiated any substantive discussions, directly or indirectly, with any business combination target.”
+But it announced its Trump deal six weeks later, and there have  long been reports that the deal had already been negotiated when DWAC went public. If this is true, then DWAC lied to investors, and the SEC has more grounds to block the merger. (My view is that this is kind of silly in this case: Investors weren’t harmed by the lies, since after all they were thrilled when the Trump deal was announced and the stock traded up. But in general the rule makes sense: If you want to raise money from investors to take a particular company public, you should tell investors about the company rather than keeping it secret.)
+Today’s insider trading case gives some insight into the SEC’s view on this question. Patrick Orlando, DWAC’s founding chief executive officer (referred to as “Individual A” in  the SEC complaint), was involved in another SPAC (“SPAC A” in the complaint) and was talking to TMTG about a deal by early 2021. But:
+
+In early April 2021, two directors and one officer of SPAC A opposed pursuing a merger with TMTG. At that point, Individual A began exploring two plans to pursue a merger with TMTG, “Plan A” and “Plan B.” “Plan A” referred to continued efforts to find a way for SPAC A to merge with TMTG. “Plan B” referred to Individual A’s attempt to identify a different SPAC to pursue a merger with TMTG. …
+On June 4, 2021, SPAC A, TMTG, and Individual A (in both his personal capacity and on behalf of SPAC A) signed a letter expressing intent to pursue a merger between SPAC A and TMTG. This June 4 letter of intent included a clause under which Individual A would be personally liable to pay a $1 million break-up fee if SPAC A and TMTG did not enter an acquisition agreement by August 6, 2021 (the “Break-Up Fee Clause”). The Break-Up Fee Clause had several conditions that would result in Individual A owing no break-up fee. Under one of these conditions, Individual A would owe no break-up fee if he “should propose to [TMTG] an alternative special purpose acquisition corporation with combination terms that are acceptable to [TMTG] (in its sole and absolute discretion) and such terms are ultimately accepted by [TMTG].” 
+
+So Orlando signed a deal to take TMTG public through SPAC A that would obligate him personally to pay $1 million if he didn’t either complete that deal or take TMTG public through a different SPAC deal. The SPAC A deal didn’t work out, but then Orlando launched a new SPAC (DWAC) and used it to almost immediately sign a deal to take TMTG public, solving his breakup-fee problem. Is that consistent with “we have not, nor has anyone on our behalf, initiated any substantive discussions, directly or indirectly, with any business combination target”? I bet the SEC thinks not.
+
+  
+    
+      Je téléphone à la police
+    
+  
+
+Does  this warrant a new law of insider trading? 
+
+The Securities and Exchange Commission today filed insider trading charges against five individuals, including a police chief in Dighton, Massachusetts, arising from trading before the announcement of a tender offer by Alexion Pharmaceuticals Inc. to acquire Portola Pharmaceuticals Inc. in May 2020. Four of the defendants traded on nonpublic information obtained, directly or indirectly, from the fifth defendant, and realized more than $2.3 million in ill-gotten gains and tipped others who realized more than $1.7 million in trading profits. 
+According to the SEC’s complaint, Joseph Dupont was a vice president and part of the acquisition team at Alexion when he knowingly or recklessly tipped confidential information about the acquisition to his close friend Shawn Cronin, the police chief. Cronin allegedly then provided the information to Jarett Mendoza, another close friend, and to family friend Stanley Kaplan, who provided advice to Cronin on trading strategies. In turn, Kaplan allegedly provided the information to his friend and colleague, Paul Feldman. The SEC’s complaint alleges that Cronin, Mendoza, Kaplan, and Feldman purchased Portola stock and/or out-of-the money call options prior to the announcement, on the basis of the material, nonpublic information they received. The complaint further alleges that Kaplan and Feldman passed the information on to other family members and friends, who profitably traded. On the day of the acquisition announcement, Portola’s stock price increased more than 130 percent.
+According to the SEC’s complaint, filed in U.S. District Court for the Southern District of New York, the defendants’ approximate ill-gotten gains were as follows: Cronin - $72,000; Mendoza - $39,000, Kaplan - $472,000; and Feldman - $1.73 million. The other traders who allegedly received nonpublic information from either Kaplan or Feldman saw profits of an additional $1.7 million. After realizing their profits, Kaplan texted Feldman in Russian, “Let’s hope our golden goose will continue laying golden eggs!”
+
+I dunno, sure, whatever:   The Fifteenth Law of Insider Trading is “do not insider trade if you’re a police chief.” Just sort of poor form.
+The interesting question in cases like this is often: Did the insider (Dupont) intend to tip his buddies so they could trade and make money, or did he just confide in them about work and they betrayed him by trading?
+  [4]
+ There is no allegation here that Dupont made any money — nobody handed him bags of cash for his tips — but  there is this:
+
+On April 8, 2020, Dupont participated in a commercial due diligence call with high level leadership from the companies, including both Alexion’s and Portola’s CFO.
+The same evening, Cronin and Dupont spoke on the phone for approximately 20 minutes.
+Later that evening, at 7:49 p.m., Cronin texted Kaplan: “Good evening, sir. If you need something to take your mind off of the everyday battle, remember that stock I told you about? Good time to buy.”
+
+Not ideal. Also we talk a lot about people who insider trade on merger news by buying short-dated out-of-the-money call options, but here’s a new one to me:
+
+On April 23, 2020, at around 3:26 p.m., Feldman texted Kaplan: “I just bought another PTLA bull spread.” He attached a screenshot of his transaction, such that Kaplan could see Feldman’s options transaction in Portola.
+A bull spread or bull call spread is an options transaction that involves buying call options with a lower strike price and selling call options with the same expiration but a higher strike price. The transaction is profitable when the stock has a limited increase in its price, and is cheaper than purchasing only the lower strike price option. 
+
+If a company’s stock is trading at $7, and you know that another company is about to buy it at $18 per share, buying $10-strike call options is a more efficient way to profit than just buying the stock at $7: You pay a little bit for the call option, instead of $7 for the stock, and still get most of the upside. But buying $10-strike call options and selling $18-strike call options is an even more efficient way to profit: You spend even less money up front, and you capture the same amount of upside. It is very tidy and high-leverage and efficient. Too efficient! They’re gonna notice that.
+
+  
+    
+      Things happen
+    
+  
+
+Citadel Securities Is Muscling Its Way Into   Credit Trading. Tiger Global Rejects   Hundreds of Offers for Its Stakes in Private Companies. Goldman Sachs   Loses Top M&A Ranking for First Time in Five Years.  FTX Begins Talks on Reboot Amid Regulatory Crackdown on Crypto Exchanges.  Big Oil Mulls a Slippery Future. Odey   Shutters Second Fund to Meet Client Redemption Demands. Women Interviewing for  Bill Gates’s Private Office Were Asked Sexually Explicit Questions. Popularity of   Apps for Early Paydays Masks Added Risks. Overstock.com Buys  Bed Bath & Beyond Intellectual Property for $21.5 Million. Fidelity Plans to Convert $13 Billion of Its Mutual Funds   Into ETFs. A   Bank-Robbing Prison Gang Is in an Alarming Expansion Mode. “Wearing a Mets cap and seated on a bar stool with a seat shaped like a baseball mitt,  Cohen treated his media appearance as if it were a conversation with fans.” Italian teacher sacked for  20 years of absence vows to defend herself.
+If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
+        
+  [1] Technically it thinks up two scenarios, the baseline scenario and the severely adverse scenario, but they differ mostly in degree, so if you are worried about stress testing you will focus mainly on the severely adverse one rather than the similar-but-milder baseline one.
+
+
+  [2] Don’t take those numbers too seriously, but they are based on Bank of America’s 10-Qs as of March 2023 (the most recent one) and March 2020 (early in Covid). Table 6 on page 8 of the 2023 10-Q, and Table 7 on page 9 of the 2020 10-Q, have the relevant balances and rates. In 2020, Bank of America had about $1.6 trillion of interest-bearing liabilities at an average rate of just 1.01%, of which about $1 trillion was in interest-bearing deposits at an average rate of 0.47%. It had about $2.1 trillion in total earning assets at 3.08%, of which $465 billion was in debt securities at 2.49%. In 2023, Bank of America pays 2.93% on $2 trillion of interest-bearing liabilities, of which $1.3 trillion are interest-bearing deposits at 1.38%; it earns 4.36% on $2.7 trillion of earning assets, of which $851 billion are debt securities at 2.58%. 
+
+
+  [3] That’s just, like, (1.38 - 0.47)/(5 - 0), the change in Bank of America’s reported deposit cost over the last three years divided by the change in fed funds, and not meant to be particularly precise.
+
+
+  [4] The classic example is that there are two separate golf-buddy insider trading cases out of a single country club in Watertown, Mass.:   In one, an executive told his golf partner inside information “as part of a relationship” in which “they often shared personal confidences about work and family life,” and the golf partner betrayed the executive by trading on the information. The golf partner was charged but the executive was not. In   the other, the executive (allegedly) intentionally tipped his golf partner so he could trade, and they were both charged.
+
+
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+
+
+  
+    
+      
+        
+        
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj0n3h.5jdr/8223635f.gif" alt="" border="0" /></a>

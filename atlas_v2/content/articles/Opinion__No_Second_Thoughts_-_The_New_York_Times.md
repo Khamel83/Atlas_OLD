@@ -1,0 +1,107 @@
+# Opinion | No Second Thoughts - The New York Times
+
+**Source**: http://www.nytimes.com/2010/10/26/opinion/26brooks.html?_r=1&ref=homepage&src=me&pagewanted=print
+**Type**: article
+**Created**: 2025-08-13T21:55:00.288879
+
+---
+
+title: Opinion | No Second Thoughts - The New York Times
+source: http://www.nytimes.com/2010/10/26/opinion/26brooks.html?_r=1&ref=homepage&src=me&pagewanted=print
+date: 2025-08-13T21:54:54.209756
+tags: []
+---
+When times get tough, it’s really important to believe in yourself. This is
+something the Democrats have done splendidly this year. The polls have been
+terrible, and the party may be heading for a historic defeat, but Democrats
+have done a magnificent job of maintaining their own self-esteem. This is
+vital, because even if the public doesn’t approve of you, it is important to
+approve of yourself.
+
+In fact, I would go so far as to say that Democrats have become role models.
+They have offered us lessons on how we, too, may continue to love ourselves,
+even in trying circumstances.
+
+Lesson one. Think happy thoughts. Never allow yourself to dwell on downer,
+depressing ones.
+
+Over the past year, many Democrats have resolutely paid attention to those
+things that make them feel good, and they have carefully filtered out those
+negative things that make them feel sad.
+
+For example, Democrats and their media enablers have paid lavish attention to
+Christine O’Donnell and Carl Paladino, even though these two Republican
+candidates have almost no chance of winning. That’s because it feels so
+delicious to feel superior to opponents you consider to be feeble-minded
+wackos.
+
+On the other hand, Democrats and their enablers have paid no attention to
+Republicans like Rob Portman, Dan Coats, John Boozman and Roy Blunt, who are
+likely to actually get elected. It doesn’t feel good when your opponents are
+experienced people who simply have different points of view. The existence of
+these impressive opponents introduces tension into the chi of your self-
+esteem.
+
+Similarly, the Democrats and their enablers have paid lavish attention to the
+Tea Party this year. It’s nice to feel more sophisticated than those hordes of
+Middle Americans, who say silly things like “Get government off my Medicare.”
+
+On the other hand, Democrats have paid little attention to the crucial group
+in this election  the independent moderates who supported President Obama in
+2008 but flocked away during the health care summer of 2009 and now support
+the GOP by landslide proportions.
+
+Losing friends makes you sad. It is better to not think about why these things
+happen.
+
+Lesson two. Always remember, many great geniuses were unappreciated in their
+lifetimes.
+
+Democrats are lagging this year because the country appears incapable of
+appreciating the grandeur of their accomplishments. That’s because, as several
+commentators have argued over the past few weeks, many Americans are
+nearsighted and ill-informed. Or, as President Obama himself noted last week,
+they get scared, and when Americans get scared they stop listening to facts
+and reason. They get all these crazy ideas in their heads, like not wanting to
+re-elect Blanche Lincoln.
+
+The Democrats’ problem, as some senior officials have mentioned, is that they
+are so darn captivated by substance, it never occurs to them to look out for
+their own political self-interest. By they way, here’s a fun party game: Get a
+bottle of vodka and read Peter Baker’s article “The Education of President
+Obama” from The New York Times Magazine a few weeks ago. Take a shot every
+time a White House official is quoted blaming Republicans for the Democrats’
+political plight. You’ll be unconscious by page three.
+
+Lesson three. Always remember: You are the hero of your own children’s
+adventure story.
+
+Some low-minded people could look at events this year and tell a dull, prosaic
+story. They would say that parties that promote unpopular policies tend to get
+punished at election time, These grubby-minded people would point out that
+Democratic House members who voted against health care are doing well in their
+re-election bids, while those who voted for it are getting clobbered.
+
+But many Democrats have a loftier sensibility. They see this campaign as a
+poetic confrontation between good (themselves) and pure evil (Karl Rove and
+his group, American Crossroads).
+
+As Nancy Pelosi put it at a $50,000-a-couple fund-raiser, “Everything was
+going great and all of a sudden secret money from God knows where  because
+they won’t disclose it  is pouring in.”
+
+Even allowing the menace of secret money, embracing this Paradise Lost epic
+means obscuring a few inconvenient facts: that Democrats were happy to benefit
+from millions of anonymous dollars in 2006, 2008 and today; that the spending
+by Rove’s group amounts to less than 1 percent of the total money spent on
+campaigns this year; that Democrats retain an overall spending advantage.
+
+But legend rises above mere facticity, and this Lancelots-of-the-Left tale
+underlines a self-affirming message  that Democrats are engaged in a
+righteous crusade against the dark villain who tricked Americans into voting
+against John Kerry.
+
+In short, it’s hard not to be impressed by the spirit of self-approval that
+Democrats have managed to maintain this election. I say that knowing it may
+end as soon as next Wednesday, when, as is their wont, Democrats will flip
+from complete self-worship to complete self-laceration in the blink of an eye.

@@ -1,0 +1,56 @@
+# Intertwining Threads
+
+**Source**: inputs/saved_emails/Intertwining Threads_Mon,_18_Jul_2022_12-53-46_+0000_182116019812da4f.eml
+**Type**: email
+**Created**: 2025-08-25T02:53:58.439739
+
+---
+
+View this post on the web at https://www.notboring.co/p/intertwining-threads
+
+Welcome to the 1,800 newly Not Boring people who have joined us since last Monday! If you haven’t subscribed, join 139,616 smart, curious folks by subscribing here:
+🎧 The audio version is back! To listen to me read, head over to Spotify [https://substack.com/redirect/79e2e2be-a782-490a-9e81-82247cf556d6?u=16283549] or Apple Podcasts [https://substack.com/redirect/cccce848-4097-4740-ab9a-dc86df6f0107?u=16283549].
+Hi friends 👋, 
+Happy Monday! As sometimes happens, over the weekend, I got walloped with a case of Writer’s Block. I couldn’t figure out a topic. Normally, I’ll head into the weekend with at least a rough idea of what I want to write about, but this weekend: blankness. I stared at the computer screen. I turned to Twitter [https://substack.com/redirect/0dcbe455-cd8f-43fc-af17-5d3052958f22?u=16283549]. I looked at the whiteboard on which I write potential future ideas, and got bored by all of them. I started writing a piece on The Bear and the Hard Work War, and then I stopped, 1,266 words in. 
+What’s in the news right now that would make a compelling piece? Twitter? I’ve written about it enough, and Matt Levine is doing Hall of Fame work there [https://substack.com/redirect/b78caeec-860b-4add-8d6c-2b68dd3c2f8a?u=16283549]. The Fed? That’s been covered by much smarter people, no one knows what’s going to happen, and Arthur Hayes wrote this banger [https://substack.com/redirect/1cdba8c1-bda9-48b8-8fa9-a1dbc11ca4f0?u=16283549].
+Sometimes, you just don’t have it. Realizing that this was one of those times was freeing. Instead of trying to do a deep dive or a bunch of analysis, I decided to let my imagination run wild (and keep it brief). It’s summer, things are slow… let’s have a little fun. 
+Let’s get to it.
+Today’s Not Boring is brought to you by… Arrived [https://substack.com/redirect/26603eed-65fb-479c-9f69-b8f150bfd46c?u=16283549]
+The bulk of the time we spend managing our money is boring. Paying bills - boring. Filing your taxes - boring. Budgeting - boring.
+You know what isn’t boring? Building the foundation of your financial future using one of the most tried and true ways - investing in residential rental properties for the steady price appreciation and passive income the asset class offers. However, buying a rental property comes with high upfront costs and operational headaches like sourcing tenants and maintaining the property, which tend to push investors back to “easier” asset classes.
+That’s the problem Arrived [https://substack.com/redirect/26603eed-65fb-479c-9f69-b8f150bfd46c?u=16283549] set out to solve in 2019.
+With Arrived [https://substack.com/redirect/26603eed-65fb-479c-9f69-b8f150bfd46c?u=16283549], you can buy shares of individual rental homes that were handpicked by their in-house experts based on their long-term appreciation and income potential. They also take care of the operations and property management so you can kick back, relax, and watch your wealth grow - definitely not boring.
+Sign up is simple, minimums are flexible, and the portfolio diversification is *chef’s kiss*.
+Get started with Arrived [https://substack.com/redirect/26603eed-65fb-479c-9f69-b8f150bfd46c?u=16283549] today.
+Intertwining Threads [ https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvaW50ZXJ0d2luaW5nLXRocmVhZHM_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkNJNk5qUTFNelF5T1RZc0ltbGhkQ0k2TVRZMU9ERTBPRGd6Tnl3aWFYTnpJam9pY0hWaUxURXdNREkxSWl3aWMzVmlJam9pY0c5emRDMXlaV0ZqZEdsdmJpSjkua3ZzMXNYRU5qWVdvbThnSTRuVldzUFNjTi1uUm1VVzlWOTgzWXhXVHR6OCIsInAiOjY0NTM0Mjk2LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY1ODE0ODgzNywiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.VxhvEBiTb_iFdRmCAnZJy7aZDgxhkRGrOcuJuFj4NBc? ]
+(Click this 👆 to read the full thing in your browser)
+One of the things that makes the future so hard to predict is that new technologies don’t operate in silos; they’re intertwining threads that weave together in unpredictable ways. 
+Uber is a canonical weave: for anyone to be able to dial up a ride from their pocket, GPS, smartphones, payments, and online ratings systems needed to combine in ways that their respective inventors couldn’t have predicted. This conversation between Patrick O’Shaughnessy and Kenneth Stanley [https://substack.com/redirect/477be772-2ce5-4d03-998d-fddb03fe4389?u=16283549] is rich with examples of discrete innovations combining in ways that couldn’t be planned, like the invention of the vacuum tube unintentionally leading to the computer.
+As the individual technological threads each get wilder and more powerful than they were in previous generations – replace “vacuum tubes” with “AI” as an input, for example – I suspect that the remixed outputs will be even harder to predict.
+Even in sci-fi, where the job is to imagine fictional futures by extrapolating technological progress, most of the technology is fairly linear extrapolation: fusion-powered spaceships, AI robots, terraforming. I think we’ll have all of that at some point, but I also think we’ll have all sorts of crazy combinations that are harder to predict, and then we’ll have crazier combinations of those crazy combinations. 
+To show you what I mean, we’ll walk through some simple examples (with the caveat that these are just some of the ones I can dream up; the crowd will create things that make these look quaint).
+Over the weekend, I came across this thread: 
+When I first saw OpenAI [https://substack.com/redirect/bd520c05-abcc-4059-93d3-32190a20b35e?u=16283549]’s DALL•E 2 in the wild [https://substack.com/redirect/0f8d5498-cf34-4f4f-b51d-0ee93c3fcf4c?u=16283549] a few months ago, the first thing I thought was, “Woah.” The second thing I thought was, “It’s going to be really wild when this gets combined with other technology.” I started jotting down notes for an essay on combining technologies, then I abandoned it for a couple months until I saw Nicholas Ptacek’s tweet. 
+Nicholas’ experiment was one I’ve wanted to run: ask GPT-3 [https://substack.com/redirect/db90ed78-3a81-4494-a0ae-c1721a1bc35b?u=16283549] to write prompts for DALL•E 2. Ask the AI to ask the other AI to create something. 
+Using outputs from one OpenAI system as an input for another is an on-the-nose example of composability [https://substack.com/redirect/aa748776-c2c7-4d82-9ce7-d0bc882af257?u=16283549], combining one lego block with another, even manually, to create something new. It’s not hard to imagine that someone will automate this, so that I can type in a random idea, GPT-3 creates a bunch of DALL•E 2 prompts from it, and DALL•E 2 spins up images based on those prompts. 
+But that’s just the first and most obvious step here. Presumably, the models will continue to get better and be able to do more things. Ben Thompson wrote an excellent piece on this idea: DALL-E, the Metaverse, and Zero Marginal Content [https://substack.com/redirect/33135d75-bead-4d74-99ef-2d2364dd97c7?u=16283549].
+DALL•E 13 might be able to create short films from scripts generated by GPT-11.
+I’m sure that there are all sorts of things that make this many orders of magnitude harder than creating static images (which itself is very hard)…
+… and I’m equally sure that, at some point, it will be a reality. I’ll probably create and watch some of those short films myself; Dev certainly will; his kids will find them terribly old-fashioned.
+Zoom forward a little further. Imagine combining DALL•E 22, GPT-19, and Snap Spectacles 15 [https://substack.com/redirect/93114024-ac84-4fcf-a50f-dba90419e8dc?u=16283549]. Then remember that Snap recently acquired [https://substack.com/redirect/ef63ec6e-ef80-45a9-9d49-f23205572021?u=16283549] brain-computer interface startup NextMind. 
+Dev’s kids will be thinking things like “space battle jungle” (they won’t know what a “video game” is) and will pop into a full-blown, freshly-created AR/VR game of their imagination.  
+Dev will be lucky to have something to keep his kids entertained. The flight to his family’s Lunar vacation will be shorter than the current three days it takes to get to the Moon, but parents will always do whatever it takes to keep their kids from screaming on flights. 
+Pull on just a few of the many open tech threads, and you land in a world in which anyone can create their own entertainment instead of passively consuming it, at the speed of thought. It will make TikTok look slow and archaic, for better and for worse. 
+But that’s just one pair of threads. The world won’t, I hope, look like the DALL•E version of that scene in Wall-E. 
+As Matt Ball pointed out on Derek Thompson’s Plain English [https://substack.com/redirect/87798d32-a64e-4bd9-945d-08a41fe59b1f?u=16283549], the time Dev’s kids spend in the Metaverse will hopefully replace the 3-5 hours per day of “lean-back” TV consumption with something more engaging and creative. 
+But I want my grandkids to spend more time outside, in nature, too. A different, and eventually intersecting, track is one proposed by Not Boring’s own Elliot Hershberg yesterday in Viriditas [https://substack.com/redirect/4a621170-921f-4aeb-b5b3-9c050f4bd07d?u=16283549].
+Laying out his personal mission – “I want life to flourish in the universe. I view biotechnology as the most logical means towards this end.” – Elliot makes the case for more biological growth: 
+Growing trees, the living systems that pull CO2 out of the atmosphere while turning sunlight and water into beautiful three dimensional structures that carpet large portions of our planet. Growing food [https://substack.com/redirect/2211a7bd-23d6-4af8-aec6-bbfa1cb62701?u=16283549] using the awesome power of microbes in a way that could sustainably feed the entire planet. Growing our medicines—advanced nucleic acid, cell-based, and microbial therapies that enable us to live healthier and longer lives. Growing materials [https://substack.com/redirect/47e47102-ac17-40cf-87d2-2d531bb3678f?u=16283549] to build advanced cities with abundant housing.
+Instead of escaping into virtual worlds, at some point, we’ll be able to grow new ones. Imagine Dev’s kids dreaming up the ideal treehouse … and then growing it in their backyard. 
+To keep pulling on threads…
+Thanks to Dan [https://substack.com/redirect/ab9051bb-2304-4325-8b1b-15ef5fa08cf8?u=16283549] for editing!
+Have a great week, and see you back here on Thursday! 
+Thanks for reading,
+Packy
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZOalExTXpReU9UWXNJbWxoZENJNk1UWTFPREUwT0Rnek55d2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LndROTdNbFZlNmVlbGRoWHkxM0JEUllIUmVubWVNU2duZDBKQ0ZwSjJUQnMiLCJwIjo2NDUzNDI5NiwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NTgxNDg4MzcsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.qwoAs3-v90tMUJ6iFIk8BiEyXj5Ok6_JRQsr9asUK8c?

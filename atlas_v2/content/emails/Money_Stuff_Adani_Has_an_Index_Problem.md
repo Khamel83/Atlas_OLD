@@ -1,0 +1,412 @@
+# Money Stuff: Adani Has an Index Problem
+
+**Source**: inputs/saved_emails/Money Stuff Adani Has an Index Problem_Thu,_9_Feb_2023_14-22-08_-0500_(EST)_18637a216672883e.eml
+**Type**: email
+**Created**: 2025-08-25T02:54:02.533945
+
+---
+
+Programming note: Money Stuff will be off tomorrow, back on Monday.One important way for activist short selling to work is that a short sell
+      
+    
+  
+  
+    
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+        
+          
+          
+        
+        
+          
+            
+          
+        
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          Programming note: Money Stuff will be off tomorrow, back on Monday.
+
+  
+    
+      Adani
+    
+  
+
+One important way for activist short selling to work is that a short seller makes a big bet against a company’s stock, the short seller publishes a report saying that the company is a fraud, the company publishes a rebuttal saying that actually it is good and the short seller is the fraud, and then some outside referee with some official power evaluates both reports and decides who wins.
+This is not an absolute requirement: The short seller might publish a report saying “this company’s sales growth is not going to be what the market expects, so it is overpriced,” and the company could publish a response saying “no,” and then some combination of (1) the company’s future performance and (2) the reactions of other investors will decide who wins. Here, there is no outside referee and no single definitive determination of who is right and who is wrong.
+But if you are going to bother with activist short selling, you mostly aren’t putting out noisy reports about growth and valuation doubts. You are mostly putting out noisy reports about fraud or crime or “the entire product is fake.” And if you are noisy enough, some responsible regulator will look into your report, and the regulator will either (1) decide that the company is a fraud and bring charges, in which case its stock probably crashes and you win, (2) decide that you are baselessly slandering the company and bring charges against you, in which case you lose, or (3) close the case without action, in which case the stock probably recovers and you probably mostly lose. An activist short report is often an indirect request for regulatory action, and it succeeds if there’s an enforcement action and fails otherwise.
+  [1]
+
+
+Last month Hindenburg Research put out a report accusing India’s Adani Group of being “the largest con in corporate history.” (Adani  put out a  rebuttal calling Hindenburg “the Madoffs of Manhattan,” Hindenburg put out  a reply to the reply, etc.) Adani is a network of large infrastructure companies that are publicly traded in India and that are controlled by Gautam Adani. The infrastructure is not fake — Adani really builds stuff and makes money — and Hindenburg does not claim that it is. Instead, Hindenburg’s essential claims are:
+	The prices of Adani Group stocks sure seem high? (“Even before examining the evidence put forward in this report and based solely on financials taken directly from its companies, the Adani Group appears to be highly overvalued.”)	A lot of the public shareholders of the Adani Group companies seem to be offshore shell companies that are secretly affiliated with and perhaps controlled by Adani, and that might be manipulating the stock. Under Indian rules, listed companies need to have a free float of at least 25% of their shares, that is, at least 25% of the shares have to be in the hands of outside investors. Hindenburg alleges that a lot of the outside public investors in Adani companies are actually controlled by Adani. 	The Adani companies are  highly leveraged, and (says Hindenburg) “intricately and distinctly linked and dependent upon one another. … We believe it could take only one serious liquidity event at a single entity to trigger a negative cascade of events at other group entities which could affect the entire Adani Group.”
+
+Adani denies these claims. The Hindenburg report is very long and miscellaneous (“Gautam Adani’s Brother-In-Law, Samir Vora, Was Allegedly A Ringleader Of The Same Diamond Trading Scam,” ah!) and frankly I am not sure what the payoff is supposed to be. But if you put those three claims together and assume that they are true, then you could imagine them pointing in a direction something like: “Adani Group might be a bunch of real companies with fine businesses, but their stock prices are way too high because they are manipulated by insiders trying to pump up their valuation by making heavily levered trades on a deceptively small float, and when that is discovered the stock prices will collapse.”
+  [2]
+
+The Adani Group stocks fell a lot after the Hindenburg report — wiping out  more than $100 billion of market value — and Adani had to delay   stock and   bond offerings, though more recently the stocks have recovered somewhat. None of that … none of that is an answer, though, you know? Are Adani’s outside investors real, or are they Adani affiliates? The stock price action doesn’t tell you that.
+In theory the referee here might be the Securities and Exchange Board of India: Hindenburg is accusing Adani of violating its listing requirements, and Adani is denying those claims. But in practice there is another set of referees: the index providers. Index providers are mostly not in the business of deciding questions like “is this company overvalued” or even “is this company a fraud,” but they are in the business of deciding questions like “how much of this company’s stock is held by insiders,” just because many indexes are weighted by free float. (The idea is that, if an index fund has to buy X% of every company, it should have to buy X% of the available shares of each company, not the ones that don’t publicly trade.) If Adani says that 25% of its shares are publicly held, and Hindenburg says that really the number is much less than that, then that is a factual dispute that the index providers can, and sort of has to, referee.
+So the  Financial Times reports:
+
+Global index provider MSCI is set to change its weightings for Adani Group stocks after reviewing how many shares can be freely traded, in a further setback for the Indian conglomerate reeling from fraud allegations.
+MSCI said “certain investors” in Adani Group “should no longer be designated as free float pursuant to our methodology” after receiving feedback from “a range of market participants”.
+Any cuts to the determined free float for the Adani Group’s listings would result in smaller weightings for those stocks in MSCI’s closely watched indices, triggering outflows as investors who track the benchmarks reduce their shareholdings. …
+Shares in Adani Group’s listed companies sold off following the announcement, with flagship business Adani Enterprises falling as much as 15 per cent after posting gains for two straight days.
+An Asia equity strategist at one Wall Street investment bank said MSCI was likely to follow the precedent set by previous reviews of different companies and cut its free float estimates by around half.
+“Potentially the weight of Adani stocks in the indices will be cut in half as a result, and passive investors will have to sell to reduce [the stocks’] weight accordingly in their portfolios,” the strategist said, adding that the bank estimated this would result in about $1bn to $1.5bn of outflows.
+
+MSCI is an important referee of this dispute in two senses. One, there are some international investors who own the stocks in MSCI indexes in proportion to their index weightings, and they will just mechanically sell Adani stocks if MSCI cuts their weightings. Two, MSCI is a more-or-less neutral arbiter that will decide the factual question of whether Adani’s free float is actually free float. If it cuts Adani’s weighting, that suggests that Hindenburg’s claims are more likely to be true; if it maintains the weighting then that suggests they aren’t. 
+On the other hand, MSCI is not the sort of referee that can make a definitive decision. If a short seller can get a regulator to shut down trading in a company’s stock for fraud, that’s a pretty definitive win: The stock price will collapse and the short seller will make money. If Hindenburg can get MSCI to lower Adani’s index weights due to a revised free-float calculation, that is a technical win, but I am not sure it’s a death blow. 
+I said that there are two ways for activist short selling to work, either (1) appealing to a referee or (2) generally trying to convince the market of your skepticism about the business. There is maybe a third approach that is somewhere in between those two, which is convincing creditors of a business that does a lot of short-term borrowing to pull their credit. This is a markets-oriented approach, appealing to investors rather than to some regulator or other outside arbiter. But it can also be fast and definitive: A company that relies on short-term borrowing can be crippled pretty quickly if that borrowing dries up.
+  [3]
+ If Hindenburg is right about Adani, you’d expect (1) Adani’s lenders to demand their money back and (2) Adani not to have it.
+Sort of mixed results on that one.   Bloomberg reports:
+
+The Adani Group plans to prepay a $500 million bridge loan due next month after some banks balked at refinancing the debt following a short seller report that sent the group’s assets tumbling.
+Barclays Plc, Standard Chartered Plc and Deutsche Bank AG are among banks that lent Adani $4.5 billion to finance the purchase of Holcim Ltd. cement assets last year. A portion of that loan is due March 9.
+The lenders were in talks to refinance the loan up to a week before the critical report from Hindenburg Research was published, according to people familiar with the matter. Those negotiations stalled after the report alleging fraud led to a massive selloff, chilling the banks’ willingness to refinance, the people said, asking not to be identified discussing a private matter.
+The development is the first concrete sign that global banks are becoming more wary of financing Adani’s empire and coincides with comments from France’s TotalEnergies SE that a multi-billion dollar plan to produce green hydrogen with the Indian tycoon has been put on hold, pending audits of his conglomerate. 
+
+And here is  the FT again:
+
+Gautam Adani, whose Indian business empire is under pressure over fraud allegations, repaid a $1.1bn share-backed loan last week after facing a margin call of more than $500mn, according to four people with direct knowledge of the matter. ...
+The lenders of the $1.1bn loan, which included Barclays, Citigroup and Deutsche Bank, requested last week that the billionaire top up the amount of stock pledged against the loan after a sharp fall in the shares of the listed Adani companies, according to the people with knowledge of the matter. …
+As the shares continued to slide, Barclays informed Adani of a margin call equivalent to 50 per cent of the loan in cash, said the people, who spoke on condition of anonymity.
+Rather than post cash against the loan, which did not mature until September 2024, the Adani Group’s founder and his family opted to repay it completely. Adani has not disclosed the source of the funds used to repay the loan.
+Adani Group said it did not receive a formal request for a margin call. The full loan was repaid early “per our prepayment planning”, the company added.
+
+The banks demanding their money back scores a point for Hindenburg, but Adani paying it scores a point for Adani.
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      Beyond bankruptcy
+    
+  
+
+We have talked, over the last   couple of   days, about Bed Bath & Beyond Inc.’s weird deal to sell $1 billion worth of convertible preferred stock, mostly to Hudson Bay Capital, to avoid bankruptcy. One general takeaway is that it is not a deal that you would be happy about, if you’re Bed Bath’s board of directors. For one thing, it is lavishly expensive; if it works and Bed Bath sells all the stock and stays out of bankruptcy, Hudson Bay will make hundreds of millions of dollars of more-or-less guaranteed profits.
+Also, though, the mechanics of the deal seem to rely on Hudson Bay converting its preferred stock into common shares and reselling them in the open market, presumably to retail investors, presumably at prices that are … you know, determined by the market, but maybe not prices that Bed Bath’s board and advisers think are rational right this minute. Bed Bath was already looking for bids for its assets in bankruptcy and not really finding any, suggesting that the value of its equity, to sophisticated investors, was rather less than zero. And the structure of the Hudson Bay deal itself suggests that Hudson Bay doesn’t think Bed Bath’s stock is worth its market price: Hudson Bay gets to buy stock from Bed Bath over time at hefty discounts to whatever the market price is, so it’s not exactly making a big bet on Bed Bath’s long-term value. “We believe that recent volatility and our current market prices reflect market and trading dynamics unrelated to our underlying business, or macro or industry fundamentals, and we do not know if or how long these dynamics will last,”  says the prospectus for the deal; it’s standard meme-stock boilerplate but also they might mean it. If this deal works, it will effectively require Bed Bath to pump out a billion dollars of new stock to retail investors  as it hovers near bankruptcy. That is an awkward thing for a board of directors to approve.
+Bloomberg’s Eliza Ronalds-Hannon and Jeannette Neumann report on   why they might have done it:
+
+The threat of big job losses for its 30,000 employees raised the stakes, according to people on the Feb. 3 conference call, who declined to be named. Kirkland & Ellis attorney Joshua Sussberg reminded lenders of the human cost should the firm crater before all capital-raising options were exhausted, the people said, reprising his tactic during bankruptcy negotiations on behalf of Toys ‘R’ Us and JC Penney Inc. 
+Sussberg warned that if he ended up before a bankruptcy judge on Monday, the court would hear about the equity deal that could have been — and the banks that didn’t allow it, the people said.
+The plan worked. A cash infusion will come through the sale, run by investment bank B. Riley Securities Inc., of convertible preferred shares and warrants via anchor investor Hudson Bay Capital Management, a New York-based multi-strategy hedge fund, Bloomberg has reported. It gives the company a last-gasp lifeline — in a deal Wall Street analysts say appears designed to tap into the staying power of meme-stock investors even in this era of Federal Reserve hawkishness. …
+“If I was running a meme stock I would be an idiot not to try to capitalize on the madness of crowds,” said Matthew Tuttle of Tuttle Capital Management, an investment advisory firm. 
+
+Right? If you can take money from retail investors and give it to banks and hedge funds in order to keep 30,000 people employed, then that is probably a good trade? Stakeholder capitalism! If people want to buy stock from you at weird prices, that is good for your creditors and good for your employees and good for your existing shareholders, even if it is possibly not great for all your new shareholders.
+  [4]
+
+As for those shareholders,   here’s Bloomberg’s Bailey Lipschultz:
+
+The stock has tumbled, losing more than 50% over the past three days on concern the deal will flood the market with new shares and do little to alter the company’s long-term fate.
+“They’re not doing it because they’re altruistic and they want to save an old brand,” Morningstar analyst Jaime Katz said. “They have structured the deal such that the return that they are able to achieve accounts for the increased risk that they are facing.” …
+The reaction to the Bed Bath & Beyond deal is another sign of how much the speculative excesses of the post-pandemic era have disappeared since the Federal Reserve pulled the plug on its near zero interest rates. …
+After the deal was announced, the arrangement drew contempt on the Reddit chat board where meme traders congregate. “Imagine buying shares of a dying company,” one wrote. “People deserve to lose their money.”
+
+I don’t know. As of noon today the stock was trading around where it closed yesterday, which was down only about 14% from where it closed last week.
+  [5]
+ That’s not that much? For this much new stock? It’s not like Bed Bath issued, or Hudson Bay sold, $1 billion of stock all at once in the last day or two. But even announcing a plan to issue many times the market capitalization of the company is a big deal; the fact that the stock is still trading higher than it was two weeks ago seems like a win. This deal is enormously dilutive, but it’s probably (a bit?) better for the stock than bankruptcy, and the stock price reflects that.
+Elsewhere in Bed Bath, Ben Fife at Chicago Venture Partners emailed to point out something in  the prospectus that I missed earlier.
+  [6]
+ I suggested yesterday that Hudson Bay, the “anchor investor” in the deal, most likely took a majority of the initial $225 million fundraising, and is likely the only investor on the hook for the $800 million that Bed Bath hopes to raise in the future. The convertible preferred stock subtly confirms this: It has a defined term for “Required Holders” that means “the Holder that purchased at least 20,000 Preferred Shares from the Underwriter on the Initial Issuance Date,” which strongly suggests that one investor — Hudson Bay — did buy at least $200 million face amount of the convertible preferred stock, or at least 84% of the initial deal, which would put it on the hook for 100% of the remaining $800 million.
+  [7]
+ Basically this seems to have been a private deal to raise $1 billion from Hudson Bay, with a few other investors along for a tiny portion of the deal to make it a public offering.
+
+  
+    
+      
+        
+      
+    
+  
+
+
+  
+    
+      Tax loss harvesting
+    
+  
+
+If you buy some stocks that go up and some stocks that go down, then it is usually tax-efficient for you to sell the stocks that went down (giving you taxable losses that you can use to shield other income from taxes) and keep the stocks that went up (deferring taxable income until you really need the money). I do not give tax advice around here, but this is a popular approach. If you have a bunch of stocks with losses and you sell them, then you will have a lot of cash. If you don’t need the cash (perhaps because you saved so much money on taxes?), you will probably want to invest it somewhere. You will look around for good investments, and you might want to buy some stocks that have sold off and are now trading at attractive prices. 
+Be careful! Some of the beaten-down stocks that are now trading at attractive prices might be the ones you just sold, and that’s bad. In US tax law, you can’t (1) sell stock that went down, (2) claim a taxable loss and (3) immediately go buy that stock again. That’s cheating; that’s the same thing as just holding the stock, and you can’t claim a tax loss for just holding the stock. If you do this trade — sell a stock, claim a loss, buy it right back — that’s  called a “wash sale” and not allowed. (Again, not tax or legal advice.)
+On the other hand if you have some beaten-down stocks, you sell them, you claim a taxable loss, and then you reinvest the money in a different list of beaten-down stocks, that’s probably fine. (Not tax advice!) Any two lists of beaten-down stocks will probably have some similarities to each other; there will be some correlations. If a bunch of tech stocks go down and you sell Meta and buy Alphabet, you will get a taxable loss, but you will keep a somewhat similar exposure.
+Here is a ProPublica investigation into this sort of tax-loss harvesting that begins with a story about selling and buying the most similar possible stocks that are still technically distinct:
+
+At first glance, July 24, 2015, seems to have been a brutal trading day for Steve Ballmer, the former Microsoft CEO. He dumped hundreds of stocks, losing at least $28 million.
+But this was no panicked sell-off. Among the stocks Ballmer sold were those of the Australian mining company BHP and the global oil giant Shell. Had Ballmer lost confidence in BHP’s management? Was he betting that the price of oil would not soon recover? Not at all. That very day, Ballmer also bought thousands of shares in BHP and Shell. …
+Both Shell and BHP offered two different versions of their common stock. For each company, the two stocks were legally distinct, but they performed very similarly because, after all, they were shares in the same company.
+Ballmer’s not-so-bad day, in fact, was carefully planned, part of a strategy by Goldman Sachs, which conducted the trades on Ballmer’s behalf, to wield the stock market’s natural volatility to the billionaire’s advantage. At Goldman, the hundreds of stocks in Ballmer’s “Tax Advantaged Loss Harvesting” accounts were selected to follow the movement of the broader markets. Over time, the markets, as they had historically, would buoy Ballmer’s investments upward. When, inevitably, some of the stocks underperformed or the whole market dipped, Goldman was ready to pounce, selling off the losers and replacing them with equivalents.
+Sometimes, the replacements were nearly identical securities, as with Shell and BHP. More often, they were not. But well-tuned software could easily find the right stocks to keep the accounts tracking the market. His losses secured, Ballmer was ready to catch the bounce back.
+
+Technically  the wash sale rules prohibit buying and selling “substantially identical securities,” but according to ProPublica, in practice, the only thing that anyone counts as a “wash sale” is selling and buying the same CUSIP — the same exact stock — within a 60-day period. Buying and selling different but correlated stocks is fine.
+At some level, this is all standard stuff that is available to retail investors — here is a list of “Which Robo-Advisors Offer Tax-Loss Harvesting?,” and the answer is kind of “all of them” — but I guess it is a little funny to sell and buy two classes of the same company’s stock for tax-loss harvesting. Also very funny is that ProPublica called Goldman about this, and Goldman was like “fine we will stop doing that one specific thing”:
+
+After inquiries by ProPublica, Goldman said it would halt transactions like Ballmer’s Shell and BHP trades. Goldman conducted a review, according to a statement by the bank, and found that a “very small percentage” of its “tax investment solutions” trades were “inadvertently made in a manner inconsistent with our strategy.” The bank said it strives “to provide best-in-class investment advice to clients, consistent with both the letter and the spirit of all applicable tax laws and regulations.” ...
+But, by Goldman’s own description, it is halting only a narrow slice of its loss-generating trades — the ones involving two kinds of stock from the same company. The bank will continue its broader practice of finding similar stocks that achieve the same effect.
+
+It would be irresponsible not to! 
+
+  
+    
+      The CEO of Goldman Sachs is also a DJ!
+    
+  
+
+Look,  this Insider article about some Goldman Sachs Group Inc. partners who are dissatisfied with CEO David Solomon’s leadership, and who have … talked among themselves about maybe complaining to Goldman’s board? ... is not mainly about Solomon’s hobby of being a DJ. I think it’s mainly about pay:
+
+The degree of dissatisfaction inside Goldman has gotten to the point where some partners have discussed how they might spur action from the firm's board of directors, according to four people who have spoken to these partners. Some of them have even considered bringing their concerns directly to the board, though they haven't yet, in part, because they see Goldman's board as insular and out-of-touch with the day-to-day conditions of the firm, two of them said. …
+How could the CEO's pay be down only 29%, when partners were down as a group by 50%, current and former partners asked. In the global markets business, the division responsible for 54% of the firm's net revenue last year, compensation cuts ranged from less than 20% to 60% or more in some cases, according to someone who has spoken to a number of current partners. 
+
+But it’s a little bit about Solomon being a DJ!
+
+And Solomon's penchant for living a glamorous life, whether through high-profile DJ gigs, private jets to the Bahamas, or rubbing elbows with professional athletes and celebrities like Kim Kardashian, has led some insiders to believe that he is more focused on his image or compensation than what's best for Goldman Sachs. …
+When Goldman's board announced Solomon's 2022 pay at $25 million late last month, a 29% decline from the previous year, it raised questions among some partners about whether the board understood how upset they were or how damaged they viewed the brand as the result of the consumer strategy mistake and Solomon's DJ and glamor dalliances. 
+
+When he became CEO, Solomon got a lot of press, as an inspiring example of a man who overcame obstacles to achieve his dream of being both the CEO of Goldman Sachs and also a DJ. The obstacles included some of his advisers telling him that he should not be a DJ if he also wanted to be CEO of Goldman Sachs, but he ignored them, listened to his heart, and kept DJing (and becoming the CEO of Goldman Sachs). Recently though his press has gotten worse, and I   wrote earlier this week about a New York Times investigation into conflicts of interest (!??!??!!!!!) between his DJing and CEOing roles. What if, I wondered, “Solomon’s efforts to combine DJing and Goldman Sachs CEOing really did bring down the firm?” 
+Well, that still seems unlikely, but I do hope that if a group of disgruntled partners complains to the board, they will lead with the DJing thing. I hope that if Solomon is pushed out it is over the DJing thing. “David Solomon has resigned as CEO to spend more time with his turntables,” I hope the press release reads. Disclosure, I used to work at Goldman, and I am not saying that I think Solomon should be pushed out; I’m just saying that if he is pushed out, the funniest possible explanation will be that the partnership and board of Goldman Sachs concluded, after trying the experiment, that it is impossible to be both the CEO of Goldman Sachs and also a DJ.
+
+  
+    
+      Things happen
+    
+  
+
+ Credit Suisse Sinks as Path to Profits Keeps Getting Steeper. Credit Suisse   Cuts Bonuses 50% as Executive Board Takes Zero. ‘Sam? Are you there?!’ The bizarre and brutal  final hours of FTX. Commodity Trader Trafigura Faces $577 Million Loss After Uncovering   Nickel Fraud. Toshiba receives  $15bn buyout proposal from private equity group. Home-Buying Companies  Stuck With Hundreds of Houses as Demand Slows. Tether Says Crypto Reserves Boosted by   $700 Million in Profit. Binance.US CFO Says  Customer Funds Are Safe. ChatGPT Mania Spurs Crypto Fans’ Stampede to   ‘Faddish’ AI Tokens. Comedians Are Finding Lucrative Side Hustles — No Joke —   as Babysitters.
+If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
+        
+  [1] A few recent cases. (1) In 2020, activist short seller Hindenburg Research put out a report saying that Nikola Corp.’s electric trucks were fake. That caught the attention of the US Department of Justice and Securities and Exchange Commission, which investigated and concluded that the trucks were indeed fake; the SEC fined Nikola $125 million, its founder was  convicted on fraud charges, and Nikola’s stock is down more than 90% since Hindenburg’s report. (2) Way back in 2012, Bill Ackman put out a report saying that Herbalife Nutrition Ltd. was a pyramid scheme. This caught the attention of the US Federal Trade Commission, which investigated and … well, it  kind of did conclude that Herbalife was a pyramid scheme, but the fine was small and Herbalife was allowed to clean up its business and is basically fine; its stock price today is a bit higher than it was when Ackman published his report. (3) There is some sort of burbling US federal investigation of activist short sellers? I don’t really know what it is or if it will go anywhere, but if it does then presumably one of their targets will claim some sort of vindication.
+
+
+  [2] There are recent analogies.   Archegos Capital Management had highly levered concentrated positions in a dozen stocks that nobody knew about; when people found out about them, Archegos got margin calls and the stocks (and Archegos) collapsed. Or we have talked about the collapse of   FTX Trading Ltd. and   Celsius Network Ltd., both crypto firms that were secretly doing a lot of trading in their own affiliated tokens (not quite stock, but very stock-like). FTX’s and Celsius’s balance sheets looked good because they owned a lot of valuable tokens, but the value of those tokens was based on market prices in very thinly traded markets in which FTX/Celsius were the main buyers. When they stopped, the tokens, and the companies, collapsed.
+
+
+  [3] We have talked about Credit Suisse Group AG’s   time as a reverse meme stock, when public negativity caused some customers to pull deposits, which   weakened its liquidity coverage ratio, though not by enough to cause a serious scare. The other recent analogy is to the crypto firms (FTX, Celsius, Voyager, Genesis, etc.), which are necessarily funded by short-term leverage (basically, deposits), and which saw rapid bank runs when people started asking tough questions about their finances.
+
+
+  [4] It’s not great for the new shareholders if the price is in fact irrational. It is in some optical sense bad for your existing shareholders — you are diluting them, and the price is going down — though realistically it’s better for them than *bankruptcy* would be. (And in general selling stock above its fair value is good for existing shareholders.) Obviously if this works well enough — if the company recovers and the stock goes up — then it’s good for everyone, but ex ante the risk for the new shareholders seems high.
+
+
+  [5] It’s down about 50% from where it closed Monday, but Monday saw a big rally, perhaps fueled by rumors of this deal and short-covering from investors who were betting on bankruptcy.
+
+
+  [6] He pointed out another, more technical point. The basic form of this deal is that Hudson Bay gets to buy a lot of common stock from Bed Bath, over time, at discounts to the market price. Also it gets warrants to buy a ton more stock at $6.15 per share. This seems straightforward: If Bed Bath trades down or sideways, Hudson Bay gets stock and sells it and makes a spread and takes very little market risk, but if this works and Bed Bath is saved and does well, then Hudson Bay is richly rewarded with stock upside. But the warrants also have an unusual feature that each warrant can instead be converted into 0.65 shares of common stock *at an exercise price of zero*: Even if the stock never hits $6.15, the warrants are valuable. This is only true, though, if “the Registration Statement is not effective,” i.e. if Hudson Bay can’t freely sell the stock, so presumably this is not something anyone is counting on. (See  pages C-4 and C-5, on “alternate cashless exercise.”)
+
+
+  [7] See page  A-30 of the prospectus for that definition. The company initially issued 23,685 shares of convertible preferred with a face amount of $237 million and a cash price of $225 million (i.e., it sold them for 95 cents on the dollar); Hudson Bay presumably bought at least 20,000 of them ($200 million face amount) for at least $190 million. The remaining $800 million comes in the form of “convertible preferred warrants,” which are allocated “pro rata” to “investors that purchase $75,000,000 or more of our Series A Convertible Preferred Stock” in the offering. If Hudson Bay bought $200 million worth, then that leaves only $37 million for everyone else, making Hudson Bay the only investor to get the warrants and be in the remaining $800 million tranche.
+
+
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+
+
+  
+    
+      
+        
+        
+Like getting this newsletter? 
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+  
+    
+      
+      
+      
+      
+      
+    
+  
+
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ci5utk.5o1q/86d676b4.gif" alt="" border="0" /></a>

@@ -1,0 +1,78 @@
+# How To Be a Google Power User - Cool Infographics
+
+**Source**: http://www.coolinfographics.com/blog/2014/9/24/how-to-be-a-google-power-user.html
+**Type**: article
+**Created**: 2025-08-13T19:31:38.144796
+
+---
+
+title: How To Be a Google Power User - Cool Infographics
+source: http://www.coolinfographics.com/blog/2014/9/24/how-to-be-a-google-power-user.html
+date: 2025-08-13T19:31:27.839198
+tags: []
+---
+Sometimes, no matter how you word your question, Google’s search engine’s
+results will not come up with what you are looking for. [How To Be a Google
+Power
+User](http://web.archive.org/web/20250201121907/http://www.whoishostingthis.com/blog/2014/08/08/google-
+pro/#.) infographic from [Who is Hosting
+This?](http://web.archive.org/web/20250201121907/http://www.whoishostingthis.com/blog/2014/08/08/google-
+pro/#.) tackles the Google search engine problem with a few tips and tricks to
+help you find the answers to the questions you are seeking.
+
+> _It’s a familiar frustration for most of us: You type your precise, specific
+> search terms into Google, and expect to find what you need on the first
+> page._
+>
+> _Instead, you’re faced with millions of search results, and the first few
+> links are so off-the-wall unrelated you wonder if you mistyped something._
+>
+> _But your search terms are correct, so why doesn’t Google know what you’re
+> looking for? And how are you supposed to narrow down the millions of
+> irrelevant results?_
+>
+> _Luckily, Google has quite a few hidden tips and tricks for searching that
+> will help you quickly find exactly the results you’re looking for._
+>
+> _Just by learning a few formatting and punctuation tricks, you can tell
+> Google how your search terms are related, or exclude certain words or
+> phrases. You can also narrow down your search with criteria like location or
+> pricing, or use Google to search within a single website._
+>
+> _If you’re still not getting the results you need, Google has several other
+> little-known features that can widen your search. Webmasters can easily find
+> images for their websites and blogs with_[ _Google
+> Images_](http://web.archive.org/web/20250201121907/https://images.google.com/)
+> _, and researchers need only visit_[ _Google
+> Books_](http://web.archive.org/web/20250201121907/https://books.google.com/?hl=en)
+> _or_[ _Google
+> Scholar_](http://web.archive.org/web/20250201121907/https://scholar.google.com/)
+> _to search through print publications and research papers in any field._
+>
+> _Faster and more accurate searches aren’t the only benefit to becoming a
+> Google power user. Google also has a few hidden functions you can unlock
+> with the right search query, including calculations and conversions, stock
+> quotes and sports scores, and film showings and flight statuses. With the
+> right search, you can get immediate results telling you the current weather
+> and today’s sunrise and sunset times, or quickly look up the definition of a
+> word and get a translation into one of dozens of available languages._
+>
+> _With the time you save as a Google power user, you’ll even be able to fit
+> in a game of Atari Breakout on Google Images. Just follow the steps int he
+> infographic to find out how!_
+
+This is a great instructional, how-to infographic design. It’s informative,
+without making any kind of hard sales pitch for a companies products or
+services, and that usually leads to more sharing activity. It would help to
+have the URL to the original infographic landing page in the footer.
+
+The color scheme is spot-on with Google as the topic, and the sections are
+easy for readers to follow with minimal text. For example, the design shows
+you how to use the Search Operators using an example without a lengthy text
+explanation.
+
+Found on [Digital Information
+World](http://web.archive.org/web/20250201121907/http://www.digitalinformationworld.com/2014/07/How-
+to-be-a-Google-Power-User-infographic.html) and [State of
+Digital](http://web.archive.org/web/20250201121907/http://www.stateofdigital.com/friday-
+infographic-become-google-power-user-use-search-operators/)

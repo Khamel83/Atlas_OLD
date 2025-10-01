@@ -1,0 +1,802 @@
+# Earth AI
+
+**Source**: inputs/old stuff/Docs/EarthAI_042324.html
+**Type**: article
+**Created**: 2025-08-25T02:53:55.934238
+
+---
+
+# Earth AI
+
+*Welcome to the **1,599 newly Not Boring people** who have joined us since our last essay! If you haven’t subscribed, join **224,224** smart, curious folks by subscribing here:*
+
+[![](https://substackcdn.com/image/fetch/w_40,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideCheck%3Fv%3D4%26height%3D40%26fill%3Dtransparent%26stroke%3D%252351b4e9%26strokeWidth%3D3.6)Subscribed](https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjY291bnQiLCJwIjoxNDM4ODE2OTksInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNzEzODc2OTQ5LCJleHAiOjE3MTY0Njg5NDksImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.Zu-Tmh944JE2wSvu94dZAD9XTcOwYeHwo9kTTYz351U?)
+
+Hi friends 👋,
+
+Happy Tuesday and welcome back to Not Boring!
+
+When I wrote about [Astro Mechanica](https://substack.com/redirect/b38ad816-682e-4be4-bf3e-d0c3074a03f4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) a few weeks back, I said that I want to spend more time going very deep on a series of [Techno-Industrials](https://substack.com/redirect/76a92edb-cddf-41a0-acb0-1790aa94fcf2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU).
+
+That probably means fewer, deeper essays, because understanding how these companies might evolve large, existing industries means trying to understand industries and business models that I haven’t spent as much time studying. If the thesis that we’re finally at a point at which technology companies can make a real dent in those industries is correct, though, I think that building the muscle of understanding their unique business models, bottlenecks, and opportunities is as valuable as understanding the technologies themselves.
+
+The important caveat is that I won’t have even 1% of the understanding of the industry as someone who’s spent their career in it. That can be a blessing — sometimes a little distance helps see opportunities that insiders dismiss — and a curse — I will undoubtedly write things that insiders will roll their eyes at, and I’m sure I’ll get some things wrong or incomplete. But I’m trying to read as much as I can and talk to as many smart people as I can to try to figure out enough to be dangerous, and to share as I go — there’s no better way to learn than to say something wrong on the internet.
+
+Today, we’re going deep on one of the oldest and most critical industries in the world: mining. It’s a $2 trillion industry that’s 43,000 years old and not going anywhere until humans learn to transcend matter altogether. In the coming decades, we’re going to need trillions of dollars worth of critical metals to support the energy transition and all of the deep tech we talk about in Not Boring. But over the past decade, the pace of new discoveries has slowed to a trickle.
+
+That’s what [Earth AI](https://substack.com/redirect/841338eb-8d72-483f-a3fe-1db7512791d7?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) is trying to fix by building a vertically-integrated explorer/driller that uses AI to target new discoveries and custom drill rigs to test them. The company feels like a secret hidden in plain sight, and I couldn’t be more excited to back them out of Not Boring Capital.
+
+Explaining what they’re doing, why it’s the right spot for a startup to play, how the business model works, and just why I’m so excited is going to take some words.
+
+Note: way too many words for email, so **[click here to read online](https://substack.com/redirect/892857dc-3c1d-4554-a33d-0ce34e6600c2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)**.
+
+Let’s get to it.
+
+[![](https://substackcdn.com/image/fetch/w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a1635fe-1e30-4d38-aac6-dd6e0257fa1b_1200x600.png)](https://substack.com/redirect/fbc5318b-37c7-408e-bdda-3b34f0b96eaa?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+When the AGI hits, like really hits, hits so good that no job or company is safe from the superintelligence’s brilliance or its robots' physical execution of its plans, which companies and industries will remain?
+
+Certainly, we’ll need energy. Humans need energy to survive and thrive, and machines crave it even more desperately. The energy industry will be in good shape, assuming the AGI doesn’t crack the code to [zero point energy](https://substack.com/redirect/2f76d590-40b9-44da-a27e-0472a631b38b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) or something equally magical.
+
+Real estate may be an even better bet. Landlords have contractual ownership of their properties, and both humans and GPUs need a place to live. Even if AGI and its robots lower prices by building more housing and data centers, the humans who own land will be better positioned than most.
+
+
+Mining is so fundamental to civilization that the first thing you should do when you start a game of *Factorio* is to begin digging up coal, iron ore, and copper ore, and then use the coal and iron ore to craft a burner mining drill.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F593ae8b0-2e41-4fb0-b62f-51a0c73496d0_908x515.png)](https://substack.com/redirect/cf3a34b3-8c58-4995-bfcf-f5ad2c13f1eb?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*[RockPaperShotgun](https://substack.com/redirect/86c9c963-0780-4c8e-b069-b1ded7c8a397?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*
+
+If you wanted to future-proof yourself, your best move may be to discover as many metals deposits as you possibly can, as quickly as you can, secure your rights, prove feasibility, and sell those metals to willing buyers, human or machine, for decades to come.
+
+That’s pretty much exactly what Not Boring Capital’s newest portfolio company, **[Earth AI](https://substack.com/redirect/841338eb-8d72-483f-a3fe-1db7512791d7?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)**, is doing, although its founder, [Roman Teslyuk](https://substack.com/redirect/1ba13cd5-485d-4b74-a9dd-87b83043253a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), is much more concerned with the very real challenges humanity faces today than he is with an AGI-dominated future.
+
+Right now, in the real world, **one of the biggest threats to the energy transition is the lack of critical metals.** Electric vehicles (EVs) and lithium-ion batteries more generally, need a lot of lithium, cobalt, nickel, graphite, and manganese. Solar panels need silver, silicon, indium, gallium, and tellurium. Power grids and energy storage systems require copper, vanadium, zinc, and lead. Not to mention the metals we’ll need for data center buildouts, space exploration, advanced manufacturing, and so many other things we write about in Not Boring. An abundant future requires metals.
+
+
+[![](https://substackcdn.com/image/fetch/w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fddcae886-0b57-4f95-a71b-76c628c5ec32_908x488.png)](https://substack.com/redirect/5ceba776-7a2d-4c3d-8dd5-8c47dd32e70d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*[Minex, analysis based on finding a moderate or larger deposit](https://substack.com/redirect/09e21812-27f2-4752-b7df-61c256999bf4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*
+
+Over the past decade, the number of annual discoveries has dropped by almost three-quarters, from 150 to 45 per year, for a variety of familiar reasons. The easy-to-find deposits have been found, which means exploration is more expensive, which deters exploration companies. Regulatory and environmental concerns, unsurprisingly, make permitting and licensing slower and more expensive, too. The workforce of geologists, geophysicists, and other key experts is aging out, and young people aren’t backfilling them.
+
+It’s the same story playing out in industries from [manufacturing](https://substack.com/redirect/687918d5-d86d-485e-8b9f-f7f77d39e2e2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) to [nuclear](https://substack.com/redirect/5fa32819-b805-4df4-a43a-20d2a28fdcc5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). And the solution may be the same, too: good old human creativity, driven by capitalism, manifested in technology.
+
+There’s this quote from Robert Zubrin, the author who inspired Elon Musk to start SpaceX, that I absolutely love:
+
+> *There are no natural resources. There are only natural raw materials. It is human creativity that transforms raw materials into resources through technological innovations.*
+
+Mining – extracting the raw materials from the earth – is the first step in that transformation.
+
+For its importance and market size, however, venture capitalists have deeply underinvested in mining technology.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8b53f6a9-759b-41a9-a2da-a0a6186a1167_908x534.png)](https://substack.com/redirect/d298fa6c-7433-40c4-8cc4-15571c5f74c0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*PitchBook, Emerging Spaces: Mining Tech*
+
+The data isn’t perfect – it doesn’t include the $195 million investors poured into [KoBold Metals](https://substack.com/redirect/15703578-7bab-487e-9404-7d21e8536028?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)’ Series B last year at a $1 billion valuation to develop its copper reserves in Zambia – but the **$138.5 million invested in new technology 2023 represents just 0.0069% of the industry’s $2 trillion size**, which has got to be the lowest ratio of any category on earth.
+
+In the modified words of eight-time Mr. Olympia winner Ronnie Coleman, “Everybody wants to be a deep tech investor, but nobody wants to dig no heavy-ass rocks.”
+
+I want to lift those heavy-ass rocks, or at least back Roman and crew so they can. So the question is: **are venture investors missing an enormous opportunity, or am I missing something obvious?**
+
+Certainly, part of the challenge is that pure SaaS and services businesses – the most similar to the types of companies that VCs typically invest in that mining has to offer – have been duds. Selling software to explorers to help them find deposits has been a surprisingly bad business because explorers are slow and there’s a small number of parties to sell to. There’s no mining services business worth more than $1 billion.
+
+But the same thing that makes exploration customers bad customers – slowness, unwillingness to adopt technology – makes them very attractive competitors, if your tech actually works as well as you say it does. If you’re willing to vertically integrate – to do exploration, and drilling, and maybe even extraction – you might be able to build the most efficient explorer out there.
+
+That’s the bet that Earth AI is making, and after seven years, it’s beginning to pay off.
+
+
+1. Its **model** predicts the exact location of mineral deposits 25x more accurately**.**
+2. Its **drilling platform** verifies those deposits 4x faster and 4x more cheaply.
+
+The two work together – not just AI, not just hardware, but a combination of the two that gives Earth AI advantages in accuracy, speed, and cost. Instead of selling software to explorers, Earth AI *is* an explorer, and a driller. It discovers new deposits more efficiently, and drills to prove out those deposits more quickly, than traditional explorers and drillers can.
+
+And it’s working. Over the past six months, **Earth AI made ~7% of the discoveries the whole industry made in 2023,** with a grand total of three.
+
+First, Earth AI discovered a high-grade deposit of **molybdenum**, a silvery-white metal used to make steel alloys, on only their second drilling attempt. The discovery of the molybdenum deposit showcased Earth AI's potential:
+
+* Found on the 2nd drilling attempt (vs. 200 on avg for the industry)
+* Total discovery cost of $2M (vs. ~$218M industry avg)
+* Drilling cost of $86/meter (vs. $300/meter industry avg)
+* 2x higher ore grade than existing molybdenum mines
+* **100% owned by Earth AI (most explorers have to share ownership)**
+
+It’s also made two discoveries via **Exploration Alliances** with partners, in which the partner covers exploration costs on its sites, and Earth AI receives a 2% royalty:
+
+1. [Palladium-Platinum-Gold-Copper-Nickel in partnership with Legacy Minerals](https://substack.com/redirect/eea17ea0-33f1-4e82-a606-922168de0fa9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+2. [High-Grade Lead in Sandover in partnership with Tivan](https://substack.com/redirect/b63b1e0e-a3ef-4bff-9d3f-624a923ee09a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Just last week, Earth AI and Tivan [announced](https://substack.com/redirect/d1edba31-bdb9-4d3f-b177-36f7bca06e9d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) that they also discovered high-grade silver (469 grams/ton for you geologists out there) 250 meters from the high-grade lead deposit, both close to the surface where they’re easier and more profitable to mine.
+
+Three promising discoveries is a lot relative to the dwindling industry total, but it’s small rocks compared to Roman’s goal of building a **$100 billion mining company by finding 100 new metal deposits by the end of the decade.**
+
+Which is crazy, because a really good explorer discovers maybe two viable deposits (and can trade on the Australian Stock Exchange at more than a billion dollar market cap once they prove feasibility). But which I also think is possible, which is why we invested.
+
+Since meeting Roman, the thing that’s really wormed its way into my brain is **Earth AI’s business model**.
+
+On the one hand, it’s a potential money-printing machine, with the ability to discover, prove, and own deposits that could cash flow for decades. On the other, as evidenced by the low level of mining tech investment, it’s not a business model that most venture capitalists are familiar with: it’s capital intensive upfront, slower to value, and faces a number of gates on the way to monetization.
+
+But I love it. I think the closest comp is a business model I’ve come to appreciate working with [Elliot](https://substack.com/redirect/1041d77c-0931-4690-8bec-fcd995b9f3d9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). **It’s the biotech platform business model**.
+
+Earth AI spends capital upfront to develop technology to build a portfolio of valuable assets whose cash flows are protected for a long time if they work. On an asset-by-asset basis, depending on the asset itself and Earth AI’s cash position, it can decide whether to collect royalties, sell assets to larger players, or spend the capital to mine the value themselves. And as it discovers and develops new assets, it can build up a valuable set of data and experience that **compounds**.
+
+If tech is going to have the impact on the economy that [I think it is](https://substack.com/redirect/35d4075b-27b1-4389-b04e-61444202cd66?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), I believe that many of the biggest winners will be [Techno-Industrials](https://substack.com/redirect/76a92edb-cddf-41a0-acb0-1790aa94fcf2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) (many of which will need a lot of critical metals fwiw) like Earth AI that attack old markets with lower costs and higher margins by vertically integrating around a technological advantage.
+
+Investing in [Techno-Industrials](https://substack.com/redirect/76a92edb-cddf-41a0-acb0-1790aa94fcf2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) means getting comfortable with different business models. That’s what I love to do, and that’s what we’re going to do today.
+
+We don’t talk about mining very much in tech, other than to say that we’re going to need a lot more resources to grow, so we’ll go deep on the industry, its dynamics, key players, tech companies working to improve it, Earth AI’s approach, and more in this piece.
+
+It’s going to be a **deep** dive, so before we do, I want to lay out the Earth AI thesis as clearly as possible.
+
+Exploration is a very lucrative business when it works. Explorers can sell feasible deposits to miners for hundreds of millions or billions of dollars. But currently, exploration is a risky, hit-or-miss business, because most of the low-hanging mines have been mined, success rates are low, and test-drilling is expensive and slow. Explorers either fail and go bankrupt, or succeed and cash out. In either case, they can’t invest in innovation and don’t accumulate advantages with scale.
+
+You can think of the business formula of an explorer as something like:
+
+
+
+Using AI, Earth AI has shown early signs that it can improve the **success rate**.
+
+It has a 75% success rate versus an industry average of 0.5%, with three discoveries in its first four attempts (and they still think they can prove out the fourth, which was paused due to drill issues and COVID).
+
+Using its MLD system, Earth AI has proven that it can lower the **cost to prove** and **speed up timelines**.
+
+Already, its custom-built Mobile Low Disturbance system has shown that it can drill in a quarter of a time for a quarter of the cost compared to drilling contractors.
+
+To appreciate how big a deal that is, consider how much money it costs and how long it takes to explore enough sites and find one that is worth mining, based solely on drilling costs and time for simplicity’s sake:
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ced2fdc-b609-4e6a-b2fa-1994db90a408_908x439.png)](https://substack.com/redirect/5ed1c73e-5b37-4e94-b637-77941f2fbfc3?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Data sourced from S&P Global, Minex, Opaxe, Earth AI historical data and analysis*
+
+Getting a deposit past feasibility and into construction means that the explorer can typically sell it to a miner for somewhere between $500 million and $2.5 billion.
+
+At the industry average 0.5% success rate and 6 months per attempt, it would take a collective $1 and 232 explorer-years for one mine to start making money. Since there are thousands of explorers in operation, this shows up as ~45 discoveries per year, although the odds of any *particular* explorer finding a feasible deposit in a year are very low.
+
+The $1 billion cost per constructed mine seems outlandishly high, but Minex pegs the cost of each discovery worldwide at $218 million, and one in five discoveries gets to construction.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F74659050-de04-4b75-9c31-f541a8c7c5c3_908x496.png)](https://substack.com/redirect/4a57f547-8b6d-446c-92e1-882752b216fa?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Minex*
+
+The main problem isn’t that each particular attempt costs too much, but that there are so many unsuccessful attempts that the *average* cost becomes unattractive. For context, last year, 2,235 explorers with a $12.8 billion budget drilled 53,582 drill holes across 15,515 projects per [S&P’s World Exploration Trends Report](https://substack.com/redirect/904d3f79-5f4a-47a0-8cae-12d9760b394b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). And all that work led to ~45 new discoveries. As S&P wrote in the report:
+
+> *As discovery rates for key metals such as gold, copper, and nickel have yet to pick up, **the increased focus on greenfield exploration remains necessary to find the deposits that will meet future demand.***
+
+
+At its 75% success rate and 3 months per attempt, even assuming the same cost per attempt, Earth AI can get to construction for $3.1 million in 1.55 years. (Again, this is just based on drilling time; actual timelines will be longer as Earth AI works with external consultants on resource definition and feasibility, but will compress as it brings those in-house.) Earth AI’s first discovery cost $2 million, its second cost $300k, and its third will cost even less. It’s safe to assume a budget of $500k will safely cover all discovery costs given the current costs and projected cost declines.
+
+A 150x improvement from 0.5% to 75% seems crazy, but Earth AI is at the leading edge applying AI to mineral discovery. New exploration technologies historically yield rich veins of discoveries, just as radiometry created a boom in uranium discoveries and seismics did the same for oil and gas.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F82a830f1-aaa2-4f87-97ac-b76ff3091f3c_908x515.png)](https://substack.com/redirect/eba56b94-8d39-4786-8634-cd0e0fb65789?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Earth AI Deck*
+
+The advantage won’t last forever, so speed is important, but they have a valuable head start. And before you ask, this isn’t a general-purpose LLM that gives plausible-sounding answers, but a deep neural network that generates repeatable, high-precision predictions. If you feed the same data to ChatGPT, you’re going to waste millions drilling plausible-sounding predictions.
+
+But everyone says they have or can build a model. Proof is key. On a shoestring budget, with one old rig traveling around Australia, **Earth AI has made three discoveries in the past 6 months (both Lead and Silver were at the same project, Sandover, so we’ll count them as one)**.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4db1e372-ea81-412c-b96b-22f196155784_908x375.png)](https://substack.com/redirect/0455b27c-0210-4073-94f3-e42f66ec58bf?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Earth AI Deck*
+
+While it will require continued success to get high confidence in those success rates and attempt times, even if they remain in the same order of magnitude, it reshapes the way metals exploration operates: **from a high-risk speculative venture to a predictable, repeatable one.**
+
+That has implications in the way you can run an exploration business. If you’re praying for a single feasible deposit, it’s hard to invest in the future. If you’re planning to build a machine that prints new discoveries with high-confidence, and can return ~100x on each successful mine, you’re incentivized to invest as much as possible to improve that machine.
+
+In the same way that SpaceX doesn’t just change the cost of launch, but changes the nature of what you can launch into space and the iteration speed at which space startups can operate, infusing technology into the exploration process changes the shape of explorers. As an example, you may need fewer of the dwindling number of PhD geologists and geophysicists when you can just go out and drill cheaply and quickly.
+
+As such, Earth AI is **vertically integrating** to make more targeted discoveries, prove them out more quickly, and retain upside when they do. When it succeeds, it can sell stakes and reinvest cash into better models and more MLD systems, spinning the flywheel.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c839811-8386-4309-8d9d-d393eb0cc3d5_908x594.png)](https://substack.com/redirect/453f904f-1628-41d8-9d0a-73a0e0b464ec?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Vertical integration also means that Earth AI can capture more of the value it creates at the early stage of the mining value chain. Given the industry’s structure, SaaS products and services businesses like surveyors and drillers get paid for their work and then dismissed, whether the work is successful or not; by integrating those pieces, and being confident enough to take risk on its own balance sheet, Earth AI is able to own its own deposits and command royalties from partners.
+
+Given the fact that mine stakes last as long as the mine is producing, with each new discovery, Earth AI adds to a portfolio of assets that it can monetize by selling stakes in projects and by retaining ownership of a percentage of their output for the duration of their existence. **The average mine generates roughly $450 million per year in revenue and produces for 25 years.** That becomes an insanely cash-generative business that accelerates over time.
+
+The simplest way to think about Earth AI’s business is that it can:
+
+* Improve success rates and time to prove using their Mineral Targeting Platform (MTP) and Mobile Low-Disturbance (MLD) drilling system to make more discoveries and prove them more quickly for millions instead of hundreds of millions of dollars.
+* Sell majority stakes in their deposits for hundreds of millions of dollars and retain ~20% stakes in the ongoing output of the mine.
+* Reinvest the cash back into more MLD systems to increase the number of discoveries.
+* Sell majority stakes in *those* deposits, and reinvest that cash into more drills and discoveries.
+* Retain ~20% stakes in a growing number of producing mines while building up a strong balance sheet and armada of drilling systems.
+
+With the growing demand for critical metals to support the energy transition, **if Earth AI is right that it can improve success rates and drilling time and cost, it will have a license to mine money.**
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcd0deaba-4242-4bf8-9df7-339643c06a91_908x465.png)](https://substack.com/redirect/a3534f53-d946-418c-b62d-98b67340b30a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Earth AI Deck*
+
+With that in mind, we can go back to the beginning, to understand the mining industry Earth AI is attempting to modernize.
+
+### **How Mining Works**
+
+It is said that prostitution is the oldest profession, but mining was already 41,000 years old when prostitution was still in diapers.
+
+The Ngwenya Mine, located in the western part of Eswatini (formerly known as Swaziland), is considered the world’s oldest known mining site. Radiocarbon dating of charcoal found in its mine shafts suggests humans began mining the site 43,000 years ago.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe99a2ff-d71f-4aa8-b7c3-92ed10cbf287_908x584.png)](https://substack.com/redirect/6490a442-a70f-41ce-885c-aa9dd08ca0da?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Ngwenya Mine, Mail & Guardian*
+
+Early Man used stones and animal horns to dig shallow pits and extract specular haematite from Ngwenya for use in cosmetics and rituals. The industry has expanded and matured since then, but at its core, the **mining remains the process of extracting valuable minerals and metals from the earth**.
+
+Just what we pulled from the earth, and how we were able to process it, has been so important to human progress that it’s defined ages.
+
+During the Neolithic period, or **Stone Age**, early humans mined flint and stones for use in tools and weapons. The Chalcolithic period, or **Copper Age**, began around 5500 BCE with the discovery of copper and its use in tools and weapons, and the **Bronze Age** kicked off roughly two millennia later as humans discovered tin and realized it could be alloyed with copper to create a harder and more durable metal. Another two millennia later, the invention of [Bloomery smelting](https://substack.com/redirect/399b93b0-7f3b-4084-9b14-1fb20a6f7323?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) brought humanity into the **Iron Age**. And while we stopped naming ages after metals thereafter, our ability to discover, alloy, and use new metals has paced our progress. The Bessemer and Hall Héroult processes, which I wrote about in *[The Techno-Industrial Revolution](https://substack.com/redirect/76a92edb-cddf-41a0-acb0-1790aa94fcf2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*, shaped the Industrial Revolution by making **Steel** and **Aluminium**, respectively, cheap and abundant.
+
+Through most of those ages, humans mined like the ancient Eswatinians, using their muscles and simple tools to extract materials close to earth’s surface. But each new discovery, combined with human creativity, led to the next. New discoveries unlocked not just new levels of human civilization, but new ways to mine and make even more metals.
+
+Mining’s progression has been an evolution, but if you had to pick a date for the birth of modern mining, you might pick 1867, when Alfred Nobel, the Nobel Prize guy, discovered dynamite.
+
+Dynamite let miners blast through hard rock safely and efficiently to access deposits that were previously too difficult to mine, made mining operations more economically viable, and enabled the expansion of mining across the earth into new areas and further beneath the earth into deeper shafts and tunnels with richer deposits.
+
+This is a pattern that has played out across the history of mining. I’m admittedly new to the space, but it appears that this cycle that plays out over and over again:
+
+* **Discovery and exploitation of easily accessible deposits:** Miners identify and extract resources from deposits that are relatively easy to find and mine using existing technologies and methods.
+* **Depletion of easily accessible deposits:** As the most accessible deposits are exhausted, miners face increasing challenges in finding and extracting new resources economically.
+* **Technological and process innovations:** To overcome these challenges, the mining industry develops new technologies, techniques, and processes that enable miners to discover new deposits, access harder-to-reach resources, and improve the efficiency of extraction and processing.
+* **Expansion into new frontiers:** Armed with these innovations, miners can explore and exploit previously inaccessible or uneconomical deposits, expanding the scope of mining operations and adding to the available resource base.
+* **Repeat**
+
+A more familiar example of the same concept from the oil and gas industry may be **fracking**. A couple of decades ago, the world worried that we were about to reach peak oil, after which we would begin running out of black gold. That has not happened. It turns out that we weren’t approaching peak oil, but the peak in oil we could extract profitably using the industry’s then state-of-the-art methods.
+
+Same thing here. We are not running out of metals and minerals, despite the decline in new discoveries, but of metals and minerals that we can identify and extract *profitably*. Now, as always, creative people will invent new technological solutions to remedy the situation. Earth AI is one of the companies doing that on the exploration side, and there are others on the mining side, including startups automating mining equipment and ore-sorting, and others, like KoBold, finding new deposits on existing minesites.
+
+All of the innovation comes back to discovering and mining deposits **profitably**. To understand which types of deposits miners might want to buy, then, we need to understand the economics of a mine.
+
+### **Mine Economics**
+
+If you understand the economics of a mine and the factors that influence its profitability, you can skip this section. For the rest of us, you can think of the basic business equation of a mine as something like:
+
+
+* **Price of Metal:** these are commodities, and the price is set by the global market.
+* **Amount Mined:** how much of the metal are you pulling up in a given time period.
+* **CapEx:** includes the costs of exploring, developing, and constructing the mine, amortized over the life of the mine.
+* **OpEx:** expenses to run the mine, including labor, energy, materials, equipment maintenance, and logistics to get the metals to market.
+* **Refining & Processing Costs:** turning the raw material into marketable form by separating and purifying the valuable metals from the rock and dirt it comes up in.
+
+The price of the metal is somewhat out of the miner’s control, although miners can choose to sit on deposits until prices rise to the point at which it becomes profitable to mine it. Everything else is within the control of the miner, and miners choose to mine deposits based on a number of factors that impact their profitability.
+
+Those factors include:
+
+* **Size of the Deposit:** The volume or tonnage of the ore body is crucial because it determines the life of the mine and economies of scale, and thus how much capital the miner can invest in the site. Explorers and developers determine this by drilling a lot of holes increasingly far from the initial hole to determine how wide and deep the deposit is during feasibility, and miners confirm this with their own team of geologists.
+* **Grade of Ore:** This is the concentration of the valuable mineral or metal within the ore, typically measured as a percentage or in grams per ton (g/t). Higher grades are better, because they reduce OpEx, refining and processing costs, and environmental impact.
+* **Depth of Deposit: S**hallow deposits are generally cheaper and safer to mine, often suitable for open-pit mining. Deep deposits require more complex and expensive underground mining techniques, increasing CapEx and OpEx.
+* **Accessibility and Infrastructure:** Proximity to roads, power sources, and ports reduces transportation and energy costs. Remote locations typically mean the miner has to run their own roads and power, increasing CapEx and OpEx. The Biden Administration is [spending $2.3 billion on an African railway](https://substack.com/redirect/18ca28cc-8a85-48a0-ab2b-27e4c3e0a536?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) to get critical metals out of Zambia.
+* **Political, Regulatory, and Environmental:** Political stability is crucial to the long-term viability of a mine; you don’t want to spend hundreds of millions of dollars only to have a new regime kick you out of their country. Getting permits and approvals can be more or less expensive, time-consuming, and existential depending on the environmental impact and local regulatory environment.
+* **Capital:** These are expensive projects that often require dedicated project financing, and the cost (and availability) of capital is a key lever on profitability.
+
+Whew. I just threw a lot at you, but each thing I listed is crucial to understanding whether a mine will be profitable, and therefore, how valuable a given discovery might be for a company like Earth AI. **The ideal discovery is a large, high-grade deposit, close to the surface, in a politically stable and regulatorily friendly locale with easy access to infrastructure.**
+
+Some challenges facing less-than-ideal deposits are being addressed by technology: methods to dig deeper more cheaply, automation, and better processing and refining. But the easiest way to make a mine profitable is just to discover more ideal mines and prove more quickly that they’re ideal, which is where Earth AI is focusing.
+
+Earth AI is an **Explorer**. Understanding where that fits into the mining industry value chain is the last bit of mining background we’ll need to dig into before we get to the Earth AI story.
+
+### **The Structure of the Mining Industry**
+
+Like the pharma industry, mining features different types of companies that operate at different stages in the development cycle, and often work with, or sell to, each other. There are three main categories of companies:
+
+1. **Explorers:** Like wildcatters for metal, they focus on discovering and exploring new mineral deposits. Their goal is to identify promising mineral deposits and then either sell the property or partner with larger mining companies to develop the resource.
+2. **Developers:** These companies have identified a mineral deposit and are working on developing it into a mine. They may be in the process of securing permits, financing, and constructing the necessary infrastructure to begin mining operations.
+3. **Producers:** These are mining companies with anywhere from one to multiple operating mines generating revenue. Mid-Tier Producers might operate one or a few mines, and focus on a particular region or metal. Major Producers are global, operating tens of mines across a diverse portfolio of assets, and can reach market capitalizations exceeding $10 or even $100 billion. Examples include companies like BHP, Rio Tinto, and Vale.
+
+There is also a flotilla of ancillary companies that supports the industry with tools, services, and money.
+
+
+But in terms of actually finding new deposits and getting them out of the ground and into the market, those three categories are the big ones.
+
+[![](https://substackcdn.com/image/fetch/w_1914,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62d3592e-b5c4-4024-ab37-2d264570f232_957x708.png)](https://substack.com/redirect/2f21a834-4e20-43f1-8a1a-f09e119cf636?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Often, the same company can play multiple roles. An explorer might become a developer once they make their discovery, and may even hold on all the way to becoming a producer.
+
+Pretium Resources began as an explorer for gold deposits in British Columbia, discovered the Brucejack mine, developed it, sold a 4.8% stake to Newcrest Mining, and then sold the remaining shares to Newcrest for $2.8 billion in 2022.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e8ecaee-88f0-402f-ab35-0d9f161834b2_908x517.png)](https://substack.com/redirect/98bb27b9-833e-4c22-ba99-60d4b0ed4a40?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Brucejack Mine in British Columbia*
+
+Just as often, explorers make a discovery and flip a stake to a developer, which handles resource definition and feasibility, and may even start to plan construction on the mine, before flipping it to a producer.
+
+Because the same company can play multiple roles, another way you might see the industry broken down is into three categories based on size: Juniors, Intermediates, and Seniors.
+
+* **Juniors** are typically explorers and may do a little development. They try to make discoveries, which they can develop themselves or sell to larger players.
+* **Intermediates** have advanced beyond the exploration stage, and typically have at least one operating mine. They make revenue from production, but aren’t as large as Seniors. Often, they’re focused on one region or type of metal. To grow, they might focus on expanding their existing operations or acquiring new deposits.
+* **Seniors** are the largest mining companies, with multiple operating mines across the globe and significant production capacity. They engage in all activities: exploration, development, and production, and also expand by making new discoveries at existing minesites or acquiring new projects to expand.
+
+However you break it down, this globe-spanning enterprise [produced](https://substack.com/redirect/92ab3d92-7500-45e0-b224-cfd15881e641?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) almost 2.2 billion tonnes of metal in 2022, nearly 90% of which was iron.
+
+[![](https://substackcdn.com/image/fetch/w_1832,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff760d68e-3770-451f-8986-3a17b547b866_916x610.png)](https://substack.com/redirect/4e4983d6-c133-42a3-90e9-f302c37d70cd?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*[Visual Capitalist](https://substack.com/redirect/92ab3d92-7500-45e0-b224-cfd15881e641?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*
+
+But as discussed earlier, while production from operating mines has been steadily increasing, discovery of new mines has been on the decline.
+
+That’s the problem that Roman Teslyuk set out to solve.
+
+### **Roman Teslyuk: Geological Olympian Adventurer**
+
+If the mining industry that Roman Teslyuk found when he discovered geology as a college student in Ukraine was 43,000 years old, well, that didn’t surprise him. The industry *felt* 43,000 years old. For something so critical, it was all very manual.
+
+Roman grew up in Ukraine, somewhere between middle class and poor with “no prospects for any future,” as he described it. He was an OK student, not really interested in school, so when he got to university, he picked geology because it seemed outdoorsy and he liked rocks. He liked rocks “for what they mean, not how shiny or beautiful they are. Rocks are just products of their environment, but they are the world’s longest-storage memory devices. They store information about the environment they were formed in for millions or billions of years.”
+
+It turned out that Roman had a particular knack for accessing that information. He started focusing in class, quickly becoming the best geology student in the school. His second year, he traveled to the Ukrainian Geological Olympiad, a competition among all of the country’s top geology students, and placed third. The next year, when his school couldn’t find a professor to take students to the Olympiad, Roman volunteered to go as the chaperone. Since he was there anyway, he competed again, casually, and **won the whole thing**.
+
+Being the best geology student in Ukraine comes with a different set of job prospects than, say, being the best computer science student at Waterloo.
+
+As graduation approached, Roman looked for a job in the industry, and he found one at a gold mine in Kamchatka. “If you just want to come by,” the person on the other end of the phone told him, “we’ll find work for you.”
+
+“If you just want to come by” was doing a lot of work. To get to the site, Roman had to fly from Ukraine to Russia’s Kamchatka Peninsula, in the far east of the country. Roman described it as “all the way north of Japan,” but really, it’s much further east than Japan. It’s all the way north of New Zealand. From there, he boarded a “Yak,” the old Soviet Yakovlev-42 plane, headed even further north to Tilichiki, and from *there*, he boarded an even older Soviet helicopter for a 7-hour flight, inclusive of two refueling stops, to the gold mine in the middle of the tundra.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4d257cbd-e228-458d-a09b-ed51107affa5_908x417.png)](https://substack.com/redirect/1c81e813-cb29-4f0c-808d-1752dda1dd73?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Roman’s Commute to His First Job, Felt Map*
+
+The place Roman found himself was much closer to Sarah Palin’s backyard in Alaska than it was to Ukraine. They got supplies in one of two ways: during the winter, when the water froze, special trucks could reach the site via “winter roads”; in warmer months, a ship would come into a port with the second most extreme tides in the world, and anchor until the tides went out and left the ship beached, at which point trucks were dispatched to retrieve food and other comforts from the vessel. Roman had to carry a shotgun with him in the field in case of bears, which he encountered plenty of times, but never at a close enough distance to warrant more than a couple warning shots. Mainly, he used the shotgun for scale in pictures
+
+[![](https://substackcdn.com/image/fetch/w_2306,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F618d6184-210c-42cf-9e8d-dbc5bfba5859_1153x441.png)](https://substack.com/redirect/972d9639-e5af-4412-bae6-bcc505e19701?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+All to say, this was as much an adventure as a job. The original “remote work,” if you will. Roman loved the rocks, though, so he went, and he worked at the mine for two months until his new employer told him the bad news: **they couldn’t afford to pay him for the work he’d done**.They would, however, pay for his trip back, the reverse of the odyssey he’d undertaken less than one fiscal quarter earlier.
+
+But Roman wasn’t ready to go home yet. So he got on the phone and called everyone he knew, striking gold, as it were, with an alum of Lviv University who ran an exploration company in Vladivostok, and told Roman he’d hire him if he “Came over.” Easy. He took the ticket his old employer gave him, exchanged it for the next flight to Vladivostok, spent the night sleeping in the Kamchatka airport (all the hotels were booked, but the airport let you sleep there if you didn’t mind being locked in), woke up, and headed off on his next adventure.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbfad9717-ee0c-44ba-9438-e51f38b51254_908x296.png)](https://substack.com/redirect/09bc6f59-1f53-425b-9db0-d22bced35453?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*From Kamchatka to Vladistovok, Felt Map*
+
+Vladivostok was relatively cushy to get to; *actually* just north of Japan, a 4-hour flight from Kamchatka, and a quick 4-hour drive from the North Korean border; it even has its own international airport.
+
+Roman worked in the forest outside of Vladivostok for a year. Work meant walking the area with a hammer and tools, looking for mineralization and mapping the rocks to understand where the minerals might be. There, he encountered at least five snakes daily, and the occasional bear.
+
+[![](https://substackcdn.com/image/fetch/w_2074,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb3f3bc4e-5250-4405-8187-d53742d0a3c9_1037x690.png)](https://substack.com/redirect/d08bcdff-fc5a-497f-9408-32e7c5be98d8?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Roman (r) and one of the five snakes he encountered daily (l) in Vladivostok*
+
+The Vladistovokan bears were built different: hungry (no arctic rivers full of salmon) and therefore angry. “I had a shotgun in the tundra, but not in Vladivostok, which turned out to be a problem,” Roman recounted. “I had to literally run away from a bear who tried to attack us. The story is…”
+
+> *I was sampling soil on a E-W line with a local field assistant. A bloke of 40 years of age from a nearby village who, as it turned out, had never seen a bear. I had seen many in the tundra and had two close encounters, when solo mapping geology 5-10 miles away from the mine. In one case, I just had to step back one step and we went different ways; the other, I fired a few shots in the air and that made the bear go away. But not this time.*
+>
+> *We were walking back to camp in heavy downpour through the forest when I faced the bear 20 feet away from me. I guess the rain was too loud for it to hear us. Three problems. First, we didn't have a gun or any bear deterrent devices; second, my usual method of stopping and taking one step back to show that I didn’t want any trouble was completely ignored by the bear who started approaching us; and finally, the local assistant that I had, seeing a bear for the first time in his entire life, first froze, and then, when the bear roared, started running away..doing exactly what they say not to do in the textbooks!*
+>
+> *So that left me in between the running man and the bear who decided to chase him. I had no hope, but decided to run too, knowing that I was indeed the slower one with a larger backpack full of samples...I was waiting for the "tap on the shoulder."*
+>
+> *And then, the luckiest thing happened. **I hit a tree with my backpack,with such force that my straps "ejected" and I broke free from the weight and could run faster.** I never looked back and never wondered what happened to the bear: did the backpack stop him? or did he just want to scare us away? No one will ever know.*
+
+Your CEO could never… Anyway, Vladivostok was beautiful, but after a year in the forest, Roman decided he wanted to advance, and not just practice, geology. It was time to get his PhD. He “applied to 100 places, twice” before getting into Sydney University, home to one of the top geology programs in the world, on a full scholarship.
+
+This was it. From humble beginnings in Ukraine, to the tundras of Kamchatka and the forests of Vladivostok, Roman was finally getting to do research on the cutting edge of geology in a warm, western country!
+
+The thing was, when he got there, the research was deeply unsatisfying. He quickly realized that the work they were doing wasn’t solving any fundamental problems in geology, like how to better identify new deposits. Instead, they were applying traditional tools to describe the same old rocks.
+
+Roman wanted to figure out how to do it better, so he read a ton of papers, manually sifted through reams of data. As he did, he came to a troubling realization: **geology as practiced wasn’t really a science**.
+
+Two papers with the same data on the same rock formation would propose two totally different and contradictory theories. They were *opinions* that neglected the data. “When you have two contradictory papers on the same data set,” he told me, “the science stops being science.” Even worse, it was political. He couldn’t even choose which theory he agreed with based on the data; he had to quote the one that his advisor allied with. “If you already know what the party line is,” he asked, “why even do the research?”
+
+He hadn’t roamed the Kamchatka tundra with a shotgun, braved the Vladistovokan forests *without* a shotgun, and moved halfway around the world to play politics. The man just loved the rocks, and he wanted to understand what they were trying to tell him. So he started pulling all of the publicly available data – which is around 400 million data points in Australia’s open records alone – taught himself data science, and built something in a “half-automated way” that reclassified rocks based purely on all of the data available.
+
+If you’ve ever worked on a project like that – built a model, built a product, built a website, whatever – that finally starts producing real results after months of toil, you understand the excitement Roman felt. This could change geology! Unfortunately, though, it couldn’t change *geologists*.
+
+When he presented his findings to his department, they told him, “This might be interesting to some of the computer people, but it’s not interesting to us.”
+
+At that point, Roman came to the same realization that thousands of unintentional entrepreneurs have come to: if he wanted to actually change how things worked, he was going to have to start a company.
+
+What Earth AI is today is the result of seven years of trial, error, twists, turns, adventures, misadventures, and grit. A PhD student doesn’t set out to build a vertically-integrated exploration company; he just wants a better way to find the deposits the world needs. But once he gets out there, he realizes that software alone won’t do the trick, that services are a bad business, that the industry evolves more slowly than the rock formations it studies, and at some point, he says, “Fuck it, we’ll just do it ourselves.”
+
+That’s the Earth AI story, and it’s worth exploring in full. Hard tech is called hard tech for a reason. It’s really hard.
+
+Roman started Earth AI to do what seemed like the obvious thing to do, particularly in the software boom years of the 2010s: sell his model as a service to explorers looking for new deposits.
+
+The one-line pitch that got the company into Y Combinator sums up the early mission: “**Helping mining explorers make new mineral discoveries via the first ever cloud based AI-powered Web platform.”**
+
+Easy, right? That’s just what you do. Think of that high margin revenue flowing in while you sit comfortably at a computer.
+
+He’d already built a lot of the model, and freed from the constraints of coursework, he refined it, pulling in all of those 400 million data points to make predictions about where explorers might find which types of metals and minerals. This was the first version of Earth AI’s **Mineral Targeting Platform (MTP)**.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5fbb9789-700c-432b-b76f-76359bfa4fac_908x477.png)](https://substack.com/redirect/90063411-1d59-4b1f-8945-2d0bc7f491a5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Mineral Targeting Platform via Earth AI Deck*
+
+Then, like Chris Power in the [early days of Hadrian](https://substack.com/redirect/687918d5-d86d-485e-8b9f-f7f77d39e2e2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), he locked himself in a room with a list of old school companies – in this case, all of the explorers listed on the Australian Stock Exchange – and got to cold calling.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee911c7a-5c1e-4a57-8ff6-cdfff0ec7d87_908x515.png)](https://substack.com/redirect/2e430a8c-079a-4eb8-af62-29643cbde7cc?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+And it actually worked. He went through the list alphabetically, and got his first hit while he was still in the A’s - ActivEX. He offered a free trial, after which they’d pay $3k per month, and they actually converted!
+
+Fueled by the early success and inspired by Elon’s work at Tesla and SpaceX, Roman decided it was time to drop out and go all in on this thing. He raised $600k from AirTree Ventures and Blackbird Ventures, two of the top early stage venture funds down under, and transitioned his visa from research to business. Fun fact: Roman received the first entrepreneur visa in Australian history.
+
+Over four months, Earth AI hired a team of data scientists and ran 80 pilots for customers, an insane pace that left little room for sleep but produced a ton of learning very quickly.
+
+The biggest lesson was this: **software was not the right model for this business**.
+
+The industry moved too slowly, the sales cycle was too long, and it simply wasn’t a big enough market to build a really big software business. Some companies paid as much as $50k for the analysis, which was great, but it wasn’t repeatable. And what’s worse was that, even though they paid good money, most didn’t actually put the analysis to work. Only four of the 80 pilot companies actually went out and sampled the sites, and those after weeks or months of Roman’s prodding. All of which meant that Roman didn’t know if the analysis actually worked!
+
+Alright, so if it wasn’t a software business, what if they moved to the next level of the stack and actually went out and did the sampling themselves?
+
+That’s what they did. Bought a truck, went out in the field, surveyed, sampled, and delivered samples to customers. And once again, the customers said, “Thanks” and then “goodbye.” They treated Earth AI as a surveying company, and had no intentions of keeping their surveyor abreast of any further developments.
+
+Roman summed up what they’d learned:
+
+“Software provider: shitty, not a valued business.
+
+Surveying contractor: shitty, not a valued business.”
+
+Up next: “Let’s go out ourselves and test our system to prove that it works.”
+
+It was a risky move. He’d spent $200-300k of the original $600k, then raised another $800k. But the company felt like it was perpetually running out of cash, and digging wasn’t what the data scientists had signed up for. Some quit, the rest Roman fired.
+
+Earth AI went down to two people, then hired Isabella Sykes, a University of Sydney geology student who’s now the company’s COO. Then they hired more geology students, put together all the gear they’d need to go out and test their sites, and got out there, with Alice Springs in the Northern Territory, smack dab in the middle of the country, as the base camp.
+
+Over the next six months, the small team of geologists **tested 132 sites**. Two geologists would take the gear-loaded car out from Alice Springs into the desert for two weeks at a time, survey, and bring back what they found to analyze while another team of two hopped in the car out to the desert for another two-week stint. Non-stop, for six months. It was exhausting work, but it worked!
+
+“We found 35 brand new prospects with mineralization that hadn’t been found before,” Roman told me. “We went to an area with no historical data, predicted new prospects, and found them.”
+
+“Holy shit we’ve gotta stake all of this,” he added. So Earth AI staked 9 exploration licenses with the government, giving the company the rights to whatever they dug up for as long as they could dig.
+
+Surveying, though, is just step one in the process. You’re essentially mapping the area, seeing mineralization that suggests there might be deposits beneath the surface. To produce any real value, you’ve got to drill.
+
+Traditionally, the way you’d do that is to hire drilling contractors. But drilling contractors are slow – it can take them 6 months to get set up and drill the holes – and expensive – around half a million dollars. That wouldn’t work. Earth AI had neither the time nor the cash.
+
+So in parallel, the company did two things: tried to raise money and built its own drilling rig.
+
+First, the money. Roman flew out to Silicon Valley three times in five months. He met a lot of people and raised nothing. Finally, on the third trip, Taver Capital gave the company a convertible note. Then they applied to Y Combinator, and got in! After that, everything changed. In 2019, Earth AI raised $3 million dollars from funds including Taver Capital, Fifty Years, and Cantos.
+
+Then, the drill. Roman searched around for something cheap, found an abandoned rig for $30k, flew to the site to check it out, confirmed that it did indeed look like a drill rig, and bought it.
+
+[![](https://substackcdn.com/image/fetch/w_1960,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab6b9731-115a-4325-b14e-46f887e02c30_980x235.png)](https://substack.com/redirect/fd73334e-fe0a-4a48-8d18-e47c76c8e2e4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Old Rig → Schema → Refurbed Rig*
+
+Roman and the rest of the team were geologists, not mechanical engineers. And there’s no book on how to build a drilling rig. So they hired drillers, learned from them, took the rig apart, understood how it worked, put it back together, refurbished it, and modified the design for their needs. By March 2019, the rig was ready, and they realized they needed logistics equipment.
+
+Logistics are incredibly important for drilling. Imagine setting up a temporary factory in the middle of nowhere, hours from the nearest small town. Deposits don’t care how close they are to humans; they were there first, and you need to go wherever they are. To do so, you need everything: food, water, housing, bulldozers, semis, cranes, vacuum trucks, and lots and lots of parts. Any number of things might snap, bend, or crack when you’re drilling into mysterious hard rocks. Many a drill has been delayed by the journey back to civilization to get the one little part in the whole system that broke, and without which drilling can’t proceed.
+
+The smaller and more remote a project is, the more costs climb, almost exponentially. It’s not unheard of to pay almost $1,000 per meter for deep greenfield drilling.
+
+That might work if you’re a traditional explorer just looking to make one discovery – or, if it doesn’t, what’re you going to do about it? – but the Earth AI team thought it was crazily inefficient to rely on flaky contractors and cause so much unnecessary environmental disturbance for some tiny rock samples.
+
+They set out to address the issue, and quickly realized that to build a single drilling rig, you need to build a whole drilling system. Like a game of real-life Factorio, Roman became obsessed with designing a drilling operation that was as efficient as possible – no aligning contractor schedules, no waiting for parts, better equipment, the whole nine yards.
+
+So that’s what Earth AI did, bringing all of the resources and spare parts they needed with them to the middle of nowhere in the name of speed, efficiency, footprint, and cost.
+
+Of course, it didn’t work on the first try. They dug three holes with it and quickly realized that gen 1 of the drilling rig wasn’t competitive. It was too slow and expensive. Roman now calls it “a shitty rig.” But they had cash in the bank and a new shovel full of lessons, so they set to work on gen 2.
+
+Then the **BFC** hit.
+
+“You know the Global Financial Crisis, the GFC?” Roman asked. “We had the BFC: bush fires, then floods, then COVID.”
+
+Flush with cash and targets, Earth AI had hired a team of 25, mostly geologists and drillers. When COVID quarantines locked down Australia, the team was stuck in field trailers, incinerating cash, and unable to operate. So once again, Roman had to cut, bringing the team back down to 2-3 people by mid-2020.
+
+When the quarantine lifted and things started reopening, he rehired quickly, but by his own admission, he hired a bunch of really smart assholes. There was too much drama and internal competition. Then COVID came back, and brought the quarantine back with it. Team members were locked in their apartments for five months, unable to travel more than five miles from their homes. Out went the smart assholes while Roman and Isabella waited and planned.
+
+In mid-2020, while locked down, they raised $2.5 million from existing investors and a couple of new ones, brought BHP Chief Commercial Officer Arnould Balhuizen onboard as an investor and advisor, and did three main things:
+
+First, they finished working on the next gen model of the drilling rig. New rig, five trucks, five trailers. They would call it the **Mobile Low Disturbance System (MLD)**.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc598d623-4f39-48e4-9124-09eded232320_908x518.png)](https://substack.com/redirect/2d7d0834-3b6e-48e2-a239-0416b9427a53?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Mobile Low Disturbance System via Earth AI Deck*
+
+As is often the case, bringing capabilities in-house involves managing a lot of complexity that you can control in order to limit the amount of complexity you can’t. While bringing everything you need sounds like a logistical nightmare, it’s nothing compared to trying to coordinate and schedule third-party contractors to do the same. They thought they might be able to make the whole thing 2x cheaper, which they hit, then 3x, which they hit, before finally landing on a system that could **drill for one-quarter of the cost and one-quarter of the time**.
+
+Second, they rethought how the business worked so that they could scale their impact more quickly than their costs. They came up with **Exploration Alliances**, through which they would partner with explorers to search and drill existing sites. The explorers would pay most of the costs, and Earth AI would receive a 2-3% royalty on any discoveries they made.
+
+Third, they decided to explore in New South Wales, Sydney’s state, because they were forced by lockdowns to stay within state borders. They combed their database for predicted deposits that no one else owns, and settled on Willow Glen. In early 2021, they applied for a license, and by late 2021, they received it. On the first trip out, they realized that there was something there.
+
+Finally, in 2022, the quarantine lifted and drilling restarted. Earth AI signed Exploration Alliances with Legacy Minerals and Kincora Copper, raised $4 million from existing investors led by Cantos, and joined by SciFounders and then signed another alliance with Tivan.
+
+In 2022, Earth AI as it stands today took shape: **a vertically-integrated explorer and driller for critical metals**. And quickly, especially by industry standards, the bets it made started to pay off. Or perhaps more appropriately, they hit paydirt.
+
+### **Paydirt**
+
+Most explorers are lucky if they make one good discovery in their lifetime. Two is excellent. Over the past year, Earth AI has made **three**: one wholly-owned Molybdenum deposit and two via Exploration Alliances.
+
+
+The first time Roman visited Willow Glen and looked at the data, he thought to himself: “There’s this tiny old bit of Moly, I might drill that.”
+
+But drilling is expensive and time-consuming, and money doesn’t grow on trees (although it may flow out of mines), and that’s just not how the industry works. You need to be meticulous. So Earth AI did more surveying at Willow Glen, got distracted, started thinking about drilling for Tungsten or Copper, spent a year crossing t’s and dotting i’s, before all of the signs pointed back to that tiny old bit of Moly.
+
+When they drilled the site late in 2023, they learned that the model (and Roman’s gut) were right. The samples they drilled showed Molybdenum roughly 2x higher grade (0.3% vs. 0.16%) than the world’s leading Moly mines.
+
+[![](https://substackcdn.com/image/fetch/w_1590,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe2575db5-c5a0-4ea4-b405-c5de8d612bb0_795x308.png)](https://substack.com/redirect/70fcf28d-aaea-4125-bdc6-22dba82393e6?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Molybdenum is the eight largest metal by market size in the world, at $13 billion annually. It’s primarily used in steel alloys to improve strength, hardness, and resistance to corrosion and high temperatures, and is also used as a catalyst and a lubricant, and in electronics, missile and aircraft parts, armor plating, and nuclear power plants. Often, it’s mined as a byproduct in copper mining, and Copper/Moly mines are some of the most valuable mines in the world: the average mine that includes Moly generates $2.5 billion in annual revenue versus a 90th percentile annual revenue of $2.2 billion for all mines. The discovery at Willow Glen is primarily Moly, but the team has found Copper there as well.
+
+The first discovery was exciting because it means the model is onto *something*. The question is: how much something? Too little Moly, and the site wouldn’t be economical to mine. Ditto if the high-grade in the first hole’s samples were an anomaly.
+
+If, however, the deposit proved to be real, large, and high-quality, Earth AI might have an asset that could be worth half a billion dollars or more on its hands. So for the first part of 2024, Earth AI has set out to prove that the deposit is real, large, and high-quality.
+
+First, they had the discovery independently audited by [SRK](https://substack.com/redirect/69dbf710-eeed-4805-878e-9ac707ac46f4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), the KPMG of mining, which classified it as “a robust exploration target with recommendations to continue drilling with the aim of defining an economic volume of mineralisation.”
+
+[![](https://substackcdn.com/image/youtube/w_550,c_limit/l_youtube_play_qyqt8q,w_120/-Ln5TGMSc-s)](https://substack.com/redirect/e37360d4-b660-45c4-ada8-2ab680840209?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+So they continued drilling to figure out just how large the deposit is. They do this in a pretty straightforward way: start from the original hole, go 500 meters, and drill. If there’s more there, keep going. The company has been posting videos of the whole process, which are more exciting than text.
+
+[![](https://substackcdn.com/image/youtube/w_550,c_limit/l_youtube_play_qyqt8q,w_120/MWxENnICljA)](https://substack.com/redirect/0bde5236-7228-42cc-af7f-a091bf851336?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)[![](https://substackcdn.com/image/youtube/w_550,c_limit/l_youtube_play_qyqt8q,w_120/E-KcDVaLcEg)](https://substack.com/redirect/51fae6f8-3c5e-4f4d-95ef-84cbdef31ae7?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Long story short: not only did they find Moly 500 meters away, they found even higher-grade Moly!
+
+[![](https://substackcdn.com/image/youtube/w_550,c_limit/l_youtube_play_qyqt8q,w_120/78XUXpewbAo)](https://substack.com/redirect/a4c7fedc-e1f8-43f7-bbfc-d509b0b4b919?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+They haven’t made the next video yet, but Roman told me that the results from the hole 1 kilometer away is even more intense. Three good holes that far apart suggest a large deposit, which is great, because for some metals, grade matters more than volume, and for others, volume matters more than grade; Moly is in the latter camp.
+
+There’s a long way to go between here and feasibility, but with each new successful hole, the deposit gets a little derisked. The next steps are continuing to resource definition by drilling more holes before undergoing a full feasibility study, at which point, if successful, Earth AI might be able to sell the deposit to a miner like Freeport for $500 million to $2.5 or even $5 billion.
+
+Finding a viable deposit on its second project is remarkable in an industry in which success rates are measured in basis points. But Earth AI’s model hinges on making multiple discoveries. What’s even more remarkable is that the Molybdenum deposit was just the first of three.
+
+
+In January, Earth AI showed that its Moly discovery wasn’t a fluke. Through an Exploration Alliance, the explorer Legacy Minerals invited Earth AI to help discover deposits at its Fontenoy site, and after 11 drill holes, it found a Palladium-Platinum-Gold-Copper-Nickel deposit.
+
+[![](https://substackcdn.com/image/fetch/w_1216,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F97ef8970-53e8-4020-84ae-0a37263f8dce_608x805.png)](https://substack.com/redirect/49e1eb4f-bd41-4cbd-b037-48825f360765?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*[Link to Tweet](https://substack.com/redirect/32908554-adb6-4bd3-9699-f1dc107104a6?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*
+
+Interestingly, as at Willow Glen, both the data and Roman’s gut pointed to the rock where the team ended up discovering Palladium, but out of caution and propriety, the team spent a lot of time researching and studying the area and drilling holes before eventually coming back to the Palladium.
+
+Roman compared this early process as something like the early days of the hedge fund [Renaissance Technologies that Ben and David described on Acquired](https://substack.com/redirect/35391d6e-e323-4289-b051-21afa16e2aa5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). Before simply trusting the machines, RenTech built machine learning models on a ton of data and used the outputs to inform human decisions. Over time, the fund learned to trust the outputs directly. Roman sees a similar progression at Earth AI: as they have more drills, and drilling becomes cheaper, they’ll be able to predict and drill. For now, they’re playing it safe.
+
+It took a little more time and money this way, but a discovery is a discovery, and a second discovery is an important milestone in proving that Earth AI’s predictions work.
+
+This was the first Exploration Alliance that Earth AI entered into, so the economics are a little different than newer and future deals. Earth AI and Legacy Minerals split the exploration costs, and in exchange, Earth AI receives a 3% royalty on production from the discoveries. Legacy Minerals can buy back up to 2% at $2.5 million per 1% within the first year.
+
+The next step here is to do resource definition before moving into feasibility.
+
+
+Once is lucky, twice is perhaps a coincidence, three times is a pattern. In February, Earth AI [discovered high grade lead](https://substack.com/redirect/11cd2155-e21e-4eb7-88f5-256145a6898d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) through its Exploration Alliance with Tivan Limited at Sandover.
+
+[![](https://substackcdn.com/image/fetch/w_1592,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd7803524-4dee-4373-afe3-62821618fae5_796x262.png)](https://substack.com/redirect/80cf0a91-72e8-4a5c-8ba9-901cc153b6c2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Three things make this discovery stand out:
+
+1. **Grade:** The lead is high-grade, at 12.2%. Typically, miners mine anything in the 4-6% range, and at 12%, it should be profitable to mine even a smaller deposit.
+2. **Surface:** High-grade mineralization at the surface is rare – most of the shallow finds in stable countries have been mined – but suggests a shallow ore deposit, which would be more profitable to mine.
+3. **Location: The deposit is in the middle of the desert, which is probably why it went undiscovered, but fortunately, it’s located just 5 kilometers from the only railroad that crosses Australia, meaning that logistics costs won’t be a major issue.**
+
+Approval to drill out the deposit should come in May, and the company expects to begin drilling in late May or early June to prove out the discovery.
+
+But that doesn’t mean they’re waiting around. A couple of weeks ago, [Earth AI and Tivan announced](https://substack.com/redirect/94cf3b2a-d752-4a88-a301-f27211d93075?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) that they’d **discovered high-grade silver** just 250 meters from the lead deposit. Like the lead deposit, the silver is high-grade: 469 grams/ton versus the 100-200 grams/ton typically found at the surface.
+
+[![](https://substackcdn.com/image/fetch/w_1216,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F262bcd37-5f78-4fe0-a14d-3fa442c7ffe7_608x881.png)](https://substack.com/redirect/8a3f71c8-9b10-42a3-ac33-4d06642969b4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*[Link to Tweet](https://substack.com/redirect/9c531b39-bda4-4995-81d7-c885861d5a3f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*
+
+For both the lead and silver, Tivan covers all exploration costs and Earth AI receives a 2% royalty, 1% of which Tivan can purchase back for $2.5 million. Today, Tivan put out a statement that further [soil and rock chip sampling](https://substack.com/redirect/7c290ce2-8691-4161-afa8-2bf44405c4a2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) extended the mineralization footprint, and that drilling is scheduled to begin later this quarter.
+
+Tivan’s Executive Chairman Grant Wilson [called the discovery](https://substack.com/redirect/ed5af1a3-e9db-4cf8-a070-0a2c2b66da13?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) of Silver in addition to the March Lead discovery “the equivalent of lightning striking twice, at a location that is ideal for project development.”
+
+Lighting strikes are random acts of nature. The ability to make new discoveries at high-frequency is an intentionally engineered consequence of the seven years of work that Earth AI has put into its platform.
+
+The work has been worth it. Through its series of twists and turns, Earth AI has landed on one of the most compelling business models I’ve come across.
+
+### **The Biotech Platform Business Model**
+
+Earth AI’s business model is admittedly not as clean to analyze as a SaaS model. Selling sticky, high-margin software is good business if you can get it, but in many legacy, physical-world industries, software isn’t the lever on progress that a vertically-integrated business can be. Fortunately for Earth AI, by being forced to pivot away from SaaS, I think they discovered a much more cash-generative business model, one that looks a lot like a biotech platform.
+
+Last weekend, Elliot wrote an excellent piece on biotech platforms that he titled *[Compounding Until Inflection](https://substack.com/redirect/c86dee09-d278-4179-a68d-03f416876d61?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*.
+
+“All value comes from clinical products,” he writes, “**But it’s only possible to build a generational biotech company with a foundational technology platform capable of developing multiple products.”** Within platforms, the biotech companies that have held onto their assets instead of partnering them away to big pharma have performed better in the market to date, but Elliot argues that platform companies whose value compounds with more data can actually benefit from partnering in the long-term.
+
+The logic goes like this:
+
+* Partnerships – in which a platform sells a piece of its drug to a large pharma company and develops it with them – cap upside but generate short-term cash flow and data.
+* The cash allows the platform to a) survive and b) explore more assets.
+* The data allows the platform to improve the core technology and increase the odds of spitting off more and better assets in the future.
+* As the platform builds up a warchest and its technology via partnerships, it reaches a point at which it can develop more valuable programs in the future, fund their development, and retain ownership, creating more long-term value for the business.
+
+The platform gets paid to compound until it hits an inflection point.
+
+I see a lot of similarities between that model and what Earth AI is doing.
+
+Like any platform biotech company, Earth AI has developed technology that it uses to discover and validate new assets better than incumbents can. Today, it can monetize those assets in a couple of main ways:
+
+1. **Ownership:** Earth AI can own and develop assets until they’re valuable to sell. For now, this could be as early as mid-feasibility (~ 20% stake for $10M) or as late as post-feasibility (~ 80% stake for $400M - $2B).
+2. **Exploration Alliances:** Like a pharma partnership, partner explorers cover Earth AI’s costs, and Earth AI receives a 2-3% royalty. Earth AI is paid to learn, and receives pure margin cash flows when they’re successful. The partner can choose to buy 1% of its royalty back for $2.5M within one year of discovery.
+
+Today, Earth AI is pursuing both models. Exploration Alliance partners are essentially paying for the company to learn, collect data, and refine the discover/drill process that is its core IP. At Willow Glen, the company is funding its own drilling costs in exchange for more ownership, and with each successful drill, the value it can capture from a downstream developer or producer increases.
+
+Like pharma, the cash flows from the assets that Earth AI discovers are protected – in the case of pharma, by patents, and in the case of Earth AI, by mineral rights granted by the state. Once it discovers a deposit, it owns the deposit, and can either generate revenue from it or sell its rights to a larger player. Unlike SaaS, a competitor can’t simply plop down on one of its existing sites and try to outcompete it.
+
+Over time, Earth AI will build up a portfolio of revenue streams in addition to chunky cash payments while growing its data set and getting more reps on its discover/drill process. It can reinvest the cash it generates into more drilling rigs, which will allow it to crank the machine more quickly, and into owning more wholly-owned projects that it can carry further through the development process. Eventually, it may even attempt to use its growing balance sheet to mine its own deposits.
+
+Right now, all of this cash generation lives in the future. I believe that Earth AI is in a critical two-year period during which the key constraint will be capital.
+
+If a single-asset biotech fails Phase I trials, the company is essentially dead. If Earth AI fails feasibility at Willow Glen, it will be a setback but not a deathblow given its live Exploration Alliances and ability to discover new deposits, assuming it has the capital to do so. Given the three successful drills, failing feasibility seems unlikely, but feasibility takes time. (And even unsuccessful deposits can be sold for $1-5 million, recouping costs).
+
+But capital is important, because **capital buys speed**.
+
+With more capital, Earth AI can buy more drills, speed up feasibility at Willow Glen, begin drilling new targets, and expand its footprint to new deposits while it awaits results. Without it, it will be a waiting game. But in either case, given that the company may be able to sell a stake in the project mid-feasibility, Earth AI should still be able to spin the machine, it’s just a matter of pace.
+
+I’ve tried to construct a case in which Earth AI just fails, but given their recent progress and the number of options they have, it seems unlikely. Of course, there’s always that possibility. The biggest existential threats might be that commodities markets sag, making developers and producers less likely to acquire mines, that Earth AI isn’t able to successfully navigate the sales process, or that all of the positive early results happened to be flukes. They still need to be proven feasible.
+
+But the more I dig into the business, the more excited I get. The downside seems protected and the upside, well, let’s look at the numbers.
+
+Earlier, I gave a simplified business formula for Earth AI:
+
+```
+# Discoveries x Success Rate x Present Value of Mine - # Discoveries x Cost to Prove = Profit
+```
+
+We’re going to get a little bit more detailed here. I spoke with Earth AI’s new CFO Monte Hackett, a former industrials investment banker who had angel invested in Earth AI and got so excited by the company that he recently decided to join full-time (for all equity and no cash, no less!), to get more granular on the model. Let’s take it step-by-step.
+
+
+Today, Earth AI has a 75% success rate, which is absurd compared to 0.5% industry average. But they haven’t proven feasibility yet, and over the past decade, the conversion from discovery to success in Australia has been 21.6%. That implies a 16% feasibility success rate for Earth AI. Let’s write off some early success to luck, and assume that it takes Earth AI 10 attempts to discover one feasible mine.
+
+At a cost of $500k per attempt, that **costs $5 million**.
+
+Of those 10 attempts, let’s say half are total busts. That’s about right: 54.8% of Australian discoveries didn’t make it to the resource definition stage. Write those off as $0s.
+
+For the remaining 5, assume two don’t show enough resources to be economical today. Earth AI can sell these for $1 million apiece to companies that want to hold the sites in case conditions change (prices skyrocket, technology improves) such that the mines become economical in the future. So Earth AI’s **net cost is $3 million**.
+
+Of the remaining three that make it through resource definition, Earth AI pays $2 million each for resource definition. It decides to sell two to developers mid-feasibility for $25 million each, and spend $10 million for full feasibility on the third. At this stage, Earth AI nets a **$34 million profit**.
+
+All in, over roughly three years, **Earth AI has made $31 million in profit and is left with one feasible deposit**.
+
+
+Feasible deposits can be worth somewhere from $500 million to $2.5 billion, and more if it’s a really big one. Let’s assume that this deposit is at the lower end: **$1 billion.**
+
+Earth AI sells an 80% stake in the mine for $800 million, which nets the company **$640 million after taxes**, netting **$671 in profit** on the $21 million invested.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd12dc237-5f45-448f-97f4-2bb87539278c_908x512.png)](https://substack.com/redirect/1eeb0a77-f576-4e1c-af67-31fff438a160?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Earth AI Deck*
+
+Crucially, it retains a 20% ownership, which means it will have to pay 20% of construction costs on the mine, and **will receive 20% of the cash flows as long as the mine operates**.
+
+In data on 98 mines that Monte pulled, the median mine generates $430 million in annual revenue for 25 years, so let’s go with that. At a 40% cash flow margin, Earth AI would receive **$34 million in EBITDA per year from the mine as long as it operates**.
+
+If the mine costs $500 million to construct, Earth AI has to **pay $100 million**. It does that by securitizing the cash flows from the mine at an interest expense of **$4 million per year.**
+
+
+Earth AI receives $34 million in EBITDA (earnings before interest, taxes, depreciation, and amortization) from the mine per year. It has to pay $4 million in interest, for an EBT (earnings before taxes) of $30 million per year. At a 30% tax rate, it will pay $9 million in taxes per year.
+
+That means that each year, for as long as the mine operates, **Earth AI will earn $21 million in net cash flow from the mine.**
+
+At a conservative assumption of 30 years of operation and an 8% discount rate, **the present value of those future cash flows is $150 million**.
+
+Taking into consideration the present value of the costs Earth AI paid upfront, the small sales it made, and $640 million it received from the sale of the 80% stake, the **total present value to Earth AI is $642 million**.
+
+
+There are a lot of public mining companies, most listed in Australia and Canada. If Earth AI were to go public based on the illustrative mine above, what might it be worth?
+
+We ran some scenarios based on the $34 million EBITDA number with various EBITDA multiples and values of the mine when Earth AI sells its 80% stake to come up to come up with a range of values based on one mine:
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffbc916f5-242c-4c81-a41d-79dde670897e_908x429.png)](https://substack.com/redirect/3fb41377-864a-47eb-a8c9-9939586b4ad8?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Implied Valuation of Earth AI Based on One Mine*
+
+The outcomes **range from $392 million in the worst case scenario, to $1.8 billion in the best case scenario.** (Franco Nevada, the best-case comp, is a publicly traded royalty bank that buys royalties in mines and may be a better comp than a traditional miner given that Earth AI’s value will be from royalties.)
+
+*These numbers are not meant to be precise*, but to illustrate the kind of value that Earth AI might be able to generate if it’s able to prove feasibility on a deposit and find a buyer willing to pay market price for just one deposit. It shows that this can be a valuable business with even one successful deposit.
+
+
+The point of Earth AI, though, is to find many deposits, not just one. Instead of sitting on cash, Earth AI will use it to build more MLD systems, which can be used to make more discoveries and prove out more feasible mines, in a repeating cycle.
+
+The $640 million from an 80% sale would be able to fund over 1,000 drilling attempts, which at the same 1-in-10 success rate we assumed above, could yield **over 100 feasible mines** (which, in turn, would fund more MLD systems, or allow Earth AI to move further up the mining stack or return cash to shareholders). Even assuming they get 10x worse, 10 feasible mines would be a bonanza.
+
+A simple way to think about how to value Earth AI is to think about how many feasible mines they might be able to develop, and, using the same numbers above, multiply the outcomes by the number of mines.
+
+At three mines, the company might be worth $1.2 to $5.5 billion.
+
+At ten mines, it might be worth $3.9 to $18.2 billion. Taking the midpoint of the range, it would take 90 mines to create a $100 billion company, not far off from Roman’s goal of building a **$100 billion mining company by finding 100 new metal deposits by the end of the decade.**
+
+Please note that these are rough illustrations and not precise projections. Obviously, a lot has to go right to get from here to there, and the end of the decade is an absurdly aggressive timeline for a process that takes so much time, even if Earth AI manages to speed it up dramatically.
+
+But with thousands of operational mines in the world, thousands of explorers working relatively inefficiently to discover new deeposits, and a rapidly growing demand for critical metals, it’s possible to imagine a world in which Earth AI becomes something like the supplier-of-choice to large miners, exploring, drilling, and selling new projects for their consumption.
+
+Another way to think about it is that BHP’s ~$150bn market cap is supported by roughly 30 mines at a 6.9x EV/EBITDA ratio. By comparison, think about how Earth AI’s 20% cash flow stake in a similar number of mines, without the cost or logistical burden of operating them, might be valued. Not to mention the massive upfront cash distributions on 30 mines at $300 - $900 million per mine, which the company can put back to work in discovering new promising sites.
+
+That begs the question: won’t everyone just do this?
+
+### **Digging Moats**
+
+The glib answer to the question is that it won’t matter if they do. There are a lot of valuable deposits left to be discovered and mined. The longer answer is that Earth AI has built a system that allows it to find and prove those deposits more quickly than anyone in a way that would take sacrifice for others to copy. By the time they do, Earth AI may be sitting on a large portfolio of profitable mine stakes.
+
+I love strategy and moats more than the next guy. I wrote two pieces – *[When to Dig a Moat](https://substack.com/redirect/ebb72162-71ed-47a7-9de3-0a1e13cb90f2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)* and *[In Defense of Strategy](https://substack.com/redirect/bb469e99-e46d-4a7b-8fb6-023aeb337ff0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)* - arguing that it’s a bad idea to just execute really hard and fast without taking the time to set your strategy and figure out what moats you’re digging.
+
+Having said that, I think that Earth AI is now in a position in which they just need to move really fast. Raise capital, invest in MLD systems, stake claim to promising deposits, and drill them as quickly as possible.
+
+The reason is the structure of the mining industry: once an explorer stakes a deposit, it’s theirs. There are thousands of deposits waiting to be staked around the world, and with early signs of success from both the Mineral Targeting Platform and MLD system, Earth AI is in a good position to capitalize on the opportunity.
+
+Importantly, Earth AI can move fast because it knows which moats it can dig: **cornered resource,** **process power,** and **counter-positioning**.
+
+According to *7 Powers* author Hamilton Helmer, a **cornered resource** is preferential access at attractive terms to an asset that can independently increase value. In the case of Earth AI, the cornered resources are the mineral rights it acquires when it stakes a deposit. In countries with stable political regimes, like Australia, mineral rights are a license to print money if it turns out that the deposit is economically feasible. It costs money and risk to acquire these rights, and prove feasibility, but once Earth AI owns the rights, no competitor can take that site from them.
+
+Because mines are like businesses in themselves – with many generating upwards of $1 billion per year in revenue – Earth AI has a cornered resource in each one of its mines. In the example above, once it proves feasibility on its mine and sells a stake, it could fire everyone except for an accountant to count all of the $34 million coming in every year for as long as the mine bears fruit.
+
+But again, that’s not the goal. The goal is 100 mines. That’s where the second moat – **process power** – comes in.
+
+Process power is the most ineffable of the seven. It’s the embedded sets of company organization and activity which enable lower cost and/or superior product. Like Toyota’s Total Production System, it’s something that, even if you trained outsiders on it, they wouldn’t be able to copy precisely to do the same thing you do.
+
+In Earth AI’s case, the process power comes from the fact that it’s not just an AI company, not just a team of geologists, and not just a high-volume driller, but all three at once. By doing 80 pilots for explorers, then testing 132 sites, then building its own drilling rig from scratch and evolving the system based on on-the-ground needs, Earth AI has earned valuable tacit knowledge that would take time and experience to match.
+
+They’ve taken that tacit knowledge and built it into a system that fits together in a way that serves their very specific needs: high-volume, surgically-precise exploration and drilling is a different game than most in the industry play, and as a result, Earth AI is developing a different set of skills.
+
+If you had 6,000 targets but relied on contractors to drill them, it would take centuries to go through them all. If you had the fastest drilling rig in the world, but you were set up to make one discovery, that drill rig’s value would be limited. And as Earth AI’s attempts to sell software to explorers proved, put great data in the hands of traditional explorers and they won’t find a use for it. Earth AI’s process power comes from fitting together those pieces: it can find a lot of promising deposits and prove them quickly, building more knowledge with each failure and success, and continue to add more MLD systems to speed up its process and knowledge acquisition.
+
+The fact that it has the opportunity to grow this lead comes down to **counter-positioning**.
+
+As Ian Rountree of Cantos, an Earth AI investor and board member, explained to me, drillers can’t do exploration alliances for more valuable royalty streams because they’re low-margin fee-for-service businesses. Earth AI can.
+
+Explorers can’t invest in technology systems or better drilling rigs because they can’t amortize those costs across as many discoveries. Earth AI can.
+
+And even large miners don’t want to move down into the exploration phase because their core competency is in acquiring and mining deposits. Just like pharma companies, they’ve outsourced “innovation” to smaller players. Where they do use technology like Earth AI’s, it’s in discovering more deposits at existing minesites where they’re already established in order to increase those sites’ profitability. Plus, they’re not exactly incentivized to support new discoveries: they already have cornered resources, and the biggest threat to their margins is a glut of competitive supply.
+
+You can see this in the data. The share of exploration budget going to grassroots exploration has been cut in half since 1997, from 50% to 23%, even as exploration budgets in general have shrunk from a peak of $21 billion in 2012 to $12.8 billion last year, per [S&P Global](https://substack.com/redirect/904d3f79-5f4a-47a0-8cae-12d9760b394b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). Remaining budgets have shifted to **late stage & feasibility** – proving out deposits that have been discovered – and **minesite** - discovering additional mineral resources on existing sites to extend the life of the mine, increase production, or improve the mine’s overall economics.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbaac381c-aaa0-4f27-baf9-8c8cb2db4eac_908x392.png)](https://substack.com/redirect/6cdf251a-a6c0-4bdd-a3ab-8ced27967356?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*S&P Global*
+
+Earth AI is making a counter-positioned bet that there’s a lot of value left to be discovered in the grassroots, greenfield discovery with better technology. Whether it’s right, and whether the company can convince miners to acquire its deposits if it is, will determine whether or not this is a multi-billion dollar outcome.
+
+To summarize, Earth AI’s counter-positioning gives it a head start, which it can use to acquire cornered cash flowing resources and continue to develop process power, which it can use to discover and prove out deposits more quickly than others in the industry.
+
+But critical metals discovery is not a winner-take-all market. Earth AI won’t make all of the discoveries, even in Australia. We’ll need a dozen smart companies working on the problem if we’re going to address the world’s demand for critical metals, of which quasi-competitor [KoBold Metals](https://substack.com/redirect/15703578-7bab-487e-9404-7d21e8536028?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) says, “The industry **needs to discover more than twelve trillion dollars worth of new critical mineral deposits** to stop catastrophic climate change.”
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F825f53c8-06fc-4b9b-bae5-7dae0913c768_908x821.png)](https://substack.com/redirect/1343304f-8e4b-45aa-b523-b12d5ed8765f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*New Critical Metals Deposits Demand, [KoBold Metals](https://substack.com/redirect/15703578-7bab-487e-9404-7d21e8536028?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*
+
+The good news is, Earth AI has a number of quasi-competitors / quasi-allies in the search for more critical metals like KoBold.
+
+### **Quasi-Competitors**
+
+In November, *The Economist* wrote a piece titled *[Could AI help find valuable minerals?](https://substack.com/redirect/a76b870d-28c0-4c61-8f0b-24e984fc2557?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)* in which they mentioned Earth AI alongside other companies using AI for discovery, including KoBold, SensOre, OreFox, VerAI, and even Rio Tinto.
+
+> *Great times, then, for prospectors, and particularly for any who think they can increase the efficiency of their profession. Several firms are applying [artificial intelligence](https://substack.com/redirect/8eddd0d8-e259-4f66-bf44-f3f7ef525ca2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) (ai) to the process, both to improve the odds of surface strikes and to detect underground ore bodies that are invisible to current techniques.*
+
+The article paints the companies with a similar brush – AI! – but they’re taking subtly, but importantly, different approaches.
+
+Both OreFox and SensOre pursued the Earth AI 1.0 model – trying to sell software to explorers to improve their mining efforts. That is a challenging business. The larger of the two, SensOre, is public on the ASX; its market cap has slid to $3 million, and the company has turned into a traditional lithium explorer.
+
+VerAI’s approach is more interesting. They, too, have an AI discovery platform, and they’re using it to amass cornered resources. The company is essentially staking as much promising land as it can and waiting for explorers to come to them to explore and develop deposits at those sites as the prices of metals increase and technology improves over the coming decade. This is only a threat to Earth AI insofar as VerAI gets extremely aggressive and stakes so many sites that it leaves few for anyone else. The earth is large, staking is not free, and this is unlikely.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4bebb022-ac73-4a88-883d-b0e07150f160_908x304.png)](https://substack.com/redirect/f8cd752b-8f35-4926-815c-482771f0e036?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*VerAI website, lol*
+
+Rio Tinto, the $113 billion mining giant, also claims to be using AI, trained on its 150 years of proprietary data, to “tell geologists the best place to drill next.” I assume this will help the company discover new deposits to mine, but their exploration business has one customer – Rio Tinto itself – and isn’t incentivized to do grassroots exploration versus doing minesite exploration to improve the profitability of its existing sites.
+
+That leaves KoBold, which is by far the most legitimate and fascinating of the startup competitor set. Founded in 2018, the company raised $195 million at a $1 billion post-money valuation from a16z, Breakthrough Energy, Bill Gates, Jeff Bezos, and T. Rowe Price last year.
+
+Like Earth AI, KoBold uses AI to explore and is willing to get its hands dirty on the ground.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe395ed5e-8f10-4bcd-9f65-4947f2b65112_908x478.png)](https://substack.com/redirect/28ea04e5-4983-434b-8771-2b47bcc6ee37?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*KoBold Metals*
+
+While its site touts its exploration efforts, interestingly, it seems to be focused midstream on the development stage. Last year, it [acquired](https://substack.com/redirect/4a58287e-c057-429c-a256-0b1c2661d167?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) the potentially very large Mincomba Copper deposit in Zambia, and is currently exploring and drilling onsite to prove feasibility on the deposit. The company’s President, Josh Goldman, said that it looks to be similar to the Kakula mine across the border in the Democratic Republic of Congo in size and grade, which is notable because that mine produced nearly 400,000 tons of copper last year, which would translate to $3.6 billion in annual revenue at a copper price of $9,000 per ton.
+
+If proven and mined, that would give KoBold enough cash to both continue to develop existing discoveries, and put capital towards making new discoveries, so while not directly competitive today, it wouldn’t be surprising if they were in the future. On net, however, I believe that success for KoBold would be positive for Earth AI by giving investors a strong comp. Given the market structure, both companies can become very large, and the world will be a better-resourced place if they do.
+
+I strongly believe that there will be many $100 billion companies created this decade that apply new technologies to legacy markets’ key bottlenecks.
+
+In the case of mining, the bottleneck is the ability to discover profitable new deposits, and Earth AI has demonstrated the potential to crack this bottleneck with its early successes at Willow Glen, Fontenoy, and Sandover.
+
+If these discoveries prove feasible, and if they’re not early lucky flukes, I think it sets Earth AI on the path to building a business with a potent ability to both generate cash and deploy it to new opportunities. The business is not constrained by demand, and there is enough room – even a desperate need – for a number of smart competitors at all layers of the stack.
+
+That’s not to say the business is without risks. The discoveries could fail feasibility. Demand for metals, and their prices, may crash instead of growing as dramatically as KoBold and others expect. Developers and miners could choose not to buy stakes in Earth AI’s projects. On the more sci-fi side, asteroid miners could find so many metals in outer space that terrestrial mining is deemed unnecessary and too environmentally damaging to pursue. More realistically, as has been the case in the industry, project timelines could drag on much longer than expected, preventing the capital flywheel from beginning to spin.
+
+Once we find the metals, there’s still the challenge of refining them. Whenever a new deposit, say of lithium, is discovered, naysayers retort that the issue isn’t the raw material itself, but our refining capacity. That, too, it turns out, can be solved by more predictable resource discovery. Supply availability and price volatility are the biggest bottlenecks preventing investment in refining capacity; solve supply for critical metals, and you unlock refining capacity.
+
+Despite the very real risks, the risk-reward on Earth AI is as good as any company I’ve studied. They’re operating in a critical industry that’s been largely ignored by venture capitalists given its capital intensity, unsexiness, and the unfamiliarity of the business model. The business model, though, is one of the things that excites me most about Earth AI. Spreadsheets and words are not reality, and there are certain to be hitches that I haven’t modeled, but if it works, Earth AI will have the ability to produce valuable, cash-flowing cornered resources more predictably than any company I’ve seen. Even biotech companies face science risk to develop new assets; the science here is proven, and the risk that Earth AI faces is pure execution.
+
+On that front, I feel confident in the team’s ability to do what it takes to get the job done. Over the past decade-plus in geology and mining, Roman has shown a ridiculous dedication to the job unmatched by 99.9% of founders. He’s the only one I know, at least, who’s carried a shotgun to work to protect himself from bears. If there is a business to be built here, Roman will do whatever it takes to build it, and early signs that there is are coming quickly: the company is at its inflection point.
+
+I think that Earth AI represents an opportunity to be contrarian and right. Certainly, it’s contrarian; time will tell if it’s right. In either case, it’s a critically important mission worth pursuing.
+
+No matter where the future takes us, we humans will need raw materials that we can turn into natural resources and into the many creative things that we dream up. If we want the energy transition to succeed, we will need a lot of critical metals. An abundant future requires abundant raw materials. Turning the art of finding them into a repeatable science is a worthy mission, and one that benefits us all.
+
+Earth AI is a [Techno-Industrial](https://substack.com/redirect/76a92edb-cddf-41a0-acb0-1790aa94fcf2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) in the purest sense – using technology to produce something that everyone needs more cheaply than incumbents – and exactly the type of company I’m proud to back, even, and especially, if understanding what makes the company special takes a little digging.
+
+*Big thanks to Roman and Monte for teaching me about geology, exploration, and mining!*
+
+That’s all for today! If you enjoyed this deep dive and learned some things you think others would appreciate learning, please give it a share.
+
+[Share](https://substack.com/app-link/post?publication_id=10025&post_id=143881699&utm_source=substack&utm_medium=email&utm_content=share&utm_campaign=email-share&action=share&triggerShare=true&isFreemail=true&r=9p0gt&token=eyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTQzODgxNjk5LCJpYXQiOjE3MTM4NzY5NDksImV4cCI6MTcxNjQ2ODk0OSwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.L8q0QRUmQjeT2iELEtMaqMvX_oMvvIj2WhjUSGrYPik)
+
+We’ve got deep dive coming your way in a couple weeks. In the meantime, we’ll catch you on Friday for our Weekly Dose of Optimism.
+
+Thanks for reading,
+
+Packy

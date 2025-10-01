@@ -1,0 +1,190 @@
+# The Kindle Fire, the iPad, e-readers: What happened when I abandoned print for pixels.
+
+**Source**: http://www.slate.com/articles/arts/ft/2011/10/the_kindle_fire_the_ipad_e_readers_what_happened_when_i_abandone.single.html
+**Type**: article
+**Created**: 2025-08-13T20:30:55.194038
+
+---
+
+title: The Kindle Fire, the iPad, e-readers: What happened when I abandoned print for pixels.
+source: http://www.slate.com/articles/arts/ft/2011/10/the_kindle_fire_the_ipad_e_readers_what_happened_when_i_abandone.single.html
+date: 2025-08-13T20:30:53.624270
+tags: []
+---
+Towards the end of last year it became apparent that the Stourton household
+was[ heading for a book
+crisis](http://www.ft.com/intl/cms/s/2/b148f006-e84a-11df-8995-00144feab49a.html#axzz1ZfXrvTCG
+"FT - Balancing the books"). My wife and I both brought substantial
+collections into our marriage. I get a steady stream of review copies and
+manuscripts from friends and acquaintances hoping for endorsements. She makes
+factual television programmers and is often sent books by aspiring producers
+and presenters. I am incontinent when the urge to buy a new hardback novel
+comes upon me, and she reads incredibly quickly. All these factors had
+conspired to fill our shelves. The books had become Triffid-like, taking over
+our home and lives. Something had to be done.
+
+So, almost a year ago, in this paper, I took these vows: “My resolution is
+that for 12 months I shall buy no new books and shall limit my leisure reading
+to books already in my library. There are bound to be professional reasons for
+bending the rule from time to time. But if I devote myself to our existing
+collection I might learn something about myself and my family … I shall catch
+up with some of the friends’ books which have been neglected, and I shall
+attack the many review copies that still have a marker stuck somewhere in the
+first couple of chapters … ”
+
+I also—partly at the instigation of the editors at the FT, and very much
+through gritted teeth—promised to try an e-reader. It might, we thought, be
+one solution to the overstuffed shelves. And I said I would report back on my
+reading habits, both paper-based and electronic.
+
+Eleven months on, abstinence from new book buying has proved one of the
+hardest challenges I have ever undertaken—far tougher than giving up alcohol
+(which I have had to do on reporting trips to Saudi Arabia) or any Lenten
+effort I have made to deny myself some pleasurable form of food. It means
+avoiding what in Catholic teaching are known as “occasions of sin”. Bookshop
+windows become bright bordellos of temptation, and a walk down Piccadilly
+(Hatchards and a huge Waterstone’s within yards of one another) is like some
+Homeric trial of will.
+
+I also realized that I had to stop myself reading the review sections of the
+weekend papers. On Saturdays and Sundays, I find that my eyes naturally slide
+away from the heavyweight political commentaries I ought to be reading for
+work purposes and on to the books pages, and giving into that temptation is
+one of my great weekend pleasures—not, in normal circumstances, a very grave
+sin. But a glowing review of a new book by one of your favorite authors is
+simple torture when you cannot buy it.
+
+I did, I confess, find some inventive “professional reasons for bending the
+rule”.
+
+The most pleasurable was a serendipitously timed invitation to chair the
+judges of the Desmond Elliott Prize for a first novel. I had to finish 10
+books over a period of six weeks or so—enough to satisfy my new book lust for
+a while and, of course, the books were sent to me for free, so I could add
+them to our crowded shelves without feeling guilty about breaking my vow. On
+the other hand, they were extremely good (I recommend Anjali Joseph’s
+_[_Saraswati
+Park_](http://www.amazon.com/gp/product/0007360789/ref=as_li_ss_tl?ie=UTF8&tag=slatmaga-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=0007360789)_
+, the winner, and, the other two finalists, _[_Boxer,
+Beetle_](http://www.amazon.com/gp/product/0340998415/ref=as_li_ss_tl?ie=UTF8&tag=slatmaga-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=0340998415)_
+by Ned Beauman, and _[_Pigeon
+English_](http://www.amazon.com/gp/product/0547500602/ref=as_li_ss_tl?ie=UTF8&tag=slatmaga-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=0547500602)_
+by Stephen Kelman), so the experience also made me feel antsy about all the
+other new writing I was denying myself.
+
+The other excuse I found to break my vows was associated with a Pyrenean trek.
+This summer I took part in a four-day commemorative hike in the footsteps of
+second world war escapers and evaders (I am making a BBC Radio 4 series on the
+subject). The experience opened a door on to such a fascinating chapter of
+history that it is growing from a radio series into a book project and I have
+begun to read some of the memoirs written by those who made the journey “for
+real” during the dark days of the Nazi occupation of France.
+
+These tales were popular in the 1940s and 1950s, when memories of the war were
+still vivid, and some of them—such as George Millar’s _Maquis_ and _Horned
+Pigeon_ —are still classics. Others are out of print and, rootling around on
+Amazon and AbeBooks, I discovered that you can buy first editions and early
+reprints for really not very much money. So I have been buying like crazy.
+
+It is almost impossible for people of my age or younger to manage the
+imaginative leap required to get inside the minds of those who made that
+journey some seven decades ago. But reading what they did in a book printed
+close to the time of their exploits helps. There is a period feel to these
+early editions that takes you closer to those who wrote them.
+
+All of this has restricted the reading time I have been able to devote to our
+existing collection of books—the only one of my vows I was really looking
+forward to. I began by revisiting Evelyn Waugh and Graham Greene, and honesty
+compels me to admit that I have got no further. Indeed, I find that I am in no
+great hurry to get further. Waugh’s _[_Sword of
+Honour_](http://www.amazon.com/gp/product/0679431365/ref=as_li_ss_tl?ie=UTF8&tag=slatmaga-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=0679431365)_
+trilogy has restored to me the youthful pleasure of laughing loudly at a book
+in public places, while Greene’s _The Quiet American_ , my current bedside
+companion, leaves me as awestruck as I was when I first read it as a teenager.
+How can anyone do so much with so few words?
+
+Here is a cheerful conclusion: on the basis of the experiment to date I am
+persuaded that, if I have to, I can go on re-reading my existing library
+without ever getting bored—I estimate I have enough good literature in the
+house to last me for the rest of my life.
+
+So why bother with an e-reader? Well, a promise is a promise. I bought my
+Kindle in April. It was a purchase made without pleasure and for weeks it lay
+unopened in its Amazon box—a sullen presence sulking on my desk. Only when the
+BBC sent me on assignment to investigate corruption in the nations of the
+former Soviet Union was I galvanized into powering it up.
+
+It was one of those reporting trips that really test your physical stamina.
+There were several days of frantic scurrying around Moscow collecting
+interviews, followed by an overnight sleeper to Kazan, the capital of
+Tartarstan. The drunken Russian oil engineer who shared my compartment thought
+he spoke English but he was mistaken; the unbroken miles of birches that
+flashed passed as we rattled through that night seemed never-ending as he
+fired out words that never quite added up to a coherent sentence. Then there
+was a complicated sequence of flights to Ukraine, more journeys in cramped
+taxis, and finally a long flight home. I spent quite a lot of time hanging
+around in the antechambers of the rich and the powerful waiting for
+interviews. Easy access to reading material is essential to staying sane on
+such a trip.
+
+The Kindle passed this test with flying colors; indeed, it proved itself the
+ideal reporter’s companion. It is light and a convenient size—you can just
+about stuff it into a jacket pocket. Downloading a book takes seconds (if you
+have an Amazon account, you pay almost without noticing the transaction, which
+can be dangerous). It never ran low on power, flashing cheerfully into life
+whenever I needed a distraction.
+
+By the time I reached Kiev I had discovered that I could buy newspapers
+wirelessly, and I used the Kindle to read them over breakfast in a floating
+hotel on the Dnieper river. Even my producer, a battered paperback man, was
+impressed. My conversion—and I sense this is a common experience among those
+who have taken the plunge—was swift but far from complete.
+
+The first book I read on the Kindle was _The Book Lover’s Tale_ , a
+psychological drama about a bibliomaniac gone to the bad. A failed writer, he
+makes his living by putting together libraries for rich men; his revenge for
+disappointment is to seduce the clients’ wives. The novel is, in part, a hymn
+to the seductive power of the book as a physical object. The (anti) hero loses
+his virginity in the basement of a second-hand bookshop in Soho, where “the
+smell of dust on old pages filled my lungs and my nose, mixing with the smell
+of her cheap lipstick, and the taste of chewing gum and cigarettes on her
+breath.”
+
+I might have chosen _The Book Lover’s Tale_ to begin my e-book life out of a
+sense of irony—in fact, I did so because the book is my eldest son Ivo’s
+second novel. Its publication coincided with my purchase of the Kindle and I
+have, of course, bought several hardback copies as well as the e-book. My
+bibliomania is still at the benign stage; I love having books about me so I
+can look at them, revisit them and (sometimes) share them. The way Ivo writes
+about books has hurried me to a conclusion I would have anyway reached before
+long; if I buy and like a book on Kindle, I shall almost certainly buy a
+hardback copy too. So I shall end up spending more money, not less, as a
+result of the e-book revolution.
+
+It is just possible, however, that the e-reader will kill the paperback; I
+have done my Waugh and Greene reading with old paperbacks and, handsome as
+those Penguin covers are, there is no denying that they are, at best, fragile.
+The Kindle is remarkably resilient. During our summer holiday in France, our
+dog leapt out of the lake and thwacked mine—it was lying on the picnic
+rug—with a wet paw; he inflicted no damage at all. So if I need to buy a new
+copy of _The Quiet American_ before I finish rereading it (quite possible,
+given the signs of strain on the spine of my venerable copy), I can imagine
+downloading it rather than buying a new paperback.
+
+But Kindle’s recent advertising carries one of the silliest boasts I have ever
+read: it can store 3,500 books. Assuming I live for another 25 years (which
+would take me to my late seventies), I would need to read 2.6 books a week to
+reach that total. More to the point, what possible sense would it make to
+substitute a thin grey slate-like object that I might forget on the Tube for
+the groaning shelves of the beautiful and instructive artifacts that adorn my
+house?
+
+I am keeping my Kindle but I am giving up my vows of abstinence. I have
+started reading the reviews again and have already drawn up a list of
+hardbacks I would like to buy. I am off to the shops for a bender.
+
+We shall just have to find more room somewhere.**__**
+
+**_This article originally appeared in Financial Times_** _**. Click**_[
+_**here**_](http://www.ft.com/) _**to read more coverage from the
+Weekend**_**FT.**

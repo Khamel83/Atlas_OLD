@@ -1,0 +1,48 @@
+# Is Scott Galloway the Howard Stern of the Business World? - The New York Times
+
+**Source**: https://www.nytimes.com/2022/08/02/style/scott-galloway.html
+**Type**: article
+**Created**: 2025-08-13T15:26:47.771462
+
+---
+
+title: Is Scott Galloway the Howard Stern of the Business World? - The New York Times
+source: https://www.nytimes.com/2022/08/02/style/scott-galloway.html
+date: 2025-08-13T15:26:32.346842
+tags: []
+---
+His hobbyhorses include the worship of tech founders (we should stop),
+antitrust regulation (we need more), higher education (costs too much),
+“failing young men” (they need role models), physical fitness (he does
+CrossFit) and the importance of building personal relationships. He is also
+apt to take off his shirt, as he did in a promo for a doomed Bloomberg TV
+show, or put on a wig, as he did at a tech conference while lip-syncing to
+Adele.
+
+“He’s one of those rare people who cut through,” said Jeff Zucker, the former
+president of CNN, who hired Mr. Galloway to host a show on CNN+ before the
+streaming network shut down in April. “I don’t know if everything he says is
+right, but he says it in a damn interesting way.”
+
+Mr. Galloway aspires to be “the most influential thought leader in the history
+of business,” he said. Sometimes it seems as if by “most influential” he means
+“most frequent”: In addition to the main podcast, his company, Prof G Media,
+produces a weekly newsletter, four podcast episodes a week, YouTube videos, a
+column for New York magazine and a book every 18 months or so. (The latest,
+Adrift: America in 100 Charts, will be published in September.)
+
+Plus, he makes regular prime-time TV appearances and teaches brand strategy
+one semester a year at N.Y.U., along with online courses for his education
+start-up, Section4. Mr. Galloway, who was already wealthy from selling two
+companies and taking a third public, also makes more than $5 million a year
+from speaking gigs, he said, largely from corporations and industry groups
+that pay him $50,000 (for virtual events) to $250,000 (for international
+events). “I should be broken up,” he joked.
+
+## ‘A Huge White Space for Heterosexual Men to Talk About Their Emotions’
+
+Mr. Galloway got his most meaningful break as a pundit in 2017 when, during an
+appearance on Kara Swisher’s podcast, he predicted that Amazon would acquire
+Whole Foods. Four days after the episode aired, Amazon announced plans to do
+just that, and Ms. Swisher, a tech journalist who is a former columnist for
+The New York Times, soon invited him to host a new podcast with her, “Pivot.”

@@ -1,0 +1,219 @@
+# For Tens of Millions of Americans, the Good Times Are Right Now - The New York Times
+
+**Source**: https://www.nytimes.com/2022/05/10/business/economy-boom-times.html
+**Type**: article
+**Created**: 2025-08-13T15:27:34.516981
+
+---
+
+title: For Tens of Millions of Americans, the Good Times Are Right Now - The New York Times
+source: https://www.nytimes.com/2022/05/10/business/economy-boom-times.html
+date: 2025-08-13T15:27:25.194870
+tags: []
+---
+This is an era of great political division and dramatic cultural upheaval.
+Much more quietly, it has been a time of great financial reward for a large
+number of Americans.
+
+For the 158 million who are employed,
+[prospects](http://web.archive.org/web/20250730032328/https://fred.stlouisfed.org/series/CES0500000003)
+haven’t been [this
+bright](http://web.archive.org/web/20250730032328/https://www.atlantafed.org/chcs/wage-
+growth-tracker) since [men landed on the
+moon](http://web.archive.org/web/20250730032328/https://www.cnbc.com/2022/03/24/us-
+weekly-jobless-claims-lowest-since-1969-continuing-claims-shrink.html). [As
+many as half of those
+workers](http://web.archive.org/web/20250730032328/https://www.federalreserve.gov/publications/2021-economic-
+well-being-of-us-households-in-2020-retirement.htm) have retirement accounts
+that were fattened by a prolonged bull market in stocks. There are [83 million
+owner-occupied
+homes](http://web.archive.org/web/20250730032328/https://fred.stlouisfed.org/series/EOWNOCCUSQ176N)
+in the United States. At the rate they have been increasing in value, a lot of
+them are in effect a giant piggy bank that families live inside.
+
+This boom does not get celebrated much. It was a slow-build phenomenon in a
+country where news is stale within hours. It has happened during a time of
+fascination with the schemes of the truly wealthy (see: [Musk,
+Elon](http://web.archive.org/web/20250730032328/https://www.nytimes.com/2022/05/03/technology/elon-
+musk-twitter-plan.html)) and against a backdrop of increased inequality. If
+you were unable to buy a house because of spiraling prices, the soaring amount
+of homeowners’ equity is not a comfort.
+
+The [queasy stock
+market](http://web.archive.org/web/20250730032328/https://www.nytimes.com/2022/05/09/business/stock-
+market-volatility.html?smid=url-copy) might be signaling that the boom is
+ending. A slowing economy, renewed inflation, high gas prices and rising
+interest rates could all undermine the gains achieved over the years. But for
+the moment, this flood of wealth is quietly redefining retirement, helping
+fuel Silicon Valley and stoking a boom in leisure and entertainment. It is
+boosting corporate profits by unprecedented amounts while also giving just
+about everyone the notion that a better job might be within reach.
+
+More than 4.5 million workers voluntarily quit in March, the highest number
+since the government started keeping this statistic in 2000, [the Bureau of
+Labor Statistics reported last
+week](http://web.archive.org/web/20250730032328/https://www.bls.gov/news.release/pdf/jolts.pdf).
+A few years ago, the monthly total was between three million and 3.5 million.
+
+“Maybe it’s easier to focus on the negative, but a huge number of people,
+maybe 40 million households, have been doing pretty well,” said Dean Baker, an
+economist who was a co-founder of the liberal-leaning Center for Economic and
+Policy Research. “You’d have to go back to the late 1990s to find a similar
+era. Before that, the 1960s.”
+
+This widespread wealth throws light on why the number of workers who say they
+expect to be working past their early 60s [has fallen below 50 percent for the
+first
+time](http://web.archive.org/web/20250730032328/https://www.newyorkfed.org/microeconomics/sce/labor#/expectations-
+retirement1). It accounts for the abundance of $1 billion start-ups known as
+unicorns — more than 1,000 now, up from about 200 in 2015. It offers a reason
+for the rise in interest in unionizing companies from Amazon to Apple to
+Starbucks, as hourly workers seek to claim their share.
+
+And it helps explain why Dwight and Denise Makinson just returned from a
+12-day cruise through Germany.
+
+“Our net worth has reached the millionaire level due to our investments, which
+was unfathomable when we were married 40 years ago,” said Mr. Makinson, 76,
+who is retired from the U.S. Forest Service.
+
+The couple, who live in Coeur d’Alene, Idaho, have company. There are 22
+million U.S. millionaires, Credit Suisse estimates, up from fewer than 15
+million in 2014.
+
+“I used coupons to buy things. One of my daughters would say, ‘Mom, that’s so
+embarrassing,’” said Ms. Makinson, 66, a registered nurse. “But we believed in
+saving. Now she uses coupons, too.”
+
+Every economic transaction has several sides. No one thought home prices in
+2000 were particularly cheap. But in the last six years, prices have risen by
+the total value of all housing in 2000, [according to the Case-Schiller index.
+](http://web.archive.org/web/20250730032328/https://fred.stlouisfed.org/series/CSUSHPINSA)In
+many areas of the country, it has become practically impossible for renters to
+buy a house.
+
+This is fracturing society. Even as [the overall homeownership rate
+](http://web.archive.org/web/20250730032328/https://www.nar.realtor/newsroom/u-s-
+homeownership-rate-experiences-largest-annual-increase-on-record-though-black-
+homeownership-remains-lower-than-decade-
+ago#:~:text=The%20U.S.%20homeownership%20rate%20surged,than%20White%20Americans%20\(72.1%25\).)in
+2020 rose to 65.5 percent, the rate for Black Americans has severely lagged.
+At 43.4 percent, it is lower than the 44.2 percent in 2010. The rate for
+Hispanics is only marginally better.
+
+That disparity might account for the muted sense of achievement.
+
+“It’s a time of prosperity, a time of abundance, and yet it doesn’t seem that
+way,” said Andy Walden, vice president of enterprise research at Black Knight,
+which analyzes financial data.
+
+Shawn and Stephanie McCauley said the value of their house 20 miles north of
+Seattle had shot up 50 percent since they bought it a few years ago, a jump
+that was typical of the market.
+
+“We are very fortunate right now given the situation for many others during
+the pandemic,” said Mr. McCauley, 36, who works for a data orchestration
+company. “Somehow we are doing even better financially, and it feels a bit
+awkward.”
+
+Even for those doing well, the economy feels precarious. The University of
+Michigan’s venerable Index of Consumer Sentiment fell in March to the same
+levels as 1979, when the inflation rate was a painful 11 percent, before
+rising in April.
+
+Politicians are mostly quiet about the boom.
+
+“Republicans are not anxious to give President Biden credit for anything,”
+said Mr. Baker, the economist. “The Democrats could boast about how many
+people have gotten jobs, and the strong wage growth at the bottom, but they
+seem reluctant to do this, knowing that many people are being hit by
+inflation.”
+
+The initial coronavirus outbreak ended the longest U.S. economic expansion in
+modern history after 128 months. A dramatic downturn began. The federal
+government stepped in, generously spreading cash around. Spending habits
+shifted as people stayed home. The recession ended after two months, and the
+boom resumed.
+
+Jerome H. Powell, the Federal Reserve chair, [recently
+warned](http://web.archive.org/web/20250730032328/https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20220316.pdf)
+that there were too many employers chasing too few workers, saying the labor
+market was “tight to an unhealthy level.” But for workers, it’s gratifying to
+have the upper hand in looking for a new position or career.
+
+“Both my husband and I have been able to make job changes that have doubled
+our income from five years ago,” said Lindsay Bernhagen, 39, who lives in
+Stevens Point, Wis., and works for a start-up. “It feels like it has mostly
+been dumb luck.”
+
+A decade ago, the housing market was in chaos. Between 2007 and 2015, more
+than seven million homes were lost to foreclosure, according to Black Knight.
+Some of these were speculative purchases or second homes, but many were
+primary residences. Egged on by lenders, people lived in houses they could not
+easily afford.
+
+Now the reverse is true. People own much more of their homes than they used
+to, while the banks own less. That acts as a shield against foreclosures,
+which in 2019 were only 144,000, according to Black Knight. (During the
+pandemic, foreclosures mostly ceased due to moratoriums.)
+
+The equity available to homeowners reached nearly $10 trillion at the end of
+2021, double what it was at the height of the 2006 bubble, according to Black
+Knight. For the average American mortgage holder, that amounts to $185,000
+before hitting loan-to-value tripwires. The figure is up $48,000 in a year —
+about what the average American family earns annually, according to some
+estimates.
+
+Even very new homeowners feel an economic boost.
+
+“We never had enough for a down payment, but then in summer of 2020, we got a
+good tax return, a stimulus check and had a little money in the bank,” said
+Magaly Pena, 41, an architect for the federal government. She and her husband
+bought a townhouse in the Miami suburb of Homestead.
+
+Ms. Pena, a first-generation immigrant from Nicaragua, likes to check out the
+estimated value of her house and her neighbors on the real estate website
+Redfin. “Sometimes I’ll check it every day for three days,” she said. “It’s
+been crazy — everything has skyrocketed.”
+
+In 2006, homeowners cashed in their equity. Sometimes they used the money to
+double down on another house or two. In 2022, there’s little sense of excess.
+One reason is that lenders and the culture in general are no longer so
+encouraging about that sort of refinancing. But owners are also more cautious.
+
+Brian Carter, an epidemiologist in Atlanta, said he and his wife, Desiree, had
+about $250,000 in equity in their home but didn’t plan to draw on it.
+
+“I was 27 in 2007 and watched a lot of people lose their houses because they
+couldn’t leave their equity alone,” he said. “That included my next-door
+neighbor and the family across the street. I don’t want to worry.”
+
+Those who take a boom for granted often get upstaged by reality. In May 2000,
+the entrepreneur Kurt Andersen said raising money for a media start-up called
+Inside was as easy[ “as getting laid in
+1969.”](http://web.archive.org/web/20250730032328/https://www.washingtonpost.com/archive/lifestyle/2000/05/03/point-
+and-clique/c8666ca3-178e-4118-be65-020c0fdfef0d/) That was a few weeks after
+the stock market peaked. Seventeen months and one merger later, Inside shut
+down. (Mr. Andersen clarified in an email that he did not actually have sex
+until the 1970s.)
+
+In 2000, the start-up downturn was the first sign of wider economic trouble.
+This time it may be simply that people are doing too well. “U.S. households in
+best shape in 30 years … but does it matter?” Deutsche Bank asked in a
+research note last month.
+
+Its logic: Households have more cash than debt for the first time in decades,
+which is theoretically good. But all that money is encouraging spending, which
+is propelling inflation, which is forcing the Fed to push up interest rates.
+The result: a recession late next year.
+
+Ashley Humphries, 31, feels prepared for most any scenario. Six years ago, she
+was a graduate teaching assistant making $12,000 a year. Now she earns a low
+six figures as a senior product manager for a parking app developer in
+Atlanta.
+
+“I’ve lived out some childhood dreams like dyeing my hair vibrant colors and
+seeing ‘Phantom of the Opera’ from the front row,” Ms. Humphries said. She got
+a dog named Kylo, put a bit of her income in the stock market and bought a
+Tesla. She just left on a Caribbean cruise. Two of them, in fact, one after
+the other.

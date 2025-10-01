@@ -1,0 +1,70 @@
+# Weekly Dose of Optimism #84
+
+**Source**: inputs/saved_emails/Weekly Dose of Optimism #84_Fri,_8_Mar_2024_13-41-46_+0000_18e1e4d814fa37dc.eml
+**Type**: email
+**Created**: 2025-08-25T02:53:57.384146
+
+---
+
+View this post on the web at https://www.notboring.co/p/weekly-dose-of-optimism-84
+
+Hi friends 👋,
+Happy Friday and welcome back to our 81st Weekly Dose of Optimism.
+Packy here. Dan’s out this week and next slinging creatine gummies [ https://substack.com/redirect/9d56e302-5dc4-467b-a408-bda12b971d8e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] across the country, so I’m doing a Weekly Dose takeover. The Optimism Gods made my job easy this week — we have a lot of good news to cover. 
+Let’s get to it. 
+Today’s Weekly Dose is brought to you by… Secureframe [ https://substack.com/redirect/3bfcd98e-cc6e-465a-9be1-ac0c24b3caaa?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Secureframe [ https://substack.com/redirect/3bfcd98e-cc6e-465a-9be1-ac0c24b3caaa?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is the only compliance automation platform with AI capabilities that help customers speed up cloud remediation and security questionnaires. 
+Secureframe empowers businesses to build trust with customers by simplifying information security and compliance through AI and automation. By automating manual tasks related to security, risk, and compliance, Secureframe allows them to focus on growing their business.
+That’s why thousands of fast-growing businesses including AngelList, Ramp, Remote, and Coda trust Secureframe [ https://substack.com/redirect/3bfcd98e-cc6e-465a-9be1-ac0c24b3caaa?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] to expedite their compliance journey for security and privacy standards such as SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR, and more. 
+As a long-term partner on my newsletter and podcast, and a fan of the team, I recommend it to all my portfolio companies.
+Sign up for Secureframe [ https://substack.com/redirect/3bfcd98e-cc6e-465a-9be1-ac0c24b3caaa?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and receive 10% your first year: 
+(1) [ https://substack.com/redirect/2e0806df-c952-4e92-a529-75e84efe03d8?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]  [ https://substack.com/redirect/2e0806df-c952-4e92-a529-75e84efe03d8?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]AWS acquires Talen’s nuclear data center campus in Pennsylvania [ https://substack.com/redirect/2e0806df-c952-4e92-a529-75e84efe03d8?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Dave Swinhoe for Data Center Dynamics
+Talen Energy Corporation this week announced it has sold its 960MW Cumulus data center campus in Pennsylvania to a ‘major cloud service provider’ – listed as Amazon in a Talen investor presentation [ https://substack.com/redirect/e0478e82-ce0b-4326-90df-4362c12be960?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
+Welcome to the Age of Miracles [ https://substack.com/redirect/f94e74e0-47d6-4293-88a1-50f5522c4959?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], Amazon! 
+Data Center Dynamics reported that the bookseller has acquired a 960MW data center at a nuclear power station in my home commonwealth of Pennsylvania for $650 million.  
+While it’s not new nuclear, this is big news for a few reasons. 
+As Mark Nelson highlights [ https://substack.com/redirect/b111b942-c0e3-4735-aa95-d757d47141af?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], it’s Amazon’s first foray into nuclear. The company is the last of the hyperscalers to admit that nuclear is a good, clean energy source to power their energy hungry data centers. 
+Those companies — Amazon, Google, Meta, and Microsoft — consume over 22 gigawatts of electricity in the US each year, and S&P conservatively estimates that number will grow to 33GW by in the next few years [ https://substack.com/redirect/afd04910-abd7-4e71-b1fe-f65aacf65191?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. In order to go clean and maintain ESG ratings, they’ve contracted for 40GW of renewable power (the quoted capacity is higher than the 22GW need for a bunch of reasons, including intermittency). For context, the US has only 95GW of nuclear capacity. 
+Data centers may represent a huge catalyst for nuclear energy. Utilities are pretty terrible buyers for nuclear reactors, but hyperscalers are faster-moving and more economically motivated. Their soaring hunger for electricity may kickstart the process of building more reactors and driving them down the learning curve [ https://substack.com/redirect/8a7c0783-f83f-4e01-aea4-9752739a7756?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
+And not a moment too soon… the Russians and Chinese are discussing a partnership to build a nuclear reactor on the Moon by 2035 [ https://substack.com/redirect/cfa2b17e-f272-4e9f-a950-d65d8d16a559?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
+Look, I’m all for a little international competition, but if anyone’s Putin the first nuclear reactor on the Moon, I want it to be the US of A. 
+(2) Gigascale Hydrocarbon Synthesis: Casey Handmer, Terraform Industries [ https://substack.com/redirect/d05a6ddb-7364-40a1-9769-2f238d9836c0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+I love all clean, cheap energy sources, and solar’s ride down the learning curve has been a thing of beauty. 
+It’s that learning curve that convinced Not Boring favorite Casey Handmer to start Terraform Industries [ https://substack.com/redirect/62ade834-c400-4727-be86-566431bf5773?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], which is “scaling technology to produce cheap natural gas with sunlight and air.” 
+On the second episode of First Principles, Christian Keil [ https://substack.com/redirect/00f73717-0302-4a0f-9b91-5f9f6fa664eb?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] digs in on the details with Casey. They cover everything why hydrocarbons are good, how to make synthetic methane (and eventually synthetic fuels), the Sabatier Reaction, and why cheap solar energy makes it all possible. 
+My favorite part about Terraform is that if it’s successful, it will create even more demand for solar, driving down the price of one of its key inputs even further, and making solar a more abundant energy source for the world. Plus, it takes advantage of solar’s advantages without overloading the grid. Smart. 
+(3) [ https://substack.com/redirect/c3c803ee-5a6b-46e9-afba-6fe00defa38b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]  [ https://substack.com/redirect/c3c803ee-5a6b-46e9-afba-6fe00defa38b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]Helium discovery in northern Minnesota may be biggest ever in North America [ https://substack.com/redirect/c3c803ee-5a6b-46e9-afba-6fe00defa38b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Jonah Kaplan for CBS News
+According to Abraham-James, the helium concentration was measured at 12.4%, which is higher than forecasted and roughly 30 times the industry standard for commercial helium."12.4% is just a dream. It's perfect," he said.
+OK OK fine we’re getting really good at producing cheap, clean energy, but we can’t continue to grow because we’ll run out of resources, right? Wrong. 
+We just keep finding more of the things we need. Like the 2.34 billion metric tons of rare earth minerals found southwest of Wheatland, Wyoming [ https://substack.com/redirect/0f1e5586-11c0-4bae-ad2a-779d16d3f92a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] last month. Or the enormous lithium deposits discovered in California’s Salton Sea [ https://substack.com/redirect/3c3c2975-27aa-492d-b967-0967dc4548b2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
+And now, helium in Minnesota. This week, Pulsar Helium announced the discovery of what might be the largest helium deposits ever discovered in North America. 
+Helium is best-known for its pivotal role in making balloons float and voices squeak, but it’s also a fantastic coolant, something that’s going to get more important as we build more big, hot things. 
+Helium is used in MRI machines (which might help beat cancer [ https://substack.com/redirect/39312d22-d2b3-4274-93d1-4d43cb3eaca2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]), semiconductor manufacturing, and fusion reactors. If things go well in the world, we’re going to need a lot more helium, and now we have billions of standard cubic meters of the good good 12.4% stuff. 
+The combination of human ingenuity, capitalism, and America’s blessed natural resources keeps winning. 
+(4) User-Owned Foundation Models [ https://substack.com/redirect/b4ea4ff0-90d6-4df6-b290-1ba1559388f4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Foundation models tend towards monopolies, as they require huge upfront investments in the form of data and compute. It’s tempting to resign ourselves to the easy option: do the best we can with hand-me-down, open source models that are a few generations behind, the leftovers from large AI companies. But we shouldn’t settle for being a few generations behind and only eating leftovers! We as users should create our own best model — we have the data and compute to make it possible.
+Anna Kazlauskas [ https://substack.com/redirect/e7eed097-ebb4-4ec4-807c-b63531f606a8?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], the founder of our portfolio company Vana [ https://substack.com/redirect/1bbb192b-3dcc-4626-8eb3-70738cf4a7f7?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], has been building in crypto and AI since long before any token that even smells like AI went to infinity. The crypto x AI narrative is running years ahead of practical implementation, and most of those tokens will crash and burn, but there’s a path. 
+Anna paints a compelling vision for user-owned foundation models: “Users who contribute to the model would collectively own and govern it. They could get paid when the model is used, or even paid proportionally to how much their data improved the model.”
+And she brings the facts. Models need a lot of two things to work: data and compute. Collectively, people have a ton of data and a ton of compute. 
+Data: 453 trillion words locked as our private data across big platforms (with an order of magnitude more as we start recording more of our lives).
+Compute: Ethereum miners ran 16.4 million GPUs when the chain was proof of work, many multiples of the amount used to train GPT-4. When the incentives are right, people can pool vast resources. 
+There are challenges, of course. Not all data is high quality, and models perform better with high quality data. And distributed GPUs aren’t optimized for training the way a purpose-built data center is. 
+But with the battle over closed versus open AI raging on [ https://substack.com/redirect/6335947f-428d-43b3-8b4b-307cc6442a7a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], with companies like Google showing that they want to put their own spin on their models’ outputs, and with AI becoming more powerful every week, it’s useful to think about alternatives that would give people more control and ownership. 
+* Speaking of AI getting better, you should really check out Anthropic’s Claude 3 [ https://substack.com/redirect/a02263dd-2471-4f8d-a556-e7d97b76758c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. It’s winning on benchmarks, but it also just feels smarter. It’s my favorite thought partner for now, until next week when someone else comes out with something better. What a time to be alive. 
+(5) Delhi Painter Gets Hands Back As Organ Donation Meets Surgical Excellence [ https://substack.com/redirect/ec4e78ce-bdea-434f-a4ed-39b2f84e738e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Saikat Kumar Bose for India News
+The surgery, which took more than 12 hours, involved connecting every artery, muscle, tendon and nerve between the donor's hands and the recipient's arms.
+Four years ago, a 45-year-old Indian painter lost both of his hands in a train accident. 
+That’s a devastating accident for anyone, let alone a painter from an underprivileged background. And until recently, it would have been permanent. 
+But this week, a team of doctors at Sir Ganga Ram Hospital completed the first successful bilateral hand transplant in Delhi’s history. 
+“The surgery, which took more than 12 hours, involved connecting every artery, muscle, tendon and nerve between the donor's [Meena Mehta] hands and the recipient's arms.” 
+I mean, that’s just an unbelievable W for the painter, and for humanity. 
+Give those doctors a hand! 
+(I’m sorry. Time to wrap it up.) 
+We’ll be back in your inbox on Tuesday. Until then, spread the good news: 
+Thanks for reading,
+Packy + Dan
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVFF5TXpnNE16TTRMQ0pwWVhRaU9qRTNNRGs1TURVek5qUXNJbVY0Y0NJNk1UY3hNalE1TnpNMk5Dd2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LjhQQzZEYkRtMFZuN3pjd0o4Nmd4Z19PbHptQmpPQno2cUhNMU5PZUNTWjAmZXhwaXJlcz0zNjVkIiwicCI6MTQyMzg4MzM4LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTcwOTkwNTM2NCwiZXhwIjoxNzEyNDk3MzY0LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.cLML0j6OAoVsiu_sPDTKjWxbKAKcyJpp1Qc_LEDG73w?

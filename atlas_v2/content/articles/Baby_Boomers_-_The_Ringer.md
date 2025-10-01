@@ -1,0 +1,1219 @@
+# Baby Boomers - The Ringer
+
+**Source**: https://www.theringer.com/nba/2020/1/2/21043951/baby-bulls-chicago-michael-jordan
+**Type**: article
+**Created**: 2025-08-13T16:02:36.533234
+
+---
+
+title: Baby Boomers - The Ringer
+source: https://www.theringer.com/nba/2020/1/2/21043951/baby-bulls-chicago-michael-jordan
+date: 2025-08-13T16:02:32.219663
+tags: []
+---
+[](/\[...wordpressNode\])
+
+#
+
+The end of the Jordan dynasty gave way to six long years of suffering in
+Chicago. But in 2004-05, a group of young’uns and a defensive-minded coach
+overcame a preseason fight, an 0-9 start, and the loss of their offensive
+fulcrum to make it back to the postseason. This is the oral history of the
+Baby Bulls.
+
+[](/\[...wordpressNode\])
+
+#
+
+The end of the Jordan dynasty gave way to six long years of suffering in
+Chicago. But in 2004-05, a group of young’uns and a defensive-minded coach
+overcame a preseason fight, an 0-9 start, and the loss of their offensive
+fulcrum to make it back to the postseason. This is the oral history of the
+Baby Bulls.
+
+With hundreds of thousands of fans assembled in Chicago’s Grant Park on June
+16, 1998, to celebrate the third title of a second three-peat, the end of that
+decade’s great NBA dynasty could no longer be denied.
+
+“This was our last dance, and it was a wonderful waltz,” Bulls head coach Phil
+Jackson said from the park’s band shell stage. “Thank you, all.”
+
+“It’s been a great run,” Scottie Pippen added. “Thank you for our last dance.”
+
+“Nobody knows if we’re going to be in Grant Park next year,” Michael Jordan
+said, with a bit more ambiguity. “No matter what happens, my heart, soul, and
+love will still be in the city of Chicago.”
+
+Chants of “One more year!” rose from the tearful crowd. But, of course, there
+would be no more.
+
+Jackson rode off into the sunset [on a
+motorcycle](https://products.kitsapsun.com/archive/1998/06-23/0037_the_nba__easy_rider__jackson_driv.html)
+to begin a yearlong sabbatical. On January 13, 1999, in the midst of the
+[bitterly waged
+lockout](https://www.theringer.com/nba/2019/2/19/18228706/lockout-1999-season-
+san-antonio-spurs-new-york-knicks), Jordan retired from the NBA for a second
+time. In the 10 days that followed, Bulls general manager Jerry Krause (widely
+blamed for the breakup) went about dismantling the dynasty and selling it for
+parts. Pippen went to Houston in a sign-and-trade. Dennis Rodman was released.
+Steve Kerr was sent to San Antonio, Luc Longley to Phoenix. Krause named Tim
+Floyd head coach. Holdovers like Ron Harper and Toni Kukoc marveled at the
+swiftness with which the Unstop-a-Bulls had become the Replace-a-Bulls—guys
+with names like Rusty LaRue and Kornél Dávid, the league’s first Hungarian
+player.
+
+Following the last dance, the Bulls organization suddenly found itself
+learning to walk again. The team would go on to compile the second-worst six-
+season record in NBA history: just 119 wins and a dismal 341 losses (including
+the lockout-shortened 1998-99 season). Along with all the losing came
+innumerable indignities. Scoring 49 points in an April 1999 game, a record low
+in the shot-clock era. Winning a franchise-worst 15 games in 2000-01.
+Suffering a 53-point beatdown in November 2001. Superstar free agents thumbing
+their noses at a once-proud franchise that had become the league
+laughingstock.
+
+But just as fans were giving up hope along with their season-ticket packages,
+there came a glimmer of promise: the so-called Baby Bulls of 2004-05. The
+story of that Cinderella season, during which the team ground out 47 wins to
+secure a first post-dynasty playoff berth, is a tale of redemption, the stuff
+of sports movie mythos: Through hard work and defensive grit, a no-nonsense
+coach (Scott Skiles) shepherded his dark-horse squad of precocious rookies
+(Ben Gordon, Luol Deng, Chris Duhon, Andrés Nocioni) and grizzled veterans
+(Antonio Davis, Adrian Griffin) back into contention, effectively exorcising
+the stubborn ghosts of recent futility. Along the way, the Bulls clawed back
+from an 0-9 start that tied the franchise-record worst, weathered clashes
+between Skiles and center Tyson Chandler, and pulled together after the late-
+season loss of scoring leader Eddy Curry, who was sidelined with a career-
+altering heart arrhythmia. Gordon asserted himself as the most clutch Bulls
+scorer since Michael Jordan, earning the nicknames Ben Jordan and Heir Gordon
+in addition to the NBA’s Sixth Man of the Year Award, the only rookie ever to
+receive the honor.
+
+That young team gave Chicago basketball fans an invaluable, if illusory, gift:
+a reason to believe that the Bulls would soon dance again. But 15 years later,
+the misbegotten Boylen Bulls now pitifully limp along on two left feet. And
+it’s the first-to-worst Warriors and their fans who are now getting a preview
+of the precipitous fall that will come for Golden State, as it has for every
+dynasty. This is the story of the Baby Bulls, as told by the coaches, the
+players, and others who lived it.
+
+### Chapter 1: Post-Dynasty Misery
+
+**K.C. Johnson (_Chicago Tribune_ Bulls beat reporter, 1996-97, 2000-05,
+2006-19):** After the dynasty broke up, the Bulls had the [second-]worst six-
+season stretch of losing in NBA history.
+
+**Jack Silverstein (Chicago sports historian, author of the forthcoming _6
+Rings: The Bulls, the City, and the Dynasty That Changed the Game_):** The
+destruction of the dynasty was complete and devastating. Suddenly it was this
+completely different team. The uniforms were the same, but the experience was
+totally different. I didn’t think it was going to be as bad as it was. And I
+didn’t think it was going to go on as long as it did.
+
+**Sam Smith (_Chicago Tribune_ sportswriter, 1979-2008):** The first post-
+dynasty season, there were still remnants of the championship teams. Toni
+Kukoc and Ron Harper. [Assistant coach] Tex Winter. Initially there was hope,
+like “Who knows what’s ahead?” And the fans were still grateful for all the
+winning that had so recently occurred.
+
+**Silverstein:** All of a sudden the Bulls went from 62 wins to being 13-37 in
+the 1998-99 lockout season.**** In the ’98 Finals, the Bulls had held Utah to
+54 points in one game, a record low for the shot clock era. And then the very
+next season, the Bulls go and break that record—but on the losing end—scoring
+just 49 points against Miami.
+
+**Smith:** The accumulation of losses grew embarrassing. Seventeen wins in
+’99-00. Fifteen wins in ’00-01.
+
+**Silverstein:** You want to talk low points of being a Bulls fan in that era?
+We had four games in 2000 with John Starks in a Bulls uniform. Of all the
+indignities of that period, having to decide whether or not to root for John
+Starks for four games is up there.
+
+**Johnson:** In a 2001 game, the Bulls lost to Minnesota by 53 points.
+Afterward, Charles Oakley said, “We couldn’t beat a snappy junior high team
+with this group tonight.” The Bulls fined him $50,000 for that.
+
+**Lawrence Funderburke (Bulls center, 2005):** For years, when I was playing
+in Sacramento, you would see the Chicago Bulls on your schedule, and it was
+like, “Oh, it’s a guaranteed win.”
+
+**Silverstein:** Sometime in ’99, before I went off to college, I put my name
+on the Bulls’ season-ticket waitlist. The Bulls were just starting to get bad.
+My plan was that by the time my name would be up on the list, I’d be out of
+college, I’d have a job, I’d have money to afford the tickets, and the Bulls
+would be better. A year later, I get a call. It’s the Bulls’ season-ticket
+office: “We’re excited to tell you you’ve come to the top of the season-ticket
+waitlist.” I was like, “No! That’s not the plan!” People getting rid of their
+season tickets was a sign of how fast the bottom fell out.
+
+**Johnson:** After two or three losing seasons, a sense of frustration crept
+in. In 2000, general manager Jerry Krause had targeted big-name free agents:
+Tim Duncan, Tracy McGrady, Grant Hill, Eddie Jones—all of whom spurned the
+Bulls. They ended up instead with Ron Mercer.
+
+**Silverstein:** That was the big “uh-oh” moment—when it became clear that the
+Bulls could be losing for the long haul. After the first three seasons, I was
+reminded of the quote from _Macbeth_ : “I am in blood Stepped in so far that,
+should I wade no more, Returning were as tedious as go o’er.” In other words,
+I’d gone this far with the post-dynasty Bulls, I might as well keep watching
+them lose. Among those of us who were still watching the team during that
+historic run of losing between ’99 and ’04, there was a strange bond.
+
+**Johnson:** The organization and the fan base and even some of the beat
+writers had become ... I don’t want to say _numb_ to all the losing, but the
+losing just kind of became part of the Bulls. There was a lot of dysfunction
+around the team. I used to get to practice and go, “What’s going to happen
+today?” As a young, impressionable beat writer, I had great stuff to write
+about every day, but it was chaotic. Krause’s plan and philosophy always
+seemed to be changing and shifting, including drafting Elton Brand and then
+trading him pretty quickly for the draft rights to Tyson Chandler and rolling
+the dice with Chandler and Eddy Curry, two 7-footers who had come to the NBA
+straight out of high school.
+
+Tyson Chandler and Eddy Curry on the bench against the Golden State Warriors
+on November 17, 2004, in Oakland, California.Photo by Rocky Widner/NBAE via
+Getty Images
+
+**Silverstein:** When the Bulls got Tyson and Eddy, it was a big reset of the
+hope meter for Bulls fans. It felt like Krause taking his shot, looking for
+the next Scottie [Pippen] and Horace [Grant] in one night.
+
+**Smith:** Curry was an amazing athletic talent. The guy was like a gymnast, a
+7-foot gymnast.
+
+**Johnson:** The frustration culminated with Floyd’s resignation under
+pressure on Christmas Eve 2001. [Former Bulls center] Bill Cartwright came in
+as head coach, and with him a surge of optimism. The team started to play a
+little better. Jamal Crawford provided some hope initially and there was
+excitement around the 2002 trade for Jalen Rose.
+
+**Silverstein:** The ’02-03 Bulls won 30 games for the first time since the
+dynasty dissolved. That felt like a huge leap forward.
+
+**Johnson:** In the spring of ’03 came probably the biggest shock: Bulls owner
+Jerry Reinsdorf finally decided to part ways with Krause, who had helped build
+the dynasty. The Bulls disclosed the reason initially as health. Krause had
+been suffering some health issues, but it was more or less a graceful arranged
+exit. That led to John Paxson’s ascension to general manager.
+
+### Chapter 2: A Complete Culture Change
+
+**Silverstein:** This gets lost now because of what the Bulls have become in
+recent years under John Paxson, but Pax turned the team around at their lowest
+point. During the 2003-04 season, he traded Jalen Rose to Toronto for Antonio
+Davis, who became the veteran rock of the Baby Bulls. He got rid of Scottie
+Pippen, whom he had previously brought back to provide veteran leadership. He
+fired his former teammate Bill Cartwright as coach, a sign of moving away from
+the Bulls’ long-standing love of nepotism. And he hired Scott Skiles as head
+coach. That was the foundation of a new team and truly a new culture.
+
+**Smith:** Paxson built the roster in his own image. He had been an
+overachiever; a tough, physical player for his size; the ultimate grinder.
+Who’s his first draft pick? Kirk Hinrich, a major grinder. He got rid of
+“soft” guys not known for their defense, like Jalen Rose, Jamal Crawford, and
+Eddie Robinson. He brought in a hard-nosed coach in Scott Skiles.
+
+**Kirk Hinrich (Bulls guard, 2003-10, 2012-16):** When I got to Chicago in
+2003, I sensed everyone was tired of losing, but also that there had become an
+acceptance that, well, this is just how it is.
+
+**Tyson Chandler (Bulls center, 2001-06):** We had become one of the worst
+teams in the league. We had a losing culture. We had to try to change the
+culture.
+
+**Johnson:** Scott Skiles was the perfect coach for that young team. He was
+no-nonsense, didn’t accept excuses, didn’t accept mediocrity. He demanded a
+lot of his players and held them accountable in a very blunt and fair way. He
+would say, “This is what I expect, this is what we need to do, and this is how
+we’re going to do it.”
+
+> We had become one of the worst teams in the league. We had a losing culture.
+> We had to try to change the culture.
+>
+> Tyson Chandler, Bulls center, 2001-06
+
+**Smith:** Scott is tough, direct, the ultimate no-bullshit guy. He and Paxson
+were in tune completely about playing with discipline, holding players
+accountable. Scott also had a great sense of humor. Famously, when reporters
+asked him what Eddy Curry could do to rebound better, Scott said, “Jump.” He
+also had a staff of veteran assistants who were good teachers, especially Ron
+Adams, who’s now with Golden State. It was a far cry from the minor-league
+bunch of clowns that Tim Floyd had brought in—his high school buddies and
+stuff.
+
+**Ron Adams (Bulls assistant coach 2003-08, 2010-13):** Scott was a marvelous
+coach. He was a great organizer and had a clear-cut idea of what he wanted to
+do and how he wanted to insert discipline into the Bulls program.
+
+**Hinrich:** Pax and Scott began implementing a complete culture change. The
+Bulls for so long had been just a bunch of different talented parts. They were
+never one group playing together for a goal. Paxson understood hard work is
+what the city wanted. It was going to help us win games, but it’s also
+Chicago’s identity. We wanted to gain respectability back in the city and
+around the league. When Scott got there partway through my rookie season, it
+was clear that things were going to be different. The team culture was going
+to be based on character and hard work and defense and playing for the team.
+
+**Chandler:** My prior years with the Bulls, we weren’t playing the right way.
+It was guys out for their own. Selfish play. That season was the first time we
+started to play team basketball.
+
+**Hinrich:** Scott’s mentality was: _If you aren’t playing defense, you aren’t
+going to play. Period. It doesn’t matter if you’re scoring._ That was a big
+change. He made it clear we needed to be a group of guys who were buying in,
+willing to play hard and do the things asked of them every night, no matter
+what. Put the team first, defend, and compete your butt off—that was our
+mission statement.
+
+**Smith:** What the 2004-05 team represented was Paxson’s view of what an NBA
+team should be. Paxson was intent on changing the character of the team and
+adopting the character of what Chicago likes to see in itself—hard-working,
+tough, blue collar. He wanted hard-hat, lunch-bucket guys. The veterans he
+brought in were the same profile of tough overachievers: Adrian Griffin,
+Othella Harrington, and Antonio Davis.
+
+**Silverstein:** The Jalen Rose trade felt like it signaled something deeper
+about how Paxson was going to build the team. Because on paper, it’s a loser.
+You trade a 20-point scorer plus Travis Best for … _Antonio Davis_? It didn’t
+totally make sense.
+
+**Antonio Davis (Bulls forward/center, 2003-05):** Getting to Chicago in 2003
+and talking to Scott, I realized veteran leadership was one of the primary
+reasons he wanted me there. I took that to heart because I remembered my first
+years with the Pacers and having guys take me under their wing and show me how
+to be a professional every day.
+
+**Johnson:** Paxson’s team-building philosophy was generally to draft
+multiyear players from blue-chip programs. And you can include Andrés Nocioni
+in that, because he had won the gold medal with Argentina in 2004. Paxson
+started acquiring all these young players who came in as veteran as you could
+be as a rookie—the complete opposite of Krause getting high schoolers. In the
+’03 draft, Paxson picked Kirk Hinrich, who had gone to the NCAA championship
+game in [2003] with Kansas. Then in the ’04 draft, he used the third pick on
+Ben Gordon, who won an NCAA championship with UConn. In the second round,
+Paxson took Duke’s Chris Duhon, who won an NCAA championship in 2001 and was
+in a Final Four in 2004. Duhon’s Duke teammate Luol Deng was drafted seventh
+overall by Phoenix and then traded to the Bulls. Nocioni signed as an
+undrafted rookie free agent. It just felt different, like a new direction
+forward.
+
+### Chapter 3: Youth Movement
+
+Scott Skiles, Ben Gordon, Luol Deng, Chris Duhon, and John Paxson pose after
+the press conference introducing the Bulls’ 2004 draft picks at the United
+Center in Chicago, Illinois. NBAE via Getty Images
+
+**Chandler:** Going into camp, I didn’t know what to make of the team. I
+didn’t know how good Ben and Luol and Chris and Nocioni were. I watched some
+of those guys in college, but you never know how it’s going to transfer to the
+NBA. I knew we’d had some high draft picks, some guys coming from Duke, some
+winners. But that didn’t mean anything until I saw what they could bring to
+the table. Initially, I was like, “It seems like they’re pretty good.” But
+then as camp went along, I’m like, “OK, no, these guys are _really_ good.”
+
+**Silverstein:** More than a third of that roster was rookies: Gordon, Deng,
+Duhon, and Nocioni, plus center Jared Reiner.
+
+**Johnson:** There was certainly an air of excitement going into that training
+camp with those four rookies coming in. But the expectations were low because
+the Bulls had been losing for so long. There was a mix of veterans and some
+exciting new talent. But no one expected the rookies to contribute the way
+that they eventually did.
+
+**Smith:** Ben Gordon, he’d had this incredible workout with the Bulls. I
+heard stories about it. Apparently he hit, like, 50 straight 3s or something,
+from everywhere on the court. Never missed. Hands in his face and everything.
+
+**Chris Duhon (Bulls guard, 2004-08):** I was excited with the guys that the
+Bulls had gotten. I’d competed against Kirk in college, so I knew the
+intensity he brought to the table. I played with Luol at Duke, so I knew his
+work ethic. I’d watched the improvement of Eddy and Tyson. So I knew we had
+talent and could compete. At the same time, I was aware of the Bulls’ recent
+struggles. I looked at it as a challenge, a chance to turn the franchise
+around.
+
+**Smith:** The Bulls initially told Chris Duhon, “We don’t need you on the
+team. We’ve got enough guards coming in.” They told him to go to Europe. Back
+then, teams would pick guys from U.S. colleges and tell them to go overseas
+for a couple of years. Duhon said, “Screw you! Not only am I not going to
+Europe, but I’m going to come to camp and beat out your guys. I’m going to
+make this team.” And he did! That was Scott’s kind of guy. Duhon would end up
+being part of the starting backcourt that season.
+
+**Adams:** Chris Duhon came up to me in the summer and said, “Ron, I’m not
+going to make this team unless you invest some time with me.” I’d never heard
+that before from a player. I hadn’t paid too much attention to him because
+there was no plan to keep him. Chris could guard multiple positions, which
+made him valuable. But I told him, “We have to develop your 3-point shot.” And
+so for a month, we worked on his shot. He became a decent 3-point shooter and,
+progressively, far more than that.
+
+**Chandler:** Duhon came in and it was clear he was a winner. Coming from
+under Coach K, you saw that influence. He didn’t get rattled playing pickup.
+He was vocal off the top, leading at the point guard position. And then Luol,
+I saw his defensive gifts and knack to score. I just started to think,
+“Finally! We got a roster! We got guys in every position that can play!”
+
+**Andrés Nocioni (Bulls forward, 2004-09):** The training camp was a really
+rough one. Really, really physical. Really competitive. And I knew almost zero
+English. I could probably say “hello” and “thank you.” I took English lessons
+after practice every day.
+
+**Johnson:** These guys had already been coached hard in college and overseas.
+Skiles’s approach just made it a seamless transition for them to the NBA. I
+remember talking to Kirk once about Skiles as a hard-nosed coach. He was like,
+“Doesn’t faze me at all. I had Roy Williams at Kansas. You do what your head
+coach tells you.”
+
+**Adams:** Scott was extremely good with the young point guards. I coached
+against Scott in college. Here was a 6-foot-1 guy who was not very fleet of
+foot but could shoot the ball so well from the 3-point line and was a
+tremendous quarterback in running a team and just marvelous at getting the
+ball to people.
+
+**Davis:** Getting to training camp and meeting those guys, I saw how young
+they were. They were _really_ young! Guys like Ben and Chris and Luol, they’d
+grown up watching me play for the Pacers [in the mid-to-late ’90s]. But I had
+experience dealing with young guys. For a couple years when I was in Indiana,
+I nurtured Al Harrington, who had come to the NBA straight out of high school.
+That role actually really helped me because I knew the rookies were watching
+me, so I was getting to practice early and staying late and making sure I got
+my lifts in and did everything asked of me. I wanted to show them that after
+all these years, it’s still important to remain true to being as good as you
+can be every day. So they helped me out a lot too.
+
+**Adams:** Antonio Davis was a critical player for us that year. He was just a
+marvelous leader and he could still really play the game at that point, too.
+Every day he was a leader in subtle ways. In sports, we often talk about these
+peak moments in which someone does something or says something that rallies
+people around them. But really, the core work is done every day in that locker
+room.
+
+**Duhon:** We had great vets on that team. That was one of the big advantages
+for us young guys. I grew up watching AD with the Pacers. There was amazing
+leadership from him, Eric Piatkowski, Adrian Griffin, Othella Harrington. We
+just followed their lead. Those guys were always there early, always there
+late, always were encouraging us to continue to get better and go out and play
+as hard as we could.
+
+**Fred Tedeschi (Bulls athletic trainer, 1998-2014):** Othella was a gritty,
+physical veteran; Piatkowski could shoot the 3; and Griffin was a hard-nosed
+defender that added an air of toughness to the bench.
+
+**Adrian Griffin (Bulls guard/forward, 2004-05):** AD and I had a good cop/bad
+cop thing going. He would get on a rookie for making a mistake, and then I
+would go and smooth things over. Skiles appreciated us being another voice in
+the locker room for him and his philosophy, a bridge between him and the
+younger guys. I really bought into Skiles’s vision. He demanded we be
+professional. He demanded we play hard and know our jobs. And I thought that
+this was the way it should be.
+
+**Davis:** Knowing we had a young squad, Scott did not spend a lot of our team
+time talking about how we were going to score the basketball. Mostly we talked
+about defense. He knew if he could get the young guys to buy into the
+defensive concept, we were going to be pretty good.
+
+**Duhon:** Coach wanted to build our foundation defensively and make us one of
+the NBA’s best defensive teams. So practices were very intense: one-on-one
+drills, learning how to close out, a lot of running and conditioning.
+
+**Griffin:** Skiles had these speakers, and he would pump in loud crowd noise
+during scrimmages to re-create a game atmosphere. He believed that we needed
+to play together in order to build chemistry. I remember how intensely
+competitive those games would be. It was taxing on me because I was older. It
+was hard keeping up with those younger guys! I had to go against Luol every
+day and he never stopped moving. And Nocioni had an unbelievable motor. You
+could see their talent.
+
+We didn’t do rookie hazing. But I assigned the young guys to get Krispy Kreme
+donuts for every practice.
+
+**Nocioni:** We had a schedule. Some rookie always had to bring donuts to the
+practice facility. I did it, too. But nothing else. My first practice, Skiles
+came to the team and said, “Look, Noce is a rookie, but he’s a special rookie
+because he’s played overseas many years.” I was only 23 or 24, but I already
+had about nine years of professional basketball experience.
+
+**Griffin:** After practices, the vets would get the team together and say,
+“Even though we’re a young group, if everyone buys in and plays for each other
+and gets on the same page, we’ve got a chance to do something special.”
+
+**Adams:** Going into any season with a new, young team, you just never know.
+The hope is that they will grow and come together and amount to something. And
+that’s pretty much what happened with that Bulls team.
+
+**Silverstein:** The first time I heard the term “Baby Bulls,” it was
+referring to Tyson Chandler and Eddy Curry, but it actually dates back to the
+franchise’s inaugural 1966-67 season. Bob Logan of the _Chicago Tribune_
+called that very first team the Baby Bulls.
+
+**Chandler:** We got tagged “the Baby Bulls.” I thought it was pretty dope. We
+were babies in the league trying to define ourselves, the same as babies in
+the world. I didn’t take it as knock. I took it as a new beginning.
+
+### Chapter 4: A Perfect Storm of Crap
+
+**Jared Reiner (Bulls center 2004-05):** Antonio Davis set the tone for that
+whole season in a preseason game against the Washington Wizards. On a fast
+break, Larry Hughes shoved Kirk Hinrich into Luol Deng, sending Luol crashing
+to the floor. When Kirk got in Hughes’s face about it, the Wizards’ Brendan
+Haywood went and shoved Kirk.
+
+**Davis:** When I saw that happen and realized somebody could’ve gotten hurt,
+I was like, _No, I’m not gonna let that slide._ That whole season, especially
+at the start, I felt like Papa Bear. I felt like I had to protect those young
+guys. I was acting completely out of instinct.
+
+**Reiner:** Antonio swooped in and ended up body-slamming and punching
+Haywood. When those two were on the ground, Eddy came in and threw punches.
+
+**Griffin:** Antonio Davis, he was the enforcer. No one messed with AD.
+
+**Davis:** We talked about it in the locker room after the game. I said,
+“Listen, no matter what happens, the guy next to you has to know you got his
+back. Period. It’s us against the world. The only thing that matters is us in
+this locker room.”
+
+> The start was brutal. We just had this cloud over us that we couldn’t get
+> out from under.
+>
+> Kirk Hinrich, Bulls guard, 2003-10 and 2012-16
+
+**Hinrich:** I appreciated what AD did. It told us young guys, here’s a guy
+who has been through a lot in this league and now he’s looking out for us.
+That’s something we look back on and laugh about now. We were fighting in a
+_preseason_ game!__
+
+**Davis:** Eddy and I got suspended for the first two regular-season games.
+But sitting out wasn’t a big deal to me. I definitely would have done it all
+over again.
+
+**Duhon:** During the first game of the regular season in Chicago, I was
+excited when Skiles told me to go check in. I ran up to the scorer’s table and
+went to take my warm-up shirt off and just felt the cool breeze on my chest.
+[_Laughs_.] That’s when I realized I didn’t have my jersey on! Skiles just
+looked at me and started laughing. I sprinted back to the locker room and only
+missed, like, two possessions.
+
+**Silverstein:** In that game, the Bulls took the Nets, who were then a pretty
+good team, to double overtime. Even though the Bulls lost that game,
+immediately something felt different about this group. Kirk had 34 points.
+Deng had 18 points off the bench. They were more competitive, they were fiery,
+they were defending. And there was a feeling that this was the best Bulls team
+since the Jordan-Pippen dynasty.
+
+**Smith:** After a few home games to start the season, the Bulls headed out
+West on a long road trip. The annual “circus trip” coincided with the Ringling
+Bros. and Barnum & Bailey Circus taking over the United Center for two weeks
+every November. In the post-dynasty years, the Bulls had been massacred on
+those trips by the top Western Conference teams. The gruesome losing streak on
+the circus trip had ballooned to, like, 30-some straight games over the
+previous six seasons.
+
+**Davis:** The circus trip was a perfect storm of crap: a bunch of young guys,
+a long road trip, some good Western Conference teams. All this stuff was
+working against us.
+
+**Hinrich:** The start was brutal. Us young guys were looking at each other
+like, “Man, we’re never going to get up this hill. We’re never going to get a
+win.” We just had this cloud over us that we couldn’t get out from under. We
+continued to get our butts kicked. We were just trying to figure out our
+identity, figure out how to win. There is a big learning curve to
+understanding how to win in the NBA.
+
+**Chandler:** We kept losing games, but we were _right there_ , getting better
+every night. Kirk and I were walking to the bus after losing one close game,
+and I was like, “Yo, we’re going to make the playoffs this year.” Kirk was
+like, “I was just thinking the same thing!” I was like, “Yo, man, it ain’t
+been like this since I’ve been here. We’re playing good basketball, we’re just
+losing. It’s going to turn for us if we keep this up.” And eventually, it
+turned.
+
+**Duhon:** On plane rides, we’d all hang out together and AD would continue to
+encourage us.
+
+**Davis:** When you’re on a losing streak like we were, young guys especially
+will start pointing fingers. It’s always somebody else’s fault. My main
+message was, “We’ve got to stick together. Don’t get caught up in the ups and
+downs.” That was huge because we would have stretches later in the season
+where there were a lot of ups and even more downs, but we remained consistent.
+I told them, “We’ve got to play to win, not play to not lose.” There’s a big
+difference.
+
+**Johnson:** What I remember more than any main problem is how impressed I was
+with the defiance of such young players. Gordon and Duhon and Deng and
+Hinrich—they were pissed about losing. They were like, “We’re not used to
+this.” I was impressed by their refusal to accept losing. It signified a big
+change from the Bulls teams of the few previous seasons.
+
+**Smith:** I wrote a tough piece several games in, because the Bulls still
+hadn’t won a single game, asking, “What is Skiles doing?” Skiles came to me
+later and said, “Let me show you.” He showed me this book in which he had
+written down plays since he was in high school, from different games,
+different coaches. By the time he came to the Bulls, it had become a pretty
+thick book. It was clear he had been studying to be a coach. He said, “It’s
+going to take a little time, but it’s going to work.”
+
+**Jannero Pargo (Bulls guard, 2004-06):** No one was happy during that losing
+streak. We had some rookies who were not doing their duties, so they got
+punished really hard. Veterans at the end of the bench, myself included,
+thought we could help, but we weren’t seeing much playing time.
+
+**Hinrich:** Did Scott get angry? Oh, gosh, yeah. In his eyes, the worst thing
+you could do is not give effort on defense. And we practiced our asses off.
+The veterans were probably like, “Man, this is crazy.”
+
+**Adams:** We had some really intense competitors involved in that team—and
+there was no more fierce a competitor than Scott. That’s how he was as a
+player. He had to do that to survive. So he expected a lot.
+
+Scott Skiles talks to his teammates during a game against the Portland Trail
+Blazers on January 31, 2004.NBAE via Getty Images
+
+**Hinrich:** The biggest shock for some of the younger guys was coming in the
+day after a game and getting called out by Scott while watching game film. It
+was always worse after a loss. We were held accountable for turnovers, blown
+defensive assignments, bad decision-making. The biggest thing to remember was
+not to be sensitive. Not to take it personally. To take it as constructive
+criticism.
+
+**Chandler:** Skiles and I, we didn’t get along. I respect all my coaches. But
+it felt like he had something personal against me. The hard practices and the
+discipline? That stuff I liked. I was cool with that. I thought Skiles brought
+a great edge. I thought he whipped us in shape, built a defensive identity,
+held guys accountable—all of those things I thought were great. But at some
+point that turned from a guy coming in to change a culture to him just being
+too much, taking things too far.
+
+**Nocioni:** Back then it was a little bit easier to be that kind of tough
+coach. Skiles put pressure on everybody, every day. That was rough on some
+players. Sometimes Tyson would be upset. He would say, “Man, this guy is
+crazy! He’s mad every day!”
+
+**Smith:** Skiles was on Chandler and Deng a lot, because they weren’t his
+kind of players. They were more finesse kind of players. He did succeed in
+getting them to play tougher and harder, but it was painful. Chandler used to
+come into Paxson’s office crying sometimes from Scott yelling at him so much.
+As difficult as that was, I think Tyson years later was appreciative of
+Scott’s tough love.
+
+**Chandler:** AD is the only reason I survived that season with Skiles. He was
+constantly in my ear and he helped me keep my head together. When I would get
+frustrated, he would always be right there at my locker afterwards, smiling,
+calm, bringing my focus back to where it needed to be. He’d tell me, “Hey,
+just don’t let that stuff get to you.”
+
+### Chapter 5: 0-9
+
+**Smith:** In the ninth game, the Bulls got blown out by Phoenix.
+
+**Johnson:** That tied the franchise record for worst start at 0-9. With one
+more loss, they would set a team record for futility to open a season.
+
+**Griffin:** We had a very young team, so we expected to hit some adversity
+early. But we never thought that it would be to that level. _0-9?_ I don’t
+care who you are, whether you’re rebuilding or not, 0-9 is tough to swallow.
+
+**Smith:** On the way to Utah for the 10th game, Skiles says to me, “I’m
+telling you, we are _really close_ to being a good team.” I’m thinking the
+guy’s nuts. At that point, all the predictions were that they would be lucky
+to win 20 games, that Skiles is Tim Floyd all over again, that the Bulls are
+dead, done.
+
+**Hinrich:** We said as a collective, “Nobody thinks we can do anything. We
+are putting so much work in behind the scenes. Let’s not let all this hard
+work go to waste. If we’re gonna work our asses off in practice every day,
+let’s give it everything we’ve got in the game. Let’s come together and figure
+it out and make this thing work.”
+
+> On the way to Utah for the 10th game, Skiles says to me, ‘I’m telling you,
+> we are really close to being a good team.’ I’m thinking the guy’s nuts.
+>
+> Sam Smith, _Chicago Tribune_ sportswriter
+
+**Tedeschi:** After the ninth-straight loss in Phoenix, Scott and his
+assistant Jim Boylan had a glass of wine at the hotel where we were staying,
+and I listened to them talk about what they thought they needed to do to turn
+the team around. They mentioned putting Chris Duhon in the starting lineup.
+
+**Silverstein:** The regular starters became Hinrich, Curry, Deng, Duhon, and
+Davis. Sometimes Nocioni.
+
+**Chandler:** I was OK coming off the bench. I could not care less as long as
+we won. It wasn’t so much the demotion that I was upset about. It was the way
+that I was treated through miscommunication about the change. I thought Skiles
+was playing a lot of petty mind games that were unnecessary because I was
+already all in for whatever it took for the team to win. You just got to be
+straight with me in meetings and tell me what’s going on, and I’m gonna do
+what I can for the team. We just didn’t have a great relationship. It wasn’t a
+relationship, to be quite honest. I don’t think he dealt with me correctly.
+
+**Tedeschi:** After Chris was inserted into the starting lineup, things
+started improving. He just knew how to run a team and was a hard-nosed
+defender.
+
+**Johnson:** That 10th game in Utah was a ridiculously entertaining way to win
+their first of the season. It was a tight game down to the final minute. And
+then the jubilation …
+
+**Hinrich:** We didn’t even know what to do. Like,_For real, we just won? Did
+it really happen?_ It was as if the weight of the world had come off of us.
+
+**Pargo:** That was a great feeling. On the plane ride home, there were lots
+of laughs and smiling faces and playing cards and not a lot of guys wanting to
+sleep. It felt like finally we had gained some momentum and could start
+winning games.
+
+**Smith:** After the win in Utah, Skiles told me, “Really, we are going to be
+good.” This is after winning _one_ game! The Bulls were 1-9! But then they
+absolutely took off.
+
+### Chapter 6: Digging Out With Defense
+
+**Nocioni:** After we won in Utah, we started to feel it. We started to say,
+“We overcame this. We _are_ a good team. We have the young guys who can
+compete, we’ve got the veteran leaders, we’ve got the dude from Argentina. He
+can’t speak English, but he can play!” [_Laughs_.]
+
+**Silverstein:** When you start 0-9 and you end up with 47 wins, there’s
+something really special happening there between the players.
+
+**Chandler:** We started to understand how to play together. We were learning
+on the job: how to start games, how to make adjustments at halftime, how to
+finish games. We learned and all the hard work finally started to pay off.
+
+**Hinrich:** The next thing we knew, we were stringing together wins. A five-
+game winning streak in December. A seven-game winning streak in early January.
+Another five-game winning streak at the end of January.
+
+**Johnson:** Scott deserves a lot of credit for the Bulls digging themselves
+out of that 0-9 hole. This young team had a desire to win and was thirsty for
+coaching, and they lapped up what Scott was selling.
+
+**Davis:** We knew we were only going to be as good as we defended. Scott
+homed in on all the little things it was going to take for us to win. We began
+taking pride in each deflection, each box-out.
+
+**Griffin:** He would track the game behaviors he wanted to see. Did we sprint
+the floor? Did we box out? The next morning, Skiles would post our individual
+scores on our lockers. Some guys would complain about their scores, and he
+would say, “Hey, there’s the film right there.” He would also give us pop
+quizzes on the offense. We’d just walk in the locker room and he’d hand out
+notebooks and pens and say, “Draw up this set.” It kept us engaged, built us
+up, brought us together.
+
+**Smith:** Skiles saw things on the court that other people don’t see. He had
+such a gift for knowing how to play the angles, teaching his players to
+anticipate what opponents are going to do. He was always playing 3-D chess. I
+always thought he could’ve been a great mathematician.
+
+**Davis:** Scott created games within the game. Hold opponents to only so many
+points in the first quarter. Win the third quarter. If we held teams to under
+100, we knew we had a good chance to win.
+
+**Duhon:** Actually, our goal was 88 points or less—22 points or fewer per
+quarter. So if a team would score 26 in a quarter, we would all start
+challenging each other: “Hey, we gotta buckle down!”
+
+**Johnson:** Through December and January, the Bulls went on a streak of
+holding opponents to under 100 points in 26 straight games—a franchise record.
+Of course, that was a different NBA era, you have to remember. What’s more
+telling is that they went from last in the league the previous season to first
+in the league that season in opponents’ field goal percentage.
+
+**Hinrich:** Our goal was to keep every opponent at or below 42 percent field
+goal shooting every night.
+
+> Skiles would post our individual scores on our lockers. Some guys would
+> complain about their scores, and he would say, ‘Hey, there’s the film right
+> there.’
+>
+> Adrian Griffin, Bulls guard/forward, 2004-05
+
+**Adams:** We had several guys with a defensive mentality: Kirk, Chris, Luol,
+Andrés Nocioni. Adrian Griffin was a bear defensively. Tyson was a defensive
+factor on the interior. We emphasized the small things such as challenging
+shots. Everyone made an attempt to defend on that team. Even guys who were not
+as gifted in that regard or were more offensive-minded, such as Ben Gordon and
+Eric Piatkowski. Our team defense then was structured to help the guys who
+were not top-of-the-line defenders.
+
+**Hinrich:** Part of what made us so good defensively was our communication.
+I’d be on the wing guarding Allen Iverson, and AD and Tyson would be
+constantly talking to me, telling me what’s going on behind me.
+
+**Griffin:** One of our competitive advantages was that we were young and
+mobile and fast and in great condition. We wore teams down. We played so hard
+on defense in the first three quarters, most of our opponents seemed to
+dwindle a bit in the fourth quarter. Their legs would be gone and we would
+wrap it up. That’s how we won a lot of our games.
+
+**Hinrich:** We were young and a bit overconfident and would need to be
+reminded along the way that we couldn’t win the way that other teams in this
+league win. We had to win our way.
+
+**Griffin:** If you practiced hard, Skiles would find minutes for you. Jannero
+Pargo and myself, we were sometimes the 11th and 12th guys on the bench. We’d
+be losing by 20 in the fourth quarter, and Skiles would put me and Jannero in.
+Jannero, he’d hit a few 3s in a row. I’d get a couple steals. We’d bring
+energy and turn the game around. We ended up winning three, four games in the
+fourth quarter.
+
+**Duhon:** That’s just how that team was going to be. We were going to scrap,
+play until the end, no matter if we were up 20, down 20. That was the mind-set
+of that group.
+
+### Chapter 7: Heir Gordon
+
+**Silverstein:** Eventually Ben Gordon started cooking as the sixth man, and
+the team just really took off.
+
+**Smith:** Offensively, Eddy Curry was the Bulls’ most talented player, the
+leading scorer. He would have these great first halves, but he would get
+nervous at the end of games and didn’t want the ball down the stretch, so he
+often wouldn’t play much in the fourth quarter. Skiles coached around it. Down
+the stretch, he’d put in Ben Gordon, who began saving the Bulls. After the New
+Year, Gordon had this incredible stretch where he was making big shots all
+over the place, and they started winning. He became a feared scorer, despite
+playing off the bench. He had 21 double-digit fourth quarters that year,
+second only to LeBron James. That galvanized the group, like “Hey, we got a
+go-to guy, even though our go-to guy doesn’t start!”
+
+Ben Gordon passes the ball to Tyson Chandler as DeSagana Diop and LeBron James
+of the Cleveland Cavaliers defend during a game on December 8, 2004, at the
+United Center in Chicago, Illinois. Getty Images
+
+**Davis:** Ben would come off the bench and score 18 in a quarter,
+20-something in a quarter once he really got going.
+
+**Hinrich:** BG was a talented, talented scorer, man. About as good as I’ve
+ever seen. He was unbelievable. Strong, athletic. Ben knew he could go out
+there and get 20 every night, but he was willing to buy into the team
+mentality and play the sixth-man role. For a guy like that to buy in without
+complaint, it says a lot about his character. He did an amazing job of being
+selfless.
+
+**Tedeschi:** Ben was so impressive coming off the bench. I don’t think it was
+a role he completely loved, but it suited him well. And, obviously, he ended
+up winning the Sixth Man of the Year Award.
+
+**Duhon:** We fed Ben, relied on him to be our closer, and he was coming
+through, making big shot after big shot. We felt a lot more confident late in
+close games knowing that we had a guy who could get us points when we most
+needed them. Michael Jordan had been one of the best clutch players in the
+league, and now Ben was starting to build that type of reputation.
+
+**Smith:** People were calling him “Ben Jordan” and “Heir Gordon” because he
+was hitting game-winning shots. He was absolutely clutch, wanted the big shot,
+loved the moment. The Bulls hadn’t had anybody like that for years.
+
+**Silverstein:** In mid-January, the Bulls had this goofy schedule with back-
+to-back games against the Knicks. Both ended up being nail-biters. The first
+game, at the United Center, was tied 84-84 in the final seconds, when Nocioni
+blocked a potential Knicks game-winner with eight seconds left, Tyson saved
+the ball to Kirk, who threw it ahead to Eddy for a go-ahead layup with two
+seconds left on the clock. Tyson then made a huge block on the Knicks’ buzzer-
+beater and immediately began high-fiving fans. The Bulls won 86-84. In the
+second game, on Martin Luther King Day at Madison Square Garden, Ben hit a
+big-time running floater in the final seconds to win it, 88-86. That was the
+Bulls’ seventh win in a row.
+
+**Duhon:** Ben used to call it “Madison Square Gordon.” A lot of his Big East
+tournament games were there, and he always seemed to play well in New York.
+
+**Johnson:** In that postgame locker room at Madison Square Garden, you could
+feel the belief and the excitement that the team had. That belief built
+gradually over the course of the season.
+
+**Duhon:** Those Knicks games were big wins for us, because we were building
+confidence to be able to finish games, to close out teams late.
+
+**Griffin:** When Ben started winning games for us, I made a rule that he
+didn’t have to fetch donuts anymore. All the other rookies said, “Hey, that’s
+not fair!” I said, “Well, get us 20 points tonight and you don’t have to get
+donuts in the morning.”
+
+**Tedeschi:** In late January, we had a good win in Detroit against the
+defending NBA champions to finally get to .500—19-19. The next game was in
+Atlanta. Atlanta being Atlanta, famously teams would usually go out at night
+and do whatever and not play well on game day. Antonio told Scott, “Don’t
+worry. I’ll make sure these guys are ready to play against Atlanta.” Sure
+enough, the team came out and played really well and beat the Hawks. That’s
+the moment I realized that this team might be for real, because finally we had
+some true leadership.
+
+**Hinrich:** When we started bringing it together and playing really well
+together toward the second half of the season, the atmosphere in the United
+Center was pretty amazing.
+
+**Smith:** They were the kind of blue-collar team that Chicago likes to
+embrace. They didn’t have a superstar like Jordan—but Jordan wasn’t the
+archetypal Chicago athlete.
+
+**Duhon:** Even though the Bulls had been struggling the last couple of years,
+the stadium was packed. You could feel their appreciation for us going out
+there and playing our tails off, and I think that helped build up our
+confidence.
+
+**Joe O’Neal (Bulls senior director of ticket operations), quoted in the
+_Chicago Tribune_ :** People have called and wanted their [United Center]
+seats back, but in some cases somebody else has them now. They were like,
+“Hey, Joe, it’s a blast from the past, guess who?” … I’ve only seen this type
+of response here once before. That was 1986.
+
+### Chapter 8: Matters of the Heart
+
+**Smith:** Along with Gordon, Eddy Curry kind of exploded that season. He was
+a big part of the team digging themselves out of the 0-9 hole. He was as good
+a big man as there was in the NBA in that stretch. After all the difficulties
+under Tim Floyd, he had looked like a draft bust. But he bloomed that season
+under Skiles. Internally among the Bulls front office, the discussion was
+“We’re going to give Curry a maximum extension. He is who we thought.” Then,
+suddenly, just as the team was rolling, they lost the centerpiece of their
+offense when Curry went out with the heart condition.
+
+**Chandler:** I remember when it happened. We were in Charlotte at the time.
+He was on the sideline and he was telling me that he felt a little weird. And
+that’s when it all started.
+
+**Davis:** Eddy came up to some of us at one point before the game and he was
+like, “Man, look at my chest.” You could literally see his heart pumping.
+Like, you could see a little lump coming out of his chest. We were like, “What
+the heck?” He wasn’t panicked. He wasn’t hyperventilating or anything like
+that. He was concerned, but he wasn’t feeling bad. It was just weird that his
+heart was beating so hard and so fast.
+
+**Duhon:** I remember Eddy saying he felt something wasn’t right. “My heart
+should not be beating this fast.”
+
+**Johnson:** The Bulls initially said Eddy was out with flu-like symptoms, but
+somebody gave me a wink to pursue it a little bit more. They didn’t tell me
+what it was, but they said, “No, you should check into that.” I remember going
+to where the team buses parked postgame and basically grilling everybody to
+find out the truth. It turned out to be a serious life-and-death issue. The
+Bulls worried that Eddy was predisposed to a heart-muscle disorder called
+hypertrophic cardiomyopathy, which is what contributed to the deaths of
+basketball players Hank Gathers [of Loyola Marymount University] and Reggie
+Lewis [of the Boston Celtics].
+
+**Davis:** Losing Eddy at that point in the season wasn’t just like losing any
+old player. It was losing a big piece of who we were. Shoot, Eddy was having a
+good year. His numbers were great. He was really starting to understand things
+about the game. So I really felt awful for him. That really sidetracked his
+whole career. I don’t think he ever recovered.
+
+**Chandler:** It was such a tough blow, personally. I didn’t care about the
+basketball stuff. At that time I was concerned for my friend, for his life and
+his livelihood. I thought about his children. It was just a shock, especially
+because we were both only 23 years old.
+
+> Losing Eddy at that point in the season wasn’t just like losing any old
+> player. It was losing a big piece of who we were.
+>
+> Antonio Davis, Bulls forward/center, 2003-05
+
+**Johnson:** The prevailing vibe among the players was one of care and concern
+for Eddy as a person and as a teammate, but also one of not being deterred
+from the belief that they had to keep moving forward as a team. That team was
+just so tough-minded.
+
+**Duhon:** In meetings, Coach Skiles would update us on how Eddy was doing.
+Losing him for the rest of the season was tough. At the same time, we knew we
+still had a job to do. We knew we were all going to have to step up and pick
+up his slack. He was our leading scorer.
+
+**Smith:** Who were they going to get inside scoring from now? Adrian Griffin?
+
+**Hinrich:** A lot of what we did was feed Eddy the ball inside. But when we
+lost him, we turned into more of a drive-and-kick offense. We leaned heavily
+on our defense to create offense.
+
+**Duhon:** We had some lineups where Ben, myself, and Kirk were out there at
+the same time, just trying to play faster on the offensive end but still able
+to maintain what we were doing defensively. Around that time, Noce started
+playing really well, too. So we ended up playing a lot more small ball. Noce
+was a pest! He took the challenge of guarding bigger guys and was always
+taking charges.
+
+**Duhon:** Not long after Eddy went out, Luol tore a ligament in his wrist.
+Out for the season. It was tough to lose him. So guys had to step up even
+more. Eric Piatkowski and Jannero Pargo came in and played good minutes. We
+all just rallied around each other, knowing that we had to play even harder.
+
+**Tedeschi:** Any team poised for a playoff run that loses two significant
+contributors—that’s a blow any way you shake it.
+
+**Davis:** With the momentum we had, losing Eddy _and_ Luol put us in a real
+pickle. When you lose players, it’s a big deal. But you’ve got to find a way
+to regroup and get back in and do your thing. I don’t think our young guys
+knew how to adjust, and we never really, truly regrouped.
+
+### Chapter 9: The Playoffs
+
+**Johnson:** There was an accumulative power to that season. It built slowly
+and climbed up from this 0-9 hole. There was this growing belief and
+confidence that permeated throughout the locker room. The national writers
+really never discovered the Bulls that year, never really paid much attention.
+The local beat writers, we had the team all to ourselves as this little
+undiscovered gem. That changed somewhat once the playoffs approached.
+
+**Adams:** Spirits were high seeing as we’d even made it to the playoffs and
+we started 0-9 and were relying on a number of rookies. It was miraculous,
+really.
+
+**Smith:** The fourth-seed Bulls got the fifth-seed Washington Wizards in the
+first round. Like the Bulls, Washington was another surprising young team on
+the upswing that year. They were considered more talented than the Bulls.
+Larry Hughes and All-Star Gilbert Arenas were a really electric backcourt,
+superior to Hinrich and Duhon. They also had Antawn Jamison, who was an All-
+Star.
+
+**Johnson:** The Bulls had home-court advantage, and they sensed that they
+could win. They had been through so much that season.
+
+**Hinrich:** The playoff preparation was crazy. Scott wanted me to know all
+the Wizards’ plays and the tendencies of all their personnel, so I knew what
+was coming. It was like studying for final exams.
+
+**Funderburke:** A lot of the young guys would ask some of the veterans advice
+about playing in the playoffs. We told them to expect the intensity level to
+increase, along with the pressure, the focus required, and the
+physicality—hand-checking, pushing, bumping, hard fouls. “Look, whatever
+happened in the regular season, put that on the back burner.”
+
+**Duhon:** Being a lengthier team across the board, the Wizards gave us
+matchup problems. They had big guards Gilbert Arenas and Larry Hughes on the
+perimeter and Antawn Jamison and Brendan Haywood in the frontcourt. Gilbert
+was one of the best scoring guards in the league.
+
+**Silverstein:** I’ve never climbed a mountain, but I watched the 1999 through
+2004 Bulls. And being at the first playoff game at the United Center in six
+seasons, it was like being on the mountaintop. It wasn’t a championship, but
+it finally felt like, _Ah, we’re back._
+
+**Nocioni:** The people in Chicago had been waiting for many years to be in
+the playoffs again. So there was a lot of emotion there.
+
+**Chandler:** It was exciting to be playing at that level. That was my first
+taste of what basketball was really supposed to be like.
+
+**Hinrich:** The atmosphere was electric. It was awesome. I knew right there
+that’s why you play in the league, for playoff basketball. That intensity,
+that excitement on every possession.
+
+**Johnson:** Nothing compares to the atmosphere of the Jordan-era playoff
+games, but I have a strong memory from Game 1 of Nocioni going off.
+
+**Smith:** Nocioni was flying all over the court, making plays, downing shots,
+pulling down rebounds. The arena went nuts, especially after all those
+terrible years. To go so quickly from dynasty to laughingstock, it was a much-
+appreciated revival. It felt like the championship years again.
+
+**Johnson:** This chant of “NOC-I-O-NI” started in the upper reaches of the
+300 level. It was kind of faint at first and built in intensity and cascaded
+down to the 200 and 100 levels. It grew louder and louder as Nocioni went
+crazier and crazier. He was practically frothing at the mouth that night. Near
+the end of the game it was a full-throated chant around the arena. Andrés
+looked like he was ready to bite the head off of a live chicken because he was
+so fired up.
+
+**Nocioni:** That was one of the most special nights in my career. The Chicago
+fans showed me love for how I play: work hard and give everything I got in my
+body.
+
+**Silverstein:** Nocioni had 25 points and grabbed 18 boards, and the Bulls
+won Game 1. I remember being in the men’s room at halftime. I was washing my
+hands and there was a kid at the sink next to me. I said, “Hey, you having
+fun?” He said, “Yeah.” He was wearing fresh, new Bulls gear. I asked, “When
+were you born?” He said, “1997.” I thought, “Good, the Bulls are back and this
+kid doesn’t even know what he missed.”
+
+**Hinrich:** Us young guys were high off winning Game 1. But then Scott
+brought us back to earth, like, “Hey, great job. On to the next one.”
+
+> This ‘NOC-I-O-NI’ chant started in the upper reaches of the 300 level. Near
+> the end of the game it was a full-throated chant around the arena. Andrés
+> looked like he was ready to bite the head off of a live chicken.
+>
+> K.C. Johnson, _Chicago Tribune_ Bulls beat reporter
+
+**Davis:** Going into the locker room, I remember the young guys being
+excited, getting that feeling of being in that situation, and responding the
+way that they did. We talked about: “Go out and celebrate a little bit, then
+back to work tomorrow.” And they responded.
+
+**Hinrich:** The first game I played well but knew I could play so much
+better. In Game 2, I was more aggressive and playing more confidently. I hit
+some shots early and just kept going. I ended up with 34.
+
+**Silverstein:** The Bulls won Game 2. And then they went to Washington ...
+and there was this free fall. They ended up losing Games 3 and 4.
+
+**Hinrich:** Games 3 and 4, they took care of us pretty good. Road playoff
+games are a whole other challenge. For a young team like us, we just didn’t
+play as well, didn’t know how to close.
+
+**Davis:** You’ve gotta give the Wizards some credit, man. They made
+adjustments and we were short-manned. I definitely think it would’ve been a
+different story if we’d had Eddy and Luol. Things just fell apart and we
+didn’t recover.
+
+**Duhon:** Our youth started to show. We made too many mistakes and not enough
+winning plays late in those games.
+
+**Silverstein:** In Game 5, the Bulls were getting blown out at home by, like,
+20 points. But they fought all the way back. The big push came at the very
+end, when Skiles put in Jannero Pargo.
+
+**Pargo:** There was 41 seconds left. We were down 10 points after battling
+back from a 20-point deficit. Back then it wasn’t a good sign if I was in a
+game. It meant we were not playing well and we needed a spark. Any time I got
+put into a game at the end of the fourth quarter, it was my job to score a lot
+of points quickly and give us a chance. So I got in, made one 3. We fouled
+Gilbert Arenas, who made one of his two foul shots. Then I made a second 3,
+cutting their lead to five. And now I was feeling pretty good. Antawn Jamison
+missed both of his free throws. Then Kirk hit a 3 to cut the lead to two.
+Larry Hughes then split a pair of free throws to put the Wizards up by three.
+Kirk got fouled with nine seconds remaining. He missed both free throws but
+got his own rebound and scooped it over to me for the 3 to tie the game. It
+was an out-of-body experience. That was like no other feeling that I’d ever
+had. Washington called a timeout with five seconds remaining. Coming out of
+the timeout, I was guarding the inbounder. He hit Gilbert, who wound the clock
+down, drove left on Kirk, pulled up, and shot. Kirk was all in his face. Tyson
+was a quarter-inch from getting the block.
+
+**Chandler:** As Gilbert was running the clock down, I was thinking, “He
+doesn’t have time to get this shot off if we press up.” I was screaming to
+Kirk to press up on him, but he couldn’t hear me. So I just took off at him
+myself. Gilbert dribbled and went up to shoot. I thought I was going to make
+the game-winning block. I got within a fingertip.
+
+Gilbert Arenas shoots the game-winning shot over Kirk Hinrich and Tyson
+Chandler in Game 5 of the Eastern Conference quarterfinals during the 2005 NBA
+Playoffs on May 4, 2005 at United Center in Chicago, Illinois. NBAE via Getty
+Images
+
+**Pargo:** Gilbert made a hell of a shot. He was called Agent Zero for a
+reason.
+
+**Smith:** Arenas kind of pulled that one out of his ass.
+
+**Chandler:** It was heartbreaking. It took all the air out of us. That shot
+changed the series. If we go up three games to two at that point, we probably
+go on to win. But instead they go up, and the rest is history.
+
+**Pargo:** We could’ve been fueled off the late comeback in Game 5 and use
+that as momentum going into Washington. But it seemed most guys already felt
+like the series was over.
+
+**Funderburke:** Looking at the guys in their eyes after we lost Game 5, it
+was like a different team. The mentality from Game 1 to Game 6 had changed
+dramatically.
+
+**Smith:** The Bulls put themselves in position to win Game 6 in Washington
+and bring the series back home for Game 7. Then they made a bad turnover at
+the end and things got away from them. That play turned the game.
+
+**Hinrich:** I remember the turnover. It was a tie game. We had the ball with
+about 30 seconds left. I inbounded the ball to Chris, but he wasn’t looking,
+and it hit him in the back.
+
+**Duhon:** Kirk and I were not on the same page. I thought I was supposed to
+come out and be a decoy on the inbound and Kirk was going to hit somebody
+else. But while I was running, I stopped looking at Kirk, he threw the ball to
+me, and it hit me on the back. Jared Jeffries picked it up, went down, and
+dunked it to put Washington ahead and ultimately win the game.
+
+**Hinrich:** The atmosphere in the locker room after we lost Game 6 was quiet.
+There wasn’t much to be said. Losing four straight was really tough.
+
+**Duhon:** Us having been up 2-0 and then to lose four straight? We felt, in a
+way, that we got swept. Guys were really disappointed. There was also a sense
+of confidence that we’d be back in the playoffs the next year, knowing that we
+had a lot of young guys. So that was encouraging.
+
+### Chapter 10: A New Hope?
+
+**Smith:** Everyone was disappointed, but the feeling was, “Hey, this could be
+the start of something big.” This was a great first step for this team. They
+lost a tough series, but they’d come from nowhere to have a great season and
+had the possibility to continue being an interesting team. That Bulls team had
+a chance to become something special, maybe a championship team. Having guys
+with talent is the main thing, and they had that. But they also had high-
+character guys and a knowledgeable coach enforcing accountability. A lot of
+teams are constructed by fantasy, by putting together a lot of talent. That
+doesn’t necessarily always make a team. Just because you have five All-Star
+players doesn’t mean you’re going to win. You also need guys who are willing
+to play roles. That Bulls team had all the elements.
+
+**Davis:** After having a dynasty like Jordan’s Bulls, how do you bounce back?
+Taking a chance on some young guys was bold. But after that season, the
+organization started feeling like, “Hey, this was a good gamble.”
+
+**Tedeschi:** You had a team of no stars that brought the city back to
+basketball. It reengaged fans in Chicago. Basketball became more relevant
+again.
+
+**Duhon:** The lesson of the ’04-05 Bulls is that you can compete with a young
+team if you get guys that can buy into the system. With us, everybody bought
+into Coach Skiles’s vision and plan. Everybody was selfless. Everybody made
+sacrifices to accommodate putting the team first. And if you’re able to do
+that, you might be able to build a special team.
+
+**Johnson:** You got the sense that this could be the start of something
+special. This team helped you forget the futility of the post-dynasty years,
+and it certainly looked like a young team planting its flag for possible
+ascendancy through the Eastern Conference. When Paxson took over for Krause as
+GM, he talked about changing the culture. The main theme that I took away from
+that season was, OK, culture changed. Now, what can this team accomplish
+moving forward?
+
+**Duhon:** We made it back to the playoffs the next two years. The main thing
+was we still continued to be really, really good on the defensive end. That
+was our identity and each year we made being one of the top defensive teams in
+the league our main goal. That drove us and helped us win a lot of games.
+
+**Johnson:** The Bulls traded Eddy after the ’04-05 season.
+
+**Davis:** Once Eddy was gone, I knew that the team was going to be different.
+It wasn’t going to work unless you had both Eddy and Tyson along with the
+young guys, because they had depth at each position and could fill in the gaps
+with veterans. But without Eddy there, the whole team was just a different
+dynamic.
+
+**Johnson:** When they signed Ben Wallace in the summer of 2006, they thought
+he was the final piece to the championship puzzle. He certainly wasn’t as
+impactful as he was with the Pistons, but he was pretty instrumental in the
+Bulls beating the Heat in the first round of the ’06-07 playoffs. It wasn’t a
+championship, but at last they’d won the first playoff series since the
+dynasty ended.
+
+**Hinrich:** We just kept adding pieces. B.G. got really good, started
+averaging 20 points. Luol became a big scoring threat. Noce became a good
+shooter and a tough matchup offensively. We were good enough to play with
+anybody. In ’06-07, when we had Ben Wallace and P. J. Brown, we won 49 games.
+We were able to get by the first round and then just ran into Detroit.
+
+**Johnson:** The Baby Bulls of ’04-05 started out as a fun team that looked
+like it could challenge the Eastern Conference. It was such an unexpected
+story. The postscript is that they went from the Baby Bulls to the Try-Hard
+Bulls. That’s what the sound bite is on that team now, because they just
+weren’t quite good enough. As good as Gordon was down the stretch, as
+dependable as Hinrich was, and as effective as Deng could be as a two-way
+player, they weren’t superstars. Then the Bulls crashed and burned when Skiles
+flamed out in ’07-08. That was a quick era. Four years—2004 to 2008. The
+positive, of course, from that era flaming out was the Bulls kicking into
+winning the 2008 draft lottery and landing Derrick Rose. He won Rookie of the
+Year, became the franchise’s first All-Star since MJ and the youngest MVP in
+league history in 2011. A new era of greatness seemed possible—until he tore
+his ACL.
+
+**Silverstein:** No matter what happened later, that ’04-05 team gave Bulls
+fans a gift, a reward for sticking around during the previous six dismal post-
+dynasty years. To this day, when I come across someone else who was watching
+the Bulls from 1999 to 2004, there is an unspoken connection. We know what
+we’ve both been through. We respect each other because for six years we said,
+“This ride sucks, and I’m staying on.”
+
+ _Jake Malooley is a writer and editor based in Chicago._

@@ -1,0 +1,16 @@
+# An Upcoming Home Trend Prediction: Modular Layouts - Core77
+
+**Source**: https://www.core77.com/posts/101232/An-Upcoming-Home-Trend-Prediction-Modular-Layouts
+**Type**: article
+**Created**: 2025-08-13T15:53:10.914868
+
+---
+
+title: An Upcoming Home Trend Prediction: Modular Layouts - Core77
+source: https://www.core77.com/posts/101232/An-Upcoming-Home-Trend-Prediction-Modular-Layouts
+date: 2025-08-13T15:53:00.005046
+tags: []
+---
+### Time Is Running Out!
+
+The Core77 Design Awards Final Deadline Is March 25

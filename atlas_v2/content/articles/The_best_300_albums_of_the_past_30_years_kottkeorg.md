@@ -1,0 +1,30 @@
+# The best 300 albums of the past 30 years kottke.org
+
+**Source**: http://kottke.org/15/05/the-best-300-albums-of-the-past-30-years
+**Type**: article
+**Created**: 2025-08-25T02:53:33.976868
+
+---
+
+# The best 300 albums of the past 30 years kottke.org
+
+
+---
+
+# The best 300 albums of the past 30 years
+
+Unknown author • Unknown date 
+
+![The best 300 albums of the past 30 years](http://kottke.org/images/2024/icons/57x57.png)
+
+Advertise here with Carbon Ads  
+  
+This site is made possible by member support. 💞  
+  
+Big thanks to Arcustech for hosting the site and offering amazing tech support.  
+  
+When you buy through links on kottke.org, I may earn an affiliate commission. Thanks for supporting the site!  
+  
+kottke.org. home of fine hypertext products since 1998.  
+  
+🍔 💀 📸 😭 🕳️ 🤠 🎬 🥔

@@ -1,0 +1,183 @@
+# The nihilism behind Nathan Fielder’s real-world marketing success | The Verge
+
+**Source**: http://www.theverge.com/2015/11/5/9677120/nathan-for-you-comedy-central-show-success-summit-ice
+**Type**: article
+**Created**: 2025-08-13T18:38:11.328282
+
+---
+
+title: The nihilism behind Nathan Fielder’s real-world marketing success | The Verge
+source: http://www.theverge.com/2015/11/5/9677120/nathan-for-you-comedy-central-show-success-summit-ice
+date: 2025-08-13T18:38:09.590917
+tags: []
+---
+Recently you may have seen a [_Nathan For You_
+ad](http://3.bp.blogspot.com/-FJgwwtiVnUA/ViQVKsK3sFI/AAAAAAACKyg/DL5ugBQV1Yc/s1600/Nathan%2BFor%2BYou%2BBlacklist%2Bbillboard.jpg)
+that features a series of familiar magazine covers — _Rolling Stone_ , _GQ_ ,
+_Time_ , _Wired_ — all featuring Nathan Fielder, the Canadian comic and star
+of the show. His name is plastered across the covers and he assumes a
+different brand-appropriate look for each one, snapshots from an alternate
+media universe in which he is the biggest — and only — star. It’s a clever
+summary of the program’s philosophy: for Fielder, the intersection between
+marketing, consumption, and American culture is only as organic as we pretend
+it is. Peel back the layers and everything is revealed to be kind of bullshit.
+
+At least, that’s the ethos the show relies on to sell everything from Dumb
+Starbucks coffee to fake self-help books. _Nathan For You_ , now in its third
+season on Comedy Central, follows Fielder — who graduated from “one of
+Canada’s top business schools” — helping small businesses by coming up with
+outrageous marketing stunts. In the debut episode of season three, Fielder
+tries to help a small electronics store triumph over Best Buy. The solution?
+Use Best Buy’s price match policy to buy up TVs for $1 and resell them for
+massive profit. The show is entertaining both for the awkward situations
+Fielder creates with his deadpan character and the wondrous ways his ideas
+crash and burn.
+
+"Fielder's ideas are succeeding because of their outright phoniness"
+
+But something strange is beginning to happen on _Nathan For You_. Fielder’s
+ideas are beginning to succeed — not in spite of, but because of their
+outright phoniness. When trying to help out a moving company owner whose
+largest labor cost is his employees, Fielder fashions an older workout buff as
+a lifestyle guru who preaches that moving boxes and furniture will help you
+stay fit. Fielder hired a random Craigslister to ghostwrite his guru’s life
+story, and the book is [now an Amazon
+bestseller](http://www.amazon.com/Movement-This-Never-Going-
+Life/dp/1517159393/ref=sr_1_7?s=books&ie=UTF8&qid=1446746724&sr=1-7&tag=theverge02-20),
+ballooned by fake five-star reviews. You can find it featured in the top 10
+list for books in the Motivational and Self-Help categories.
+
+In another season three episode, Fielder discovers that a jacket company he
+fancies recently published a tribute to a notable Holocaust denier in its
+catalog. So he decides to start his own clothing line, [Summit
+Ice](http://www.summiticeapparel.com/jackets/), with the seemingly incongruous
+purpose of promoting Holocaust awareness. Not only has Fielder been [tweeting
+out photos of famous
+celebrities](https://twitter.com/nathanfielder/status/661227871457800192?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet)
+wearing a $110 Summit Ice jacket, but [sales have surpassed
+$45,000](http://www.ew.com/article/2015/11/02/summit-ice-jacket-nathan-for-
+you-holocaust), with the proceeds going to the Vancouver Holocaust Education
+Centre.
+
+_The New York Times_ aptly said last month that Fielder’s show “[mixes
+absurdity and
+economics](http://www.nytimes.com/2015/10/14/arts/television/nathan-for-you-
+on-comedy-central-mixes-absurdity-and-economics.html?_r=0),” highlighting the
+nonsensical relationship between what we consume and why we consume it. But
+Fielder has moved from underlining the sickness and onto selling it. The
+question now is why we’re buying.
+
+In one way, Fielder is reversing the laws of internet virality, which assert
+that something only deserves our attention and our money if it’s genuine. It’s
+no coincidence that his first brush with internet fame on _Nathan For You_ was
+a fake viral video. The clip featured a [pig saving a
+goat](https://www.youtube.com/watch?v=g7WjrvG1GMk) in a ploy to help a petting
+zoo by giving it a “hero animal” for foreigners to come visit. In reality,
+Fielder hired dozens of people to pull the video off, creating a PVC track for
+the pig to swim through with scuba divers nearby to assist. He uploaded it to
+YouTube under a fake name with a deadpan, one-sentence description. It
+[appeared on the _NBC Nightly
+News_](http://www.nytimes.com/2013/02/27/arts/television/pig-rescues-goat-and-
+the-video-is-really-cute-but-totally-faked.html) and caught the attention of
+Anderson Cooper. The video now has nearly 9.5 million views.
+
+"Nathan For You reverses the laws of internet virality"
+
+By that logic, buying a Summit Ice jacket or a copy of _The Movement: How I
+Got This Body By Never Going To The Gym In My Life_ signals that you’re in on
+such an elaborate joke. But Fielder’s pranks go further, not simply because
+they’re adding money into the equation. In the same vein that a fake US
+presidential candidate called Deez Nuts could illuminate our broken political
+system by [polling at 9 percent in three major political
+battlegrounds](http://www.rollingstone.com/politics/news/meet-deez-nuts-the-
+teen-presidential-candidate-punking-america-20150819), purchasing a Fielder
+product over a sincere competitor is recognizing and embracing that any sense
+of fairness in our economy doesn’t exist.
+
+By pretending hard enough that something is legitimate, Fielder makes it so.
+It’s appealing because every seemingly earnest social share or every fake
+Amazon review is contributing to the success of something that, on the
+surface, shouldn’t deserve it. But maybe buying a Summit Ice jacket is no more
+or less genuine than purchasing a North Face.
+
+The show wouldn’t be in this position if not for the season two episode, “Dumb
+Starbucks.” Fielder’s idea to exploit parody law to allow him to open a
+copyright infringing coffee shop was already entertaining on paper. Yet almost
+overnight, the store had lines around the block, international news coverage,
+and its coffee cups selling on eBay for hundreds of dollars. People read into
+the stunt so deeply that a rumor began percolating that [British street artist
+Banksy was behind it](http://heavy.com/news/2014/02/what-where-is-dumb-
+starbucks-california-pictures-banksy/).
+
+I wouldn’t go so far as to call Fielder the comedy world’s Banksy. But
+Fielder’s satire of taste-making and economic success is rooted in the shared
+idea that advertising resembles brainwashing, marketing is a polished lie, and
+popularity is manufactured. Dumb Starbucks opened the door for Fielder to
+explore a number of pranks that expertly ride viral waves until they overtake
+news cycles. If something so benign as tacking the word “dumb” in front of a
+corporate logo can be mistaken for high-concept art, you can imagine the
+lengths at which Fielder might go to say something more substantive.
+
+Of course, _Nathan For You_ isn’t for everyone, and there’s often a hint of
+maliciousness, intentional or not, in the way Fielder pushes his interactions
+way past the point of discomfort. His unfazed reaction when people are shocked
+or repulsed by his shiver-inducing awkwardness is part of the act. (The
+comedian cut his chops writing for Demetri Martin’s short-lived Comedy Central
+show.) But he also walks dangerously close to making both his willing and
+unwilling participants the punchline of a joke they may never understand, in
+ways similar to the humor of Sacha Baron Cohen. Fielder’s manipulative nature
+can turn off viewers to the show’s absurdist end result, even if the real
+target is more often than not the system he’s exploiting.
+
+But the genius of _Nathan For You_ lies in forcing viewers to ask whether the
+corporations and brands we subscribe to are really all that different from the
+borderline-criminal character he assumes. We already maneuver the internet
+with a deep-set suspicion that anything vaguely organic or surprising may in
+fact just be a stunt — like a secretive Samsung plot to get [Ellen DeGeneres
+to take an Oscar selfie](http://adage.com/article/media/ellen-degeneres-
+samsung-selfie-ups-social-marketing-game/291989/) or another stupid hoverboard
+hoax to promote a car company. Fielder is aware of this and its effects on how
+we treat every subtle act of brand awareness or viral marketing stunt.
+
+"Tapping into the nihilist consumer in all of us"
+
+It’s not farfetched to imagine his terrible and unethical advice becoming
+real-world marketing tactics._The Onion_ once [refashioned an anti-foodie
+Applebee’s ad campaign](https://www.youtube.com/watch?v=tpSo-VJTeE8) as a ploy
+to get millennials to visit its restaurants. The trick was to ask them to do
+so ironically, with the tagline “wouldn’t it be funny to go to Applebee’s?”
+and fake menu items like “Fajita Cordon Bleu!” It was one of the rare _Onion_
+pranks that fooled even the most cynical of internet natives. And three years
+later it now feels like something Fielder would suggest to a Denny’s or
+perhaps Burger King. Think of the creepy “Sneak King” mascot luring urban
+diners away from Chipotle with the promise of purposefully poorly sourced
+ingredients, for those times when you just don’t want to know where your food
+comes from.
+
+Much in the same way HBO host John Oliver has learned to [manipulate and
+direct the firehose of social media
+outrage](http://www.mediaite.com/online/philip-morris-responds-to-john-oliver-
+ripping-big-tobacco/) at, say, Philip Morris or the opponents of net
+neutrality, Fielder has been able to tap into the viral-loving, nihilist
+consumer in all of us. Instead of riling us up on Facebook, Fielder has us
+buying jackets for charity. And for viewers of the show, it’s become clear
+they’re purchasing something else as well: the acknowledgment that there is
+something profoundly phony and shameless about the state of American commerce.
+And we’re all complicit in it.
+
+[](/2015/11/5/9677120/nathan-for-you-comedy-central-show-success-summit-
+ice#comments)
+
+**Follow topics and authors** from this story to see more like this in your
+personalized homepage feed and to receive email updates.
+
+  * Nick Statt
+  * Entertainment
+
+  * Features
+
+  * Report
+
+  * Tech
+
+  * Web

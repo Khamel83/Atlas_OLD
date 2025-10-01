@@ -1,0 +1,175 @@
+# Infinity Missions
+
+**Source**: inputs/saved_emails/Infinity Missions_Tue,_29_Oct_2024_13-32-49_+0000_192d87b939bc47c1.eml
+**Type**: email
+**Created**: 2025-08-25T02:54:10.564281
+
+---
+
+View this post on the web at https://www.notboring.co/p/infinity-missions
+
+Welcome to the 205 newly Not Boring people who have joined us since last week! If you haven’t subscribed, join 234,176 smart, curious folks by subscribing here:
+Today’s Not Boring is brought to you by… Kalshi [ https://substack.com/redirect/4618a627-bcb7-4c3b-a64a-e87acda0f3be?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+For the first time in over 100 years, you can bet on elections in America. 
+After years spent locked in a grinding regulatory battle with the CFTC, betting markets on elections are now legal thanks to Kalshi [ https://substack.com/redirect/866839a6-102f-40b5-9779-72a1b092c1d9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. USA! USA! USA! 
+Whether you want to hedge candidate risk, hedge your emotional risk, bet on your preferred party, or simply think you know something the public doesn’t – Kalshi [ https://substack.com/redirect/4618a627-bcb7-4c3b-a64a-e87acda0f3be?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is the place to put your money where your mouth is. 
+Kalshi [ https://substack.com/redirect/4618a627-bcb7-4c3b-a64a-e87acda0f3be?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is the only regulated American exchange. They’re big believers in positive-sum markets, which is why open positions earn 4.05% interest. With up to $100 million liquidity, Kalshi can easily fulfill large trades and institutional demand. 
+If all that isn’t enough: in honor of the history we’re all about to live through next week, Kalshi [ https://substack.com/redirect/4618a627-bcb7-4c3b-a64a-e87acda0f3be?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] has suspended all fees on election markets. 
+$100 million in liquidity. 4.05% interest. Zero fees. One historic election. 
+Join us for this historic moment and place your first trade today [ https://substack.com/redirect/866839a6-102f-40b5-9779-72a1b092c1d9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. 
+Hi friends 👋, 
+Happy Tuesday! 
+One week until the Presidential Election. Back in July, I wrote that no matter what happens, America will continue to thrive [ https://substack.com/redirect/0a18afdd-2a1a-45fb-a85f-43d9b35c84d9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] because entrepreneurial activity can outpace government stagnation. 
+Unintentionally, today’s piece provides another angle on that view. The government’s job is to protect us from infinite downside. The private sector’s job is to pursue infinite upside.
+Let’s get to it. 
+Infinity Missions
+In the 17th century, a French mathematician and philosopher named Blaise Pascal attempted to answer an age-old question with modern mathematical techniques. 
+Should I believe in God? 
+Pascal had developed probability theory through his 1654 correspondence with Pierre de Fermat analyzing gambling problems, the most famous of which was the “problem of points.” 
+Two players bet equal money on a game. First to win three points wins the whole pot. The game ends early. How do they split the money fairly? 
+Previous mathematicians had tried to solve this problem by looking backward. Player A has 2 points, Player B has 1 point, split the pot 2:1. 
+Pascal solved it by looking forward. What happens next? Player A gets the next point, he wins. Player B gets the next point, it’s tied at 2-2 and the odds are back to 50/50. So Player A has a 75% chance of winning: 50% of winning immediately + (50% * 50%) in the tied scenario. Player B has a 25% chance of winning. They should actually split the pot 3:1. 
+Pascal and Fermat wrote to each other at the height of the Scientific Revolution, a period whose output – the scientific method, heliocentricity, and Pascal’s expected value, among many other contributions – we take for granted today. But imagine being alive then.
+Just as modern humans look at everything in the world and ask, “What if we applied AI to that,” the Scientific Revolution’s intelligentsia looked at everything in the world and asked, “What if we apply a rational, mathematical approach to that?” 
+And there was no bigger “that” than the God question. 
+Instead of deciding whether to believe in God based on trust in priests or even reasoning about God’s existence, Pascal put his new probabilistic toolkit to work. 
+If God exists and you believe, you get infinite reward: eternal paradise. 
+If God exists and you don't believe, you get infinite punishment: eternal damnation. 
+If God doesn't exist, whether you believe or not leads to only finite outcomes - maybe some lifestyle changes or social consequences.
+The math was clear: any finite cost was worth paying for even a tiny chance of gaining infinite upside or avoiding infinite downside. No matter how small the probability, the infinite overwhelms the finite. 
+As Pascal concludes, “If you gain, you gain all; if you lose, you lose nothing. Wager, then, without hesitation that He is.” This is Pascal’s Wager. 
+Infinity is a brain-breaking concept. When I was six years old, I would run into my parents’ room at night, trembling at the thought that it just never ends. So you die, and then what? What if you I went to hell and my parents went to heaven? We would be separated… forever? Try as I might – “What about 100 years after that? What about 10,000 years after that?” – I couldn’t reach the end. 
+Somehow, I’ve infected Dev with a less morbid version of the same fascination; practically every day, he comes to me with a new proposed workaround to infinity’s infiniteness. He’s just decided that if you add something less than infinity to infinity, it’s still infinity; but if you multiply infinity by infinity, it’s a new, bigger thing, “tenty.” 
+But nothing is bigger than infinity. Infinity is so large that it will always overwhelm the finite.
+When faced with potentially infinite outcomes - whether infinite upside or infinite downside - humans respond differently than we do to merely large numbers. Which is how you get the Manhattan Project, and why it’s proven impossible to create the Manhattan Project for X when the stakes are not infinite.
+When infinity enters the equation, normal cost-benefit analysis breaks down. Any finite cost is worth paying for even a tiny chance at infinite upside or to avoid infinite downside.
+When infinite stakes appear, impossible things become fundable.
+I am using infinity loosely here, but you get the point. 
+Infinity Missions – whether avoiding infinite downside, pursuing infinite upside, or both – are responsible for some of humanity’s biggest achievements. 
+Fighting Infinite Downside
+Historically, most Infinity Missions have fought to prevent infinite downside, and were funded by the government. 
+Facing threats that might wipe out humanity – infinite loss – there is almost no amount of money that governments are not willing to spend on solutions. That’s how you spend 1% of the government budget on a single weapon. 
+The Manhattan Project is the most famous example. The goal was existential: get the nuclear bomb before the Nazis did, win the war, and prevent the Nazi nuclear armageddon. The resources it consumed reflected that: roughly 1% of the government budget and 0.4% of US GDP, and as importantly, concentrated many of the world’s smartest people – Oppenheimer, Fermi, von Neumann, Feynman, Teller, Szilard, Bethe, Lawrence, Ulam – in Los Alamos. Overall, the US government spent nearly 40% of US GDP in the effort to win World War II. 
+They succeeded, unleashing both destruction and peace, and lasting advances in nuclear power, nuclear medicine, radioisotope dating, computers, materials science, and the national laboratory system. 
+There were spies among the ranks at Los Alamos, however, including Klaus Fuchs, who gave nuclear secrets to the Soviets in part to maintain the global power balance by ensuring Mutually Assured Destruction. As World War II gave way to the Cold War, the race moved to space. 
+The Space Race, inspiring as JFK’s speech was, was driven by the fight against infinite downside. That’s how you spend 4.4% of the federal budget to plant a flag on the moon. 
+The Soviet launch of Sputnik in 1957 terrified American leaders – if the Soviets could put a satellite in orbit, they could put nuclear weapons in space and rain destruction from above. Infinite downside. Commensurately, NASA's budget peaked at 4.4% of federal spending in 1966. 
+When Neil Armstrong took his one small step on July 20, 1969, the Americans won the Space Race. The Infinite Downside threat was postponed. And NASA’s budget dropped to below 1%. Today, it sits right under half a percent. 
+The Space Race leaves an unbelievable trail of technological externalities in its wake, including but not limited to: satellite communications, GPS, weather forecasting, integrated circuits, digital image processing, memory foam, scratch-resistant lenses, CAT scanners, LASIK, insulin pumps, digital thermometers, cordless tools, water filtration, baby formula, freeze-dried foods, and solar cells. Among many other contributions, it’s unlikely that we’d be seeing the explosion of cheap solar panels we do today if NASA didn’t purchase them so expensively in the pursuit of protection against Infinite Downside. 
+The Space Race isn’t solely responsible for those cheap solar panels, though.
+The Climate Crisis is another Infinity Mission waged to fight infinite downside. Infinity is how you spend 1.2% of global GDP on clean energy solutions when cheaper energy exists. 
+We only get one planet, and since the 1980s and 1990s, people have woken up to the fact that human activity is causing it to warm, potentially to the point of disaster. Destroying our home planet is clearly an existential risk, infinite from the perspective of human life. As a result, governments around the world have poured massive amounts of money and regulation into preventing it. In 2023 alone, governments poured $1.3 trillion [ https://substack.com/redirect/a76f90dc-c24b-4be9-8719-10be42aff051?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], or 1.2% of global GDP, into clean energy investment support. 
+Maybe my most controversial opinion is that the climate crisis, in retrospect, will have been a massive unlock for human civilization, as I explained in The Morality of Having Kids in a Magical, Maybe Simulated World [ https://substack.com/redirect/3f4340b6-6f64-47a1-bfb7-10671b4f6a3f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. 
+Fighting the infinite threat of the climate crisis has helped solar become cheap and abundant and is driving batteries down the cost curve. We are entering an Age of Electrification earlier than we otherwise would have thanks in large part to the government subsidizing clean sources of power before they were cost competitive. 
+Now, especially in the past few months, this Infinity Mission has helped bring about a nuclear renaissance. 
+But the climate crisis alone couldn’t revive nuclear, which many still associate with the infinite downside of nuclear war even in the face of its pristine safety record. 
+Chasing Infinite Upside
+Today, private companies are funding Infinity Missions in the pursuit of Infinite Upside.  
+There is no clearer example than the Race for Artificial General Intelligence (AGI), the race to build Digital Gods. 
+Hyperscalers – companies like Amazon, Google, and Microsoft who run the large data centers in which frontier models are trained – are all betting heavily on nuclear power, not for fear of the climate crisis but because they need gigawatts of clean, reliable power to train ever-larger models. Word on the street is that they’re willing to pay upwards of a 2x premium for nuclear power to ensure that they have as much of it as they’ll need. 
+But energy is only a small part of the spend. Hyperscalers and frontier model companies – like OpenAI, Anthropic, and xAI – are spending the equivalent of many countries’ GDP on R&D and infrastructure buildout. In 2023, just four – Alphabet, Amazon, Meta, and Microsoft – spent a combined $196 billion, or 0.72% of US GDP, and this total is expected to climb. 
+Like a government in the face of existential threat, these companies are spending for capability as opposed to straightforward ROI. I’m going to quote Gavin Baker on Invest Like the Best [ https://substack.com/redirect/db7fe8a1-0e3e-4877-9b54-690816ba0272?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] at length because it captures the point I’m trying to make: 
+Mark Zuckerberg, Satya and Sundar just told you in different ways, we are not even thinking about ROI. And the reason they said that is because the people who actually control these companies, the founders, there's either super-voting stock or significant influence in the case of Microsoft, believe they’re in a race to create a Digital God.
+And if you create that first Digital God, we could debate whether it's tens of trillions or hundreds of trillions of value, and we can debate whether or not that's ridiculous, but that is what they believe and they believe that if they lose that race, losing the race is an existential threat to the company.
+So Larry Page has evidently said internally at Google many times, "I am willing to go bankrupt rather than lose this race." So everybody is really focused on this ROI equation, but the people making the decisions are not.
+While most historical Infinity Missions represent governments paying whatever it takes to fend off the Devil, the AGI Infinity Mission mirrors Pascal’s Wager so closely it almost feels too on the nose. 
+Believing (and backing that belief up with investment) has practically infinite upside; not believing (and therefore not investing) has practically infinite downside. Certainly, there’s a cost either way if it turns out AGI is impossible, but that cost is finite. 
+Throwing infinity into any expected value calculation fundamentally changes the rules of the game. And those rules look surprisingly consistent across every Infinity Mission, whether it's Los Alamos in 1942 or OpenAI in 2024.
+The Rules of Infinity
+Traditional projects, those with finite upside or downside, face constraints in time, talent, exploration costs, and infrastructure. Infinity blows those constraints out. 
+Time
+Normal projects face artificial time constraints: quarterly earnings targets, maximum payback periods, pressure to prove profitability in a reasonable timeframe. They are treadmills at a slight incline: a constant struggle to hit goals that get slightly higher every quarter. 
+Infinity Missions are a sprinting marathon to a goal. Decades-long commitments become possible, but while long time horizons can be an advantage, decades are not the point. The thing is to get there first. 
+The Manhattan Project lasted three intense years, from 1942-1945, until the Americans developed the bomb. The current race to AGI has been an all-out sprint for less than three years, and the sprint will continue until the Digital Gods take over or until scaling laws fall off. Work until it’s done. 
+These missions can take a long time. SpaceX has been working towards colonizing Mars for more than two decades, and they may have decades left. But with a big, clear, practically infinite goal in mind, there is a constant push driving towards that goal as opposed to quarterly pressures. 
+On a recent podcast, Marc Andreessen called “What makes Elon Musk so effective?” the most important question in the world, and answered that it boils down to the question, “What did you get done this week?” 
+Identifying the bottleneck and making progress week after week for decades compounds until the goal is achieved. That can be draining! Most companies couldn’t get away with that! 
+But the rules are different for Infinity Missions. They attract and concentrate insanely talented people and pull their best work out for as long as it takes. 
+Talent
+How do you get Robert Oppenheimer, Johnny von Neumann, Richard Feynman, and Enrico Fermi to move to shacks in the middle of nowhere for an indefinite time period at the height of their careers? Infinity.
+Certainly, the military can use the threat of force to compel people to do something that they otherwise would not choose to, but in the case of the Manhattan Project, Oppenheimer persuaded the world’s best scientists through persuasion, appeals to patriotism, and the opportunity to prevent an infinite downside scenario. 
+The opportunity to work on problems with infinite impact is the ultimate talent magnet. 
+This holds true today, with professors leaving tenure track positions to work on AI and with the insane talent density at Elon Musk’s companies, particularly SpaceX. 
+What’s notable about SpaceX in particular is the deep commitment to the mission and the insanely hard work that pulls out of people. My favorite example of this is the fact that Doug Bernauer left SpaceX to build a nuclear company, Radiant [ https://substack.com/redirect/7bb91210-c437-43c8-ba98-0153f7b60cd2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], when he realized that we wouldn’t be able to settle Mars, even if we’re able to get there, without transportable nuclear power. 
+Some of this is certainly marketing. Mars is a long way off. But it is also self-fulfilling. Setting a plausibly infinite mission attracts the type of people who have the best chance of pulling it off, and gives them the opportunity to work on things that other companies might view as wasteful. 
+“Wasteful” Exploration and Government-Scale Infrastructure
+Time and talent are critical, but there are certainly companies not on Infinity Missions that work on very long time horizons and attract incredible people. Infinity Missions amp those characteristics up, but they don’t fundamentally change them. Smart people have to work somewhere. 
+What makes Infinity Missions particularly unique is that they allow for investments in exploration that would seem wasteful in a finite context. 
+This has traditionally been the role of government – funding basic research and serving as premium demand for new, valuable capabilities – and is enhanced when the government pursues Infinity Missions to fend off existential threats. 
+Increasingly, private companies are funding, and even open sourcing, investments that would seem extravagant or wasteful in the context of more finite returns. 
+Go back to the Larry Page quote: "I am willing to go bankrupt rather than lose this race."
+Hyperscalers and foundation model companies are making investments that previously only governments would have or could have. 
+They are buying their own nuclear reactors. They are investing tens of billions of dollars in data centers. They are building out research labs and pursuing paths that will inevitably lead to dead-ends. And they are creating, and often open sourcing, new frameworks and technological breakthroughs. 
+Examples are littered throughout Mohit Agarwal’s excellent The Future of Compute: NVIDIA’s Crown is Slipping [ https://substack.com/redirect/3f54b4ab-41a8-4e30-a261-92d6ab0f050b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], including Google’s JAX, Microsoft and OpenAI’s Triton, Meta’s PyTorch and Open Compute Project. They’re building new fiber optic networks, developing higher-bandwidth ethernet, and creating custom optical transceivers, DSPs, and optical switches. 
+The infinite upside potential of AGI is driving companies to fund basic research that would traditionally have been:
+Too fundamental for private investment
+Too long-term to justify to shareholders
+Too infrastructure-focused for any single company
+More like public goods than proprietary tech
+They’re able to make counterintuitive investments because of the size of the prize, and because the size of the effort required to attain it enables more extreme vertical integration than a finite company could pursue. 
+Vertical Integration
+In the essay, Mohit makes another point relevant to our conversation: on long timescales, vertical integration [ https://substack.com/redirect/0f406d78-bfea-4262-9fa0-d9dc8b212fbc?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is a huge advantage. I would amend it to say that on infinite scales, vertical integration is necessary. He argues that while NVIDIA is king now, the hyperscalers’ vertical integration will likely win out in the end. 
+Why this is true is fascinating. 
+Given the size and scope of the effort required, things that wouldn’t make economic sense for a normal company to build themselves are necessary for hyperscalers to build themselves. As Mohit writes: 
+Simultaneously, the sheer scale of compute needs has hit limits on capex, power availability, and infrastructure development. This is driving an enormous shift towards distributed, vertically-integrated, and co-optimized systems (chips, racks, networking, cooling, infrastructure software, power) that NVIDIA is ill-prepared to supply.
+Google, Amazon, Meta, Microsoft, and Apple are all developing their own chips at enormous expense. While traditional companies might justify such investments based on future cost savings, these companies are building chips for capabilities that don't exist yet, for models they haven't designed yet, at scales that normal ROI calculations can't justify. They're building the infrastructure for infinite opportunities they can glimpse but not yet fully articulate.
+Of course, if they’re right, if the opportunity is as infinite as they are betting it is, they may be able to make back the spend in margin they’re not paying NVIDIA, but that is a bet and a secondary consideration. A normal market would not support five companies building some of the hardest and most expensive-to-build components in the world when a network of highly skilled suppliers exists and is competing for their business, driving costs down and performance up over time. But this is not a normal market. It’s an Infinity Mission. 
+Like previous government-funded Infinity Missions, these efforts will have an impact beyond the projects themselves. 
+The Spillover Effect
+The immunity to normal constraints accelerates the development of capabilities that the rest of the market can take advantage of. This is the point of government-funded research, and increasingly, it’s being funded by private companies. 
+Manhattan Project → Nuclear power, nuclear medicine, and more
+Space Race → Satellites, GPS, materials science, and more
+Climate Crisis → cheaper solar panels and batteries, synthetic fuels, fusion funding
+AGI race → Open source AI tools, networking advances, and more
+The AGI Race diffusion is already happening. In a fantastic interview on First Principles, Somos Internet founder Forrest Heath talks about borrowing data center networking architecture to bring fast, cheap internet (as high as 100 Gbps for $80/month) to cities in Colombia: 
+While some of the architecture and components are taken from traditional data centers, the race to birth the Digital Gods has contributed to a “Moore’s Law-like curve” in laser modules “being driven not necessarily by us but by the massive consumption in data centers,” as one example.
+From this perspective, the Infinite Upside Infinity Missions aren’t too dissimilar from Bell Labs, the other thing, along with the Manhattan Project, that people who love progress want to bring back. 
+The Bell Labs Carveout
+We can’t talk about big projects that have pushed or pulled technology forward without talking about Bell Labs, so a brief aside. 
+Founded in 1925 inside of AT&T’s telephone monopoly with the express purpose of improving telephony, it sits somewhere in between a government-funded Infinite Downside protection project and a privately-funded Infinite Upside project. 
+It represents an artificial Infinity Mission: a kind of Pascal’s Wager with house money. 
+AT&T was regulated as a utility. Profits were effectively capped and had to be justified to regulators. Excess profits would trigger rate reductions. One way to reduce profits was to funnel money into R&D, which AT&T did better than anyone else. 
+Bell Labs produced the transistor (1947), photovoltaic cells (1954), Unix (1969), information theory (1947), cellular technology (1947), continuous wave lasers (1958), digital imaging sensors (1969), and communications satellites (1962), among other fundamental inventions. 
+One way to view Bell Labs was as a way to funnel profits that AT&T wasn’t allowed to earn in the present into goodwill and defensibility of those profits over the long term through innovation and technological moats. 
+It was a kind of quasi-governmental organization, with the then-Infinite-seeming Upside of monopolizing the country’s long-distance wires, and the Infinite Downside protection against losing that monopoly. 
+As Tim Wu writes in The Master Switch, “In the United States, the higher consumer prices resulting from monopoly amounted, in effect, to a tax on Americans to fund basic research.” 
+That research created positive externalities – many of which we’ve discussed already, from chips, to solar panels, to lasers – and it also protected AT&T.
+In 1934, a Bell Labs engineer named Clarence Hickman invented magnetic tape to be used in answering machines. That invention wouldn’t be discovered until 1994. “AT&T ordered the Labs to cease all research into magnetic storage, and Hickman’s research was suppressed and concealed for more than sixty years,” Wu writes, because “AT&T firmly believed that the answering machine, and its magnetic tapes, would lead the public to abandon the telephone.” 
+That is the crack, the flaw in this third approach, “the essential weakness of a centralized approach to innovation,” as Wu explains it:
+Yes, Bell Labs was great. But AT&T, as an innovator, bore a serious genetic flaw: it could not originate technologies that might, by the remotest possibility, threaten the Bell System. In the language of innovation theory, the output of the Bell Labs was practically restricted to sustaining innovations; disruptive technologies, those that might even cast a shadow of uncertainty over the business model, were simply out of the question.
+Along with the answering machine, Bell Labs “would for years suppress or fail to market: fiber optics, mobile telephones, digital subscriber lines (DSL), fax machines, speakerphones - the list goes on and on.” 
+We bemoan the inability to launch modern Manhattan Projects and create modern Bell Labs, but contrast this with Larry Page’s willingness to go bankrupt to achieve AGI. Perhaps regulated monopoly status prevented both the downsides and the upsides from reaching infinity, which threw the wager out of whack. 
+We may not see more Manhattan Projects or Bell Labs in forms that look like the Manhattan Project or Bell Labs, and that’s OK. Privately-funded Infinity Missions chasing infinite upside may be their new form.
+Back to Infinity
+Privately funded infinity missions are not without their drawbacks, either. 
+If you believe the AGI x-risk crowd, the infinite profit motive is driving these companies to push humanity to the brink whether we like it or not. Private companies don’t have the checks that government-regulated monopolies or government-funded projects do. 
+That said, as Tyler Cowen points out [ https://substack.com/redirect/6b5e1ae3-a62a-4116-aa8d-56105ba6c22e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], the Effective Altruist camp is not putting its money where its mouth is by shorting the market, and the market overall does not seem to price in a high probability that the world is about to end. 
+Whatever your belief, I expect that we will see companies funding Infinity Missions more frequently than governments going forward. 
+Personally, I think that’s a good thing, as it represents a shift from governments needing to protect against civilization-level threats to companies racing to capture civilization-level opportunities. 
+Why? There are a few reasons. 
+Technology is exponential [ https://substack.com/redirect/994548a6-387b-4c88-85b2-a7e0eac9f73f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], and we’ve reached a point in our and its evolution at which there are simply more infinite upside opportunities. 
+Capital markets are better at appreciating and pricing potential infinite upside than governments are. Governments are best-suited for downside protection; private markets for maximizing upside. And even when the capital markets are wrong – as they were in the internet bubble and may certainly be in the race to AGI – humanity tends to benefit from their overinvestment. 
+Funded by those capital markets, private companies now have the resources rivaling governments. It’s not the first time that’s happened – describing Cornelius Vanderbilt in The First Tycoon [ https://substack.com/redirect/d7c7491f-f44c-4651-b58d-d0b07f866a45?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], T.J. Stiles wrote, “If he had been able to sell all his assets at full market value at the moment of his death, in January of that year, he would have taken one out of every twenty dollars in circulation, including cash and demand deposits.” – but it is happening at unprecedented scale, and distributed amongst enough companies that they are forced to compete those fortunes against each other. 
+Plus, more of our brightest minds are going into industry than into research or government, a phenomenon I applauded in OpenAI & Grand Strategy [ https://substack.com/redirect/d4b15259-393e-4412-b0da-77bd637c6199?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]: “Count me among those who would rather our best people start companies to achieve goals no old-time general could have dreamed of than kill each other by the hundreds of thousands in pursuit of lesser ones.” War is still terrible, but it is no longer the best way to win glory. 
+Upside achievement is more appealing than downside protection. If you “win” a nuclear war, everyone, probably you included, dies [ https://substack.com/redirect/12b04b6a-56f3-4487-be16-44aafce7ebc0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. If you achieve AGI, you get unfathomably rich and probably usher humanity into a new golden era. 
+Finally, it is more possible than ever to reach towards (although never actually to) infinity: to scale globally, and beyond. 
+We’ve just touched on one Infinite Upside Infinity Mission – AGI – but space may be another. 
+SpaceX is currently in the enviable position of controlling access beyond the earth, and is in the pole position to make humans multiplanetary. That kind of Infinity Mission has attracted some of the world’s most talented people to happily work unthinkable hours in its pursuit. It is both Infinite Downside protection in the case of emergency on Earth and Infinite Upside opportunity as the economy expands to include more of the universe. 
+There will be more: longevity seems a particularly infinite pursuit. How much would you pay to avoid Pascal’s Wager altogether? 
+All three of these cases – AGI, Space, and Longevity – represent a version of Pascal’s Wager more true to the original bet. They both promise infinite upside and threaten infinite downside. 
+Achieving AGI might usher in utopia, and some argue that if we let China get there first, we face infinite downside. 
+Extending Earth’s economy throughout the universe offers infinite upside, and failing to make ourselves multiplanetary – subjecting ourselves to the risk of putting all of our eggs in one planetary basket – exposes us to infinite downside. 
+Longevity offers the hope of living forever. Failing to do so leaves us doomed to be dead for all eternity, the thing that so freaked me out about infinity as a little kid. 
+The promise and threat of infinity will drive investments that don’t make sense in a finite expected value calculation, but that will accelerate progress towards those goals in the process. It’s capitalism with an irrational turbobooster. 
+If nothing else, the infinity framing is a useful way to understand why the government can be so good at some things and so bad at others. 
+We pulled off Operation Warpspeed in part because, at the time, COVID seemed like an existential threat. We can’t seem to get our healthcare system in order because it’s more frog-in-boiling-pot. 
+It also shows where companies can do what people expect governments to. We’ve talked about the $42 billion government-funded rural internet product that has produced very little rural internet. SpaceX, on the other hand, is able to provide rural internet – most recently for disaster relief after the Hurricanes in North Carolina – because it’s an orthogonal way to fund the company’s Infinity Mission. 
+If the government feels like it’s stagnating, like it couldn’t possibly pull off another Manhattan Project, that’s OK. It’s almost to be expected. We look to the government for protection, not transcendence. 
+It even makes sense. Politicians will be long out of office by the time any Infinity Mission they fund comes close to fruition. Their incentive is to produce short-term, finite upside while protecting against infinite downside. 
+Fortunately, infinity applied to future profits is financially overwhelming enough that companies are incentivized to pursue Infinity Missions, no matter how small their probability of success or how much it costs today. Now that infinity is on the table, I expect it will pull progress further and faster than we’ve seen in the past. 
+Avoiding Hell is necessary, but not sufficient. The real point of the Wager is to reach Heaven.
+That’s all for today. We’ll be back in your inbox on Friday with a Weekly Dose. 
+Thanks for reading,
+Packy
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVFV3T0RVMk16a3hMQ0pwWVhRaU9qRTNNekF5TURnNE1UTXNJbVY0Y0NJNk1UYzJNVGMwTkRneE15d2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LlktdW9FSHVtUlpvSDZVbnRtbEgxNlVlUGtlanFXV184SVpPVFVHV3B2NWciLCJwIjoxNTA4NTYzOTEsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNzMwMjA4ODEzLCJleHAiOjE3MzI4MDA4MTMsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.p4x-xeJfjhC8CDS5UzbsiOiuIxZMjO0rlXseMSaL5MU?

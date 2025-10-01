@@ -1,0 +1,308 @@
+# Korean Air Hawaii | Million Mile Secrets
+
+**Source**: http://millionmilesecrets.com/2014/09/25/korean-air-hawaii/
+**Type**: article
+**Created**: 2025-08-13T19:31:25.244471
+
+---
+
+title: Korean Air Hawaii | Million Mile Secrets
+source: http://millionmilesecrets.com/2014/09/25/korean-air-hawaii/
+date: 2025-08-13T19:31:17.539944
+tags: []
+---
+[Korean
+Air](http://web.archive.org/web/20171227132821/https://www.koreanair.com/global/en.html)
+[changed its partner award chart this
+week](http://web.archive.org/web/20171227132821/https://www.koreanair.com/content/koreanair/global/en/skypass/redeem.html#_).
+And because of that you can now transfer your Chase Ultimate Rewards points to
+Korean Air (and then fly on Delta) to Hawaii for just **25,000 miles** in
+coach and **45,000 miles** in Business Class from the US!
+
+To get to Hawaii, other airlines charge anywhere from **35,000 to 45,000
+miles** in coach and up to **80,000 miles** for Business Class!
+
+[![Korean Air
+Hawaii](http://web.archive.org/web/20171227132821im_/https://millionmilesecrets.com/wp-
+content/uploads/2014/09/Korean_Air_Hawaii_01.jpg)](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/wp-
+content/uploads/2014/09/Korean_Air_Hawaii_01.jpg)Aloha! You Can Now Use Korean
+Air Miles to Fly to Hawaii on Delta for Only 25,000 Miles Round-Trip in Coach,
+or 45,000 Miles in Business Class!
+
+This is an amazing deal, because most other airlines charge **many** more
+miles for award tickets to Hawaii!
+
+And I’ll explain why this makes Chase Ultimate Rewards points the **BEST** for
+getting to Hawaii.
+
+However, note that a supervisor wasn’t able to actually book the flights at
+the lower level because their systems have not yet updated. But the supervisor
+acknowledged the new award chart which requires fewer miles.
+
+Until recently, Hawaii was considered a separate region with different award
+ticket pricing, but it’s now included in “**North America** ” (which also
+includes the rest of the US, Canada, Puerto Rico, Mexico, and the US Virgin
+Islands).
+
+With the exception of using British Airways Avios points to book American
+Airlines or Alaska Airlines coach class tickets to Hawaii from the **West
+Coast** only (also**25,000** miles round-trip), this is now the **fewest**
+number of miles needed for an award ticket to Hawaii!
+
+### What’s Changed?
+
+**Link:[Korean Air SkyTeam North America Award Chart
+(NEW)](http://web.archive.org/web/20171227132821/https://www.koreanair.com/content/koreanair/global/en/skypass/redeem.html#cta-
+large=/global/en/skypass/redeem/skyteam-awards/skyteam-bonus-north-
+america.html)**
+
+**Link:[Korean Air SkyTeam US / Canada Award Chart
+(OLD)](http://web.archive.org/web/20171227132821/https://www.koreanair.com/global/en/skypass/redeem/skyteam-
+awards/skyteam-bonus-old.html#cta-large=/global/en/skypass/redeem/skyteam-
+awards/skyteam-bonus-old/skyteam-bonus-usaold.html)**
+
+On September 21, 2014, Korean Air updated its website and award charts.
+They’ve made some changes to routing and stopover rules on award tickets, but
+the **biggest** change is in how they’ve defined their travel regions for
+[SkyTeam
+alliance](http://web.archive.org/web/20171227132821/https://www.skyteam.com/)
+partner tickets.
+
+**Note:** You can **NOT** book 1-way flights using Korean Air miles on SkyTeam
+partner airlines, only round-trip.
+
+Have a look at their [**old** SkyTeam award
+chart](http://web.archive.org/web/20171227132821/https://www.koreanair.com/global/en/skypass/redeem/skyteam-
+awards/skyteam-bonus-old.html#cta-large=/global/en/skypass/redeem/skyteam-
+awards/skyteam-bonus-old/skyteam-bonus-usaold.html). Round-trip flights to
+Hawaii and Mexico cost **35,000** miles in coach class, and **75,000** miles
+in Business Class.
+
+[![Korean Air
+Hawaii](http://web.archive.org/web/20171227132821im_/https://millionmilesecrets.com/wp-
+content/uploads/2014/09/Korean_Air_Hawaii_02.jpg)](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/wp-
+content/uploads/2014/09/Korean_Air_Hawaii_02.jpg)Under the Old System, Round-
+Trip Flights From the US and Canada to Hawaii and Mexico Cost 35,000 Miles in
+Coach and 75,000 Miles in Business Class
+
+Here’s the [**new** SkyTeam award
+chart](http://web.archive.org/web/20171227132821/https://www.koreanair.com/content/koreanair/global/en/skypass/redeem.html#cta-
+large=/global/en/skypass/redeem/skyteam-awards/skyteam-bonus-north-
+america.html), which was released earlier this week.
+
+[![Korean Air
+Hawaii](http://web.archive.org/web/20171227132821im_/https://millionmilesecrets.com/wp-
+content/uploads/2014/09/Korean_Air_Hawaii_03.jpg)](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/wp-
+content/uploads/2014/09/Korean_Air_Hawaii_03.jpg)NEW: Round-Trip Flights
+Within North America Are 25,000 Miles in Coach and 45,000 Miles in Business
+Class!
+
+It almost sounds too good to be true, but [according to how they now define
+regions](http://web.archive.org/web/20171227132821/https://www.koreanair.com/content/koreanair/global/en/skypass/redeem.html#cta-
+large=/global/en/skypass/redeem/skyteam-awards/skyteam-region-
+categorization.html), North America includes:
+
+> Mexico, United States (**including Hawaii**), US Virgin Islands, Canada,
+> Puerto Rico
+
+[![Korean Air
+Hawaii](http://web.archive.org/web/20171227132821im_/https://millionmilesecrets.com/wp-
+content/uploads/2014/09/Korean_Air_Hawaii_04.jpg)](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/wp-
+content/uploads/2014/09/Korean_Air_Hawaii_04.jpg)Hawaii and Mexico Are Now the
+Same Region as the Rest of North America!
+
+This means that you can book a round-trip ticket to Hawaii from
+**[anywhere](http://web.archive.org/web/20171227132821/http://www.delta.com/content/www/en_US/traveling-
+with-us/where-we-fly.html)**[ **Delta
+flies**](http://web.archive.org/web/20171227132821/http://www.delta.com/content/www/en_US/traveling-
+with-us/where-we-fly.html) in the US, Canada, Mexico, Puerto Rico, or US
+Virgin Islands using Korean Air miles for only **25,000** miles in coach or
+**45,000** miles in Business Class.
+
+As long as you can [find available low-level Delta award
+seats](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/2014/09/05/are-
+delta-miles-really-that-hard-to-use/)! This is important, because Delta
+doesn’t make it easy to find low-level award seats.
+
+[![Korean Air
+Hawaii](http://web.archive.org/web/20171227132821im_/https://millionmilesecrets.com/wp-
+content/uploads/2014/09/Korean_Air_Hawaii_05.jpg)](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/wp-
+content/uploads/2014/09/Korean_Air_Hawaii_05.jpg)45,000 Miles Round-Trip for a
+Delta Business Class Flight to Hawaii Is an Amazing Deal!
+
+I called Korean Air to check if this pricing was correct and they confirmed
+that as long as award seats are available, it’s **25,000** miles round-trip in
+coach class and **45,000** miles in Business Class.
+
+The agent was **NOT** able to confirm the taxes and fees, but she said on
+other Delta flights within the US, it’s usually **~$6** per segment. I’m
+waiting for a call back from the Korean Air SkyPass folks to confirm this!
+
+**Note:** These award tickets can **NOT** be booked online. You’ll have to
+call Korean Air at **800-438-5000 or 213-484-1900** to make the booking.
+
+**So do NOT transfer your Ultimate Rewards points to Korean Air, UNLESS there
+are award seats available. You won’t be able to transfer your points back to
+Ultimate Rewards from Korean Air!**
+
+### How Does This Compare to Other Airlines?
+
+Using Korean Air miles for award tickets on Delta is **now** the **BEST** deal
+for travel to Hawaii.
+
+Even using Delta’s own miles, you’d pay **45,000** miles in coach class and
+**80,000** miles in Business Class for their lowest-level round-trip award
+tickets.
+
+And with Korean Air’s non-SkyTeam partners, Alaska Airlines and Hawaiian
+Airlines, you’ll still pay more miles. On both of these airlines, it costs
+**30,000** Korean Air miles for a round-trip award ticket in coach class, and
+**60,000** miles in First Class (Alaska Airlines and Hawaiian Airlines don’t
+have Business Class).
+
+Here’s what some popular airlines charge for low-level, round-trip award
+tickets between the continental US and Hawaii.
+
+**Airline Miles**| **Coach Class**| **Business Class**  
+---|---|---  
+**Alaska Airlines**|  40,000| 80,000 (First Class)  
+**American Airlines**|  35,000 (Off-Peak Only)| 75,000  
+**British Airways Avios (on American Airlines or Alaska Airlines)**|  25,000
+(From West Coast)  
+| 75,000 (From West Coast)  
+  
+**Delta**|  45,000| 80,000  
+**Hawaiian Airlines**|  40,000| 80,000 (First Class)  
+**_Korean Air_**|  _**25,000**_|  _**45,000**_  
+**Singapore Airlines (on United Airlines)**|  35,000| 60,000  
+**United Airlines**|  45,000| 80,000  
+**US Airways**|  40,000| 80,000  
+  
+So the only case where you’d pay the same number of miles is using British
+Airways Avios to fly American Airlines or Alaska Airlines from the US West
+Coast only. That’s because their award chart is distance-based. And their
+Business Class award tickets are more expensive.
+
+### How Can You Get Korean Air Miles?
+
+#### 1\. Transfer Points From Chase Ultimate Rewards
+
+**Link:[Chase Ultimate Rewards Transfer
+Partners](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/2014/05/15/ultimate-
+rewards-transfer-partners/)**
+
+**Link:[Chase Sapphire
+Preferred](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/go/SapphirePreferredVisa/)**
+
+**Link: Chase Ink Bold**
+
+**Link:[Chase Ink
+Plus](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/go/InkPlus/)**
+
+**Link:[Chase
+Freedom](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/go/FreedomVisa/)**
+
+Korean Air is a [Chase Ultimate Rewards transfer
+partner](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/2014/05/15/ultimate-
+rewards-transfer-partners/). You can transfer points earned from the [Chase
+Sapphire
+Preferred](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/go/SapphirePreferredVisa/),
+(no longer offered) Chase Ink Bold, and [Chase Ink
+Plus](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/go/InkPlus/)
+cards directly to Korean Air at a 1:1 ratio. And if you have 1 of these 3
+cards, you can also transfer points from the [Chase
+Freedom](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/go/FreedomVisa/)!
+
+[![Korean Air
+Hawaii](http://web.archive.org/web/20171227132821im_/https://millionmilesecrets.com/wp-
+content/uploads/2014/09/Korean_Air_Hawaii_06.jpg)](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/wp-
+content/uploads/2014/09/Korean_Air_Hawaii_06.jpg)Chase Ultimate Rewards Points
+Transfer 1:1 to Korean Air
+
+So for example, you could use the **40,000** point sign-up bonus from the
+[Chase Sapphire
+Preferred](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/go/SapphirePreferredVisa/)
+card, plus another **5,000** points from adding an authorized user and
+[meeting minimum spending
+requirements](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/2011/07/20/40-powerful-
+ways-to-complete-your-credit-card-minimum-spending-requirements/), and have
+enough for a round-trip, Business Class ticket to Hawaii on Delta!
+
+#### 2\. US Bank Korean Air SkyPass Card
+
+**Link:[US Bank Korean Air SkyPass
+Visa](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/go/SkyPass/)**
+
+You could get **15,000** Korean Air miles after your 1st purchase with the [US
+Bank Korean Air
+SkyPass](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/go/SkyPass/)
+card. You’ll also get:
+
+  * 2 miles per $1 you spend on Korean Air
+  * 1 mile per $1 you spend on everything else
+  * 2,000 miles when you renew the card
+  * No foreign currency fees
+  * Annual fee of $80, **not** waived for the 1st year **  
+**
+
+In the past, [the sign-up bonus on this card has been increased to **30,000**
+miles](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/2014/05/12/30000-bonus-
+miles-with-the-korean-air-skypass-card-until-may-31-2014/). So this isn’t a
+very good deal.
+
+And US Bank is usually very strict about approving folks who’ve recently
+applied for a lot of cards.
+
+### **Why This Makes Chase Ultimate Rewards Points the Best for Award Flights
+to Hawaii**
+
+Not only can you transfer your Chase Ultimate Rewards points into the Korean
+Air miles program, but you can [transfer them to Singapore
+Airlines](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/2014/05/28/new-
+chase-ultimate-rewards-partner-singapore-airlines/) and British Airways! If
+you look again at the chart above, you’ll see these are the 3 cheapest ways to
+fly to Hawaii!
+
+Folks on the West Coast have the option to fly on Delta to Hawaii using Korean
+Air miles OR on [American Airlines & Alaska Airlines using British Airways
+Avios
+points](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/2012/04/14/low-
+avios-redemptions/) OR on [United Airlines using Singapore
+miles.](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/2014/05/28/new-
+chase-ultimate-rewards-partner-singapore-airlines/)
+
+Other US travelers could consider flying on Delta to Hawaii using Korean Air
+miles or on United Airlines using Singapore Airlines miles.
+
+For instance, people in the New York City area can now use their Chase
+Ultimate Rewards points to get great deals to the Aloha state from all 3 major
+airports. You fly from Newark to Hawaii on United Airlines or from New York
+City’s JFK or LaGuardia airports to Hawaii on Delta!
+
+With Chase Ultimate Rewards points you have the flexibility to check for
+available award seats on Delta, United Airlines, or American Airlines and
+Alaska Airlines (using your British Airways Avios points to fly).
+
+### **Bottom Line**
+
+Korean Air has changed their [SkyTeam partner award
+chart](http://web.archive.org/web/20171227132821/https://www.koreanair.com/content/koreanair/global/en/skypass/redeem.html#cta-
+large=/global/en/skypass/redeem/skyteam-awards/skyteam-bonus-north-
+america.html), and you can now get a round-trip flight from North America to
+Hawaii on Delta in coach class for **25,000** miles, and Business Class for
+**45,000** miles!
+
+Other airlines charge as much as **40,000** miles in coach and **80,000**
+miles in Business Class for low-level round-trip tickets to Hawaii, so this is
+an excellent deal!
+
+You can get Korean Air miles by [transferring points from Chase Ultimate
+Rewards](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/2014/05/15/ultimate-
+rewards-transfer-partners/), or from the [US Bank Korean Air SkyPass
+Visa](http://web.archive.org/web/20171227132821/https://millionmilesecrets.com/go/SkyPass/)
+card.
+
+I’ll post an update on how to use Korean Air miles to book Delta flights soon!
+
+But remember NOT to transfer your points unless you are 100% sure that there
+are award seats on the flight!

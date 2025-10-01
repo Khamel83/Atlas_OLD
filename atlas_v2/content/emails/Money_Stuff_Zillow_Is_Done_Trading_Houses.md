@@ -1,0 +1,202 @@
+# Money Stuff: Zillow Is Done Trading Houses
+
+**Source**: inputs/saved_emails/Money Stuff Zillow Is Done Trading Houses_Wed,_3_Nov_2021_13-32-57_-0400_(EDT)_17ce6dd8b2f7c21b.eml
+**Type**: email
+**Created**: 2025-08-25T02:54:01.672176
+
+---
+
+Oops
+    
+  
+I do not want to say that losing a lot of money on a trade is as good as making a lot of money on a trade. It is not. For one thing, if you make a lot of money on a trade, then you have money, which can be used to buy goods and services. For another thing, if you make a lot of money on a trade, then you were at least in some rough sense correct about the trade, and being correct often about big questions is a valuable skill in finance and life. If you lose a lot of money on a trade, neither of those things are true. And yet there is a certain prestige to it? Being correct is not the whole ballgame. Being important is important. “Important people like to deal with important people,” the  Goldman Sachs commandment goes; “are you one?” The most famous JPMorgan Chase & Co. trader of the last decade, the one JPMorgan trader whom many people know by name or at least by nickname, is Bruno Iksil,  the London Whale, who is famous for losing $6.2 billion of the bank’s money. Did that work out great for him? No, not really, not at all. But I suspect a lot of people in finance would buy him a drink if they ran into him. He is a celebrity in a way that thousands of traders who have never lost $6 billion are not. Also, as I have  written before, it is a rule of thumb in high finance that losing a lot of money on a trade can be good for your career: It shows that someone has trusted you to take risk, and that you took risk, and while it didn’t work out you probably learned from your mistakes. That may not work at the celebrity level, but if you were just around the London Whale losses you probably have some good war stories that any interviewer will appreciate.Anyway I predict a bright future for the house traders who lost $300 million trading houses for Zillow and  got not only themselves but 25% of the company fired:Zillow Group Inc. is pulling the plug on its tech-powered home-flipping operation, after an ambitious effort to transform the company collapsed when its vaunted pricing algorithms proved unequal to the task.The company plans to take writedowns of as much as $569 million and reduce its workforce by 25% as it winds down the business in coming months, according to a statement Tuesday. Zillow shares plunged as much as 11% to $76.22 in late trading.The decision to abandon home flipping comes as the company’s third-quarter results showed it lost more than $380 million in the operation, called Zillow Offers. The business hit a major snag in recent months as Zillow tweaked its algorithms to make more aggressive offers, causing it to overpay for houses just as the heated U.S. market began to cool slightly. With the company’s losses mounting, Chief Executive Officer Rich Barton said it had become too risky to scale the business in a U.S. housing market that has been running hot for well over a year during the pandemic.“Fundamentally, we have been unable to predict future pricing of homes to a level of accuracy that makes this a safe business to be in,” Barton said on an earnings call.I say “traders” because that is sort of the conventional way to describe people who lose hundreds of millions of dollars of their employers’ capital doing trades, but I suppose the more correct description is, like, “algorithm designers.” Zillow did not hire a team of house traders to make gut-instinct-based calls on housing valuation; it hired a team of programmers to build a house-buying algorithm. And they did, and it was cool, but it lost $300 million last quarter and is now getting shut down.Also I should say that Zillow’s traders (or rather its algorithm) are not the sorts of traders who are supposed to lose hundreds of millions of dollars. They were not entrusted to take big risks, to swing for the fences; they did not aim for a massive profit, miss, and land on a massive loss instead. They were market makers; they were supposed to buy at the bid, sell at the offer, collect a spread for providing liquidity and make a steady profit. Here’s how Barton put it on the  earnings call yesterday[1]:When we decided to take a big swing on Zillow offers 3.5 years ago, our aim was to become a market maker not a market risk taker. And this was underpinned by the need to forecast the price of homes accurately three to six months in the future.We used historical data and countless simulations to test this belief. We set unit economics targets that required us to stay within plus or minus 200 basis points in breakeven, holding ourselves accountable to these levels publicly with you all.The central problem is that those first two sentences sort of contradict each other. A market maker is someone who buys and sells an asset in order to profit from the spread, not someone who accurately forecasts the price of an asset six months from now. End users want to buy or sell stocks or bonds or houses, they want to do it quickly at a predictable price, so they go to a market maker who will provide that service. The market maker buys from sellers and sells from buyers and does its best to match them up; ideally it buys an asset from a seller and resells it to a buyer within a fairly short time. It collects a “spread” from the buyer and seller: It buys from the buyer at a bit less than the fair market price, and sells to the seller at a bit more than the fair market price, because it is providing them a valuable service, the service of “immediacy” or “liquidity,” the service of always being available to buy or sell. In pure theory the market maker makes all of its money from the spread; it is so perfectly hedged, or turns over its inventory so frequently, that it doesn’t care if the prices of stocks or bonds or houses go up or down. In practice this is impossible and all market makers have some amount of inventory risk; at any moment they are long or short some amount of assets, and if prices move they will make or lose money. Still, to the extent you are a pure market maker, you try to minimize that.[2] In the stock market, high-frequency electronic market makers really do turn over their inventory so often that they can reliably collect spreads without worrying too much about price movements. Famously Virtu Financial Inc., one of those market makers, can  go years without a down day: It makes money (from spreads) every single day, whether the stock market goes up or down. It is trading stocks all day, but in some important sense it is not betting on stock prices. But in the house business you can’t generally buy a house in the morning and sell it in the afternoon. You sign a contract to buy a house in the morning, then you do an inspection and title search and stuff, then a few weeks later you close on the house and deliver the money, then you spruce up the house a bit, then you wait for a buyer to come in — which takes, not seconds as it does in the stock market, but days or weeks or months — then you show the house to the buyer, then you sign a contract to sell it, then they do an inspection and title search and stuff, then you wait around for them to get a mortgage, then a few months later you close on the sale.And meanwhile the price of houses has gone up or down, and the effect of that dwarfs the effect of your spread. This past quarter Zillow wrote down its inventory of houses by $304 million, to $3.8 billion, a loss of something like 750 basis points, way worse than the 200 basis point spread it was targeting.[3] But the quarter before that — April through June of 2021 — it had a gain of 576 basis points. “Clearly some portion of the holding costs and a smaller portion of the renovation costs likely benefited from the strong housing market,” Barton said at the time: House prices went up, so Zillow, which owned a bunch of houses, made more money than it planned to. As Barton said on yesterday’s call, both results are a problem:We've been unable to accurately forecast future home prices at different times in both directions by much more than we modeled as possible. With Zillow Offers unit economics on a quarterly basis swinging from plus 576 basis points in Q2 to an expected minus 502 to minus 700 basis points in Q4. Put simply our observed error rate has been far more volatile than we ever expected possible. And makes us look far more like a leveraged housing trader than the market maker we set out to be.But that’s sort of inherent in the model. The model is “predict where housing prices will be in three to six months, buy houses for prices that will be profitable if those predictions are right, and oh yeah probably get some extra juice for providing liquidity to buyers and sellers.” As opposed to the standard high-frequency market-maker model in the stock market, which is something close to “buy at the bid, sell at the ask, and do both of those things so quickly that the stock price doesn’t have time to move.”Now this does not mean that Zillow’s business is a bad business. If you build an algorithm that is really good at predicting house prices six months out, you can probably make a lot of money buying and reselling houses. (Frankly, if you build an algorithm that is pretty good at estimating current house prices, and you have a lot of capital, you can probably do okay buying and reselling houses, because most of the time house prices seem to go up. You will have some bad quarters though.) It does mean, though, that it’s a volatile, risky, capital-intensive “leveraged housing trader” business, not a market-making one.I have been  writing about Zillow Offers  a lot over the past  few weeks, because (1) it is an interesting model that pushes the envelope of what sorts of assets can be bought and sold using algorithmic market makers and (2) it has been falling apart very publicly. We have talked about various boring old-fashioned objections to applying algorithmic market making to houses. For instance, I  have written that houses are less legible to trading algorithms than stocks or bonds are:Houses are like bonds — there are a lot of them, they’re all different, they each have idiosyncratic weird issues, the trade size tends to be in the six figures, no individual house trades all that often — but much more so. ... Most of the facts about a house are, like, the roof is in rough shape, or there’s radon in the basement, or the wallpaper is ugly; they are fuzzy and subjective and complicated and not all that computer-legible.I  have written that the time scale of the housing market makes this business risky and capital-intensive:If you buy 100 houses you’re out tens of millions of dollars, and if you get the price wrong you won’t find out for the months it takes you to resell them. Meanwhile you keep buying houses using the wrong pricing algorithm.And  that those errors tend to all be in the same direction at the same time:In particular it will sometimes get it wrong for a while, all in the same direction. It will think “house prices are going up” and pay a lot for thousands of houses, and then it won’t be able to sell them, and it will think “oops house prices are going down” and try to dump all those houses quick in a fire sale.Again, these are boring objections, and I’d have loved it if Zillow was like “no actually, really good artificial intelligence models solve all those problems, a robot can do market-making for houses, the future is here.” That just would have been cool! I like the future! If your algorithm is really good and you have enough capital, then maybe six months of house trading for you is like six minutes of stock trading for Virtu and it all sort of works out.But, no, in the event it’s a risky speculative business and Zillow didn’t have the stomach for it. Barton said on the call:Fundamentally, we have been unable to predict future pricing of homes to a level of accuracy that makes this a safe business to be in. ... And we’ve seen all this volatility in both directions, right now in the wrong direction. And we're still at a scale that is small compared to what it needs to be. And so as we put our minds in the state of, all right, we've got these new assumptions that we'd be naive not to assume will happen again in the future, we pump them into the model and the model cranks out a business that has a high likelihood, at some point, of putting the whole company at risk, not just the business, but in the more normal case, just causes a ton of volatility in earnings, which is not a great look for a public company.Also, I’ve been writing about Zillow Offers a lot because it is a big brand name and falling apart in public, but there are other companies that do this.  They still do it:It’s become clear that Zillow misjudged the housing market, making more aggressive offers just as competitors Opendoor Technologies Inc. and Offerpad Solutions Inc. were growing more cautious.Opendoor, which went public last year through a merger with one of Chamath Palihapitiya’s blank-check companies, saw its shares drop 15% on Tuesday after the news that Zillow was selling 7,000 homes raised questions about the iBuyer business model.The company it in a statement Tuesday it was “well-positioned to meet consumer demand.”  “We are open for business,” a spokesman for the company said.Ben Thompson has a good column today about Zillow Offers; he writes about the competition:Unlike Zillow, Opendoor was built from day one to turn over houses, and while the company doesn’t release earnings until next week, its public posture is that it remains open for business.What is also worth noting is that Opendoor has two more advantages that come from being a startup laser-focused on home-buying: first, while Zillow started with a Zestimate tool that was about attracting customers to the top of the real estate funnel, and thus only ever had to be directionally correct, Opendoor knew from day one its entire fate as a business rested on its model’s accuracy; it’s definitely plausible to imagine its accuracy being much better as a result.Second, Opendoor has a dramatically larger appetite for risk than Zillow does. Yes, it is a public company now, but it is a public company whose entire business is home-buying; investors know what they are getting into. And, by extension, Opendoor has no choice but to make the model work: they don’t have a profitable Marketplace business to fall back on.Opendoor’s profit margin on its houses was 10.4% in the second quarter, up from 9.8% in the first quarter and 1.6% in the second quarter of 2020.[4] Presumably in the third quarter — a worse quarter for home price appreciation, as Zillow discovered — it will be lower. That's fine! If you invest in a company that is in the business of being a housing trader, you will make a lot of money in quarters when house prices go up, and you will lose money in quarters where house prices go down. But if you were hoping for a steadily profitable market maker, that is harder to deliver.
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      Squid Game Coin
+    
+  
+Here are three sentences that I found on the internet:SQUID implements an innovative anti-dump mechanism where buying in the market will release selling credits at a rate of 2:1.The maximum amount of SQUID that can be sold is half of the total buying value in the pool. When the credit in the pool is depleted, you can’t sell any more.That is an innovative anti-dump mechanism! Whenever stocks or cryptocurrencies go up, someone will half-joke that the explanation is “more buyers than sellers.” If you just build into the design of your cryptocurrency that there always have to be twice as many buyers as sellers, it will always go up.Obviously that sentence makes no sense, and SQUID — the Squid Game Token — did not always go up during its short life. Well, actually it did — “It surged more than 230,000% in the past week to $2,861.80,”  says Bloomberg News — until its anonymous developers apparently stole all the money; then it went down. The whole thing is so stupid and overdetermined that I cannot bear to write about it; if you lost money on SQUID you should just come to my house and give me your wallet because you should not be allowed to use money anymore. “New Squid Game Cryptocurrency Launches as Obvious Scam,” reported Matt Novak at Gizmodo last week, before it crashed, listing red flags like “Netflix’s Squid Game is the most popular streaming show in the world right now, so it makes sense that scammers would use the name without permission,” and “the website for the Squid Game crypto even includes a fake endorsement from billionaire Elon Musk,” and “the single largest red flag is the fact that people can put money in, but can’t take it out.” According to the now-disappeared white paper there was purportedly a mechanism to take money out by (1) spending a lot of SQUID coins to play a game, (2) winning the game, (3) collecting some other related cryptocurrency and then (4) being allowed to sell your SQUID freely if you had that currency. But, come on, instead they just stole all the money.I do, however, want to talk about that anti-dumping mechanism, which I love. It is a basic fact about financial markets that if lots of people want to buy an asset and nobody wants to sell it, the price will go up. (Strictly, if nobody wants to sell it, there will be no trades and no price, but if very few people very reluctantly sell it then there will be some trades and the price will go up.) In general this is sort of an epiphenomenon of some more fundamental reason that people want to buy it. “More buyers than sellers” is a joke, a non-explanation; if someone asks you why Tesla stock went up and you say “more buyers than sellers” you are just being annoying and obtuse.[5]But in modern crypto and meme-stock markets this basic fact has been distilled into a fundamental belief, free of any underlying reason. “If we all buy this thing and don’t sell it, the price will go up, and then we’ll be rich” is a belief that is … sort of logical? … and that can be applied to anything. “If we all buy GameStop Corp. stock,” etc.; there the belief went by the name “diamond hands.” “If we all buy Bitcoin,” etc.; there it goes by the name “HODL.” There is a new generation of crypto stuff like Olympus DAO, where it goes by the name “(3,3),” a vague wave in the direction of game theory: “(3,3) is the idea that, if everyone cooperated in Olympus, it would generate the greatest gain for everyone (from a game theory standpoint).” “Cooperate” in that sentence just means buying a lot and never selling. This belief has a basic mechanical problem, which is that if you all buy the thing and don’t sell it and become rich, you can’t actually use your riches without selling the thing. Sometimes this takes the shape of a pump and dump: People buy the thing, it goes up, they get rich on paper, they try to cash out, it crashes, some of them are left holding the bag. Sometimes, though, it takes the shape of, like, mass adoption and stable wealth? If you bought a lot of Bitcoins at $2 you are very rich now and you can probably cash out enough wealth to buy a yacht without really affecting the price of Bitcoin. Bitcoin just kind of made it.The weirdest thing that  I think about is that GameStop might also have kind of made it? If you got rich on GameStop you can sell your GameStop stock and be rich and the price might be unaffected either by your selling or by the underlying cash flows of GameStop the company. That is much weirder than Bitcoin because GameStop is a company. But the point is that when I say that this belief can be applied to anything, I also mean that it might work for anything. Like, why not, mass societal adoption of GameStop as a store of value, stranger things have happened though I cannot actually think of one.SQUID did not make it, obviously. But its marketing is instructive. The marketing was “people can buy it but they can’t sell it.” Skeptics, correctly, interpreted this as a mark of a scam. But it was marketed as a good thing, an innovative way to design a coin that would always go up because people would buy and not sell it. There is a lot of demand for that!
+  
+    
+      
+        
+      
+    
+  
+
+
+  
+    
+      SPAC Stuff
+    
+  
+One theory is that the point of a special purpose acquisition company is that you can go public even with no customers and no revenue, if you can put together an attractive PowerPoint saying that in 2023 you’ll have lots of customers and billions of dollars of revenue. Investors will focus on the exciting 2023 revenue numbers and not worry about the zeroes for historical revenue. There are some flaws in this theory. The investors might not believe you, for one thing; for another thing, you’re  not really allowed to just make up whatever projections you want when marketing your SPAC. But neither is this theory entirely wrong. You have some leeway to make projections that might not come true, and at least some investors at least sometimes  believe optimistic SPAC projections. So if you have no revenue now, you can say you’ll have lots in the future, and maybe you’ll be able to go public via SPAC and raise money and get rich and not get in trouble.These guys did it wrong:The Securities and Exchange Commission [last week] announced a $38.8 million settlement of charges against Akazoo S.A., a purported music streaming business based in Greece, for allegedly defrauding investors out of tens of millions of dollars in connection with a 2019 special purpose acquisition company (SPAC) business combination. Akazoo's assets were previously frozen as the result of an emergency action filed by the SEC in September 2020.According to the SEC's complaint, Akazoo represented to investors that it was a rapidly growing music streaming company focused on emerging markets with more than 38.2 million registered users, 4.6 million paying subscribers, and over $120 million in annual revenue. In actuality, the complaint alleged that the company had no paying users and, at most, negligible revenue. Akazoo allegedly leveraged these misrepresentations to enter into a SPAC business combination in 2019, in which the company received nearly $55 million from the SPAC and other investors. According to the complaint, after the business combination, Akazoo became listed on Nasdaq and proceeded to defraud retail investors by misrepresenting, among other things, that it had earned tens of millions of dollars in revenue during 2019 and increased its paying subscriber base by 28% year-over-year. In reality, the company allegedly continued to have limited operations, no subscribers, and marginal revenue, all while depleting more than $20 million of investor funds.Why? Don’t say “we had $120 million in revenue last year,” say “we will have $240 million in revenue next year.” That’s a better pitch — 240 is more than 120 — and also, like, somewhat more legal-ish? Ish? Boy is this not legal advice, but if you’re just making up revenue anyway you’re not really looking for legal advice.
+  
+    
+      Things happen
+    
+  
+ Papa John Is Still Obsessed With Papa John’s. (Also the art at his home includes a fresco of “Moses getting circumcised” and “a 16-foot-tall sculpture of two eagles descending from the sky, mating.”) Bankers Committing to ‘ Net Zero’ Don’t Agree on What It Means. Banks’ green pledges under scrutiny. Bond Investors Challenge Wall Street Greenwashing. Gulf states push for net zero but warn ‘we can’t just switch off the tap.’ Recovering the Moral Economy Foundations of the Sherman Act. Justice Department Sues to Block Penguin Random House’s Acquisition of Simon & Schuster. Wall Street Legend  Perelman’s Family Trust Tied to Mystery Loans. Goldman Bumps Up  Managing Director Class to Biggest Ever. Startups Promote Female Employees in Rush to  Get Women on Boards. Just When You Think  YOLO Trading Is Done, a New Meme Comes Along. Apple polishing cloth review. “What is the Mark Zuckerberg aesthetic?” Eric Adams  Mingles With CEOs, Rappers in NoHo After Win. Eric Adams drove his car on the sidewalk. If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] I have made a few modifications to the Bloomberg transcript where the Seeking Alpha transcript seemed more plausible. [2] Early discussions of the Volcker Rule, which forbids banks from doing “proprietary trading” but allows them to do “market making,” placed some emphasis on this distinction: If your desk makes most of its money from price moves, that’s bad prop trading; if it makes most of its money from spreads, that’s good market making. The Financial Stability Oversight Council, for instance, said in 2011 that “Understanding the source of a market maker‘s profits would ordinarily provide a strong indication of whether the firm isprofiting from bona fide market making or proprietary trading. Market making activities should be characterized by rapid inventory turnover and minimal profits on inventory held, while proprietary trading activities should evidence more modest turnover with the bulk of profits derived from inventory appreciation.” (The council added that this is hard to measure, and the actual Volcker Rule as ultimately implemented is not especially dogmatic about it.)[3] That is, $3,758 million plus the $304.4 million writedown equals a cost of inventory of $4,062 million; the writedown is about 7.5% of that. This math is not particularly exact because houses move in and out of inventory, etc., but it’s the right ballpark.[4] The numbers I am citing here are “Contribution Margin After Interest,” roughly a measure of how much Opendoor got from selling houses minus (1) how much it paid for them, (2) how much it paid to renovate and sell them and (3) how much it paid in interest and other costs to hold on to them. See pages 36-38 of last quarter’s 10-Q.[5] I should say that there are two objections to “more buyers than sellers.” One is that it is a non-explanation: When people ask why the market went up, they want you to give them a *reason*, and “more buyers than sellers” is just a tautological rephrasing of “the market went up.” The other objection, though, is that it isn’t true: Every time a share of stock or a cryptocurrency trades, there is one buyer and one seller, so there are never “more buyers than sellers.” (Or there might be — 100 people might each buy one share from one person who sells 100 shares — but in a trivial and irrelevant way.) In general you sort of know what “more buyers than sellers” means, it means that there is more buying demand, more bids, more enthusiasm from buyers than sellers, etc. But SQUID’s anti-dumping mechanism *literally* required more buys than sells. This is impossible, of course, which I suppose is why people couldn’t sell.
+        
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+
+
+  
+    
+      
+        
+        
+Like Money Stuff? | 
+Get unlimited access to Bloomberg.com, where you'll find trusted, data-based journalism in 120 countries around the world and expert analysis from exclusive daily newsletters.
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+  
+    
+      
+      
+      
+      
+      
+    
+  
+
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cf80n9.5oz9/a23c9af0.gif" alt="" border="0" /></a>

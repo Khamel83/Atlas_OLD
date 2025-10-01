@@ -1,0 +1,122 @@
+# Supercomputers Help Scientists Dig Deeper, See Farther, Share More - NYTimes.com
+
+**Source**: http://www.nytimes.com/2011/04/26/science/26planetarium.html?src=dayp&pagewanted=print
+**Type**: article
+**Created**: 2025-08-13T20:55:03.085381
+
+---
+
+title: Supercomputers Help Scientists Dig Deeper, See Farther, Share More - NYTimes.com
+source: http://www.nytimes.com/2011/04/26/science/26planetarium.html?src=dayp&pagewanted=print
+date: 2025-08-13T20:54:55.031451
+tags: []
+---
+SAN FRANCISCO — Inside a darkened theater a viewer floats in a redwood forest
+displayed with Imax-like clarity on a cavernous overhead screen.
+
+The hovering sensation gives way to vertigo as the camera dives deeper into
+the forest, approaches a branch of a giant redwood tree, and then plunges
+first into a single leaf and then into an individual cell. Inside the cell the
+scene is evocative of the 1966 science fiction movie “[Fantastic
+Voyage](http://web.archive.org/web/20110429044456/http://www.imdb.com/title/tt0060397/),”
+in which Lilliputian humans in a minuscule capsule take a medical journey
+through a human body.
+
+There is an important difference — “[Life: A Cosmic
+Journey](http://web.archive.org/web/20110429044456/http://www.calacademy.org/academy/exhibits/planetarium/life/),”
+a multimedia presentation now showing at the new Morrison Planetarium here at
+the California Academy of Sciences, relies not just on computer animation
+techniques, but on a wealth of digitized scientific data as well.
+
+The planetarium show is a visually spectacular demonstration of the way
+computer power is transforming the sciences, giving scientists tools as
+important to current research as the microscope and telescope were to earlier
+scientists. Their use accompanies a fundamental change in the material that
+scientists study. Individual specimens, whether fossils, living organisms or
+cells, were once the substrate of discovery. Now, to an ever greater extent,
+researchers work with immense collections of digital data, and the mastery of
+such mountains of information depends on computing power.
+
+The physical technology of scientific research is still here — the new
+electron microscopes, the telescopes, the particle colliders — but they are
+now inseparable from computing power, and it is the computers that let
+scientists find order and patterns in the raw information that the physical
+tools gather.
+
+Computer power not only aids research, it defines the nature of that research:
+what can be studied, what new questions can be asked, and answered.
+
+“The profound thing is that today all scientific instruments have computing
+intelligence inside, and that’s a huge change,” said Larry Smarr, an
+astrophysicist who is director of the [California Institute for
+Telecommunications and Information
+Technology](http://web.archive.org/web/20110429044456/http://www.calit2.net/),
+or Calit2, a research consortium at the University California, San Diego.
+
+In the planetarium’s first production, “Fragile Planet,” the viewer was
+transported through the roof of the Morrison, first appearing to fly in a
+graceful arc around the [Renzo
+Piano](http://web.archive.org/web/20110429044456/http://topics.nytimes.com/top/reference/timestopics/people/p/renzo_piano/index.html?inline=nyt-
+per "More articles about Renzo Piano.")-designed museum and then quickly out
+into the solar system to explore the cosmos. Where visual imagery was once
+projected on the dome of the original Morrison Planetarium using an elaborate
+home-brew star projector, the new system is powered by three separate parallel
+computing systems which store so much data that the system is both telescope
+and microscope. From incomprehensibly small to unimaginably large, the
+computerized planetarium moves seamlessly over 12 orders of magnitude in the
+objects it presents. It can shift “from subatomic to the large-scale structure
+of the universe,” said Ryan Wyatt, an astronomer who is director of the
+planetarium.
+
+It is, said Katy Börner, an [Indiana
+University](http://web.archive.org/web/20110429044456/http://topics.nytimes.com/top/reference/timestopics/organizations/i/indiana_university/index.html?inline=nyt-
+org "More articles about Indiana University") computer scientist who is a
+specialist in scientific visualization, a “macroscope.” She uses the word to
+describe a new class of computer-based scientific instruments to which the new
+planetarium’s virtual and physical machine belongs. These are composite tools,
+with different kinds of physical presences that have such powerful and
+flexible software programs that they become a complete scientific workbench
+that can be reconfigured by mixing and matching aspects of the software to
+tackle specific research problems.
+
+The planetarium’s macroscope is designed for education, but it could be used
+for research. Like any macroscope, its essence is its capacity for approaching
+huge databases in a variety of ways. “Macroscopes provide a ‘vision of the
+whole,’ ” Dr. Börner wrote in the [March issue of The Communications of the
+Association for Computing
+Machinery](http://web.archive.org/web/20110429044456/http://cacm.acm.org/magazines/2011/3/105316-plug-
+and-play-macroscopes/fulltext), “helping us ‘synthesize’ the related elements
+and detect patterns, trends and outliers while granting access to myriad
+details.’ ” She said software-based scientific instruments are making it
+possible to uncover phenomena and processes that in the past have been, “too
+great, slow or complex for the human eye and mind to notice and comprehend.”
+
+Computing is reshaping scientific research in a number of ways, Dr. Börner
+notes. For example, independent scientists have increasingly given way to
+research teams as cited by scientific papers in the field of high-energy
+physics that routinely have hundreds or even thousands of authors. It is
+unsurprising, in a way, since the Web was invented as a collaboration tool for
+the high-energy physics community at
+[CERN](http://web.archive.org/web/20110429044456/http://topics.nytimes.com/top/reference/timestopics/organizations/c/cern/index.html?inline=nyt-
+org "More articles about CERN."), the European nuclear research laboratory, in
+the early 1990s. As a result research teams in all scientific disciplines are
+increasingly both interdisciplinary and widely distributed geographically.
+
+So-called Web 2.0 software, with its seamless linking of applications, has
+made it easier to share research findings, and that in turn has led to an
+explosion of collaborative efforts. It has also accelerated the range of
+cross-disciplinary projects as it has become easier to repurpose and combine
+software-based techniques ranging from analytical tools to utilities for
+exporting and importing data.
+
+A macroscope need not be in a single physical location. To take one example, a
+midday visitor to the lab of Tom DeFanti, a computer graphics specialist, in
+the Calit2 building in San Diego is greeted by a wall-size array of screens
+that appears to offer a high-resolution window into a vacant laboratory
+somewhere else in the world. The distant room is a parallel laboratory at King
+Abdullah University of Science and Technology, in Thuwal, Saudi Arabia. Four
+years ago representatives of that university visited Calit2 and initiated a
+collaboration in which the American scientists helped create a parallel
+scientific visualization center in Thuwal connected to the Internet by up to
+10 gigabits of bandwidth — enough to share high-resolution imagery and
+research.

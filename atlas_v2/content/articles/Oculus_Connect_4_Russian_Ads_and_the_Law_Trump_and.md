@@ -1,0 +1,241 @@
+# Oculus Connect 4, Russian Ads and the Law, Trump and Facebook (Stratechery Weekly Article 2017-10-12)
+
+**Source**: http://mailchi.mp/stratechery/the-end-of-aol-instant-messenger-innovation-versus-interoperability-688357?e=ef6eeda78d
+**Type**: article
+**Created**: 2025-08-13T16:56:35.915851
+
+---
+
+title: Oculus Connect 4, Russian Ads and the Law, Trump and Facebook (Stratechery Weekly Article 2017-10-12)
+source: http://mailchi.mp/stratechery/the-end-of-aol-instant-messenger-innovation-versus-interoperability-688357?e=ef6eeda78d
+date: 2025-08-13T16:56:33.653740
+tags: []
+---
+|  |  |   
+---  
+|  |  | The Daily Stratechery email, including exclusive content for members of [Stratechery.com](http://stratechery.com/)  
+---  
+  
+|  |  |  |  | 
+
+# Oculus Connect 4, Russian Ads and the Law, Trump and Facebook  
+  
+Thursday, October 12, 2017
+
+[blog post](https://stratechery.com/2017/oculus-connect-4-russian-ads-and-the-
+law-trump-and-facebook/) / [forum
+thread](https://forum.stratechery.com/t/oculus-connect-4-russian-ads-and-the-
+law-trump-and-facebook/1367)  
+---  
+Good morning, The Gmail-on-the-web bug in the new email template should be
+fixed; thanks to all those who sent in bug reports. Let me know if you are
+still having issues! On to the update:  
+---  
+|  |  |   
+---  
+We’re here because we’re legitimately excited about the future, and we’re
+committed to making it a reality. And we believe that one day everyone will
+use virtual reality to improve how we work, how we play, and how we connect
+with each other. But we know that the most important technologies don’t start
+out mainstream. In fact, a lot of them seem too crazy or complex to start. And
+the conventional thinkers will always say that there will be something more
+familiar, that delivers enough of the value. So why build a completely new
+platform? They say, why build the PC, when most people just want a word
+processor? Why build the whole Internet when most people like dialing up
+through AOL? Why put a computer in your pocket when most people are just
+asking for a phone that texts well? And why build virtual reality when most
+people think 2D-screens are pretty good today? The reality is that every step
+along the way the future is built by the people who believe it can be better.
+The people who are dedicated to creating that foundation for all of us to
+build upon. And that’s why we’re all here. And that’s why I’m excited to be
+here with you.  
+I’ve been consistently critical of Facebook’s efforts in virtual reality. When
+the company bought Oculus in 2014, I wrote in [Face is Not the
+Future](https://stratechery.com/2014/face-future/):  
+---  
+|  |  |   
+---  
+What is so powerful about this analogy — that the computer is a bicycle for
+the mind — is that it elevates the humanity of a desired action, in this case
+transportation, and inserts the computer as an aid. This is exactly what the
+iPhone and the smartphones that followed have done for people: instead of a
+computer being a destination, it’s something that is always with us, ready to
+call up a map, or a restaurant recommendation, or simply fill time with a
+flapping bird. To put it another way, mobile is a big deal not because we use
+computers more, but because a computer is with us in more places. Envisioning
+a future in which Oculus’ technology is the dominant platform is diametrically
+opposed: it’s a reality where humans retreat from day-to-day activities in
+favor of computers. This idea — a life lived in computers — is something that
+appeals to the technically predisposed; who among us spends all day in front a
+glowing screen, and then goes home to do the exact same? I’m sure Zuckerberg
+is in that boat. But it’s a much smaller boat than many technologists realize.  
+Over the intervening years, my criticism has been less philosophical and more
+narrowly focused on Facebook’s interests; I wrote [after the Oculus Rift
+lauched](https://stratechery.com/2016/sundar-pichais-greatest-achievement-to-
+date-the-vr-era-begins-facebook-versus-oculus/):  
+---  
+|  |  |   
+---  
+The aspect of the Oculus Rift that I am still having trouble is the Facebook
+perspective. Facebook founder and CEO Mark Zuckerberg has said on multiple
+occasions, including in a speech last month at Mobile World Congress, that he
+believes that VR is the future of social… Here’s my question: are any of those
+“hundreds” of engineers [working on VR] working on the Vive or the PlayStation
+VR? After all, as a horizontal service Facebook ought to be concerned with
+being everywhere. This need is especially acute when it comes to social: the
+single most important feature of any network is how many of your friends are
+there, and Facebook’s chances of building the ultimate virtual reality service
+would be maximized by working across devices.  
+There was, though, one line in yesterday’s keynote that really encapsulated
+what I think Zuckerberg sees in VR (emphasis mine):  
+---  
+|  |  | I don’t know anyone who sits in traffic and thinks to themselves, “Man, right here, this is the best that reality can be! Now a lot of people have ideas about how to make transportation better: self-driving cars, hyperloops, and don’t get me wrong, I love all of that stuff, but it’s 2017, and **the biggest trend in transportation is that it’s a lot easier to move bits around than atoms.**  
+---  
+That’s it! That’s exactly how virtual reality fits in the Facebook paradigm.
+I’ve [long argued](https://stratechery.com/2016/how-facebook-squashed-
+twitter/) that the key to understanding Facebook’s unprecedented rise was to
+appreciate the extent to which the company was built on the digitization of
+offline relationships: Facebook took real world relationships and moved them
+online, and, as Zuckerberg said, its a lot easier to move bits than atoms. And
+so it was we all had at least passing relationships with hundreds of people we
+might have otherwise forgotten due to the vagaries of distance and time.
+Indeed, this is something I started to pick up on [last
+year](https://stratechery.com/2016/facebook-versus-the-media/):  
+---  
+|  |  | Ignore the fact that Facebook owns a VR company; the point is this: Facebook is, for better or worse, running a product that is predicated on showing people exactly what they want to see, all the way down to the individual. And while there is absolutely editorial bias in any algorithm, the challenge is indeed a technical one being worked out at a scale few can fully comprehend.   
+---  
+Actually, don’t ignore the VR point — Facebook has _always_ been predicated on
+virtual reality, and that is exactly why the company is such a juggernaut:
+after all, moving bits is free, and therefore infinitely scalable, but moving
+atoms is not. And, while this may make a lot of business sense, it is also
+disappointing: Zuckerberg discussed the areas of the U.S. he has visited this
+year that don’t have the same economic opportunity as Silicon Valley, and
+suggested VR as a salve. That is, I suppose, easier than uprooting regressive
+zoning laws that have arguably done [more to exacerbate
+inequality](https://www.theatlantic.com/business/archive/2015/11/zoning-laws-
+and-the-rise-of-economic-inequality/417360/) than anything else. As for the
+announcements themselves? They were fine. A [standalone $200 headset named
+Oculus Go](https://techcrunch.com/2017/10/11/oculus-announces-199-oculus-go-
+standalone-headset/) is an important step down the cost curve; the price point
+and feature set suggest something much more in-line with the smartphone-based
+Gear VR than the Oculus Rift. What was still missing was any sort of consumer
+use case outside of the obvious video and games vectors; I’ve [long
+maintained](https://stratechery.com/2016/ces-2016/) that VR and AR represent
+two distinct forks of technology: immersive (consoles, movies) and
+augmentation (PCs, smartphones), and that the latter is the larger market
+opportunity. The observation about the similarities between Facebook and VR
+aside, I’m not yet convinced VR can break out of that (still very large)
+market.  
+---  
+|  |  |   
+---  
+Members of the House and Senate Intelligence Committees have called on
+Facebook to release ads paid for and promoted by the Russian government during
+the 2016 election, but a wiretapping law passed in 1986 is complicating
+things. The law is the Electronic Communications Privacy Act, referred to as
+ECPA, which governs when tech companies can disclose “communications” to third
+parties and the government. ECPA, an update to the federal wiretapping
+statute, was designed to protect the privacy rights of individuals in the
+spirit of the Fourth Amendment… Under ECPA, ads circulated through social
+networks are protected in the same way as private messages and things you post
+publicly on social networks, he said. “People tend to think of ads as the
+brick and mortar world of the 19th century instead of the digital world, where
+the ads are nothing more than bulletin board messages to many people,” Gidari
+said. “So I think in the end that’s where providers and platforms come out
+generally, is that an ad is just another way of communicating with people
+through their platforms.”  
+The net of the story is this: Facebook’s decision to [give the ads to
+Congress](http://money.cnn.com/2017/10/01/media/facebook-russia-ads-congress/)
+(and potentially [release them
+publicly](https://www.recode.net/2017/10/11/16460470/house-intelligence-
+committee-sheryl-sandberg-facebook-russia-2016-presidential-election)) is
+almost certainly in violation of the ECPA; however, any violation would need
+to be prosecuted by the party whose rights were violated, and in this case,
+that means the Russian buyers, who almost certainly won’t sue. The bigger
+concern is the precedent. From The Outline story:  
+---  
+|  |  |   
+---  
+However, while Facebook probably wouldn’t be sued by a Russian advertiser,
+giving in to Congress’s demands in this situation may weaken its ability to
+resist overbroad or intrusive requests by the US government in future cases.
+Right now Facebook is battling a separate request from the Trump
+administration to turn over information on three Facebook accounts, which
+could reveal the names of thousands of people who liked an anti-Trump Facebook
+page. It’s part of an investigation into hundreds of protesters who the DOJ
+says allegedly conspired to riot during Trump’s inauguration on January 20.
+Facebook’s hasn’t said if it has complied with the warrants but said it fought
+in court to notify the protestors in question of the pending warrant. If
+Facebook were to capitulate and reveal the content of Russian ads, that could
+set a precedent for turning over information in other cases. “The Department
+of Justice is very good at shaming people who have done something before and
+changed their policy because they’ve now decided the law says something
+different,” Girardi said. “I think [Facebook] should worry about that kind of
+an argument.”  
+There is absolutely a reasonable debate to be had about whether or not
+Facebook was right to defy the ECPA (and, [as I noted a few weeks
+ago](https://stratechery.com/2017/amazon-studios-shifts-strategy-spotify-and-
+hulu-facebook-to-spend-1-billion-on-video/), the [consent
+decree](https://www.ftc.gov/sites/default/files/documents/cases/2012/08/120810facebookdo.pdf)
+between the company and the FTC). What is exceedingly unreasonable — yet all
+too common — are absolutist statements about Facebook (or Google or Twitter or
+anyone else’s) motivations and decisions that deny the existence of incredible
+complexity and the chance of significant unintended consequences. Sadly, the
+recognition of said complexity has been sorely lacking in the discussion of
+this topic (which, to be fair, is par for the course in _any_ topic).  
+---  
+The danger of unintended consequences is more immediate than it might seem.
+Yesterday President Trump tweeted the following:  
+---  
+The first takeaway is obvious: this is a violation, in spirit anyways, of the
+Constitution Trump swore to uphold, and, more generally, a violation of what
+undergirds not just the idea of America (although not always the reality) but
+also progress generally: the import of the free exchange of ideas to the
+advancement of modernity and the rebuke of oppression. The second, though, is
+a bit more subtle. There is an implicit assumption in the calls for regulation
+of platforms like Google, Facebook, and Twitter of an all-knowing regulator
+that will ensure “the truth” prevails. The question that must be raised,
+though, is who is that regulator? To return to the Constitution, in the United
+States, anyways, the answer is clear: the executive branch, that is, the
+President, who, I must remind you, is the aforementioned Donald Trump. This is
+a point I raised in [Fake News](https://stratechery.com/2016/fake-news/):  
+---  
+|  |  |   
+---  
+I get why top-down solutions are tempting: fake news and filter bubbles are in
+front of our faces, and wouldn’t it be better if Facebook fixed them? The
+problem is the assumption that whoever wields that top-down power will just so
+happen to have the same views I do. What, though, if they don’t? Just look at
+our current political situation: those worried about Trump have to contend
+with the fact that the power of the executive branch has been dramatically
+expanded over the decades; we place immense responsibility and capability in
+the hands of one person, forgetting that said responsibility and capability is
+not so easily withdrawn if we don’t like the one wielding it.  
+Now we have explicit evidence that the situation is quite dire indeed: the
+chief regulator is suggesting that networks have their licenses revoked for
+airing news with which he disagrees; do we want him in charge of Facebook? All
+that said, there are reasons to fear the alternative. This line in the Oculus
+keynote made me a bit uncomfortable:  
+---  
+|  |  |   
+---  
+We’re setting a goal. We want to get a billion people in virtual reality.
+There will be challenges to work through: we need to build a safe environment,
+and we have to make sure that virtual reality is a force for good in the
+world, and we have to make sure that virtual reality is accessible to
+everyone.  
+Read carefully: “safe” and a “force for good” sound great, but who is deciding
+what is “safe”, and who is defining “good”? Facebook, apparently. You know,
+the same Facebook that, speaking of unintended consequences, has [completely
+upended politics](https://stratechery.com/2016/the-voters-decide/). We’re
+supposed to trust them to adequately anticipate the appropriate reality for a
+billion people? I don’t have all the answers here; my only argument is that no
+one does. The world is complicated, too much centralized power is ripe for
+abuse, and I really wish that more folks would incorporate these two realities
+in their all too certain pronouncements about what must be done.  
+---  
+The Daily Update is intended for a single recipient, but occasional forwarding
+is totally fine! If you would like to order multiple subscriptions for your
+team with a group discount (minimum 5), please contact me directly. Thanks for
+being a supporter, and have a great day!  
+---

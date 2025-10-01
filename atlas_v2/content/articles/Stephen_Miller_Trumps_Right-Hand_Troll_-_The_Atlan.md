@@ -1,0 +1,819 @@
+# Stephen Miller: Trump’s Right-Hand Troll - The Atlantic
+
+**Source**: https://www.theatlantic.com/politics/archive/2018/05/stephen-miller-trump-adviser/561317/
+**Type**: article
+**Created**: 2025-08-13T16:33:30.692780
+
+---
+
+title: Stephen Miller: Trump’s Right-Hand Troll - The Atlantic
+source: https://www.theatlantic.com/politics/archive/2018/05/stephen-miller-trump-adviser/561317/
+date: 2025-08-13T16:33:29.636713
+tags: []
+---
+_This article was featured in the One Story to Read Today newsletter.__[Sign
+up for it here](https://www.theatlantic.com/newsletters/sign-up/one-story-to-
+read-today/)_ _._
+
+I
+
+t’s late on a Friday afternoon in March, and I’m sitting across from Stephen
+Miller in his spacious, sunlit West Wing office, trying to figure out whether
+he’s trolling me.
+
+This is no easy task. A provocateur as skilled as Miller doesn’t just announce
+when he’s saying something outlandish to get a rise out of you—he tries to
+make you think he means it. So you have to look for the subtle tells. The
+fleeting half-smirk when he refers to himself as a “conservative social-
+justice warrior” early in the conversation. The too-emphatic tone he takes
+later when he says the best movie he’s seen in the past 15 years is _The Dark
+Knight Rises_ , and then chides you for not properly appreciating its
+commentary on the French Revolution.
+
+“It takes on the issue of anarchy and social breakdown in a really interesting
+way,” he says of the Batman movie. “There’s a lot going on in the film that
+you, of all people, I’d have thought would be all over.”
+
+“Me … _specifically_?,” I ask, taking the bait.
+
+“ _Well_ ,” he replies, letting the mask slip and a sarcastic grin surface,
+“it’s just your reputation as a very deep thinker.”
+
+Perched on a high-backed chair, Miller looks as if he’s posing for a cologne
+ad in a glossy magazine—his slender frame wrapped in an elegantly tailored
+suit, his arm draped over the backrest, his legs crossed at the knee just so.
+As President Donald Trump’s top speechwriter and senior policy adviser, the
+32-year-old aide has cultivated a severe public image, his narrow features
+forming a kind of perma-glower when he’s on television. But in person there
+are glimpses of something else—not charm, exactly, but a charisma-like
+substance. He can be funny and self-aware one moment, zealous and hostile the
+next. In conversation, he slides from authentic insight into impish goading
+and back again. It’s a compelling performance to watch—but after an hour and a
+half in his office, I realize I’m still straining to locate where the trolling
+ends and true belief begins.
+
+In the campy TV drama that is Donald Trump’s Washington, Miller has carved out
+an enigmatic role. He lurks in the background for weeks at a time, only to
+emerge with crucial cameos in the most explosive episodes. The one where Trump
+signed a havoc-wreaking travel ban during his first week in office, unleashing
+global chaos and [mass
+protests](https://www.theatlantic.com/photo/2017/01/a-weekend-of-protest-
+against-trumps-immigration-ban/514953/)? Miller helped draft the executive
+order. The one where the federal government shut down over a high-stakes
+immigration standoff on Capitol Hill? Miller was accused of derailing the
+negotiations. (“As long as Stephen Miller is in charge of negotiating
+immigration, we’re going nowhere,” Senator Lindsey Graham
+[grumbled](https://www.cnn.com/2018/01/22/politics/stephen-miller-immigration-
+role/index.html).) To watch him in his most memorable scenes—theatrically
+hurling accusations of “[cosmopolitan
+bias](https://www.politico.com/story/2017/08/02/stephen-miller-cnn-
+acosta-241260)” at a reporter; getting his mic cut in the middle of a
+belligerent Sunday-show appearance—is to be left mesmerized, wondering, _Is
+this guy serious?_
+
+Miller represents a rising generation of conservatives for whom “melting the
+snowflakes” and “triggering the libs” are first principles.
+
+I put that question to Miller, one way or another, repeatedly over the course
+of our meeting. He insists that he believes every word he says, and that he is
+not a fan of “provocation for its own sake.” But after some reflection, he
+admits that he has long found value in doing things that generate what he
+calls “constructive controversy—with the purpose of enlightenment.”
+
+This is what makes Miller different from all the other Republican apparatchiks
+who became supervillains when they joined the Trump administration: He has
+been courting infamy since puberty. From Santa Monica High School to Duke
+University to Capitol Hill, his mission—always—has been to shock and offend
+the progressive sensibilities of his peers. He revels in riling them,
+luxuriates in their disdain.
+
+Inside the White House, Miller has emerged as a staunch ideologue and an
+immigration hawk championing an agenda of right-wing nationalism. But people
+who have known him at different points in his life say his political worldview
+is also rooted in a deep-seated instinct for trolling. Miller represents a
+rising generation of conservatives for whom “melting the snowflakes” and
+“triggering the libs” are first principles. You can find them on college
+campuses, holding “[affirmative action bake
+sales](https://www.thedenverchannel.com/news/controversial-bake-sale-to-go-on-
+at-cu)” or hosting rallies for alt-right figures in the name of free speech.
+You can see them in the new conservative media, churning out incendiary
+headlines for _Breitbart News_ or picking bad-faith fights on Twitter. Raised
+on talk radio, radicalized on the web, they are a movement in open revolt
+against the dogmas of “political correctness”—and their tactics could shape
+the culture wars for years to come.
+
+The story of Miller’s rise to power offers an early answer to an urgent
+question: What happens when right-wing trolls grow up to run the world?
+
+T
+
+he conservative education of Stephen Miller began with a middle-school
+magazine drive.
+
+He was in seventh grade, and, needing one more sale to qualify for a prize, he
+decided to buy himself a subscription to _Guns & Ammo_, which looked less
+boring than the alternatives. While flipping through the magazine one day, he
+came across a column written by Charlton Heston, the movie star turned gun-
+rights activist. It was, he recalled, “the first conservative writing I’d ever
+read.”
+
+Growing up in the so-called People’s Republic of Santa Monica as the son of
+well-off Jewish Democrats—his father was a lawyer and real-estate investor,
+his mother a homemaker—Miller was uninitiated in conservative thought. But the
+magazine piqued his curiosity. _Guns & Ammo_ led him to Wayne LaPierre’s book
+_Guns, Crime, and Freedom_ , which he devoured, enraptured by the blunt force
+of the author’s prose. (“Clearly, the Warsaw ghetto stands in history as a
+shining example of the dangers of gun control.”) “I remember thinking to
+myself, _If what I believe is true is so wrong on these issues … what else
+could I be wrong about?_ ,” Miller told me.
+
+When high-profile Republicans are asked to describe their early intellectual
+influences, they tend to name-check a lot of the same Serious Thinkers: Edmund
+Burke. Milton Friedman. Friedrich Hayek. Maybe Ayn Rand. Miller’s list is
+different. When I asked him which books had shaped his politics, he rattled
+off a procession of titles by screed artists and talk-radio personalities,
+including David Horowitz—the author of such works as _Hating Whitey and Other
+Progressive Causes_ —and Larry Elder, who wrote _The Ten Things You Can’t Say
+in America_. What these books lacked in substance, they made up for in
+visceral appeal. “When I read Rush Limbaugh’s _The Way Things Ought to Be_ ,
+it was like a page-turning thriller to me,” Miller recalled, fondly. “Every
+page was like some new revelation.”
+
+Miller believes his right-wing transformation may have been preordained. “I do
+think it’s possible to have a conservative personality,” he mused, pointing to
+his own deeply embedded attitudes toward criminals. Even from a young age, he
+said, crime stories on the news would upset him “on a core emotional level.”
+He bristled against the sort of “gentle rehabilitation programs” for convicts
+beloved by bleeding-heart Santa Monicans. “My core instinct was … to put them
+behind bars and keep them behind bars until they’re not a threat to anybody
+anymore.”
+
+Miller jumped into the homestretch of a girls’ track race, evidently to prove
+male athletic superiority.
+
+But Miller’s youthful political reinvention was also a puckish reaction to his
+surroundings. In the beachside bubble of liberal affluence where he was
+raised, people saw themselves as proud citizens of a progressive utopia. There
+were festivals celebrating multiculturalism, and “racial-harmony retreats” for
+students. Yet there were also tensions around racial and class inequality.
+Jason Islas, a progressive activist who was friends with Miller when they were
+kids, says it was the kind of place where wealthy white liberals would
+“conspicuously celebrate diversity in very self-congratulatory ways”—and then
+avert their eyes from the problems in their own community.
+
+Miller seemed to mold his new political identity with the express aim of
+needling these self-righteous neighbors. “I think it was a teenage rebellion
+against an upper-middle-class, liberal establishment that metastasized,” Islas
+told me. “The style of conservatism that he has could only have come out of a
+place like Santa Monica.” Yet there were also signs that Miller’s persona
+expressed something deeper. Shortly before they started high school, Islas
+recalled, Miller informed him that they couldn’t be friends anymore, citing
+Islas’s “Latino heritage” as one of several reasons.
+
+At Santa Monica High, Miller constantly found ways to rile his classmates. He
+loudly complained about the Spanish-language announcements that came over the
+PA system, and once jumped into the homestretch of a girls’ track race,
+evidently to prove male athletic superiority. After 9/11, he emerged as a
+vociferous defender of the Bush administration, writing op-eds that compared
+students who opposed U.S. military actions to terrorists and
+[concluding](https://www.surfsantamonica.com/ssm_site/the_lookout/letters/Letters-2002/MARCH_2002/03_27_2002_Political_Correctness_Out_of_Control.htm),
+“Osama Bin Laden would feel very welcome at Santa Monica High School.” During
+his junior year, he agitated for the school to lead regular recitals of the
+Pledge of Allegiance—and when his demand wasn’t met, he went on local talk
+radio to kick up some controversy. The tactic worked, and the school
+eventually acquiesced.
+
+At times, his shtick was greeted with amusement. In a [video
+clip](https://news.vice.com/en_us/article/9kdvby/stephen-miller-torture-video-
+iraq) unearthed by Vice News, a young Miller—wearing a white tennis sweater
+and oozing bravado—can be seen eliciting laughter from other teenage boys in
+the back of a school bus as he cracks jokes about his receding hairline,
+performs a silly pop ballad, and holds forth on the merits of cutting Saddam
+Hussein’s fingers off. “Torture is a celebration of life and human dignity,”
+he proclaims, his lips curling into a grin. “We need to remember that as we
+enter these very dark and dangerous times of the next century.”
+
+More often, though, Miller’s stunts elicited hostility—just as he intended. In
+perhaps his most memorable act of teenage trolling, he [ran for student
+government](https://www.youtube.com/watch?v=Ni6OpZN6IqU) on a platform that
+included increasing the janitorial staff’s workload. Speaking to an
+amphitheater full of privilege-checking peers, he asked, “Am I the only one
+who is sick and tired of being told to pick up my trash when we have plenty of
+janitors who are paid to _do it for us_?” The crowd erupted in boos and
+Miller, looking pleased with himself, was forcibly removed from the stage.
+
+In retrospect, Miller concedes that he may have crossed some lines, but
+overall he’s proud of his youthful posture. “I think it’s very healthy for
+kids to be a little bit rebellious,” he told me. What bothered him most about
+his high-school experience wasn’t the school’s liberalism but the way other
+students reacted to his dissent. Rather than engage in “spirited, open
+debate,” he complained, their instinct was to tattle on him. “Far from the
+images of 1960s kids rebelling against power, most of my classmates who were
+upset by the things I was saying … wanted to have a more disciplined
+administrative environment with stronger, tougher rules about what you can and
+can’t say—set by adult authority figures!”
+
+By the time he graduated and headed to Duke, Miller had come to view this
+“educational authoritarianism” as a chilling threat to his generation, one he
+was determined to fight. “I’ve always been a nonconformist,” he told me. “I
+think that nonconformity is part of the American DNA. And in today’s culture,
+the nonconformists are conservatives.”
+
+O
+
+n the evening of March 7, 2006, a scruffy-faced Miller stepped up to a podium
+in Duke’s Page Auditorium and retrieved a list from his breast pocket. “Making
+this event happen was not easy,” he began, in a grave tone. “We beseeched many
+departments, many institutions at Duke University, for funding. Many of them
+wanted nothing to do with us.”
+
+The event in question was a speech by David Horowitz, the right-wing
+polemicist whose books Miller had so admired as a teenager. Horowitz had
+recently published a new book identifying “the 101 most dangerous academics in
+America,” including two Duke professors—and Miller had invited him to campus.
+Now, as he introduced Horowitz to an audience of skeptics and hecklers, Miller
+was making the most of the moment.
+
+Turning to the piece of paper in front of him, Miller began to list the
+university entities that had withheld their support, reading them off one by
+one with gusto—the literature department, the philosophy department, the
+multicultural center. When some in the audience began applauding the groups he
+was trying to shame, Miller straightened his tie and furrowed his brow in faux
+concern. “I see that many of you are _happy_ that people on this campus don’t
+want to support a debate of ideas,” he snapped, and then glanced back down at
+his notes, an amused look flickering across his face.
+
+That night was the culmination of a well-organized campaign of campus
+disruption. It had begun when Miller formed a chapter of Students for Academic
+Freedom—a national conservative pressure group Horowitz had launched to expose
+the leftist “indoctrination” taking place at America’s universities. As the
+head of the Duke chapter, Miller was sent a 70-page handbook that provided
+detailed instructions for orchestrating a campus controversy. It included
+guidance on how to investigate faculty members’ partisan biases (special
+attention should be paid to professors of women’s studies and African American
+studies, the handbook noted); tips for identifying “classroom abuses” (“Did
+your professor make a politically-biased comment in class about the war in
+Iraq?”); and advice for drumming up publicity (“Appearing as a guest on your
+local talk radio station is probably easier than you think”). The handbook
+also urged students to invite controversial speakers to their schools, adding
+that if the administration declined to fund such visits, students should
+“issue a press release … questioning why they have refused your request to
+increase the scope of intellectual diversity on campus.”
+
+The playbook was in many ways ahead of its time, but Miller recognized its
+merits—and executed flawlessly. After inviting Horowitz to speak at Duke, he
+seized on the pushback from some professors as evidence that the university
+was trying to stifle free speech. He wrote an incendiary op-ed in the student
+newspaper, _The Chronicle_ , titled
+“[Betrayal](http://www.dukechronicle.com/article/2006/02/betrayal),” in which
+he claimed that “a large number of Duke professors” were determined to
+“indoctrinate students in their personal ideologies and prejudices”—and then
+presented a series of anonymous student testimonials as proof.
+
+![](https://cdn.theatlantic.com/thumbor/jxVov6mPBOTNbHodlmaqIYFcz6w=/0x0:1999x2550/655x836/media/img/posts/2018/05/FINALStephenMillerInside1/original.jpg)At
+Duke, when other students confronted Miller on the quad, he would expertly
+bait them into public shouting matches. (_The Chronicle_ / WG600 / _The
+Atlantic_)
+
+There were protests, and counterprotests, and angry letters to the editor, and
+before long, Miller had spun the event into a culture-war spectacle. When
+Horowitz arrived, he was amazed to find a packed auditorium, with cameras
+rolling in the back. (His speech later [aired on
+C-span](https://www.c-span.org/video/?191779-1/the-professors-101-dangerous-
+academics-america).) “It really impressed me,” Horowitz told me. “There were,
+like, 800 people there, and Stephen organized that single-handedly.”
+
+The episode helped solidify Miller’s reputation at Duke as a right-wing
+firebrand. Roving around campus in his dark suits and ties, a Nat Sherman
+cigarette dangling from his lips, he epitomized a new breed of college
+Republican—less debate-team dork, more smirking prankster. In classes, he was
+known to derail discussions with inflammatory comments. When other students
+confronted him on the quad, he would expertly bait them into public shouting
+matches.
+
+One semester, he coordinated an “Islamo-Fascism Awareness Week” to educate
+students about the “holy war being waged against us.” And through an event
+called the Great Immigration Debate, he got to know a graduate student named
+[Richard Spencer](https://www.theatlantic.com/magazine/archive/2017/06/his-
+kampf/524505/), who would go on to become one of America’s leading white
+supremacists. (The extent of their relationship is somewhat murky. When
+Spencer claimed last year that he had been a “mentor” to Miller, the White
+House aide issued a forceful denial, [telling _The_ _Washington
+Post_](https://www.washingtonpost.com/politics/stephen-miller-a-key-engineer-
+for-trumps-america-first-
+agenda/2017/02/11/a70cb3f0-e809-11e6-bf6f-301b6b443624_story.html), “I condemn
+his views. I have no relationship with him. He was not my friend.”)
+
+Miller was best known for a column he wrote, called Miller Time, for _The
+Chronicle_. Perusing the [archive](http://www.dukechronicle.com/staff/stephen-
+miller) today, one can see the influence of Limbaugh, LaPierre, and his other
+idols. In one column—headlined “[Sorry
+Feminists](http://www.dukechronicle.com/article/2005/11/sorry-feminists)”—he
+made the case for old-fashioned gender roles: “I simply wouldn’t feel
+comfortable hiring a full-time male babysitter or driving down the street and
+seeing a group of women carrying heavy steel pillars to a construction site.”
+He produced tirades against affirmative action, multiculturalism, and various
+other talk-radio targets. His Judaism notwithstanding, he wrote two
+[separate](http://www.dukechronicle.com/article/2005/12/attack-secularist-
+scrooges) [columns](http://www.dukechronicle.com/article/2006/12/case-
+christmas) about the War on Christmas, and a
+[third](http://www.dukechronicle.com/article/2006/01/hollywood-and-culture-
+war) in which he lamented that Mel Gibson had been snubbed by the Oscars for
+_The Passion of the Christ_.
+
+Seyward Darby, who was Miller’s editor at _The_ _Chronicle_ , recalls that his
+columns were never calibrated for persuasion. “I have no recollection of ever
+speaking to someone who said, ‘Oh, Stephen makes some good points in his
+latest column,’ ” she told me. “He picked the most contrarian of stances to
+articulate, wrote the most hyperbolic prose he could, then put it out into the
+world. I have to imagine that he then sat back and waited for people’s
+reactions. Really, the smartest response was to avoid having one.”
+
+Miller told me that he knew his views were unpopular at Duke, but added, “I
+also knew that expressing them meekly or apologetically in that kind of
+environment would be totally ineffective.” His objective wasn’t to upset
+anyone, he said, but “to challenge people to reevaluate their own
+assumptions”—and sometimes doing so required an in-your-face approach. Perhaps
+sensing that I found this unconvincing, he added a caveat that seemed closer
+to candor: “I mean, at some level you have to be interesting.”
+
+Even as his notoriety grew, Miller remained a somewhat mysterious figure on
+campus. He was rarely seen at parties, and few classmates remember hearing him
+discuss his personal life. Paul Slattery, a fellow student who spent many late
+nights talking politics with Miller over coffee and cigarettes at an off-
+campus diner, told me, “I don’t ever recall having a conversation about, like,
+whether he had a girlfriend … You would think I’d have a much more
+comprehensive view of this person. I don’t—and it’s weird to me.”
+
+Darby said she was always trying to figure out how much of Miller’s behavior
+was performance art. “I vacillated between thinking that he was deeply
+unempathetic, perhaps even cruel, and thinking that one day we were going to
+find out that he did it all for show, to pull the ultimate joke, to assert
+some modicum of power,” she said. “Looking back, maybe both things were true?”
+
+This question, of how seriously to take Miller, carried over into his
+interactions with women—like when he approached a woman on campus who he knew
+disliked his politics and, apropos of nothing, said, “You and I would make
+beautiful babies together.” Women who knew him told me they saw such remarks
+as escalations in his endless quest to provoke. One recalled that she was
+“typically disgusted” by his creepy comments, but didn’t feel “violated.”
+Another said, “He liked getting a rise out of people in a very sociopathic
+way.”
+
+N
+
+ear the end of Miller’s junior year, Duke drew national attention when a black
+woman accused three white lacrosse players at the school of raping her. Almost
+overnight, the campus became a battlefield. Protesters marched through the
+streets of Durham banging pots and pans and waving a banner that screamed
+castrate!! A group of 88 professors published an open letter declaring the
+case a “[social
+disaster](https://today.duke.edu/showcase/mmedia/pdf/socialdisasterad.pdf)”
+that revealed their university’s systemic racism and misogyny. A cavalcade of
+news trucks surrounded the campus, and reporters swarmed.
+
+For most students, the uproar was a nightmare. For Miller, it was an
+opportunity. From his perch at _The_ _Chronicle_ , [he took up the unpopular
+cause](http://www.dukechronicle.com/article/2006/11/duke-lacrosse-call-action)
+of the accused lacrosse players—crusading for their right to be presumed
+innocent, and casting them as victims of political correctness. He caught the
+attention of cable-news bookers and became a frequent guest [on Fox
+News](https://www.youtube.com/watch?v=x8-qwj8RDXA), playing the head-nodding
+yes-man to Bill O’Reilly’s cranky culture warrior. But he also turned up on
+shows that were less friendly to his position. During one particularly feisty
+interview with Nancy Grace, the host was so appalled by Miller that she was
+reduced to rolling her eyes and exclaiming, “Oh, good _lord_!”
+
+To many, Miller’s position seemed not only wrongheaded but outrageous—but then
+the case unraveled. By the time Miller graduated, the lacrosse players had
+been exonerated, and the Durham County district attorney was later disbarred.
+Miller was vindicated.
+
+Miller told me that his activism on behalf of the players was the thing he was
+most proud of from his college years. It also helped launch his career in
+conservative politics. After graduating, he moved to Washington to join the
+office of an up-and-coming congresswoman named Michele Bachmann.
+
+But among those who knew Miller at the time, the question of why he inserted
+himself into the lacrosse scandal remains a point of debate. Some believe it
+was simple opportunism—an attention seeker chasing the Fox News searchlight.
+Others see a more nefarious motive—a budding white nationalist drawn to the
+racial politics of the case.
+
+Miller himself told me that he’d felt moved to take a stand because of his
+upbringing in Santa Monica. In the campus-wide rush to judge the lacrosse
+players—whose gender and ostensible privilege were cited as exhibits A and
+B—he said he recognized “some of the more totalitarian tendencies in parts of
+the new left that I’d seen growing up.” And, he added, “my experiences in high
+school, in which I was used to being unfairly labeled, unfairly maligned, gave
+me the thick skin that I needed” to withstand the blowback.
+
+Paul Slattery offered a simpler theory. He said that while his old friend had
+been motivated by a genuine belief in the players’ rights, he was also
+following a deeper impulse: “He just loved to kick shit up.”
+
+T
+
+his past February, thousands of right-wing activists descended on National
+Harbor, in Maryland, for the annual Conservative Political Action Conference.
+A Millerian spirit of lib-baiting permeated the convention center’s exhibit
+hall, where young attendees in blue blazers and shift dresses roamed the
+premises collecting mischievous political swag. There were i ♥ co2 buttons,
+and “safe spaces” coloring books (“Crayons not included, especially the white
+ones”). At one booth, a young man hawked socialism sucks T-shirts— _Just
+imagine how people on your campus will react!_ —and at another, a woman in a
+Hillary Clinton mask and prison stripes posed for selfies with passersby.
+
+Outside, I met a trio of young men in sport coats and asked them what they
+thought of Miller, who had helped write the speech Trump had given earlier in
+the day. One, a student from Hillsdale College, in Michigan, began
+enthusiastically recapping one of Miller’s greatest hits: his combative
+appearance at a White House press briefing in which he had berated a CNN
+reporter for “cosmopolitan bias” and schooled him on the true history behind
+the Statue of Liberty, before finally leaving the podium with a self-satisfied
+look. “I really admired that,” the student told me.
+
+![](https://cdn.theatlantic.com/thumbor/PByLEkaolLnUAaHGi0YvV1Lnacc=/0x0:3500x2333/655x437/media/img/posts/2018/05/MILLERpress_conference/original.jpg)At
+a White House press briefing in August 2017, Miller accused a CNN reporter of
+“cosmopolitan bias.” (Jonathan Ernst / Reuters)
+
+In the decade since Miller graduated from Duke, the kind of trolling he
+mastered there has come to dominate campus conservatism in America. Today’s
+archetypal college Republican is not a mini Mitt Romney with a copy of
+_National Review_ tucked under his arm, but a [red-capped rabble-
+rouser](https://www.theatlantic.com/politics/archive/2018/01/college-
+republicans-trump/548696/) pranking the pious liberal students who fret that
+cafeteria sushi is a form of cultural appropriation or demand free tampons in
+both men’s and women’s bathrooms in the name of “[menstrual
+equity](https://www.chronicle.com/article/Tampons-in-Men-s-Rooms-/240091).”
+
+Some of these campus conservatives’ antics are silly and relatively harmless,
+like when the Yale College Republicans [hosted a
+barbecue](https://yaledailynews.com/blog/2017/04/30/yale-college-republicans-
+hold-bbq-near-local-33/) next to pro-union hunger strikers last year. Others
+take on an absurdist quality, in the spirit of the right-wing activist [James
+O’Keefe’s
+demands](http://www.nj.com/news/index.ssf/2009/09/acorn_sting_pimp_is_nj_man_who.html)
+that Rutgers stop serving Lucky Charms on the grounds that the cereal’s
+trademark leprechaun perpetuated negative stereotypes about Irish Americans.
+(“We’re not all short,” he protested to an administrator.)
+
+But there is also a darker strain to this movement, perhaps best embodied by
+Milo Yiannopoulos, the gay former _Breitbart News_ blogger who became a right-
+wing sensation in 2016 when he embarked on his “Dangerous Faggot” tour of
+college campuses. Yiannopoulos’s tirades against Muslims, lesbians, and other
+minority groups were designed to draw protests—and if the demonstrations
+turned violent, all the better. After a [riot broke
+out](http://www.dailycal.org/2017/02/01/milo-yiannopoulos-event-canceled-
+violent-protests-erupt-uc-berkeley/) last year at UC Berkeley, where
+Yiannopoulos was scheduled to speak, conservatives pointed to the incident as
+proof that free speech was under attack from the left.
+
+“Liberal tears” are the coin of the realm, and giving offense is a form of
+conquest.
+
+Despite their shoestring appearance, many of these exploits have real money
+behind them. Yiannopoulos’s tour was
+[funded](https://www.buzzfeed.com/josephbernstein/heres-how-breitbart-and-
+milo-smuggled-white-nationalism?utm_term=.rjLQ02G86#.cgWYKdEWZ) in part by
+Robert Mercer, the secretive hedge-fund billionaire who also was a major Trump
+donor in 2016. And Turning Point USA—a nonprofit that trains conservative
+students in the art of
+provocation—[reportedly](https://www.thisamericanlife.org/645/my-effing-first-
+amendment) has a budget of about $15 million this year.
+
+In his 2017 book, _Dangerous_ , Yiannopoulos laid out the ideology
+undergirding his project. He described his mission as “finding boundaries and
+raping them in front of you,” and promised his followers, “I’ll teach you how
+to cause the same sort of mayhem I do in defense of the most important right
+you have in America: the right to think, do, say and be whatever the hell you
+want.” In this scorched-earth view of the culture wars, the goal is not to
+advance conservative arguments in a provocative way; the provocation itself is
+the point. “Liberal tears” are the coin of the realm, and giving offense is a
+form of conquest.
+
+But if any slur or slander can be excused as ironic under the guise of
+combatting political correctness, it becomes all but impossible to distinguish
+genuine extremists from those impersonating them for effect. According to the
+Anti-Defamation League, incidents of white-supremacist propaganda at colleges
+increased by 258 percent from the fall of 2016 to the fall of 2017.
+
+What’s more, the journey from winking provocateur to racist ideologue might be
+shorter than many imagine. You start out with the goal of provoking the
+left—and, well, what’s more provocative than posting a racist meme on the
+internet? But with each new like and upvote, an incentive structure forms, a
+community coalesces, an identity hardens. Before long, the line between
+performance and principle is blurred beyond recognition, your “true” beliefs
+buried under so many layers of irony that they’ve been rendered irrelevant.
+
+Of course, when your personal beliefs become a matter of national policy, the
+stakes are higher. Miller dismisses any suggestion that he’s motivated by
+racism or xenophobia. When I asked him, for example, whether he had been drawn
+to the Duke lacrosse case because of its racial politics, he curtly brushed
+off the question. And when I mentioned the historically anti-Semitic roots of
+Trump’s “America First” slogan, he said that was a “completely insincere”
+argument ginned up by liberals who are simply uncomfortable with the
+“nationalist populism” that the term invokes.
+
+As for his views on Yiannopoulos, he said he didn’t want to drag the White
+House off message by commenting. But if college campuses are teeming with Milo
+wannabes, Miller clearly believes that the modern left has only itself to
+blame. Today’s liberal orthodoxies, he said, constitute a “bloodless appeal”
+to his generation—lacking the emotional resonance, excitement, and danger on
+offer from the #maga movement.
+
+“I mean, is there anything more conformist than an idealistic liberal college
+student deeply concerned about not knowing what today’s official hyphenated
+expression is, who attends four classes a day on, like, cultural Marxism, and
+makes sure all of their coffee beans are locally sourced?”
+
+Miller paused in conjuring this stereotype.
+
+“I’m in favor of the last one,” he noted. “I do want them made in America.
+
+“But the point is … I think you’d have a lot more fun being a campus
+conservative in a ‘Make America great again’ hat.”
+
+I
+
+t should perhaps come as no surprise that Stephen Miller, enemy of the
+globalist elite, chose one of Washington’s poshest condo complexes to call
+home. For a man who has long seemed most comfortable surrounded by people who
+hate him, there must have been a certain appeal to CityCenterDC, where he
+[bought](https://www.washingtonpost.com/news/reliable-
+source/wp/2017/08/07/stephen-miller-blasted-a-reporter-as-cosmopolitan-but-he-
+lives-in-a-1-million-citycenter-condo/?utm_term=.943f6d45e4b6) a $1 million
+two-bedroom in 2014 (paid for, property records indicate, with the help of his
+parents). Not only did the sparkly glass complex in downtown Washington
+feature retailers like Gucci and Hermès and stylish restaurants like Momofuku,
+but it was also home to such establishment luminaries as Attorney General Eric
+Holder and Democratic Senator Claire McCaskill.
+
+Since arriving in Washington, Miller had sanded off some of the rougher edges
+of his merry-prankster persona, refashioning himself as a serious ideologue.
+But he remained an agitator. Still in his 20s, Miller had become known on
+Capitol Hill as the chain-smoking, right-wing gadfly from Senator Jeff
+Sessions’s office who blasted out rambling emails to reporters and
+congressional aides at all hours on the dangers of illegal immigration. In
+2013 he emerged as a devoted foot soldier in the populist right’s drive to
+kill a bipartisan immigration-reform bill—an effort that ultimately succeeded.
+
+To the extent that Miller, a notorious workaholic, had a social life, it often
+involved getting together with reporters from _Breitbart News_ , a reliable
+booster of his boss’s agenda. He grew especially close to Julia Hahn, an acid-
+penned writer and Steve Bannon protégé with whom he was sometimes seen at
+parties, engaging in private, intense-looking conversations away from the rest
+of the group. (Hahn would later follow Miller and Bannon to the White House,
+where she serves as a special assistant to the president.)
+
+Trump was the manifestation of everything Miller cared about: an opponent of
+political correctness, a hard-liner on immigration, an enemy of the political
+establishment—and a world-class troll.
+
+In this scene, Miller was not a misfit or a menace, but part of the vanguard
+of a growing conservative-populist movement.“People in that circle took him
+really seriously as an intellectual,” said a Republican Hill staffer who hung
+out with the group a handful of times in 2015. She recalled one get-together
+at which Miller asserted matter-of-factly that the Catholic Church was engaged
+in a conspiracy to financially benefit from the refugee crisis. The Hill
+staffer, a Catholic, was bewildered that no one else in the group was
+challenging him. “He just said it like it was fact, like it was indisputable,”
+she remembered—and when she asked him for evidence, he was “caught off guard.”
+For the rest of the evening, she said, “there was a different energy between
+us.”
+
+When Donald Trump entered the presidential race in the summer of 2015, it was
+perhaps inevitable that Miller would find a way onto the campaign. The rest of
+Washington scoffed at Trump’s candidacy, but for Miller, the New York
+billionaire was the flesh-and-blood manifestation of everything he cared about
+most: an opponent of political correctness, a hard-liner on immigration, an
+enemy of the political establishment—and a world-class troll.
+
+![](https://cdn.theatlantic.com/thumbor/t-Cryhw0AfoVd-ZMJwgpUbd-
+iTo=/0x0:2000x1333/928x619/media/img/posts/2018/05/NOREDStephenMillerinside2Edit/original.jpg)“He
+doesn’t have to command rooms to be effective,” a senior Democratic Senate
+aide said of Miller, “because he does his thing behind the scenes.” (Chris
+Pizello / AP / Kevin Lamarque / Reuters / Shutterstock / WG600 / _The
+Atlantic_)
+
+Of the many things Miller admires about his boss, Trump’s talent for
+performance and provocation is what gets him most worked up. “If this was a
+fair political culture,” he told me, “there would be many articles written and
+many stories on TV about his natural gifts as a communicator and his ability
+to keep an audience rapt for an hour and a half; to be able to pivot
+seamlessly from comedy to gravity; his understanding of drama.”
+
+“A political rally is supposed to be a _rally_ ,” Miller went on. “It’s
+supposed to have almost, like, the fun and excitement of a revival—and so few
+politicians today are able to establish anything resembling that kind of
+connection with people.”
+
+To illustrate, Miller pointed me to one of the longest-running—and most
+controversial—staples of Trump’s speech-making: “[The
+Snake](https://www.youtube.com/watch?v=qSrOXvoNLwg).” During the GOP
+primaries, Trump began periodically reading the lyrics of an obscure 1960s
+soul song drawn from Aesop’s fables. The song tells the story of a woman who
+takes a half-dead snake into her home and nurses him back to health. The snake
+responds by biting her. As she dies, she asks him why he did it. The moral of
+the lesson is in the concluding couplet:
+
+> “Oh shut up, silly woman,” said the reptile with a grin.
+>
+> “You knew damn well I was a snake before you took me in.”
+
+Trump uses the deceitful, poisonous snake to represent Syrian refugees and
+undocumented immigrants. It is objectively one of the most demagogic things he
+regularly says out loud (as an added bonus, it also works as a metaphor for
+Trump himself, something he seems to know and delight in). It is
+quintessentially Trumpian rhetoric: shocking, offensive, and destined to send
+his haters into paroxysms of outrage.
+
+![](https://cdn.theatlantic.com/thumbor/YaTdOUozISssSXRCIv6ywe_t9LI=/0x0:2500x1667/655x437/media/img/posts/2018/05/MIllerBannonAirforce1/original.jpg)Early
+in the Trump presidency, Miller worked with then–chief strategist Steve Bannon
+to craft an executive order that banned travel to the United States from seven
+majority-Muslim countries. (Carlos Barria / Reuters)
+
+It also thrills Miller to no end. In his office, he spent several minutes
+describing to me—in meticulous, loving detail—how Trump conceived of this
+oratorical device himself; how, before certain speeches, he would announce to
+aides, “I’m gonna do ‘The Snake,’ ” which meant that Hope Hicks had to print
+off a fresh copy of the lyrics from her computer, where she kept them saved in
+a Word document for these special occasions; how Trump would go through each
+line and expertly “hand edit” the page, making tweaks “so that it works better
+as spoken word, or lands more dramatically in certain areas”; how the
+president’s crowds still show up to rallies hoping to hear him do “The Snake”;
+and how, on the days when he does, the opening lines are greeted as if they
+are “the first three chords of ‘Free Bird.’ ”
+
+On the campaign trail, Miller played the dual role of speechwriter and hype
+man, getting the crowds amped up before Trump took the stage. “Don’t let
+anyone tell you that you are not a good person because you believe the
+_American people_ _should come first_ ,” he would tell supporters.
+
+But to Miller, the most exhilarating moments came when Trump would tell
+him—often while they were en route to an event—that he wanted to add a new
+section to his speech. Miller, who said he writes best “under pressure,”
+recalled that he felt in those moments like a football player in the final
+minutes of a game. They would be on the plane, getting ready to touch down,
+and Trump would dictate to him “seven or eight paragraphs of material” off the
+top of his head. “The best lines in the rallies,” he said, “are the ones that
+he comes up with on the spot, because he has incredible wit and speed, and he
+can just get the audience in real time.”
+
+“I’ve decided that … if he ever offered it, I’d be willing to accept Jake
+Tapper’s apology.”
+
+As Miller gushed, I realized that there was something familiar about this
+worshipful anecdote: He had shared it—several times—during his most infamous
+TV appearance. In January, Miller had been dispatched to CNN to refute reports
+that the president’s own staff was questioning his mental stability. But the
+interview, with Jake Tapper, devolved into [a heated back-and-
+forth](https://www.youtube.com/watch?v=vU7v5A5P8BM) in which Miller repeatedly
+attacked the media and refused to engage with the host’s questions. The
+segment ended when an exasperated Tapper declared, “I think I’ve wasted enough
+of my viewers’ time” and cut Miller’s mic. The clip went viral.
+
+When I asked Miller about the appearance, he cast his eyes downward in a show
+of contrition. “You know, I’ve thought about it for a long time,” he said.
+“And I’ve decided that … if he ever offered it, I’d be willing to accept Jake
+Tapper’s apology.”
+
+As a senior policy adviser to the president, Miller enjoys a position of
+uncommon influence for his age. In addition to running the speech-writing team
+and crafting Trump’s major addresses, he works closely with the communications
+office to shape the administration’s message, and he has a seat at the table
+in most areas of domestic policy. And yet—remarkably, given the divisiveness
+of his views—Miller has remained largely absent from news stories about
+intramural combat in the West Wing. While dozens of top officials have
+departed over the past 16 months, Miller has kept his head down and survived.
+
+The lack of damaging leaks about him is partly a function of the fact that he
+is generally well liked among his close colleagues, who say he is more self-
+aware than his strident on-camera persona would suggest. “He knows the charges
+against him,” White House Press Secretary Sarah Huckabee Sanders says, and he
+enjoys playfully nodding to his villainous image in interactions with co-
+workers.
+
+Hogan Gidley, who works in the White House press office, told me he first
+bonded with Miller over their shared love of fashion. Describing Miller’s
+aesthetic as “policy chic,” he praised his friend’s collection of pocket
+squares and attentiveness to seasonal fabrics. When it comes to sartorial
+matters, Miller once told him, “springtime is my playground.” (Despite my
+numerous requests for details, Miller refused to tell me anything about where
+he bought his suits except to say that they were bespoke, and American-made.)
+
+Miller has found ways to channel his talent for trolling into the less visible
+work of government policy making.
+
+Miller’s allies say that his standing in the president’s orbit has remained so
+stable for another reason: He’s content to be a staffer instead of a star.
+“People have made him out to be some type of puppet master when nothing could
+be further from the truth,” Gidley said. “He executes what the president wants
+him to execute.”
+
+I heard variations of this line from several people in the administration, and
+at first I was skeptical. Given his lifelong penchant for attention-getting
+provocation, could he truly be content playing the part of the obedient
+lieutenant? But as it turns out, Miller has found ways to channel his talent
+for trolling into the less visible work of government policy making.
+
+W
+
+hen President Trump needs to learn about an issue, he likes to stage his own
+cable-news-style shout-fests in the Oval Office. In lieu of primped pundits,
+he has to make do with White House staffers, but the basic concept is the
+same: Two people with conflicting points of view whacking away at each other
+as forcefully—and entertainingly—as possible. Trump seems to process
+information best in this format, according to people who have worked in the
+administration. Often, when the debate lacks a voice for a position the
+president wants to hear articulated, he will call Miller into the room and
+have him make the case.
+
+Miller “can play both sides for the sake of the argument,” Gidley told me. “He
+can come in and play the staunch conservative or the Democrat, because he
+understands both.” What’s more, he often wins. “You can pull a debate-club
+argument out of a hat and Stephen can argue it convincingly,” a former
+administration official said. “It’s not that he knows everything in the
+world—it’s that he understands Trump. He’s been dealing with him a long time,
+and he understands how he inputs information.”
+
+Miller told me that while there is sometimes a need for a devil’s advocate, he
+spends most of his time pushing for positions that he believes in. Indeed, a
+review of his record thus far leaves little doubt about the agenda he’s trying
+to advance, from more aggressive law enforcement to a conservative-nationalist
+economic policy. Notably, he’s emerged as one of the most strident immigration
+restrictionists in an administration known for such draconian measures as
+forcibly separating children from their parents at the border.
+
+But Miller’s work in the White House has also borne the same trollish hallmark
+that defined his campus activism. One of his first acts on the job was to work
+with then–chief strategist Steve Bannon in crafting an executive order that
+banned travel to the United States from seven majority-Muslim countries. The
+hastily written order contained no guidance on implementation, and soon after
+Trump signed it—on a Friday afternoon one week into his presidency—airports
+across the country were plunged into chaos. Hundreds of travelers were
+detained, civil-rights lawyers descended, and protesters swarmed. To many, the
+televised disarray was proof of failure. But according to Michael Wolff’s
+account of the Trump administration’s first year, _Fire and Fury_ , the
+architects of the ban were tickled by the hysteria; Bannon (who was Wolff’s
+main source) boasted that they’d chosen to enact the disruptive measure on a
+weekend “so the snowflakes would show up at the airports and riot.” They
+counted the anger on display as a political win.
+
+Miller played a similarly disruptive role a year later, during congressional
+negotiations over immigration. While lawmakers scrambled to reach a compromise
+on legislation that would protect some 700,000 young undocumented immigrants
+who had come to the country as children, Miller was quietly hustling to block
+any deal that didn’t include major Democratic concessions, according to aides
+on both sides of the aisle. When Miller found out one afternoon in January
+that Senators Lindsey Graham and Dick Durbin were coming to the White House to
+pitch Trump on a bipartisan bill, he reportedly moved to stack the Oval Office
+with hawkish conservatives in hopes of swaying the president. By the time
+Graham and Durbin arrived, Trump was in an uncompromising mood: angry, dug in,
+and ranting about immigrants from “shithole countries.” As Trump uttered those
+soon-to-leak words, which would poison the talks on Capitol Hill, Miller stood
+on the periphery. “He doesn’t have to command rooms to be effective,” one
+senior Democratic Senate aide said, “because he does his thing behind the
+scenes.”
+
+Miller, of course, denies any suggestion that he would try to manipulate
+Trump. “My job is simple,” he told me. “The president has made clear what he
+wants to accomplish, and I’ll do the best I can to help that happen.” At the
+time we were talking, in late March, that still meant striving for a deal with
+congressional Democrats that would protect the so-called Dreamers from
+deportation—and Miller insisted he was working tirelessly toward that happy
+outcome.
+
+But, alas, he told me in a tone of great disappointment, he had become
+convinced in recent weeks that Democrats would rather keep immigration as a
+political issue to campaign on than actually fix the problem. “They oppose
+anything that would actually prevent future waves of illegal immigration,”
+Miller explained. “It’s almost like they’ve adopted the position of
+immigration nihilism and anarchy.”
+
+For what felt like the hundredth time that day, I found myself searching
+Miller for signs of trolling. His voice was steady; there was no smirk in
+sight. But his assertion was so inflammatory, so out there, so weighted down
+with words not normally uttered in the course of daily conversation—
+_nihilism_ ,_anarchy_ —that I had to wonder: Does he actually believe this, or
+is he just fishing for a reaction?
+
+In any case, these did not seem like the words of a man who was doing
+everything in his power to shepherd a bipartisan compromise on immigration to
+the president’s desk. So I wasn’t surprised when, a week later, on Easter
+morning, Trump announced that he was pulling the plug on a deal for Dreamers.
+“The Democrats blew it,” he [told
+reporters](https://www.washingtonpost.com/news/post-
+politics/wp/2018/04/01/deal-on-daca-no-more-trump-
+says/?utm_term=.b940277d1dbb) on his way into a church in Palm Beach.
+
+The pronouncement set off a wave of frenzied media coverage, with reactions
+from Capitol Hill, and analysis of what it could mean for the midterm
+elections, and stories of young immigrants bracing for the worst—their lives
+now more uncertain than ever. And though it didn’t make the headlines, the
+White House pool report from that weekend noted that among the president’s
+travel companions was one Stephen Miller.
+
+* * *
+
+* Opening photo credits: Courtesy of Santa Monica-Malibu Unified School District / _The Chronicle_ / Jabin Botsford / _The Washington Post_ / Getty / Pablo Martinez / AP / WG600 / _The Atlantic_

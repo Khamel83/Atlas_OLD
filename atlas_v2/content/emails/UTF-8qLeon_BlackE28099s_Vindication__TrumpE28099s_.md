@@ -1,0 +1,205 @@
+# =?UTF-8?q?Leon_Black=E2=80=99s_Vindication_&_Trump=E2=80=99s_Economic_Inh?=
+
+**Source**: inputs/saved_emails/=UTF-8qLeon_Black=E2=80=99s_Vindication_&_Trump=E2=80=99s_Economic_Inh=
+**Type**: email
+**Created**: 2025-08-25T02:54:09.079547
+
+---
+
+=UTF-8qeritance=_Sun,_19_Jan_2025_22-30-30_+0000_19480b08b6891831.eml
+
+Jan 19, 2025   
+
+Dry Powder ( https://puck.news/newsletters/dry-powder/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+William D. Cohan ( https://puck.news/author/william-cohan/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+William D. Cohan ( https://puck.news/author/william-cohan/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Happy Sunday and welcome back to Dry Powder. I’m Bill
+Cohan.
+
+ 
+
+Despite the present market euphoria, there are a number of significant warning signs, particularly in the bond market. Anxious to figure out what the heck is going on, I rang up Lotfi Karoui, the chief credit strategist in Goldman Sachs’ research department.
+
+ 
+
+His
+answer, a rather auspicious one, might surprise some of you—although presumably not the C.E.O.s and central bankers on this list. Indeed, Karoui believes that we’re seeing the result of a soft landing—you know, the one that the Biden administration promised. What remains a mystery to me is why the administration has received so little credit for low unemployment and strong G.D.P. growth that is the envy of the world. Inflation has been tamed, though clearly the price increases
+of the past few years have brought costs to a higher level, where they mostly remain. 
+
+ 
+
+Anyway, it’s safe to say that the Biden administration is handing off a Goldilocks economy, neither too hot nor too cold, to Trump II. Now, of course, Trump will take credit for Biden’s accomplishments, and suddenly a bunch of the complainers will start cheering how great the economy has become. (In
+fact, this started happening within a week of Trump’s election, when consumer sentiment among Republicans suddenly jumped ( https://www.nytimes.com/2024/11/13/business/economy/consumer-sentiment-trump.html?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) by nearly 30 percent.) As I said Wednesday night on Stephanie Ruhle’s show on MSNBC, I think it’s been a communication problem all along. Things are better than people think, but Biden was just never able to convince
+the majority of the country of that fact. More on all that below the fold.
+
+ 
+
+But first…
+
+ 
+
+Back to Black
+-------------
+
+Leon Black, the founder of Apollo
+Global Management who stepped down from the company in early 2021 following back-to-back revelations about his ties to the late pedophile Jeffery Epstein and a long-ended affair, recently earned a series of vindicating legal victories. First, Guzel Ganieva, Leon’s onetime paramour, lost her appeal in her defamation lawsuit against Black, initially brought by the Wigdor law firm on her behalf. Last year, in a
+two-part ( https://puck.news/leon-black-discusses-jeffrey-epstein/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) series ( http://v?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), I wrote about how Ganieva got Leon to pay her $21 million over 15 years in exchange for her silence about the affair—a confidentiality agreement that she violated after receiving her first $9 million over six years, in March 2021, in a series of tweets that claimed he had “sexually harassed
+and abused” her. 
+
+ 
+
+At the time, Leon claimed that she tried to extort him over their longtime, consensual affair, and that he paid her to make it all go away. She then sued him for defamation, intentional infliction of emotional distress, and gender-based violence. But last week, in a 4-1 ruling, the Appellate Division in Manhattan rejected Ganieva’s appeal, arguing that the confidentiality agreement
+she signed was pretty much ironclad, especially after she took the first $9 million. “We recognize the trauma attendant upon sexual abuse,” the majority wrote. “However, we disagree with the dissent that the same principle should allow plaintiff to repudiate a contractual arrangement after accepting its benefits for over five years.”
+
+Susan Estrich, an attorney for Leon, told me in a statement, “The appellate court’s ruling, which is a wholesale rejection of Ms. Ganieva’s
+arguments, upholds the trial court’s ruling and makes clear this suit brought by the Wigdor firm should never have been filed. The decision vindicates Mr. Black completely. He is pleased by the decision and will not stop his fight against the despicable lies the Wigdor firm has spread in its irrational vendetta against him.” (Nota bene: Ganieva was represented by attorney Stephen Bergstein in the appeal, not Wigdor. She can appeal Thursday’s ruling to the state’s
+highest judicial body, the Court of Appeals.)
+
+ 
+
+Leon also won several procedural and substantive victories in his defense of a separate federal case, also brought by Wigdor, on behalf of a young autistic woman known only as “Jane Doe.” According to the suit, Doe claimed Leon raped her in 2002, when she was 16, in Epstein’s Upper East Side mansion. Leon, who hired Epstein to advise him on estate planning and
+many other financial matters, has denied all the allegations and said that he has never even met the woman. Leon’s legal team subsequently tracked down Doe’s family, including her mother, who told Leon’s investigators that the whole thing was a fabrication. Among their discoveries, according to court filings, was that Jane Doe did not have autism, but rather had been diagnosed with borderline personality disorder. Leon’s team argued that Jane Doe studied people with autism and adopted their
+behaviors, and that her family members claimed she “used a series of different names and personas [and] has a history of making up alternate realities.” 
+
+ 
+
+In her multipart ruling on Thursday, District Court Judge Jessica Clarke seemed to agree with Leon’s attorneys’ argument that the woman was not of sound mind, and that Wigdor had a duty to not bring a case that was
+without merit. (Instead, Wigdor doubled down on the case by trying to amend it with even more outrageous claims against Leon.) Wigdor will have a month to respond to a separate defense motion to be filed in a month that likely will seek to dismiss the case entirely—and then Judge Clarke will rule.
+
+ 
+
+You will recall from one of my previous missives that Estrich was also trying to get Judge Clarke to give her
+and Leon access to discovery—documents, testimony transcripts, depositions, etcetera—from yet another federal case. This one, in front of Judge Jed Rakoff, is attempting to determine whether “Jane Doe,” who received millions of dollars from the $290 million JPMorgan Chase fund for Epstein’s victims, should be forced to return the money. Needless to say, such a request from one federal judge to another regarding discovery materials would be highly unusual. But on Thursday, Judge
+Clarke ruled that Leon’s defense team could access those materials. Another big victory for Leon.
+
+ 
+
+Meanwhile, Leon is also pursuing a malicious prosecution lawsuit against Wigdor, which he filed in August 2023, and which survived a motion to dismiss in September 2024. That case is now before the Appellate Division in New York State Court. Meanwhile, he remains Apollo’s largest shareholder, although
+he is no longer involved with the company. Instead, he is focused on his own family office, Elysium Management—which, by the way, is not financing David Efune’s bid for The Telegraph, as has been widely exaggerated in the British press.
+
+ 
+
+Now, for the main event…
+
+Trump’s Economic Inheritance
+
+Trump’s Economic Inheritance ( https://puck.news/inheriting-bidens-economy-is-another-lucky-break-for-trump/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Despite a number of complex and even chilling signals, the new
+president will inherit the stable economy that his predecessor achieved but could never articulate—Trump’s latest stroke of luck in a lifetime of unprecedented good fortune.
+
+William D. Cohan ( https://puck.news/author/william-cohan/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+William D. Cohan ( https://puck.news/author/william-cohan/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Wall Street is gearing up for a big year in investment banking.
+The six largest U.S. banks generated $36 billion in profits in the fourth quarter of 2024, more than double what they made during the same period in 2023. For the full year, these banks generated a net income of $146 billion, led by Jamie Dimon’s powerhouse, with net earnings of $54 billion. For JPMorgan Chase, Goldman Sachs, Morgan Stanley, Wells Fargo, Citigroup, and Bank of America, that appears to be the amuse-bouche before another expected earnings feast in 2025.
+Can anything ruin the party? 
+
+ 
+
+Maybe. We are long overdue for a correction, given that financial crises historically come once every 20 years or so, and there is at least one warning beacon flashing in the bond market. Since September, the Federal Reserve has effectively lowered short-term interest rates by 100 basis points. At the same time, the yield on 10-year Treasuries—supposedly among
+the safest debt instruments—has gone in the opposite direction, rising over 100 bips and worrying the heck out of many market observers. Mortgage rates have also moved up swiftly, despite the Fed’s cuts. The average rate on a 30-year fixed mortgage is back over 7 percent for the first time since 2023. 
+
+ 
+
+At first blush, it’s all a bit confusing. How could long-term interest rates be going up
+when the Fed has been lowering short-term interest rates? Last September, for instance, the yield on the 10-year Treasury was around 3.6 percent. Today it is nearly 4.7 percent—a 30 percent increase in four months. That’s a significant leap, as far as these things go. Charlie Gasparino, the Fox Business analyst and friend of the house, tweeted that the rising yields “should have every stock investor worried about a significant selloff.” And no less an observer
+than Larry Summers, the celebrity economist and former treasury secretary, tweeted on Tuesday that the rising Treasury yields “confirms concerns about looming budget deficits and a rising neutral rate.” (As always, this is not investment advice.)
+
+ 
+
+Anxious to figure out what the heck is going on in the bond market, and what it might be signaling for the financial markets overall, I rang up
+Lotfi Karoui, the chief credit strategist in Goldman Sachs’ research department. His message was both fascinating and reassuring. He said that intermediate and long-term yields were “a lot more sensitive” to “growth and inflation expectations” than to the Fed’s short-term interest-rate policy actions. During the past six months, more or less since the Fed started lowering interest rates, there has been a growing consensus that the Biden
+administration’s attempts to engineer a so-called soft landing for the economy had actually succeeded—and that, as Karoui put it, “the durability of the cycle is a lot stronger than most people had initially envisioned.”
+
+In short, interestingly, the growing confidence that the economy will not slip into an imminent recession is driving intermediate and long-term interest rates higher. Karoui acknowledged that corporations are focused on these  intermediate and longer-term rate
+moves—including the spread over Treasuries—rather than the quotidian short-term moves orchestrated by the Fed, when it comes to their borrowing plans. “This is probably as good as it gets in terms of a level of borrowing costs,” he said. “Bottom line, there’s a lot of moving components here. There’s a spread component for the borrowers outside of the government, and then there’s intermediate long-dated yields. And that’s really a reflection of growth and inflation expectations.” 
+
+Lotfi Expectations
+------------------
+
+The yields, Karoui explained, have been moving up because of the
+consensus that the economy is performing well and will continue to do so, and because once-rampant inflation is being reined in. “Spreads are just a reflection of the general state of the economy,” he continued. “At the moment, things are pretty good.”
+
+ 
+
+Long-term bond investors, however, are taking duration risk by making a bet on where interest rates will be in the future, in Karoui’s view. Indeed, if
+long-term bond yields move up, then the price of their bonds will move down, since bond prices move in an inverse relationship to yields. “That risk,” he continued, “basically is a reflection of the level of real G.D.P. growth and inflation. And so when you have an acceleration in real G.D.P. growth, the cost of capital is supposed to go up. And the one thing that initiates that process is essentially the level of the risk-free rate. And so, very simplistically, five- and 10-year yields are
+essentially a function of long-term growth and inflation expectations, and the firmer they are, the higher they move.” 
+
+ 
+
+Of course, if interest rates continue to move up, that could have the counterproductive effect of raising the cost of capital beyond borrowers’ comfort levels. That’s what happened during the 2008 financial crisis, and the 2020 pandemic, before the Fed took control and flooded the
+zone with cheap money. Nevertheless, Karoui said that we are much closer to achieving the Fed’s two-pronged employment and inflation mandates than many observers thought possible. “We’ve made quite a lot of progress,” he said. “The labor market is rebalanced. Price inflation has declined. There’s still another leg lower to achieve, but there isn’t nearly the same emergency to attacking policy rates that we had a year ago.” 
+
+ 
+
+With the goals of the dual mandate in sight, I wondered, where does the Fed go from here? Per Karoui, the market is pricing in “a little over one [interest-rate] cut” over the next 24 months. At Goldman, though, he said the expectation remains that the Fed ends up “delivering three cuts” over the next 18 months. But he cautioned that expectations change on a daily basis. “The market basically is telling you that they’re not quite done, but they’re close [to
+being done],” he said. “That’s the $1 million question: Where is the terminal value of Fed Funds rates in this cycle?”
+
+ 
+
+But if the economy is performing better than expected—and it appears that it will continue to do so in the near term—why are so many smart people worrying about the rise in interest rates and the potential effect on the broader financial markets, including equities? Karoui said the rapid increase in
+Treasury yields often has the effect of spooking investors in riskier assets, such as stocks. “Generally, risk assets have a very tough time digesting those types of moves, irrespective of what’s driving it,” he said. And given that the equity markets are already at or near all-time highs, and “valuations are very expensive,” the margin for error is quite narrow. “You’re walking a very tight rope,” he continued. “You don’t have a lot of room for error here, and your sensitivity to small shocks
+becomes a lot higher. And so that’s exactly why we’ve had this sort of rocky start to the year in the equity market.”
+
+Naturally, Karoui expressed concern about the effect Trump II will have on tariffs and immigration—not to mention the impact that extending the 2017 Trump tax cuts will have on deficits and the national debt level. “We have a 6.5, 7 percent budget deficit and an economy that’s at full employment,” he said. “It’s something that investors are focused on.
+But has it really translated into a driver of bond yields? Not yet.” Either way, it’s clear that the president will inherit the stable economy that his predecessor achieved but could never articulate—Trump’s latest stroke of dumb luck in a lifetime brimming with unprecedented good fortune.
+
+Impolitic with John Heilemann ( https://puck.news/podcasts/impolitic/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Impolitic with John Heilemann ( https://puck.news/podcasts/impolitic/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Join Puck’s chief political columnist, John Heilemann, as he roams the corridors of power and influence in America
+on this twice-weekly interview show, taking you beyond the headlines with the people who shape our culture: icons and up-and-comers, incumbents and insurgents, moguls and machers in the overlapping worlds of politics, entertainment, tech, business, sports, media, and beyond. The conversations are rich and revealing, unrehearsed and unexpected… and reliably impolitic. A Puck-Audacy joint, new episodes drop every Wednesday and Friday.
+
+The Best & The Brightest ( https://puck.news/newsletters/the-best-and-the-brightest/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Best & The Brightest ( https://puck.news/newsletters/the-best-and-the-brightest/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Puck’s daily political newsletter from Washington—featuring Tara Palmeri, Julia Ioffe, Peter Hamby, Tina Nguyen,
+Abby Livingston, and chief political columnist John Heilemann—on what’s really happening in this town, from the White House to the Pentagon to Capitol Hill, K Street, and the campaign trail.
+
+Pinks & Links
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Pinks & Links ( https://puck.news/retail-trends-pinks-links/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SARAH SHAPIRO
+
+The Way of Christie’s
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Way of Christie’s ( https://puck.news/what-guillaume-ceruttis-promotion-means-for-the-pinaults/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+MARION MANEKER
+
+Elon’s Civil War
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Elon’s Civil War ( https://puck.news/can-elon-and-trump-go-the-distance/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TARA PALMERI
+
+Puck
+
+Puck
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact us ( fritz@puck.news?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
+here ( https://puck.news/unsubscribe/?subscription=dry_powder&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUgLAWShwgHAWrUF92om4=&utm_campaign=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%281%2F19%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+ 
+
+Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

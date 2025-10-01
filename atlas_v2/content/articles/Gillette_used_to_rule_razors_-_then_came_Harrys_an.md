@@ -1,0 +1,624 @@
+# Gillette used to rule razors - then came Harry’s and Dollar Shave Club | Vox
+
+**Source**: https://www.vox.com/the-goods/2018/12/11/18134456/best-razor-gillette-harrys-dollar-shave-club
+**Type**: article
+**Created**: 2025-08-13T16:25:47.198469
+
+---
+
+title: Gillette used to rule razors - then came Harry’s and Dollar Shave Club | Vox
+source: https://www.vox.com/the-goods/2018/12/11/18134456/best-razor-gillette-harrys-dollar-shave-club
+date: 2025-08-13T16:25:45.963032
+tags: []
+---
+“We’re debuting a razor with 19 razors and 74 lubrication strips,” Gillette’s
+head of North American grooming Pankaj Bhalla announces to a room of trade
+journalists and general shaving enthusiasts at Gillette’s Global Innovation
+Summit in early November.
+
+“Just kidding — no, we’re not,” he adds, without taking a breath.
+
+There are 50 or so spectators eating banana-and-Nutella mini waffles and tiny
+rounds of avocado toast among cocktail-height tables. The tables have what
+look like modest wedding centerpieces, except there are no goldfish or
+floating flowers and there _are_ Gillette razors stabbed into piles of blue
+rocks ostensibly designed for fish tanks. Bhalla tells the crowd that the
+theme of 2019 will be “to design with meaning.”
+
+The glitz of this “summit” implies unquestioned success; the stress sweat
+visible on the brows of its speakers implies disaster. Neither is exactly
+untrue. Though Procter & Gamble’s Gillette brand (tagline: “The Best a Man Can
+Get”) still holds about 54 percent of the global market share for razors,
+[that’s down](https://www.marketwatch.com/story/procter-gambles-gillette-
+razor-business-dinged-by-online-shave-clubs-2017-04-26) from 70 percent in
+2010.
+
+The entire razor industry is flailing. It’s not just that Gillette is getting
+a smaller piece of the pie; the pie itself is also getting smaller. That’s
+partly driven by the fact that the population of the United States is
+[aging](https://www.census.gov/newsroom/press-
+releases/2018/cb18-41-population-projections.html): When you get old, you
+don’t grow as much hair, so you don’t shave as much, and then (unrelated) you
+die.
+
+We are also, as a society, becoming relaxed about hair. Too relaxed, if you
+are in the market of selling razors. Beards and mustaches and stuff are en
+vogue. The country is getting less interested in pressuring women to keep
+themselves as hairless as infants seven days a week. A recent report from the
+global market research firm Mintel highlights the fact that 25 percent of
+women ages 18 to 23 — and 22 percent of men, but who cares — agree that it is
+“acceptable for women to have visible underarm hair.”
+
+According to Mintel, sales of “shaving and hair removal tools” are estimated
+to see about $3.5 billion in sales in 2018, a decline of nearly 4 percent from
+the year before. Worse, Mintel’s analysts predict there will be no growth for
+at least the next five years.
+
+Yet in tandem with the downward spiral of the necessity of shaving tools, we
+are experiencing the arrival of an extreme number of new shaving tools to buy.
+At the same time, there’s only so much true innovation possible for an item
+like a razor, which does one thing and almost always does it well.
+
+It’s a classic example of capitalism working not quite the way that was
+promised but the way it does when put into practice by humans. We see it time
+and again — with the [hotel industry](https://sistercitynyc.com/), with [cable
+TV](https://trends.cmf-fmc.ca/the-long-tail-in-2018-niches-meet-streaming-and-
+social-media/), now with razors: Shrinking markets are not allowed to simply
+shrink, but instead inspire aggressive pandering, bizarre advertising, and
+nichification of products that have no reason to be so differentiated.
+
+A surplus of choice implies to consumers that this is the type of purchase
+they should care deeply about. Why else would there be so many options?
+
+* * *
+
+Gillette, or rather the inventor King C. Gillette, patented the first safety
+razor more than 100 years ago. It was the official razor of World War I,
+thanks to a government contract that put 3.5 million of them into the hands of
+American soldiers, therefore becoming the official razor of the United States.
+
+For decades, Gillette was mostly alone, with just its lackluster drugstore
+aisle competitor Schick (owned by Pfizer until 2003, now by Playtex parent
+company Edgewell Personal Care) for company. When the high-end mall brand the
+Art of Shaving posed the briefest of threats in the late ’90s, Procter &
+Gamble just bought it. But then came the budget subscription service Dollar
+Shave Club, launched by Mark Levine and Michael Dublin with a viral, [fratty
+YouTube commercial](https://www.youtube.com/watch?v=ZUG9qYTJMsI) in 2011; it
+raised a total of $163.5 million by the end of 2015 and was acquired by P&G
+archrival Unilever for $1 billion in 2016.
+
+There is little incentive to improve the shaving experience, as it is fine,
+but there is plenty of incentive to come up with something new to patent, as
+this is how you combat competition
+
+Then came Harry’s, the difference-splitter, an affordable direct-to-consumer
+brand with appealing millennial-courting aesthetics, from Andy Katz-Mayfield
+and Warby Parker co-founder Jeff Raider in 2013. When its latest round of
+funding closed in January 2018, Harry’s had raised $375 million and was valued
+at $1 billion; the company promised it would turn a profit by the end of this
+year.
+
+The two startups have a combined share of a little over 12 percent of the
+market, with another 15 percent going to Schick (which
+[recently](https://money.usnews.com/investing/news/articles/2017-09-25/p-gs-
+gillette-sues-schick-maker-edgewell-over-razor-blade-design) started selling
+discount blades that fit on Gillette handles).
+
+There’s also Supply, funded through a series of six-digit Kickstarter
+campaigns, promising to bring back the perfect single-blade safety razor.
+Walker & Company’s Bevel, collecting $33 million in venture capital, which is
+also putting out a single-blade safety razor, designed specifically for people
+of color with coarser and curlier facial hair. Billie, a women-focused brand
+with a $6 million seed round. The British startup Cornerstone, which has
+raised just under $10 million and sells subscription boxes containing razor
+replacements, toothpaste, and face wash.
+
+All of them are going up against the original shaving disrupter: Gillette,
+“the best a man can get,” which patented the disposable razor in 1903 (and
+has, [kind of](https://www.amazon.com/Subscribe-Save-Eligible-Health-
+Household/s?ie=UTF8&page=1&rh=n%3A10200576011%2Cp_n_is_sns_available%3A2617006011),
+offered a blade subscription service via Amazon since 2007). The company is
+[known for](https://www.economist.com/business/1998/04/16/taking-it-on-the-
+chin) spending tens of millions of dollars a year on research and development,
+and has the market clout to appear on the shelves of every pharmacy and big-
+box retailer in the world. It is also bleeding market share to companies that
+are ... cooler.
+
+This is why, at its Global Innovation Summit, Gillette launched a line of
+customizable 3D-printed razors, and why we were welcome to try 3D-printing our
+own razors in the back of the room after the presenters were done talking.
+This is why, next year, Gillette is launching a $169 heated razor, “the
+ultimate indulgence” for a man who loves a “hot towel experience,” which we
+were also welcome to try at a shaving station in the back of the room, if we
+were men.
+
+The company’s history shows that its fixation on arguably needless innovation
+is not new. Schick was founded in 1926, just as Gillette’s first patent was
+expiring.
+
+For the next several decades, Gillette would experiment with “adjustable”
+razors, razors with oxidized blue steel, razors with “microfins” that push the
+face with their little rubber bodies to make facial hairs pop out like
+blackheads, or, as Gillette puts it on its website, “gently stretch loose,
+gel-like facial skin.” And so on — all kinds of things that would
+differentiate the product it invented from the products made by the
+competitors it had no legal means to crush.
+
+Razor innovation had become a literal punchline by 1975, with _Saturday Night
+Live_ [predicting](https://snltranscripts.jt.org/75/75atriple.phtml) the
+triple-blade Mach 3 a full 23 years before its inevitable birth. (Gillette
+[reportedly](http://articles.baltimoresun.com/1998-08-17/business/1998229063_1_mach3-razor-
+new-mach3-gillette) spent $200 million on advertising and $750 million to
+revamp its production system to make that first triple-blade Mach 3 in 1998.)
+
+In the 1980s, Gillette
+[reportedly](https://www.bostonglobe.com/magazine/2017/06/21/the-razor-wars-
+have-begun-and-somebody-going-get-hurt/WbNBl0OSk1BgiHFZdkp16M/story.html)
+spent more than $200 million to develop the Sensor, a razor with tiny springs
+that allowed each blade to move separately from one another. This was a
+response to the expiration of its patents on the [double-edged safety
+razor](https://patents.google.com/patent/US775134A/en), the [“tiltable” safety
+razor
+handle](https://patents.google.com/patent/US1890334A/en?assignee=gillette&before=priority:19400101&after=priority:19010101),
+and the [blade
+guard](https://patents.google.com/patent/US2119998A/en?q=B26B19%2f12&assignee=gillette&before=priority:19400101&after=priority:19010101),
+among others. As patents expire on meaningful innovations — and said
+innovations become industry standards — they have to be replaced with new,
+less meaningful ones that give an updated competitive edge.
+
+To put it carefully: There is little incentive to improve the shaving
+experience, as it is fine, but there is plenty of incentive to come up with
+something new to patent, as this is how you combat competition. This can
+prompt some strange behavior, and even stranger product lines.
+
+At the beginning of this year, Procter & Gamble
+[reported](https://www.forbes.com/sites/andriacheng/2018/01/24/pgs-gillette-
+woes-have-translated-to-this-good-news-for-consumers/#1e04cd147d54) that the
+“grooming” segment of its business (more than $1 billion in sales per quarter)
+was performing worse than any other (the company is made up of about 65
+brands, across beauty, grooming, health, home, and family care categories). It
+saw a 3 percent decline in sales even as the company’s overall sales were up 2
+percent; for comparison, beauty sales were up 10 percent.
+
+The same factors that are making Gillette’s grooming division less profitable
+are the ones that allowed low-cost, direct-to-consumer razor brands like
+Harry’s and Dollar Shave Club to get a foothold. More casual shaving attitudes
+logically mean wanting to spend less on a product that removes hair, whether
+or not it can be justifiably called “the best a man can get.”
+
+This does not mean it’s been easy to compete. According to Mike Dodd, a board
+member at the venture capital firm Silverton Partners, which invested in
+Billie’s seed round, there are fewer than 10 manufacturers of razor blades in
+the world, and contracts with them are extremely difficult to come by. Billie
+co-founder Georgina Gooley refuses to provide the name of her company’s blade
+supplier, and when I ask why, she says it’s an industry standard not to. Dodd
+also declines to tell me where Billie gets its blades but says it took years
+of negotiations for the manufacturer to agree to sell to a startup.
+
+Gillette spent years trying to kill the new, lower-cost alternatives. It
+ordered hundreds of dollars’ worth of Harry’s razors immediately upon the
+company’s launch, apparently to examine them before [suing for patent
+infringement](https://www.scribd.com/document/140679416/Gillette-Company-v-
+ADKM-Inc-d-b-a-Harry-s-Razor-Company-et-
+al?campaign=SkimbitLtd&ad_group=122276X1582760X25d61358e93f3134da5788e06fff4120&keyword=660149026&source=hp_affiliate&medium=affiliate).
+
+The patent in question was filed in 1998 and described an invention simply
+called “Razors”; Gillette asked for a jury trial and reparations in the amount
+of three times the damages of lost sales. The case was dismissed in less than
+a week.
+
+This did not stop Gillette from pursuing further litigation. In December 2015,
+the company filed a patent infringement suit against Dollar Shave Club. In the
+filing, Gillette alleged that the manner in which its competitor was coating
+its razor blades to maintain sharpness was in violation of a 2004 patent,
+asking that the state of Delaware immediately block the sale of all Dollar
+Shave Club razors. Dollar Shave Club filed a countersuit two months later, and
+both were dropped.
+
+In December 2016, Gillette pivoted back to attacking Harry’s, with a
+[30-second ad](https://www.wsj.com/articles/p-gs-gillette-swipes-at-harrys-in-
+new-ad-campaign-1481827836) that claimed most customers who tried Harry’s
+didn’t become repeat buyers. It was odd timing, given that it was Dollar Shave
+Club, not Harry’s, that had just been purchased by Unilever for $1 billion.
+
+Harry’s sent Gillette’s parent company a letter accusing the brand of false
+advertising. (Gillette said it was citing
+[data](https://www.fastcompany.com/3067202/harrys-lawyer-sends-gillette-and-
+pg-a-letter-accusing-big-razor-of-false-advertising) from a market research
+firm, but Harry’s pointed to data from the same firm that proved its side.)
+
+More casual shaving attitudes logically mean wanting to spend less on a
+product that removes hair, whether or not it can be justifiably called “the
+best a man can get”
+
+Finally, in 2017, the company slashed prices of replacement blades and other
+key products an average of 12 percent, writing an apologetic [blog
+post](https://gillette.com/en-us/lowerprices) that started, “You told us our
+blades can be too expensive and we listened.”
+
+Outside of legal scrambling and price lowering, Gillette has had little choice
+but to make its products more and more noticeably different from those of its
+millennial-friendly competitors, which prioritize simple design and a good-
+enough approach to function. (It’s a razor. It shaves. What is “best”?) Its
+attempts to reinvent this thing that can’t be reinvented tend to involve one
+baby step of progress and four bounding leaps toward the absurd.
+
+In 2014, for example, Gillette announced it had [“rebuilt”
+shaving](https://news.gillette.com/press-release/product-news/gillette-
+declares-shaving-rebuilt-launch-new-fusion-proglide-flexball-tec) with the
+Fusion ProGlide FlexBall razor, which was unveiled at a press event at New
+York’s Highline Ballroom and was reportedly capable of cutting hairs 23
+microns shorter than Gillette’s previous premium razor. Also worth noting: It
+is [so
+ugly](https://mms.businesswire.com/media/20140429006363/en/413400/4/Movement_webready.jpg).
+
+More recently, in October, Gillette announced its partnership with the Boston-
+based 3D printing company Formlabs — which typically focuses on jewelry and
+orthodontia — to launch its “Razor Maker” site, where customers can customize
+a razor that will be built for them from scratch, using stereolithography
+technology, in five to seven business days. (The idea is that young people
+care about custom sneakers, and therefore young people will care about custom
+face razors.)
+
+This is the new product line it models at its Innovation Summit, though I, a
+journalist obsessed with men’s razors, was already aware of it and had ordered
+a custom 3D-printed razor a week prior.
+
+The Razor Maker offers many choices; the dominant aesthetic is, I would say,
+Disney’s _Atlantis: The Lost Empire_ (2001). The premium option is to swap out
+3D-printed plastic for chrome, running up your bill an extra $20, though
+getting your name embossed on any handle is free. Other than that, these are
+just standard Gillette three-blade or five-blade razors, which is probably
+why, when I placed my order for a $19 bright blue “coral”-themed,
+“Kaitlyn”-engraved razor a week after Razor Maker’s launch, it was only the
+644th order to be processed. It was delivered to me wrapped in a silky purple
+ribbon.
+
+* * *
+
+The ludicrousness of today’s open market means, mostly, having the option to
+pay a lot of money for something or not a lot of money for something, without
+ever really approaching a concrete, evidence-backed reason for the decision.
+
+That includes not just a custom 3D-printed razor with your name immortalized
+in the handle, or a razor modeled after a hot towel, but also $80 razors
+designed by former military fighter jet engineer Patrick Coddou, who describes
+the merit of his product — the Supply single-blade razor — by telling me,
+“It’s how our fathers and grandfathers and everybody before us used to shave.
+It’s not like you’re going to slice your face off.”
+
+The premise of a single-blade razor is that it causes less irritation, swiping
+the skin once rather than three or five times, and tugging at hairs only once
+as well. “We’re trying to convince guys to wake up from the myth and the
+marketing of the last 20 years that more blades is better,” Coddou says.
+
+“Around the time I came up with the idea, there were these other companies
+coming out with new multi-blade razors and acting like they were improvements
+on previous products,” he explains. “That was really frustrating to me. They
+weren’t improvements; they were just cheaper and easier to get.”
+
+The best is … what we started with?
+
+On the same side of the debate, there’s Bevel founder Tristan Walker, who says
+his company’s single-blade razor is the “first and only shaving system
+designed specifically to reduce irritation, a problem faced by 80 percent of
+black men and women and 30 percent of everyone else.” He too points out that
+cutting hair so short that it slides back underneath the skin is demonic,
+particularly for people with curly hair, which will spiral back into their
+face.
+
+“Full disclosure, we don’t have science or clinical tests to back up our
+claims,” Coddou adds. “But what I can tell you is based on the plenty of
+reviews we get from our customers and the comments we get, it reduces
+irritation and ingrown hairs. The only ‘science’ that exists — and I’m using
+air quotes right now, you can’t see me — that proves multi-blades work better
+was funded by Gillette. They won’t really give any insight into the procedure
+or the processes used to come to that claim.”
+
+That characterization of the science is only slightly unfair. Last year, Amy
+Couture-Rizzo, a product researcher at Gillette, walked the [Boston Globe’s
+Jeff Harder](https://www.bostonglobe.com/magazine/2017/06/21/the-razor-wars-
+have-begun-and-somebody-going-get-hurt/WbNBl0OSk1BgiHFZdkp16M/story.html)
+through the company’s history of adding blades. It started with one,
+obviously, and did not debut a two-blade razor until 1971 (the Trac II, which
+was supposed to reduce irritation by cutting down on the number of times the
+razor touched your face).
+
+The three-blade Mach 3 debuted in 1998; the five-blade Fusion 5 debuted in
+2006. She explained the shift to him saying, simply, “Five blades are really
+better than three.” (Gillette doesn’t make four-blade razors. Still, it
+[sued](https://www.washingtonpost.com/archive/business/2004/01/02/crossing-
+blades-for-face-
+time/a5191c81-0a90-449f-94eb-034917b36bd2/?utm_term=.3e13caca86ce) Schick when
+it launched the Quattro in 2003, arguing that it was based on Gillette’s
+patented “progressive blade geometry.”)
+
+To justify five blades, Gillette loves to tout what’s called “the hysteresis
+effect,” in which the first blade pulls the hair above the skin and each
+subsequent blade cuts it just a little bit shorter. Sherwin Parikh, founder of
+the Tribeca Skin Center and a practicing dermatologist affiliated with New
+York-Presbyterian Hospital, tells me this is correct: “Yes, five-blade razors
+do create a better, smoother shave for many men.” But! “For some, the
+closeness actually leads to ingrowns, because the hair becomes trapped under a
+layer of thicker regrowing skin within days. This is known as
+pseudofolliculitis barbae.”
+
+Jules Lipoff, an assistant professor of clinical dermatology at the University
+of Pennsylvania’s medical school, says, directly, “More blades translates to
+more unnecessary cutting, ingrown hairs, and irritation of the skin.” Lipoff
+also stresses to me that our society’s obsession with clean-shaven men (and
+their “professional” appearance) is misguided as, “in fact, the act of
+removing hair may increase risk for infections.”
+
+“We’re trying to convince guys to wake up from the myth and the marketing of
+the last 20 years that more blades is better” —Patrick Coddou
+
+Single-blade razors, then, are safer. However, the blade gets duller quicker
+when there’s only one doing all the work, so you have to replace your razor
+far more often. Though Coddou emphasizes that his 50-cent blades are a
+“fraction of the cost of Gillette’s” and half the price of Harry’s, it
+probably evens out.
+
+Then there’s the $80 handle, which Coddou acknowledges is up there, saying his
+customer is “willing to stomach it” in exchange for the better experience of
+diminished irritation and, it’s implied, feeling like a badass. He points out
+that Oui Shave, a New York-based startup founded by Estée Lauder alum Karen
+Young, is doing the same thing, but for women. It sells a $75 rose-gold
+single-blade razor, which it recommends you pair with the company’s $30
+signature shaving cream.
+
+So single-blade razors are the best? They are perfect? Actually, no. “Double-
+or triple-blade razors achieve the best balance of getting a close shave with
+fewer ingrowns,” Parikh says.
+
+Which perhaps is why, at its November Innovation Summit, Gillette is also
+launching SkinGuard, a razor with just two blades, plus a skin guard in
+between those two blades to push the skin flat and prevent irritation. This
+has something to do with firefighters, so we watch a short film about them.
+
+Here’s the gist: If a man is happy with a five-blade razor, and not
+experiencing irritation, and not, like two in three men, a haver of “sensitive
+skin,” the SkinGuard razor is not for him. This point is reiterated several
+times — the SkinGuard razor is only for 67 percent of men, who have complained
+of irritating their faces with Gillette’s existing product line.
+
+Gillette has “committed itself to a metamorphosis,” we are told.
+
+* * *
+
+What about women’s razors? Doesn’t anyone care about me, and the anecdote I
+tell with alarming frequency about the time I shaved off my pinky fingernail
+with a new $2 Bic razor and then passed out at the sight of my own blood?
+(They are extremely sharp, extremely good bang for the buck! Bic has
+[acknowledged](https://www.reuters.com/article/us-bic-results/bic-
+shaves-2017-sales-growth-forecast-on-tough-u-s-razor-market-idUSKCN1C42RS)
+that it cannot compete in the razor market and will instead focus on
+lighters!)
+
+Well, yes, though the US women’s shaving industry is much smaller than the
+men’s ($1 billion versus $2.5 billion). For decades, the razor has been
+marketed to men as a tool, a piece of machinery, and for decades, it has been
+marketed to women as a waterfall, a goddess’s sigh, the smell of coconut, the
+kiss of a beach babe, the glitter of a poolside bartender’s immaculate grin —
+he loves your calves. They are so clean, have always been clean, hairless is
+clean, and you have never seen something dirty in your life. If your
+experience of the world could be violently broken down to a single chemical
+element, it would be chlorine.
+
+Gillette’s women’s brand, Venus, is an originator and epitome of this cultural
+myth, and it is also what venture capitalist Mike Dodd calls “an afterthought
+brand,” a rough draft of “a ’60s ad man” type of concept about what women
+might want and how to sell it to them. “It’s right there in the tagline,” he
+says. “You know, the best a _man_ can get.” Venus wasn’t launched until 2001,
+though Gillette had been encouraging women to remove [“objectionable”
+hair](https://www.refinery29.com/en-us/body-grooming-history#slide-1) since
+1915, when it debuted the single-blade “Milady Décolleté” safety razor.
+
+Which is to say: For a very long time, no one has considered the possibility
+that while exploiting women’s insecurities and cultural stigmas might be
+profitable, there could be an even _more_ profitable way to sell razors to
+women.
+
+Gillette has handed a free one to the competition here. Flamingo, the women’s
+line Harry’s introduced this fall, and Billie, a “wellness company” that
+hinges its hopes and dreams and branding on eradicating the [pink
+tax](https://www.listenmoneymatters.com/the-pink-tax/) — the phenomenon of
+companies putting unexplained markups on women’s products even when they’re
+identical to men’s in all ways except ludicrous aesthetics — can step strongly
+into the space by disrupting not razors themselves, but the speech around
+them. For this demographic, the “best” razor may just be one that’s sold on
+fair terms.
+
+Billie, Dodd tells me, “stands for not getting ripped off.” It’s growing
+faster than Dollar Shave Club was at this point in its history, he claims. And
+it’s easy enough to see why: Billie razors are cheap ($9 for a starter kit
+that includes the handle, a wall mount, and two five-blade razors) and come in
+what we can call fun ’n’ funky colors, like coral, blush, and “cool blue.” In
+November, it launched a “limited edition” ’90s-nostalgia-inspired color scheme
+[called “DreamPop”](https://hypebae.com/2018/10/billie-dreampop-razor-shaving-
+campaign), which ships with butterfly hair clips, a scrunchie, and temporary
+tattoos. The ads are all [_Melodrama_
+purple](https://www.thecut.com/2018/04/melodramatic-purple-spring-
+shopping.html) eyeshadow, red lips, and visible armpit hair, cool gal pals
+with punchy makeup and an accessible aesthetic.
+
+Co-founder Georgina Gooley says the razors are designed to look nice in your
+bathroom, and that the wall mount that comes in the starter kit is the first
+one she’s ever used that hasn’t fallen down in the shower. Women hate the
+Venus’s suction cups, she says, and prefer Billie’s proprietary putty. Women
+also hate that pink tax, which is abused perhaps most egregiously by razor
+makers and the dry-cleaning industry. Women hate being told not to have body
+hair, so they love [a shaving company that tells
+them](https://mybillie.com/pages/projectbodyhair) to shave “when they want, if
+they want.”
+
+“I think women are going to engage well with that,” Mintel home and personal
+care analyst Olivia Guinaugh says. “Especially with all these female
+empowerment movements going on.”
+
+Women hate being told not to have body hair, so they love a shaving company
+that tells them to shave “when they want, if they want”
+
+This is also the general idea behind Harry’s women’s brand Flamingo, which
+launched in October.
+
+Brittania Boey, the senior VP of research and development for Harry’s while
+the new brand was being developed, and now the company’s chief commercial
+officer, says that Flamingo’s design prompt was to think of a razor for women
+as a tool, the same way razors for men are thought of as tools.
+
+“The best tools [are designed] to find their way in your hand,” she says,
+explaining how the Flamingo handle was created to be as easy-to-use and
+functional as a men’s razor. “And then the second thing for us is that we
+think aesthetics really matter.” That’s why the Flamingo razor has a thick,
+heavy handle with details in metals like rose-gold.
+
+Flamingo’s razor, like Harry’s, has five blades. Like Harry’s razors, it comes
+in multiple colors, which Boey says customers “collect” because they look so
+nice in a bathroom.
+
+“We wanted textures and materials that work well in wet and dry environments
+and also look aesthetically beautiful, like something you want to have in your
+bathroom. For the handle design, the packaging, the colors — we looked at
+beautiful bathrooms and comfortable bedrooms, environments that women feel
+good in and want to take care of themselves in.”
+
+There is no price difference between the two brands, she points out. (No pink
+tax!) When I ask how Flamingo will be marketed at launch, Boey says it won’t
+be, and the company will focus on putting the products “in the hands of
+extended friends of the brand.” Two weeks after it launches, I see a Flamingo
+poster on the newsstand in front of an indie movie theater in the West
+Village, and the following week, I see a much bigger poster on the side of a
+building in Williamsburg. Two weeks later, the entire Spring Street subway
+station is plastered with posters.
+
+“If you notice their branding, they completely copied our branding and our
+angle,” Billie investor Dodd says of Flamingo, before quickly acknowledging
+that the Billie ethos is a pretty obvious one in 2018. “They’re gonna be a
+good competitor. There’s room for two.”
+
+* * *
+
+The word “disruption” no longer has a working definition; this is just
+something we have to accept. Disruption is supposed to get us to the best but
+can often feel like it gets us to [something
+worse](https://www.theverge.com/2017/12/29/16820474/2017-tech-recap-uber-
+scandal-waymo-lawsuits-travis-kalanick). Or different, but the same in terms
+of value and function and everything but framing, or the same, but more
+confusing.
+
+Gillette, nevertheless, is constantly and expensively working to disrupt the
+totally acceptable, functional object it introduced more than 100 years ago.
+Gillette scientists also have [a virtual reality
+studio](https://www.bostonglobe.com/magazine/2017/06/21/the-razor-wars-have-
+begun-and-somebody-going-get-hurt/WbNBl0OSk1BgiHFZdkp16M/story.html) at the
+company headquarters in Boston, which they use to preview new products. In VR.
+For some reason. Before these products touch faces!
+
+Though it is still much bigger than everyone else, Gillette is no longer the
+sole shaving industry power player. So, it stands to reason, Gillette is also
+no longer the only shaving industry power player that is totally wigging out
+about the state of the declining industry, undergoing an existential crisis
+resulting in curious products and odd brand moves.
+
+Take, for example, Dollar Shave Club founder Michael Dubin, who announced in
+September that his company would pivot away from its bro-y reputation and
+revamp itself as “Dollar Shave Club 2.0” — a wellness brand. “Our mission at
+Dollar Shave Club is to help guys take care of their minds and bodies so they
+can be their best selves,” he [told Adweek](https://www.adweek.com/brand-
+marketing/once-the-brand-of-bros-dollar-shave-club-is-looking-for-a-new-
+competitive-edge/). “We are approaching that mission in two ways: with great
+products for your body and great content for your mind.”
+
+Fortunately, the content he is referring to includes the delightful [Mel
+Magazine](https://melmagazine.com/), which publishes smart and insightful
+reported features about modern masculinity. Unfortunately, the great products
+for your body he is referring to includes a line of totally generic skin care
+products, hair creams, toothbrushes, and body washes. Most recently, it
+launched a line of six colognes called Blueprint, because its market research
+in Austin and Los Angeles said that 62 percent of men wear cologne every day
+and that 76 percent of men own more than two different colognes. (More than
+two different colognes!)
+
+Of this launch, Dubin [told Adweek](https://www.adweek.com/digital/dollar-
+shave-club-is-rolling-out-a-new-fragrance-line-and-getting-into-
+retail/?utm_content=position_1&utm_source=sailthru&utm_medium=email&utm_term=AWK_TodayTech&utm_campaign=Digital_Newsletter_2018110707&s_id=5b85692420122e2ec765b7d6),
+“I believe fragrance is the defining feature of many products across
+categories. Dollar Shave Club has chosen to make fragrance an investment and a
+defining feature of our product line.” I’m not allowed to end a paragraph with
+four lines of question marks, but just know what I would do if I were in
+charge.
+
+And we are just now, if you can believe it, getting to the newest and biggest
+complicating factor in the razor wars. Gillette’s dread about losing even more
+market share to Bevel (which is now in Target and Macy’s), or Harry’s (which
+is now sold in both Target and Walmart, as well as Barneys and its own
+Manhattan flagship store), or Dollar Shave Club (which now has the might of
+Unilever behind it) may actually be eased in the coming months by an unlikely
+hero: President Donald Trump.
+
+In March, the Trump administration announced that imported steel would be
+subject to a tariff of 25 percent, one of [a slew of new tariffs](/policy-and-
+politics/2018/8/5/17653632/trump-tariffs-trade-war-steel) that affect dozens
+of consumer-facing industries. Gillette applied for and [was
+granted](https://www.cnn.com/2018/10/10/business/gillette-steel-tariff-
+exemption/index.html) an exemption from the tariff, arguing that the type of
+steel it needs is not made in the US. The “very specialized steel” is imported
+from Sweden, the company stated, also claiming to have helped develop the
+recipe for this steel 20 years ago. Schick was reportedly granted a similar
+exemption on the same grounds.
+
+In 2014, Harry’s spent $100 million to buy a German razor factory, and
+declined to comment on whether it had received a tariff exemption. Dollar
+Shave Club buys its blades from a South Korean manufacturer, and also declined
+to comment. Billie declined to divulge both which country it procures its
+blades from and whether the company would be exempted from the tariff. Ditto
+Bevel.
+
+For Supply, blade prices will go up even though the blades are made in the US
+— the company’s manufacturer, which Coddou does not name, imports its raw
+steel from Japan and Germany and has not been exempted.
+
+* * *
+
+While my 3D-printed Gillette razor was being constructed in a lab in Boston
+(under the loving care of a woman named Desiree, according to a note included
+in the box), I was still shaving.
+
+I shaved with a five-blade Billie razor I ordered just to see if the putty
+wall mount was as good as advertised (yes!). I immediately loathed it because
+the brand announced the cooler-looking “DreamPop” version three days after I
+placed my order for boring Coral, which is coral and doesn’t come with
+stickers. I also shaved with a green two-blade Bic razor that I probably got
+in a Christmas stocking. I hated that too, because it made me feel like I did
+not care enough about myself to invest in something nice.
+
+While my 3D-printed Gillette razor was getting rerouted through the US postal
+system, having apparently been delivered to Vox Media headquarters with
+insufficient information about its intended recipient, I shaved with my
+sister’s three-blade Comfort Glide Venus razor because I forgot to pack my own
+when I went home for Thanksgiving, and with my mom’s cheaper Simply Venus
+razor (also three blades!) because sometimes I prefer to use her shower — it’s
+fancier. In all instances, hair left my body, and I was annoyed by the
+unspecialness of the task.
+
+Rationally, I know this makes no sense, and that I don’t need to own anything
+that’s the “best” or even “cool” to have decent personal hygiene. Shaving is
+shaving, and I rarely feel like doing it, and though I live in a world full of
+seductive branding and have bought plenty of things for hardly any reason at
+all, I do still have my wits about me enough to realize that there is no
+amount of marketing that is going to make me care deeply about what razor I
+pass over my armpits when I am half asleep.
+
+To that end, I haven’t used my custom Gillette razor yet. When I do get a
+chance to try it, I will consider filling out the survey Gillette sent me
+three days before I received the razor, asking that I let them know what I
+think about their “passion project,” Razor Maker. I will say that it cut my
+hair, like every razor I have used before and every razor I will use after,
+and that whether it is the best a man can get will remain up for discussion
+forever.
+
+* * *
+
+**Correction:** An earlier version of this article misstated Harry’s total
+funding, which is $375 million.

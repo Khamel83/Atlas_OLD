@@ -1,0 +1,152 @@
+# Picking on the Competition - NYTimes.com
+
+**Source**: http://www.nytimes.com/2011/04/24/opinion/24pubed.html?src=recg&pagewanted=print
+**Type**: article
+**Created**: 2025-08-13T20:56:05.756495
+
+---
+
+title: Picking on the Competition - NYTimes.com
+source: http://www.nytimes.com/2011/04/24/opinion/24pubed.html?src=recg&pagewanted=print
+date: 2025-08-13T20:55:56.805413
+tags: []
+---
+Winners of the paper’s prizes, for [international
+reporting](http://web.archive.org/web/20110429194450/http://www.pulitzer.org/citation/2011-International-
+Reporting) and
+[commentary,](http://web.archive.org/web/20110429194450/http://www.pulitzer.org/citation/2011-Commentary)
+gave buoyant speeches, reflecting the tremendous personal uplift that comes
+with such powerful recognition. [For the five Times finalists who did not
+win,](http://web.archive.org/web/20110429194450/http://www.pulitzer.org/finalists/2011)
+there was applause, too. Coming close actually counts in the Pulitzer Prize
+sweepstakes.
+
+The newsroom’s boss, [Bill
+Keller,](http://web.archive.org/web/20110429194450/http://topics.nytimes.com/topics/reference/timestopics/people/k/bill_keller/index.html)
+gave a speech praising his staff and making the important point that, for The
+Times, good journalism is the goal, not winning prizes.
+
+I was struck by how well-tuned the whole affair seemed to be. At other
+newspapers, celebrations of Pulitzer Prizes have a more improvised character,
+as if slammed together in surprise and jubilation. But not at The Times, which
+has won 106 such awards and so stages the festivities roughly the way
+Punxsutawney Phil prepares for Groundhog Day — with a heady acceptance of
+destiny and a solemn respect for procedure.
+
+If there was a mildly deflating note on this occasion, it was that The Times
+had won only two prizes. Certainly, though, this was no embarrassment. Mr.
+Keller announced that [The Wall Street
+Journal](http://web.archive.org/web/20110429194450/http://www.pulitzer.org/citation/2011-Editorial-
+Writing) and [The Washington
+Post,](http://web.archive.org/web/20110429194450/http://www.pulitzer.org/citation/2011-Breaking-
+News-Photography) perennial rivals for the honors, had each won just one
+prize.
+
+He did then note that another newspaper had, like The Times, won two: The Los
+Angeles Times.
+
+A flare burst in the foreground of my mind: hmm, the same Los Angeles Times[
+that was roundly dissed in a New York Times news story in
+January?](http://web.archive.org/web/20110429194450/http://www.nytimes.com/2011/01/24/business/media/24latimes.html)
+Yes, the same one. As it turned out, The Los Angeles Times had won the most
+prized of the Pulitzers — [the gold medal for public
+service,](http://web.archive.org/web/20110429194450/http://www.pulitzer.org/citation/2011-Public-
+Service) which is given for exceptional coverage that results in significant
+change.
+
+“It is considered the most prestigious of the awards — the first to be
+announced, and the first to be mentioned in most articles about it,” said [Roy
+Harris
+Jr.,](http://web.archive.org/web/20110429194450/http://www.pulitzersgold.com/author.php)
+author of [“Pulitzer’s Gold: Behind the Prize for Public Service
+Journalism.”](http://web.archive.org/web/20110429194450/http://www.pulitzersgold.com/index.php)
+
+The Los Angeles Times’s public service award came [for its coverage of Bell,
+Calif.,](http://web.archive.org/web/20110429194450/http://www.latimes.com/news/local/bell/)
+a Los Angeles suburb. According to the newspaper’s description of the
+articles, [a team of 20 reporters and
+editors](http://web.archive.org/web/20110429194450/http://www.latimes.com/news/nationworld/nation/la-
+na-pulitzers-20110419,0,2036371.story) revealed that Bell officials paid
+themselves extravagantly (the city manager was making an $800,000 salary in a
+town of 36,000) and helped finance their pay plan by illegally raising taxes
+on the citizenry.
+
+The paper’s second prize, meanwhile, [was for feature photography by Barbara
+Davidson,](http://web.archive.org/web/20110429194450/http://www.pulitzer.org/citation/2011-Feature-
+Photography) who spent two years photographing crime victims in areas where
+concentrated gang violence continued to take a toll, even as crime rates
+overall declined.
+
+Taken together, The Los Angeles Times’s work was in the best journalistic
+tradition of rooting out hard-to-get stories in places that might otherwise be
+ignored — coverage, in the immortal adage, that comforts the afflicted and
+afflicts the comfortable.
+
+On top of that, [the paper has now won six public service
+medals,](http://web.archive.org/web/20110429194450/http://www.pulitzer.org/bycat/Public-
+Service) breaking a three-way tie with The St. Louis Post-Dispatch and The New
+York Times.
+
+The timing of the achievement was interesting given how The Los Angeles Times
+was portrayed in The New York Times’s article on Jan. 23 — as a newspaper in
+steep decline with its audience turning away, and indeed the city itself on
+the bum. When I discussed complaints about that article with New York Times
+staffers, I was told it wasn’t intended to derogate the other paper but merely
+to point out that its readers were losing heart. The article did give credit
+for the Bell coverage, to be fair, but I thought it painted an unflattering
+picture of general decay.
+
+It was not an isolated example of The Times’s needling peer news
+organizations. In recent months, The Times has slipped a shiv into others on
+several occasions. Some readers don’t like it when that happens, and I can
+understand why. It’s unseemly and makes The Times, which is viewed as
+journalism’s top dog, look like a bully. It’s clear, as well, that some
+readers expect The Times to apply the same laser-like focus to itself, which
+doesn’t seem to happen much.
+
+After a column on April 11 by the Times media writer David Carr about [over-
+generous pay packages for Gannett’s top
+executives](http://web.archive.org/web/20110429194450/http://www.nytimes.com/2011/04/11/business/media/11carr.html),
+Raphael Rabin-Havt, a reader in Manhattan, wrote to me that Times journalists
+seem “to relish opportunities to write critical pieces on other media
+organizations — [wiretapping at Murdoch’s
+newspapers,](http://web.archive.org/web/20110429194450/http://www.nytimes.com/2010/09/05/magazine/05hacking-t.html)
+[the bankruptcy of the Tribune
+Company](http://web.archive.org/web/20110429194450/http://www.nytimes.com/2010/10/06/business/media/06tribune.html)
+and, as of Monday, executive compensation at Gannett — but have not shown any
+desire to write about The Times’s business decisions.”
+
+(For my money, I’d like to see more pieces like the one that Mr. Carr wrote a
+week later, [describing the success that Michael
+Klingensmith,](http://web.archive.org/web/20110429194450/http://www.nytimes.com/2011/04/18/business/media/18carr.html)
+publisher of The Star Tribune in Minneapolis, is having in arresting that
+newspaper’s steep decline. These days in the news industry, stories of
+innovation and recovery are at least as interesting as accounts of decline.)
+
+A final example is the baffling set-to between The Times and The Huffington
+Post, a major competitor for online traffic. A month after AOL announced it
+was acquiring the digital news organization, Andrew Goldman, writer of the
+Q.-and-A. column “Talk” in The Times Magazine, [interviewed Arianna Huffington
+in such a confrontational manner that both Ms.
+Huffington](http://web.archive.org/web/20110429194450/http://www.nytimes.com/2011/04/03/magazine/mag-03talk-t.html)
+and her spokesman e-mailed The Times to protest. One of Mr. Goldman’s
+statements to her, which actually made it into print on April 3, went as
+follows:
+
+“I look at your writers much less than I find myself clicking on stuff that’s
+been aggregated or the more salacious, boob-related posts.”
+
+Robb Lutton, a reader in Washington, D.C., wrote to me: “Jeez, what a hack
+job. I doubt you would have been as hard even if you were interviewing
+Qaddafi. What happened to polite, intellectual discourse?”
+
+Three weeks before Mr. Goldman’s gem was published, [Mr. Keller himself had
+taken aim at Ms.
+Huffington,](http://web.archive.org/web/20110429194450/http://www.nytimes.com/2011/03/13/magazine/mag-13lede-t.html)
+describing her in his Sunday Magazine column as the “queen of aggregation” who
+publishes celebrity gossip, adorable kitten videos, posts from unpaid bloggers
+and other publications’ news reports.
+
+As [Rodney
+King](http://web.archive.org/web/20110429194450/http://topics.nytimes.com/topics/reference/timestopics/people/k/rodney_glen_king/index.html)
+once said, “Can we all get along?”

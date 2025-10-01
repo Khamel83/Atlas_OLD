@@ -1,0 +1,70 @@
+# Work Will Never Be the Same - The New York Times
+
+**Source**: https://www.nytimes.com/interactive/2021/02/17/magazine/remote-work-return-to-office.html
+**Type**: article
+**Created**: 2025-08-13T15:42:37.914885
+
+---
+
+title: Work Will Never Be the Same - The New York Times
+source: https://www.nytimes.com/interactive/2021/02/17/magazine/remote-work-return-to-office.html
+date: 2025-08-13T15:42:37.005344
+tags: []
+---
+**Last April,** Kate Doolittle, who sees patients in their homes or in
+assisted-living facilities, was just getting used to wearing a mask. Most of
+her clients are elderly and in fragile health, and she worried more about
+infecting them than about being exposed herself: Early on, one died of
+Covid-19.
+
+Though Doolittle received her second vaccine dose in January, that anxiety
+persists, because the vaccines’ effect on transmission remains unclear. She is
+also learning to tend to a new set of clients: people recuperating from
+Covid-19 hospitalization. That requires her to change into and out of extra
+layers of protective gear, often in a client’s driveway. “Sometimes I’m trying
+to bleach-wipe my pants,” she told me, though she now knows that most people
+contract the virus by inhaling airborne particles. “You still don’t want to be
+carrying something from place to place.”
+
+Before the pandemic, aging baby boomers were already expected to strain the
+home-care industry. Now many companies are turning away new patients because
+of pandemic-related staff shortages — employees in quarantine as a result of
+Covid-19 sickness or exposure or whose children are out of school — and the
+influx of Covid-19 survivors, says William A. Dombi, the president of the
+National Association for Home Care and Hospice, a trade group. People are also
+more reluctant to stay in assisted-living facilities, which were ravaged by
+the virus.
+
+Even after the pandemic ends, the American Physical Therapy Association
+predicts heightened demand from postponed elective surgeries (typically, many
+of Doolittle’s clients are recovering from joint replacements, which are on
+hold at Boston hospitals, along with other elective surgeries), as well as a
+growing need for Covid-19 rehabilitation and the imperative to address
+conditions like heart disease that have been exacerbated by a year’s worth of
+inactivity. The question, Dombi says, is “Can we get the availability of staff
+to go up?”
+
+In addition to therapists such as Doolittle, whose salaried position at a
+large agency offers security, workers in the industry include roughly 3.5
+million health and personal aides who provide in-home care and who are
+disproportionately people of color, recent immigrants and women. Many were
+laid off or unable to work during the pandemic and struggled to access relief,
+while those who stayed on contended with low wages and a lack of benefits and
+protective equipment.
+
+President Biden campaigned on a proposal to spend billions to expand home-care
+and child-care services, including by offering tax credits for unpaid
+caregiving, making more in-home services eligible for Medicaid and encouraging
+workers to collectively bargain for increased pay and benefits. Advocates for
+home workers hope persistent labor shortages will increase bipartisan support
+for reforms. “We think the table is set for improvements in working
+conditions, compensation and respect,” Dombi says.
+
+Doolittle hopes that her professional life will be mostly back to normal a
+year from now — no more Covid-19 patients; no more masks impeding
+communication with clients who may be confused or hard of hearing. She’s also
+impatient for her family and friends to get their vaccines so that she can
+start to have a social life again. “I feel stuck in this limbo,” she said.
+“Even though there’s a light at the end of the tunnel, we’re not there yet,
+and we have to be super careful about everything. I still pose a threat to
+people.”

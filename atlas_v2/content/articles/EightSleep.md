@@ -1,0 +1,616 @@
+# Eight Sleep
+
+**Source**: inputs/old stuff/Docs/EightSleep_081324.html
+**Type**: article
+**Created**: 2025-08-25T02:53:47.915522
+
+---
+
+# Eight Sleep
+
+*Welcome to the **317 newly Not Boring people** who have joined us since last week! If you haven’t subscribed, join **230,707** smart, curious folks by subscribing here:*
+
+[![](https://substackcdn.com/image/fetch/w_40,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideCheck%3Fv%3D4%26height%3D40%26fill%3Dtransparent%26stroke%3D%25230c2427%26strokeWidth%3D3.6)Subscribed](https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjY291bnQiLCJwIjoxNDc2MzY1NzksInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNzIzNTUzMzgwLCJleHAiOjE3MjYxNDUzODAsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.lvM-YDZA4Q5_k6aF2_iweZaf293l1J-tRLbuuTfU99E?)
+
+Hi friends 👋 ,
+
+Happy Tuesday! It’s a sunny 80° here in Brooklyn, I got a great night’s sleep last night, and we’re back with another Deep Dive. Life is good.
+
+Over the past couple of months, [Eight Sleep](https://substack.com/redirect/e736143a-d21f-4078-82c9-36fc7a017cf0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) has been sponsoring Not Boring. It’s been one of my favorite sponsors to date because it’s the product that I use more than any other besides my laptop, and because it helps me sleep better, which makes everything else better.
+
+In the regular sponsor slots, I’ve talked about the product itself, how the Pod 4 Ultra cools and elevates automatically to improve sleep and stop snoring. But what always fascinates me more than the product is the business around it. There have been plenty of incredible products that have disappeared because they didn’t make any economic sense.
+
+So I asked the Eight Sleep team to go deep on the business of Eight Sleep, and I learned more than I expected: how to build a consumer hardware company that won’t die and parlay that into a line of products that help people live longer and better. You can read our sponsored deep dive thought process [here](https://substack.com/redirect/461e34d8-50de-4986-81ef-f98f284a2d25?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU).
+
+Let’s get to it.
+
+*(Click 👆 to read the full thing online)*
+
+[![](https://substackcdn.com/image/fetch/w_2402,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa52dc0a0-4ba3-4c97-b3f4-1836fc18b914_1201x604.png)](https://substack.com/redirect/48a59e80-26e4-4260-b005-0fbe8a84e26d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Here’s a thought experiment.
+
+If you wanted to build the world’s best predictive health platform, how would you do it? What attributes would it have?
+
+First, you’d need a lot of **sensors**. You’d want to track as much useful data about each person’s body as you could.
+
+Second, you’d need **adherence over a long period of time**. The best sensors are only as useful as each person’s willingness to use them, and data becomes more insight-rich over time.
+
+Third, you’d want the ability to **experiment**. Tracking data is great, but using that data to adjust conditions and tracking the data that comes out of those adjustments is better.
+
+Finally, you’d want all of that across a **large population**. The more data you get from more people over time, the more accurate your predictions get.
+
+That’s what **[Eight Sleep](https://substack.com/redirect/e736143a-d21f-4078-82c9-36fc7a017cf0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)** is building.
+
+It didn’t click for me for a long time. I’ve been sleeping on an Eight Sleep Pod for over two years. The company has sponsored this newsletter. I had coffee with Eight Sleep’s co-founder, Matteo Franceschetti, in Miami as far back as 2021. I listened to him *say* that something like this was the goal on an old episode of *[Invest Like the Best](https://substack.com/redirect/379c9199-7500-4cc6-b668-fd8be7a32a25?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*. And certainly, I’ve seen all of the tweets from Eight Sleep fanboys.
+
+But if I’m being honest, I thought all of it was really good marketing for what is ultimately just a really good mattress cover. I really do love my Eight Sleep Pod 4 Ultra. Sleeping cold even when Puja doesn’t let me turn the temperature down to the thinkboi-recommended 65°F has been a game changer. Getting a little elevation when I snore is a more recent game changer.
+
+Sleep is great – I was converted from an investment banking hardo proud of my low sleep when I read Dr. Matthew Walker’s *[Why We Sleep](https://substack.com/redirect/f9cccbb2-e47a-4bb5-bf80-936a70aac82d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)* – and Eight Sleep helps me sleep better. So I’ve always bucketed Eight Sleep as a company that uses technology to help people sleep better, which is great in its own right, because getting those eight hours makes the other sixteen so much better.
+
+But the full Eight Sleep picture clicked when I spoke with [David He](https://substack.com/redirect/441832f9-4ce7-44ef-b2e5-d13361eb3a03?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), Eight Sleep’s VP of Research & Development.
+
+David is a health monitoring lifer. He went from a University of Toronto undergrad in Electrical Engineering to an MIT SM/PhD in, essentially, health sensors. His PhD thesis was on sensing heartbeats mechanically and electrically at the ear. Out of MIT, he founded a Khosla Ventures-backed wearables company, Quanttus, aimed at preventing heart disease, and then worked for Alphabet’s life sciences company, [Verily](https://substack.com/redirect/fb6c13dc-bf45-480d-b858-9b3d5445edfd?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), where he was most recently Head of Health Monitoring Devices.
+
+That’s a pretty dense paragraph, but the TL;DR is: David has spent his whole adult life on “sensing the body and making use of the information,” landed in perhaps the most well-resourced role in the world to do that, and decided to leave it to go work on R&D at a sleep company.
+
+When I asked him why, he woke me up to the fact that if you want to sense the body and make use of the information, Eight Sleep is a … dream company. Here’s why.
+
+Wearables are hitting a technical ceiling, David explained. They can do things like count steps, measure heart rate, and even detect atrial fibrillation, but after that, they get limited in what they can do. The reason is simple: **your wrists (and fingers) are too small and mobile.** Plus, they’re limited in the types of data available.
+
+What drew David to Eight Sleep is that “it blew all these constraints out.”
+
+* **Unlimited Power:** it’s connected to the wall.
+* **WiFi Directly to Cloud**: having all those cloud-based CPUs and GPUs at your disposal makes ML and AI so much easier to do in real-time.
+* **100% User Adherence**: “No one gets tired of sleeping,” David said.
+* **Longitudinal**: people sleep on their bed every night for years and years.
+* **Form Factor**: the surface of a mattress is really big; it can fit a ton of sensors.
+
+That last point in particular is what flipped me. **Eight Sleep functions as a laboratory in your bedroom, one that you happily jump into every night.**
+
+Importantly, Eight Sleep can both collect data and make adjustments, both measure outcomes and improve them. Last night, the app tells me, it made 24 Autopilot adjustments to give me 9% more deep sleep. By making those adjustments, it’s improving my sleep, but it’s also learning what works and what doesn’t for me, which is something that wrist-based wearables can’t do.
+
+Eight Sleep’s products aren’t cheap. A Pod 4 Ultra starts at $4,049. But Matteo pointed out a benefit to that price point: **“At our price point, adding another $10 sensor makes no difference; the margin doesn’t substantially change.”**
+
+If the Eight Sleep actually improves your sleep, and improved sleep does actually improve performance, then spending $4k for something that lasts many years and makes you more productive in each of them is worth the investment. What I realized in these conversations, though, is that the high price point allowing more sensors while maintaining margin is one of a number of pieces of the business that fits together better than I expected coming in.
+
+When I first talked to Matteo about writing this Deep Dive, I assumed that it would be a departure from the [Techno-Industrial](https://substack.com/redirect/2fd460df-0a12-4f54-81ff-6f6f0db94155?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) Deep Dives I’ve been writing on companies like [Fuse](https://substack.com/redirect/e9de33b1-423d-498c-a9e3-7285d23c10f3?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), [Earth AI](https://substack.com/redirect/946786fd-feac-442f-a627-062f6dee62d8?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), and [Radiant](https://substack.com/redirect/fbcadf07-6553-4dee-a6c8-0906c130700a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). Those are all more… industrial.
+
+As I wrote it, though, I realized it is a Techno-Industrial, just with a different approach.
+
+It integrates a number of cutting edge technologies – in this case, sensors and predictive models – to deliver a better product at a lower price and higher margins than incumbents. Wait, less expensive? It’s a more expensive *mattress cover* than anything out there, but good sleep has been one of those things that money can’t buy. **A good night’s sleep is priceless**.
+
+Beyond sleep, the company’s goal is big: **to become the world’s best predictive health platform**. That’s an ambitious and difficult mission, one that you can’t just jump straight to (the graveyard is full of companies that have tried).
+
+In my Deep Dive on Radiant, I wrote, “**The more ambitious your mission, the stronger the business you need to build to fund it.”**
+
+In Radiant’s case, that means building a profitable nuclear reactor company on Earth in order to fund nuclear power to Mars. In Eight Sleep’s case, that means building a profitable consumer hardware business in order to fund the predictive health platform. They want to “maximize your sleep and save your life.”
+
+In some ways, what Eight Sleep is doing is *harder* than what many of the Techno-Industrials I write about are. Hardware is hard, but *consumer* hardware is practically a death wish. Eight Sleep has decided that the only way that they can build the platform they want to build is by selling hundreds of thousands, and eventually millions, of sleep systems to consumers. Without doing that, they wouldn’t be able to get the data they need to make the impact they want.
+
+The hardest part, then, may actually be over. **Eight Sleep has been free cash flow positive over the last 12 months**. It controls its destiny.
+
+This is a Deep Dive on how they’ve gotten to that point, and what they plan to do from here.
+
+Eight Sleep is a consumer hardware company that wants to become a predictive health platform.
+
+It started as a full consumer hardware company. If it’s successful, most of its value will come from the predictive health platform. As it grows, it slides closer to that end.
+
+[![](https://substackcdn.com/image/fetch/w_1630,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7fb8b929-69d3-48a9-bf50-c66d3882c65a_815x272.png)](https://substack.com/redirect/be0d6768-6abe-4cb1-a2bc-cdc06542ca2a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+The insight is that to become a predictive health platform, it *had* to start as a consumer hardware company and it *has* to get to scale, profitably.
+
+That explains a lot of Eight Sleep’s business: its product, brand, marketing, and price point.
+
+People at Eight Sleep describe the company as the **Tesla of Sleep**.
+
+And look, I get that every hardware company, consumer or otherwise, compares itself to Tesla. The [Tesla Master Plan](https://substack.com/redirect/e70dd59e-edb3-4cf5-aa34-991b902d385b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) – start with a very expensive product before scaling and coming down the cost curve and eventually reaching the masses – is practically Gospel. I’m talking about something a little different here, the new Master Plan that hasn’t yet been written down.
+
+Master Plans Part [One](https://substack.com/redirect/e70dd59e-edb3-4cf5-aa34-991b902d385b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), [Deux](https://substack.com/redirect/0477a30e-3494-43b0-971a-0d708188608d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), and [3](https://substack.com/redirect/7e1ef834-44ff-4ea9-bcb9-3aac90398a2d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) all relate to energy. Build an electric car so sexy, and ultimately so affordable, that everyone goes electric by choice whether they care about the environment or not. Somewhere along the way, though, Tesla realized that having millions of its cars on the road also meant that it had millions of sensors and cameras collecting data for ~free at a scale that none of its competitors could match, which the company believes gives it an advantage in creating Full Self-Driving (FSD) vehicles *and* Optimus robots.
+
+At some point along the way, Tesla went from being a car company to an autonomous machines company.
+
+Eight Sleep is trying to follow a similar path: start with high-end sleep system, collect a lot of data and generate profit to reinvest, use the profit to expand the product line and help people sleep better, get more customers, more data, and more profit, use it all to build a predictive health platform that makes the eight hours people spend lying still every night more valuable.
+
+What’s most important to understand is that **you can’t really skip steps**. You need the initial product, you need the sexy brand that makes people want to pay thousands of dollars to improve their sleep fitness, you need the profit, you need hundreds of thousands of customers using your product every night, you need the sensors. You need to build a successful consumer product to have a shot at building the health product.
+
+That’s the bet, at least. So we’ll go through all of it.
+
+I’m not sure when [Matteo Franceschetti](https://substack.com/redirect/ddf54b35-9d82-458d-a824-33554753794d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) and [Alexandra Zatarain](https://substack.com/redirect/42d530f8-59b5-4cc9-92af-a0c296ad511c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), the married co-founders of Eight Sleep, first knew that they wanted to build a predictive health company.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd7b81428-6e93-4caf-9975-55e468e26d66_908x651.png)](https://substack.com/redirect/644a2d0f-3839-42a6-88a1-ebba401c4c9e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Eight Sleep Co-Founders Matteo Franceschetti and Alexandra Zatarain*
+
+In an excellent [profile in](https://substack.com/redirect/00acde2d-d768-4607-9044-ebc5b290d882?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)  Arielle Pardes describes the couple as typical aspiring entrepreneurs. After moving to New York together in 2012, while Matteo worked on a solar company he’d started and Alexandra worked her job in PR, “They started going to tech networking events after work, and spent weekends prototyping startup ideas at hackathons.” One idea was Blue Apron for Italian food, another was a photo sharing app with prizes, a third was 3D printed custom jewelry.
+
+That last one – the 3D printed jewelry company, Mia – actually started to get some traction, but in order to turn it into something, Matteo and Alexandra would need some engineering help. Matteo, who hails from Italy, reached out to an Italian friend, an engineer living in San Francisco named [Massimo (Max) Andreasi Bassi](https://substack.com/redirect/3b9f3300-2ba9-4b12-a6eb-2eadbf5ddea5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU).
+
+The two got dinner. Matteo’s plan was to convince Max to come on to build an automated 3D modeling tool for Mia. Fortunately, he wasn’t interested. But during the meal, the two started talking about sleep.
+
+Matteo had always been one of that certain type of ambitious and competitive person who planned to sleep when he was dead.
+
+Growing up in Italy, he was a competitive ski racer, tennis player, and kart driver. He and a friend started their first business selling race pictures on the track at 20.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F386e5679-437a-407a-a1c5-021549375cae_908x522.png)](https://substack.com/redirect/a50af79f-5ed8-4283-a282-ada129dacbd1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Young Matteo in a racing car*
+
+After school, he became a securities lawyer in the Milan branch of Freshfields Bruckhaus Deringer, one of the five elite British law firms known as the Magic Circle. I’ve binge-watched enough *Suits* since it came to Netflix to know that working at a top law firm means sacrificing sleep. When the investment bankers head home for the day at 1am, they dump work on the lawyers, who keep going for a few hours. I honestly don’t understand how anyone does it, or why, but some people do, Matteo was one, and that meant 18 hour days and, therefore, less than six hours of sleep. But for that certain type, the lack of sleep is a badge of honor and a way to show others that you’re serious.
+
+Then the Global Financial Crisis hit, and work slowed. Matteo was only working 12 hour days, which meant he had a bunch of free time to work on other things. So he and a colleague built Global Investment Renewable (GIR) to connect international renewable energy firms with southern Italian landowners who had room for solar panels. They made over 1 million euros in their first full year, and quit the law. When new regulations and a weak Italian financial market slowed the firm down, they sold it for a profit, and Matteo moved to New York, the city that never sleeps, where he and Alexandra moved in together, and where he and Max had dinner in 2014.
+
+At that dinner, Matteo and Max discussed how bad Matteo’s sleep had gotten – so bad that he experimented with polyphasic sleep, a combination of ~90 minute sleep with short naps on a strict schedule – and his desire to get the benefits of a full eight hours in just six. They talked about how bad Americans’ sleep had gotten generally. At the time, only 34% of Americans were getting their eight hours, down from 59% in 1942. It’s only gotten worse since.
+
+[![](https://substackcdn.com/image/fetch/w_1866,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18232f37-523e-41b8-9431-cffd7a9e2db2_933x372.png)](https://substack.com/redirect/9939cdfc-920e-4a6a-8561-e4d1b11716e5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Gallup*
+
+Worse, they thought, no one was doing anything about it. Sleep was viewed as a thing to be overcome, a sign of laziness, not a performance enhancer. Matthew Walker wouldn’t publish *[Why We Sleep](https://substack.com/redirect/f9cccbb2-e47a-4bb5-bf80-936a70aac82d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)* for another three years, and mattress technology hadn’t really improved since NASA invented memory foam in 1966. ([I told you the things we build for space impact earth](https://substack.com/redirect/fbcadf07-6553-4dee-a6c8-0906c130700a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)!)
+
+Matteo and Max first laid out the vision for a bed that would “not only enhance sleep, but also improve long-term health, performance, and longevity. In short, a bed that would fuel human potential through optimal sleep” at dinner that night. Matteo told me his brain thought about it simply: “We’re in this place for eight hours a day, doing nothing. What else can we do? I’m obsessed with efficiency.”
+
+The vision resonated. Max didn’t want to work on 3D printed jewelry, but he *did* want to work on this.
+
+When he got back to San Francisco, he spent a week building a prototype in his basement with sleep tracking sensors, personalized temperature control (heat-only at first), and integration with internet of things (IoT) devices. The four co-founders of what was then called Morphy (and then Luna, before Eight Sleep) – Matteo, Max, Alexandra, and Andrea Ballarini – hosted a pajama party with friends to test the prototype.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F48af1189-4dff-4af4-b41f-7bc0650fd206_908x540.png)](https://substack.com/redirect/1d0b3b16-361f-4a4f-96de-e4b40125cbdc?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Andrea, Alexandra, Matteo, and Max on an early Luna*
+
+One friend wrote them a $25k check on the spot. Excited, they applied to Y Combinator. They were rejected. But this was back in the heyday of crowdfunding platforms, so they put it up on [Indiegogo](https://substack.com/redirect/47d1006e-be84-4138-86e6-d3402286eb06?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), hoping to raise $100,000 through $199 pre-orders.
+
+The campaign was set to close in March, the week before Matteo and Alexandra were set to tie the knot in her home country of Mexico. Add the nerves and chaos of wedding planning to the nerves and chaos of putting your product out into the world for the first time and you get a sense for what the couple must have been feeling. Fortunately, by the time the wedding rolled around, they’d blown their goal out of the water.
+
+In the first six hours of the campaign, they’d raised $100k. By the wedding day, they’d crossed $1 million. At the end of the campaign, **they’d pulled in a total of $1,231,729**.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6d1c5325-62a8-4915-815b-1c262bf137a3_908x391.png)](https://substack.com/redirect/2304d59e-9d58-4511-8a64-a9388e4fadc4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Eight Indiegogo Campaign*
+
+With the successful campaign under their belt, Eight Sleep re-applied to YC. This time, they had a working product, so they brought it with them: Matteo and Max brought a full mattress, cover, bed frame, nightstand, and lamp with them to YC, set it up in the hallway, and showed the partners the live sensor data. They got in.
+
+[![](https://substackcdn.com/image/fetch/w_2356,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffccef505-4bcb-4e4c-b689-849f64c670f3_1178x701.png)](https://substack.com/redirect/dbc1c8d9-54de-4e0a-a276-246fd5eb5e60?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Max on the Mattress at YC via The Information*
+
+At the risk of derailing the story, I want to take a little side quest. YC batches are startup time capsules. I encourage you to check out [Eight Sleep’s Summer 2015 Batch](https://substack.com/redirect/abe6b357-4f2a-4152-b09c-bf5790e84960?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). With the benefit of hindsight, some seem like obviously bad ideas, stuck in that moment in time. Others seem too early. Others seem too late. What’s most striking to me is that, of the “best of the best” startups from that generation, less than a decade old, most elicit a “Huh? Who’s that?”
+
+But the point of YC is to not get all of its investments right, but to get some *really* right. Dig deeper in the list and you’ll find some gems.
+
+[Instawork](https://substack.com/redirect/1858e996-891a-447c-a1da-202b1d70e5ef?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), the job marketplace, is worth $760 million. [Xendit](https://substack.com/redirect/f99b7344-b8c1-4e7e-8a52-3d195e143c89?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), the payment gateway for Southeast Asia, was valued at $1 billion in 2021, and raised $300 million more the next year. [Ironclad](https://substack.com/redirect/d57c1303-20f0-40a4-a8a7-b8047c479ecd?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), the contracting platform that is the most successful of them all, is worth $3.2 billion. And Paribus, while not a unicorn itself, is the predecessor to one. Its founders, Eric Glyman and Karim Atiyeh, founded [Ramp](https://substack.com/redirect/85f11681-421a-438e-b82d-44a20a883e41?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) after selling the company to Capital One. Ramp is now worth $7.65 billion.
+
+[![](https://substackcdn.com/image/fetch/w_1812,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2ea7a5f-520f-4eb8-b7f0-c8c3f8e5af29_906x503.png)](https://substack.com/redirect/5aa4fdc1-c881-487d-9b82-a10bdd8ab65c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+What makes this hard is that, out of 105 companies, would you have guessed that the sleep company would be one of the five most successful a decade on?
+
+It certainly wasn’t obvious. Eight Sleep raised a $6 million Seed round in 2016 and a $12.9 million Series A in 2016 as its pre-orders grew, and it had shipped a Sleep Tracker and Smart Bed to customers, but it was yet to ship its main product, which it would call the **Pod**.
+
+When [Delian Asparouhov](https://substack.com/redirect/23f77c54-5d00-448f-801e-abb5ca9b275b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) diligenced the company ahead of its Series B while at Khosla Ventures in 2017, there was no Pod prototype, and the plan was that when it came out, it would just heat, not cool. Khosla wrote a term sheet, on one condition: Eight Sleep would have to add cooling to the Pod.
+
+They did, and Khosla led a $10 million Series B.
+
+After the investment, in 2018, he got to sleep on the first Pod outside of the lab. It looked like this:
+
+[![](https://substackcdn.com/image/fetch/w_1216,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F46d56d72-34ba-4caf-8d21-d3eb67923b0d_608x808.png)](https://substack.com/redirect/c4b0aa3c-fb3a-4540-be0b-299599babea7?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*First Version of the Pod, from Delian Asparouhov*
+
+“It was super manual, there were no sleep stages, there was an open tub of water that would leak,” he told me, “but it worked from the get-go.”
+
+### **Waking Up in the Future**
+
+The early version of the Pod left something to the imagination. Matteo wanted to fill in the blanks. So in 2017, he wrote a memo titled ***Waking Up in the Future**.* It was Eight Sleep’s equivalent of Tesla’s Master Plan.
+
+The problem, as he saw it, was that although research and science suggest that your health rests on the three pillars of nutrition, exercise, and sleep, Americans had been focusing on nutrition and exercise while neglecting sleep. Culturally, sleep was an afterthought, an annoyance: 35% of the population was sleep deprived. Americans slept an average of 6.8 hours per night, down more than an hour since 1942.
+
+The solutions that existed – mattresses, pills, and wearables – were passive and one-size-fits all. No one was using technology to actively improve sleep in a personalized way. That’s what Eight Sleep was going to do.
+
+To that end, the product the company was, and is, working towards is the **HyperPod.**
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F956d9787-6f6f-4898-94d6-3a9377ab296d_908x514.png)](https://substack.com/redirect/a778941c-01ea-41ea-b07a-db389a6ad7ba?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Rendering of HyperPod*
+
+The HyperPod “is an enclosed space designed to provide complete control over the sleep environment, including light, noise, air, oxygen and temperature.” It has two goals:
+
+1. **Compress Sleep:** get the same amount of restoration in fewer hours.
+2. **Save Lives:** transform beds into medical-grade devices that scan your body every night and save lives, putting those “inefficient” hours to good work.
+
+*The Information’s* Pardes, who got to see a prototype of the HyperPod in Matteo and Alxandra’s home, [called it](https://substack.com/redirect/00acde2d-d768-4607-9044-ebc5b290d882?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) “Eight Sleep’s moonshot project:”
+
+> *a bed frame that pairs medical-grade tech with White Lotus-grade comfort. The Eight Sleep Pod can already manage temperature, but the Hyperpod will deal with other disturbances, like light and sound. The curtains create a blackout effect while the headboard contains built-in noise-canceling speakers. Soon the bed will also include an air purifier to provide pristine oxygen all night long.*
+
+She goes on to talk about grander ambitions: turning the pod into a hyperbaric chamber, like the ones athletes use to boost their red blood cells, and “imaging technology to scan for early signs of disease as you sleep.” The dream, she wrote, “is not just to detect health problems while you sleep but to actively improve them, without you lifting a finger or visiting a doctor’s office.”
+
+All of this was there in the memo Eight Sleep shared with potential investors, all this and more. Because you sleep on it every night, the HyperPod could even let you know how you’re aging. Are you getting older faster than your peers, at the same rate, or even aging in reverse, like [Bryan Johnson](https://substack.com/redirect/7f8cb2be-9340-44a5-acff-9f4150af235b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) (an Eight Sleep sleeper himself)?
+
+But while the predictive health benefits were far in the future – at least a decade away – Matteo wrote that in the nearer future, it would be able to deliver on a personalized sleep experience. “Based on members’ preferences and their sleep & health data,” he wrote, “Our software will automatically personalize their sleeping temperature and environment for better rest every night.”
+
+*Waking Up in the Future* was a roadmap against which the team has executed surprisingly consistently with impressive foresight. Even then, they realized that “The first step towards creating the HyperPod is collecting a significant amount of sleep data so we can deepen our understanding of what precise conditions we need to rest better.”
+
+And that relied on staying alive long enough to sell a lot of Pods.
+
+### **Bad Financials, Ravenous Fans**
+
+Over the next year and a half, Eight Sleep started doing just that. Meanwhile, Delian and his boss, Keith Rabois, moved over to Founders Fund. By the time the Series B2 rolled around, Delian was in the unenviable position of being the junior guy at a new firm trying to sell his new partners on investing in what most people believed to be a mattress company.
+
+“I can’t tell you how many times people said to me, ‘Ohhhh you’re investing in a mattress company. This is Casper!” Delian remembered. Worse, this was his thesis:
+
+
+His logic went like this.
+
+Reactions to the product are binary. There was a set of people who slept well already. They would churn. But there was another set that didn’t sleep well, for whom the product made a big impact. For them, it was the most important thing in their life. Eventually, Delian reasoned, if enough people talk about this being the most important product in their life, it will turn into a good business.
+
+The logic was the same by which Founders Fund itself operates: better to have everyone feel strongly about you one way or the other than to think you’re “OK.”
+
+Even still, it was a hard sell. The way investments work at Founders Fund is that for a small enough check, anyone can make the investment. The larger the check gets, the more senior a partner needs to sponsor it. Delian was not yet a partner and wanted to write a $10 million check. Keith, who sponsored the first investment while the pair were at Khosla, didn’t want to sponsor it at Founders Fund, too, because of the optics. So Delian got Matteo to send his other partners Pods and convinced them to sleep on it.
+
+One of those partners, Anduril co-founder [Trae Stephens](https://substack.com/redirect/851c25c9-7bdc-417c-9eb1-7cb694b3284d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), lived in an apartment in San Francisco with “shitty AC.” Luckily, since Khosla invested in 2017, Eight Sleep had fulfilled its promise to add cooling to the bed. So when Trae tried it, it actually improved his sleep. He agreed to sponsor. Now, they had to convince the rest of the partners. Delian was in Utah at the time, and he had to climb a mountain to listen in on the vigorous debate on whether the firm should invest.
+
+[![](https://substackcdn.com/image/fetch/w_1820,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a3756b5-7382-40ba-a634-4a657ef894fe_910x390.png)](https://substack.com/redirect/b315acf7-22da-4e8b-ac1e-f42b493d0fca?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Artist’s Rendition of Delian in the Utah Mountains*
+
+It was worth the hike. Founders Fund led a $40 million Series B2 that valued Eight Sleep at $100 million post-money.
+
+Eight Sleep had cash in the bank, but it still had that small problem: the business sucked financially.
+
+### **Building a Consumer Hardware Business**
+
+Building a consumer hardware business is very hard. Eight Sleep has. **They’re profitable and free cash flow positive over the past twelve months.** As consumer hardware makes a comeback with AI, it’s worth drilling deep to understand how they’ve pulled it off where so many others have fallen short.
+
+In 2017, Crunchbase [did an analysis](https://substack.com/redirect/e0f22167-070e-41af-bbba-b9bac004e40a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) of hardware companies a couple years ahead of Eight Sleep’s vintage (first raised in 2012 and 2013), and just five years in, **97% had failed**.
+
+[![](https://substackcdn.com/image/fetch/w_2912,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdfc3602b-d08c-45ef-afb7-fd42d6601fb0_1600x954.png)](https://substack.com/redirect/96168854-9ae6-4e75-8992-773f21686101?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Crunchbase Graphic and Some Failed Consumer Hardware Companies*
+
+We’re learning how hard it is once again with products like [Rabbit](https://substack.com/redirect/48fe597a-5bf7-4eb1-b654-1147d7653905?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), [Humane](https://substack.com/redirect/8c8a4306-f124-46b8-b62b-6c5f1d92a10e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), and even [Vision Pro](https://substack.com/redirect/2ec39518-82f9-453d-9507-3869864eafe5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU).
+
+There are any number of reasons that consumer hardware companies die. Hardware is hard. Consumer is hard. The combination of the two is brutal.
+
+Often, though, it simply comes down to **unit economics.** It costs the company more to make and market the product than they’re able to convince customers to pay for it. There’s the hope that, with scale, costs will come down and the company will get profitable, but most don’t survive to see that day. More recently, companies have added software subscriptions to their hardware so that, over time, each customer actually becomes profitable. But costs exist in the present, and there’s R&D and inventories to pay for, and once again, before that turning point hits, the business dies.
+
+Matteo told me that the problem is even more fundamental than that. “Sometimes, consumer companies don’t fully understand their unit economics,” he explained, “So founders, including us in the early days, try to keep prices low to drive more units before they’re sophisticated enough to understand all the costs.”
+
+Little unexpected things hit you. You need to use air freight instead of sea freight. You need to place a larger than expected purchase order. Merchant fees are higher than anticipated because more people use financing.
+
+“They eat your margin,” Matteo said.
+
+That’s where Eight Sleep was, and why the financials sucked. The company was forced to raise prices.
+
+When they did, something funny happened. Or didn’t happen. There was no impact on conversion or growth. People who wanted a Pod Cover at $2,000 seemed to be fine with paying $2,400.
+
+“That’s the moment something clicked,” Matteo told me. “Eight Sleep’s customers just wanted the best possible product, so we just needed to focus on that.” Put another way, **“We can charge a little more to make sure we have a business that will be here 20 years from now.”**
+
+That mirrors what Radiant’s Doug Bernauer told me for last week’s [deep dive](https://substack.com/redirect/fbcadf07-6553-4dee-a6c8-0906c130700a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), and I think it’s a really important lesson: **“If you sell way too cheap and something was off in the model or prices change, your company becomes no longer viable and you did a great disservice to humanity.”**
+
+If you’re building a hardware product that you expect to be important, you owe it to the world to charge enough that you can actually deliver it at scale.
+
+Of course, you might be thinking that charging *too* much kills you in a different way: if no one buys your product, you’re dead too. But Matteo thinks that’s a misunderstanding of how consumer actually works.
+
+“People think that if you reduce price, CAC (customer acquisition cost) goes down too,” he said. “But 90% of the time, for a certain product and price range, your CAC barely changes.”
+
+That’s a disaster: it costs you the same amount to acquire a customer, but you get less margin from each. Still, a lot of investors make the mistake of pushing you to go downmarket.
+
+Luckily, Matteo is Italian. He comes from the land of Ferrari, Lamborghini, Prada, Loro Piana, Riva, and Ferragamo. He also comes from a land where it’s very challenging to raise venture, and therefore, where you need to build a business that makes money early just to survive.
+
+[![](https://substackcdn.com/image/fetch/w_2912,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e9f31e4-a938-4e4f-a804-d0824eaa4721_1600x448.png)](https://substack.com/redirect/df7427b6-b78b-4ada-b76a-72e7c67c1d56?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Italian founders, some of whom bootstrapped their way to multi-billion dollar businesses, warned him not to go downmarket, where price wars lurk. Instead, they told him, **“Stay premium, keep adding value, and charge a price that gives you good margins.”**
+
+Instead of figuring out how to lower prices, Eight Sleep would focus on adding more value at the same price point.
+
+That decision was a game changer. It shaped how the company acquires customers. Matteo thinks about it in three steps: **product, then brand, then performance marketing**.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb2b39cc-327a-493f-94ed-1f5f69c38482_908x1021.png)](https://substack.com/redirect/fd5f7d29-e504-48a3-bd9c-a070008ae7e1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Eight Sleep starts with a maniacal focus on the **product**, believing that people will talk about a truly exceptional product, a la Apple and Tesla.
+
+Then, they enhance the word of mouth with their **brand positioning**: an aspirational sleep fitness product that’s valuable to people who care about performance. They’ve partnered with or are used by top athletes, scientists, and tech leaders including Formula 1 champion Lewis Hamilton, health researchers Dr. Peter Attia, Dr. Andrew Huberman, and Dr. Matthew Walker, and billionaire tech CEOs Elon Musk and Mark Zuckerberg.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae3f7007-7ede-4145-aaa8-0a139507eae4_908x473.png)](https://substack.com/redirect/7d072904-7370-4c1a-95b8-689292a3e09b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Eight Sleep Website*
+
+Even Bryan Johnson, who is spending millions of dollars on his body to reverse his biological age, sleeps on an Eight Sleep.
+
+[![](https://substackcdn.com/image/fetch/w_1226,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd0c62fab-df2d-402b-8772-8b72ac593411_613x203.png)](https://substack.com/redirect/79305c21-d00a-423c-80cd-752a5aae3598?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*[Link to Tweet](https://substack.com/redirect/67272b70-6327-455d-b571-df701025ff85?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*
+
+The message is clear: the people who can afford to sleep on anything, and for whom slightly better performance from slightly better sleep is worth a lot of money, sleep on Eight Sleep. If you care about performance, you probably should too.
+
+Last comes **performance marketing**, like Facebook/Instagram Ads, YouTube ads, Google search ads, and the like, designed to get you to actually click over to Eight Sleep’s website and buy. “For us,” Matteo explained, “performance marketing is just the ability to convert the work we’ve done with our product and aspirational brand.”
+
+
+I say long-term because while what Matteo said about price not impacting CAC is true *now*, now that people know what Eight Sleep is and how the Pod works, it wasn’t true in the beginning, when people thought it was just a really expensive mattress.
+
+Or, as Delian put it, people who saw Eight Sleep ads asked, “Why the fuck would I pay $3k for a mattress? And that showed up as CAC.”
+
+Over time, though, as the product actually improves peoples’ sleep, they start talking about it. That shows up in CAC, too: today, **30% of revenue comes from word of mouth**.
+
+“Everything starts with having a product that people talk about,” Matteo said.
+
+Eight Sleep’s current top-of-the line product is the [Pod 4 Ultra](https://substack.com/redirect/e736143a-d21f-4078-82c9-36fc7a017cf0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU).
+
+[![](https://substackcdn.com/image/fetch/w_1100,h_618,c_fill,f_auto,q_auto:good,fl_progressive:steep/l_play_button_usfui2,w_144,e_colorize:0/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F147636579%2F9f5cbf74-0686-491d-a24b-2e0f6b9a19c0%2Ftranscoded-00001.png)](https://substack.com/redirect/cd8b0131-bc4d-4b3d-a214-625212377f33?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+It cools and heats your bed (each side has its own temperature control), detects snoring, and even elevates to reduce snoring and pressure. Paired with Eight Sleep’s [Autopilot AI](https://substack.com/redirect/2c845515-6e78-4b9f-b024-fe4f610abb27?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), it learns about you and adjusts your bed throughout the night to improve your sleep.
+
+Last week, the app started alerting me every morning with the number of Autopilot adjustments it made and the impact they had. And when I check my Oura ring to confirm that I really did get the increased REM or deep sleep that Eight Sleep said I did, it checks out.
+
+[![](https://substackcdn.com/image/fetch/w_1218,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ef401b4-5b3e-465f-b434-a4dcbd58fe79_609x515.png)](https://substack.com/redirect/f93df0ca-e72e-472d-ae34-c944e307c411?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*[Link to Tweet](https://substack.com/redirect/50d8e7bd-ba51-4823-9990-e8faf22b0aff?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*
+
+People seem to like the feature, but the biggest complaint is that it just says that it made x adjustments, not *which* adjustments it made. When I asked Matteo about it, he laughed and said that “telling people what we did, why, and when is a top priority.” Updates should be pushed in the next few weeks.
+
+Good and bad, these are the kinds of things people talk about. No one has ever had their sleep improved for them mid-sleep before. Search Twitter for “eight sleep” and you’ll see hundreds upon hundreds of tweets about its product. This one is from a security expert with 472k followers.
+
+[![](https://substackcdn.com/image/fetch/w_1220,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa802bfb-5309-40df-a10e-5253964a8fea_610x272.png)](https://substack.com/redirect/07139a77-d62a-44a7-9ad7-9429d29a78f5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*[Link to Tweet](https://substack.com/redirect/2e1269f1-83cb-42ec-a9ed-e63b71b7a0dd?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*
+
+There’s even an unofficial [Eight Sleep subreddit](https://substack.com/redirect/bc95c9e7-132f-4ace-80a6-c1def2e81678?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) where people post about the company daily, some good, some practical, and some bad.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d320bc2-4aa8-4f6a-b28d-fff50c44a91e_908x900.png)](https://substack.com/redirect/586771a4-246f-4d38-bc6d-7238f66a88f8?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Unofficial Eight Sleep Subreddit*
+
+Eight Sleep’s products aren’t perfect, and it’s worth talking about some of the more frequent complaints.
+
+For a while, one of the biggest complaints was that it **leaked**. To cool or heat the Pod, you fill the water tank, and each night, it pumps cold or warm water through to give you your desired temperature. I remember seeing a ton of tweets about leaks in the early days of Eight Sleep, even when not a lot of people had Pods, but they seem to have slowed to a … trickle.
+
+There’s a reason for that: Alexandra said that Eight Sleep completely redesigned the Pod 4 over 15 months to avoid leaks. They switched from a mat with a grid pattern to softer tubes that easily compress under the weight of your body while maintaining water flow. More flexible tubing allows for greater water density within the Cover’s tubes, which means a more comfortable heating and cooling experience. And the Cover in Pod 4 is 20% thinner than the original, more averse to punctures, and more elastic, and therefore more resistant to wear from tossing and turning.
+
+Another complaint is that the **app’s user experience isn’t up to par with the physical product**. In the middle of my conversation with Delian, after saying that it’s “insane how many clicks it takes from getting into the app to setting the alarm,” he paused, took out his phone, turned his laptop around so that the camera faced the phone, and then walked me through the whole process.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2aac43b8-6258-4c21-91c0-c7ceb9d08bd6_908x614.png)](https://substack.com/redirect/5d2dbe2a-8d18-4a89-8480-f7c59eda9a5c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Delian Walking Me Through Setting an Alarm*
+
+“The v1 version of the app in 2018 was basically as functional as the app is today,” he went on, “the only exception is that the data is much better.” That’s a big exception, because my sense is that Eight Sleep is trying to move towards a world in which the Pod anticipates your needs without you ever having to open the app.
+
+Then there’s the biggest complaint of all: **Eight Sleep charges $15-24/month for its autopilot subscription.** I asked Matteo about that, too, and got some insight into how he thinks about the business:
+
+> *Subscription ARR is growing 4x year over year. We see some complaints about the price, but it’s a relatively small number of vocal people compared to the volume of customers we have. What we can quantify is churn which is very, very low, and keeps declining.*
+>
+> *Where we might pay a price for it is that people just don’t buy in the first place because of it. But we’re still growing very fast and very efficiently. Without charging for Autopilot, **we could be growing maybe 20% faster, but with a less healthy business**.*
+
+One of Eight Sleep’s advantages over wearables is that it’s always connected to WiFi, which means it can run its models and make adjustments in real-time. But as the world is now acutely aware, building and running AI models at scale isn’t cheap. The membership subscription covers those costs and pays for the teams that build new features and do research and development.
+
+“If we want to scale and support millions of users,” Matteo explained, “We need to have those costs covered in order to be an efficient and profitable business.”
+
+Delian put it more bluntly: “If $15 per month is stopping you from buying a product that’s going to improve your productivity and performance, you’re not the right buyer anyway.”
+
+My takeaway is to take the feedback seriously, but don’t take it more seriously than the business. Fix the things that need to be fixed – like the leaks – while making sure that the business itself isn’t leaky. A business that bleeds cash too long won’t have a shot at tackling the things that Eight Sleep plans to tackle, in a way that the company believes you can only do if you have a lot of consumers using the product consistently over a long period of time.
+
+The whole thing is a tricky balance. You need to build the best possible product within a business model that gives you the chance to keep making it better. You need to plan for the future while making sure that customers are happy in the present. Eight Sleep’s journey to this point has been a grind.
+
+The company had to raise $160 million to get here, including an $86 million Series C in 2021 led by Valor Equity Partners that valued the company at $500 million. Scaling hardware companies is very dilutive and requires a lot of capital, particularly in the early days. At no point was Eight Sleep’s success guaranteed.
+
+Then, it flipped. Eight Sleep became a good business.
+
+Nearly a decade in, it feels like Eight Sleep has finally completed the first leg of its journey: **it’s built a free cash flow positive consumer hardware company.**
+
+It’s brought in more money over the past twelve months than it’s spent.
+
+Three years ago, Eight Sleep had low **gross margins** (revenue - costs of goods sold) and lower **contribution margins** (gross margins - CAC). It made a little bit of money on each Pod, but not enough to cover all the fixed costs required to run a data and hardware company. It had to hope that those customers would end up spending more within the Eight Sleep ecosystem over time, on Autopilot subscriptions or more Eight Sleep products, so that the numbers might turn around long-term.
+
+Today, **Eight Sleep has best-in-class gross margins, its CAC has been trending down for four years in a row, and it is making hundreds of millions in revenue every year**. They have **double-digit % contribution margins**, meaning that they make money on each customer **immediately**, even before high-margin subscription revenue is taken into account.
+
+“This is how you become free cash flow positive,” Matteo told me. Earn more money than you spend right upfront; let everything that comes beyond that be gravy.
+
+Once subscription revenue is taken into account, Eight Sleep has a world-class **LTV:CAC** ratio, meaning that the gross margin expected to be generated by each customer is multiples higher than the cost to acquire that customer. This number has improved as gross margin has, and as churn on Autopilot has come down.
+
+Impressively, they’re putting together those unit economics while continuing to grow quickly. The company is **on pace to nearly double revenue again this year**, with big growth coming from Autopilot and international.
+
+Eight Sleep now controls its own destiny. It’s not going to die, unlike thousands of consumer hardware companies that have come before it. If it continues doing what it’s doing, it should print bigger piles of cash each year.
+
+While there are competitors in the mattress cooling game, like [Chilipad](https://substack.com/redirect/2717c36d-207b-41cd-800b-ba407a8dce19?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) (acquired by sleepme) and [Bed Jet](https://substack.com/redirect/bce49d5b-a18c-4368-9cfc-8a1d5240d678?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), Eight Sleep has surpassed each on the product front. They are “dumb” products, they do what the user tells them to, while the Pod is “smart,” learning and adjusting on its own in ways that humans couldn’t on their own (especially while sleeping). Its lead should compound over time as more data means smarter decisions and better sleep, which should mean its margins will be protected.
+
+On Pods alone, the business could get much larger. Delian reasoned that **everyone who owns a Tesla should also own a Pod**. With 1.8 million Teslas sold last year, that’s $7.3 billion in revenue based on the Pod 4 Ultra’s starting point. There’s a long way to go in terms of brand awareness – Matteo’s X following isn’t quite as large as Elon’s, for one thing – but when I asked Matteo about that comp, he said he thinks the market is bigger, if they do their jobs right:
+
+> *Every Tesla owner should have a Pod, but even bigger, every Apple Watch owner should have a Pod. Apple moves 50 million Watches per year. What Apple is doing is educating a large piece of the population. People are already open to paying a premium price for something connected to their health. At the very least, **every Apple Watch Ultra owner should have a Pod.***
+
+[![](https://substackcdn.com/image/fetch/w_2912,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F66eb0530-5e11-4bf6-b75b-83aed8f1c0ea_1600x615.png)](https://substack.com/redirect/0ec62cb2-3185-4fd4-8617-9f7f74a9d9e5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+That is a very large business. But in the grandest version of the company’s vision, the Pods’ most important role is profitably building the dataset and customer base on top of which it can build products to own the whole Sleep Economy.
+
+### **Owning the Sleep Economy**
+
+Back at that dinner conversation in 2014, the core set of ideas that got Matteo and Max so fired up were that Americans were sleeping worse, no one seemed to understand or care what that meant for human health and performance, and no one was doing anything to fix it.
+
+In the intervening decade, Eight Sleep has made progress towards fixing sleep.
+
+Its aspirational brand around **sleep fitness** has been good for CAC, sure, but it’s also been good for sleep.
+
+Harvard sleep researcher Matthew Walker’s 2017 hit *[Why We Sleep](https://substack.com/redirect/f9cccbb2-e47a-4bb5-bf80-936a70aac82d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)* woke Americans up to the benefits of a good night’s sleep, and the dangers of missing it. Ask Puja. After I read it, I wouldn’t shut up about the importance of setting our temperature to a cool 65 degrees, rolling down the blackout shades, and getting all electronic devices as far away from us as possible.
+
+And I would have gotten away with it too, if it hadn’t been for our ~~meddling~~ wonderful kids! Nothing makes you realize the impact that sleep has like having two little kids.
+
+I won’t go into all of the details. I assume you know that sleep is really important at this point. But in case you want to be scared straight, watch his TED Talk:
+
+[![](https://substackcdn.com/image/youtube/w_550,c_limit/l_youtube_play_qyqt8q,w_120/5MuIMqhT8DM)](https://substack.com/redirect/33136323-9058-4ce1-a03a-a140fd371acc?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Eight Sleep was early on the trend and ended up in the right place, at the right time, with a product that promised to improve your sleep *without you having to do anything*. From that position, it’s built on Walker’s work and **made sleep sexy**. They helped Americans understand and care about the impact of sleep on performance.
+
+They’ve also started to do something to fix it. By adjusting your bed’s temperature, Eight Sleep claims to give its members up to one extra hour of sleep per night.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8292366a-90a7-4bb3-9ce3-4a1dd27d77b1_908x422.png)](https://substack.com/redirect/b0019eaa-8a22-460e-a578-668dae4514a4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Eight Sleep Website*
+
+*The Information’s* Pardes pointed out that, when she wrote the piece in 2022, there had been no peer-reviewed studies confirming these results, and the company warns that they vary person-by-person. That said, in April, the company published a study for peer review, which can be found [here](https://substack.com/redirect/a3dbe651-aa73-4feb-9c82-41c2e653fce2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). It found that the Pod improved deep sleep by up to 22%, decreased sleeping heart rate by up to 13.2%, and increased in HRV by up to 16.5%.
+
+Improving the environment in which we sleep is one of the most impactful things the company can do to improve sleep, but it’s not the only thing, and its plan is to do all of them. It wants to be the leader of the [$600 billion](https://substack.com/redirect/cb844567-0cde-482f-bdb5-9e195f45703f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) **Sleep Economy**.
+
+The Sleep Economy is a relatively newly defined category that includes everything involved in sleep, and in making people sleep better, from environment to apnea to insomnia. Think mattresses, trackers, sleeping pills and supplements, and more. To date, the category seems to be losing its battle against all of the other factors fighting to make us sleep less.
+
+If the phrase “Sleep Economy” sounds familiar, it’s because Casper promised the same thing. When the DTC mattress company filed to go public in early 2020, its S-1 blared “Welcome to the Sleep Economy” right on page 2.
+
+[![](https://substackcdn.com/image/fetch/w_1824,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff4040cd5-ea42-431e-bb37-3dd0d8677b6a_912x605.png)](https://substack.com/redirect/3d8dbd44-1680-43f1-aba8-25f887f1b1fe?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Casper S-1*
+
+Casper failed to own the sleep economy. It was taken private by a private equity firm for around $300 million after reaching a peak valuation of $1.1 billion in the private markets.
+
+Why should Eight Sleep fare any better?
+
+Casper’s plan to own the Sleep Economy was essentially a brand and cross-sell play. People bought mattresses from Casper, and associated the company with “sleep,” so why wouldn’t they buy pillows, lights, sound and scent devices, sleep-tracking devices, medical devices, bedside clocks, supplements, and even counseling from that same company?
+
+[![](https://substackcdn.com/image/fetch/w_1820,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa819281c-9238-4c3f-abcb-12a7067044fe_910x587.png)](https://substack.com/redirect/40a1575a-583d-492b-9184-ed50b6ad2c53?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Casper S-1*
+
+Because, other than the slight convenience of checking out in one cart, there was no reason to. A supplement from Casper didn’t work any better just because you also happened to sleep on a Casper mattress. It would have worked just as well with a Tempur-Pedic.
+
+Eight Sleep’s bet is that the data it’s acquiring over millions of nights slept on its Pods will allow it to create more effective, and importantly, more personalized products to treat sleep.
+
+It’s the same playbook they’ve been running: product first, then brand, *then* performance marketing. Eight Sleep will also have the ability to cross-sell, but it will do so with products that work better in concert.
+
+Matteo said his goal over the next 10 years is to develop the “Ozempic for Sleep,” but that to get there, they need to start by crawling. They took the first crawl last week when they sent out an email to a small group of beta members (Puja happened to be one) about their first supplement line. “The demand was insane,” Matteo said.
+
+One thing the company will need to prove is that their data genuinely gives them an advantage over, say, a research lab with world-class biologists. When I pushed him on why data might be an advantaged approach, Matteo argued that Eight Sleep’s scale and speed should make a difference, particularly as the company uses AI models that can pull more signal from huge amounts of data.
+
+David He added more color to this idea. He told me that Eight Sleep recently ran a sleep study over the course of a month with just 10,000 of its members. With just a fraction of Eight Sleep’s members, it was already the **largest sleep study in history**. And the team can iterate, slice, and dice “like crazy”: that one study had sixteen different cohorts. “We can figure out what happens in real-time, with real world evidence,” he said, “then package what we learn into the model, ship it, and see what improves the next night when people sleep.”
+
+Unlike other wearables, Eight Sleep has a **closed loop:** it can both measure and impact sleep. They enrich that data with information that members provide about themselves, their habits, and their medical history, and with Apple Health data if members choose to connect it. The goal is not only to understand sleep at scale, but to deliver **personalized** solutions that benefit the user by giving them better sleep.
+
+“There’s always a trade-off,” David said, “What’s the sweet spot for each person? What do we know about you that can optimize your sleep, personally?” The more people who use a Pod and provide information, the better Eight Sleep can see patterns across different populations, and using its AI models, find correlations that even David might not have thought to look for.
+
+Thus far, Eight Sleep’s main interventions have been adjusting temperatures, recommending bed times, and, with the Pod 4 Ultra, elevating the bed to stop [snoring](https://substack.com/redirect/991f14f8-6700-469a-a32f-c69fc01fbe3d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) or improve airflow. Now, they’re embarking on measuring the impact of **sleep aiding supplements**.
+
+The advantage Eight Sleep has, both Matteo and David said, is that they can measure. Pharma companies have to do expensive human trials to test drugs, and they don’t have nearly the scale that Eight Sleep does. A [recent Phase III trial](https://substack.com/redirect/9abe6ea3-3a0a-4033-8c89-d70a784dfe71?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) studying the impact of Tirzepatide (Mounjaro) on obstructive sleep apnea in obese patients had 469 participants. Eight Sleep will test supplements across tens of thousands, and it will adjust frequently based on the data it receives.
+
+“We can start testing single supplements at scale,” Matteo explained, “Does Ashwagandha work? Does Glycine work? Does Magnesium work? Then we can start adding one more and one more and in a matter of weeks, you have a sense for what works and what doesn’t.”
+
+“Like software,” David added, “we can iterate on every version and get feedback right away.”
+
+There are, of course, trade-offs. While Eight Sleep will collect much more data, they won’t have the controlled data that clinical trials produce. They can know who has bought which supplements, and members will even be able to tag which nights they’ve taken them, but there’s no way of knowing for sure. Unlike temperature adjustments, which Autopilot controls, testing supplements will depend on member adherence and self-reported data.
+
+David and Matteo believe that the trade-off is worth it, for now, and that scale, speed, and AI can overcome a lot of challenges. If the supplements actually have an impact, Eight Sleep’s models should soon be able to tell when people actually took them, and correlate the impact with data from 20-30 sensors measuring everything from heart rate to respiration to body temperature.
+
+Supplements are a good place to start, because they’re very well-understood, safe, and importantly, not regulated by the FDA. Eight Sleep will be able to test and iterate in a way that they just couldn’t, and for good reason, with novel, unproven drugs.
+
+Over the longer term, David is very clear that they’ll need to work with the FDA to develop pharmaceutical products if that time comes. The team has several people who have gone through FDA clearance, and is “quite mature about that. If we think a product may have value, we will go through that process.”
+
+The key, he believes, is to show that Eight Sleep is doing its job well and is a trusted way to prove or disprove that something is working.
+
+At a certain point, if things go well, I imagine the company will work with the FDA to figure out a pathway that takes advantage of Eight Sleep’s scale and speed to measure the efficacy of interventions in a way that hasn’t been possible before, **that’s only really possible if you build a large consumer hardware company first**. Ultimately, the FDA wants to make sure that people have access to safe, effective treatments for the things that ail them.
+
+In the short-term, though, there’s a lot that Eight Sleep can do to help people sleep better using what they already have at their disposal. David told me that his team has four priorities in the short-term:
+
+1. **Making Autopilot as Good as Possible**. Already, Autopilot delivers a 12-14% improvement in sleep quality versus manual Pod temperature settings by users, and it’s continuing to improve as it adjusts each night based on new data and learns from *that* data.
+2. **Detecting and Mitigating Snoring**. Eight Sleep’s sensors detect chest vibrations, turn them into a spectrogram, and then use computer vision to figure out which is a snore with 93% accuracy. With the Pod 4 Ultra, it can now elevate the bed when it detects snoring in order to mitigate it.
+3. **Adding More Sensors**. David and the team are sensor nerds, and they’re consistently testing new sensors, figuring which to put in, which have gotten good and cheap enough, and what improvements they can make to their existing sensors. In the near-term, they’re looking at better temperature sensors that can tell your body temp, because “the first thing you do when you feel off is to take your temperature.”
+4. **Finding Correlations and Insights.** The data science team takes all that data to find correlations and insights and deliver them to users. For certain health insights, it may need to get FDA approved, but there are plenty of things it can tell you now. Eight Sleep has an in-house clinical team conducting its own proper studies. Last year, it did eighteen of them, which directly enabled its algorithms and features.
+
+
+I want to be very clear that this is still a goal, not a guarantee. Sleep trends in America and around the world suggest that sleep is very much not a solved problem. The burden of proof is on Eight Sleep – it will need to prove that its interventions actually improve sleep through peer-reviewed studies to fulfill this promise, and eventually, it will need to work with the FDA if it wants to develop the “Ozempic of Sleep.”
+
+Personally, I very much hope they succeed. With two young kids, I’m acutely aware of the difference in my health and performance when I don’t sleep well. Good sleep, when I get it, is the best performance enhancer I’m aware of.
+
+I’m also personally a fan of their approach, even if it’s unorthodox compared to traditional clinical studies. The point of technology is to be able to do things better than we have in the past, and it’s hard to imagine that lying on a bed of sensors for eight hours every night over a long period of time *won’t* give researchers the ability to develop better solutions.
+
+It’s up to Eight Sleep to get the balance right: marketing the results that they can prove without overpromising, in order to increase its scale, data, and impact while maintaining the trust that will give it the permission to go after its really big goals.
+
+If Eight Sleep’s thesis that better data is a platform on top of which it can build personalized and effective products is correct, it has a good shot at owning the Sleep Economy. **That advantage compounds: better data → better products → more sales → better data, and so on.**
+
+It’s hard to imagine another company winning on that approach, because it would mean needing to go through the pain of building a consumer hardware business with hundreds of thousands of users, like Eight Sleep has over the past decade.
+
+To fully capture the market, it will need to deliver products at various price points, from the high-end HyperPod down to a more approachably-priced Pod line that fits more consumers’ budgets. Fortunately, the history of technology is that cutting-edge and expensive becomes pervasive and affordable with time and scale. More accessible products would only speed up the data → product flywheel.
+
+If the company is able to improve sleep at scale by making it sexy and delivering results, it will have a tremendously positive impact. Sleep is a lever: it touches health and performance across practically every category. Helping the world sleep well again would be a worthy goal in its own right.
+
+But if we’re going to be sleeping more anyway, Matteo thinks we might as well put that time to good use.
+
+### **From Better Sleep to Predictive Health**
+
+Last summer, I wrote a [deep dive on Ezra](https://substack.com/redirect/576676f6-506d-4ad5-b38f-ae55d25eabe5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)’s quest to kill cancer with screening. I opened it with a glimpse into the future of predictive health.
+
+> *Let’s start in the future. Pick a year, say 2050.*
+>
+> *In the year 2050, each time you step in front of the mirror in your bedroom, it runs a quick and dirty MRI on you. The MRI won’t be as high-resolution as something you would have gotten in a tube in 2023, but it doesn’t need to be. AI fills in the gaps and pulls signal from noise.*
+>
+> [![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa3cc1313-8d5b-4d0f-9228-68017718e08c_908x458.png)](https://substack.com/redirect/1fe37f03-b1ad-40b8-804b-c1df9df3013f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+>
+> *Most days – 99.9% of days – you don’t even remember you’re being scanned. There’s nothing to report, so your mirror reports nothing.*
+
+After studying Eight Sleep, I’m more convinced that we’ll live in that future, but I realized that I got the form factor wrong. A mattress makes a lot more sense than a mirror.
+
+When I asked David what Eight Sleep might be able to do in a decade, he replied, **“Every night, you basically get a physical.”**
+
+That reminded me of the Ezra piece, so I asked him if they’d eventually be able to put MRIs inside of our beds, and he said that while it’s not possible in the current state – a house’s floors can’t support the weight of the magnets, wall outlets don’t have enough current, and you wouldn’t be able to wear metal jewelry to bed – “everything is possible with the way that technology is progressing.”
+
+The product that Eight Sleep is building and the way it’s built the business are critical to this vision. A mattress has the room for practically any sensor the R&D team wants, and the company has the margins to include them without killing the business.
+
+The HyperPod, when it comes out, will take those advantages and turn them 3D. Already, the HyperPod prototype that Matteo and Alexandra sleep in can produce 3D scans of their bodies using thermal imaging and computer vision. The HyperPod will have more sensors, and more ways to act on the data that those sensors generate in order to produce better sleep, and better health.
+
+Matteo described it as “a canopy bed like you can buy at Restoration Hardware, but you close the curtains for blackout and inside it’s making adjustments to air temperature, quality, etc… You don’t feel it, but you can reduce oxygen by 5% and you’ll feel the benefits in three years.”
+
+The really big vision, he says, is that between the Pods, the HyperPod, and the whole portfolio of products that Eight Sleep releases in the coming years, “While you sleep, we enhance your sleep and scan your body every night to detect disease early.”
+
+Again, the burden of proof here is on Eight Sleep. There has never been a successful predictive health platform at scale, despite hopes, promises, investment, and the clear promise of such a platform.
+
+If it succeeds, though, it will be a revolution in healthcare. Prevention is worth an ounce of cure, and early detection is often the difference between life and death. In cancer alone, “Early cancer detection has an 80% survival rate, compared to less than 20% for late stage cancer,” according to the American Cancer Society. By detecting small changes to your body every day for years, and comparing that to anonymized data from clusters of similar people around the world, Eight Sleep may be able to not only detect conditions early, but do so while minimizing false positives.
+
+There’s a long way to go from here to there, including, inevitably, working with the FDA to get clearance to make the kinds of predictions and diagnoses the technology should enable. While building a sexy consumer brand is valuable in getting to the scale Eight Sleep needs to have an impact, it will need to expose its more serious, measured side behind the scenes in order to be taken seriously enough to get that clearance. Certainly, data and peer-reviewed studies will help.
+
+Pulling off that transition and turning an Indiegogo-backed mattress cover company into a clinical-grade predictive health platform would be one of the all-time success stories, and proof of something that’s becoming an increasingly clear theme in Not Boring: **you need the right business model to actually change the world**.
+
+### **What Dreams May Come**
+
+Eight Sleep’s vision of the future seems almost fantastical. I can almost hear your cognitive dissonance, that the company selling expensive mattress covers hyped up by tech people on Twitter might be able to solve sleep and *then* build a predictive health platform that detects cancer, measures your rate of aging, and takes steps to make you healthier while you sleep.
+
+And to be sure, that future is far from guaranteed and I don’t have the technical depth or crystal ball to know whether they’ll be able to pull it off.
+
+But we can end, like we began, with a thought exercise.
+
+If a research team spun out of a top university today and told you that they had dozens of sensors measuring hundreds of thousands of people for eight hours a day, the ability to make adjustments and measure their impact, and the ability to fund itself indefinitely, wouldn’t you think they had as good a shot as anybody?
+
+Over the past decade, that’s the situation Eight Sleep has worked itself into.
+
+It built a consumer hardware product that a set of early adopters is ravenous about.
+
+It maintained a high price point, which made acquiring customers harder in the beginning, but is paying off now that word of mouth has kicked in. The price point makes sense when you’ve heard from everyone from Lewis Hamilton to Peter Attia to Mark Zuckerberg to random people on social media that it improves their sleep, and therefore their performance. $4,000 for years of improved performance seems like a bargain if it’s actually true, and the more people you hear it from, the more you believe it.
+
+Now, there are Eight Sleep Pods in hundreds of thousands of bedrooms across the world, each packed with dozens of sensors learning, analyzing, and adjusting.
+
+And Eight Sleep is cash flow positive, meaning that it controls its own destiny, and will have a growing pile of cash to invest in research & development and new products.
+
+There’s some luck involved, too. With the insane pace of advancement in AI models’ capabilities, there’s never been a better time to be the company with the best data, and there might not be another company building as comprehensive a data set on human bodies as Eight Sleep is.
+
+Certainly, Apple is on more wrists, and many users wear the watch most of the day. That said, a watch can’t fit or power as many sensors as a mattress cover can, and it certainly can’t actively do anything to change your situation. It just measures. (Note: I wouldn’t be surprised if Apple tried to acquire Eight Sleep, but people say that about any successful consumer hardware company.)
+
+The HyperPod, when it arrives, will only enhance both what Eight Sleep can measure, what it can do to improve your sleep in a personalized way, and what it can learn.
+
+Eight Sleep is in a surprisingly strong position, and its ability to achieve the vision Matteo and Max first talked about at dinner in 2014 will come down to its ability to execute, to exogenous improvements in sensor technology, and to the tractability of the problem. If better data really can lead to better health – a bet that a lot of companies have made and continue to make – it seems that Eight Sleep has a prime seat at that table.
+
+Better yet, it has moats. In  I wrote that “New startups have a limited window of time during which they’re protected by the cover of uncertainty to dig moats, and if they don’t dig them by the time others catch on, their excess profit will be competed away and they’ll struggle to achieve a good outcome.”
+
+[![](https://substackcdn.com/image/fetch/w_1826,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe576e7ae-1333-4229-a778-20a6c6f1290a_913x346.png)](https://substack.com/redirect/64084cec-785d-4b75-9a46-cac9f9f14c94?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+
+There are advantages to grinding it out.
+
+I write these deep dives to learn about something that is endlessly fascinating to me: the interaction between business models and technology, and the application of both towards solving very big problems.
+
+My big takeaway from studying Eight Sleep is this:
+
+
+In some ways, it’s easier to build something really, really hard – like a [reusable rocket](https://substack.com/redirect/ace998d2-f406-45bb-8422-6a86b32ad2c8?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), [autonomous weapons systems](https://substack.com/redirect/11920c4b-63cb-4909-a38b-bde95c2b3e2b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), or [advanced nuclear reactors](https://substack.com/redirect/fbcadf07-6553-4dee-a6c8-0906c130700a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) – knowing that you will be able to sell to a small number of really big buyers like the DoD or large businesses if you pull it off. And it almost seems more serious, more pure to take that approach.
+
+But for certain problems, selling to consumers is the only way to get what you need. [Base Power Company](https://substack.com/redirect/57ac015f-0a92-476f-912a-d50bb644e8e1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) is a great example: its batteries need to be located next to homes to have the maximum impact on the grid. Eight Sleep is another one: there’s no way to get the data it needs or make the impact it wants than to do the hard work of convincing people to buy your product.
+
+That approach may lead people to underestimate you. I underestimated Eight Sleep, even though I’ve slept on the Pod every night for the past couple of years. But looking at where Eight Sleep sits today, and how hard it’s been to get to this point, I think it would be a mistake to underestimate what they can do in the future.
+
+*Thanks to Dan and Claude for editing, and to Matteo, Alexandra, David, and Delian for your insights!*
+
+That’s all for today. We’ll be back in your inbox with a Weekly Dose on Friday.
+
+Thanks for reading,
+
+Packy

@@ -1,0 +1,71 @@
+# Meet The People Who Listen to Podcasts Crazy-Fast
+
+**Source**: https://www.buzzfeed.com/doree/meet-the-people-who-listen-to-podcasts-at-super-fast-speeds
+**Type**: article
+**Created**: 2025-08-13T16:52:36.755658
+
+---
+
+title: Meet The People Who Listen to Podcasts Crazy-Fast
+source: https://www.buzzfeed.com/doree/meet-the-people-who-listen-to-podcasts-at-super-fast-speeds
+date: 2025-08-13T16:52:35.249652
+tags: []
+---
+Sam Borley, a 28-year-old charity shop worker in Felixstowe, England, listens
+to his 56 weekly podcasts at different speeds, calibrating each one depending
+on the content and how fast or slow the hosts speak, though he said he listens
+to most at speeds between 2x and 3x. Like Kenny, when he finds a new podcast,
+he makes a point of listening to the entire back catalog. "I have often, when
+finding out about a new podcast with a large back catalog, made myself a
+100-hour-plus playlist to catch up, and then set my favorites to automatically
+jump the queue and play next so I can catch up on some without falling behind
+on others," he said. "_The[Joe
+Rogan](https://www.buzzfeed.com/natashajokic1/joe-rogan-donald-trump-guest-
+apology) Experience_, for example — it's up to nine hours a week of content,
+so it would be hard enough to keep up with that one alone if not listening at
+faster speed."
+
+Laura McCavera, a second-year medical student in Vegas, said she started out
+listening to her medical school lectures at faster speeds before using the
+practice with podcasts as well. When she starts a new podcast, she begins at
+normal speed "to get a sense of the cadence, and then I increase it as
+necessary," maxing out at 2.5x. She compared listening to a sped-up podcast to
+skimming a book, explaining that podcasts are easier than lectures to listen
+to casually, “so it's less stressful to try to make sure you get every word."
+
+Podcast producers and hosts were mixed on their feelings about podfasters.
+Georgia Hardstark, who cohosts the Apple Podcasts top 25 [_My Favorite Murder_
+podcast](https://www.myfavoritemurder.com/) with fellow comedian Karen
+Kilgariff (tagline: Stay sexy, don't get murdered), said it doesn't bother
+her: "Everyone's brain works at a different pace so it doesn't worry me. Plus
+each person listens to a podcast for a different reason, so if they're just
+looking for information and not humor, then they won't be missing anything."
+She added that she personally listens to some podcasts at a _slower_ speed
+when she's trying to fall asleep.
+
+Gina Delvac, the producer of [_Call Your
+Girlfriend_](http://www.callyourgirlfriend.com/), in which long-distance best
+friends Ann Friedman and Aminatou Sow catch up weekly about women's issues,
+said she understood how someone would listen to _CYG_ at a faster speed. "It's
+loose, it's conversational, it's meant to feel free-flowing. But for some
+programs I've worked on, or if you think about people who do really densely
+produced stuff, there's a whole experience that's built around that kind of
+audio experience." She added, "I don't have hate because I'm very intrigued by
+how people decide to consume what we make."
+
+Some podcast apps include a feature that automatically gets rid of pauses,
+which Delvac is more conflicted about. "There are kinds of intentional
+storytelling where you put a pause in there for a reason.”
+
+But Eric Eddings, host of _The Nod_ , feels that sped-up listening is
+unequivocally bad. "I don't think it should ever happen," said Eddings, who
+used to host the now-ended podcast _For Colored Nerds_. "The shows I've worked
+on have all been really sound- and music-rich. And you're just fundamentally
+gonna miss that if you're listening at even 1.5." He recalled the first story
+he ever produced, about some men from his mother's hometown in Louisiana. "It
+was just stacked with things that would not work at 1.5 speed. You have all
+these elderly Southern men recounting their life, which is really serious and
+intense. On top of that, we had sound effects and scoring music coming in. We
+took a song from this meeting that happened in the '70s and slowed it down and
+built it into the episode. My soul _dies_ when I think of somebody listening
+to that at 1.5 or 2."

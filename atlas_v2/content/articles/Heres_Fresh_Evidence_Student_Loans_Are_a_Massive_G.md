@@ -1,0 +1,203 @@
+# Here's Fresh Evidence Student Loans Are a Massive, Generational Scam
+
+**Source**: https://www.vice.com/en_us/article/pa9899/heres-fresh-evidence-student-loans-are-a-massive-generational-scam
+**Type**: article
+**Created**: 2025-08-13T16:29:17.618772
+
+---
+
+title: Here's Fresh Evidence Student Loans Are a Massive, Generational Scam
+source: https://www.vice.com/en_us/article/pa9899/heres-fresh-evidence-student-loans-are-a-massive-generational-scam
+date: 2025-08-13T16:29:15.967073
+tags: []
+---
+Over the centuries, America has [bestowed generous, state-sponsored
+privileges](https://www.vice.com/en_us/article/gyk3wq/how-congress-can-save-
+social-security-and-medicare) upon select classes of its citizens. Veterans
+and old people get free socialized healthcare—and, for the [most
+part](https://news.gallup.com/poll/186527/americans-government-health-plans-
+satisfied.aspx), [they love it](http://www.pewresearch.org/fact-
+tank/2017/05/26/few-americans-support-cuts-to-most-government-programs-
+including-medicaid/). Corporations (who count as people, look it up) [get
+sweet tax breaks](https://www.vice.com/en_us/article/qv3wxb/the-paradise-
+papers-make-the-republican-tax-plan-look-insane) and, in the case of defense
+contractors, no-bid deals to [build extremely expensive weapons unlikely to be
+used](https://motherboard.vice.com/en_us/article/pavzk7/military-contracts-
+are-the-destiny-of-every-major-technology-company) in the near future. And
+young people get thousands and thousands of dollars of student loans to pay
+for college, putting them in a hole [they might spend the rest of their lives
+digging out of](https://free.vice.com/en_us/article/xwkgmz/pay-off-student-
+loans-game-show-apps-job).
+
+Obviously, one of these things is not like the others—the United States has
+put many students in the position of making decisions that can determine their
+financial futures when they’re teenagers. This has nightmarish consequences:
+Some 44 million people have $1.5 trillion in student loan debt on the books.
+And even when young people do get through college and find a decent job, [many
+can’t fathom possibly buying a
+home](https://www.vice.com/en_us/article/qbxza3/when-should-you-start-
+worrying-about-buying-a-house-if-youre-a-broke-20-something) or taking on
+other trappings of adulthood when faced with decades of monthly loan bills.
+
+The worst part is that those who sought an elite education on the widely
+accepted notion that it would help them later in life were basically sold a
+bad bill of goods.
+
+* * *
+
+* * *
+
+All that debt provides awfully little payoff in terms of boosted wages, even
+as it ensnares more and more people and hits youth of color especially hard,
+[according to a new paper released Tuesday by two
+researchers](http://rooseveltinstitute.org/student-debt-crisis-labor-market-
+credentialization-racial-inequality/) at the left-leaning Roosevelt Institute.
+Research fellows Julie Margetta Morgan and Marshall Steinbaum concluded that
+more and more debt hasn’t significantly boosted income for college grads—it
+just seems that way because high school grads without BAs are making less than
+they once did. They also found that looking at decent rates of repayment by
+student debtors is a misleading way to look at the scale of this crisis. And
+thanks to workers lacking the power they once enjoyed in an increasingly
+skill-obsessed economy, young people are often being pressured into getting
+extra degrees on their own dime (which is to say by taking on more debt) for
+minimal payoff.  
+
+For some perspective on how America let student loans get so out of control,
+why taking on debt is so often a mistake, and what we can do about it, I
+called co-author Julie Margetta Morgan for a chat. This conversation has been
+lightly edited for length and clarity.
+
+**VICE: Why do you think this has been allowed to get so bad, to the point not
+only that it’s widely known as a crisis, but one that gets worse and worse?  
+****Julie Margetta Morgan** : We have seen the overall amount of student debt
+grow and we’ve seen some of the industries around repayment get worse over
+time, although default rates recently got a little bit better. But I think
+that the reason why it’s sort of been allowed to exist as this quiet crisis is
+that there’s not a lot of agreement among experts that, on the whole, student
+debt is getting worse. I think that’s because experts primarily look at
+measures around successful repayment of the loan as the target. And in this
+paper we try to take a slightly different look. First of all we interrogate
+those questions around repayments themselves—so we have a section around,
+like, experts have said that student debt is not a bigger burden now than it
+was a generation ago. And yet if you delve into the figures a little bit
+deeper you can see that, in fact, it is worse—the burden is worse but the
+repayment plans are slightly better, which masks the burden on students.
+
+So part of what we’re trying to do here is combat some of the common wisdom in
+the higher education policy world—what we tend to hear is: _Yeah, students are
+taking on a lot of debt but ultimately that debt is worth it because their
+degrees are paying off in the long run._ And we’re finding that that’s not
+necessarily true.
+
+**Is the most radical conclusion you reached here that the increased debt
+burden people are bearing is not paying off in terms of boosted income? Or is
+that already well known?  
+** That higher education is not paying off in terms of overall changes in the
+distribution of income is definitely apparent to labor economists but not
+necessarily apparent to higher education policy experts and those who advocate
+on behalf of students, because we are so often fed the college earnings
+premium as the single measure of whether college pays off over time. Yes of
+course college still pays off, but it pays off because it’s becoming less and
+less viable for someone to make a living with just a high-school diploma. It’s
+no longer this thing of, _I’d like to earn a higher income, I guess I’ll go to
+college._ It’s like, _I have to go to college in order to not end up in
+poverty—and I’m also forced to take on debt to get there._
+
+**Is there any evidence that, thanks to income growth in the last year or two,
+college debt is paying off more than it did?  
+** It remains to be seen, but I’m not sure that it’s a good idea for us to tie
+higher education policy—how we fund college—to the swings of the labor market.
+Our focus should be on taking the risk off of the individual and spreading it
+across the public, because the public is getting a lot of the benefit of
+college degrees.
+
+**Have you seen any indicators that people—including the communities hit
+hardest by college debt—might[actively be avoiding
+college](https://www.vice.com/en_us/article/pa9myg/the-hot-new-gen-z-trend-is-
+skipping-college-v25n3) because of the specter of endless debt? **  
+We have lower levels of college attainment already among African American and
+Latino populations and we do see polls that suggest people are more and more
+skeptical of the value of college. And that’s exactly the result we don’t want
+to see. We don’t want to see the people already discriminated against in the
+labor market avoiding going to college.
+
+The other trend that comes to mind is this trend of programs that we would
+have previously considered trade programs, whether they’re now being offered
+at for-profit colleges or as industry credentials that are trying to become
+part of the mainstream higher education system and get access to the loans. So
+there’s a world in which people are trying to avoid getting the loans but the
+loans are actually following them to these trade programs.
+
+**But given that discrimination, is it not rational to—in some cases—calculate
+against attending college given the massive debt burden and how it hits some
+communities extra hard?**  
+I think it’s absolutely at an individual level a rational decision that we’re
+seeing people make. And at a national level we ought to be concerned about
+that and looking to change policies so people don’t have to make that
+decision.
+
+**I know one of your aims here was to reinforce that this is a worse crisis
+than people think, but isn’t the problem that Republicans just don’t care?**  
+There’s obviously a group of policymakers who don’t want to deal with it. But
+I think there’s another subset of policymakers who are looking at the student
+debt crisis through the lens of repayment—that the goal is to ensure that
+people can repay their loans. Keeping people out of default shouldn’t be the
+biggest goal we set for ourselves.
+
+If student debt is a crisis, is the answer that we should have less student
+debt? Or just that people are able to make their monthly payments? Our answer
+is that we should have less debt overall.
+
+**Part of your paper is about how workers keep getting pressured to gain new
+degrees and credentials that load them up with debt—all because they have no
+power. Is this about unions disappearing, or what would help there?  
+** Certainly the declining power of unions is one part of it. The lack of say
+for average workers in the decision-making at the companies they work for, the
+increase in corporate concentration within the economy—the rise of monopoly
+power makes it harder for workers to have a say, because there are fewer
+employers. And back during the recession, the scarcity of jobs made it harder
+for employees to have power and negotiate for themselves.
+
+**It’s hard not to read the paper and feel like taking on student loans is
+maybe (very often) a mistake or even that the larger system is a scam. Even
+when students are not being preyed upon by for-profit schools or predatory
+lenders, the whole seems flimsy or even fraudulent. Is that unreasonable?**  
+I don’t think it’s unreasonable. I think of it as a failed social experiment
+that young people are caught in the middle of. It wasn’t intentionally sold
+like a scam, but the way young people experience this is they were told: You
+go to college, you study, don’t worry so much about how much it costs, it’s
+going to be worth it in the end. And they get out on the other side, they have
+a ton of debt, they are working as hard as they can, but they’re not getting
+ahead—they’re treading water. They’re making payments on their debt, but not
+able to buy a house, they’re not able to save for retirement. You were sold on
+a promise, you come out on the other hand that that promise was false, and
+everybody looks at you like, _What’s wrong?_
+
+One of the things I thought was so exciting about writing this paper is it
+puts data to that deep frustration that we see in younger generations right
+now.
+
+**It doesn’t seem likely that we’ll see a major overhaul of the system in DC
+right now, with unified Republican control. But what can and should be done,
+the next time Democrats have control of the government, or in the meantime?  
+** There are things we can do right now. it’s encouraging to see what’s
+happening in the courts—some great student advocates and lawyers have taken
+action to make sure the [Education Secretary Betsy] DeVos administration at
+least enforces rules on the books to help get student loan cancellation for a
+smaller group of borrowers and limit predatory practices at for-profit
+schools.
+
+As we look to the future, we have to think a lot bigger. We should be looking
+at both free and debt-free options for college. Free college at public
+universities and more debt-free options for students. That’s how we take care
+of generations moving forward.
+
+But we also need to do something about borrowers stuck with debt right now. My
+sense is we should be taking a really hard look at ways to cancel at least
+some of the existing debt.
+
+_[Sign up for our
+newsletter](https://confirmsubscription.com/h/i/48178908AA2FD075) to get the
+best of VICE delivered to your inbox daily. _
+
+_Follow Matt Taylor on[Twitter](https://twitter.com/matthewt_ny)._

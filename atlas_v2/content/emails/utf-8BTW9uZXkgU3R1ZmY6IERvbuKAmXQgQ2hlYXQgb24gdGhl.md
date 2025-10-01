@@ -1,0 +1,257 @@
+# =?utf-8?B?TW9uZXkgU3R1ZmY6IERvbuKAmXQgQ2hlYXQgb24gdGhlIEV0aGljcyBFeGFt?=
+
+**Source**: inputs/saved_emails/=utf-8BTW9uZXkgU3R1ZmY6IERvbuKAmXQgQ2hlYXQgb24gdGhlIEV0aGljcyBFeGFt=_Tue,_28_Jun_2022_14-27-51_-0400_(EDT)_181ab91f40acd94d.eml
+**Type**: email
+**Created**: 2025-08-25T02:54:04.026534
+
+---
+
+EthicsTo become a certified public accountant in the US, you need to pass four separate exams administered by the American Institute of Cert
+      
+    
+  
+  
+    
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+        
+          
+          
+        
+        
+          
+            
+          
+        
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          
+  
+    
+      Ethics
+    
+  
+To become a certified public accountant in the US, you need to pass four separate exams administered by the American Institute of Certified Public Accountants, which test your knowledge of business, financial accounting, regulation and the auditing process. The exams include multiple-choice questions and simulations; each exam takes four hours and is administered at a Prometric test center. Candidates are fingerprinted at the test center to make sure that they are who they say they are. Historical pass rates for most of the exams are around 50%. There are also education and work-experience requirements before you can call yourself a CPA.Also there is an ethics test? Most states require one, anyway; some don’t. You take that one at home on your computer or whatever. The exam used in most states is open-book and multiple-choice. Here’s an online CPA-study-guide site:Is the CPA Ethics Exam Difficult?Not really. The exam is more like a self-study, open-book test. You will have plenty of time to take the test and answer all of the questions. However, since the passing score is 90%, you have to be careful when reading and selecting the correct answer for the questions.You get the idea, right? People spend a lot of time studying accounting and auditing topics so that they can pass the core exams and become CPAs. And then the open-book at-home online ethics exam just sort of happens. It is a minor hiccup, not the main event. And because it is online and open-book and un-proctored and not that serious, but requires a high score to pass, uh, well, this doesn’t seem very ethical:Over multiple years, a significant number of EY audit professionals cheated on these exams by using answer keys and sharing them with their colleagues. From 2017 to 2021, 49 EY audit professionals sent and/or received answer keys to CPA ethics exams.Ahahaha sure. That’s from a Securities and Exchange Commission enforcement action fining Ernst & Young LLP $100 million for the ethics-exam cheating, plus some cheating on internal continuing-education-type courses:The Securities and Exchange Commission today charged Ernst & Young LLP (EY) for cheating by its audit professionals on exams required to obtain and maintain Certified Public Accountant (CPA) licenses, and for withholding evidence of this misconduct from the SEC’s Enforcement Division during the Division’s investigation of the matter. EY admits the facts underlying the SEC’s charges and agrees to pay a $100 million penalty and undertake extensive remedial measures to fix the firm’s ethical issues. “This action involves breaches of trust by gatekeepers within the gatekeeper entrusted to audit many of our Nation’s public companies. It’s simply outrageous that the very professionals responsible for catching cheating by clients cheated on ethics exams of all things,” said Gurbir S. Grewal, Director of the SEC’s Enforcement Division. ...EY admits that, over multiple years, a significant number of EY audit professionals cheated on the ethics component of CPA exams and various continuing professional education courses required to maintain CPA licenses, including ones designed to ensure that accountants can properly evaluate whether clients’ financial statements comply with Generally Accepted Accounting Principles.Great stuff. Look obviously cheating on the ethics exam is an incredibly dumb, bash-you-in-the-face bit of irony, but there are reasons that they cheated on the ethics exam and not, you know, the accounting exams. Those reasons are:	It is easy to cheat on the ethics exams and hard to cheat on the accounting exams. The accounting exams are set up to detect and prevent cheating; the ethics exams are not. Why is that? One possible answer is, like, “you can take the accounting exams before you have taken the ethics course, so maybe you don’t know not to cheat, so they proctor you carefully, but if you take the ethics exam then you have probably studied ethics and you know not to cheat, so they trust you not to cheat.” This answer strikes me as implausible. Another possible answer is, like, “it is important for any professional certifying body to say that its members have passed an ethics exam, but you cannot teach ethics via an exam, so the professional bodies do not take these exams particularly seriously and neither do the candidates.” As someone who took the professional certifying exams for law and the securities industry, I find this answer very plausible. (Prospective lawyers spend months studying intensively for the bar exam, which tests knowledge of law, and then like 15 minutes studying for the “professional responsibility” exam, where the joke is that you can pass by always choosing the second-most-ethical answer.)	Knowing accounting is very important for accountants, both in their professional self-conception and in their daily working life, but knowing the answers to the ethics questions is not that important. This is not quite the same as saying “knowing how to act ethically is not that important in the daily life of an accountant” (though that could also be true!), but the sort of ethics trivia that the exam tests might not be that applicable to your everyday work. And when you go to parties with other accountants you probably make jokes about, like, LIFO or whatever, not about ethics. The thing that distinguishes you and your colleagues from other people is not some arcane ethical code; it’s knowing about accounting. If you get hired at a big accounting firm and don’t know anything about accounting, you will quickly be found out and fired. If you get hired at a big accounting firm and don’t know anything about ethics, it’s possible it will just never come up.Obviously though if you are going to ask one question on an ethics exam it should probably be “did you cheat on this exam,” and if the answer is yes then you have definitely failed the ethics exam.I assume that after this E&Y, and the other big accounting firms, will drastically tighten up their procedures around, like, accountants emailing each other the answers for the open-book at-home multiple-choice online ethics exam. Possibly that will result in their accountants knowing somewhat more about the ethical code of accountancy. Still I am not convinced that the multiple-choice online exam is the best way to inculcate a sense of ethics into your workforce. So far it does not seem to work very well.
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      CoinFlex
+    
+  
+ Love it:Cryptocurrency exchange CoinFlex plans to raise funds by issuing a new token that will offer a 20% annual return, in an effort to resume withdrawals after a client failed to repay a $47 million debt. The platform said it will start to issue $47 million of what it calls “Recovery Value USD” tokens on Tuesday. The resumption of withdrawals, targeted for June 30, will depend on the level of demand for the new tokens. …CoinFlex paused withdrawals last Thursday after an unnamed counterparty, a high-net-worth individual with “substantial shareholdings in several unicorn private companies and a large portfolio” experienced liquidity issues and failed to repay debt.CoinFlex is, in the  loose terminology that we have been using recently, a crypto bank: It takes money (cryptocurrency, stablecoins, etc.) from “depositors” (customers) and lends money to borrowers. (More accurately, CoinFlex is an exchange/broker, which takes customer money to do trades and also lends money to customers to allow them to do trades; it is not exactly traditional banking, but it also involves holding customer money repayable on demand and providing leverage to other customers.) Here, one borrower was this “high-net-worth individual” who owes CoinFlex $47 million. CoinFlex has $166.8 million in “total value locked,” says its website, so $47 million is kind of a lot. He has apparently declined to pay it back.“The Individual is a high integrity person of significant means, experiencing temporary liquidity issues due to a credit (and price) crunch in crypto markets (and even noncrypto markets) who has significant shareholdings in several unicorn private companies and a large portfolio,” says CoinFlex. CoinFlex’s chief executive officer later clarified that (as everyone assumed) the $47 million whale is Roger Ver, who is also an investor in CoinFlex. Ver has denied owing CoinFlex the money. Awkward for everyone really.Crypto banks tend to make mostly margin loans secured by cryptocurrency. Ordinarily in this scenario you might expect CoinFlex to send him a margin call and, when he doesn’t pay up, liquidate his collateral. Hilariously CoinFlex can’t do that because, while this loan is secured (now under-secured), CoinFlex has promised not to touch the collateral. It explains:During the recent market volatility, a long-time customer of CoinFLEX’s account went into negative equity, meaning the Individual’s account currently holds a negative balance. … In normal circumstances, we would auto-liquidate a position that runs low on equity at prices prior to the zero-equity price. In this case, the Individual had a non-liquidation recourse account. This condition required the Individual to pledge stringent personal guarantees around account equity and margin calls in exchange for not being liquidated.Not that stringent! The second-best choice for CoinFlex is to sell the bad debt at market prices and use the cash to pay back its remaining customers. That seems to be, roughly speaking, the plan:As a solution toward re-enabling withdrawals, CoinFLEX is planning to monetize this personal guarantee by creating a corresponding liability in the form of a token called Recovery Value USD (“rvUSD”). The terms of the rvUSD token issuance can be found here.We have been speaking to potential large buyers and believe there is significant interest in the terms presented. But there is some nuance here. In traditional finance, when you own a $47 million debt and the debtor doesn’t pay, you want to sell off that debt at whatever the market will bear, get some cash, and use it to meet your own obligations. If the market says that a bad margin loan is worth, say, 80 cents on the dollar, then you sell it for $37.6 million (80% of face value) and take a $9.4 million loss; at least you have $37.6 million to hand back to your depositors.But in traditional finance you also have equity. You have, say, $10 billion of loans outstanding, funded with $9 billion of deposits (customer money) and $1 billion of equity (your own money). If you take a $10 million hit on one loan, then your equity goes down to $990 million — you lost money — but your customers are still protected. In crypto:	There are no regulatory capital requirements, and crypto banks often seem quite proud to be running at roughly zero equity. Tether, the biggest crypto bank,   boasts of its 0.2% capital ratio; if the value of its assets declines by more than 0.2%, depositor money is at risk. Tether also boasts of its transparency, and while that is a bit silly, it is the case that for many other crypto-bank-type entities it is harder to guess how much equity capital they have.	There is no prudential supervision, and crypto banks think nothing of concentrating, like, a third of their customers’ money in a single loan. We   talked last week about Voyager Digital Ltd., another crypto bank, which had about a 4.3% capital ratio but loaned out more than twice its total capital to one hedge fund that went bust.	Also, because there is no prudential supervision, crypto banks will sometimes concentrate their money in loans to their affiliates. The fact that Ver is both an investor in CoinFlex and a big borrower from CoinFlex is  pretty standard in crypto even though it would be very bad in traditional banking. It is bad because, if your big borrower is also your big backer, you might be inclined to give him a special deal like, for instance, promising not to foreclose on his collateral even if he doesn’t meet margin calls. These things are, you know, bad generally, but they create a particular problem when you have a $47 million bad debt. If you sell the debt for $37.6 million you could be insolvent and unable to pay back customers, if you have no equity cushion, as seems to be common in crypto. If you want to pay back your depositors, you have to sell your bad debt for $47 million. This is hard because presumably a debt that isn’t being paid back isn’t worth 100 cents on the dollar. But you have to find 100 cents on the dollar anyway.Fortunately crypto has ways to do this, or a way to do this, which is to call something a token, offer an extremely high interest rate and pay it in kind. So the CoinFlex “rvUSD” token pays a “20% APR accrued and paid daily in rvUSD.” If you buy 100 rvUSDs today, in a year you’ll have 120 rvUSDs I guess. If you can cash those all out for a dollar each then you’re in great shape. I don’t know exactly how the math for that works. Does CoinFlex’s whale owe them 20% interest? Or are they making up the extra interest out of equity? Out of future trading revenue if everything goes back to normal? Also one could ask other basic security-structuring questions — Is this thing secured by the loan? Or are holders of rvUSDs unsecured creditors of CoinFlex? Are they creditors at all? — that seem a bit silly in this context. I keep saying that crypto is having its 2008 financial crisis, but it’s much more interesting than that, isn’t it? In 2008, (1) traditional well-understood principles of credit and collateral and seniority and bankruptcy and banking law were applied to somewhat new and aggressively structured instruments, and (2) regulators invented a few novel approaches to limit the damage. In the crypto crisis, every lender and exchange can kind of make up its own principles from scratch and see what they can sell to people. In a sense crypto is having many different tiny 2008 crises all at once; the crisis is always the same — short-term demand deposits funding risky lending — but everyone gets to invent a new way to address it.
+  
+    
+      
+        
+      
+    
+  
+
+
+  
+    
+      Ticking fee
+    
+  
+JetBlue Airways Corp., an airline, wants to buy Spirit Airlines Inc., another airline. Frontier Group Holdings Inc., a third airline, also wants to buy Spirit. Only one of them can. JetBlue is bigger than Frontier. This is good and bad. It is good because JetBlue has more money, so it can pay more for Spirit: JetBlue has offered to pay about $33.50 per share for Spirit in cash, while Frontier has offered to pay about $4.13 in cash plus 1.9126 of its own shares, which closed yesterday at $9.36, for a total value of about $22 per Spirit share. It is bad because JetBlue is more likely to run into antitrust trouble with its bid to buy Spirit. If Spirit agrees to sell itself to JetBlue, and antitrust regulators reject the deal, then Spirit won’t get its $33.50 per share. And it won’t know for months and months; by the time the regulators reject the JetBlue deal, the $22ish from Frontier might no longer be on the table. So Spirit’s directors have, so far, stuck with Frontier’s lower deal, largely because it is more likely to go through, though to be fair Spirit also says that the Frontier deal offers a “potential $50 per share or more of value.”JetBlue keeps trying to pull Spirit away from Frontier, though. Here is its latest proposal, which involves not just paying Spirit shareholders $33.50 if and when they get regulatory approval and the deal closes, but also:	Paying $3.65 per share to Spirit in a breakup fee if they don’t get regulatory approval.	Sending a $2.50 per share down payment to Spirit shareholders as soon as they vote for the deal, without waiting for regulatory approval.	Paying them $0.10 per share per month, starting in January 2023, while waiting for approval.The $2.50 down payment is credited against the merger price (if the deal goes through) or the breakup fee (if it doesn’t); the monthly “ticking fee” is partly credited and partly not, meaning that the total deal price could be as high as $34.15 and the total breakup fee could be as high as $470 million ($4.30 per share). So far, Spirit is still sticking with the Frontier deal, though. One kind of wants a tidy financial-engineering-y solution to this. Like:	All three of them get together and sign a deal.	The deal says that JetBlue will buy Spirit, if antitrust regulators approve it.	If they do, then JetBlue buys Spirit for, say, $30 per share (about $3.2 billion, since Spirit has about 108.6 million shares outstanding), and writes Frontier a check for, say, $540 million, or about $5 per Spirit share. The net result is that Spirit shareholders get $30 per share in cash, Frontier gets $540 million for nothing, and JetBlue pays about $3.7 billion and gets Spirit.	If they don’t, but they approve the Frontier deal, then Frontier buys Spirit for, say, $24 in cash and stock (about $2.6 billion total), and JetBlue writes Frontier a check for $325 million, or about $3 per Spirit share. The net result is that Spirit shareholders get $24 per share, Frontier pays about $21 per share and gets Spirit, and JetBlue pays about $325 million (for nothing).	If the regulators don’t approve any deal, then Frontier writes Spirit a check for $100 million and JetBlue writes Spirit a check for $325 million. The net result is that Spirit gets about $425 million (about $4 per share) and the other guys write checks for nothing.Or whatever. You could play around with those numbers. The point is that right now JetBlue is offering to pay as much as $4.30 per share to not buy Spirit, or as much as $34.15 or more to buy Spirit, and Spirit is declining because it worries that if it takes the JetBlue deal then the Frontier deal will go away. Presumably there is some check you could write to Frontier that would make it worth their while to promise to stick around. Perhaps JetBlue should write that check.
+  
+    
+      Risk
+    
+  
+I just want to save this here for later:Credit Suisse is once again preparing to take on riskier business after a series of high-profile crises had prompted the bank to adopt a more cautious approach, according to the Swiss lender’s new chief risk officer.David Wildermuth, who joined from Goldman Sachs in January, said the bank was “moving the pendulum back the other way” after ditching risker clients following the “catastrophic events” the business suffered last year.“It’s the second time in my career I feel I’m as much a cheerleader for taking on more risk as I am for reducing risk — the other time was right after the financial crisis,” he told investors at an event on Tuesday.“As I’m going out and meeting with clients and our teams, I think we do want to take smart risk, where we really understand the risk, we are aware of the risk and we understand detailed outcomes of the risk,” he added.If Credit Suisse Group AG has another  Archegos or  Greensill in the next year or so, let’s come back and make fun of David Wildermuth for saying this in public. Then the narrative will be “we took some dumb risks and lost money on Archegos and Greensill, so we cleaned up our act and hired a new chief risk officer, who told us to take more risk, and, well, I guess we should have seen this coming.”If there are no big scandals for a while, though, let’s come back and congratulate him. “Take more but smarter risks when everyone is fearful” is kind of a reasonable approach, no?Really there are two jobs for a chief risk officer:	Properly measure and calibrate risk, helping the bank understand how to take smart risks in a way that safely maximizes expected value.	Look very stern and serious and assure regulators and the public that, what, no, we’re not taking any risks around here.These jobs are in tension with each other, but one way to manage that tension is to be appropriately commercial internally but not talk about it at public events? Trotting out your chief risk officer to tell clients “hoo boy are we gonna take a ton of risk” is just an odd choice. 
+  
+    
+      Things happen
+    
+  
+Goldman Sachs Sees  Losses From Consumer Push Exceeding $1.2 Billion This Year. Bankman-Fried’s FTX Is Seeking a Path to Buy Robinhood. Biotech Wizard Left a Trail of Fraud—Prosecutors Allege It Ended in Murder. Municipal Bonds Increasingly Held by Funds Instead of Individuals. Prices Triple in Brazil's Lopsided Market for  Carbon Credits. The BuzzFeed SPAC Fiasco Is Only Getting Worse. “Big Short” guy  says  something. Demand for  $10 Million-Plus Homes Slows in New York, Hamptons. US Sails  Seized Russian Yacht to California After Fiji Legal Win. Jupiter CEO Quits $68 Billion Firm to  Sit at the Beach and ‘Do Nothing.’If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
+        
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+
+
+  
+    
+      
+        
+        
+Like getting this newsletter? 
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+  
+    
+      
+      
+      
+      
+      
+    
+  
+
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cgsjmv.5qgx/c693c72e.gif" alt="" border="0" /></a>

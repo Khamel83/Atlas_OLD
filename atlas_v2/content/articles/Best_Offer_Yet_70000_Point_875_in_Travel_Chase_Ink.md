@@ -1,0 +1,233 @@
+# Best Offer Yet: 70,000 Point (~$875+ in Travel) Chase Ink Plus Now Available Online! | Million Mile Secrets
+
+**Source**: http://millionmilesecrets.com/2014/09/30/best-offer-yet-70000-point-875-in-travel-chase-ink-plus/
+**Type**: article
+**Created**: 2025-08-13T19:30:44.968568
+
+---
+
+title: Best Offer Yet: 70,000 Point (~$875+ in Travel) Chase Ink Plus Now Available Online! | Million Mile Secrets
+source: http://millionmilesecrets.com/2014/09/30/best-offer-yet-70000-point-875-in-travel-chase-ink-plus/
+date: 2025-08-13T19:30:37.776145
+tags: []
+---
+_Disclosure: We get a commission for links on the blog. You don’t have to use
+our links, but we’re very grateful when you do. American Express, Chase, and
+Citi are Million Mile Secrets advertising partners. Here’s our[Advertiser
+Disclosure.](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/credit-
+cards/advertiser-disclosure/)_
+
+**Update: The Chase Ink Plus 70,000 point offer is no longer available, but
+check**[** _Hot
+Deals_**](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/hot-
+deals/)**for the latest offers!**
+
+The **highest sign-up bonus ever** for the [Chase Ink Plus business
+card](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/go/InkPlus70K/)
+is now available **online**! You’ll get **70,000** Chase Ultimate Rewards
+points after you spend $5,000 in the 1st 3 months. But this offer is only
+available for a limited time.
+
+**Note:** The [Chase Ink Plus 70,000 point bonus
+offer](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/go/InkPlus70K/)
+ends on **October 19, 2014.**
+
+In the past, Chase has offered 70,000 points for this card, but [only through
+targeted
+offers](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2014/01/12/targeted-70000-point-
+chase-ink-plus/) or if you [applied in a
+branch](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2014/07/24/70000-point-
+chase-ink-plus-sign-up-bonus-available-now/). Now, anyone can apply
+**online**!
+
+And if you **already** have the Chase Ink Plus, you may be able to [refer
+someone and get a 10,000 point
+bonus!](http://web.archive.org/web/20151020150049/https://www.chasereferafriend.com/)
+
+If you missed out on the 60,000 point increased sign-up bonus earlier this
+year, you’ve got a 2nd chance to earn even **more** points! **70,000** Chase
+Ultimate Rewards points will get you at least **~$875** in travel (or more if
+you [transfer points to airline and hotel
+partners](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2014/05/15/ultimate-
+rewards-transfer-partners/)).
+
+[![Best Offer Yet 70000 Point 875 In Travel Chase Ink Plus Now Available
+Online](http://web.archive.org/web/20151020150049im_/http://millionmilesecrets.com/wp-
+content/uploads/2014/09/Best_Offer_Yet_70000_Point_875_In_Travel_Chase_Ink_Plus_Now_Available_Online_01.jpg)](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/wp-
+content/uploads/2014/09/Best_Offer_Yet_70000_Point_875_In_Travel_Chase_Ink_Plus_Now_Available_Online_01.jpg)
+
+Where Will YOU Go With 70,000 Chase Ultimate Rewards Points?
+
+And even if you’ve had the Chase Ink Plus in the past (when it was a
+MasterCard), some [folks report being able to get the sign-up bonus
+again](http://web.archive.org/web/20151020150049/http://www.flyertalk.com/forum/chase-
+ultimate-rewards/1502402-chase-ink-plus-ink-bold-mc-visa-different-
+products.html). That’s because [it’s now a Visa
+card](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2014/03/24/chase-
+ink-visa-changes-new-perks-possible-extra-bonus/) and is [considered a
+different card
+product](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2014/05/11/whats-
+considered-a-different-card-product/).
+
+### Why This Is a Great Deal
+
+**Link:[Chase Ink Plus 70,000 Point
+Offer](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/go/InkPlus70K/)
+**
+
+**Link:[How to Fill Out a Chase Business Card
+Application](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2012/12/12/chase-
+business-credit-card-application/)**
+
+[![](http://web.archive.org/web/20151020150049im_/http://content.linkoffers.net/sharedimages/products/220029/599565.png)](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/go/InkPlus70K/)
+
+The sign-up bonus on the Chase Ink Plus is normally 50,000 points after
+[meeting minimum spending
+requirements](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2011/07/20/40-powerful-
+ways-to-complete-your-credit-card-minimum-spending-requirements/), with the
+annual fee of $95 waived for the 1st year.
+
+With this offer, you’re getting **70,000** points! But the $95 annual fee is
+**not** waived. Still, I’d happily pay $95 for an extra **20,000** Chase
+Ultimate Rewards points (worth at least **~$250** in travel). And worth much
+more if you [transfer those points to airline and hotel
+partners](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2014/05/15/ultimate-
+rewards-transfer-partners/).
+
+Here’s what you get with the Chase Ink Plus:
+
+  * **70,000** points after you spend $5,000 in the 1st 3 months
+  * 5 points for every $1 you spend on cable, internet, and telecom
+  * 2 points for every $1 you spend on gas and rooms**** purchased directly from the hotel
+  * 1 points for every $1 you spend on everything else
+  * No foreign currency fees
+  * Points don’t expire and [can be transferred to United Airlines, Singapore Airlines, British Airways, Virgin Atlantic, Hyatt, Marriott, IHG, Ritz-Carlton, Korean Air, Southwest, and Amtrak](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2014/05/15/ultimate-rewards-transfer-partners/)
+  * $95 annual fee, **NOT** waived for the 1st year
+
+You’ll also get [extra perks and
+benefits](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2014/05/08/top-10-chase-
+ink-card-benefits-more-than-just-the-increased-bonus/), including airport
+[Lounge Club
+membership](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2014/03/25/how-
+to-enter-airport-lounges-with-the-chase-ink-cards/) and [VisaSavingEdge
+discounts](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2013/09/12/visa-
+savings-edge/) at stores such as Staples.
+
+Even if you don’t think you have a business, you can still apply. Many folks
+[qualify for business cards even though they don’t realize
+it](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2011/06/09/3-ways-
+you-may-qualify-for-a-business-credit-card/)! If you sell items on eBay,
+provide childcare for others, have a blog, or are just starting your business,
+you might be eligible for this card!
+
+### What Can You Do With 70,000 Chase Ultimate Rewards Points?
+
+**Link:[Chase Ultimate Rewards Transfer
+Partners](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2014/05/15/ultimate-
+rewards-transfer-partners/)**
+
+Chase Ultimate Rewards points are worth **1.25** cents each when redeemed for
+travel on the Chase Ultimate Rewards travel portal. So **70,000** points is
+worth **$875** in travel when used this way.
+
+But in my experience, you get the **most** value out of Chase Ultimate Rewards
+points when you [transfer them to airline, hotel, and rail
+partners](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2014/05/15/ultimate-
+rewards-transfer-partners/), like
+[Hyatt](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/go/HyattHotels/),
+[United
+Airlines](http://web.archive.org/web/20151020150049/https://www.united.com/web/en-
+US/default.aspx?root=1), or
+[Southwest](http://web.archive.org/web/20151020150049/http://www.southwest.com/).
+
+[![Best Offer Yet 70000 Point 875 In Travel Chase Ink Plus Now Available
+Online](http://web.archive.org/web/20151020150049im_/http://millionmilesecrets.com/wp-
+content/uploads/2014/09/Best_Offer_Yet_70000_Point_875_In_Travel_Chase_Ink_Plus_Now_Available_Online_02.jpg)](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/wp-
+content/uploads/2014/09/Best_Offer_Yet_70000_Point_875_In_Travel_Chase_Ink_Plus_Now_Available_Online_02.jpg)
+
+You Could Transfer 70,000 Points to Southwest, Get Over $1,000 in Travel, AND
+Check Out Their New Redesigned Planes
+
+Emily and I have used Chase Ultimate Rewards points to travel to
+[Paris](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2012/08/06/miles-
+points-honeymoon/#more-14414),
+[Maui](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2013/04/30/hyatt-
+regency-maui-suite/),
+[Kauai](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2014/04/30/united-
+flight-to-kauai/),
+[Switzerland](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2014/01/13/park-
+hyatt-zurich/),
+[Italy](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2014/01/18/park-
+hyatt-milan/), and many more destinations.
+
+One of our favorite ways to use points is to transfer them to
+[Hyatt](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/go/HyattHotels/).
+**70,000** Chase Ultimate Rewards points (plus another **5,000** points from
+meeting minimum spending) is [enough for **3** nights at a category 6
+Hyatt](http://web.archive.org/web/20151020150049/http://www.hyatt.com/gp/en/awards/hyatt_free_night.jsp)
+hotel, like the [Grand Hyatt
+Kauai](http://web.archive.org/web/20151020150049/http://kauai.hyatt.com/en/hotel/home.html).
+
+[![Best Offer Yet 70000 Point 875 In Travel Chase Ink Plus Now Available
+Online](http://web.archive.org/web/20151020150049im_/http://millionmilesecrets.com/wp-
+content/uploads/2014/09/Best_Offer_Yet_70000_Point_875_In_Travel_Chase_Ink_Plus_Now_Available_Online_03.jpg)](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/wp-
+content/uploads/2014/09/Best_Offer_Yet_70000_Point_875_In_Travel_Chase_Ink_Plus_Now_Available_Online_03.jpg)
+
+70,000 Points Plus Points From Minimum Spending Gets You 3 Nights at the Grand
+Hyatt Kauai
+
+If you paid cash for 3 nights at the Grand Hyatt Kauai, you’d pay almost
+**$2,000**! This is a fantastic way to use Chase Ultimate Rewards points!
+
+[![Best Offer Yet 70000 Point 875 In Travel Chase Ink Plus Now Available
+Online](http://web.archive.org/web/20151020150049im_/http://millionmilesecrets.com/wp-
+content/uploads/2014/09/Best_Offer_Yet_70000_Point_875_In_Travel_Chase_Ink_Plus_Now_Available_Online_04.jpg)](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/wp-
+content/uploads/2014/09/Best_Offer_Yet_70000_Point_875_In_Travel_Chase_Ink_Plus_Now_Available_Online_04.jpg)
+
+You’ll Spend Almost $2,000 for 3 Nights at the Grand Hyatt Kauai – or 75,000
+Chase Ultimate Rewards Points!
+
+Now that’s definitely Big Travel with Small Money!
+
+### Creative Ways to Spend $5,000 in 3 Months to Get the Bonus
+
+The easiest way to put the $5,000 on your Chase Ink Plus is if you have a big
+purchase coming up. But what if that’s not the case?
+
+You could:
+
+  * Pay some bills in advance (if you can lay out the money) such as phone, cable, internet, insurance, etc.
+  * Load $1,000 per month onto your [AMEX Serve card](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2014/07/03/breaking-news-you-can-load-gift-cards-to-your-american-express-serve-account-at-family-dollar/) and [use your Serve card to pay bills, send money, or withdraw cash](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2014/09/16/american-express-serve-card/).
+  * Go to an office supply store and purchase gift cards you’ll definitely use. You could buy gift cards to [Amazon.com](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/go/AmazonGiftCards/), chain restaurants, department stores, and more. These can be for yourself or for upcoming holiday shopping.
+  * Consider [ChargeSmart](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2014/08/17/use-chargesmart-to-meet-minimum-spending-only/) to pay bills such as your mortgage, auto loans, and student loans. There is a fee to use your credit card but it could be worth it to get the 70,000 Chase Ultimate Rewards points!
+
+For 40+ [ways to meet minimum spending
+requirements](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2011/07/20/40-powerful-
+ways-to-complete-your-credit-card-minimum-spending-requirements/), see this
+post!
+
+### **Bottom Line**
+
+The best public offer ever for the [Chase Ink
+Plus](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2014/07/24/70000-point-
+chase-ink-plus-sign-up-bonus-available-now/) card is now available **online**.
+You’ll get **70,000** Chase Ultimate Rewards points after you spend $5,000 in
+the 1st 3 months. The $95 annual fee is **NOT** waived for the 1st year.
+
+Normally, the sign-up bonus on this card is 50,000 points, so this is a great
+deal. And if you **already** have the Chase Ink Plus, you may be able to
+[refer someone and get a 10,000 point
+bonus!](http://web.archive.org/web/20151020150049/https://www.chasereferafriend.com/)
+
+And **70,000** Chase Ultimate Rewards points can get you at least **~$875** in
+travel when redeemed through the Chase Ultimate Rewards Travel Portal. Or
+potentially hundreds (or thousands) of dollars more when [transferred to
+airline and hotel
+partners](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/2014/05/15/ultimate-
+rewards-transfer-partners/).**  
+**
+
+Emily and I are excited that this offer is now available for everyone. What
+will you do with your **70,000** points?
+
+* If you liked this post, why don’t you join the** _16,000+_** readers who have signed-up to receive **free blog posts** via [**email**](http://web.archive.org/web/20151020150049/http://feedburner.google.com/fb/a/mailverify?uri=MillionMileSecrets) _(only 1 email per day!)_ or in an [**RSS reader**](http://web.archive.org/web/20151020150049/http://millionmilesecrets.com/feed) …because then you’ll never miss another update!

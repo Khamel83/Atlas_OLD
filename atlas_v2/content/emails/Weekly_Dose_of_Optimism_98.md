@@ -1,0 +1,65 @@
+# Weekly Dose of Optimism #98
+
+**Source**: inputs/saved_emails/Weekly Dose of Optimism #98_Fri,_14_Jun_2024_12-36-28_+0000_19016c0aeb8695cf.eml
+**Type**: email
+**Created**: 2025-08-25T02:54:10.605044
+
+---
+
+View this post on the web at https://www.notboring.co/p/weekly-dose-of-optimism-98
+
+Hi friends 👋,
+Happy Friday and welcome back to our 98th Weekly Dose of Optimism.
+It was a bad week for harmful diseases and a good week for humans.
+Let’s get to it.
+Sponsor Not Boring
+Support the spread of optimism and reach 225,000 of the smartest, most curious people on the internet, all in one fell swoop:
+(1) Mass General Cancer Center Researchers Identify Gene That Helps Cancer Cells Spread Throughout the Body [ https://substack.com/redirect/456e7d98-1cc0-43a9-a684-eb00d192d9a1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Liz Murphy for Mass General
+Investigators have identified a gene whose expression confers a growth advantage to metastatic cancer cells, which cause 90% of cancer-related deaths.
+Just another bad day to be cancer! A team of researchers out of Mass General have identified the gene that causes metastasis, the spread of cancer cells from the primary tumor to other parts of the body. Solving metastasis is crucial for curing cancer because it is the primary cause of cancer-related deaths, accounting for nearly 90% of cancer-related deaths. Our friends at Ezra [ https://substack.com/redirect/834a87c6-5bc3-402e-ab17-02a022104ff5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] say there’s already a cure for cancer: early detection. But if you’re unable to detect cancer early, the ability to stop the spread is your next best solution.
+The gene in question is Gstt1, which gives metastatic cancer cells a growth advantage by modifying their surrounding environment. Silencing Gstt1 gene could prevent cancer cells from growing and spreading. Early lab models confirm this hypothesis. The next step would be developing a therapeutic that can safely and effectively silence the Gstt1 gene.
+Fuck cancer. Fuck metastasis. Go science. 
+(2) Gene therapy for hereditary deafness [ https://substack.com/redirect/9e2f9b7a-43a2-44b5-b9d1-6de06661b4e8?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Carson Smith, Mohammad Faraz Zafeer, Mustafa Tekin in Nature Medicine
+Bilateral administration of human OTOF gene therapy appears safe, and preliminary data suggest that it could effectively treat a rare form of hereditary hearing loss by enhancing speech perception, sound source localization and overall auditory experience.
+No sir, you’re not at Levi’s but we are still talking about genes.
+A study published in Nature Medicine, evaluated the safety and effectiveness of binaural AAV1-hOTOF gene therapy in five children with DFNB9, a form of hereditary deafness. The study found that bilateral injections of AAV1-hOTOF into the cochleae restored hearing in all patients without causing serious adverse events.
+Say what?
+We’ll say it louder for the people in the back (or who haven’t yet received the gene therapy): a new gene therapy restores hearing for deaf children. Can’t really think of a happier sentence than that. 
+(3) Advisory Panel of Experts Endorses F.D.A. Approval of New Alzheimer’s Drug [ https://substack.com/redirect/c5b22dce-ec39-47fd-91fa-9621a6b4abc8?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Gina Kolata [ https://substack.com/redirect/0c936b32-9fe3-47d8-934e-f5b8b223f66d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and Pam Belluck [ https://substack.com/redirect/479c1378-95f1-4deb-b28f-6b6fbcff7cb5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for The New York Times
+The drug, made by Eli Lilly, is donanemab. It modestly slowed cognitive decline in patients in the early stages of the disease but also had significant safety risks, including swelling and bleeding in the brain. The committee concluded, though, that the consequences of Alzheimer’s are so dire that even a modest benefit can be worthwhile.
+If cancer and deafness weren’t enough, it looks like we also made some progress on Alzheimer’s this week. 
+A committee of independent advisers to the FDA voted unanimously that the benefits of donanemab, an experimental Alzheimer's drug by Eli Lilly, outweigh its risks. The drug modestly slows cognitive decline in early-stage Alzheimer's patients but carries significant safety risks, including brain swelling and bleeding. Donanemab does not cure Alzheimer’s but it does slow cognitive decline by about 4½ to 7½ months for early-stage patients.
+The question was whether that 4½ to 7½ slow-down was worth the relatively substantial risks of the drug. Alzheimer’s is a nasty, sad disease that currently has no cure. The committee approved the drug because, well, it ultimately decided that in the context of Alzheimer’s even a slight slow down of decline outweighed potential risks.
+Donanemab still requires final FDA approval, but when and if it that occurs, the drug should become available to early stage Alzheimer’s patients. Of the current 6 million Americans currently suffering from the disease, approximately 50% are in early enough stages that donanemab could have a positive impact.
+We love to see a common sense risk-benefit analysis [ https://substack.com/redirect/2aa6b37f-44c8-49f8-a66d-d7d8a687de7e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] from the FDA that takes both the risks and the benefits into account. Let’s get this drug live!
+(4) LPO Announces Conditional Commitment to Solugen’s Bioforge Marshall for Sustainable Biomanufacturing [ https://substack.com/redirect/ca040302-f456-4f87-b5a9-aeda021205c4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]  [ https://substack.com/redirect/ca040302-f456-4f87-b5a9-aeda021205c4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+From The Department of Energy
+Today, the U.S. Department of Energy’s (DOE’s) Loan Programs Office  [ https://substack.com/redirect/ba415253-f84f-4f2d-968c-ee423f0f07ba?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ](LPO) announced a conditional commitment to Solugen Inc.’s wholly owned subsidiary Bioforge Marshall LLC (Bioforge Marshall) for a $213.6 million loan guarantee to finance the construction of a production facility in Marshall, Minnesota, for bio-based organic acids. This commitment is the single largest U.S. government investment in bioindustrial manufacturing since President Biden signed Executive Order 14081 [ https://substack.com/redirect/5305719f-843f-4e28-a026-f9aca9b0bcd1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] on Advancing Biotechnology and Biomanufacturing Innovation for a Sustainable, Safe, and Secure American Bioeconomy. 
+Build Back Bioforge!
+The Department of Energy announced a conditional commitment for a $213.6 million loan guarantee to Solugen’s Bioforge Marshall project in Minnesota. This facility will produce bio-based organic acids for various industries, significantly reducing emissions compared to traditional methods. Bio-based organic acids are environmentally friendly chemicals produced from renewable biological sources, such as plants, rather than from petroleum-based feedstocks.
+This project is about as Bidenomics as it gets: American manufacturing, sustainability, supply chain resiliency, DOE Loans, climate!
+It’s also a great sign for Solugen, one of the case studies Packy used in The Techno-Industrial Revolution [ https://substack.com/redirect/45a7d235-c806-4c1f-a6eb-338f15a0a635?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. While the company is presumably receiving the loan guarantee because of its potential climate benefits, the real opportunity is in the long term economics: By “cutting steps out of the process and replacing expensive inputs with technology, which Solugen originally did for the climate benefits, it makes the chemicals cheaper to manufacture!” 
+Loans can help Solugen scale up manufacturing and bring its chemicals down the learning curve towards the “software-like margins” of around 60% that its founder Gaurav Chakrabarti told Bloomberg [ https://substack.com/redirect/9ec9f60a-ef48-4372-826a-c1df1e1ceaac?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] it can achieve. 
+The government won’t back Solugen’s facilities forever — the real win will come when we can manufacture chemicals that are better for the environment, at home, more cheaply and at higher margins than incumbents. Those are the economics that will allow this to scale. And the DOE’s loan guarantee is a great step in that direction. 
+(5) We just broke ground on America’s first next-gen nuclear facility [ https://substack.com/redirect/29caeed2-85cd-405c-b45a-44abf1e78128?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+From Bill Gates
+I’m thrilled to see so much economic growth happening, because Kemmerer will soon be home to the most advanced nuclear facility in the world. I just left the groundbreaking ceremony for the first-ever Natrium plant [ https://substack.com/redirect/c7f629b5-2e30-44f4-aaf8-b5af0aa4e28e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], which will bring safe, next-generation nuclear technology to life right here in Wyoming. It’s a huge milestone for the local economy, America’s energy independence, and the fight against climate change.
+Speaking of Department of Energy loans, Bill Gates announced the groundbreaking of the Natrium plant, a next-generation nuclear facility in Wyoming. The TerraPower-designed plant promises safer, more efficient, and reliable energy production using liquid sodium cooling. The project was supported by the DOE and private investors, like Bill Gates, and is a strong example of the type of public-private collaboration that seems to be necessary to push forward these types of large-scale, society-scale projects. 
+That said, TerraPower is just breaking ground on all of the non-nuclear construction. As Gates writes, “This step starts the review process at the NRC for the permit application—once it is approved, construction can begin on the actual nuclear reactor.” 
+You’d have to think that starting an expensive construction process before receipt of the NRC permit is a sign that TerraPower is confident the permit will be granted, but it may just be the kind of thing you’re able to do when you’re backed by one of the richest people on the planet. Here’s hoping it’s the former. 
+If everything goes according to plan, Natrium is expected to be operational by 2030, and should serve as a model for future nuclear projects in the U.S.
+Bonus: How to do the jhanas [ https://substack.com/redirect/4d6397f1-1c25-4035-b291-be6ab6b9c904?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+By Nadia Asparouhova [ https://substack.com/redirect/4d6397f1-1c25-4035-b291-be6ab6b9c904?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Packy here. Leaving you with a little nugget for the weekend. 
+I’ve been curious about the jhanas for a couple of years, especially after Nadia wrote her first essay on them [ https://substack.com/redirect/4c353936-8e0d-44c3-8f0a-5263e44f7c16?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], about her experience at a retreat, a couple months ago. The jhanas, she writes, “which derive from Buddhism, are eight states of consciousness that allegedly produce strong feelings in the body and mind. They can be accessed through a meditation technique that involves concentrating the mind on an object, then gradually deepening the sensation that arises.” 
+The internet offers surprisingly little information on how to do the jhanas — I’ve looked — so I was very happy to see Nadia drop an essay titled literally “How to do the jhanas.” The piece is clear, honest, and accessible; I can’t yet say if it worked. I’m going to give it a try though, and passing it along in case you want to, too. 
+Have a great weekend y’all. 
+We’ll be back in your inbox on Tuesday.
+Thanks for reading,
+Packy + Dan
+Thanks for reading! Subscribe to Not Boring for more deep dives and optimism.
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVFExTmpBek5qTTVMQ0pwWVhRaU9qRTNNVGd6TmpnMk1ESXNJbVY0Y0NJNk1UYzBPVGt3TkRZd01pd2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LnZEaUZRd2pkZ2d3STAyUUhETEMtejRlY29EMW12MVJ5eldfaXh2Q3ZoZG8iLCJwIjoxNDU2MDM2MzksInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNzE4MzY4NjAyLCJleHAiOjE3MjA5NjA2MDIsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.wzmfHcNQ5R4Hbzjw-HyrQf8VQN80fih_jLPVWbSsTzk?

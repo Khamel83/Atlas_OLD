@@ -1,0 +1,9 @@
+# [The NPR Politics Podcast] Sources & Methods: Trump's UK Visit, Gaza/Ukraine Tension
+
+**Source**: https://www.npr.org/2025/09/20/nx-s1-5547117/sources-methods-trumps-uk-visit-gaza-ukraine-tension
+**Atlas ID**: 229853
+**Migrated**: 2025-09-30T16:47:31.019092
+
+---
+
+President Donald Trump and Britain's Prime Minister Keir Starmer shake hands during a business roundtable at Chequers near Aylesbury, England, Thursday, Sept. 18, 2025. Evan Vucci/AP Photo hide caption toggle caption Evan Vucci/AP Photo Today, we're sharing another episode from NPR's newest podcast, Sources & Methods . Each Thursday, host Mary Louise Kelly breaks down the week's biggest national security news with NPR's team of reporters covering the military, State Department, and spy agencies. NPR correspondents stationed around the world also join the conversation. This episode, political correspondent Danielle Kurtzleben and diplomatic correspondent Michele Kelemen talk about the foreign policy issues that loomed large as President Trump visited U.K. Prime Minister Kier Starmer: the wars in Gaza and Ukraine. NPR international correspondent Daniel Estrin joins from Tel Aviv to talk about how Israelis are reacting to their increasing isolation amid international pressure on Israel to stop its offensive. Find new episodes of Sources & Methods on the NPR App or wherever you listen to podcasts. Listen to every episode of the NPR Politics Podcast sponsor-free, unlock access to bonus episodes with more from the NPR Politics team, and support public media when you sign up for The NPR Politics Podcast+ at plus.npr.org/politics . Sponsor Message

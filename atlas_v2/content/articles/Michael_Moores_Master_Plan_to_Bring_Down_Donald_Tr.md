@@ -1,0 +1,67 @@
+# Michael Moore's Master Plan to Bring Down Donald Trump | GQ
+
+**Source**: http://www.gq.com/story/michael-moore-donald-trump-broadway-show
+**Type**: article
+**Created**: 2025-08-13T17:20:20.954451
+
+---
+
+title: Michael Moore's Master Plan to Bring Down Donald Trump | GQ
+source: http://www.gq.com/story/michael-moore-donald-trump-broadway-show
+date: 2025-08-13T17:20:19.196392
+tags: []
+---
+When Donald Trump was elected to the presidency in November, few people had
+greater cause to gloat—and less reason to be happy about it—than liberal
+author, documentarian, and commentator Michael Moore, who famously predicted
+that Trump would win nearly a year ago, when the vast majority of liberals
+were still laughing at the very _concept_ of a Trump presidency.
+
+As it turns out, Moore’s prescience also gave him an edge—a months-long head
+start on thinking about how best to oppose the Trump presidency. "His
+Achilles’ heel is his very, very, very thin skin," said Moore at a press
+conference on Monday. "So we need to have a sort of non-violent comedy shiv."
+
+That "non-violent comedy shiv" is finally taking shape in Moore’s latest
+project: A semi-improvised Broadway show called _The Terms of My Surrender_ ,
+which will debut at the Belasco Theatre on July 28. "It’s a 12-week limited
+run," Moore said. "I guess I would like Trump to have the same thing."
+
+_The Terms of My Surrender_ is built around a single, provocative question:
+Can a Broadway show bring down a sitting president? To answer it, Moore’s show
+will offer a daily venue for his trademark topical humor and political
+commentary, with the promise of special guests and surprises throughout the
+run. "Michael will be responding to the news of the day—so every evening, the
+show is going to be different in certain ways," said director Michael Mayer.
+He also implied that the show might include the occasional field trip: "There
+_might_ be some impromptu excursions after the show. To places that might be
+nearby." (For what it’s worth, the Belasco Theatre is a mere 12 blocks away
+from Trump Tower.)
+
+And should Trump ever decide to come to the Belasco Theatre to see the show
+for himself, Moore has insisted on a standing reservation for the theater’s
+presidential box, in case any members of the Trump or Pence families turn up
+to see him perform. "I hope he comes to see it. Or his family. Or the vice
+president. We won’t boo them," Moore promises.
+
+Moore sat down with _GQ_ for a discussion about The _Terms of My Surrender_ ,
+the Trump presidency, and his thoughts on where American politics might be
+heading next.
+
+* * *
+
+**Let’s begin with the obvious question:_Can_ a Broadway show bring down a
+sitting president?**  
+Well, I’d like to think so. We’re going to find out. A boy can dream, right?
+
+**It’s ambitious.**  
+Yeah, more liberals _need_ to be a little more ambitious. Come on, let’s go!
+All hands on deck! This is me doing my part. But it’s not _just_ a political
+thing. If, at the very least, we can give people 90 exhilarating minutes after
+they’ve worked hard all week, and they leave energized and excited—that, in
+and of itself, is worthy of what we’re doing. What if more filmmakers, and
+more people who write plays or produce TV shows, had that thought in mind? If
+they cared enough about the audience, and believe that what we’re doing is
+valuable to them? The majority of what used to be called "the middle class"
+now lives from paycheck to paycheck. Those who make movies—and do plays,
+television, whatever—those who keep that in mind _will_ produce better work.

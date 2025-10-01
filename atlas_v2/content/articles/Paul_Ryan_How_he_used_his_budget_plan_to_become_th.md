@@ -1,0 +1,145 @@
+# Paul Ryan: How he used his budget plan to become the most courageous man in Washington.
+
+**Source**: http://www.slate.com/id/2290511/pagenum/all/#p2
+**Type**: article
+**Created**: 2025-08-13T21:00:51.278192
+
+---
+
+title: Paul Ryan: How he used his budget plan to become the most courageous man in Washington.
+source: http://www.slate.com/id/2290511/pagenum/all/#p2
+date: 2025-08-13T21:00:49.376111
+tags: []
+---
+Two products made their debuts in Congress on Tuesday. The first was “[The
+Path to
+Prosperity](https://www.slate.com/blogs/blogs/weigel/archive/2011/04/05/the-
+gop-budget-for-2012.aspx),” House Republicans’ budget resolution for the next
+fiscal year. The second was the budget’s author: Honest Paul.
+
+Honest Paul is the heroic persona of Rep. Paul Ryan, the chairman of the House
+budget committee. He’s like the regular Paul Ryan, except he must pause
+regularly to accept plaudits for his candor, heroism, and courage. This
+persona had been in beta-testing for several years, at least since the _Weekly
+Standard_ profiled him as one of the GOP’s rising stars in October 2007
+(headline: “[The
+Thinker](http://www.weeklystandard.com/Content/Public/Articles/000/000/014/149kwjix.asp)“).
+Honest Paul got a good, long trial run in 2010, when Ryan introduced—after
+plenty of Democratic goading—the [budget-
+cutting](http://www.roadmap.republicans.budget.house.gov/) “Roadmap for
+America’s Future.” The trial run was a success, because for all of the bashing
+Democrats and liberal-leaning think-tankers did, it didn’t stop the
+Republicans from taking the House.
+
+And so Tuesday belonged to Honest Paul. David Brooks wrote a column praising
+Ryan for “[the most comprehensive and most courageous budget reform proposal
+any of us have seen in our
+lifetimes](http://www.nytimes.com/2011/04/05/opinion/05brooks.html).” When
+Ryan [appeared on
+MSNBC’s](http://www.salon.com/news/politics/war_room/2011/04/05/morning_joe_paul_ryan/index.html)
+“Morning Joe,” he was interrupted several times to accept more praise. “Let us
+stop right now and commend him,” said host Joe Scarborough, who served with
+Ryan in the House from 1999 to 2001. “He’s in a leadership position,” said
+_New York Times_ financial reporter Andrew Ross Sorkin. “He’s come out with a
+plan, which is more than the Democrats can say.”
+
+The plaudits followed Ryan wherever he went. After the MSNBC appearance, at a
+press conference on Capitol Hill, Paul was flanked by 16 members of his
+committee and his Republican peer in the Senate, Jeff Sessions. “In the face
+of all kinds of threats,” said Sessions, “you have looked the American people
+in the eye and released a fact-based budget that will stand up to scrutiny.”
+
+After the presser, Ryan jumped on the phone to talk to Glenn Beck and assure
+Beck’s listeners that they could count on him to win the budget wars.
+
+“What will shut these union revolutionaries down?” asked Beck.
+
+“Ultimately, we’ve got to win elections,” said Ryan, diplomatically. “With
+this budget we’re giving the country the debate we deserve to have.”
+
+Ryan jumped off the phone and into the American Enterprise Institute to give
+another speech on the Path. He was introduced by AEI’s president, Arthur
+Brooks, who reminded the crowd that “a budget is a moral document” and that
+Ryan, making his second AEI appearance since the midterm election, was doing
+“courageous work.”
+
+There are two reasons Ryan is attracting so much praise and so much of the
+focus today was on Ryan. One: He’s courted it. He walked into punches with the
+2010 roadmap. Last month [he invited TV
+cameras](http://www.cnn.com/2011/POLITICS/03/17/gop.budget.plan/index.html) to
+watch one of his 15-odd briefings with Republicans, where he sold them on his
+budget proposal. His pitch to them was hardly different than his pitch to
+reporters today. He even used the same “tidal wave of debt” illustration, in
+which entitlement spending becomes a murderous red flood as the baby boomers
+slip into retirement.
+
+Two: Everybody thinks it’s in his or her best interest if Ryan’s budget
+proposal, and Ryan in particular, captivate Washington. [It’s good for
+Republicans](http://tpmdc.talkingpointsmemo.com/2011/04/2012ers-take-a-look-
+at-ryan-budget-and-like-what-they-see.php?ref=fpb) because they get to shift
+the [Overton Window](http://en.wikipedia.org/wiki/Overton_window) yet
+again—they’ve been doing quite a lot of this—and start a discussion about
+privatizing Medicare and turning Medicaid payments over to states in the form
+of block grants. In the space of a couple days, these have gone from the desks
+of AEI and Heritage researchers and onto, well, “Morning Joe.”
+
+It’s good for Democrats (they think) because they have an unbroken record of
+ripping Republicans apart whenever there’s a chance that Medicare or Medicaid
+could be cut. That was the basis of the 1995-96 shutdown, when the GOP’s
+budget included a more modest reform than Ryan’s. That was the basis of [the
+2005 counterstrike on the newly re-elected George W.
+Bush](http://www.brookings.edu/papers/2007/0921governance_galston.aspx), who
+spent six months campaigning for private Social Security accounts and got
+exactly no Democratic support.
+
+And that, on Tuesday, was how this played out. Ryan warned reporters that he’d
+be criticized for being so bold. “Is this a political weapon?” he asked at
+AEI. “Of course it is.” Ryan was at his most animated when shadowboxing with
+Democrats who’d respond to his courage with “politics.” A reporter in AEI’s
+audience read out a statement from Rep. Steve Israel, D-N.Y., in which Israel
+warned of a future where senior citizens clipped coupons to pay for health
+care. Ryan tore into the straw man with vigor.
+
+“You have to say things like that, which are distortions and demagoguery, in
+order to score political points,” said Ryan. “You know, shame on them.” The
+audience—a mixture of reporters and extremely happy activists—burst into
+applause at Ryan’s speedy rhetorical dragon-slay.
+
+But that was easy. Ryan’s budget proposal does go after entitlements in a way
+that no Democratic budget, and none of George W. Bush’s budgets, ever has.
+It’s not nearly as bold about attacking Republican shibboleths. Actually, it’s
+timid when it comes to all of that. At the morning presser, Ryan was asked why
+he incorporated so many of the take-your-medicine suggestions of the Bowles-
+Simpson deficit commission but didn’t take their advice on tax increases. Ryan
+responded with a koan that was half zen and half Art Laffer.
+
+“When you tax something more, you get less of it,” he said. “When you tax
+something less, you get more of it.”
+
+That’s not true. Tax receipts [nearly doubled during Bill Clinton’s
+presidency](https://www.slate.com/id/2085834/), when income and corporate
+taxes were raised to levels that no Republican wants to return to. They
+increased in the Bush years, but not as much as analysts—such as the ones at
+the Heritage Foundation Center for Data Analysis, which crunched Ryan’s
+numbers—had predicted. And Ryan proposes cuts in the top marginal income tax
+rate from 35 percent to 25 percent.
+
+What does that do for the deficit? The Congressional Budget Office [compared
+the
+projections](http://www.cbo.gov/ftpdocs/121xx/doc12128/04-05-Ryan_Letter.pdf)
+for the status quo and the Ryan budget over 10-year, 18-year, 28-year, and
+38-year windows. The “extended baseline scenario”—the status quo, with the
+Bush tax cuts expiring—produces a deficit of 2.75 percent of GDP in 2022. The
+Ryan scenario produces a deficit of 2 percent of GDP. Yet overall debt,
+according to the CBO, would be higher than if Ryan’s budget weren’t adopted.
+It’s only when we get to 2040 and on that the deficit vanishes. That’s largely
+because of the entitlement privatization in the budget, and because of the
+split-the-baby plan used to make it palatable, where only people born after
+1957 or 1958 will participate in the new system.
+
+Figures like this are going to get pulled out and teased out in the coming
+days. But we know what the first lasting development from the budget’s launch
+will be. It’s the arrival of Honest Paul, as the accountant and the spokesman
+who is very, very ready to be the pivotal figure here.
+
+“It is not a budget,” Ryan said on Tuesday. “It is a cause.”

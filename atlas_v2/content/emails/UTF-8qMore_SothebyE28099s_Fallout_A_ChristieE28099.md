@@ -1,0 +1,178 @@
+# =?UTF-8?q?More_Sotheby=E2=80=99s_Fallout,_A_Christie=E2=80=99s_Bounce_&_T?=
+
+**Source**: inputs/saved_emails/=UTF-8qMore_Sotheby=E2=80=99s_Fallout,_A_Christie=E2=80=99s_Bounce_&_T=
+**Type**: email
+**Created**: 2025-08-25T02:53:57.587028
+
+---
+
+=UTF-8qhe_Uovo_Prize=_Tue,_17_Dec_2024_22-30-19_+0000_193d6be7167698e4.eml
+
+Welcome to Wall Power, my private email on the inner workings of the art industry. Tonight, I’m sharing my conversation with Brooklyn Museum director Anne Pasternak and Steven Guttman, the founder of the art storage and logistics firm Uovo. In conjunction with the announcement of Melissa Joseph as the fifth recipient of the Uovo Prize—which gives the winner two public exhibitions as well as a cash award—Steve and Anne spoke to me about the prize and its goal of giving Brooklyn artists a shot at stardom.
+
+ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+
+Wall Power ( https://puck.news/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Wall Power ( https://iconiccollection.com/?utm_source=puck&utm_medium=display&utm_campaign=iconic-collection&utm_content=wall-power&utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Welcome to Wall Power, my private email on the inner workings of the art industry. I’m Marion Maneker.
+
+Tonight, I’m sharing my conversation with Brooklyn Museum director Anne Pasternak and Steven Guttman, the founder of the art storage and logistics firm Uovo. In conjunction with the announcement of Melissa Joseph as the fifth recipient of the Uovo Prize—which gives the winner two public exhibitions as well as a cash award—Steve and Anne spoke to me about the prize and its goal of giving Brooklyn artists a shot at stardom.
+
+By the way, if you haven’t taken the latest survey for the second iteration of The Puck Private Conversation series, powered by Orchestra, you can fill out your responses here ( https://puckprivateconversations.typeform.com/to/kPm9l8LK?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). It should be fun, and only takes a minute or two.
+
+But first…
+
+* Sotheby’s layoff truthers: Yesterday, The Art Newspaper began to question ( https://www.theartnewspaper.com/2024/12/16/fuller-picture-of-mass-sothebys-layoffs-emerges?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Sotheby’s claims regarding the extent of its layoffs ( https://puck.news/sothebys-lays-off-around-100-employees-in-new-york/?_gl=1*1jhfdqq*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA34S7BhAtEiwACZzv4VXbSLyJnZ8pEyUlV16DVZQ-1AfQgBMkmamvoRe0LNPaTxzXQwsrqhoCMCkQAvD_BwE&utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), writing, “only now is the full scale of the cost cutting becoming apparent.” The company is only confirming that approximately 5 percent of its staff has been cut, even though
+that figure appears to significantly understate the actual tally of departures over the last six months.
+
+A MESSAGE FROM OUR SPONSOR
+
+$(ad4_title) ( https://iconiccollection.com/?utm_source=puck&utm_medium=display&utm_campaign=iconic-collection&utm_content=wall-power&utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Iconic Collection welcomes you to the cutting-edge world of luxury brands and experiences. More than just shopping centers, these are destinations for the next generation of consumers where traditional retail is reimagined through innovation, sustainability, community partnerships, and one-of-a-kind experiences. Each Iconic Collection property provides visitors with high-profile retailers, eclectic culinary feats, and cultural concepts in inspiring settings. Furthermore, Iconic magazine extends this mission and commitment to print. Every issue examines the world of fashion, tech, retail, and beyond. Uncover upcoming trends, meet industry game changers, learn the art and story behind each Iconic Collection property, and so much more.
+
+* Stewart finally addresses his staff: After deleting a sunglasses selfie on Instagram, taken during a trip to Abu Dhabi while his H.R. department was busy cutting at least 100 jobs last week, Sotheby’s C.E.O. Charlie Stewart finally sent an email to staff on Sunday afternoon addressing the layoffs. Citing a 25 percent drop in consolidated sales, Stewart repeated the “5 percent” figure before indulging in a bit of damage control regarding the messy firings. (Some staffers apparently learned of their fate through condolence notes, according to The Art Newspaper.) “I want to reassure you that nearly everyone affected at this time has been communicated to, and the few
+remaining conversations will happen early this week,” Stewart wrote. Of course, he went on to blame the media for his own company’s missteps: “It is unfortunate but inevitable that so much of this has been targeted and sensationalized in the press.”
+* Meanwhile, back in Asia: Stewart followed up with an internal announcement on Monday that “Masumi Shinohara will assume the role of Managing Director of Sotheby’s Asia” on January 1, freeing up Nathan Drahi, the current Asia M.D. and son of Sotheby’s owner Patrick Drahi, to join Stewart’s executive team, presumably in New York. Drahi’s arrival stateside has been widely expected within the company for some time.
+* “Down only a little bit” is the new “up”: Today, Christie’s released year-end figures of $5.7 billion in overall sales—that’s down only 6.5 percent from last year, when the auctioneer did $6.1 billion in sales. Private sales
+climbed to $1.5 billion, up 41 percent from the previous year. That means auction sales were $4.2 billion, or down 16 percent for the year. (I’ll try to go deeper into these numbers at a later date, when we can devote a little more space to them.) Christie’s C.E.O. Guillaume Cerutti was nonetheless ebullient on the company’s semiannual Zoom call. “It was a tough year,” he said in conclusion. “The first half was really worrying, but we finished well. I’m very proud of this team.”
+
+Now let’s get back to Brooklyn…
+
+Brooklyn’s Finest ( https://puck.news/anne-pasternak-steve-guttman-on-2024-uovo-prize-winner-melissa-joseph/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Brooklyn’s Finest ( https://puck.news/anne-pasternak-steve-guttman-on-2024-uovo-prize-winner-melissa-joseph/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A conversation with Brooklyn Museum director Anne Pasternak and Uovo prize founder Steven Guttman about bestowing this year’s award on Melissa Joseph, the fast-rising textile designer and painter.
+
+MARION MANEKER ( https://puck.news/author/marion-maneker/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+MARION MANEKER ( https://puck.news/author/marion-maneker/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Tomorrow, the Brooklyn Museum will announce Melissa Joseph as the winner of this year’s Uovo prize, which recognizes the work of an emerging Brooklyn-based artist. The prize includes a solo presentation at the Brooklyn Museum, a commission for a 50-by-50-foot public art installation on Uovo’s Bushwick facility, and a $25,000 unrestricted cash grant. (Uovo, by the way, specializes in storing and transporting art, wine, and other collectibles.)
+
+I spoke to the Brooklyn Museum’s director Anne Pasternak and Uovo founder Steven Guttman about Joseph and the prize. This interview has been lightly condensed and edited.
+
+Marion Maneker: Melissa Joseph will be the fifth recipient of the Uovo prize. Her work is currently included in your huge show, The Brooklyn Artists Exhibition.
+
+Anne Pasternak: Oh, we’re so excited. I had never seen Melissa’s work before I walked into The Brooklyn Artists Exhibition, but her piece is one of my absolute favorite works. She is working with felt that’s pulled and stretched and woven and doing something with the material I haven’t quite seen an artist do before. At the museum, we think about artists who are really making it their own, who are expanding their medium, expanding the canon. Her work really stood out. I was thrilled when the curators nominated her for the prize. Then we saw her proposal for the facade of Uovo, where she is reflecting on Renaissance church architecture with
+a contemporary kind of iconography. I thought that was just fantastic.
+
+It is a timely choice, especially considering the explosion of interest in fiber arts of all kinds.
+
+Pasternak: It’s so true. Steve and I were talking about that because Steve is very passionate about artists working with ceramics. And it seems to me that while artists have always been working with textiles and ceramics, there really is a resurgence. I believe that as we become more disconnected as a society, and our experiences are increasingly mediated through phones and the internet and things that are not physical, artists are turning to the physical, they’re turning to materials of the earth in really powerful ways. And it’s great that the art market and cultural institutions have not sidelined these kinds of practices, but are welcoming them at long last.
+
+Melissa Joseph. Olive's Hair Salon (2023)
+
+How did you two meet?
+
+Steven Guttman: Well, should we tell him the truth?
+
+Pasternak: You mean about Saturday night?
+
+Guttman: No, that the first time I ever met you was at a prince’s home in Abu Dhabi.
+
+Pasternak: Oh, you know, I forgot that. That is absolutely true.
+
+Guttman: We were at the Crown Prince’s… I wouldn’t call it a home. It was his reception estate, really, where we had this incredible experience of being welcomed by the Crown Prince and the ambassador to Abu Dhabi. Then we had this glorious lunch, and that’s when we first met.
+
+The Adventure of Discovery
+
+So you had to go all the way to the Gulf to meet each other, even though you’re both in Brooklyn. Did you decide to collaborate on this prize as sort of an extension of your friendship, or did it come about in another way?
+
+Guttman: My passion in the art world is collecting emerging artists. I like the adventure of discovering them. It gives great pleasure to help them, because a lot of times they could use the help. The dream is to take an emerging artist, identify them, and then to help them get a gallery, or, in this case, a museum show. So if you put yourself in the place of an artist that hasn’t been identified, they go from not even having a gallery to being in a museum show and having a big billboard in front of a building, as well as some cash. That’s a pretty big win.
+
+A MESSAGE FROM OUR SPONSOR
+
+$(ad2_title) ( https://iconiccollection.com/?utm_source=puck&utm_medium=display&utm_campaign=iconic-collection&utm_content=wall-power&utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Iconic Collection welcomes you to the cutting-edge world of luxury brands and experiences. More than just shopping centers, these are destinations for the next generation of consumers where traditional retail is reimagined through innovation, sustainability, community partnerships, and one-of-a-kind experiences. Each Iconic Collection property provides visitors with high-profile retailers, eclectic culinary feats, and cultural concepts in inspiring settings. Furthermore, Iconic magazine extends this mission and commitment to print. Every issue examines the world of fashion, tech, retail, and beyond. Uncover upcoming trends, meet industry game changers, learn the art and story behind each Iconic Collection property, and so much more.
+
+Pasternak: It’s a huge win. I really want to emphasize a point here, which is that lots of people love collecting young, emerging artists, but Steve talks about really helping them and supporting them. He’s talking about not just buying their work, he actually hustles to help artists out. When we were at Art Basel, he had recently fallen in love with a painter’s work from South Korea. He had books with him that he was giving to dealers to try to help her out because she didn’t have gallery representation. I don’t know many people who do what Steve does.
+
+Uovo was opening a huge facility in Bushwick—and Steve knew that, of course, there are more artists of all disciplines living in Brooklyn than anywhere else in the world. He has often acquired work by those artists and then shown it at Uovo. And then the fact that the
+artists have a billboard in Bushwick—how many artists are going to have a giant mural anywhere, let alone in Bushwick, which is also a home to so many artist’s studios? This is a real moment of pride for these artists.
+
+On an institutional level, what does the museum get out of identifying emerging artists? You also have The Brooklyn Artists Exhibition this year for the 200th anniversary of the museum, which also emphasized emerging artists.
+
+Pasternak: Audiences today want to see artists of their time. Artists today want to see artists of their time. And I think we approach it with a historic lens, because we’re trying to identify young, emerging—I should say, Brooklyn artists—who we think have important things to say and who are adding to art history. That’s the job of the curators. That’s why we have the curators nominate artists that they’re keeping an eye on, whose studios they’re going to, and then we take
+a look together and decide whether we think they’re going to be able to pull off a really strong show. Though they may be young, we believe that they’re going to be able to make a great mural. We think that this is going to be really transformative for their practice. And we think that their work is adding to the art-historical canon.
+
+“To Stop People in Their Tracks”
+
+What’s the role of public art in all of this?
+
+Pasternak: When Steve came up with this idea, I was thrilled because I used to run a public arts organization in New York City called Creative Time. I am a passionate believer in the role that art can play in the daily fabric of the city—of any city. To stop people in their tracks, to have a moment of beauty and wonder, and to think outside of whatever is in their news feed, on their phone, or what’s happening in their head about work or home, and to take them to another place, is a really beautiful and extraordinary thing that I don’t take for granted. So when Steve had mentioned this, it’s not like there’s a robust amount of public art happening in Bushwick, right? It tends to happen in Manhattan or more resourced neighborhoods. As I said before, I really do want
+opportunities just to engage with people out on the street. They may not be people who go to galleries, they may not be people who think of themselves as the art lovers who are going to museums, but this is a way for them to connect with people more broadly—and artists really want to do that.
+
+$(ad3_title) ( https://iconiccollection.com/?utm_source=puck&utm_medium=display&utm_campaign=iconic-collection&utm_content=wall-power&utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Guttman: One thing that I have never told Anne is that before I got involved with the Brooklyn Museum, I had suggested this idea to another New York museum, and I got turned down. It just shows Anne’s appreciation for what this could mean to the community. Because I don’t think there’s any question, now that I look back at the five years we’ve been doing this, that this has had a big impact on the art community in Brooklyn, and maybe even all of New York.
+
+Pasternak: It’s had an impact on the artists, themselves. Baseera Khan ended up having a show at the Hirshhorn. Her career completely changed. Museums started to buy her work. The same was true for John Edmonds. Many of the artists have had skyrocketing careers. John got hired by all these major fashion magazines to do shoots. I mean, this was a guy
+who didn’t have support before, so it was really game-changing for the artists involved.
+
+How is the process run? How do you sift through what are obviously a large number of artists? I know that you have finalists—but you don’t announce them.
+
+Pasternak: The curators come with a shortlist of about 25 or 30 artists, and we take a look at them. Then we reach out to about three finalists who we think would be really great for an exhibition, who are ready for an exhibition, as well as who can pull off a giant outdoor mural, and they’re paid a proposal fee. We don’t make public who the finalists are because we don’t want it to look like winners and losers out there. We just want to celebrate the winners.
+
+Endnotes…
+
+The Wallpowers had a celebratory dinner at Acru ( https://www.acru.nyc/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) on Saturday night, where a junior Wallpower told me about the Morgan Library’s current ( https://www.themorgan.org/exhibitions/belle-da-costa-greene?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) exhibition/tribute to its inaugural director, Belle da Costa Greene. So it was with great interest that I read the incomparable Hilton Als’s essay 
+( https://www.newyorker.com/magazine/2024/12/23/belle-da-costa-greene-art-review-morgan-library?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) in The New Yorker about Greene. “I think this is the first major exhibition I’ve seen that follows a kind of Jamesian trajectory, in which the vagaries of life and art coexist and are subsumed by fiction and its greater resonance,” Als writes about Greene, who passed as Portuguese with “Spanish Cuban” blood. In reality, Greene’s parents were Black. Of course, the most interesting thing about Greene is that she was able to execute J.P. Morgan’s ambitions as a collector. “Morgan had the money and the dream—and a great eye,” Als writes, “but Greene had the vision and creativity to see that the library could tell a story, not so much about the accumulation of stuff but about
+man’s deep desire for
+knowledge, and thus truth.”
+
+Read the essay. See the show. I’ll catch up with you again on Sunday.
+
+M
+
+FOUR STORIES WE’RE TALKING ABOUT
+
+Iger’s Surrender ( https://puck.news/why-exactly-did-abc-news-pay-off-trump/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Iger’s Surrender ( https://puck.news/why-exactly-did-abc-news-pay-off-trump/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+On ABC News’s decision to settle with Trump for $15 million.
+
+MATTHEW BELLONI
+
+Trump’s Warning Shot ( https://puck.news/trump-sues-iowa-pollster-ann-selzer-for-being-wrong/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Trump’s Warning Shot ( https://puck.news/trump-sues-iowa-pollster-ann-selzer-for-being-wrong/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A first look at Trump’s lawsuit against pollster Ann Selzer.
+
+TARA PALMERI
+
+The Him of Skims ( https://puck.news/skims-ceo-jens-grede-does-not-like-celebrity-brands/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Him of Skims ( https://puck.news/skims-ceo-jens-grede-does-not-like-celebrity-brands/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A candid conversation with Skims C.E.O. Jens Grede.
+
+LAUREN SHERMAN
+
+Stephen A.-ology ( https://puck.news/fantasy-football-guru-matthew-berry-on-the-espn-star-system/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Stephen A.-ology ( https://puck.news/fantasy-football-guru-matthew-berry-on-the-espn-star-system/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Discussing the economics of on-air talent with Matthew Berry.
+
+JOHN OURAND
+
+Puck ( https://puck.news/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQs
+page ( https://puck.news/faq/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact
+us ( fritz@puck.news?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/global-unsubscribe/?subscription=wall_power&delivery_id=dgT2xgYDAKvRKqrRKgGT1r42AYcV-23rADnGlLQ=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%2812%2F10%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Puck is published by Heat Media LLC. 227 W 17th St New York, NY 10011.

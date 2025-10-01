@@ -1,0 +1,38 @@
+# Can Emotional Intelligence Be Taught? - The New York Times
+
+**Source**: http://www.nytimes.com/2013/09/15/magazine/can-emotional-intelligence-be-taught.html?pagewanted=all
+**Type**: article
+**Created**: 2025-08-13T20:00:45.543195
+
+---
+
+title: Can Emotional Intelligence Be Taught? - The New York Times
+source: http://www.nytimes.com/2013/09/15/magazine/can-emotional-intelligence-be-taught.html?pagewanted=all
+date: 2025-08-13T20:00:38.998702
+tags: []
+---
+One day last spring, James Wade sat cross-legged on the carpet and called his
+kindergarten class to order. Lanky and soft-spoken, Wade has a gentle charisma
+well suited to his role as a teacher of small children: steady, rather than
+exuberant. When a child performs a requested task, like closing the door after
+recess, he will often acknowledge the moment by murmuring, “Thank you, sweet
+pea,” in a mild Texas drawl.
+
+As the children formed a circle, Wade asked the 5-year-olds to think about
+“anything happening at home, or at school, that’s a problem, that you want to
+share.” He repeated his invitation twice, in a lulling voice, until a small,
+round-faced boy in a white shirt and blue cardigan raised his hand. Blinking
+back tears, he whispered, “My mom does not like me.” The problem, he said, was
+that he played too much on his mother’s iPhone. “She screams me out every
+day,” he added, sounding wretched.
+
+Wade let that sink in, then turned to the class and asked, “Have any of your
+mommies or daddies ever yelled at you?” When half the children raised their
+hands, Wade nodded encouragingly. “Then maybe we can help.” Turning to a tiny
+girl in a pink T-shirt, he asked what she felt like when she was yelled at.
+
+“Sad,” the girl said, looking down.
+
+“And what did you do? What words did you use?”
+
+“I said, ‘Mommy, I don’t like to hear you scream at me.’ ”

@@ -1,0 +1,19 @@
+# Linda Sarsour is every Islamophobe’s worst nightmare
+
+**Source**: inputs/New Docs/reader/work.qz.com_1288016_linda-sarsour-is-every-islamophobes-worst-nightmare.html
+**Type**: article
+**Created**: 2025-08-25T02:53:56.317463
+
+---
+
+Linda Sarsour is one of the most powerful social justice activists in the world.  
+  
+Stand in her way, and you’ll quickly find yourself outsmarted—the Palestinian Muslim American activist’s quick wit and impenetrable perseverance make her, in her own words, “every Islamophobe’s worst nightmare.” Same goes for bigots of any kind.  
+  
+In an exclusive Quartz interview, I sat down with Sarsour, one of Quartz’s Visionaries, to learn why she, as a “stereotype-shattering muslim woman,” is not an anomaly; how Malcom X’s autobiography teaches her to deal with vitriolic Twitter trolls; the importance of her olive-tree bracelets; and why any woman’s sharpest weapon is being unapologetically herself.  
+  
+Born and raised in Brooklyn, Sarsour’s career began skyrocketing after 9/11, when she says she first felt “any type of specific direct oppression against myself or my communities,” and began realizing it wasn’t safe to be Muslim in America.  
+  
+Today, she’s national co-chair of the Women’s March, and was one of the three co-leaders of what was likely the largest single-day demonstration in US history.  
+  
+This story is part of How We’ll Win, a project exploring the fight for gender equality at work.

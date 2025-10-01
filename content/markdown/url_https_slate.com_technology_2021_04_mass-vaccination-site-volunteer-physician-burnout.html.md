@@ -1,7 +1,7 @@
 # Mass Vaccination Site Volunteer Physician Burnout.Html
 
 **Source**: https://slate.com/technology/2021/04/mass-vaccination-site-volunteer-physician-burnout.html
-**Extracted**: 2025-09-30T23:28:47.211384+00:00
+**Extracted**: 2025-10-01T05:34:17.306291+00:00
 
 ---
 

@@ -1,0 +1,244 @@
+# =?UTF-8?q?Sotheby=E2=80=99s_$12M_Stradivarius,_Mbunyuza=E2=80=99s_Journey?=
+
+**Source**: inputs/saved_emails/=UTF-8qSotheby=E2=80=99s_$12M_Stradivarius,_Mbunyuza=E2=80=99s_Journey=
+**Type**: email
+**Created**: 2025-08-25T02:54:02.375181
+
+---
+
+=UTF-8q_&_Fields_Family_Dynamics=_Sat,_01_Feb_2025_00-33-18_+0000_194beed39d7a0b20.eml
+
+Jan. 31, 2025
+
+Wall Power ( https://puck.news/newsletters/wall-power/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Range
+Rover Sport ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.411609581;dc_trk_aid=603875971;dc_trk_cid=228426993;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Marion Maneker ( https://puck.news/author/marion-maneker/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Marion Maneker ( https://puck.news/author/marion-maneker/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Happy Friday, and welcome back to Wall Power. I’m Marion
+Maneker. 
+
+ 
+
+For today’s issue, I’m turning the helm over to Julie Davich, who has the backstory of Sotheby’s $12 million Stradivarius—a 310-year-old instrument once owned by one of the greatest violinists of the 19th century—up for sale next Friday. She also shares her latest gallery-hopping update, featuring two ceramic artists, one showing at Salon 94 and the other at David
+Kordansky.
+
+ 
+
+But first, here’s Julie with more from her conversation with Adam Fields…
+
+Julie Brener Davich ( https://puck.news/author/juliedavich/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Julie Brener Davich ( https://puck.news/author/juliedavich/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+ 
+
+Arta Imitates Life
+------------------
+
+Earlier this week, I spoke with entrepreneur Adam
+Fields, the founder of Arta ( http://arta.io?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), the e-commerce tech company that seeks to unlock the larger art market by making lower-value objects easier and cheaper to ship to collectors. Fields comes by his interest in the art world naturally—his parents are the noteworthy Chicago collectors Marilyn and Larry Fields. We featured my
+interview ( https://puck.news/adam-fields-on-artas-quest-to-conquer-the-last-frontier-of-e-commerce/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) with Adam as an Inner Circle email on Wednesday (if you haven’t upgraded your subscription yet, you can and should do so here ( https://puck.news/join/?_gl=1*1uuzgs4*_up*MQ..*_ga*OTQ4MTgzMzQuMTczODM2Mzk0MQ..*_ga_SEFD191RFM*MTczODM2Mzk0MS4xLjAuMTczODM2Mzk0MS4wLjEuMzYxMzUxMTQ3&utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )),
+but here’s some of the B-side…
+
+ 
+
+Julie Davich: Could you speak about growing up in a collecting family? What was that like?
+
+ 
+
+Adam Fields: It was amazing—not just to see the things being created, but also to meet the people creating them. When my parents were
+getting into collecting, Chicago had a lot of young artists, from Rashid Johnson to Angel Otero to Theaster Gates to Nick Cave. I was fortunate to meet a lot of these people whom I can call friends, and it helped me to recognize my raison d’ětre, if you will, which is that there wasn’t really an on-ramp to engage a younger generation in the art world. It’s an intimidating world that has a lot of gatekeepers. You need to
+have relationships, means, and access. And obviously, it’s a very antiquated space. I took all of those things and said, “Well, that’s how I want to engage.” There are problems that the future generations of collectors and appreciators don’t want to deal with, so how can we try to change that?
+
+When people talk about the market, they talk about it more from a value perspective, and less from a volume perspective. That’s something I’m trying
+to change. The market is so much bigger. There’s such a volume of items—whether it’s art, collectibles, luxury items—that people have a deep interest in. Seeing the breadth and range of people’s interests has been eye-opening.
+
+Do you collect?
+
+ 
+
+Definitely, but it’s been a while since I’ve bought anything new, for space and budget
+reasons with a young family. My collection started with pieces from the Chicago artists I knew and loved growing up—Johnson, Otero, Tony Lewis, Rob Davis, William J. O’Brien—and expanded into younger artists on the ascent that I was able to get into, from a price perspective, before they got out of my range, like Richard Aldrich, Ella Kruglyanskaya, Raphaela Simon, and Satoshi
+Kojima.
+
+[Upgrade to read the full interview here ( https://puck.news/adam-fields-on-artas-quest-to-conquer-the-last-frontier-of-e-commerce/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+A MESSAGE FROM OUR SPONSOR
+
+Range
+Rover Sport ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.411609581;dc_trk_aid=603875971;dc_trk_cid=228426993;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Range
+Rover Sport ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.411609581;dc_trk_aid=603875971;dc_trk_cid=228426993;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+PERFORMANCE UNLEASHED
+With a distinct sporting personality, the Range Rover Sport is a
+peerless performer.
+EXPLORE ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.411609581;dc_trk_aid=603875971;dc_trk_cid=228426993;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Gallery Hopping With Julie
+--------------------------
+
+Takuro Kuwata at Salon 94 (3 E 89th St.): There
+are few galleries like Jeanne Rohatyn’s 17,500-square-foot, early 20th century, Neo-Renaissance mansion, which sits across the street from the Guggenheim. Naturally, the immensely photogenic, Rafael Viñoly–renovated space has been trending on TikTok lately. 
+
+Indeed, Salon 94 gets up to 2,000 visitors every Saturday. Marion told me he had to take the elevator last weekend because two wannabe influencers were
+perched on the oval stairway waiting for the photographer they’d hired. When I was there, another influencer was posing alongside Japanese ceramicist Takuro Kuwata’s meditative rock garden, which is carefully arranged with his large, brightly colored sculptures.
+
+Takuro Kuwata: Together Shiyoze! (Let’s Get Together), Salon 94, New York. Photo: Genevieve Hanson. Courtesy Salon 94 and Takuro Kuwata.
+
+Takuro Kuwata, Together Shiyoze! (Let’s Get Together), New York. (Photo:
+Genevieve Hanson/Courtesy of Salon 94)
+
+This month marks the fifth show of works by Kuwata, a longtime
+artist for Rohatyn, who has a history of featuring ceramic artists, from Betty Woodman to Ruby Neri. Walking through his show, Together Shiyoze! (Let’s Get Together), you can see why. Kuwata has a delicious sense of humor. His primary preoccupation is with chawan, the tea bowls used in traditional Japanese ceremonies, but he modernizes the 16th century ritual with cotton candy colors and Pikachu faces. 
+
+ 
+
+There are many layers of meaning in his work, and many have been widely written about: the tea ceremony, Kuwata’s youth in Hiroshima, wabi-sabi, kintsugi. But mostly I just found the sculptures playful and fun. The first work you see when stepping off the elevator is an oversize peach inside a large, royal blue chawan dripping with platinum. Kuwata sculpted his first peach in 2023 for a commission in Okayama, a
+region known for its white varietal of the fruit. One can’t help but think of the peach emoji (and its connotations), especially since emoji originated in Japan.
+
+The chawan range in price from $16,000 to $180,000, depending on size, and about half of the exhibition has been sold. Check it out before it closes on February 15—but try not to go on a Saturday.
+
+ 
+
+Mbunyuza’s Journey
+--------------------
+
+Simphiwe Mbunyuza at David Kordansky (520 W 20th St.):
+In a mere seven years, the 35-year-old South African ceramic artist Simphiwe Mbunyuza went from a rural village on the Eastern Cape of South Africa, where he grew up molding cow figurines from the clay on the riverbanks, to a solo show at a Chelsea gallery. Mbunyuza’s serendipitous journey to global art world recognition began on Facebook, where he discovered the artist residency A.I.R. Vallauris, in France. From there, he journeyed to Oklahoma for his M.F.A. and,
+inevitably, L.A., for his first gallery show at South Willard. Fortuitously, Helen Molesworth saw his work and helped to get him a show at Marianne Boesky’s Aspen space in 2021. Later, photos of his work on Instagram caught the eye of an instructor at the Archie Bray ceramic residency in Montana, whose alumni include Theaster Gates and Cannupa Hanska Luger. 
+
+Mbunyuza’s ceramics evoke the patterns
+and rituals of his homeland and Xhosa culture, from the colors of Xhosa clothing to the topography of the villages, fields, and houses. Hatching resembles the thatched roofs of his village; hornlike protrusions evoke cattle. The forms themselves recall functional vessels, like the pots used for fermenting and drinking beer. Mbunyuza doesn’t think much as he’s hand-coiling the vessels. “It just comes from within—the piece itself communicates with me,” he told me.
+
+Simphiwe Mbunyuza: UMTHONYAMA, David Kordansky Gallery, New York. Photo: On White Wall Studio, courtesy of David Kordansky Gallery.
+
+Simphiwe Mbunyuza, UMTHONYAMA, New York. (Photo: On White Wall
+Studio/Courtesy of David Kordansky Gallery)
+
+At his Montana residency, Mbunyuza was able to access much larger
+kilns, enabling him to significantly expand the scale of his works. It was these grand sculptures that caught the Wall Power crew’s eye through the window of David Kordansky Gallery in Chelsea. The show, UMTHONYAMA, on view through February 22, is his second with the gallery. His first was this past summer in Los Angeles, where Mbunyuza reports he had “good sales.” Now he’s back on the Eastern Cape, spending time with his family after so many years away, and presumably soaking in the
+inspiration for his next body of work.
+
+ 
+
+Now, about that Stradivarius…
+
+The Red Violin ( https://puck.news/the-twelve-million-stradivarius-violin-for-sale-at-sothebys-auction/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Red Violin ( https://puck.news/the-twelve-million-stradivarius-violin-for-sale-at-sothebys-auction/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Sotheby’s is hoping to create auction magic with the Joachim-Ma
+Stradivarius, which is named for its best-known former owners and can bring its players to tears with its sound. The auction house is expecting at least $12 million—and given the scarcity in the ultra-high-end violin market, it could go higher.
+
+Julie Brener Davich ( https://puck.news/author/juliedavich/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Julie Brener Davich ( https://puck.news/author/juliedavich/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+For art collectors, there are few movies that better capture the
+romance of the auction house than The Red Violin, in which Samuel L. Jackson plays an appraiser summoned to assess an instrument suspected to be the famed “Red Violin”—the final violin made by the fictional Italian luthier Nicolò Bussotti. The movie follows the instrument through the centuries, from its maker’s workshop in 17th century Cremona, Italy, to its subsequent owners in Austria, England, and China, before ending up in Canada for sale. It’s a beloved,
+and underappreciated, classic.
+
+ 
+
+Life will imitate art next Friday, when Sotheby’s auctions the Joachim-Ma Stradivarius, estimated to fetch at least $12 million. (At the moment, the lot does not have a guarantee or an irrevocable bid.) The instrument is named for its two most well-known former owners: Joseph Joachim and Si-Hon Ma. Joachim, who purchased the violin in 1849, was one of the
+greatest violinists of his time. It’s believed that Joachim premiered Johannes Brahms’s Violin Concerto in D major, Op. 77, on this very instrument in 1879. The catalog note features an 1868 photo of him holding it.
+
+A MESSAGE FROM OUR SPONSOR
+
+Range
+Rover Sport ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.411609581;dc_trk_aid=603875971;dc_trk_cid=228426993;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Range
+Rover Sport ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.411609581;dc_trk_aid=603875971;dc_trk_cid=228426993;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+PERFORMANCE UNLEASHED
+With a distinct sporting personality, the Range Rover Sport is a
+peerless performer.
+EXPLORE ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.411609581;dc_trk_aid=603875971;dc_trk_cid=228426993;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Ma, a violinist and teacher, and the last of the instrument’s
+nine owners, acquired it in 1967. Upon his death in 2009, it passed to his estate, and in 2015 was bequeathed to the New England Conservatory of Music with the provision that it one day be sold to fund student scholarships. The current auction record for a violin is $15.9 million, set 14 years ago by the 1721 Lady Blunt Stradivarius—hailed as the best-preserved Stradivarius to be sold in the past century—at Tarisio, a specialty auction house for fine instruments. The second-highest recorded
+price for a violin is $15.34 million, achieved 2.5 years ago, also at Tarisio, for the 1714 “da Vinci, ex-Seidel” Stradivarius, also in “excellent condition.”
+
+ 
+
+The marketing of the Joachim-Ma is notable for a few reasons. Mari-Claudia Jiménez, the president of Sotheby’s Americas and the executive who oversaw this consignment, told me that “traditionally, violins are sold by violin sellers.
+What we suggested was a more expansive way of looking at the violin as a trophy that transcended music.” The large houses have not had dedicated musical instrument sales and specialists in many years. To make up for its lack of internal expertise, Sotheby’s hired renowned violin specialist Frederick Oster to assist them with the sale.
+
+Sotheby’s is selling the work in a single-lot auction as part of Masters Week. It will be a prelude to “The One” sale,
+which features 12 masterpieces across categories, from an 18th century Chinese vase to the Nike sneakers that the late Kobe Bryant wore during the game in which he tore his Achilles tendon, an injury that heralded the final stage of his career. The shoes are expected to sell for between $600,000 and $800,000.
+
+Pitch Perfect
+-------------
+
+The Joachim-Ma Stradivarius was crafted in 1714 by master luthier
+Antonio Stradivari during his celebrated “Golden Period,” in the later years of his life, from about 1700-1720. As Sotheby’s Helena Newman explains in the eight-minute documentary ( https://www.sothebys.com/en/digital-catalogues/the-joachim-ma-stradivarius-a-masterpiece-of-sound?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) that the auction house produced about the instrument, Stradivari’s “signature craft”—which defined the
+modern violin—was honed during these years. (Most collectors know Newman as Sotheby’s worldwide head of impressionist and modern art, but she also plays viola in a string quartet with her husband and two children, all professional musicians.)
+
+Joachim-Ma Stradivarius. Courtesy of Sotheby’s.
+
+Joachim-Ma Stradivarius (Photo: Courtesy of Sotheby’s)
+
+Like the fictional Red Violin, the instrument is notable for its red-brown varnish,
+though faded, which was a Stradivari hallmark, in addition to its remarkable sound quality—“rich, complex, and full of depth,” according to Sotheby’s. The market for antique, high-end violins is defined by scarcity: Stradivari made about 650 violins in his lifetime, of which fewer than 500 survived. Meanwhile, the market has increased over the past 40 years, from the low hundred thousands to the low eight figures. 
+
+Range
+Rover Sport ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.411609581;dc_trk_aid=603875971;dc_trk_cid=228426993;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Range
+Rover Sport ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.411609581;dc_trk_aid=603875971;dc_trk_cid=228426993;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+It’s become common for symphony patrons to purchase a
+Stradivarius for use by a particular virtuoso, while reliably expecting to see a return on their investment anywhere between 4.9 percent and 7.7 percent, according ( https://www.thetimes.com/life-style/luxury/article/the-power-of-stradivarius-violins-times-luxury-8tftzjvxd?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to The Times of London. The Joachim-Ma, for instance, is considered a playing violin, as opposed to a collector’s piece, such as Stradivari’s Messiah violin
+at the Ashmolean Museum in Oxford. Despite signs of wear over the centuries, according to the condition report, “the overall condition of the structure is in very good, restored condition, and in appropriate condition for normal and regular playing.” Jiménez told me that some clients who viewed the Joachim-Ma during its tour stops in London and Hong Kong were accompanied by master violinists who were allowed to play it.
+
+ 
+
+Will
+the Joachim-Ma violin create auction magic? It has the ingredients: provenance, rarity, beauty, and celebrity of the 19th century variety. As Jiménez told me, it’s like “seeing history, the traces of the violinists who have played it.” Perhaps she was laying it on, but she also said that virtuosos who have had the opportunity to play the Joachim-Ma violin in Sotheby’s galleries have been brought to tears. “They play it and put it down,” she said, “then run back to play it again.”
+
+ 
+
+Endnotes…
+-----------
+
+From 67th to 82nd Street, between Park and Fifth Avenue, 28
+galleries are participating ( https://www.masterdrawingsnewyork.com/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) in Master Drawings New York from February 1 to February 8. (The 29th gallery is down in Chelsea.) More of a gallery week than a fair, the unifying theme here is works on paper and extraordinary draftsmanship. You don’t need a ticket. All you need is a map ( https://www.masterdrawingsnewyork.com/map/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), some
+time to contemplate, and your sense of wonder.
+
+ 
+
+That’s it for tonight. Have a great weekend (or I hope you had a great weekend, if you’re catching up on Sunday night). More on Sunday. Then back to the grind.
+
+ 
+
+M
+
+Line Sheet ( https://puck.news/newsletters/line-sheet/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Line Sheet ( https://puck.news/newsletters/line-sheet/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The ultimate fashion industry bible, offering incisive reportage on all aspects of the business and its biggest
+players. Anchored by preeminent fashion journalist Lauren Sherman, Line Sheet also features veteran reporter Rachel Strugatz, who delivers unparalleled intel on what’s happening in the beauty industry, and Sarah Shapiro, a longtime retail strategist who writes about e-commerce, brick-and-mortar, D.T.C., and more. 
+
+Puck
+
+Puck
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact us ( fritz@puck.news?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
+here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUvu0OYAW5-bAanJuwuiA=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F31%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+ 
+
+Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

@@ -1,0 +1,117 @@
+# Intel Earnings, Intel's Plunging Margin, The Dividend Question (Stratechery Update 1-30-2023)
+
+**Source**: inputs/saved_emails/Intel Earnings, Intel's Plunging Margin, The Dividend Question (Stratechery Update 1-30-2023)_Mon,_30_Jan_2023_13-55-03_+0000_18602f5c8ddb166f.eml
+**Type**: email
+**Created**: 2025-08-27T03:02:28.999936
+
+---
+
+Intel's earnings are brutal, but it is a brutal result years in the making. That mismatch between decisions and consequences probably explain why Intel continues to pay a dividend despite its need for cash.
+
+View in browser ( https://stratechery.com/2023/intel-earnings-intels-plunging-margin-the-dividend-question/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjMvaW50ZWwtZWFybmluZ3MtaW50ZWxzLXBsdW5naW5nLW1hcmdpbi10aGUtZGl2aWRlbmQtcXVlc3Rpb24vIl19LCJleHAiOjE2Nzc2Nzg5MDMsImlhdCI6MTY3NTA4NjkwMywiaXNzIjoiaHR0cHM6Ly9zdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.mSflZblfaZvEs60SR-2DqMY_gYIfyikWqDsztNTsfx7BDlPIDBRrs0M_NA2N8aj3KMT-ariumsMcCyXtAtr1ClqsEeC86KsXvabzXLYOlZzvKJ2NHZJaK4cBnMGnWquJrCIVJ_NuZ3ANAThKejPeDO32xtqX5nDkdfF80yxp_ejLuAFybUJiCOrL9nwQGxJIiDE2kdvKAd_1wMTxdr9S8c7Bjb15m8ohY1Yc60wIuwnZWfRjW_TU-A2C2a7_Q-z7R77y6-9wiPi4ZUp3dlBb7-4uHX18EbUuevxcvCP5Rl3dV3zJGBNlIbkIfdfhhW0gfbDPLOU2DFfv2SqCdvLpuA )
+
+( https://stratechery.com )
+
+Intel Earnings, Intel's Plunging Margin, The Dividend Question
+
+( https://stratechery.com/2023/intel-earnings-intels-plunging-margin-the-dividend-question/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjMvaW50ZWwtZWFybmluZ3MtaW50ZWxzLXBsdW5naW5nLW1hcmdpbi10aGUtZGl2aWRlbmQtcXVlc3Rpb24vIl19LCJleHAiOjE2Nzc2Nzg5MDMsImlhdCI6MTY3NTA4NjkwMywiaXNzIjoiaHR0cHM6Ly9zdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.mSflZblfaZvEs60SR-2DqMY_gYIfyikWqDsztNTsfx7BDlPIDBRrs0M_NA2N8aj3KMT-ariumsMcCyXtAtr1ClqsEeC86KsXvabzXLYOlZzvKJ2NHZJaK4cBnMGnWquJrCIVJ_NuZ3ANAThKejPeDO32xtqX5nDkdfF80yxp_ejLuAFybUJiCOrL9nwQGxJIiDE2kdvKAd_1wMTxdr9S8c7Bjb15m8ohY1Yc60wIuwnZWfRjW_TU-A2C2a7_Q-z7R77y6-9wiPi4ZUp3dlBb7-4uHX18EbUuevxcvCP5Rl3dV3zJGBNlIbkIfdfhhW0gfbDPLOU2DFfv2SqCdvLpuA ) Monday, January 30, 2023
+
+Listen to this Update in your podcast player ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Good morning,
+
+Last week’s Sharp Tech ( https://sharptech.fm/member ) covered the Google-DOJ case, followed up on Netflix, and checked in on Peloton. Sharp China ( https://sharpchina.fm/member/episode/advice-for-new-china-watchers-belt-and-road-after-10-years-land-bans-and-repeat-covid-cases-taiwans-presence-in-dc ) had advice for new China watchers and revisited the Belt and Road initiative on its ten year anniversary.
+
+You can add both of these podcasts, along with Dithering ( https://dithering.fm/ ) and Greatest of All Talk ( https://goat.passport.online/member ) using the links at the bottom of this email.
+
+On to the update:
+
+Intel Earnings
+--------------
+
+From Bloomberg ( https://www.bloomberg.com/news/articles/2023-01-26/intel-tumbles-after-forecast-suggests-its-comeback-is-far-off ) :
+
+Intel Corp. is forecasting one of the worst quarters in its history, touching off a broader selloff of chips companies as a slowdown in personal-computer sales ravages the industry. Late Thursday, Intel gave a sales range that missed analysts’ estimates by billions of dollars, warning that revenue could fall to the lowest quarterly level since 2010. Shares plunged 10%, the most since July, in New York. Advanced Micro Devices Inc., Applied Materials Inc., Lam Research Corp. and Qualcomm Inc. declined. Semiconductor maker KLA Corp., which issued its own disappointing outlook, also slid.
+
+Chip companies are reeling over a steep decline in demand for PC processors that has wiped out profits and led to deep cuts across the industry. Intel’s outlook signals more pain to come. The company is eliminating jobs and slowing spending on new plants in an effort to save as much as $10 billion. It’s taking an especially large hit from losing market share to rivals…
+
+It was a painful admission for a company that has been attempting a multiyear comeback under Chief Executive Officer Pat Gelsinger, who took the helm in 2021. A post-pandemic downturn for Intel’s main business, PC chips, has torpedoed efforts to get the company’s financial performance back on course. Instead, it’s only losing more ground. “I’d like to remind everyone that we’re on a multiyear journey,” Gelsinger said during a conference call.
+
+For almost the entire run of Stratechery ( https://stratechery.com/2013/the-intel-opportunity/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMTMvdGhlLWludGVsLW9wcG9ydHVuaXR5LyJdfSwiZXhwIjoxNjc3Njc4OTAzLCJpYXQiOjE2NzUwODY5MDMsImlzcyI6Imh0dHBzOi8vc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.a0_qNVWhp4280aASMnC1WXiPvKCKMx8bLnLdYIpPdGcGvorMCZNTS6LIGaJWd4JCX7oSy6CUlx17tWQrSM6QxoLs82jEKEVw4l6kECrbJ6GVDWr4dVWn-720avC4kAn2LJ6ksKNAuhbdQ8qZ-Po3Eaet2feX77fI8DkMVdgqlET5TR2C8V7T3B2xaT_AasTX8Ba3sKIdOyJ9tAFl-0_45KANv0EU333l4doT_8fIwdaSYymtjKtX_EXSFl4KI_ntrqTXT2IR3WbvEbXV7L-lrHCs-jIqXAwoMA3DY-AD0yWE3XZ4nyNrR-cWq-3osQyi7eefqoQsI7NL315IzHuv0g ) I have been warning that Intel was in trouble; during that run Intel reported profitable quarter after profitable quarter, with the stock marching up-and-to-the-right.
+
+The biggest driver was exploding usage in the data center; yes, Intel missed out on mobile, but mobile computing is intertwined with cloud computing, and Intel was the chief beneficiary of the parallel growth in the latter.
+
+The trouble with missing mobile was threefold: first, Intel missed out on the massive volumes that would, in the long run, be important for paying off ever more expensive fabs; instead those volumes went to TSMC ( https://stratechery.com/2020/chips-and-geopolitics/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjAvY2hpcHMtYW5kLWdlb3BvbGl0aWNzLyJdfSwiZXhwIjoxNjc3Njc4OTAzLCJpYXQiOjE2NzUwODY5MDMsImlzcyI6Imh0dHBzOi8vc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.H9NniVPJp5szheDlgb-mREStdNKVSiQgnsL8HNj-l4Dgop_B1uVgFtarojAZzejX7Vd44DH8JZ4f1VWxucqn7Orpy_hdSJodyeP-mE5PFUsQBYIgwB4mCAfN5p-XXYsrK6epJfOGjuST-vfuw5myxGIJ4kw7H6s1h8trog8msDweHPXk1Vwo0cEP153FQwvYOVyeSMfKbyx_lWdG23sVbo1hAaZdn8ttdBglVPWbpTkpn6fYNDL7QRkBxoReQSo8yApnEzaVy8EkKoTovl-CofHQOSTRbyLjcsYXSedSUzamqiiNQxfUiytAoOoJRbzzjDXdcLXZOQbheceQ0acPcw ). Second, TSMC, fueled by the massive revenue influx that came from delivering those volumes, accelerated its march down the process curve, beating Intel by years to the very expensive and very risky EUV transition that allowed TSMC to leap ahead in performance. Third, mobile was, by necessity, at the forefront of prioritizing efficiency and performance-per-watt given the limitations of mobile devices. Today, though, efficiency and power-per-watt increasingly matter for servers, as well.
+
+The net result is that today it is AMD, the second supplier IBM insisted on way back at the dawn of the PC era, that makes the best data center chips thanks in part to TSMC’s process advantage, even as data center demand has slowed dramatically in the inevitable-yet-late-to-arrive semiconductor downturn we are currently experiencing, and as data center operators like AWS invest in their own ARM-based chips; Intel, meanwhile, still provides a lot of volume in PCs — thanks in part to very aggressive discounting — but the pandemic pulled forward huge amounts of PC buying: that worked to Intel’s benefit in 2020 and 2021, but now the hangover is hitting and it is a doozy.
+
+Intel’s Plunging Margin
+-----------------------
+
+This has resulted in a triple-whammy to Intel’s earnings:
+
+* First, volumes were down dramatically thanks to high inventories amongst OEMs (a less charitable interpretation is that Intel stuffed the channel).
+* Second, prices are down thanks to Intel needing to increasingly discount to counter AMD’s total-cost-of-ownership advantage.
+* Third, the largest cost of goods sold for a chip is fixed costs, the depreciation of which is incurred no matter how many chips are sold; that means that fewer chips sold for lower prices has an outsized impact on gross margins.
+
+Indeed, Intel’s gross margins were a shocking-for-Intel 39% (notice how revenue declined much more than COGS):
+
+It gets worse, though: first, Intel forecast a gross margin for next quarter of 34%. Second, Intel’s margins next quarter will include a depreciation adjustment for some equipment from 5 years to 8 years; that will decrease COGS in the above chart, and increases gross margin, which means that 34% forecast is actually higher than it would be! Intel explained on its earnings call ( https://seekingalpha.com/article/4572827-intel-corporation-intc-q4-2022-earnings-call-transcript ) :
+
+Before turning to Q1 guidance, let me take a moment to discuss an accounting change that will impact our results beginning in the first quarter. Effective January 2023, we increased the estimated useful life of certain production machinery and equipment from five years to eight years. This change better reflects the demonstrated economic value of our machinery and equipment over time and is more aligned with the business model changes inherent to our IDM 2.0 strategy.
+
+The growth of the IFS deal pipeline will extend the life of manufacturing nodes beyond what was practical within IDM 1.0. Disaggregated CPU architecture allows performance and cost optimization for each chiplet better leveraging older nodes. And we are optimizing our core business around more sustainable capacity quarters to improve equipment utilization and maximize ROIC.
+
+The change will be applied prospectively beginning Q1 2023. When compared to the estimated useful life in place as of the end of 2022, we expect total depreciation expense in 2023 to reduce by roughly $4.2 billion. An approximate $2.6 billion increase to gross profit, a $400 million decrease in R&D expense and a $1.2 billion decrease in ending inventory values.
+
+This change is, on its face, a reasonable one: using expensive equipment for longer is a core part of the economics undergirding the foundry business, and has long been an important part of TSMC’s profitability. Still, it’s worth noting that TSMC depreciates its equipment over five years ( https://investor.tsmc.com/sites/ir/financial-report/2021/TSMC%202021Q4%20Consolidated%20Financial%20Statements_E.pdf ) ; that casts Intel’s change, even if justified, in a significantly less flattering light.
+
+The Dividend Question
+---------------------
+
+Still, at the end of the day depreciation schedules are about numbers on an income statement; what is actually more important, at least for Intel these days, is cash flow, and it’s not pretty: the company’s adjusted free cash flow, which only considers operating activities and Intel’s investments in property, plant, and equipment, was negative $4 billion. Intel’s overall cash flow, including equity sales, the MobileEye IPO, and debt issuances was still $15 billion in the black, but it’s the adjusted number that is a better signifier of Intel’s long-term prospects.
+
+The problem Intel faces is not simply its declining revenue: that declining revenue is downstream from investments and advancements Intel didn’t make for many years; that’s why I opened this Update recounting the concerns I have had for a very long time. In this case, I don’t think I was wrong to raise those concerns: rather, it’s an example of how the semiconductor industry, thanks to its massive lead times, massive capital requirements, and massive uncertainty, takes many years for the consequences of decisions and investments to bear fruit. In the case of Intel today, that fruit is rotten: CEO Pat Gelsinger is taking the heat for Intel’s terrible results, but these results are downstream from the CEOs that proceeded him. The inverse of that reality, though, is that bearing good fruit will also take time. Gelsinger said in his prepared remarks:
+
+I want to remind everyone that, we are on a multi-year journey. We remain focused on the things that are within our control as we navigate short-term headwinds, while executing to our long-term strategy. While I remain sober that, we have a long way to achieve our financial expectations, I am pleased with the transformation progress that we are making.
+
+Here is the fundamental challenge Gelsinger faces: all of the CEOs that led Intel into the current ditch — from Paul Otellini to Brian Krzanich (the two most guilty parties) to Bob Swan — mostly got to preside over happy earnings calls, the results of which were due to investments and decisions made by Robert Noyce, Gordon Moore, and Andy Grove (Craig Barrett was more of a mixed bag); the problem is that Intel’s investors — as evidenced by Intel’s rising stock price over the last decade, even as the rot under the surface became more and more apparent — didn’t care about the decade-long interval between decisions and their consequences. And, to be fair, I can understand the investor point-of-view: had you avoided investing in Intel according to my expressions of concern you would have missed out on many years of gains.
+
+The implication of this lack of understanding or caring for the long-lead time for Intel decision-making and investments is that Gelsinger is probably not getting the benefit of the doubt for the investments and direction Intel is heading now, including the IDM 2.0 strategy ( https://stratechery.com/2021/intel-unleashed-gelsinger-on-intel-idm-2-0/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjEvaW50ZWwtdW5sZWFzaGVkLWdlbHNpbmdlci1vbi1pbnRlbC1pZG0tMi0wLyJdfSwiZXhwIjoxNjc3Njc4OTAzLCJpYXQiOjE2NzUwODY5MDMsImlzcyI6Imh0dHBzOi8vc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.SHEsOq0vyZ9h-mgrAW5Vt_-1za2wRNm0TdDyGIuTB4Sd-SHQiJ0N45F2TI0I-ZXp8XSbSWWUDZgQBsfmz6RL-BIETtUAUVTFA8IHi8UkpYOeXPqR8DnNqmCcVs6WbxeCgo1yW66wFjSul_KqFAKhGIKaCY62U6XEjmpzx4jBNoo_3e5vG8woTLYovzDq1DMFooqQGQfvf-ja1Y3F02Gy5jJNil4MGgM9uyARdN8UuxIPOPO-ji6qliItUME2z18FIX-f3Wh8uFWTAhiEq5NQM__GyuZhgL4SINGemP3K_v0Pzd1yBM9RupOGUiRss6VCab7x7YbScO1D34ObcUx6qw ) and the commitment to advance five nodes in four years. A lot of that skepticism is justified, to be clear: Intel’s foundry strategy is very risky, as the company needs to not only catch up to TSMC in terms of process but also create a customer service organization ( https://stratechery.com/2022/the-intel-split/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjIvdGhlLWludGVsLXNwbGl0LyJdfSwiZXhwIjoxNjc3Njc4OTAzLCJpYXQiOjE2NzUwODY5MDMsImlzcyI6Imh0dHBzOi8vc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.n2q4YXw5TE5gGqm7DJUkqw3vqSAf2ID4p6kkplCnWVh0ckM3arZRI7pesepvh850hJCGnlk6j44BaeABKRQ3OiDT5xtcaKgkTgOaQeFfjnfKIqoj0Qr7u_WQGm87SmtXGUeqSx8dwviiuOMvA8iQK08UUZrKgLmKluQm4RMBKo2Iokw3S41cjgvAAut-8t94IF3z6e_LugUMRqPAwnQ2tX102X6ACtrkgEQSSjicn2GC0MTI-UguMX7GEReyIvK3oG_ZQzD26OCeiMySqAWAqRTxge-0eyvyoOeuOwFZhDLlvMt90RF4Zm-Zmprl8cGHBZ7RawC_jQ9p_o_0gQLDRA ) from scratch, which entails completely reworking its culture. And, as noted, Intel needs to catch up to TSMC, which is a tough sale given that Intel spent the previous decade falling behind the Taiwanese foundry. No one is going to believe that Intel can do it until they do, and that includes investors.
+
+Indeed, the smartest play for investors is probably to wait for evidence that Intel is succeeding in its turnaround, and only then try and capture the upside — the inverse of investors who held Intel stock and profited in the very decade when the company was falling apart. Again, though, that is several years out, and Gelsinger needs investor support now. I think he is on the right course, but that course is both uncertain to succeed and even if it does, won’t bear fruit for a while.
+
+This, I think, explains why Intel is still paying a dividend, a point of consternation for many semiconductor analysts. I get their objection: Intel needs cash if it is going to pull this transformation off, so why is it paying investors a dividend for the 122nd quarter in a row?
+
+I am sure the answer has a lot to do with that longevity: Intel is not technically a “dividend aristocrat”, which requires the company to increase its dividend every year for 25 years; the company froze its dividend in 2014, and, it’s worth pointing out, stopped share repurchases. Still, Intel has been a dividend-paying stock for over 30 years, and that’s meaningful to a certain set of investors; it’s also, per the previous point, the most compelling reason to own the stock for the next year or two.
+
+That’s not nothing: not only is Intel owned by investors — at the end of the day, dividends are their money — but Gelsinger ultimately is employed by them, and is asking a lot of them. Intel could have spun off its fabs and followed AMD to being another fabless chip designer dependent on TSMC; Gelsinger went the opposite way and is risking the company to build up a U.S. foundry alternative ( https://stratechery.com/2020/chips-and-geopolitics/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjAvY2hpcHMtYW5kLWdlb3BvbGl0aWNzLyJdfSwiZXhwIjoxNjc3Njc4OTAzLCJpYXQiOjE2NzUwODY5MDMsImlzcyI6Imh0dHBzOi8vc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.H9NniVPJp5szheDlgb-mREStdNKVSiQgnsL8HNj-l4Dgop_B1uVgFtarojAZzejX7Vd44DH8JZ4f1VWxucqn7Orpy_hdSJodyeP-mE5PFUsQBYIgwB4mCAfN5p-XXYsrK6epJfOGjuST-vfuw5myxGIJ4kw7H6s1h8trog8msDweHPXk1Vwo0cEP153FQwvYOVyeSMfKbyx_lWdG23sVbo1hAaZdn8ttdBglVPWbpTkpn6fYNDL7QRkBxoReQSo8yApnEzaVy8EkKoTovl-CofHQOSTRbyLjcsYXSedSUzamqiiNQxfUiytAoOoJRbzzjDXdcLXZOQbheceQ0acPcw ) to TSMC. It was a rational decision — the worst thing ( https://stratechery.com/2021/intel-problems/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjEvaW50ZWwtcHJvYmxlbXMvIl19LCJleHAiOjE2Nzc2Nzg5MDMsImlhdCI6MTY3NTA4NjkwMywiaXNzIjoiaHR0cHM6Ly9zdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.EaRdWkjFAbRVD0p1XI-uCq9fOyboqhsqVRc1jTbsQ0gNQ5J28bG3NabXpfw0gVuyb11jJVIf0YS7txid6DC7atwD_BLdibLAjPSeffLRPEN1wPVH9U2hd77NGC3SAKG21FMP8AHH3a1v5L79Og88sqcHuQRuLH9JmtKu61sdbavn6vMdkZ-_siTLPRvdUTmR3Nk4N0miCin0rXwQnX0yhfqC6VJ0spNQBWOgfTjcho8YLqe-mHUNr7UXaaeOTSWCYRiSeJJ65QmHkPamB5ProCGe1EUjGe7vhNDqSZDN2Lsxa_MVySZLMT_A0E3fOVY7AyTiA30hLhJQ5buc97ewCQ ) Intel could have done is try to maintain the status quo of being an integrated device manufacturer that only made its own chips — but it will take a long time to pay off, and I think it’s reasonable for investors to want and receive a return in the meantime.
+
+That’s not to say that Intel might not trim the dividend a bit; CFO David Zinsner said on the call:
+
+We announced a $0.365 dividend for the first quarter. That was consistent with the last quarter’s dividend. I’d just say the Board, management, we take a very disciplined approach to the capital allocation strategy, and we’re going to remain committed to being very prudent around how we allocate capital for the owners. And we are committed to maintaining a competitive dividend.
+
+Right now Intel’s dividend is not competitive, in that it is really high, thanks to Intel’s plummeting stock price; indeed, this upcoming dividend represents a dividend yield of around 6%, which is one of the highest in the entire stock market. Intel may very well give it a haircut, but I don’t think it goes away, and I think that’s ok. Gelsinger needs time, and if this buys him a bit more of it it will be a price worth paying.
+
+This Update will be available as a podcast later today. To receive it in your podcast player, visit Stratechery ( https://stratechery.passport.online/member ).
+
+The Stratechery Update is intended for a single recipient, but occasional forwarding is totally fine! If you would like to order multiple subscriptions for your team with a group discount (minimum 5), please contact me directly.
+
+Thanks for being a subscriber, and have a great day!
+
+Listen to this update and other Stratechery Plus content in your podcast player:
+Stratechery ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp Tech ( https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Dithering ( https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp China ( https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | GOAT ( https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Subscription Information
+
+Member: Omar Zoheri
+Email: stratecheryUSC@khamel.com
+Member since: December 8, 2022
+Auto-renewal is disabled
+Expiration date: December 8, 2023
+
+You are receiving this email because you are subscribed to Stratechery ( https://www.stratechery.com ).
+
+Click here ( https://stratechery.passport.online/member/login?email=stratecheryUSC%40khamel.com ) to view your account and manage your subscriptions.
+
+© 2023 Stratechery LLC ( https://www.stratechery.com ) , 2093 Philadelphia Pike #9930, Claymont DE 19703

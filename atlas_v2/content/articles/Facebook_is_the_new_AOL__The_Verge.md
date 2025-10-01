@@ -1,0 +1,85 @@
+# Facebook is the new AOL | The Verge
+
+**Source**: http://www.theverge.com/2015/1/4/7488495/facebook-is-the-new-aol
+**Type**: article
+**Created**: 2025-08-13T19:15:56.056410
+
+---
+
+title: Facebook is the new AOL | The Verge
+source: http://www.theverge.com/2015/1/4/7488495/facebook-is-the-new-aol
+date: 2025-08-13T19:15:54.115710
+tags: []
+---
+## Google is the new Microsoft; Qualcomm is the new Intel
+
+Google has been the new Microsoft for so long that this shouldn't surprise
+anyone: nearly everything that happens on the internet touches Google in some
+way, giving the company nearly incomprehensible power. It's way beyond obvious
+things like search and YouTube, each of which are behemoths in their own right
+— it's all the way down to Google's DoubleClick for Publishers ad server and
+Google Analytics, which sit behind almost every major website. (Like this one,
+for instance.)
+
+Google knows so much about how people spend their time and money on the web
+that it can easily make or break any new businesses it wants. This power is so
+huge that European countries keep threatening to break Google up, just as
+Microsoft was constantly under regulatory threat at home and abroad. And
+Google's ever-increasing complexity means that it will eventually create
+opportunities for competitors with simpler, more focused products to come
+along and disrupt it, just as Google and the web disrupted Microsoft and
+Windows.
+
+"The coming Sensor explosion is a dangerous moment for Qualcomm"
+
+But while the Google / Microsoft comparison is fairly obvious, no one seems to
+be paying attention to Qualcomm's incredible chipset dominance in mobile.
+Android and Snapdragon look an awful lot like Windows and Intel; every
+hardware maker except for Apple is beholden to the two giants behind the
+platform. (And even Apple uses Qualcomm's LTE radios and other chips in the
+iPhone.) Qualcomm has an incredible patent moat and it seems to be pushing
+Snapdragon along right on schedule, but that's exactly where Intel was before
+the smartphone explosion sent its roadmap spinning wildly off course. The
+coming explosion of internet of things devices, wearables, and other sensor-
+laden gadgets is a huge opportunity for every company that failed in mobile,
+and a dangerous moment for Qualcomm.
+
+## Facebook is the new AOL
+
+Just think about it for a minute. Of _course_ Facebook is the new AOL.
+Facebook is the beginning and the end of the internet for a huge number of
+normal people, a combination of primary service provider (user profiles,
+messaging, photo sharing) and '90s-style portal to the wider web. Facebook has
+its own IM platform, Messenger, just like AOL had AOL Instant Messenger. Then
+it went and bought WhatsApp, the messaging platform more popular
+internationally, just like AOL bought ICQ. Facebook groups are just AOL chat
+rooms; Facebook's permanently doomed commerce plays are AOL's permanently
+doomed commerce plays. (AOL's ultimate doomed ecommerce play? The [acquisition
+of Netscape](http://www.businessweek.com/1998/51/b3609107.htm).)
+
+And Facebook's core business of selling ads into the News Feed is the same
+combination of incredibly vulnerable and apocalypse-proof as [AOL's dial-up
+business](http://www.theverge.com/2014/8/6/5975591/2-34-million-people-are-
+still-paying-aol-20-bucks-a-month): it will continue minting money for as long
+as the parents and grandparents of the world start their day with Facebook,
+and it will stop growing the second all of their kids move on to something
+better.
+
+"The only remaining move is for Facebook to up and buy a media company"
+
+You can keep going: Facebook is now pitching itself to media companies as
+their savior, just as AOL once did. Most websites get a tremendous amount of
+traffic from Facebook; it's only a matter of time before Facebook starts
+aggressively charging for that traffic. And there's word that Facebook even
+[wants media companies to start publishing directly onto Facebook's
+platform](http://www.nytimes.com/2014/10/27/business/media/facebook-offers-
+life-raft-but-publishers-are-wary.html?_r=0), ostensibly in the name of a
+better user experience — being kicked from the Facebook app to a browser or
+web view on mobile kind of sucks, after all. That's a play straight out of the
+AOL playbook; the only remaining move is for Facebook to up and buy a media
+company of its own, just like AOL spent the 90s building up to its disastrous
+January 2000 purchase of Time Warner.
+
+You're laughing, but there's an old media company — probably a cable network
+scared to death of YouTube — looking at Jeff Bezos buying _The Washington
+Post_ and thinking hard about how to sell itself to Facebook.

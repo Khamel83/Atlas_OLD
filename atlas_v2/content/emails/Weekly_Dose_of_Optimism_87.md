@@ -1,0 +1,47 @@
+# Weekly Dose of Optimism #87
+
+**Source**: inputs/saved_emails/Weekly Dose of Optimism #87_Fri,_29_Mar_2024_12-58-47_+0000_18e8a4b2a8dc0cf6.eml
+**Type**: email
+**Created**: 2025-08-25T02:53:57.749755
+
+---
+
+View this post on the web at https://www.notboring.co/p/weekly-dose-of-optimism-87
+
+Hi friends 👋,
+Happy Friday and welcome back to our 87th Weekly Dose of Optimism.
+This week was less about any major breakthroughs or exciting product launches, and more about storytelling. Stories are important. We need narratives to make sense of things, especially when those things are novel. Luckily,  there’s a new brand of storyteller on the internet — a group of optimistic narrative-builders covering the most exciting things that the builder-builders are working on. We’ll share some of their work below.
+Let’s get to it.
+(1) How to make an old immune system young again [ https://substack.com/redirect/07360566-650d-4531-98f2-02432f92f8ce?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Heidi Ledford for Nature
+Antibodies that target blood stem cells can rejuvenate immune responses in mice.
+Ohh to be young again! New researched published in Nature this week found that reducing certain stem cells in old mice can rejuvenate their immune systems, making them more effective at fighting viral infections and reducing inflammation. This works by rebalancing the types of stem cells that affect immune responses, shifting them from those that cause inflammation to those that support a more youthful immune function. We’re still years away from going from mice to men, but the research’s findings could help improve aging immune systems. 
+The more and more I learn about all of the new research in human biology and longevity, the more and more I think my goal (and everybody’s goal) should just be to not die in the next 20 years. If you just make it another 20 years, my bet is that we’ll hit some longevity escape velocity and you’ll be living an extra 50 healthy years than you otherwise would. Bryan Johnson might actually be right…just don’t die. 
+(2) The Future of Humanity's Energy No One Knows About | Terraform [ https://substack.com/redirect/bd1a1ef7-4272-4167-bfe3-83a62df3c4b9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+You may remember the name Casey Handmer. We’ve written about him a few times, but usually in the context of the Vesuvius Challenge. Last summer, Casey was the first participant to find substantial, convincing evidence of ink within the unopened scrolls. This was a crucial discovery that ultimately helped a trio of young researcher actually read parts of the ancient scrolls and win the Vesuvius Challenge. Well, for Casey, the Challenge was very much a side hustle. His main hustle is being the founder of Terraform Industries.
+Terraform, according to Casey, scrubs CO2 from the atmosphere and uses renewable hydrogen to convert it to natural gas, more cheaply than drilling, fracking, and piping. Terraform is positioned to scale as rapidly as falling solar electricity prices allow, and aims to displace the majority of fossil hydrocarbon production by 2035.
+Those are ambitious goals and a short paragraph isn’t going to do the company justice. But Jason Carman’s 20 minute deep dive on Casey and Terraform does the trick. Casey is one of those founders that makes you both dumbfounded that people this smart exist and thankful that people this smart exist.
+I hope Packy writes a deep dive on this company some day soon.
+(3) Underground Hyperlogistics Delivery Drones | Garrett McCurrach, Pipedream [ https://substack.com/redirect/917b694f-bcc8-450c-b30e-a423e647a467?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Speaking of ambitious founders taking on SciFi challenges…we’ve got Garrett from Pipedream. Pipedream is a hyperlogistics company that aims to deliver (basically) anything in under 10 minutes for less than $1. Imagine a miniaturized underground subway system connecting our homes and offices with stores, restaurants, and delivery hubs. Pipedream is building that.
+That plan is almost laughably ambitious. And Garrett has faced the laughers and doubters. But he’s come out on the other side with more legitimate business traction results than really any one could have imaged. The system is already being deployed is Peachtree Corners, a city northeast of Atlanta, and the company is currently cutting deals with some of the most scaled restaurants chains and grocery stores in the country.
+If you want a look into what the future of delivery will look like, watch that video.
+(4) Cancer: A Food-Borne Illness [ https://substack.com/redirect/741d57ae-f4a9-43cb-a931-484c96eb3529?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+A video heavy week here at the Weekly Dose. 
+For better or worse, this video is not embeddable in Substack because it’s only available on X [ https://substack.com/redirect/f42adef6-518c-4ae2-92fa-63a0ed409bed?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. According to Grace Price, the 18 year old filmmaker behind the video, that’s because X “is only on this platform that I am able to release a film that challenges big food conglomerates and mainstream health claims without fear of censorship.”
+Price’s documentary is a 24 minute exposé of the U.S. food system and its links to cancer. More accurately, it’s an exploration of food and epigenetics. Epigenetics is the study of how behaviors and environment can cause changes that affect the way genes work, without altering the DNA sequence itself. According to Price, the way we eat is epigentically altering our genes and increasing cancer rates.
+She’s probably right. The issue, however, is not most folks reading this don’t know that eating shitty food leads to higher cancer rates — I think that’s pretty well accepted at this point — but that the systems, incentives, and realities of our current food system have made it incredibly hard to bring about the scaled change we’d need to actually yield societal level results.
+There are two approaches here. Tops down — something like regulation demanding certain nutritional thresholds — or bottoms up — something like changing the hearts and minds of the populace such that demand for shitty foods goes down and healthy foods go up. We’re more partial to demand-side incentives here, and videos like Grace’s (which at the time of writing had 2M views within 14 hours) should help in moving the needle there.
+(5) Nuclear Loan [ https://substack.com/redirect/6bc6bb8d-84d8-4a7f-8285-63ae1c146652?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] + Coal-Fired Shutdowns [ https://substack.com/redirect/64104646-2963-4516-8815-f589cc99a33e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+A nice little duo of energy stories from the Gray Lady this week. 
+On Wednesday, the Biden Administration approved a $1.5B loan guarantee that will allow Holtec International to revive its Palisades nuclear plant. When it’s open, the Palisades will be the first re-opened nuclear power plant in U.S. history. This is a very strong signal from the White House that it’s committed to supporting nuclear revitalization and expansion.
+Also on Wednesday, an agreement was reached between a number of environmental groups and Granite Shore Power to shut down the last two coal-fired power plants in New England over the coming years. Coal still accounted for 17% of total electricity produced in the U.S. in 2023, but it’s share of total is dropping precipitously. Companies who still do have operational plants are now rolling out transitions to cleaner, renewable energies.
+Not a bad Wednesday. I’d trade two coal-fired power plants for a newly re-opened nuclear plant any day of the week.
+Bonus: Boom Supersonic Announces Successful Flight of XB-1 Demonstrator Aircraft [ https://substack.com/redirect/ab3e83bd-a74f-48dc-a236-f2c513c7a7ae?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Last week, Boom Supersonic [ https://substack.com/redirect/f5e0eb54-a67e-4eb0-83d6-4dccd6d438fd?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] announced the successful flight of XB-1 [ https://substack.com/redirect/fb5c1a77-580c-49c8-8491-a4ba44130b45?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], the world's first independently developed supersonic jet. This was a major milestone on bringing back supersonic travel (RIP Concorde). 
+Look out for an essay from Packy next week on what the future of flight might look like…
+We’ll be back in your inbox early next week. 
+Thanks for reading,
+Packy + Dan
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVFF6TURNM016a3hMQ0pwWVhRaU9qRTNNVEUzTVRjeE5EUXNJbVY0Y0NJNk1UY3hORE13T1RFME5Dd2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5Lm52QmJFUUlCZ0tUQk9XbTNUWTVFZ3daWmc3ZWsxQXZHUEFkRmt6T09ITjgmZXhwaXJlcz0zNjVkIiwicCI6MTQzMDM3MzkxLCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTcxMTcxNzE0NCwiZXhwIjoxNzE0MzA5MTQ0LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.NblNw-p3NL0JJZHUxL3i35YhQOh_zP4urnE_hyXMPs4?

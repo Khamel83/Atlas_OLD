@@ -1,0 +1,146 @@
+# =?UTF-8?q?CNN=E2=80=99s_Big_Chill,_An_NFL-Amazon_Romance_&_Moonves_Moves?=
+
+**Source**: inputs/saved_emails/=UTF-8qCNN=E2=80=99s_Big_Chill,_An_NFL-Amazon_Romance_&_Moonves_Moves=_Fri,_15_Nov_2024_23-30-30_+0000_193322a0ce5e4fb1.eml
+**Type**: email
+**Created**: 2025-08-25T02:54:01.074977
+
+---
+
+Greetings from Los Angeles and welcome back to In the Room, my private email on the media business. The top takeaway from a busy media earnings week is that nearly every legacy mediaco—Disney, NBCUniversal, WBD, Paramount, etcetera—is now saying the quiet part out loud: Their TV news businesses are in free fall. The silver lining: Their streaming businesses are growing and, with the exception of Peacock, actually turning a profit. The challenge, obviously, is figuring out how to grow these streaming businesses fast enough to outpace the decline on the linear side—that is, if they can’t find a way to sell off or otherwise excise those legacy assets. Good luck.
+
+ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+
+In The Room ( https://puck.news/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+In The Room ( https://ad.doubleclick.net/ddm/trackclk/N450204.4235921PUCK/B32594910.403585053;dc_trk_aid=600205419;dc_trk_cid=225269203;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Greetings from Los Angeles and welcome back to In the Room, my private email on the media business. The top takeaway from a busy media earnings week is that nearly every legacy mediaco—Disney, NBCUniversal, WBD, Paramount, etcetera—is now saying the quiet part out loud: Their TV news businesses are in free fall. The silver lining: Their streaming businesses are growing and, with the exception of Peacock, actually turning a profit. The challenge, obviously, is figuring out how to grow these streaming businesses fast enough to outpace the decline on the linear side—that is, if they can’t find a way to sell off or otherwise excise those legacy assets. Good luck.
+
+🎙️🍸 The Grill Room: On the latest edition of the podcast, CNBC’s Alex Sherman joins me to discuss ( https://puck.news/podcast_episode/disney-succession-tea-leaves/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) that aforementioned existential challenge, as well as a number of other juicy, mission-critical topics: Dana Walden and the Disney succession tea leaves, John Malone’s Maffei moves, the Trump 2.0 M&A landscape, NBC's “Roundball Rock” deal blockers, and what Brian Roberts’ cable spinoff trial balloon portends for MSNBC and CNBC. “That worries me as an employee of CNBC about what the future may be, if that actually happens,” Sherman told me.
+
+In tonight’s email, fresh reporting from Hudson Yards, where CNN chief Mark Thompson is offering editorial preferences and suggestions that barely hint at a real conviction about the network’s
+identity in the second Trump era. Increasingly, his critics are less worried about the digital-vs.-linear divide, and simply wondering if he’s even paying attention to the content.
+
+Also mentioned in this email: David Zaslav, David Ellison, Donie O’Sullivan, Sara Moonves, John King, Jeff Zucker, Pete Hegseth, Karlie Kloss, Chris Licht, Elle Reeve, and many more…
+
+A MESSAGE FROM GOLDMAN SACHS
+
+$(ad2_title) ( https://ad.doubleclick.net/ddm/trackclk/N450204.4235921PUCK/B32594910.403585827;dc_trk_aid=600119192;dc_trk_cid=225823263;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Investors are beginning to pay closer attention to the growing sports industry — long underpriced and misunderstood.
+
+New capital is flowing into the ecosystem, from media platforms and online betting to stadium financing and international expansion.
+
+Read the report ( https://ad.doubleclick.net/ddm/trackclk/N450204.4235921PUCK/B32594910.403585827;dc_trk_aid=600119192;dc_trk_cid=225823263;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) from Goldman Sachs Investment Banking.
+
+But first, some industry news and notes from my partners John Ourand and Lauren Sherman…
+
+* Ourand on the NFL-Amazon Romance…: Last week, the NFL achieved a significant milestone when viewership for Amazon Prime’s plucky Thursday Night Football telecast beat out ESPN’s Monday Night Football, marking the first time that any streaming service had attracted a larger audience in a same-week battle with one of the NFL’s top TV partners. Last weekend, Amazon netted 13.63 million viewers for the Bengals-Ravens game. Meanwhile, ESPN averaged 12.2 million viewers for the Dolphins and the Rams.
+
+Yes, there are some caveats here. Amazon is the NFL’s only real
+streaming partner (Peacock has had a couple games and Netflix gets two on Christmas), and I’m excluding a couple of ESPN/ABC doubleheaders that split up that Monday night audience. Also, Amazon had a far better matchup (an inter-division rivalry that the TV networks would obviously covet) than ESPN (a random inter-conference game between two teams that have no rivalry). But still… the precedent is emblematic of the sea change impacting the sports business as the growth of streaming threatens to finally extinguish the smoldering embers of the cable fire pit.
+
+Interestingly, this news was greeted with wan reflections and jejune responses from the legacy executives I spoke to, nearly all of whom view live sports as the last bastion of linear and the inevitable plaything of streaming. In fact, many already believe that the major sports leagues are doing whatever they can to put streamers like Amazon in a position to succeed. The NFL wants to get Amazon and
+Netflix (and Google, and Apple, etcetera) hooked on live games, so they’ll become serious bidders when, as expected, the league exercises an out in its media rights deals at the end of the decade. Skydance and RedBird’s interest in Paramount Global was motivated, in part, by the company’s longtime NFL relationship, but it remains to be seen whether David Ellison’s CBS, or, in fact, any of the linear networks, will be able to compete for rights when the NFL reopens its deals. —John Ourand [Read More ( https://puck.news/will-the-nfl-put-more-games-on-amazon-prime/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+* Lauren on Sara Moonves’ legacy media expansion: You might remember that Sara Moonves and her W magazine investor consortium (Jason
+Blum, Kaia Gerber, et al.) looked at acquiring ( https://puck.news/newsletter_content/karlies-print-plan-more-chanel-speculation-the-rows-executive-shuffle-3/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the British culture publication i-D magazine, which ended up getting bought by Karlie Kloss (also a minority investor in W) instead. Turns out, that wasn’t an isolated incident. The entity known as Wmedia is acquiring The Face, another storied British fashion publication, from a publishing house called Wasted Talent that also owns two other magazines you’ve never heard of. Founded in 1980, The Face was one of the most important pieces of British culture to be exported during
+the Anglophile ’90s—the 1990 cover ( https://theface.com/archive/kate-moss-summer-of-love?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) of a 16-year-old Kate Moss, shot by Corinne Day, is iconic—and many of the most celebrated photographers and stylists working today got their starts there.
+
+Through her stewardship of W, Moonves has shown that she has those old-school editor chops (inventive fashion shoots, a sense of fun, a knack for getting attention without looking thirsty). She’s also got business savvy aplenty—as a reminder, BDG helps manage sales—so let’s see how she does with refreshing another beloved, if beleaguered, title. (W was in decent shape when she inherited it; The Face will need more work.) No news on how Moonves plans to staff up—is
+this going to be a shared services thing, or a whole new crew?—but I’m sure we’ll hear soon. A rep for Wmedia declined to comment. —Lauren Sherman
+
+The Mark-est Hour ( https://puck.news/cnns-internal-reckoning/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Mark-est Hour ( https://puck.news/cnns-internal-reckoning/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A gloomy company-wide meeting revealed Mark Thompson’s CNN is still caught between the linear past and the digital future, and nonpolitical news versus 24-hour Trump TV. Insiders wonder who’s paying attention to the content while others wonder if a more sinister fate beckons.
+
+DYLAN BYERS ( https://puck.news/author/dylan-byers/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+DYLAN BYERS ( https://puck.news/author/dylan-byers/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+On Wednesday morning, CNN chairman and C.E.O. Mark Thompson kicked off the network’s daily 9 a.m. all-hands call with some observations and recommendations that at least hinted at an editorial strategy for the center-left news network amid the Trump 2.0 era. Throughout the week, CNN had, and has, been dedicating much of its coverage to the torrent of Trump’s middle-finger cabinet appointments—Matt Gaetz for attorney general; Pete Hegseth for defense secretary; R.F.K. Jr. for H.H.S. secretary, etcetera. These are the sorts of shock- and revulsion-inducing news developments that have historically driven liberal and anti-Trump audiences to douse their burning scalps in a cooling bath of cable news.
+
+But this time around, it seems, Trump’s win and his subsequent staff picks have been so
+overwhelmingly dispiriting as to be wholly desensitizing. Audiences for CNN and MSNBC were already declining before the election; since then, they’ve fallen off a cliff. The day before CNN’s all-hands, exactly one week after the election, both networks drew some of their smallest audiences on record. In the relevant 25-to-54 demo, each network averaged its lowest total day audience in a quarter of a century, with just 46,000 for MSNBC and 64,000 for CNN. (Back in the high Zucker days of November 2020, by contrast, CNN registered its highest month ever, averaging 560,000 in the demo for total day.) Meanwhile, Fox News has thrived, grabbing roughly 75 percent of the cable news audience this week, both in total viewers and in the aforementioned under-55 demo. Presumably, everyone else 
+( https://www.pewresearch.org/internet/fact-sheet/social-media/?tabItem=5b319c90-7363-4881-8e6f-f98925683a2f&utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) is busy looking at YouTube, TikTok, Instagram, and Snapchat, or listening to podcasts, or shoving their head in the sand.
+
+From Thompson’s perspective, of course, the loss of linear audiences is only the latest urgent catalyst for the future-facing, digital- and streaming-first strategy he has ostensibly been implementing since taking over the network more than a year ago. (A strategy which, as I’ve reported ( https://puck.news/newsletter_content/the-cnn-reckoning-wills-back-to-work-mandate-abcs-santucci-scaries/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), will necessitate hundreds of layoffs in the weeks ahead.) Honestly, some small part of Thompson may even welcome the latest Nielsen data, if only because it emphasizes the point he’s been trying to hammer into his charges’ heads, gently and then not-so-gently, since he arrived: The future is digital and multi-revenue-stream, and it’s time to abandon your nostalgia.
+
+In the process of this slow-but-inevitable transformation, Thompson has obviously had to manage the decline of the cable asset, which still pays the bills—a point that the network’s linear natives never tire of pointing out. Indeed, Thompson’s appeal, in the eyes of his boss, David Zaslav, wasn’t only that he’d spent a decade shepherding The New York Times through its own digital
+transformation, but also that he had run a global television news network as director general of the BBC in the decade prior to that. And yet, the decline of linear, and the diminishing appetite for left-leaning cable news, is accelerating more swiftly than either Zaz or Thompson initially appreciated.
+
+$(ad3_title) ( https://ad.doubleclick.net/ddm/trackclk/N450204.4235921PUCK/B32594910.403585485;dc_trk_aid=600231558;dc_trk_cid=225289081;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The King Paradox
+
+In the Wednesday staff meeting, Thompson acknowledged that it was all well and good to cover Trump’s cabinet appointments, but he did not want CNN to go wall-to-wall on the daily Trump drama for the next four years, as the network mostly had under Zucker during the president-elect’s first administration. There were a lot of other stories out in the U.S. and around the world, Thompson said, and it was clear that audiences were sick of the way the media covers politics.
+
+Thompson pointed to two examples that helped articulate a path forward: John King’s “All Over the Map” series, an election-season voter-interview feature from the battleground states—effectively a “man on the street” subgenre, only with better production values and often “in the home”—and Donie O’Sullivan’s slickly produced
+packages from the front lines of MAGA America featuring, as Thompson put it, the “people we don’t normally hear on CNN.” (Thompson singled out an interview in which a January 6 rioter expressed confidence that he’d be pardoned by Trump.) In other words, more reporting from the field, less pontificating from the studio.
+
+To many, Thompson’s remarks were welcome and long overdue. Much of CNN’s pre-election coverage—as well as MSNBC’s—featured roundtables overpopulated with familiar, mostly anti-Trump greenroom analysts expressing the customary outrage and incredulity, which never equalled a winning programming strategy. And his perspective was very welcome to the journalists and correspondents on nonpolitical beats, many of whom have felt marginalized or underappreciated for more than a decade—ever since Zucker first implemented his “one big story,” wall-to-wall strategy, which eventually just meant “all in on Trump.”
+
+For
+others, however, Thompson’s prescription stoked latent fears about his editorial leadership, which are distinct from the usual anxieties about the viability of his business transformation. “Man on the street” is hardly a programming innovation, these folks noted, and MAGA-world anthropology—Let’s all marvel at these election deniers in the wild!—was the exact playbook that television and digital news sites tried to run in the aftermath of Trump’s first victory. O’Sullivan and his colleague Elle Reeve have been doing that sort of reporting for six years. Did Thompson really like this stuff—or was he just sick of everything else?
+
+Under Thompson, CNN’s fate is often framed—yes, very often by me—as a linear-vs.-digital dialectic, a question of whether or not The Man From The New York Times can transform the 44-year-old cable network into a multiplatform, subscription-supported service that will maintain CNN’s
+global influence in a post-linear world. Increasingly, many of Thompson’s critics at CNN argue that this misses the point. In their view, it’s not simply a question of whether he’s prioritizing digital over television. Even the digital folks are quick to point out that he has yet to implement any big digital innovations, let alone overhaul the messy and chaotic aughts-era homepage.
+
+The true problem, these people say, is that Thompson appears to be ignoring the content itself. In their view, it doesn’t matter what brilliant digital delivery system he devises if what’s being conveyed in the pipes is not relevant or engaging. And, indeed, he has yet to publicly articulate an identity for the new CNN beyond pointing out the obvious: Linear is dying.
+
+Alas, these sorts of unhappy-family squabbles acknowledge the sad and increasingly clear truth of it all—this is a worsening situation without a whole lot of good solutions. And the timing of
+Thompson’s remarks, so proximate to the forthcoming layoffs, intimates that his plan may actually be deceptively simple: drastically cut costs, pivot to the center to defend the cable network’s value among distributors, and pull it all off with more credibility than Chris Licht. If the digital sub thing works, that’d be swell, too.
+
+And yet, there’s likely another unspoken element to all this. For generations, news networks earned their margins by filtering their newsgathering infrastructure through the prism of a well-coiffed anchor who personalized the information by looking directly into the camera. Our politics have changed, our monoculture has collapsed, and our media economy—fairly or not—values authenticity most of all. It’s unclear how CNN’s current product fits into this dynamic, and the network’s rank and file sure haven’t heard Thompson’s point of view on the subject, either, besides his pat references to battleground content
+and red state diaries. Indeed, all of this reinforces a straightforward, if depressing message: The problem isn’t just that Thompson is no savior; the real heartbreaker is that no one is.
+
+FOUR STORIES WE’RE TALKING ABOUT
+
+Iger’s Netflix Moment ( https://puck.news/bob-igers-netflix-moment/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Iger’s Netflix Moment ( https://puck.news/bob-igers-netflix-moment/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Breaking down Bob Iger’s blockbuster quarter at Disney.
+
+MATTHEW BELLONI
+
+An LVMH Heir Apparent ( https://puck.news/alexandre-arnaults-promotion-lvmh-succession?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+An LVMH Heir Apparent ( https://puck.news/alexandre-arnaults-promotion-lvmh-succession?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Assessing the latest Arnault succession intrigue.
+
+LAUREN SHERMAN
+
+NFL Rights Wars ( https://puck.news/will-the-nfl-put-more-games-on-amazon-prime/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+NFL Rights Wars ( https://puck.news/will-the-nfl-put-more-games-on-amazon-prime/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Digging into the NFL-Amazon partnership.
+
+JOHN OURAND
+
+Ruffini! ( https://puck.news/patrick-ruffini-the-oracle-of-2024/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Ruffini! ( https://puck.news/patrick-ruffini-the-oracle-of-2024/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A post-election conversation with pollster Patrick Ruffini.
+
+TARA PALMERI
+
+swash divider
+
+Puck ( https://puck.news/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQs
+page ( https://puck.news/faq/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact
+us ( fritz@puck.news?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/global-unsubscribe/?subscription=in_the_room&delivery_id=dgT2xgYDAKvRKqrRKgGTMimt3o5Uke_HBJ5yAKc=&utm_campaign=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2811%2F15%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Puck is published by Heat Media LLC. 227 W 17th St New York, NY 10011.

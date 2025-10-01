@@ -1,0 +1,223 @@
+# The True Story Behind ‘Molly’s Game’ Is Wild
+
+**Source**: https://www.vice.com/en_ca/article/j5v5gp/the-true-story-behind-mollys-game-is-wild
+**Type**: article
+**Created**: 2025-08-13T16:13:19.712068
+
+---
+
+title: The True Story Behind ‘Molly’s Game’ Is Wild
+source: https://www.vice.com/en_ca/article/j5v5gp/the-true-story-behind-mollys-game-is-wild
+date: 2025-08-13T16:13:17.898288
+tags: []
+---
+Remember that crazy time when a hopeful Olympian-class skier named [Molly
+Bloom](https://en.wikipedia.org/wiki/Molly_Bloom_\(poker_player\)) received a
+debilitating back injury thanks to a lone stick in some snow? The same skier
+who years later would end up[ running an illegal, but high-profile gambling
+ring in LA?](https://nypost.com/2014/06/22/inside-the-poker-princess-a-list-
+house-of-cards/) The same high-profile gambling ring that hosted celebs like
+Ben Affleck, Tobey Maguire and Leonardo DiCaprio? The same DiCaprio that acted
+[in movie about the Irish mob](http://www.imdb.com/title/tt0407887/)…but has
+nothing to do with the actual Russian mob that beat Molly within inches of her
+life? Oh, and that same life [that was nearly destroyed by the
+FBI](https://www.usatoday.com/story/news/nation/2014/05/02/poker-princess-
+molly-bloom/8641117/) that came rushing in to shut her shit down? Remember
+that time? I sure as hell didn’t, and can still barely believe it after having
+seen _Molly’s Game_. Come Christmas Day, this story will be immortalized for
+everyone else to question thanks to director and writer Aaron Sorkin.  
+
+And yes, it’s pretty good, but the movie still left me with questions. In my
+attempt to understand this story that comes off as some drunkard’s fable, I
+spoke the woman herself, Molly Bloom. I needed the whole thought process
+behind this scary and insane ride. How has she grown since then? And is Tobey
+Maguire (aka Spiderman) still the same dick as _Molly’s Game_ shows him to be?  
+  
+
+Play video ![Play](https://img.youtube.com/vi/Vu4UPet8Nyc/hqdefault.jpg)
+
+VIDEO
+
+VIDEO
+
+**VICE: This film was very intimate and very truthful. Almost like a visual
+diary. What was it like to see those flawed parts of your life displayed so
+honestly?**  
+**Molly Bloom:** Aaron Sorkin wrote and directed an extraordinary film. A lot
+of what makes it so special is that he allowed my character to be me, to be
+flawed. He allowed for an honest and complex picture of what it’s like to just
+be a human being and make choices. I gotta say, there’s something very
+cathartic for me about first coming out with my book, and then telling on
+yourself and living through that. I kept a lot of the dirt to myself before
+the film, but after working eight months with Aaron, I really kinda came
+clean. Between the novel and working with Aaron, I’ve probably did 20 years
+worth of therapy (laughs).
+
+**And you had to have some initial fears about the project before it came out.
+This was going to be all about you.**  
+Well it was I that pursued Aaron specifically because in writing the book, I
+had left a huge mess of my life and a big part of that was knowing that my mom
+had to put her house up just to help me with my legal bills. And my criminal
+attorney, much like in the film, personally vouched for me for $250,000 that I
+didn’t have and it saved my butt. So it wasn’t just my life I was trying to
+save, it was also the people that were important to me. When I took in the
+personal inventory after the wreckage I had caused, the story itself seemed
+like the most monetizable asset so that I could be closer to paying these
+people back.
+
+So here I was after writing this book, going around Hollywood asking anyone if
+they could get me a meeting with Aaron and they’re just laughing at me
+(laughs). I just wanted to try, so once we met, everything changed once he was
+on board. He fought hard for this story that wasn’t about a girl that falls in
+love. It didn’t have cliche themes. He just wanted to tell an honest story and
+put his career on the line for having us interact at all, because no one
+wanted to touch this because of the famous people involved. There was a fear
+in Hollywood.
+
+**You could have ruined a lot of lives with what you knew. One of the things
+that seemed so telling was how much you were willing to fall on your own
+sword. And good people were telling you otherwise. Where was your resolve
+coming from?**  
+I made these choices. I made the choice to go into the world of underground
+poker. I profited from it, and these people enabled me to profit from it. When
+I met the consequences for those choices, the consequences including losing
+all of my money and facing jail time. And it really felt like, if I turned
+around and threw all these people under the bus, I would never have been able
+to get my integrity back and that would’ve been a life sentence. That didn’t
+compare to the life sentence of knowing that I made this really terrible
+choice and ruined lives.
+
+**Throughout this whole thing, you had that moral fibre which is honestly
+weird given the stereotypes of illegal gambling. Like collecting debts for
+instance, you never resorted to violence. How did you wrestle with those
+potential decisions business-wise?**  
+Taking full responsibility and accountability was the secret here. I had to do
+my job properly. Sure, if I had figured out a way to have private
+investigators get information from banks, I could have found pretty much
+anything on anyone. So if I was doing my job, there would be no reason that I
+couldn’t collect. So when someone stiffed me, nine times out of 10, it was my
+fault. I ate it, I mean what was I going to do? I didn’t have any traditional
+resources, and I wasn’t a bank so I wasn’t going to intimidate anyone either
+(laughs). My main responsibility was in vetting these players and making sure
+they were capitalized, and that was the key to not getting stiffed. The very
+worst time I got screwed ended up costing me $250,000 and that really hurt.
+But I wrote the check, what are you gonna do?
+
+**Full names were never mentioned too, despite the fact we know about people
+like Ben Affleck, Leonardo DiCaprio** **and Tobey Maguire participated in your
+gambling ring.**  
+Yeah. When I sat down to write a book I was like, how do I do this in a way
+that still tells a compelling story without doing too much harm. Most of the
+names were already in the public domain from the [Bradley Ruderman ponzi
+scheme](http://www.businessinsider.com/tobey-maguire-sued-by-hedge-fund-
+investors-illegal-poker-ring-dicaprio-matt-damon-2011-6). I got rejected by
+every publisher except for one because they wanted the real dirt. They knew I
+had more, and of course I did. But I was like look, I’ll mention the names
+that have already been mentioned and I’ll give it colour, but I’m not going
+down that road where I tell things that would sell books but also hurt people
+in the process. **  
+**
+
+![](https://www.vice.com/wp-
+content/uploads/sites/2/2017/12/1514391146787-150701-crocker-poker-culture-
+tease_cs1a2m.jpeg) Ben Affleck, real-life poker player.
+
+**You really did have that dirt. I don’t generally hang with celebrities but
+you saw a lot of private sides to them. Did your view of that whole celebrity
+culture change from before to after this whole experience?**  
+Well there’s that first night when you walk into a game, and being in my early
+20s from a small town, and seeing very famous people in the flesh, it’s
+jarring. It just feels weird. But it normalizes really quickly when you see
+that people are just people. And very quickly, the game was my startup in
+terms of building a business. Celebrities were assets to me. And yeah, maybe
+you and I don’t have this big fantasy about celebrities at this stage, but it
+matters. People want to sit at a table with them, be close to them, and this
+was a big draw to the game. The whole system took on a new meaning to me when
+I was looking at it through the lens of building a business.
+
+**And we gotta talk about the instance of you being roughed up by a section of
+the Russian mob after you turned down an offer for protection. Most people
+would have left at that point. But you continued with the intent to eventually
+get out. Honestly, how far would you have gone if the FBI and such never
+stepped in?**  
+Wow…I think it would have been a really bad ending honestly. That was a really
+dark thing that happened during the darkest time of my life. I just think that
+the enemy within me was more formidable than the enemy without at the time
+because I kept going. I had very little regard for my safety or my life, and I
+was just like, no, I gotta run more games. Gotta collect more money. Who am I
+without this thing? I can’t go back to being a nobody. Those things eclipsed
+basic survival, and I had this really deep, dark awareness that my life was
+out of control. And as a final blow, there came the FBI…but maybe it was a
+good thing at the end of the day.
+
+**So has your perspective on success or wealth changed since this
+experience?**  
+Oh my god, absolutely. When I was making the most money, at the top of my
+game, driving Bentleys and all that, I felt so existentially empty. All these
+ideas I had as a kid about making a lot of money—about being hyper successful
+and life being good. I now know that not to be true. And I’m not knocking
+success or ambition, that’ll always be a part of me, but I know for sure that
+I did it all wrong in my former life. I know for sure that you have to re-
+define power as power that comes from within. Success needs to be more
+comprehensive and attached to something with meaning.
+
+What I did was bold, I was damn good at it, and I was successful but none of
+it was important. It meant nothing. I was enabling people’s addictions and I
+felt lives come apart. All that external adulation came from growing up with
+two impressive brothers and a father that was really focused on that idea that
+I needed to build myself on the outside in. That I needed to seek applause or
+approval from the world. That’s a sure way to feel really miserable (laughs).
+
+**So level with me. Is there any aspect of that life that you still miss?**  
+For a long time…I grieved over [the] glamour of that life. It’s been seven
+years though, and this is a pretty exciting moment for me. It feels similar in
+that you take a big risk, and you put in the time, and the stakes are super
+high while you just wait and see.
+
+**What do you want people to take away from your personal story of ups and
+downs based on where you are now? Let’s put the movie aside.**  
+I would want them to know that when your life falls apart, or it feels like
+you’re never going to get where you need to go that it’s not over. It’s not
+even close to being over. Keep getting up and showing up. The human spirit is
+so resilient and failure teaches you so much. This was the theme for me in
+2011, because when this whole thing blew up, there was a deep fear that
+nothing was ever going to be okay, and now, it’s so much more than okay.
+
+There was for a long time. I grieved that life for a long time. But it has
+been seven years and this is a pretty exciting moment. This is a moment that
+feels sort of similar in that you take a big risk, and you put in time, the
+stakes are super high, and you wait and see.
+
+**So you did this thing and you were damn good at it, despite that illegal
+part. What do you plan on doing from here?**  
+I kinda want to take a look at the skill set that I had acquired from this
+experience and all that I had learned throughout these years and apply it in a
+way that has actual meaning. Something that centres around what’s important to
+me. Building a community and collaborating with other ambitious women is a
+really interesting area to me. I was always able to network and build
+environments, and a co-working space for women with a digital layer on top is
+really interesting. And i have to say, not at the exclusion of men. My brand
+of feminism is not supremacy, it’s equality. But I recognize the power in
+shared experiences.
+
+**So going back to the film, what was that one thing that surprised you the
+most when seeing your life reflected back on film?**  
+I just…couldn’t believe how someone could take this information I had given,
+and recreate it so well in such a compelling fashion. Seeing it come to life
+was amazing. It’s like Aaron was there. He didn’t deviate from the truth. A
+lot of films in this biopic category play with a lot of creative licenses, and
+yes, there was some of that in terms of how he dealt with certain composite
+characters, but the rest was all true. He found a way to weave it all
+together.
+
+**So last question. Did Tobey Maguire ever reach out to you for treating you
+like shit and essentially**[**asking you to bark like a seal for a
+tip**](https://youtu.be/YaNU4SPU0MY?t=2m7s)**?**  
+(laughs) No, but it’s OK though.
+
+**Can you ever look at this guy as****_Spiderman_****the same way again?**  
+I haven’t even tried (laughs).
+
+For more about Molly, see her website: <http://www.immollybloom.com/>
+
+_Follow Noel[on Twitter.](https://twitter.com/NoelRansome)_

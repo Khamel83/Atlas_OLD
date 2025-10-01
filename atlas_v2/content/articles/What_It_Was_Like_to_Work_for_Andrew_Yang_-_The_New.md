@@ -1,0 +1,61 @@
+# What It Was Like to Work for Andrew Yang - The New York Times
+
+**Source**: https://www.nytimes.com/2020/02/07/us/politics/andrew-yang-president-campaign.html
+**Type**: article
+**Created**: 2025-08-13T16:01:25.540160
+
+---
+
+title: What It Was Like to Work for Andrew Yang - The New York Times
+source: https://www.nytimes.com/2020/02/07/us/politics/andrew-yang-president-campaign.html
+date: 2025-08-13T16:01:15.625991
+tags: []
+---
+Regardless of the outcome, the sheer magnitude of what Mr. Yang has achieved
+seems to be dawning fully upon him. He [broke down in tears last week at an
+event in
+Iowa](http://web.archive.org/web/20210618230055/https://www.nbcnews.com/video/andrew-
+yang-chokes-up-talking-about-campaigning-in-iowa-over-two-years-77846085950)
+as he observed that campaigning for the last two years had been “the journey
+of my life.” And speaking with voters in New Hampshire on Wednesday, he shared
+what he said he had been telling his two young boys in recent days: “Daddy’s
+got a big deadline on Tuesday.”
+
+When the Democrats do eventually pick a nominee and reflect on this process,
+the rise and staying power of Mr. Yang in this race — outlasting some
+governors and senators, drawing money and interest far longer than most people
+expected him to — will offer a clear lesson: In a campaign of maximum anxiety
+and maximum field size, an outsider with a specific message and a fanciful
+promise of free money can stand out.
+
+But what was lost in the novelty, his former employees say, was real scrutiny.
+
+Some of his former employees see, in Mr. Yang’s unlikely staying power into
+the early 2020 nominating contests, not just an odd embrace of an outsider,
+but a casual disregard for allegations about how he treated women who worked
+for him. It is a collective shrug, they say, that they find all the more
+disconcerting given [how explosive and relevant gender has become in the
+race](http://web.archive.org/web/20210618230055/https://www.nytimes.com/2020/01/15/us/politics/sanders-
+warren-democratic-debate.html).
+
+At the same time, Mr. Yang’s cavalier use of racial stereotypes about Asian-
+Americans and what his former employees say is a surprising lack of attention
+to his record as a chief executive have also gnawed at those who say they
+watched their boss similarly fumble delicate topics and conversations for
+years.
+
+Some of Mr. Yang’s former employees describe a jubilant, funny, thoughtful
+leader who gave high fives and fist pounds, and sought to keep the mood light
+— a man who resembles the candidate they see on the campaign trail. Mr. Yang
+does not drink alcohol, but he would buy the first round during company
+celebrations, they said. He took employees on ski trips and to sporting
+events. And he encouraged people to do well while holding them to account.
+
+But even years after their time spent working for him, many other former
+employees still recall specific episodes that they say highlighted Mr. Yang’s
+shortcomings: several women allege that he treated them unfairly when it came
+to compensation and employment; he once offhandedly remarked that the
+nonprofit fellowship program, Venture for America, might simply not be the
+best fit for black applicants; he convinced his nonprofit to pay for his
+family to join him on a lengthy fund-raising trip to California that proved
+largely unsuccessful.

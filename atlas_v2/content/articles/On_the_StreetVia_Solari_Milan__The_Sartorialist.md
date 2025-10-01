@@ -1,0 +1,16 @@
+# On the Street…Via Solari, Milan " The Sartorialist
+
+**Source**: http://www.thesartorialist.com/milan/on-the-street-via-solari-milan-10/
+**Type**: article
+**Created**: 2025-08-13T19:02:48.612053
+
+---
+
+title: On the Street…Via Solari, Milan " The Sartorialist
+source: http://www.thesartorialist.com/milan/on-the-street-via-solari-milan-10/
+date: 2025-08-13T19:02:36.763737
+tags: []
+---
+…whereas I do not find the color of the sweater very flattering for her. But I
+like her skirt, and obviously this young lady is very beautiful and has a
+wonderful posture. The sweater is nice, too, but imo not for her.

@@ -1,0 +1,267 @@
+# Marriott SPG Complete Guide to Sweet Opportunities
+
+**Source**: http://frequentmiler.boardingarea.com/2016/09/23/marriott-spg-complete-guide-sweet-opportunities/
+**Type**: article
+**Created**: 2025-08-13T17:52:01.608521
+
+---
+
+title: Marriott SPG Complete Guide to Sweet Opportunities
+source: http://frequentmiler.boardingarea.com/2016/09/23/marriott-spg-complete-guide-sweet-opportunities/
+date: 2025-08-13T17:51:58.125556
+tags: []
+---
+_NOTICE: This post references card features that have changed, expired, or are
+not currently available_
+
+[![Marriott SPG](https://frequentmiler.com/wp-
+content/uploads/2016/09/Marriott-SPG.png)](http://members.marriott.com/)
+
+Thanks to the Marriott Starwood merger, it is now possible to link your
+Marriott Rewards and SPG (Starwood Preferred Guest) accounts. By[ linking
+accounts](http://members.marriott.com/) you can now do the following:
+
+  * **Match Status** : Marriott Gold matches to SPG Gold; Marriott Platinum matches to SPG Platinum
+  * **Transfer Points** : Points transfer in either direction. 3 Marriott Rewards points = 1 SPG Starpoint
+
+Marriott Rewards and SPG each have unique program sweet spots and
+partnerships. As a result, this merger has opened up some really **sweet
+opportunities**. This post serves as a complete overview to these
+opportunities. I’ll add to the post as more sweet spots are discovered. I’ll
+also follow up with in-depth coverage of some of these sweet spots (and I’ll
+update this post to link out to those).
+
+To learn pretty much everything you need to know about the merger and how it
+affects the two loyalty programs, Marriott has put together an excellent FAQ
+(Frequently Asked Questions) site, found here:
+[members.marriott.com/faq](http://members.marriott.com/faq/).
+
+### Sweet Opportunities: Point Earnings on Stays
+
+  * **Earn more SPG points per dollar at Marriott properties**. With the exception of Residence Inns and Towneplace Suites, stays at Marriott properties earn 10 points per dollar for general members, 12.5 points per dollar for Gold elites, and 15 points per dollar for Platinum elites. If you then convert those points 3 to 1, it translates to the following earning rates: 
+    * General Members: 3.33 SPG Starpoints per dollar (vs. 2 Starpoints per dollar at Starwood properties)
+    * Gold Members: 4.17 SPG Starpoints per dollar (vs. 3 Starpoints per dollar at Starwood properties)
+    * Platinum Members: 5 SPG Starpoints per dollar (vs. 3 to 4 Starpoints per dollar depending on your Platinum status level)
+  * **Pay with your SPG card**. The [SPG Amex card](https://frequentmiler.com/spg/) offers 2 points per dollar at Starwood and Marriott properties. This is equivalent to 6 Marriott Rewards points per dollar. The [Marriott Rewards Premier card](https://frequentmiler.com/mr/), meanwhile earns 5 points per dollar at Starwood and Marriott properties. The SPG card, therefore, is a better bet for hotel spend.
+  * **Promotions change the math.** Marriott and SPG frequently run promotions in which it is possible to earn extra points or free nights. A good promotion can easily alter the math shown above.
+
+### Sweet Opportunities: Point Earnings Elsewhere
+
+  * **Earn more Marriott points per dollar with the SPG credit card.** The Amex SPG credit card offers 1 point per dollar for most spend and 2 points per dollar at Starwood and Marriott properties. This translates to 3 Marriott points per dollar for most spend and 6 Marriott points per dollar at Starwood and Marriott properties. This is much better than Marriott branded cards that earn 5X at Marriott & SPG, 2X for airline, car rental, & restaurants, and 1X elsewhere.
+  * **Convert the Amex SPG signup bonus into 75,000 Marriott Rewards points**. Skip the [stinky new 2 free night offer](https://frequentmiler.com/2016/09/22/spg-2-free-nights/) and go for the [good old 25K signup bonus offer](https://frequentmiler.com/best-credit-card-sign-up-offers/#AmexHotels) instead.
+  * **Earn 3X Marriott points with SPG partners.** Delta, Emirates, Caesars Entertainment, Design Hotels, Uber, and Audience Rewards all offer opportunities to earn Starpoints. Now, you can indirectly earn 3X Marriott points. [You can find details of these partnerships here](http://www.starwoodhotels.com/preferredguest/account/starpoints/get/index.html?language=en_US).
+  * **Earn 1/3X SPG points with Marriott partners**. Obviously this is less compelling than going the other way around, but there may be some opportunities worth pursuing. [Find Marriott point earning partnerships here](https://www.marriott.com/marriott-rewards/earn/reward-partners.mi).
+
+Additional options for earning SPG points which now convert 1 to 3 to Marriott
+Rewards, can be found here: [Top 10 shortcuts to earning SPG
+points](https://frequentmiler.com/2016/04/06/top-10-shortcuts-to-earning-spg-
+points/).
+
+### Sweet Opportunities: Free Nights
+
+  * **Convert SPG points to Marriott to book free nights for 24% more value** : [Hotel Hustle shows median point redemption values for most hotel chains](http://wandr.me/Hotel-Tools/Hotel-Hustle/Visualize). At the time of this writing, the median point value (in cents per point) for SPG is 1.849 and Marriott is 0.763. This means that, **on average** , you can get more value per SPG point by converting to Marriott 1 to 3. By doing so, each SPG point, on average, should yield 0.763 x 3 = **2.289 cents per point value**. That’s a 24% increase in value over using SPG points to book SPG hotels! Of course, this is just based on median results — your specific results will vary.
+  * **Book Marriott hotels for 2000 to 15,000 SPG points per night**. Marriott’s free night award chart ranges from 6,000 to 45,000 points per night. With the SPG to Marriott 1 to 3 conversion ratio, that means that SPG points go _really_ far when booking Marriott stays.
+  * **Book Ritz Carlton hotels for 10,00 to 23,333 SPG points per night**. Again, SPG points represent a great value for booking Ritz properties.
+  * **Book low category SPG properties for 6,000 to 12,000 Marriott points per night** : SPG category 1 and 2 properties range in award price from 2,000 to 4,000 SPG points per night. That translates to only 6,000 to 12,000 Marriott points per night.
+  * **Get 5th Night Free on low category hotels.** SPG’s 5th Night Free benefit is limited to category 3-7 hotels. Marriott has no such restriction. You can use Marriott’s 5th Night free benefit at low category Marriott hotels. [More here](http://lazytravelers.net/spg-marriott-merger-status-match/).
+  * **Book SPG Points & Cash nights**, up to Category 5 **for 18,000 (or fewer) Marriott points** per night (plus cash)
+  * **Book SPG Points & Cash upgraded rooms**, up to Category 5 **for 21,750 (or fewer) Marriott points** per night (plus cash)
+  * **Book SPG Points & Cash suites**, up to Category 5 **for 36,000 (or fewer) Marriott points** per night (plus cash)
+
+![spg-cash-and-points-full-chart](https://frequentmiler.com/wp-
+content/uploads/2016/09/SPG-Cash-and-Points-Full-Chart.png)
+
+### Sweet Opportunities: Nights & Flights
+
+Both Marriott and SPG offer travel packages in which you can redeem hotel
+points for 5 or 7 night hotel stays _plus_ get airline miles as well. The
+airline miles go to your airline loyalty account and do not have to be used
+for the same trip in which you book your stay.
+
+For background, please see:
+
+These travel packages lead to the following sweet opportunities:
+
+  * Get 5 nights at a category 5 Marriott property plus 132,000 United MileagePlus miles for 79,000 SPG points*
+  * Get 5 nights at a category 5 Marriott property plus 120,000 air miles for 79,000 SPG points*
+  * Get 7 nights at a category 5 Marriott property plus 132,000 United MileagePlus miles for 90,000 SPG points
+  * Get 7 nights at a category 5 Marriott property plus 120,000 air miles for 90,000 SPG points
+  * Get 5 nights at an SPG category 3 property plus 50,000 air miles for 180,000 Marriott points
+  * Get 5 nights at an SPG category 4 property plus 50,000 air miles for 210,000 Marriott points
+
+* Note that Marriott 5 Night travel packages exist, but they’re intended to be only available to Marriott Vacation Club (timeshare) owners. In rare cases, Marriott elite members have been able to book these packages without being Vacation Club owners. More details can be found here: [Marriott 5 Night Travel Packages exist, but they’re secret.](https://frequentmiler.com/2016/01/14/marriott-5-night-travel-packages-exist-but-theyre-secret/)
+
+### Sweet Opportunities: Transfer to Miles
+
+SPG has a huge list of transfer partners ([found
+here](https://docs.google.com/spreadsheets/d/1M8qx5Y2OTr44R8T0smSEgy3Zsy6E7MMQdtg0hxTzoWU/edit#gid=0))
+and most transfer at a very favorable rate: 20,000 SPG Starpoints = 25,000 air
+miles. But, SPG does not transfer to Southwest Airlines, and the transfer
+ratio to United is poor (2 to 1).
+
+#### When SPG to Marriott to Miles is a good idea…
+
+Marriott points transfer to many airlines as well, but transfer ratios vary by
+the number of points transferred, whether or not you use a travel package to
+transfer, and the specific airline you transfer to. I’ll cover these
+intricacies in a future post. For now, **consider converting SPG points to
+Marriott and then to miles** as follows (note that you can often do better
+than SPG’s usual 1 to 1.25 ratio!):
+
+  * Convert SPG to United at a great ratio! 
+    * 5 Night Category 1-5 Travel Package: 79,000 SPG = more than 235,000 Marriott = 132,000 United miles (1 to 1.67)
+    * 7 Night Category 1-5 Travel Package: 90,000 SPG = 270,000 Marriott = 132,000 miles (1 to 1.47)
+    * Direct conversion: 19,000 SPG = more than 56,000 Marriott points = 25,000 miles (1 to 1.31)
+  * Convert to many other airlines* at a ratio of 1 to 1.33 or better: 
+    * 5 Night Category 1-5 Travel Package: 79,000 SPG = more than 235,000 Marriott = 120,000 miles (1 to 1.52)
+    * 7 Night Category 1-5 Travel Package: 90,000 SPG = 270,000 Marriott = 120,000 miles (1 to 1.33)
+    * Direct conversion: 24,000 SPG = more than 70,000 Marriott points = 25,000 miles (1 to 1.04)  
+_Direct conversion is not recommended here except where SPG does not directly
+support the same partner such as with Southwest._
+
+* **“Many other airlines” =** Aeromexico, **Aeroplan** (Air Canada), **Alaska** , **American Airlines** , **British Airways** , Copa Airlines, **Delta Air Lines** , Frontier Airlines, GOL/Varig, Hawaiian Airlines, Iberia Airlines, **Southwest** , Virgin Atlantic
+
+As you can see above, you can now indirectly convert SPG points to United
+miles at a terrific ratio. Plus, **you get a free Marriott stay as well!**
+This indirect technique also makes Southwest available at a very good transfer
+ratio. Even airlines that are usually good options for SPG transfers are
+better with Marriott Travel Packages. These include: Aeroplan, **Alaska** ,
+American Airlines, British Airways, and Delta.
+
+**Quick Tips Regarding Marriott Travel Packages** :
+
+  1. If you really don’t want that free stay, you can return the certificate and they _may_ (at their discretion) give you some of your points back. That makes the conversion to miles ratios even better! For 7-Night Category 1-5 packages offering 120,000 miles, the math works out as follows: 
+     * Returned 7 night cat 1-5 cert = 45,000 Marriott points = 15,000 SPG points that you get back
+     * SPG final cost for 120,000 mile travel package = 90,000 – 15,000 = 75,000 SPG Starpoints
+     * New calculated transfer ratios: 
+       * United: 75,000 SPG = 132,000 miles = 1 to 1.76 transfer ratio!
+       * Many other airlines*: 75,000 SPG = 120,000 miles = 1 to 1.6 transfer ratio!  
+* Aeromexico, Aeroplan (Air Canada), Alaska, American Airlines, British Airways, Copa Airlines, Delta Air Lines, Frontier Airlines, GOL/Varig, Hawaiian Airlines, Iberia Airlines, Southwest, Virgin Atlantic
+       * Other airlines #2**: 75,000 SPG = 85,000 miles = 1 to 1.13  
+[i.e. not as good as transferring directly from SPG where possible]  
+** Aeroflot, airberlin, Air China, Air France/KLM, Alitalia, ANA, Asia Miles,
+Asiana Airlines, Avianca-TACA LifeMiles, China Eastern, China Southern,
+Emirates, Etihad Airways, Japan Airlines, Jet Airways, Korean Air SKYPASS,
+LAN, Lufthansa Miles & More, Multiplus, Qantas, Qatar Airways, Saudia
+Airlines, Singapore Airlines, South African Airways Voyager, TAP Air Portugal,
+Turkish Airlines
+
+  2. If you’re not sure which exact hotel you will stay in, always buy the Cat 1-5 package because it is the cheapest, and always go for the most miles possible within that category. You can always pay additional Marriott points when it’s time to actually book your stay, if you want to stay in a higher category hotel.
+  3. Marriott will generally let you extend the life of a certificate another year if you call to ask.
+
+#### When Marriott to SPG to miles is a good idea…
+
+With select airlines, Marriott conversions to miles are much worse than shown
+above. So, if you need miles with these airlines, you’d be better off
+transferring from SPG. 60,000 Marriott points = 20,000 SPG = 25,000 air miles.
+In other words, you’ll get a 2.4 to 1 Marriott to miles conversion ratio with
+these airlines:
+
+Virgin America, Airberlin, Air China, Air France/KLM, Alitalia, ANA, Asiana
+Airlines, Avianca-TACA, China Eastern, China Southern, Emirates, Etihad
+Airways, Japan Airlines, Korean Air, LAN, Lufthansa Miles & More, Qatar
+Airways, Saudia Airlines, Singapore Airlines
+
+### Sweet Opportunities: Hotel Elite Status
+
+  * Amex Platinum card = SPG Gold = **Marriott Gold** = Free breakfast or lounge access at most Marriott properties
+  * SPG card spend $30K = SPG Gold = **Marriott Gold** = Free breakfast or lounge access at most Marriott properties
+  * United MileagePlus Gold status or higher = **Marriott Gold**([via RewardsPlus](https://secure.unitedmileageplus.com/reg/rewards_plus/index.html)) = **SPG Gold**
+  * Ritz card = Marriott Gold = **SPG Gold**
+  * Ritz card spend $75K = Marriott Platinum = **SPG Platinum**
+  * SPG Gold = Marriott Gold = Marriott Taste of Platinum Challenge = **SPG Platinum**
+
+More details about earning Platinum elite status quickly can be found here:
+[Marriott SPG 4 New Shortcuts to Platinum Elite
+Status](https://frequentmiler.com/2016/09/26/marriott-spg-new-shortcuts-to-
+platinum-elite-status/).
+
+### Sweet Opportunities: Airline Elite Status (~~and Companion Pass~~)
+
+### Sweet Opportunities: Weird Point Conversion Options
+
+  * Convert Amex Membership Rewards to Marriott 1 to 1, or better 
+    * Usual: 3000 Membership Rewards = 1000 SPG = 3000
+    * With occasional 50% transfer bonus: 3000 Membership Rewards = 1500 SPG = 4500 Marriott
+  * Convert Ultimate Rewards to SPG 
+    * 1000 Ultimate Rewards = 1000 Marriott = 333 SPG
+  * Convert Diners Club to Marriott at better than usual rate 
+    * Usual: 1250 Diners Club = 1500 Marriott
+    * Via SPG: 1250 Diners Club = 750 SPG = 2,250 Marriott
+
+### Sweet Opportunities: Buy Points for Less
+
+I don’t usually recommend buying points directly from any loyalty program, but
+at times it can make sense. Standard prices are:
+
+  * Marriott: $12.50 per 1000 (1.25 cents per point)
+  * SPG: $17.50 per 500 (3.5 cents per point)
+
+You can now indirectly buy Marriott points via SPG:
+
+  * $17.50 = 500 SPG = 1500 Marriott = **1.17 cents per point**
+
+Even with the standard price for SPG points, it is a little bit cheaper to buy
+Marriott points this way. However, SPG frequently runs deals where points are
+25% to 35% off. In those cases it will be much cheaper to buy Marriott points
+indirectly through SPG.
+
+### Sweet Opportunities: Transferring Points to Others
+
+Both SPG and Marriott allow points to be transferred to others. SPG allows
+free point transfers to anyone in the **same household**. Marriott, though,
+**allows transfers to _anyone_** for a fixed $10 fee which is waived for Gold
+and Platinum members. [They do enforce a 50K point share
+limit](http://www.marriott.com/marriott-
+rewards/use/points_sharing_lighttbox.mi) except when points are used for a
+specific reservation:
+
+> A limit of 50,000 points per year may be transferred into or out of a
+> member’s account. Members who are transferring points in order to satisfy a
+> specific award may exceed the 50,000 limit up to the amount needed to
+> satisfy the reservation.
+
+Theoretically, Marriott’s more generous terms make it possible to transfer SPG
+points to _anyone_ :
+
+  * Person 1: Convert 17K SPG points to 51K Marriott Rewards
+  * Person 1: Transfer 50K Marriott Rewards to Person 2.
+  * Person 2: Convert 50K Marriott Rewards to 16,666 SPG points (2 Marriott Rewards points stay in Person 2’s account)
+  * Person 1: Convert 1K remaining Marriott Rewards to 333 SPG (1 Marriott Rewards point stays in Person 1’s account)
+  * Net Result: Person 1 transferred 16,667 SPG to Person 2 16,666 SPG (with a few orphaned Marriott points accounting for the difference)
+
+You could also get around the Marriott 50K limit by transferring SPG points
+from one family member to another (within the same household). And then
+transfer as Marriott points from one person to another outside of the
+household. I’ll leave it to the reader to figure out the details.
+
+This _may_ also provide a means to get around point purchase limits in place
+with each chain (30K per year SPG, 50K per year Marriott).
+
+### Sweet Opportunities: Miscellaneous Other
+
+**Keep SPG points alive:** SPG accounts become inactive and points are forfeit
+[if you have no activity in your account in a 12 month
+period](http://starwoodworldwide.custhelp.com/app/answers/detail/a_id/234/~/do-
+starpoints-expire%3F) (although it is enforced only after 18 months). [Dan’s
+Deals reports](http://www.dansdeals.com/archives/95926) that simply moving
+points from your Marriott account to your SPG account is enough to reset the
+clock. Unfortunately, the reverse is not true: moving points into your
+Marriott account does not prevent your Marriott points from expiring after 2
+years of inactivity ([details here](http://www.marriott.com/marriott-
+rewards/terms/expiration.mi)).
+
+### Reader Suggestions?
+
+Which sweet opportunities did I miss? I’d like to try to keep this post up to
+date. Please comment below
+
+**![](https://frequentmiler.com/wp-content/uploads/2023/01/PodcastEmail-
+icon.png)****Want to learn more about miles and points?**[ Subscribe to email
+updates](https://frequentmiler.com/subscribe/)
+
+or check out
+
+[our podcast](https://frequentmiler.com/frequent-miler-on-the-air/)
+
+on your favorite podcast platform.

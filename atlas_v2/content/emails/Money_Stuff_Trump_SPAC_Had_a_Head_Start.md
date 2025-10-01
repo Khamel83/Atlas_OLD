@@ -1,0 +1,226 @@
+# Money Stuff: Trump SPAC Had a Head Start
+
+**Source**: inputs/saved_emails/Money Stuff Trump SPAC Had a Head Start_Mon,_1_Nov_2021_13-17-59_-0400_(EDT)_17cdc82bd83d77e6.eml
+**Type**: email
+**Created**: 2025-08-25T02:54:02.754096
+
+---
+
+Trump SPAC: Background of the Transactions
+    
+  
+The way a special purpose acquisition company works is that a sponsor raises a bunch of money and then goes out and looks for a private company to take public using that money. In theory anyone could do this. I could launch a SPAC, the SPAC Stuff Acquisition Co., and try to raise money from the readers of this column. Maybe it would work. Then I’d have some money in the bank, and then I’d go out and look for a company to acquire. How would I do that? I don’t know. I don’t personally know anyone who runs a big private company that they’d like to take public. I suppose I could call up some investment bankers and say “hey do you know any companies that would like to merge with a SPAC?” But I gather that hundreds of SPACs are calling those bankers every day and, you know, wait times are long. In practice the people who launch SPACs — and particularly the people who launch successful SPACs — tend to be people who know a lot of people who run companies that they might want to take public. Sometimes these SPAC sponsors are successful entrepreneurs or operators with good networks, but often they are private-equity or venture-capital investors, or activist hedge fund managers, or mergers-and-acquisitions investment bankers. They are people who are in the deals business, people whose experience is in buying companies or doing something closely adjacent. Every day they go to work in the company-buying business. Maybe they run a private-equity fund that buys companies and a family office that buys other companies and a credit fund that lends to other people who buy companies; whenever they meet with a company they think “which pocket should I buy this company from?” The SPAC is just another tool, another pool of cash, another source of fees, for their basic business of buying companies.If you’re a person like that, the day before you raise a SPAC you probably had lunch with someone who has a company that you might buy. The day after you raise the SPAC you have drinks with someone who has a company that you might buy. Over the weekend you go golfing with someone who has a company you might buy. You spend your time talking to people with companies about maybe buying their companies.When you do the SPAC, your lawyer will write the prospectus, and she will sit you down and say “Look, it is a rule of SPACs that you have to be a genuinely blank-check company. You can’t start a SPAC with a deal already signed up, or even with discussions with a target that are far along. If you’re in substantive discussions with one company about taking it public using this SPAC, you can’t do the SPAC. You’d have to at least disclose those discussions, but in practice then the Securities and Exchange Commission would want you to include detailed information about the target, and people would be nervous about buying it, and it would be a huge mess and the target company might as well do a regular initial public offering instead of bothering with a SPAC deal. So: Are you in any substantive discussions with any companies about merging them with your SPAC?”And you will say, well, all I ever do in my life is talk to companies about acquiring them or taking them public or whatever. Have I mentioned to some of them that I am doing a SPAC and maybe it would be a good vehicle for them? Sure, probably, I can’t remember all the companies I’ve talked to this week. But I haven’t, like, signed any deals for the SPAC. It’s probably fine.And your lawyer is like, sure, it’s probably fine. And you take the SPAC public.And then a month later you sign a deal with a company you had been talking to before you took the SPAC public and everyone is like, well, that’s life in the deals business, you talk to a lot of companies all the time.There is obviously a gray area here. If you take a SPAC public and you are truly talking to only one private company to take public, and it is clearly the apple of your SPAC’s eye and the only deal you really want to do, and your discussions are far along, and then shortly after the SPAC goes public you sign a deal with that target you have been talking to, then that’s not great. But it is not a particularly bright line. If you’re in the deals business you might well have talked to a company about deals before, and then when you have a SPAC you might do a SPAC deal with that company, and that’s, you know, fine-ish.Last month a SPAC called Digital World Acquisition Corp. signed a deal with Donald Trump’s more or less nonexistent social media/streaming/web-hosting/digital-payments company Trump Media & Technology Group, and I  made fun of it a lot and … let’s say that I am not yet convinced that TMTG has a well-thought-out strategy for building a social media empire or getting into the digital payments space. But here is a New York Times story about the SPAC that I cannot get all that worked up about:To get his deal done, Mr. Trump ventured into an unregulated and sometimes shadowy corner of Wall Street, working with an unlikely cast of characters: the former “Apprentice” contestants, a small Chinese investment firm and a little-known Miami banker named Patrick Orlando.Mr. Orlando had been discussing a deal with Mr. Trump since at least March, according to people familiar with the talks and a confidential investor presentation reviewed by The New York Times. That was well before his SPAC, Digital World Acquisition, made its debut on the Nasdaq stock exchange last month. In doing so, Mr. Orlando’s SPAC may have skirted securities laws and stock exchange rules, lawyers said.SPACs sell their shares to investors through an initial public offering and then find a private company with which to merge. Because SPACs are empty vessels, stock exchanges allow them to list their shares without disclosing much financial information. But that creates opportunities for SPACs to serve as backdoor vehicles for companies to go public without receiving the kind of investor scrutiny they would in a traditional listing. To prevent that, SPACs aren’t supposed to have a merger planned at the time of their I.P.O.Lawyers and industry officials said that talks between Mr. Orlando and Mr. Trump or their associates consequently could draw scrutiny from the Securities and Exchange Commission.Another issue is that Digital World’s securities filings repeatedly stated that the company and its executives had not engaged in any “substantive discussions, directly or indirectly,” with a target company — even though Mr. Orlando had been in discussions with Mr. Trump.Given the politically fraught nature of a deal with Mr. Trump, securities lawyers said that Digital World’s lack of disclosure about those conversations could be considered an omission of “material information.”But they weren’t talking about merging Trump Imaginary Thing with DWAC, at least not at first. They were talking about merging it with a different, already-public SPAC:By the time they started working together in the winter of 2021, Mr. Orlando already had three SPACs trading on U.S. stock exchanges.One of them, Benessere Capital Acquisition, had gone public on Jan. 7 — the day after Mr. Trump’s supporters rioted at the Capitol — and raised about $100 million. Mr. Orlando created Benessere with the help of a Shanghai-based firm called ARC Capital that specialized in helping Chinese companies list on U.S. stock exchanges. ARC kicked in funding for Benessere.On Feb. 8, Trump Media was incorporated in Delaware.By March, Mr. Orlando and Mr. Trump were discussing a merger of Trump Media and Benessere, according to people with knowledge of the talks who were not authorized to discuss it publicly. The investor presentation about the planned deal envisioned the combined company, which would offer a social media app, films, events and eventually a variety of technology services, being worth $15 billion and rivaling tech giants like Netflix and the cloud divisions of Amazon and Google.At some point, Benessere’s attractiveness as a financing vehicle for Mr. Trump’s venture faded, in part because its roughly $100 million war chest was considered inadequate, according to a person briefed on the matter. (Benessere is still looking for a company to buy.)But Mr. Orlando had another, bigger SPAC that was preparing for liftoff. In May, Digital World announced plans for an I.P.O.If the story here is “Patrick Orlando is a deal guy and has a bunch of SPACs, he talked to Trump about merging one of them with TMTG, that didn’t work out, but then he had another one and merged that with TMTG,” that seems more or less fine? If the story here is “Patrick Orlando talked to Trump about merging a SPAC with TMTG, Trump was like ‘that doesn’t work but do a bigger SPAC and we’ll merge with that one,’ and so Orlando launched a bigger SPAC specifically to merge with TMTG,” then that’s bad, you can’t do that. From the outside, those things are not that different.One question you might ask here is: If they did the bad thing (take a SPAC public with prearranged plans to merge with TMTG), what is the remedy for that? One answer is of course that the Securities and Exchange Commission can sue them and collect a fine. But the main remedy for bad securities disclosure is generally giving investors their money back, or rather, giving investors (1) complete accurate disclosure plus (2) the option to get their money back. This is a weird remedy because:	SPACs always offer investors their money back when they announce their deal. That’s just how SPACs work: They announce a deal, then they file a prospectus with complete disclosure about the company they’re merging with, and then their investors can redeem their stock for the $10 they put in (plus interest) if they don’t like the deal.	DWAC is way way way up from its initial public offering price — it went public at $10 and closed on Friday at $67.75 — so no one will want their money back.It’s worth dwelling on Point 1 for a minute because it is a structural solution to the problem of a SPAC going public with a secret deal lined up. The idea is “you should not be able to raise money from public markets for a specific company without giving investors complete disclosure about that company.” And the solution is, you can raise money for a SPAC, but then once you announce the deal you have to give investors complete disclosure and let them take their money back. You’re still not allowed to do a SPAC with a secret deal lined up, but if you do that anyway, the harm to investors is pretty minimal due to other safeguards.The actual harm here, if DWAC and TMTG secretly had a deal lined up when DWAC went public, was to people who bought DWAC’s stock at $10 and flipped it at $10.05. They bought a SPAC IPO for $10, they held it a few days, they thought “meh this is just a random lottery ticket, making 5 cents in a few days is fine, no need to hold onto this,” and then it turned out that the thing they let go of was actually a sweet sweet Trump meme stock. If they had known from the beginning that this would be a Trump SPAC, they would not have sold. I suppose they should sue? But it would be a bit weird for the SEC to stand up for them: “You should have told investors that you were planning to buy Donald Trump’s totally hypothetical social media company, because they’d want to get in on the hype cycle for that.” Is that … is that how we preserve confidence in the fairness of financial markets?I don’t know! I guess my two conclusions about this story are:	Mainly I was surprised that TMTG has been kicking around this long? It was pitched to Trump, by “two former contestants on his reality show, ‘The Apprentice,’” in January 2021, and the company was incorporated in February. It was not formed two weeks ago purely to cash in on SPAC money; this is a thing that somebody at least vaguely wants to do.	If they did the bad thing, I suppose that’s a sort of fraud, but it is a somewhat arcane sort of fraud. How many times do you think I will write that sentence about the Trump SPAC? I just feel like we are all going to learn a lot about all sorts of arcane frauds and I am excited to go on this journey with you and Trump SPAC.
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      Anti-ESG
+    
+  
+A core idea of environmental, social and governance (ESG) investing is that climate change is so pressing and obvious a problem that the world will turn away from fossil fuels in the medium term, and when that happens you want to own companies that do not rely on selling fossil fuels. There are some good reasons to believe this sort of thing — electric cars are becoming more popular, world governments are  meeting this week to work on new climate rules, etc. — and we have talked a  couple of  times recently about how investors balance that long-term expectation against the short-term cash flows that you can still get from fossil fuels today.Still, living in the U.S., it is a  striking fact that government regulation here is often aimed less at restricting fossil fuel use and more at protecting it. “One day soon it will be illegal to invest in oil, so let’s get ready,” is the ESG thesis, but in Texas it has recently become illegal not to invest in oil. I mean,  not quite, but:[In June] Governor Greg Abbott signed a law banning state investments in firms that cut ties to oil and gas and another blocking local governments from working with banks that limit their lending to gun companies. That halted business for some top municipal-bond underwriters. JPMorgan Chase & Co., Bank of America Corp., Citigroup Inc. and Goldman Sachs Group Inc. have all stopped muni underwriting in the state, at least for now. ...“This is much bigger than the municipal bond business,” said Phil Gramm, a former Republican U.S. senator from Texas. “This is the beginning of telling Wall Street that if you’re going to discriminate due to your fealty to special interest groups, you’re going to have to pay for it.” Gramm helped write the law that allowed for the creation of Citigroup and other Wall Street giants, and later was vice chairman of UBS AG’s investment bank. He prefers to use what he calls the language of the civil rights movement, comparing an oil driller’s ability to borrow funds to the right to sit at segregated lunch counters: “Discrimination is discrimination.” I sometimes think that there is a  certain wishfulness in the assumed mechanism of ESG. ESG investors tend to actually care about climate change. One thing that they want to do at their jobs is invest in businesses that they think are good and make life harder for companies that they think are destroying the earth. “ Fund Managers Live on Earth Too, and Seem to Like It,” was my colleague John Authers’s headline the other day. “I like living on this planet and would prefer not to fund activities that destroy it” strikes me as a reasonable and sufficient reason for a person to choose some investments and reject others.But it is awkward to say that, because ESG investors are generally (1) fiduciaries for their clients and (2) also marketing their services to prospective clients. Clients would prefer to be told that ESG investing will make them money. So the ESG investors like to tell stories to the effect of “activities that destroy the planet will have a lower long-term financial return, which is why we avoid them.” And you can certainly tell versions of that story, about the declining social acceptability of carbon emissions and the rising popularity of clean energy and the long-run need to  internalize externalities and, yes, global intergovernmental accords about reducing emissions.But it is also possible that the people who run ESG funds believe in the necessity and inevitability of anti-emissions regulation more than the people who run governments in oil-producing areas do. Texas is not banning oil! Texas is banning discrimination against oil! And they’re really passionate about it! In Texas, oil has civil rights! If your ESG thesis is “eventually the world should ban oil,” fine, I guess, but if your ESG thesis is “soon the world will ban oil” there is some uncomfortable empirical evidence the other way.Elsewhere, here is a paper called “Brown Assets for the Prudent Investor” by Alon Brav and J.B. Heaton:Most commentary on climate-themed investment treats climate change as a one-way risk to brown assets from a hoped-for transition to a low-carbon economy. But the converse holds as well. Brown assets could turn out to be highly valuable if the world fails to transition out of the high-carbon economy. This is true both because sentiment for green assets may cause brown assets to be underpriced (generating higher expected returns) and because brown assets may provide a valuable hedge against the costs of climate change in a world that failed to transition to a low-carbon economy. Given the lack of progress to date toward transition to a low-carbon economy, we argue that institutional investors subject to fiduciary duties of prudent investment (including the duty to diversify) cannot yet justify divestment from brown assets.A year ago, you could have told a story like “let's not buy oil wells in Texas, because eventually oil drilling will be banned or at least difficult to finance, and the world is transitioning away from oil.” In the actual world of November 2021, oil is trading near $85 a barrel because of intense global demand for oil, and in Texas it is kind of illegal not to finance oil drilling. If you bought oil wells a year ago that was probably a good trade!
+  
+    
+      
+        
+      
+    
+  
+
+
+  
+    
+      NFT wash trade
+    
+  
+An important mechanism to remember is:	You create a new cryptocurrency, WashCoin.	You mint a trillion WashCoins and put them in your crypto wallet along with $2 of Ethereum.	How much are your trillion WashCoins worth? I mean, zero dollars, right?	You open another crypto wallet and put another $1 worth of Ethereum in it.	You send the $1 of ETH from the second wallet to the first in exchange for one WashCoin.	The next day, you send $2 of ETH from your first wallet back to the second in exchange for that one WashCoin.	Now the trading price of a WashCoin is $2, so its total market capitalization is $2 trillion, up 100% in the last 24 hours.	You still own 100% of the WashCoins and nobody has paid you anything for them.	But, now that the market cap is $2 trillion and soaring, somebody might.Is this legal? In the stock market, no, of course not; it is “wash trading.” Is it legal in the crypto market? I dunno man, it’s crypto. Does this describe all of crypto? No, of course not, Bitcoin trading is pretty much all independent economic activity and very little wash trading at all. Does it describe … a certain amount … of crypto? Yes, absolutely. If you see that a ridiculous non-fungible token sold for $500 million, should you just assume that the buyer was also the seller?  Probably!A white-haired, green-eyed pixelated character known as a CryptoPunk 9998 just sold for more than half a billion U.S. dollars -- or so it appeared -- the latest wild development in the booming non-fungible token space. But the Ethereum blockchain shows the money from the NFT trade ended up right back where it started, raising the question of why anyone bothered. …In conventional, regulated securities markets, this would be called wash trading, which is banned on grounds that trading with yourself can artificially inflate prices and suggest more demand than really exists.One point here is that if CryptoPunk 9998 is worth $500 million, then other CryptoPunks are also worth a lot. But also other, non-CryptoPunk NFTs are more attractive, because if CryptoPunks are so valuable then that process might repeat. And Ethereum is more attractive, as a platform for buying NFTs. And other cryptocurrencies are more valuable, because look how quickly Ethereum’s ecosystem developed, maybe that can be repeated. Everyone who is already in the broad crypto ecosystem benefits when stuff in crypto gets more valuable, because that entices new people into the crypto ecosystem and makes all of the stuff more valuable.You could tell a story in which this leads to a wash-trading dynamic even among arm’s-length counterparties without coordination: If you sell me one CryptoWolverine for $1, and I sell it to someone else for $2, and she sells it to someone else for $3, then we have collectively pumped up the value of the ecosystem that we are all invested in; it is in each of our personal interests to overpay for stuff so that the rest of our stuff is worth more. But not by $500 million. That’s probably just regular wash trading.
+  
+    
+      Meta
+    
+  
+I do not care about  this at all except insofar as it affects me personally. Here is how it affects me personally. There is a company called Google. People who work there are called Googlers.[1] Its headquarters is called the Googleplex. Its most recognizable product is a search engine, also called Google, that has become the standard English verb meaning “to search for something online.” It has other extremely well-known products like Google Maps, which has “Google” in its name, or Gmail, which has a “G” in its name, which stands for “Google.” It is a public company, with three classes of stock, two of which trade widely; their tickers are GOOG (short for Google) and GOOGL (also short for Google). For  no particularly good reason this public company, whose name is Google, is called Alphabet Inc. in its corporate documents and SEC filings. This is nightmarish for people like me who write about Google and work at serious news organizations, because I am obliged to call this company by its official name (Alphabet Inc.) and also explain to my readers what “Alphabet Inc.” is because no one has ever called it that in real life. “Google’s parent company Alphabet Inc.” is the unlovely circumlocution that journalists use when they mean “Google.”“Facebook’s parent company Meta Platforms Inc.,” I guess. Here it is, it’s a real thing, they changed the certificate of incorporation and everything. The stock ticker is still “FB,” which I suppose stands for Fmeta Blatforms. No, come on, it stands for Facebook because this company is named Facebook. Can we just agree to keep calling it that? Oh I suppose I have to mention (1) there is a stock with the ticker META, (2) it is a metaverse-focused exchange-traded fund and (3) what do you think  happened when Facebook changed its name?The $142 million Roundhill Ball Metaverse ETF, which trades under the ticker META, saw an inflow of about $14 million, according to an early tally from the firm. It was the biggest influx for the fund since the start of September, data compiled by Bloomberg show, and trading volume in the ETF’s shares surged to a record high after the announcement.So some market watchers see a case of mistaken identity. “While the ETF has exposure to what the company currently known as Facebook is focusing on, some investors likely sought out the ticker without doing as much homework,” Todd Rosenbluth, head of ETF and mutual fund research at CFRA, wrote in an email. “We will see if the assets stick around or if upon realization the hot money fades away.”Honestly for $142 million Facebook should just buy the whole ETF, take the ticker and discard the rest.[2] Unless, like Google, it doesn’t care because it is named Facebook and a good ticker for a company named Facebook is FB.
+  
+    
+      Good resume
+    
+  
+I have to say that if I was hiring for an investment banking job, or even a software engineering job, and I got a resume with a line like “Connected with Reid Hoffman on LinkedIn and slid in the dm’s,” I would give that person an interview. If you are able to connect with important people on LinkedIn and slide into their DMs, you are just going to be an asset to any organization; that is a much more valuable and broadly applicable skill than, like, math. Also, if I was hiring for a crypto company, and I got a resume with a line like “Led team of 6 engineers to mine Ethereum on company servers,” I would give that person an interview. That shows initiative, technical skills, and a certain comfort with legal ambiguity that seems useful in the crypto industry.Here is a funny joke resume that someone posted on Reddit claiming that it got them interviews at tech jobs; it lists positions at impressive tech companies (Instagram, Zillow, LinkedIn, Microsoft) with nonsensical details. (“Spread Herpes STD to 60% of intern team,” “Built news feed infrastructure using React for AI on BlockChain,” “Improved LinkedIn search algorithm efficiency and accuracy through the usage of VoldemortDB, Charizard, and Hadoop,” etc.) On Twitter, this was discussed as an example of failures of filtering in tech job searches, but to me it reads more like an example of how everything now is simultaneously serious and a joke.  
+  
+    
+      I mean
+    
+  
+I  mean:To understand why Mark Zuckerberg thinks “the metaverse” is the next frontier, consider the case of Sam Peurifoy. The 27-year-old chemistry PhD from Columbia University left his job at Goldman Sachs at the height of the pandemic and is now seeking out his fortune in crypto by playing video games.He has recruited dozens of people from Mexico to the Philippines to a “Guild” that plays under the command of “Captain” Peurifoy. In exchange, he ponies up the funds needed to enter Axie Infinity, a game where players collect Smooth Love Potion — a digital token that can potentially be converted into real money. …In Axie’s corner of the metaverse, primitive as it may be now, players must buy NFTs — the blobby monsters called Axies — before they can play. The ante: a minimum of three Axies, at roughly $300 apiece, paid for in Ethereum, the No. 2 cryptocurrency after bitcoin. In other words, it takes nearly a grand to start playing, with no guarantees of success.The result: Axie has become the single most valuable collection of NFTs anywhere yet. …In this new world order, Peurifoy is a bit like a banker. He’s created his digital Guild built around his online persona, literally called Das Kapitalist. Members of this Guild meet on Twitch, a sort of YouTube for video games with live streams and chat functionality. Because Axie NFTs are so expensive, Peurifoy funds “scholarships” for willing players around the world. He owns the NFTs, but his Guild members play them, earning more cryptocurrency. Peurifoy then splits the winnings with his players. …Carlos Enrique Sierra Almaraz, 24, discovered Axie this summer and says he’s dropped out of medical school in hopes of getting rich in GameFi, too. Almaraz, who goes by the handle Steel Valkyries, is already moving up in the Axie economy. He’s gone from blue-collar “scholar” to more white-collar “moderator,” or “mod.” In addition to playing for several hours a day, he also handles various administrative tasks. …“The thing is, like, frankly, what does working at McDonald’s do for you, like, very seriously?” the Captain says. “Like, what skill are you putting on your resume if you are literally working at McDonald’s instead of playing games?”Like, that guy has employees whose resumes will say:Das Kapitalist Guild / Axie InfinityOctober 2021 - June 2023, The Metaverse, California Recipient of Captain Peurifoy Scholarship (funded full cost of 3 Axies)Piloted blobby monster non-fungible token around virtual worldIncreased Smooth Love Potion revenue by 30%Promoted to mod after 200 hours of playAnd they will send those resumes to Goldman Sachs to apply for jobs in its NFT Financing Division and Goldman will be impressed and call them in for an interview and nobody will be kidding at all.[3] Is this less ridiculous than “Improved LinkedIn search algorithm efficiency and accuracy through the usage of VoldemortDB, Charizard, and Hadoop”? I am not sure.
+  
+    
+      Or
+    
+  
+ Or:Robinhood Markets Inc. said Dogecoin, a virtual token that started out as a joke, comprised 40% of its cryptocurrency transaction revenue in the third quarter.That’s a decline from 62% in the preceding three-month period, according to a filing Friday from the Menlo Park, California-based brokerage. Yeah that’s a $30 billion public company that gets 8% of its revenue from its Dogecoin division. “Built Dogecoin options trading product on BlockChain,” some Robinhood employee has written on her resume, and she’ll be able to get a job anywhere she wants in finance.
+  
+    
+      Things happen
+    
+  
+ Jes Staley to Step Down as Barclays CEO Amid Epstein Probe. The  Jeffrey Epstein Ties That Cost Jes Staley His Barclays Job. How Robinhood Cashes In on the Options Boom. Burr’s Brother-in-Law Called Stock Broker, One Minute After Getting Off Phone With Senator. Investors Buy Oil on Inflation Fears, Pushing Prices Even Higher. At Saudi Investment Conference, Trump Allies Remain Front and Center. Hounded by Short Sellers, $6 Billion Tech Unicorn’s  ADRs Implode. HNA’s $170bn restructuring plan approved as focus turns to Evergrande. “The 2,500 lawyers surveyed this year reported average finishing times of 11.28pm at Kirkland, 10.51pm at Ropes & Gray and 10.17pm at fellow US law firm Weil, Gotshal & Manges.” Charlie Munger: “Everybody loves light and everybody prefers natural light. But  it’s a game of tradeoffs.” There’s a butler shortage. Pablo Escobar’s ‘cocaine hippos’ are legally people, US court rules. If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] I will say, it would be funny if they were called “Alphabetizers.” “Abecedarians.” [2] I realize that ETFs don’t quite work that way but, come on, there's a price.[3] I have  written about Axie Infinity before. “Mostly this just makes me feel old,” I said. Still does!
+        
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+
+
+  
+    
+      
+        
+        
+Like Money Stuff? | 
+Get unlimited access to Bloomberg.com, where you'll find trusted, data-based journalism in 120 countries around the world and expert analysis from exclusive daily newsletters.
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+  
+    
+      
+      
+      
+      
+      
+    
+  
+
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cf7fld.5su2/eeeca902.gif" alt="" border="0" /></a>

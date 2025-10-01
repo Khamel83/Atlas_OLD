@@ -1,0 +1,27 @@
+# 4 Days, 11 Pounds
+
+**Source**: inputs/New Docs/reader/well.blogs.nytimes.com_2014_05_22_4-days-11-pounds.html
+**Type**: article
+**Created**: 2025-08-25T02:53:48.235754
+
+---
+
+Photo  
+  
+  
+  
+This article appeared in the May 25, 2014 issue of The New York Times Magazine.  
+  
+Losing weight is simple: Ingest fewer calories than your body burns. But how best to do that is unclear. Most experts advise small reductions in calories or increases in exercise to remove weight slowly and sensibly, but many people quit that type of program in the face of glacial progress. A new study, published in March in The Scandinavian Journal of Medicine & Science in Sports, suggests that minimal calories and maximal exercise can significantly reduce body fat in just four days — and the loss lasts for months. The catch, of course, is that those four days are pretty grueling.  
+  
+Researchers in Spain and Sweden had 15 healthy but overweight Swedish men restrict their calories to about 360 a day, a reduction of approximately 1,800 calories. What calories they did ingest came in liquid form: Some men drank mostly sugary carbohydrates, others a high-protein drink. The men also exercised — a lot. Their days began with 45 minutes of cranking an arm-pedaling machine for an upper-body workout. Then, as a group, the men strolled for eight hours across the Swedish countryside, with only a 10-minute break every hour. They were allowed as much of a low-calorie, sports-type beverage as they wanted during their walks.  
+  
+Most of the men “were surprised that it was easier than they thought it would be,” says José Calbet, a professor at the University of Las Palmas de Gran Canaria in Spain; he and his colleague Hans-Christer Holmberg, a professor at Mid Sweden University in Ostersund, led the study. Some of the subjects experienced “minor problems with pain in the joints” and blisters on their feet, according to Calbet, but none dropped out or complained of hunger.  
+  
+After four days, the men had each lost almost 11 pounds, with nearly half of that coming from body fat; the rest of the loss came primarily from muscle mass. The researchers had anticipated that the high-protein drink would protect people against muscle-mass loss. In fact, the losses were the same, whether the men had been given sugar or protein.  
+  
+More surprising, the men did not immediately put the weight back on after the study ended. “We thought they would overeat and regain the weight lost,” Dr. Calbet says. Instead, when the volunteers returned a month later, most had lost another two pounds of fat. And a year after the experiment, they were still down five pounds, mostly in lost body fat.  
+  
+Dr. Calbet and his colleagues hope to study whether women respond similarly to men and whether repeated bouts of such a program might affect muscular health and appetite hormones.  
+  
+But given the doleful statistics on weight loss — most people regain everything they lose dieting and more — these results are startling. They also, at the moment, are inexplicable. “The only explanation we can offer” for the sustained loss, Dr. Calbet says, is that the men were inspired by their hypercompressed success to change their lifestyles. The men moved more and ate less than before.

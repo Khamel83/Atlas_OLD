@@ -1,0 +1,225 @@
+# =?UTF-8?q?O.M.B.-Gate_Postmortems,_The_Butterworth=E2=80=99s_Scene_&_A_K-?=
+
+**Source**: inputs/saved_emails/=UTF-8qO.M.B.-Gate_Postmortems,_The_Butterworth=E2=80=99s_Scene_&_A_K-=
+**Type**: email
+**Created**: 2025-08-25T02:54:04.080637
+
+---
+
+=UTF-8qStreet_Scramble=_Fri,_31_Jan_2025_00-30-19_+0000_194b9c41f5f9eba2.eml
+
+Jan 30, 2025
+
+The Best & The Brightest ( https://puck.news/newsletters/the-best-and-the-brightest/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Tara Palmeri ( https://puck.news/author/tara-palmeri/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Tara Palmeri ( https://puck.news/author/tara-palmeri/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Welcome back to The Best & The Brightest. I’m Tara Palmeri,
+still recovering from yesterday’s O.M.B. whiplash and heartbroken over the tragedy at Reagan. If you’re a Republican staffer and know how Senator Bill Cassidy is going to vote after that wild R.F.K. Jr. confirmation hearing, let me know by replying to this email.
+
+ 
+
+In tonight’s issue, my conversation with lobbyist Shanti Stanton, the former
+Pelosi staffer and founder of Oxford Strategies, about Trump’s week-two crash course in how not to freeze $3 trillion in government spending, and his long-term ambition to demolish the Impoundment Control Act.
+
+ 
+
+Somebody’s Gotta Win: Also, in case you missed it, make sure to stream my recent conversation with crypto industry experts Kevin
+Cirilli and Natalie Brunell about the state of digital currency under Trump II—available on Apple ( https://podcasts.apple.com/us/podcast/is-%24trump-an-open-wallet-for-foreign-actors-with/id1111751047?i=1000686683053&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) and Spotify ( https://open.spotify.com/episode/67dKWuYASFlHp2HGmndB5w?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+ 
+
+But first…
+
+* Breitbart’s prodigal son
+returns: It was quite the chummy scene Tuesday night at Butterworth’s—the newish Capitol Hill bistro that’s been co-opted by the MAGA set—as former Republican antagonists toasted one another and celebrated the homecoming of Breitbart’s Washington bureau chief, Matt Boyle, who recently returned from Florida now that Trump is back in the White House. At one point, co-host Steve Bannon raised his glass to “Dave and Dina”—that is, Pennsylvania Senator
+David McCormick and his wife Dina Powell, the deputy national security advisor from Trump’s first term who was frequently dubbed a “globalist” by both Boyle and Bannon. Apparently, all is now forgiven. (Bannon did throw in one reminder of Boyle’s wilder days, recalling when the reporter “took down Megyn Kelly.” But Kelly’s back in MAGA world’s good graces, too.)
+
+Of course, graciousness is easier when the insurgents become the incumbents.
+Later that night, Boyle marveled at getting called on (second!) by Press Secretary Karoline Leavitt at that day’s White House briefing, right after Axios’s Mike Allen, who shared the spotlight with Boyle as representatives of “new media.” Even Leavitt’s predecessor, Sean Spicer, attended the party, despite a previously frosty relationship with the Bannon crew.
+
+Anyway, while the Trump family explores whether they can
+reclaim their former hotel ( https://www.wsj.com/real-estate/trump-dc-hotel-sale-white-house-return-0a4ba019?mod=hp_lead_pos2&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) at the Old Post Office building, Butterworth’s has emerged as the go-to haunt for Trump 2.0. Partly owned by Raheem Kassam, the former Nigel Farage deputy and editor of The National Pulse, the place isn’t your typical Pennsylvania Avenue burgers-and-fries pub. It serves
+caviar, foie gras, oysters, and organic wines, catering to a clientele as diverse as billionaire Treasury Secretary Scott Bessent—whom I spotted there with deputies a few nights before Boyle’s party—and alt-right influencer Jack Posobiec. It’s certainly an upgrade from Comet Ping Pong pizza.
+
+Nightmare on K Street ( https://puck.news/an-inside-look-at-trumps-48-hour-omb-crisis/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Nightmare on K Street ( https://puck.news/an-inside-look-at-trumps-48-hour-omb-crisis/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A 360-degree review of the dreaded O.M.B. memo, as seen by the blue chip lobbyists
+scrambling to explain what it might mean for their clients. 
+
+Tara Palmeri ( https://puck.news/author/tara-palmeri/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Tara Palmeri ( https://puck.news/author/tara-palmeri/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Donald Trump’s supposedly tightly-run ship capsized Tuesday when the
+White House sort of paralyzed the government by mistake, with a poorly executed directive that called for freezing all $3 trillion of federal grants and loans that might not reflect Trump’s views. Fingers are now pointing at a little-known lawyer in the Office of Management and Budget, Mark Paoletta, who, The New York Times reports, didn’t clear the directive with Staff Secretary Will Scharf or Deputy Chief of Staff Stephen
+Miller—the guys who would ostensibly need to sign off on a change of this magnitude. Even Trump seemed annoyed by the sloppy rollout and walkback. 
+
+ 
+
+All the while, there was a manic meltdown on K Street, as lobbyists scrambled to explain to their private-sector and nonprofit clients how, or even if, previously approved programs, loans, and grants would be honored. Would they
+need to rush to secure bridge loans? The situation didn’t get much clearer even after the memo was blocked by a judge and then rescinded by the Trump administration, which argued ( https://x.com/PressSec/status/1884672871944901034?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) that the maneuver was “NOT a rescission of the federal funding freeze.” K Street, and the rest of America, were left to scratch their heads. 
+
+To help clarify matters, I spoke
+to lobbyist Shanti Stanton, the founder of Oxford Strategies and a former Pelosi staffer, on my podcast, Somebody’s Gotta Win. This excerpt of our full conversation has been lightly edited.
+
+“Oh,
+Never Mind, You’re Not Getting Your Money”
+----------------------------------------------
+
+Tara Palmeri: It’s Trump’s second go-around, and yet
+he and his team still don’t seem to get how Washington works. (The chaotic implementation reminded me of the so-called Muslim ban.) You understand the appropriations process and try to make sure your clients benefit from it. What do you make of what happened yesterday? 
+
+ 
+
+Shanti Stanton: I’m a very well-established Democratic lobbyist, but I understand the complaints that Republicans
+have about the government being too big, and the need to get more specifics about who’s working there, and what they’re doing. Is there redundant work? Are there redundant programs? Yes, but there’s been a process in place for over 200 years, and just because Trump was elected president doesn’t mean that he gets to rewrite the Constitution and erase everything that happened before he became president. 
+
+ 
+
+What did your Republican lobbyist friends think of the freeze?
+
+ 
+
+I’m in group texts, and oddly, yesterday, I didn’t hear a lot from the Republicans I share clients with—probably because it’s easy for me to criticize the administration. I don’t think there was anything for them to say. It was so shocking, I think, to all of us. And both sides are trying to help our clients navigate this. I
+have clients in the nonprofit space, and they have grantees who weren’t able to access the accounts they needed to pay their employees and continue with the programs they’ve been approved to run. 
+
+ 
+
+Say more about how your clients were impacted by the freeze. 
+
+ 
+
+When companies get the funding,
+or they get a loan, they plan around it. I have a client in the energy space, and they have a loan, and part of that loan will be used to build a manufacturing plant in the U.S. They hire people and they break ground because they’re depending on what’s been guaranteed to them. Sometimes it’s a corporation, sometimes it’s a school that’s hired new teachers, because they have new students, and everyone plans a budget, generally speaking. And these people plan a year in advance. To come at
+them at the end, and say, “Oh, never mind, you’re not getting your money,” doesn’t make any sense to me.
+
+The memo said there would be a freeze on all loans and grants for programs that don’t reflect Trump’s worldview—so ostensibly, it was designed to hurt programs that benefit Democrats. Is that what happened? 
+
+There’s this widespread notion that poor people are Democrats. That might be true in
+Palm Beach, but that’s not true in rural America. Republican members vote for these programs as well, because, depending on their district, they have a lot of people who benefit from them. I’m from very rural Colfax, Washington—try to find that on a map! They’re all Republicans out there. And I promise you that many, many of them are recipients for some of these programs, whether it’s school lunches or Meals on Wheels. They don’t realize that it’s the government giving them the money
+for that. 
+
+Nixon
+Redux
+-----
+
+The money that Trump froze came from a budget agreed upon last year, when
+Republicans were in power in Congress and Mike Johnson was speaker. Why would he freeze it?
+
+ 
+
+All day I was thinking, where are the Republican appropriators? Appropriators are very territorial over their space. They work very well together on a bipartisan basis, and they come up with deals and they fund the entire government. It’s their job, and they take it very seriously. 
+
+ 
+
+I was working last year on gun violence research, which, you might expect, is more of a Democratic priority than a Republican one, but it does have bipartisan support. But with the House being run by Republicans, it wasn’t a priority for them. So it didn’t pass in the House bill, and I thought, I’ll just call the champion on the Appropriations Committee and see if she’s willing to call over to Health and Human
+Services, or the Centers for Disease Control, or Biden, and just see if they can take the money from a different budget, move it over. Even though this was one of her biggest priorities, she said, “No, as an appropriator, we don’t promote spending any money separate from how we have specifically laid it out.” She said, “I’m going to try to work with the Senate and see if they’ll put it in their bill.” But she was unwilling to even think about pushing money from somewhere that wasn’t
+specifically a line item.
+
+ 
+
+Trump has argued that, as president, he has authority to withhold congressionally approved spending that he considers wasteful. He’s talking about “impoundment,” which Congress prohibited in 1974, after Nixon tried the same thing, even forcing recipients, including individual states and localities, to sue for the funds. Do you think this funding freeze could open the door
+to a court repealing the Impoundment Control Act, granting Trump power to override Congress on spending?
+
+Based on the Constitution, this is not something that he’s allowed to do. I think it was just about ignorance, because there are so many opportunities coming up where he can actually cut spending. Why didn’t he just send a letter to agencies saying, “Please give me an accounting of where
+your money’s going, and what employees you have, and who’s working one day a week, or five days a week”? And then as he prepares his budget, he can propose the cuts wherever he wants.
+
+Do you think that Trump is trying to disrupt the balance of power between the White House and Congress? To show Congress that the Office of Management and Budget is more powerful than they are? 
+
+ 
+
+Can I use the word dictatorship? It kind of felt like we were in Russia yesterday. The problem is there are still laws in place, and there’s only so much you can do. He really only controls one of the three branches of government, and he’s got a lot of support in the other two. But he still has to follow the rules, and a lot of this stuff still has to happen in the House and the Senate.
+
+Musk
+101
+----
+
+What are some actual, realistic options for cutting spending? 
+
+ 
+
+The continuing resolution is keeping the government afloat right now, and it expires on March 14. Trump has every opportunity available to him to decide before that, with his Republican Senate and House, what programs get funded and what programs don’t. He has a budget that he can put out the first week of February that can lay out very explicitly what gets funded. What he cannot do is backtrack and
+erase what Congress’s authority is, which is to appropriate money. 
+
+ 
+
+The problem yesterday was these agencies can’t decide what they fund and what they don’t fund. They can’t say to the president, “Oh, what you’re doing is illegal. You can’t tell us we can’t spend this money.” And so they have to play along until they get told something else, either by Congress or by the courts. I don’t know what’s
+going on over there. It’s clearly amateur hour. Elon Musk is trying to run the government like Tesla or X, and he needs a tutorial in Appropriations 101.
+
+ 
+
+What’s the reputation of the DOGE guys on the Hill? 
+
+ 
+
+We’re trying to figure out which Democrats are going to be a part of
+[the congressional DOGE Caucus] and see if it’s going to be bipartisan. A lot of people are taking them seriously, because they have to, and they are trying to decide if they should meet with them, or give briefings, or who the point people are going to be. This was just a total misstep yesterday. But moving forward, there are a lot of members on both sides who realize that government spending cuts are going to take place. And so if they want to be a part of where those happen, they should come
+to the table and make their case.
+
+ 
+
+Elon’s modus operandi is to break things and then rebuild them in a way that can’t be broken. Can you do that to the government? 
+
+ 
+
+You can’t create something that’s never going to change, because there are elections, and different people
+are in charge. You can certainly make changes in the government. But you can’t come in in a week and shut the whole thing down and try to start over from scratch.
+
+The Powers That Be ( https://puck.news/podcasts/the-powers-that-be/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Powers That Be ( https://puck.news/podcasts/the-powers-that-be/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Join Emmy Award-winning journalist Peter Hamby, along with the team of expert journalists at Puck, as they let you in on the
+conversations insiders are having across the four corners of power in America: Wall Street, Washington, Silicon Valley, and Hollywood. Presented in partnership with Audacy, new episodes publish daily, Monday through Friday.
+
+Dry Powder ( https://puck.news/newsletters/dry-powder/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Dry Powder ( https://puck.news/newsletters/dry-powder/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Unique and privileged insight into the private conversations taking place inside boardrooms and corner offices up and down Wall Street,
+relayed by best-selling author, journalist, and former M&A senior banker William D. Cohan.
+
+O.M.B. Aftershocks
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+O.M.B. Aftershocks ( https://puck.news/has-donald-trump-found-the-limits-of-executive-power/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+LEIGH ANN CALDWELL
+
+Wall Street’s A.I. Panic Room
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Sex, Lies & Nvidia ( https://puck.news/is-wall-street-right-to-panic-over-deepseek/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+WILLIAM D. COHAN
+
+Boiler Room
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Boiler Room ( https://puck.news/notes-on-karoline-leavitts-first-brady-room-briefing/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DYLAN BYERS
+
+Puck
+
+Puck
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact us ( fritz@puck.news?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences,
+click here ( https://puck.news/unsubscribe/?subscription=the_best_and_the_brightest&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUucPTB3Z2ajidBtkl7mY=&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%281%2F30%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+ 
+
+Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

@@ -1,0 +1,294 @@
+# The debate over Keith Ellison’s alleged anti-Semitism, explained | Vox
+
+**Source**: http://www.vox.com/policy-and-politics/2016/12/6/13819248/keith-ellison-dnc-chair
+**Type**: article
+**Created**: 2025-08-13T17:43:26.383908
+
+---
+
+title: The debate over Keith Ellison’s alleged anti-Semitism, explained | Vox
+source: http://www.vox.com/policy-and-politics/2016/12/6/13819248/keith-ellison-dnc-chair
+date: 2025-08-13T17:43:24.700610
+tags: []
+---
+Minnesota Rep. Keith Ellison has for weeks looked like a frontrunner to become
+the next chair of the Democratic National Committee. An early Bernie Sanders
+endorser, Ellison has received the support of the progressive caucus. And he’s
+won the backing of establishment Democrats like Sen. Chuck Schumer, giving him
+what looks like the blessing of the twin power centers of the party.
+
+But over the past week, a handful of Ellison’s critics have latched onto
+remarks of his about Israel and American Jews that they say should rule him
+out for the job. The Anti-Defamation League
+[went](http://www.haaretz.com/world-news/u-s-election-2016/1.756569) so far as
+to say that Ellison’s “disturbing and disqualifying” comments had “raised the
+specter” of the pernicious myth that Jews control the American government. On
+Friday, Hillary Clinton’s biggest donor, Haim Saban,
+[called](http://forward.com/news/breaking-news/356036/top-clinton-donor-saban-
+calls-ellison-anti-semite-and-anti-israel/) Ellison an “anti-Semite” and
+“anti-Israel” at an event at the center-left Brookings Institution.
+
+To Ellison’s defenders, these attacks aren’t merely misguided — they reek of
+Islamophobia. Ellison was the first Muslim American ever elected to Congress,
+and he’s now running to lead the opposition party to Donald Trump. The fact
+that he’s facing unsubstantiated accusations of harboring secret animus toward
+Jews, in their view, reveals more about the bigoted suspicion of Muslims than
+it does about Ellison.
+
+“If you’re a Muslim in politics, you’re operating under a constant and
+inherent initial skepticism — there’s this cloud over your head that’s ready
+to pour down rain on you if you have the most minor misstep, or none at all,”
+says Faiz Shakir, a senior adviser to Sen. Harry Reid, in an interview.
+“That’s what Keith is dealing with now: the Islamophobia that puts Muslims in
+public life under suspicion without cause.”
+
+This is why the ongoing battle for the DNC chairmanship has suddenly become
+freighted with meaning beyond the actual powers of the relatively bureaucratic
+post, which [mostly involves](http://www.vox.com/policy-and-
+politics/2016/11/23/13703720/dnc-chair-election-rules-members) fundraising and
+overseeing the presidential primary and convention. Liberals have spent
+[months lamenting the rise of
+Islamophobia](http://www.theatlantic.com/national/archive/2015/02/anti-
+islam/385463/) in the Republican Party. If fearmongering about a Muslim
+politician can also torpedo a candidate in a race for Democratic leadership,
+they may need to take a long look at their own party as well.
+
+## What is Ellison’s history with the Nation of Islam?
+
+Photo by Ilya S. Savenok/Getty Images for The New Yorker
+
+There have been two main charges leveled against Ellison. One has cited his
+ties to the Nation of Islam movement to say that he’s an “anti-Semite.”
+Another, primarily stemming from comments Ellison made more recently at a
+private meeting about American foreign policy toward Israel, has been used to
+suggest the Minnesota Congress member is “anti-Israel.”
+
+Let’s start with the first. In a story
+[published](http://www.cnn.com/2016/12/01/politics/kfile-keith-ellison-nation-
+of-islam/) Thursday, CNN’s Andrew Kaczynski dug through Ellison’s essays from
+the 1980s and ’90s and examined his support for black radical leaders like
+Kwame Ture and Louis Farrakhan, who have expressed anti-Semitic views. Other
+stories in conservative media, including the [Daily
+Caller](http://dailycaller.com/2016/11/17/democrats-must-scrutinize-keith-
+ellisons-anti-semitic-past-and-ties-to-radical-islam/) and [National
+Review](http://www.nationalreview.com/article/442739/keith-ellison-islamic-
+radical), have used the CNN report to say that Ellison supports anti-Semites.
+
+They use the main pieces of evidence as cudgels against Ellison:
+
+  * In 1990, Ellison wrote a column defending the right of Kwame Ture (also known as Stokely Carmichael) to speak at the University of Minnesota’s campus. Ture, who rose to fame through the civil rights movement and his leadership position on the Student Nonviolent Coordinating Committee, reportedly also said that “Zionists joined Nazis in murdering the Jews, so they would flee to Palestine.” After Ture’s position on Zionism was criticized by the university’s president, Ellison came to Ture’s defense. He defended Ture’s right to appear on campus on free speech grounds, but did not make any effort to defend Ture’s characterization of Zionism or his absurd notion that Jews helped Nazis murder other Jews.
+  * In 1995, Ellison helped organize the Minnesota delegation to the Million Man March led by Minister Louis Farrakhan, who has [been labeled](https://www.splcenter.org/fighting-hate/extremist-files/individual/louis-farrakhan) an anti-Semite by the Southern Poverty Law Center for falsely claiming Jews control the levers of power in government. (In 1996, Farrakhan said Jews were “wicked deceivers of the American people. You have sucked their blood. You are not real Jews, those of you that are not real Jews. You are the synagogue of Satan, and you have wrapped your tentacles around the U.S. government.”) Barack Obama also [attended](http://forward.com/bintel-blog/13058/obama-at-the-million-man-march/) the rally.
+  * Also in 1995, as noted by CNN, Ellison [wrote](http://i1.wp.com/powerline.wpengine.com/ed-assets/2006/09/EllisonArticle3.jpg) a column saying that Farrakhan was “not an anti-Semite” and was instead a “role model for black youths.”
+  * In 1998, when running for a Minnesota state legislature seat, Ellison was labeled by the Minneapolis Star-Tribune as being “deeply involved” in Farrakhan’s Nation of Islam, according to CNN. Ellison has called this claim untrue, and said his involvement with the NOI — [labeled](https://www.splcenter.org/fighting-hate/extremist-files/group/nation-islam) an extremist hate group by the SPLC — was limited to his role in the Million Man March. (Ellison also said at the time, “I reject anti-Jewish attitude from whatever source.”)
+
+Since then, Ellison has apologized for not directly calling out the anti-
+Semitic views of black radical leaders like Ture and Farrakhan. (So far, no
+one has found any evidence of Ellison himself articulating anti-Jewish
+sentiment; the accusation is rooted in the idea that he revealed his anti-
+Semitism by allying himself with those who did.)
+
+Ellison has said he was drawn to Ture and Farrakhan because of their message
+of black empowerment rather than their anti-Semitism. When he ran for Congress
+in 2006, Ellison wrote a public apology for these past associations.
+
+“I have long since distanced myself from and rejected the Nation of Islam due
+to its propagation of bigoted and anti-Semitic ideas and statements, as well
+as other issues,” Ellison’s letter
+[states](http://d35brb9zkkbdsd.cloudfront.net/wp-
+content/uploads/2013/02/EllisonLetterp.2.jpg).
+
+From what we know, this is the extent of Ellison’s record of “anti-Semitism”:
+a few columns written while in law school, support for a rally also attended
+by Obama, and decades-old support for deeply controversial black leaders who
+made anti-Semitic comments that Ellison never defended or publicly shared. As
+even his most virulent critics have conceded that there’s no record of Ellison
+ever evincing a dislike of Jews.
+
+All of that — as [the
+Intercept](https://theintercept.com/2016/12/01/potential-dnc-leader-keith-
+ellisons-controversial-law-school-columns-show-anger-not-bigotry/), [New York
+magazine](http://nymag.com/daily/intelligencer/2016/12/keith-ellison-is-no-
+anti-semite.html), and [the Huffington
+Post](http://www.huffingtonpost.com/entry/journalists-keith-ellison-smear-
+campaign_us_58435707e4b0c68e0481543a) have all argued — points to a clear
+conclusion: Ellison is not an anti-Semite. That’s also the finding of
+America’s two most prominent Jewish senators, Sanders and Schumer; the left-
+leaning pro-Israel advocacy group J Street; and a long list of
+[rabbis](http://www.thejewishweek.com/news/national/ellison-pushes-back-
+critics-press-attacks) and [Jewish
+activists](http://forward.com/scribe/355120/i-worked-with-keith-ellison-heres-
+why-pro-israel-jews-should-be-cautiously/) who have vouched for Ellison. On
+Saturday, a member of Israel’s own parliament [even defended
+Ellison](https://twitter.com/isikbreen/status/805474216502034433) and
+dismissed the notion that he held anti-Semitic animus.
+
+“I can feel and smell anti Semitism. Keith Ellison is no anti-Semite and it is
+maddening when anyone who doesn’t know him or his record makes that ugly
+accusation,” wrote Randi Weingarten, president of the American Federation of
+Teachers and a Jew who is married to a rabbi, [in a Facebook post defending
+Ellison](https://www.facebook.com/randi.weingarten.9/posts/10154757721829524?pnref=story).
+
+Moreover, almost everything about Ellison and the Nation of Islam was old
+news. Though it was being recycled because of his DNC run, Ellison wasn’t
+facing any accusations he hadn’t already dealt with during his congressional
+career — at least, until something new emerged last week.
+
+## Is Keith Ellison “anti-Israel”?
+
+Photo by Uriel Sinai/Getty Images
+
+For the most part, the chatter about Ellison’s Nation of Islam ties was just
+that — chatter, most of it confined to conservative media.
+
+But then last week, a new tape emerged that sent the fears about Ellison into
+hyperdrive. In it, Ellison was secretly recorded at a closed-door event of
+Muslim activists in Virginia in 2010 [saying the
+following](http://www.tabletmag.com/scroll/218884/keith-ellison-allegedly-
+said-u-s-foreign-policy-is-governed-by-israel):
+
+> The United States foreign policy in the Middle East is governed by what is
+> good or bad through a country of 7 million people. A region of 350 million
+> all turns on a country of 7 million. Does that make sense? Is that logic?
+
+This was the anecdote that led Ellison to lose the endorsement of the Anti-
+Defamation League. Jonathan Greenblatt, CEO of the ADL, responded [that
+Ellison was saying that](http://www.adl.org/press-center/press-
+releases/israel-middle-east/speech-raises-new-doubts-about-Rep-Ellisons-
+ability.html?referrer=https://www.google.com/#.WEWpGaIrJR0) America’s policy
+in the Middle East was dictated by Israel, which in turn amounts to endorsing
+the age-old and anti-Semitic trope that Jews control the government:
+
+> Rep. Ellison’s remarks are both deeply disturbing and disqualifying. His
+> words imply that U.S. foreign policy is based on religiously or national
+> origin-based special interests rather than simply on America’s best
+> interests. Additionally, whether intentional or not, his words raise the
+> specter of age-old stereotypes about Jewish control of our government, a
+> poisonous myth that may persist in parts of the world where intolerance
+> thrives, but that has no place in open societies like the U.S.
+>
+> These comments sharply contrast with the Democratic National Committee
+> platform position, which states: “A strong and secure Israel is vital to the
+> United States because we share overarching strategic interests and the
+> common values of democracy, equality, tolerance, and pluralism.”
+
+As J.J. Goldberg [points out at the
+Forward](http://forward.com/opinion/355950/no-the-keith-ellison-tape-isnt-
+anti-israel-and-shouldnt-torpedo-his-democra/?attribution=author-article-
+listing-2-headline), the full context of the speech reveals that Ellison was
+trying to urge Muslim Americans to get involved in American politics. Ellison
+was holding up Jewish American political involvement as a model example.
+
+“Speaking to a group of fellow Muslims, [Ellison] is plainly describing how
+American Muslims could have greater influence on American policy if they
+learned to organize. He seems to cite the successful mainstreaming of Israel
+as an example of how it works — not something to denigrate, but to emulate,”
+Goldberg writes.
+
+But even outside of those remarks, some American Jews have found Ellison’s
+vocal criticisms of the Israeli government’s policies — coupled with his
+youthful affiliations with anti-Semites — to be disqualifying. Lawrence Haas,
+a senior fellow at the American Foreign Policy Council,
+[notes](http://www.usnews.com/opinion/world-report/articles/2016-11-29/dnc-
+chair-hopeful-keith-ellison-should-trouble-democratic-jews) that Ellison
+retweeted a photo referring to a West Bank town as “apartheid,” and concludes
+that “for Jews with Democratic leanings and a Zionist conviction, the party’s
+courtship of Ellison should be troubling.”
+
+Similarly, it’s no surprise that for the estimated 40 percent of American Jews
+[who disapprove](http://www.haaretz.com/world-news/new-poll-shows-majority-of-
+u-s-jews-support-obama-s-policy-toward-israel-1.427382) of Obama’s handling of
+Israel, Ellison may look like as great a threat or worse. “The people who
+vouched for Obama to the American Jewish community are now vouching for Rep.
+Ellison, while condemning Donald Trump and his advisers for the sins of
+stoking hatred and anti-Semitism that Obama demonstrably committed,”
+[writes](http://www.tabletmag.com/jewish-news-and-politics/218385/keith-
+ellison-bds-farrakhan-dnc) Jeff Ballabon, chair of the Iron Dome Alliance, a
+pro-Israel advocacy group, in a piece at Tablet urging Jewish Democrats to
+reject Ellison.
+
+These fears are not purely illusory: Ellison really is on the left of his own
+party when it comes to Israel. He was just [one of eight members of
+Congress](http://www.dailykos.com/story/2014/8/2/1318523/-Congress-
+Passes-225-Million-in-Extra-Military-Aid-to-Israel-Which-8-Had-the-Courage-to-
+Vote-No) to vote against US funding for Israel’s Iron Dome missile defense
+system. As a Sanders delegate to the DNC, he unsuccessfully tried
+[pushing](http://www.jta.org/2016/06/23/news-opinion/politics/clinton-and-
+sanders-appointees-to-platform-committee-israeli-palestinian-needs-must-be-
+included) the party to include criticism of Israeli settlements in its
+official platform.
+
+But as James Zogby and Goldberg point out, none of that justifies the more
+dramatic claim that Ellison is “anti-Israel.” For one, Ellison is mostly in
+line with where most liberal Zionist groups stand on many of the critical
+issues of the day. He
+[voted](https://www.youtube.com/watch?v=J8QIxb4S1sc&t=95s) for a congressional
+resolution criticizing Hamas for launching rocket strikes into Gaza. He’s
+[supported sending $27 million](http://theslot.jezebel.com/whats-the-deal-
+with-the-smear-campaign-against-possible-1789571348) in military aid to
+Israel. He vocally [opposes the BDS (Boycott, Divestment, Sanctions) anti-
+Israel boycott movement.](http://mondoweiss.net/2016/11/ellison-placate-
+against/)
+
+“Half of Israel — and a significant number of American Jews, and a majority of
+Democrats — would agree with Ellison,” says Zogby, who is president of the
+Arab-America Institute and executive committee member of the Democratic
+National Committee, in an interview.
+
+Except for one quote ripped out of context, it’s hard to call Ellison “anti-
+Israel” without also branding the left flank of the Democratic Party, several
+Jewish advocacy groups, and a faction of Israel’s domestic politicians with
+the same label. (As Haas says in a US News & World Report
+[column](http://www.usnews.com/opinion/world-report/articles/2016-11-29/dnc-
+chair-hopeful-keith-ellison-should-trouble-democratic-jews), “When it comes to
+Israel, high-level Democratic backing for Ellison is less a sharp turn than a
+continuation of recent trends.”) We can argue over whether this group’s
+preferred policies are in Israel’s _best interests_ , but few would seriously
+claim that all of its adherents are opposed to the existence of Israel itself.
+
+“This debate would be wholly different if the ADL was just saying that it
+disagreed with Keith’s policy stance on the Iran deal and the West Bank
+settlements,” Faiz Shakir says. “But they can’t do that because those are also
+the policies of Barack Obama. So instead of having that real debate, we’re
+having a fake one about if Keith is anti-Israel that’s based on made-up
+smears. And one that’s really harmful.”
+
+## Are Ellison’s Democratic Party critics in the minority?
+
+Photo by Alex Wong/Getty Images
+
+More than Ellison’s personal political career rests on whether these attacks
+stick. As Zogby and Shakir both argued to me, young Muslims have grown
+increasingly cynical about politics and both political parties. Seeing the
+first Muslim American Congress member go down amid an Islamophobic backlash
+could only push them further away from the political mainstream.
+
+From one perspective, the attacks against Ellison allow critics like the
+Intercept’s Glenn [Greenwald](https://theintercept.com/2016/12/04/the-smear-
+campaign-against-keith-ellison-is-repugnant-but-reveals-much-about-
+washington/) to argue that Democrats are afraid of running afoul of AIPAC and
+other pro-Israel groups (and of their wealthy donors).
+
+“The Democratic Party’s central reliance on billionaire funders like [Haim]
+Saban is a key reason that debates over Israel policy are not permitted within
+the party,” Greenwald writes. “It’s why any attempt to raise such issues will
+prompt systematic campaigns of reputation destruction like the one we’re
+witnessing with Ellison.”
+
+At least for the moment, Saban and the ADL appear to be in the minority. It’s
+not only Schumer and Sanders who have stood up for Ellison: Mainstream
+Democrats like Sen. Harry Reid, the former minority leader, as well as House
+Democratic leaders like New York Rep. Joe Crowley and Maryland Rep. Elijah
+Cummings, have gotten behind him. Howard Dean, until recently a candidate for
+DNC chair, declared in unequivocal terms Monday that Ellison is “not an anti-
+Semite.”
+
+“Democrats have stood by Keith in a way that deserves appreciation and
+support. What they have done is not run for the hills,” Shakir says. “That’s
+why you’re hearing these attacks against him now: because the major players
+have had Keith’s back.”
+
+In other words, Ellison looks poised to weather the onslaught, though it’s not
+entirely clear that he’ll nab the job. And if that’s right, the faction of the
+Democratic Party most hawkish about Israel is not lashing out against Ellison
+as a way of dictating the selection of the next DNC chair. They’re lashing out
+against him because they realize they can’t.

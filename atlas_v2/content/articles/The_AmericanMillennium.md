@@ -1,0 +1,314 @@
+# The American Millennium
+
+**Source**: inputs/old stuff/Docs/The AmericanMillennium_070224.html
+**Type**: article
+**Created**: 2025-08-25T02:53:47.837084
+
+---
+
+# The American Millennium
+
+![](https://eotrx.substackcdn.com/open?token=eyJtIjoiPDIwMjQwNzAyMTIyOTAwLjMuODhmNDNhYjgyN2IzODljZkBtZzIuc3Vic3RhY2suY29tPiIsInUiOjE2MjgzNTQ5LCJyIjoibm90Ym9yaW5nQGtoYW1lbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjE0NjExNDY4OSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMDAyNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTcxOTkyMzM1NiwiZXhwIjoxNzIyNTE1MzU2LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.0_I5Cb7IicrKjw3lvsOE6AhLuNfgH2Bu_d-ACUUkQ0g)
+
+A Fourth of July Tribute to a Nation on the Rise
+
+͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­
+
+Forwarded this email? [Subscribe here](https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj05cDBndCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3Lm5vdGJvcmluZy5jbyUyRnAlMkZ0aGUtYW1lcmljYW4tbWlsbGVubml1bSIsInAiOjE0NjExNDY4OSwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE3MTk5MjMzNTYsImV4cCI6MTcyMjUxNTM1NiwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.GCN54oGMartKS8t6otG_P3X0nnIJDHpLN2WwzUSXIKI?) for more
+
+*Welcome to the **864 newly Not Boring people**who have joined us since our last essay! If you haven’t subscribed, join **228,461** smart, curious folks by subscribing here:*
+
+
+[![](https://substackcdn.com/image/fetch/w_442,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F219dd007-81ff-44ce-9c6c-e4d593bb6aa5_1600x754.png)](https://substack.com/redirect/b66deaa3-0798-4477-8dec-90e3e12995c1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+
+*There’s no product I’ve used more over the past couple of years than my Eight Sleep Pod Cover. If I’m lucky, I use it for a little more than a third of each day. When I do, I feel sharper, happier, and more ready to crank out 10,000+ words.*
+
+*There’s also nothing more important to your performance than good sleep, something I learned the hard way after having kids. The [Eight Sleep](https://substack.com/redirect/b66deaa3-0798-4477-8dec-90e3e12995c1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) Pod Cover has been a godsend on that front. I like to sleep cold, Puja likes to sleep hot, and before we got our Pod Cover, we constantly fought over the thermostat. Now, I set my temperature to -8, she sets hers to +3, and we both sleep happy.*
+
+*And it keeps getting better. [Eight Sleep](https://substack.com/redirect/b66deaa3-0798-4477-8dec-90e3e12995c1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) recently launched their newest generation of the Pod: Pod 4 Ultra. It cools, it heats, and now it elevates, automatically. It is also clinically proven to give you up to **one hour more** of quality sleep every night. Wildly, the Pod 4 Ultra can detect when I’m snoring and automatically lift my side of the bed a few degrees to improve airflow and stop the snoring. Once they figure out how to get me to stop waking up to pee, I might sleep 12 hours a night…*
+
+*Invest in better sleep. It pays dividends. Join me and the thousands of athletes, health experts, and founders like Elon Musk, Mark Zuckerberg, Andrew Huberman, Peter Attia, Bryan Johnson, and Lewis Hamilton who trust Eight Sleep to keep them performing at their best.*
+
+*Head to [eightsleep.com/notboring](https://substack.com/redirect/b66deaa3-0798-4477-8dec-90e3e12995c1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) and use code NOTBORING to **get $350 off Pod 4 Ultra**.*
+
+[Start Sleeping Better](https://substack.com/redirect/b66deaa3-0798-4477-8dec-90e3e12995c1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Hi friends 👋 ,
+
+Happy Tuesday and welcome to our Not Boring Fourth of July Spectacular. 🇺🇸
+
+It’s become popular, once again, to point out everything that’s wrong with America and speculate on the country’s decline. We’ll be fine, y’all. Great, even.
+
+Because in America, we can all choose to make the country better and just do it.
+
+Let’s get to it.
+
+[![](https://substackcdn.com/image/fetch/w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F17157ad2-db03-45a4-83ec-186dd34fbd69_1200x632.png)](https://substack.com/redirect/c4cea5bf-1c5f-4624-9849-6924a87f2b2a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+
+In June 2012, in the opening scene of *The Newsroom*, Jeff Daniels’ curmudgeonly newsman Will McAvoy is asked why America is the greatest country in the world. 
+
+[![image](https://substackcdn.com/image/youtube/w_550,c_limit/l_youtube_play_qyqt8q,w_120/fJh9t9h6Wn0)](https://substack.com/redirect/308ea8c4-0df8-4d2d-910d-fc664d01baea?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+McAvoy goes on an all-time Sorkinian rant, rattling off statistics – we’re 7th in literacy, 22nd in math, 49th in life expectancy, etc… – to make the point that we no longer are. Putting a finer point on it, he yells:
+
+“So when you ask what makes us the greatest country in the world, I don’t know what the fuck you’re talkin’ about.”
+
+This was 2012. The statistics he listed haven’t moved much over the last twelve years, and since then, the country has gone through a series of descending political nadirs, the deepest of which may have been last Thursday’s Presidential Debate, which placed a tart cherry on top of the decline of trust in government institutions that Americans have reported for decades.
+
+Public Trust in Government
+
+[![image](https://substackcdn.com/image/fetch/w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e9224ad-a0ab-46c6-b858-a27f8496281e_1260x660.png)](https://substack.com/redirect/5e6d6d29-8fbd-443d-afae-d987ca4ea33e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+During and after the debate, thousands of people took to X to call the **end of the American Empire**. If these are the two people in the running to run the country, the logic goes, the country must be in bad shape. 
+
+Are McAvoy and the tweeters right? Is it over?
+
+No. We will be fine. Great, even.
+
+First off, calling the end of the American Empire is a perpetual tradition. *The Newsroom* did it in 2012. Last night, as I was reading *[The Prize](https://substack.com/redirect/13898dfd-ad68-4f7b-89a9-08366d367c0d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)* before bed, I came across [this 1980 headline](https://substack.com/redirect/7a51918c-5f6d-41b1-8f68-2bd91cf2222c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) from *Foreign Affairs*:
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3d76353-1966-470b-a5b7-caefed24b51c_908x237.png)](https://substack.com/redirect/87ddba7c-456e-4d5f-8870-0396562a8289?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*American Affairs*
+
+Oil prices had tripled in 1979 as OPEC flexed its dominant position. Iran, where Ayatollah Ruhollah Khomeini had returned from exile and toppled the America-friendly Shah, took American hostages. The West had become over reliant on the Middle East for the resource on which it had become so dependent. Things look bleak. And what happened?
+
+OPEC overplayed its hand, setting high non-market prices despite warnings from the Saudi oil minister that doing so would lead to a crash as the forces of supply and demand took over. They did, and oil fell from its 1980 peak of $40/barrel to just over $10 in 1986. Meanwhile, the West got to work reducing its dependence on foreign oil, first with energy efficiency standards, and then with technology: growing government-supported R&D into renewables first, then fracking. The Soviet Union fell in 1991, making America *more* powerful a decade after that article than it was on the day it was written. Last year, the EIA announced that in 2023, the US had produced more crude oil than any country, ever. 
+
+[![](https://substackcdn.com/image/fetch/w_1912,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5f0c318c-a10f-458f-a0ad-5763d48ce842_956x580.png)](https://substack.com/redirect/45b4e0e3-b91e-488c-ade4-22fc77a55edc?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+This is a common pattern: America doesn’t just survive crises, it gets stronger because of them.
+
+America is blessed with geography, abundant natural resources, and the most valuable resource of all: a driving entrepreneurial spirit that can overcome any obstacle put in our way and build technological solutions to short-term challenges that lead to long-term strength.
+
+Today, once again, the economic data paints a different picture than the political sentiment, one that speaks to the difference between America and the Roman Empire, or any empire that’s come before.
+
+It would be incredible to have deeply competent leaders, but in America, people can just choose to solve problems that the government can’t, doesn’t, or won’t. Accelerated progress despite government and institutional stagnation is exactly what makes America exceptional.
+
+I’m here to tell you that the American Empire is not over. I’m here to tell you that we’re in the first century of the **American Millennium**. 
+
+During Thursday’s debate, each candidate argued that the other was the worst President in American history. Let’s say you agree with both of them.
+
+How has America fared under their historically bad leadership? Let’s look at the numbers.
+
+GDP per capita is up 13% since Trump took office, compared to 12% for the world:
+
+US vs. World GDP Growth Since 1960 (Constant 2015 $)
+
+[![image](https://substackcdn.com/image/fetch/w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F27a72547-d9fb-4266-a070-ddbcdffe8b88_1260x660.png)](https://substack.com/redirect/af04b8af-f73c-491a-8916-4edc8cb735dd?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Since the day before Trump’s 2017 inauguration, the S&P 500 is up 140% and the NASDAQ is up 220%:
+
+S&P 500 & NASDAQ Performance Since Trump Inauguration
+
+[![image](https://substackcdn.com/image/fetch/w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3bd9850a-f0f5-467c-badb-6a5da1b125ff_1260x660.png)](https://substack.com/redirect/3d1d81fc-1c10-4f48-b757-39bd7df951f0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+We’re building again.
+
+Inflation-Adjusted Manufacturing Construction Spending
+
+[![image](https://substackcdn.com/image/fetch/w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe317a0c0-0033-4ff9-8606-436391e284de_1260x660.png)](https://substack.com/redirect/d0755d23-13ba-4a7b-b935-734c19eb473d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Under both Presidents, the unemployment rate has been as low as it’s been since the late 1960s, COVID aside.
+
+US Unemployment Rate
+
+[![image](https://substackcdn.com/image/fetch/w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1d3aef53-2dfd-42c6-9221-2ebeacbd1277_1260x660.png)](https://substack.com/redirect/0d50a85a-7af6-47c3-89c0-136324c669c4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+I could keep going, but the point should be clear. The economic indicators point to a stronger American economy, both in absolute terms and relative to the rest of the world, over the course of the Trump and Biden presidencies.
+
+Of course, the economy is not everything. There are wars going on and individuals’ rights are being threatened. Many Americans don’t feel as rich as the numbers say they should. Each party faces blame for any number of ills that are outside the scope of this piece.
+
+But the economy is a relatively objective measure of the country’s progress, and it is very important. As Noah Smith wrote in *[The elemental foe](https://substack.com/redirect/f0ea6993-1e76-4a77-8c3b-010f6a0ad5a7?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU),* GDP is a proxy for humanity’s success in fighting the unflagging foe that is poverty:  
+
+> *It is our thankless job to remind the world that [GDP](https://substack.com/redirect/12760fe8-dbdf-4844-b8cd-9e609b00c640?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) is [much more](https://substack.com/redirect/46dc54a0-6c10-4e9e-ad39-db2848834000?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) than [just](https://substack.com/redirect/88cae5b3-76ad-4a4b-bcee-d999cf7c54a9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) a [line](https://substack.com/redirect/ab4340c9-4b7b-48fb-bd9a-360b83e0d8c7?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) on a [chart](https://substack.com/redirect/34876277-bdad-493c-84dc-e34767502298?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) — and at the same time, to draw this line on this chart again and again, ad infinitum.*
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff3b45147-ddde-4d27-a80e-33dfb9b9371a_908x643.png)](https://substack.com/redirect/d4cb92b4-e610-44d4-867f-907b5d9ce83f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+On that front, progress marches on, no matter how incompetent-seeming the leaders we throw at it.
+
+Trust in Government vs. US GDP Per Capita
+
+[![image](https://substackcdn.com/image/fetch/w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7fea2cef-c3c0-47a6-839b-7c5ca6c1104e_1260x660.png)](https://substack.com/redirect/a65537ee-3f3c-4904-84bb-85a14d857ebe?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Despite leadership that almost no one is happy with, America is humming.
+
+How could that be?
+
+My hypothesis is that technology compounds more quickly than the government ossifies, and that entrepreneurship in a broad sense has overtaken institutions as the prime mover of American exceptionalism.
+
+One (very oversimplified) way to think of **progress is as a vector sum of government and entrepreneurial forces**. 
+
+A **vector** is a quantity that has both a magnitude and a direction, like velocity (speed in a specific direction) or force (strength applied in a particular direction). You can think about it like an arrow of a certain length (magnitude) pointing a certain way (direction). A **vector sum** is what you get when you add the vectors up. 
+
+Government and entrepreneurship can pull in various directions at various strengths. When they’re both pulling in the same direction - up and to the right - progress happens more quickly. But even if the government stagnates, a strong entrepreneurial ecosystem can pull progress ahead on its own.
+
+This may be easier to look at than imagine, so I asked [Claude 3.5 Sonnet](https://substack.com/redirect/1ace7344-dac4-4ff2-a112-1ceb887994cf?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) to make me a toy model to play around with. 
+
+Imagine that entrepreneurship is pulling in the direction of progress at a magnitude of 50, and the government is pulling in the opposite direction at a magnitude of 50. You end up with zero progress.
+
+[![](https://substackcdn.com/image/fetch/w_1216,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3da8aebb-212e-4ef0-8727-42fe17ac8a5b_608x608.png)](https://substack.com/redirect/d330c485-fe23-4975-8d61-ef270e97cc73?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Made with Claude 3.5 Sonnet*
+
+We can play with a bunch of different scenarios. Like what if the government is completely ineffective (0 magnitude) but entrepreneurship is maximally effective (100 magnitude)? You get a progress magnitude of 100. Or what if the government is slowing down progress with 50 magnitude, but entrepreneurship is pulling it forward at 100 magnitude? You get a progress magnitude of 50.
+
+[![](https://substackcdn.com/image/fetch/w_592,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fac76a2e3-a0d3-4ad2-a7bb-2a60cfacdcee_410x408.gif)](https://substack.com/redirect/f09b9683-9317-4fd7-b8b2-56c3d0fcaeca?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Made with Claude 3.5 Sonnet*
+
+
+The ideal state is what you imagine America must have been like during World War II, the world shown in books like *[Freedom’s Forge](https://substack.com/redirect/74edfbf0-54b9-42cd-a83d-27e71735d726?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)* in which both government and industry threw their full weight behind manufacturing capacity. When the government and entrepreneurs are pulling at full strength in the same direction, you can get a progress magnitude of 200. 
+
+I hope we can get to something like that again, but I guess the point I’m trying to make is that even if we don’t, even if the government stalemates itself into relative ineffectiveness, even if we elect the worst President you could possibly imagine, **the American system is set up in such a way that entrepreneurs always have the opportunity to innovate and scale with greater force than even the most dysfunctional government can apply in the opposite direction.**
+
+As a rough experiment, I asked Claude where it would put government and entrepreneurial magnitude relative to each other in the US and China today, and in Empires throughout history. The numbers are clearly imprecise – these are made up scores – but the outcome is stark. Here’s what it looks like when I subtract the government score from the entrepreneurial score:
+
+Entrepreneurial v Government Advantage in Empires
+
+[![image](https://substackcdn.com/image/fetch/w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe1f2586c-c7d7-4a47-8bd2-bf025200497b_1260x660.png)](https://substack.com/redirect/304ec203-645f-4acb-a783-79bf53d755d0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+America is the only major “empire” in history whose entrepreneurial magnitude exceeds its government magnitude. America is the first **Capitalist Empire**. 
+
+That is an unbelievably important distinction. It means that America’s success or failure isn’t exclusively determined by the strength of its institutions or the people running them. As long as the Constitution remains in place and rule of law reigns supreme, individuals have more opportunity to define the trajectory of the American Empire than they’ve had in any Empire to date.
+
+While China’s manufacturing capacity is awesome, and while its growth has been eye-popping, China does not have the same dynamic: recall just a few years ago when Xi Jinping Thanos-snapped Alibaba CEO Jack Ma to show the country that he, and not tech companies, were in control.
+
+China, strong as it is today, is fragile to the whims of its leaders.
+
+America, chaotic as it is, is decentralized and antifragile.
+
+One of the beautiful things about America is that broken things present opportunities, and the solutions that survive the capitalist gauntlet are better than anything any government could come up with alone.
+
+America’s electric grid is crumbling? It’s impossible to build big things like transmission lines cheap and fast? Cool. **[Base Power Company](https://substack.com/redirect/cd48edd6-ad8b-40ea-9a6a-b7ca6d5ed59d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)** can profit off the volatility by storing power when it’s cheap and dispatching it when it’s expensive, and balance the grid in the process. 
+
+America has a housing shortage? We’re nowhere near on pace to build the more than 6 million new houses we’ll need by 2030, slowed by zoning, regulation, and skilled labor shortages? No problem. **[Cuby](https://substack.com/redirect/fdc90cc4-6f21-45d8-a3c7-23014a882b01?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)** is building “Mobile Micro-Factories that manufacture and assemble homes for the masses,” turning home construction into a manufacturing and assembly process that can use unskilled laborers to build higher-quality houses faster and at a lower price per square foot than traditional home builders can. 
+
+We can’t manufacture like we could? The manufacturing labor force is aging out? Fine. **[Hadrian](https://substack.com/redirect/ba23e516-acf9-4df0-b450-601516d25f13?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)** is building semi-automated factories that put more young Americans to work. **[Formic](https://substack.com/redirect/b631df55-85d8-4085-b5d7-47f393b97118?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)** is helping existing factories automate with robots. And a wave of robotics companies is pushing to provide the American industrial base with plug-in labor, on-demand. 
+
+McAvoy said America was “7th in literacy, 22nd in math,” and the situation has only gotten worse? In 2022, the “[nation’s report card](https://substack.com/redirect/67f3166a-6146-4320-963c-9d03786d5cf6?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)” showed that just 33% of American 4th graders scored at or above a proficient level in reading, and just 37% scored at or above proficiency in math, both down from 2019. 
+
+[![](https://substackcdn.com/image/fetch/w_2142,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbb9b7ef9-2c6c-4a01-81cc-8a717a7f3c70_1071x201.png)](https://substack.com/redirect/47d3905b-4447-4a38-884c-88636a5069b0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*NAEP 2022 Report Card*
+
+Companies like **[Primer](https://substack.com/redirect/b212b5f9-dcd3-4a5e-818b-fdca9454cb22?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)**, one of our portfolio companies, are taking public education head-on by empowering teachers to launch their own microschools in order to better educate kids, and **[Odyssey](https://substack.com/redirect/d051ed0b-a31f-4833-b531-ad6b8c1b01a5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)**, another portfolio company, is working with states to distribute educational savings account (ESA) funds to parents so that they can choose the best options, like Primer, for their kids’ education. A number of young startups are looking to reimagine education with AI. 
+
+Skilled immigration is a clusterfuck? [Plymouth](https://substack.com/redirect/10c15f22-c9d1-4f60-a993-efd581dc49b4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) is making it easier. 
+
+The healthcare system is broken? Biotechnologists are reprogramming genes and cells so that our bodies can just fix themselves.
+
+Entrepreneurs are literally [making it rain](https://substack.com/redirect/1854c620-c8a9-4096-989d-f7e1267bf5bb?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) to make earth more habitable, and [pulling CO2 from the sky to produce clean synthetic fuels with sunlight](https://substack.com/redirect/ae0b0c15-9f39-4332-b0ed-359ff15312ae?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) and [nuclear energy](https://substack.com/redirect/eaec87b6-eff2-4503-bc5b-92075c4c83ea?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). They’re solving civilizational challenges with technology. 
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1bd4ff98-95d6-48a0-b7db-d1cb89fa119c_908x410.png)](https://substack.com/redirect/2cb58bc1-2abb-400c-afd1-cb39a098bae5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Rainmaker*
+
+The examples above are just a small sample of startups we’ve covered in Not Boring. There are thousands more, from small businesses to large public companies.
+
+As I wrote in my piece on **[Base](https://substack.com/redirect/cd48edd6-ad8b-40ea-9a6a-b7ca6d5ed59d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)**:
+
+> *The point of a free market, though, is that while it can be messier in the short-run than a centrally-planned one, it leaves room for market-based solutions that can be better in the long-run.*
+
+The government itself is increasingly turning to tech startups to help solve its biggest challenges.
+
+NASA partnered with **[SpaceX](https://substack.com/redirect/9e0dd741-f3ef-4c13-93f6-c986a4cbce55?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)** to revive the American launch industry, to great success: 
+
+Annual Number of Objects Launched Into Outer Space
+
+[![image](https://substackcdn.com/image/fetch/w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe6e938d-3735-4824-9a37-be5e7049593f_1260x660.png)](https://substack.com/redirect/40d2b267-ab51-420b-a8c9-45983ba12d14?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+The DoD is turning to **[Anduril](https://substack.com/redirect/13b5e5e1-9ffe-43aa-9f93-48a6c2bd7224?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)**, which saw that a new type of warfare was coming and built solutions for that future, to help it prepare for such warfare. It was recently [selected for the U.S. Air Force Collaborative Combat Aircraft (CCA) Program](https://substack.com/redirect/08ff6b9e-59ba-42e1-ae78-fec73dc6b9fa?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), beating out incumbent Defense Primes and establishing itself as a real player. 
+
+Recently, I wrote about **[Fuse Energy](https://substack.com/redirect/467e3681-7444-4b71-a5af-6309b3fa6f9f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)**, which plans to become to the National Nuclear Security Administration (NNSA) what SpaceX is to NASA and Anduril is to the DoD by providing next generation nuclear effects testing machines. 
+
+Entrepreneurs are even working to fix problems in areas in which the government has made it downright onerous to build, like crypto and nuclear.
+
+While Gary Gensler’s SEC has been downright hostile to **crypto** entrepreneurs in America, companies like **[Coinbase](https://substack.com/redirect/0ceb440c-89b4-4f25-9bee-8ea505ae41d1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)** have challenged the SEC in court and continue to win. Recently, [Coinbase sued the SEC](https://substack.com/redirect/2a05fc4d-403d-44b9-91f8-5913fe938527?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) under the Freedom of Information Act (FOIA) for documents concerning closed investigations and letters the SEC sent financial institutions telling them to “pause” crypto. Meanwhile, [Stripe announced](https://substack.com/redirect/259af3fb-aeea-405e-ba7c-f6cbad8cc855?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) that it was partnering with Coinbase to bring faster, cheaper Base infrastructure to its customers. In the face of overzealous regulators, crypto entrepreneurs continue to fight to [make capitalism more effective](https://substack.com/redirect/10f7662a-eeb9-4b69-b525-2f2220410d16?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). 
+
+And in **nuclear**, entrepreneurs are pushing ahead with new reactor designs and manufacturing processes despite the fact that the Nuclear Regulatory Commission (NRC) *has not approved a new reactor design in its entire existence*. 
+
+I moderated a panel on Energy at Reindustrialize last week with JC Btaiche from [Fuse](https://substack.com/redirect/2645b8e0-2694-4422-9071-534f8b064f89?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), Doug Bernauer from [Radiant](https://substack.com/redirect/39d62093-9dbc-43e6-889e-7ef2d30f81a4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), and Isaiah Taylor from [Valar Atomics](https://substack.com/redirect/eaec87b6-eff2-4503-bc5b-92075c4c83ea?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), and what struck me once again is how hard it is to get nuclear founders to place any blame on the NRC. Instead, they see regulation as just one of the many challenges they need to solve in order to bring cheap, abundant clean energy to millions of people, and reap the rewards if they do so. 
+
+Even when the government puts up roadblocks to progress, the American system and the American spirit are such that entrepreneurs simply take it upon themselves to get around them.
+
+
+
+Those two phrases, which frequently appear in my X feed, are as optimistic as it gets.
+
+As universities, legacy media, and traditional institutions crumble, as the government becomes ever more tangled in red tape, as two octogenarians duke it out to become the leader of the free world, America is built in such a way that entrepreneurs can just build things. And as the [tools that entrepreneurs have at their disposal continue to improve](https://substack.com/redirect/fddc36fb-4f75-4916-a203-85782dfbb6d1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), progress can continue to accelerate even as institutions stumble. 
+
+In fact, because technology compounds at a faster rate than legacy institutions, I’d expect that the share of responsibility for the continuation of the American Empire will continue to shift in the entrepreneurs’ direction.
+
+
+We will see more legacy institutions fall and weaken, and it may feel chaotic. Good! That chaos, underpinned by a stable Constitution and legal code, is the lifeblood of America’s success. The greater the challenges, the bigger the opportunities, the better the solutions.
+
+We can even build new and better *institutions* to replace old and sclerotic ones. 
+
+Just last week, Arc Institute, a new kind of scientific research organization, [announced](https://substack.com/redirect/4a12a345-b744-4a3d-ad14-2dd9af8c4aa3?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) that it had “discovered a compact and entirely new type of programmable molecular system that evolved to directly insert new DNA sequences into the genome using bridge RNAs – a new class of guide RNAs.” The announcement was notable for both the science, and the institution that discovered it. 
+
+On Sunday, Pirate Wires’ Mike Solana penned *[We Are the Media Now](https://substack.com/redirect/0580df10-520f-4055-bf4b-d27c0248013a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)* about the importance of building new media. He wrote: 
+
+“The Old Things are what they are, and will always be thus. **To build something truly new, you have to build it from scratch.**”
+
+We can and will build new things from scratch on top of stable American infrastructure.
+
+We can and will create the **American Millennium**.
+
+In that *Newsroom* scene, after rattling those statistics, McAvoy pauses, misty-eyed, before talking about how good we *were*:
+
+> *It sure used to be. We stood up for what was right. We fought for moral reasons. We passed laws, struck down laws, for moral reasons. We waged war on poverty, not poor people. We sacrificed. We cared about our neighbors. We put our money where our mouths were and we never beat our chests. **We built great big things, made ungodly technological advances, explored the universe, cured disease, and we cultivated the world’s greatest artists*** **and** ***the world’s greatest economy. We reached for the stars.***
+
+Good news, Will.
+
+We build great big things to explore the universe…
+
+[![image](https://substackcdn.com/image/youtube/w_550,c_limit/l_youtube_play_qyqt8q,w_120/INUZ9-8p24o)](https://substack.com/redirect/ce965b3c-5d85-4182-bfd8-9abe0017e89e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+We make ungodly technological advances…
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe397fd25-f7ca-47c8-891f-bb62414386da_908x515.png)](https://substack.com/redirect/ef0d37aa-b0c9-4154-918f-6adfbf078332?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*NVIDIA Blackwell B200*
+
+We cure disease. In just the last few weeks in the Weekly Dose of Optimism, we’ve covered gene therapies for [hereditary deafness](https://substack.com/redirect/c29859c3-2a7a-4640-ad79-4e7185a8b576?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) and [blindness](https://substack.com/redirect/91979787-755b-423c-8807-a1c86f308bcd?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), [mRNA cancer vaccines](https://substack.com/redirect/50d59495-526c-4ea9-99a1-e4009fa4c86b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), and [breakthroughs in cryonics](https://substack.com/redirect/240c9244-b99e-4e28-abfa-6f0f74117399?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), among many others. 
+
+And as highlighted earlier in the piece, we’ve done all of this while building the world’s greatest economy. I’m not qualified to address the quality of our artists, but I will note that America’s own Taylor Swift has sold out stadiums in fifteen countries on five continents, and has [boosted local economies](https://substack.com/redirect/7c47c703-08ac-493a-9a42-a267b51650a4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) by hundreds of millions of dollars in many of those countries. 
+
+[![](https://substackcdn.com/image/fetch/w_1766,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F810333cc-7412-45d0-8305-168ab7263bb8_883x591.png)](https://substack.com/redirect/b87390ba-9962-43fa-89e7-0e8cd505780c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Taylor Swift, Billboard*
+
+We have done all of this despite a political landscape that feels as dysfunctional as it’s ever been. It doesn’t have to be that way, and I don’t believe that it always will.
+
+On Thursday, the [Supreme Court struck down Chevron deference](https://substack.com/redirect/5ee74d8d-2d11-4ba7-84b4-0ea4a2c46186?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), placing more power back in the hands of the lawmaking process and less in the hands of capricious regulators. It’s another step in the direction of strengthening our country’s infrastructure and making it resilient to the whims of any one person or group of people.  
+
+There are thousands of great people in the government who want to see the progress that all of us want to see, and are fighting to make it happen. We will have bad Presidents, but we will have great ones again, too. Progress will be greatest when the government and entrepreneurs pull in the same direction.
+
+[![](https://substackcdn.com/image/fetch/w_1216,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7be0f727-8736-4a0e-b0ec-c85ca2b8af37_608x613.png)](https://substack.com/redirect/3508d9c2-5809-4694-a16f-daaa63610cb6?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Companies can’t solve everything, obviously. Good government is critical. But no matter who is in office, we will progress. It’s what America does, and what America will continue to do.
+
+The American Empire isn’t over. It’s just beginning. This will be the American Millennium as long as Americans believe that they can take matters into their own hands, build solutions to the challenges that we will inevitably face, and continuously rebuild a better America, and a better world.
+
+So go throw on your finest red, white, and blue, crack open a cold one, release a flock of Bald Eagles, and celebrate the Fourth of July in the greatest country the world has ever known.
+
+Then get back to work.
+
+God bless you, and God bless the United States of America.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F79251bd3-96db-4d82-9f06-97588d460405_908x607.png)](https://substack.com/redirect/d7e6bfc3-4a67-4259-80d4-b1839a0f9b19?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Thanks to [Dan](https://substack.com/redirect/8d60523f-f93b-452c-93bc-49eaa10a5d64?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) and [Claude](https://substack.com/redirect/ec692185-a2b0-4353-ad9c-5e1fd51dd970?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) for editing.*
+
+That’s all for today. Have a great 4th of July. We’ll be back in your inbox with a Weekly Dose on Friday.
+
+Thanks for reading,
+
+Packy
+
+[Like](https://substack.com/app-link/post?publication_id=10025&post_id=146114689&utm_source=substack&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTQ2MTE0Njg5LCJyZWFjdGlvbiI6IuKdpCIsImlhdCI6MTcxOTkyMzM1NiwiZXhwIjoxNzIyNTE1MzU2LCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJyZWFjdGlvbiJ9.vbXcsvuH1oZaQU0LZ4UKS-fwHZM3chDKapJYcNgrMsE&utm_medium=email&utm_campaign=email-reaction&r=9p0gt)[Comment](https://substack.com/app-link/post?publication_id=10025&post_id=146114689&utm_source=substack&utm_medium=email&isFreemail=true&comments=true&token=eyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTQ2MTE0Njg5LCJpYXQiOjE3MTk5MjMzNTYsImV4cCI6MTcyMjUxNTM1NiwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.rCPEc-tsfrZyVQA5WtwhXlV2LxJpwmumzmRIDGiKYhk&r=9p0gt&utm_campaign=email-half-magic-comments&utm_source=substack&utm_medium=email)[Restack](https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9vcGVuLnN1YnN0YWNrLmNvbS9wdWIvbm90Ym9yaW5nL3AvdGhlLWFtZXJpY2FuLW1pbGxlbm5pdW0_dXRtX3NvdXJjZT1zdWJzdGFjayZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1yZXN0YWNrLWNvbW1lbnQmYWN0aW9uPXJlc3RhY2stY29tbWVudCZyPTlwMGd0JnRva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVFEyTVRFME5qZzVMQ0pwWVhRaU9qRTNNVGs1TWpNek5UWXNJbVY0Y0NJNk1UY3lNalV4TlRNMU5pd2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaWNHOXpkQzF5WldGamRHbHZiaUo5LnJDUEVjLXRzZnJaeVZRQTVXdHdoWGxWMkx4SnB3bXVtem1SSURHaUtZaGsiLCJwIjoxNDYxMTQ2ODksInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNzE5OTIzMzU2LCJleHAiOjE3MjI1MTUzNTYsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.3dklQj_CWaETsCywodTVwltlaxO8APE9msobKl3S5tU?&utm_source=substack&utm_medium=email)
+
+![](https://eotrx.substackcdn.com/open?token=eyJtIjoiPDIwMjQwNzAyMTIyOTAwLjMuODhmNDNhYjgyN2IzODljZkBtZzIuc3Vic3RhY2suY29tPiIsInUiOjE2MjgzNTQ5LCJyIjoibm90Ym9yaW5nQGtoYW1lbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjE0NjExNDY4OSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMDAyNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6ImJvdHRvbSIsImlhdCI6MTcxOTkyMzM1NiwiZXhwIjoxNzIyNTE1MzU2LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.9Elm3b0T81nwAYA06PCdZDhepfOBd2pc4eW5EwKnFBc)

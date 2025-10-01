@@ -1,0 +1,140 @@
+# An innovative introductory economics course at Stanford is now free online
+
+**Source**: https://qz.com/1103806/a-pioneering-economics-class-is-tackling-social-justice-issues-with-big-data-and-women-and-minorities-are-enrolling-in-droves/
+**Type**: article
+**Created**: 2025-08-13T16:51:10.930090
+
+---
+
+title: An innovative introductory economics course at Stanford is now free online
+source: https://qz.com/1103806/a-pioneering-economics-class-is-tackling-social-justice-issues-with-big-data-and-women-and-minorities-are-enrolling-in-droves/
+date: 2025-08-13T16:51:01.665101
+tags: []
+---
+Econ 101, the introductory college economics course that is often held in
+overcrowded lecture halls packed with half-asleep freshmen, is finally getting
+a facelift.
+
+At the front of the class is Raj Chetty, a 38-year-old economist who publishes
+some of the field’s most intriguing papers year after year. He’s used data to
+[debunk the American
+Dream](http://web.archive.org/web/20250713055148/http://www.equality-of-
+opportunity.org/papers/abs_mobility_paper.pdf), [challenge the
+Ivies](http://web.archive.org/web/20250713055148/https://qz.com/1037128/these-
+universities-are-the-americas-engines-of-upward-mobility-and-theyre-
+sputtering) as engines of social mobility, and become an authority on
+inequality. He’s shuttled from top university to top university, scored a
+MacArthur “genius” grant, and landed on Forbes’ 40 under 40 list.
+
+Now, at Stanford, he’s rethinking how to teach economics to a bunch of fresh-
+faced newbies to the field—and they’re loving it.
+
+Chetty’s new class, “Using Big Data to Solve Economic and Social Problems,”
+attracted 200 students during the spring quarter. It was Stanford’s most
+popular economics class, with more students than the university’s equivalent
+of Econ 101 (145).
+
+According to Chetty, come the end of the quarter, some students noted that the
+class convinced them to major in economics. While Stanford’s economics
+department confirmed that eight more students are majoring in economics this
+year compared with last year, it also noted that a number of factors could be
+contributing to such enrollments, so it’s hard to say whether the bump has
+anything to do with Chetty’s class. Moreover, since Stanford students do not
+have to declare a major until their junior year, we may not see the full
+effect for another year or two.
+
+And now, anyone can take the class—[the lecture series is
+online](http://web.archive.org/web/20250713055148/http://www.equality-of-
+opportunity.org/bigdatacourse/) at The Equality of Opportunity Project.
+
+## Supply and demand
+
+The class, in many ways, is a globally engaged, social-minded young person’s
+dream, with 11 lectures that address how big data is changing the way we think
+about upward mobility, education, health care, climate change, migration,
+criminal justice, and discrimination.
+
+What’s more, the class proved popular among people who aren’t usually drawn to
+economics. According to Chetty, far more women and minorities attended his
+course, and more came to office hours, which can be intimidating for the
+uninitiated. The department confirmed that close to half of Chetty’s class was
+female (84). More women also took Chetty’s class than the Stanford equivalent
+of Econ 101 (72). His impression is that the class upped the number of female
+and minority economics majors as well.
+
+Economics is infamously unwelcoming to women and minorities. Of the 79
+economics Nobel prizes ever awarded, only one has gone to a woman. Less than
+one in five tenured or tenure-track economics professors are women, and the
+gap between the share of women off and on the track [remains
+high](http://web.archive.org/web/20250713055148/https://www.aeaweb.org/content/file?id=3643)
+(pdf, p. 8). Women in the field are also penalized for teamwork: A [study from
+Harvard](http://web.archive.org/web/20250713055148/https://scholar.harvard.edu/sarsons/publications/note-
+gender-differences-recognition-group-work) found that men were just as likely
+to get tenure whether they published coauthored papers or not; women, instead,
+became less likely to gain tenure the more they worked with others.
+
+What gives? There’s some evidence that economics, as a discipline, [simply
+isn’t friendly to
+women](http://web.archive.org/web/20250713055148/https://www.nytimes.com/2017/08/18/upshot/evidence-
+of-a-toxic-environment-for-women-in-economics.html). This summer, a senior at
+Berkeley used [cutting-edge
+techniques](http://web.archive.org/web/20250713055148/https://www.dropbox.com/s/v6q7gfcbv9feef5/Wu_EJMR_paper.pdf?dl=0)
+to categorize and study the comments of participants in
+[EconJobRumors.com](http://web.archive.org/web/20250713055148/https://www.econjobrumors.com/),
+an anonymous site used to discuss industry hires and openings. She found that
+words which best predict a conversation about a man, even if harsh, were
+typically job-related (“advisor”, “wharton,” “mathematician,” “nobel,”
+“goals”), but those for women were patronizing, sexual, and unrelated to the
+field (“hotter,” “gorgeous,” “tits,” “lesbian,” “feminazi”). It revealed, as
+one economist put it, “a cesspool of misogyny.”
+
+Others blame the level of math in the field. People who are more likely to
+study math, computer science, or the hard sciences—men—have the deck stacked
+for them. This reinforces a culture that socializes women and minorities into
+believing they are [less good at
+math](http://web.archive.org/web/20250713055148/http://www.nytimes.com/2013/10/06/magazine/why-
+are-there-still-so-few-women-in-science.html?_r=1), and consequently leads
+some to believe that to make economics more inclusive implies making it less
+technically rigorous.
+
+But that doesn’t seem quite right, since STEM fields are more popular among
+female and minority undergrads than economics.
+
+## Comparative advantage
+
+Indeed, Chetty’s class didn’t shy away from the technical aspects of
+economics—big data, machine learning, and econometrics—and had no problem
+attracting women and minority students.
+
+So why did his approach prove so popular?
+
+An experiment at UC Berkeley offered a new PhD minor for engineers explicitly
+researching solutions for low-income communities: [half the
+engineers](http://web.archive.org/web/20250713055148/https://www.nytimes.com/2015/04/27/opinion/how-
+to-attract-female-engineers.html) in the inaugural class were women. MIT,
+meanwhile, launched an interdisciplinary lab that focused on building tech to
+improve the lives of those in poverty, and saw a class that was more than 70%
+women.
+
+“If the content of the work itself is made more societally meaningful, women
+will enroll in droves,” believes Lina Nilsson, an innovation director at UC
+Berkeley and one of MIT Technology Review’s [35 Innovators under
+35](http://web.archive.org/web/20250713055148/https://www.technologyreview.com/lists/innovators-
+under-35/2013/visionary/lina-nilsson/).
+
+What if this were true in economics, too? Students who grew up in the low-
+income areas Chetty’s class studied were surprised to see their stories
+reflected in the field’s research. The professor remembers students filing
+into office hours and telling him, “I really see myself in these data, in this
+class.”
+
+Chetty believes the class was ultimately a success because it tackled “things
+people felt really touched their lives personally, and mattered in terms of
+what they were reading in the news.”
+
+Of course, the class has only been offered once, so we’ll have to wait and see
+if its popularity endures (and if those who told Chetty they would declare an
+economics major stick to it). But Chetty has hope. He’s talking with faculty
+at other schools to roll out the program more widely.
+
+## 📬 Sign up for the Daily Brief

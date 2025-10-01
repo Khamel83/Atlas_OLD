@@ -1,0 +1,151 @@
+# =?UTF-8?q?More_Tom_Ford_Mayhem,_Blake_Lively=E2=80=99s_Look_Book_&_Loewe_?=
+
+**Source**: inputs/saved_emails/=UTF-8qMore_Tom_Ford_Mayhem,_Blake_Lively=E2=80=99s_Look_Book_&_Loewe_=
+**Type**: email
+**Created**: 2025-08-25T02:53:57.478076
+
+---
+
+=UTF-8qon_Top=_Wed,_24_Jul_2024_22-45-16_+0000_190e6eba9170f518.eml
+
+Hi, welcome back to Line Sheet. In today’s issue, Rachel Strugatz is back with what’s going down at Tom Ford Beauty. I’m also offering some Line Sheet fan service here, with dispatches from the red carpet (Blake Lively is back), Europe (more musical chair updates), the world of magazines that aren’t currently failing (ha!?), and the internet.
+
+ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+
+Line Sheet ( https://puck.news/newsletters/line-sheet/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Line Sheet ( https://ad.doubleclick.net/ddm/trackclk/N2267083.4235865PUCKNEWS/B31862338.394502701;dc_trk_aid=591929860;dc_trk_cid=219368981;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Hi, welcome back to Line Sheet. I postponed my viewing of the Presumed Innocent finale to attend Feed Me writer Emily Sundberg’s schmoozy dinner last night at Stella, in West Hollywood, where the chef really likes to smoke things. (Even olives. I didn’t mind.) Thank you to Emily, a gracious host. Unfortunately, we didn’t get a chance to discuss her recent take ( https://www.readfeedme.com/p/forget-the-startup-become-a-lacrosse?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) on the rise ofthe lacrosse aesthetic ( https://www.reddit.com/r/OutOfTheLoop/comments/t301q9/whats_up_with_young_people_using_aesthetic_in_an/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). (As a person whose AOL handle was
+once laxlaur22, I’m interested.) However, I did manage to catch up with two of my favorite post-Girl Boss era girl bosses, Cami Téllez and Mélanie Masarin. Oh, and to my new family office friend, reply to this email and let’s have lunch at Tartine in Pasadena!
+
+In today’s issue, Rachel Strugatz is back with what’s going down at Tom Ford Beauty. (As I mentioned ( https://puck.news/tom-ford-after-tom-ford/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) on Monday, that’s the real story to me—more than the departure of Peter Hawkings.) I’m also offering some Line Sheet fan service here, with dispatches from the red carpet (Blake Lively is back), Europe (more musical chair updates), the world of magazines that aren’t currently failing (ha!?), and the internet. Subscribe ( https://puck.news/author/lauren-sherman/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to feel smart and sophisticated.
+
+Mentioned in this issue: Tom Ford Beauty, Sephora, Guillaume Jesel, Blake Lively, Taylor Swift,
+Loewe, Sara Moonves, Hailey Bieber, W magazine, John Galliano, Anna Wintour, Miu Miu, Prada, Dries Van Noten sneakers, Brittany Mahomes, Gigi Hadid, Alaïa, John Demsey, “Vanilla Sex,” and many more.
+
+A MESSAGE FROM OUR SPONSOR
+
+$(ad4_title) ( https://ad.doubleclick.net/ddm/trackclk/N2267083.4235865PUCKNEWS/B31862338.394504087;dc_trk_aid=591930631;dc_trk_cid=219369563;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The all-electric BMW i7 merges technology and design with an available Panoramic Sky Lounge LED Roof and 4D surround sound. Learn more at BMWUSA.com ( https://ad.doubleclick.net/ddm/trackclk/N2267083.4235865PUCKNEWS/B31862338.394504087;dc_trk_aid=591930631;dc_trk_cid=219369563;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+* The business of Blake Lively not having a stylist: Anytime I post anything on Instagram about Blake Lively or her friend Taylor Swift, the, uh, engagement is astonishing. I received hundreds of messages regarding her looks for the Deadpool & Wolverine press tour: in particular, her Versace-created Deadpool costume (conspiring ( https://pagesix.com/2024/07/22/style/blake-lively-and-gigi-hadid-coordinate-at-deadpool-amp-wolverine-premiere/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) with friend Gigi Hadid, who was wearing a Wolverine-inspired Miu Miu look), but also the Balmain dress 
+( https://www.redcarpet-fashionawards.com/2024/07/23/blake-lively-wore-balmain-to-the-deadpool-wolverine-new-york-premiere-after-party/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) she wore to the afterparty. That scrunchy aquamarine and red tube dress reminded me of something one of my Barbies would have worn circa 1987. Most of the responses to my Instagram Story, which asked, “why” (no punctuation), were as simple
+as “😂.” Others were more cutting, like, “It’s giving Molly Baz.”
+
+Anyway, what makes Lively so compelling, other than her fashion choices fit for a very well-funded community theater, and makeup that looks like it was applied by a dance mom, is that she famously does not employ a stylist. (She at one point engaged Micaela Erlanger, but that didn’t last.) She does however, employ a person—or multiple people—who email brands and say, These are the looks Blake’s interested in, and arrange the items to be sent to her. She definitely searches Vogue Runway and e-commerce sites herself. Why is this so hard to believe? Probably because most actresses don’t have taste (good or bad) or a real interest in fashion. Lively does, and she clearly likes to control the narrative, so why not do so?
+
+As for whether she’s pulling it off, I’d actually argue that yes, she is. She looks really happy. Are her outfits
+outrageous? Yes. Are they occasionally fully ugly? Yes. But I’m here for it. Perhaps it’s time for Lively to revive her e-commerce play, Preserve ( https://www.instagram.com/preserve_us/?hl=en&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), but maybe go easy on the antebellum vibes?
+
+P.S., since we’re on the Taylor Swift Inner Circle beat, I just wanted you to know that Brittany Mahomes’s glow-up is related, at least in part, to the fact that she is working with one of Swift stylist Joseph Cassell Falconer’s former assistants.
+* Loewe is the hottest brand in the world again: This quarter on the Lyst Index ( https://www.lyst.com/the-lyst-index/2024/q2/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )—the fashion search engine’s ranking of the most talked-about (and shopped for) brands in the world—Loewe is back in the top slot, given a boost from its Met Gala sponsorship, the best-reviewed women’s fashion show of the season, and an on-the-money advertising campaign. Miu Miu and Prada, our other loves, landed in second and third place, with Saint Laurent and Bottega Veneta rounding out the top five.
+
+Other notables: Alaïa continues climbing the ranks (up to #17 from #19), as does Skims (#12 from #13). And while I enjoy a temperature check on what people are into more broadly, my favorite part of the index is when they drill down on which individual styles are hitting. Q2’s hottest products included the Dries Van Noten sneakers, Dragon Diffusion’s Santa Croce tote bag, and High Sport’s kick flares—a few of my favorite things—not to mention the
+latest version of the Loewe x On Cloudtilt sneaker. The lesson? Jonathan Anderson is a genius who can do no wrong.
+* W’s Bieber coup: Sara Moonves is enjoying some old-school magazine success these days. Not only did she land a very pregnant Hailey Bieber for W’s latest issue—the model-turned-entrepreneur’s only “bump” cover, shot by David Sims, nonetheless—but the issue itself was produced because the advertisers wanted it. Tiffany, Balenciaga, Saint Laurent, Rolex, Chanel, and others are ponying up. (The magazine typically publishes six issues a year—this will up it to seven. And that’s not including the Beyoncé broadsheet riffing ( https://puck.news/newsletter_content/even-more-lvmh-intrigue-ws-mini-moment-sephora-sales-wars-3/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) on her digital cover.) There will be a dedicated takeover at Casa Magazines in the West Village. Saint Laurent (Bieber’s partner in fashion contracts) will
+stock it in its Paris and Los Angeles stores, too. As a friend whispered in my ear the other day, Moonves is shaping up to be a formidable candidate to succeed Anna Wintour as editor-in-chief of Vogue. She has the eye, the connections, and the modern attitude. Give Moonves the magazine and Eva Chen the Met Ball and call it a day.
+* Where we’re at: I will probably get into this more on Thursday, but just a quick update on what’s happening with all these vacancies at the big luxury houses and speculation of more changes to come. The big rumor, as I reported on Monday ( https://puck.news/author/lauren-sherman/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), is that John Galliano is leaving Margiela and headed somewhere… maybe to Fendi? This sounds almost as insane to me as Galliano going to Dior. What’s more, I’m doubtful they’re going to change anything at Fendi until after the 100th anniversary celebration in 2025. But then again, the house does have a new C.E.O.
+
+Sarah Burton ( https://puck.news/the-sarah-burton-existential-questions/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) at Givenchy ( https://puck.news/newsletter_content/virginies-exit-estee-deal-flow-burberry-buzz-3/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), on the other hand, seems more certain than ever. (Fingers are collectively crossed.) My suspicion is largely based on the observation that Burton wouldn’t have shown up for Vogue World: Paris 
+( https://puck.news/vogue-world-review-anna-wintour-pre-olympics-bash/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) if she didn’t have a job. Seems like an easy invitation to decline… unless you’re working for a French house. As mentioned in Monday’s issue ( https://puck.news/tom-ford-after-tom-ford/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), Tom Ford already has someone in mind to replace Peter Hawkings. Tomorrow we can talk Chanel, okay?
+
+The Vanilla Sex Scandal ( https://puck.news/tom-ford-vanilla-sex-scandal/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Vanilla Sex Scandal ( https://puck.news/tom-ford-vanilla-sex-scandal/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The worst-named beauty product in history has become a metaphor for the demise of Tom Ford Beauty.
+
+RACHEL STRUGATZ ( https://puck.news/author/rachel-strugatz/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+RACHEL STRUGATZ ( https://puck.news/author/rachel-strugatz/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Earlier this week, a source sent me a depressing photo of a Tom Ford Beauty makeup display—a gondola, in industry parlance—at a Sephora in Union Square. In the image, the shelves were sparsely filled, and not a single Tom Ford “face” or “liquid lip” tester was in sight. It reminded me of the time I saw JLo Beauty stashed away at the back of the store, covered in a literal film of dust. Alas, in beauty retailing, an empty Sephora gondola usually means one thing…
+
+Yesterday, Lauren assessed ( https://puck.news/tom-ford-after-tom-ford/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the future of the Tom Ford brand in the absence of Tom Ford, its exacting and visionary founder. As she
+noted, the departure of Tom Ford creative director Peter Hawkings only one year after Estée Lauder Companies completed its multibillion-dollar acquisition of the Tom Ford brand was only part of the story. “Even if Hawkings was difficult, and even if his wife was unusually close to the business—and even if the clothes, themselves, weren’t selling—perhaps none of that would have mattered if the beauty and fragrance business was on fire,” she wrote. “Tom Ford is, and has always been, a beauty brand first—all the way back to the launch of the first fragrance, in 2006, which predated the clothes by a year. Alas, it was not.”
+
+A MESSAGE FROM OUR SPONSOR
+
+$(ad4_title) ( https://ad.doubleclick.net/ddm/trackclk/N2267083.4235865PUCKNEWS/B31862338.394504087;dc_trk_aid=591930631;dc_trk_cid=219369563;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The all-electric BMW i7 merges technology and design with an available Panoramic Sky Lounge LED Roof and 4D surround sound. Learn more at BMWUSA.com ( https://ad.doubleclick.net/ddm/trackclk/N2267083.4235865PUCKNEWS/B31862338.394504087;dc_trk_aid=591930631;dc_trk_cid=219369563;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Yes, or should I say alas, Tom Ford’s makeup business is facing serious headwinds at Sephora, the almighty LVMH-owned beauty chain. According to one person familiar with Sephora’s business, sales of Tom Ford Beauty makeup products are down almost 50 percent at the chain year to date. “New makeup gondolas are literally rolling out this month,” according to an executive with knowledge of Sephora’s business. But that doesn’t change the fact that the brand has seen its relevance in cosmetics slip.
+
+There was a time when Tom Ford lipsticks were a revelation. If you remember, the brand started as a licensing agreement with the debut of Black Orchid, a perfume, in 2006, and expanded into makeup and skincare in 2010 and 2019, respectively. Then there was Lips & Boys lip color, the Soleil makeup, and the Shade and Illuminate
+contour palette.
+
+Sure, one could blame Guillaume Jesel, the president and C.E.O. of Tom Ford. But in reality, the brand’s setbacks are merely microcosms of the larger problems—lackluster product innovation, the mishandling of the North American business, etcetera—afflicting parentco ELC, which just announced that Akhil Shrivastava will succeed longtime C.F.O. Tracey Thomas Travis, who plans to retire next year. Meanwhile, amid a massive restructuring, the company is in the process of laying off thousands of employees, while the stock price has dropped to a seven-year low. (A spokesperson for The Estée Lauder Companies declined to comment.)
+
+Lauder’s brands have long struggled at Sephora, according to a source with knowledge of the retailer’s business, with the exception of The Ordinary and Too Faced. (Sources close to Sephora confirmed that Clinique makeup is exiting the retailer and that Bobbi
+Brown’s door count is being reduced, too.) According to a Sephora insider, this is the result of a “perfect storm”––a mashup of Sephora’s penchant for showcasing limited or exclusive products, and Lauder’s own shortcomings when it comes to understanding and supporting a Sephora business. “Lauder has no idea how to win in Sephora. They ignored Sephora as an important channel and what it meant. No one tried to understand and unlock it—outside of Too Faced, which grew up there,” this person said. Tom Ford’s fragrance business, however, is faring better. The category is strong, according to four insiders. (A spokesperson for Sephora declined to comment.)
+
+A former Lauder executive offered a more poignant assessment. At a conglomerate like Lauder, individual brands can lose their ability to manage their presentation in various markets. “In North America, brands have very little power to actually direct or even defend some of the decisions being
+made,” they explained to me. “Tom Ford had success in makeup in China––probably not at the level of fragrances, but it was one of the brands doing the best in a difficult environment. It’s still a brand with strong appeal [in China], and if it had more control of North America, the situation would not be like this.”
+
+$(ad3_title) ( https://ad.doubleclick.net/ddm/trackclk/N2267083.4235865PUCKNEWS/B31862338.394855593;dc_trk_aid=591911855;dc_trk_cid=219229384;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Vanilla Sex
+
+The descent of Tom Ford Beauty is apparent in its product names. “Fucking Fabulous” was the phenomenally successful scent that launched in 2017, and yet “Vanilla Sex,” which came out last year, is like an SNL parody. This is likely the result of a series of subtle but significant personnel changes. The brand’s executive director of editorial, involved in fragrance and makeup product names, stories, and positioning, left in 2020. John Demsey, the veteran Lauder executive and architect behind the Tom Ford arrangement, got ousted over an Instagram post in 2022. Then Ford stepped down following the sale to ELC.
+
+To me, Lauder’s slowness to embrace TikTok as a marketing platform—an issue across their portfolio—was especially obvious at Tom Ford, which failed to capitalize on viral products such as Soleil Lip
+Blush, a $62 lip balm with gold flecks. This probably could have resulted in years of relevance in their makeup category––as we have seen with other luxury viral lip products such as Dior’s lip oil. There’s also skincare, where there hasn’t been a new product launch in years, and I’m told that Lauder has steadily been reducing distribution since 2022. I’ve previously reported that ELC C.E.O. Fabrizio Freda’s blanket approach to product––i.e., forcing makeup brands to do skincare––has mostly backfired. An audacious makeup and fragrance brand launching a $450 “creme concentrate”? Come on.
+
+Back in 2018, I remember Ford telling me it took some cajoling to get Lauder to print “Fucking Fabulous” on a bottle (conservative markets had watered-down versions that only implied profanity). That may be true, but even if Ford were still involved today, I’m not sure we would have gotten another Black Orchid or Fucking Fabulous
+fragrance, or a new makeup with the hype of the brand’s original lipsticks. Arguably, it was Demsey’s exit that left Tom Ford Beauty exposed. Without him, there’s no longer a dual corporate and brand-forward counterpart aligned with Ford’s vision who is also willing to be the intermediary with a CPG-minded Freda. Hard to imagine Demsey or Ford approving Vanilla Sex in a million years, either.
+
+That’s it from Rachel and me. P.S., on this Hodinkee news ( https://www.adweek.com/media/hodinkee-winds-down-commerce/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ): See, I told you, Troy, that whole content and commerce thing… doesn’t really work! You can have content, and you can have commerce, but you can’t put a checkout page on an article and expect the reader to become the consumer. (Now, when the content is commerce, like a newsletter about shopping, that’s different. Recommendations work when there’s a linkout.)
+
+Until tomorrow,
+Lauren
+
+FOUR STORIES WE’RE TALKING ABOUT
+
+Treaty of Harris ( https://puck.news/what-would-kamala-harris-foreign-policy-look-like/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Treaty of Harris ( https://puck.news/what-would-kamala-harris-foreign-policy-look-like/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+How foreign policy insiders are digesting Kamala’s anointment.
+
+JULIA IOFFE
+
+White Party Down ( https://puck.news/competitors-not-fans-of-fanatics-tactics/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+White Party Down ( https://puck.news/competitors-not-fans-of-fanatics-tactics/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+On the legal entanglements facing Fanatics C.E.O. Michael Rubin.
+
+ERIQ GARDNER
+
+Zaz’s NBA Roulette ( https://puck.news/david-zaslav-finally-makes-his-nba-move/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Zaz’s NBA Roulette ( https://puck.news/david-zaslav-finally-makes-his-nba-move/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+On David Zaslav’s 11th-hour gamble for NBA rights.
+
+JOHN OURAND
+
+Harris-Walden ’24 ( https://puck.news/who-are-kamala-harris-biggest-hollywood-supporters/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Harris-Walden ’24 ( https://puck.news/who-are-kamala-harris-biggest-hollywood-supporters/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Spotlighting Harris’s Hollywood donor calvary.
+
+MATTHEW BELLONI
+
+Puck ( https://puck.news/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQs
+page ( https://puck.news/faq/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact
+us ( fritz@puck.news?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/global-unsubscribe/?subscription=line_sheet&delivery_id=dgT2xgYDAKvRKqrRKgGQ5utl08AHDQJmIWv_m_o=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Puck is published by Heat Media LLC. 227 W 17th St New York, NY 10011.

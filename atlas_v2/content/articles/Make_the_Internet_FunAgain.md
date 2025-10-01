@@ -1,0 +1,337 @@
+# Make the Internet Fun Again
+
+**Source**: inputs/old stuff/Docs/Make the Internet FunAgain_071624.html
+**Type**: article
+**Created**: 2025-08-25T02:53:54.773711
+
+---
+
+# Make the Internet Fun Again
+
+*Welcome to the **1,265 newly Not Boring people** who have joined us since our last essay! If you haven’t subscribed, join **229,726** smart, curious folks by subscribing here:*
+
+[![](https://substackcdn.com/image/fetch/w_40,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideCheck%3Fv%3D4%26height%3D40%26fill%3Dtransparent%26stroke%3D%25230c2427%26strokeWidth%3D3.6)Subscribed](https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjY291bnQiLCJwIjoxNDY2NDgwNzcsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNzIxMTQ5NjY2LCJleHAiOjE3MjM3NDE2NjYsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.QaDhmAj5PSwEJyhaNjFLUo4Si7s6bG5GZI-Norsxu08?)
+
+
+[![](https://substackcdn.com/image/fetch/w_444,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe8ddb290-f1c5-45e2-a7af-81eeb8b6c5c1_1600x754.png)](https://substack.com/redirect/16de670e-c0a5-4f7d-9aa9-d079e246f7bf?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*It’s going to be a hellishly hot 96° in New York City today, but my sleep last night was heavenly cool thanks to [Eight Sleep](https://substack.com/redirect/16de670e-c0a5-4f7d-9aa9-d079e246f7bf?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). I set my side of the bed to -8, wrap myself in warm blankets, and chill out.*
+
+*There’s no product I’ve used more over the past couple of years than my Eight Sleep Pod Cover. On good nights, I use it for a little more than a third of the day. When I get my eight hours, I feel sharper, happier, more optimistic, and revved up to write.*
+
+*And it keeps getting better. [Eight Sleep](https://substack.com/redirect/16de670e-c0a5-4f7d-9aa9-d079e246f7bf?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) recently launched their newest generation of the Pod: Pod 4 Ultra. It cools, it heats, and now it elevates, automatically. It is also clinically proven to give you up to **one hour more** of quality sleep every night. The good folks at [Eight Sleep](https://substack.com/redirect/16de670e-c0a5-4f7d-9aa9-d079e246f7bf?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) recently sent me a Pod 4 Ultra, and it’s magic. It detects when I’m snoring and automatically lifts my side of the bed a few degrees to stop it.*
+
+*Thanks to [Eight Sleep](https://substack.com/redirect/16de670e-c0a5-4f7d-9aa9-d079e246f7bf?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), I can stay productive and married. Invest in better sleep. It pays dividends.*
+
+*Join me and the thousands of athletes, health experts, and founders like Elon Musk, Mark Zuckerberg, Andrew Huberman, Peter Attia, Matt Walker, Bryan Johnson, and Lewis Hamilton who trust Eight Sleep to keep them performing at their best. Head to [eightsleep.com/notboring](https://substack.com/redirect/16de670e-c0a5-4f7d-9aa9-d079e246f7bf?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) and use code NOTBORING to **get $350 off Pod 4 Ultra**.*
+
+[Start Sleeping Better](https://substack.com/redirect/16de670e-c0a5-4f7d-9aa9-d079e246f7bf?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Hi friends 👋,
+
+Happy Tuesday! Big week in politics, huh?
+
+I’m very glad President Trump is OK and I hope this is a turning point for the country. We have something special going on here and [we will be great no matter who is in the White House](https://substack.com/redirect/4f13641d-28bc-46d4-82b2-7224f3a7c575?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). Go hug your favorite political enemy; the “other side” is full of people, just like you, just trying to make it however they think best.
+
+Systems like democracy and capitalism can be messy in the short-term, but resilient in the long-term. Just when things look like they’re breaking, shoots of a better way emerge.
+
+Earlier this year, I wrote about Stewart Brand’s concept of [Pace Layers](https://substack.com/redirect/4b04232d-4cc1-40d5-a681-4b4683eb4fc1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), which he uses to describe “how complex systems learn and keep learning.”
+
+[![](https://substackcdn.com/image/fetch/w_1198,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdcacb07e-e469-48c0-a01a-24d12b685f66_599x460.png)](https://substack.com/redirect/05598011-12be-485c-8726-373e227fa8ea?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Systems like the government necessarily move more slowly than capitalism (commerce), which in turn moves more slowly than fashion (which I’m going to analogize with “the internet” in today’s essay). Because it moves so much more quickly, but I think follows the same rules as other complex systems over time, examining what’s happening with the internet is a good way to understand how these systems work more generally.
+
+The internet today seems almost like it’s broken beyond repair. But it’s at this point – according to Carlota Perez, Joseph Schumpeter, and Clayton Christensen, among others – that the conditions are ripe for new and better solutions to emerge. I’ll write about the internet, but you can think about how similar dynamics apply to other systems that seem to be breaking, too.
+
+The idea for this essay didn’t start with politics, or with anything grandiose, but with a simple, toy-like demo I got from the founder of one of our portfolio companies, [oncyber](https://substack.com/redirect/e27c4a38-469d-45c5-a926-c076ae9431d4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), a couple of weeks ago.
+
+I’m sending this a day late because oncyber just launched v2 a couple of minutes ago, algorithms be damned.
+
+Let’s get to it.
+
+[![](https://substackcdn.com/image/fetch/w_2416,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7cded9d-ae8c-49bd-bc37-57a213021e19_1208x607.png)](https://substack.com/redirect/cf0626a9-d43f-4874-b523-cc2a89b67ea0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+The internet used to be fun.
+
+It was weird. It was frenzied. People didn’t know what they were doing, so they tried things. They didn’t optimize, because they didn’t know what to optimize for. Good websites got found because they were good. Good tweets went viral because they were good.
+
+Then people learned how to get the *results* of being good, at least in the short-term, without *actually* being good, by becoming good at **optimization.**
+
+Optimization is slowly killing the internet.
+
+You can see it most clearly on X, because tweets are the simplest content to make,xand because likes are the fastest form of feedback. There, **slop** has taken over.
+
+
+Slop itself isn’t new, though. **Slop is just mediocrity in pursuit of metrics.**
+
+Every time you see a website optimized for SEO, a SaaS business optimized for metrics, or a LinkedIn post optimized for engagement, you see slop. If it’s taken over X already, it will take over the rest of the internet soon, too.
+
+Slop, slop everywhere and not a drop of think.
+
+The problem isn’t slop itself. Slop on its own is *fine.* The internet is a big place, and people should be free to produce whatever shitty things they want to produce on their low-traffic websites and low-follower-count social media accounts.
+
+The problem is the fact that we have to see it, that it *works.*
+
+
+Once the algorithm’s preferences are known, people throw as much algorithm-shaped slop at it as they can in hopes of winning the engagement lottery.
+
+[![](https://substackcdn.com/image/fetch/w_472,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff5e656c4-0428-40ee-94c2-1cc93fbf2d3f_908x944.png)](https://substack.com/redirect/66c4e394-03f5-4f19-a9f7-9b7cb461c244?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*[Link to Tweet](https://substack.com/redirect/070a4105-306c-43e8-91a5-cd97b635ad4b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*
+
+The bad news is that the internet is never going back to the way it was. It’s too late. The rules of the current game are known and the game is too easy to play.
+
+When things become easier – anyone can make a website on Squarespace, anyone can produce images in Midjourney, practically anyone can start a startup, whatever – the vast majority of the things produced the easy way are total dogshit. When algorithms embrace the dogshit, or the dogshit contorts itself to please the algorithm, the whole visible internet turns to dogshit.
+
+Good content and good businesses get drowned out by good optimizers, and that’s bad for us all.
+
+Turns out, this isn’t just an internet thing. Carlota Perez described the phenomenon in *[Technological Revolutions and Financial Capital](https://substack.com/redirect/7575370a-481a-4b06-8d17-17551854c34f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)* twenty-one years ago. It applies to every new industry.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f1e33ab-1905-4bd8-98de-89dd686723af_908x630.png)](https://substack.com/redirect/85721b7c-52ee-4be6-b916-23c351f711e3?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Technological Diffusion, Carlota Perez*
+
+Here’s how it goes: in the Installation Period, a new technological innovation sparks weird, frenzied experimentation, before anyone knows the rules or exactly how things will play out. Then, in the Deployment Period, things get professionalized and industrialized, as people learn the rules of the game, what works and what doesn’t, and begin to optimize, make incremental improvements, and focus on efficiency and metrics.
+
+The deployment phase is impactful and boring and profitable… until it isn’t.
+
+Because the Deployment Period slop that comes for everything – from X to Boeing to traditional media to the millions of slightly-different versions of the same startup pitch tailor-made to fit the things founders think VCs want to hear – contains its own self-destruct codes. When things get predictable, the people yearn for something new and different.
+
+The good news is that every once in a while, a new paradigm comes around that burns the old one down and resets the playing field.
+
+### **Creative Destruction, Disruptive Innovation, and Toys**
+
+Sixty-one years before Carlota Perez wrote about Technological Revolutions, an Austrian economist working at Harvard named Joseph Schumpter wrote a book titled
+
+In it, he described “the gale of **creative destruction**” as the “process of industrial mutation that incessantly revolutionizes the economic structure from within, incessantly destroying the old one, incessantly creating a new one.”
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0bbfe62a-5786-4c5c-890f-74ac6f2e8997_908x628.png)](https://substack.com/redirect/21f6e098-22c2-405d-b9ba-ed4ef86c586c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Joseph Schumpeter*
+
+[According to](https://substack.com/redirect/0fb2ba2c-6d7f-4507-b58a-f29ba3234e81?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) W. Michael Cox and Richard Alm, both of the Dallas Fed: “The saving grace comes from recognizing **the good that comes from the turmoil**.”
+
+New things replace old things, and despite short-term pain, the economy is ultimately better for it.
+
+Both Perez and Schumpeter argue that the old system sets the conditions for its replacement. Perez says that during the late stages of a technological paradigm's deployment phase, the existing system becomes increasingly rigid and less productive. Schumpeter says that as industries mature, they tend to become more bureaucratic and less innovative, which creates opportunities for new, more dynamic firms to enter and disrupt the market.
+
+Schumpeter wrote about industries and Perez examines entire techno-economic paradigms, but how does it work at the company level?
+
+In 1995, Harvard Business School professor Clayton Christensen wrote *[Disruptive Technologies: Catching the Wave](https://substack.com/redirect/eb8e430b-50c0-4037-bbfb-34c06e585363?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*, in which he first laid out the ideas that would become **Disruptive Innovation**. In a [2015 follow-up clarifying the theory](https://substack.com/redirect/fd685506-c74b-4bab-80bc-b3e1236433c2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), he wrote (emphasis mine):
+
+> *“Disruption” describes a process whereby a **smaller company with fewer resources** is able to **successfully challenge established incumbent businesses**. Specifically, as incumbents **focus on improving their products and services for their most demanding (and usually most profitable) customers**, they **exceed the needs of some segments and ignore the needs of others**. Entrants that prove disruptive **begin by successfully targeting those overlooked segments**, gaining a foothold by **delivering more-suitable functionality**—**frequently at a lower price**. Incumbents, chasing higher profitability in more-demanding segments, tend not to respond vigorously. **Entrants then move upmarket**, delivering the performance that incumbents’ mainstream customers require, **while preserving the advantages that drove their early success**. **When mainstream customers start adopting the entrants’ offerings in volume, disruption has occurred.***
+
+Christensen, too, credits overly optimized incumbents with setting the conditions in which disruption can occur. They “exceed the needs of some segments and ignore the needs of others.” Then, new entrants come in at the low-end to target overlooked segments with products that, in relation to the mighty incumbents, don’t look very threatening. But they improve.
+
+But what do the new things that replace old things look like?
+
+In 2010, [Chris Dixon](https://substack.com/redirect/34f206ed-b8f2-4aa9-87a0-146388747550?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) simplified Christensen’s theory into the memorable title: Since he wrote that essay, tens of thousands of entrepreneurs have justified the shittiness of their products by explaining that “the next big thing will start out looking like a toy.” Most things that look like toys are, in fact, toys, but Dixon makes an important distinction:
+
+> *To distinguish toys that are disruptive from toys that will remain just toys, **you need to look at products as processes**. Obviously, products get better inasmuch as the designer adds features, but this is a relatively weak force. Much more powerful are external forces: microchips getting cheaper, bandwidth becoming ubiquitous, mobile devices getting smarter, etc. For a product to be disruptive it needs to be designed to ride these changes up the utility curve.*
+
+Tying all of these back to the current state of the internet paints a hopeful picture. *Of course* the internet was going to get sclerotic and over-optimized. No one company is to blame. It’s a natural process that comes for everything.
+
+If you’re not the customer, you’re the product, the saying goes, and the internet has (unintentionally, mindlessly, in a swarm of trillions of small decisions) focused on improving its products (us) for its most demanding customer (advertisers).
+
+Fortunately, we don’t need to throw out our computers and go back to a pre-internet world. In that process, which Cory Doctorow memorably calls **[enshittification](https://substack.com/redirect/3118ebd5-2ce9-4327-8331-1dae50eab7b5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)**, the internet as it stands today has already set the conditions for something else to replace it.
+
+That something else will start out looking like a toy, and it will improve as a process as it rides technological changes up the utility curve.
+
+I think I saw it the other day, when oncyber’s Moroccan CEO [Rayan Boutaleb](https://substack.com/redirect/bb9d996a-9d0f-421f-9872-f1b0e1184c2e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) showed me a preview of [oncyber v2](https://substack.com/redirect/e27c4a38-469d-45c5-a926-c076ae9431d4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU).
+
+### **A Quick Note**
+
+I am biased here. Not Boring Capital is an investor in oncyber. My intention isn’t to shill a portfolio company. I don’t even like writing essays timed up with product launches; I really prefer to write Deep Dives on the founder, the history, the business model, the competitive landscape, all of it.
+
+But I’ve been thinking a lot about the decline of the internet’s magic at the hand of optimization – [as a lot of people have](https://substack.com/redirect/c10dae6f-d43a-44f3-b51d-9996d7196d2b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) – and when Rayan gave me a demo of what he and the team had been building, it was a big “aha!”
+
+I could be wrong – I often am – but as Rayan and I went deeper on the product, it felt like seeing into the Matrix in the way that Fred Wilson so often does when he writes about the future through the lens of portfolio companies on [AVC](https://substack.com/redirect/ebac191d-27b9-47a1-ab50-cc1aa85286a7?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). I didn’t plan on writing about it that day, but as I thought through everything I wrote above, and about the external forces that oncyber is riding, it seemed to fit perfectly.
+
+So I hope that oncyber is the company that brings about this future, because I like Rayan and because I want to return capital to my LPs, but read this more as a specific example that describes the shape of where I think things are heading.
+
+### **oncyber**
+
+[oncyber](https://substack.com/redirect/e27c4a38-469d-45c5-a926-c076ae9431d4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) started its life making beautiful, immersive, 3D NFT galleries on top of a game engine it had built in house.
+
+The galleries were unlike anything I’d played with on the internet – smoother and easier than other 3D worlds. I was so impressed, that the month before we invested, I highlighted oncyber in *[The Interface Phase](https://substack.com/redirect/0b57097b-ab89-4310-b0be-a462cff25c26?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*, predicting that over the next few years, as the kinks got worked out, we’d start to see immersive 3D experiences like oncyber replace 2D ones, and that:
+
+> *Over the next few years, far more creative and talented people are going to come up with ideas that blow everything I wrote out of the water, and other people are going to come in and build even wilder experiences on top of those ideas. That’s the beauty of composability and compounding.*
+
+And for a while, it looked like I was right! Hundreds of thousands of people created oncyber experiences, imported over 5 million digital assets, and spent more than 2 million aggregate days in oncyber. At its peak, 10% of all NFT-holding wallets were connected to oncyber, and $2 billion worth of NFTs were displayed in oncyber.
+
+[![](https://substackcdn.com/image/fetch/w_2912,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F994d0f45-5387-4d22-bca6-1966af927446_1600x806.png)](https://substack.com/redirect/47f8dd00-8a91-444d-970c-25906e2e7b82?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*An oncyber Gallery*
+
+Then, of course, the NFT market crashed and oncyber’s growth slowed. A few thousand creators stuck around, but as oncyber’s Moroccan CEO [Rayan Boutaleb](https://substack.com/redirect/bb9d996a-9d0f-421f-9872-f1b0e1184c2e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) told me in a recent conversation, "We weren't in a position to help our creators break out of the small vertical we had found ourselves in."
+
+Over the past six months, Rayan and the oncyber team went back to the drawing board.
+
+They reworked the entire architecture of the technology they’d built around the web-based game engine they used to build the galleries. The engine itself was great, but galleries were too limited, so they ripped it up and turned it into a game engine on top of which others could build worlds.
+
+They created a new scripting language on top of the worldbuilding engine, based on javascript and built in a way that AI could easily interpret. They built a GPT bot that generates ready-made code for oncyber. They made it modular, so that scripts that the company or any user writes can easily turn into components that any other user can use.
+
+Today, they’re launching oncyber v2 to give people more powerful tools to create “a more beautiful, fun, profitable, and creative internet.”
+
+It’s a toolkit for anyone to build games, websites, and worlds.
+
+[![](https://substackcdn.com/image/fetch/w_1100,h_618,c_fill,f_auto,q_auto:good,fl_progressive:steep/l_play_button_usfui2,w_144,e_colorize:0/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F146648077%2Fdc258712-486c-49ac-966f-845ab14d9dc1%2Ftranscoded-00001.png)](https://substack.com/redirect/b3aff03c-08fd-4246-ae90-063487cf00be?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+As Rayan wrote in the company’s manifesto:
+
+> *In v2, you can access the code directly: change the camera, physics, controls, or any piece of logic.*
+>
+> *In v2, you can easily add user generated, no code, building blocks (avatars, 3D, logic blocks etc).*
+>
+> *In v2 , remixable templates exist for platformers, 3D scrolling websites, racing games, cinematic experiences, and more.*
+>
+> *In v2, you can easily monetize on top of crypto, getting the freedom, flexibility, and innovation of crypto transactions.*
+>
+> *In v2, everyone is a creator, without limits.*
+
+There are other tools to build virtual worlds, like Roblox and Minecraft, but what I think distinguishes oncyber is the freedom they give creators, the expanding toolkit people will be able to both use and contribute to, and the technological changes its riding up the curve.
+
+[oncyber v2](https://substack.com/redirect/e27c4a38-469d-45c5-a926-c076ae9431d4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) will literally start out looking like a toy.
+
+They’re launching with games, starting with Flappy Bome, a collaboration with art producer [Darkfarms](https://substack.com/redirect/6a11938c-11ee-4c9b-84d2-7bede5ce8692?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). Instead of the bird, the game will feature the popular frog-looking meme, Bome. And your score will influence the rarity of the NFT you’re able to mint at the end, showcasing the native crypto integration.
+
+[![](https://substackcdn.com/image/youtube/w_550,c_limit/l_youtube_play_qyqt8q,w_120/PS1ucRL_Vp4)](https://substack.com/redirect/0ea657e9-bcb2-4cd3-88e0-9da6a8ce0896?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Next week, there will be another game collab with two popular digital creators that I’m sworn to silence on, once again with crypto weaved in.
+
+Then, they’ll open the platform up to user generated content, where anyone can use a growing library of templates and components, native crypto rails, and AI-assisted scripting to create their own games, websites, and worlds.
+
+That’s the part that feels like the future to me. Its “Why now?” is strong.
+
+### **Why Now?**
+
+Why was I too early when I saw the future of the internet in platforms like oncyber in 2021, and why do I think the timing is right now?
+
+First, as we’ve discussed, the internet itself has opened up the opportunity for something new.
+
+Second, the technological infrastructure on which oncyber is building is ready.
+
+Almost exactly a year ago, [Pace Capital’s Chris Paik went on Invest Like the Best](https://substack.com/redirect/0e0aeaf2-309e-4dd2-8c8a-c2a017966dd9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), right around the time that Apple announced the Vision Pro. Responding to Patrick O’Shaughnessy’s question about the history of humanity as a data and storage transfer problem, he said:
+
+> *One thing that I think is underexplored is the impact of data transfer speeds as actual why now reasons for companies existing. Let's look at mobile social networks and the order that they were founded in; Twitter 2006, Instagram 2010, Snapchat 2011, maybe most recently TikTok named Musical.ly in 2014.*
+>
+> *It could not have happened in any other order because of the minimum packet size of the content on that platform.*
+
+Over the past five years, data transfer speeds on fixed broadband have more than doubled, from 45.9 Mbps in 2018 to 110.4 Mbps in 2023, according to [Cisco’s 2023 Annual Report](https://substack.com/redirect/19aa10d1-bbb9-4987-8fd7-afcc6490ea0f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). According to the same report, the average mobile speed more than *tripled* over the same period, from 13.2 Mbps to 43.9 Mbps, and the average 5G speed is 13 times higher: 575 Mbps in 2023.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc281d5e8-c425-4eb5-9cab-bddd6ab41397_908x224.png)](https://substack.com/redirect/5fc27150-c95e-4bc3-9989-561f1e63d8d8?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Average Fixed Broadband Data Transfer Speeds from Claude*
+
+From a speed perspective, the bandwidth is there to support multiplayer, interactive, 3D experiences at scale.
+
+There are other, more powerful and oncyber-specific forces at play, too.
+
+Three years ago, fully flexible creation would have been limited to people who knew how to code, and who, even still, would have had to learn a new scripting language. In that situation, no-code worldbuilders like Roblox and Minecraft made more sense – anyone, even kids, could build there, even if the tools limited what they could build.
+
+Now, with AI and oncyber’s framework, anyone can translate their imagination into code into a fully-functioning, immersive website. That means that people can build practically anything, like the internet as opposed to a specific piece of software.
+
+Three years ago, oncyber could have built in crypto rails, but transactions would have been slow and expensive, and people would have needed to figure out how to set up their own wallets.
+
+Now, with stablecoins and account abstraction, oncyber can provide fast, reliable transactions to anyone, whether they’ve used crypto before or not, natively. Not because it’s crypto, but because it’s smoother, cheaper, and more flexible.
+
+That means that creators have more flexibility to play with new business models, which is important if we’re going to escape the optimization-induced enshittification. Both Perez and Christensen argue that new technological revolutions and disruptive innovations, respectively, require new business models.
+
+There are other external forces that oncyber is riding, like the rise of web technologies like WebGL and WebXR that make web-based 3D experiences easier to build and render on laptops and in headsets. The technological why now makes sense.
+
+But whether oncyber succeeds or fails will depend on what people can build with it.
+
+### **Can It Do X?**
+
+
+That’s the experience I had when Rayan gave me the demo, and it’s when I realized that this could be much more than a web-based gaming platform, that it could power whatever comes next for the internet.
+
+“Wait, can multiple people participate at the same time?”
+
+“Yes. Multiplayer comes built-in. People can play with and talk to each other, or AI NPCs.”
+
+“Wait, can you create any environment you want?”
+
+“Yes. You start with a blank slate or a template, and you can change everything.”
+
+“Wait, can I add images, links, videos?”
+
+“Yes. You can add any content you want, and put it wherever you want.”
+
+As I asked questions and Rayan showed me the answers, I started to picture websites that are as easy to build as today’s 2D static websites, maybe easier, but that are packed with more functionality, interactivity, and fun.
+
+“Wait, could I make an interactive website that’s not a game, like Yamauchi No. 10’s?”
+
+“Yes. I’ll whip it up for you this weekend.”
+
+Yamauchi No. 10 is the Nintendo Family Office. Its [website](https://substack.com/redirect/1fdc77fa-d0bb-423b-ba8d-b8f65f9f3859?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) is my favorite.
+
+[![](https://substackcdn.com/image/fetch/w_550,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F91aad9c8-a931-49aa-9d6b-3a3c603ffd0a_800x594.gif)](https://substack.com/redirect/f66077ab-9479-4a7c-ad76-9370ca6a6acf?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Yamauchi No. 10 Homepage*
+
+I like it because it’s whimsical, because it’s fun, and most of all because it’s *different*. And not just different, but different in a way that’s unique to Yamauchi No. 10. Nintendo is a gaming company, and the website of the family office that gaming funded reflects that heritage.
+
+I forgot when I started writing this piece, but I actually included it in that *[Interfaces](https://substack.com/redirect/0b57097b-ab89-4310-b0be-a462cff25c26?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)* essay in 2021. I wrote: “If you haven’t seen the [Yamuchi No. 10 Family Office website](https://substack.com/redirect/1fdc77fa-d0bb-423b-ba8d-b8f65f9f3859?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), check it out for a glimpse of the future.”
+
+The future is here. In just a couple hours, while preparing for the launch of v2, Rayan was able to whip up Not Boring’s version of Yamauchi No. 10.
+
+You can **[play with it here](https://substack.com/redirect/3459c808-2334-49dc-8c60-8e6759a3c469?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)**.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe6cf9c74-44b9-4579-b13c-22742caa45aa_908x499.png)](https://substack.com/redirect/716ed611-1d0c-42bf-b4cf-3d70f4e8b4f3?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+If you want to play Snake right on top of the words, just hit “S”.
+
+[![](https://substackcdn.com/image/fetch/w_550,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6741b495-e993-428f-ad8a-5302a03d8792_600x304.gif)](https://substack.com/redirect/43a33712-9e18-4569-bf16-cc0127e528c2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Is it as beautiful and detailed as Yamauchi No. 10’s? No. Is it pretty fucking cool, and does it have Snake built right in? Yes. And will it continue to get better? For sure.
+
+In the next few weeks, oncyber will hand over the reins and I’ll be able to tweak this site to my preferences – color schemes, billboards with my latest essays, a portfolio page. I haven’t made a website for Not Boring or Not Boring Capital beyond Substack because I haven’t wanted to pay an agency $50k to develop something that looked pretty much like everyone else’s websites, but I’m really excited to make something unique and weird with their tools.
+
+The magical thing is not that Rayan could make me my own Yamauchi, as cool as that is, but that seemingly whatever I dreamed up and asked for, the answer would be “Yes.” An internet bounded by my creativity.
+
+### **What’s Next on the Internet**
+
+As I wrote in *[Interfaces](https://substack.com/redirect/0b57097b-ab89-4310-b0be-a462cff25c26?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*, “far more creative and talented people are going to come up with ideas that blow everything I wrote out of the water, and other people are going to come in and build even wilder experiences on top of those ideas.”
+
+These experiences are not going to be SEO optimized. Instead of being passively discovered via search, they’ll have to be so good that people seek them out. They’ll spread through word of mouth. People will one-up each other, create weirder, more unique, and more magical experiences. If they optimize for anything, it will be creativity.
+
+Instead of a generic ecommerce site, brands could create virtual stores where live or AI salespeople can interact with customers in real-time, and where customers can checkout in a click, maybe even using crypto they’ve won playing a game. As entrepreneurs race to build realistic avatars of you that can try on clothes for fit, oncyber can incorporate them as components.
+
+Anyone who wants to create virtual hangout spaces for their friends – an immersive turntable.fm, a drive-in movie theater, or just a more fun chat room – can build it in a few hours.
+
+Kids can program their own 3D versions of Snake the way me and all of my friends programmed Snake into our TI-83 calculators back in the day. On our call, I asked Rayan to make Snake, and he did it in like 10 minutes, right before my eyes, and then built it into my Yamauchi site.
+
+Again, my ideas are going to be so much more limited than the collective genius of everyone on the internet once they get their hands on these tools. I’m sure you’re thinking of better ones as you read this.
+
+And when Apple inevitably comes out with a cheaper, lighter version of the VisionPro, or as Zuck’s vision of bringing realistic worlds to sunglasses within the decade comes to pass, the virtual world will already be richly populated with 3D experiences built for all 5 billion of the internet’s users. Something like oncyber may even speed up the adoption of VR/AR by solving the developer cold start problem on those platforms.
+
+When something feels like it’s broken beyond repair, that’s usually a pretty good sign that the next thing is right around the corner. The current internet feels broken. It’s time for the next version. Worlds instead of websites.
+
+The version you’ll play with today will look like a toy (literally, like a game).
+
+The team has a lot of work left to do to create a product with which anyone, technical and non-technical alike can build. I’m sure there will be bugginess. And oncyber won’t be right for every company with a website, to start. It will undershoot on some basic needs for more sophisticated creators.
+
+But for other creators, oncyber will offer tools they can’t find anywhere else, and let them create things they couldn’t anywhere else. It’s a game engine that can make websites.
+
+And it will improve. Creators will build new templates and components, and get rewarded for doing so. As crypto and AI improve, oncyber will be able to surf their progress. People will mix and remix, one-up each other in a positive sum race.
+
+In fact, whether oncyber is the platform that births this next phase of the internet will come down to the engagement of early creators, their desire to mix, remix, build new building blocks, and compose them in new ways.
+
+If they do, the internet could get really fun, really quickly. In a few years, we might look back on the 2D, static, slop-filled internet as an unbelievably archaic relic.
+
+I could, of course, be wrong about all of this. Maybe the internet will continue its slide into slop. Maybe AI will just mean super-SEO and coders using AI to build more, much more, much faster, of the same old stuff. Maybe 2D and static is the ultimate form for our digital experiences. Maybe the internet is impervious to the death and rebirth that comes for all industries.
+
+Only one way to find out.
+
+Go play with oncyber and build a new internet.
+
+Make the internet fun again.
+
+*Thanks to [Dan](https://substack.com/redirect/a6b87fd4-db53-40b8-8af9-5d478d324e9f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) and [Claude](https://substack.com/redirect/93472940-6c0c-495b-8998-33cfff7f2023?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) for editing!*
+
+That’s all for today. We’ll be back in your inbox with a Weekly Dose on Friday.
+
+Thanks for reading,
+
+Packy

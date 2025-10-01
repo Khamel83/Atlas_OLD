@@ -1,7 +1,7 @@
 # The Plague Year
 
 **Source**: https://www.newyorker.com/magazine/2021/01/04/the-plague-year
-**Extracted**: 2025-09-30T23:28:53.007102+00:00
+**Extracted**: 2025-10-01T05:34:23.100799+00:00
 
 ---
 

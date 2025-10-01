@@ -1,0 +1,73 @@
+# As Populations Age, a Chance for Younger Nations - The New York Times
+
+**Source**: http://www.nytimes.com/2010/10/17/magazine/17Aging-t.html?ref=magazine&pagewanted=print
+**Type**: article
+**Created**: 2025-08-13T21:55:56.125786
+
+---
+
+title: As Populations Age, a Chance for Younger Nations - The New York Times
+source: http://www.nytimes.com/2010/10/17/magazine/17Aging-t.html?ref=magazine&pagewanted=print
+date: 2025-08-13T21:55:50.231401
+tags: []
+---
+In the United States, the transformation of older workers into a giant
+contingent work force is just getting started. This year, as baby boomers
+begin to hit 65, the “elder share” of the U.S. population begins a sharp
+climb. From 2010 to 2030, the number of Americans between 25 and 64 will climb
+by 16 million, but two-thirds of the increase will consist of people 55 and
+64. Countries that are older than the U.S., that are further along in
+reshaping their workplaces, give a glimpse of the future. In Japan, retirees
+from the biggest companies are well provided for, but for many of the rest —
+workers at smaller companies, the self-employed — the fear of outliving their
+money is real. One in five elderly Japanese lives in poverty. So the Japanese
+stay on the job when they can. Since 2006, the number of Japanese still
+working after the customary retirement age of 60 has risen by more than 11
+million. Most are officially retired but are back at their companies, under
+contract. They typically earn about half their former wages.
+
+**WILL THE WORLD** ever grow young again? Perhaps, but not anytime soon.
+Today, many of the places that are growing old the fastest are in the
+developing world, largely because that’s where urbanization is most rapid. It
+is hard to conjure a situation in which people move back to the countryside
+and again have larger families. Instead, if past is prelude, today’s young
+countries like China will be the countries that in the not-distant future go
+shopping for younger workers in younger places. Those places will be
+transformed by satisfying an older China’s needs, and the cycle will repeat
+itself: when the world finds its next young place, that country may well age
+even more quickly than the formerly young countries that preceded it.
+
+The rough adjustments that global aging imposes on populations can sound
+bleak. Nonetheless, the challenges do not trump what we gain by living longer.
+Remember, too, that smaller families enable parents to make greater
+investments in themselves and the children they do have. Still, as the world
+gets older, we need to anticipate how this extraordinary change might
+undermine our communities, weaken nations and push able older people to the
+side. There are also sobering geopolitical consequences to consider. It now
+looks as if global power rests on how willing a country is to neglect its
+older citizens. Faults in the welfare states of the West are highlighted by
+the world debt crisis. Fiscal woes driven by age-related expenses plague every
+level of government in the United States. Europeans take to the streets,
+strike and close down governments struggling to cover unsupportable pensions.
+The most advanced countries owe trillions in age-related public expenses. The
+most straightforward solutions, like higher payroll taxes to pay for benefits,
+raise the cost of doing business and chase off investors and producers to
+lower-cost economies. Mark Haas of Duquesne University has argued that aging
+forces all high-income democracies into triage mode. They can pay for income
+support and services for their elderly and drastically reduce financing for
+schools, defense, infrastructure and everything else, or they can decide older
+people will have to make do with far less.
+
+China has gained new financial clout in relation to advanced industrial
+nations because it has grown rich enough as the youthful factory of the world
+to act as the developed countries’ banker. Yet the Chinese government says the
+country is still too poor to put a more comprehensive social safety net in
+place. Perhaps, but it is the financial sacrifices of its people that give
+China the means to lend trillions of dollars to the United States and other
+industrialized nations. That’s a bargain China may be happy to accept, but it,
+too, is caught in the irreversible dynamic of aging, and its demographic
+denouement is coming. By then, the United States will be older than it is now,
+but younger than most of the rest of the developed world, younger than much of
+the developing world and far younger than China. If we understand how aging
+populations and economic forces interact, perhaps we can make the most of our
+age and our youth.

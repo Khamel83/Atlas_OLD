@@ -1,0 +1,876 @@
+# Page 1 | The Sopranos: Definitive Explanation of "The END"
+
+**Source**: http://masterofsopranos.wordpress.com/the-sopranos-definitive-explanation-of-the-end/
+**Type**: article
+**Created**: 2025-08-13T21:18:13.105847
+
+---
+
+title: Page 1 | The Sopranos: Definitive Explanation of "The END"
+source: http://masterofsopranos.wordpress.com/the-sopranos-definitive-explanation-of-the-end/
+date: 2025-08-13T21:17:52.241340
+tags: []
+---
+**Read about praise for this blog from[The New York
+Times,](http://web.archive.org/web/20250717161553/http://douthat.blogs.nytimes.com/2014/09/02/tony-
+soprano-is-dead/?_r=0) [New Yorker
+Magazine,](http://web.archive.org/web/20250717161553/http://newyorker.com/culture/culture-
+desk/sopranos-ending)[The Atlantic Monthly, and
+](http://web.archive.org/web/20250717161553/http://www.theatlantic.com/entertainment/archive/2015/04/david-
+chase-just-ruined-the-finale-of-the-sopranos/390879/)[Pulitzer Prize winner
+and former NY Times Chief Book Critic Michiko
+Kakutani](http://web.archive.org/web/20250717161553/https://mobile.twitter.com/michikokakutani/status/1014365811329437696)**
+
+**Update: 12/10/21: MAJOR updates and revisions** in Part 1 section B and C,
+including discussion and analysis of mostly unknown quotes from Chase from
+France in 2016 (including Chase explicitly debunking the “audience was
+whacked” theory), Brazil in 2013, and a 2016 Q&A with Chase in New York City.
+This also includes a mostly unknown Chase quote in 2007 that expresses his
+frustration with fans who do not understand that Tony was killed. These
+updates also include new comments from Chase to The Hollywood Reporter
+confirming Tony’s death and comments from Chase in the book “The Sopranos
+Sessions” discussing Chase’s original idea for Tony’s death at the at the end
+of series as well as new 2019 quotes from Chase from the publication
+“Deadline.” Most of the new material is contained to Part 1 Section B but
+please enjoy a new section called “The Bells of Holsten’s” (Part II section B)
+which analyzes extensive and fascinating discussions by Chase regarding the
+philosophical and thematic meaning behind those bells and the final scene.
+Please also see update below this paragraph regarding an accidental admission
+by Chase as well as Chase commenting about this very site in Brazil in 2013!
+Some other minor updates will be scattered throughout the rest of the site as
+well including new quotes from Chase refuting the “Tony is paranoid in the
+final scene” theory and Chase explaining the irrelevance that the audience is
+not aware of any known plot to kill Tony in the final scene.
+
+**Update! 12/10/21: Chase finally confirms Tony’s death in a Hollywood
+Reporter interview!**
+
+As was updated here in 2019, David Chase was interviewed by television
+bloggers Matt Zoller Seitz and Allan Sepinwall for their book “The Sopranos
+Sessions.” In it, David Chase, rather flippantly, refers to Holsten’s as a
+“death scene,” although it was originally conceived “slightly different” as
+more of a “straight” death scene. In the original version, Tony would be
+called to a meeting with Johnny Sack and the audience would be led to the
+believe that he was on his way to his death and, like the final version, the
+screen would cut to black before we saw Tony get killed. The relevant excerpts
+are cited below from “The Sopranos Sessions.” What’s amusing is that Chase
+doesn’t seem to realize he confirmed Tony’s death and when Seitz points out
+the admission, Chase, after a long pause, curses at both Seitz and Sepinwall,
+confirming that Chase is angry at himself, which suggests that he never had
+any intention of explicitly giving us the answer:
+
+Alan: _But you said you didn’t try to plan too far ahead. When you said there
+was an endpoint, you don’t mean**Tony at Holsten’s,** you just meant, “I think
+I have two more years worth of stories left in me.”_
+
+Chase: _**Yes. I think I had that death scene around two years before the end.
+I remember talking with [writer/executive producer] Mitch Burgess about it,
+but it wasn’t-it was slightly different.** Tony was going to get called to a
+meeting with Johnny Sack in Manhattan and he was going to go back through the
+Lincoln Tunnel for this meeting, and it was going to black there, the theory
+being that something bad happens to him at the meeting. But we didn’t do
+that._
+
+Matt: _**You realize, of course, that you just referred to that as a “death
+scene”.**_
+
+**[A long pause follows]**
+
+Chase: _**Fuck you guys.**_
+
+[Matt and Alan explode with laughter. After a moment Chase joins in for a good
+thirty seconds].
+
+Chase: _But I changed my mind over time. I didn’t want to do a straight death
+scene. I didn’t want you to feel like “Oh, he’s meeting with Johnny sack and
+he’s going to get killed.” That’s the truth of it._
+
+Despite Chase’s comments above, there were still many fans in denial about
+Tony’s death, arguing that Chase did not clearly state that both versions of
+the ending were meant to be “death scenes.” For further clarity, see below
+this enlightening quote from an interview of Chase by The Daily Beast
+published on September 4, 2014. Chase had yet to accidentally slip with the
+term “death scene,” but his comments, now seen in context with his later
+accidental admission, completely confirms that Tony was to die in _either_
+version, although the execution of that idea turned out to be slightly
+different:
+
+Q: _Did you toy with different endings?_
+
+Chase: _No. There was an earlier version but it was**basically the same
+thing** , it just happened **slightly** differently._
+
+Again, another quote from Chase making the same point, this time to Nancy
+Tartaglione of Deadline published on April 15, 2016:
+
+Q: _Did you know [the ending] from the beginning?_
+
+Chase: _Not from the beginning but pretty fairly early on I had some kind of
+notion that it would end like that.**There was an alternative but it kind of
+had the same feel, just didn’t happen in a restaurant.**_
+
+Finally, on November 4, 2021, in an interview with Scott Feinberg of The
+Hollywood Reporter, Chase explicitly states that Chase was to die in either
+version and that Tony did in fact meet his end in the second and final version
+of the ending that would take place in a restaurant:
+
+Feinberg: _The 2018 book “The Sopranos Sessions” was written by two guys who
+wrote, at the time of the show for the New Jersey Star Ledger, the paper Tony
+always read, Matt Zoller Seitz and Alan Sepinwall. They interviewed you and
+asked you to talk about the June 10, 2007 series finale with of course “Don’t
+Stop Believin” and the famous cut to black. You said, “Well I had that death
+scene in mind for years before.” (A) Do you remember specifically when the
+ending first came to you? and (B) Was that a slip of the tongue?_
+
+Chase: _Right. Was it?_
+
+Feinberg: _I’m asking you._
+
+Chase: _No._
+
+Feinberg: _No?_
+
+Chase: _Because the scene I had in my mind was not that scene. Nor did I think
+of cutting to black. I had a scene in which Tony comes back from a meeting in
+New York in his car. At the beginning of every show, he came from New York
+into New Jersey and the last scene could be him coming from New Jersey back
+into New York for a meeting at which he was going to be killed._
+
+Feinberg: _And when did the alternative ending first occur to you? I’ve spoken
+with showrunners who said, “I knew at the beginning exactly how my show was
+going to end” or by season 3 or whatever. It sounds like when you were
+writing, you liked to stay six scripts ahead of where you were in the action._
+
+Chase: _Yeah. But I think I had this notion-I was driving on Ocean Park
+Boulevard near the airport and**I saw a little restaurant.** It was kind of
+like a shack that served breakfast. And for some reason I thought **“Tony
+should get it in a place like that.”** Why? I don’t know. That was, like, two
+years before [the show ended]. _
+
+****Please also see Part 1 section B for further analysis of Chase’s admission
+in “The Sopranos Sessions,” and further analysis of additional quotes from
+Chase regarding his original idea for Tony’s “death scene.”**
+
+**Update February 2019: Chase comments about this site!** On February 22,
+2013, the website Globo published an interview of David Chase by Liv Brandao
+while Chase was in Brazil that month as a guest at the Rio Content Market
+event. Ms. Brandao (in a separate section from the original interview called
+“outtakes”) asked Chase about this piece. The interview was published in
+Portuguese and I had to use a few on-line translators to get the best
+translation:
+
+Q: _There is a website called “Master of The Sopranos” in which the author
+creates a long thesis, almost academic to explain the end of the series,
+always using connections with episodes from previous seasons and even camera
+movements to support the theory. You imagined this kind of reaction?_
+
+Chase: _Never! I mean, I knew the ending would be a big issue because the
+series was so popular, but I didn’t imagine it would happen to this extent.**I
+think I started reading that text, but I didn’t finish it. I’ve gotten
+interested in it again, even now. It’s very flattering to know that someone
+spent so much time trying to figure out what happened at the end of the series
+to then write about it was such interest. I think I can learn something from
+that.** To see so many people interested in the show makes me feel really
+good._
+
+**Update 6/10/15: On the eight year anniversary of the Sopranos finale, please
+enjoy the new Annotated Guide to the Final Scene where _every_ single shot of
+the final scene is analyzed with quotes from Chase(including his new comments
+to the DGA).** Consider it a “cliff notes” version of Part 1 of this site. Go
+[here](http://web.archive.org/web/20250717161553/https://masterofsopranos.wordpress.com/1147-2/)
+to read and
+[here](http://web.archive.org/web/20250717161553/https://masterofsopranos.wordpress.com/1147-2/1171-2/)
+for page 2. Also check out a new trailer for the Sopranos Blu-Ray release from
+the great Lyle on page 1 of the annotated guide.
+
+***Update 6/19/13:**_James Gandolfini died today at the too young age of 51.
+His performance as Tony Soprano for 86 episodes is a masterwork and right at
+the top of our greatest performances of all time-in any medium.The Sopranos
+would not have been what it was, perhaps the greatest work of art in film
+history, a show that meant so much to so many, without his towering
+performance. Below is a scene from the final few episodes that is a favorite
+of mine and shows the great humanity he brought to the role. Rest in peace
+sir, and thank you:_
+
+VIDEO
+
+_**And once again, this incredible, and now famous Sopranos tribute video by
+Lyle at exeterstreet, which now has new meaning**_
+
+VIDEO
+
+_*Note from author (December 6, 2010): Its been over three years since the
+finale of the Sopranos, yet the ending continues to be discussed and debated
+to this day. My piece has become more popular than I ever could have imagined
+but speaks to the viewer’s love of the show. If this piece has done anything,
+it has illuminated for many people the show’s depth and artistic vision, the
+true genius of David Chase and his writers, and how the show fulfilled its
+early promise when the New York Times called the show “The greatest work of
+popular culture of the past quarter century” back in 1999. I cannot tell you
+how many e-mails I have received from fans relaying how much this piece made
+them truly appreciate the artistry of the show and how they re-watched the
+entire series again after reading it. Those final few minutes of the final
+episode is truly the greatest scene in the history of the medium; a scene
+constructed as a culmination of 8 years and 86 hours of epic storytelling.
+Chase created the scene for the fans who were willing to dig beneath the
+surface and see exactly how much thought and creativity went into every tiny
+detail of this show. The final scene has solidified the show as the greatest
+in television history (with all apologies to “The Wire”), a show that is
+working on levels that could not possibly be comprehended on first viewing.
+Some of have complained that I have the gall to call the piece “Definitive,”
+but I think it has received more attention for that very fact (perhaps I
+should have meekly called the piece “This is what I _think_ happened”). Of
+course, I know it is not “definitive” (only Chase knows, and I certainly have
+never heard from him) but I feel strongly that it is mostly correct. I also
+know that some of arguments may be stretching things a bit but that is part of
+the fun (those “lesser” arguments often appear later in the piece). Chase has
+given us a gift to be pored over and discussed forever. He has raised the bar
+for all shows to follow (for those looking for the current truly great series,
+I would recommend “Mad Men” and “Breaking Bad”) and for that we should all be
+thankful…._
+
+**INTRODUCTION:**
+
+“If you look at the final episode really carefully, it’s all there.”* These
+are David Chase’s words regarding the finale of the Sopranos. He is right, it
+is “all there”. This is the definitive explanation as to why Tony died in
+Holsten’s in the final scene of The Sopranos. The following is based on a
+thorough analysis of the final season of the show and will clear up one of the
+most misunderstood endings in film or television history. Chase took almost
+two years to construct the final season of the show after the fifth season
+ended in June of 2004. The ending was orchestrated years in advance and is the
+culmination of an artist in complete control of his vision. Part 1 will
+demonstrate how Chase directed, edited and scored the final scene of the
+Sopranos to lead to the interpretation that Tony was shot in the head in
+Holsten’s and how this ties into the “never hear it happen” concept that Chase
+hammered into the viewer before the show’s final scene. This explanation will
+be supported by words from David Chase himself, including a very revealing,
+largely unknown, radio interview of Chase in April of 2008. Part I will also
+discuss (and debunk) the other theories about the end including the “Tony
+always looking over his shoulder” interpretation. Part II will concentrate on
+what Tony’s death means and how his death was thematically constructed
+throughout the final season. Part III will focus on the use of symbolism in
+Holsten’s. Part IV will focus on _The Godfather_ influence on the final season
+and Tony’s death. Part V will focus on how the final episode and final scene
+are linked to America’s war on terrorism. Part VI will concentrate on the “fun
+stuff” created by Chase and his creative team to foreshadow Tony’s death. Part
+VII will discuss the possible inspiration of two films on the ending of The
+Sopranos. Part VIII will speculate as to who may have killed Tony. Part IX
+will discuss the influence of Stanley Kubrick’s _2001:A Space Odyssey_ on the
+“point of view” pattern in the final scene. Some of these topics will overlap
+but the ultimate conclusion is the same: Tony’s death is the only ending that
+makes sense.
+
+*Note: Chase’s original quote to the NJ Star Ledger the day after the finale aired is “Anybody who wants to watch it, it’s all there”. Chase’s subsequent quote regarding the finale “If you look at the final episode really carefully, it’s all there” was published in the UK newspaper The Times on September 9, 2007 (from an interview of Chase by Stephen Armstrong)as the final episodes were set to air in the UK. The modified quote strongly suggests Tony’s death since there is essentially no reason to look at the final scene _“really carefully”_ if Tony lived as he is clearly alive the last time we see him.
+
+**TABLE OF CONTENTS:**
+
+Part I section A: How David Chase killed Tony Soprano: A look at the directing
+and editing in the final scene and the “Never hear it Happen” concept laid out
+by David Chase. Plus a closer look at why the other popular theory about the
+ending: that “Tony will be forever paranoid,” just doesn’t hold up.
+
+This section also includes:  
+Part I section B: Why David Chase killed Tony in such a unique and non-
+traditional way.  
+Part I section C: Addressing other arguments _against_ Tony dying.  
+Part I epilogue: “It’s all a big nothing”: Death and David Chase.
+
+Part II section A: What does Tony’s death _**mean?**_ How the themes of the
+final season and all 86 hours of the show lead to a family dinner in a small
+diner in New Jersey.
+
+This section also includes:  
+Part II section B: The Bells of Holsten’s.  
+Part II section C: “Two endings for a guy like me”  
+Part II section D: “Holsten’s is the consensus”: Carmela in the final season.
+
+Part III: The Symbolism of Holsten’s.
+
+Part IV: The final season and _The Godfather_.
+
+Part V: How 9/11, terrorism and the U.S. war in Iraq unlock the keys to the
+final scene in Holsten’s.
+
+Part VI: Miscellaneous “Fun Stuff” that could only be created by David Chase.
+
+Part VII: _The Public Enemy_ and _Goodfellas_ influence on the end of The
+Sopranos.
+
+This section also includes Part VII addition: The real life inspiration for
+the ending.
+
+Part VIII: Who Killed Tony?
+
+Part IX: Kubrick’s _2001_ influence on the POV pattern in the final scene.
+
+**PART I section A: How David Chase killed Tony Soprano: A look at the
+directing and editing in the final scene and the “Never hear it Happen”
+concept laid out by David Chase. Plus a closer look at why the other popular
+theory about the ending: that “Tony will be forever paranoid,” just doesn’t
+hold up.***
+
+_*(In 2015, I published the “Annotated Guide to the Final Scene” where, for
+the first time,**every** single shot of the final scene is analyzed with
+quotes from Chase taken from his 2015 comments to the Directors Guild of
+America. It’s a more streamlined version of “Part I Section A” below that I
+highly recommend reading before returning for Part I section B. Go
+[here](http://web.archive.org/web/20250717161553/https://masterofsopranos.wordpress.com/1147-2/)
+to read page 1 and
+[here](http://web.archive.org/web/20250717161553/https://masterofsopranos.wordpress.com/1147-2/1171-2/)
+for page 2)_
+
+**THE FINAL SCENE IN HOLSTEN’S IN “MADE IN AMERICA”:**
+
+Mr. Chase structures the final scene so that a significant portion of it is
+shown through Tony’s “Point of View” (POV). Chase uses this technique so that
+the viewer can experience Tony being murdered. Here is a basic definition
+(from Wikipedia) of a “Point of View” shot:
+
+_“A**point of view shot** (also known as **POV shot** or a **subjective
+camera**) is a short film scene that shows what a character (the subject) is
+looking at (represented through the camera). It is usually established by
+being positioned between a shot of a character looking at something, and a
+shot showing the character’s reaction (see shot reverse shot)”_
+
+More importantly, Chase uses the ringing of the bell of the door of Holsten’s
+to signal to the viewer when he will be using the traditional point of view
+shot discussed above (character looking at something/cut to a shot of what the
+character is looking at from the character’s POV/cut back to a shot of the
+character, usually for the reaction). This is repeated five times in the final
+scene to create a “pattern” that logically concludes that the last “shot” of
+the series (10 seconds of black and silence) is from Tony’s POV. The
+implication being that Tony sees “blackness” and “nothingness”. Tony is dead.
+So how exactly does Chase do it?
+
+Tony walks into Holsten’s and a bell is heard. The door of Holsten’s has a
+bell that rings every time someone enters the restaurant. Tony enters and
+Chase starts with a straight-ahead full shot of Tony looking at something in
+the diner. The scene then cuts to a clear Tony point-of-view shot (hereafter
+Tony’s POV) establishing the geography of Holsten’s. Tony sees the whole diner
+which consists of mostly booths and a counter to his left with stools. Chase
+then cuts back to the prior angle but Tony’s face is shown in close up (still
+looking straight ahead). The next cut is the previous Tony POV shot of the
+inside of the diner _except_ Tony is now sitting down at one of the tables in
+the middle of the frame (this is often called a “jump cut” as Tony is never
+seen walking to his table). This opening sequence in the diner readies the
+viewer that they will be seeing certain things from Tony’s POV. The awkward
+“jump cut” establishes that Tony’s POV will be straight to the door (this will
+be critical) and that Meadow will have a clear view of Tony’s murder when she
+enters Holsten’s. The “jump cut” also further signals the importance of Tony’s
+POV in the sequence because the viewer is again experiencing the prior Tony
+POV shot; Chase is subliminally putting “us” in Tony’s head space.
+
+**The opening shots, in sequence, of the final scene (as explained above):**
+
+![Screenshot
+\(20\)](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2019/03/screenshot-20.png?w=450)
+
+![Screenshot
+\(21\)](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2019/03/screenshot-21.png?w=450)
+
+![Screenshot
+\(22\)](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2019/03/screenshot-22.png?w=450)
+
+![Screenshot
+\(23\)](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2019/03/screenshot-23.png?w=450)
+
+**THE PATTERN THEN BEGINS:**
+
+(1) The bell rings and Tony’s face is shown in close-up looking up to see who
+is coming through the door (this shot is about 1-2 seconds). The next shot is
+Tony’s POV of who is coming through the door: a tall woman with dark hair who
+enters Holsten’s. The next shot is back to Tony’s face to see his reaction.
+
+**Tony hears the bell, looks up-**  
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image13-e1433114431663.jpg?w=450)
+
+**and sees…**  
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image12-e1433114390473.jpg?w=450)
+
+(2) The bell rings and Tony’s face is shown in close-up looking up to see who
+is coming through the door (this shot is about 2-3 seconds). The next shot is
+Tony’s POV of who is coming through the door (same shot as (1)): an older man
+wearing a “USA” cap who enters Holsten’s. The next shot is back to Tony’s face
+to see his reaction.
+
+**Tony hears the bell ring, looks up-**  
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image18-e1433114609215.jpg?w=450)
+
+**and sees…**  
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image19-e1433114642653.jpg?w=450)
+
+(3) The bell rings and Tony’s face is shown in close-up looking up to see who
+is coming through the door (this shot is about 1-2 seconds). The next shot is
+Tony’s POV of who is coming through the door (same shot as (1) and
+(2)):Carmela enters Holsten’s. The next shot is back to Tony’s face to see his
+reaction.
+
+**Tony hears the bell, looks up-**  
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image23-e1433114797792.jpg?w=450)
+
+**and sees…**  
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image24-e1433114849326.jpg?w=450)
+
+(4) The bell rings and Tony’s face is shown in close-up looking up to see who
+is coming through the door (this shot is about 1-2 seconds). The next shot is
+Tony’s POV of who is coming through the door (same shot as (1), (2) and (3)):
+“Man in Members Only Jacket” (hereafter “MOG”) followed by AJ enter Holsten’s.
+The next shot is back to Tony’s face to see his reaction.
+
+**Tony hears the bell, looks up-**  
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image59-e1433625854192.jpg?w=450)
+
+**and sees…**  
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image60-e1433625889142.jpg?w=450)
+
+(5) The bell rings and Tony’s face is shown in close-up looking up to see who
+is coming through the door (this shot is about 2 seconds). According to the
+pattern, the next shot should be Tony’s POV of who is coming through the door
+(this should be Meadow as she is seen about to enter the diner a few seconds
+before the bell rings). Instead, the screen cuts abruptly to black mid-scene
+(at the exact spot where we _should_ see Meadow from Tony’s POV) and the audio
+cuts off. All the viewer sees is “blackness” where Tony’s POV should be. This
+_is_ Tony’s POV because he is dead. We no longer hear Journey’s _Don’t Stop
+Believing_ because Tony no longer hears it. In a normal ending, the screen
+would simply _fade_ to black followed immediately by the credits and the music
+would probably still be heard. Instead, the blackness and silence lingers for
+10 seconds before the credits are shown to emphasize that the black screen is
+Tony’s final POV. The 10 seconds of silent darkness is a _scene_ unto itself-
+as significant as any image or line of dialogue. The final shot also
+emphasizes the blackness, nothingness and eternal nature of death. Chase
+originally wanted no credits at all and the blackness to last all the way to
+the HBO logo (this was revealed by David Chase in the Ultimate Sopranos HBO
+book released in October of 2007). This would further emphasize the eternal
+nature of death. Tony is dead. The direction and editing in the scene suggest
+that he was shot from behind in the right side of his head.
+
+**Tony hears the bell, looks up-**  
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image125-e1433628272989.jpg?w=450)
+
+**and sees…**  
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image126-e1433628345112.jpg?w=450)  
+**.._nothing_ , as Tony is killed in an instant.***
+
+*Update 2015: Chase’s comments to the Directors Guild of America confirming aspects of the analysis discussed above:
+
+_**“Tony hears the bell when the door opens and he’s repeatedly looking up
+when he hears it throughout the scene. That rhythm is very important to the
+scene.”**_
+
+_“I said to Gandolfini, the bell rings and you look up. That last shot of Tony
+ends on ‘don’t stop,’ it’s mid-song.**I’m not going to go into [if that’s
+Tony’s POV]. I thought the possibility would go through a lot of people’s
+minds or maybe everybody’s mind that he was killed.”** (end of 2015 update)._
+
+Tony was shot by MOG (Members Only Guy) as he exited the bathroom. Just before
+(5), MOG gets up from his stool and walks past Tony’s table. Tony looks twice
+at MOG as he walks past him and eventually enters the bathroom. Chase uses a
+tracking shot to follow MOG walking past Tony’s table into the bathroom. To
+further emphasize the shot’s importance, Chase continues the movement of the
+camera even after the bathroom is clearly seen (the camera moves so that the
+bathroom, originally seen in the right upper corner of the frame, moves
+further to the left and is consequently more noticeable when the camera
+finally stops). This is only one of two tracking shots in the final scene (the
+other is when Tony enters Holsten’s) as _all_ the other shots in the diner are
+static. Chase’s direction is clearly meant to convey the importance of MOG
+entering the bathroom. The purpose of the shot is to show that MOG will have a
+clear shot at Tony once he exits the bathroom. More importantly, the bathroom
+is _behind_ Tony. Tony will not have a chance to react.
+
+**The tracking shot setting up MOG’s easy, unobstructed, shot at Tony when he
+exits the bathroom.**  
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/06/image11-e1433720256631.jpg?w=450)
+
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image111-e1433627689379.jpg?w=450)
+
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image112-e1433627738823.jpg?w=450)
+
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image113-e1433627774521.jpg?w=450)
+
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/06/image7-e1433719781250.jpg?w=450)
+
+MOG is deliberately framed by Chase as a threat to Tony once he enters the
+diner and there is a clear effort by Chase to show that MOG is different from
+any of the other patrons. MOG is the only patron ever seen outside of the door
+of Holsten’s before the bell rings (he is seen opening the door just before
+Chase cuts to Tony and the bell is heard). However, the pattern set out above
+in (1)-(5) is never disrupted because once the bell rings, Chase cuts to Tony
+looking up and the pattern continues accordingly. Chase also has MOG and A.J.
+enter at almost the exact same time (they almost touch). This may imply that
+MOG followed A.J. to Holsten’s. Once MOG enters, he seems to be looking
+straight to the back of Holsten’s (looking for Tony?). This seems strange in
+light of the fact that he immediately sits down at the counter to his left
+(which we would think he would have seen right away when he walked in). MOG
+enters in front of A.J. and continues straight toward the camera where he
+almost fills the entire frame (Chase has neither Carmela, A.J. or the other
+patrons enter in such a fashion). MOG almost completely obstructs the viewer’s
+view of A.J.; this seems unusual considering A.J. is a regular character
+rather than just an extra in the scene. Chase’s purpose here is to signal the
+importance of MOG.
+
+**“Man in Members Only Jacket” is the only patron shown approaching the door
+before the bell rings.**  
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image58-e1433625798145.jpg?w=450)
+
+**MOG enters in front of A.J. and walks towards the camera filling most of the
+frame**  
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image60-e1433625889142.jpg?w=450)
+
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image61-e1433625934605.jpg?w=450)
+
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/06/image5-e1433719700139.jpg?w=450)
+
+Once A.J. sits down, MOG is seen in the background sitting down at the
+counter. MOG is then seen in “soft focus” in the background between A.J. and
+Carmela. Chase then cuts to a full shot of MOG apparently looking in the
+direction of Tony’s table (and apparently tapping his fingers nervously
+against the counter) which is confirmed by the next shot of A.J. and Carmela
+as MOG is seen looking in their direction in a “soft focus” background shot
+between them. Later in the scene, there is a second full shot of MOG looking
+over at Tony’s table. Finally, there is a full shot of MOG getting up to go
+the bathroom. MOG is looking down as he gets up from the counter to avoid eye
+contact with Tony. He also walks awkwardly as his head turns to the left away
+from Tony while his body seems to stay straight. MOG seems to be going out of
+his way to avoid eye contact and is clearly not oblivious to the presence of
+Tony Soprano. Also note that none of the other patrons (including the “trucker
+in the USA cap”) are ever shown looking at Tony (more on this later). Chase
+makes it clear that the viewer should be paying special attention to MOG over
+any of the other patrons. As discussed earlier, Chase has set up Tony’s easy
+kill from behind; furthermore, the shots establishing the geography of
+Holsten’s and the tracking shot of MOG walking towards the bathroom
+logistically establish that MOG has an easy, unobstructed passage to exit
+Holsten’s after he shoots Tony.
+
+**Chase pays a lot of attention to MOG, who in turn pays a lot of attention to
+Tony:**  
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image70-e1433626247941.jpg?w=450)
+
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image69-e1433626207799.jpg?w=450)
+
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image70-e1433626247941.jpg?w=450)
+
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image86-e1433626816222.jpg?w=450)
+
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image107-e1433627548378.jpg?w=450)
+
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image108-e1433627584497.jpg?w=450)
+
+Meadow’s problems parallel parking and being late for dinner also confirm
+MOG’s actions and Tony’s subsequent death. Practically, it creates suspense in
+the scene. However, it has much more meaning than the viewer may initially
+think. If Meadow was on time then she would be sitting next to Tony in the
+aisle seat. In other words, she would be _obstructing_ MOG’s clear shot at
+Tony from outside the bathroom (Chase clearly shows this when MOG walks to the
+bathroom). Secondly, her lateness gives the excuse for Tony to look up at the
+door one last time which Chase needs to set up the last shot of blackness from
+Tony’s POV (as explained earlier). It also serves the purpose of distracting
+Tony to give MOG an easier shot.
+
+**MOG enters the bathroom setting up his easy, unobstructed shot at Tony when
+he exists. If Meadow was on time, she would have been in the aisle seat,
+blocking the clear shot and perhaps the hit never would have occurred**  
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image114-e1433627820705.jpg?w=450)
+
+Mr. Chase covers all the angles and his POV pattern and Tony’s murder hold up
+under close scrutiny. There are other Tony POV shots in the scene including
+numerous Tony POV shots of the songs on the jukebox and Tony POV shots over
+his shoulder when A.J. talks in the frame (the point-of-view taken over the
+shoulder of a character who remains visible on the screen is another
+traditional POV shot in film).
+
+Chase reinforces that we are seeing things from Tony’s POV by using separate
+POV shots of Carmela and A.J. walking towards his table. Tony’s eyes follow
+them as they come toward him. Carmela walks screen left as she enters from the
+front door and, in Tony’s second POV shot of Carmela, is shot at an angle
+illustrating Tony looking at her slightly to his left as she walks past the
+desserts. The second Tony POV shot of A.J. has him already much closer to
+Tony’s table at an angle illustrating Tony looking at him to his right. Since
+Tony’s straight ahead view is to the door (established by the early “jump cut”
+when Tony walks into Holsten’s and the subsequent close ups of Tony looking
+straight ahead when Tony hears the bell ring), the camera must move at an
+angle to illustrate that Tony continues to follow them as they approach him
+(Carmela and A.J. cannot continue to walk straight towards Tony to reach him
+as they would have to walk directly through the tables in front of Tony).
+These shots occur after (4) and (5) respectively and are among the numerous
+Tony POV shots in the final scene. However, as discussed earlier, of most
+importance in the scene is that when Tony hears the bell ring, Chase always
+uses the traditional technique to establish the Tony POV shot: after Tony
+looks up at the door, Chase always cuts to the same shot of someone entering
+in a clearly subjective “tunnel vision” (from a character’s eyes) shot. This
+is done four times prior to the final bell ring thus creating the pattern that
+suggests that the black screen is Tony’s final POV (as laid out earlier in
+this piece). Also of note is that POV shots are usually not 100% subjective
+(as clearly we would see some of the tables block Tony’s vision if they were).
+Here is another important point about POV shots (once again from Wikipedia):
+
+_“A POV shot need not be the strict point-of-view of an actual single
+character in a film. It makes little sense to say that a shot is “inherently”
+POV; it is the editing of the POV shot within a sequence of shots that
+determines POV”._
+
+**The geography of the diner set up by Tony’s first POV shot and the “jump
+cut” to Tony sitting. The two shots also illustrate that Meadow will have a
+clear view of her father’s murder when she enters Holsten’s***
+
+![Screenshot
+\(21\)](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2019/03/screenshot-21.png?w=450)
+
+![Screenshot
+\(23\)](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2019/03/screenshot-23.png?w=450)
+
+*Update 2015: Chase’s comments to the Directors Guild of America about Meadow entering the diner: _“Meadow is filled with nothing but very, very deep emotions about parking her car. But possibly a minute later,**her head will be filled with emotions she could never even imagine.”**_
+
+Chase then continues on about Meadow: _“We all take this stuff so seriously-
+losing our keys, parking our car, a winter cold, a summer cold, an allergy-
+whatever it is. And this stuff fills our mind from second to second.**And the
+big moment is always out there waiting.”** _(end of 2015 update).
+
+**Tony POV shots of the jukebox:**  
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image6-e1433114181936.jpg?w=450)
+
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image10-e1433114329663.jpg?w=450)
+
+**Further Tony POV shots as he watches Carmella approach to his left:**  
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image25-e1433114894564.jpg?w=450)
+
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image26-e1433114943920.jpg?w=450)
+
+**Tony POV shots of AJ as he approaches to Tony’s right:**  
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image62-e1433625969236.jpg?w=450)
+
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image63-e1433626003939.jpg?w=450)
+
+Chase also deliberately differentiates when we are _not_ seeing things from
+Tony’s POV to reinforce when we _are_ seeing things from Tony’s POV. Chase
+shows us a shot of two young black men by the front door looking at the
+desserts. This shot is not from Tony’s POV (and the door opening behind the
+men is somebody exiting the diner)as the bell is not heard and Tony is shown
+looking down at his menu _just before and just after_ this shot. More
+importantly, the black men are shown at a different angle and are clearly, and
+deliberately, shot from a camera that is low to the floor; here Chase is
+differentiating the Tony POV shot from a regular third-person shot.
+
+Chase also uses sound to tie the viewer to Tony’s POV. Tony twice takes notice
+of MOG as he walks past Tony’s table. However, Tony then returns his attention
+to his menu. The next scene is the black men looking at the desserts by the
+door as it appears they just entered Holsten’s. The editing suggests that they
+entered as MOG was walking past Tony’s table. This explains why Tony (nor we)
+did not hear the bell ring when they entered the diner as Tony had turned his
+attention to MOG. Furthermore, Chase shows us a full shot of a teenage couple
+at a table. The second time they’re shown, Chase increases the volume so that
+we hear them laughing. At the exact moment they laugh, a muffled sound of what
+appears be a bell is heard. The very next shot is the second close up of MOG
+staring in Tony’s direction with the door closing in the background (which may
+confirm that the bell did ring). The next shot shows Tony looking down.
+Apparently, if the couple did not laugh, Tony (and us) would have heard the
+bell and looked up. Had Tony looked up at that moment, he would have _seen_
+MOG staring right at him, a delicious irony that could only be orchestrated by
+David Chase and also illustrates how Tony is able to get hit. The bell is only
+clearly heard during the Tony POV pattern (besides when Tony walks into the
+diner himself). There are two background shots of the door opening. However,
+these shots are never shown from Tony’s POV and only show patrons _exiting_
+Holsten’s. The first is when the door opens behind MOG as he stares at Tony
+for the second time (clearly not the standard Tony POV shot and, as explained
+previously, follows a second or two after the young couple laugh). The second
+shot is a patron, only slightly opening the door, (which may explain why the
+bell is not heard) exiting Holsten’s behind the black men (not a Tony POV shot
+as explained earlier in the paragraph). Furthermore, Carmela and A.J. are
+shown looking down at their menus just before Tony looks up for the last time.
+Here Chase is relaying to the viewer that Carmela and A.J. have no chance to
+warn Tony when MOG comes out of the bathroom.
+
+**Connecting Tony’s POV with the viewer through sound: In the next 5 shots (in
+sequence) Tony looks up at MOG as he passes the table. It appears Tony was
+distracted while the black guys enter which explains why the bell isn’t heard
+when they enter the diner. The scene also refutes the “Tony is paranoid and
+eyeing everyone” theory about the ending (discussed later in Part I):**  
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image108-e1433627584497.jpg?w=450)
+
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image111-e1433627689379.jpg?w=450)
+
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/06/image7-e1433719781250.jpg?w=450)
+
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image115-e1433627858215.jpg?w=450)
+
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image116-e1433627903492.jpg?w=450)
+
+**The very last shot of Carm and AJ, they’re looking down. No chance to warn
+Tony:**
+
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image124-e1433628232854.jpg?w=450)
+
+**We then cut to Tony looking up (the bell is heard) for the last time:**
+
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image125-e1433628272989.jpg?w=450)  
+A closer look at the scene reveals exactly how Tony is able to get hit and
+dispels the other most popular theory about the ending: that the scene
+represents Tony’s paranoia and how he will have to live the rest of his life.
+The scene actually suggests the _exact opposite_ , that Tony is _too_ relaxed
+and _too_ comfortable. First, Tony takes a table in the middle of the
+restaurant, leaving his back exposed, which sets up “Man in Members Only
+Jacket’s” easy kill from behind. Tony looks up when the bell rings not because
+he is overly wary, but because he is _expecting his family._ Tony goes right
+back to scanning the songs on the jukebox after the first woman enters and
+after “trucker in USA cap” enters. In fact, “trucker in USA cap” lingers by
+the door (perhaps checking the desserts) but the next shot shows Tony simply
+returning his attention to the jukebox. The direction and editing clearly
+establish that most of the other full shots of the patrons are third-person
+shots suggesting that the patrons are not meant to be seen by Tony. There is
+one full shot of “trucker in USA cap” stirring his coffee and reading his
+paper (he does not look dangerous or interested in Tony or anybody else in the
+diner). He is _never_ shown looking in Tony’s direction and is never seen
+again after this shot. More importantly, Tony is _never_ shown looking at him.
+The shot of “trucker in USA cap” stirring his coffee is directly in between
+shots of Tony looking _down._ Thus Tony cannot be “eyeing” him (further
+refuting the “Tony’s paranoid” theory). Tony is not “eyeing” the gray haired
+man with the boy scouts because they are seen _behind_ Tony’s left shoulder
+and Tony is never shown turning around to see them. The laughing teenage
+couple are in front of Tony to his left as they are seen behind Carmela’s
+right shoulder. The couple is never shown looking at Tony or vice versa.
+Besides, the gray haired man with the boy scouts and teenage couple in love
+cannot be seriously considered threats to Tony. Tony is not, either literally
+or symbolically, “looking over his shoulder,” as many fans believe.
+
+Chase’s editing in the scene, and his direction of “Man in Members Only
+Jacket” and Tony, further proves this point. “Man in Members Only Jacket”
+enters with A.J. directly behind him. Consequently, Tony’s eyes will naturally
+focus on A.J. without taking notice of MOG. In the next shot after they enter
+the diner, Chase confirms where Tony’s attention is as he is shown in close up
+smiling as he sees his son. “Man in Members Only Jacket” has not registered
+with Tony. However, he has registered with _us_ because he is the only patron
+seen outside of the door before the bell rings and because he enters in front
+of A.J.*
+
+*Update 2015: Chase’s comments to the Directors Guild of America confirm the above analysis regarding Tony not focusing on MOG, setting up how Tony will be killed: _**“My thinking about wanting to introduce A.J. and the guy together was that both the audience and Tony would not focus on the guy so much, they would focus on A.J. Tony would focus on his son, rather than the man who might be there to do him harm.”**_ (end of 2015 update).
+
+The first full shot of “Man in Members Only Jacket” looking at Tony comes
+immediately after Tony is looking down while he grabs A.J.’s hand. Just after
+MOG’s first look at Tony, Chase does not cut to Tony seeing him. Instead,
+Chase cuts to a medium shot over Tony’s shoulder (suggesting Tony’s POV) of
+A.J. checking out the menu while “Man in Members Only Jacket” is seen in the
+background out of focus in the middle of the frame. This exact same shot is
+repeated several times when A.J. speaks and MOG always lingers at his stool
+directly in Tony’s point of view, but he apparently _never_ registers to Tony
+as he talks to A.J. (MOG is kept out of focus to further reinforce this
+point). “Man in Members Only Jacket” looks over again, and Chase cuts to Tony
+looking down at his menu. Again, “Man in Members Only Jacket” does not
+register with Tony. Chase has at least eight shots of Tony (with only his face
+in the frame) looking down at his menu (you would think Tony was studying
+scripture!!). This does not include multiple shots of Tony looking down at his
+menu in shots that also include Carmela and A.J. The directing and editing in
+the scene emphatically establish that Tony is not paying enough attention.
+There are multiple shots of Tony smiling and his expressions are of happiness,
+_not_ paranoia.
+
+Finally, there is a full shot of “Man in Members Only Jacket” getting up from
+his stool. He walks towards Tony’s table and Tony _finally_ looks up at him
+but then quickly returns his attention to his menu as MOG heads towards the
+bathroom behind Tony. Tony then does a quick glance at MOG behind him as he is
+about to enter the bathroom but then goes right back to looking at his menu.
+The very next shot is the two young African American men looking at some
+desserts which then cuts to Tony _looking down_ at his menu. Tony never sees
+them, once again dispelling the myth that Tony is eying everybody and is
+paranoid. The editing suggests the exact opposite. Chase has given the
+audience more information than Tony has: Tony is not aware MOG looked twice in
+his direction before he got up to go to the bathroom. If Tony knew this, would
+he so easily return to looking at his menu after MOG enters the bathroom? The
+scene suggests exactly how a normally wary Tony is able to get hit. The
+“Tony’s paranoid” theory is a fallacy, it is actually the _viewer_ who is
+paranoid because of all third person shots of the other patrons and MOG
+staring at Tony. Furthermore, for the viewer, this is the final scene ever;
+for Tony, he’s just having dinner with his family. Consequently, the viewer is
+projecting their feelings onto Tony when the evidence in the scene itself
+essentially shows a relaxed Tony. Even Chase’s words seem to rebut the “Tony’s
+paranoid” theory. Chase in the “HBO Ultimate Edition Sopranos” book says he
+had the idea for the ending for years and further states:
+
+_“As I recall [the end], it was just that Tony and his family would be in a
+diner having dinner and a guy would come in. Pretty much what you saw.”_
+
+Chase’s words suggest _one_ threat, not numerous threats symbolizing Tony’s
+paranoia.*
+
+*[As will be discussed in Part 2: _What does Tony’s death mean?_ , the most significant thematic point that Chase was making was that Tony lost everything that truly meant something to him when he was killed. In setting up that thematic point, Chase shows Tony having a rare, happy moment with his family. Tony being “paranoid” or ill at ease would have completely undermined the ultimate point of the scene].
+
+****Update 2019:** In the book “Sopranos Sessions,” Chase explicitly confirms
+to television bloggers Matt Seitz and Alan Sepinwall that the “Tony is
+paranoid and this is how he will have to live the rest of his life” theory is
+incorrect:
+
+Q: _That final close-up of Tony…do you think he’s worried that he’s going to
+die at that moment?_  
+Chase: _No. No, I don’t think so._  
+Q: _I’ve watched that scene so many times and there’s tremendous dread and
+suspense in the scene itself, but I don’t sense any from him necessarily._  
+Q: _We’re paranoid, but [Gandolfini] is not playing it as if Tony is
+paranoid._  
+Chase: _**Not at all**._
+
+**These three shots in sequence reveal that Tony never sees MOG staring at
+him. The over the shoulder shot (shot #3) shows MOG staring in the background,
+yet he is out of focus suggesting Tony doesn’t see him:**  
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/06/image6-e1433719742648.jpg?w=450)
+
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image69-e1433626207799.jpg?w=450)
+
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image70-e1433626247941.jpg?w=450)  
+**MOG looks over again and Chase cuts to Tony smiling and looking down:**  
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image86-e1433626816222.jpg?w=450)
+
+![image](http://web.archive.org/web/20250717161553im_/https://masterofsopranos.wordpress.com/wp-
+content/uploads/2015/05/image88-e1433626907703.jpg?w=450)
+
+  
+Continued on [Page
+2](http://web.archive.org/web/20250717161553/https://masterofsopranos.wordpress.com/39-2/)  
+**Scroll Down For All Comments.**

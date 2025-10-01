@@ -1,0 +1,26 @@
+# How I Booked First Class to Tokyo for 62,500 Miles and $5.60 - The Points Guy
+
+**Source**: http://thepointsguy.com/2014/12/how-i-booked-first-class-to-tokyo-for-62500-miles-and-5-60/
+**Type**: article
+**Created**: 2025-08-13T19:20:54.101965
+
+---
+
+title: How I Booked First Class to Tokyo for 62,500 Miles and $5.60 - The Points Guy
+source: http://thepointsguy.com/2014/12/how-i-booked-first-class-to-tokyo-for-62500-miles-and-5-60/
+date: 2025-08-13T19:20:38.170188
+tags: []
+---
+### Advertiser Disclosure
+
+Many of the credit card offers that appear on the website are from credit card
+companies from which ThePointsGuy.com receives compensation. This compensation
+may impact how and where products appear on this site (including, for example,
+the order in which they appear). This site does not include all credit card
+companies or all available credit card offers. Please view our [advertising
+policy page](/web/20210512172302/https://thepointsguy.com/advertising-policy/)
+for more information.
+
+Editorial Note: Opinions expressed here are the author’s alone, not those of
+any bank, credit card issuer, airlines or hotel chain, and have not been
+reviewed, approved or otherwise endorsed by any of these entities.

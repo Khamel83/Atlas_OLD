@@ -1,0 +1,97 @@
+# Opinion | Tree of Failure - The New York Times
+
+**Source**: http://www.nytimes.com/2011/01/14/opinion/14brooks.html?_r=1&ref=todayspaper&pagewanted=print
+**Type**: article
+**Created**: 2025-08-13T21:33:33.789154
+
+---
+
+title: Opinion | Tree of Failure - The New York Times
+source: http://www.nytimes.com/2011/01/14/opinion/14brooks.html?_r=1&ref=todayspaper&pagewanted=print
+date: 2025-08-13T21:33:26.639600
+tags: []
+---
+President Obama gave a wonderful speech in Tucson on Wednesday night. He
+didn’t try to explain the rampage that occurred there. Instead, he used the
+occasion as a national Sabbath  as a chance to step out of the torrent of
+events and reflect. He did it with an uplifting spirit. He not only expressed
+the country’s sense of loss but also celebrated the lives of the victims and
+the possibility for renewal.
+
+Of course, even a great speech won’t usher in a period of civility. Speeches
+about civility will be taken to heart most by those people whose good
+character renders them unnecessary. Meanwhile, those who are inclined to
+intellectual thuggery and partisan one-sidedness will temporarily resolve to
+do better but then slip back to old habits the next time their pride feels
+threatened.
+
+Civility is a tree with deep roots, and without the roots, it can’t last. So
+what are those roots? They are failure, sin, weakness and ignorance.
+
+Every sensible person involved in politics and public life knows that their
+work is laced with failure. Every column, every speech, every piece of
+legislation and every executive decision has its own humiliating shortcomings.
+There are always arguments you should have made better, implications you
+should have anticipated, other points of view you should have taken on board.
+
+Moreover, even if you are at your best, your efforts will still be laced with
+failure. The truth is fragmentary and it’s impossible to capture all of it.
+There are competing goods that can never be fully reconciled. The world is
+more complicated than any human intelligence can comprehend.
+
+But every sensible person in public life also feels redeemed by others. You
+may write a mediocre column or make a mediocre speech or propose a mediocre
+piece of legislation, but others argue with you, correct you and introduce
+elements you never thought of. Each of these efforts may also be flawed, but
+together, if the system is working well, they move things gradually forward.
+
+Each individual step may be imbalanced, but in succession they make the social
+organism better.
+
+As a result, every sensible person feels a sense of gratitude for this
+process. We all get to live lives better than we deserve because our
+individual shortcomings are transmuted into communal improvement. We find
+meaning  and can only find meaning  in the role we play in that larger
+social enterprise.
+
+So this is where civility comes from  from a sense of personal modesty and
+from the ensuing gratitude for the political process. Civility is the natural
+state for people who know how limited their own individual powers are and
+know, too, that they need the conversation. They are useless without the
+conversation.
+
+The problem is that over the past 40 years or so we have gone from a culture
+that reminds people of their own limitations to a culture that encourages
+people to think highly of themselves. The nation’s founders had a modest but
+realistic opinion of themselves and of the voters. They erected all sorts of
+institutional and social restraints to protect Americans from themselves. They
+admired George Washington because of the way he kept himself in check.
+
+But over the past few decades, people have lost a sense of their own
+sinfulness. Children are raised amid a chorus of applause. Politics has become
+less about institutional restraint and more about giving voters whatever they
+want at that second. Joe DiMaggio didn’t ostentatiously admire his own home
+runs, but now athletes routinely celebrate themselves as part of the self-
+branding process.
+
+So, of course, you get narcissists who believe they or members of their party
+possess direct access to the truth. Of course you get people who prefer
+monologue to dialogue. Of course you get people who detest politics because it
+frustrates their ability to get 100 percent of what they want. Of course you
+get people who gravitate toward the like-minded and loathe their political
+opponents. They feel no need for balance and correction.
+
+Beneath all the other things that have contributed to polarization and the
+loss of civility, the most important is this: The roots of modesty have been
+carved away.
+
+President Obama’s speech in Tucson was a good step, but there will have to be
+a bipartisan project like comprehensive tax reform to get people conversing
+again. Most of all, there will have to be a return to modesty.
+
+In a famous passage, Reinhold Niebuhr put it best: “Nothing that is worth
+doing can be achieved in our lifetime; therefore, we must be saved by hope.
+... Nothing we do, however virtuous, can be accomplished alone; therefore, we
+are saved by love. No virtuous act is quite as virtuous from the standpoint of
+our friend or foe as it is from our standpoint. Therefore, we must be saved by
+the final form of love, which is forgiveness.”

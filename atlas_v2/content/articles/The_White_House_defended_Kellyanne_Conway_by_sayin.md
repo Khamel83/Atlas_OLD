@@ -1,0 +1,106 @@
+# The White House defended Kellyanne Conway by saying its employees don’t have to follow ethics rules | Vox
+
+**Source**: http://www.vox.com/policy-and-politics/2017/3/9/14873480/conway-oge-white-house-ethics-violation
+**Type**: article
+**Created**: 2025-08-13T17:29:50.879405
+
+---
+
+title: The White House defended Kellyanne Conway by saying its employees don’t have to follow ethics rules | Vox
+source: http://www.vox.com/policy-and-politics/2017/3/9/14873480/conway-oge-white-house-ethics-violation
+date: 2025-08-13T17:29:49.398660
+tags: []
+---
+The White House tried to claim that federal ethics rules shouldn’t apply to
+its employees. The Office of Government Ethics, responsible for making sure
+those rules are enforced, says that’s not true.
+
+Now Democrats on the House Oversight Committee have [written the White House
+counsel](https://medium.com/oversightdems/white-house-claim-that-ethics-rules-
+do-not-apply-3fcf7dacc0a0#.qmdom0toh) asking for clarification on the matter.
+“The President’s staff need to follow ethics rules — not flout them,” the
+[letter](https://drive.google.com/viewerng/viewer?url=https://democrats-
+oversight.house.gov/sites/democrats.oversight.house.gov/files/documents/2017-03-09.EEC%2520to%2520WH%2520Counsel%2520re.OGE__0.pdf)
+read. “When they violate these rules, the President must impose discipline,
+not invent a legal fiction that these rules do not apply.”
+
+In a [letter](http://i2.cdn.turner.com/cnn/2017/images/03/01/white-house-
+letter-office-of-government-ethics-feb28.pdf?iid=EL) last month responding to
+the flap over Kellyanne Conway’s promotion of first daughter Ivanka Trump’s
+Nordstrom merchandise, the White House said that “many” federal ethics
+regulations don’t apply to executive branch employees.
+
+The real purpose of the letter was to explain what the White House was doing
+(or not doing) to discipline Conway after she endorsed Trump’s products from
+the White House, a violation of federal ethics rules.
+
+On February 9, Conway [appeared on _Fox &
+Friends_](http://insider.foxnews.com/2017/02/09/kellyanne-conway-ivanka-trump-
+retailers-go-buy-her-stuff) in the midst of a one-sided fight between
+[President Trump and Nordstrom department stores](http://www.vox.com/policy-
+and-politics/2017/2/10/14559744/donald-trump-vs-nordstrom-explained). The
+popular retailer had recently announced that it would stop carrying products
+from Ivanka Trump’s fashion line. Conway, speaking from the White House
+briefing room, said, “Go buy Ivanka’s stuff, is what I would tell you.”
+
+[Federal ethics rules](http://www.vox.com/policy-and-
+politics/2017/2/9/14561864/kellyanne-conway-ivanka-trump-nordstrom) prohibit
+employees in the executive branch from endorsing [“any product, service, or
+enterprise.”](https://www.law.cornell.edu/cfr/text/5/2635.702) On February 13,
+OGE Director Walter Shaub sent a
+[letter](https://oge.gov/web/oge.nsf/All%20Congressional%20Correspondence/C0FB10B1D8C71A02852580C7006E9E55/%24FILE/Letter%20from%20OGE%20Director%20to%20HOGR%20Chairman%20and%20Ranking%20Member.pdf?open)
+to the White House recommending that “the employing agency investigate the
+matter and consider taking disciplinary action.”
+
+But the top White House ethics official — Deputy Counsel for Compliance and
+Ethics Stefan Passantino — defended Conway against allegations of ethical
+violations. [Writing in
+response](http://i2.cdn.turner.com/cnn/2017/images/03/01/white-house-letter-
+office-of-government-ethics-feb28.pdf?iid=EL) to the OGE, Passantino described
+the conclusions of a White House “inquiry”:
+
+> Upon completion of our inquiry, we concluded that Ms. Conway acted
+> inadvertently and is highly unlikely to do so again. It is noted that Ms.
+> Conway made the statement in question in a light, off-hand manner while
+> attempting to stand up for a person she believed had been unfairly treated
+> and did so without nefarious motives or intent to benefit personally. Both
+> before and after receiving your letter, I personally met with Ms. Conway and
+> advised her that her comments regarding Ms. Trump’s products implicated the
+> prohibition on using one’s official position to endorse a product or
+> service. Ms. Conway has acknowledged her understanding of the Standards and
+> has reiterated her commitment to abiding by them in the future.
+
+Passantino also claimed that employees of the executive office of the
+president aren’t bound by many federal ethics rules. Shaub was not impressed.
+
+There is “no legal basis” for this claim, Shaub wrote in his response
+Thursday. Regardless of whether Conway is disciplined by the White House, all
+employees of the executive branch _are_ subject to [federal ethics
+rules](http://www.ecfr.gov/cgi-bin/ECFR?page=browse). The only exceptions to
+that are the president and vice president, who are
+[exempt](https://www.law.cornell.edu/uscode/text/18/208) from certain
+regulations under the theory that they have so much power that any action
+could pose a potential conflict.
+
+Trump, for his part, has touted this exemption in the past. “The president
+can’t have a conflict of interest,” he said in a [November
+interview](https://www.nytimes.com/2016/11/23/us/politics/trump-new-york-
+times-interview-
+transcript.html?hp&action=click&pgtype=Homepage&clickSource=story-
+heading&module=b-lede-package-region&region=top-news&WT.nav=top-
+news&_r=1&mtrref=www.washingtonpost.com&gwh=2D06C306E3AAD5D8D72D30E42ECBABB0&gwt=pay)
+with the New York Times.
+
+Of course, Trump may have many [conflicts of
+interest](http://www.vox.com/2016/12/9/13799904/trump-corruption-conflict-of-
+interest), and though he is exempt from certain regulations,
+[several](http://www.vox.com/policy-and-politics/2017/1/24/14358654/trump-
+lawsuit-emoluments-clause-constitution)
+[lawsuits](https://www.washingtonpost.com/politics/dc-restaurant-sues-trump-
+hotel-for-unfair-
+competition/2017/03/09/2e254454-04db-11e7-9d14-9724d48f5666_story.html) have
+been filed against him arguing he violates the [emoluments clause of the
+Constitution](http://www.vox.com/policy-and-
+politics/2016/11/23/13715150/donald-trump-emoluments-clause-constitution),
+which prohibits government officials from accepting gifts or payments from
+foreign governments.

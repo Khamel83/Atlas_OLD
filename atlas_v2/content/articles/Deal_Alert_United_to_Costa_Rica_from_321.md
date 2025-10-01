@@ -1,0 +1,26 @@
+# Deal Alert: United to Costa Rica from $321
+
+**Source**: http://thepointsguy.com/2015/08/united-to-costa-rica-from-321/
+**Type**: article
+**Created**: 2025-08-13T18:50:02.595506
+
+---
+
+title: Deal Alert: United to Costa Rica from $321
+source: http://thepointsguy.com/2015/08/united-to-costa-rica-from-321/
+date: 2025-08-13T18:49:55.954636
+tags: []
+---
+### Advertiser Disclosure
+
+Many of the credit card offers that appear on the website are from credit card
+companies from which ThePointsGuy.com receives compensation. This compensation
+may impact how and where products appear on this site (including, for example,
+the order in which they appear). This site does not include all credit card
+companies or all available credit card offers. Please view our [advertising
+policy page](/web/20210617075439/https://thepointsguy.com/advertising-policy/)
+for more information.
+
+Editorial Note: Opinions expressed here are the author’s alone, not those of
+any bank, credit card issuer, airlines or hotel chain, and have not been
+reviewed, approved or otherwise endorsed by any of these entities.

@@ -1,0 +1,251 @@
+# Egypt’s Tahrir Alley boosts start-ups despite political instability and violence
+
+**Source**: https://qz.com/1146981/egypts-tahrir-alley-boosts-start-ups-despite-political-instability-and-violence/
+**Type**: article
+**Created**: 2025-08-13T16:50:38.495385
+
+---
+
+title: Egypt’s Tahrir Alley boosts start-ups despite political instability and violence
+source: https://qz.com/1146981/egypts-tahrir-alley-boosts-start-ups-despite-political-instability-and-violence/
+date: 2025-08-13T16:50:31.286911
+tags: []
+---
+Cairo
+
+It was the lunches in his office in Lebanon’s capital Beirut that first got
+Waleed Abd El Rahman thinking about the food business. As a busy professional,
+the Egyptian entrepreneur had the selection of eating greasy fast food or
+overpriced but healthy meals from nearby restaurants. Another option was to
+order a home-cooked meal from a local trader, which was nutritious but wasn’t
+regularly available or arrived on time.
+
+Waleed reckoned that most of these women traders made decent returns only when
+they cooked for big company events or during religious celebrations like
+Ramadan and Eid. Like the cooks in his home country, they weren’t also well-
+connected to their customers, many of whom were professionals like him in
+search of healthier choices. If this was done successfully, he thought, it
+would allow the women to scale up their business, do something they are
+passionate about regularly, and achieve financial freedom.
+
+And so in Oct. 2015, Waleed quit his job as the managing director of the MIT
+Technology Review Arab Edition and moved back to Cairo to start
+[Mumm](http://web.archive.org/web/20221206185258/http://www.getmumm.com/), an
+on-demand, home-cooked food service. The platform, which enlists both Egyptian
+and [Syrian refugee
+cooks](http://web.archive.org/web/20221206185258/https://www.youtube.com/watch?v=KazX4fvRWE4),
+trains them on food safety and quality, markets their specialty dishes, and
+ultimately helps deliver a fresh hot meal to customers in between 60-90
+minutes.
+
+“The whole business and show is about and around them,” Waleed says. “It’s
+about empowering them further with self-actualization.”
+
+That audacious sense of achievement is something that pervades Egyptian
+startups as they gain a prominent profile in Africa’s tech landscape. Despite
+a government crackdown on civil liberties and [independent
+websites](http://web.archive.org/web/20221206185258/https://qz.com/1017939/egypt-
+has-blocked-huffington-post-al-jazeera-medium-in-growing-censorship-
+crackdown/), a militant insurgency in parts of the country, [deadly terrorist
+attacks](http://web.archive.org/web/20221206185258/https://qz.com/1138020/egypt-
+mosque-attack-isis-terrorists-suspected-in-sinai-peninsula-as-egypt-fails-to-
+curb-insurgency/), and a [dramatic fall in
+tourism](http://web.archive.org/web/20221206185258/https://qz.com/1077425/egypts-
+tourism-looks-to-revive-after-years-of-sluggish-growth/), Egypt’s nascent tech
+scene remains a bright spot for the country. And after years of being scared
+off by political turmoil, investors are making a comeback with fundraising for
+Egyptian startups
+[jumping](http://web.archive.org/web/20221206185258/https://qz.com/892524/startup-
+investment-is-making-a-comeback-in-north-africa/) 105% in 2016 alone.
+
+“One of the biggest wins for the revolution is that it made a lot of people
+believe in themselves.”
+
+The availability of a large market of almost 100 million people, a young and
+tech-savvy populace, rising internet penetration, and the ubiquity of
+inefficiencies in the public sector have coalesced to boost this technological
+transformation. It has also enabled an environment where many can access
+employment opportunities in the digital sector, influence or alter social and
+family dynamics and build better futures.
+
+Since the 2011 Arab Spring revolution, homegrown companies in Egypt have been
+created to detect and report bugs
+([Instabug](http://web.archive.org/web/20221206185258/https://instabug.com/)),
+navigate traffic
+([Bey2ollak](http://web.archive.org/web/20221206185258/https://desktop.bey2ollak.com/)),
+compare online shopping prices
+([Yaoota](http://web.archive.org/web/20221206185258/https://yaoota.com/)),
+digitize death and obituary services
+([ElWafeyat](http://web.archive.org/web/20221206185258/http://elwafeyat.com/))
+and provide free crowdsourced online video education
+([Nafham](http://web.archive.org/web/20221206185258/https://www.nafham.com/egypt)).
+
+Some of these companies, like online recruitment platform
+[Wuzzuf](http://web.archive.org/web/20221206185258/https://wuzzuf.net/jobs/egypt)
+and Instabug, have even been fully absorbed by Silicon Valley accelerators,
+establishing offices in San Francisco.
+
+This boom, some say, is symptomatic and directly linked to the popular and
+largely nonviolent demonstrations that rocked the country in 2011 and forced
+out the dictator Hosni Mubarak who ruled the country for over three decades.
+While a significant amount of groundwork was done in the years prior, the
+civil resistance movement had a snowball effect says Amira Ahmed, who has more
+than a decade of experience working in and writing about the tech scene in
+Egypt.
+
+“There has been a much more deliberate building up of the ecosystem since 2011
+and from then on, the momentum has only increased so that we’ve really seen
+the ecosystem start to take a more coherent shape.”
+
+And even though the drive for democracy [largely
+failed](http://web.archive.org/web/20221206185258/https://www.theguardian.com/commentisfree/2016/jan/15/arab-
+spring-badly-wrong-five-years-on-people-power), Waleed says it left many young
+people with the chutzpah to start their own businesses and get connected. “One
+of the biggest wins for the revolution is that it made a lot of people believe
+in themselves,” he said.
+
+Women attend a cooking class conducted by Egyptian NGO Fard and Egyptian
+startup Mumm in Cairo, Egypt.Image: Reuters/Mohamed Abd El Ghany
+
+## **Tahrir Alley:**
+
+## ****
+
+The best place to document the budding tech scene is to visit the GrEEK Campus
+located in downtown Cairo, just a few blocks from where the main revolution
+protests took place in Tahrir Square. Founded in 2013, the campus, also known
+as Tahrir Alley & Technology Park, is the first of its kind in the capital and
+offers private and co-working spaces to both startups as well as established
+multinational technology and media companies.
+
+Leased from the American University in Cairo, the hub was founded by Ahmed El
+Alfi, a former venture capitalist and a [2017 Quartz Africa
+Innovator](http://web.archive.org/web/20221206185258/https://qz.com/973199/quartz-
+africa-innovators-2017/). Over the years, El Afli has become an invaluable
+member of the Middle East and North Africa’s rapidly growing tech industry. He
+is the chairman of [Sawari
+Ventures](http://web.archive.org/web/20221206185258/http://www.sawariventures.com/),
+a company that aims to transform regional economies through investments in
+high-impact businesses, and is also the co-founder of
+[Flat6Labs](http://web.archive.org/web/20221206185258/http://www.flat6labs.com/),
+a leading regional startup accelerator that provides seed funding and
+mentorship to hundreds of entrepreneurs and businesses.
+
+The GrEEK Campus was established at a time when the local tech ecosystem was
+anything but favorable for Egyptian entrepreneurs. Too many obstacles stood in
+their way at the time, key among them access to finance. Ahmed also says that
+government red tape, poor infrastructure, lack of technical skills, laws that
+discourage entrepreneurship, and the inability to follow best business
+practices to ensure long-term sustainability were some of the problems that
+plagued the sector.
+
+But El Alfi, who had been an early stage investor abroad for decades, was
+ready to incubate and nurture small businesses. One of the companies he co-
+founded at the time was
+[Nafham](http://web.archive.org/web/20221206185258/https://www.nafham.com/), a
+free K-12 online education platform that provides 5-15 minutes video lessons
+covering Egyptian, Algerian, Saudi, and Syrian curricula from primary to
+secondary school. The platform has 23,000 videos with over 430,000 subscribers
+watching the lessons through its [YouTube
+channel](http://web.archive.org/web/20221206185258/https://www.youtube.com/user/NafhamEducation).
+The app also has tutors who answer students’ questions, and check the veracity
+of videos uploaded by contributors.
+
+Mostafa Farahat, a co-creator of Nafham, says they wanted to see how digital
+technologies could disrupt educational provision in a country where poor
+infrastructure and [overcrowded
+schools](http://web.archive.org/web/20221206185258/http://www.aljazeera.com/indepth/features/2013/12/inside-
+egypt-dismal-primary-schools-201312157919225472.html) hinder the full
+development of children. After five years of operation, Farahat says they now
+want to experiment with artificial intelligence and how it can enhance greater
+levels of individualized learning. They also want to introduce a premium
+service model that would allow students to get much more comprehensive or
+tailored support from teachers.
+
+Technology, he said, allows for solutions that “can have a great impact. You
+come to understand that the country could be transformed into something
+different or better.”
+
+The eagerness to crack a problem that even governments are still unable to
+solve is also what pushed Mostafa Kandil to launch
+[Swvl](http://web.archive.org/web/20221206185258/https://swvl.io/) in early
+2017. The bus transportation service in Cairo allows passengers to customize
+their journey by finding the shortest routes, reserve their space in a bus,
+and then pay their fares through the company’s mobile app. In a city with
+notorious traffic pr0blems, Kandil says Swvl provides an alternative to locals
+from the unreliable public transportation, the costly ride-sharing services,
+not to mention the hustle of fueling their own private cars amid a protracted
+[fuel shortage
+crisis](http://web.archive.org/web/20221206185258/https://qz.com/1020105/egypts-
+austerity-cuts-have-been-great-for-investors-but-not-for-egyptians/).
+
+“For us, it was like a no-brainer,” Kandil, who is a former executive at the
+Dubai-based Uber rival Careem, said. “The demand is insane. The supply is
+great.”
+
+Just three months after it started operation, Careem
+[invested](http://web.archive.org/web/20221206185258/https://www.forbesmiddleeast.com/en/careem-
+invests-in-egyptian-transportation-startup-swvl/) $500,000 into Swvl, which
+currently operates hundreds of buses and serves thousands of customers per
+day. Uber has also [announced
+plans](http://web.archive.org/web/20221206185258/https://qz.com/1084624/cairo-
+uber-is-getting-set-to-launch-national-bus-service-in-egyp/) to launch a
+national bus service in Egypt.
+
+Swvl has already started operating in Alexandria, and Kandil says they hope to
+expand to Jordan, Pakistan, and Saudi Arabia. “This mix of young people, who
+are talented and tech-savvy with a lot of problems to solve and a huge market
+to serve is like a secret sauce for building great stuff,” he said.
+
+But to launch this grassroots tech movement into the global stage, there’s an
+urgent need to connect startups to relevant resources. Since 2013, Abdelhameed
+Sharara has run [RiseUp
+Summit](http://web.archive.org/web/20221206185258/https://riseupsummit.com/#/),
+an annual innovation event that brings together investors and entrepreneurs
+from both Egypt and all over the world in order to create new partnerships.
+The three-day event, which takes place at the GrEEK Campus, provides startups
+exposure, access to talent, contacts, and much-needed capital.
+
+The RiseUp Summit at the GrEEK campus has grown to be the Middle East and
+North Africa’s largest innovation and entrepreneurship summit.Image:
+Courtesy/RiseUp Summit
+
+The rise of the summit’s profile has also encouraged investment programs like
+[Injaz](http://web.archive.org/web/20221206185258/http://injaz-egypt.org/),
+[Wamda](http://web.archive.org/web/20221206185258/https://www.wamda.com/), and
+[Cairo
+Angels](http://web.archive.org/web/20221206185258/http://cairoangels.com/) to
+further accelerate the tech entrepreneurship ecosystem in Egypt. Following in
+these footsteps, the government also established an incubator, The Technology
+Innovation and Entrepreneurship Center, to drive innovation and benefit the
+national economy. Sharara says the main point behind the summit is to also
+pass the message that even though startups might fail, it is persistence that
+is key.
+
+“You want to connect start-ups with the most available resources but also
+inspire them,” Sharara told Quartz. “So there’s this huge, positive vibe that
+comes from this grassroots movement inside the event, close to what happened
+at the revolution.”
+
+## **Improving the ecosystem**
+
+As the ecosystem grows and accessing finance improves, observers say there’s
+need for big steps to improve the system. There’s a lot of focus on seed and
+early-stage funding, Ahmed says, but more venture capital and private equity
+funds have to come in to keep up with the growing number of start-ups that
+need to move up to their stage of development. If the government is serious
+about supporting the industry, they should also introduce policies that make
+it easy for companies to grow. Education systems should also foster modern
+analytical and digital know-how skills that many start-ups need.
+
+“The inspiring thing about entrepreneurs is that they always find a
+workaround. It shouldn’t be that way though,” Ahmed said.
+
+Waleed from Mumm says that these obstacles also push more innovators to tinker
+with the system, improve it, and create a better marketplace for all to
+compete in.
+
+“We still have so much to do,” Waleed agrees. “But there is this striving
+ecosystem that is growing very very quickly and it is governed by a social
+contract that has a lot of ethics that is geared towards building this space,
+and making Egypt a better place.”

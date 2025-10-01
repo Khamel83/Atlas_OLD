@@ -1,0 +1,255 @@
+# Activism Might Have an Antitrust Problem - Bloomberg View
+
+**Source**: http://www.bloombergview.com/articles/2016-04-04/shareholder-activism-might-have-antitrust-issues
+**Type**: article
+**Created**: 2025-08-13T18:15:10.861544
+
+---
+
+title: Activism Might Have an Antitrust Problem - Bloomberg View
+source: http://www.bloombergview.com/articles/2016-04-04/shareholder-activism-might-have-antitrust-issues
+date: 2025-08-13T18:14:58.258562
+tags: []
+---
+Of all the fringe conspiracy theories in the financial world, my favorite is
+[the
+theory](http://web.archive.org/web/20160423011948/http://www.bloombergview.com/articles/2015-04-16/should-
+mutual-funds-be-illegal-) that it is or should be illegal for investors to own
+shares in multiple companies in the same industry. It is lovely, first of all,
+because it is  _so_ dramatically kooky: It would irreparably render illegal
+the most basic architecture of modern finance, like diversified mutual funds
+and, especially, index funds. The whole modern push toward low-cost
+diversified investing would be gone; in a flash, we'd be back to the dark ages
+of expensive and risky stock-picking.
+
+But it also has a [sneaky
+appeal](http://web.archive.org/web/20160423011948/http://www.bloombergview.com/articles/2015-07-22/index-
+funds-may-work-a-little-too-well). There  _is_ something a bit weird about so
+many public companies, which are theoretically locked in the bitter struggle
+of capitalist competition against each other, all being owned by the same
+half-dozen mutual fund complexes. It is not entirely crazy to look at those
+complexes and see the old-timey "trusts," dressed up in modern financial
+theory. If BlackRock and Vanguard and Fidelity own shares in every big company
+in an industry, why _should_ they want those companies to compete hard against
+each other? And if the shareholders don't want it, why should the managers
+compete? If you worry that U.S. companies are increasingly being managed on
+the behalf of a unitary shareholder class, at the expense of workers and
+consumers, well, you are not alone. The U.S. Department of Justice [might
+even](http://web.archive.org/web/20160423011948/http://www.bloombergview.com/articles/2015-07-02/mergers-
+clawbacks-and-unicorns) be with you.
+
+The Justice Department's [antitrust lawsuit
+today](http://web.archive.org/web/20160423011948/https://www.justice.gov/opa/pr/justice-
+department-sues-valueact-violating-premerger-notification-requirements)
+against ValueAct Capital isn't  _exactly_ an endorsement of that fringe
+theory. But it is something. It moves that theory a bit closer to the
+mainstream, and provides a lot of ammunition to those who worry that cross-
+ownership and shareholder-focused capitalism could be bad for competition.
+
+The background here is that there is a law, the Hart-Scott-Rodino Antitrust
+Improvements Act of 1976, that requires an investor to notify the government
+before it buys more than about $76 million worth of the stock of a company.
+This gives the government the chance to block the acquisition if it thinks
+that it's likely to reduce competition. Given that purpose, the HSR Act is
+mostly aimed at mergers and acquisitions by competitors, and [there is an
+exception](http://web.archive.org/web/20160423011948/https://www.law.cornell.edu/cfr/text/16/802.9)
+for investors who buy less than 10 percent of the stock of a company "solely
+for the purpose of investment," because that is unlikely to create a monopoly.
+
+But no one quite knows what "solely for the purpose of investment" means. We
+[talked last
+summer](http://web.archive.org/web/20160423011948/http://www.bloombergview.com/articles/2015-08-25/dan-
+loeb-s-hedge-fund-filed-a-form-late) about an antitrust lawsuit against Dan
+Loeb's activist hedge fund, Third Point. In that case, the Federal Trade
+Commission took the view that Third Point's activism at Yahoo disqualified it
+from using the exemption. Third Point disagreed, and the case was settled with
+no admission of wrongdoing, no financial penalty, and a certain amount of
+bemusement all around. The thing is, whatever you think about the "solely for
+the purpose of investment" stuff, Third Point was just obviously not harming
+competition by buying 5.15 percent of Yahoo. More than that: Third Point's
+involvement in Yahoo probably made it  _more_ competitive. Two of the five
+commissioners [dissented
+from](http://web.archive.org/web/20160423011948/https://www.ftc.gov/system/files/documents/public_statements/777351/150824thirdpointohlhausen-
+wrightstmt.pdf) the FTC's decision to go after Third Point, arguing that its
+purchases "presented absolutely no threat of competitive harm" and that
+activism "often generates well-documented benefits to the market for corporate
+control."
+
+But the Third Point case perhaps paved the way for the Justice Department's
+case against ValueAct. In 2014, Halliburton agreed to buy Baker Hughes, its
+competitor in the oil-field services industry, though the deal remains under
+antitrust review today. According to the [Justice Department
+complaint](http://web.archive.org/web/20160423011948/http://assets.bwbx.io/documents/users/iqjWHBFdfxIU/rH.FSjiEsg04/v0),
+after the deal was announced, ValueAct started buying stock in both companies,
+crossing the $76-million-ish threshold in Baker Hughes on Dec. 1, 2014, and in
+Halliburton on Dec. 5, and ultimately getting to about $2.5 billion in stock
+between the two companies.
+
+But ValueAct didn't initially file an antitrust notification under the HSR Act
+for either company, presumably because it thought its purchases were "solely
+for the purposes of investment." You can see why it might think that. It
+wasn't doing much. And it was buying shares in a company that was being
+acquired. There isn't a lot of scope for activism there; you can't really
+advocate too many strategic changes for Baker Hughes when its strategy is to
+merge out of existence. I mean, you could advocate one strategic change -- to
+block the merger -- but ValueAct didn't do that. It liked the merger. It told
+investors that it would be "a strong advocate for the deal to close," and sat
+back and waited for that to happen.
+
+Eventually the deal looked less likely to close (because the Justice
+Department opposed it for antitrust reasons), and ValueAct became more
+activist in Baker Hughes, filed an HSR, and sold down its Halliburton stake.
+But the question in the Justice Department's case is whether ValueAct owned
+Halliburton and Baker Hughes "solely for the purpose of investment" starting
+in about December 2014, _before_ the merger started looking risky. The Justice
+Department says no, citing ValueAct's plans to advocate for the merger:
+
+> Although the memoranda ultimately shared with investors watered down the
+> words used to describe ValueAct’s activist strategy, they still emphasized
+> that purchasing a stake in Halliburton and Baker Hughes would “increase
+> probability of deal happening” and would allow ValueAct to be “a strong
+> advocate for the deal to close.” ValueAct identified this as one of three
+> “key considerations” supporting its investment decision. A contemporaneous
+> email among ValueAct partners remarked that if Halliburton’s shareholders
+> threatened to vote against the deal, ValueAct’s “position in HAL should be
+> meaningful enough to have a substantial role in those conversations.”
+>
+> ValueAct also intended to help restructure the merger if it hit roadblocks.
+> On December 16, 2014, ValueAct’s CEO emailed his partners: “if we own both
+> we can drive new terms to get the deal done if weird [expletive] is
+> happening.” ValueAct also expressed this view in its memos to investors: “In
+> the event of further fundamental dislocation or regulatory issues, it is
+> possible the deal would need to be restructured and we believe ValueAct
+> Capital would be well positioned as an owner of both companies to help
+> develop the new terms.”
+
+ValueAct also "established a direct line to senior management at both
+Halliburton and Baker Hughes and met with them frequently from the time it
+started acquiring stock," discussed the business with them, and offered “to
+speak with any of [Halliburton’s] top shareholders about [ValueAct’s] view of
+the merger prior to the vote.”
+
+The Justice Department views all of this as evidence that ValueAct's purchases
+"did not qualify for the narrow exemption from the requirements of the HSR Act
+for acquisitions made solely for the purpose of investment." ValueAct
+strenuously disagrees, saying in an e-mailed statement:
+
+> ValueAct strongly believes in the most basic principles of shareholder
+> rights. This includes having a relationship with company management,
+> conducting due diligence on investments, and engaging in ordinary course
+> communications with other shareholders. As a result, we see no alternative
+> but to contest the Department of Justice’s action and will vigorously defend
+> our position.
+
+Sure, demanding board representation or mounting a proxy fight is something
+more than "solely for the purposes of investment." But just  _talking to
+management and other shareholders_ isn't. If you are a big investor, talking
+to management is just a basic part of your job, a necessary condition of any
+investment: It would be irresponsible to invest $2.5 billion -- especially in
+two companies with a merger pending --  _without_ talking to management and
+other shareholders. If "solely for the purposes of investment" forbids sharing
+ideas with management and other shareholders, or even supporting management in
+decisions that it has already made, then almost no actual investments qualify.
+
+I suspect that the Justice Department would more or less agree, perhaps
+grudgingly, that talking to management and other shareholders doesn't, in
+general, disqualify an investor from the "solely for the purposes of
+investment" exception. But you can still see why it doesn't like what ValueAct
+did here.
+
+First of all, ValueAct clearly set itself up as an advocate for the
+Halliburton-Baker Hughes merger, and the Justice Department, pretty clearly,
+doesn't like the merger. From [Bloomberg
+News](http://web.archive.org/web/20160423011948/http://www.bloomberg.com/news/articles/2016-04-04/valueact-
+sued-by-u-s-over-halliburton-baker-hughes-purchases):
+
+> The filing offered an unusual glimpse into the Justice Department’s
+> skepticism about the deal. "ValueAct established these positions as
+> Halliburton and Baker Hughes were being investigated for agreeing to a
+> merger that threatens to substantially lessen competition in numerous
+> markets," it said in the ValueAct complaint.
+
+If the Justice Department thinks that the merger is anticompetitive, it can
+try to block the merger. But if it thinks that the merger is anticompetitive,
+then it stands to reason that ValueAct's purchases and advocacy of the merger
+were  _also_ , derivatively, anticompetitive, so why not go after ValueAct
+too? This isn't like the Third Point situation, where an activist advocated
+for more competition; here, the activist wanted a merger that the Justice
+Department dislikes.
+
+Second, ValueAct did this:
+
+> In presentations, ValueAct has explained that it likes “disciplined
+> oligopolies” and looks to invest in businesses in “[o]ligopolistic markets,
+> high barriers-to-entry.”
+
+That has nothing to do with anything, really, but the Justice Department
+nonetheless included it in the complaint because it sure is suggestive. Aha,
+says the Justice Department. You  _like_ uncompetitive industries. We'll have
+to keep an eye on you.
+
+Third, ValueAct didn't just buy shares in Baker Hughes, the target. It also
+bought shares in Halliburton, the acquirer. Those companies had agreed to
+merge, yes, but that merger was still subject to antitrust approval; until the
+deal was approved, they were still notionally fierce competitors. But ValueAct
+obviously wanted them to combine, and talked about using its position in
+_both_ companies to smooth the merger process. Given its situation -- buying
+shares in both companies after the merger was announced, in anticipation of
+the merger closing and the companies combining -- it presumably had little
+interest in fierce competition between the two firms.
+
+If you believe in my favorite fringe theory, those are all big red flags. You
+have a big investor that talked explicitly about preferring "oligopolistic
+markets," that bought large stakes in two companies in a concentrated
+industry, and that used its stakes to push for those companies to complete a
+merger that the Justice Department is worried will reduce competition. You
+couldn't ask for better evidence that shareholder-focused capitalism and
+cross-ownership reduces competition.
+
+Of course the core of that theory is that large diversified mutual funds
+reduce competition, and this case has nothing to do with large diversified
+mutual funds. ValueAct isn't a diversified mutual fund; it's a concentrated
+value/activist fund that owns something like [14
+stocks](http://web.archive.org/web/20160423011948/https://www.sec.gov/Archives/edgar/data/1418814/000141881216000098/xslForm13F_X01/vac13f021616.xml).
+It is big for a hedge fund, with[ more than $16
+billion](http://web.archive.org/web/20160423011948/https://www.justice.gov/opa/pr/justice-
+department-sues-valueact-violating-premerger-notification-requirements) under
+management, but it is orders of magnitude smaller than BlackRock and Vanguard
+and the other fund complexes that own vast swaths of every U.S. public
+company. It is also far more active in governance and management than those
+fund complexes typically are.
+
+But you have to start somewhere, and ValueAct's size, concentration and
+activism make it a useful test case. If the Justice Department wins this case
+-- and ValueAct has [said it will
+fight](http://web.archive.org/web/20160423011948/http://www.bloomberg.com/news/articles/2016-04-04/valueact-
+sued-by-u-s-over-halliburton-baker-hughes-purchases) \-- then that will likely
+have a chilling effect on other investors. Conversations with management and
+other shareholders, which have normally been considered part of ordinary-
+course investing that qualifies for an antitrust exemption, will now be
+suspect. But not  _all_ conversations will be equally suspect. Pro-merger
+conversations, conversations between a company's managers and its competitors'
+shareholders, and activism by self-consciously pro-"oligopoly" investors will,
+I suspect, be particularly risky. Activities that the antitrust authorities
+like -- pushing breakups, competition, etc. -- may be safer.
+
+It is an odd and ugly test case, but it sure does look like a test case. The
+theory that the dominance of a shareholder class has reduced competition among
+real companies seems to be getting traction. But that is a vague and diffuse
+theory, driven by statistical analyses and theoretical mechanisms rather than
+clear stories and written evidence. But with ValueAct, the Justice Department
+_can_ tell a story in which a powerful shareholder used its cross-ownership of
+two competitors to advocate for an anticompetitive result. If the antitrust
+authorities  _are_ worried about shareholder capitalism reducing competition,
+and want to do something about it, this is as good a place to start as any.
+
+This column does not necessarily reflect the opinion of the editorial board or
+Bloomberg LP and its owners.
+
+To contact the author of this story:  
+Matt Levine  at
+[mlevine51@bloomberg.net](http://web.archive.org/web/20160423011948/mailto:mlevine51@bloomberg.net)
+
+To contact the editor responsible for this story:  
+James Greiff  at
+[jgreiff@bloomberg.net](http://web.archive.org/web/20160423011948/mailto:jgreiff@bloomberg.net)

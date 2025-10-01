@@ -1,0 +1,881 @@
+# Andrew Luck finally reveals why he walked away from the NFL - ESPN
+
+**Source**: https://www.espn.com/nfl/insider/insider/story/_/id/35163936/andrew-luck-reveals-why-walked-away-nfl
+**Type**: article
+**Created**: 2025-08-13T15:24:51.338346
+
+---
+
+title: Andrew Luck finally reveals why he walked away from the NFL - ESPN
+source: https://www.espn.com/nfl/insider/insider/story/_/id/35163936/andrew-luck-reveals-why-walked-away-nfl
+date: 2025-08-13T15:24:50.009254
+tags: []
+---
+When it came time to tell the rest of the world, Luck wrote it down. He sat at
+the counter in his kitchen and composed a retirement speech. He wrote longhand
+on a notepad and then typed parts and pieces into his laptop, polishing and
+rearranging as he went, titling it: ALUCK - FIRST DRAFT. It was strange to
+write. Usually, retirements are celebratory events at the end of storied
+careers. Nobody, not even Luck, would be celebrating this one. He used phrases
+like "I have a lot of clarity in this" and "it is the right decision for me."
+The cycle of getting hurt, rehabbing, getting hurt again, had brought him to
+this place, he said. A place where it was time to "remove himself from
+football."
+
+The sports world was stunned. This was a generational quarterback. A
+quarterback on track for the Hall of Fame. A quarterback who'd just won the
+Associated Press NFL Comeback Player of the Year Award. A rare quarterback who
+seemed born to do what he was doing. This was Andrew Luck.
+
+He delivered his speech, with trembling conviction. And the next day, at home,
+he couldn't pick an emotion. They were all tangled together, relief mixed with
+mourning, guilt mixed with a profound unburdening, a dozen thoughts and
+feelings that he couldn't name or even really describe. He had no idea what
+came next, or how hard it would be to find out. All he knew was that he didn't
+have to pretend anymore. He stepped into the shower and stood under the water,
+and with the steam rising started to cry.
+
+He stands outside his black Audi sedan, fiddling with gear, and threads his
+line. A group of kids watches him from a distance. Luck is slimmer and more
+defined than he was in his playing days. His eyes are under a heavy brow,
+conveying little and absorbing everything. He is still famous around town, for
+the hope he once provided and the fading hope that he could still one day
+provide it again. He snakes through woods, down to a quiet river. There are
+some small rocks set up on a bank, where Lucy arranged them a few days ago
+when she came here with her daddy. That makes him smile. He steps into the
+water, cold and clear and perfect for bass, and lets out line in quick
+movements.
+
+Time stretches out in front of him as it has stretched out in front of him
+since he threw a football better than almost anyone on the planet; strange and
+confusing, liberating and exhilarating, as he tries to understand how a game
+turned into an obligation and into a corruptive force.
+
+"How do you fall out of love with something you loved?" he says.
+
+He reels in his line and casts again and stares at the shimmering surface of
+the water.
+
+"Elements of decisions of why I did it that I'm still processing," he says.
+
+"I think ..."
+
+He feels a tug.
+
+"F--- yeah, dude!"
+
+His line tightens.
+
+"Haha!"
+
+He sets the hook.
+
+"Dude! Hahaha. Dude, it's such a good feeling. Yes! Oh, it's such a good
+feeling."
+
+The struggle lasts seconds before Luck pulls the bass from the water. He
+cradles it in his hands, which are gangly and huge, big enough to swallow
+laces or a fish. "Hey, buddy," he says, as he gently pries the hook from the
+fish's mouth and lets it loose. A silver flash disappears beneath the surface.
+He casts again, waiting for another tug on the line, over and over again, cast
+after cast, fish after fish, his best morning ever at this hole, until Lucy is
+due to be back from school, and it's time to go home.
+
+* * *
+
+**"YOU KNOW WHY** you're here, right?" Luck asks me in the kitchen of his
+house just north of Indianapolis on a quiet morning this past spring. It's the
+first in a series of days we'd spend together over five months this year, the
+first time he has spoken at length publicly since he retired.
+
+"No," I say.
+
+"Because you ski."
+
+He's only half-joking. I had written him a letter in October 2019, months
+after he walked away. He replied that he wanted to talk to me, but only when
+he was ready. Might be two months or two years, he said. He researched me and
+learned that I extreme ski. So does he. He has maps of resorts framed around
+his house and says there are days when he actually has considered going to
+work on the ski patrol.
+
+He pulls out a dozen eggs and some bacon while talking on the phone. It's
+amusing to watch him cook for Lucy, measured against what he could be doing
+today. If he had wanted to, Luck would be entering his 11th NFL season,
+probably with a contract worth double the $139 million deal he signed in 2016.
+Who knows, he might have a Super Bowl ring or two. He also might be single and
+angry, leaving himself to wonder if it was worth it.
+
+This is his routine on most days, while Nicole works as a television producer.
+He holds a tiny cast-iron skillet, focusing on the egg he cracks. He watches
+it sizzle, the only noise in the room.
+
+"Perfect size," he says.
+
+His house is bright and spacious, nestled on a lake just north of
+Indianapolis. He designed it before he retired, deploying his Stanford
+architecture degree to create a place "built for a quarterback," he says. Its
+physical therapy room is now a guest room. A film room is now an office. The
+house is five minutes from the Colts facility. He drives past it almost daily.
+Only recently has he decorated the house with football stuff, and most of it
+from Stanford. There is only one item from his pro football days on display: a
+framed painting that he received for winning Comeback Player of the Year in
+2018. In it, he is in full uniform, standing on a boat in a calm sea, no
+expression on his face, with a life preserver floating alongside him if he
+wants to jump.
+
+* * *
+
+**MOST DAYS AT** sunrise, with life still and coffee hot, Luck sits at one of
+the two desks in his study and writes down his thoughts, always in longhand on
+yellow legal pads. He read a self-help book that advocated journaling before
+the day begins in earnest, stream of consciousness stuff, and he says "it
+feels good to do something for yourself." Sometimes he journals about his
+daily tasks, sometimes it's deeper. The subtext is often football, and how a
+scripted life didn't fulfill the script. He rarely goes back and rereads them.
+He says he doesn't consider himself a strong writer. He journals to journal,
+not only helping him sort out his thoughts and clear his mind, but to feel
+closer to clarity.
+
+"What story am I telling myself?" he says.
+
+On a spring morning, as we sit near a garden and sip cappuccinos, he wants to
+arrive at a story he can live out. Conversations about his future usually turn
+into reexaminations of his past, of why he was initially drawn to a game that
+nearly ruined him.
+
+"Well, shoot. I don't think I had a choice. Haha," he says.
+
+He's not referring to his family somehow steering him into football, although
+his dad, Oliver, was an NFL quarterback for five years and was Andrew's hero.
+When you're expected to be not only a great quarterback but a transcendent
+one, when you come to love the addictive nirvana of fitting the ball into
+narrowing windows and also providing something to friends, helping their
+lives, when you are the consensus first overall draft pick two years running,
+and when you have leverage in every room you enter, he felt he had an
+obligation to see where it took him. Life moved at warp speed, from Stratford
+High School in Houston to Stanford and then the draft, with no time to
+consider or process.
+
+"What I didn't allow myself to explore enough was how much I loved football,"
+he says.
+
+Did he love football? He says he did. But all of the attention made him
+squirm, made him want to break out of a "story that felt written," he says.
+There was a media narrative that he led a limitless life -- that he could have
+been an architect, or engineer, or scientist, if he wanted -- when his life
+was actually fiercely limited.
+
+How much of your self-identity was tied to being a quarterback? I ask.
+
+"A lot. A lot. A LOT. And I didn't realize that until after the fact," he
+says.
+
+Luck entered the NFL with enormous expectations, as the No. 1 pick of the 2012
+draft and the successor to Peyton Manning. Though he found success, the burden
+was significant. Rafa Alvarez
+
+Luck has told himself a lot of stories over the years, trying to measure -- or
+discover -- the distance between his own narrative and his reality. He arrived
+in the NFL in 2012, with little idea that the greatest quarterbacks are often
+selfish and fragile, controlling and pouty, both the only adult in the room
+and a grown child. Peyton Manning had run the Colts building for 14 years,
+expanding the influence and impact of one player, and there was an expectation
+for Luck to do the same. He was 22. He had no idea how to run a professional
+football team. Early in his career, Luck chatted with left tackle [Anthony
+Castanzo](https://www.espn.com/nfl/player/_/id/13970/anthony-castonzo) about
+the requirements of great quarterbacks. "You have to believe that you are
+God's gift to the world, or else doubt will start to come in," Castanzo said.
+
+Luck's most natural version of himself was to be one of the guys, he says. But
+what worked at Stanford didn't work in the NFL. He felt too much pressure, and
+had to convince himself that he had "some level of control over the outcome"
+of a random game. So he became someone he didn't want to be -- or,
+specifically, he tapped into a part of his personality he didn't always
+relish. He ran offensive meetings. He was so involved in blocking and route-
+running techniques that players nicknamed him the assistant tight ends coach.
+When people visited his downtown condo and it was getting close to his 9:52
+p.m. bedtime during the season, Luck would disappear to the bathroom, brush
+his teeth, strip to his boxers, tell the group good night -- and kill the
+lights. He simplified his life to extremes, using a flip phone. He and his
+agent and uncle, Will Wilson, turned down most endorsements until he felt that
+he had accomplished something in the league. Trying to control every variable
+extended to dinners out with teammates, where he'd order for everyone without
+being asked. "To play quarterback, you're not allowed to worry about anything
+except the task at hand," Luck says. "And that seeps into other areas of life.
+It's not the healthiest way to live."
+
+Nicole witnessed it all, his longtime girlfriend who sometimes felt reduced to
+a silo in a siloed life. They had met at Stanford, after Luck got her number
+by pretending to have lost his cell phone and asking her to call it. She was
+independent and focused on her own aspirations, first earning her MBA at
+Indiana University and later working as a television producer. But Andrew
+simply decided her role and decided that she needed to be out of the
+spotlight. "I had no place," she says. Nicole got used to people acknowledging
+her only to ask for a photo of her boyfriend. "I didn't want to be a public
+figure, but that was part of the job," Luck says. "So why would I subject her
+to it? But we never had that conversation. I made the decision for her."
+
+Those decisions, his survival mechanisms, his "design," as he calls it,
+worked, both professionally and culturally. He became one of the best
+quarterbacks in football. He delivered in critical moments, helping to rally
+the Colts from a 38-10 third-quarter deficit to beat the Kansas City Chiefs in
+the playoffs in his second year. In his third season, the Colts reached the
+AFC Championship Game. A Super Bowl seemed inevitable. "We were progressing,"
+he says.
+
+Then, on a third down in the second quarter of the third game of the 2015
+season, Tennessee Titans defensive end [Brian
+Orakpo](https://www.espn.com/nfl/player/_/id/12439/brian-orakpo) hit Luck from
+behind, driving him into the ground. Luck hopped up, but he winced. Something
+was wrong.
+
+"It hurts," Luck told his uncle that night. "But I think it'll be all right."
+
+* * *
+
+**LUCK HAD NO** practical choice but to be all right. He had torn his right
+labrum, but he had what he calls a "deep, deep, deep, deep, DEEP" code within
+himself to never cede to pain, and especially to not discuss it. "If you're
+playing scared in any way, shape or form, it does not work," he says.
+
+Luck took that ethos to an extreme. During the 2016 offseason, after he missed
+nine games in 2015, with his labrum injury, a partial abdominal tear and a
+lacerated kidney from another hit, his shoulder simply wasn't working. He
+refused to level with anyone, leaving the team to believe that he was fully
+recovered. He had separated his AC (acromioclavicular) joint snowboarding in
+Colorado, flying back to Indianapolis that night for tests with the team. It
+didn't end up affecting the labrum but did further destabilize that entire
+region of his body. His new $139 million contract, making him the league's
+highest-paid player, provided security and increased pressure.
+
+Luck (here with tight end Jack Doyle, center, and long-snapper Matt Overton)
+missed nine games in 2015 with various injuries, which only hardened his
+resolve to play through pain: "If you're playing scared in any way, shape or
+form, it does not work." AP Photo/Phelan M. Ebenhack
+
+When training camp began, Luck's shoulder was a "subtle" rather than "obvious"
+injury, Wilson says. Muscles and joints that once worked smoothly now didn't.
+Luck's mind started to anticipate torment as he threw, and he wondered if it
+was his brain preemptively shutting down his body in those split seconds
+between spotting an open receiver and delivering the ball. Watching other
+quarterbacks throw sometimes made Luck cringe. The Colts' preseason opener
+that August against the Packers was cancelled due to poor field conditions,
+and Luck was secretly relieved to not have to throw in warmups. When the
+regular season arrived, he was on a pitch count during the week, practicing
+every other day, embarrassing him so much that he'd tell teammates, "I'm not
+throwing it as hard today."
+
+A trainer named Willem Kramer started to visit Luck. They had met years
+earlier. Kramer's wife, Jill, had been the volleyball coach at West Virginia
+when Oliver Luck was the athletic director. Kramer viewed both his practice
+and the human body holistically, and he had operated a rehab center in his
+native the Netherlands called Veel Beter, where soccer players would heal and
+return to the pitch only when ready. He would massage Luck's shoulder, trying
+to get him to game day. It worked, barely. Passes that Luck was accustomed to
+making now fluttered, accompanied by a stabbing sensation in his shoulder.
+
+He retreated even more inward. After the season ended, in January of 2017,
+Luck had labrum surgery at Stanford, by Dr. Marc Safran. The surgery was
+successful, but his shoulder was still weak -- and still causing him pain,
+leaving Luck to wonder if he had overdone it in rehab. Colts owner Jim Irsay
+told reporters in August that Luck's "progression could not be better," but
+when the season started, he still couldn't go. "His muscles weren't firing,"
+Kramer says.
+
+Luck blamed himself, feeling like a "failure for the first time in my life."
+Every daily act, from his posture as he sat, to how long he stood, became
+measured in terms of whether it helped or hurt his shoulder. "The relationship
+between pain and rational thought got all crossed," Luck says. All of the
+neuroses and habits that had helped him to become a great quarterback, or that
+he believed helped, conspired against him. "He couldn't shut it off," says
+Jack Doyle, a former Colts tight end and one of his best friends.
+
+Midway through the 2017 season, Luck, Colts general manager Chris Ballard and
+team doctors went on a secret tour of a handful of surgeons. At one point,
+Luck threw gentle passes on the top floor of a parking garage, his shoulder
+flaring up and doctors and trainers trying to pinpoint what was wrong. All
+told him something different, and all wanted to cut into him. But Luck also
+visited Safran, who told him that what the shoulder needed most was what he
+wanted to hear least: time. Luck hadn't taken a snap all season. He had no
+idea what to do, scared when many teammates assumed he was in total control.
+"He was Andrew Luck," Doyle says. "He had it all figured out. He was the man.
+That's all anyone ever told him, and that's what he believed."
+
+Luck asked Kramer to start visiting Indianapolis again for rehab. This time,
+though, Kramer said, "I'm not doing that. It's a waste of your time and a
+waste of my time."
+
+That surprised Luck; he didn't hear no often. Kramer told him that he was
+under too much pressure in Indianapolis, and that he needed a new environment.
+"Just you, Nicole, and your shoulder."
+
+He wanted him to go to Veel Beter. Or, specifically, he wanted Luck to want to
+go to Veel Beter, so that Luck felt agency over his own decisions, something
+he strangely felt bereft of, despite his stature both in the culture and
+within the Colts building. It was an odd feeling, not always logical, but so
+many choices in his life felt like false ones, obligations more than actual
+decisions, his life as a quarterback owned by so many entities, from the team
+to the city. "He just had a really hard time saying what he felt, what he
+wanted," Kramer says.
+
+Kramer made clear to Luck that they would go to the Netherlands with one goal.
+It wasn't for Luck to throw again. It was for him to have a chance of a pain-
+free, functional shoulder -- for "an aspiration of a foundation," Luck says.
+He had to convince the team of his plans. Team doctors were polite but
+suspicious of Kramer, tolerating him only out of respect for the franchise
+quarterback. Irsay decided to loan Luck his plane to fly to Amsterdam. Luck
+arrived at the gym the next day, Nov. 2, at 8 a.m., with no idea what to
+expect.
+
+* * *
+
+**THE FIRST DRILL** was called Snow Angels. On his back, Luck had to lift
+2.5-pound dumbbells an inch above the ground and motion his arms above his
+head. Luck tried -- and could do it with only his left arm. Luck glared at
+Kramer, so angry and dispirited that he couldn't process.
+
+"I can't do this," Luck said later that day.
+
+"You can," Kramer said.
+
+"It is too tough."
+
+"It's supposed to be tough. Was it painful?"
+
+"No."
+
+That's progress, Kramer said.
+
+That night, Nicole asked Luck how he felt, that day and overall.
+
+"I don't know," he said.
+
+But Luck knew. He was in a silent hell, scared and panicking. And Nicole was
+losing patience, tired of years of Andrew putting emotional guardrails around
+her. "I didn't have a place to contribute because Andrew wouldn't
+communicate," she says. Nicole felt uniquely equipped to help. She had been a
+gymnast in her native Czech Republic, and her childhood was spent in various
+training facilities across America, sometimes for years. She became so
+prolific at Stanford that she invented her own move on the uneven bars, called
+the Pechancova. And before she was 21 years old, she had broken a shin, an
+ankle, her back, and torn up her knee, forcing her to consider life beyond
+gymnastics.
+
+"I've been injured my whole life," she told him.
+
+At first, Luck wasn't in the mood to hear it. He couldn't hear it. He wasn't
+sleeping well, he was in pain, he was fighting with Nicole, the team was
+halfway across the globe without him, and if he stopped to examine his life,
+the entire world he had constructed might start to unravel, perhaps revealing
+it to be fatally flawed all along. "I understood myself best as a
+quarterback," Luck says. "I felt no understanding of other parts of myself at
+all."
+
+As injuries began to mount, the emotional and physical toll on Luck started to
+become unbearable. Rafa Alvarez
+
+Nicole was prepared to leave him if nothing changed. Then one night, he broke.
+He cried, he cursed, he vented, he confessed, and most of all, he leveled with
+Nicole in a way she thought he was incapable of. "There were some things that
+when I looked in the mirror, I did not like about myself," he says. "I was
+self-absorbed, withdrawn, in pain, and feeling pressure."
+
+After about a few weeks in Holland, Luck started to see a professional
+therapist. And Kramer started to serve not only as a trainer but as a couple's
+counselor of sorts, trying to teach Andrew and Nicole about communication and
+identity, both as individuals and as a unit. One day, Kramer asked Luck,
+"Aren't you more than a quarterback?"
+
+"Huh?" Luck said.
+
+"I mean, that's fine -- I guess. What you do on the field is amazing. But
+aren't you more than that?"
+
+Luck thought so, but maybe not. It took weeks, but Luck was at the early
+stages of trying to shed his former self -- his quarterback self -- in favor
+of a person he didn't know yet. One night in the Netherlands before he
+returned to America, Luck took a few people out for pizza. He started to order
+for the table. "You're getting the Margherita" he told Kramer.
+
+"No," Kramer said.
+
+"You're getting it," Luck said.
+
+"No, I'm not," Kramer said. "Why would you order for people?"
+
+Everyone laughed, but Luck got the point.
+
+* * *
+
+**LUCK NOW REFERS** to those six weeks simply as "Holland," an experience as
+much as a place, a transformation so profound that, looking back, might have
+marked the beginning of the end of his NFL career. He returned to the Colts
+facility in late 2017 with a promise to himself that he would put his body and
+mind and wife-to-be first. But at the time, Luck also had a goal of returning
+to play. When he entered the Colts building, familiar urges started to kick
+in. The team and the press wanted to know his time frame for throwing. Luck
+told them that he would throw when he was ready. But Ballard says that Luck
+"cared so much about others, and not letting the team down" that he was in a
+dull panic.
+
+"I need to throw," Luck told Kramer.
+
+"If you're not ready, you're not ready."
+
+"I need to throw."
+
+"Why?"
+
+"I need to."
+
+"You matter," Kramer said. "And when you can't throw, you still matter."
+
+* * *
+
+**LATER THAT SPRING,** on April 18, Luck was in New York City, working out at
+a basketball court, holding a little red ball. He still hadn't thrown anything
+since the previous fall. Tom House, the renowned throwing specialist who had
+worked with Tom Brady and Drew Brees, had been brought in by Will Wilson to
+help Luck rebuild his fundamentals. House saw a young man in "survival mode."
+House has a Ph.D. in sports psychology, and the first task for clients of his
+company, first called 3DQB and now Mustard, is to fill out a survey to assess
+their physical and mental state. Before House's first meeting with Luck, the
+quarterback had completed only the physical portion. When House arrived at
+Andrew's Palo Alto home for their initial meeting, Nicole told him that Luck
+was in the bathroom finishing the psychological survey, unsure of how to
+answer, even unsure if he knew himself well enough to answer.
+
+Over the next few months, House came to view Luck as the smartest athlete he'd
+ever worked with -- but felt that Luck had an emotional block. "All I had to
+do was fiddle with Andrew's mechanics," House says. "And then try to figure
+out what was going on mentally and emotionally." Luck was tough to penetrate,
+despite progress with Kramer and his therapist. If Luck didn't like one of
+House's drills, he wouldn't tell him. Something about it made him skittish.
+Luck would tell Kramer to tell House. Luck started retooling his mechanics
+slowly, not throwing anything. Luck would hold a 1-ounce hand towel and go
+through the throwing motion in front of a mirror, the towel flapping against
+his forearm.
+
+After months, Kramer and House finally allowed Luck to throw something. In New
+York, Luck stood five yards away from a target on a wall. He set his feet,
+bouncing lightly, and raised the little red ball to his chest. Kramer stood
+back, recording it on his phone. Luck's arm slowly whipped back, then whipped
+forward. For the first time since 2015, Luck didn't wince.
+
+"Oh my god," he said.
+
+* * *
+
+**NEARLY FIVE MONTHS** later in the 2018 season opener against the Cincinnati
+Bengals, Frank Reich called a play for Luck to throw a short pass. It was
+Reich's first game as the Colts' head coach, and he thought he had hit "the
+coaching lottery" with Luck. But the first time they met, Luck gave Reich
+glimpses of the worry and grief and despair from the previous few years. Reich
+had spent 14 seasons in the NFL, mostly as a backup quarterback to superstars,
+and knew that Luck needed a best friend more than a new playbook. "It was
+natural for me to fall into that role as the guy who's always been the backup
+quarterback who was there to support the franchise guy," Reich says.
+
+Against the Bengals, Luck ignored the short pass and decided to throw long to
+tight end Eric Ebron down the right sideline. Reich was nervous as he watched;
+Luck had been on a pitch count throughout training camp. In the stands, Nicole
+felt time slow as the ball rose and fell in a trajectory once routine and now
+uncertain. But it dropped into Ebron's arms for Luck's first touchdown pass
+since 2016, and after the game, Reich awarded Luck a game ball, to a standing
+ovation.
+
+The Colts went 10-6 in 2018, winning a playoff game. Andrew and Nicole smiled
+at each other outside the locker room after a playoff exit against the Chiefs,
+relieved that he had accomplished his goal: He had returned to football, with
+a pain-free shoulder, had played at a high level and had felt strong. For the
+season, Luck threw 42 touchdown passes in the regular season and playoffs
+combined -- all while his left foot and ankle were bothering him, which began
+midway through the season. A few weeks after the playoff loss, at the Pro
+Bowl, Luck strained his ankle. Looking back, Luck wishes he had told the team,
+"I gave it all I had this year, but this is no more for me."
+
+Instead, he told everyone that he'd be all right.
+
+Luck's loss to Kansas City in the AFC Divisional Playoffs in January 2019
+would prove to be his final official game -- although no one knew it at the
+time. David Eulitt/Getty Images
+
+* * *
+
+**IT STARTED ALL** over again: the anger, the feigned stoicism, the moodiness,
+the empty responses to Nicole, the confusion as doctors were unable to explain
+what was wrong, despite three MRIs. As the 2019 season neared, Luck was again
+away from the team, off in the training room. "All the scars from the past
+showed up," Ballard says. Luck felt himself drifting back not only to the
+"hamster wheel" of rehab, but to all of his worse impulses. He was a "spoiled
+child," Kramer says, sulking and scared, not only because of chronic pain but
+because of how he acted in chronic pain, a resentment less toward his body for
+failing to hold up and more toward himself. It wasn't just a matter of getting
+his foot to cooperate; it was that he knew what he was headed for if it did.
+
+"It felt soooo familiar," Luck says.
+
+Something had to give. One day during training camp, Luck confessed to his
+teammate Castanzo that he was once again asking himself: "Who am I?" This
+time, Luck's answers were different. He was not just a quarterback. In the
+offseason he and Nicole had married, and she was pregnant with Lucy. He had
+responsibilities and promises beyond himself and the Colts. He was coming
+close to saying out loud what he had disclosed only to Nicole and a few
+others: that he wasn't sure he wanted to do this anymore. Not could. Wanted.
+He had proved that he could play at a high level. He had received plenty of
+praise and criticism, enough to know that neither of those things matters. "It
+was admirable that he was able to see the bigger picture," Castanzo says. "For
+him to continue on in his life as a quarterback, he would have essentially
+expected it to be Andrew's World, and every relationship in his life would
+cater to Andrew's World, which is not the person he wanted to be."
+
+One day during camp Luck called Nicole, who was on the road with a camera
+crew.
+
+"I think I'm going to retire," he said.
+
+OK, this is real now, Nicole thought. But she couldn't talk. "We are on air!
+Got to go!"
+
+Nicole was willing to cater to Andrew, to do whatever it took for him to
+realize his goals as a quarterback. But he was done. Luck told his family and
+close friends. Wilson advised him to sleep on it. When they spoke two days
+later, Luck was resolute. Ballard tried to appeal to Luck's competitive fire,
+but it was gone. Reich implored him to not rush a big decision, but Luck
+didn't think it had been rushed. When Wilson met with Ballard to finalize the
+paperwork, both men cried. Luck savored his final days in pro football. He
+played catch with Doyle on the field before his next-to-last preseason game,
+putting his arm around him as they entered the tunnel. That weekend, Luck
+threw a birthday party for Nicole at a downtown Indianapolis restaurant called
+Bluebeard. He got chatty and told almost everyone in attendance, hoping they
+could keep a secret for a few days.
+
+A week later on Saturday night in a preseason game against the Chicago Bears
+at Lucas Oil Stadium, Luck was on the sideline in street clothes. The secret
+plan was to announce his retirement the next afternoon. In the fourth quarter,
+Luck felt the mood in the building shift. The crowd was still lingering. There
+was a strange fervor. Cameras had turned toward him. Colts media relations
+executive Matt Conti came over holding his phone, with word that ESPN's Adam
+Schefter had broken the news.
+
+"Well, it's out," Luck told Doyle and Castanzo.
+
+Some of the crowd booed Luck -- in the only city where he'd acclimated as a
+professional, where he'd lived downtown and had a view of [Monument
+Circle](https://www.visitindy.com/listing/soldiers-%26-sailors-monument-
+monument-circle/5786/), where he was part of the people, where he had started
+a book club to improve literacy, where he played trivia on Wednesdays and ate
+at restaurants trendy and obscure. As Luck approached the tunnel, the crush
+got louder and more personal. In the locker room players were staring at texts
+with stunning news about a man feet away. Luck explained himself, fighting
+back tears. Conti was in a nearby room, trying to get Luck a copy of his
+speech, hoping that a printer that never seemed to work would come through. It
+did. He walked Luck to the podium with the papers.
+
+_Glad I didn't leave it until the morning_ , Luck thought.
+
+After announcing his retirement in August 2019, Luck turned his attention to
+preparing to become a father for the first time -- and to shedding his
+football identity. AP Photo/Michael Conroy
+
+* * *
+
+**NEWS OF LUCK'S** retirement rocked the football world and beyond. But inside
+his condo, it was eerie and quiet. He seemed lighter, free of angst -- and
+fidgety. He decided to start building Lucy's crib. He scurried around opening
+drawers, looking for a screwdriver, until he finally asked Nicole where she
+kept it. He later powered up his flip phone for the first time that day.
+Hundreds of texts lit it up. He wanted to reply to each one, but he could see
+only a few at a time on the tiny, outdated screen. So he wrote down each
+number. Some numbers, he knew. Others, he needed help. Replying to texts took
+months, as he traveled to Europe, as he learned to surf, as he grew his hair
+long and switched to a keto diet and started to be recognized as "the un-
+quarterback," he says, until he finally broke down and bought an iPhone.
+
+He became a father when Lucy was born in November at Peyton Manning Children's
+Hospital. He tried to avoid watching football during the 2019 season, but he
+would send Colts players texts before and after games -- sometimes during
+them. The season ended, and a few months later, the world was at a standstill
+from a deadly virus. Andrew and Nicole and Lucy were holed up in a guest space
+above their garage while the construction on the house was in its final
+stages, with nowhere to go.
+
+"The floodgates opened," Nicole says.
+
+They'd talk in the kitchen, or on walks, or on the patio. Luck would ask
+hyper-philosophical questions and pose theories, picking words that cut to his
+core and essence. Quarterback was one. Why had he become a quarterback, and
+why had he been so drawn to its freedoms and constraints, and why did he
+derive so much of his self-worth from it, from providing to the guys, from
+being available to the team? Availability was another one, because the
+available guys are the ones he wanted to play with and he considered himself
+to be one but maybe wasn't, and so why -- why was it such a source of pride,
+and was it because he simply wasn't tough enough? Toughness. What did it mean
+to be tough? Was his retirement exemplar of a lack of toughness, or was it
+actually courage few could imagine?
+
+Lots of words led to few conclusions. One day, as Luck was processing out loud
+again, Nicole thought about how much easier it was to handle a newborn.
+
+"Andrew," she said. "How can someone talk about themselves so much?"
+
+They both laughed.
+
+* * *
+
+**LUCK HAD STARTED** to tell himself a series of stories. Of being a
+quarterback. Of being a husband and father. Of the injury cycle providing the
+gift of awareness. Of having made a decision. He told himself stories of a
+former football player whose story made sense -- "Grieving what you know
+best," he says -- often until those stories made sense. But none of them
+netted out in resolution or assurance that he hoped would erase this feeling
+he lived with and had no choice but to try to talk out, this "insane conflict"
+of giving his life to becoming one of the best in the world at his craft and
+wondering what's left when it's over. Therapy helped Luck to arrive at the
+"clarity that I don't need more clarity," he says, language that felt both
+sufficient and inadequate because it failed to yield what he most wanted to
+know: Which choices are the right ones? And are they right forever? And if
+they fade, or if their edges recede, like an iceberg, were they wrong even if
+they still feel right? "I doubt I will ever find the answers," he says. "All
+of them. Or any answers."
+
+One day, while walking with Lucy in their neighborhood, Luck saw kids playing
+football. They knew who he was, and he knew that they knew. They asked him to
+throw. Luck threw a tiny ball to tiny targets. It rushed back to him, the
+motions and rhythms, but most of all, the purity of providing, of making
+people's day, just by delivering something into their hands. "I always had fun
+throwing," he says. And so he threw to those kids until it started raining,
+and Lucy was getting soaked, and it was time to go home.
+
+Two years into retirement, Luck was happy to be a stay-at-home dad. But he
+also wanted a career, something to fill football's void, to define himself as
+something other than the quarterback who walked away. He considered going back
+to school, or buying a stake in an MLS team, or starting a venture capital
+firm in the Bay Area, or joining the ski patrol. He could be choosy, with
+financial blessings beyond belief that he didn't take for granted. But he also
+knew that whatever he did, it had to mean something. Once you're a
+quarterback, America never sees you as anything else, almost like a president.
+Luck spent the winter of 2021 in Summit County, Colorado, where his family had
+a house. He skied Arapahoe Basin almost daily, chatting up strangers on the
+chair lift, anonymous behind a helmet and goggles. Luck met some ski
+patrollers, one of whom was also an assistant football coach at Summit High
+School and asked if he would want to talk to the players sometime.
+
+Sure, Luck said. In late August, he showed up.
+
+* * *
+
+**THE SMELL HIT** him first. Of the locker room, sweat and old metal. Of pads
+and jerseys, plastic and foam and grass-stained mesh. Awful but familiar,
+triggering memories of how impressionable he had been as a teenager. He threw
+to receivers, firing his first pass into the dirt. He spoke to the team for
+five or so minutes, then asked for questions.
+
+"What's your biggest regret from your NFL career?" a kid asked.
+
+Luck cursed in his mind, having hoped for a softball. "Good question!" he
+said, and he decided to tell a group of kids what he had never said publicly:
+
+"I regret the timing of when I retired."
+
+He felt he had let people down, for which he had to learn how to forgive
+himself. What mattered to him most about football, what he wanted the kids to
+learn, was the "uber accountability." He knew that his own ideas of
+accountability and of football were more complicated than the romantic version
+that he had shared. And yet on the drive home that afternoon, Luck couldn't
+stop smiling at the thought of those romantic notions. Of sitting in meetings
+and geeking out for 45 minutes on one play. Of tough moments, when he was
+hurting or reckless with the ball. Of dumb stuff, like being whacked by pool
+noodles in practice to reduce fumbles. In the fall of 2021, he watched
+football more often, and sometimes called David Shaw, Stanford's coach at the
+time, to discuss pass protections. He said he understood what football "did
+give me. What it demanded. What it took in a sense. What I allowed it to
+take."
+
+On a Saturday morning in Indianapolis last autumn, he was at Lucy's soccer
+practice on fields next to the Colts facility. Over a blue fence, the Colts
+were holding a walk-through. Luck could hear and see glimpses of his old job,
+and what hit him felt truer than some of the stories he'd tell himself, and
+didn't feel like a story at all. He was still a quarterback. "I don't think
+that will ever go away," he says.
+
+He wanted back in the game. This time, to coach.
+
+As Luck ponders his post-NFL career, his options are plentiful. Rafa Alvarez
+
+Luck worried and deliberated, reevaluated and reconsidered, wondering if this
+was what he wanted, if it could make him feel as alive as playing once did, or
+if it was merely what sounded best. He wanted a graduate degree if he were to
+coach and maybe teach high school history, and the idea of grad school felt
+like a big deal. It was a declaration of a career. It would be Andrew Luck's
+first big public step since retirement, bringing attention he had worked hard
+to avoid.
+
+By last December, Luck had decided that if he were to go back to school, it
+had to be in the fall of 2022. Nicole was pregnant with Penelope. Stanford's
+first day was a few months after she would be born, giving them a little bit
+of breathing room between her arrival and class. Luck decided to apply. It was
+different from 2008. He was Andrew Luck, Cardinal legend, one of the inductees
+into the College Football Hall of Fame class of 2022, but this time nobody was
+in his living room, promising to make his dreams come true. He had to provide
+letters of recommendation. He wrote an essay about the Summit High School
+experience. And he sent his application off.
+
+An email arrived in February. He stared at his inbox, nervous in way he hadn't
+felt since football. He knew he would get in, but he couldn't bring himself to
+read it. The absurdity of it all made him laugh. Finally, he opened
+it._Congratulations! On behalf of your colleagues in the Stanford Graduate
+School of Education ..._
+
+One morning shortly after, Luck was hanging out with [T.Y.
+Hilton](https://www.espn.com/nfl/player/_/id/14924), one of his favorite
+receivers from the Colts. Luck told Hilton how much he loved and missed the
+game, and that he was thinking about coaching and teaching in high school.
+"I'm going back to school."
+
+It made perfect sense, Hilton thought. Luck wanted that audience again, a
+huddle again, wanted to share expertise, wanted to order people around, wanted
+to be Andrew Luck again -- which was loving football, yes, but also loving
+something else that football provided and few other aspects of life can.
+
+* * *
+
+**JUST NOT AS** quarterback, not for the Colts nor anywhere in the NFL, no
+matter how much the team hopes he will somehow change his mind and pick up
+where he left off in 2019, saving the organization, city and maybe himself.
+After he retired, Luck occasionally dropped by the facility, tutoring
+Ballard's son, Cole, who's a high school quarterback, and hanging out with
+Reich. For a while, Luck and Reich tiptoed around football. Then, suddenly,
+Luck couldn't stop discussing key plays from Colts games and offering advice.
+Reich wondered, Is he telling me, subliminally, that he wants to play again?
+
+At one point, Reich was driving when "Message in a Bottle" played on the
+radio. _It's a sign!_ Reich thought. He pulled over and sent Luck a long text,
+beginning it with, "I'm sending out an SOS."
+
+"I appreciate the message in the bottle," Luck replied. But the answer was no.
+"There are things I miss," he says. "But there are things that, one, I'm not
+willing to give up about my life now, and two, that I don't want to put myself
+through again."
+
+The day after Luck retired, Ballard addressed the organization. After almost
+two decades of Manning and Luck, he said, "We're going to understand how the
+rest of the league lives."
+
+It has been a bracing reality. Reich was fired midway through this season,
+after he cycled through five starting passers since Luck retired, winning a
+majority of his games but lacking the kind of quarterback who once
+orchestrated fourth-quarter comebacks of 17 points against Jacksonville in
+2016, 13 points against the Titans in 2015, 18 points against the Texans; who
+sent Peyton Manning home in the playoffs in 2014; who flipped a game-winning,
+walk-off touchdown pass against Detroit in 2012; who in the playoff comeback
+against the Chiefs in 2014 told Hilton on the sideline to spontaneously switch
+to a different receiver position and "run your motherf---ing ass off" to the
+post and it led to the decisive touchdown; who is still idolized and imitated
+by kids; who sometimes had to dig himself out of his own hole but always
+delivered a clinical reassurance that the Colts had a chance.
+
+Earlier this year, Reich sifted through old video, looking for one of Luck's
+plays to show the team how to execute. He found the clip he wanted -- and then
+kept watching, mesmerized by his old quarterback, how fluid and precise, throw
+after throw, how so many lives could have been different by virtue of the
+powers and possibilities of this young man with the ball in his hands ...
+
+What a shame, Reich thought, that we didn't get to see what could have been.
+
+* * *
+
+**THERE'S UNCERTAIN HOPE** in the air at 6:45 a.m. in early September, Luck's
+last full day in Indianapolis. He is in his backyard, overlooking the lake.
+The family's stuff is mostly packed up for Palo Alto. It's quiet and calm. The
+sky is orange layered on pink, mirroring off the water. Luck sits in a hoodie
+and shorts, with gray specks in his once-famous beard, holding a double
+espresso.
+
+"Life has been lived here," he says, looking at the lake. "Not perfect life.
+But life."
+
+A new life is approaching fast, and Luck is by turns antsy and ready. The
+stakes feel high. He's uprooting the entire family to a smaller house, new
+preschool and routines, with an infant, all for a new career he hopes is the
+right one. He's less declarative about it than he was earlier this year. "I
+want to coach and, or, teach in some capacity in my life," he says, leaving
+wiggle room. The remnants of his old life -- of hype, of cameras, of people
+assuming he has it all figured out, of expectations, from both himself and a
+public that might see him as someone who walks away from things after he spent
+most of his life sprinting toward them -- make him feel nervous and
+claustrophobic.
+
+He knows he can't coach on name alone. He wants to tour around and discuss the
+craft with high school coaches. He wants to be in a healthy enough state of
+mind that he doesn't dump his baggage on his players, like coaches sometimes
+did to him. He wants to know how he'll handle the inevitable moment when his
+quarterback rises from a big hit favoring his shoulder and tries to tough it
+out. Luck's friends tell him that he will be a great coach, but he knows
+there's no guarantee.
+
+"If I were to coach, what would I bring? Well, certainly an experience that's
+semi-unique on the scale of football experiences."
+
+He catches himself.
+
+"I shouldn't say semi-unique. Completely unique."
+
+* * *
+
+**THE EXISTENTIAL STRESS** is real stress a few weeks later at Stanford, as
+Luck exits his philosophy of education class, exhausted and overwhelmed. It's
+the second week of school. We enter a café. He stands in front of a coffee
+machine, and I ask him about his day.
+
+"It's really, uh -- you want anything?"
+
+He fixes himself an espresso, his second of the morning. He looks like a
+college student -- flannel shirt, backpack, beat-up Stanford hat, which
+happens to be from his undergrad days -- and is fretting like one, worried
+about the course load, all of which is more complicated with a young family.
+He already dropped a class after feeling too close to the line of "losing
+touch" with Nicole and the kids, a boundary that after Holland he promised
+himself and the family he'd never cross, a reminder that his quarterback self,
+the guy who could so easily and ruthlessly exclude everything in life except
+the task at hand, is still in there. The photo on his Stanford ID is still the
+one he took at age 18, during his first days on campus. Little about the
+experience is familiar, except when he drops by the football offices. As a
+freshman and now, Luck came to campus wanting to be something. Back then, the
+choice was clear -- and felt less like a choice than it does now.
+
+"I'm choosing to be here 100 percent," he says. "And get as much out as I want
+to put in."
+
+Only now he doesn't have absolute clarity about what that something might be,
+which is both terrifying and fun, depending on the day. He knows he is
+retracing the steps he took as a young man, hoping that this time he might
+take a different path somewhere along the road, even as he swears he isn't
+trying to go back in time.
+
+He sits at a table at an outdoor café on campus as students hustle to class,
+and takes an hour to try to sort it out, starting broad and philosophical,
+like he does in his journals.
+
+"Why would I want to go to school?" he asks.
+
+He talks about growth and knowledge. He confesses to feeling like an "old f---
+ing curmudgeon" figuring out how to register for classes online. He tells me
+about a group of 17 other students in his program he's meeting with -- all in
+their late 20s and mid-30s -- all of whom wanted a career change and have
+landed here too. Some know who Luck is, some don't.
+
+"It's been really cool," he says.
+
+They don't tend to ask him about football or coaching. They don't seem to
+think he has it all figured out, and they're not disappointed in him for
+walking away. It's not about what he was with them.
+
+"I need to live this before the story's written," he says.
+
+He looks at his phone. Time to pick up Lucy from school. He walks to his bike,
+the only one at the rack with a toddler's seat, and fiddles with the lock. He
+straps on his helmet, hops on and cycles up campus, weaving around students
+walking to class, gaining speed before rounding a corner, and once again,
+Andrew Luck is gone.

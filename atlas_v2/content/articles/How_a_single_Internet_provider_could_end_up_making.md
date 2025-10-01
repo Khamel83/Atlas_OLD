@@ -1,0 +1,151 @@
+# How a single Internet provider could end up making money off you several times over - The Washington Post
+
+**Source**: https://www.washingtonpost.com/news/the-switch/wp/2016/10/31/how-a-single-internet-provider-could-end-up-making-money-off-you-several-times-over/
+**Type**: article
+**Created**: 2025-08-13T17:48:10.144149
+
+---
+
+title: How a single Internet provider could end up making money off you several times over - The Washington Post
+source: https://www.washingtonpost.com/news/the-switch/wp/2016/10/31/how-a-single-internet-provider-could-end-up-making-money-off-you-several-times-over/
+date: 2025-08-13T17:47:17.884702
+tags: []
+---
+Add to your saved stories
+
+Save
+
+AT&T;'s recently announced deal to [acquire Time
+Warner](http://web.archive.org/web/20231105095733/https://www.washingtonpost.com/news/the-
+switch/wp/2016/10/24/everything-you-need-to-know-about-atts-deal-with-time-
+warner/?itid=lk_inline_manual_2) reflects massive changes in media and
+technology. Although regulators could challenge the acquisition or slap
+conditions on it that may limit how AT&T; can use its new assets, the purchase
+hints at a future where a single company can monetize the same customer
+multiple times over, just through the customer's routine use of the Internet.
+
+Other Internet providers have made stabs at building this kind of business
+model. Verizon, for example, [wants to do something
+similar](http://web.archive.org/web/20231105095733/https://www.washingtonpost.com/news/the-
+switch/wp/2016/10/23/atts-time-warner-deal-looks-like-bad-news-for-
+verizon/?itid=lk_inline_manual_4) with Yahoo and
+[AOL](http://web.archive.org/web/20231105095733/https://www.washingtonpost.com/news/the-
+switch/wp/2015/10/07/verizons-giving-aol-all-the-data-it-will-soon-collect-on-
+you/?itid=lk_inline_manual_4). But if AT&T; succeeds — and that's still a big
+if — it will be that much closer to turning its subscribers into virtual cash
+machines, going to them over and over to grow its revenue base. Here are a few
+ways that could work.
+
+At its core, AT&T; is a network company. Its main job until now has been to
+sell you access to communications, such as phone or Internet service. These
+services act as conduits to the information or media you can find once you're
+hooked as a subscriber.
+
+This business model is not going away. In fact, it is what allows all the
+other business models to follow. It is also the easiest to describe, because
+selling data plans is the most directly observable way in which AT&T; makes
+money from consumers like you and me.
+
+On top of selling you the network, companies such as AT&T; increasingly want
+to sell you the content that travels over those networks — including shows
+like “Game of Thrones” or “Westworld.” Historically, these types of shows were
+only available on cable TV. But thanks to the Internet, accessing this content
+just becomes a matter of network capacity. And guess who does networks? AT&T.;
+
+Because AT&T;'s merger with Time Warner could allow the telecom giant to
+control HBO's entire content catalogue, any money the premium channel makes
+could belong, ultimately, to AT&T.; That includes the $15-a-month subscription
+fee that HBO charges for its Internet streaming app, HBO Now. HBO has been
+called the “[crown
+jewel](http://web.archive.org/web/20231105095733/http://qz.com/818603/what-
+the-att-time-warner-twx-merger-means-for-hbo/)” of Time Warner, and AT&T;
+knows it.
+
+Suppose you're an AT&T; Wireless subscriber  _and_ you pay for HBO Now. In the
+wake of a successful merger with Time Warner, this would allow AT&T; to
+double-dip into your wallet.
+
+This is the big one. Advertising, particularly of the targeted variety, forms
+the cornerstone of the entire Internet economy. And Internet providers [want a
+big slice of
+it](http://web.archive.org/web/20231105095733/https://www.washingtonpost.com/news/the-
+switch/wp/2016/10/27/the-fcc-just-passed-sweeping-new-rules-to-protect-your-
+online-privacy/?itid=lk_inline_manual_17).
+
+To compete with other ad heavyweights like Google and Facebook, Internet
+providers need to collect and use behavioral data. That means analyzing your
+browsing history, your app usage history, your location history, your
+financial information and other data that can help build a picture of who you
+are as a consumer. And since your Internet provider is collecting a lot of
+this information anyway simply to provide the basic function of getting you
+where you want to go on the Internet, its perspective is,  _why not_ use that
+data for advertising?
+
+Armed with these insights, a company, such as AT&T;, could approach a company,
+such as Walmart or Best Buy, and say, “I can reach this demographic for you.
+Do you want to advertise with us?” And if Walmart or Best Buy said yes, they
+could put their ads on any number of sites or channels owned by AT&T.; As a
+result of the Time Warner merger, that could include platforms, such as TBS or
+CNN.
+
+Targeted ads promise to “feature prominently” and in some cases represent “the
+whole ball of wax” for telecom companies in the new digital economy, according
+to Craig Moffett, an industry analyst at MoffettNathanson.
+
+Things get even more intricate from here. Not only could the ads be targeted
+to a specific demographic, but thanks to a technique known as cross-screen
+advertising, a particular customer could see the same ad on their TVs that
+they do on their phones and their tablets. AT&T;'s [tests
+show](http://web.archive.org/web/20231105095733/http://about.att.com/story/att_adworks_announces_crossscreen_addressable_advertising_trial_results.html)
+that cross-screen advertising can boost a company's sales by as much as 87
+percent. If ads are about repeated messaging, this approach may be the purest
+— and most lucrative — form of it yet.
+
+Federal regulators [voted last
+week](http://web.archive.org/web/20231105095733/https://www.washingtonpost.com/news/the-
+switch/wp/2016/10/27/the-fcc-just-passed-sweeping-new-rules-to-protect-your-
+online-privacy/?itid=lk_inline_manual_26) to limit how Internet providers can
+use your data, in a victory for privacy advocates. Still, many consumers may
+voluntarily opt in to the advertising, particularly if they're [offered
+financial
+incentives](http://web.archive.org/web/20231105095733/https://www.washingtonpost.com/news/the-
+switch/wp/2013/12/11/how-much-is-your-privacy-worth-350-a-year-according-to-
+att/?itid=lk_inline_manual_26) in exchange.
+
+A company, such as AT&T;, could put your data to work for its own advertising
+business. But it could also benefit by sharing your data with marketing firms
+and other third parties who can use that information themselves.
+
+Data brokers who traffic in behavioral insights are often invisible to the
+average consumer, but what they know about you can affect your choices, such
+as the [types of
+credit](http://web.archive.org/web/20231105095733/https://www.washingtonpost.com/news/the-
+switch/wp/2013/12/19/x-tra-needy-and-american-royalty-the-stereotypes-credit-
+card-companies-use-to-target-us-all/?itid=lk_inline_manual_30) you're offered.
+A network company with deep insights on its subscribers could sell the data to
+a third party.
+
+All of these different business models entail monetizing different aspects of
+the customer relationship. Under the right circumstances, a telecom company
+could theoretically use a customer as a cash machine by:
+
+1\. Selling her a mobile data plan
+
+2\. Convincing her to pay for premium content on top of that plan
+
+3\. Watching how the customer engages with that content
+
+4\. Showing them ads tailored to her engagement
+
+5\. Selling that engagement data to third parties
+
+That doesn't even begin to contemplate any potential cross-promotions or
+special bundles of content and service designed to lure even more customers
+into the ecosystem. Nor does it go into possible licensing deals with other
+businesses that could allow, for example, AT&T; to charge other firms for the
+use of DC Comics' intellectual property, such as Batman or Superman.
+
+The upshot is that by melding content and distribution, telecom and cable
+companies likely envision a whole constellation of business models that may
+form the foundation for a new digital economy, one that orbits largely around
+them.

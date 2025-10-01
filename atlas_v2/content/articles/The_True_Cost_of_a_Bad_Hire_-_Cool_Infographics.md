@@ -1,0 +1,77 @@
+# The True Cost of a Bad Hire - Cool Infographics
+
+**Source**: http://www.coolinfographics.com/blog/2015/4/2/the-true-cost-of-a-bad-hire.html
+**Type**: article
+**Created**: 2025-08-13T19:03:27.304327
+
+---
+
+title: The True Cost of a Bad Hire - Cool Infographics
+source: http://www.coolinfographics.com/blog/2015/4/2/the-true-cost-of-a-bad-hire.html
+date: 2025-08-13T19:03:15.107771
+tags: []
+---
+The True Cost of a Bad Hire infographic from Executives Online in the UK puts
+into perspective the £4.13 billion a year that UK businesses are losing from a
+bad hire. With one £50 note being less than 1 mm thick, the stack would reach
+about 933 meters tall. London’s Big Ben is 96 meters tall.
+
+> _People are a businesses most valuable resource. Actively finding and
+> attracting top talent is a never-ending task for any company that aspires to
+> be the best._
+>
+> _The amount of new hires that don’t work out is frightening – in fact a
+> study by leadership IQ across a range of industries and job roles found that
+> up to 48% of new hires fail within 18 months. It’s a problem that’s
+> estimated to cost UK businesses_[ _over £4 billion a
+> year_](http://web.archive.org/web/20190910040604/http://www.hrgrapevine.com/markets/hr/article/2014-02-24-high-
+> staff-turnover-costing-business-4billion) _._
+>
+> _So What’s The True Cost When One Of These New Hires Doesn’t Work Out?_
+>
+> _Outside of the obvious salary cost, there are a significant number of
+> tangible and intangible factors that can drive the cost of a failed hire
+> much higher than initially estimated._
+>
+> _We used an example of a_** _£100k per annum executive_** _to answer one
+> question: “What’s the true cost of a bad executive hire?” We factored in
+> salary, benefits, the cost of the recruitment and sourcing process, and the
+> knock on effects of having a poor performing individual in a role for up to
+> a year._
+>
+> _Using data from a range of external sources and our own databases we
+> arrived at a final figure showing this cost to be around three and a half
+> times more than a year’s salary. To demonstrate the scale of this cost we
+> laid it all out in a infographic as well as breaking down how that cost was
+> arrived at._
+>
+> **_So Why Do Bad Hires Happen?_**
+>
+> _Part of this failure to make successful hires is down to company policies
+> focussing on hiring cost rather than ROI._
+>
+> _As Steve Jobs put it: “A small team of A+ players can run circles around a
+> giant team of B and C payers… I’ve noticed that the dynamic range between
+> what an average person could accomplish and what the best person could
+> accomplish was 50 or 100 to 1”._
+>
+> _Next time you’re making an executive hire, remember what it will cost if it
+> doesn’t work out!_
+
+It’s a long/tall infographic design, but I think that the length is actually
+part of the visual story in this case.
+
+Visually, the grids would be easier for readers to understand if the rows were
+10 icons across instead of 20. We live in a Base-10 society. Rows of only 10
+would make the infographic twice as long, but an alternative would be to add
+some spacing to visually separate the left 10 from the right 10. Same thought
+for vertical spacing. It would help to have a gap in the icon grids every 10
+rows.
+
+The confusing part is that every icon is a £50 note, so with 20 icons, each
+row represents an even £1,000. That’s why I think they designed the rows to be
+20 icons across.
+
+Odd that they published the infographic as a transparent PNG file.
+
+Thanks to Alex for sending in the link!

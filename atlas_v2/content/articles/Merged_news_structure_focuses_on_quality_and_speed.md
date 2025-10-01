@@ -1,0 +1,191 @@
+# Merged news structure focuses on quality and speed - ESPN - Public Editor- ESPN
+
+**Source**: http://espn.go.com/blog/ombudsman/post/_/id/639
+**Type**: article
+**Created**: 2025-08-13T18:10:26.416128
+
+---
+
+title: Merged news structure focuses on quality and speed - ESPN - Public Editor- ESPN
+source: http://espn.go.com/blog/ombudsman/post/_/id/639
+date: 2025-08-13T18:10:25.112809
+tags: []
+---
+Apr 25, 2016, 05:03 PM ET
+
+David Kraft spent 2014 as a [Sulzberger
+Fellow](http://www.journalism.columbia.edu/page/1178-punch-sulzberger-
+program/1112) at the Columbia University Graduate School of Journalism. The
+subject he chose to research: creating a 21st-century newsroom. Part of the
+reason he chose that topic was because his employer, ESPN, was considering a
+restructuring of its newsroom. But little did he know then that he’d soon be
+co-leading that effort.
+
+Soon after completing the leadership program, Kraft, ESPN’s executive editor
+of news operations, ended up co-managing a two-year effort to restructure the
+network’s news desks. That project, which resulted in new job descriptions for
+virtually all news desk employees, soft-launched in December and fully rolled
+out in January.
+
+If you’re asking why an internal media company reorganization should matter to
+you, here’s why: Almost all of public chatter about ESPN concerns what
+populates its public-facing products -- SportsCenter, 30 for 30, ESPN.com,
+ESPN Radio, etc. How the network gathers and disseminates news largely
+determines the quality of those products. That’s why the creation of this new
+unit -- internally called the Universal News Group -- was crucial, if not sexy
+or even known by most people outside of ESPN.
+
+Historically, ESPN has had two major news operations: the digital desk, which
+managed news distribution on ESPN’s websites, mobile products and social
+accounts, and its TV desk, which communicated with on-air reporters out in the
+field and supported SportsCenter and ESPN’s other television shows. Digital
+reporters filed to the digital desk, TV reporters to the TV desk. Although
+there was regular communication between the two desks, it was informal, not
+mandated.
+
+Nonetheless, for many years, this loose arrangement worked fine. Though plenty
+of broadcast video was featured inside the company’s digital products, the two
+news operations were largely dealing with different audiences consuming on
+different platforms at different times.
+
+In recent years, however, the rise of mobile and social media has largely
+erased the line between platforms. ESPN consumers now stream SportsCenter over
+their phones. Tweets are being fed on-screen onto ESPN’s broadcast shows. The
+network’s TV reporters tweet out stories mere minutes before going on the air
+to discuss them.
+
+“It became really clear that fans don’t care whether they’re getting news on
+TV or an alert or on ESPN.com,” said Jill Frederickson, ESPN’s vice president
+of editorial operations. “Why should we be different? If people are consuming
+us platform-agnostically, we should go out that way.”
+
+“Our structure worked well for a long time,” Kraft said. “But, in a five-year
+span, we grew to more than 100 team reporters in various sports, SportsCenter
+around the clock, digital platforms growing exponentially, a vast radio
+network with podcasts creating news, social media, live game telecasts and
+shows like College GameDay that we support.”
+
+A good example of how communication has been improved by the merging of the
+news desks came this past Thursday, when UFC star Conor McGregor [released a
+statement](https://www.facebook.com/thenotoriousmma/posts/1260441947357435) on
+social media denying he was stepping away from ultimate fighting after some
+indications to the contrary in previous days.
+
+The information about McGregor’s statement came into the news desk via Brett
+Okamoto, ESPN.com’s MMA reporter, who sent in a quick paragraph at 10:52 a.m.
+ET. The news desk -- now simultaneously responsible for digital and TV -- then
+called the embedded show editor in the SportsCenter control room, which led to
+a quick on-air report just before 11 a.m. About that same time, Okamoto’s
+initial story was posted on ESPN.com. After filing several more paragraphs,
+Okamoto then did an on-air phone interview in the first half-hour of the 11
+a.m. SportsCenter _._ He filed an updated story for ESPN.com, which was posted
+around 11:30 a.m.
+
+According to Kraft, the McGregor story was able to make its way more
+seamlessly through ESPN for a few key reasons. It came into the newly
+centralized desk via an aliased email that didn’t require Okamoto to know
+which particular editor was in charge at the time. Only one editor was
+responsible for vetting and disseminating that information across all
+platforms. And there was a desk editor inside the SportsCenter control room,
+something that was uncommon before the launch of the Universal News Group.
+
+Discussions about restructuring the news desks began in 2013, and, once there
+was consensus the project needed to move forward, Frederickson and Kraft --
+who have a combined 33 years of experience at ESPN -- served as project co-
+leads. Although Kraft had been involved in early discussions about a potential
+reorganization and had been leading the digital news desk, it wasn’t until he
+completed the Sulzberger program that he found out he’d be applying his
+academic research in a real-life scenario.
+
+“We had to create a new culture, a new way of looking at news,” said Kraft,
+who now manages the Universal News Group on a daily basis, reporting to
+Frederickson and indirectly to Chad Millman, who oversees domestic digital
+content for ESPN. “No longer was it all about one platform; it’s all about
+ESPN. … We needed one set of news standards and one voice to provide the best
+news content.”
+
+Unlike the infamous 2012 [Jeremy Lin headline
+incident](http://www.poynter.org/2012/how-espn-published-chink-in-the-armor-
+jeremy-lin-headline-whats-happened-since/163839/) that led to changes in how
+ESPN produced headlines for its mobile site, network executives say there was
+no one incident that prompted the restructuring decision -- just the march of
+time and constantly changing consumer behavior. The explosion of digital
+platforms in recent years had created an environment in which communication
+was suffering. Reporters in the field were often getting calls from editors on
+both the digital and the TV desks. The communication between the digital desk
+and ESPN’s shows was also showing cracks.
+
+“The news operation was too separate from the shows,” said Rob King, ESPN’s
+senior vice president of SportsCenter and news. “We’d have folks gathering
+info, and, when the show got close to air, the news desk stayed landlocked
+while the talent and producers went to the studio. We wanted to get the news
+desk more seamlessly integrated into shows.”
+
+The Universal News Group -- comprising approximately 35 employees -- began a
+phased rollout in December. News desk staffers began performing their new
+roles but in limited partnership with SportsCenter. In early January, the UNG
+fully launched.
+
+According to Patrick Stiegman, ESPN’s vice president of global digital
+content, all domestic reporters -- and an increasing number of international
+reporters -- now file news through the UNG, which verifies sources, addresses
+any conflicting reports and works to distribute that news across all devices.
+The goal, he said, is to be both right and first, with the emphasis on the
+former.
+
+Those involved say the transition has gone more smoothly than anticipated.
+
+“Six months in, we figured we’d be saying, ‘Why didn’t we do this earlier?’ We
+were saying it by Jan. 15,” said Frederickson, who oversees ESPN’s assignment
+desk and talent producers in addition to the UNG. “Getting people to think
+about all the platforms has just worked. It makes it feel like it was worth
+all that effort.”
+
+“We’re much more efficient when news breaks,” Kraft said. “There’s one group
+charged with informing SportsCenter, producing the digital story, getting
+information to the BottomLine and social teams, informing our digital teams
+and studio shows for reaction. One way in and one way out, instead of two.
+Reporters talk to one person, and one message is communicated.
+
+"On a daily basis, our editors embedded with shows provide assistance with
+questions, write scripts on the fly, aid the producers in making sure we’re up
+to date and accurate. We don’t make decisions for TV or for digital; we make
+decisions for ESPN. So it’s positive on a daily basis -- we’re more accurate,
+more timely, more balanced and more contextual because we’re speaking with one
+voice no matter where our audience interacts with us.”
+
+That’s why this change holds promise for ESPN. Those who have been part of
+newsroom controversies as part of large media companies -- myself included --
+know that poor internal communication is often a root cause. The merging of
+the digital and TV desks is intended to limit the path news can take through
+ESPN, which, if successful, will make it worth the two-year effort.
+
+“What we report carries a lot of weight. Nobody should feel sorry for us;
+that’s the way it is,” King said. “Our ability to have a measured response and
+communication with one another is enhanced in this structure. … We are a much
+more integrated and diverse set of people in what is, essentially, our central
+nervous system.”
+
+There is still more work ahead, however. ESPN’s international news desks
+remain separate, though Stiegman notes that some international soccer news,
+such as coverage of the English Premier League, is now handled by the news
+desk -- with bureaus based in Bristol, Los Angeles and the United Kingdom.
+
+“We have a news editor from our international group working in the UNG, but we
+would certainly like to increase the formal relationships with our
+international colleagues,” Kraft said. “Our goal is to plan globally and cover
+news locally -- but that ‘local’ gets bigger by the day. There’s no reason we
+shouldn’t cover an Argentinian player in the English Premier League with our
+resources in the United Kingdom and Argentina working collaboratively, and
+making sure that news is available for fans globally.”
+
+To paraphrase Rush -- the Canadian power trio, not the radio host -- changes
+aren’t permanent, but change is. So, even with this massive restructuring,
+Kraft knows staying nimble is key.
+
+“We still have room to grow; the news environment isn’t static, and our
+company is evolving,” he said. “We’re assessing how we perform every day, but
+we have a team that, at its core, wants to be trusted by our audience, to be
+their first source when breaking news happens and to provide context you can’t
+get elsewhere. … We know we’ve been given a unique opportunity to reinvent how
+a major media company handles a rapidly changing news world.”

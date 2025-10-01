@@ -1,0 +1,307 @@
+# Money Stuff: OpenAI Is a Strange Nonprofit
+
+**Source**: inputs/saved_emails/Money Stuff OpenAI Is a Strange Nonprofit_Tue,_21_Nov_2023_12-54-53_-0500_(EST)_18bf30565261373a.eml
+**Type**: email
+**Created**: 2025-08-25T02:54:01.166687
+
+---
+
+Programming note: Money Stuff will be off for the rest of the week, back on Monday. Happy Thanksgiving!Another note: This is being published
+      
+    
+  
+  
+    
+      
+        
+          
+          
+        
+        
+          
+            
+          
+        
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          Programming note: Money Stuff will be off for the rest of the week, back on Monday. Happy Thanksgiving!
+Another note: This is being published a little before 1 p.m. New York time on Tuesday, Nov. 21. The OpenAI stuff moves pretty fast, and it is possible that by later this afternoon everything will be different. I mean, sorry?
+
+  
+    
+      OpenAI: Nonprofit governance
+    
+  
+
+One way to look at   the OpenAI situation is that OpenAI is a nonprofit organization, and it is not that uncommon for nonprofits to have tension between their mission and their staff.
+This is arguably a silly way to look at the situation, because, for a few years ending last Friday, nobody really thought of OpenAI as a nonprofit. OpenAI was an $86 billion tech startup that was building artificial intelligence tools that were expected to result in huge profits for its investors (Microsoft Corp., venture capital firms) and employees (many of whom owned stock). But technically that OpenAI — OpenAI Global LLC, the $86 billion startup with employee and VC and strategic shareholders — was a subsidiary controlled by the nonprofit, OpenAI Inc., and the nonprofit asserted itself dramatically last Friday when its board of directors fired its chief executive officer, Sam Altman, and threw everything into chaos.
+But for a moment ignore all of that and just think about OpenAI Inc., the 501(c)(3) public charity,  with a mission of “building safe and beneficial artificial general intelligence for the benefit of humanity.” Like any nonprofit, it has a mission that is described in its governing documents, and a board of directors who supervise the nonprofit to make sure it is pursuing that mission, and a staff that it hires to achieve the mission. The staff answers to the board, and the board answers to … no one? Their own consciences? There are no shareholders; the board’s main duties are to the mission.
+Often, as a general matter, a nonprofit’s staff will be more committed to the mission than the board is. This just makes sense: The staff generally works full-time at the nonprofit, doing its mission all day; the directors are normally fancy outsiders with other jobs who just show up for occasional board meetings. Of course the staff cares more than the board does.
+But it isn’t always quite that simple. Because the staff works full-time at the nonprofit, they will care much more about the practical conditions of the job than the board will. The board is disinterested and comfortable and can care entirely about the abstract mission of the nonprofit; the staff members have to pay rent and student loans. And so sometimes there will be a conflict between the mission of the nonprofit and the conditions of the job, and the staff will prefer better working conditions while the board will prefer the mission.
+  [1]
+
+So a charity to feed the homeless might have to decide whether to spend a marginal dollar of donations on food for the homeless or higher salaries for the staff. It is not obvious that the staff will prefer higher salaries while the board will prefer feeding more clients, but it is possible; really it is a pretty standard story of agency costs, and the board’s role is to manage those costs. Or last year  Ryan Grim wrote about conflicts within progressive advocacy groups after the killing of George Floyd: “In the eyes of group leaders  ... staff were ignoring the mission and focusing only on themselves, using a moment of public awakening to smuggle through standard grievances cloaked in the language of social justice,” while the staff “believed [that] managers exploited the moral commitment staff felt toward their mission, allowing workplace abuses to go unchecked.” 
+OpenAI is a very strange nonprofit! Its stated mission is “building safe and beneficial artificial general intelligence for the benefit of humanity,” but in the unavoidably sci-fi world of artificial intelligence developers, that mission has a bit of a flavor of “building artificial intelligence very very carefully and being ready to shut it down at any point if it looks likely to go rogue and kill all of humanity.” The mission is “build AI, but not too much of it, or too quickly, or too commercially.” As of last week, it had a board with six members, three of whom (including Altman) worked at OpenAI and  three of whom did not.
+And it is easy to see how the board’s view of the mission could conflict with the staff’s views of their jobs. Like, you are a cutting-edge AI researcher, you come into work every day excited to do cutting-edge AI research, you succeed in doing cutting-edge stuff, and the board shows up and is like “hey this edge is too cutting, we worry it’s going to kill us all, slow it down there tiger.” It’s condescending! It stops you from doing the thing that you are committed to do! They’re Luddites! But the thing that you are committed to do (build cutting-edge AI stuff) is not quite the thing that OpenAI is committed to do (build safe AI stuff). And the outside directors — who don’t go to work at OpenAI all day — might care more about its official mission than the staff does.
+From the board’s perspective, a nonprofit with the mission of “be first to build artificial general intelligence, but only if we can do it safely” will have a staffing problem. To achieve that mission it will have to hire staff who are talented and driven enough to be the first to build AGI, but those staff will probably be more enthusiastic about AI, generally, than the mission calls for. Or you can hire staff who are super-nervous about AGI, but they probably won’t be the first ones to build it. So you hire the good AI developers, but you keep a watchful eye on them.
+From the staff’s perspective, the board is a bunch of outsiders whose main features are (1) they are worried about AI safety and (2) they don’t work at OpenAI. (Well, three of them do, but three — a majority of those who voted to oust Altman — don’t.) They have no idea! They are meddling in stuff — AI research but also intra-company dynamics — that they don’t really understand, driven by an abstract sense of mission. Which kind of is the job of a nonprofit board, but which will reasonably annoy the staff.
+Also, of course, the material conditions of the OpenAI staff are pretty unusual for a nonprofit: They can get paid millions of dollars a year and they own equity in the for-profit subsidiary, equity that they were about to be able to   sell at an $86 billion valuation. When the board is like “no, the mission requires us to zero your equity and cut off our own future funding,” I mean, maybe that is very noble and mission-driven of the board. But, just economically, it is rough on the staff.
+Yesterday virtually all of OpenAI’s staff  signed an open letter to the board, demanding that the board resign and bring back Altman. The letter claims that the board “informed the leadership team that allowing the company to be destroyed ‘would be consistent with the mission.’” Yes! I mean, the board might be wrong about the facts, but in principle it is absolutely possible that destroying OpenAI’s business would be consistent with its mission. If you have built an unsafe AI, you delete the code and burn down the building. The mission is conditional — build AGI if it is safe — and if the condition is not satisfied then you go ahead and destroy all of the work. That is the board’s job. It’s the board’s job because it can’t be the staff’s job, because the staff is there to do the work, and will be too conflicted to destroy it. The board is there to supervise the mission.
+I don’t mean to say that the board is right! The board really are outside kibbitzers! Between OpenAI’s staff, who know what they’re talking about but also kinda like building AI, and OpenAI’s board, who lean more to being AI-skeptical outsiders, I guess I’d bet on the staff being right.
+  [2]
+ (Also if the board’s job is to prevent the development of rogue AI, burning down OpenAI is unlikely to accomplish that, just because there are competitors who will gleefully hire the staff.) I am just saying that this is a standard and real problem in nonprofit governance, and what’s weird about OpenAI is that it’s an $86 billion startup with nonprofit governance.
+I guess the other thing to say is that, generally speaking, a staff is often more essential to a nonprofit than a board is? (Except that at a lot of nonprofits — not OpenAI! — the directors tend to also be big donors and fundraisers.) Like, the staff does the work; the board just goes to occasional meetings. If the staff all quit then the nonprofit is in trouble; if the directors all quit they’re pretty replaceable. As of last night here’s the state of things, from   Bloomberg’s Shirin Ghaffary:
+
+OpenAI said it’s in “intense discussions” to unify the company after another tumultuous day that saw most employees threaten to quit if Sam Altman doesn’t return as chief executive officer.
+Vice President of Global Affairs Anna Makanju delivered the message in an internal memo reviewed by Bloomberg News, aiming to rally staff who’ve grown anxious after days of disarray following Altman’s ouster and the board’s surprise appointment of former Twitch chief Emmett Shear as his interim replacement.
+OpenAI management is in touch with Altman, Shear and the board “but they are not prepared to give us a final response this evening,” Makanju wrote. …
+There’s strong momentum outside OpenAI to get Altman reinstated too. OpenAI’s other investors, led by Thrive Capital, are actively trying to orchestrate his return, people with knowledge of the effort told Bloomberg News Monday. Microsoft CEO Satya Nadella told Emily Chang in a Bloomberg Television interview that even he wouldn’t oppose Altman’s reinstatement. ...
+“We are continuing to go over mutually acceptable options and are scheduled to speak again tomorrow morning when everyone’s had a little more sleep,” Makanju wrote. “These intense discussions can drag out, and I know it can feel impossible to be patient.”
+
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      OpenAI: Startup governance
+    
+  
+
+Obviously another way to look at the OpenAI situation is that OpenAI is an $86 billion tech startup that did some real odd stuff to incinerate most of its value. 
+In some ways this is not that unusual a story of nonprofit governance, in which the board’s abstract commitment to the mission conflicts with the practical on-the-ground experiences of the staff. But it sure is an unusual story of startup governance, in which Microsoft agreed to invest $13 billion in OpenAI, and other venture capitalists also put in money, and employees got stock grants, without the contractual or fiduciary rights that investors would normally get. And then one day the board of OpenAI was like “hey we decided to blow up the company” and the investors were like “wait a minute can you really do that” and the board was like “oh yeah sure we can.” So   Bloomberg reports that “some investors were considering writing down the value of their OpenAI holdings to zero.” Eighty-six billion dollars of value evaporated in a weekend.
+One popular thing to say about this is that the investors should have been more careful about governance, and that future investors in future startups will pay more attention to things like control rights and fiduciary duties and board composition. And, maybe. But I have to say I sympathize with the investors here. There are many cases in which sophisticated investors invest large sums of money into companies where they have no real control rights, and they rationally calculate that it will be fine. Generally the calculation will involve some combination of factors like:
+	I have met the founder and shook her hand and looked into her eyes and I trust her, so I do not need to care about the corporate formalities. (Smart investors jumped into   Elon Musk’s Twitter Inc. adventure not because they did extensive due diligence or got a lot of control rights, but because he’s Elon Musk.)	Regardless of the formalities, the incentives are on my side: This company will need more money, the founder will need to sell her shares, and so even if she has the formal right to hose me she won’t, because that will be bad for her. (Both Adam Neumann and Travis Kalanick were forced out of startups that they had founded and where they had more or less total formal control, because their investors told them “hey look if you keep your total control this is going to be a zero, whereas if you leave now you can salvage some value for yourself,” and they made a rational choice.)	The formalities are bad, sure, but that’s the price of getting into this investment, and the upside of this investment is so huge that I am willing to take the risk of getting hosed by bad governance. (Early investors in Facebook Inc., now Meta Platforms Inc., had very little in the way of governance rights, Mark Zuckerberg had total control, and guess what he still does and he has made those investors very rich.)
+
+It is not hard to see how OpenAI’s investors could have had similar thoughts:
+	They really liked Sam Altman! He is a popular and well-connected figure among venture capital types. Nor, really, were they wrong to trust him. It’s just that usually startup founders have much more control of their boards than Altman did. That did turn out to be a failure of organizational due diligence by OpenAI’s investors, but an understandable one.	The incentives were just incredibly on their side. OpenAI requires piles and piles of outside money to do its work, so it cannot rationally afford to alienate investors. Microsoft, OpenAI’s biggest investor, also provides its computing power and has a license to its technology and, after this weekend’s implosion, seems to be on track to hire most of its staff. “You can make the case that Microsoft just acquired OpenAI for $0 and zero risk of an antitrust lawsuit,”  Ben Thompson wrote yesterday. No rational startup would let that happen! Meanwhile Thrive Capital was  leading the tender offer to buy employee shares, and might have thought “these employees need liquidity and will not bite the hand that is feeding them.” These were all, I think, very reasonable things to think; they were just flummoxed by a board that did not act in the economic best interests of the company. Again: because it wasn’t supposed to! Still a jarring surprise.	The upside was really big. I mean the company was worth more than $80 billion last week, not because it was profitable (it was a money pit) but because, you know, it had an   8% chance of being a trillion-dollar company. You’d take some governance risk for that upside.
+
+I feel like the lesson here is not so much “don’t invest in startups without vetting the board and ideally getting a board seat for yourself,” and more “don’t invest in nonprofits at an $86 billion valuation.” Which I think has never come up before? Like as far as I can tell no one in human history has ever purchased shares in a nonprofit at an $86 billion valuation? Because purchasing shares in a nonprofit, at any valuation, is not a coherent thing to do? But then OpenAI made it happen, for the first time, and probably also the last.
+There are other oddities here that I do not really understand but want to mention as puzzles. Like, the status as of this morning really does seem to be that Sam Altman has been fired by OpenAI, that he plans to go work at Microsoft (OpenAI’s biggest investor and partner), and that he is going to take the large majority of OpenAI’s employees with him. What … what do everyone’s contracts look like here? Like:
+	When Microsoft signed its deal with OpenAI, did it agree to any sort of non-compete or non-solicit, like, “you won’t hire away our employees”?	Does Altman have any sort of non-solicit, like, “if you leave you won’t hire everyone else”?	Do the employees have any sort of non-disclosure agreements, like, “if you leave you won’t take our proprietary technology with you”? Perhaps this one doesn’t matter, since Microsoft has a license to OpenAI’s intellectual property: The OpenAI employees can leave, take nothing with them, and then go work at Microsoft and have access to everything they left behind. But Bloomberg’s   Austin Carr reports that “any employees who do join Microsoft can’t simply replicate the work they were doing on OpenAI properties like GPT-5 without inviting a nightmare of claims over trade-secret theft.”
+
+Coming from the world of finance, all of this feels odd to me; ordinarily there would be contracts preventing a company’s biggest customer from hiring its CEO and him then bringing over his whole team to build the same cutting-edge technology they were building at the company. Here, I guess, there aren’t? Everyone just trusted each other? Seems like a mistake.
+
+  
+    
+      Binance
+    
+  
+
+Broadly speaking the US government has two objections to Binance Holdings Ltd.:
+	Binance is a crypto exchange, and the US Securities and Exchange Commission thinks that crypto exchanges are more or less illegal under US law.
+  [3]
+
+	Binance, as a crypto exchange, provides a way for people to move money internationally, and the US Department of Justice thinks that Binance lets bad people move bad money to and from bad countries.
+
+We have   talked about the first objection before, because the SEC has actually sued Binance and laid out its objections. But it is, I think, by far the less serious objection, for several reasons:
+	The SEC might be wrong on the law? There is very much a live controversy about whether US securities regulation applies to crypto as broadly as the SEC thinks it does, and other crypto firms have fought the SEC in court and   sometimes even won. Whereas if the Justice Department is like “you laundered money for criminals and violated US sanctions,” look, they might be wrong, but you are going to have a much harder time fighting that in court.	Even if the SEC is right, there is a fairly simple solution: Stop letting US customers trade on Binance.
+  [4]
+ It is broadly illegal to do securities stuff with US customers without following SEC rules, but it cannot actually be illegal under US law for a foreign company to allow foreign customers to trade foreign securities. Whereas it kind of is illegal under US law for a foreign company to allow foreign customers to send money to Iran.
+  [5]
+ If you operate a crypto exchange with absolutely no US customers at all, but you let terrorist organizations move money on it, the US is going to care. You can ring-fence yourself from the US and solve your securities-law problems, but that doesn’t work for your money-laundering or sanctions problems.	The SEC can’t put you in jail, but the Justice Department can.
+
+Now, I don’t know exactly what the Justice Department’s concerns with Binance are, because I have not yet seen its complaint.
+  [6]
+ But just as a structural matter you can tell that (1) they’re serious and (2) Binance is taking them seriously. So Bloomberg’s Chris Strohm, Allyson Versprille and Olga Kharif   reported yesterday:
+
+The US Justice Department is seeking more than $4 billion from Binance Holdings Ltd. as part of a proposed resolution of a years-long investigation into the world’s largest cryptocurrency exchange.
+Negotiations between the Justice Department and Binance include the possibility that its founder Changpeng Zhao would face criminal charges in the US under an agreement to resolve the probe into alleged money laundering, bank fraud and sanctions violations, according to people familiar with the discussions.
+Zhao, also known as “CZ,” is residing in the United Arab Emirates, which doesn’t have an extradition treaty with the US, but that doesn’t prevent him from coming voluntarily. …
+With respect to possible sanctions violations, the Justice Department has been investigating Binance for allegedly aiding in the evasion of US sanctions against Iran and Russia, one of the people said. Binance has also been under scrutiny for whether it allowed transactions that helped finance Hamas.
+
+I don’t give legal advice around here but my general view is that if you are a foreigner living abroad and the US government is like “why don’t you voluntarily come over here so we can put you in prison for money laundering” you should maybe not volunteer for that? But what do I know; the Wall Street Journal  just reported:
+
+The chief executive of Binance, the largest global cryptocurrency exchange, plans to step down and plead guilty to violating criminal U.S. anti-money-laundering requirements, in a deal that may preserve the company’s ability to continue operating, according to people familiar with the matter. 
+Changpeng Zhao is scheduled to appear in Seattle federal court Tuesday afternoon and enter his plea, the people said. Binance, which Zhao owns, will also plead guilty to a criminal charge and agree to pay fines totaling $4.3 billion, which includes amounts to settle civil allegations made by regulators, the people said. ...
+The deal would allow Zhao to retain his majority ownership of Binance, although he won’t be able to have an executive role at the company. He would face sentencing at a later date.
+
+
+  
+    
+      Ozempic is good/bad for business
+    
+  
+
+On the one hand, Bloomberg’s   Deena Shanker reports that Ozempic is the Grinch that stole Thanksgiving:
+
+Millions of Americans are now taking appetite suppressing GLP-1 hormone injections, and for many this will be their first Thanksgiving on the drug.
+Food manufacturers and retailers — who normally enjoy robust sales during the holiday feasting season — are bracing for an impact that could extend far beyond one or two holidays. Walmart Inc. said in October that its shoppers taking weight-loss drugs were buying slightly less food. Steve Cahillane, the chief executive officer of Kellanova, maker of Pringles and Cheez-Its, told Bloomberg the company was studying the impact on dietary behaviors to be able to respond. Shares of Krispy Kreme Inc. were downgraded last month on concerns weight-loss drugs would reduce demand for their doughnuts.
+
+On the other hand, Isabelle Lee reports that   there’s an ETF now:
+A niche issuer is launching a biotechnology exchange-traded fund whose key holdings include firms benefiting from the hype around weight-loss drugs.
+I suppose the trendy Thanksgiving trade is long weight-loss-drugs and short food manufacturers.
+
+  
+    
+      Here is a link to Manifold Markets
+    
+  
+
+Manifold Markets is a  sort-of-play-money prediction market that allows people to propose questions and bet on the answers. For instance, here is a market on “Why was Sam Altman fired” with dozens of proposed answers. One proposed answer is “hidden, poorly internally labeled ‘fiat@’ account,” which is a pretty good joke. I liked it enough that, this weekend, I  linked to it on Threads. This apparently prompted a reader to email me to point out that there are  several Matt Levine-related markets on Manifold, including “Will Matt Levine link to Manifold by 2024,” which “Resolves to YES if Manifold Markets is referenced or linked to by Matt Levine in his Money Stuff newsletter, before the end of next year.” The odds when I looked yesterday were about 40%. The odds at 11:30 a.m. today were 84%. The odds when I publish this will, of course, be 100%. Did I insider trade on this market? No. Was I tempted? For pedagogical and comedic purposes, I mean, not to win play money? A little.
+
+  
+    
+      Things happen
+    
+  
+
+OpenAI’s Board Approached Anthropic About Merger. Benioff Woos OpenAI Staff to  Salesforce With Offer to Match Pay. Former GitHub Chief Nat Friedman Declined OpenAI Interim CEO Role. New OpenAI CEO Was a Character in a  Harry Potter Fanfic That's Wildly Popular With Effective Altruists. Higher Interest Rates Are Shattering   Housing Dreams Around the World. Company Led by Former NYSE President Buys Crypto News Site  CoinDesk. Blackstone to shut  multi-strategy fund after assets fall 90%. Distressed-Debt Manager Invictus  Loses Control of Flagship Fund After Battle With Top Investors. Meloni, UBS and Jefferies Pull Off Stealth $1 Billion   Bank Sale. EV Startup Fisker Has  Lost Another Chief Accounting Officer.   Kim Kardashian’s Buyout Firm Reaches First Deal With Truff Sauce Brand. The Call Center Where  George Santos Learned to Con. Elite Runner Who  Rode in a Car During a Race Is Banned for a Year. Cocktails Are Sandwiches Now.
+If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
+        
+  [1] I am contrasting the “staff” and the “board,” but there is a third important category, which is “the senior executive leadership.” In fact it is not uncommon for nonprofits to be led by their *founders*, who put together the board and who are often more committed to the mission than anyone else, with the board as kind of a rubber stamp made up of cronies of the founder-executive director. An oddity of OpenAI is that its founder-CEO seems to have been aligned with the staff and not with the board (that he was on).
+
+
+  [2] Obviously if the staff is wrong this is, like, the highest-stakes bet in the history of human civilization? AI stuff is so weird man.
+
+
+  [3] The US Commodity Futures Trading Commission 
+also thinks that Binance is illegally allowing US customers access to its unregistered commodity futures trading platform, which is not at all the same concern as the SEC’s, but which I am nonetheless going to bucket with the SEC’s concern because it has similar effects.
+
+
+  [4] This also solves the CFTC problem. Both the SEC and CFTC complain that Binance has a technically non-US exchange but allows US customers to access it, so you’d have to clean that up a bit more.
+
+
+  [5] This is just the slightest of exaggerations, and there needs to be some US (or US dollar) nexus, but the Justice Department 
+will find one.
+
+
+  [6] The CFTC case previews them a little bit, I think. I 
+wrote about that case: “There are … look, there are not *no* accusations that Binance is laundering money for terrorists or secretly trading against its customers, but there are relatively few accusations like that; again, as crypto exchanges go, that’s pretty good.” From the CFTC complaint: "For example, in February 2019, after receiving information 'regarding HAMAS transactions' on Binance, Lim explained to a colleague that terrorists usually send 'small sums' as 'large sums constitute money laundering.' Lim’s colleague replied: 'can barely buy an AK47 with 600 bucks.' d with regard to certain Binance customers, including customers from Russia, Lim acknowledged in a February 2020 chat: 'Like come on. They are here for crime.'"
+
+
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+
+
+  
+    
+      
+        
+        
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjwvit.5jeh/a600e1ae.gif" alt="" border="0" /></a>

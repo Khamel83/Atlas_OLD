@@ -1,0 +1,278 @@
+# Why bribing your child doesn't work.
+
+**Source**: http://www.slate.com/id/2248766/pagenum/all/#p2
+**Type**: article
+**Created**: 2025-08-13T22:09:51.186046
+
+---
+
+title: Why bribing your child doesn't work.
+source: http://www.slate.com/id/2248766/pagenum/all/#p2
+date: 2025-08-13T22:09:49.740337
+tags: []
+---
+The very idea of rewarding children for good behavior rubs a lot of adults the
+wrong way. Even when they accept that positive reinforcement changes behavior
+a lot more effectively than punishment does, they still object to using
+rewards in general and specifically for behaviors one ought to expect as a
+matter of course from a child. They just can’t bring themselves to praise a
+7-year-old and give her points on a point chart or a little prize because she
+didn’t throw a tantrum in the supermarket.
+
+Rewarding the desired behavior is just one element of positive reinforcement,
+which a deep body of reputable research over several decades has established
+as the most effective way to change behavior. But many parents (and teachers
+and babysitters) reasonably object that giving a child a reward amounts to
+bribing him. He’s just doing it for the reward, they say. They want him to
+behave for other, better reasons: because he should, because it’s his
+responsibility, because they say so.
+
+The families who come to Alan’s [Yale Parenting
+Center](http://www.yale.edu/childconductclinic) often resist using rewards,
+which leads to some typical exchanges with the trainers there.
+
+**Objection: I don’t want to reward behavior the child should do anyway
+because it’s part of his normal responsibilities.  
+  
+** That’s a reasonable position. However, if the child is not doing the
+behavior now, or not often enough, or not without a struggle, it seems
+practical to ask: “What’s the best way to jump-start it?” Reprimands and
+threats don’t work very well, and they often have side effects that increase
+noncompliance and decrease the likelihood that the child will do what’s
+requested. Typically, reprimands and threats function just like bribes. They
+might get the desired behavior for the moment, but the child won’t continue
+the behavior beyond just responding to the threat. That is, the behavior will
+not be locked in as a habit or as an expression of a general characteristic we
+wish to develop, such as honesty, kindness, or generosity.
+
+**Objection: If we use rewards to get the behavior, the behavior will stop
+once we stop giving the rewards, which means we’d have to give the rewards
+forever to keep the behavior going.  
+  
+** That’s a nightmarish scenario—the kind of perpetual bind that people taking
+certain medications, like those that lower blood cholesterol, can find
+themselves in. Will you have to give your child two stickers on her point
+chart for using the potty before she steps into the limo on the way to the
+senior prom? Fortunately, that’s not how it works when you use rewards in an
+effective way to improve behavior.
+
+You praise your child at the toddler stage for using the potty and for saying
+“thank you” and for not using the tablecloth to wipe her nose, but by the
+prom-going stage (and, ideally, by about 14 years before it), she has these
+habits down cold and no longer needs to be reinforced in them. The relatively
+brief period during which you praised these behaviors has been over for a very
+long time. Whether a behavior is maintained and becomes a habit has a lot to
+do with _how_ the rewards are given. The key is not in the rewards themselves
+but in a consistent way of getting the child to carry out the behavior and
+praising or otherwise rewarding it when it occurs. (Don’t forget: Attention
+and praise are rewards and are, in fact, your most reliable rewards.)
+Unsystematic one-shot incentives will lead to dependence on the reward, and
+the behavior is indeed likely to stop once you stop rewarding it.
+
+From the perspective of changing behavior, that’s the crucial difference
+between a bribe and a reward. A bribe, even in those cases when it’s ongoing
+over a long period of time, is not part of a systematic effort to develop
+behavior so that it persists when the bribe is no longer offered. Even if
+you’ve paid the same guy in City Hall to fix tickets for you for years, if you
+stop paying him, he’ll stop fixing your tickets. A reward, by contrast, when
+used properly in combination with antecedents (what you say and do to prompt
+the desired behavior) and shaping (rewarding partial success in order to build
+up the behavior) and other elements of a systematic effort to lastingly change
+behavior, is a temporary measure that can be phased out once the behavior is
+established. The behavior continues without the reward, just as a finished
+building continues to stand after the scaffolding comes down.
+
+**Objection: Rewards will ruin my child’s inner motivation to do things for
+their own sake.  
+  
+** No, they won’t, not if used properly. While an improvised, one-shot “do
+this for that” will not develop the behavior you want and may undermine
+intrinsic motivation, rewards used to systematically develop behavior can lock
+in habits that become independent of any rewards. An example many adults can
+relate to in their own behavior is exercise. At first, it may be a struggle to
+exercise regularly. When it’s time to work out, you feel a strong urge to
+sleep in or quietly watch reruns of _Cheers_ until the moment passes, and you
+may not get to the gym at all unless your significant other intervenes to
+offer a timely reward (you’re an adult; use your imagination). But repetition
+of the behavior locks in the habit, and the behavior then becomes its own
+reward. You might even become a fanatic who gets mildly disturbed or seriously
+irked if illness, work, or some other annoying obstruction prevents you from
+getting to the gym on a given day. There’s no magic in the rewards themselves.
+They are merely aids to get the behavior to occur repeatedly, so that the
+habit can develop.
+
+**Objection: Rewards are unnatural consequences. When my child grows up,
+she’ll see that the world is not waiting around to hand out praise or video
+games for doing what she’s supposed to do.  
+  
+** A fair point, but one might quibble with the idea that the home should be
+exactly like other situations the child will experience when she grows up. The
+home is a unique place where a child develops resilience, competences,
+attachments, and support in ways that have little to do with later experiences
+except that they prepare the child to weather and learn from life. Also, the
+proper way to give rewards has some other redeeming features, of which more in
+a moment.
+
+**Objection: Rewards don’t work. I tried one of those point charts, and it
+didn’t change a thing.  
+  
+** A point chart—if you even need one at all—can work very well. And yet,
+almost all families that come to the Yale Parenting Center have tried point
+charts and the rewards that go with them. Those schemes haven’t worked,
+obviously, or they wouldn’t be coming to the center to address their conduct
+problems. But that doesn’t justify concluding that reward programs don’t work,
+period. The equivalent would be driving in neutral with the emergency brake on
+and saying that cars don’t work. There is research about how to make such
+programs work, and that same research explains why so many of them fail:
+
+**1.****Winging it**. Some parents improvise makeshift rewards on the spot and
+fire them from the hip at the moving target of the child’s conduct. “Billy, go
+get my purse from upstairs and you can have 5 minutes more of TV”… “Billy,
+we’re going to the store; if you get your shoes and coat right away, you can
+have a snack when we get back”… “Billy, if you go keep your sister company for
+a few minutes, we can make your bedtime a few minutes later.” These parents
+are winging it, throwing together rewards on the fly to encourage a shifting
+range of behaviors. This approach confirms the wisdom of every objection we’ve
+just considered above. It will not develop intrinsic motivation or habits, or
+at least habits parents want. The child may do each desired behavior, but only
+for the specific reward at that moment—that is, for the bribe. Once the reward
+stops, each of the behaviors is likely to stop as well.
+
+**2\. The Hail Mary reward system**. Some parents give rewards for a big
+outcome that occurs at the end of a long period. Promising a mega-prize for
+good grades at the end of a year is perhaps the most common example. Parents
+who want their child to study, do homework, and get good grades—and who have
+learned that pleas, reprimands, and threats don’t often work—often turn to the
+Hail Mary. Typically, they promise their child a big reward—a trip to Disney
+World, use of the car—if she gets all A’s at the end of the term. This is a
+misuse of rewards that’s nearly guaranteed to fail.
+
+The goal of a reward program should be to build specific behaviors, actions,
+and habits: bringing home your homework assignments regularly, doing them
+regularly, studying with a parent and then by yourself, and talking a little
+bit at the dinner table about one or two things you have studied. All of these
+are specific behaviors we want to develop and lock in and that can in fact
+contribute to good grades, not to mention learning. The focus on long-term
+outcomes alone—A’s at the end of the year—puts the emphasis on the wrong thing
+and creates a crucial lag between the proper day-to-day behavior and the
+reward intended to reinforce it. Even if the child gets the grades, that
+outcome can occur for all sorts of reasons (including cheating) and does not
+always necessarily help develop the good habits we want to develop.
+
+**3\. Complex reward systems**. Some parents who come to the Yale Parenting
+Center have created complex point systems featuring multiple prizes that can
+be earned with different point totals, and bonus gimmicks galore. They also
+make physically beautiful point charts on which earned points are tracked as,
+for instance, spots on a leopard or ladybug, or as planets or stars in space.
+There’s no reason to object to charts that are more creative and fun—just as
+long as you bear in mind that it’s not necessary or more effective. But if you
+get too fancy with the reward system itself, you can undermine your own
+results.
+
+The more complex the system, the harder it is to stick to and administer
+properly. Yes, if done correctly, it may well work. Yes, variations of systems
+like this have a technical name—a token economy—and have been used in basic
+training in the military, in educational settings from preschool through
+college, in assisted-living facilities to increase activities and social
+interaction among the elderly, and in workplaces to promote safe shop-floor
+habits. In all these settings, even fairly complex rewards systems have been
+proven to work. They can work in the home, too, but you probably don’t need to
+use them. Parents can shape most of the behaviors they want by offering as
+rewards no more than attention, praise, and a few minor privileges.
+
+A parent’s attention is very rewarding to a child, and praise is even better.
+Parents are giving attention all the time, and they are giving mild forms of
+praise, verbal and nonverbal (a smile, a touch, an affectionate or impressed
+look). Attention and praise are our main rewards, and often they’re sufficient
+to change behavior on their own, without resorting to tokens, privileges, or
+prizes.
+
+But attention and praise can be used more precisely than they usually are.
+It’s natural to make the mistake of devoting most of our attention to
+misbehavior, rather than to good behavior, and praise is often sporadic, not
+very specific (the generic “good job” doesn’t convey precisely what the child
+did right), not particularly enthusiastic, and not systematically connected to
+some behavior that the parents would like to develop.
+
+When you’re consciously using praise to change behavior, the key is noticing
+and praising the behavior promptly, specifically, and precisely so that it
+occurs again and can be praised again. We want repeated practice to lock in
+the habit, and praise helps that to happen.
+
+To make praise effective:
+
+**1\. Be specific about the behaviors you want**. Explain to yourself, first,
+and then to your child what the specific behavior is you want to develop.
+Vague commands like “be nice” or “show respect” are too general. Rather, say,
+“When you’re playing with your sister, keep your voice down and don’t take her
+toys” or “When you talk to Grandma, keep your body calm and don’t make that
+obscene gesture Grandpa taught you.” When you see the desired behavior, praise
+it specifically and enthusiastically (the younger the child, the more
+enthusiastic you should be): “You stayed in your seat all through dinner and
+you used your inside voice. That’s great!”
+
+**2\. Identify a small number of behaviors**. Start with no more than two or
+three behaviors you want to develop in the child. You will be able to replace
+them later with new behaviors once these first few are developed. Remember,
+the reward does not produce the results—rather, you want to encourage repeated
+practice of the behaviors, or of samples or approximations of these behaviors.
+You want to focus on getting a couple of behaviors locked in as a habit, then
+move on to the next ones.
+
+**3\. Model the behaviors you want**. Show the child exactly what the behavior
+would look like. Even if she “knows,” it will help if you demonstrate. Then
+have the child do it and praise her for whatever parts she copied correctly
+from you. If you see other people in everyday life—while you are at the store
+with your child or out to dinner or hanging out—point out the desirable
+behavior you just saw. Other people can be used as models if you punctuate
+what you see with your comments and approval.
+
+**4\. The key is repetition, so practice**. We reward behavior in order to
+encourage repetition, which is called reinforced practice. If your child is
+already occasionally doing the behavior you want, systematic praise can lock
+it in as a habit. If the child does not do the behavior yet in the course of
+normal life, practice it in pretend, gamelike circumstances. You do it, have
+her do it, and praise.
+
+A young child who may not go to bed right away at bedtime can get better at
+this if you practice a bit. This can be pretend practice during the middle of
+the day. Set it up as a game. He goes to his room and gets into bed,
+pretending it’s bedtime. You praise all of that. Practicing this a few times
+in a given week will increase the likelihood that he goes to bed better at
+bedtime—and be sure to praise that, too.
+
+Practicing the behavior in pretend situations is still practice and still
+builds the behavior. Remember, commercial airline pilots practice all of the
+time in “pretend” situations (called simulators), and that practice carries
+over to real situations. Boxers practice and train in the gym to develop
+habits they will call upon on fight night. It’s the same with behaviors you
+want to develop in the home.
+
+**5\. Shape the desired behavior by rewarding gradual approximations of it**.
+If the behavior does not yet occur the way you want it—not a full hour of
+bassoon practice, not a full hour of homework each day—praise lesser durations
+and partial successes and build them up over time.
+
+The use of praise to develop behavior in the way we’ve been describing it is
+systematic, temporary, and a purposeful addition to—but not a substitute
+for—the ordinary warm attention you normally give to your children just
+because you love them. Why not test it out for a brief period? Let’s say three
+days. For three days, try to use praise as a reward in the ways outlined
+above. You should see a difference in your child’s behavior and in the
+emotional climate of your household.
+
+Praise is one in the larger set of positive experiences that builds the
+relationship between a parent and child. Many parents and others in authority
+rely instead on threats, hitting, and punishment more generally, especially
+when trying to teach respect. More punishment leads to children escaping and
+avoiding the punisher; more effective praise makes for closeness and better
+relationships. Because praise for positive behaviors decreases the need for
+punishment, it helps to make a family closer and warmer. In seeking to strike
+the balance between them, the rule of thumb when trying to change behavior is
+that praise for good behavior should be much more frequent than punishment for
+the behavior you want to eliminate.
+
+None of this looks anything like bribery. Rewards tend to become bribery when
+they’re unsystematic, unconnected to clear parental expectations, and used to
+try to get your kids to do things at odds with the model you provide with your
+own behavior.

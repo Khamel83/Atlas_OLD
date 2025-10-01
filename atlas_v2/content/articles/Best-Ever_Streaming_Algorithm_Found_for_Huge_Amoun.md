@@ -1,0 +1,115 @@
+# Best-Ever Streaming Algorithm Found for Huge Amounts of Data | WIRED
+
+**Source**: https://www.wired.com/story/big-data-streaming/
+**Type**: article
+**Created**: 2025-08-13T16:54:41.648371
+
+---
+
+title: Best-Ever Streaming Algorithm Found for Huge Amounts of Data | WIRED
+source: https://www.wired.com/story/big-data-streaming/
+date: 2025-08-13T16:54:31.985638
+tags: []
+---
+“Instead of spending 50 million units of time looping over the entire
+universe, you only have four algorithms spending 100 units of time,” Nelson
+said.
+
+The main problem with this divide-and-conquer strategy is that while it’s easy
+to split a big number into small numbers, the reverse is trickier—it’s hard to
+fish out the right small numbers to recombine to give you the right big
+number.
+
+Imagine, for example, that your data stream frequently includes two numbers
+that have some digits in common: 12,345,678 and 12,999,999. Both start with
+12. Your algorithm splits each number into four smaller numbers, then sends
+each to a sub-algorithm. Later, you ask each sub-algorithm, “Which numbers
+have you seen most frequently?” Copy one is going to say, “I’ve seen a lot of
+the number 12.” An algorithm that’s trying to identify which eight-digit
+numbers it’s seen most frequently can’t tell if all these 12s belong to one
+eight-digit number or, as in this case, to two different numbers.
+
+“The challenge is to figure out which two-digit blocks to concatenate with
+which other two-digit blocks,” Nelson said.
+
+The authors of the new work solve this dilemma by packaging each two-digit
+block with a little tag that doesn’t take up much memory but still allows the
+algorithm to put the two-digit pieces back together in the right way.
+
+To see one simple approach to how the tagging might work, start with
+12,345,678 and split it into two-digit blocks. But this time, before you send
+each block to its respective sub-algorithm, package the block with a pair of
+unique identifying numbers that can be used to put the blocks back together.
+The first of these tags serves as the block’s name, the second as a link. In
+this way, 12,345,678 becomes:
+
+12, 0, 1 / 34, 1, 2 / 56, 2, 3 / 78, 3, 4
+
+Here the number 12 has the name “0” and gets linked to the number named “1.”
+The number 34 has the name “1” and gets linked to the number named “2.” And so
+on.
+
+Now when the sub-algorithms return the two-digit blocks they’ve seen most
+frequently, 12 goes looking for a number tagged with “1” and finds 34, then 34
+goes looking for a number tagged with “2” and finds 56, and 56 goes looking
+for a number tagged with “3” and finds 78.
+
+In this way, you can think of the two-digit blocks as links in a chain, with
+the links held together by these extra tagging numbers.
+
+The problem with chains, of course, is that they’re only as strong as their
+weakest link. And these chains are almost guaranteed to break.
+
+Building Blocks
+
+No algorithm works perfectly every time you run it—even the best ones misfire
+some small percentage of the time. In the example we’ve been using, a misfire
+could mean that the second two-digit block, 34, gets assigned an incorrect
+tag, and as a result, when it goes looking for the block it’s supposed to be
+joined to, it doesn’t have the information it needs to find 56. And once one
+link in the chain fails, the entire effort falls apart.
+
+Mikkel Thorup, a computer scientist at the University of Copenhagen, helped
+develop an error-resistant way of remembering
+data.[uniavisen.dk](http://web.archive.org/web/20250325121227/http://uniavisen.dk/)
+
+To avoid this problem, the researchers use what’s called an “expander graph.”
+In an expander graph, each two-digit block forms a point. Points get connected
+by lines (according to the tagging process described above) to form a cluster.
+The important feature of an expander graph is that instead of merely
+connecting each point with its adjoining blocks, you connect each two-digit
+block with multiple other blocks. For example, with 12,345,678, you connect 12
+with 34 but also with 56, so that you can still tell that 12 and 56 belong in
+the same number even if the link between 12 and 34 fails.
+
+An expander graph doesn’t always come out perfectly. Sometimes it’ll fail to
+link two blocks that should be linked. Or it’ll link two blocks that don’t
+belong together. To counteract this tendency, the researchers developed the
+final step of their algorithm: a “cluster-preserving” sub-algorithm that can
+survey an expander graph and accurately determine which points are meant to be
+clustered together and which aren’t, even when some lines are missing and
+false ones have been added.
+
+“This guarantees I can recover something that looks like the original
+clusters,” Thorup said.
+
+And while Twitter isn’t going to plug in the expander sketch tomorrow, the
+techniques underlying it are applicable to a far wider range of computer
+science problems than tallying tweets. The algorithm also proves that certain
+sacrifices that previously seemed necessary to answer the frequent-items
+problem don’t need to be made. Previous algorithms always gave up something —
+they were accurate but memory-intensive, or fast but unable to determine which
+frequent items were trending. This new work shows that given the right way of
+encoding a lot of information, you can end up with the best of all possible
+worlds: You can store your frequent items and recall them, too.
+
+_[Original
+story](http://web.archive.org/web/20250325121227/https://www.quantamagazine.org/best-
+ever-algorithm-found-for-huge-streams-of-data-20171024/) reprinted with
+permission from [Quanta
+Magazine](http://web.archive.org/web/20250325121227/https://www.quantamagazine.org/),
+an editorially independent publication of the [Simons
+Foundation](http://web.archive.org/web/20250325121227/https://www.simonsfoundation.org/)
+whose mission is to enhance public understanding of science by covering
+research developments and trends in mathematics and the physical and life
+sciences._

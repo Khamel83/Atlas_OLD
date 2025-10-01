@@ -1,0 +1,714 @@
+# NBA: The story of the Chicago Bulls' downfall - ESPN
+
+**Source**: http://www.espn.com/nba/story/_/id/21082183
+**Type**: article
+**Created**: 2025-08-13T16:55:58.276347
+
+---
+
+title: NBA: The story of the Chicago Bulls' downfall - ESPN
+source: http://www.espn.com/nba/story/_/id/21082183
+date: 2025-08-13T16:55:56.999872
+tags: []
+---
+[Derrick Rose](https://www.espn.com/nba/player/_/id/3456/derrick-rose) is at
+the center of the basketball universe. It's a few days before Christmas in
+2011, and the shy, 23-year-old point guard finds himself in the middle of a
+suburban Chicago shopping mall as throngs of fans scream for his attention. A
+few hours earlier, the [Chicago Bulls](/nba/team/_/name/chi/chicago-bulls)
+formally announced that they have signed the reigning MVP to a max extension
+worth close to $100 million. The future was bright for one of the NBA's most
+prominent franchises.
+
+"I'm tremendously blessed, and I don't take anything for granted and I
+appreciate everyone," [Rose says at the news
+conference](/blog/chicago/bulls/post/_/id/6323/bulls-have-northbrook-seeing-
+red). "And I think I can finally say this now, 'Mom, we finally made it.'"
+
+Now, as Rose makes his way to a table in the middle of the mall, chants of
+"MVP, MVP" ring out around the complex. Security personnel, some holding guns
+visible, try to make sure that Rose doesn't get overwhelmed by the adoring
+public.
+
+Six years later, dreams have given way to a litany of injuries, centered on
+Rose tearing the ACL in his left knee in the first game of the 2012 playoffs.
+The organization hasn't been on stable ground since.
+
+As the Bulls prepare to face an old nemesis, now flanked by some familiar
+faces in Cleveland, here are the 12 moments that defined their fate, from a
+promising team with the youngest MVP in league history to a bickering and
+confused club whose return to the precipice of greatness seems far, far away.
+
+Derrick Rose is lifted off of the court after suffering a knee injury against
+the 76ers in the Eastern Conference quarterfinals in 2012. Jonathan
+Daniel/Getty Images
+
+## 1\. April 28, 2012: A devastating injury
+
+ _Rose suffers a season-ending torn ACL in his left knee while trying to leap
+off his left foot in the dwindling minutes of an Eastern Conference first-
+round game against the 76ers._
+
+No story on the rise and fall of the Bulls can be told without remembering
+that day. "He had a freak accident that even to this day it still feels
+surreal," [Taj Gibson](https://www.espn.com/nba/player/_/id/3986/taj-gibson)
+says. "Because we had a bunch of nice talent. We had a nice core of guys that
+everybody just wanted to win. Everybody was unselfish."
+
+Says Bulls executive vice president of basketball operations John Paxson: "I
+know it's easy to sit in this seat and say, 'Blame it all on, blame whatever
+happened on this injury.' But I don't think people understand how significant
+that turned out to be. First of all, that injury for him personally, what that
+meant to his physical ability and career and the mental stress it put on him,
+that was a huge thing. But from a business standpoint, it limited so much that
+we could do. If you lose that type of player, they're really going to
+struggle."
+
+The injury, combined with Rose's recently signed extension, crippled the
+Bulls' salary-cap space. Rose decided not to return during the 2012-13 season
+after being cleared to do so by team doctors midway through the season, but
+the Bulls, led by [Joakim
+Noah](https://www.espn.com/nba/player/_/id/3224/joakim-noah) and coach Tom
+Thibodeau, battled their way to an impressive first-round series win over the
+[Brooklyn Nets](/nba/team/_/name/bkn/brooklyn-nets). They were dispatched in
+the next round by [LeBron
+James](https://www.espn.com/nba/player/_/id/1966/lebron-james) and the [Miami
+Heat](/nba/team/_/name/mia/miami-heat), who'd bested them in the Eastern
+Conference finals two seasons before. Rose returned from the injury to start
+the 2013-14 season but tore the medial meniscus in his right knee in his 10th
+game, missing the rest of the season.
+
+Jimmy Butler shoots en route to 21 points against the Raptors and a breakout
+season in 2014-15. Dave Sandford/NBAE/Getty Images
+
+## 2\. Oct. 29, 2014: Promise, pain and more promise
+
+ _Rose returns in the season opener, scores 13 points and the Bulls beat the
+New York Knicks 104-80. But he'll tear his meniscus again on Feb. 24, 2015 and
+won't return until April. However, it was during this season that a notable
+emergence occurred, a hopeful stabilizing force for the present and
+future:[Jimmy Butler](https://www.espn.com/nba/player/_/id/6430/jimmy-
+butler)._
+
+The 30th pick in the 2011 draft was developing faster than many in the
+organization ever expected. After not playing much in his rookie season,
+Butler started to gain more traction in his second season and turned into a
+consistent starter in his third, averaging 13.1 points and playing almost 39
+minutes a game. Teammates and coaches raved about his work ethic and his
+ability to connect with people.
+
+With Noah struggling to find a rhythm thanks to offseason knee surgery and
+Rose in and out of the lineup because of various injuries, Butler carried the
+group over the first few months of the season.
+
+"He's confident in who he is," said Buzz Williams, Butler's college coach at
+Marquette, as his star pupil started coming into his own. "He knows that
+tomorrow he needs to work harder than he did today. And he's not caught up in
+the hype and the surrounding minutiae of what's going on."
+
+Butler credits the time spent with trainer Chris Johnson as one of the main
+reasons he started to feel as if he could earn a place among the league's
+elite. Paxson looks back at drafting Butler as the best pick the Bulls have
+made during his tenure.
+
+"I think, as can often happen in our business, the guys that are in school for
+four years tend to get overscouted," Paxson says. "And you think that their
+upsides aren't as great as a younger player, and I think that happened to
+Jimmy. "But through his diligence and hard work, he made himself into this
+top-10, [top]-15 player in the league."
+
+The writing appeared to be on the wall for Tom Thibodeau after the Bulls blew
+their lead in the second round of the 2015 Eastern Conference playoffs. Nuccio
+DiNuzzo/Chicago Tribune/TNS/Getty Images
+
+## 3\. May 10, 2015: A foreboding playoff loss
+
+ _After earning a 2-1 series lead in the second round of the Eastern
+Conference playoffs against the Cleveland Cavaliers, the Bulls blow a double-
+digit, fourth-quarter lead in Game 4, ending with a buzzer-beater from James.
+The Bulls lose the next two games, culminating in an embarrassing 21-point
+home loss in the series clincher. Thibodeau is fired two weeks later, ending
+one of the most successful runs in franchise history._
+
+Throughout the season, leadership roles within the team's framework on and off
+the floor had shifted, and the tension between Thibodeau, general manager Gar
+Forman and Paxson was palpable. Things got so bad for [a litany of
+reasons](/nba/story/_/id/12890745/tom-thibodeau-tenure-chicago-bulls), but it
+boiled down to a breakdown in communication. Thibodeau wanted to maintain the
+ability to run his program the way he saw fit. Forman and Paxson wanted to
+have more say, specifically with regard to how many minutes star players such
+as Noah and Rose were playing in games. One of the things that irked Forman
+and Paxson most, sources say, was that they didn't feel they got enough credit
+for providing Thibodeau with rosters full of professional players.
+
+"There was definitely a disconnect between the coaches and management," Noah
+says now. "It was a little bit of a mess. And to be a championship team,
+everybody has to be on the same page. It was definitely a missed opportunity."
+
+No player publicly criticized Thibodeau during this time, but some had grown
+weary of his authoritarian approach, expressing that frustration to Forman and
+Paxson. The unity that had defined the Bulls early in Thibodeau's tenure had
+started to erode.
+
+"The moment I realized it was in some games when Thibs -- because normally
+when we would have bad games, Thibs would constantly curse us out," Gibson
+says. "You could feel it in his heart because when he's mad, he explodes. And
+it was at times when, in games when he knows we're playing like trash, and he
+knows we're not bringing it, and he's not even cursing us out. You know
+something's up."
+
+"That last year was so different because you always heard the front office and
+Thibs don't get along," Butler adds. "So it was always around here in the
+building. In the media, if you decided to read that. Everybody knew what was
+coming, quote unquote."
+
+"In pro sports ... that's not unusual," Thibodeau says now. "And I felt like
+injuries had a lot to do with us not reaching where we may have been able to
+go. But I felt that we dealt with it as best we could, and I was very proud of
+the team and all the things that we accomplished."
+
+With the benefit of time, Noah, who had the most volatile relationship with
+Thibodeau, shares a similar sentiment. "Would I change anything? Hell no, man.
+That's who I am. I always gave it everything I had. So I'm going to blame
+Thibs for what? For going to the All-Star Game twice, and getting first-team
+All-NBA, being a Defensive Player of the Year. Blame Thibs? Hell no."
+
+Fred Hoiberg talks with Jimmy Butler in early 2016, during Hoiberg's first
+season as a pro head coach. AP Photo/Chris Szagola
+
+## 4\. June 2, 2015: Things change
+
+ _Fred Hoiberg is named coach of the Bulls. For months, league observers
+believed the Iowa State coach would take over for Thibodeau whenever he was
+finally ousted, given Forman and Hoiberg's friendship that went back to
+Forman's early days in Chicago's front office when Hoiberg was a player there.
+Forman, who sold Hoiberg as an offensive guru who would get the Bulls up and
+down the floor and as a "great communicator," was privately hopeful that he
+had just landed Steve Kerr 2.0._
+
+The Bulls came into the 2015-16 season believing they had a realistic chance
+to contend for a championship. They had [Pau
+Gasol](https://www.espn.com/nba/player/_/id/996/pau-gasol) and Noah down low,
+with Rose coming off an injury-free summer and Butler coming into his own
+after being named the NBA's Most Improved Player.
+
+As a former MVP, Rose still had clout within the locker room and came into the
+season with a renewed sense of confidence that he could regain his All-Star
+form in Hoiberg's offense. Noah was still viewed as the emotional leader, but
+his role was diminished slightly after being taken out of the starting lineup
+by Hoiberg. In a change from years past, Butler came into the new season
+producing most on the floor. After rejecting the Bulls' offer the year before,
+he'd inked a five-year max deal worth almost $95 million that summer.
+
+Speculation abounded throughout the summer from fans and media that there was
+a power struggle between Rose and Butler for the right to wear the mantle as
+the face of the Bulls. Both players consistently deflected any perceived
+tension. Rose said at the time that Butler was the most talented player he had
+ever played with. "Nobody still knows how good he could become," Rose said,
+"so that's the great thing about it." Butler loved saying that he was still
+just "a kid from Tomball, Texas," but some team employees started rolling
+their eyes at that -- especially in the wake of Butler ripping Hoiberg after a
+loss to the [New York Knicks](/nba/team/_/name/ny/new-york-knicks) in mid-
+December, [saying in part that the young coach had to "coach
+harder."](/nba/story/_/id/14403996/jimmy-butler-says-chicago-bulls-coached-
+lot-harder-fred-hoiberg)
+
+"I remember him talking about in the summer, talking about like, 'I'm going to
+be the point guard. I'm the one who should be making the decisions,'" Noah
+says. "And I was like, man we got Derrick here, why is our 2-guard talking
+about, 'I'm the point guard?' ... I think when you're at the top of the chain,
+when you say things, it reflects on everybody."
+
+There is no better illustration of the breaking point between one era of Bulls
+players and another than the deterioration of Noah and Butler's relationship
+during the 2015-16 season. The pair had grown very close in Butler's first few
+seasons, but, as the season unfolded, it became impossible for the
+organization to ignore just how much love had been lost between the formerly
+tight pair. According to multiple sources, Noah and Butler engaged in several
+heated disagreements throughout that season.
+
+"What happened?" Butler says. "I don't know. All I can say is, obviously he's
+been with me since I was a nobody in this league. And I went about things a
+lot differently. My voice wasn't heard. And he's been with me as I came to be
+an All-Star as well in this league. And my voice was heard then. And when my
+voice is heard, I'm going to let it be heard."
+
+"We're just different people," Noah says. "We were always very close; me and
+Jimmy were always very close, but things change."
+
+"It was hard because we all came in together," Gibson says. "We were the core,
+and it's rough when your core starts breaking up."
+
+Jimmy Butler talks with actor Mark Wahlberg during the first half of a Bulls
+game in Los Angeles in 2016. Mark J. Terrill/AP Photo
+
+## 5\. Jan. 28, 2016: A picture's worth
+
+ _During a January game against the[Los Angeles
+Lakers](/nba/team/_/name/lal/los-angeles-lakers) at Staples Center, Butler
+checks out of the game at the end of the first quarter and takes a picture
+with his close friend, actor Mark Wahlberg, who is sitting courtside near the
+bench, wearing the new Jimmy Buckets gear from Jordan Brand._
+
+Butler didn't always feel as if some members of the group were putting in the
+work that he was. According to multiple sources, one of the things that always
+irritated Butler, specifically regarding Noah, was the All-Star center's
+propensity for showing up late to team activities, setting a poor example for
+younger players. "Yeah, if they didn't like the way that I went about things,
+and I was pissed off because I know how hard I work and I want people to work
+as hard as I work, I'll take that," Butler says now.
+
+He started isolating himself from the rest of the group, dressing in different
+parts of the locker room before and after games, according to sources. After
+years of crafting the narrative that he was just a regular guy, Butler
+suddenly didn't seem to mind the trappings of celebrity.
+
+"I'm not pushing myself away or separating myself from anybody, but I want
+everybody to be great, man," Butler says. "Because when everybody's being
+great, then that just helps my legacy. I can't do this by myself. It's not
+1-on-5 out there. It's 5-on-5."
+
+"Jimmy went from the 15th player on the team, the last player coming off the
+bench, to the star player of the team in four years," Noah says. "When that
+happens, I'm sure that there was an adjustment period for him. There was an
+adjustment period for the organization. And there was definitely a change of
+culture."
+
+The identity that the Bulls developed under Thibodeau was gone. The offense
+that Hoiberg was brought in to fix was lethargic, and the defense didn't have
+the same fighting spirit that it did in years past. Hoiberg was viewed by many
+within the organization as being "too nice" in regard to how he handled
+certain situations with players on the floor.
+
+Rose missed 2015-16 training camp after fracturing his orbital bone on the
+first day of practice. When he returned, he struggled to regain his form. Noah
+never seemed to click with Hoiberg after the new coach took the center out of
+the starting lineup in the preseason. The Bulls had some early success that
+season but never regained their footing after a January shoulder injury
+sidelined Noah for the rest of the season and Butler missed a month because of
+a knee injury.
+
+"Obviously what I'm saying right now, my message isn't getting across,"
+Hoiberg said after an embarrassing loss to the struggling [Orlando
+Magic](/nba/team/_/name/orl/orlando-magic) in late March.
+
+"When we started a skid in some games, I could just see it in the way -- the
+body language," Gibson says. "Our body language, we never had really ever had
+that body language where we would just be like we didn't care sometimes.
+Sometimes I was just like, 'Are we serious?' Are we really to this point where
+we're starting to act like those teams we used to talk about."
+
+"I felt like -- it just changed. It just changed," Noah said. "And the message
+changed from when Thibs was here. Thibs was very demanding and very strict in
+the way he wanted things run. When he left, that kind of left, too, the
+structure part."
+
+John Paxson and Gar Forman address the media after the Bulls' last game of the
+2015-16 season. Jonathan Daniel/Getty Images
+
+## 6\. April 13, 2016: No one is safe
+
+ _At a hastily arranged news conference after a season in which the Bulls
+failed to qualify for the playoffs for the first time in eight years, Forman
+and Paxson acknowledge their disappointment and make it clear that nobody on
+the roster is safe._
+
+When the season ended, Rose still had a year left on his contract, but he no
+longer had the same level of support from within the organization. To many of
+the Bulls employees who had watched him since he came to the team as the No. 1
+pick in the 2008 draft, Rose's passion for the game had waned. The injuries,
+the rehab, the inconsistency on the floor and the fact that he was no longer
+universally beloved in his hometown of Chicago had all taken their toll. Most
+importantly, Rose wasn't producing the same way when he did play, registering
+58th out of 60 qualified point guards in real plus-minus, [according to ESPN
+Stats &
+Information](https://www.espn.com/nba/statistics/rpm/_/year/2016/page/2/sort/RPM/position/1).
+
+"I can't get mad about peoples' opinions, I always say that," Rose, who
+declined via a spokesperson to be interviewed for this story, [said during a
+January 2016 interview](/nba/story/_/id/14551041/chicago-bulls-derrick-rose-
+remains-confident-game).
+
+"They got every right to say or think whatever they want to say and think. And
+whatever they say and think don't affect my life."
+
+Rose still believed he could get back to an elite level, but his game no
+longer backed up that sentiment. As he had done so many times throughout the
+years, Noah defended Rose at every turn.
+
+"The dynamic changed in the locker room, and that's always tough," [says
+Paxson, who won three NBA championships as a
+player](http://history.bulls.com/players/john-paxson/). "It's just a matter of
+people maturing and growing and their expectation of others around them. You
+do have to respect and admire the players and the teams that year after year
+they have that commitment and chemistry together. Unfortunately, for us that
+changed."
+
+On June 22, 2016, the day before the NBA draft, the Bulls sent Rose, along
+with [Justin Holiday](https://www.espn.com/nba/player/_/id/2284101/justin-
+holiday) and a second-round draft pick, to the Knicks in exchange for [Robin
+Lopez](https://www.espn.com/nba/player/_/id/3447/robin-lopez), [Jerian
+Grant](https://www.espn.com/nba/player/_/id/2531047/jerian-grant) and [Jose
+Calderon](https://www.espn.com/nba/player/_/id/2806/jose-calderon). Noah would
+soon follow, signing with the Knicks as a free agent for $72 million over four
+years.
+
+Then came draft night. After having conversations with several teams,
+including Thibodeau's new team -- the [Minnesota
+Timberwolves](/nba/team/_/name/min/minnesota-timberwolves) \-- the Bulls
+decided not to part with Butler. The [Boston
+Celtics](/nba/team/_/name/bos/boston-celtics) had been a long-rumored
+destination for him, but the Celtics hesitated to give the Bulls the type of
+high, unprotected future first-round picks the Bulls desired. As for the
+Timberwolves, the Bulls simply didn't feel they were getting enough back in a
+potential deal for their best player. According to sources, the offer the
+Timberwolves made to the Bulls at the time centered on [Ricky
+Rubio](https://www.espn.com/nba/player/_/id/4011/ricky-rubio) and the rights
+to the fifth pick, which would later become Providence guard [Kris
+Dunn](https://www.espn.com/nba/player/_/id/2991139/kris-dunn).
+
+For his part, Butler understood at this point more than ever that his role
+within the organization was precarious.
+
+New Bull Rajon Rondo talks with Hoiberg in an early-season game against the
+Lakers in 2016. Alex Gallardo/AP Photo
+
+## 7\. June 27, 2016: Words and actions
+
+ _After selecting[Denzel
+Valentine](https://www.espn.com/nba/player/_/id/2999549/denzel-valentine) in
+the draft, Forman uttered the phrase that will be etched on the 2016-17 Bulls'
+tombstone. Forman said the Bulls wanted to get "younger and more athletic."
+Then, a few days later, the Bulls came to terms with 30-year-old point guard
+[Rajon Rondo](https://www.espn.com/nba/player/_/id/3026/rajon-rondo) and
+followed that up by signing 34-year-old [Dwyane
+Wade](https://www.espn.com/nba/player/_/id/1987/dwyane-wade)._
+
+The Bulls played up the fact that Rondo was coming to Chicago having just led
+the league by averaging 11.7 assists a game and shooting a then career-high
+36.5 percent from beyond the arc. But Rondo's well-documented issues off the
+floor at his previous NBA stops seemed like a strange fit for a team that was
+trying to find unity. Wade certainly didn't fit the type of player that would
+work best with Hoiberg's system: He was just 7-for-44 beyond the arc in the
+2015-16 season. Neither player fit the "younger and more athletic" mantra.
+
+As much as Forman tried to spin that the Bulls had been planning for weeks to
+try to land Wade, the reality was that the organization, according to sources,
+was shocked that Wade's relationship with Miami Heat czar Pat Riley had
+devolved to a point that the Bulls had the opportunity to sign him. With the
+Bulls' front office still unclear on whether it wanted to move forward with
+Butler, the idea of remaining relevant with Wade instead of a total rebuild
+proved too enticing to pass up.
+
+Wade signed a two-year deal that included a player option in the second season
+worth almost $24 million. He was charming during his opening news conference
+in late July, explaining how he had always dreamed of playing back home in
+Chicago for the team he cheered as a kid. He also made it clear in his first
+public comments that it was "Jimmy's team," a distinction the organization
+knew was important to the All-Star swingman. Butler, who was in town as part
+of a pre-Olympic tour with Team USA, smiled as he watched from the back of the
+team's practice facility.
+
+The Bulls started off the 2016-17 campaign 11-7, and Butler and Wade developed
+a fast friendship. Pictures of the Bulls going out on team-bonding events
+started to pop up on social media with smiling faces all around. One night in
+Salt Lake City, the team went to see the movie "Bleed for This." In Denver, it
+was a group excursion to an amusement complex.
+
+But the good times wouldn't last. Rondo, who was suspended for a game in early
+December after exchanging words with assistant coach Jim Boylen and allegedly
+whipping a towel in his face, was benched for five games after playing in just
+one half of a loss to the Pacers on Dec. 30. Rondo later explained that the
+coaching staff said that he wasn't playing fast enough. Rondo disagreed. The
+Bulls languished around .500 for the rest of January before a fateful night
+against the Hawks that left the organization in pieces.
+
+Robin Lopez, left, Dwyane Wade, Taj Gibson, Nikola Mirotic and Jerian Grant
+watch their team struggle in early 2016. Hannah Foslien/AP Photo
+
+## 8\. Jan. 26, 2017: The team meeting
+
+ _After the Bulls blew a 12-point lead to the[Atlanta
+Hawks](/nba/team/_/name/atl/atlanta-hawks), Wade chastised teammates after the
+game. A team meeting was called for the next morning._
+
+"These games are supposed to hurt," Wade had said after the loss. "I don't
+know if that is in guys in this locker room. Hopefully they can prove me
+wrong, but I will challenge them to see if losses like this hurt. We can play
+bad, we can miss shots, but we're having too many of these lapses. We're
+having too many of these losses. This just can't be acceptable if you want to
+do something besides have an NBA jersey on and make some money. That's all
+we're doing around here."
+
+Then he told reporters to head over to Butler's nearby locker so he could
+unleash some words of his own. "M-----f-----s just got to care if we win or
+lose," Butler said. "At the end of the day, do whatever it takes to help the
+team win. You play your role to the T. Be a star in your role, man. That's how
+you win in this league."
+
+Several younger players took to social media to defend themselves, and so did
+Rondo. "My vets would never go to the media. They would come to the team," he
+said of Kevin Garnett and Paul Pierce in an Instagram post. "My goal is to
+pass what I learned along. The young guys work. They show up. They don't
+deserve blame. If anything is questionable, it's the leadership."
+
+The team meeting, which occurred the next morning, had the Bulls reeling.
+
+Gibson, an affable forward who got along with everybody, had the respect of
+Wade, Butler and Rondo. Now, as the season threatened to rip apart, he spoke
+up for the first time, and, according to several people in attendance at the
+meeting, his words reverberated the most. _Just remember that time before you
+went to the draft or before you got to college and how you were. Most of us
+come from nothing. So we got to appreciate this like it's our last day._
+
+Gibson used the word "intense" to describe the proceedings. "When I said what
+I said, it hit and they understood what I meant."
+
+After the meeting was over, Wade said, "If I was concerned about being liked,
+I wouldn't have said what I said the other night. ... Winning cures all. I
+just want to see us win. ... It's just about our approach to the game as a
+team. Are we giving everything we have as a team? If we are, then we are who
+we are."
+
+The next day, during a post-practice session with the media, [Gibson revealed
+that young players told Wade they wanted him to practice
+more](/nba/story/_/id/18573991/chicago-bulls-younger-players-want-dwyane-wade-
+practice-more). According to multiple sources, several young players spoke up
+in the meeting, voicing their displeasure with Wade in how he called them out.
+
+From that weekend on, Wade mostly kept to himself, aside from Butler and some
+sporadic interactions with other players. Wade, Butler and Rondo were fined
+after their public remarks, but the organization's decision to bench Wade and
+Butler for the start of the Jan. 27 loss to the Heat angered both All-Stars,
+sources say.
+
+Even amid the infighting, Taj Gibson worked to hold the Bulls together. Ned
+Dishman/NBAE/Getty Images
+
+## 9\. Feb. 23, 2017: The heart of the team departs
+
+ _As the trade deadline approaches, Butler's name again surfaces in rumors,
+but it is Gibson who is sent elsewhere -- to the Thunder, along with Doug
+McDermott and a future second-round pick in exchange for[Cameron
+Payne](https://www.espn.com/nba/player/_/id/3064230/cameron-payne), Anthony
+Morrow and [Joffrey
+Lauvergne](https://www.espn.com/nba/player/_/id/2959753/joffrey-lauvergne)._
+
+Those in the Bulls' front office knew it was unlikely they would give Gibson a
+big-money extension in the summer, so they decided to move on, but his
+departure was felt by many on a personal level, including Butler.
+
+"One thing you could count on Taj, he was coming in bright-spirited every
+day," Butler said after the deal. "Any day that I walked in pissed off or sad
+or whatever it may be, all you got to do is look at Taj, man. Taj is always
+smiling. That's what we're going to miss. He did all the little things for us
+and played extremely hard. But I think the person that he was -- that's what's
+going to be missed."
+
+The leadership void left by Gibson's departure meant Rondo, Wade and Butler
+would have to pick up even more slack internally, but the fractures even
+between the three veterans never fully healed.
+
+This point was on display after an April 5 practice at Temple University.
+While it's not uncommon for teams to break into smaller groups after practice
+to get some shots up, the juxtaposition of Butler and Wade shooting baskets on
+one side of the floor while Rondo and the rest of the Bulls were on the other
+end getting work in was striking.
+
+As Hoiberg continued to try to find his footing within the locker room, it
+became clearer that the Bulls had more issues than ever. Besides the ongoing
+drama between the three veterans, younger players such as McDermott, [Michael
+Carter-Williams](https://www.espn.com/nba/player/_/id/2596108/michael-carter-
+williams), [Bobby Portis](https://www.espn.com/nba/player/_/id/3064482/bobby-
+portis), [Nikola Mirotic](https://www.espn.com/nba/player/_/id/6459/nikola-
+mirotic) and Valentine weren't showing the type of growth the organization had
+hoped. Hoiberg did not look as if he was enjoying his new surroundings -- as
+the stress from the losses and the issues off the court built up. Not only was
+it becoming apparent the young coach was struggling with the transition from
+college to the pros but it also was becoming clear that Forman and Paxson's
+most recent draft picks weren't panning out.
+
+Rondo underwent a resurgence on the floor, which began when he was reinserted
+into the starting lineup on March 13, scoring 20 points in a win over the
+Hornets. The Bulls sneaked into the playoffs, finishing 41-41 on the season,
+the beneficiaries of a tiebreaker over Wade's former team, the Heat.
+
+The Bulls shocked the league by winning the first two games of their first-
+round series against the Boston Celtics, but a fractured thumb in Game 2, and
+ongoing wrist issues, knocked Rondo out for the rest of the series and
+derailed the Bulls' chances. They would not win another game.
+
+The Bulls acknowledged that Jimmy Butler's trade to Minnesota would likely set
+up some lean rebuilding years in Chicago. Terrence Antonio James/Chicago
+Tribune/TNS/Getty Images
+
+## 10\. June 22, 2017: Another big exit, another reboot
+
+ _After exchanging multiple phone calls on draft day, the Bulls and
+Timberwolves agree on a deal that sends Butler and the rights to the 16th pick
+(which the Timberwolves use to select Creighton's[Justin
+Patton](https://www.espn.com/nba/player/_/id/3912332/justin-patton)) to
+Minnesota in exchange for [Zach
+LaVine](https://www.espn.com/nba/player/_/id/3064440/zach-lavine), Dunn and
+the rights to the seventh pick (which the Bulls use to select Arizona product
+[Lauri Markkanen](https://www.espn.com/nba/player/_/id/4066336/lauri-
+markkanen)). A year to the day after Rose was traded, it is Butler's turn to
+move on._
+
+The Bulls were criticized in some corners of the league and by a portion of
+their own fan base for not getting more in return for the team's best player.
+Paxson chuckles now at the notion the Bulls didn't take the best offer they
+were given.
+
+"Teams would call us all the time and probe about Jimmy and that type of
+thing," Paxson says. "But no one ever made us any type of legitimate offer. In
+fact, most teams, when they would make an offer, it was somewhat insulting. So
+we always listened, which teams do, but it really came down to, could we start
+to rebuild with some quality young players? And hope that knowing what our
+future holds, it's going to be painful at times. But if we get into these next
+few drafts at a fairly significant level, the hope is that pairing what draft
+picks we have going forward and the players that we got in this deal, we can
+get back sooner rather than later."
+
+There was a sense of excitement with the team's offices about the new
+beginning. Meanwhile, on the other side of the globe, Butler sat in Paris with
+Wade and some other friends as he wrapped his mind around everything that had
+occurred.
+
+"I guess being called the face of an organization isn't as good as I thought,"
+Butler told the Chicago Sun-Times the day after the deal. "We all see where
+being the so-called face of the Chicago Bulls got me. So let me be just a
+player for the Timberwolves ... "
+
+"Whatever they want to call me ... face ... I don't even want to get into that
+anymore. Whose team is it? All that means nothing. You know what I've learned?
+Face of the team, eventually you're going to see the back of his head as he's
+leaving town, so no thanks."
+
+Butler wasn't the only one venting frustration after the deal went down. So
+did his trainer Travelle Gaines, unleashing a social media missile by blasting
+Forman on Twitter: "0-82.worst culture in the league.I met drug dealers with
+better morals then their GM. He is a liar and everyone knows."
+
+Forman and Paxson defended their communication with Butler, believing they had
+been honest about the possibility of a potential deal. "It's never easy to
+part with any talent, but we were in that position of definitively defining
+our direction, which we had not really been able to do really since the
+Derrick injury, to be honest with you. We were always just trying to plug
+holes and patchwork things, and that was difficult, so this gives us an
+opportunity to not even look back anymore."
+
+The Butler deal marked the end of an era. As Paxson made the deal, he knew it
+meant some potentially lean years ahead.
+
+"The difficulty and pains comes when your young guys are out there during an
+NBA season and they're competing but they're not winning games," he says. "The
+challenge for us as an organization ... is to maintain a positive belief that
+this is just the start of something."
+
+The Butler deal also served as a public healing of sorts between Thibodeau and
+the Bulls' front office. "Tom and I have spoken since after the deal," Paxson
+says. "There's always fault on both ends when something like that ends the way
+that it did. So we accept our responsibility, and I'm certain Tom does too.
+You always feel bad when that happens, but when you're now looking forward,
+which we were doing and obviously Minnesota's doing the same thing, you're
+looking at the direction you want for your team and what's best for your
+team."
+
+Newly minted Cavalier Dwyane Wade speaks to reporters in Cleveland. Michael J.
+LeBrecht II/NBAE/Getty Images
+
+## 11\. Sept. 27, 2017: Unity, in another city
+
+ _The Cavaliers announce the signing of Wade, who had agreed to a contract
+buyout from the Bulls. He reunites with his former Heat teammate James and
+will play in the backcourt alongside none other than former Bulls star Rose,
+who signed with the Cavs in July._
+
+Wade surprised no one in the Bulls' organization by picking up his player
+option back in June for almost $24 million. The only surprise came the night
+before media day when Wade and the Bulls came to a buyout so both parties
+could go their separate ways.
+
+"We understood that Dwyane, at this stage, wants to try and play for a
+contending team," Paxson said after the Wade buyout became official. "When
+both sides can agree that it's probably best in that situation, then something
+can happen."
+
+The Bulls ended up paying Wade close to $39 million for one season. As much as
+Paxson tried to put a positive spin on the amicable divorce, the reality was
+that the decision to sign Wade never paid off for the organization.
+
+Bobby Portis was suspended for eight games for punching teammate Nikola
+Mirotic during a recent practice. Stephen R. Sylvanie/USA TODAY Sports
+
+## 12\. Oct. 17, 2017: The punch heard around the league
+
+ _Bobby Portis and Mirotic get into an altercation in practice that leaves
+Mirotic with a concussion and facial fractures. Portis is suspended eight
+games by the Bulls, while Mirotic is expected to miss 4-6 weeks._
+
+Two years of playing against each other in practice and competing for the same
+minutes finally reaches a boiling point between the two underachieving young
+players. After going back and forth all day, Portis throws a punch that knocks
+Mirotic out and leaves him writhing on the floor. Members of the organization
+are shocked by what is unfolding in front of them. Since training camp opened,
+Hoiberg played up the fact that his young team is competing hard against each
+other and trying to get better. Now, the embattled coach is left to answer how
+a back-and-forth between two players could spin so far out of control.
+
+"I've been a part of this thing as a player," Hoiberg says. "I've seen
+altercations happen every year, every week, every month. You see things that
+happen on the floor. When's the right time to step in? I saw it on the best
+teams I played on where you had that competitive spirit; you have to have it
+if you're going to have any chance at all. So sure, looking back on it, would
+we have handled the situation differently? Maybe. I don't know."
+
+Paxson acknowledges that the situation is "unprecedented" but affirms the
+organization will stand behind both players.
+
+The punch, and the damage it causes, only raises the same question to many
+across the league: As has been the case throughout Hoiberg's tenure, skeptics
+wonder how much control does he actually have on his team?
+
+## Postscript
+
+Even when the Bulls try to stay under the national radar, it seems they find a
+way to make news. And there are certainly more questions than answers about
+their future. Yet despite the tension surrounding the organization's past few
+years, the main characters in the Bulls' most recent renaissance speak fondly
+of their time together.
+
+"That team gave everything they had," Thibodeau says of his time in Chicago.
+"I think it resonated with the city, the organization was great. So, when you
+look back, was it perfect? No, but nothing is." He adds, "Ultimately, we
+didn't win the championship. But we felt like we gave everything we had but
+there were no regrets in the end, and that's something we all could be proud
+of."
+
+After not speaking for more than a year, Noah and Butler patched things up
+this summer during some training sessions in California, according to sources.
+Noah says he and Rose still talk about how much they miss some of the good
+times they had with Thibodeau and their teammates in Chicago.
+
+"I know I never would have gotten those awards [including Defensive Player of
+the Year in 2014] without Jimmy Butler, without Taj Gibson," Noah says. "I'll
+probably look back on my basketball career and say, 'You know what? Those were
+the best times in my life.' ... We definitely had our differences. But at the
+end of the day, Taj, Jimmy, Pooh [Rose], all those guys are brothers for
+life."
+
+Butler lists the lessons he'll carry with him from his days in Chicago:
+"People are going to like you, people aren't going to like you, people are
+going to talk. You can't always listen to what people are going to tell you.
+Control what you can control. Go out there and be the best player that you can
+be. Be the best teammate that you can be. And just play hard. ... You win,
+nobody has anything but good things to say about you. When you don't, that's
+when you're a problem. Or you have a problem with somebody else, or with
+anybody. That's what I've learned here."
+
+"We had 60-win seasons," Noah says. "We would go into summers, like, really
+believing that we could win a championship. That's rare. ... So yeah, I miss
+that grind with those guys, believing that we had a shot of winning a
+championship. That was the best. Believing that you can win a championship is
+the best."

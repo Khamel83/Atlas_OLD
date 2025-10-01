@@ -1,0 +1,152 @@
+# Could Donald Trump Win the General Election? | The New Yorker
+
+**Source**: http://www.newyorker.com/news/john-cassidy/could-donald-trump-win-the-general-election
+**Type**: article
+**Created**: 2025-08-13T18:21:18.333831
+
+---
+
+title: Could Donald Trump Win the General Election? | The New Yorker
+source: http://www.newyorker.com/news/john-cassidy/could-donald-trump-win-the-general-election
+date: 2025-08-13T18:21:10.269114
+tags: []
+---
+There is a slim chance that Donald Trump could emerge from the general
+election as the new President.Photograph by Luke Sharrett / Bloomberg via
+Getty
+
+Last night in Palm Beach, Donald Trump’s new sidekick, Chris Christie,
+introduced the G.O.P. front-runner, who won seven of the twelve state races on
+Super Tuesday, as the next President. With Trump seemingly marching toward the
+Republican nomination, it’s a natural prospect to raise. But is it a realistic
+possibility? In five of the past six elections, Democrats have won the popular
+vote.* Surely a divisive figure like Trump couldn’t reverse that trend. Or
+could he?
+
+On Wednesday afternoon, I spoke with Ruy Teixeira, a political scientist who
+is an expert on changing demographics and elections. Back in 2004, Teixeira
+and the journalist John Judis published “[The Emerging Democratic
+Majority](http://web.archive.org/web/20250525080708/http://www.theatlantic.com/politics/archive/2012/11/the-
+emerging-democratic-majority-turns-10/265005/),” an influential book that
+highlighted the growing number of minority voters across the country,
+particularly Hispanics. More recently, toward the end of last year, Teixeira,
+who is a senior fellow at the Century Foundation and the Center for American
+Progress, co-authored a
+[paper](http://web.archive.org/web/20250525080708/https://www.americanprogress.org/issues/progressive-
+movement/report/2015/12/17/127403/the-path-to-270-in-2016/) titled “The Path
+to 270 in 2016,” which argued that demographics continue to favor the
+Democrats in assembling a majority in the Electoral College.
+
+In conversation, Teixeira began by reviewing some figures that he and his
+colleagues have put together. Between 1976 and 2012, the percentage of white
+voters in the U.S. electorate declined from eighty-nine per cent to seventy-
+four per cent. In 2016, that number is likely to fall another two per cent,
+Teixeira said. That means the minority vote will rise from twenty-six per cent
+to twenty-eight per cent. About half of that increase reflects the growing
+Hispanic population; the other half is accounted for by rising numbers of
+Asians and peoples of other ethnicities.
+
+Despite his occasional protestations to the contrary, Trump would be relying
+heavily on white voters in a general election. Since they still represent
+close to three-quarters of the electorate, it appears to be mathematically
+possible for him to win a majority. Potentially, he could win by increasing
+turnout in predominantly white areas, winning over Reagan Democrats, and
+bringing in enough new voters to overcome the unfavorable demographic trends
+facing the G.O.P. Arguing along these lines, some analysts have raised the
+possibility that Trump could sweep the Rust Belt states of Michigan, Ohio, and
+Pennsylvania, and also flip a Democratic state in the Upper Midwest, either
+Wisconsin or Minnesota or both. A Trump rampage across the Rust Belt would
+transform the electoral map—it could even allow him to reach two hundred and
+seventy votes in the Electoral College without carrying Florida, which is
+usually a pivotal state. “Don’t laugh,” Zach Carter and Ryan Grim, of the
+Huffington Post, [wrote last
+month](http://web.archive.org/web/20250525080708/http://www.huffingtonpost.com/entry/how-
+donald-trump-becomes-president_us_56cb5429e4b0928f5a6c9ead). “Donald Trump
+could actually win this thing.”
+
+When I put this scenario to Teixeira, he sounded dubious. “It is not crazy,”
+he said, citing the possibility that Trump could flip some blue states, such
+as Colorado, New Hampshire, Ohio, and Pennsylvania. “But I think it would be
+very hard to pull off.”
+
+Teixeira went on to explain that he was skeptical in part because, on a
+national basis, Trump’s support among white voters isn’t quite as strong as it
+sometimes appears to be. While he is attracting a lot of people to his rallies
+and to the Republican voting booths, it is a mistake to believe that these
+people are wholly representative of that segment of the electorate. “We are
+talking about the most alienated white non-college voters, and some college-
+educated voters,” Teixeira said. “The most totally pissed-off ones.” Among
+white Americans as a whole, including those who vote Republican, Teixeira
+reminded me, there are many people with moderate or liberal views. And in
+order to win the election, Texeira went on, Trump would need to rack up huge
+majorities of the white vote in some parts of the country where that vote has
+traditionally been relatively liberal, compared to the white vote in the
+South.
+
+To illustrate his arguments, Teixeira cited some more figures for individual
+states, distinguishing between white working-class voters who didn’t go to
+college—Trump’s base—and white college-educated voters. In Ohio in 2012, Mitt
+Romney won the white working-class vote by a sixteen-per-cent margin: fifty-
+seven per cent to forty-one per cent. According to Teixeira’s projections,
+Trump, to carry Ohio in November, would need to increase this margin to
+twenty-two or twenty-three points. “That’s a big ask,” Teixeira said. And
+Trump would also need to retain, or even increase, Romney’s ten-point margin
+among college-educated white Republicans, even though at least some members of
+this group may be sufficiently put off by Trump’s extremism to stay at home,
+or even to switch to the Democrats.
+
+In the Upper Midwest, where there is a strong progressive tradition and the
+labor movement is still relatively feisty, the electoral arithmetic facing
+Trump is even more challenging. To win Wisconsin, he would need to win the
+white working-class vote by a margin of somewhere between twelve points and
+sixteen points, Teixeira said. In 2012, however, these working-class voters
+split almost equally between Romney, who got fifty per cent of their votes,
+and President Obama, who got forty-eight per cent.
+
+In Minnesota, the challenge facing Trump would be even greater. In 2012, Obama
+actually won the white working-class vote there, albeit narrowly; according to
+figures Teixeira cited, the President got forty-nine per cent in this
+demographic, while Romney got forty-eight. To carry the state this fall, Trump
+would have to turn these numbers around and win a sizable majority of white
+working-class voters—and this despite the fact that in yesterday’s G.O.P.
+caucus he only managed to come in third.
+
+The existence of a potential upper limit on Trump’s support among white voters
+isn’t the only reason Teixeira reckons that he would be a long shot for the
+White House. The biggest weakness in the argument that Trump can win, Teixeira
+said, is that it rests on the notion that he can raise turnout among such
+voters, particularly working-class ones, without provoking a similarly high
+turnout among anti-Trump voters, particularly people of color. He pointed out
+that while there _are_ large numbers of conservative, working-class white
+voters in key battleground states like Florida and Virginia, who could provide
+a fertile support base for Trump, there are also a lot of African-American,
+Hispanic, and college-educated white voters, who will have noticed the kinds
+of things he has been saying over the past eight months. “I find it just so
+implausible that we could have this massive white nativist mobilization
+without also provoking a big mobilization among minority voters,” Teixeira
+said. “It is kind of magical thinking that you could do one thing and not have
+the other.”
+
+After speaking with Teixeira, I felt somewhat reassured. The electoral numbers
+and demographic trends that his argument rests on are known facts. In the
+aftermath of the 2012 election, the Republican National Committee commissioned
+a
+[report](http://web.archive.org/web/20250525080708/http://goproject.gop.com/rnc_growth_opportunity_book_2013.pdf)
+that acknowledged many of these facts, and that made the case that the G.O.P.
+couldn’t expect to win back the White House without doing a better job of
+appealing to minorities and moderates. Trump’s candidacy represents an angry
+repudiation of this argument, and an apparent denial of political reality.
+
+On the other side of the ledger, Trump has been trampling on established
+political wisdom since he launched his campaign. So far, it has worked for
+him. Later this week, he will visit Macomb County, in suburban Detroit, an
+area rich in Reagan Democrats that used to be regarded as a bellwether, and
+where Trump is reportedly doing very well. When I pressed Teixeira, he
+conceded that the Rust Belt strategy does represent at least a potential path
+to the White House for Trump. But he described it as “a narrow path” that
+depends on a number of unlikely events, such as minority voters failing to
+show up at the polls despite the type of campaign that Trump has conducted.
+“We could have a high-turnout election, but that doesn’t mean that Trump would
+win,” Teixeira said. Let’s hope he’s right.
+
+_* This post was updated to clarify a reference to the popular vote._

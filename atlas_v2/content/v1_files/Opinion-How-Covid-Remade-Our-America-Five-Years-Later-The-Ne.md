@@ -1,0 +1,9 @@
+We’d taken for granted that health emergencies like this one were a thing of the past. It was deeply unsettling to realize that our modern, wealthy world was no fortress against contagion, mass death and pandemic hysteria of various kinds. The end of the end of history has been declared countless times since 2001, but no event punctuated the point as clearly as Covid-19.
+
+The emergency began at a time of geopolitical uncertainty, but it ended in an unmistakable polycrisis: beyond Covid, its supply shocks and inflation surge, there was a debt crisis and an ongoing climate emergency, wars in Europe and soon the Middle East and renewed great-power conflict with China.
+
+At home the horizon flickered with the digital shimmer of an A.I. future, and accelerationists set about bringing it into being rather than succumb to pandemic privation or postpandemic stagnation.
+
+It looks like we finally got those Roaring Twenties we were promised. In 2020, the phrase was used to suggest an age of parties and sex and social recklessness was on the way, as 330 million cooped-up Americans let off some steam. In 2025 the analogy looks more expansive. A century ago, the United States retreated from global institutions and alliances, when Woodrow Wilson left the stage. There came, after a generation of governance known as the Progressive era, a right-wing electoral surge that lasted until the most spectacular bust in American history. In the meantime, there was a legendarily American decade, defined by a hands-off approach to regulation and a hands-on embrace of conspicuous consumption and material excess and a blurring line between criminality and legitimate power, temperance and promiscuity.
+
+Yet, the world does not seem now more buoyant or full of hope, but abrasive and rapacious and shaped nearly everywhere by a barely suppressed rage. We have still not reckoned with all we have lost.

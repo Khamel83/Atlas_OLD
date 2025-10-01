@@ -1,0 +1,86 @@
+# Public to Private Equity - The Big Picture
+
+**Source**: https://ritholtz.com/2020/08/public-to-private-equity/
+**Type**: article
+**Created**: 2025-08-13T15:53:36.676714
+
+---
+
+title: Public to Private Equity - The Big Picture
+source: https://ritholtz.com/2020/08/public-to-private-equity/
+date: 2025-08-13T15:53:30.617316
+tags: []
+---
+[![](//web.archive.org/web/20250709101245im_/https://ritholtz.com/wp-
+content/plugins/a3-lazy-
+load/assets/images/lazy_placeholder.gif)![](http://web.archive.org/web/20250709101245im_/https://ritholtz.com/wp-
+content/uploads/2020/08/Screen-
+Shot-2020-08-05-at-6.16.36-AM.png)](http://web.archive.org/web/20250709101245/https://ritholtz.com/wp-
+content/uploads/2020/08/Screen-Shot-2020-08-05-at-6.16.36-AM.png)  
+Source: [Morgan
+Stanley](http://web.archive.org/web/20250709101245/https://www.morganstanley.com/im/publication/insights/articles/articles_publictoprivateequityintheusalongtermlook_us.pdf?1596549853128)
+
+[Morgan
+Stanley](http://web.archive.org/web/20250709101245/https://www.morganstanley.com/im/publication/insights/articles/articles_publictoprivateequityintheusalongtermlook_us.pdf?1596549853128)
+has a fascinating report on reduced number of publicly traded companies, and
+the rise of SPACs, Buyout funds, and Private Equity:
+
+Over the past quarter century there has been a marked shift in U.S. equities
+from public markets to private markets controlled by buyout and venture
+capital firms. This change has had reverberations for asset managers,
+investors, executives, and policy makers. In this report we seek to answer the
+following questions:
+
+> • What have been the major drivers behind the shift from public to private
+> equities in the U.S.?  
+>  • Why are there fewer public companies today than there were 25 years ago?  
+>  • What are the long-term trends in buyouts?  
+>  • What are the long-term trends in venture capital?  
+>  • Where do we go from here?
+
+Markets have become more sophisticated over time as the result of the growth
+in institutional money management, financial innovation, and sharply lower
+technology costs. Large institutional investors, including pension funds and
+endowments, face the prospect of swelling future liabilities and diminished
+expected returns for most asset classes. As a result, they have reduced their
+portfolio allocation to public securities and have increased their allocation
+to private equity, where returns have historically been higher.
+
+From the end of World War II through the early 1970s, many companies went
+public to raise capital to fund their growth. Today, young companies often
+rely more on intangible assets and have a less voracious appetite for capital.
+They also have unprecedented access to capital through the private markets.
+Consequently, many young companies have elected to stay private longer than
+did the companies of prior generations.
+
+_More charts after the jump_
+
+[![](//web.archive.org/web/20250709101245im_/https://ritholtz.com/wp-
+content/plugins/a3-lazy-
+load/assets/images/lazy_placeholder.gif)![](http://web.archive.org/web/20250709101245im_/https://ritholtz.com/wp-
+content/uploads/2020/08/Screen-
+Shot-2020-08-05-at-6.16.54-AM.png)](http://web.archive.org/web/20250709101245/https://ritholtz.com/wp-
+content/uploads/2020/08/Screen-Shot-2020-08-05-at-6.16.54-AM.png)
+
+[![](//web.archive.org/web/20250709101245im_/https://ritholtz.com/wp-
+content/plugins/a3-lazy-
+load/assets/images/lazy_placeholder.gif)![](http://web.archive.org/web/20250709101245im_/https://ritholtz.com/wp-
+content/uploads/2020/08/Screen-
+Shot-2020-08-05-at-6.17.36-AM.png)](http://web.archive.org/web/20250709101245/https://ritholtz.com/wp-
+content/uploads/2020/08/Screen-Shot-2020-08-05-at-6.17.36-AM.png)
+
+[![](//web.archive.org/web/20250709101245im_/https://ritholtz.com/wp-
+content/plugins/a3-lazy-
+load/assets/images/lazy_placeholder.gif)![](http://web.archive.org/web/20250709101245im_/https://ritholtz.com/wp-
+content/uploads/2020/08/Screen-
+Shot-2020-08-05-at-6.19.00-AM.png)](http://web.archive.org/web/20250709101245/https://ritholtz.com/wp-
+content/uploads/2020/08/Screen-Shot-2020-08-05-at-6.19.00-AM.png)
+
+[![](//web.archive.org/web/20250709101245im_/https://ritholtz.com/wp-
+content/plugins/a3-lazy-
+load/assets/images/lazy_placeholder.gif)![](http://web.archive.org/web/20250709101245im_/https://ritholtz.com/wp-
+content/uploads/2020/08/Screen-
+Shot-2020-08-05-at-6.19.13-AM.png)](http://web.archive.org/web/20250709101245/https://ritholtz.com/wp-
+content/uploads/2020/08/Screen-Shot-2020-08-05-at-6.19.13-AM.png)  
+All data and text sourced from: [Morgan
+Stanley](http://web.archive.org/web/20250709101245/https://www.morganstanley.com/im/publication/insights/articles/articles_publictoprivateequityintheusalongtermlook_us.pdf?1596549853128)

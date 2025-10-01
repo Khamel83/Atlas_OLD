@@ -1,0 +1,297 @@
+# Money Stuff: Here, Have Some Extra Carbon Credits
+
+**Source**: inputs/saved_emails/Money Stuff Here, Have Some Extra Carbon Credits_Mon,_6_May_2024_14-38-54_-0400_(EDT)_18f4f33b75ade19d.eml
+**Type**: email
+**Created**: 2025-08-25T02:54:04.929818
+
+---
+
+There are two ways to think of a carbon credit: A carbon credit represents one ton of carbon that has been removed from the atmosphere. A ca
+      
+    
+  
+  
+    
+      
+        
+          
+          
+        
+        
+          
+            
+          
+        
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          
+  
+    
+      BOGO carbon credits
+    
+  
+
+There are two ways to think of a carbon credit:
+	A carbon credit represents one ton of carbon that has been removed from the atmosphere.	A carbon credit is a quasi-regulatory accounting quantity, where companies want to be able to tell certain audiences — shareholders, governments, activists, whoever — “we are carbon neutral,” and to get to carbon neutrality you add up your carbon emissions (measured in tons) and subtract the number of carbon credits you have bought.
+
+The first approach thinks of carbon credits as physical quantities, things in the real world. The second approach thinks of carbon credits as instruments of accounting, or public relations, or regulatory compliance, or whatever your carbon regime is about.
+They are necessarily somewhat related. If I went around certifying my own proprietary brand of carbon credits, and when asked “how do you ensure that these carbon credits really represent carbon removed from the atmosphere” I was like “I don’t, I just take the money and issue the credits,” then nobody would ascribe any value to my credits — they would not accomplish any public-relations or regulatory goal — and so nobody would buy them.
+But they are not necessarily perfectly related. If a globally respected organization with a credible commitment to fighting climate change went around certifying carbon credits, and it had a rigorous process for examining each carbon-credit project and making sure that it represented true carbon removal, then its credits would probably have a lot of (public-relations, regulatory, market) value. And then if I went to one of its forests and found that a few acres of trees had burned down without anyone noticing, so the actual amount of carbon removal it certified was slightly higher than what it achieved, I’m not sure it would matter that much. Nobody is buying the credits as a physics experiment; making the quantities balance exactly in physical reality is not the goal. Being able to say “we are carbon neutral,” and having people believe you, is the goal.
+  [1]
+ That goal requires some general rigor and good faith, but it will tolerate a certain amount of physical slippage.
+And so if the actual government comes to you and says “we’re having a special sale on carbon credits, act now and we’ll give you two tons of carbon credit for every ton of carbon you remove,” that’s … fine? Ish? It’s, like, kind of okay as long as not too many people find out? And then if they do find out it’s awkward and embarrassing but not the end of the world? I don’t know; here’s a weird story about carbon accounting:
+
+Shell sold to Canada’s largest oil sands companies millions of carbon credits tied to CO₂ removal that never took place, raising new doubts about a technology seen as crucial to mitigating greenhouse gas emissions.
+As part of a subsidy scheme to boost the industry, the Alberta provincial government allowed Shell to register and sell carbon credits equivalent to twice the volume of emissions avoided by its Quest carbon capture facility between 2015 and 2021, the province’s registry shows. The subsidy was reduced and then ended in 2022.
+As a result of the scheme, Shell was able to register 5.7mn credits that had no equivalent CO₂ reductions, selling these to top oil sands producers and some of its own subsidiaries. Credits are typically equivalent to one tonne of CO₂. …
+Keith Stewart, a senior energy strategist with Greenpeace Canada, criticised these “phantom credits”.
+“Selling emissions credits for reductions that never happened . . . literally makes climate change worse.”
+Shell said carbon capture played “an important role in helping to decarbonise industry and sectors where emissions cannot be avoided” and that realising its potential “requires creating market incentives now.”
+
+One way to create incentives for carbon capture is for the government to write a big check to Shell for setting up the facility. But that costs money. Registering extra carbon credits is, for the government, more or less free. And then Shell can sell those credits for money to help pay for the facility. People who bought those credits thinking that they were getting exactly one ton of reduced carbon emissions were disappointed. People who bought those credits thinking that they were getting exactly one registered carbon credit were … fine? They got the thing they paid for? Carbon credits? Do you think they are going back and restating their claims about carbon neutrality? I don’t know:
+
+Some of the largest buyers of the credits were Chevron, Canadian Natural Resources, ConocoPhillips, Imperial Oil and Suncor Energy. …
+Chevron, Canadian Natural Resources, ConocoPhillips, Imperial Oil and Suncor Energy declined to comment.
+
+We talked last year about a Zimbabwean carbon credit project that turned out not to reduce carbon emissions by nearly as much as it had estimated, which was arguably a problem because it had sold carbon credits based on those estimates. At a meeting, a staffer asked if the credits were “based on reality,” and the co-founder replied, “I give the question back: What is reality?” Always the relevant question in this business.
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      Trump Media had a fake auditor?
+    
+  
+
+The funniest job in public accounting is now open:
+
+The Securities and Exchange Commission accused the auditor of Donald Trump’s social-media company of massive fraud affecting hundreds of companies and more than 1,500 regulatory filings.
+BF Borgers CPA PC and its founder, Benjamin Borgers, will be permanently suspended from practicing and appearing as accountants before the SEC, and will pay a total of $14 million in fines to settle the probe, the SEC said in a Friday release.
+“Ben Borgers and his audit firm, BF Borgers, were responsible for one of the largest wholesale failures by gatekeepers in our financial markets,” Gurbir Grewal, the SEC’s enforcement chief, said in a statement. “Borgers and his firm completely abandoned that role, but thanks to the painstaking work of the SEC staff, Borgers and his sham audit mill have been permanently shut down.” …
+Trump Media & Technology Group Corp. became a public company in March. Trump Media “looks forward to working with new auditing partners in accordance with today’s SEC order,” a representative for the company said.
+
+I’m kidding, the job isn’t actually open; last week Trump Media “engaged Semple, Marchal & Cooper, LLP (‘SMC’) as BF Borgers’ replacement.” Here is the SEC’s press release; here is the order shutting down Borgers; here is the SEC staff statement on what to do if you are a pubic company that used Borgers and now needs to find a different auditor. 
+  [2]
+
+I have said before that, since Trump Media’s financial statements don’t matter — to its shareholders, to its managers, to its stock price, to its value proposition for its promoters — it doesn’t especially matter that Trump Media used a “sham audit mill.” Still it’s not, you know, good. When it turns out that a company has a fake auditor, that raises some questions. I guess not that many questions. When Trump Media went public, I would not have guessed that it employed a fake auditor, because I was not aware that that was a thing. But if someone’s going to employ a fake auditor, why not Trump Media.
+The gist of the SEC case is that BF Borgers — which the Financial Times reported last month “is now the eighth largest audit firm in the country by number of clients,” while employing only 10 certified public accountants — was an “audit mill.” The SEC order says that BF Borgers had 350 clients whose financial statements were filed with the SEC, and Ben Borgers himself was the engagement partner for “the overwhelming majority” of those clients. He was stretched thin and “did not adequately review or supervise the audit engagements”: 
+
+There were no audit planning meetings held in relation to any of BF Borgers’ audit engagements. In addition, Borgers rarely interacted with the staff level auditors. Borgers failed to inform the team members as to the objectives, nature, timing, and extent of the auditing procedures they were to perform as well as relevant information regarding the particular client that could affect those procedures. … 
+As the engagement partner, Borgers also failed both to review the work of the engagement team and to ensure that the workpapers properly and accurately documented the work performed on the audits. 
+
+Instead, they just cut and pasted old audit workpapers into new ones:
+Borgers instructed BF Borgers audit staff and contractors to copy workpapers from previous engagements as the final workpapers for new engagements. Specifically, audit staff updated the balance sheet date and date of completion on the workpapers, but all of the other information indicating the substantive work done on the engagement was simply copied from the corresponding workpaper from the previous audit or quarterly review. As a result, BF Borgers’ workpapers falsely documented the performance of audit and review procedures and approvals that had not occurred, including falsely representing that both Borgers, as the engagement partner, and an EQR [engagement quality reviewer] reviewed and approved the workpapers.
+Look, again, Trump Media’s finances are not especially complicated, and they are not especially important to investors. The stock trades on — I mean, at best, it trades on hopes of potential future earnings, though there are 
+other possible explanations for the stock price. But it’s not like a one-penny shift in earnings per share is going to have a big effect on the stock.
+I suspect it is not alone in this; lots of public companies — not usually big ones — are in similar situations, with simple businesses, modest revenues, big dreams, and investors who are not too concerned about the financial statements. Those companies, as a legal matter, need a certified public accountant to sign off on their financial statements, but they don’t need the best accountant; they do not need to pay for the name brand and reputation of a well-known accounting firm to reassure investors that their finances have been reviewed scrupulously. It is apparently cheaper to hire an accountant who will review your finances less than scrupulously. Trump Media was arguably in the market for the absolute minimum amount of auditing services, though it managed to buy a bit less than that.
+
+  
+    
+      “The life cycle of fees”
+    
+  
+
+One important thing that investment banks do is connect companies with public capital markets. If you are a company and you want to sell bonds, an investment bank will help you sell bonds to public bond investors. If you are a company and you want to sell stock to the public, an investment bank will help you do an initial public offering of your stock.
+In modern finance, private capital markets are increasingly important. If you are a company and you want to borrow money, you could sell bonds, but there’s also a booming private credit industry that will lend you money without a public bond sale. If you are a company and you don’t want to sell stock to the public, venture capitalists and growth funds and other big private investors will buy your stock without an initial public offering.
+Two generic things you could say about private markets are:
+	They are more customized than public markets. A corporate bond offering, or an initial public offering of stock, will be sold to dozens or hundreds of investors, and will have to be reasonably legible to them. Most of the things have to work the way things usually work; public markets are skeptical of weird stuff. A direct lending transaction or a venture investment can be negotiated with one investor, or just a few, and so there is more room to structure the transaction you want.	There is more room to disintermediate investment banks. Investment banks know all the public investors, who expect deals to come through banks; a company can’t really do an IPO without an investment bank’s sales force. But venture capitalists and private-credit direct lenders are very much in the business of calling up companies directly — or getting calls directly from companies — to talk about investment opportunities. You can raise venture capital or private credit without an investment bank.
+
+On the other hand, investment banks hate to be disintermediated. If there are companies who want money, and investors who want to give it to them, investment banks are going to find a way to sit between them and take a cut.
+And the fact that private markets tend to be more customizable than public ones is good for the banks. It gives them more to do: There is more complexity, there are more different deals to be done with different types of investors, so the banks’ advice is more valuable. You can’t really do an IPO or a bond offering without a bank, but you can kind of do an IPO or a bond offering with any bank; the process is pretty widely understood. (And in fact many companies will hire like 20 banks to underwrite their IPO or bond offering: You’re not paying for specialized expertise; you’re paying for a big sales force and rewarding banks for their relationship.)
+We talked last month about how big investment banks are increasingly getting into the business of helping companies borrow money from the private credit market, for a fee. Obviously! Investment banks are in the business of matching investors with companies; private credit features investors and companies looking to match with each other; it can’t keep the banks away for long. I wrote:
+If you are a company looking to borrow money, the best user experience is something like “one person, whom we trust, shows up at our office, gives us a menu of borrowing options, lists the pros and cons of each one, and then goes and gets us the one we choose.” Traditionally that person was an investment banker, and she’d show up with a pitchbook on the pros and cons of bonds and bank loans. The current situation is, I guess, that she shows up, does her pitch, leaves, and then you have appointments with six private lenders who offer alternatives. But that seems unstable. In the long run, the best user experience is probably that the investment banker adds another column, for private credit, to her pitchbook.
+Today at the Information, Cory Weinberg reports on “How Investment Banks Are Helping Canva, Stripe, Figma Stay Private.” The answer is (1) by arranging and advising on tender offers and secondary sales, so that early employees and investors can sell their stock without an IPO and (2) by investing their asset management clients’ money in the companies’ stock. Same idea: If you are a big private tech company looking to sell stock, the best user experience is for a banker you trust to show up with a pitchbook explaining how to do it. Traditionally, her pitchbook was just about IPOs. More recently, the pitchbook has added (and then deleted) columns for 
+direct listings and special purpose acquisition companies. Now the pitchbook will have columns for private secondary sales and tender offers, because staying private is more appealing than it used to be. But the point is (1) the bank wants to offer all the services the clients might want and (2) the bank wants the fees:
+
+Such tender offers are one reason investment bankers have fretted that there will be a relatively light volume of tech IPOs this year. That could create an awkward dynamic for the investment banks, which often compete to lead IPOs and can generate tens of millions of dollars in fees from such listings, based on a low single-digit percentage of the capital that companies raise.
+Secondary deals yield similar fee charges but are “heavily negotiated,” said Tom Callahan, CEO of Nasdaq Private Market, which runs secondary transactions. Usually only one or two banks work on those deals, however, making them potentially more lucrative than IPOs if companies raise enough cash.
+Colin Stewart, global head of technology equity capital markets at Morgan Stanley, which advised CoreWeave on a $642 million secondary sale that was completed in December, said the investment bank views secondary transactions as part of the “life cycle of fees you can earn.”
+He continued: “This adds another product to the life cycle. It may elongate the life cycle. But it adds another product.”
+
+Honestly a longer life cycle is better, if you can charge fees the whole time? Big public tech companies will consume investment banking services, but those services will be somewhat commoditized. Big private tech companies will consume expensive investment banking services, if you pitch them right.
+
+  
+    
+      Biz Dev
+    
+  
+
+In high-end professional organizations, it can be hard to distinguish the human resources function from the mergers-and-acquisitions function. If Alphabet Inc. wants to hire six 22-year-old engineers with good programming skills, it sends a recruiter to Stanford, does some interviews, makes some offers. If it wants to hire a 32-year-old researcher who has developed revolutionary new artificial intelligence methods, probably it makes an offer to acquire her startup. 
+Similarly if you run a multi-strategy hedge fund, you might want to add a new strategy by hiring a portfolio manager from outside your firm. Perhaps that portfolio manager currently works for another big multi-strategy fund, and you will hire her. Or perhaps she currently runs her own hedge fund, and you will acquire it. But regardless of the formalities, if you’re hiring someone on a $50 million guarantee, that arguably feels more like M&A than HR.
+So here’s a Business Insider story about hedge fund recruiters, I mean, sorry, “business development professionals”:
+
+The talent war that has broken out over top portfolio managers — including $50 million guarantees that star athletes would envy — has been widely documented. Less well known are the men and women behind the scenes helping fuel these pay packages, so-called "business development" professionals. Unlike business development in corporate America, which focuses on growing a company's prospects with partners and clients, hedge-fund BD teams specialize in scouting and evaluating investment talent.
+BDs have been quietly gaining power, growing in numbers, and earning multimillion-dollar paychecks at hedge funds by assembling winning trading teams, the lifeblood of the industry. They can be found at all kinds of hedge funds and proprietary trading firms, but have been key to the meteoric growth of the multimanager hedge fund, now the industry's dominant players. …
+Senior BD professionals now commonly earn more than $1 million annually, with some top execs making north of $5 million, BD execs and headhunters familiar with the market said. Midlevel BD professionals can earn $500,000 and $700,000, these people estimated. …
+Job duties vary from firm to firm, but in addition to entertaining and wooing candidates, BD execs map the universe of traders involved in a strategy. They vet the performance of traders and their reputations with industry contacts and even law enforcement. They construct offers and project when a hire might break even. They onboard PMs, and help marshal resources for their pods.
+
+Yes, right, the ability to identify investments that will go up is rare and valuable and in high demand. But the ability to identify people who can identify investments that will go up is almost as good.
+
+  
+    
+      Shale
+    
+  
+
+“You simply could not pay me enough to go to this dinner,” 
+I wrote last week, about a dinner that the Organization of Petroleum Exporting Countries (OPEC), the oil cartel, threw for a bunch of US shale oil producers, including Scott Sheffield of Pioneer Natural Resources. Just seems like a high risk of collusion? Like antitrust regulators would be waiting outside the restaurant with handcuffs? But in fact the dinner was in 2017, and the antitrust regulators only got around to Sheffield last week. And the Financial Times mentions that my scruples are unusual and in fact there are frequent well-attended OPEC/shale dinners:
+
+Among the evidence the agency cited was a dinner Sheffield attended along with other US producers, hosted by the late Opec secretary-general Mohammed Barkindo, in 2017. Such dinners have become a regular industry feature in recent years, often hosted on the sidelines of the annual CERAWeek energy conference in Houston. 
+Attendees say the gatherings have become increasingly cordial in recent years as memories fade of the cartel’s efforts to sink the US shale industry by flooding the market with oil.
+
+I guess one way to tell this story is that once OPEC was the dominant force in oil markets, and kept prices high; then the US shale revolution occurred, and US producers became formidable competitors to OPEC; then OPEC tried to fight back by increasing supply to drive down oil prices; and now they are all friends and have cordial dinners together and OPEC keeps supply in check, while the shale producers also keep supply in check? Maybe that’s fine? I hope the food is good.
+
+  
+    
+      Things happen
+    
+  
+
+“With the help of our friends at the Fed, they did 
+put the income back in fixed income.” Sony, Apollo Propose $26 Billion Deal for 
+Paramount Global. Bondholders to Push Ukraine to Resume Debt Payments After Hiatus. Is Hunterbrook Media a News Outlet or a Hedge Fund? Last Credit Suisse chief executive, Ulrich Körner, to leave UBS. The CEO Who Hired His Wife, Gave His Dog a Title, and Brought Down a Bank. Listless inflows dim hopes of revival for long-suffering active funds. Worsening 
+Weather Is Igniting a $25 Billion Market. How TikTok Is Wiring Gen Z’s Money Brain. ‘Finance Bro’ Outfits Desperately Need an Update. Howard Schultz Is Giving His Successor at Starbucks Advice on LinkedIn. McDonald’s brings back beloved McFlurry flavor, but not everyone is happy: ‘It ain’t right.’
+If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
+        
+  [1] “We use several valid third-party standards to determine whether an offset is permanent, … new, … [and] unique,” says Chevron’s carbon offset explainer page.
+
+
+  [2] The SEC’s timing here is relatively kind: Most companies publish their audited financial statements between late February and early April, so banning an auditor in early May gives its clients some time to find new auditors. And “reports that were filed before the date of the Order do not necessarily need to be amended,” though “issuers should consider whether their filings may need to be amended to address any reporting deficiencies arising from the BF Borgers engagement.”
+
+
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+
+
+  
+    
+      
+        
+        
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cl08nj.646a/1a4dbcbb.gif" alt="" border="0" /></a>

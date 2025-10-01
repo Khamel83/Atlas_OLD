@@ -1,0 +1,772 @@
+# Making It in America [via Longreads]
+
+**Source**: http://www.theatlantic.com/magazine/archive/2012/01/making-it-in-america/8844/?single_page=true
+**Type**: article
+**Created**: 2025-08-13T20:23:42.735118
+
+---
+
+title: Making It in America - The Atlantic
+source: http://www.theatlantic.com/magazine/archive/2012/01/making-it-in-america/8844/?single_page=true
+date: 2025-08-13T20:23:40.633283
+tags: []
+---
+I first met Madelyn “Maddie” Parlier in the “clean room” of Standard Motor
+Products’ fuel-injector assembly line in Greenville, South Carolina. Like
+everyone else, she was wearing a blue lab coat and a hairnet. She’s so small
+that she seemed swallowed up by all the protective gear.
+
+Tony Scalzitti, the plant manager, was giving me the grand tour, explaining
+how bits of metal move through a series of machines to become precision fuel
+injectors. Maddie, hunched forward and moving quickly from one machine to
+another, almost bumped into us, then shifted left and darted away. Tony, in
+passing, said, “She’s new. She’s one of our most promising Level 1s.”
+
+**Also see:** [Live Chat With Adam
+Davidson](https://www.theatlantic.com/business/archive/2012/01/live-chat-with-
+adam-davidson/251016)
+
+The author will be answering questions about his article and American jobs on
+January 31 at 4 p.m. Click the link above for details.
+
+Later, I sat down with Maddie in a quiet factory office where nobody needs to
+wear protective gear. Without the hairnet and lab coat, she is a pretty,
+intense woman, 22 years old, with bright blue eyes that seemed to bore into me
+as she talked, as fast as she could, about her life. She told me how much she
+likes her job, because she hates to sit still and there’s always something
+going on in the factory. She enjoys learning, she said, and she’s learned how
+to run a lot of the different machines. At one point, she looked around the
+office and said she’d really like to work there one day, helping to design
+parts rather than stamping them out. She said she’s noticed that robotic arms
+and other machines seem to keep replacing people on the factory floor, and
+she’s worried that this could happen to her. She told me she wants to go back
+to school—as her parents and grandparents keep telling her to do—but she is a
+single mother, and she can’t leave her two kids alone at night while she takes
+classes.
+
+I had come to Greenville to better understand what, exactly, is happening to
+manufacturing in the United States, and what the future holds for people like
+Maddie—people who still make physical things for a living and, more broadly,
+people (as many as 40 million adults in the U.S.) who lack higher education,
+but are striving for a middle-class life. We do still make things here, even
+though many people don’t believe me when I tell them that. Depending on which
+stats you believe, the United States is either the No. 1 or No. 2 manufacturer
+in the world (China may have surpassed us in the past year or two). Whatever
+the country’s current rank, its manufacturing output continues to grow
+strongly; in the past decade alone, output from American factories, adjusted
+for inflation, has risen by a third.
+
+Yet the success of American manufacturers has come at a cost. Factories have
+replaced millions of workers with machines. Even if you know the rough outline
+of this story, looking at the Bureau of Labor Statistics data is still
+shocking. A historical chart of U.S. manufacturing employment shows steady
+growth from the end of the Depression until the early 1980s, when the number
+of jobs drops a little. Then things stay largely flat until about 1999. After
+that, the numbers simply collapse. In the 10 years ending in 2009, factories
+shed workers so fast that they erased almost all the gains of the previous 70
+years; roughly one out of every three manufacturing jobs—about 6 million in
+total—disappeared. About as many people work in manufacturing now as did at
+the end of the Depression, even though the American population is more than
+twice as large today.
+
+I came here to find answers to questions that arise from the data. How,
+exactly, have some American manufacturers continued to survive, and even
+thrive, as global competition has intensified? What, if anything, should be
+done to halt the collapse of manufacturing employment? And what does the
+disappearance of factory work mean for the rest of us?
+
+Across America, many factory floors look radically different than they did 20
+years ago: far fewer people, far more high-tech machines, and entirely
+different demands on the workers who remain. The still-unfolding story of
+manufacturing’s transformation is, in many respects, that of our economic age.
+It’s a story with much good news for the nation as a whole. But it’s also one
+that is decidedly less inclusive than the story of the 20th century, with a
+less certain role for people like Maddie Parlier, who struggle or are unlucky
+early in life.
+
+**The Life and Times of Maddie Parlier**
+
+The Greenville Standard Motor Products plant sits just off I-85, about 100
+miles southwest of Charlotte, North Carolina. It’s a sprawling beige one-story
+building, surrounded by a huge tended lawn. Nearby are dozens of other
+similarly boxy factory buildings. Neighbors include a big Michelin tire plant,
+a nutrition-products factory, and, down the road, BMW’s only car plant on
+American soil. Greenville is at the center of the 20-year-old manufacturing
+boom that’s still taking place throughout the “New South.” Nearby, I visited a
+Japanese-owned fiber-optic-material manufacturer, and a company that makes
+specialized metal parts for intercontinental ballistic missiles.
+
+Standard makes and distributes replacement auto parts, known in the industry
+as “aftermarket” parts. Companies like Standard directly compete with Chinese
+firms for shelf space in auto-parts retail stores. This competition has
+intensified the pressure on all parts makers—American, Chinese, European. And
+of course it means that Maddie is, effectively, competing directly with
+workers in China who are willing to do similar work for much less money.
+
+When Maddie says something important, something she wants you to really hear,
+she repeats it. She’ll say it one time in a flat, matter-of-fact voice, and
+then again with a lot of upstate South Carolina twang.
+
+“I’m a redneck,” she’ll say. “I’m a _reeeeeedneck_.”
+
+“I’m smart,” she told me the first time we met. “There’s no other way to say
+it. I am _smaaaart_. I am.”
+
+Maddie flips back and forth between being a stereotypical redneck and being
+awfully smart. She will say, openly, that she doesn’t know all that much about
+the world outside of Easley, South Carolina, where she’s spent her whole life.
+Since her childhood, she’s seen Easley transform from a quiet country town to
+a busy suburb of Greenville. (It’s now a largely charmless place, thick with
+chain restaurants and shopping centers.) Maddie was the third child born to
+her young mother, Heather. Her father left when Maddie was young, never
+visited again, and died after he drove drunk into a car carrying a family of
+four, killing all of them as well.
+
+Until her senior year of high school, Maddie seemed to be headed for the
+American dream—a college degree and a job with a middle-class wage. She got
+good grades, and never drank or did drugs or hung out with the bad kids. For
+the most part, she didn’t hang out with anybody outside her family; she went
+to school, went home, went to church on Sundays. When she was 17, she met a
+boy who told her she should make friends with other kids at school. He had an
+easy way with people and he would take Maddie to Applebee’s and cookouts and
+other places where the cool kids hung out. He taught her how to fit in, and he
+told her she was pretty.
+
+Maddie’s senior year started hopefully. She had finished most of her high-
+school requirements and was taking a few classes at nearby Tri-County
+Technical College. She planned to go to a four-year college after graduation,
+major in criminal justice, and become an animal-control officer. Around
+Christmas, she found out she was pregnant. She did finish school and, she’s
+proud to say, graduated with honors. “On my graduation, I was six months
+pregnant,” she says. “ _Six months_.” The father and Maddie didn’t stay
+together after the birth, and Maddie couldn’t afford to pay for day care while
+she went to college, so she gave up on school and eventually got the best sort
+of job available to high-school graduates in the Greenville area: factory
+work.
+
+If Maddie had been born in upstate South Carolina earlier in the 20th century,
+her working life would have been far more secure. Her 22 years overlap the
+final collapse of most of the area’s once-dominant cotton mills and the birth
+of an advanced manufacturing economy. Hundreds of mills here once spun raw
+cotton into thread and then wove and knit the thread into clothes and
+textiles. For about 100 years, right through the 1980s and into the 1990s,
+mills in the Greenville area had plenty of work for people willing to put in a
+full day, no matter how little education they had. But around the time Maddie
+was born, two simultaneous transformations hit these workers. After NAFTA and,
+later, the opening of China to global trade, mills in Mexico and China were
+able to produce and ship clothing and textiles at much lower cost, and mill
+after mill in South Carolina shut down. At the same time, the mills that
+continued to operate were able to replace their workers with a new generation
+of nearly autonomous, computer-run machines. (There’s a joke in cotton country
+that a modern textile mill employs only a man and a dog. The man is there to
+feed the dog, and the dog is there to keep the man away from the machines.)
+
+Other parts of the textile South have never recovered from these two blows,
+but upstate South Carolina—thanks to its proximity to I-85, and to foresighted
+actions by community leaders—attracted manufacturers of products far more
+complicated than shirts and textiles. These new plants have been a godsend for
+the local economy, but they have not provided the sort of wide-open job
+opportunities that the textile mills once did. Some workers, especially those
+with advanced manufacturing skills, now earn higher wages and have more
+opportunity, but there are not enough jobs for many others who, like Maddie,
+don’t have training past high school.
+
+Maddie got her job at Standard through both luck and hard work. She was
+temping for a local agency and was sent to Standard for a three-day job
+washing walls in early 2011. “People came up to me and said, ‘You have to hire
+that girl—she is working so hard,’” Tony Scalzitti, the plant manager, told
+me. Maddie was hired back and assigned to the fuel-injector clean room, where
+she continued to impress people by working hard, learning quickly, and
+displaying a good attitude. But, as we’ll see, this may be about as far as
+hustle and personality can take her. In fact, they may not be enough even to
+keep her where she is.
+
+**The Transformation of the Factory Floor**
+
+To better understand Maddie’s future, it’s helpful, first, to ask: Why is
+anything made in the United States? Why would any manufacturing company pay
+American wages when it could hire someone in China or Mexico much more
+cheaply?
+
+I came to understand this much better when I learned how Standard makes fuel
+injectors, the part that Maddie works on. Like so many parts of the modern car
+engine, the fuel injector seems mundane until you sit down with an engineer
+who can explain how amazing it truly is.
+
+A fuel injector is a bit like a small metal syringe, spraying a tiny, precise
+mist of gasoline into the engine in time for the spark plug to ignite the gas.
+The small explosion that results pushes the piston down, turning the
+crankshaft and propelling the car. Fuel injectors have replaced the
+carburetor, which, by comparison, sloppily sloshed gasoline around the engine.
+They became common in the 1980s, helping to solve a difficult engineering
+problem: how to make cars more efficient (and meet ever-tightening emission
+standards) without sacrificing power or performance.
+
+To achieve maximum efficiency and power, a car’s computer receives thousands
+of signals every second from sensors all over the engine and body. Based on
+the car’s speed, ambient temperature, and a dozen other variables, the
+computer tells a fuel injector to squirt a precise amount of gasoline
+(anywhere from one to 100 10,000ths of an ounce) at the instant that the
+piston is in the right position (and anywhere from 10 to 200 times a second).
+For this to work, the injector must be perfectly constructed. When squirting
+gas, the syringe moves forward and back a total distance of 70 microns—about
+the width of a human hair—and a microscopic imperfection in the metal, or even
+a speck of dust, will block the movement and disable the injector. The tip of
+the plunger—a ball that meets a conical housing to create a seal—has to be
+machined to a tolerance of a quarter micron, or 10 millionths of an inch,
+about the size of a virus. That precision explains why fuel injectors are
+likely to be made in the United States for years to come. They require up-to-
+date technology, strong quality assurance, and highly skilled workers, all of
+which are easier to find in the United States than in most factories in low-
+wage countries.
+
+The main factory floor of Standard’s Greenville plant is, at first,
+overwhelming. It has the feel of a very crowded high-school gym: a big space
+with high ceilings but not a lot of light, a gray cement floor that’s been
+around for a long time, and row after row of machines, going back farther than
+the eye can see, some the size of a washing machine, others as big as a small
+house. The first two machines, in the first row as you enter, are the newest:
+the Gildemeister seven-axis turning machines, two large off-white boxes each
+about the size of a small car turned on its side. Costing just under half a
+million dollars apiece, they gleam next to all the older machines. Inside each
+box is a larger, more precise version of the lathe you’d find in any high-
+school metal shop: a metal rod is spun rapidly while a cutting tool approaches
+it to cut at an exact angle. A special computer language tells the
+Gildemeisters how fast to spin and how close to bring the cutting tool to the
+metal rod.
+
+A few decades ago, “turning machines” like these were operated by hand; a
+machinist would spin one dial to move the cutting tool large distances and
+another dial for smaller, more precise positioning. A good machinist didn’t
+need a lot of book smarts, just a steady, confident hand and lots of
+experience. Today, the computer moves the cutting tool and the operator needs
+to know how to talk to the computer.
+
+Luke Hutchins is one of Standard’s newest skilled machinists. He is somewhat
+shy and talks quietly, but when you listen closely, you realize he’s
+constantly making wry, self-deprecating observations. He’s 27, skinny in his
+dark-blue jacket and jeans. When he was in his teens, his parents told him,
+for reasons he doesn’t remember, that he should become a dentist. He spent a
+semester and a half studying biology and chemistry in a four-year college and
+decided it wasn’t for him; he didn’t particularly care for teeth, and he
+wanted to do something that would earn him money right away. He transferred to
+Spartanburg Community College hoping to study radiography, like his mother,
+but that class was full. A friend of a friend told him that you could make
+more than $30 an hour if you knew how to run factory machines, so he enrolled
+in the Machine Tool Technology program.
+
+At Spartanburg, he studied math—a lot of math. “I’m very good at math,” he
+says. “I’m not going to lie to you. I got formulas written down in my head.”
+He studied algebra, trigonometry, and calculus. “If you know calculus, you
+definitely can be a machine operator or programmer.” He was quite good at the
+programming language commonly used in manufacturing machines all over the
+country, and had a facility for three-dimensional visualization—seeing, in
+your mind, what’s happening inside the machine—a skill, probably innate, that
+is required for any great operator. It was a two-year program, but Luke was
+the only student with no factory experience or vocational school, so he spent
+two summers taking extra classes to catch up.
+
+After six semesters studying machine tooling, including endless hours cutting
+metal in the school workshop, Luke, like almost everyone who graduates, got a
+job at a nearby factory, where he ran machines similar to the Gildemeisters.
+When Luke got hired at Standard, he had two years of technical schoolwork and
+five years of on-the-job experience, and it took one more month of training
+before he could be trusted alone with the Gildemeisters. All of which is to
+say that running an advanced, computer-controlled machine is extremely hard.
+Luke now works the weekend night shift, 6 p.m. to 6 a.m., Friday, Saturday,
+and Sunday.
+
+When things are going well, the Gildemeisters largely run themselves, but
+things don’t always go well. Every five minutes or so, Luke takes a finished
+part to the testing station—a small table with a dozen sets of calipers and
+other precision testing tools—to make sure the machine is cutting “on spec,”
+or matching the requirements of the run. Standard’s rules call for a random
+part check at least once an hour. “I don’t wait the whole hour before I check
+another part,” Luke says. “That’s stupid. You could be running scrap for the
+whole hour.”
+
+Luke says that on a typical shift, he has to adjust the machine about 20 times
+to keep it on spec. A lot can happen to throw the tolerances off. The most
+common issue is that the cutting tool gradually wears down. As a result, Luke
+needs to tell the computer to move the tool a few microns closer, or make some
+other adjustment. If the operator programs the wrong number, the tool can cut
+right into the machine itself and destroy equipment worth tens of thousands of
+dollars.
+
+Luke wants to better understand the properties of cutting tools, he told me,
+so he can be even more effective. “I’m not one of the geniuses on that. I know
+a little bit. A lot of people go to school just to learn the properties of
+tooling.” He also wants to learn more about metallurgy, and he’s especially
+eager to study industrial electronics. He says he will keep learning for his
+entire career.
+
+In many ways, Luke personifies the dramatic shift in the U.S. industrial labor
+market. Before the rise of computer-run machines, factories needed people at
+every step of production, from the most routine to the most complex. The
+Gildemeister, for example, automatically performs a series of operations that
+previously would have required several machines—each with its own operator.
+It’s relatively easy to train a newcomer to run a simple, single-step machine.
+Newcomers with no training could start out working the simplest and then
+gradually learn others. Eventually, with that on-the-job training, some
+workers could become higher-paid supervisors, overseeing the entire operation.
+This kind of knowledge could be acquired only on the job; few people went to
+school to learn how to work in a factory.
+
+Today, the Gildemeisters and their ilk eliminate the need for many of those
+machines and, therefore, the workers who ran them. Skilled workers now are
+required only to do what computers can’t do (at least not yet): use their
+human judgment. This change is evident in the layout of a factory. In the pre-
+computer age, machines were laid out in long rows, each machine tended
+constantly by one worker who was considered skilled if he knew the temperament
+of his one, ornery ward. There was a quality-assurance department, typically
+in a lab off the factory floor, whose workers occasionally checked to make
+sure the machinists were doing things right. At Standard, today, as at most
+U.S. factories, machines are laid out in cells. One skilled operator, like
+Luke, oversees several machines, performing on-the-spot quality checks and
+making appropriate adjustments as needed.
+
+The combination of skilled labor and complex machines gives American factories
+a big advantage in manufacturing not only precision products, but also those
+that are made in small batches, as is the case with many fuel injectors. Luke
+can quickly alter the program in a Gildemeister’s computer to switch from
+making one kind of injector to another. Standard makes injectors and other
+parts for thousands of different makes and models of car, fabricating and
+shipping in small batches; Luke sometimes needs to switch the type of product
+he’s making several times in a shift. Factories in China, by contrast, tend to
+focus on long runs of single products, with far less frequent changeovers.
+
+It’s no surprise, then, that Standard makes injectors in the U.S. and employs
+high-skilled workers, like Luke. It seems fairly likely that Luke will have a
+job for a long time, and will continue to make a decent wage. People with
+advanced skills like Luke are more important than ever to American
+manufacturing.
+
+But why does Maddie have a job? In fact, more than half of the workers on the
+factory floor in Greenville are, like Maddie, classified as unskilled. On
+average, they make about 10 times as much as their Chinese counterparts. What
+accounts for that?
+
+Tony Scalzitti, the factory manager, guides me through the logic of Maddie’s
+employment. He’s bookish and thoughtful—nothing like my mental image of a big,
+hulking factory manager. Trained as an engineer, he is constantly drawing
+charts and making lists as he talks, in order to explain modern American
+manufacturing. Sitting at a table in his office in the administrative area off
+the factory floor, Tony takes out a pen and writes down the definitions.
+
+“Unskilled worker,” he narrates, “can train in a short amount of time. The
+machine controls the quality of the part.”
+
+“High-skill worker,” on the other hand, “can set up machines and make a
+variety of small adjustments; they use their judgment to assure product
+quality.”
+
+To show me the difference between the two, Tony takes me from Luke’s station
+through an air lock and into Standard’s bright-white clean room—about a
+quarter the size of the dirtier, louder factory floor—where dozens of people
+in booties, hairnets, and smocks, most of them women, stand at a series of
+workstations.
+
+Tony points out that most of the factory’s parts go through roughly the same
+process. Metal is cut into a precise shape in the “unclean” part of the
+factory and is then washed in a huge industrial washing machine to remove any
+bits of dirt, flakes of skin, or other contaminants, and, pristine, enters the
+clean room. Here, machines build the outer housing of the fuel injector, the
+part that is open to the engine and doesn’t require anything like the
+precision of the inner workings.
+
+The injectors progress through a series of stations, at each of which an
+unskilled worker and a simple machine perform one task. The machines here are
+much smaller, and are in one key respect the opposite of the Gildemeisters;
+these machines can work in only one way and require little judgment from the
+operator. This is not a throwback to the old system, in which workers manually
+ran single-purpose machines. This new technology is the other side of the
+computer revolution in manufacturing. Computers eliminate the need for human
+discretion; the person is there only to place the parts and push a button.
+
+Take Maddie’s station. She runs the laser welding machine, which sounds
+difficult and dangerous, but is neither. The laser welder is tiny, more like a
+cigarette lighter than like something you might aim at a Klingon. Maddie
+receives a tray of sealed injector interiors, and her job is to weld on a cap.
+The machine looks a little like a microscope; she puts the injector body in a
+hole in the base, and the cap in a clamp where the microscope lens would be.
+The entire machine—like most machines in the clean room—sits inside a large
+metal-and-plexiglass box with sensors to make sure that Maddie removes her
+hands from the machine before it runs. Once Maddie inserts the two parts and
+removes her hands, a protective screen comes down, and a computer program
+tells the machine to bring the cap and body together, fire its tiny beam, and
+rotate the part to create a perfect seal. The process takes a few seconds.
+Maddie then retrieves the part and puts it into another simple machine, which
+runs a test to make sure the weld created a full seal. If Maddie sees a green
+light, the part is sent on to the next station; if she sees a red or yellow
+light, the part failed and Maddie calls one of the skilled techs, who will
+troubleshoot and, if necessary, fix the welding machine.
+
+The last time I visited the factory, Maddie was training a new worker.
+Teaching her to operate the machine took just under two minutes. Maddie then
+spent about 25 minutes showing her the various instructions Standard engineers
+have prepared to make certain that the machine operator doesn’t need to use
+her own judgment. “Always check your sheets,” Maddie says.
+
+By the end of the day, the trainee will be as proficient at the laser welder
+as Maddie. This is why all assembly workers have roughly the same pay
+grade—known as Level 1—and are seen by management as largely interchangeable
+and fairly easy to replace. A Level 1 worker makes about $13 an hour, which is
+a little more than the average wage in this part of the country. The next
+category, Level 2, is defined by Standard as a worker who knows the machines
+well enough to set up the equipment and adjust it when things go wrong. The
+skilled machinists like Luke are Level 2s, and make about 50 percent more than
+Maddie does.
+
+For Maddie to achieve her dreams—to own her own home, to take her family on
+vacation to the coast, to have enough saved up so her children can go to
+college—she’d need to become one of the advanced Level 2s. A decade ago, a
+smart, hard-working Level 1 might have persuaded management to provide on-the-
+job training in Level-2 skills. But these days, the gap between a Level 1 and
+a 2 is so wide that it doesn’t make financial sense for Standard to spend
+years training someone who might not be able to pick up the skills or might
+take that training to a competing factory.
+
+It feels cruel to point out all the Level-2 concepts Maddie doesn’t know,
+although Maddie is quite open about these shortcomings. She doesn’t know the
+computer-programming language that runs the machines she operates; in fact,
+she was surprised to learn they are run by a specialized computer language.
+She doesn’t know trigonometry or calculus, and she’s never studied the
+properties of cutting tools or metals. She doesn’t know how to maintain a
+tolerance of 0.25 microns, or what _tolerance_ means in this context, or what
+a micron is.
+
+Tony explains that Maddie has a job for two reasons. First, when it comes to
+making fuel injectors, the company saves money and minimizes product damage by
+having both the precision and non-precision work done in the same place. Even
+if Mexican or Chinese workers could do Maddie’s job more cheaply, shipping
+fragile, half-finished parts to another country for processing would make no
+sense. Second, Maddie is cheaper than a machine. It would be easy to buy a
+robotic arm that could take injector bodies and caps from a tray and place
+them precisely in a laser welder. Yet Standard would have to invest about
+$100,000 on the arm and a conveyance machine to bring parts to the welder and
+send them on to the next station. As is common in factories, Standard invests
+only in machinery that will earn back its cost within two years. For Tony,
+it’s simple: Maddie makes less in two years than the machine would cost, so
+her job is safe—for now. If the robotic machines become a little cheaper, or
+if demand for fuel injectors goes up and Standard starts running three shifts,
+then investing in those robots might make sense.
+
+“What worries people in factories is electronics, robots,” she tells me. “If
+you don’t know jack about computers and electronics, then you don’t have
+anything in this life anymore. One day, they’re not going to need people; the
+machines will take over. People like me, we’re not going to be around
+forever.”
+
+**The Fragility of Industrial Profit**
+
+It’s tempting to look to the owners of Standard Motor Products and ask them to
+help Maddie out: to cut costs a little less relentlessly, take slightly lower
+profits, and maybe even help solve America’s jobs crisis in some small way.
+
+I tracked down the people who run Standard to put this possibility to them. I
+was surprised to learn they were based in Long Island City, Queens, a quick
+subway ride from my house.
+
+Standard’s headquarters is in the same massive but elegant Art Deco building,
+curving along Northern Boulevard, that has been its home since 1936. Until the
+late 1990s, Standard made many of its auto parts here as well; the company
+filled the six floors with machinery and workers. But running a factory in New
+York City is expensive and filled with logistical hassles, and over time,
+these problems became more severe. As early as the 1960s, the company had
+begun to move some production to lower-cost locations: Puerto Rico;
+Independence, Kansas; Grapevine, Texas; Mexico; Poland; and, of course,
+Greenville. The last part made in Queens—a distributor—came off the line in
+2008. The building was sold soon after and is now home to a variety of small
+offices and an art gallery. Senior executives of Standard Motor Products and a
+host of engineers and salespeople occupy much of the second and sixth floors.
+
+Larry Sills, age 72, is nothing like what I imagined the CEO of one of
+America’s largest aftermarket auto-parts companies would look like. His easy
+smile, scattered curiosity, and rumpled look seem more characteristic of a
+college professor. His hair—thick, brown, and tightly curled—looks almost like
+a joke wig sitting on his head. I met him in his large office—dominated by his
+wife’s paintings and mementos of their time in Africa—and asked him about his
+business. But before he got into that, he said he wanted to show off the crazy
+thing up on the roof, an organic farm: some young hipsters had brought 650
+tons of dirt to start it. (“That was scary,” Larry says. “We didn’t know if
+the building could hold it.”) They grow fresh vegetables and have a farmers’
+market every Wednesday. “Sometimes someone gets a bit excited with a pitchfork
+and cuts through our roof and we got water on a desk. But I love it. I love
+it.”
+
+Larry was born into Standard Motor Products. The company was founded by his
+grandfather, Elias Fife, a Jewish immigrant from Lithuania who knew nothing
+about cars but saw an opportunity, in 1919, when he learned that many people
+were frustrated with Ford and the other car manufacturers because they never
+made enough replacement parts, since all the money was in building new cars.
+The tiny aftermarket auto-parts industry was a mess: countless mechanics and
+hobbyists made parts by hand in their garages, and many of these parts didn’t
+fit or would break. Fife decided to build a trustworthy, reliable brand whose
+products met or exceeded the quality of the original parts.
+
+Elias worked until he died, at which point his son, Bernard, and son-in-law,
+Nathaniel Sills, took over the company. Larry, Nathaniel’s son, was never
+particularly interested in cars and dreamed of being a reporter for _The_ _New
+York Times_. He spent a few years as a country manager for Pfizer in Ghana,
+where he had some adventures. But by 1967, he knew it was time to come home
+and start work at Standard. “Nobody ever told me I had to,” he says. “I just
+knew it was expected.” He’s never regretted that decision, he told me.
+
+When Larry came to work, the aftermarket had matured since its wild early
+years, but was still a fairly sleepy business. Standard was one of hundreds of
+aftermarket manufacturers and distributors, many still owned by the founder,
+in many cases an immigrant, or his children. These companies sold to thousands
+of small garages or distribution warehouses, many also run by old families
+that the Sillses had known for years. It was rare for a customer to demand
+lower prices or to stop buying from Standard altogether. Even if one did, the
+bottom line didn’t suffer all that much.
+
+“Our biggest customer was about 1 percent of our business,” Larry says.
+“That’s changed. Now, our biggest four customers are more than 50 percent of
+our business.”
+
+As Autozone, Napa, and other huge auto-parts stores expanded their reach, they
+used the bargaining power that comes with size to pressure companies like
+Standard to lower their prices. Failure to do so could cost them the chain
+stores’ business, which could mean bankruptcy. Larry says this new price
+pressure came exactly when many of his old friends in the parts trade were
+retiring and couldn’t persuade their kids to join the business. Throughout the
+1970s, ’80s, and ’90s, dozens of Larry’s old friends and competitors gave up
+and sold out. Larry’s son, Eric, decided to work at Standard after college and
+now runs many of the company’s manufacturing operations.
+
+As his friendly competitors retired, Larry bought many of their companies. He
+paid for these acquisitions by borrowing money or selling more company shares.
+For years, Standard had been, technically, a publicly traded company, but
+since the Sills and Fife families owned most of the stock, it had been run
+more like a family business. But eventually, to fund acquisitions, the
+families gave up majority ownership. They now hold less than 10 percent of the
+company stock.
+
+Standard might have grown too quickly. The company was deeply in debt in 2009
+when the financial markets seized up. Like countless companies during that
+chaotic time, Standard couldn’t raise enough money to pay off the bonds it had
+already sold. Larry began to fear bankruptcy. “It was awful,” he says. “The
+only time in my career I lay awake worrying.”
+
+Acting quickly, he sold the building in Queens, laid off 10 percent of the
+administrative staff, and cut costs everywhere he could. Standard did survive,
+of course, and is actually doing quite well now. Larry paid off most of the
+debt, and by concentrating on what the company is best at, he has increased
+its profits. Economic slowdowns are, perhaps paradoxically, a good time for
+the aftermarket auto-parts business. Many people delay the purchase of a new
+car, instead replacing parts on their old one.
+
+While the business is doing well today, “the main thing I think about is
+survival,” Larry says. Standard is now the last of the old breed of family-run
+companies. Its stock is worth about $400 million, which is far more than
+Larry’s grandfather would have dreamed of; but that’s only a small fraction of
+the market value of Bosch, Denso, or NGK—three of the big, global parts
+suppliers the company competes with.
+
+To keep the business of the giant auto-parts retailers, Standard has to
+constantly lower costs while maintaining quality. High quality is impossible
+without good raw materials, which Standard has to buy at market rates. The
+massive global conglomerates, like Bosch, might be able to command discounts
+when buying, say, specially formulated metals; but Standard has to pay the
+prevailing price, and for years now, that price has been rising. That places
+an even higher imperative on reducing the cost of labor. If Standard paid
+unskilled workers like Maddie more or hired more of them, Larry says, the
+company would have to charge its customers more or accept lower profits.
+Either way, Standard would collapse fairly soon. (Industrial profit margins
+are notoriously thin to begin with—typically in the low single digits—and
+reduced profits or losses would drive down Standard’s stock price, making it a
+likely target for predatory acquisition.)
+
+**The Continual Offshoring Calculus**
+
+I came to think of Standard Motor Products as an enormous machine that
+regularly scans every tiny part of every engine in every car on the streets of
+the United States to answer two closely related questions: What makes sense to
+manufacture here in the U.S., and what should be made in a low-wage country,
+like Mexico or China?
+
+Standard’s customers, the big auto-retail stores and wholesalers, see the
+company more as a distributor than as a manufacturer. They expect Standard to
+be able to deliver any part in its categories—known as engine management and
+temperature control—to any place in the U.S. in less than 48 hours. Standard
+doesn’t sell the big stuff—batteries, engine blocks—but it does sell many of
+the cables and sensors and electrical components that surround those large
+things. If you look at your car’s engine, Standard has, in stock, many of the
+small parts that you can’t identify—for your car and for every other make and
+model with more than 10,000 vehicles on American roads. Standard’s enormous
+warehouse in Disputanta, Virginia, has tens of thousands of different sorts of
+parts ready to ship at any moment.
+
+Standard makes only about half of the parts it stocks; it buys the rest from
+other manufacturers, most of them in China. The company’s engineers are
+constantly reviewing the parts they buy, to see whether they could make the
+parts more cheaply in-house. Not infrequently, Standard finds that by doing so
+it can control costs, quality, and delivery speed far better, and thus can
+better serve the superstores.
+
+I sat in on a meeting between two engineers—the tall and talkative John
+Gasiewski, and the shorter, less outgoing Marty Doelger—who were reviewing a
+new batch of crankshaft-position sensors, tiny parts that monitor precisely
+where in its rotation a crankshaft is at any microsecond.
+
+Marty dumps a box of the sensors—each about the size of a thumb drive—on the
+table. The new sensor that General Motors uses is a no-brainer, he says: of
+course Standard should make it. More than 3.5 million cars on the road are
+equipped with this family of sensors, and many of those cars are brand-new,
+which means this business will be huge, peaking many years from now. “We’ll be
+selling a lot of these in 2018,” John says, smiling.
+
+The sensor is made up of a magnet and coil inside a plastic housing attached
+to a mounting bracket. Its size can vary considerably without causing any
+problems in the engine, and for that and other reasons, John says, its
+manufacture requires nothing like the precision needed for making a fuel
+injector, so it doesn’t need to be made on the most expensive machinery by the
+most highly skilled workers. The part’s mounting bracket is even less precise.
+“Feel it,” Marty says. “It’s rough. They just shear it. There’s no precision
+at all.” So while Standard will make this part, it will do so at its plant in
+Reynosa, Mexico.
+
+A few months ago, in a meeting like this one, Standard engineers evaluated a
+type of ignition coil—the tiny voltage transformer that sits on top of a spark
+plug and converts the battery’s 12 volts into the 30,000 volts needed to fire
+a spark. It’s a precision part, since the wires on the coil need to be wrapped
+just so, and Standard was at the time manufacturing the coil in Greenville.
+Recently, though, the plant Standard owns in Bialystok, Poland, had been
+impressing the company’s top engineers, and the production of some of these
+coils will be moving there. “Poland is also low-cost, and they’ve got some
+really qualified engineers,” Larry says. “They do good work.”
+
+These meetings can lead the company to move dozens of jobs to another country
+or, in some cases, to create new jobs in the U.S. When Standard decided to
+increase its fuel-injector production, it chose to do that in the U.S., and
+staffed up accordingly (that’s how Maddie got her job). Standard will not drop
+a line in the U.S. and begin outsourcing it to China for a few pennies in
+savings. “I need to save a lot to go to China,” says Ed Harris, who is in
+charge of identifying new manufacturing sources in Asia. “There’s a lot of
+hassle: shipping costs, time, Chinese companies aren’t as reliable. We need to
+save at least 40 percent off the U.S. price. I’m not going to China to save 10
+percent.” Yet often, the savings are more than enough to offset the hassles
+and expense of working with Chinese factories. Some parts—especially
+relatively simple ones that Standard needs in bulk—can cost 80 percent less to
+make in China.
+
+Nearly every manufacturing company in the U.S. goes through this same process:
+regularly, carefully studying its products to see if they could be made more
+cheaply in a lower-wage country. The calculation constantly changes, because
+the world changes. Sometimes that’s bad news for American industrial workers,
+other times it’s good news. Workers in China and Poland and Mexico, for
+example, have become more highly skilled, and their factories are now able to
+produce more-precise goods than they could a decade ago. But at the same time,
+the wages of those workers have risen, as have shipping costs. Unrest in
+northern Mexico or an oil-price spike caused by trouble in the Middle East can
+encourage manufacturers to keep production lines in the United States. The
+development of increasingly complex machinery can do the same: because
+expensive machines are more likely to pay off when they can be counted on to
+run 24 hours a day, every day, the availability of steady electricity, for
+instance, is essential.
+
+Yet however chaotic and contradictory these forces can be at any moment, over
+the years and decades they point in one direction: toward fewer jobs for low-
+skilled American workers. People who can be replaced by machines or lower-paid
+workers somewhere else, eventually will be. Unless people like Maddie learn
+how to do things that computers and overseas workers aren’t able to do, they
+are likely to lose their jobs one day.
+
+Since at least the 1970s, when the farsighted could see the consequences of
+Japan’s rising manufacturing power, some observers have declared a crisis in
+American manufacturing, and have called for the federal government to fix it.
+Some suggestions, such as higher tariffs or fewer free-trade agreements, have
+been politically attractive but economically unconvincing. (Retreating from
+global trade might help save some manufacturing jobs in the short term, but at
+the cost of making the entire country poorer.) Other proposals have been self-
+serving and unlikely to have much impact, like subsidies and tax cuts for
+manufacturers (the benefits of which go disproportionately to the owners of
+factories, not to the workers, who still must compete with legions of ever-
+cheaper robots). Probably the most popular rallying cry lately has been the
+demand that China stop interfering with currency markets. Just about every
+economist would argue that China should stop artificially cheapening its
+currency, but getting it to do so would not dramatically increase low-skill
+manufacturing employment in the U.S. Most analyses show that in response to a
+rising yuan, American manufacturing companies would more likely shift
+production to other low-wage countries—like Indonesia, Bangladesh, or
+Mexico—than to U.S. factories.
+
+Is there a crisis in manufacturing in America? Looking just at the dollar
+value of manufacturing output, the answer seems to be an emphatic no. Domestic
+manufacturers make and sell more goods than ever before. Their success has
+been grounded in incredible increases in productivity, which is a positive way
+of saying that factories produce more with fewer workers.
+
+Productivity, in and of itself, is a remarkably good thing. Only through
+productivity growth can the average quality of human life improve. Because of
+higher agricultural productivity, we don’t all have to work in the fields to
+make enough food to eat. Because of higher industrial productivity, few of us
+need to work in factories to make the products we use. In theory, productivity
+growth should help nearly everyone in a society. When one person can grow as
+much food or make as many car parts as 100 used to, prices should fall, which
+gives everyone in that society more purchasing power; we all become a little
+richer. In the economic models, the benefits of productivity growth should not
+go just to the rich owners of capital. As workers become more productive, they
+should be able to demand higher salaries.
+
+Throughout much of the 20th century, simultaneous technological improvements
+in both agriculture and industry happened to create conditions that were
+favorable for people with less skill. The development of mass production
+allowed low-skilled farmers to move to the city, get a job in a factory, and
+produce remarkably high output. Typically, these workers made more money than
+they ever had on the farm, and eventually, some of their children were able to
+get enough education to find less-dreary work. In that period of dramatic
+change, it was the highly skilled craftsperson who was more likely to suffer a
+permanent loss of wealth. Economists speak of the middle part of the 20th
+century as the “Great Compression,” the time when the income of the unskilled
+came closest to the income of the skilled.
+
+The double shock we’re experiencing now—globalization and computer-aided
+industrial productivity—happens to have the opposite impact: income inequality
+is growing, as the rewards for being skilled grow and the opportunities for
+unskilled Americans diminish.
+
+I went to South Carolina, and spent so much time with Maddie, precisely
+because these issues are so large and so overwhelming. I wanted to see how
+this shift affected regular people’s lives. I didn’t come away with a handy
+list of policies that would solve all the problems of unskilled workers, but I
+did note some principles that seem important to improving their situation.
+
+It’s hard to imagine what set of circumstances would reverse recent trends and
+bring large numbers of jobs for unskilled laborers back to the U.S. Our
+efforts might be more fruitfully focused on getting Maddie the education she
+needs for a better shot at a decent living in the years to come. Subsidized
+job-training programs tend to be fairly popular among Democrats and
+Republicans, and certainly benefit some people. But these programs suffer from
+all the ills in our education system; opportunities go, disproportionately, to
+those who already have initiative, intelligence, and—not least—family support.
+
+I never heard Maddie blame others for her situation; she talked, often, about
+the bad choices she made as a teenager and how those have limited her future.
+I came to realize, though, that Maddie represents a large population: people
+who, for whatever reason, are not going to be able to leave the workforce long
+enough to get the skills they need. Luke doesn’t have children, and his
+parents could afford to support him while he was in school. Those with the
+right ability and circumstances will, most likely, make the right adjustments,
+get the right skills, and eventually thrive. But I fear that those who are
+challenged now will only fall further behind. To solve all the problems that
+keep people from acquiring skills would require tackling the toughest issues
+our country faces: a broken educational system, teen pregnancy, drug use,
+racial discrimination, a fractured political culture.
+
+This may be the worst impact of the disappearance of manufacturing work. In
+older factories and, before them, on the farm, there were opportunities for
+almost everybody: the bright and the slow, the sociable and the awkward, the
+people with children and those without. All came to work unskilled, at first,
+and then slowly learned things, on the job, that made them more valuable.
+Especially in the mid-20th century, as manufacturing employment was rocketing
+toward its zenith, mistakes and disadvantages in childhood and adolescence did
+not foreclose adult opportunity.
+
+For most of U.S. history, most people had a slow and steady wind at their
+back, a combination of economic forces that didn’t make life easy but gave
+many of us little pushes forward that allowed us to earn a bit more every
+year. Over a lifetime, it all added up to a better sort of life than the one
+we were born into. That wind seems to be dying for a lot of Americans. What
+the country will be like without it is not quite clear.

@@ -1,0 +1,258 @@
+# Money Stuff: Virgin Orbit Had a Fake Takeover
+
+**Source**: inputs/saved_emails/Money Stuff Virgin Orbit Had a Fake Takeover_Thu,_20_Jun_2024_13-09-52_-0400_(EDT)_19036a4649807358.eml
+**Type**: email
+**Created**: 2025-08-25T02:54:00.897831
+
+---
+
+I think sometimes that, if I had made slightly different life choices, I might have become a guy who pretends to buy public companies as a h
+      
+    
+  
+  
+    
+      
+        
+          
+          
+        
+        
+          
+            
+          
+        
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          
+  
+    
+      The art of the deal
+    
+  
+I think sometimes that, if I had made slightly different life choices, I might have become a guy who pretends to buy public companies as a hobby. There are guys like that! Elon Musk is the most famous — “It is possible that nobody in human history has ever spent more money on a hobby than Elon Musk has spent on his hobby of pretending to buy public companies,” I once wrote — but there are others, and I understand the appeal. Mergers and acquisitions are exciting; inserting yourself into the drama of buying a public company seems like it would be fun and make you feel important. Now, of course, many people who go around pretending to buy public companies have another motive. The motive is:	You buy some stock in a company.	You put out a press release pretending you are going to acquire the company at a premium.	The stock goes up, as the market sees your press release and briefly believes it.	You sell your stock at a profit.
+  [1]
+We talk about these cases a lot. This is straightforward market manipulation, and if you do it the US Securities and Exchange Commission will object. But I am always open to the possibility that some people pretend to do takeovers for other reasons, not because they want to make a quick illegal profit on the stock but because they want to get attention and feel important and conduct high-stakes negotiations.
+  [2]
+ Fictional high-stakes negotiations, of course — if they agree on a price for the company, they’re not going to pay it — but, still, fun role-playing.What is this one?The Securities and Exchange Commission sued a self-proclaimed venture capitalist for making a “bogus offer” of $200 million to acquire Richard Branson’s now-defunct Virgin Orbit Holdings Inc.Matthew Brown “made false and misleading statements and omissions about his investment experience and funds available to make such an offer,” the SEC said in the lawsuit filed Monday in a federal court in Texas. The regulator claimed Brown sent Virgin Orbit a fabricated screenshot of his company’s bank account, claiming it held $182 million when in reality it had a balance of less than $1.Brown intends to fight the allegations. “The SEC’s complaint is filled with egregious errors, fabrications and biased allegations that undeniably favor the culprit, Virgin Orbit’s Management,” according to a statement from a representative for Brown and his companies. Virgin Orbit produced a non-binding letter of intent, but “during our due diligence, we decided not to invest,” according to the statement. Here is the SEC’s press release, and here is its complaint, which is fantastic. The background:On March 15, 2023, CNBC reported that Virgin Orbit was furloughing nearly all its employees and pausing operations for one week as it looked for a funding lifeline. Later that day, Virgin Orbit filed a Form 8-K with the SEC, disclosing that it would immediately initiate a company-wide operational pause to conserve capital, pursue additional funding, and explore strategic opportunities.After markets opened the next day, on March 16, 2023, Virgin Orbit’s stock price fell from $1.01 per share to $0.71 per share.And then Brown came in. By LinkedIn:On March 19, 2023, Brown sent an unsolicited message via LinkedIn to Virgin Orbit’s CEO to discuss a possible “capital injection.” After the CEO responded, Brown wrote back on March 19, 2023: “I have invested over $750mm of my personal capital, largely in this [space] vertical, and largely in stealth mode…. I have the bandwidth to write the $200mm.” He further emphasized: “I want to reiterate this [sic] my capital not…anyone else’s.”We talked a few weeks ago about another alleged fake takeover offer, Robert Scott Murray’s supposed deal for Getty Images Holdings Inc., which also began with Murray sending LinkedIn messages to the company. I was a mergers-and-acquisitions lawyer a very long time ago, and my sense back then was that big mergers were not negotiated on LinkedIn. But times have changed, and maybe now that is just the best way to do cold outreach to anyone? Are big private equity firms launching multibillion-dollar buyouts by messaging the CEO on LinkedIn? Or is it still pretty uncommon in legitimate M&A, but if you are the CEO of a near-death company looking for a lifeline, you jump on any lead, even a random cold LinkedIn message?Anyway the SEC says this was all fake:Brown had never invested “over $750mm” of his personal capital, he had never held any personal investments or positions in any space companies, and he did not have the bandwidth to invest $200 million of his own capital or from any other known source of capital accessible to him at the time. In fact, at or around the time of his statements to Virgin Orbit’s CEO, Brown was self-employed and, as he later admitted under oath, his net worth was “negative”— none of which he disclosed to Virgin Orbit in this message or in subsequent communications with Virgin Orbit. Also, by representing that his earlier investments were “largely in stealth mode,” Brown created the false and misleading impression that his alleged investment history was hidden from public view, when, in fact, no such investment history existed.You say “self-employed,” I say “running a family office.” Also he sent Virgin “a screenshot of a bank account in the name of Matthew Brown Companies,” showing a balance of $182 million. But the screenshot was allegedly fabricated, and the actual balance “was less than $1.”Two wild things here. First: It totally worked! Brown got exactly what anyone who has ever wanted to do a fake takeover offer would hope for: a termsheet and a CNBC appearance. The termsheet:By falsely portraying his experience and available funding, Brown was able to engage Virgin Orbit in negotiations over his bogus offer. At the outset of these negotiations, Virgin Orbit sent Brown a non-disclosure agreement (“NDA”) requiring each side to safeguard and not disclose any confidential information exchanged during discussions surrounding Defendants’ proposed investment. Both sides executed the NDA on or around March 19 or 20, 2023. At Defendants’ request, Virgin Orbit also prepared and sent Defendants a term sheet for the proposed $200 million investment on or around March 20, 2023. The term sheet provided for Brown to receive $200 million of Virgin Orbit preferred stock, convertible to common stock following stockholder and regulatory approval, in exchange for Brown’s $200 million investment. …Brown also sought to induce Virgin Orbit to expedite the transaction. For example, on March 20, 2023, after Virgin Orbit sent Brown and his lawyer a draft term sheet, Brown responded: “[i]n the interest of time, let us both work together outside counsel until definitive agreements. (aka let us get the [term sheet] executed and then we can run the race – I would prefer to do the [term sheet] tonight or within the next 24hr.).”I feel like he is not using the phrase “outside counsel” there in exactly the way an experienced deal person would use it, but never mind. The CNBC appearance
+  [3]
+:Despite having executed an NDA with Virgin Orbit only days earlier, Brown appeared on CNBC on March 23, 2023, where he participated in a live, nationally televised interview that was broadcast to the general public. During that interview, Brown confirmed the reported $200 million investment offer that he and his company proposed to Virgin Orbit. Brown further represented that he and his company were in “final discussions” with Virgin Orbit and that they “fully plan” on closing a transaction “in the next 24 hours.” Although he suggested that he could not get into the details of the discussions, he confirmed his proposed investment would “make [Virgin Orbit] cash flow positive” and that he would “basically be the owner” of Virgin Orbit as a result of the transaction.During his CNBC interview, Brown also portrayed himself and Matthew Brown Companies as successful, experienced venture capitalists within the space industry. He even claimed that he and his company held investments “in over 13 space companies.”In reality, Brown and his company had never held any investments or positions in any space companies, much less investments in “over 13 space companies.” That really is the dream: You send a fake merger offer to a public company, the public company enters into serious negotiations with you, you go on TV (in violation of your real NDA!) to discuss your fake takeover, you get to live the life of a Big-Shot Deal Guy for a week.The other wild thing is: The SEC does not even allege that he traded the stock.
+  [4]
+ On March 22 — a few days after his first contact, and the day before his TV hit — Reuters reported that Virgin Orbit was working on a fundraising deal with him, and the stock went up 33% on the day. So there was a profitable trade to be done, but he didn’t do it.The SEC alleges that he did try to get some money out of it, but in a weird way:Shortly after the CNBC interview, Brown attempted—unsuccessfully—to profit from his deceptive conduct (and his false and misleading statements and omissions) through a proposed “break-up” fee. Specifically, on March 24, 2023, Brown wrote to Virgin Orbit, lamenting that he “wish[ed] [his] name was never made public,” and that he had supposedly “been on the phone nonstop since the leak” of his offer (i.e., the Reuters article). Thus, before signing a term sheet that required him to disclose confidential information to Virgin Orbit, Brown proposed that Virgin Orbit agree to “a break up fee of 3%” to be paid to him if the investment transaction did not close.By this point Virgin Orbit had apparently gotten the idea that he was fake, so they asked him for proof of the money:Virgin Orbit refused Brown’s break-up fee proposal and responded on March 24, 2023: “[i]f you have funds and can place them in a verifiable escrow account with the appropriate agreement and can send to us [then] we can discuss.” Brown responded by again asking for Virgin Orbit to agree to a break-up fee, to which Virgin Orbit again reiterated that Brown needed to first place the necessary funds in escrow and respond to Virgin Orbit’s basic due diligence requests.That went nowhere, the deal fizzled and Virgin Orbit filed for bankruptcy in April. I suppose one possibility is that this was a form of the classic advance-fee scam: You call up a public company in desperate need of money, you say “I can give you $200 million,” they jump at the opportunity, and you say “for important reasons, I will need you to give me $6 million first before I can give you the $200 million.” Only instead of an advance fee, it’s a breakup fee payable when, inevitably, your $200 million deal falls through. I have to say, this is kind of a rough way to make $6 million. It’s a public company; they’re not going to agree to give you $6 million without some proof that you are serious. Also, this is a pretty broke public company; the chances they will give you $6 million, as a breakup fee for a failed equity investment, as they head into bankruptcy, are pretty low.The other possibilities are (1) he wasn’t kidding, the proposal was real, he wanted to invest $200 million in Virgin Orbit, he had the money, “the SEC’s complaint is filled with egregious errors,” and this is all a misunderstanding, or (2) the proposal was fake, but there was no serious plan to make money off of it. He just wanted to go on television.
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      AI sorting
+    
+  
+A dumb simple model of artificial intelligence companies is:	It would be good to develop good AI (AI that helps humans), but bad to develop bad AI (AI that kills or enslaves humans).	If you try to build good AI, there is some risk of building bad AI instead (your robot tricks you into thinking that it’s nice, then enslaves you), so you have to be very very careful. You can’t move too fast; you have to check carefully, at each step, to make sure that your robot is not secretly evil.	Company A is formed by idealistic AI researchers who want to create good AI. They work together well for a while.	Disagreements develop. Some researchers at Company A say “we need to work faster to build good AI, because if we don’t, someone else will come along and build bad AI first instead.” Others say “no, we can’t work faster, that would compromise our ability to check that the robot is not evil.” 	The first group wins the argument, for reasons.
+  [5]
+	The people who lose the argument, who are genuinely worried about bad AI, quit Company A in outrage and go start Company B, with the goal of carefully and safely creating good AI.	They work together well for a few months.	Disagreements develop at Company B. Some researchers say “we need to work faster to build good AI, because otherwise Company A will build bad AI first. That’s why we quit, after all.” Others say “no, we can’t work faster, that would compromise our bad robot checks. That’s why we quit, after all.”	The first group wins the argument, for the same reasons as in Step 5.	The people who lose the argument quit and start Company C.	This keeps repeating: Company C eventually splits over similar tensions, but also Company A and Company B can themselves keep dividing as some people want to move faster than others.	Eventually all the AI researchers are very finely sorted by aggressiveness, so that Company Z is full of purists who are too cautious ever to build anything at all, while Company A is full of people who are like “actually being enslaved by robots would be pretty cool.”This is not accurate in all respects — sometimes the second group wins the argument for a weekend! — but it is an intuitive model that helps to explain stuff like this:For the past several months, the question “Where’s Ilya?” has become a common refrain within the world of artificial intelligence. Ilya Sutskever, the famed researcher who co-founded OpenAI, took part in the 2023 board ouster of Sam Altman as chief executive officer, before changing course and helping engineer Altman’s return. From that point on, Sutskever went quiet and left his future at OpenAI shrouded in uncertainty. Then, in mid-May, Sutskever announced his departure, saying only that he’d disclose his next project “in due time.”Now Sutskever is introducing that project, a venture called Safe Superintelligence Inc. aiming to create a safe, powerful artificial intelligence system within a pure research organization that has no near-term intention of selling AI products or services. In other words, he’s attempting to continue his work without many of the distractions that rivals such as OpenAI, Google and Anthropic face. “This company is special in that its first product will be the safe superintelligence, and it will not do anything else up until then,” Sutskever says in an exclusive interview about his plans. “It will be fully insulated from the outside pressures of having to deal with a large and complicated product and having to be stuck in a competitive rat race.”OpenAI was founded to build artificial general intelligence safely, free of outside commercial pressures. And now every once in a while it shoots out a new AI firm whose mission is to build artificial general intelligence safely, free of the commercial pressures at OpenAI.
+  
+    
+      Hedge fund boot camp
+    
+  
+How do you identify and train people who will be good at managing money at a hedge fund? Historically there was a pretty standard answer, which was that you hired proprietary traders from big investment banks. Those people were often trained in the fast-paced, high-pressure, extremely market-sensitive world of flow trading at a bank,
+  [6]
+ and then they graduated to making their own large bets with the bank’s money. They had an appetite for risk, and lots of experience taking it, but they were also good at taking risk, because if they were bad their bank would have fired them. They were well trained to run hedge funds, and many of them did.This accelerated after the 2008 financial crisis, when proprietary trading at big banks was more or less banned and many prop traders left. But then the talent pool dried up: There were no new proprietary traders coming out of banks, and more generally the banks had less appetite for risk, so if you wanted to find well-trained risk-takers, you might no longer bother looking at the flow trading desks of banks. Meanwhile hedge funds are now not so much “one trader who left the Goldman arbitrage desk with a small team of analysts,” and more “giant institutions that scientifically manage lots of portfolio managers to extract alpha out of them.” If your essential business, as a hedge fund, is identifying and allocating capital to portfolio managers with positive expected value, then it stands to reason that you might also be good at training portfolio managers with positive expected value. If you know the traits of a good portfolio manager, maybe you can teach them. Or maybe nobody else can, so you might as well try.Bloomberg’s Nishant Kumar and Liza Tetley report on the big hedge fund firms’ portfolio manager training programs:[Steve] Cohen and [Harry] Schwefel, … [at] Point72 Asset Management, have pioneered the hedge fund boot camp, but they’re not alone. Ken Griffin’s Citadel, Chicago’s Balyasny Asset Management and other industry giants have devised grueling training regimes, too. The trick is to perform a kind of human-resources alchemy: turning the base metal of promising analysts into the gold of portfolio managers who might bring you $50 million to $100 million in yearly profit. …Their talent mills seem to be producing. More than half of Cohen’s stock pickers have come through its program. The first graduate still trades for him. At Citadel, where even an internship can pay $19,200 a month, training up traders means staff are staying longer and getting ahead quicker. Phil Lee was elevated from humble analyst to head of one of its stocks units in less than a decade. Balyasny’s Anthem scheme has churned out 14 portfolio managers who are among its best performers, including partner Sebastiaan De Boe. …“The need’s evidently clear,” says Pablo Salame, Citadel’s co-CIO, in a rare interview. “One of the most significant binding constraints in the industry is the availability of talent.”There is apparently much more demand for alpha from multi-strategy hedge funds than those funds can supply, and arguably the most efficient way to supply more is to teach new people how to do it.
+  
+    
+      Nonbanks
+    
+  
+We talked last week about a trend in modern finance, which is:	Banks, which have risky liabilities (demand deposits), do somewhat less of their traditional risky activities (trading, lending), for regulatory or risk or competitive or other reasons, and other people (nonbanks) get into those activities. Private credit firms make buyout loans or student loans, proprietary trading firms make securities markets, hedge funds take on banks’ credit risks with synthetic risk transfers, etc. 	Those other people — the nonbanks — are better able to take on risky assets, because their liabilities are less risky: Instead of demand deposits, they are funded by locked-up capital from long-term investors. The banks, with their deposit liabilities, get “narrower,” taking on less risk on the asset side.	But! To make the economics work, the nonbanks tend to leverage that long-term capital by going out and borrowing from the banks.	So the risks that left the banking system in Step 1 come back in in Step 3: The banks do less of the risky stuff, but they lend to the people doing the risky stuff.	Still, it’s an improvement. The loans to the people doing the risky stuff are generally safer than doing the risky stuff directly. They are senior claims on the stuff, and they often have protections (recourse to the nonbanks’ other assets, margin calls) that make losses less likely. But it’s a bit of systemic risk creeping back in.Last week we were talking specifically about banks financing hedge funds’ investments in other banks’ synthetic risk transfer trades, but as I said, it’s a more general trend. You could take a less optimistic view of it. This week, the Federal Reserve Bank of New York’s Liberty Street Economics blog published a research series by Viral Acharya, Nicola Cetorelli and Bruce Tuckman on nonbank financial institutions (NBFIs). The first post is “Nonbanks Are Growing but Their Growth Is Heavily Supported by Banks”:Often, NBFIs are viewed as separate from banks. In particular, traditional approaches to financial sector regulation view banks and NBFIs as substitutes, with the growth of one implying the shrinking of the other. ...In our paper, we take a different view, arguing that NBFIs do not evolve independently from banks. In fact, to a significant extent, their growth depends on banks providing the funding and liquidity support necessary for NBFIs to provide intermediation services. A key observation is that nonbank financial intermediation involves significant liquidity and funding risk. Managing these risks well requires access to stable short-term funding, and likewise access to contingent sources of liquidity, especially access to funding under stress.The market sources of financing that NBFIs rely on are, however, cyclical and fragile. In contrast, modern banks are considered relatively stable intermediaries, given their deposit franchise and access to the safety net, whether explicitly in the form of deposit insurance and central bank lender of last resort financing or implicitly in the form of official backstops. Lacking the inherent funding and liquidity advantages of banks, NBFI activity may not be viable, or it may not be easily scaled up, unless backed by routine as well as emergency liquidity support from banks.The second post is “Banks and Nonbanks Are Not Separate, but Interwoven,” arguing that regulation is pushing lending activity from banks to nonbanks, but that the banks are still financing it:We explain that the observed growth of NBFIs reflects banks optimally changing their business models in response to factors such as regulation, rather than banks stepping away from lending and risky activities and being substituted by NBFIs. The enduring bank-NBFI nexus is best understood as an ever-evolving transformation of risks that were hitherto with banks but are now being repackaged between banks and NBFIs. …Traditionally, banks held corporate and mortgage loans on their balance sheets, but due at least in part to higher capital requirements and tighter regulations, these loans are increasingly held by NBFIs. However, banks have retained indirect loan exposures to NBFI lenders, such as via senior loans to private credit companies or collateralized loans to mortgage real estate investment trusts. Thus, the banks’ risks have transformed from exposure to the loans into exposures to NBFI balance sheets. A specific example of this transformation comes from the booming private credit market. NBFIs’ footprint in this segment is growing fast but not without the support of banks. For instance, in June 2023, PacWest bank sold its specialty finance loan portfolio to Ares Management, one of the largest private fund managers in the world. The purchase of these loans, however, was financed in part by a subsidiary of Barclays, another banking organization. Hence, while the loans left the banking system, some of the bank exposures returned through the financing of Ares’ purchase by Barclays. Again, my view is that owning a senior claim on the loans is probably safer than owning the loans directly. In the third post, “The Growing Risk of Spillovers and Spillbacks in the Bank‑NBFI Nexus,” they concede that “the transformation of activities and risks from banks to a bank-NBFI nexus may have benefits in normal states of the world,” but they worry about tail risk. In particular:As NBFIs have increasingly been playing intermediation roles similar to those of banks, and adopting similar business models, their asset composition is naturally also becoming similar to those of banks. In a post last year, based on another research paper, we highlighted how the commonality of asset holdings between banks and NBFIs could turn out to be an important source of market disruption, driven by asset-pricing dislocations in the event of forced asset sales by NBFIs in need of liquidity. Because of the increasing similarity in the asset profile of the various NBFI sectors and banks, the extent of these market disruptions could be rather severe.Banks and nonbanks own the same sorts of loans, so if the nonbanks have to sell assets, the banks’ assets will also lose value. And:Even more important, the entire system of financial intermediation is potentially more fragile because of the interconnections. To see why this is the case, consider the potential for systemic fragility when we also take into account the liability interdependencies between banks and NBFIs. Banks experiencing distress because of the asset losses driven by NBFIs’ sales, may, in turn, reduce funding/liquidity support to NBFIs causing risks to spill back to NBFIs and the real economy. … Banks may, say, reduce credit lines to real estate investment trusts (REITs) and also reduce holdings of term loans to collateralized loan obligations (CLOs). As a result of these … transmissions, REITs might reduce their investments in residential and commercial real estate and CLOs might reduce their investments in leveraged loans, thus propagating and amplifying the original shock to nonfinancial firms with increasingly complex economic ramifications.I am still not sure that this is worse than a state of the world in which all of that risk is at the banks, but I suppose it depends on how careful the nonbanks are and how they are regulated.
+  
+    
+      Regional bank SRTs
+    
+  
+Elsewhere in “nonbanks do stuff banks used to do,” the Wall Street Journal reports:Regional banks around the U.S. are striking complex and costly bargains with hedge funds, hoping to insulate themselves from a replay of the turmoil that followed Silicon Valley Bank’s failure last year. Wall Street smells a payday.Ohio-based Huntington Bancshares recently entered into an arrangement to sell investors some of the risk that its borrowers won’t repay their loans. That helps the bank meet new proposed standards meant to make lenders look healthy to regulators. The deal is known on Wall Street as a synthetic risk transfer, and it offers cash-flush, private-debt fund managers—such as Ares Management and Blackstone—an attractive investment. Bayview Asset Management, the fund involved in Huntington’s December deal, stands to make as much as 15% on the trade and a similar one done for SoFi Bank, people familiar with the matter said.In the olden days, local banks had relationships with customers, evaluated their credit risk, made loans to them, and then bore the risk that those loans would go bad. Obviously the local bank was the best bearer of that credit risk: It knew the customers better than any outsider could.In modern markets, it seems a bit too risky for regional banks to take on lots of credit risk of customer loans. What if the customers default? The regional banks have flighty deposits, and if their loans lose value their deposits might flee. And what makes anyone confident that some regional bank is good at evaluating credit risk? Sell that credit risk to some specialist credit fund.A few points here. One is that this is a product. When JPMorgan does a synthetic risk transfer with Blackstone, that is in some sense a trade; both sides of that trade are sophisticated analysts of credit and bank capital requirements and the SRT market. But when a regional bank does an SRT with a hedge fund, the hedge fund is an SRT specialist and the regional bank probably isn’t. That’s a product pitched to the bank by the hedge fund, or by a bigger bank:Banks such as JPMorgan Chase and Morgan Stanley issued a flurry of synthetic risk transfers for themselves last fall. Now they are arranging deals for regional lenders—for a fee—and hope to start trading the instruments if the market gets big enough. …Others are laying the groundwork for when smaller banks could issue risk transfers. The private-credit fund Crayhill Capital Management has retained as an adviser Tom Killian, an investment banker who helped pioneer the market for bonds backed by community banks’ preferred securities in the 2000s. Killian has held informal talks with banks and regulators about risk transfers, aiming to eventually help small banks access the market, according to a person close to the fund manager.The other is that of course these trades involve leverage:Florida-based Bayview has come up with a twist on the complicated deals: borrowing money in bond markets to enhance its returns. … Bayview offered to sell Huntington credit-default swaps, a type of insurance, to reduce capital charges on a pool of about $3 billion in car loans. The bank agreed to pay a 7.5% annual premium, and Bayview committed to compensating the bank for seven years for any defaulted car loans up to $375 million, or 12.5% of the loan pool. To back up that commitment, Bayview issued about $315 million of bonds at a blended interest rate of about 6.75%. I suppose they’re not borrowing the money from a bank, though.
+  
+    
+      Things happen
+    
+  
+Paris Gets a Wild Meme Stock as Atos Becomes a Chatroom Favorite. Permira’s last-minute decision to kill the Golden Goose IPO. JPMorgan follows Goldman in lifting UK bonus cap. Stablecoins and Regulatory Arbitrage. Companies Are Watering Down Their Diversity Recruiting Programs. Elon Musk Pitches Advertisers on a Return to X, Months After Telling Some to ‘F’ Themselves. McDonald’s $5 Value Meal Intensifies a Fast Food Price War. Former Hedge Fund Trader Builds $185 Million Burrito Fortune. If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
+        
+      
+    
+  
+
+
+  
+    
+      
+        
+          
+            
+              
+            
+          
+        
+      
+    
+  
+
+
+  
+    
+      
+        
+          
+        
+  [1] Or you don’t, because you mess up the timing. This is weirdly common.
+
+
+  [2] A third category, which used to be more common but is much rarer now, is “greenmail.” The way greenmail works is (1) you establish yourself as a feared corporate raider who *might* make a hostile takeover offer, acquire a company, fire the management and generally wreck things, (2) you buy a stake in a public company and announce that you want to acquire the whole company, and (3) you tell the company that, if they will buy your stake back at a premium, you’ll go away. In the 1980s, it was not all that uncommon for corporate raiders to accept greenmail as an exit from *serious* plans to take over a company, but there was also a certain amount of pure greenmail, in which the raider never *really* planned to buy the company but just did the whole thing to extract greenmail. Donald Trump pretty famously did this for a while.
+
+
+  [3] Here is that interview, which does not *feel* entirely real.
+
+
+  [4] At the time, “Brown told Reuters he had no shares in Virgin Orbit and had not profited from taking his bid public and the short-lived stock price jump that followed. The company's bankruptcy filing on Tuesday showed a ‘Matthew Brown’ as holding 238 shares at the time of the filing. Those shares were worth $48 on Thursday.”
+
+
+  [5] The reason is that I am being silly and obtuse with this model, and what is actually going on is that some researchers say “we need to work faster to build AI, because people will give us giant gobs of money for it,” and that argument (1) is empirically correct and (2) always wins in a for-profit or pretend-not-for-profit company. Also it does seem to be true that the giant gobs of money are helpful for building AI, so if you’re too much of a purist you won’t raise enough money to pay to train your model.
+
+
+  [6] There’s a somewhat famous Michael Platt quote in Jack Schwager’s “Hedge Fund Market Wizards,” in which he says: “I want market makers, people who know that anything can happen. The type of guy I don’t want is an analyst who has never traded – the type of person who does a calculation on a computer, figures out where a market should be, puts on a big trade, gets caught up in it, and doesn’t stop out. And the market is always wrong: he’s not. Market makers know that the market is always right. You are wrong if you are losing money for any reason at all. Market makers have that drilled into their head. They know value is irrelevant in times of market stress; it’s all about positions. They understand that markets will trade against positions. They get it. It is built into their books. It colors the way they think. I look for the type of guy in London who gets up at seven o’clock on Sunday morning when his kids are still in bed, and logs onto a poker site so that he can pick off the U.S. drunks coming home on Saturday night. I hired a guy like that. He usually clears 5 or 10 grand every Sunday morning before breakfast taking out the drunks playing poker because they’re not very good at it, but their confidence has gone up a lot. That’s the type of guy you want – someone who understands an edge. Analysts, on the other hand, don’t think about anything else other than how smart they are.”
+
+
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+
+
+  
+    
+      
+        
+        
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+  
+  <a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23claxa5.5k2g/35b49545.gif" alt="" border="0" /></a>

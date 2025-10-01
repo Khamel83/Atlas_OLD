@@ -1,0 +1,188 @@
+# The NBA and NFL Surrendered to Their Vaccine Refusers - The Atlantic
+
+**Source**: https://www.theatlantic.com/ideas/archive/2021/12/nba-nfl-surrendered-vaccine-refusers-kyrie-irving/621142/
+**Type**: article
+**Created**: 2025-08-13T15:31:18.460776
+
+---
+
+title: The NBA and NFL Surrendered to Their Vaccine Refusers - The Atlantic
+source: https://www.theatlantic.com/ideas/archive/2021/12/nba-nfl-surrendered-vaccine-refusers-kyrie-irving/621142/
+date: 2025-08-13T15:31:17.259474
+tags: []
+---
+The Brooklyn Nets have officially ended their tug-of-war with Kyrie Irving
+over the star point guard’s vaccination status. And Irving, who has refused to
+get a COVID-19 shot, is unquestionably the winner.
+
+The [rapid
+spread](https://www.theatlantic.com/science/archive/2021/12/omicron-
+incubation-period-testing/621066/) of the coronavirus’s Omicron variant has
+left gaps on rosters across the NBA. Because positive tests had [rendered so
+many players
+ineligible](https://www.theatlantic.com/health/archive/2021/12/omicron-sports-
+leagues-nfl-nba/621079/), the Nets finally buckled to Irving, who had not
+played this season because [New York
+City](https://www.espn.com/nba/story/_/id/32128601/vaccine-requirements-
+specific-new-york-city-san-francisco-enforced-teams-cities-nba-memo-says)[’s
+vaccine mandate for ](https://www.espn.com/nba/story/_/id/32128601/vaccine-
+requirements-specific-new-york-city-san-francisco-enforced-teams-cities-nba-
+memo-says)[certain indoor
+](https://www.espn.com/nba/story/_/id/32128601/vaccine-requirements-specific-
+new-york-city-san-francisco-enforced-teams-cities-nba-memo-
+says)[facilities](https://www.espn.com/nba/story/_/id/32128601/vaccine-
+requirements-specific-new-york-city-san-francisco-enforced-teams-cities-nba-
+memo-says) had banished him from home games. To let Irving on the court now,
+even just for away games, is a drastic turnaround for a team that had
+sidelined him rather than deploy him part-time. After he
+[clear](https://www.nba.com/news/kevin-durant-kyrie-irving-lamarcus-aldridge-
+clear-protocols)[ed ](https://www.nba.com/news/kevin-durant-kyrie-irving-
+lamarcus-aldridge-clear-protocols)[the NBA’s ](https://www.nba.com/news/kevin-
+durant-kyrie-irving-lamarcus-aldridge-clear-protocols)[COVID-19
+protocols](https://www.nba.com/news/kevin-durant-kyrie-irving-lamarcus-
+aldridge-clear-protocols) on Tuesday, Irving will be eligible to play for the
+Nets when they travel to Indiana to face the Pacers on January 5.
+
+[Jemele Hill: Why LeBron James shouldn’t cover for vaccine
+refusers](https://www.theatlantic.com/ideas/archive/2021/10/lebron-james-nba-
+vaccine-andrew-wiggins-kyrie-irving/620264/)
+
+This resolution of the Nets’ high-profile dispute with Irving is part of a
+larger problem in professional sports: Confronted with this latest virus
+surge, both the NBA and the NFL have essentially waved the white flag. They
+are easing their health rules and sending conciliatory signals to players who
+have refused to get COVID-19 shots.
+
+Both leagues had adopted a range of health protocols that strongly encouraged
+vaccination. But now the leagues are choosing instead to cede to the forces of
+capitalism. Short-term financial concerns are dictating that even as Omicron
+spreads, games must go on. And if that means holding vaccinated and
+unvaccinated players to the same standards, the leagues will do it.
+
+After the [CDC ](https://www.cdc.gov/media/releases/2021/s1227-isolation-
+quarantine-guidance.html)[issued new guidelines Monday that will
+](https://www.cdc.gov/media/releases/2021/s1227-isolation-quarantine-
+guidance.html)[shorten quarantine
+times](https://www.cdc.gov/media/releases/2021/s1227-isolation-quarantine-
+guidance.html) for anyone who tests positive for the coronavirus, the [NBA
+](https://www.nba.com/news/nba-changes-covid-protocols-shortens-path-to-
+return-to-play?amp=1)[announced](https://www.nba.com/news/nba-changes-covid-
+protocols-shortens-path-to-return-to-play?amp=1) that players who test
+positive will have to isolate for only six days, rather than 10, if they have
+no symptoms. The NFL and the NFL Players Association [quickly
+announced](https://www.cbssports.com/nfl/news/nfl-nflpa-adopt-new-
+covid-19-protocols-reduce-required-isolation-time-to-five-days-for-positive-
+players/) that players with positive test results can return after five days.
+Stunningly, the two leagues’ abbreviated new quarantine timelines apply to
+both vaccinated and unvaccinated players.
+
+[Yascha Mounk: Omicron is the beginning of the
+end](https://www.theatlantic.com/ideas/archive/2021/12/omicron-end-of-
+pandemic/621089/)
+
+Until now, the NFL had rightly made a point of imposing [additional
+burdens](https://www.theatlantic.com/ideas/archive/2021/07/nfl-confronts-
+vaccine-refusers/619589/) on unvaccinated players. For example, unvaccinated
+players had to undergo daily testing and, when the team traveled, could not
+fraternize with anyone but team personnel. These rules reflected the greater
+risk that unvaccinated players pose to others. The rules also created strong
+incentives: Among NFL players, the policy helped produce a vaccination rate of
+more than [94
+percent](https://www.nfl.com/playerhealthandsafety/resources/press-
+releases/nfl-covid-19-testing-results-and-vaccination-rates-
+nov-28-dec-11-2021)—far higher than the rate for all American adults. (The
+rate for NBA players is even better: at least [97
+percent](https://www.thescore.com/nba/news/2240119).)
+
+Some of these incentives are still in place. And earlier this month, the NFL
+suspended the Tampa Bay Buccaneers wide receiver Antonio Brown [for three
+games](https://www.espn.com/nfl/story/_/id/32772245/tampa-bay-buccaneers-wr-
+antonio-brown-suspended-3-games-covid-19-violation) because he brought a fake
+vaccination card to training camp. But the league started tinkering with its
+protocols after 150 positive cases [turned up in
+mid-](https://www.nbcnews.com/news/sports/nfl-reschedules-3-games-new-wave-
+covid-sidelines-dozens-players-
+rcna9219)[December](https://www.nbcnews.com/news/sports/nfl-
+reschedules-3-games-new-wave-covid-sidelines-dozens-players-rcna9219). With
+the NFL playoffs looming, this was certainly a convenient time for the league
+and its health experts to devise ways of getting infected players back on the
+field faster. Under the old protocols, the Indianapolis Colts’ unvaccinated
+quarterback, Carson Wentz, [who tested positive for the
+virus](https://www.espn.com/nfl/story/_/id/32952411/indianapolis-colts-put-
+unvaccinated-starting-qb-carson-wentz-covid-19-list) earlier this week, would
+not have been eligible to play against the Las Vegas Raiders this Sunday. Now,
+with the reduced quarantine time, Wentz can take part in a game that could
+clinch a playoff berth for his team.
+
+[Jemele Hill: Why Aaron Rodgers felt free to mislead
+people](https://www.theatlantic.com/ideas/archive/2021/11/aaron-rodgers-
+vaccine-nfl/620623/)
+
+The NFL and NBA aren’t exactly hiding their hand here. They are in the
+business of keeping business going. The Nets had [seven players
+ineligible](https://www.nba.com/news/how-james-harden-returned-to-form-out-of-
+nbas-health-and-safety-protocols) under the NBA’s health-and-safety protocols
+heading into the team’s marquee Christmas Day matchup against the Los Angeles
+Lakers. Among those left out was superstar forward Kevin Durant, who has since
+been cleared to play. The Nets have the best record in the Eastern Conference
+and a legitimate chance to win an NBA championship. Bringing Irving back will
+lighten the load on Durant—his playing time of 37 minutes per game ranks
+second in the league—as the NBA enters the meat of its season. And if another
+COVID surge comes over the team, Irving’s return means one more superstar is
+available for road games.
+
+As of this week, the NBA [has used 541 players this
+season](https://www.cbssports.com/nba/news/nba-sets-record-for-most-players-
+to-appear-in-a-season-as-covid-causes-surge-of-10-day-contracts/)—a league
+record. That’s because so many teams had to scramble to sign players to 10-day
+contracts to compensate for the staggering number of players on the COVID
+list. Despite that outrageous figure, neither the NBA nor the NFL were ever
+going to mimic the NHL, [which decided to pause its season last
+week](https://www.cbssports.com/nhl/news/nhl-extending-season-delay-to-at-
+least-tuesday-postponing-the-battle-of-alberta-and-13-other-games/) to deal
+with the surge in virus cases. (To compensate, the NHL also [decided to pull
+its players](https://www.nhl.com/news/nhl-players-will-not-participate-
+in-2022-beijing-olympics/c-329206756) from the 2022 Winter Olympics in Beijing
+to make them available for rescheduled games in February if necessary.)
+
+The NFL and NBA’s latest protocol adjustments are just an extension of what’s
+going on elsewhere in the economy. The CDC’s decision to shorten quarantine
+times came six days after Ed Bastian, the CEO of Delta Air Lines, [sent a
+letter begging the agency](https://www.newsweek.com/delta-ceo-letter-cdc-
+resurfaces-cutting-isolation-time-raises-questions-covid-19-1663887) to reduce
+the isolation period for those who contracted the virus. Commercial aviation
+has been hit especially hard by the Omicron surge. Personnel shortages caused
+by positive tests have caused the [cancellation of thousands of
+flights](https://www.nytimes.com/live/2021/12/24/world/omicron-covid-vaccine-
+tests) during a busy holiday season. According to _The Washington Post_ , top
+health officials decided to reduce quarantine times because they [feared far
+too many essential workers would otherwise be unable to
+work](https://www.washingtonpost.com/health/2021/12/28/cdc-isolation-
+guidelines-
+rationale/?utm_campaign=wp_post_most&utm_medium=email&utm_source=newsletter&wpisrc=nl_most&carta-
+url=https://s2.washingtonpost.com/car-ln-
+tr/35a10ff/61cc99e49d2fdab56be78873/59c8642fae7e8a5c05331c6e/11/72/61cc99e49d2fdab56be78873)
+and industries would be crippled. Yet the new CDC breakthrough-infection
+guidance—which recommends the same isolation period for unvaccinated and
+vaccinated people and asks neither to get a negative test before ending their
+isolation—was even more permissive than many business leaders and sympathetic
+public-health experts had urged.
+
+From that standpoint, it’s hard to blame the leagues for following a murky,
+complicated path. However, the shame is that these revised standards show that
+unvaccinated people will ultimately pay no penalty for adding so much chaos.
+Anti-vaxxers and right-wingers [deemed Irving a
+martyr](https://www.cbssports.com/nba/news/protest-for-kyrie-irving-turns-
+ugly-as-supporters-storm-nets-barclays-center-entrance-on-over-vaccine-
+mandate/) for his stance against vaccine mandates, and now he’ll get to play
+on his terms. As long as Wentz remains asymptomatic, Wentz will get to play,
+despite not doing his part to end this pandemic. Brown is back on the field
+and [wants the public to forget](https://www.si.com/nfl/2021/12/26/antonio-
+brown-cuts-off-reporter-bruce-arians-standing-by-him-suspension) that he
+selfishly jeopardized the safety of everyone around him because he lacked the
+discipline to adhere to the stricter protocols for unvaccinated players.
+
+In the end, the NBA’s and NFL’s policies have emphasized two things—keeping
+fans entertained and keeping teams and athletes working. The players who have
+refused vaccines now know that, regardless of the disruption they have
+contributed, the desire to keep revenue flowing is on their side.

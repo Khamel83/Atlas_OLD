@@ -1,0 +1,200 @@
+# Generation F*cked | Adbusters
+
+**Source**: http://www.adbusters.org/magazine/71/generation-fcked.html
+**Type**: article
+**Created**: 2025-08-13T20:39:55.313740
+
+---
+
+title: Generation F*cked | Adbusters
+source: http://www.adbusters.org/magazine/71/generation-fcked.html
+date: 2025-08-13T20:39:48.999527
+tags: []
+---
+Audio version read by George Atherton – [Right-click to
+download](/web/20150807221822/https://www.adbusters.org/files/audio/Adbusters-71-Generation-
+Fcked.mp3 "Right click and choose 'Save link as...' to download")
+
+The UN’s first ever report on the state of childhood in the industrialized
+West made unpleasant reading for many of the world’s richest nations. But none
+found it quite so hard to swallow as the Brits, who, old jokes about English
+cooking aside, discovered that they were eating their own young.
+
+According to the Unicef report, which measured 40 indicators of quality of
+life – including the strength of relationships with friends and family,
+educational achievements and personal aspirations, and exposure to drinking,
+drug taking and other risky behavior – British children have the most
+miserable upbringing in the developed world. American children come next,
+second from the bottom.
+
+The report confirmed many people’s suspicions about the “British disease,” in
+the process raising doubts about the Anglo-American model of progress in
+general. As the older but also weaker partner, Britain may well serve to warn
+a host of nations following closely behind on its path. While an aging, ever
+more crowded Europe looks on anxiously at the stress behavior currently being
+exhibited by its own dysfunctional young – be it Parisian car barbecues or
+riots in Denmark and Germany – our continental cousins can’t help but notice
+that many of these behaviors debuted in Anglo-American cultures. The report
+explicitly demonstrated that, at least on this side of the Atlantic, the
+British are trailblazers of generational instability and social deterioration.
+On the whole, British children were more disconnected from their families,
+with nearly half of 15-year-old boys spending most nights out with friends,
+compared to just 17 percent of their French counterparts. Forty percent of UK
+youth had sex before age 15, compared with 15 percent of Polish teens. They
+drank nearly four times as much as the Italians, and, perhaps most saliently,
+had the lowest sense of subjective well-being among all the youth surveyed.
+
+But to what degree was the report accurate, and how much of it was hyperbole?
+The Independent’s Paul Vallely quickly dismissed it as just another tabloid
+chapter in the UK’s ongoing moral panic about its feral children. “Consider
+the hugely varied responses,” he observed, “Everyone sees in it confirmation
+of their pre-existing worldview. It’s an indictment of our dog-eat-dog
+society. It showed how the furious pace of technical and cultural change is
+accelerating childhood depression and behavioral problems. It confirmed how
+rubbish New Labour has been on eradicating poverty. It is the result of market
+forces pushing children to act, dress and consume like adults. It is the fault
+of junk food, computers and pedophiles lurking round every corner. Pick your
+prejudice, you can find the evidence here.”
+
+Others were neither as sure nor as reassuring. Veteran columnist Mary Dejevksy
+noted that “while Labour politicians swerved frantically away from accepting
+the findings – variously blaming Margaret Thatcher, the subjectivity of the
+categories, or the supposed obsolescence of the statistics – large numbers of
+people across the country breathed a sigh of relief. Here was documentary
+support for their fears. After ten years of official assurances that things
+were only getting better – greater all round prosperity, less child poverty,
+more nurseries, fewer teenage pregnancies, and improved exam results – callers
+and emailers embraced the Unicef findings as an alternative truth more in line
+with their own experience.”
+
+Around the nation, airtime was cleared for cathartic phone-ins, heated
+discussions, and a torrent of contributors that simply would not stop. As if
+sensing that many of the problems might in part stem from the government’s
+unparalleled obsession with monitoring, measuring and homogenizing the very
+children it once sought to cherish, many former Labour advisors suddenly
+sought to introduce daylight between their ideas and those of the heavily
+surveilled nanny state. Neil Lawson of the Labour think-tank Compass bleakly
+admitted: “Society is hollowing out, but not just in the rotting boroughs of
+south London. The middle classes are anxious too. Many are richer but few seem
+happier. Mental illness abounds. White-collar jobs are outsourced to India.
+Everyone looks for meaning in their lives – but all they find is shopping.”
+
+“The reason our children’s lives are the worst among economically advanced
+countries is because we are a poor version of the USA,” he said. “So the USA
+comes second from bottom and we follow behind. The age of neo-liberalism, even
+with the human face that New Labour has given it, cannot stem the tide of the
+social recession capitalism creates.”
+
+Others claimed that Labour had conducted a botched experiment in social
+engineering through financial incentives that favored full-time work for all
+parents, except the super rich or the desperately deprived. Popular
+psychologist and _Affluenza_ author Oliver James called on the UK to raise the
+status of being a parent over the status of the worker-consumer. “Being a stay
+at home mother has a lower one than that of a street-sweeper,” he lamented,
+adding that after spending a decade trying to advise the current
+administration, they had done almost the exact opposite of what was needed.
+
+But what if the behavior of broken British children is less a violent reaction
+to their inadequate pasts than calculated defiance against their hopeless
+futures? Looking ahead, demographers and sociologists have begun to map out
+the downward trajectory on the bell curve called “progress.” They’ve spotted
+trouble – the kind of trouble that may already be written in the faces of
+today’s teens’ older siblings. In their Class of 2005 survey, LSE economist
+Nick Bosanquet, along with Blair Gibbs of the independent think tank Reform,
+branded Britain’s under-35s the “iPod Generation” – insecure, pressured, over-
+taxed and debt-ridden. Warning that Britain was at a generational tipping
+point when it came to quality of life, they argued, “The common perception is
+that today’s young people have it easy. But the true position of young people
+is thrown into stark relief when compared to their parents . . . who enjoyed
+many advantages of which the younger generation can now only dream, including
+a generous welfare state, free universal higher education, secure pensions and
+a substantial rise in housing equity which has augmented their lifetime
+savings.”
+
+Others have called the tripling of housing costs in under a decade the largest
+generational asset transfer – from young and poor to old and rich – in UK
+history, and it is almost certainly the key factor contributing to both the
+nation’s plummeting birth-rate and its record £1.2 trillion in personal debt,
+a figure that puts even the most voracious American consumer to shame. Debt,
+whether measured in a natal deficit or angry letters from the bank, is a sure
+sign that the good times are up, because the only way the pretense of
+affluence can be continued is if tomorrow’s hardship is used to pay for
+today’s brief consumer whims.
+
+The first stirrings of major intergenerational conflict are already being
+noted. The basic rights of the recent past – a safe job, free education and
+healthcare, secure homes to raise a family, a modest but comfortable old age –
+have slipped quietly away, all to be replaced by a myriad of vapid lifestyle
+choices and glittery consumer trinkets. Excluded from a national social
+housing scheme sold off by their parents, unwilling to give birth in the UK’s
+draconian new system of rental accommodation which gives tenants no more than
+six months grace from eviction, and unable to afford homes of their own in 85
+percent of the country, today’s iPod generation is stunted: trapped halfway
+between childhood and adulthood. It now takes them until 34, on average,
+before they can afford a house, let alone have a family of their own. Little
+surprise that they are such a woeful models of grown-up responsibility for
+their younger siblings to emulate. Mom and Dad aren’t much better. By blowing
+their children’s inheritance on 80 percent of the UK’s luxury good purchases,
+from SUVs to cruises and anti-wrinkle creams, Britain’s baby-boomers seem hell
+bent on ensuring that, even without coming resource shortages such as Peak
+Oil, their offspring will be the first generation in living memory to have a
+lowered standard of living.
+
+The economic impact of baby boomers is certainly no surprise to those in the
+city, who have long described the boomer charge through the decades as the
+“pig in the pipeline.” As Channel 4’s economics correspondent Faisal Islam
+observed, “They embraced social liberalism, flower power and a large state
+when they were teenagers, and low taxes, a smaller state and loads-of-money
+individualism in their period of high disposable income. Then on the
+realization of their own mortality, up goes spending on the health service and
+pensions. Fifty to 64 year-olds also have the largest carbon footprints – 20
+percent bigger than other age groups – yet the climate change phenomenon will
+not affect them. Perhaps we are seeing the scary sight of a generation that
+has been rather brutal in getting its own way squeezing everything it can out
+of its children.”
+
+Or, as Conservative MP David Willetts, put it: “A young person could be
+forgiven for believing that the way in which economic and social policy is now
+conducted is little less than a conspiracy by the middle-aged against the
+young.”
+
+No wonder the UK is increasingly repressing its youth. As the generational
+divide deepens, it makes sense for the older generations to stake their claim
+now, while they have the power of the state on their side. Aside from handing
+out more than 10,000 Asbos (Antisocial Behaviour Orders, a cross between a
+human parking ticket and the sort of condemned notice you sometimes see on the
+walls of derelict buildings), the petty misanthropy that bans hoodie-wearing
+teenagers from shopping malls, forces parenting classes on failing single
+mums, and allows 79 percent of police forces to impose curfews on children,
+comes easily to a nation that thought up the idea that its young should be
+seen and not heard. But never before have we put them under this degree of
+surveillance while simultaneously turning a blind eye to our adult
+responsibilities. Satellites track their phones, marketeers groom them on
+cyberspace, police add the DNA from 600 innocent children a week to a
+50,000-sample database, while libraries fingerprint them to borrow books – all
+linked by rafts of new childhood databases joining the dots. In an age of
+hyper-individualism we are recoiling from the very children we have created.
+Monitoring is not enough, we must be protected from them. So Conservative
+leader David Cameron’s call to “hug a hoodie” was mocked, but Tony Blair won
+praise for ignoring compelling crime statistics and launching a “Respect
+agenda” to protect the societies safest members (the over-50s) from those most
+at risk of crime (the under-25s)
+
+Just how much more hopeless does the situation have to become before Britain’s
+children wake up and realize that they no longer want to be monitored,
+marketed and manipulated for the benefit of their elders? Is it possible to
+wake and warn them? Some would seem to have neither the skills nor the will to
+articulate their anger and isolation.
+
+As a small, densely populated island that spawned both the industrial
+revolution and colonialism, Britain has a lot to tell the rest of the
+developed world in general, and America in particular, about our common
+future. If the crisscrossing fault-lines of greed, geopolitics and social
+inequality do reach a tipping point, we may well see a conflict between
+youthful brutality and the power of old age that will only accelerate the
+decline. Maybe we should hope that our young people never wake. Because, if
+they do, Britain may soon be no place to grow old.
+
+Maria Hampton now lives by the seaside in Scotland and spends most of her days
+raising her son. A version of this article originally appeared in Adbusters
+#71 (May/June 2007)

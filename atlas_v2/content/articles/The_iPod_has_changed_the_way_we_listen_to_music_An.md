@@ -1,0 +1,361 @@
+# The iPod has changed the way we listen to music. And the way we respond to it.
+
+**Source**: http://www.slate.com/id/2289177/pagenum/all/#p2
+**Type**: article
+**Created**: 2025-08-13T21:03:54.165141
+
+---
+
+title: The iPod has changed the way we listen to music. And the way we respond to it.
+source: http://www.slate.com/id/2289177/pagenum/all/#p2
+date: 2025-08-13T21:03:52.473047
+tags: []
+---
+_The following essay is excerpted from the latest issue of n+1 magazine. It is
+available online only in**Slate**. To read the complete version, [click
+here](http://shop.nplusonemag.com/collections/subscriptions) to purchase n+1
+in print._
+
+Two years ago, at the nadir of the financial crisis, the urban sociologist
+Sudhir Venkatesh wondered aloud in the _New York Times_ why no mass protests
+had arisen against what was clearly a criminal coup by the banks. Where were
+the pitchforks, the tar, the feathers? Where, more importantly, were the
+crowds? Venkatesh’s answer was the iPod: “In public spaces, serendipitous
+interaction is needed to create the ‘mob mentality.’ Most iPod-like devices
+separate citizens from one another; you can’t join someone in a movement if
+you can’t hear the participants. Congrats Mr. Jobs for impeding social
+change.” Venkatesh’s suggestion was glib, tossed off—yet it was also a rare
+reminder, from the quasi-left, of how urban life has been changed by recording
+technologies.
+
+The concern that recorded music promotes solipsism and isolation isn’t new.
+Before the invention of the record and the gramophone (1887), the only form of
+listening people knew was social; the closest thing to a private musical
+experience was playing an instrument for yourself, or silently looking over a
+score. More often, if you had the means, you got to sit in the panopticon of
+the concert hall, seeing and being seen to the accompaniment of Verdi—an
+experience most fully described by Edith Wharton in the opening scene of [_The
+Age of
+Innocence_](http://www.amazon.com/gp/product/1904633641/ref=as_li_ss_tl?ie=UTF8&tag=slatmaga-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1904633641)
+(1920), just as it was going out of style. With mechanical reproduction came
+the hitherto unimaginable phenomenon of listening to multi-instrumental music
+by _yourself_. How, a contributor to _Gramophone_ magazine asked in 1923,
+would you react if you stumbled upon somebody in the midst of this private
+rapture? It would be “as if you had discovered your friend sniffing cocaine,
+emptying a bottle of whisky, or plaiting straws in his hair. People, we think,
+should not do things ‘to themselves,’ however much they may enjoy doing them
+in company.”
+
+But it wasn’t only solitary hyper-listening that recording facilitated. By
+1960, recorded popular music had begun, in mysterious ways, to promote new
+social movements. Former Black Panther Bobby Seale recounts in his memoir how
+Huey Newton developed an elaborate reading of Dylan’s “Ballad of a Thin Man”
+as an allegory of race: “This song Bobby Dylan was singing became a very big
+part of that whole publishing operation of the Black Panther paper. And in the
+background, while we were putting this paper out, this record came up and I
+guess a number of papers were published, and many times we would play that
+record.” The song wasn’t overtly political but its mood of stately menace
+seems to have insinuated itself into the politics of the Panthers.
+
+The ‘60s were a decade of both mass protests and mass concerts, and this was
+more than a coincidence. Barbara Ehrenreich has suggested that the roots of
+second-wave feminism could be found in the tens of thousands of shrieking
+girls who filled arenas and ballparks at the Beatles’ American stops, from the
+Hollywood Bowl to Shea. These girls, unladylike, insistent, were going to
+scream for what they wanted. Social change drove musical experimentation,
+and—more remarkably—vice versa.
+
+The music of this era was—it’s worth repeating—an incitement to social change.
+It was the sound of not going reflexively to war, of mingling across class and
+racial lines, of thinking it might be all right to sleep around a little, of
+wanting to work a job that didn’t suck.
+
+Of course the radical hopes of the ‘60s collapsed. The highest-rated YouTube
+comment on a video of Joan Baez singing “We Shall Overcome” manages to be both
+smug and glum: “Though we obviously failed, I am so glad that I am of a
+generation that believed we could make a difference.” By the early ‘70s,
+popular music had more or less forfeited its capacity to promote social
+movements. From then on its different varieties would be associated with
+defining lifestyle niches, consumer habits, and subcultural affiliations. In
+this way the make-it-new modernist imperative, which seized pop music several
+decades late, came to seem little different from the program of advertisers
+launching fresh product lines. Jadedness swept pop music enthusiasts, many of
+whom, heartbroken by their brief glimpse of collective life, would discount
+the whole era of the ‘60s as history’s cunning preparation for a descent into
+hellish consumerism. Welcome to dystopia, a counterfeit heaven where music
+plays all the time.
+
+***
+
+The first to ring the alarm about the omnipresence of recorded music were
+classical music snobs who, as part of their contracted duties as university
+professors, had to spend time on college campuses. “This is being written in a
+study in a college of one of the great American universities,” wrote George
+Steiner in 1974. “The walls are throbbing gently to the beat of music coming
+from one near and several more distant amplifiers. The walls quiver to the ear
+or to the touch roughly eighteen hours per day, sometimes twenty-four.” Allan
+Bloom picked up the beat in [_The Closing of the American
+Mind_](http://www.amazon.com/gp/product/0671657151/ref=as_li_ss_tl?ie=UTF8&tag=slatmaga-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0671657151)
+(1987): “Though students do not have books, they most emphatically do have
+music. …. Nothing is more singular about this generation than its addiction to
+music.” Steiner: “It matters little whether it is that of pop, folk or rock.
+What counts is the all-pervasive pulsation, morning to night and into night,
+made indiscriminate by the cool burn of electronic timbre.” The only
+historical analogy Bloom could think of was to the Wagner cult of the late
+19th century. Yet even world-conquering Wagner appealed to a limited class,
+who could only hear his works in opera houses. By contrast the music of the
+late-20th-century world was truly ubiquitous. Steiner: “When a young man walks
+down a street in Vladivostok or Cincinnati with his transistor blaring, when a
+car passes with its radio on at full blast, the resulting sound-capsule
+encloses the individual.” Bloom: “There is the stereo in the home, in the car;
+there are concerts; there are music videos, with special channels devoted to
+them, on the air, nonstop; there are the Walkmans so that no place—not public
+transportation, not the library—prevents students from communing with the
+Muse, even while studying.” Steiner: “What tissues of sensibility are being
+numbed or exacerbated?”
+
+Yadda, yadda. Yet Bloom and Steiner were right! In fact they had no idea how
+right they would become. If the spread of home stereo equipment in the 1970s,
+followed by that of portable devices (the boom box, the Walkman, briefly the
+Discman), brought music to the masses in a new way, digitization and the iPod
+have made recorded music even more plentiful and ubiquitous. The fears in
+Bloom’s time that cassette tapes would bring down the music industry are
+quaint now, in the face of trillions of bytes of music traded brazenly over
+the Internet every minute. So, too, does the disc mania of record collectors
+pale in the face of digital collections measured in weeks of music. A DJ’s
+crate of 100 LPs amounts to about three days of straight listening; your
+standard 60-gigabyte iPod, 50 days. Has anyone these days listened to all of
+their music, even once through?
+
+Nobody knows how much music we listen to, since so often we’re not even
+listening. The American Time Use Survey, performed every year by the Bureau of
+Labor Statistics, throws up its hands. Does music playing in the background at
+a cafe count? Music in a film? Music played to drown out other music? Music
+played while reading, writing, cleaning, exercising, eating, sleeping—all of
+this has to count in some way. Stumbling into a college dorm now to ask the
+kids to turn it down, Steiner would find them all earmuffed with headphones as
+they stare at their computers, each listening to his own private playlist
+while something else plays on the stereo loud enough for a communal spirit to
+be maintained. And this is true not only of colleges but the world at large.
+
+If it’s easier than ever to listen to other people’s music, it’s also more
+tempting than ever to do so all alone. Walkman listening never lost the stigma
+of the juvenile; the sophistication—and expense—of the iPod have made
+adulthood safe for solipsism as never before. What does it mean for us, on the
+listening end, as we pad around the world with our iPods, trying to keep those
+shitty white earbuds from falling out of our ears? Public music criticism—a
+wasteland—isn’t much help. It mainly focuses on individual works or single
+performances, when it isn’t giving us drooling profiles of artists. This has
+nothing to do with our current mode of listening, which only rarely obsesses
+on particular works or genres, let alone worships particular figures. In light
+of the epoch-making iPod, we need a way to find out what all this music
+listening is doing to us, or what we’re doing with it.
+
+***
+
+In the 20th century, the two most considered attempts to connect music and
+society were those of the philosopher Theodor Adorno and the sociologist
+Pierre Bourdieu.
+
+Among the main philosophers of Western music—Schopenhauer, Nietzsche,
+Kierkegaard—Adorno knew the most about music and worked hardest to figure out
+its relationship to history. For Adorno, it wasn’t just that historical forces
+circumscribed the production and reception of musical works; it was that
+historical conflicts appeared in music in mediated form. Thus a seemingly
+autonomous, nonrepresentational, and non linguistic art transfigured the world
+and returned it to the listener in a way that oriented him ideologically. The
+huge melodic conflicts animating Beethoven’s symphonies and the brassy,
+thumping triumphs with which they concluded announced the era of bourgeois
+ascendancy after the French Revolution. The “emancipation of dissonance” in
+the atonal works of Schoenberg suggested a crisis of the bourgeoisie in which
+the self-evidence of tonality, like that of human progress, began to crack up.
+
+Infamously, when society began to produce new forms of music that accompanied
+unrest by workers and students, the old Marxist turned a deaf ear. His essays
+on jazz and pop music are notorious classics of “bad” Adorno. The syncopations
+of bebop were only a mirage of liberty, and the relentless repetitiveness of
+rock and roll a virtual embodiment of a reified, historyless, mythological
+consciousness. The problem here was not exactly snobbism or even unconscious
+racism. It’s that Adorno seemed only to understand and accept a model of
+listening in which music solicits and rewards the listener’s whole attention.
+This is a musical sociology of the concert hall and the study, not the street,
+store, workplace, block party, or demonstration. From its standpoint,
+contemporary music of less-than-Schoenbergian melodic complexity can only seem
+simple, in the sense of dumb.
+
+Theodor Adorno (center)
+
+Bourdieu was a kind of anti-Adorno, his sociology a negation of the
+traditional aesthetics Adorno had mastered. Bourdieu practiced a deliberate
+and heroic philistinism. He seemed to know virtually nothing about music; it’s
+not even clear he liked it. “Music is the ‘pure’ art par excellence,” he wrote
+in
+[_Distinction_](https://editor.slate.com//editor/:/www.amazon.com/gp/product/0674212770/ref=as_li_ss_tl?ie=UTF8&tag=slatmaga-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0674212770).
+“It says nothing and it has _nothing to say_.” Adorno would have recognized
+this ostensibly timeless aperçu as a historically specific statement, the
+product of a whole century (the 19th) of debate over precisely this question:
+What and how does music communicate? Yet out of this falsehood Bourdieu came
+to a startling conclusion, the truth of which we’ve all had to concede:
+“Nothing more clearly affirms one’s ‘class,’ nothing more infallibly
+classifies, than tastes in music.” In the mid-1960s, he conducted a giant
+survey of French musical tastes, and what do you know? The haute bourgeoisie
+loved _The Well-Tempered Clavier_ ; the upwardly mobile got high on “jazzy”
+classics like “Rhapsody in Blue”; while the working class dug what the higher
+reaches thought of as schmaltzy trash, the “Blue Danube” waltz and Petula
+Clark. Bourdieu drew the conclusion that judgments of taste reinforce forms of
+social inequality, as individuals imagine themselves to possess superior or
+inferior spirit and perceptiveness, when really they just like what their
+class inheritance has taught them to. _Distinction_ appeared in English in
+1984, cresting the high tide of the culture wars about to hit the
+universities. Adorno had felt that advanced art-music was doing the work of
+revolution. _Are you kidding, Herr Professor?_ might have been Bourdieu’s
+response. And thus was Adorno dethroned, all his passionate arguments about
+history as expressed in musical form recast as moves in the game of taste,
+while his dismissal of jazz became practically the most famous cultural
+mistake of the 20th century.
+
+***
+
+In Adorno and Bourdieu we have two radically different perspectives,
+inhabiting each other’s blind spots, with a convergence in both authors’
+political sympathy with socialism. We can agree with Adorno that music has
+immanent, formal properties that are connected, somehow, to large-scale
+historical forces. And we can agree with Bourdieu that musical taste is an
+instrument in the legitimation of class hierarchies.
+
+Pierre Bourdieu
+
+So Bourdieu is helpful when we ask what the iPod has wrought in the realm of
+musical classification. The social world of opera-going may be headed the way
+of polar bears and ice caps, but _society_ hasn’t disappeared. A hierarchical
+social world has managed to absorb the omnipresence of music pretty
+effortlessly. You can see this in the violent intragenre squabbling that
+animates indie rock circles, and in the savage takedowns of avant-garde opera
+performances in art-music magazines. Meanwhile the proliferation of genre
+names represents an ever finer process of social differentiation, each genre’s
+acolytes determining (as Serge Gainsbourg put it) _qui est_ “in,” _qui est_
+“out.” The rise of generic distinctions has lately reached a climax of
+absurdity, such that we can name off the top of our heads: house, witch house,
+dub, dubstep, hardstep, dancehall, dance-floor, punk, post-punk, noise,
+“Noise,” new wave, nu wave, No Wave, emo, post-emo, hip-hop, conscious hip-
+hop, alternative hip- hop, jazz hip-hop, hardcore hip-hop, nerd-core hip-hop,
+Christian hip-hop, crunk, crunkcore, metal, doom metal, black metal, speed
+metal, thrash metal, death metal, Christian death metal, and, of course, shoe-
+gazing, among others. (Meanwhile, 1,000 years of European art music is filed
+under “classical.”) Some people listen to some of these; others, to only one;
+and others still, to nearly all. And this accomplishes a lot of handy social
+sorting, especially among the young, whenever music is talked about or played
+so that more than one person can hear it.
+
+At the same time, modes of listening seem to be moving toward the (apparent)
+opposite of micro-differentiation: a total pluralism of taste. This has become
+the most celebrated feature of the iPod era. “I have seen the future,” Alex
+Ross, music critic of _The_ _New Yorker_ , wrote in 2004, “and it is called
+the Shuffle—the setting on the iPod that skips randomly from one track to
+another.” Here the iPod, or the digitization of musical life it represents,
+promises emancipation from questions of taste. Differences in what people
+listen to, in a Shuffled world, may have less and less to do with social class
+and purchasing power. Or, better yet, taste won’t correlate to class
+distinction: The absence of taste will. As certain foodies score points by
+having eaten everything—blowfish, yak milk tea, haggis, hot dogs—so the person
+who knows and likes all music achieves a curious sophistication-through-
+indiscriminateness.
+
+Adorno would be more at home analyzing the uses to which the omnipresence of
+music has been put in the service of “the administered life”—the background
+Muzak and easy listening, the somehow consolingly melancholy shopping pop,
+that we hear in malls and supermarkets almost without noticing. “I do love a
+new purchase!” says the Gang of Four outright—while all the other songs merely
+insinuate it. Around the holidays, Banana Republic will alternate familiar
+hits like George Michael’s “Last Christmas” with pounding C-grade techno,
+lulling you into a state of sickly nostalgia before ramping up your heart
+rate—a perfect way to goose you into an impulse buy. So, too, as Adorno would
+have been unsurprised to find out, has music become a common way for people to
+get through the workday. Your local cafe’s barista may literally depend on Bon
+Iver’s reedy lugubriousness to palliate a dreary job as you depend on coffee.
+
+On the other hand, Adorno’s prejudice against empirical research—as Brecht
+said, Adorno “never took a trip in order to see”—meant that he never
+understood how music could be used for different purposes by the very people
+it was supposed to manage and administer. People not only use music to help
+them swallow an unpalatable life, but to enhance and enlarge their capacities
+for action. If a bass line of a standard 12-bar blues, repeating with
+machinelike regularity, keeps you clicking through the data entry sheet, a
+sharp post-punk squall can move you to sabotage and revolt, and vice versa. Of
+course music can also move you in less obviously political ways, filling you
+with romantic enthusiasm or unshakable sorrow. Then there are all the uses of
+music that are beneath good and evil, that neither shore up nor undermine the
+system. In utopia, as under late capitalism, there will still be a lot of
+cooking and cleaning to do, as well as long drives to take in our electric
+cars. These slightly boring parts of life are made less so by listening to
+slightly boring music.
+
+If Adorno, in his emphasis on the immanent unfolding of musical works as
+cognition, didn’t understand the mixed uses of distracted listening, Bourdieu
+missed something even more important. His empiricism blinded him to the
+utopian potential in music. You would never guess, to read his books, that
+they were published _after_ the ‘60s, an extraordinary period that
+demonstrated the capacity of musical taste to break down as well as reinforce
+social boundaries. Shoveled at us now as commodities played ad nauseam on
+Clear Channel, the “classic rock” of the ‘60s no longer discloses its role in
+the social movements of that time. And yet—Hendrix, Joplin; Coltrane, Davis,
+Coleman; the Stones, the Beatles; and Riley, Young, Reich—even if they didn’t
+sing a single revolutionary word, even if they chastised you for “carrying
+pictures of Chairman Mao,” they were all either directly involved with social
+movements or deeply implicated in them.
+
+***
+
+The great 1990s magazine the _Baffler_ spent its first half-decade analyzing
+how the culture industry managed, with increasing success, to recognize new
+musical trends and package them and sell them back at a markup to the people
+who’d pioneered them. The _Baffler_ looked back to the punk scene of the early
+‘80s for inspiration; it spoke up for small labels that sold music to local
+constituencies. If you couldn’t get what you wanted on the radio, you would
+have to find it left of the dial—and keep looking over your shoulder for the
+man.
+
+The danger now is different. The man no longer needs a monopoly on musical
+taste. He just wants a few cents on the dollar of every song you download, he
+doesn’t care what that song says. Other times he doesn’t even care if you pay
+that dollar, as long as you listen to your stolen music on his portable MP3
+player, store it on his Apple computer, send it to your friends through his
+Verizon network. To paraphrase Yeltsin’s famous offer to the Chechens, take as
+much free music as you can stomach. We’ll see where it gets you.
+
+If recording and mechanical reproduction opened up the world of musical
+pluralism—of listening to other people’s music until you and they became other
+people yourselves—digital reproduction expanded that pluralism to the point
+where it reversed itself. You have all the world’s music on your iPod, in your
+earphones. Now it’s “other people’s music”—which should be very exciting to
+encounter—as played in cafes and stores that is the problem. In any public
+setting, it acquires a coercive aspect. The iPod is the thing you have to buy
+in order not to be defenseless against the increasingly sucky music played to
+make you buy things.
+
+One radical option remains: abnegation—some “Great Refusal” to obey the
+obscure social injunction that condemns us to a lifetime of listening.
+_Silence_ : The word suggests the torture of enforced isolation, or a
+particularly monkish kind of social death. But it was the tremendously
+congenial avant-garde gadabout John Cage who showed, just as the avalanche of
+recorded music was starting to bury us, how there was “no such thing as
+silence,” that listening to an absence of listener-directed sounds represented
+a profounder and far more heroic submission than the regular attitude adopted
+in concert halls—a willingness to “let sounds be,” as he put it. Such were
+Cage’s restrictions that he needed to herd everyone into their seats in order
+to make his point—an authoritarian gesture toward an anarchic result. But now
+in conditions of relative freedom we can listen to 4’33” on record, [or on our
+iPods](http://itunes.apple.com/us/album/cage-against-the-machine/id408870584),
+and the change in attention it demands is exactly the opposite of our endless
+contemporary communing with music, our neurotic search for the right sound,
+the exact note that never comes. What if we tried to listen to nothing?
+Silence is the feature of our buzzing sound-world we enjoy least, whose very
+existence we threaten to pave over track by track. Silence is the most
+endangered musical experience in our time. Turning it up, we might figure out
+what all our music listening is meant to drown out, the thing we can’t bear to
+hear.
+
+_This excerpt from n+1 magazine is available online only in**Slate**. To read
+the complete version, _ [_click
+here_](http://store.nplusonemag.com/product/n+1-issue-no-11-dual-power) _to
+purchase n+1 in print._

@@ -1,0 +1,27 @@
+# " B.S. Report: Jon Hamm
+
+**Source**: http://grantland.com/hollywood-prospectus/b-s-report-jon-hamm/
+**Type**: article
+**Created**: 2025-08-13T19:44:42.689691
+
+---
+
+title: " B.S. Report: Jon Hamm
+source: http://grantland.com/hollywood-prospectus/b-s-report-jon-hamm/
+date: 2025-08-13T19:44:35.804103
+tags: []
+---
+Bill Simmons talks to Jon Hamm about their new movie, _Million Dollar Arm_ ;
+sports movies; and Sunday-night television.
+
+Listen to the podcast
+[here](http://web.archive.org/web/20240919212315/http://www.espn.com/espnradio/play?id=10867248).
+
+https://www.youtube.com/watch?v=HmE0gyOMUZ0
+
+Subscribe to [the B.S. Report on
+iTunes](http://web.archive.org/web/20240919212315/https://itunes.apple.com/us/podcast/espn-b.s.-report-
+bill-simmons/id254098743), and check out [our podcasts
+page](http://web.archive.org/web/20240919212315/http://www.grantland.com/podcasts).
+To subscribe to Grantland’s podcast YouTube channel, [click
+here](http://web.archive.org/web/20240919212315/https://www.youtube.com/user/GrantlandPodcasts).

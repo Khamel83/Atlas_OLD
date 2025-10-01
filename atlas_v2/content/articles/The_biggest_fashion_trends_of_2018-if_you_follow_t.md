@@ -1,0 +1,307 @@
+# The biggest fashion trends of 2018-if you follow the data
+
+**Source**: https://qz.com/quartzy/1501733/the-top-fashion-trends-of-2018-if-you-combine-all-the-top-fashion-trend-lists/
+**Type**: article
+**Created**: 2025-08-13T16:24:33.167799
+
+---
+
+title: The biggest fashion trends of 2018-if you follow the data
+source: https://qz.com/quartzy/1501733/the-top-fashion-trends-of-2018-if-you-combine-all-the-top-fashion-trend-lists/
+date: 2025-08-13T16:24:25.112202
+tags: []
+---
+One thing you can say about fashion trends in 2018: There were a lot of them.
+
+Remember the [tiny
+sunglasses](http://web.archive.org/web/20230602213549/https://www.thecut.com/2018/03/10-small-
+sunglasses-to-help-you-rock-2018s-biggest-trend.html)? That one [Prada
+shirt](http://web.archive.org/web/20230602213549/https://www.highsnobiety.com/p/prada-
+shirt-fw18-style-roundup/)? The transparent
+[bags](http://web.archive.org/web/20230602213549/https://www.vogue.co.uk/gallery/street-
+style-how-to-wear-a-transparent-bag) (and
+[luggage](http://web.archive.org/web/20230602213549/https://qz.com/quartzy/1297271/off-
+white-and-rimowa-teamed-up-on-a-1000-transparent-suitcase))? The
+[cowboys](http://web.archive.org/web/20230602213549/https://fashionista.com/2018/06/cowboy-
+style-fashion-trend-2018)?
+
+Trends these days bubble up and dissipate so fast it can be hard to keep
+track, and harder still to say what really made a mark. A variety of sources
+have put out data-based lists of what they saw as the top fashion trends of
+the year, but that leaves the question of which source is best.
+
+Do you go with [what trended on
+Google](http://web.archive.org/web/20230602213549/https://trends.google.com/trends/yis/2018/US/),
+based on the fashion-related search terms in the US that saw the greatest
+year-over-year increases? Or what stood out on [fashion search-engine
+Lyst](http://web.archive.org/web/20230602213549/https://www.lyst.com/year-in-
+fashion-2018/), which analyzed more than 100 million searches on its platform?
+What about the [searches made by
+Pinterest’s](http://web.archive.org/web/20230602213549/https://newsroom.pinterest.com/en/post/pinterest-100-the-
+top-trends-for-2019) more than 250 million global users that kept growing for
+more than six months? Or should you look at what online retailers actually
+stocked, [as analyzed by
+Edited](http://web.archive.org/web/20230602213549/https://edited.com/blog/2018/12/2018-top-
+trends/), a retail technology firm that tracks hundreds of thousands of items?
+
+We decided to look at all of them, picking the trends that appeared on
+multiple lists, or saw such a sizable increase on one list that they deserved
+to be noted. Here are the top fashion trends of 2018, according to Google,
+Lyst, Pinterest, and Edited:
+
+## 1990s/2000s fashion
+
+The undisputed top trend was the ongoing resurgence of styles last popular in
+the 1990s and 2000s. In accessories, Lyst noted, it appeared in the form of
+gold hoop earrings, scrunchies, and the sudden surge of [Dior’s Saddle
+bag](http://web.archive.org/web/20230602213549/https://qz.com/quartzy/1333000/users-
+are-rightly-suspicious-after-dior-saddle-bag-photos-flood-instagram), which
+had its heyday in the 2000s. Footwear was all about chunky sneakers with roots
+in that period, such as [Fila’s Disruptor
+II](http://web.archive.org/web/20230602213549/https://qz.com/quartzy/1356902/filas-
+hit-sneaker-of-the-1990s-the-disruptor-is-leading-the-brands-revival) and
+[Skecher’s
+D’Lites](http://web.archive.org/web/20230602213549/https://qz.com/quartzy/1429896/skechers-
+claims-its-dlites-are-the-originator-of-the-chunky-sneaker-trend), while [Dr.
+Martens
+boots](http://web.archive.org/web/20230602213549/https://qz.com/quartzy/1128526/the-
+remarkably-enduring-cool-of-the-doc-martens-boot) rode a neo-grunge wave.
+
+In denim it showed up in the shift toward [high-waisted, wider-legged
+cuts](http://web.archive.org/web/20230602213549/https://qz.com/quartzy/1372046/experts-
+agree-were-in-the-midst-of-a-paradigm-shift-in-womens-pants) for women, and in
+men looking for light-wash jeans on Pinterest. (“The ’90s called,” [Pinterest
+declared](http://web.archive.org/web/20230602213549/https://newsroom.pinterest.com/en/post/pinterest-100-the-
+top-trends-for-2019). “They said, ‘you’re welcome.'”)
+
+The look put old styles in a new context to create something fresh, if not
+original. As William Faulkner wrote—he was talking about fashion, right?—”The
+past is never dead. It’s not even past.”
+
+## **Pre-Raphaelite Prairie**
+
+Lyst highlighted dresses with “gothic sensibilities or prairie girl details”
+as a big 2018 this year, with a 406% year on year increase in combined
+searches for “modest,” “high neck,” and “puff sleeves.” (This last trend hit
+London runways in 2016, courtesy of JW Anderson, Burberry, and Erdem, [evoking
+the mid-16th-century British
+court](http://web.archive.org/web/20230602213549/https://qz.com/787304/london-
+fashion-week-sleeves-j-w-anderson-burberry-and-erdem-bring-back-one-of-the-
+biggest-trends-of-the-16th-century).)
+
+Sleeves at J.W. Anderson (L), Burberry (C), and Erdem (R).Image: Estrop/Getty
+Images; Burberry; AP Photo/Alastair Grant
+
+The trend’s current incarnation is best encapsulated by the high-necked,
+ankle-length prairie dresses [in designer Batsheva Hay’s two-year-old,
+eponymous dress
+line](http://web.archive.org/web/20230602213549/https://qz.com/quartzy/1391398/prairie-
+dresses-by-batsheva-ruled-new-york-fashion-week), which are modestly cut and
+cover wearers’ elbows and knees. The dresses dominated this year’s New York
+Fashion Week, and those who rocked it were given the moniker “U.P.G.” ([urban
+pioneer
+girl)](http://web.archive.org/web/20230602213549/https://qz.com/quartzy/1391398/prairie-
+dresses-by-batsheva-ruled-new-york-fashion-week) by [the New York
+Times.](http://web.archive.org/web/20230602213549/https://www.nytimes.com/2018/09/12/style/prairie-
+woman-style-batsheva-doen.html)
+
+The trend makes sense considering the global shift towards more covered-up
+looks. This year, global fashion weeks seemed to [leave sexier looks in the
+dressing
+room](http://web.archive.org/web/20230602213549/https://qz.com/quartzy/1402889/spring-
+summer-2019-fashion-weeks-are-ditching-a-key-trend-sexy), and those designers
+that didn’t (YSL, for instance, sent models down the runway in feather pasties
+and sheer dresses) were called “[old-
+fashioned](http://web.archive.org/web/20230602213549/https://www.nytimes.com/2018/09/26/fashion/saint-
+laurent-margiela-galliano-paris-fashion-
+week.html?rref=collection%2Fsectioncollection%2Ffashion&action=click&contentCollection=fashion&region=rank&module=package&version=highlights&contentPlacement=3&pgtype=sectionfront)”
+and “[tone
+deaf](http://web.archive.org/web/20230602213549/https://wwd.com/runway/spring-2019/paris/yves-
+saint-laurent/review/)” by the fashion press. The Guardian pointed out that
+even fashion week in Milan, usually “[the home of molto sexy
+dressing](http://web.archive.org/web/20230602213549/https://www.theguardian.com/fashion/2018/sep/25/end-
+cleavage-sexy-clothes-milan-fashion-week),” was unexpectedly modest in 2018 as
+well. Interestingly, the demand for more conservative clothing has given
+Muslim fashion [an opportunity to
+thrive,](http://web.archive.org/web/20230602213549/https://www.bloomberg.com/news/features/2018-12-13/as-
+sex-ceases-to-sell-modesty-has-its-fashion-moment) and some analysts estimate
+that sector could be worth more than $350 billion in two years.
+
+## Dad fashion
+
+Nike’s M2K Tekno isn’t really for dad.Image: Nike
+
+There was definite overlap between the 1990s/2000s-redux and another big 2018
+trend: fashion’s desire to appropriate the stereotypical dad’s wardrobe.
+
+Edited even included “chunky dad shoes” as part of 1990s fashion. Shoes like
+Nike’s popular M2K Tekno—an [update of the Air
+Monarch](http://web.archive.org/web/20230602213549/https://news.nike.com/news/m2k-tekno),
+a quintessential dad sneaker launched in 2002—and Balenciaga’s hulking Triple
+S could fit both categories.
+
+There are distinct elements to the dad category too, though. Underlying its
+leanings toward slightly oversized fits and unsaturated colors is the [taste
+for ugly](http://web.archive.org/web/20230602213549/https://qz.com/1016089/in-
+fashion-all-thats-ugly-is-now-beautiful) (sorry dads) that has appeared in
+fashion in the last few years—[see the aforementioned Triple
+S](http://web.archive.org/web/20230602213549/https://qz.com/quartzy/1286478/balenciagas-
+success-is-proof-that-ugly-sells). Lyst pointed out that “slouchy cardigans,
+fleeces and ‘ugly’ shirts combined saw a 439% increase in views.”
+
+## Bike shorts
+
+The rise of spandex bike shorts—the skin-tight, groin-hugging bottoms once
+reserved for avid cyclists—is one of the most difficult to trends to trace.
+But as with many things, Kim Kardashian West seems to have been involved. The
+reality TV star was spotted stepping out in spandex shorts paired with a
+blazer and stilettos in the summer of 2017. Her husband, the rapper Kanye
+West, [later
+released](http://web.archive.org/web/20230602213549/https://www.garmentory.com/sale/yeezy/skirts-
+mid/540335-2xu-bike-shorts-
+soot-s?gclid=CjwKCAiAmO3gBRBBEiwA8d0Q4r0wL4SdmLLTMJ7thvMDoojcpPSY4NxPw2ESbc9g2X6EiBoSCqPlTxoCPqgQAvD_BwE&ne_ppc_id=1600189437#sm.0000ytb41nd0gdtsw5o1q5gf63qwo)
+a pair of bike shorts as a part of Yeezy Season 6, his fashion line. In
+September 2017, bike shorts were given high fashion makeover [at Paris fashion
+week.](http://web.archive.org/web/20230602213549/https://www.vogue.com/article/spring-2018-trend-
+bike-shorts)
+
+With that kind of buildup, it’s no big surprise that Pinterest saw a 1,323%
+spike in searches for bike shorts, with Lyst clocking a 78% increase. While
+Edited didn’t include them in its 2018 roundup, its [2019
+lookahead](http://web.archive.org/web/20230602213549/https://edited.com/blog/2018/12/2019-key-
+trends/) highlighted cycling shorts as a growing trend, adding that fast
+fashion e-tailers such as BooHoo and Pretty Little Thing [have already
+invested](http://web.archive.org/web/20230602213549/https://edited.com/blog/2018/12/2019-key-
+trends/?utm_source=Insider+Briefing&utm_campaign=0350d3975a-EMAIL_CAMPAIGN_2018_12_20&utm_medium=email&utm_term=0_2881d563c0-0350d3975a-337073461)
+in them for the new year.
+
+Underlying the bike shorts wave is the luxury world’s whole-hearted embrace of
+athleisure. Lyst saw a 62% increase in items labeled as “sportswear” this
+year, and said shoppers were spending more on the category. Athleisure has of
+course been a force in fashion [for over half a
+decade](http://web.archive.org/web/20230602213549/https://qz.com/825888/what-
+is-athleisure-anyhow-and-why-should-i-care/amp), with stretchy workout clothes
+doubling as everyday wear in many Western nations. The expectation of comfy,
+stretchy clothes has even spread beyond the category, with denim makers added
+[more
+stretch](http://web.archive.org/web/20230602213549/https://qz.com/769320/levis-
+stretch-501s-are-here-athleisure-and-denim-jeans-are-vying-for-their-place-in-
+the-american-wardrobe) to their jeans.
+
+Now, as designers embrace the sportswear aesthetic, “Sports Luxe” has emerged
+as a powerful category of elevated athletic gear, spearheaded by designers
+such as Virgil Abloh, who dressed Serena Williams in [a Louis Vuitton/Nike
+tutu](http://web.archive.org/web/20230602213549/https://www.cnbc.com/2018/08/30/serena-
+williams-nike-tutu--cost.html) at the US Open, and debuted a line of sports-
+inspired ball gowns at Paris fashion week.
+
+## Natural bags
+
+This trend began bubbling up last summer with the meteoric rise of Cult Gaia’s
+“Ark” bag, a structured, half moon, cage purse. It was a summer 2017
+[influencer
+staple](http://web.archive.org/web/20230602213549/https://fashionista.com/2017/07/fashion-
+instagram-influencer-style-items-summer-2017) and became an official [“it”
+bag](http://web.archive.org/web/20230602213549/https://www.nytimes.com/2018/03/21/fashion/steve-
+madden-cult-gaia-handbag-lawsuit.html) after both Beyoncé and Rihanna were
+spotted with it.
+
+The bird-cage inspired clutch gained further notoriety after [Cult Gaia
+sued](http://web.archive.org/web/20230602213549/https://fashionista.com/2018/05/cult-
+gaia-ark-bag-steve-madden-copyright-lawsuit) Steve Madden for $15 million,
+claiming that the latter’s BShipper natural bag imitated the Ark. Madden had
+previously sued Gaia, claiming that it couldn’t seek legal protection for its
+bag “since the design “slavishly copies” vintage Japanese picnic bags from the
+’40s,” [the Fashion
+Law](http://web.archive.org/web/20230602213549/http://www.thefashionlaw.com/home/steve-
+madden-responds-to-cult-gaias-lawsuit-threats-your-bag-is-a-slavish-copy)
+reported.
+
+The bag fell out of favor during the winter months, but it opened doors for a
+wider array of natural bags to arrive in the spring and summer of 2018, buoyed
+by a larger trend towards sustainable and eco-friendly fashion. Edited noted
+that 119 mass market retailers introduced natural bags—including bamboo
+baskets, handwoven totes, and straw bags—to be sold in the spring.
+
+## Sustainable fashion
+
+A growing awareness that cheap, disposable fashion is [causing an
+environmental
+emergency](http://web.archive.org/web/20230602213549/https://qz.com/1222569/fast-
+fashion-is-causing-an-environmental-emergency) has led to more interest in
+eco-friendly style over the last few years. In 2018, that interest reached a
+new high. Pinterest noted that searches for sustainable women’s fashion rose
+34% this year, while Lyst documented a 47% jump in fashion searches using
+keywords and phrases related to sustainability, such as “organic cotton” and
+“vegan leather.”
+
+Brands are helping to drive this surge. More are making sustainability a
+priority in their marketing and operations. Labels such as
+[Adidas](http://web.archive.org/web/20230602213549/https://qz.com/828340/adidas-
+is-making-a-million-pairs-of-its-much-anticipated-sneakers-created-from-
+recycled-ocean-plastic),
+[Levi’s](http://web.archive.org/web/20230602213549/https://www.levi.com/US/en_US/features/sustainability),
+and [Stella
+McCartney](http://web.archive.org/web/20230602213549/https://qz.com/1095394/stella-
+mccartney-is-pioneering-synthetic-spider-silk-in-high-fashion) have been using
+more sustainable materials and processes to make their clothes, and letting
+customers know about it. At the UN’s recent international climate summit,
+[dozens of leading
+labels](http://web.archive.org/web/20230602213549/https://qz.com/1491309/adidas-
+zara-hm-and-more-commit-to-reducing-fashions-climate-impact-at-cop24) pledged
+to work together to reduce their climate impact.
+
+## Sling bags
+
+Though “sling bags” only appeared on Pinterest’s list of top trends for men,
+it said searches for them grew a hefty 1,184% in 2018.
+
+The high-end “sling bag,” or whatever you want to call it, by Hermès.Image: AP
+Photo/Christophe Ena
+
+So what’s a sling bag? It’s basically a fanny pack (or, depending on where you
+live, a “bum bag” or “waist bag”), but it’s not worn around the waist. The
+[Wall Street
+Journal](http://web.archive.org/web/20230602213549/https://www.wsj.com/articles/the-
+fanny-pack-has-returned-now-cheer-or-cringe-1510599240) (paywall) was on top
+of this trend, explaining that one fashion buyer it interviewed, “like other
+well-appointed men sporting fanny packs today, doesn’t wear it around his
+waist, but slipped over his shoulder and under his arm with the pack itself
+against his chest, the way a pageant contestant sports a sash.”
+
+Fanny packs may be [mankind’s oldest
+accessory](http://web.archive.org/web/20230602213549/https://qz.com/quartzy/1493093/fanny-
+packs-are-one-of-humankinds-oldest-accessories), but this year these bags
+[were
+everywhere](http://web.archive.org/web/20230602213549/https://qz.com/quartzy/1321703/fanny-
+packs-are-trending-as-waist-bags-with-new-high-fashion-cred). Luxury labels
+such as
+[Hermès](http://web.archive.org/web/20230602213549/https://www.instagram.com/p/BkafS4AlJbB/)
+and
+[Dior](http://web.archive.org/web/20230602213549/https://www.vogue.com/fashion-
+shows/pre-fall-2019/dior-homme#collection) showed them on their runways.
+Sports brands including Fila and Adidas sold versions. In the US, though fanny
+packs account for just 1% of fashion-accessories sales, they made up [nearly
+25% of the category’s
+growth](http://web.archive.org/web/20230602213549/https://qz.com/quartzy/1487806/fanny-
+packs-are-generating-nearly-a-quarter-of-the-us-accessories-industrys-growth)
+this year, according to research firm NPD Group.
+
+## Animal print
+
+YSL SS19.Image: AP Photo/Christophe Ena
+
+A natural byproduct of the 1990s-dressing revival, [animal print
+returned](http://web.archive.org/web/20230602213549/https://qz.com/quartzy/1385216/new-
+york-fashion-week-was-all-about-animal-print-and-tiny-sunglasses-indoors) with
+a vengeance this past year. At global fashion weeks, snake, zebra, cow, and
+leopard prints were abundant both on and off the runway: YSL’s Anthony
+Vaccarello and Christian Siriano built an entire collection on a few skin
+prints, and Gucci smattered them throughout.
+
+Leopard and snake showed a particular surge. In the UK, online retailers
+stocked up on leopard print tops, according to Edited, while in the US,
+leopard-printed footwear made up 32% of the entire market it tracks.
+
+On Pinterest, snakeskin prints beat searches for leopard, and increased 642%.
+This is probably why:

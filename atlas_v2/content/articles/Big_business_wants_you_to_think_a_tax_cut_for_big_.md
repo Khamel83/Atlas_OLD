@@ -1,0 +1,131 @@
+# Big business wants you to think a tax cut for big business will stop outsourcing | Vox
+
+**Source**: https://www.vox.com/2017/8/10/16122636/american-action-tax-reform-ad
+**Type**: article
+**Created**: 2025-08-13T17:06:06.984914
+
+---
+
+title: Big business wants you to think a tax cut for big business will stop outsourcing | Vox
+source: https://www.vox.com/2017/8/10/16122636/american-action-tax-reform-ad
+date: 2025-08-13T17:06:06.041347
+tags: []
+---
+The business community is snagging a trick from President Donald Trump’s
+campaign, in hopes of selling big tax cuts for business and the rich to a very
+skeptical public.
+
+Many wealthy business executives, including Trump, would like to see Congress
+enact a large tax cut on high-income individuals and on large corporations.
+One big advantage they have in pursuit of that quest is that Republicans
+currently control both houses of Congress, and most congressional Republicans
+are strongly predisposed to favor tax cuts for high-income individuals and
+corporations. One disadvantage they have is that [these priorities are
+hideously unpopular with the public](/2017/4/14/15297488/tax-poll-rich-pay-
+more), which strongly believes that corporate taxes and taxes on the rich
+should be higher.
+
+The unpopularity of this agenda is why Trump, when running for president,
+emphasized an entirely different agenda — bringing back good-paying
+manufacturing jobs by getting tough on corporate outsourcing.
+
+Two new ads, one from the Business Roundtable group of CEOs and one from the
+right-wing ad shop American Action Network, attempt to square this circle by
+simply pretending that the GOP tax concepts floating around Congress are about
+combatting outsourcing. This is not in any way true, but in the era of the
+[Bullshitter in chief](/policy-and-politics/2017/5/30/15631710/trump-bullshit)
+in the White House it’s natural that the flim-flam style of argumentation
+would come to increasingly dominate the entire conservative firmament.
+
+## Two ads, one dishonest argument
+
+The less egregious ad, from Business Roundtable, does mostly stay focused on
+the general idea that low tax rates are good and will in some unspecified way
+generate more economic growth. But they throw in there the notion that
+“American companies are disappearing along with good-paying jobs,” linking the
+tax issue to outsourcing worries.
+
+Text accompanying the ad further draws this notion out, by arguing that “we
+need a plan to make America competitive again” as if high tax rates are
+somehow causing US-based production to lose ground to foreign-based
+production.
+
+The much more dishonest ad from the American Action Network is more
+emotionally effective since it entirely throws caution to the wind — focusing
+on a steelworker who lost his job due to competition from foreign steel and
+then just hand-waving about corporate taxes.
+
+Obviously many Americans have lost jobs over the years and often subsequently
+struggle to get new jobs that pay as well as their old ones. But corporate
+income tax is a tax companies pay on their profits. If your employer is paying
+any corporate income tax at all, they are making money. If your employer is
+being driven out of business by the Chinese, they are not making profits or
+paying taxes on them.
+
+Indeed, precisely because American metal companies haven’t been doing well,
+[Aswath Damodaran of NYU’s Stern School of
+Business](http://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/taxrate.htm)
+calculates that the metals and mining sector paid an effective corporate tax
+rate of just 1 percent last year.
+
+## Corporate tax rates have nothing to do with outsourcing
+
+Consider a company like Apple which, unlike a bankrupt steel mill, actually
+does pay a lot of corporate income tax. The reason that Apple, despite its
+[well-known taste for corporate tax shenanigans](/2016/8/30/12709506/apple-
+ireland-taxes), pays a lot of money to the Treasury each year is that Apple is
+a staggering profit machine.
+
+But note that Apple rather famously doesn’t manufacture much of anything in
+the United States. All those iPhones and iPads and the vast majority of the
+Macs and accessories that fuel those profits are made in China. And Apple
+makes them in China because Apple’s corporate leadership has decided that all
+things considered they will make more money that way. Apple is an American
+company that pays taxes to the American government on its profits and it would
+no doubt enjoy a tax cut — but a tax cut isn’t going to change the calculus
+that the most profitable place to build an iPhone is China.
+
+What a tax cut for Apple would _really_ do is something quite different.
+
+One thing that Apple and several other highly profitable multinational
+companies, especially in the high-tech sector, have managed to do over the
+years is stash a huge amount of cash “overseas.” This means that accrued
+profits are formally on the books of subsidiaries that are legally domiciled
+in low-tax foreign countries. That money is still Apple’s (or Google’s or
+Facebook’s or Microsoft’s) but in order to pay it out to shareholders as
+dividends, it would need to be passed up to the parent company at which point
+Uncle Sam would demand his cut.
+
+A reduction in tax rates would make it easier to do those payouts — creating
+big gains for people who happen to own a lot of stock, but no impact on
+outsourcing or domestic steel production unless rich shareholders happen to
+decide to spend their windfall gains on American steel. (Perhaps sales of the
+expensive but well regarded [Baking Steel Griddle will
+surge](https://www.amazon.com/Baking-Steel-
+Griddle-18-14/dp/B016WOTNZU/ref=sr_1_1?s=home-
+garden&ie=UTF8&qid=1502329335&sr=1-1&keywords=baking+steel+griddle)).
+
+## What the tax debate is about
+
+A more honest accounting of the case for a corporate tax cut would go like
+this.
+
+The corporate income tax is, in the grand scheme of things, a kind of tax on
+capital and business investment. Many people believe — with some support from
+economic theory and well-known models — that taxes of this sort are harmful to
+long-term economic growth. With lower taxes on investment income, there will
+be more investment. And more investment will, in the long run, create a large
+stock of capital goods and thus more jobs and higher wages for everyone.
+
+The best empirical research on recent tax changes [tends to contradict this
+line of reasoning](/2015/1/21/7863239/taxes-investment-yagan) but it’s
+certainly a subject about which well-qualified economists disagree.
+
+That said, one subject on which there is very broad agreement is that
+corporate profits are currently quite high.
+
+One could take this as a sign of economic strength or as a sign of plutocracy
+run amok, but either way it’s difficult to take it as a sign that corporations
+being insufficiently profitable is what’s currently holding back economic
+growth. Either way, the loss of jobs due to foreign competition has nothing
+whatsoever to do with it.

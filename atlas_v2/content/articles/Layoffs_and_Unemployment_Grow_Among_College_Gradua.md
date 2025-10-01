@@ -1,0 +1,224 @@
+# Layoffs and Unemployment Grow Among College Graduates - The New York Times
+
+**Source**: https://www.nytimes.com/2025/03/25/business/economy/white-collar-layoffs.html
+**Type**: article
+**Created**: 2025-08-13T15:04:25.808325
+
+---
+
+title: Layoffs and Unemployment Grow Among College Graduates - The New York Times
+source: https://www.nytimes.com/2025/03/25/business/economy/white-collar-layoffs.html
+date: 2025-08-13T15:04:14.286903
+tags: []
+---
+When Starbucks [announced last
+month](http://web.archive.org/web/20250725114806/https://www.nytimes.com/2025/02/24/business/starbucks-
+layoffs.html) that it was laying off more than 1,000 corporate employees, it
+highlighted a disturbing trend for white-collar workers: Over the past few
+years, they have seen a steeper rise in unemployment than other groups, and
+[slower wage
+growth](http://web.archive.org/web/20250725114806/https://www.epi.org/299300/pre/6f7b90fc1f3dfd837259e8a8eab14d6ee5a3c4c4d435f2b8d0f84ec791a4a807/).
+
+It also added fuel to a debate that has preoccupied economists for much of
+that time: Are the recent job losses merely a temporary development? Or do
+they signal something more ominous and irreversible?
+
+After sitting below 4 percent for more than two years, the overall
+unemployment rate has topped that threshold since May.
+
+Economists say that the job market remains strong by historical standards and
+that much of the recent weakening appears connected to the economic impact of
+the pandemic. Companies hired aggressively amid surging demand, then shifted
+to layoffs once the Federal Reserve began raising interest rates. Many of
+these companies have sought to make their operations leaner under pressure
+from investors.
+
+But amid rapid advances in artificial intelligence and President Trump’s
+targeting of federal agencies, which disproportionately support white-collar
+jobs, some wonder if a permanent decline for knowledge work has begun.
+
+“We’re seeing a meaningful transition in the way work is done in the white-
+collar world,” said Carl Tannenbaum, the chief economist of Northern Trust. “I
+tell people a wave is coming.”
+
+To date, few industries epitomize the shift of the last few years better than
+the making of video games, which [began a boom in
+2020](http://web.archive.org/web/20250725114806/https://www.latimes.com/entertainment-
+arts/business/story/2023-11-20/video-game-industry-layoffs) as couch-bound
+Americans sought out new forms of home entertainment. The industry hired
+aggressively before reversing course and embarking on a period of layoffs.
+Thousands of video-game workers lost jobs last year and the year before.
+
+The scale of the job loss was such that the host of the [Game Developers
+Choice
+Awards](http://web.archive.org/web/20250725114806/https://gamechoiceawards.com/),
+the industry’s annual awards show, complained about “record layoffs” during
+her opening monologue in 2024. That same year, a unionization trend that had
+begun with lower-paid quality assurance testers spread to better-paid workers
+like game producers, designers and engineers at companies that make the hit
+games [Fallout](http://web.archive.org/web/20250725114806/https://cwa-
+union.org/news/releases/workers-bethesda-game-studios-achieve-union-
+recognition-cwa-becoming-first-wall-
+wall#:~:text=For%20the%20Media-,Workers%20at%20Bethesda%20Game%20Studios%20Achieve%20Union%20Recognition%20with%20CWA,to%2DWall%20Union%20at%20Microsoft&text=\(Rockville%2C%20Md.\),a%20Microsoft%20video%20game%20studio)
+and [World of
+Warcraft](http://web.archive.org/web/20250725114806/https://www.bloomberg.com/news/articles/2024-07-24/world-
+of-warcraft-unionizes-growing-foothold-at-microsoft-s-activision-
+blizzard?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTcyMTg3MjkxNywiZXhwIjoxNzIyNDc3NzE3LCJhcnRpY2xlSWQiOiJTSDFES1ZUMVVNMFcwMCIsImJjb25uZWN0SWQiOiJDQThGQ0Y4NkY1QjY0ODlCODA4ODkwNTFBNjMxRERBRCJ9.3B1fXlW3HERUFFP4BCHzuH7DwXczMPEGv5VjkCRfPyo).
+
+At Bethesda Game Studios, which is owned by Microsoft and makes Fallout,
+workers said they unionized partly because they were alarmed by rounds of
+layoffs at the company in 2023 and 2024 and felt that a union would give them
+leverage in a softening labor market.
+
+“It was the first time that Bethesda had experienced layoffs in a very, very
+long time,” said Taylor Welling, a producer at the studio, who holds a
+master’s degree in interactive entertainment. “That sort of scared a lot of
+people.” Microsoft declined to comment.
+
+Unemployment in [finance and related
+industries](http://web.archive.org/web/20250725114806/https://www.bls.gov/webapps/legacy/cpsatab14.htm),
+while still low, increased by about a quarter from 2022 to 2024, as rising
+interest rates slowed demand for mortgages and companies sought to become
+leaner. On an [earnings
+call](http://web.archive.org/web/20250725114806/https://www.fool.com/earnings/call-
+transcripts/2024/07/12/wells-fargo-wfc-q2-2024-earnings-call-transcript/) last
+summer, the chief executive of Wells Fargo noted that the company’s
+“efficiency initiatives” had pruned the company’s work force for 16 straight
+quarters, including a nearly 50 percent reduction of workers in the company’s
+home lending division since 2023.
+
+Last fall, Wells Fargo laid off about one-quarter of the roughly 45 employees
+on its conduct management intake team, which reviews accusations of company
+misconduct against customers and employees. [Heather
+Rolfes,](http://web.archive.org/web/20250725114806/https://www.linkedin.com/in/hero3/)
+a lawyer who was let go, said that she believed the company was seeking to
+save money by shrinking its U.S. work force, and that she and her colleagues
+were a tempting target because they had recently sought to unionize.
+
+“I think it was great for them to get rid of two birds with one stone,” Ms.
+Rolfes said. Some of her former co-workers say they anxiously await every
+Tuesday after a payday, because that’s when the company tends to inform
+workers about job cuts. “We feel like at any moment we could be laid off,”
+said [Eden
+Davis,](http://web.archive.org/web/20250725114806/https://www.dnb.com/contact-
+directory/contact-profile.eden_davis.32890f693e0b398bef13337aede4f674.html)
+another worker on the team.
+
+A Wells Fargo spokesman said in a statement that the layoffs had nothing to do
+with the union and that “we regularly review and adjust staffing levels to
+align with market conditions.” He noted that two managers on the team had also
+lost their jobs.
+
+Atif Rafiq, the author of a book on corporate strategy who has held senior
+positions at McDonald’s and Amazon, said many companies were seeking to
+emulate Amazon’s model of building cross-functional teams that reduce barriers
+between workers with different expertise, like coding and marketing. In the
+process, they may discover redundancies and undertake layoffs.
+
+In a memo announcing [the
+layoffs](http://web.archive.org/web/20250725114806/https://www.nytimes.com/2025/02/24/business/starbucks-
+layoffs.html) at Starbucks last month, Brian Niccol, the chief executive,
+[cited a
+goal](http://web.archive.org/web/20250725114806/https://about.starbucks.com/press/2025/message-
+from-brian-global-support-partner-announcement/) of “removing layers and
+duplication and creating smaller, more nimble teams.” Nissan offered a similar
+rationale for management cuts
+[announced](http://web.archive.org/web/20250725114806/https://www.wsj.com/business/autos/nissan-
+to-cut-20-of-top-management-positions-c8af737f?mod=itp_wsj) this month.
+
+Overall, the latest data from the Federal Reserve Bank of New York
+[show](http://web.archive.org/web/20250725114806/https://www.newyorkfed.org/research/college-
+labor-market/#--:explore:unemployment) that the unemployment rate for college
+grads has risen 30 percent since bottoming out in September 2022 (to 2.6
+percent from 2 percent), versus about 18 percent for all workers (to 4 percent
+from 3.4 percent). An analysis by Julia Pollak, chief economist of
+ZipRecruiter, shows that unemployment has been most elevated among those with
+bachelor’s degrees or some college but no degree, while unemployment has been
+steady or falling at the very top and bottom of the education ladder — for
+those with advanced degrees or without a high school diploma.
+
+Hiring rates have slowed more for jobs requiring a college degree than for
+other jobs, [according to ADP
+Research](http://web.archive.org/web/20250725114806/https://www.adpresearch.com/employment-
+and-hiring-by-job-zone/), which studies the labor market.
+
+Some economists say these trends may be short term in nature and little cause
+for concern on their own. Lawrence Katz, a labor economist at Harvard, noted
+that the uptick in unemployment for college-educated workers was only modestly
+larger than the increase in unemployment overall, and that unemployment for
+both groups remained low by historical measures.
+
+Professor Katz argued that slower growth in wages for upper-middle-class
+workers could simply reflect a discount that these workers effectively
+accepted in return for being able to work from home. [Data from the liberal
+Economic Policy
+Institute](http://web.archive.org/web/20250725114806/https://www.epi.org/299300/pre/6f7b90fc1f3dfd837259e8a8eab14d6ee5a3c4c4d435f2b8d0f84ec791a4a807/)
+shows that wages for workers in the 70th and 80th percentiles of the income
+distribution have grown more slowly than those of any other group since 2019.
+
+But there are other signs that the returns on a college degree may have
+shifted over a longer period. The gap in wages between those with a college
+degree and those without one [grew
+steadily](http://web.archive.org/web/20250725114806/https://www.frbsf.org/wp-
+content/uploads/wp2025-01.pdf) beginning in 1980, but flattened during the
+past 15 years, though it remains high.
+
+The flattening may partly reflect the fact that there are more college-
+educated workers for employers to choose from, as college attendance has
+increased. But some economists
+[argue](http://web.archive.org/web/20250725114806/https://www.frbsf.org/wp-
+content/uploads/wp2025-01.pdf) that it reflects [employers’ reduced
+need](http://web.archive.org/web/20250725114806/https://www.frbsf.org/economic-
+research/wp-content/uploads/sites/4/wp2016-17.pdf) for college graduates — for
+example, fewer jobs like bookkeeping as information technology has become more
+sophisticated. Such jobs don’t necessarily require a college degree but were
+often attractive to graduates because they once paid them a relatively high
+wage.
+
+And artificial intelligence could reduce that need further by increasing the
+automation of white-collar jobs. A recent [academic
+paper](http://web.archive.org/web/20250725114806/https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4945566)
+found that software developers who used an A.I. coding assistant improved a
+key measure of productivity by more than 25 percent, and that the productivity
+gains appeared to be largest among the least experienced developers. The
+result suggested that adopting A.I. could reduce the wage premium enjoyed by
+more experienced coders, since it would erode their productivity advantages
+over novices.
+
+Mert Demirer, an M.I.T. economist who was a co-author of the paper, said in an
+interview that a software developer’s job could change over the longer term,
+so that the human coder became a kind of project manager overseeing multiple
+A.I. assistants. In that case, wages could rise as the human became more
+productive. And A.I. could end up expanding employment among coders if cheaper
+software led to even greater demand.
+
+Still, at least in the near term, many tech executives and their investors
+appear to see A.I. as a way [to trim their
+staffing](http://web.archive.org/web/20250725114806/https://www.nytimes.com/2025/02/02/business/klarna-
+ceo-ai.html). A software engineer at a large tech company who declined to be
+named for fear of harming his job prospects said that his team was about half
+the size it was last year and that he and his co-workers were expected to do
+roughly the same amount of work by relying on an A.I. assistant. Overall, the
+[unemployment
+rate](http://web.archive.org/web/20250725114806/https://www.bls.gov/webapps/legacy/cpsatab14.htm)
+in tech and related industries jumped by more than half from 2022 to 2024, to
+4.4 percent from 2.9 percent.
+
+Then there are Mr. Trump’s attempts to remake the federal government, which
+have so far resulted in job losses and hiring freezes for [federal
+employees](http://web.archive.org/web/20250725114806/https://www.nytimes.com/2025/03/07/business/economy/federal-
+workers-layoffs-job-market.html) and employees at universities and other
+nonprofits that rely on government funding. Johns Hopkins University, which
+relies heavily on federal research funding,
+[announced](http://web.archive.org/web/20250725114806/https://www.nytimes.com/2025/03/13/us/trump-
+cuts-johns-hopkins-university-layoffs.html) this month that it was laying off
+2,000 workers worldwide as a result of Mr. Trump’s cuts.
+
+Professor Katz of Harvard noted that a larger portion of college-educated
+workers depended on the federal government for their jobs than other groups,
+either directly or through the funding of nonprofits. “What appears to be a
+major contraction of spending on science and research, on education, by the
+government — that is going to potentially have a very large impact,” he said.
+
+“The overall unemployment rate for college graduates doesn’t look particularly
+elevated,” he added. “But it may be in the next six months.”

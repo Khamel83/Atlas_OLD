@@ -1,0 +1,43 @@
+# The GOP’s Wacky Delegate Rules Are Helping Trump | FiveThirtyEight
+
+**Source**: inputs/New Docs/html/fivethirtyeight.com_features_the-gops-wacky-delegate-rules-are-helping-trump.html
+**Type**: article
+**Created**: 2025-08-25T02:53:51.942950
+
+---
+
+![](https://fivethirtyeight.com/wp-content/uploads/2016/04/ap_835850185180.jpg?w=575)
+
+
+
+Donald Trump during a campaign event on Monday in La Crosse, Wisconsin.
+
+Paul Sancya / AP
+
+If Ted Cruz wins by a huge margin in Milwaukee’s suburbs, [as expected](https://law.marquette.edu/poll/2016/03/30/new-marquette-law-school-poll-finds-cruz-sanders-ahead-in-wisconsin-presidential-primaries-bradley-leads-state-supreme-court-race/) tonight, he’ll get all three delegates from Wisconsin’s 5th Congressional District, which cast 257,017 votes for Mitt Romney in the 2012 general election. But in two weeks, Donald Trump could capture just as many delegates by winning a majority of the vote in New York’s heavily Latino, Bronx-based 15th Congressional District, which cast only 5,315 votes for Romney four years ago.
+
+Three weeks ago, Trump won three times as many delegates — nine — at the Northern Mariana Islands convention, which drew just [471 participants](http://thehill.com/blogs/ballot-box/273017-trump-wins-northern-mariana-islands-caucus).
+
+Welcome to Trump’s “[rotten boroughs](http://www.merriam-webster.com/dictionary/rotten%20borough),” the curious places where mere handfuls of voters (relatively speaking) are keeping him in the hunt for the 1,237 delegates required to clinch the GOP nomination. And the quirks of the Republican National Committee’s delegate math — the ones once considered a safeguard against an upsetting of the party order by an insurgent like Trump — will take on a more pronounced role as the GOP contest enters its late stages.
+
+![wasserman-diversity-votes-per-delegate](https://fivethirtyeight.com/wp-content/uploads/2016/04/wasserman-diversity-votes-per-delegate1.png)
+
+Back in November, when we first [examined](https://fivethirtyeight.com/features/the-gops-primary-rules-might-doom-carson-and-cruz/) these wacky imbalances in GOP delegate allocation, we found that a primary vote cast in a district that President Obama won in the 2012 general election was worth about twice as much as one cast in a Romney-won district — with the average blue district awarding one convention delegate per about 30,000 Romney voters and the average red district awarding one delegate per nearly 60,000 Romney voters. That’s because — in the 24 states that award delegates by congressional district, rather than only on a statewide basis — each district awards three delegates, regardless of its partisan lean.1 We suspected this would help the GOP’s “establishment” candidates because such candidates have historically [thrived](http://www.nytimes.com/2015/02/01/upshot/the-surprising-power-of-blue-state-republicans.html) in blue areas.
+
+Instead, Trump has bulldozed this assumption about blue districts, through his dominance in the enclaves of working-class white Republican voters who live in majority-minority districts — defined as those where non-Hispanic whites are a minority of residents. Part of Trump’s appeal in these mostly urban areas may be attributable to his brash, big-city persona.
+
+But as National Journal’s [Josh Kraushaar](https://www.nationaljournal.com/s/621739?unlock=ZRQV5K4IPVLFJM1U&mref=homepage-free) and others have pointed out, strained race relations also appear to be playing a role. Areas in racial transition are often flashpoints for racial tension and tend to be ripe for Trump’s oft-stated support for police, implicitly viewed as a rebuke of Black Lives Matter activism. For example, Trump carried all five delegates from the majority-minority district encompassing Ferguson, Missouri.
+
+Remember when Trump’s campaign planned (and ultimately canceled) a rally in the middle of Chicago? Many saw it as a needless act of provocation and asked why the GOP front-runner would stir up trouble in a city where 68 percent of residents are non-white and Obama, a hometown hero, received 84 percent of the vote in 2012? Perhaps because the bluest districts are some of the most valuable real estate on the primary calendar.
+
+As it turns out, 21 of Illinois’s 54 district-level delegates were elected in districts taking in the city of Chicago even though the city accounts for just 7 percent of the state’s Republican voters. In the March 15 Illinois primary, Trump ran up the score in many pockets of the city. For example, he captured [52 percent](http://www.chicagoelections.com/en/wdlevel3.asp?elec_code=6) of the vote in the historically Irish-Catholic [19th Ward](http://www.nbcchicago.com/blogs/ward-room/Get-to-Know-Your-Ward-19th-Ward-290605071.html). Tiny handfuls of votes allowed him to capture 16 of these 21 delegates, furthering his march to 1,237 nationally (the number he needs to clinch the nomination).
+
+In total, the 24 states award 841 RNC delegates based on the primary results within 275 congressional districts. So far, 132 of these districts have voted. Outside of Cruz’s home state of Texas, Trump has won 15 of 17 majority-minority districts, or 88 percent. By comparison, Trump has carried only 51 of 79 majority white districts (again excluding Texas), or 65 percent.
+
+Up until now, 75 percent of districts that have voted have been majority white. In a potential boon to Trump, the remaining calendar is more diverse: Only 62 percent of districts will be majority white, while 38 percent will be majority-minority.
+
+Between now and June 7, the last day of voting on the GOP calendar, 54 majority-minority districts will vote, including nine in New York, three in Maryland and 38 in California. The 162 delegates up for grabs in these majority-minority districts are more than a third of what Trump needs to get from his current total of 752 to [1,237](https://projects.fivethirtyeight.com/election-2016/can-you-get-trump-to-1237/).
+
+To cut into Trump’s share of these delegates, Cruz or John Kasich would need to find a way to beat the front-runner in a place like California’s 40th District, which is in southeastern Los Angeles and is 87 percent Latino. It gave Romney just 17 percent of the vote in 2012. That sounds like it should be a simple task, given Trump’s [85 percent](https://www.washingtonpost.com/blogs/plum-line/wp/2016/03/31/nightmare-nominee-nobody-likes-donald-trump-not-even-white-men/) unfavorable rating with Latinos nationally. But believe it or not, Trump carried demographically comparable precincts in Arizona by wide margins (few Latino voters participate in Republican primaries).
+
+For all of Trump’s [protestations](http://www.cnn.com/2016/03/29/politics/republican-town-hall-highlights/) that he’s “been treated very unfairly” by the RNC, the imbalances in the party’s delegate math continue to treat him quite well.

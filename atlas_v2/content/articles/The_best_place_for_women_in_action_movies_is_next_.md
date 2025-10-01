@@ -1,0 +1,102 @@
+# The best place for women in action movies is next to Tom Cruise.
+
+**Source**: http://www.slate.com/blogs/browbeat/2016/10/24/the_best_place_for_women_in_action_movies_is_next_to_tom_cruise.html
+**Type**: article
+**Created**: 2025-08-13T17:48:53.805661
+
+---
+
+title: The best place for women in action movies is next to Tom Cruise.
+source: http://www.slate.com/blogs/browbeat/2016/10/24/the_best_place_for_women_in_action_movies_is_next_to_tom_cruise.html
+date: 2025-08-13T17:48:52.582920
+tags: []
+---
+_This[article](http://www.vulture.com/2016/10/tom-cruises-female-costar-cobie-
+smulders-emily-blunt.html?wpsrc=nymag) originally appeared in
+_[Vulture](http://www.vulture.com/?wpsrc=nymag) _._
+
+On Friday, Tom Cruise returned to theaters with the second installment in the
+Jack Reacher film franchise, [_Jack Reacher: Never Go
+Back_](http://www.vulture.com/2016/06/watch-tom-cruise-in-the-jack-
+reacher-2-trailer.html?wpsrc=nymag). Much like last time, Cruise’s Reacher is
+called upon to clear the name of an innocent person saddled with a heinous
+crime, in this case, his former commanding officer Susan Turner (Cobie
+Smulders). It’s the latest installment in the Cruise Action Canon, a set that
+started in earnest with the first _Mission Impossible_ back in 1996 and has
+carried through six installments in that franchise, two _Reacher_ movies, and
+a handful of one-offs like _Oblivion_ , _Minority Report_ , and _Edge of
+Tomorrow_. And while these films are all marked by incredible stunt sequences
+and formidable fight choreography, they’re also notable for something else:
+providing the best safe spaces for women in all of action cinema.
+
+Short of playing a Mockingjay, being Tom Cruise’s female co-star is the
+highest-profile showcase for women in the whiz-bang genre to kick ass, be
+sexy, and outwit their opposition, without having to worry about being grossly
+objectified or used as a prop to demonstrate the virility of a male lead. In
+his own strange way, you could make the case that Tom Cruise—on screen, at
+least—is the feminist action hero 2016 needs.
+
+Before Jason Bourne arrived on the scene, Cruise’s Ethan Hunt was pitched as
+the American answer to James Bond. But where the two spy franchises differ
+most is in the treatment of those women. The women in Bond’s life exist to be
+killed, rescued, or in their highest form, to save him from himself. Even
+Monica Bellucci, the rare actress who was Bond’s equal in age, experience, and
+star power, only had a few minutes of screen time in _Spectre_ , and her big
+scene still culminated [in a
+seduction](https://www.youtube.com/watch?v=HT6LQEWzY3A). _Spectre_ ’s other
+female lead, Léa Seydoux’s Madeleine Swann, was equally shortchanged, serving
+as little more than a mannequin to be kissed. The overt womanizing of the Sean
+Connery and Roger Moore eras may have been trimmed down to the occasional
+cheeky one-liner, but the Bond films—and most action movies that don’t have
+_Fast_ or _Furious_ in their titles—have still struggled to transform their
+female characters from objects to subjects.
+
+All of this makes the female co-stars in Cruise movies so noteworthy. No
+matter how big or small their roles, they are fully fledged characters;
+active, not reactive. Take Seydoux, who along with Olga Kurylenko has had the
+distinction of playing opposite both Bond and Cruise. The difference is
+remarkable; in her few scenes in _Mission Impossible:_  _Ghost Protocol_ ,
+Seydoux had more compelling moments than in the entire movie she spent as a
+Bond girl. As the stoic assassin Sabine Moreau, she was a killer with purpose,
+a villain who did not fear the best because she’d “killed the best.” Her fight
+scene with Paula Patton was a highlight—when she got kicked out that window of
+the Burj Khalifa, you were sad to see her go.
+
+Even as love interests, actresses like Andrea Riseborough and Kurylenko in
+_Oblivion_ and Michelle Monaghan in _Mission Impossible III_ have dynamics
+with Cruise that are clearly rooted in mutual care and affection. Their
+sexuality is not a prize that Cruise alone possesses, and it’s never exploited
+by his antagonists, either—a refreshing change from films where rape is used
+as motivation for male leads. In _Knight and Day_ , Cruise even [literally
+apologizes](https://www.youtube.com/watch?v=RyqRF8bfWB8) to Cameron Diaz’s
+character for touching her without her explicit consent and invites her to
+punch him in the face. All these women benefit from the innate sexlessness of
+Cruise’s star image: With the exception of his turn as an over-the-top
+musician in _Rock of Ages_ , you have to go back to _Vanilla Sky_ in 2001 to
+find a woman taking her clothes off for Cruise.
+
+And over the past few years, Cruise’s action films have leveled up his female
+counterparts until their abilities have matched or exceeded his own. Emily
+Blunt’s Angel of Verdun was the primary ass-kicker in 2014’s _Edge of
+Tomorrow_ , and Cruise spent most of that movie learning how not to be a dead
+weight around her neck. And while Cruise was as capable as ever in last year’s
+_Rogue Nation_ , franchise newcomer Rebecca Ferguson stole the show as a
+disavowed secret agent—so much so that she’ll be making a rare return in _MI:
+6_ next year.**** And in _Never Go Back_ , it’s Smuldurs who pops off the
+screen when Cruise slips into a kind of auto-pilot hero mode, finally getting
+the chance to be the action star we’ve only seen tiny teases of in the Marvel
+films. As the movie takes pains to make clear, Reacher and Turner are peers.
+
+In none of these movies do Cruise’s characters suffer from having a female
+equal. And the films themselves are often better as a result, as the strength
+of his female leads move them further away from the genre’s reliable formulas.
+You get the sense that, as he approaches 60, Cruise is more than happy to
+share the responsibility of anchoring a blockbuster action movie. It’s almost
+as if he’s creating a kind of hero apprentice program. When Cruise finally
+does retire from the Impossible Missions Force, maybe one of those successors
+he’s been grooming can take the lead, with a rotating cast of male support
+figures. You know, to give the underdogs a shot.
+
+**See also:**[It’s Time to Start Liking Tom Cruise
+Again](http://www.vulture.com/2015/08/its-time-to-start-liking-tom-cruise-
+again.html?wpsrc=nymag)

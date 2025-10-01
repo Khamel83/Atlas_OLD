@@ -1,0 +1,32 @@
+# How to Build a Website in 2015 - Cool Infographics
+
+**Source**: http://www.coolinfographics.com/blog/2015/3/27/how-to-build-a-website-in-2015.html
+**Type**: article
+**Created**: 2025-08-13T19:03:46.482425
+
+---
+
+title: How to Build a Website in 2015 - Cool Infographics
+source: http://www.coolinfographics.com/blog/2015/3/27/how-to-build-a-website-in-2015.html
+date: 2025-08-13T19:03:36.764503
+tags: []
+---
+Do you have plans to build a website soon? There are three major different
+workflow styles. [How to Build a Website in
+2015](http://web.archive.org/web/20190910022202/https://rukzuk.com/en/Blog/Workflows-
+compared/) from
+[Rukzuk](http://web.archive.org/web/20190910022202/https://rukzuk.com/en/Blog/Workflows-
+compared/) has shown the 3 most popular workflows so that you can pick the
+style that fits your skills.
+
+> _There’s tons of different ways to get from client briefing to a live,
+> working website. We’ve put the three most popular workflows up against each
+> other. What’s your workflow of choice?_
+
+Simple clean design that does a good job of comparing the three different
+workflows without overwhelming the reader with too much information. Great job
+with the Creative Common license and complete list of data sources!
+
+Found on
+[Rukzuk.com](http://web.archive.org/web/20190910022202/https://rukzuk.com/en/Blog/Workflows-
+compared/)

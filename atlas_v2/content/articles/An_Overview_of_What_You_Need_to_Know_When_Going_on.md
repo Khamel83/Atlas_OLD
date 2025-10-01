@@ -1,0 +1,226 @@
+# An Overview of What You Need to Know When Going on Your First Safari Adventure | Frugal Travel Guy
+
+**Source**: http://www.frugaltravelguy.com/2016/04/an-overview-of-what-you-need-to-know-when-going-on-your-first-safari-adventure.html
+**Type**: article
+**Created**: 2025-08-13T18:15:55.118446
+
+---
+
+title: An Overview of What You Need to Know When Going on Your First Safari Adventure | Frugal Travel Guy
+source: http://www.frugaltravelguy.com/2016/04/an-overview-of-what-you-need-to-know-when-going-on-your-first-safari-adventure.html
+date: 2025-08-13T18:15:49.216851
+tags: []
+---
+The main focus of our trip to South Africa was to partake in a safari. This
+was also the part of the trip where we spent the most amount of time planning.
+Looking back, I realize the vast majority of our planning was done poorly, but
+the success of our trip was that we were lucky by an unmeasurable amount.
+
+Rather than review the process we went through, I’ll go over some things to
+consider if you were looking to plan a safari.
+
+Sure, you can research (which we did), but the first thing I’d recommend doing
+is talking to your friends and family. Find out who has been on a safari and
+let them share their experiences with you — if they really know you they’ll
+know what questions to ask of you to help steer you in the right direction.
+
+Some questions to ask of them:
+
+  * What were their goals?
+  * How did they go about planning?
+  * Where did they go?
+  * What would they have done differently?
+
+Talk to at least two or three people if you can — ideally all with different
+points of view, and hopefully, at least one that likely has a similar travel
+style as you.
+
+In talking with your friends and family you will also want to get answers to
+some important questions. My answers to these questions are in parenthesis:
+
+  * **How many game drives were there per day?** (We had two)
+  * **How many people were in each vehicle?** (Our vehicle seated up to 10 people—three rows of three and one next to our ranger. Our tracker sat up front on an elevated hood/bumper mounted seat.)
+  * **Did you stay with the same people throughout your visit or were people be added/removed?** (We stayed with the same people for the entire time, which ensured we didn’t have to look for a giraffe that everyone but one person had seen.)
+  * **Was there a tracker and a guide or just a guide?** (We had a tracker & guide because four eyes are better than two.)
+  * **How long was each game drive?** (Three hours each drive.)
+  * **When did the game drives take place?** (5:30 – 8:30 a.m. and 4 – 7 p.m. for us.)
+
+Regardless of what the answers are, keep in mind there are a few variables
+that I think will determine your enjoyment depending on which safari
+experience you choose:
+
+**Location –** What country and what land will you have access to on your
+safari? Remember, animals can cross borders without passports or permission
+from land owners but safari jeeps and humans cannot.
+
+**Knowledge & Expertise of Guides –** It is tough to know ahead of time,
+however reviews on TripAdvisor and FlyerTalk are a great place to go.
+
+**Accommodation Style** – How expensive do are you expecting the trip to be?
+Will tents and a sleeping bag work or do you need marble tiles and butler
+service?
+
+My suggestion would be to check out reviews and focus on location, and guide
+expertise. You’re going on a safari to see animals so be sure that you select
+a lodge that’ll help you achieve that goal.
+
+For our trip, we stayed at the [Arathusa Safari
+Lodge](http://web.archive.org/web/20160901075711/http://arathusa.co.za/). I
+won’t be doing a full review of the lodge, but I will say that we had an
+excellent time and our expectations were met. If I were to rate everything I
+would provide the following on a scale of 1 to 5 with 5 being the best:
+
+**Lodging** : 4/5 – Rooms were in very good condition.
+
+**Dining** : 4/5 – Meals were good to very good, however, there were limited
+choices for dinner each night, and food allergies are taken into
+consideration.
+
+**Bar/Lodge** : 5/5 – We spent very little downtime in our room, but we hung
+out at the bar which had great views of the watering hole and fantastic
+service.
+
+**Internet** : 2/5 – Satellite internet is rough, so if you need speedy
+internet access you’ll be disappointed. Wi-Fi is not currently available in
+individual rooms currently but it will be available in 2017.
+
+**Game drives/Ranger/Tracker** : 5/5 – Our [ranger and
+tracker](http://web.archive.org/web/20160901075711/http://arathusa.co.za/the-
+rangers-and-trackers/), Sean and Rifos, were fantastic. Our drive group of
+eight instantly clicked and the knowledge and passion of our ranger and
+tracker made our entire trip a huge success.
+
+**Value: 4.5/5 –** You can easily go down the road a few kilometers and pay
+three times the price where you may or may not have a ranger and tracker as
+good as we had.
+
+**Overall: 4.5/5** – The people at Arathusa made our trip more enjoyable.
+Everyone was friendly and passionate about what they did—from the driver that
+picked us up at the airport to the front desk staff. I would happily return
+here and recommend it without a doubt to friends and family.
+
+**Bonus Points:** Arathusa doesn’t allow young children under 14-years-old
+because they do not have walls or fences separating their property from the
+reserve. Animals freely walk wherever they want and if an elephant or lion
+shows up at your door you’ll need to stay inside and then call for an escort
+to confirm that the area is clear.
+
+_Note: I did inform Arathusa that I intended to blog about my experience and
+was granted a 20% discount on the cost of our package. The discount was
+offered after we had already made our decision to stay with Arathusa and in no
+way influenced ratings or experience. We had committed to a budget and without
+the discount our stay was within that budget._
+
+Stay tuned for pictures of the animals we saw. I hope the story of our drives
+inspires and sets a reasonable expectation of what you should look to get from
+a Safari experience.
+
+_[Image via Getty]_
+
+[Howie
+Rappaport](http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/author/howie
+"Posts by Howie Rappaport")
+
+As a kid travel meant hopping in the family station wagon and spending a day
+at the park or the beach. Everyone got older and longer trips were possible;
+yes that meant driving from New York to Orlando...
+
+[All
+Articles](http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/author/howie)
+
+|
+
+[Follow on
+Google+](http://web.archive.org/web/20160901075711/http://howie/?rel=author)
+
+![](//web.archive.org/web/20160901075711im_/http://content.linkoffers.net/SharedImages/Products/204650/599888.png)
+
+### Chase Sapphire Preferred® Card
+
+  * Annual Fee: $95 fee waived for the first year 
+  * Foreign Fees: No 
+  * Card Type: Bank
+
+[Apply
+Now](http://web.archive.org/web/20160901075711/http://track.linkoffers.net/a.aspx?foid=22927319&fot=9999&foc=1)
+[Add to
+Favorites](/web/20160901075711/http://www.frugaltravelguy.com/login?redirect_to=/2016/04/an-
+overview-of-what-you-need-to-know-when-going-on-your-first-safari-
+adventure.html?fav_c_id=16)
+
+  * Earn 50,000 bonus points when you spend $4,000 on purchases in the first 3 months from account opening. That's $625 in travel when you redeem through Chase Ultimate Rewards®
+  * Named a 'Best Credit Card' for Travel Rewards by MONEY Magazine
+  * 2X points on travel and dining at restaurants & 1 point per dollar spent on all other purchases
+  * Earn 5,000 bonus points after you add the first authorized user and make a purchase in the first 3 months from account opening.
+  * No foreign transaction fees
+  * 1:1 point transfer to leading airline and hotel loyalty programs 
+  * Get 25% more value when you redeem for airfare, hotels, car rentals and cruises through Chase Ultimate Rewards. For example, 50,000 points are worth $625 toward travel
+  * No blackout dates or travel restrictions - as long as there's a seat on the flight, you can book it through Chase Ultimate Rewards
+
+Breakdown
+
+Earn (pt.)
+
+Spend
+
+First 3 months
+
+50,000
+
+$4,000
+
+Restaurants Purchases
+
+2.00
+
+$1
+
+Coffee Shops Purchases
+
+2.00
+
+$1
+
+Fast Food Purchases
+
+2.00
+
+$1
+
+Alcohol & Bars Purchases
+
+2.00
+
+$1
+
+![](//web.archive.org/web/20160901075711im_/http://content.linkoffers.net/SharedImages/Products/204650/599888.png)
+
+### Chase Sapphire Preferred® Card
+
+  * **Annual Fee:** $95 fee waived for the first year 
+  * **Foreign Fees:** No 
+  * **Card Type:** Bank
+
+[Apply
+Now](http://web.archive.org/web/20160901075711/http://track.linkoffers.net/a.aspx?foid=22927319&fot=9999&foc=1)
+[Add to
+Favorites](/web/20160901075711/http://www.frugaltravelguy.com/login?redirect_to=/2016/04/an-
+overview-of-what-you-need-to-know-when-going-on-your-first-safari-
+adventure.html?fav_c_id=16)
+
+FTG Review | Reward Breakdown | Points Breakdown  
+---|---|---  
+  
+  * Earn 50,000 bonus points when you spend $4,000 on purchases in the first 3 months from account opening. That's $625 in travel when you redeem through Chase Ultimate Rewards®
+  * Named a 'Best Credit Card' for Travel Rewards by MONEY Magazine
+  * 2X points on travel and dining at restaurants & 1 point per dollar spent on all other purchases
+  * Earn 5,000 bonus points after you add the first authorized user and make a purchase in the first 3 months from account opening.
+  * No foreign transaction fees
+  * 1:1 point transfer to leading airline and hotel loyalty programs 
+  * Get 25% more value when you redeem for airfare, hotels, car rentals and cruises through Chase Ultimate Rewards. For example, 50,000 points are worth $625 toward travel
+  * No blackout dates or travel restrictions - as long as there's a seat on the flight, you can book it through Chase Ultimate Rewards
+
+Breakdown Earn (pt.) Spend First 3 months 50,000 $4,000 Restaurants Purchases
+2.00 $1 Coffee Shops Purchases 2.00 $1 Fast Food Purchases 2.00 $1 Alcohol &
+Bars Purchases 2.00 $1 [Apply
+Now](http://web.archive.org/web/20160901075711/http://track.linkoffers.net/a.aspx?foid=22927319&fot=9999&foc=1)

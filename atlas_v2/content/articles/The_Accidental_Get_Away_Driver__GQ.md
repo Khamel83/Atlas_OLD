@@ -1,0 +1,121 @@
+# The Accidental Get Away Driver | GQ
+
+**Source**: http://www.gq.com/story/the-accidental-get-away-driver
+**Type**: article
+**Created**: 2025-08-13T17:20:49.004822
+
+---
+
+title: The Accidental Get Away Driver | GQ
+source: http://www.gq.com/story/the-accidental-get-away-driver
+date: 2025-08-13T17:20:47.621678
+tags: []
+---
+Using pipes, they shinnied skyward. After sawing off the bars that sealed the
+shaft, they shouldered their way into the cramped ductwork. They moved upward
+on hands and knees toward a trap door. With a hard push, they got the thing
+open and felt on their faces the rush of cold, fresh air.
+
+They were on the roof now and made a quick dash to the building's northeast
+corner. There, they cut through concertina wire and unfurled a makeshift rope
+that they'd fashioned from bedsheets. Fastening one end of the line to the
+building, they tested its strength and peered over the edge of the roof, four
+stories to the ground.
+
+When the last of their feet touched the dewy grass outside the jail, the men
+still had more than a half hour before the sun rose. No alarms sounded; no
+lights swept the exterior. They'd done it. They were out.
+
+The fugitives allegedly first visited a friend of Duong's, hoping he would
+give them enough cash to leave the country. Nayeri had thought he could
+somehow spirit the group to Tehran. But Duong's pal could give them only $900.
+So, Tieu contacted what police later surmised were members of his Little
+Saigon gang. A security camera outside a deli recorded what appeared to be a
+hasty midmorning rendezvous. But whatever money Tieu may have received wasn't
+enough to get them far. At 9 P.M. the escapees were still in Santa Ana, eating
+at a Vietnamese restaurant a few miles from the jail.
+
+They needed to put distance between themselves and their predicament, which
+meant they needed a car. Stealing one would be risky and probably require
+expertise they didn't have. But what if they took a driver hostage? The only
+trick would be quietly luring someone close. Duong dialed a cab service that
+advertised in the local Vietnamese newspaper. Long Ma answered the call.
+
+* * *
+
+**As the men in the motel** studied the television, Ma was introduced to his
+captors by their rap sheets. Tieu had allegedly taken part in a drive-by
+shooting that left one college-age kid dead; Duong had allegedly shot a man in
+the chest after an argument. And Nayeri, well, Nayeri was plenty notorious.
+Four years earlier, acting on a hunch that the owner of a marijuana dispensary
+had buried $1 million in the Mojave Desert, Nayeri had allegedly snatched the
+guy and his girlfriend and driven them to the spot where the loot was thought
+to be hidden. There, he and his crew shocked the man with a Taser, burned him
+with a butane torch, poured bleach on his wounds, and severed his penis in a
+failed attempt to locate the cash. After the man assured Nayeri there was no
+buried money, he was left out there to die. (His girlfriend found help and
+saved his life.)
+
+In the motel room, the escapees seemed to realize that the media attention was
+problematic. Spooked, perhaps, by the prospect that Ma's disappearance had
+been noticed, they decided they needed a second vehicle—and now, with their
+photos everywhere, they also needed to mask their appearance. They hauled Ma
+out into the parking lot. He was again ordered into the backseat, where Tieu
+steadied the gun on him. He was afraid anew and unsure what would happen
+next—it was a mix of dread and confusion he hadn't felt in 40 years.
+
+Ma had been a lieutenant colonel in the South Vietnamese Army during the war.
+At night, he would venture with the Americans in search of Vietcong
+guerrillas—the ones who, by day, shelled his base, hard against the Cambodian
+mountains. After the war, after the Americans fled, Ma had endured a second
+horror as a captive, held for seven long years in a Communist forced-labor
+camp. “You are an especially stubborn case!” one Communist official would
+shout before clubbing him with the butt of a rifle. All these decades later,
+Ma could still trace with his finger the scar just beneath his hairline. He
+had survived, while others had not.
+
+But time can weaken resolve, and as an old man with a gun to his belly, too
+frail to fight, too tired to resist, Ma thought he would surely die. As they
+drove toward Los Angeles, his captors said nothing, which frightened him all
+the more.
+
+Earlier that morning, the escapees had found a van for sale on Craigslist.
+Duong figured he could take the vehicle for a test spin and then simply drive
+away. And so, on a quiet backstreet in L.A., Nayeri slowed the Civic to a
+stop, and Duong got out and disappeared around the block. Before long, he
+reappeared with a white van.
+
+After the theft, the day took on a surreal veneer of suburban normalcy: The
+fugitives went shopping for clothes at Ross Dress for Less; they visited a
+hair salon. The three escapees each altered his appearance—none more than
+Duong, who had his goatee shaved and his hair dyed black and cut into an army-
+issue high-and-tight.
+
+When they left the salon, Nayeri and Tieu took the van. Duong and Ma got into
+the Civic, and here, alone in the car—away from Nayeri and Tieu—Duong's
+personality changed, just as completely as he'd changed his appearance. He
+became relaxed and even chatty with Ma, driving back toward Rosemead, asking
+about the cabbie's life in their native Vietnamese. At one point, he even
+called Ma “Uncle,” a term of endearment that implied respect for the old man.
+Ma, unable to shake his suspicions, didn't know what to make of this.
+
+Duong steered the Civic toward the Flamingo Inn, a motel where rooms are
+rented by the week. Nayeri and Tieu were waiting in the parking lot. They sent
+Ma to the front desk, where he registered room 116 in his own name. From the
+liquor store across the street, the escapees bought a case of Bud Light and a
+bottle of Jack Daniel's. Deep into the night, they laughed and drank and
+smoked cigarettes, while on television the anchors said that the reward for
+information leading to their arrest had increased from $20,000 to $50,000.
+
+* * *
+
+**Sunday dawned and** something wasn't right. Nayeri seemed more distant than
+usual. They drank and talked in urgent tones that Ma, with his limited
+English, couldn't always understand. They seemed eager to go someplace, but no
+one headed for the door.
+
+At one point, Ma watched a discussion grow heated. The gist of the debate
+eluded him, but the truth was the men were already low on cash. Worse, they'd
+only made it to Rosemead. They realized that the media sensation of the
+jailbreak, while gratifying—they were famous now!—also served to confine them
+with each passing hour. Outside it grew darker. Another day was slipping away.

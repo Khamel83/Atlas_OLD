@@ -1,0 +1,174 @@
+# Health Option for Poor Used by Well-Off New Yorkers - NYTimes.com
+
+**Source**: http://www.nytimes.com/2010/12/12/nyregion/12medicaid.html?pagewanted=print
+**Type**: article
+**Created**: 2025-08-13T21:43:11.201886
+
+---
+
+title: Health Option for Poor Used by Well-Off New Yorkers - NYTimes.com
+source: http://www.nytimes.com/2010/12/12/nyregion/12medicaid.html?pagewanted=print
+date: 2025-08-13T21:43:03.600715
+tags: []
+---
+AFTER immigrating to New York City from China in the 1970s, Z. Y. Tung and his
+wife worked hard — he as a bank manager, she as a public school secretary —
+lived frugally and saved every penny they could for the next generation.
+
+Until five years ago, when his wife, Wen Mei Hu, racked by bone-marrow
+[cancer](http://web.archive.org/web/20101216072048/http://health.nytimes.com/health/guides/disease/cancer/overview.html?inline=nyt-
+classifier "In-depth reference and news articles about Cancer."), had to be
+put in a nursing home, where the bills ran past $100,000 a year, threatening
+to quickly drain the couple’s life savings of $500,000. The nursing home told
+him not to worry: If he signed a document essentially refusing to support his
+wife of several decades,
+[Medicaid](http://web.archive.org/web/20101216072048/http://topics.nytimes.com/top/news/health/diseasesconditionsandhealthtopics/medicaid/index.html?inline=nyt-
+classifier "Recent and archival health news about Medicaid."), the federal
+insurance program for the indigent, would pick up the bill.
+
+“What about me, because I am responsible?” Mr. Tung inquired. He was told that
+only millionaires had to pay such high costs, and reluctantly, seeing no other
+choice, he agreed.
+
+Last year, more than 1,200 people in New York City officially turned their
+backs on their husbands and wives to qualify for Medicaid, triple the number
+of people five years ago. The practice, known as “spousal refusal,” is
+becoming more common as the population ages and the cost of nursing care rises
+— and it is coming under increasing attack by government officials looking to
+curb ballooning Medicaid expenses.
+
+In a recent report, Lt. Gov. [Richard
+Ravitch](http://web.archive.org/web/20101216072048/http://topics.nytimes.com/top/reference/timestopics/people/r/richard_ravitch/index.html?inline=nyt-
+per "More articles about Richard Ravitch.")
+[warned](http://web.archive.org/web/20101216072048/http://www.nytimes.com/2010/09/20/nyregion/20medicaid.html
+"Times article on Mr. Ravitchâs call for a Medicaid overhaul.") that spousal
+refusal could be abused as “an entitlement for the less needy” and urged state
+officials to rethink it, noting that long-term care accounts for nearly half
+the state’s Medicaid spending.
+
+Lawyers for the elderly argue the tactic of spousal refusal is legal
+nationwide, and it is most commonly used in New York and Florida, where 136
+people refused to support a sick spouse last year.
+
+Without the option of spousal refusal, lawyers say, American health care is
+like a ghoulish lottery. Those who need doctors’ care for illnesses like
+cancer or heart disease are covered by
+[Medicare](http://web.archive.org/web/20101216072048/http://topics.nytimes.com/top/news/health/diseasesconditionsandhealthtopics/medicare/index.html?inline=nyt-
+classifier "Recent and archival health news about Medicare."), the insurance
+program for the elderly, while those who need more custodial care for
+[Alzheimer’s](http://web.archive.org/web/20101216072048/http://health.nytimes.com/health/guides/disease/alzheimers-
+disease/overview.html?inline=nyt-classifier "In-depth reference and news
+articles about Alzheimer's Disease.") or stroke must pay for it themselves or
+dispose of their assets to qualify for Medicaid.
+
+The federal government allows a healthy spouse to keep a house, a car, up to
+about $2,700 a month in income and up to about $110,000 in other resources.
+Anything above that must be spent on nursing care before Medicaid kicks in.
+
+Nursing home care cost an average of $123,000 a year in New York City and
+$135,000 a year on Long Island in 2008, according to the latest available
+state data, or twice as much as the yearly cost of the most prestigious
+colleges and more than the income of all but the top 20 percent of American
+households.
+
+Howard Krooks, a lawyer who practices in Boca Raton, Fla., and Rye Brook,
+N.Y., said spousal refusal was becoming more popular with bad economic times.
+“There’s no question it’s playing a pivotal role in people’s ability to
+finance long-term care,” he said. “They need help.”
+
+The way it works: the healthy spouse refuses to share the marital assets, and
+the sick spouse assigns his or her “right of support” to the state. The state
+will then pick up the cost of nursing home care, or in New York, home health
+care, as well. But there is a catch: the state, through the local governments
+that help administer Medicaid, can sue the healthy spouse to recover the cost
+of the care.
+
+That’s what happened to Mr. Tung.
+
+In April, he received a letter from the city asking him to disclose his
+resources so that he might “contribute” to the care of his wife. Mr. Tung, who
+is now 79 and lives in Midwood, Brooklyn, readily submitted all of his
+financial information, he said, because he thought that the amount of the
+contribution would be voluntary and he was more than willing to pay, say,
+$10,000 a year or so.
+
+“I am an honest person,” he said. “I am willing to pay something for my wife.”
+
+His monthly income, $2,817, was low enough. But his assets, mostly [mutual
+funds](http://web.archive.org/web/20101216072048/http://topics.nytimes.com/your-
+money/investments/mutual-funds-and-etfs/index.html?inline=nyt-classifier "More
+articles about mutual funds and exchange-traded funds.") and stocks carefully
+socked away over the years, came to $550,000 — $440,000 over the limit. The
+city asked that he pay $270,000, the bill for five years of home care. (His
+wife left the nursing home after a short time.) His lawyer, Pauline Yeung-Ha,
+negotiated a settlement of $150,000, which Mr. Tung has paid.
+
+If he had known this would happen, he said, he would have lived a less
+abstemious life. “If I know before, long ago, I spend all the money,” he said.
+“It’s very easy, very easy. Just buy a common house. It’s comic, you know.”
+
+Lawyers generally advise that even with the potential of being sued, spousal
+refusal makes sense because Medicaid pays less for nursing home care than
+private clients do.
+
+One of Mr. Krooks’s clients, an 86-year-old semiretired accountant who lives
+in Miami Beach, put his wife, who has Alzheimer’s, in a nursing home after she
+became aggressive.
+
+He had a long-term care insurance policy, but it did not cover his expenses,
+so he resorted to spousal refusal.
+
+Without it, “I would be bankrupt pretty soon,” he said, speaking on the
+condition of anonymity for fear of facing a lawsuit to recover the money.
+
+While many state and local governments do not openly acknowledge the spousal
+refusal option, New York City actually provides a form letter for it.
+
+“When families come in and I reveal they could use spousal refusal, it’s as if
+I’ve just lifted 10 pounds off their shoulders,” said Judith Grimaldi, Ms.
+Yeung-Ha’s partner in the Brooklyn law firm Grimaldi and Yeung.
+
+Although some politicians, like [Thomas R.
+Suozzi](http://web.archive.org/web/20101216072048/http://topics.nytimes.com/top/reference/timestopics/people/s/thomas_r_suozzi/index.html?inline=nyt-
+per "More articles about Thomas R. Suozzi."), a former Nassau County
+executive, who attacked spousal refusal as a Democratic primary candidate for
+governor in 2006, have charged that the tactic is abused by “millionaires,”
+New York City officials say that is seldom the case.
+
+Almost every time a New Yorker exercises the option of spousal refusal,
+lawyers from the Human Resources Administration review the applications and
+seek to recover money when appropriate, said Carmen Boon, a spokeswoman for
+the agency.
+
+In 2005, the city worked on 394 cases and collected $1.5 million; in 2009,
+there were 1,258 cases, and the city collected $3.7 million.
+
+“The number of cases the city pursued was a good reflection of the number
+filed each year,” Ms. Boon said. “But the city recovered from only a fraction
+of those, because in most cases the spouse does not have the financial means
+to allow any significant contribution.”
+
+Mr. Ravitch said in an interview that he favored stricter review of spousal
+refusal cases, with some discretion built into the system to account, for
+instance, for cases in which the healthy spouse “has a very long life
+expectancy and didn’t have the resources to take care of their own health for
+the remainder of their lives.”
+
+Governor-elect [Andrew M.
+Cuomo](http://web.archive.org/web/20101216072048/http://topics.nytimes.com/top/reference/timestopics/people/c/andrew_m_cuomo/index.html?inline=nyt-
+per "More articles about Andrew M. Cuomo."), whose support would be needed for
+any changes, declined to comment.
+
+Lawyers within the New York State Bar Association who represent the elderly
+have proposed a compromise system. It would allow people to negotiate a
+payment plan with the state, in which they would pledge to pay a “fair share”
+of their spouses’ nursing home costs — perhaps half their assets — while
+keeping enough for their own living expenses, Mr. Krooks said. There are plans
+to try out a version of this system upstate.
+
+This article has been revised to reflect the following correction:
+
+**Correction: December 14, 2010**
+
+An earlier version of this article was imprecise in comparing the cost of
+nursing home care to college.

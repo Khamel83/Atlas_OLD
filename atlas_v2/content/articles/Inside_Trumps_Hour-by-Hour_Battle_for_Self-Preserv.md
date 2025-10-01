@@ -1,0 +1,48 @@
+# Inside Trump’s Hour-by-Hour Battle for Self-Preservation - The New York Times
+
+**Source**: https://www.nytimes.com/2017/12/09/us/politics/donald-trump-president.html
+**Type**: article
+**Created**: 2025-08-13T16:50:11.222007
+
+---
+
+title: Inside Trump’s Hour-by-Hour Battle for Self-Preservation - The New York Times
+source: https://www.nytimes.com/2017/12/09/us/politics/donald-trump-president.html
+date: 2025-08-13T16:49:50.150046
+tags: []
+---
+In the months before Mr. Kelly took over last summer from his embattled
+predecessor, Reince Priebus, the Oval Office had a rush-hour feel, with a
+constant stream of aides and visitors stopping by to offer advice or kibitz.
+During [one April
+meeting](http://web.archive.org/web/20250721165222/https://www.nytimes.com/2017/04/05/us/politics/trump-
+interview-susan-
+rice.html?action=click&contentCollection=Politics&module=RelatedCoverage&region=EndOfArticle&pgtype=article)
+with New York Times reporters, no fewer than 20 people wandered in and out —
+including Mr. Priebus, who walked in with Vice President Mike Pence. The door
+to the Oval Office is now mostly closed.
+
+Mr. Kelly is trying, quietly and respectfully, to reduce the amount of free
+time the president has for fiery tweets by accelerating the start of his
+workday. Mr. Priebus also tried, with only modest success, to encourage Mr.
+Trump to arrive by 9 or 9:30 a.m.
+
+The pace of meetings has increased. Beyond Mr. Kelly and Mr. Kushner, they
+often include Lt. Gen. H. R. McMaster, the national security adviser; Ivanka
+Trump, the president’s daughter and senior adviser; Hope Hicks, the
+communications director; Robert Porter, the staff secretary; and Kellyanne
+Conway, the president’s counselor.
+
+Mr. Trump, who enjoyed complete control over his business empire, has made
+significant concessions after trying to micromanage his first months in
+office. Despite chafing at the limits, the president actually craves the
+approval of Mr. Kelly, whom he sees as a peer, people close to Mr. Trump said.
+
+He calls Mr. Kelly up to a dozen times a day, even four or five times during
+dinner or a golf outing, to ask about his schedule or seek policy advice,
+according to people who have spoken with the president. The new system gives
+him “time to think,” he said when it began. White House aides denied that Mr.
+Trump seeks Mr. Kelly’s blessing, but confirmed that he views him as a crucial
+confidant and sounding board. Mr. Kelly has also adopted some of Mr. Trump’s
+favorite grievances, telling the president recently that he agrees that some
+reporters are interested only in taking down the administration.

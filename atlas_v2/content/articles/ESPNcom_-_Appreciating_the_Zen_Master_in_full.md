@@ -1,0 +1,234 @@
+# ESPN.com - Appreciating the Zen Master in full
+
+**Source**: http://sports.espn.go.com/espn/print?id=6538445&type=Story&imagesPrint=off
+**Type**: article
+**Created**: 2025-08-13T20:51:21.173985
+
+---
+
+title: ESPN.com - Appreciating the Zen Master in full
+source: http://sports.espn.go.com/espn/print?id=6538445&type=Story&imagesPrint=off
+date: 2025-08-13T20:51:19.935409
+tags: []
+---
+When I think of Phil Jackson, two guys come to mind: Young Phil and Old Phil.
+Young Phil was skinny with dark hair and a goofy mustache; he looked like he
+came from another era, like someone Larry Dallas would bring over to the Regal
+Beagle to meet Jack Tripper. Old Phil didn't look anything like Young Phil:
+white hair, a clean-shaven face, a heavier frame, and a body that was
+scattered in nine different directions. Still, Young Phil and Old Phil had one
+thing in common: They kept their cool at all times.
+
+That trait defined Jackson as a coach. He couldn't be rattled. He never
+overreacted. He measured every response, thought out every media barb, dealt
+with every player with the same steady hand. These past 20 years weren't
+exactly easy for Jackson, even if the narrative has morphed into "Well, anyone
+could win eleven titles with Jordan, Shaq and Kobe!" In 1992, a best-selling
+book called "The Jordan Rules" nearly imploded the Bulls. In 1993, his best
+player disappeared for 18 months. In 1997, the relationship between Scottie
+Pippen, Michael Jordan and Bulls general manager Jerry Krause became so
+contentious that Jackson asked Krause to stop traveling with the team. In
+1998, Dennis Rodman started partying so much that Jackson and a few others had
+to have a makeshift intervention. In 2001, Shaq and Kobe's relationship
+started to deteriorate, a three-year spiral that bottomed out when Kobe was
+accused of sexual assault. In 2005, his general manager traded his second-best
+player for Kwame Brown. In 2007, Kobe spent the summer and the first month of
+the regular season desperately pushing for a trade. Jackson managed
+everything. There were times when he failed -- the 2004 Finals, most notably
+-- but you could never say he lost his cool.
+
+His defining moment happened during the 1994 playoffs, when Pippen refused to
+re-enter Game 3 against New York after Jackson called the final play for Toni
+Kukoc. Instead of laying into Pippen after the game, Jackson trusted his
+players to handle the immediate aftermath. It ended up being done by Bill
+Cartwright, who screamed at Scottie with tears rolling down his face,
+incredulous that one of the league's most unselfish players would undermine
+that dogfight of a season -- when the Bulls somehow remained contenders with
+Jordan playing baseball -- by acting so selfishly.
+
+Jackson waited for the room to calm down, judged the moment for what it was,
+chalked it up as an aberration and moved on. More than a few coaches would
+have abandoned Pippen, claimed that he lost the team, pushed for him to be
+traded that summer. Jackson knew that Pippen's mistake came from a complicated
+place, a Molotov cocktail of insecurity, ego and frustration about his unfair
+salary. When Jordan left, everyone pushed Scottie to be the leader --
+including Jackson -- but the Bulls didn't pay him like other franchise
+players, and now they were giving away his "You the man!" moment? Jackson
+wanted to understand why Pippen handled it so poorly, figured it out,
+determined it wouldn't happen again (hopefully), and defended him going
+forward. Coaching isn't just about calling plays, riding the officials and
+figuring out strategies. Really, it's management more than anything else. You
+manage people. Jackson managed people better than anyone.
+
+He did it by keeping his cool, always, which is what made it so jarring when
+Jackson unraveled in Game 3 of this month's Dallas series. Kobe couldn't save
+them this time; his prime was suddenly slipping away like Jackson had feared.
+Pau Gasol had fallen into a spiritual funk and couldn't be shaken from it. The
+last four players in Jackson's nine-man rotation were effectively useless;
+Dallas' bench was destroying them. Almost as a last resort, the Zen Master
+morphed into Norman Dale on the sidelines for Game 3, yelling and screaming
+more than ever before. There was one moment in the first half -- endlessly
+replayed all weekend, simply because it was so foreign to watch -- when
+Jackson laid into Gasol and pounded him in the chest for effect, the urgency
+practically spilling out of him. None of it worked. The Lakers lost.
+
+Two days later, after Dallas had blown the doors off and turned Game 4 into a
+rout, two of Jackson's players basically quit on him. The first was Lamar
+Odom, who drifted through that series much like he drifts through his crappy
+reality show, finally deciding to leave for good with a premeditated body
+block of Dirk Nowitzki. A few minutes later, Andrew Bynum delivered a Triple
+H-like flying elbow to tiny J.J. Barea, earned an automatic ejection, then
+ripped his jersey off while being escorted away. As a Celtics fan, I couldn't
+have been more delighted to watch the Lakers disintegrate like that. It was
+like basketball porn. As a basketball fan? I hated it. That's not how Phil
+Jackson should have gone out: with him losing his cool, then his players doing
+the same. Those last two games had nothing in common with his career.
+
+Like so many other times, Jackson could see Game 4 coming. Four of his five
+children had flown into Dallas to dine with him the night before -- a Viking
+funeral of sorts -- and once I heard about that, I knew that _he_ knew. Your
+kids fly in on short notice when something is coming to an end: your life,
+your career, your health, your marriage, something. Either they sense
+something is wrong, or you sense it. But you want to be with them, and they
+want to be with you. When Jackson thinks back to that final series, I bet he
+thinks about that dinner first: the stories they told, the wine they drank,
+the food they ate. He will forget what happened in the four games. He will
+remember the dinner.
+
+Just like I will remember our lunch. We finished our meals and landed on an
+outdoor bench in downtown El Segundo, talking about basketball and watching
+cars meander by. We talked about the Knicks and what they meant once upon a
+time, how there's a connection between the fans, the building and the team
+that just doesn't exist anywhere else. When I theorized that New York was the
+logical finishing chapter for his career -- maybe he takes a year off, then
+returns in 2012 (the fortieth anniversary of the last Knicks title season),
+the ultimate full-circle move -- he laughed it off, repeatedly saying, "No,
+no, when I'm done with this, I'm done."
+
+I wanted to believe him, even if it's too perfect, too symmetrical, too
+everything. When the Knicks scenario became a national story this week, I
+thought it was fascinating that Jackson never totally denied it. He might
+think that Red Holzman's spirit could heal his broken body, that the grind of
+an NBA season would be easier in New York, that the atmosphere in Madison
+Square Garden would energize him, that the holy grail of another Knicks title
+is the only thing left for him. Or he just might like the fact that people are
+still talking about him.
+
+My take: I don't think Jackson is ever coming back. Nothing can top those
+Jordan years for him. It's impossible. He already had his holy grail. In El
+Segundo, our conversation kept circling back to MJ, and really, that's why we
+ended up having lunch in the first place: Jackson had quoted a Jordan argument
+from my NBA book in two separate interviews (that we need to stop looking for
+another Michael Jordan, because it's never happening), making me wonder,
+"Wait, did he read my book?" As it turned out, he had simply thumbed through
+it in a store for a few minutes before buying it for Odom for Christmas.
+
+Was it telling that he thumbed through a 700-page book just to read the Jordan
+section? You tell me.
+
+We talked about their last three years in Chicago together, when Michael's
+fame trapped him in hotel suites and casinos, surrounded by only a couple of
+trusted friends. We talked about Michael playing 36 holes of golf before
+playoff games, how he stayed up until all hours, how he needed only an hour of
+sleep and he was fine. We talked about Michael and Scottie as a tandem, how
+much ground they covered, how well they connected, how they compared to LeBron
+and Wade, how they loved eviscerating teams on the road more than anything. We
+talked about Michael's controversial Hall of Fame speech, which Jackson loved
+because, as he put it (while laughing), "that was Michael," the guy who became
+the greatest player ever by fueling himself with so many petty slights and
+grudges. We talked about Michael's steadfast refusal to blow random,
+meaningless road games in Sacramento, Vancouver, Cleveland or wherever, how
+those were the nights that made him truly special, when his entire team was
+dragging, when the NBA schedule demanded a Chicago loss, yet Michael just
+couldn't allow it.
+
+I never asked Jackson to compare Michael and Kobe simply because the question
+didn't need to be asked. Jackson made his answer clear over the years, doing
+his best never to frame it in a way that antagonized Kobe. You know, "There
+will never be another Michael Jordan," stuff like that. His own career is
+harder to assess. You can't deny Jackson's timing (first Jordan, then Shaq and
+a young Kobe, then Kobe), and if we learned anything about NBA coaching over
+the years, it's that you're only as good as your players. But that belittles
+what Jackson accomplished, because clearly, eleven titles mean _something._
+
+He never gets enough credit for successfully handling two of the three most
+difficult NBA superstars ever: Jordan and Kobe (with Wilt being the third).
+Jordan's ongoing ruthlessness threatened the basic concept of a "team" --
+instead of being supportive, he was withering. He had to win all the time,
+every time. If he sensed someone might be a weak link, Jordan shattered their
+confidence rather than building it up. During any times of real struggle on a
+basketball court, he trusted himself over everyone else and played
+accordingly. Jackson tempered his most unlikable qualities while accentuating
+the good ones, steering him toward a team framework without compromising the
+ferocity that defined him.
+
+His smartest small-picture move was pitting Pippen and Jordan on opposite
+sides in every scrimmage, which kept both players sharp and ensured their
+practices were properly competitive; otherwise, Jordan would have gone for a
+shutout every game. His smartest big-picture move was his handling of Jordan's
+baseball sabbatical, when he reminded Michael that he was an artist more than
+a basketball player, and that, by walking away, he would be depriving millions
+of a chance to experience that art. He never tried to change Michael's mind,
+just reminded him what was at stake. For Jordan, that cemented their
+relationship and opened the door for Michael's eventual return; he knew
+Jackson cared about him as something more than a meal ticket. When people
+dismiss Jackson's credentials with "Anyone could have coached Michael Jordan,"
+they are wrong.
+
+Kobe presented a different set of issues, as we've rehashed ad nauseam over
+the past ten years. Jackson won five rings with him, but not before walking
+away in 2004 (and ripping Kobe to shreds in an astonishingly critical book),
+then returning a year later and eventually working out a manageable
+compromise. Jackson dealt with Kobe the same way parents deal with raising
+young kids: You know you'll have good days and bad days, so you can't dwell on
+the bad ones. Only once did Kobe nearly shoot the Lakers out of a title --
+Game 7 of the 2010 Finals, when Boston's strategy hinged on doubling Kobe,
+forcing "hero" shots and hoping his ego would compel him to keep shooting
+(which it did) -- but in another classic Jackson-era moment, Kobe's teammates
+(Derek Fisher, especially) pulled him back into the fold. Bryant regrouped in
+the fourth quarter, made better decisions and helped the Lakers win the title.
+
+And really, that's the night Jackson's career should have ended. Other than
+money and the tantalizing chance for a fourth three-peat, he talked himself
+into another year for the same reason everyone does: You never totally know
+until you have that one awful moment when you realize "Crap, I should have
+left a year ago." Watching Jackson sitting on the bench in Dallas in Game 4,
+his face working overtime to churn out a barely visible smile, you could
+almost see that thought bubble forming over his head.
+
+_I stayed too long. I should have left._
+
+The good news: Nobody will remember that Dallas sweep in eleven years, just
+the eleven rings and every relationship he fostered along the way. Steve Kerr
+told me once that what made Jackson special -- and Popovich too -- was that he
+cared about his twelfth guy as much as his best guy. He spent time with his
+players, bought them gifts, thought about what made them tick. He connected
+with them, sold them on the concept of a team, stuck up for them when they
+needed him. His actual coaching -- calling plays, working refs, figuring out
+lineups and everything else that _we_ see -- was a smaller piece of a much
+bigger picture. His players competed for him for many reasons, but mainly
+because they truly believed Jackson cared about them. Which he definitely did.
+
+And now, he's walking away. At least that's the hope. I can still see him
+hobbling across the street in El Segundo after we said our goodbyes -- walking
+with his butt, basically -- and hoping he'd eventually land on a beach
+somewhere and never look back. Our greatest living basketball coach played in
+874 NBA games and coached another 1,977 of them. That's 2,851 games in all,
+and trust me: When you watch him walk away, you feel every one of them.
+
+Bill Simmons is a columnist for ESPN.com and the author of the recent New York
+Times No. 1 best-seller "The Book of Basketball," now out in paperback with
+new material and a revised Hall of Fame Pyramid. For every Simmons column and
+podcast, check out [Sports Guy's
+World](http://sports.espn.go.com/espn/page2/simmons/index) or the [BS Report
+page](http://espn.go.com/espnradio/show?showId=bsreport). Follow him on
+Twitter at http://twitter.com/sportsguy33.
+
+[Back to Page 2](http://espn.go.com/espn/page2/)
+
+  
+
+  
+  
+
+* * *

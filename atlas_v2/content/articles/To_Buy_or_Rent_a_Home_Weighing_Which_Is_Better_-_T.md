@@ -1,0 +1,151 @@
+# To Buy or Rent a Home? Weighing Which Is Better - The New York Times
+
+**Source**: http://www.nytimes.com/2016/04/02/your-money/to-buy-or-rent-a-home-weighing-which-is-better.html?nytmobile=0
+**Type**: article
+**Created**: 2025-08-13T18:15:49.216117
+
+---
+
+title: To Buy or Rent a Home? Weighing Which Is Better - The New York Times
+source: http://www.nytimes.com/2016/04/02/your-money/to-buy-or-rent-a-home-weighing-which-is-better.html?nytmobile=0
+date: 2025-08-13T18:15:43.993013
+tags: []
+---
+How well any household will fare financially by buying or renting really
+depends on factors no one can predict. Other studies have found that renters
+who invest their down payment and any savings from renting as opposed to
+owning often come out ahead.
+
+Either way, most financial professionals would caution against viewing a home
+purchase as an investment, particularly after factoring in the cost of
+maintenance, taxes,
+[insurance](http://web.archive.org/web/20160417123431/http://topics.nytimes.com/your-
+money/insurance/index.html?inline=nyt-classifier "More articles about
+insurance.") and the high costs of buying and selling, though it’s difficult
+not to.
+
+It may be hard for people living in bubbly markets to believe, but, over all,
+home prices in the United States have risen just 0.37 percent annualized,
+after inflation, for the last 126 years, according to
+[calculations](http://web.archive.org/web/20160417123431/http://www.econ.yale.edu/~shiller/data.htm)
+by Robert J. Shiller, an economist who received the Nobel in economic science
+in 2013 and wrote the book on speculative bubbles, “Irrational Exuberance.”
+
+“Disregarding the special amenities that many people value in homeownership,”
+Professor Shiller said, “it would be hugely better invested in the stock
+market.”
+
+And many people do accumulate substantial equity in their homes, which often
+becomes a cushy safety net in
+[retirement](http://web.archive.org/web/20160417123431/http://topics.nytimes.com/your-
+money/retirement/index.html?inline=nyt-classifier "More articles about
+retirement."). A
+[study](http://web.archive.org/web/20160417123431/http://jchs.harvard.edu/research/publications/update-
+homeownership-wealth-trajectories-through-housing-boom-and-bust) by the
+Harvard Joint Center found that, even after the housing crash, the median
+household who bought a home after 1999 still accrued significant amounts of
+wealth through 2013 (though whites gained more than African-Americans and
+Hispanics).
+
+## [ Is It Better to Rent or Buy?  The choice between buying a home and
+renting one is among the biggest financial decisions that many adults make.
+](http://web.archive.org/web/20160417123431/http://www.nytimes.com/interactive/2014/upshot/buy-
+rent-calculator.html)
+
+[Christopher E.
+Herbert](http://web.archive.org/web/20160417123431/http://www.jchs.harvard.edu/profile/chris-
+herbert), managing director of Harvard’s Joint Center, said he believed the
+results could be tied, in large part, to behavioral incentives. “The motivated
+savings up front and the forced savings over time,” he said of accumulating a
+down payment and making mortgage payments.
+
+There may also be something about many people who buy. As Mr. Benningfield
+pointed out, they may have other attributes that may contribute to their
+economic success.
+
+Renting can still be financially advantageous under certain circumstances.
+Consider the work in 2012 by the academics [Eli
+Beracha](http://web.archive.org/web/20160417123431/https://business.fiu.edu/faculty/expert-
+guides.cfm?FlagDirectory=Display&User=berachae) of Florida International
+University and [Ken Johnson
+](http://web.archive.org/web/20160417123431/http://business.fau.edu/faculty-
+research/faculty-profile-details/ken-johnson/index.aspx#.Vv59LD-R9XB)of
+Florida Atlantic University. They
+[simulated](http://web.archive.org/web/20160417123431/http://business.fau.edu/departments/finance/real-
+estate-initiative/bhj-buy-vs-rent-index/index.aspx#.Vv3Iuj-R9XB) a horse race
+between buyers and renters, and concluded that in many cases, renters came out
+ahead, at least during the eight-year stretches they studied.
+
+Theoretical renters put their down payment in a portfolio that often consisted
+of more than 50 percent stocks (the professors created a portfolio that
+approximated the risk of owning a home), and continued to invest any savings
+from renting. But this assumes that there _are_ savings from renting, which is
+not always the case, and that the renter is disciplined enough to actually set
+the money aside.
+
+The authors’ point, however, is that people often blindly believe that buying
+is usually the smarter option. “Most of the public drive to buy is without
+looking under the hood,” Professor Johnson said.
+
+Another
+[study](http://web.archive.org/web/20160417123431/http://www.hellowallet.com/wp-
+content/uploads/2014/11/HelloWallet-House-of-Cards.pdf), from HelloWallet, a
+unit of Morningstar, came to similar conclusions in 2014 when comparing a
+hypothetical, moderate-income family that bought, with one that rented, in 20
+major cities across the country. The study projects that median-income
+families, or those who earn about $50,000, will often end up with more net
+wealth if they rent versus own over the 10 years from 2013 to 2022.
+
+But any number of variables can quickly shift that calculus, including the
+price of the home relative to the rent, whether the family is affluent enough
+to benefit from tax savings, and the time spent in the home.
+
+“The longer you stay, the stronger the argument is for buying, all else
+equal,” said Aron Szapiro, who conducted the analysis. But he also contends
+that the tax advantages of homeownership are often oversold, particularly to
+moderate-income households.
+
+If you’re trying to determine the right option, some guideposts may help. Mr.
+Szapiro, for example, found that in households with about $100,000 in
+earnings, net wealth typically rose more 10 years after buying a home than if
+they had rented — but only if the annual rent was 6 percent or more of the
+purchase price. So it would pay to buy a $600,000 home when rent in the area
+was about $3,000 a month or more. (In a couple of places, including New York
+and Washington, he found that it made sense to buy when the cost of renting
+was a bit lower relative to home prices.)
+
+[William
+Bernstein](http://web.archive.org/web/20160417123431/http://www.efficientfrontier.com/efa.htm),
+an [investment
+adviser](http://web.archive.org/web/20160417123431/http://topics.nytimes.com/your-
+money/planning/financial-planners/index.html?inline=nyt-classifier "More
+articles about financial planners.") who has written several books for do-it-
+yourself investors, offered another rule of thumb: Never pay more than 15
+years’ fair rental value for any home, or 180 months of rent.
+
+Why 15 years? By his calculations, someone paying more than 180 months of rent
+might potentially do better by investing in the market, after considering the
+costs of owning.
+
+So if an apartment would rent for $4,000 a month, that means you shouldn’t pay
+more than $720,000 ($4,000 x 180) for an equivalent property.
+
+Perhaps easier to digest,
+[Zillow](http://web.archive.org/web/20160417123431/http://www.zillow.com/research/q4-2015-breakeven-
+horizon-11726/) advocates looking at how long it would take for buyers to
+break even, when compared with renters who invested their down payment of 20
+percent and any savings in the stock market. Not surprisingly, buyers in
+places like Brooklyn, Washington and Los Angeles had to wait longer, at least
+four years.
+
+Then there’s what you feel in the pit of your stomach. To Mr. Austin, house
+prices in the enclave where he lives in Los Angeles feel as if they are in a
+bubble, the housing downturn a faded memory. “Many people we know,” he added,
+“are tripping over themselves to buy right now.”
+
+**Correction: April 1, 2016**  
+An earlier version of this article misstated, in one instance, the surname of
+a financial planner in San Francisco. He is Milo M. Benningfield, not
+Bennigfield.
+
+Continue reading the main story

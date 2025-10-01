@@ -1,0 +1,62 @@
+# Fast Roast Chicken with White Wine Gravy Recipe
+
+**Source**: http://food52.com/blog/13528-how-to-get-a-roast-chicken-on-the-table-in-30-minutes
+**Type**: article
+**Created**: 2025-08-13T18:51:54.681009
+
+---
+
+title: Fast Roast Chicken with White Wine Gravy Recipe
+source: http://food52.com/blog/13528-how-to-get-a-roast-chicken-on-the-table-in-30-minutes
+date: 2025-08-13T18:51:47.490659
+tags: []
+---
+_There are 3 million chicken recipes on the internet. We're here to show you
+the good ones. Win, win._
+
+_Today: For nights when you don't have time (and need a bottle of wine)._
+
+[_![](http://web.archive.org/web/20240523051227im_/https://images.food52.com/tyWVwBlCmwFHuuNHsFwsQ1pN0oQ=/753x502/d7396dbb-440a-4eb3-a31a-258786e78706.2015-0623_super-
+quick-roast-chicken-with-garlic-and-white-wine-gravy_james-
+ransom-021.jpg)_](/web/20240523051227/https://food52.com/recipes/25899-super-
+quick-roast-chicken-with-garlic-and-white-wine-gravy)
+
+It's 4 P.M. and you're daydreaming of dinner—you would kill for a simple roast
+chicken and a cool glass of white wine. _Yes_ , you decide, _that's what I'll
+have for dinner tonight_. But as 8 P.M. rolls around and you haven't even
+fired up the oven, your high hopes of a golden roast get replaced by less
+time-consuming alternatives, like another bowl of pasta with leftover
+pesto—but they don't have to. **Not only does this roast chicken take a
+quarter of the time of a traditional roast, but it only uses one pan so you'll
+have less to clean afterwards.** The trick to the quicker chicken is two-fold:
+First, ask your butcher to cut it into 8 parts for you for faster cooking;
+second, pan-fry it over the stove top for crispy skin so you only have to bake
+it for 15 minutes. So help yourself to that bottle of wine—just save some [for
+the chicken.](/web/20240523051227/https://food52.com/recipes/chicken)
+
+[Super-Quick Roast Chicken with Garlic and White Wine
+Gravy](/web/20240523051227/https://food52.com/recipes/25899-super-quick-roast-
+chicken-with-garlic-and-white-wine-gravy)
+
+_Serves 4_
+
+**One 3 1/3 pound whole free-range, skin-on chicken, cut into eight pieces and
+backbone removed**  
+**Sea salt and freshly ground black pepper, to taste**  
+**1 garlic bulb, halved**  
+**8 sprigs fresh thyme, divided**  
+**3 tablespoons olive oil**  
+**1 cup chicken stock**  
+**1 cup white wine, divided**  
+**1 tablespoon all-purpose flour**
+
+[Save (and print) the full recipe
+here.](/web/20240523051227/https://food52.com/recipes/25899-super-quick-roast-
+chicken-with-garlic-and-white-wine-gravy)
+
+_Photo by James Ransom_
+
+_Is there an undiscovered Food52 chicken recipe you love? Send us a paragraph
+or two at[[email protected]](/web/20240523051227/https://food52.com/cdn-
+cgi/l/email-protection) about why you love it, and it could be next week's
+Winner, Winner, Chicken Dinner._

@@ -1,0 +1,84 @@
+# Read More Books
+
+**Source**: inputs/saved_emails/Read More Books_Tue,_5_Nov_2024_14-04-17_+0000_192fca7ddfc12c46.eml
+**Type**: email
+**Created**: 2025-08-25T02:54:06.657555
+
+---
+
+View this post on the web at https://www.notboring.co/p/read-more-books
+
+Welcome to the 232 newly Not Boring people who have joined us since last week! If you haven’t subscribed, join 234,408 smart, curious folks by subscribing here:
+Today’s Not Boring is brought to you by… Revv [ https://substack.com/redirect/f213ae9e-1472-4631-8f25-0ece11d38ca1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Understand Any Stock in Seconds with Revv [ https://substack.com/redirect/f213ae9e-1472-4631-8f25-0ece11d38ca1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], The First Search Engine for Stocks
+One of the themes in Not Boring is that many of the most promising companies in the world are incredibly complex but worth trying to understand. Revv helps anyone understand and invest in even the most complex categories, like AI, space, robotics, and biotech.
+With Revv, you can get a clear, concise view of any company’s business model and risk profile in seconds. Discover how a company makes money, how it compares on growth and profit, and why its revenue or margins may fluctuate—all in a single search. 
+Revv’s mission is to empower investors with the tools to make informed decisions in today’s fast-evolving industries. By focusing on four core performance factors—growth, profitability, valuation, and financial health—Revv delivers the critical insights needed to evaluate any stock’s potential. Powered by an AI “brain” that reads SEC reports and news headlines, Revv highlights only the most relevant data, explained in simple terms.
+I’m wary of anything that promises to make investing simple, because it’s not. But after playing with Revv, I think it’s a great tool to understand what drives a particular business’ value, how it compares to other companies in its industry, and which research rabbit holes to dive down next. And it’s free to explore over 5,000 stocks, so go explore. 
+Hi friends 👋, 
+Happy Tuesday! Not just any Tuesday - Happy Election Day! 
+The fun challenge with sending a newsletter that goes out every Tuesday is what do you write on a day when you know no one will read it? I’m certainly not going to send a Deep Dive on Election Day. I’m not going to send something that takes weeks of research, or something that contains my very best ideas. I could wait a day and send on Wednesday, which I occasionally do, but tomorrow might be even worse! Polymarket has a market live for when the AP will call the election, and Wednesday is in the lead with 46% [ https://substack.com/redirect/b661e903-b174-4015-aabd-b9db38004eec?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. I could write something that reminds you, once again, that no matter what happens today or who AP calls the winner tomorrow, we’ll be fine, great even, but I’ve told you that before [ https://substack.com/redirect/92d3faaa-5d3c-4797-9357-00dfda172429?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and you either buy it or you don’t. 
+No, none of those work. So instead, I’ll make a short PSA of the sort that I normally wouldn’t find the occasion to send: you should read more books.  
+Let’s get to it. 
+Read More Books
+You will probably spend a lot of time on the internet today. 
+You will doomscroll and watch polls. That’s fine. I will too. You may tweet things that Next Week You won’t be proud of, and that Next Decade You might not even recognize as you. Try not to. 
+But while you’re here, on the internet, might I suggest that you spend some of your time here on amazon.com, buying books. 
+When the haze clears, instead of a sore thumb and a tarnished reputation, you will be left with a pile (physical or metaphorical) of books to read. 
+Next Week You will be proud of you. Next Decade You will thank you. 
+“But I don’t have time to read,” you say. “I am simply too busy.” 
+That’s not true. 
+The average American spends 16 minutes per day reading. Only 46% of Americans read a book in the past year, and only 18% have read ten or more. Meanwhile, we spend nearly three hours watching TV and two hours and fourteen minutes on social media (often while watching TV). Some of that time might be better spent reading (I am reminding myself of this as much as you). 
+But what if you’re one of those rare few who already doesn’t watch TV, doesn’t waste time on social media? What if you really are too busy? 
+Warren Buffett is currently sitting on $325 billion in cash that he needs to figure out how to deploy. Surely he is too busy to read. 
+He is not. Warren Buffett spends 80% of his working day reading and thinking [ https://substack.com/redirect/5a963c76-396a-4532-aee0-6eb33f639e3b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. 
+An interviewer asked [ https://substack.com/redirect/8ca411e7-075d-4be5-a278-656c18631b9c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] Buffett, “How do you keep up with all the media and information that goes on in our crazy world and in your world of Berkshire Hathaway? What’s your media routine?” 
+Buffett replied, “I read and read and read. I probably read five to six hours a day.” 
+Maybe Buffett is an unfair comparison. His job is to wait for fat pitches, to swing only occasionally when, like Babe Ruth, he knows he’s going to hit a home run. His is a job that allows for, demands, quiet contemplation. 
+Barack Obama had a very different job, one full of meetings and travel and world-changing decisions. While President, Barack Obama read at least 30 minutes every night. He even read fiction, said it helped him better imagine and understand the lives of other people during his presidency. 
+There is no good excuse, only choices. 
+But why choose to read? 
+In 2020, Byrne Hobart [ https://substack.com/redirect/cb9d471e-f39d-4c03-aaec-c595fd81ed6f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], who reads an intimidating amount, wrote an essay titled “Read [ https://substack.com/redirect/276b7025-fb89-4101-a959-b350b7cd3eda?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ],” in which he, too, argued that you should read more if you want to learn: 
+The way serious people learn is by reading. The way they share important information is by writing it down. Read, read, read. Rich people read a lot — Forbes asked [ https://substack.com/redirect/614ed062-a543-4532-b7c0-044df0494450?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] a while ago, and the modal answer was two hours per day. (The national average is about twenty minutes [ https://substack.com/redirect/ca1e9631-d5d7-4e54-9b6d-ef5c01bf361e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].) One respondent claimed eight plus.
+The science backs Byrne up: reading improves your ability to focus, slows memory deterioration and enhances memory, boosts verbal skills, and improves your ability to connect different pieces of information and ideas. 
+I want to linger on this last point for a second, because to me, it’s one of the most fun parts about reading. It’s a reward that takes a little time to earn, but begins to pay off with increasing frequency the more you read. 
+I’ll give a direct example. 
+Right now, I’m reading The Fish That Ate the Whale: The Life and Times of America’s Banana King [ https://substack.com/redirect/0b1897fd-150d-4f9b-9392-a8a7cd5d4578?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], a truly wonderful book on the life of Sam Zemurray by Rich Cohen. On page 184, Cohen writes about the small socialism problem Zemurray faced in Guatemala during the time of Jacobo Arbenz and Che Guevera, and how the Banana King planned to deal with it. 
+Among the most effective of Zemurray’s government men was Tommy Corcoran, known in the White House and Congress and every tavern in D.C. as Tommy the Cork: you push him down here, he pops up over there… Corcoran briefed Zemurray on the thinking of top government officials. For example, under what conditions would President Truman be willing to go to war on the isthmus? 
+Tommy the Cork isn’t a name you forget, particularly when you last read it so recently. 
+Last week, I read Means of Ascent [ https://substack.com/redirect/57011680-0719-43fd-85a7-58f438be0aa7?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], Book Two of Robert Caro’s The Years of Lyndon Johnson series. On page 10, Caro describes how FDR had decided to help the young Texan politician after their first meeting in 1937: 
+It had been Corcoran whom the President had telephoned, upon his return from Texas, to say, “I’ve just met the most remarkable young man” and to issue an order: “help him with anything you can.”
+The same person – a person I’d never heard of until last week – was deputized by FDR to help LBJ and, a decade later, by the Banana King to combat Che! 
+That is a very specific connection and one that, apart from writing it here, I don’t know that I’ll ever have the occasion to employ. But stumbling upon the Cork for a second time was better than a dopamine hit; it felt like snapping in a puzzle piece that revealed the full picture. 
+Which brings me to a final point: how should you read? Or, what should you read? 
+I’ve always read a lot, and I’ve always been frustrated by how little of what I read I retain. I was talking to someone about this a couple weeks ago, someone who reads and remembers much more than I do, and I suggested that my memory is just hopelessly bad, naturally worse than his.
+He disagreed with my conclusion : “It’s possible you read too much nonsense. I don’t tend to.” 
+I thought about that a lot, and I think he’s right. Or, at least, the comment changed the way I think about what and how to read. 
+Here, I can bring it back to tech for a second, because this is a newsletter about tech after all, even on election day. 
+Benchmark partner Sarah Tavel has this idea about building a “white hot core [ https://substack.com/redirect/4c712c95-ea8d-4bf0-b2f1-a8d37aa290ff?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]” when starting a marketplace. The idea is that you shouldn’t try to serve everyone at once, at the beginning, but should begin by nailing the product for a very specific, constrained problem or niche. Prioritize retention over growth. Then, and only then, once your small niche of users really loves your product, you can expand outward into adjacent niches and problems. 
+I’ve always been a little jealous of the way that it seems people like Byrne and Ben Thompson’s brains work. From the outside, it seems like they have a scaffolding in their brain, and then, whenever any new information comes in, they can simply hang it on that scaffolding. That’s why they can write five excellent essays a week when I struggle to write one. 
+I haven’t asked them about this, but what I think is actually happening – other than just raw horsepower – is something similar to Sarah’s white hot core idea. 
+Read a lot of high-quality stuff on a certain topic or time period. Recognize connections, reinforce them, prioritize retention over growth. Then, and only then, once your core is established, expand outward. 
+It’s like constructing a map instead of dotting a bunch of dots. 
+In The Best Essay [ https://substack.com/redirect/9e080896-b770-4da5-9d66-225db4fb6f37?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], Paul Graham writes:
+An essay should ordinarily start with what I'm going to call a question, though I mean this in a very general sense: it doesn't have to be a question grammatically, just something that acts like one in the sense that it spurs some response.
+I would argue that the same is true for reading. 
+The best reading should ordinarily start with what I’m going to call a question, though I mean that in a very general sense.
+My current question – though it’s more of an obsession than a question – is trying to learn more about Vertical Integrators [ https://substack.com/redirect/60e6b839-815f-432b-9398-4b1338158728?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] than anyone in the world. 
+Over the past couple of months, I’ve read American Colossus, The Prize, Saudi Inc., Zero to One, Cable Cowboy, Kochland, My Life and Work, Empires of Light, The Wright Brothers, Dealers of Lightning, The First Tycoon, and The Fish That Ate the Whale. I have about ten more books on the topic loaded on the Kindle and ready to go. The other day, I read a 1990 economics paper that, just last year, might have seemed too dry to finish, but now, read like a Rosetta Stone. 
+If you asked me a question about facts and figures and people and theories, the kinds of questions my weak memory never would have been able to handle before, I can actually answer them! 
+And when I read an off-topic book, like Means of Ascent, that takes place in a similar time period, I can see connections there, too. The obvious ones, like “Tommy the Cork shows up in both,” and less obvious ones, like the fact that both LBJ and Zemurray justified any means in the pursuit of their ends. 
+There’s one theme that pops up over and over again, one that might be relevant on a day like today, when half the country will inevitably think that the world is ending, that forces of evil beyond their control have doomed the country and their own lives to chaos and decline: agency. 
+The greatness of Zemurray lies in the fact that he never lost faith in his ability to salvage a situation. Bad things happened to him as bad things happen to everyone, but unlike so many he was never tempted by failure. He never felt powerless or trapped. He was, as I said, an optimist. He stood in constant defiance.
+There are similar passages in the books on LBJ, Vanderbilt, Ford, the Wright Brothers, the Koch Brothers, Westinghouse, Edison, and Malone. Reading about all of these people in rapid succession – people who lived and built in a time when the world was a much harsher place than ours is today – provides a reminder that whatever happens outside of you, you can choose to give up or you can look at the board as it is and figure out how to play your next move. 
+Maybe as importantly as the specifics, reading gives you an understanding that everything that you think is novel and terrifying has happened before, and that people have survived. 
+So I’ll leave you with a passage from CS Lewis that Michael Dempsey tweeted this morning [ https://substack.com/redirect/3c1d5090-e182-43ac-b633-ae55ff30bb54?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]: 
+“If we are all going to be destroyed by an atomic bomb, let that bomb when it comes find us doing sensible and human things – praying, working, teaching, reading, listening to music, bathing the children, playing tennis, chatting to our friends over a pint and a game of darts – not huddled together like frightened sheep and thinking about bombs. They may break our bodies (any microbe can do that) but they need not dominate our minds.” 
+So go vote, enjoy today for what it is, spend time with family and friends, and read. 
+“In other words, do not let us begin by exaggerating the novelty of our situation.” 
+That’s all for today. We’ll be back in your inbox Friday with a Weekly Dose. 
+God Bless America 🇺🇸
+Thanks for reading,
+Packy
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVFV4TVRjMU1EYzRMQ0pwWVhRaU9qRTNNekE0TVRVMk9UY3NJbVY0Y0NJNk1UYzJNak0xTVRZNU55d2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LnI3S1IxMUhnY29WMk8zRE5CMk9VQW04ckQxbDlmNVpaT1B1ZmdWd0pZM1kiLCJwIjoxNTExNzUwNzgsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNzMwODE1Njk3LCJleHAiOjE3MzM0MDc2OTcsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.60_I-uIw5E_UZBbxWQoCmBGFE9RVv7tcc4DNQzq2P5E?

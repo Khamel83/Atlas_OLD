@@ -1,0 +1,185 @@
+# =?UTF-8?q?A_Bezos_Sanity_Check_&_Simmons=E2=80=99_New_Deal?=
+
+**Source**: inputs/saved_emails/=UTF-8qA_Bezos_Sanity_Check_&_Simmons=E2=80=99_New_Deal=_Thu,_13_Mar_2025_02-10-17_+0000_1958d445eff71a5b.eml
+**Type**: email
+**Created**: 2025-08-25T02:54:01.407103
+
+---
+
+Mar 12, 2025
+
+In The Room ( https://puck.news/newsletters/in-the-room/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+PhRMA ( https://ad.doubleclick.net/ddm/trackclk/N510001.4235865PUCKNEWS0/B33256398.415548149;dc_trk_aid=608758016;dc_trk_cid=231317612;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Dylan Byers ( https://puck.news/author/dylan-byers/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Dylan Byers ( https://puck.news/author/dylan-byers/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Greetings from Los Angeles and welcome back to In the Room. The number of the day
+is 20 percent: that’s how far business leaders at this week’s Yale C.E.O. Caucus said the stock market would need to decline in order for them to publicly criticize President Trump’s tariffs, per ( https://www.wsj.com/business/ceos-dont-plan-to-openly-question-trump-ask-again-if-the-market-crashes-20-e8448820?mod=djemwhatsnews&utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) The Wall Street Journal. Needless to say, they’re already doing it, quite volubly,
+in private.
+
+In tonight’s issue, news and notes on the cultural war for the heart and soul of The Washington Post, where the agonal screams of the Ruth Marcus–Marty Baron class have obscured the more nuanced realities about how Jeff Bezos is changing the paper, and how that’s really being received in the newsroom.
+
+🍸 On the latest edition of The Grill Room, Economist editor-in-chief Zanny Minton
+Beddoes joined me to discuss the centuries-old magazine’s unusual position in the media firmament, and how the ultimate business class rag is refreshing itself for the digital-only era: still all-in on the virtues of classical liberalism, but with a dose of A.I. powering its expanding global footprint. Follow The Grill Room on Apple ( https://podcasts.apple.com/us/podcast/the-grill-room/id1775515432?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ),
+Spotify ( https://open.spotify.com/show/52gdx2huhWI6w6To6dc5SW?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), or wherever ( https://puck.news/podcasts/the-grill-room/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) you prefer to listen. (I also encourage you to revisit The Economist’s award-winning, “Red out of White” 1988 marketing
+campaign ( https://x.com/DylanByers/status/1899583682610167962?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )—a classic of the genre.)
+
+Also mentioned in this issue: Will Lewis, Bill Simmons, Don Graham, David Zaslav, Matt Murray, Jon Slade, Joel Kaplan, Joanna Coles, Kathy Baird, Cameron Barr, Brendan Carr, Kris Coratti, David Shipley, Warren
+Buffett, Bob Woodward, Chris Licht, and many, many more…
+
+A MESSAGE FROM OUR SPONSOR
+
+PhRMA ( https://ad.doubleclick.net/ddm/trackclk/N510001.4235865PUCKNEWS0/B33256398.415548149;dc_trk_aid=608758016;dc_trk_cid=231317612;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+PhRMA ( https://ad.doubleclick.net/ddm/trackclk/N510001.4235865PUCKNEWS0/B33256398.415548149;dc_trk_aid=608758016;dc_trk_cid=231317612;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Medicines are the one part of health care where costs go down over time.  
+
+ 
+
+America’s intellectual property (IP) system is designed to make medicines more affordable for patients through innovative research, brand competition and lower-cost generics. Today, 90% of prescriptions are filled with lower-cost generic and biosimilar medicines. 
+
+ 
+
+Learn more. ( https://phrma.org/policy-issues/intellectual-property?utm_campaign=2025-q1-ini-IP-PuckIntheRoom-WorksWonders&utm_medium=pai_spn&utm_source=pck&utm_content=all-pol-nws_spo-IPWorksWonders&utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Let’s get started…
+
+* Zaz you like it: F.C.C. chair Brendan Carr has unveiled his plan to roll back regulations on the tech, media, and telecom sectors, soliciting public comment on “every rule, regulation, or guidance document that the F.C.C. should eliminate for the purposes of alleviating unnecessary regulatory burdens.” This is welcome news to business leaders across the TMT sector who had grown extremely frustrated with Biden’s regulatory environment (and quite
+eager to voice those frustrations, at least in private). That includes our man David Zaslav, who is undoubtedly already thinking about his next deal. (Or, more accurately, now increasingly limber to countenance deals he’s conjured for ages.) Recall his response at Sun Valley when asked about the 2024 race: “We just need an opportunity for deregulation, so companies can consolidate and do what we need to to be even better.”
+* FT succession,
+cont’d: As we anticipated ( https://puck.news/newsletter_content/bezoss-new-mantra-ft-succession-chatter-a-conde-parable-for-our-times-3/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) last week, the Financial Times has tapped chief commercial officer Jon Slade to serve as C.E.O., replacing John Ridding, who is stepping down after nearly two decades in the role. Slade himself has more than 20 years of experience at the FT,
+and is credited with being the driving force behind the FT Group’s roughly $650 million in annual revenues.
+* Bill Simmons re-ups: Bill Simmons, the effortlessly talented podcasting O.G., has signed a new agreement with Spotify, which acquired The Ringer for $250 million in 2020. “Spotify is one of the best content companies in the world,” Simmons said in a statement. “I’ve been in enough work situations at this point that you just kinda
+know when you’re in the right spot. I think all of us are motivated to do something pretty special in the talk and video space.” The new deal will keep Simmons with Spotify for at least two more years, per Bloomberg. (Puck and The Ringer partner on a pair of productions, including my partner Matt Belloni’s excellent podcast, The Town.)
+* Post ça change: Washington Post executive editor Matt Murray has
+announced structural changes to the newsroom intended to strengthen coverage beyond politics and policy, which have historically been the pillars of the Post’s news reporting. The Post will divide its national desk into two divisions—one focused on the core politics/policy remit, the other on national reporting—and unite the business, tech, health, science, and climate teams in one department. He is also placing the print product downstream of digital, following a move
+The New York Times and others made a lifetime ago.
+* And finally…: Kathy Baird, the Post’s chief communications officer, has informed her colleagues that she will resign from the paper at the end of the month, but gave no reason for her departure. Baird joined the Post in 2022, at the tail end of the Fred Ryan era, after Kris Coratti left for her short-lived
+stint at Chris Licht’s CNN. A veteran of Nike, Baird adeptly navigated her way through the internal drama of the last few years, but never managed to get over or ahead of the chaos that consumed the paper—you know, Will Lewis’s war with his own staff, the talent exodus, the internal and external protest regarding Bezos’s latest moves, etcetera (more on all that, below, naturally). In any event, now that plum assignment will fall to someone
+else—presumably another veteran of corporate comms who can put up with this shitshow. Meanwhile, her deputy Olivia Petersen will continue to work with the newsroom.
+
+And now, the main event…
+
+Til Jeff Do Us Part ( https://puck.news/jeff-bezos-wapo-mandate-is-not-pro-trump/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Til Jeff Do Us
+Part ( https://puck.news/jeff-bezos-wapo-mandate-is-not-pro-trump/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Bezos’s subscriber-alienating decision to take greater control of
+the Washington Post opinion section, and to impose his free-markets ideological mandate, is not unlike the journalistic tradition at The Economist and The Wall Street Journal… neither of which are exactly pro-Trump mouthpieces.
+
+Dylan Byers ( https://puck.news/author/dylan-byers/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Dylan Byers ( https://puck.news/author/dylan-byers/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+On Tuesday evening, an anonymous Daily Beast reporter cold-called Don
+Graham, the nearly 80-year-old former Washington Post publisher who sold his family’s distressed heirloom to Jeff Bezos for $250 million in 2013, and whose perspective on the most recent convulsions at the paper—Bezos’s “Free Markets, Free People’ opinion page mandate, the David Shipley and Ruth Marcus auto-defenestrations, the town’s lingering misgivings about Post C.E.O. Will Lewis—might therefore
+prove notable, perhaps even clicky. The Beast has been reliably melodramatic about Bezos’s renewed engagement at the Post—a recent headline, “Jeff Bezos Turns Washington Post Full MAGA to Fury of Reporters,” is illustrative—and here, too, they seemed to be spoiling for a fight, or at least some noteworthy contribution to the chorus of agonal screams from former Posties (Marty Baron, Cameron Barr, etcetera) who are now excoriating the paper’s
+benefactor.
+
+Alas, Graham’s remarks were notable, but not in the way the Beast might have hoped. The Beast, the definitional kids’ table brand, didn’t grasp that ultrawealthy people speak a certain way—especially about other ultrawealthy people, and especially in public. “I continue to have faith in Jeff Bezos as the long-term owner of the Post for the same reasons I did when we sold the paper to him,” Graham said. “The paper’s problems have and will always have a lot to
+do with technology. Jeff knows everything about the subject. And as Warren Buffett has frequently said, Jeff is an exceptionally long-term-minded C.E.O.” The typically specious headline on this utterly mundane item: “Graham Family Breaks Silence on Bezos Turning Washington Post MAGA.” (Brilliant, Joanna.) In some postgame correspondence with me, Graham reaffirmed his support for Bezos, then committed to once again “no-commenting” on the
+matter.
+
+Prudence so rarely triumphs over emotion these days, and the discourse surrounding The Washington Post could certainly use a little more of it. Among the paper’s solemn veterans, Bezos’s changes to the storied Opinions page have been framed in the most histrionic light—that he is, unquestionably and singularly, destroying a sacred pillar of the Fourth Estate in order to capitulate to Trump. “It’s been infuriating to observe the damage he has inflicted in recent months on
+the reputation of a newspaper whose investigative reporting has served as a bulwark against Trump’s most transgressive impulses,” Baron wrote ( https://www.theatlantic.com/ideas/archive/2025/03/bezos-appease-trump-administration/681899/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) last week in The Atlantic, a refuge for many disenfranchised Post émigrés. “Bezos’ recent actions and decisions as owner are undermining the Post’s mission and eroding its
+ability to hold power to account,” echoed ( https://www.usnews.com/opinion/articles/2025-03-04/amazon-bezos-washington-post-democracy?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Barr.
+
+A MESSAGE FROM OUR SPONSOR
+
+PhRMA ( https://ad.doubleclick.net/ddm/trackclk/N510001.4235865PUCKNEWS0/B33256398.415548149;dc_trk_aid=608758016;dc_trk_cid=231317612;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+PhRMA ( https://ad.doubleclick.net/ddm/trackclk/N510001.4235865PUCKNEWS0/B33256398.415548149;dc_trk_aid=608758016;dc_trk_cid=231317612;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Medicines are the one part of health care where costs go down over time.  
+
+ 
+
+America’s intellectual property (IP) system is designed to make medicines more affordable for patients through innovative research, brand competition and lower-cost generics. Today, 90% of prescriptions are filled with lower-cost generic and biosimilar medicines. 
+
+ 
+
+Learn more. ( https://phrma.org/policy-issues/intellectual-property?utm_campaign=2025-q1-ini-IP-PuckIntheRoom-WorksWonders&utm_medium=pai_spn&utm_source=pck&utm_content=all-pol-nws_spo-IPWorksWonders&utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The most recent contribution to this emerging subgenre came on Wednesday from Ruth
+Marcus, the columnist and 40-year Post veteran who resigned this week after Lewis declined to publish her column objecting to Bezos’s new direction for Opinions. Her cri de coeur, published ( https://www.newyorker.com/news/essay/why-ruth-marcus-left-the-washington-post?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) in The New Yorker—Remnick, himself, is also a former Postie—began with recollections of halcyon days: her first meeting with
+Bob Woodward, in 1981, and a cavernous newsroom “that looked just as it’s depicted in All the President’s Men.” (As I noted ( https://puck.news/msnbc-exit-strategies-washington-post-new-executive-editor/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) months ago, part of Bezos and Lewis’s mission is to nudge the Post beyond its nostalgic fixation with its Watergate-era glory.) Marcus then juxtaposed those memories with the present day, and a litany
+of offenses, concluding with the spiking of her column, which ultimately forced her departure. “I stayed until I no longer could,” she wrote.
+
+Full MAGA or Mere Sycophancy?
+-----------------------------
+
+What are the offenses, exactly, that so infuriated Marcus and Baron and Barr and
+Shipley, and Pulitzer Prize winner David Maraniss, and so on? What interventions by the owner and publisher are damaging the Post’s sacred mission, and making it so untenable for these veterans to stay? (Maraniss remains on the payroll, but refuses to write). What sycophantic display has convinced them that the Post is now turning a blind eye to Trump’s transgressions or, as the Beast put it, going “Full MAGA”?
+
+Marcus lays out a chronology of
+now-familiar infractions, reliable grist for the alarmist Folkenflik mill: Bezos’s decision to kill the paper’s Kamala Harris endorsement; his post-election embrace of Trump; the Mar-a-Lago dinner; Amazon’s million-dollar donation to the inauguration, and its in-kind $40 million contribution via a ludicrously expensive licensing deal for a doc about Melania. The company also recently picked up the rights to The Apprentice. Closer to
+home: Shipley’s decision to kill a cartoon by Pulitzer Prize winner Ann Telnaes that depicted Bezos and other tech executives genuflecting to Trump—“an instance of obeying in advance,” per Marcus. (Telnaes subsequently resigned and published ( https://anntelnaes.substack.com/p/why-im-quitting-the-washington-post?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) her own “Why I’m Quitting” treatise on Substack.)
+
+There’s more: A critical article about Bezos’s
+Opinions mandate from media critic Erik Wemple, which never ran; and finally, Lewis’s rejection of Marcus’s own column, which, she was told, did “not pass the ‘high bar’ required for the Post to write about itself—a message relayed to her by deputy Opinions editor Mary Duenwald, since Lewis himself refused a meeting. (Presumably, Wemple’s submission didn’t clear that bar, either.) At one point, Marcus invoked the
+frog-in-the-simmering-pot metaphor. And, sure, framed as she and Baron and Barr have structured it, these moves do look like the green shoots of a conspiracy, the start of the slippery slope toward a Post that functions like Pravda.
+
+Alas, there are some rather obvious flaws to the argument, as anyone who reckons with the actual product might be quick to identify. First, the Post newsroom’s posture toward Trump and his administration has not wavered
+at all. Indeed, its coverage of Elon Musk’s Department of Government Efficiency, from the internal palace intrigue to the real-world ramifications, has been notably comprehensive and aggressive. Meanwhile, any cursory review of the Post website, at any time of day, reveals a newsroom that has not shied away from holding the president to account for empty promises, misguided policies, or bad poll numbers. (Its congressional coverage is relatively lackluster, of
+course, which is why Lewis continues to consider a Punchbowl acquisition.)
+
+None of that should be surprising, since Bezos has never made any attempt to interfere with the newsroom. After a dozen years of mostly hands-off ownership, he has now chosen to exert some influence over the op-ed page, which is actually the typical territorial jurisdiction for media proprietors. Indeed, as The Economist editor-in-chief Zanny Minton Beddoes
+told me ( https://puck.news/podcast_episode/its-the-economist-stupid/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) on The Grill Room this week: “A proprietor of a newspaper has every right to have the newspaper’s editorial page follow whatever direction he or she wishes. That’s the sort of tradition of American journalism.”
+
+More stunning is how Bezos’s critics have sought to frame his Opinions mandate as some sort of rightward lurch toward a pro-MAGA
+worldview. In fact, his recent nudge toward a focus on personal liberties and free markets is analogous to the editorial philosophies of The Economist’s and The Wall Street Journal’s editorial boards, both of which continue to be outspoken critics of Trump and his administration precisely because of their classical liberal worldview. In The Economist’s telling, Trump is a dangerous and disruptive Mafia don pouring gasoline on the American
+economy. Meanwhile, no media organization has been nearly so effective at needling Trump as the Journal editorial board, which has relentlessly taken Trump to task over his tariffs and recently called for legal action against him on that issue. Would an opinion page like this really undermine the Post’s mission and erode its ability to hold power to account?
+
+Indeed, personal liberties and free markets are the true tenets of American entrepreneurship, an art form
+that Bezos not only practiced but truly perfected. And while plenty of onlookers have likened Bezos’s renovations at the Post to Musk’s chainsawing of the federal bureaucracy, this facile comparison misses the point. Musk, for all his antics, is heavy-handedly and overbearingly responding to a broad desire everywhere outside Washington to make the administrative state less financially burdensome. And, in many ways, Bezos’s decision to impose a new structure around some handsomely
+compensated opinion professionals at a deficit-ridden organization reflects a similar truth—they may be able to get a prime table at Cafe Milano, but their work is invisible everywhere else.
+
+The Still Potent Post
+---------------------
+
+If you strip away Bezos’s own sycophantic diplomacy—the inauguration, the Mar-a-Lago
+pilgrimages, etcetera—and focus instead on the Post, itself, you’re left with instances in which the publisher or an editor intervened to block critical opinion pieces not about Trump, but about the paper’s owner. Against that, you would have to account for the many columns that were published, including one by Dana Milbank that
+identified ( https://www.washingtonpost.com/opinions/2025/02/28/free-markets-personal-liberties-trump-threat/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Trump as “the single greatest threat to ‘personal liberties and free markets,’” and another by Eugene Robinson that praised ( https://www.washingtonpost.com/opinions/2025/03/03/katharine-graham-washington-post-legacy/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Donald Graham’s mother,
+Kay, for standing up to Nixon and, as Marcus herself put it in The New Yorker, “[evoking] an implicit comparison with the current owner and his relationship with Trump.”
+
+Should news proprietors set a “high bar” for receiving criticism from their own journalists? That’s a debate for another time, though I can understand why any of them, from Rupert to A.G., would be reasonably miffed if they had to face scrutiny
+over their decisions in the pages of the Journal or the Times, respectively. (You may have noticed that doesn’t tend to happen.) In any event, that alone really has no bearing on whether the recent changes at Post Opinions are fundamentally damaging the paper’s journalism, or undermining its ability to report fairly and honestly on Trump.
+
+Anyway, the cacophony of outrage around Bezos’s moves may have clouded another truth, as well. In moments like these, the
+protests of revered elder statesmen—Marty, Ruth, etcetera—tend to garner a lot of press, and shape the narrative. But their antipathy toward Bezos is not at all fully representative of the actual sentiments inside the Post these days (nor are they “furious,” yet another thing the Beast headline got wrong). As one Post insider told me, “There’s a cultural battle ongoing at the Post between the old people and the new people. Seems pretty clear the new people will win,
+you know, since they run the place and have the owner on their side.”
+
+Indeed, as I noted last week, these tormented cries from the olds are likely the last—and most audible—gasps from the Graham-era nostalgics. To their credit, their protests are well-intentioned, and intended to preserve the integrity of an institution that has served an important function in American politics. But their arguments would be a lot more convincing if they stopped acting like their owner was enabling the
+downfall of democracy simply because—after buying the paper out of bankruptcy, infusing it with cash, upgrading its tech, tolerating hundreds of millions in annual losses and a lot of internal bullshit—he now wants his Opinions page to better align with some rather mundane and conventional principles.
+
+The Powers That Be ( https://puck.news/podcasts/the-powers-that-be/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Join Emmy Award-winning journalist Peter Hamby, along with the team of expert journalists at Puck, as they let
+you in on the conversations insiders are having across the four corners of power in America: Wall Street, Washington, Silicon Valley, and Hollywood. Presented in partnership with Audacy, new episodes publish daily, Monday through Friday.
+
+The Varsity ( https://puck.news/newsletters/the-varsity/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Varsity ( https://puck.news/newsletters/the-varsity/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A professional-grade, insider-friendly tip sheet from John Ourand, the industry’s
+preeminent sports business journalist, covering the leagues, agencies, media deals, and the egos fueling it all.
+
+Puck
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact us ( fritz@puck.news?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
+here ( https://puck.news/unsubscribe/?subscription=in_the_room&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVjUQXvYoxe7ypqiP4T60=&utm_campaign=In+the+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_content=In+The+Room+-+SUBSCRIBERS+%283%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+ 
+
+Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY
+10006

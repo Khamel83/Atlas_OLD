@@ -1,0 +1,146 @@
+# Google I/O, Google's Strengths and Weaknesses, AI Search (Stratechery Update 5-15-2024)
+
+**Source**: inputs/saved_emails/Google IO, Google's Strengths and Weaknesses, AI Search (Stratechery Update 5-15-2024)_Wed,_15_May_2024_15-54-47_+0000_18f7cf6af3062fff.eml
+**Type**: email
+**Created**: 2025-08-27T03:02:18.186008
+
+---
+
+Google's I/O had impressive parts and less impressive ones, depending on how much innovation was required. The most important news, though, was the intense focus on transforming search.
+
+View in browser ( https://stratechery.com/2024/google-i-o-googles-strengths-and-weaknesses-ai-search/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2dvb2dsZS1pLW8tZ29vZ2xlcy1zdHJlbmd0aHMtYW5kLXdlYWtuZXNzZXMtYWktc2VhcmNoLyJdfSwiZXhwIjoxNzE4MzgwNDg3LCJpYXQiOjE3MTU3ODg0ODcsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.hMcXCCK9YW_e_S9Pio3OLm2jFt-k7bnBbaZxKgpcVYLfFSz1ijeBPRiMKtqC426sdXKJ_SC4pzzDy_M9anb-7fwwolsJiJ1Eltp4vD_zxFrVWJJXvoQg9W6fapJ1cmmgh5PJEKGsqXQrA8YO4GWvIwoqri0ViN-VhGengjgeqpPCysj-BS7R4ESHzKUAJymafntjRpbUzuThJMoWp5rftnUs9WAuZiS-Ql15pMjbd1bbmr7dy2ZBIpWq9HVDAKwKz3WSs4imFzHD_RYQ7S-UX2M7eU3FHslsi4_ynNjAaLZKaYPh9IbMj1-HbQXVxVhUHuZ_z69g6Vwkj5fH570ycg )
+
+( https://stratechery.com )
+
+Google I/O, Google's Strengths and Weaknesses, AI Search
+
+( https://stratechery.com/2024/google-i-o-googles-strengths-and-weaknesses-ai-search/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2dvb2dsZS1pLW8tZ29vZ2xlcy1zdHJlbmd0aHMtYW5kLXdlYWtuZXNzZXMtYWktc2VhcmNoLyJdfSwiZXhwIjoxNzE4MzgwNDg3LCJpYXQiOjE3MTU3ODg0ODcsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.hMcXCCK9YW_e_S9Pio3OLm2jFt-k7bnBbaZxKgpcVYLfFSz1ijeBPRiMKtqC426sdXKJ_SC4pzzDy_M9anb-7fwwolsJiJ1Eltp4vD_zxFrVWJJXvoQg9W6fapJ1cmmgh5PJEKGsqXQrA8YO4GWvIwoqri0ViN-VhGengjgeqpPCysj-BS7R4ESHzKUAJymafntjRpbUzuThJMoWp5rftnUs9WAuZiS-Ql15pMjbd1bbmr7dy2ZBIpWq9HVDAKwKz3WSs4imFzHD_RYQ7S-UX2M7eU3FHslsi4_ynNjAaLZKaYPh9IbMj1-HbQXVxVhUHuZ_z69g6Vwkj5fH570ycg ) Wednesday, May 15, 2024
+
+Listen to this Update in your podcast player ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Good morning,
+
+In yesterday’s Sharp Tech ( https://sharptech.fm/member/episode/open-ai-and-the-latency-leap-questions-about-an-apple-open-ai-partnership-a-defense-of-ai-dating-agents ) Andrew and I discussed OpenAI’s latest updates and the latency leap, and what a potential Apple partnership might look like.
+
+On to the Update:
+
+Google I/O
+----------
+
+Google CEO Sundar Pichai, on Google’s blog ( https://blog.google/inside-google/message-ceo/google-io-2024-keynote-sundar-pichai/#gemini-era ) :
+
+A year ago on the I/O stage we first shared our plans for Gemini: a frontier model built to be natively multimodal from the beginning, that could reason across text, images, video, code, and more. It marks a big step in turning any input into any output — an “I/O” for a new generation. Since then, we introduced the first Gemini models, our most capable yet. They demonstrated state-of-the-art performance on every multimodal benchmark. Two months later, we introduced Gemini 1.5 Pro, delivering a big breakthrough in long context. It can run 1 million tokens in production, consistently, more than any other large-scale foundation model yet.
+
+We want everyone to benefit from what Gemini can do. So we’ve worked quickly to share these advances with all of you. Today more than 1.5 million developers use Gemini models across our tools. You’re using it to debug code, get new insights, and build the next generation of AI applications. We’ve also been bringing Gemini’s breakthrough capabilities across our products, in powerful ways. We’ll show examples today across Search, Photos, Workspace, Android and more.
+
+“Today” is in reference to the keynote Pichai led at Google I/O ( https://www.youtube.com/watch?v=XEzRZ35urlk&t=1052s ) , the company’s annual developer conference; I had pretty high expectations for the keynote, particularly given how impressive I found the company’s enterprise keynote ( https://stratechery.com/2024/gemini-1-5-and-googles-nature/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2dlbWluaS0xLTUtYW5kLWdvb2dsZXMtbmF0dXJlLyJdfSwiZXhwIjoxNzE4MzgwNDg3LCJpYXQiOjE3MTU3ODg0ODcsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.K-H_i6igKFKsV6LYpXOwIbbfU_qSy8CYOsn4ZRfmuRPOpKvHJWoVdEwgiHpicG7qr-fhIeF7wW2LR3-UMz1wc6c8qhjaJxyuMIzjimBXb_iIek-8t2w1sfBtRoFUK01hu3vDnSMrLTnkOXfAxag8YI16NNUZEBO_hbvw_nU9SOHXjcA3o3ijsdy5KPVGLZgrnLw_d5q0cz-4pmZu4DdYbArIYJYnIupCEzYIlVyU6UAGPrU896yoFF-QTbyeKlN11_wBmmQW3I0uS30MTmQjWF60FCO0mgY-yqHUHnj4St83bAaMTldIdgXZs7mfLtSm_X9FhMx9fh_KHbKM8cK6Hw ) last month. Frankly, though, I came away pretty disappointed; what is interesting is that my takeaways were actually pretty similar to that previous keynote, but the different context — enterprise versus consumer, primarily — left me with a distinctly different impression. And, I should add, those impressions — for both keynotes — may be unfair and might not matter.
+
+Google’s Strengths and Weaknesses
+---------------------------------
+
+The first takeaway from both keynotes is just how impressive Google’s infrastructure is. Pichai, like Kurian previously, spent a lot of time talking about the inherent usefulness of Gemini 1.5 Pro’s 1 million token context window (which I discussed at length last month). The company also announced that an updated version of the model was available immediately to all developers and consumers, and that a two million token context window was available in developer preview. In addition, the company announced a new version of the model, Gemini 1.5 Flash, that is, as the name suggests, much faster and a tenth of the cost; Flash is available today, with a 2 million token context window also in developer preview.
+
+The second takeaway is the extent to which the quality of an AI-mediated experience is dependent on the AI being integrated into the problem space and its relevant data. The two demos that stood out in this regard were for Gmail and Android.
+
+First, Gmail:
+
+( https://videopress.com/embed/VPdbLEQZ?hd=1&cover=1&loop=0&autoPlay=0&permalink=1&muted=0&controls=1&playsinline=0&useAverageColor=0&preloadContent=metadata )
+
+In this demo Aparna Pappu, the presenter, is seeking to move forward on a bid for a roof repair; Gemini basically gives her email search on steroids, pulling in information from multiple threads about the project. As Pappu notes, to achieve this information retrieval currently she would have to dive in and out of multiple threads, while trying to hold various facts in her head or take notes in another app; now Gemini does what is, in the end, clerical work for her, letting her make a decision.
+
+What makes the demo particularly compelling is the fact it happens in the Gmail mobile app: Gemini’s summarization and compiling capabilities are even more useful when you consider that the smaller screen size of a smartphone would make the manual alternative even more painful. Pappu’s other Gmail demo was impressive as well: Gemini helped her find and organize all of her receipts in her inbox, and she could ask it to continue doing so on an ongoing basis.
+
+The key factor in both demos is that they happened within Gmail: a big challenge with AI is having access to all of the relevant data you are trying to reason over; some of the most compelling demos at Google’s enterprise event, for example, entailed data already being stored in BigQuery. In this case all of the relevant information is in Gmail, which Google has full access to; the features will start to roll-out to Labs users (basically beta testers) over the next few months.
+
+Second, Android:
+
+( https://videopress.com/embed/XY8XwVux?hd=1&cover=1&loop=0&autoPlay=0&permalink=1&muted=0&controls=1&playsinline=0&useAverageColor=0&preloadContent=metadata )
+
+The key aspect of this demo was laid out Dave Burke, the presenter, in his opening:
+
+Gemini works at the system level, so instead of going to a separate app, I can bring Gemini right to what I’m doing. Now we’re making Gemini context aware so it can anticipate what you’re trying to do and provide more helpful suggestions in the moment.
+
+In the demo Burke brings up Gemini as an overlay to generate an image, summarize a YouTube link, and interrogate a PDF attachment; in every case he is able to do so without, as he noted in the opening, needing to invoke a separate app, import information, etc. It’s a good demonstration of how being “context aware” can provide a much better experience than having to context switch, and it’s only possible because Google controls the operating system within which all of this information is being accessed. Once again these are features that will roll out in the next few months.
+
+The third takeaway — and the source of my perhaps unfair disappointment — was the extent to which almost everything else was vaporware. For example Google showed off something called “Project Astra”, which leverages your phone to interact with your surrounding environment via a conversational AI; it looks a lot like what OpenAI showed on Monday, but the big difference is that OpenAI did live demos with the promise of an imminent rollout, while “some” of Project Astra’s capabilities will come to the Gemini app “later this year”.
+
+Pichai’s discussion of AI Agents was even more vague:
+
+( https://videopress.com/embed/j1aKDUnP?hd=1&cover=1&loop=0&autoPlay=0&permalink=1&muted=0&controls=1&playsinline=0&useAverageColor=0&preloadContent=metadata )
+
+What if it could go even further? That’s one of the opportunities we see with AI Agents. Let me take a step back and explain what I mean by that. I think about them as intelligent assistants that show reasoning, planning, and memory, are able to think multiple steps ahead, work across software and systems, all to get something done on your behalf. And most importantly, under your supervision. We are still in the early days, and you’ll see glimpses of our approach throughout the day, but let me show you the kinds of use cases we’re working hard to solve.
+
+Let’s start with shopping: it’s pretty fun to shop for shoes, and a lot less fun to return them when they don’t fit. Imagine if Gemini could do all of the steps for you: searching your inbox for the receipt, locating the order number from your email, filling out a return form, and even scheduling a pick-up. That’s much easier, right?
+
+Let’s take another example that’s a bit more complex: say you just moved to Chicago. You can imagine Gemini and Chrome working together to help you do a number of things to get ready, organizing, reasoning, synthesizing on your behalf. For example, you’ll want to explore the city and find services nearby, from dry cleaners to dog walkers. You’ll have to update your new address across dozens of websites. Gemini can work across these tasks, and will prompt you for more information when needed, so you’re always in control.
+
+That part is really important as we prototype these experiences. We’re thinking hard about how to do it in a way that’s private, secure, and works for everyone. These are simple use cases, but they give you a good sense of the types of problems we want to solve, by building intelligent systems that think ahead, reason, and plan all on your behalf. The power of Gemini with multi-modality, long context, and agents brings us closer to our ultimate goal, making AI helpful for everyone. We see this as how we will make the most progress against our mission: organizing the world’s information across every input, making it accessible via any output, and combining the world’s information with the information in your world in a way that’s truly useful for you.
+
+Look, I get the value of laying out a vision in a major keynote; this entire section, though, isn’t even vaporware: it’s basically a verbalized concept video. This is particularly annoying in the context of agents: the idea of an AI doing stuff you don’t want to do is very alluring, but I suspect that the entire agent approach is going to be disappointing in the real world for the foreseeable future; there are just too many edge cases and unclear decision points that result in products that demo much better than they work. But again, this wasn’t even a demo: it was a mock-up.
+
+As an aside, the keynote included what I thought was a much better representation of how probabilistic AI can be useful:
+
+( https://videopress.com/embed/sEcResdF?hd=1&cover=1&loop=0&autoPlay=0&permalink=1&muted=0&controls=1&playsinline=0&useAverageColor=0&preloadContent=metadata )
+
+There were two lines that jumped out at me. First from Wyclef Jean:
+
+As a hip-hop producer we dug in the crates, we play these vinyls, and the part where there is no vocal we pull it, we sample it, and we create an entire song around that. So right now we digging in the infinite crate.
+
+Second from Marc Rebillet:
+
+Where I found the AI really useful for me was as a way to fill-in the sparser elements of my loops…It’s like having this weird friend that’s just like “try this, try that”.
+
+I suspect a lot of the most compelling use cases for generative AI will be centered on workflows that benefit from increased iteration and experimentation; in these scenarios the entire benefit is being somewhat unpredictable — and it’s a stark contrast to the entire “agent” vision where “experimentation” or “hallucination” is a fancy way to say “mistake”. This is also a feature that is useful now.
+
+There is, I think, a thread through all of these observations: the parts of the keynote that were the most compelling, and, perhaps unsurprisingly, either shipping now or shipping imminently, were related to the pre-existing strengths of Google — infrastructure and pre-existing products like Gmail and YouTube. The former is reliant on Google’s engineering and systems-building core competency; the latter on Google’s incredible reach.
+
+What was much more dubious and vaporware-y were actual new products. And, frankly, this isn’t a surprise: one’s take on Google before the AI revolution would have been that the company can operate at scale like no other, but has lost the capacity to innovate; at the risk of confirmation bias, that was exactly the takeaway I had from much of this keynote. The distinction from the enterprise keynote is that that wasn’t really about products at all, which meant the company’s infrastructure and model advantages shone that much more brightly.
+
+AI Search
+---------
+
+Of course all of this is a sideshow to the real business of Google, which continues to be search. From Bloomberg ( https://www.bloomberg.com/news/articles/2024-05-14/google-infuses-search-with-ai-in-a-fully-revamped-experience ) :
+
+For nearly two years, Google has been locked in a race with OpenAI and others to bring generative artificial intelligence — which can answer complex questions in a conversational manner — to the public in a way that most consumers will actually adopt. On Tuesday, Google fired a clear shot at competitors, signaling it has no intention of losing its leading position as the world’s most popular search engine.
+The act of “Googling,” which has been synonymous with search for the past two decades, will now become supercharged with the technology from Alphabet Inc.’s powerful AI model, Gemini, the company said at its annual developer conference in Mountain View, California…
+
+In front of a live audience, Google unveiled what Pichai called a “fully revamped, new search experience” that will roll out to all US users this week, with the new Gemini-powered search coming to other countries “soon”…The biggest single change in Googling is that some searches will now come with “AI overviews,” a more narrative response that spares people the task of clicking through various links.
+
+An AI-powered panel will appear underneath people’s queries in the famously simple search bar, presenting summarized information drawn from Google search results from across the web. Google said it would also roll out an AI-organized page that groups results by theme or presents, say, a day-by-day plan for people turning to Google for specific tasks, such as putting together a meal plan for the week or finding a restaurant to celebrate an anniversary. Google said it won’t trigger AI-powered overviews for certain sensitive queries, such as searches for medical information or self-harm.
+
+As I noted a couple of weeks ago ( https://stratechery.com/2024/google-earnings-googles-re-org-googles-true-moonshot/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2dvb2dsZS1lYXJuaW5ncy1nb29nbGVzLXJlLW9yZy1nb29nbGVzLXRydWUtbW9vbnNob3QvIl19LCJleHAiOjE3MTgzODA0ODcsImlhdCI6MTcxNTc4ODQ4NywiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.bNUyJQk3a7smqzVXEMuit71xt9nsVAHq0S2Wo-DrNChsEM4AAIsNoF8qDhqGbTdr3BVRJRxr9foWVIV7D-wnGKsld3FHcGkyvUlyhRNxnDvIMJx7QmeP4plEWEbdEa_qXZ0WN8ZJ0zYjdW7Em21mV-_Rojg2ACFglEkcQ2HJIfr8ZSUaQGc21LyVlAJGosdbPW0MtTVpQi6r4dZ89CA795GWG4GqjHYEvS9IGld1aa2NoWk0aktkLTuyv4mkLlyWnkBElhUGS10VAAJmxuaahZmYlIh6iEA6yRU6IbffCB_eogwUFE9uHPssnTDFqBu4OCkTpuPhC-fm7AqGQIv8vQ ) , I’ve been using Google’s “Search Generative Experience” (SGE) results for a while now, and it works quite well and has gotten a lot faster; that improvement, combined with the fact the company finds it viable to make SGE results the default for the U.S., speaks more powerfully than anything else to the company’s incredible infrastructure advantage.
+
+What was new was multi-step reasoning in search results, explicit planning capability, and the revelation of a search engine results page (SERP) for “inspiration” queries that was entirely AI-generated:
+
+( https://videopress.com/embed/WV3mXXbO?hd=1&cover=1&loop=0&autoPlay=0&permalink=1&muted=0&controls=1&playsinline=0&useAverageColor=0&preloadContent=metadata )
+
+With regards to multi-step reasoning, this characterization of an “agent” is much more compelling than the one above, because it is dealing with uncertainty, as opposed to trying to complete some discrete set of tasks. Second, the way in which multi-step reasoning results are displayed are quite conducive to advertising — which, by the way, can be that much more targeted the more fleshed out a query is. In other words, to the extent Google can train its users to leverage multi-step reasoning the better it could turn out to be for their business.
+
+It’s a similar story with the planning capability: it should be pretty straightforward to insert ads in a way that makes sense, and there are obvious opportunities for building out a fully-contained shopping experience, with all of the targeting and attribution possibilities entailed in that.
+
+Finally, what was striking to me about the “inspiration” SERP was the extent to which it feels more like a feed than a results page. Again, this makes sense: if you’re looking for inspiration you’re in more of an exploratory mode than a research one, and this new format could be more compelling. And, once again, it should be pretty amenable to advertising, particularly units that are more focused on the top of the funnel as opposed to bottom-of-the-funnel search ads.
+
+Stepping back from the details, though, what is encouraging is that Google isn’t holding back in terms of transforming search for AI. It is important to note that while all of the new results formats I described seem thoughtful in terms of presenting advertising, it is still reasonable to be concerned if that makes up for diminishing the current formats. What is more important, though, is making sure you keep the users in the first place, and Google can still remain very intensely focused on innovating and bringing its capabilities to bear — and quickly — when Search is the product in question.
+
+This Update will be available as a podcast later today. To receive it in your podcast player, visit Stratechery ( https://stratechery.passport.online/member ).
+
+The Stratechery Update is intended for a single recipient, but occasional forwarding is totally fine! If you would like to order multiple subscriptions for your team with a group discount (minimum 5), please contact me directly.
+
+Thanks for being a subscriber, and have a great day!
+
+Listen to this update and other Stratechery Plus content in your podcast player: Stratechery ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp Tech ( https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Dithering ( https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp China ( https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Greatest Of All Talk ( https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Subscription Information
+
+Member: Omar Zoheri
+Email: stratecheryUSC@khamel.com
+Member since: April 23, 2022
+Your subscription renews every year
+Renewal date: December 8, 2024
+
+You are receiving this email because you are subscribed to Stratechery ( https://www.stratechery.com ).
+
+Click here ( https://stratechery.passport.online/member/login?email=stratecheryUSC%40khamel.com ) to view your account and manage your subscriptions.
+Click here ( https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FRseuYE8jgHePpWJf1fAb4C%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1JzZXVZRThqZ0hlUHBXSmYxZkFiNEMvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcxODM4MDQ4NywiaWF0IjoxNzE1Nzg4NDg3LCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.vc519zrZ8Rp0T7NoBqY-XjnjufKenf7xZFY2C4ExRp0tovhk3DdTSNq9-MBMjh8JpuA2PCniVpKhu5QCiiBS5JN9t3tjoIjmikoVvvIHJ9ynfrcTC5aABLZhg7vBe-ruT5HgbWPnaBWdzj_ptzXpyepN6i-valbaXgEGn5HraDQZR79LQrJ-fQuThBLRV2Ln7I-w5j36LgE_KhYiKfwfnPHOkxRnZvusdAQ-0pIpuZUlQ2Ds9vf5Ip4d2p6U9glw2f6w9BYB8CYWB-cTD0ECFpaa-HkprKV9q1KYnTiyFplpgLgs8hDwNIczZXbU0to35tS_K9bwm9xClPhZtTqiEA%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe ) to unsubscribe.
+
+© 2024 Stratechery LLC ( https://www.stratechery.com ) , 2093 Philadelphia Pike #9930, Claymont DE 19703

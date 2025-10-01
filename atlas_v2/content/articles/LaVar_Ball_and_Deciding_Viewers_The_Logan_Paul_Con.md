@@ -1,0 +1,218 @@
+# LaVar Ball and Deciding Viewers; The Logan Paul Controversy; Spectre and Philosophy, ReduxÂ (Stratechery Daily Update 2018-01-10)
+
+**Source**: http://mailchi.mp/stratechery/lavar-ball-and-deciding-viewers-the-logan-paul-controversy-spectre-and-philosophy-redux?e=ef6eeda78d
+**Type**: article
+**Created**: 2025-08-13T16:47:14.522299
+
+---
+
+title: LaVar Ball and Deciding Viewers; The Logan Paul Controversy; Spectre and Philosophy, ReduxÂ (Stratechery Daily Update 2018-01-10)
+source: http://mailchi.mp/stratechery/lavar-ball-and-deciding-viewers-the-logan-paul-controversy-spectre-and-philosophy-redux?e=ef6eeda78d
+date: 2025-08-13T16:47:12.765780
+tags: []
+---
+|  |  |   
+---  
+|  |  | The Daily Stratechery email, including exclusive content for members of [Stratechery.com](http://stratechery.com/)  
+---  
+  
+|  |  |  |  | 
+
+# LaVar Ball and Deciding Viewers; The Logan Paul Controversy; Spectre and
+Philosophy, Redux  
+  
+Wednesday, January 10, 2018
+
+[blog post](https://stratechery.com/2018/lavar-ball-and-deciding-viewers-the-
+logan-paul-controversy-spectre-and-philosophy-redux/) / [forum
+thread](https://forum.stratechery.com/t/lavar-ball-and-deciding-viewers-the-
+logan-paul-controversy-spectre-and-philosophy-redux/1448)  
+---  
+Good morning, A final wrap-up on my time-off: everyone who subscribed between
+November 25, 2017–January 7, 2018, has now had their initial subscription
+extended by two weeks (i.e. your initial month ran for ~6 weeks, instead of
+4). As I noted before the break, my policy is that new subscribers be
+guaranteed a full month of updates, even if I take days off. As always, thanks
+to everyone for your understanding and support! On to the update:  
+---  
+LaVar Ball and Deciding Viewers  
+---  
+This topic may be off the beaten path for some of you, but given my love of
+the NBA it is very much in my wheelhouse! I’ll try to quickly summarize:  
+---  
+| • |  | One of the top draft picks in last year’s NBA draft is named Lonzo Ball; he was picked by the Los Angeles Lakers  
+---|---|---  
+| • |  | Ball’s father [LaVar Ball](https://en.wikipedia.org/wiki/LaVar_Ball) is a sort of larger-than-life figure from the Los Angeles area who has been guaranteeing greatness for his three sons for years; that Lonzo has largely lived up to his guarantees has only elevated LaVar’s prominence (I’m using first names for clarity reasons)  
+---|---|---  
+| • |  | Over the last year, LaVar has not only proclaimed that Lonzo would only play for the Lakers (success!), he has also started his own apparel brand (Big Baller Brand), pulled his second son LiAngelo out of UCLA after he was suspended for shoplifting in China (President Trump may or may not have intervened on LiAngelo’s behalf; LaVar and Trump had a Twitter/TV fight about it), and most recently sent LiAngelo and his youngest son LaMelo (who was in high school) to play professionally in Lithuania  
+---|---|---  
+[The current
+controversy](https://www.sbnation.com/nba/2018/1/8/16861592/lavar-ball-luke-
+walton-lonzo-rick-carlisle) comes from Lithuania, where an ESPN reporter who
+followed the family for the younger two sons’ pro debut [published an
+exclusive interview](http://www.espn.com/nba/story/_/id/21991857/lavar-ball-
+says-los-angeles-lakers-coach-luke-walton-lost-team) in which Lavar
+effectively called for the Lakers’ coach to be fired. What I find most
+fascinating, though — and pertinent to Stratechery generally and this week’s
+theme specifically — was the reaction of other NBA coaches. First, Dallas
+Mavericks’ head coach Rick Carlisle, the president of the Coaches Association,
+[condemned ESPN](https://www.youtube.com/watch?v=cAqmb-Pz4iM):  
+---  
+|  |  |   
+---  
+ESPN is an NBA partner, and they’ve been a great one. Part of that partnership
+is the coaches do a lot of things to help them with access, interviews, and
+all those kinds of things. In exchange for that, they should back up the
+coaches. Printing an article where the father of an NBA player has an opinion
+that is printed as anything like legitimate erodes trust. It erodes the trust
+we’ve built with ESPN, and our coaches are upset.  
+|  |  |   
+---  
+This is the world we live in now. I was thinking about ESPN and they laid off,
+I don’t know 100 people…many of whom were really talented journalists covering
+the NBA. So this is not an ESPN judgement, it’s a societal thing more than
+anything…I’ve talked to people in the media and said ‘Why do you guys have to
+cover that guy.’ They say ‘We don’t want to. Nobody wants to. But our bosses
+tell us we have to because of the ratings and the readership.’  So somewhere,
+I guess in Lithuania, LaVar Ball is laughing. People are eating out his hands
+for no apparent reason. Other than he’s become like the Kardashian of the NBA
+or something and that sells. That’s true in politics and entertainment and now
+sports. It doesn’t matter if there’s any substance involved with an issue.
+It’s just ‘Can we make it really interesting.’ For no apparent reason. There’s
+nothing interesting about that story. You know how many parents of my players
+have probably been at home thinking ‘Why isn’t he playing my kid.’ Yet we’re
+sticking a microphone in front of his face because apparently it gets ratings.
+I don’t know who cares, but people must care or ESPN wouldn’t be spending
+whatever they’re spending to send reporters to Lithuania, when they laid off
+people who were writing really substantial pieces… It’s a societal issue. It’s
+been going on for many, many years, and it’s really, I think, invading the
+sports world now.  
+In case you are not familiar, Kerr is one of the most fascinating and
+thoughtful figures in all of sports — [this New York Times
+profile](https://www.nytimes.com/2016/12/22/sports/basketball/steve-kerr-
+golden-state-warriors.html?_r=0) is well worth your time — and his response
+fits that reputation. I think, though, it gets cause-and-effect wrong in a
+very subtle way. Kerr postulates that society has changed, and that that
+change is slowly infiltrating the sports world. What, though, has changed? The
+thirst for celebrity? The interest in conflict? The desire to see
+controversial figures succeed or — more likely — the desire to see them fail?
+And if these are new to the human condition, why would they have suddenly
+changed in the last few years — why would sports have been more resistant for
+longer? In fact, I think there is nothing new about the lowbrow sensibilities
+of vox populi. What is new is the Internet, and, by extension, the decimation
+of media business models. Go back to my 2016 piece [The Voters
+Decide](https://stratechery.com/2016/the-voters-decide/):  
+---  
+|  |  |   
+---  
+There is no one dominant force when it comes to the dispersal of political
+information, and that includes the parties described in the previous section.
+Remember, in a Facebook world, information suppliers are modularized and
+commoditized as most people get their news from their feed. This has two
+implications:
+
+  * All news sources are competing on an equal footing; those controlled or bought by a party are not inherently privileged
+  * The likelihood any particular message will “break out” is based not on who is propagating said message but on how many users are receptive to hearing it. The power has shifted from the supply side to the demand side
+
+  
+---  
+![947c93ea-8283-42b7-85f0-2eae8e4663b1.jpg](https://gallery.mailchimp.com/a04b7dc3f187a3b6f52e8de49/images/f8e25d82-08dc-4e61-b3f0-e7d7695756f4.png)  
+This is a big problem for the parties as described in _The Party Decides_.
+Remember, in Noel and company’s description party actors care more about their
+policy preferences than they do voter preferences, but in an aggregated world
+it is voters aka users who decide which issues get traction and which don’t.
+And, by extension, the most successful politicians in an aggregated world are
+not those who serve the party but rather those who tell voters what they most
+want to hear.  
+---  
+It’s no accident that Donald Trump and LaVar Ball got in a public dispute:
+they are two sides of the same coin. The media covers both not because they
+are strong and able to make them famous (speaking of Trump pre-Presidency),
+but because they are weak and have no choice but to give the public what they
+want, or face irrelevance. Moreover, this explains Kerr’s timeline: the thirst
+for lowbrow entertainment started in ad-supported media, moved to news
+generally, and now sports — [the linchpin of the cable bundle specifically and
+the old world economy generally](https://stratechery.com/2016/the-sports-
+linchpin/). Of course sports would be last: it has the strongest economic
+model, but even that is increasingly under strain. [I’ve written
+plenty](https://stratechery.com/?s=espn) about ESPN’s recent struggles, but
+Kerr and Carlisle’s complaints are simply more symptoms of the same problems.
+As far as Carlisle’s comments specifically, many have criticized him for
+interfering with ESPN’s duty to report the news; I think that misses the
+point, particularly given the widely-held suspicion that, when push-comes-to-
+shove, ESPN will indeed value its relationship with its rights partners over
+its journalistic mission. Rather, what is so off about Carlisle’s view is just
+how obsolete it is: he is presuming a [world of
+gatekeepers](https://stratechery.com/2017/goodbye-gatekeepers/) who decide
+what is worth reporting and what isn’t; that world is gone — the viewers
+decide.  
+---  
+The Logan Paul Controversy  
+---  
+|  |  |   
+---  
+YouTuber Logan Paul has apologized after uploading a video showing the body of
+an apparent suicide victim in Japan’s Aokigahara forest. Paul was visiting the
+location, commonly known as the “suicide forest,” as part of a trip to Japan
+and filming it for his daily vlog. He’s since taken down the video and
+apologized for uploading it, claiming he was trying to raise awareness of
+suicide…  Although the video wasn’t monetized and begins and ends with
+messages urging viewers with mental health problems to seek help, Paul has
+been accused of exploiting a person’s suicide. On social media, users called
+for YouTube to “take action” and ban his channel. Many pointed out that Paul’s
+fanbase is mainly made up of young children and teenagers, who may have been
+traumatized by the footage.  
+Paul has taken a huge amount of criticism, but of course YouTube has come in
+for its fair share. I was struck by [this piece in The
+Ringer](https://www.theringer.com/tech/2018/1/3/16845682/logan-paul-suicide-
+forest-youtube-responsibility):  
+---  
+|  |  |   
+---  
+YouTube doesn’t employ Paul or supervise his channel, so it seems the
+company’s oversight (in this case) is virtually meaningless…YouTube’s strike
+against Logan Paul’s account doesn’t stand to change how Paul will act going
+forward, either. (Typically, YouTube will disable a video by issuing either a
+community guidelines strike or a copyright strike. Reports suggest that Paul
+disabled the video himself.) The community guidelines strike, and the general
+backlash, may spur Paul to produce his channel more cautiously…  YouTube stars
+flourish despite controversy, their channels running on stunts, shock,
+conflict, and drama. Logan Paul’s dispatch from Aokigahara is a sign of just
+how hungry and heedless these stars can be. If we never see another video like
+this again, it’ll be only because YouTube has finally decided that a “strike”
+will count for more than just a fleeting public censure. As of Wednesday
+morning, Logan Paul can vlog undeterred.  
+I’m certainly not here to defend Paul, but rather to note that much of the
+angst in this piece is rooted in the proposition that no one entity controls
+Paul. In traditional media, crossing the line of decency had real consequences
+for your employment, metered out by bosses; on the Internet the only people
+who ultimately control Paul are those that view his videos. This is the
+implication of value shifting from supply to demand: value-generation and
+control go hand-and-hand — if driving demand drives value, then demand has
+control. So it is for Paul, and so it is for LaVar Ball and ESPN.  
+---  
+Spectre and Philosophy, Redux  
+---  
+This is the point I have been trying to make all week: we are where we are
+precisely because no one planned for us to be here. No one wanted processors
+to be vulnerable, they wanted them to be fast because fast processors made
+people’s lives better. No one wanted kids to see dead people, they wanted to
+provide an outlet for people who would have never made it past the gatekeepers
+of old to broadcast. And just because bad things have happened shouldn’t
+obscure all of the good things that have resulted as well! What is most
+important moving forward, though, is that we don’t be Rick Carlisle: demanding
+adherence to a way of thinking that is patently obsolete. It’s not simply that
+such an approach is counter-productive (the NBA, for what it’s worth, is
+enjoying massive popularity in large part because it has embraced the Internet
+and social media); the bigger danger is that calling for a solution rooted in
+past assumptions is certain to lead to outcomes that are the exact opposite of
+what is necessary to move forward. Everyone — platform companies to platform
+critics, content creators to content consumers — have to first understand that
+the world has completely turned on its head. Only then can we build something
+new and, here’s hoping, better.  
+---  
+The Daily Update is intended for a single recipient, but occasional forwarding
+is totally fine! If you would like to order multiple subscriptions for your
+team with a group discount (minimum 5), please contact me directly. Thanks for
+being a supporter, and have a great day!  
+---

@@ -1,0 +1,500 @@
+# The story of the invention that could revolutionize batteries-and maybe American manufacturing as well
+
+**Source**: http://qz.com/433131/the-story-of-the-invention-that-could-revolutionize-batteries-and-maybe-american-manufacturing-as-well/
+**Type**: article
+**Created**: 2025-08-13T18:55:00.477332
+
+---
+
+title: The story of the invention that could revolutionize batteries-and maybe American manufacturing as well
+source: http://qz.com/433131/the-story-of-the-invention-that-could-revolutionize-batteries-and-maybe-american-manufacturing-as-well/
+date: 2025-08-13T18:54:48.966832
+tags: []
+---
+The world has been clamoring for a super-battery.
+
+Since about 2010, a critical mass of national leaders, policy professionals,
+scientists, entrepreneurs, thinkers and writers have all but demanded a
+transformation of the humble lithium-ion cell. Only batteries that can store a
+lot more energy for a lower price, they have said, will allow for affordable
+electric cars, cheaper and more widely available electricity, and a reduction
+in greenhouse gas emissions. In the process, a lot of gazillionaires will be
+created.
+
+But they have been vexed. Not only has nobody created a super-battery; a large
+number of researchers have lost faith in their powers to do so—perhaps ever.
+Entrepreneurs such as Tesla’s Elon Musk continue to tinker with off-the-shelf
+batteries for luxury electric cars and home power-storage systems, but
+industry hands seem generally to doubt that their cost will drop enough to
+attract a mass market any time soon. Increasingly, they are concluding that
+the primacy of fossil fuels will continue for decades to come, and probably
+into the next century.
+
+This is where Yet-Ming Chiang enters the picture. A wiry, Taiwanese-American
+materials-science professor at the Massachusetts Institute of Technology
+(MIT), Chiang is best known for founding A123, a lithium-ion battery company
+that had the biggest IPO of 2009. The company ended up filing for bankruptcy
+in 2012 and selling itself in pieces at firesale prices to Japanese and
+Chinese rivals. Yet Chiang himself emerged untainted.
+
+In 2010, having rounded up $12.5 million from Boston venture capital firms and
+federal funds, Chiang launched another company. Again, it was in batteries.
+And today, after five years in “stealth mode,” he is going public. There may
+be a way to revolutionize batteries, he says, but right now it is not in the
+laboratory. Instead, it’s on the factory floor. Ingenious manufacturing,
+rather than an ingenious leap in battery chemistry, might usher in the new
+electric age.
+
+When it starts commercial sales in about two years, Chiang says, his company
+will slash the cost of an entry-level battery plant 10-fold, as well as cut
+around 30% off the price of the batteries themselves. That’s thanks to a new
+manufacturing process along with a powerful new cell that adds energy while
+stripping away cost. Together, he says, they will allow lithium-ion batteries
+to begin to compete with fossil fuels.
+
+But Chiang’s concept is also about something more than just cheaper, greener
+power. It’s a model for a new kind of innovation, one that focuses not on new
+scientific invention, but on new ways of manufacturing. For countries like the
+US that have lost industries to Asia, this opens the possibility of
+reinventing the _techniques_ of __ manufacture. Those that take this path
+could own _that_ intellectual property—and thus the next manufacturing future.
+
+This is the story of how that came about.
+
+## Manufacturing, the new frontier of innovation
+
+Traditionally, big innovations have happened at the lab bench. A discovery is
+made and patented, then is handed off to a commercial player who scales it up.
+With luck, it turns out a blockbuster product.
+
+But, according to a[ report published in
+February](http://web.archive.org/web/20250616044025/http://www.brookings.edu/research/reports2/2015/02/03-advanced-
+industries#/M10420) by the Brookings Institution, researchers are increasingly
+skeptical of the delineation between innovation and production. Breakthrough-
+scale invention, they say, happens not only in the lab, but also in factories.
+
+This is not a new idea. Until 1856, for instance, steel was an ultra-expensive
+niche product. It was far more robust than iron, but no one knew how to make
+it economically. Its use was confined to specialty hand tools and eating
+utensils for the rich. But then British inventor Henry Bessemer, stirred by
+French gripes about the fragility of cast-iron cannons, devised a process that
+reduced the cost of steel by more than 80%, roughly equivalent to iron.
+Steel—along with oil—went on to propel the latter part of the Industrial
+Revolution, along with the gargantuan 20th century economic boom.
+
+If Bessemer had made his breakthrough today, it would be called “advanced
+manufacturing”—a label that has been broadly applied to next-generation
+fabrication methods such as 3D printing, [modular
+construction](http://web.archive.org/web/20250616044025/http://www.bbc.co.uk/news/resources/idt-3cca82c0-af80-4c3a-8a79-84fda5015115)
+of skyscrapers, and robotics. There is some hype around this term: The
+Brookings report identifies 50 industries in the US alone as “advanced,” and
+historic factory hubs such as the English city of Sheffield are renaming
+themselves as variants of “advanced manufacturing cluster.”
+
+Nonetheless, entrepreneurs who develop genuinely novel manufacturing processes
+can enjoy the advantage of a patent and standing ahead of the crowd. While
+others will inevitably copy them, it will be a race to catch up. To the degree
+that such authentic advanced manufacturing moves forward, and can offer the US
+a chance to reinstate its prowess as a manufacturing hub, it’s led in part by
+a few clean energy companies like Yet-Ming Chiang’s.
+
+## The birth of an idea
+
+At 57, Chiang has short-cropped, gray-flecked black hair, and almost always
+wears blue, long-sleeved check shirts. He speaks in a soft, even cadence, and
+is prone to finishing his sentences with a disarming, open-jawed grin.
+
+But if unassuming, Chiang is also tremendously driven. His science-centered
+business sense has earned tens of millions of dollars for his investors. He
+and his family live on a farm on the affluent outskirts of Boston, where he
+raises bees and chickens, and hunts and fishes nearby.
+
+Chiang was born in Taiwan, where his father, a locomotive engineer, managed to
+save enough money to make a start in the United States. When the boy was 6, he
+found himself in Brooklyn, living with his family in an apartment with what he
+regarded as astonishingly high ceilings. When it was time for college, Chiang
+was admitted to MIT, and never left. His wife, Jeri, a Japanese-American from
+Hawaii, also has an MIT degree, as do his older sister and her husband.
+
+Like Stanford University now and the University of Copenhagen in the 1920s,
+MIT is a maw of discovery and celebrity scientists.Chiang calls it a
+“meritocracy”—a “praise-free zone” where “you are what you do and what you
+create. You should continue to try to prove yourself.” Chiang has used his own
+MIT perch to launch four venture-capital-funded startups, including his
+latest, a battery company called 24M.
+
+Manufacturers are secretive, but analysts say a lithium-ion battery pack costs
+an average of roughly $500 per kilowatt-hour, a measure of the energy a
+battery can store. That’s four times the price needed to compete directly with
+gasoline. Only about 30% of that $500 is the cost of materials. The largest
+portion, 40%, goes to manufacturing.
+
+Battery factories themselves are typically cavernous buildings the size of
+aircraft hangars. They contain assembly-line machines dozens of yards in
+length, often stacked one atop the other. The cost for an entry-level plant is
+more than $100 million. In Midland, Michigan, XALT runs one of the most
+efficient and modern lithium-ion plants in the US. But, built with $300
+million in federal and state grants and credits, it is also sprawling—just
+under a quarter of its 400,000-square-foot (37,000 sq m) facility is devoted
+to the equipment, a space the size of six soccer fields. Tesla is embarked on
+the mother of battery plant buildouts, a $5 billion lithium-ion factory in
+Nevada.
+
+Such costs not only make batteries expensive. They also stifle innovation.
+Who, even with a promising new idea for a better battery chemistry, can build
+or borrow a $100 million plant to try it out?
+
+Chiang’s goal is to bring production costs down below $100 a kilowatt-hour.
+That would allow startup plants to be built for much, much less, unleashing
+innovation. And it would also create a genuine contest with gasoline.
+
+## The battery’s ungainly legacy
+
+The reason battery factories are so huge—and why Chiang’s business model seems
+to have substance—goes back to a chance event at the birth of lithium ion.
+
+The rise of lithium-ion chemistry in the early 1990s owes a lot to the peak
+and slow decline of two big consumer technologies—magnetic audio tape and
+nickel cadmium batteries. These two collided in the Camcorder, Sony’s entry
+into the nascent market for lightweight video cameras.
+
+Sony realized that, if video cameras were to take off, they needed both to
+shrink—to more or less fit snugly into a consumer’s hand—and to last longer on
+a single charge. The only way to accomplish that was to find a far more
+powerful, smaller battery.
+
+The result was the first lithium-ion cell, which Sony commercialized in 1991.
+Two years later followed the TR1 8mm Camcorder, the first lithium-ion-operated
+video camera. Both were blockbuster commercial products for Sony, and ignited
+furious competition.
+
+But Sony also had to quickly figure out how to manufacture this new kind of
+battery on a commercial scale. Providence stepped in: As it happened,
+increasingly popular compact discs were beginning to erode the market for
+cassette tapes, of which Sony was also a major manufacturer. The tapes were
+made on long manufacturing lines that coated a film with a magnetic slurry,
+dried it, cut it into long strips, and rolled it up. Looking around the
+company, Sony’s lithium-ion managers now noticed much of this equipment, and
+its technicians, standing idle.
+
+It turned out that the very same equipment could also be used for making
+lithium-ion batteries. These too could be made by coating a slurry on to a
+film, then drying and cutting it. In this case the result isn’t magnetic tape,
+but battery electrodes.
+
+This equipment, and those technicians, became the backbone of the world’s
+first lithium-ion battery manufacturing plant, and the model for how they have
+been made ever since. Today, factories operating on identical principles are
+turning out every commercial lithium-ion battery on the planet.
+
+For Sony, the idle magnetic tape machines were a piece of good fortune. But
+Chiang regarded them as an ungainly legacy. The machines were big, and their
+process was slow and expensive. They were a large part of the reason batteries
+couldn’t compete with gasoline. It was time to correct that mistake and figure
+out a new way to make the battery. “We got sidetracked by a historical
+accident and a reluctance to switch to something that works (better),” Chiang
+said.
+
+## Going with the flow
+
+At first, Chiang thought the best solution was an arcane and eccentric
+technology known as a “flow battery.” His interest flummoxed many of the
+people he talked to.
+
+A battery is superficially fairly simple. It essentially consists of two
+electrodes, which are the source of the electric charge, embedded in an
+electrolyte, through which the charge flows. In a conventional lithium-ion
+battery, the electrodes are solids, all stored in a single cell or pack.
+
+A flow battery, by contrast, consists of chemicals suspended in liquid. This
+liquid is held in two separate tanks, from which they are pumped through a
+cell. There they meet, separated by a membrane. The act of pumping them
+generates a current that flows between them across the membrane.
+
+To increase the capacity of a battery, you need to either boost its energy
+density, or make it bigger. For lithium-ion batteries, increasing the energy
+density—by tweaking the battery chemistry or finding a new kind—is the holy
+grail scientists are starting to despair of ever finding. Making them bigger
+is easy; Tesla has done just that for its cars. But they get expensive fast,
+because they require more of the costly metals, like nickel and cobalt, that
+go into the electrodes of lithium-ion cells.
+
+By contrast, making a flow battery bigger is just a matter of bolting on
+larger storage tanks with more liquid inside. But the device would quickly
+become far too big to fit inside a car, and the liquid chemicals in a flow
+battery have a much lower energy density than a lithium-ion battery.
+
+But what if you could have the best of both worlds? That was the original
+thesis of Chiang’s new venture. If you could make a flow battery with lithium-
+ion chemistry—and its energy density—it would have smaller tanks than a
+regular flow battery. Above a certain size, the cost per kilowatt-hour would
+be below that of static batteries, and begin to compete with the economics of
+fossil fuels.
+
+At MIT, Chiang assigned a Romanian undergraduate named Mihai Duduta to study
+the problem. A month later, Duduta had a working prototype. The rapid result
+was a surprise, and also evidence that Chiang was on to something. It was
+sufficient to attract $10 million in funding from Boston venture capital
+firms, and another $2.5 million from the Department of Energy. With that,
+Chiang opened 24M for business. Duduta was employee No. 1.
+
+The company was operating in stealth mode, so little was released publicly.
+But in a 2011 paper in the journal Advanced Energy Materials, Duduta explained
+an order-of-magnitude increase in energy density through a “semi-solid”
+approach to flow—a lithium-ion battery that worked through “percolating
+networks of nanoscale conductors.” Now, as far as the world was concerned,
+Chiang’s latest startup was a quixotic hunt for a world-beating flow battery.
+
+But that would soon change.
+
+## An economic quandary
+
+The success or failure of Chiang’s idea was in part a function of size. How
+big would the tanks of lithium-ion flow batteries need to be in order for
+their cost per kilowatt-hour to drop below that of static batteries?
+
+By late 2010, this problem weighed on Craig Carter, Chiang’s long-time
+collaborator at MIT. When original 24M employees gathered for weekly meetings
+to parse their data, no one seemed to know what size tanks, test cells and
+other equipment to buy and make. The cost model they were using did not make
+it clear enough when the economic crossover from static batteries would occur.
+
+That wasn’t the only problem 24M was facing. Nobody had ever made a lithium-
+ion flow battery. Chiang’s engineers were having trouble figuring out how to
+pump the electrolyte liquid through the system. The denser they made the
+slurry, to increase its energy density, the thicker and more sluggish it
+became. Potential customers, after being briefed by senior executives, offered
+little encouragement. Conventional static batteries already worked fine; why
+did anyone need a new kind of lithium-ion battery that also required a pump?
+
+Meanwhile, a side experiment within 24M was starting to attract the attention
+of Chiang’s junior researchers. For comparison purposes, Chiang had instructed
+them to create static lithium-ion cells alongside the flow project. “We can
+learn from them,” he said. The results were interesting: the team had used the
+same liquid slurries as they had in the flow battery to make hundreds of
+static cells, and they put them through thousands of charge-discharge cycles.
+Their capacity remained stable. Unlike the flow experiment, they worked
+superbly.
+
+After work, some of the junior staff including Duduta would troop downstairs
+for milkshakes at an eatery called Friendly Toast. There, they discussed the
+results from the static cells. These younger researchers were less invested
+than Chiang and the senior staff in the idea of flow, recalled one of them,
+Tristan Doherty, a former race engineer for Dale Coyne’s Indy 500 racing team.
+Gradually they became convinced that the new manufacturing process they were
+developing should be devoted to making static, not flow, batteries. But how to
+get that message across to their elders?
+
+## The moment when it all fell apart
+
+It was in this environment that Carter was trying to figure out at what point
+flow batteries would become economical. Chiang did not seem to think it was a
+problem. “You may be wasting your time,” he told Carter. Carter persisted, and
+finally decided to put aside the cost model they were using and build his own.
+He enlisted one of the young staff—Jeff Disko, a Wyoming native who favors
+cowboy boots and self-carved silver belt buckles. “Let’s build it from
+scratch,” Carter told the younger man.
+
+What he didn’t do was tell Chiang what he and Disko were up to. “He might have
+seen it as a distraction from going forward since we already had a working
+tool,” Carter said.
+
+Disko worked around the clock for two weeks on the data while Carter created
+software that could visually display almost any battery variable—energy
+density, speed of charge, cost of parts, and so on.When they were done, they
+had a tool that finally revealed the crossover point at which Chiang’s battery
+would prove economical.
+
+To say it would require enormous tanks would be an understatement. To be
+competitive with fossil fuels, a lithium-ion flow battery would have to be
+large enough to back up a stationary facility the size of a nuclear power
+plant serving tens of thousands of people. It was such a jaw-dropping result
+that neither Carter nor Disko believed it initially. They spent two weeks
+redoing the numbers and discussing the results. Disko began to vet it with the
+rest of the group. But there was no getting around it—the idea on which the
+company had been founded did not make financial sense.
+
+In early 2011, they held what Disko called a “come-to-Jesus meeting.” He
+presented the visual tool. Until then, there had been the grumblings, but no
+brutally concrete juxtaposition of flow and static batteries. Now it seemed
+clear—unless you were aiming to back up the electricity system of a small
+city, it was better to build a static battery.
+
+Chiang stared at the results. “So are you willing to bet the company?” he
+asked Carter.
+
+“Okay,” Chiang replied simply. He would think about it.
+
+Two days later, an email went to all employees. Flow was out. The company
+would build a static battery.
+
+It was a typical shift for a startup, in which initial notions rarely survive
+through the commercial stage of development. For his part, Disko felt
+“relieved. I think a lot of people did.” The manufacturing problems still
+needed to be solved. But now they would attack them differently. The cost
+model had proven its value. “There are benefits of changing direction—of
+turning on a dime,” Carter said. “Now we had something in which you could
+plant a flag and know it would stick.”
+
+## Starting from zero
+
+Now the researchers could return, metaphorically, to the age of the Camcorder
+and pose the question: If Sony hadn’t had those magnetic tape machines lying
+around and had started from a blank slate, what would have been the most
+natural and best way to manufacture a lithium-ion battery?
+
+Pumps intended to initiate the flow of electron juice started to disappear
+from the 24M lab. Then Duduta, the conceiver of the original 24M flow cell,
+waited a few weeks, before declaring, “I am going to make these [static] cells
+myself.”
+
+There was no machine for this task, so Duduta stuck his arms into the black
+rubber gloves of an airless research box—known as a glove box—and began to
+hand-make cells. That meant mixing up the goop, or slurry, that comprises the
+two electrodes—the anode and cathode—and slapping them onto a thin film,
+separated by another plastic film.
+
+A couple of the others joined him. Soon, six or seven researchers had their
+hands in the rubber gloves. They had created their own manual assembly line.
+They became good at it—they were producing automobile battery-size cells in
+just six minutes. Compared to the day-long process required in a conventional
+factory, that was lightning fast. But it was nothing to the speed with which
+Chiang would eventually want the process to go.
+
+In the conventional process, the application of the slurry is relatively
+quick, but the drying stage can take 22 or more hours. You start out with wet
+slurry, then coat it onto film—using glue-like substances to make it
+hold—press it flat to make the electrodes denser, and finally dry it in an
+oven along the long, slow assembly line. Finally, electrolyte is injected into
+the battery cell, thus making it wet all over again.
+
+Apart from this slow process, conventional batteries have a second problem:
+35% of their interior space is filled with material that doesn’t contribute to
+generating electricity. That includes the binder that holds the slurry to the
+film; a separator that keeps the anode and cathode from shorting each other
+out; and a current collector that brings the charge to an electronic device.
+
+Chiang wanted to reduce the manufacturing process to a single hour. And he
+wanted to shrink the space filler to almost nothing.
+
+He started out by whacking out whole parts of the filler. His researchers
+developed a way to make the electrodes without the glue-like binder. Lithium-
+ion cells typically contain 14 separate material layers; Chiang simplified
+them, allowing him to reduce the layers to just five. He reduced the filler to
+8% of the battery cell. Finally, he overturned the foundations of lithium-ion
+manufacturing by figuring out how to dispense entirely with the drying
+process; instead, he would inject the wet electrolyte into the cell from the
+start.
+
+These were defining improvements. But, while he was at it, Chiang made some
+tweaks to the science of the battery, too. Most significantly, he made the
+electrodes four times thicker—500 microns, or half a millimeter, in
+diameter—which added a lot to the cells’ energy density.
+
+Still, there was the matter of how to actually get the wet electrode slurry
+onto film in a uniform density, thickness, continuity and rectangular shape,
+and to do so fast and in a way that could be replicated over and over again.
+
+Some three dozen ways were attempted to get the slurry right. The final method
+was “a total shot in the dark,” Doherty said, and involved a tube, a plunger,
+and some Teflon.
+
+But the result was a manufacturing platform that currently spits out a battery
+cell in about two and a half minutes. The machine that does it isn’t the size
+of a factory floor, but of a large refrigerator (see image below). As for the
+cells, Chiang calls them “semi-solid,” a nod to their birth in research into
+flow batteries.
+
+When I was visiting their lab recently, Chiang and 24M’s CEO, Throop Wilder,
+stood around the machine as it spit out a fast cell in a perfect rectangle.
+Wilder started doing jumping jacks. “That’s huge. That’s what investors want
+to see,” he said, shouting.
+
+Chiang’s sudden pivot to static batteries doesn’t appear to have unnerved
+24M’s investors. In 2013, Chiang raised another round of $25 million in cash,
+and last year PTT, the Thai oil company, invested $15 million. In all, 24M has
+raised $54.5 million. “They are able to introduce a novel battery that’s 50%
+like bringing the economics of Moore’s Law into an industry that doesn’t have
+that,” said Izhar Armony of Charles River Ventures, one of Chiang’s VC
+investors.
+
+## What it means for manufacturing
+
+The push to improve the manufacturing, as opposed to the chemistry, of
+lithium-ion batteries has caught on with US government officials. The
+Department of Energy (DOE) is currently running a competition for three-year
+grants worth $6 million to $8 million for researchers promising better
+manufacturing techniques. If they can make such progress, and add it to any
+advance on the scientific side, “then you’ve double-dipped,” said David
+Howell, who runs the DOE battery research program. Howell said that is how he
+expects to make electric cars equivalent, in dollars per kilowatt-hour, with
+gasoline.
+
+The advanced manufacturing movement has spread to solar as well. Frank Van
+Mierlo, founder of a Massachusetts solar panel company called 1366, said that
+his own industry’s standard manufacturing method “is reminiscent of how the
+Greeks made glass.” He said his company has devised a new way to make panels
+that chops out much of the inefficiency.
+
+In a [new
+report](http://web.archive.org/web/20250616044025/http://www.mckinsey.com/insights/manufacturing/Manufacturings_next_act?cid=other-
+eml-alt-mip-mck-oth-1506), McKinsey describes a broad new age of manufacturing
+that it calls Industry 4.0. The consulting firm says the changes under way are
+affecting most businesses. They are probably not “another industrial
+revolution,” it says, but together, there is “strong potential to change the
+way factories work.”
+
+For decades, the US has watched its bedrock manufacturing industries wither
+away, as they’ve instead grown thick in Japan, in South Korea, in China,
+Taiwan and elsewhere in Asia. According to the Economic Policy Institute, the
+US[ lost about 5
+million](http://web.archive.org/web/20250616044025/http://www.epi.org/blog/fast-
+track-to-lost-jobs-and-lower-wages/) manufacturing jobs just from 1997 to
+2014. This includes the production of lithium-ion batteries, which, though
+invented by Americans, were commercialized in Japan and later South Korea and
+China.
+
+So Chiang’s innovation could be a poster-child for a new strain of thinking in
+the US. This says that, while such industries are not likely to return from
+Asia, the US can possibly reinvent how they manufacture. The country wouldn’t
+take back nearly as many jobs as it has lost. But there could be large
+profits, as the country once again moves a step ahead in crucial areas of
+technology.
+
+To be clear, this is not Chiang’s goal. He is a professed universalist,
+divorced from scientific realpolitik. But should he succeed, as he plans to,
+then in addition to helping to decode the perplexing problem of batteries, he
+might contribute to continuing America’s political and economic dominance.
+
+## The road ahead
+
+Chiang and Wilder are about to embark on a third round of investment, seeking
+$20 million to $30 million. They would spend the money to scale up to
+production of a new machine that makes a cell every two to ten seconds. This
+machine, to be available for sale in two years, would be for stationary
+electric batteries—used to power businesses, neighborhoods and utilities,
+rather than cars.
+
+The machine would have a capacity of 79 megawatt-hours a year and produce any
+kind of lithium-ion battery for a cost of about $160 per kilowatt-hour. By
+2020, Chiang says, that will be down to about $85, 30% below where
+conventional lithium-ion batteries—whose cost is also dropping—may be by then.
+But most importantly, the machine would be priced at about $11 million. Hence,
+the startup cost of getting into lithium-ion battery manufacturing would
+plummet. “It’s so far out of the paradigm, you just don’t believe it,” said
+Wilder.
+
+If 24M creates this machine, and if it can sell it into the market—an entirely
+different question—it will clearly shake up big industries, including
+stationary and electric car batteries, not to mention utilities. How quickly
+is anyone’s guess.
+
+Chiang seems ambivalent as 24M begins to disclose what it’s been doing all
+these years. Until now, the entire industry has had a singular idea of how
+batteries are manufactured. Chiang’s own rivals were, until today, convinced
+that he was on a far-fetched crusade to figure out flow batteries.
+
+But now, if they look hard at what he is really doing, and accept his
+approach, they may attempt to copy him. “If you haven’t seen the movie play
+out before, you don’t have the confidence it can be done,” he said. But
+staying a step ahead is also part of the startup game.

@@ -1,0 +1,111 @@
+# The businesses Amazon is most likely to struggle to take over
+
+**Source**: https://qz.com/1102505/the-businesses-amazon-is-most-likely-to-struggle-to-take-over/
+**Type**: article
+**Created**: 2025-08-13T16:56:42.435824
+
+---
+
+title: The businesses Amazon is most likely to struggle to take over
+source: https://qz.com/1102505/the-businesses-amazon-is-most-likely-to-struggle-to-take-over/
+date: 2025-08-13T16:56:35.916259
+tags: []
+---
+It feels like nothing is safe from Amazon.
+
+On Friday (Oct. 13) Bloomberg reported that Amazon was [getting into
+sportswear](http://web.archive.org/web/20250513155630/https://www.bloomberg.com/news/articles/2017-10-13/amazon-
+is-said-to-make-sportswear-push-in-industry-rattling-move). The company signed
+on a vendor that produces clothing for Gap, Uniqlo, and Kohl’s to make
+private-label athletic wear for Amazon. The news sent a shiver through the
+market, with shares of athleisure brand Lululemon and sportswear maker Under
+Armour closing the day at 2.2% and 1.8% down, respectively.
+
+Amazon began to build its business empire by taking on the book industry and,
+over the last two decades, has expanded to e-commerce, shipping, logistics,
+cloud storage, and voice-enabled personal assistants (hi, Alexa). Amazon owns
+a whole collection of [secret
+brands](http://web.archive.org/web/20250513155630/https://qz.com/1039381/amazon-
+owns-a-whole-collection-of-secret-brands). Meal-kit company Blue Apron
+[convulsed](http://web.archive.org/web/20250513155630/https://qz.com/1031450/blue-
+apron-has-an-amazon-problem-jeff-bezos-is-looking-into-the-meal-kit-business)
+in July when Amazon registered a US trademark for its own “prepared food
+kits.” Groceries are nervously eyeing its recent $13.4 billion purchase of
+Whole Foods. But there are still some businesses Amazon will find difficult to
+disrupt.
+
+## Dollar stores
+
+Last month, Morgan Stanley Research surveyed investors at its “Amazon
+Disruption Symposium,” asking which consumer sectors the survey-takers thought
+would take the longest for Amazon to “materially disrupt.” The most popular
+choice was dollar stores.
+
+Dollar stores cater to people who are extremely price sensitive. Unlike
+Amazon, which exists almost entirely online as far as consumers are concerned,
+dollar-store chains do best with a dense network of physical stores. Morgan
+Stanley calls them a “fill-in shopping destination.”
+
+Amazon offers a world of consumer goods in two days or less through its Prime
+membership, but that still requires an initial purchase of $99 (or $10.99 a
+month, if you choose a monthly instead of annual subscription). The typical
+dollar-store customer spends less than $10 in a single trip. Even outside the
+super-price-sensitive demographic, most shoppers still make decisions based on
+(1) convenience and (2) value. Dollar stores excel at both.
+
+## Auto parts
+
+Investors also believe auto parts, a $50 billion market, is relatively safe
+from Amazon. Shares of US auto-parts retailers sank in January on news that
+Amazon had [cut
+deals](http://web.archive.org/web/20250513155630/https://nypost.com/2017/01/22/amazons-
+next-frontier-to-conquer-auto-parts/) with the largest auto-parts makers in
+the country and was looking at regional distributors. Amazon also [now offers
+same-day
+delivery](http://web.archive.org/web/20250513155630/https://wheelscene.com/same-
+day-delivery-amazon-car-parts/) on auto parts in 40 major US cities at prices
+that undercut competitors like O’Reilly and AutoZone.
+
+That said, auto parts is not really about extreme price sensitivity; it’s
+business built on the demand for extreme immediacy. Do-it-yourself customers
+who need to repair their cars might not want to wait around for even a day or
+two to have a part shipped to them. Amazon also doesn’t have the ties to local
+dealerships that shoppers often need to make their purchases. Beyond that,
+traditional auto-parts retailers offer tools and advice from seasoned
+professionals that customers may find it hard to get from Amazon. “Those are
+the conversations that you don’t get online,” AutoZone spokesman Ray Pohlman
+[told](http://web.archive.org/web/20250513155630/http://www.autonews.com/article/20170220/OEM06/302209956/amazon-
+could-shake-up-parts-business) Automotive News in February.
+
+## Home improvement and home furnishings
+
+Like auto parts, home improvement is a business that requires both immediacy
+and human expertise. Ikea has begun to recognize this: the company recently
+[purchased](http://web.archive.org/web/20250513155630/https://qz.com/1089987/ikea-
+is-buying-taskrabbit-because-americas-diy-spirit-is-dying) on-demand services
+startup TaskRabbit, likely to bolster its delivery and furniture-assembly
+offerings for US customers. (Prior to the Ikea purchase, the most popular task
+on TaskRabbit was assembling Ikea furniture.)
+
+Amazon attempted to break into home improvement in [late
+2014](http://web.archive.org/web/20250513155630/https://www.wsj.com/articles/amazon-
+offers-help-finding-local-handymen-1416877723) with Amazon Local Services, a
+marketplace for contracting service professionals like plumbers and
+electricians. Amazon
+[renamed](http://web.archive.org/web/20250513155630/https://techcrunch.com/2015/03/25/amazons-
+on-demand-services-marketplace-launches-monday/) the platform Amazon Home
+Services the following year and launched it more broadly, with normal handyman
+offerings plus oddities like goat grazing and singing performances. Still, it
+never really caught on.
+
+As for home furnishings, Amazon’s challenge will be to overcome people’s
+desire to see and examine these items up close before purchasing. It’s easy to
+buy something like toilet paper or a book online, sight unseen. But the
+curtains that will hang from your living-room window—you’re probably going to
+want to examine those pretty closely before committing.
+
+That said, even those buying habits may not last forever. Casper, the online
+mattress startup, broke the long-standing belief that people would never buy
+their bed from a website, since they couldn’t test it out like they could in a
+store. And if Amazon can break into sportswear—something most people like to
+try on—why not home furnishings too?

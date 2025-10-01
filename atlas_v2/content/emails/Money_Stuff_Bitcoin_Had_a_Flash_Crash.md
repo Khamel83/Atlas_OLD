@@ -1,0 +1,287 @@
+# Money Stuff: Bitcoin Had a Flash Crash
+
+**Source**: inputs/saved_emails/Money Stuff Bitcoin Had a Flash Crash_Wed,_20_Mar_2024_14-04-57_-0400_(EDT)_18e5d09bdceb8423.eml
+**Type**: email
+**Created**: 2025-08-25T02:53:58.504791
+
+---
+
+The US has about a dozen stock exchanges. Each stock trades on each stock exchange. Every so often the price of a stock on one exchange will
+      
+    
+  
+  
+    
+      
+        
+          
+          
+        
+        
+          
+            
+          
+        
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          
+  
+    
+      Bitcoin flash crash
+    
+  
+
+The US has about a dozen stock exchanges. Each stock trades on each stock exchange. Every so often the price of a stock on one exchange will be slightly lower than the price on another exchange. Books have been written about this fact, and people have made long and lucrative careers from it.
+But we are talking about small differences in the grand scheme of things. If I were to tell you “Apple Inc. stock has been trading at $174 per share on the NYSE Arca exchange for the last hour, but it’s been trading at $175 on Nasdaq the whole time,” you would not believe me; that is barely even a coherent sentence. For one thing, there are rules to prevent that. But also, I mean, this stuff is all on computers, and these prices are all visible, and there are people who have lucrative careers noticing any differences. If Apple was trading at $174 on Arca and at $175 on Nasdaq, those people would buy it on Arca and sell it on Nasdaq, making a risk-free instantaneous profit. And so many of them would do this so quickly that the prices would more or less instantly converge.
+Again, at a certain scale — for the arbitrageurs who make a career of this stuff — this is not true; there are milliseconds when you can buy at $174.99 one place and sell at $175 another place and make a quick profit. But at human scales it is true enough; there are not hours when you can buy at $174 one place and sell at $175 another.
+But that’s only true because there are a lot of those arbitrageurs with a lot of capital and fast computers, and because a lot of technological and regulatory work has gone into making sure that all of those arbitrageurs can connect to all the stock exchanges and see their prices and move their capital quickly to whatever exchange has cheap stock for sale. You could imagine a different system. You could imagine a system where NYSE Arca is downtown and Nasdaq is in midtown and you have to take a horse and buggy between them to trade, and you can’t use the phone, and there’s just one of you; then maybe prices would diverge by dollars for hours. That’s not too hard to imagine — it was roughly true 100 years ago, though stocks traded on fewer venues back then — but it does not really reflect our modern computerized markets.
+And then there’s Bitcoin!
+
+The price of Bitcoin against Tether’s USDT stablecoin fell to as low as $8,900 on BitMEX late Monday, while the largest cryptocurrency was trading above $66,000 on rival venues. The price of Bitcoin on the exchange quickly recovered and has been trading in-line with the rest of the market since.
+A spokesperson for BitMEX said the company investigated the incident and found evidence of “aggressive selling behavior involving a very small number of accounts that exceeded expected market ranges,” adding that its systems had operated normally and all user funds are safe.
+BitMEX is “investigating potential misconduct by traders on our Bitcoin-USDT Spot market,” the exchange said in a post on the X social-media platform on Tuesday. The exchange does not employ internal market makers and the orders to sell Bitcoin “were simply too big and frequent for independent market makers and other traders to react to,” according to the same post. The incident had no impact on BitMEX’s derivatives markets and no liquidations were triggered by it, the post added. 
+
+The best guess appears to be that this was one big whale, or perhaps a few, dumping Bitcoin steadily over a few hours:
+“Someone just dumped 400+ BTC over 2 hours in 10-50 BTC clips on the XBTUSDT pair on Bitmex eating 30%+ slippage. They must've lost $4m+ at least,” pseudonymous crypto community member “syq” wrote. “I'm guessing that they're done (for now?). Total volume so far is just shy of 1,000 BTC over 3.5 hours with a low of $8,900. Now BitMEX have disabled withdrawals,” they added.
+The exceptionally low prices did not persist uninterrupted for hours at a time or anything, but there seems to have been a pretty intense 10-minute period of low prices, and in any case each time this whale dumped 10 to 50 Bitcoin at a time, it got prices far lower than the prints on any other exchange. 
+And, you know, if I were making markets in Bitcoin on Coinbase, and I noticed that Bitcoin was selling for $8,900 on BitMEX, I would simply get myself over to BitMEX and start bidding, like, $9,000 for Bitcoin. That’s free money!
+Why didn’t anyone? Part of the answer is probably that they did; this gap eventually closed, though from BitMEX’s posting it seems that the gap closed more because the whale stopped selling than because anyone stepped in to buy. 
+But another part of the answer is that crypto exchanges are fundamentally different businesses from stock exchanges. In the US, if you buy stock on a stock exchange, you don’t send the money to the stock exchange. You send the money to the seller (and the seller sends the stock to you) through a clearinghouse; there’s one main clearinghouse for all US stock trades, and every exchange and broker is hooked up to it. If you are an arbitrageur looking to buy $100 million worth of stock, you don’t have to park $100 million at each of the 12 exchanges so you can trade on whichever one has the lowest price. You park $100 million at your one brokerage firm, and the broker handles settlement for you wherever you actually execute the trade.
+  [1]
+
+In crypto, it is the norm for exchanges to hold your money for you. One thing that this means is that there is a long and comical history of exchanges losing or stealing that money. Another, related thing that it means is that traders have to evaluate the credit risk of exchanges: You do not want to deposit $100 million on an exchange that will go and lose or steal it.
+  [2]
+ There is high-stakes credit due diligence each time you start trading on a new exchange. Also though there is just an operational issue: Even if an exchange’s credit is impeccable, if you want to be in a position to buy $100 million of Bitcoin on that exchange, you have to deposit $100 million on that exchange, which means putting it there and not elsewhere.
+BitMEX’s post about the flash crash says: “Yes, we are investigating potential misconduct by traders on our Bitcoin-USDT Spot market (Did you even know we offer Spot trading?),” with a little side-eye emoji in that parenthetical. The point is that BitMEX’s spot markets are not very important, to BitMEX or its customers or spot Bitcoin traders generally. BitMEX is “The OG Exchange for Crypto Derivative Trading” and reports relatively tiny amounts of spot trading relative to its derivative markets. If you are a market maker trading Bitcoin for dollars (or USDT), you are probably thinking about using your capital and technology efficiently to make markets on Binance and Coinbase and half a dozen other big spot Bitcoin exchanges. BitMEX’s spot market might be a bit of an afterthought. And if Bitcoin goes on a drastic sale on BitMEX for 10 minutes, you might not have time to get there and buy it.
+One possibility — as BitMEX says — is that this was attempted market manipulation. BitMEX is a big crypto derivatives market with a small crypto spot market attached to it. If you are short some Bitcoin derivatives contract that pays out based on the price of Bitcoin, and you sell Bitcoin to drive down the price, you will make money on your short derivative trade even as you lose money on your spot sales. If your derivative contract is very big, and your spot sales are very small — because it doesn’t take much to drive down the price in the spot market where you are trading — then this can be a good trade. If that was the idea, though, it didn’t work, in part because it’s not like BitMEX’s derivatives settle based on its spot market.
+  [3]
+ BitMEX said:
+This incident had NO impact on our billion-dollar derivatives markets. It did not move mark prices, and no liquidations were triggered by it because our indices are independent and battle-tested.
+I suppose one other possibility is that it was a fat finger, or the equivalent: Someone owned a lot of Bitcoin on BitMEX and wanted to sell them. There are good ways to do that: Sell them slowly over time, maybe. Or withdraw them from BitMEX and deposit them on another exchange with a larger and more liquid spot market and more market makers, so your big sales will have less impact. But that takes time and effort; the Bitcoin market is not knitted together the way the stock market is. If you want to sell all your Bitcoins all at once on the exchange they happen to be on, that can cost you.
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      Yellow
+    
+  
+
+You could have a model like this:
+	Every company has a capital structure with an order of seniority. Secured debt generally gets paid first, followed by unsecured debt, followed by preferred stock, followed by common stock, etc.	Every so often, some weird event flips some part of the seniority, so that people who would normally get paid back first get pushed to the back of the line, and people who would normally be at the back of the line move up.	You should try to (1) anticipate (or cause!) those events, (2) buy the stuff that will move up and (3) avoid the stuff that will move down.
+
+Probably the most notable recent case is Credit Suisse Group AG’s additional tier 1 capital securities. These AT1s were a form of subordinated debt that ranked senior to common stock in the capital structure, as Credit Suisse’s disclosures and presentations frequently said. But they had provisions saying that in certain circumstances — regulatory capital falling below a trigger, or certain national bailouts — they would be disappear, and it was not necessarily true that the common stock would disappear in those circumstances. And in fact, when Credit Suisse was acquired by UBS Group AG last year in a regulator-driven shotgun marriage, (1) the common stock got something and (2) the AT1s got nothing. If you had owned the senior AT1s a day before the merger, you would have been smart to sell them and swap into the junior common stock, because that got paid and the AT1s didn’t.
+This turned out to be very controversial, a lot of people still disagree that the AT1s should have been zeroed, and there are lawsuits. This is a pretty normal feature of this model: Seniority is rarely flipped in some clean, obvious and noncontroversial way; somebody will always sue.
+(Some other recent examples share that feature: Generically, there’s a company, it has debt, and some new or junior creditors strike a deal with the company to give it new money in exchange for being made more senior than the previously senior creditors. The creditors left out of the deal sue, claiming that this is not allowed.)
+Last year, Yellow Corp., the trucking company, filed for bankruptcy. A week before the bankruptcy, an investment firm called MFN Partners paid something like $23 million to buy a ton of Yellow stock, which seemed like a weird choice: Yellow’s bankruptcy was extremely well telegraphed, and generally when a company goes bankrupt its stock becomes worthless. But in fact Yellow’s assets (largely a real estate portfolio) turned out to be more valuable than its debt, there is money left over, and shareholders could get hundreds of millions of dollars back, making this a good trade for MFN. 
+Or not. Bloomberg’s Steven Church reports:
+
+MFN Partners is the single biggest stockholder of Yellow, which filed bankruptcy last year after failing to win concessions from its union drivers. The company has been liquidating its valuable portfolio of real estate under court oversight and that process has brought in more than initially expected.
+The way things are going, MFN and other shareholders including the US government could share a surplus in the range of hundreds of millions of dollars. But they’ll first need to step over pension funds, which have argued they should get the cash because Yellow ditched its retirement obligations in bankruptcy. …
+The pension funds claim that because the trucker shut down and fired tens of thousands of unionized workers, Yellow must kick in at least $582 million to cover future retirement payments, according to court papers. They claim the fight should be handled in private arbitration; the hedge fund says it should play out quickly and in open court, which would get everyone paid faster.
+
+One way to think about this is my model above: Ordinarily, when it is a going concern operating its business normally, a company has to pay its pension obligations. Those pension obligations are senior to the common stock; the shareholders only get the profits after the pension obligations are paid. But in bankruptcy, perhaps, that flips: Perhaps Yellow can walk away from its pension obligations for $0, leaving enough money to pay shareholders. On that model, buying the stock a week before the bankruptcy was a good trade: The stock was junior to the debt and pensions and so worth roughly nothing, but in bankruptcy it could ditch the pensions and become worth more.
+This is not the only model, though, and the pension funds and the US Pension Benefit Guarantee Corp. hotly dispute it. The dispute is actually kind of weird. Yellow’s unionized drivers are members of various large, union, multiemployer pensions; those pensions are underfunded; and Yellow had contractual obligations to contribute to those pensions. If it stopped doing so and withdrew from the pensions, it would have to put in additional money to cover the underfunded pension liabilities, and those withdrawal liabilities could be as much as $6.5 billion, Yellow itself estimated. It went bankrupt in large part because of a dispute with its unions over these pensions, so it stopped contributing in bankruptcy and the pensions filed claims for the withdrawal liability.
+But in 2021, the US government bailed out the pension funds as part of the American Rescue Plan. Now they have plenty of money, so Yellow argues that they are not underfunded, so it should have no withdrawal liability: “[The pensions] cannot ignore the [ARP bailout] or feign a need to allocate to the Debtors an attributable share of [unfunded vested benefits] that do not exist, at the expense of the Debtors’unsecured creditors and equity holders.” The pensions, and the PBGC — the government agency that insures pensions — argue, in effect, “oh come on it could not possibly work that way, you can’t get out of your pension obligations because of a government bailout of those pensions.” But it’s worth a shot!
+
+  
+    
+      Team lift
+    
+  
+
+Famously, financial services firms are places where “the assets leave in the elevators each evening.” I mean, this is a thing that you say if you work in financial services. It is flattering to you. It is not always entirely true. If you work in, like, private credit, arguably a lot of the assets are loans. Billions of dollars of loans, which do not take the elevator. Perhaps you run a fund, though, and the loans are on the balance sheet of the fund, and your firm’s assets are just you and some fees. Anyway you’re still pretty important.
+How important? One possible answer is, like, “if an acquirer wanted to buy your firm, it would pay a premium to the value of the loans in order to get you and your talents and relationships and deal pipeline.” An even more flattering answer is “if an acquirer wanted to buy your firm, it wouldn’t: It would just hire you, because you are the main asset. The loans would follow, or not, but they’re a commodity and not that important; what matters is the people.”
+Bloomberg’s Silas Brown, Paula Seligson and John Sage reported last week:
+
+Upstart private credit firm Corinthia Global Management approached Barings and parent MassMutual about buying certain Barings assets and overseeing some of its portfolios, after poaching more than 20 people from the firm, according to people with knowledge of the matter. ...
+The new private credit manager also offered to provide portfolio management services to Barings Global Private Finance, which includes Barings’ direct lending operations, and assume management of its funds over time, subject to investor and regulatory approvals, the person said. The company also proposed sharing some revenues, the person added.
+Discussions haven’t advanced and the two firms are not currently engaged in talks regarding the proposal, the people said.
+
+Rude! This week Barings sued:
+
+Investment manager Barings sued Corinthia Global Management and former employees Ian Fowler and Kelsey Tucker after the upstart private credit firm poached more than 20 employees in one of the largest team lifts at an alternative asset manager in recent years.
+The poaching shocked the private credit industry, which has grown to $1.7 trillion in assets under management globally. The industry has expanded quickly as more firms seek exposure to a corner of the loan market that can appear less volatile and offer higher returns, but starting a new asset manager remains difficult given the limited talent pool in the niche.
+
+And the Financial Times notes:
+
+The raid, which one rival to Barings described as “aggressive” and a tactic they had never seen before, carries a risk that the loans Barings currently holds are refinanced by other lenders keen to take advantage of the situation.
+When private credit firms are willingly put up for sale, it is not unusual for a quarter of that firm’s loan book to be refinanced by rivals. It is potentially more fraught when a situation is hostile, the rival added.
+“Typically this would create a run on the portfolio because anyone in those deals would try to refinance them out,” the person said. “And it raises bigger issues of how do [private equity] sponsors feel about them?”
+
+Barings’ complaint explains how rude it was:
+
+At 5:39 p.m. Eastern time on Friday, March 8 – after 10:30 at night in London – the founder of Corinthia, Paul Weightman, emailed Roger Crandall, the chairman and chief executive officer of Barings’ parent company, Massachusetts Mutual Life Insurance Company (“MassMutual”), referencing Mr. Wheeler’s resignation and requesting to arrange a time to speak on Saturday, March 9.
+On the morning of March 9, Mr. Weightman again emailed Mr. Crandall threatening that the impending departure of “the senior managers will create a range of issues for the Barings Private Credit business” and attaching an unsolicited term sheet pursuant to which Corinthia sought to assume responsibility for Barings’ entire GPF business, make offers of employment to all employees of the GPF group and have Barings release all of those employees from their restrictive covenants, and purchase the GPF portfolio and business for pennies on the dollar. The Corinthia term sheet went so far as to provide that Barings would appoint Corinthia as the sub-investment advisor for Barings’ managed funds and pay Corinthia a portion of the management fees earned by Barings on the GPF funds.
+
+Once you have the people, the loans are worth pennies on the dollar. Barings argues that its former employees are breaching their non-solicitation and confidentiality agreements, and you get a sense of how important those agreements are. If the value of the business is just in the employees’ knowledge and relationships, and they can take that knowledge and those relationships with them, then what else did Barings own? 
+
+  
+    
+      Shareholder Commons
+    
+  
+
+Ahh I love these guys, I sometimes think that they are just in business to entertain me:
+
+In advance of the 2024 proxy season, The Shareholder Commons (TSC), a non-profit advocate for diversified investors, has published Portfolios on the Ballot 2024, the first publication specifically designed to help investors vote their proxies on a systems-first basis. Portfolios on the Ballot flags initiatives designed to protect the social and environmental systems that support all the companies in a diversified portfolio. ...
+“This year, we have collected dozens of shareholder initiatives that aim to protect diversified investors’ common interests in protecting the systems that underlie a thriving economy,” says Rick Alexander, the CEO of The Shareholder Commons. “The sheer number of initiatives illustrates the growing interest of investors in addressing environmental and social issues from a systemic perspective. This reflects an evolution in shareholder stewardship away from a purely single company focus.”
+
+The theory here is that if you are a broadly diversified shareholder, and you own stock in Company X, and Company X is doing something that will increase its profits by $100 but will reduce the profits of your other companies by $110, you should tell Company X to knock it off. This theory makes complete sense, though it is often hard to know how to implement it: It’s rarely obvious how Company X’s actions will affect the total value of all other companies. But the Shareholder Commons takes an expansive, imaginative view. For instance:
+One of the proposals we flag asks the Board of Alphabet (GOOG; GOOGL) to address risks from the use of artificial intelligence. Rather than simply arguing that this will lead to higher returns at Alphabet itself, the proponent argues, “We believe that shareholders, many of whom are widely diversified and may feel the impacts of the potential negative externalities of Alphabet’s AI activities throughout their investment portfolios, would benefit from improved oversight.” Another asks Shell PLC to align its greenhouse gas emissions targets with the goal of the Paris Agreement, arguing that “[a] vote for this proposal is warranted by investors who seek to ensure a long-term future for the Company and to protect the value of their entire investment portfolios.”
+I mean it’s probably the case that powerful artificial intelligence will put some companies out of business? Is that Alphabet’s problem? Not in a traditional sense, but arguably it is Alphabet’s shareholders’ problem. 
+
+  
+    
+      Things happen
+    
+  
+
+Reddit, Shareholders Guide IPO Price at Top of Range or Above. Russian jet insurance dispute. How Hertz’s bets on Tesla and a Goldman veteran veered off course. Sam Bankman-Fried Says 50-Year Sentence Only Suitable for a ‘Super Villain.’ The Era of No-Brainer 5% Returns on Cash Is Ending. George Lucas Endorses Disney and CEO Bob Iger in Proxy Fight: ‘Creating Magic Is Not for Amateurs.’ Sports Illustrated Finds Publisher for Print Edition. U.S. No Longer Ranks Among World’s 20 Happiest Countries. Bentley Buyers Are Splashing Out €39,000 on Options for Each Car. Real estate agent accidentally burned down house ahead of open house.
+If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
+        
+  [1] Even that is an exaggeration; if you're a big trading firm, probably you park much less of your cash at your broker, and the broker extends you credit so you can settle your trades.
+
+
+  [2] Here’s the BitMEX web page explaining how it keeps the money safe. The New York Stock Exchange does not have a similar page!
+
+
+  [3] Here’s BitMEX’s table of how it calculates index prices, many of which assign zero weight to its own spot market.
+
+
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+
+
+  
+    
+      
+        
+        
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckox0y.5lo2/9b7fb461.gif" alt="" border="0" /></a>

@@ -1,0 +1,169 @@
+# A slow learning curve | The Economist
+
+**Source**: http://www.economist.com/node/16564142/print
+**Type**: article
+**Created**: 2025-08-13T22:03:01.160683
+
+---
+
+title: A slow learning curve | The Economist
+source: http://www.economist.com/node/16564142/print
+date: 2025-08-13T22:02:51.459358
+tags: []
+---
+![
+](http://web.archive.org/web/20141013171325im_/http://media.economist.com/images/images-
+magazine/2010/29/sr/201029srp004.jpg)Just being at school is a start
+
+FIFTY years ago Egypt looked oddly similar to another country. It had nearly
+the same population which was growing similarly fast, the same low income per
+person, the same proportion of relatively few city dwellers to lots of
+peasants working tiny plots, and similar life expectancy. With dangerous
+enemies on their borders, both countries were weighed down by heavy military
+spending. Both were run by quasi-dictators, complete with strict censorship
+and a pervasive secret police.
+
+Egypt has made a lot of progress since then, particularly in recent years. But
+the other country, South Korea, has developed far faster. It has become a
+leading industrial power, a technological innovator and a vibrant democracy.
+Its people are now five times richer than Egypt's (at purchasing-power parity
+against the dollar; at prevailing exchange rates the gap is far bigger), and
+on average live nearly ten years longer. The only measure on which South Korea
+lags behind is population growth. Whereas it had around 25m people in 1960 and
+now has double that number, Egypt's population has nearly tripled.
+
+Such comparisons are doubtless unfair. The East Asian context is very
+different from the Middle Eastern one, and seen from the Pacific perspective
+South Korea's achievement looks less unique. Besides, although in retrospect
+that country's model of development has been extraordinarily successful, back
+in the 1960s Egypt's ultimately wasteful experiments with nationalised
+industries and state planning were widely applauded. Plenty of Egyptians
+remain nostalgic for the years under President Gamal Abdel Nasser, when toilet
+paper and soap were scarce but the shiny new state-run factories providing
+jobs for life had not yet rusted and Egypt held its head high in regional
+affairs.
+
+Yet those statistics from half a century ago do reveal a few differences that
+may be instructive. In South Korea the number of children born per woman was
+falling fast. Population growth was slowing, propelling the country into a
+happy phase known as the demographic transition, when the population pyramid
+begins to shrink at the base and widen in the middle, causing a bulge in the
+working-age population and a relative decline in the number of dependants.
+
+Egypt caught up with this trend only in the 1990s as its people started having
+smaller families after decades of high fertility. Its population pyramid has
+become dome-shaped and is slowly turning into a pear. Between 2000 and 2007
+the number of dependants per 100 working-age Egyptians fell from 69 to 55,
+according to government statistics. That augurs well for the future and may
+help to explain why Egypt remained relatively unscathed by the global
+financial crisis of 2007-08. The biggest groups now are not children but
+youths aged 15-25. They are ambitious and hungry for consumer goods, often of
+the expensive and one-off kind needed to establish a new household.
+
+South Korea and Egypt differ in another important respect. Fifty years ago,
+when South Korea's adult literacy rate was already 71%, Egypt's trailed at a
+dismal 25%. With 72% now, Egypt has only just passed South Korea's level of
+1960. That has had serious repercussions. According to a government-
+commissioned study, one reason why poverty has endured, despite Egypt's rapid
+growth, is that too few people have the skills to exploit the opportunities
+available to them. Egyptian businessmen complain that a shortage of talented
+workers is one of the biggest obstacles to growth, second only to obstructive
+bureaucracy. Lawyers fume that it is not just too many laws and too few courts
+that tangle justice, but clueless judges and incompetent clerks.
+
+**What do you know?**
+
+It is not merely a question of literacy. Anecdotal evidence suggests that
+Egypt's high rate of traffic accidents, for instance, may be largely due to
+ignorance of basic rules. High fatality rates in hospitals reflect poor
+standards of training, accountability and hygiene. A 2008 study of public
+awareness of AIDS revealed that only 1.8% of women among the poorest fifth of
+Egyptians, and less than 16% among the richest, knew the basic facts of the
+disease. Men were better informed, but even so less than 30% of the wealthiest
+class were aware, for example, that someone might be HIV-positive yet look
+healthy.
+
+Recent surveys also show that two-thirds of Egyptian girls aged 10-14 have
+been subjected to the traditional practice of female circumcision. This is
+down from 90% among women in their 20s, which suggests a rapid decline. But
+the persistence of the brutal and dangerous custom, despite an official ban
+and public-awareness campaigns, is disturbing.
+
+A government survey this year found that, apart from school textbooks, 88% of
+Egyptian households read no books, and three-quarters of families do not read
+any newspapers or magazines either. Of those who do read, 79% concentrate on
+religious subjects. Perhaps more encouragingly, the study found that nearly
+three-quarters of youths aged 15-29 have used the internet, and almost half of
+them have read books on the web. But again, religious fare was the favourite
+subject, followed by sport, and only distantly by scientific subjects. Other
+surveys have found far lower levels of internet use.
+
+Egypt's failure to educate its people is not due to lack of effort. The
+country's first modern schools opened in the early 19th century, far earlier
+than in most of the region. Free public primary education was introduced in
+the 1940s, but not widely available until after the 1952 revolution. In the
+following quarter-century university enrolment increased by more than ten
+times. The number of primary schools doubled, the number of students
+quadrupled and public spending on education swelled from 3% to 4% of GDP, a
+respectable figure by world standards.
+
+Yet something went wrong. Before the revolution Egypt's schools and
+universities were few but their standard was excellent. The push to boost
+numbers came at the cost of a drastic fall in quality. Instead of following
+tested Western models, school textbooks were rewritten to emphasise
+“nationalist values”, scientific formulas and lists of facts rather than
+critical thinking. By the 1980s class sizes in government schools averaged
+more than 60. With student numbers in several big state universities up to
+six-digit figures, hundreds, even thousands of students were packed into
+lecture halls. Some of the better staff emigrated to Gulf countries, where
+salaries were many times higher.
+
+Those left behind began to exploit an obvious market opportunity, offering
+private lessons on the side. This practice became so pervasive that by 2005
+some 64% of urban students and 54% of rural ones resorted to private crammers
+in addition to regular schooling, according to Egypt's Human Development
+Report. A 2002 World Bank study found that private tuition accounted for fully
+1.6% of GDP, and other studies suggest it devours a whopping 20% of household
+spending in families with school-age children. A big reason why families are
+willing to spend so much is that the education system relies heavily on
+national exams, not only for rating students but also for placing them in the
+various faculties of the state universities that still account for 95% of
+college enrolment.
+
+Since the 1960s these have been ranked by prestige, with medicine and
+engineering accepting only the highest-scoring students. The humanities,
+including law and education, are left with the dross. In effect, this creates
+a tyranny of exams largely based on rote learning. It forces unhappy students
+into disciplines they would not have chosen for themselves and produces a
+chronic imbalance between the skills of graduates and the needs of the
+marketplace. Egypt has a surplus of would-be lawyers, slapdash engineers and
+scarcely numerate accountants but few trained librarians, architects or
+actuaries.
+
+Rather slowly, the education system is improving. Whereas in the early 1990s
+nearly half of all children either did not even start basic education or
+failed to complete it, that proportion has now fallen below 15%, which
+suggests that Egypt could be reaching 90% literacy within a generation. In
+2007 the government launched a five-year overhaul of basic education,
+including a sharp rise in teachers' salaries, better school facilities and a
+reworked curriculum. Another initiative seeks to give all high schools
+broadband internet connections by 2012. Many state universities now have
+specialised and sometimes fee-paying faculties, often in collaboration with
+foreign institutions; but even so the number of private colleges has risen
+rapidly. Private businesses, long absent from education, now sponsor
+scholarships and university chairs.
+
+Egypt has, in effect, accepted that it runs a two-tier education system. It is
+skewed towards those who can afford to pay for the best private tutors or,
+better still, private schools, which are flourishing. Even in public
+universities, a startling 48% of students come from the richest fifth of
+society. Yet although the promise of a decent free education for all has
+clearly not been met, at least Egypt's better university faculties are again
+producing top-notch graduates, and publishers and bookshops have seen a surge
+in sales in recent years.
+
+Historic comparison offers some cause for optimism. Egyptians' educational
+level now equals not only South Korea's in 1960 but also Turkey's in 1980 and
+much of western Europe's at the end of the 19th century. In all those places
+the threshold of 75% literacy proved a starting point not just for faster
+economic growth and human development but for political transition too.

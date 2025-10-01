@@ -1,0 +1,83 @@
+# Weekly Dose of Optimism #85
+
+**Source**: inputs/saved_emails/Weekly Dose of Optimism #85_Fri,_15_Mar_2024_11-53-13_+0000_18e41f61d58a7cb9.eml
+**Type**: email
+**Created**: 2025-08-25T02:53:57.039133
+
+---
+
+View this post on the web at https://www.notboring.co/p/weekly-dose-of-optimism-85
+
+Hi friends 👋,
+Happy Friday and welcome back to our 85th Weekly Dose of Optimism.
+Packy here again. Dan’s still slinging creatine gummies [ https://substack.com/redirect/0bbf455f-b968-422e-9107-cfe1fd79bf21?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], so I get to take over for another one of the most accelerated weeks in human history. I might even add an extra story or two. 
+Imagine going back a century, even a decade, and telling people about everything that happened this week. Robots, thermodynamic chips, solar-reflecting satellites, software that can code, and the biggest rocketship of all time going orbital.  
+Let’s get to it.
+Today’s Weekly Dose is brought to you by… Composer [ https://substack.com/redirect/301836a8-3588-42a9-859f-7e9fb60e212d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+I love Composer. You know I love Composer. I’m a terrible trader — MOST people are terrible traders — so I invest with Composer, where I can create rule-based Symphonies simply, set it, and forget it. You can build trading algorithms with AI, backtest them, then execute—all in one platform.
+They even have an active community of geniuses building community Symphonies, a few of which I’ve put money in, backed up by backtests and step-by-step descriptions of how they work. It’s like having a team of quants at your fingertips. 
+Recently, Composer launched retirement accounts. I moved mine over in a couple clicks (they handle everything with your current provider) and now I can put my family’s retirement savings in Bitcoin and TQQQ like the good lord intended. 
+As an investor and friend, I’m biased, but I’ve never used an investing platform I love as much as I love Composer, and I put my money where my mouth is. Join me and invest better. 
+(1) SpaceX Launches Starship into Orbit [ https://substack.com/redirect/1a653729-b11c-4a8e-a769-d5448a709cde?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Yesterday morning, SpaceX completed a successful Starship Flight Test. For the first time in three attempts, Starship reached orbital velocity after a successful stage separation. 
+You read Not Boring. You know this already. I’m not telling you anything new here. 
+What made this one special for me was how I watched it. Puja’s out of town so my mom came to help out with the kids this week. We let Dev play hooky from school for the morning to watch the launch with us. As T-0 approached, the three of us hopped on the couch together. 
+When they panned to the shot of the SpaceX team cheering from the Hawthorne HQ, my mom, who reads Not Boring because she loves me but is a far cry from an Elon fanboy or space nut, started tearing up. In the final ten seconds, Dev counted down along with the commentator. As Starship took off, the three of us fell silent, and then cheered, glued to the screen. 
+Starship is an engineering marvel. It might be the vehicle that makes humans multiplanetary. But what hit me watching this launch is the power of moonshots to make people of all ages feel like they’re part of something bigger and forward-moving. 
+Tech isn’t perfect, but this is why we write the Weekly Dose — so that more people can see the wonder that humans are capable of creating, and hopefully feel just a little more optimistic about where we’re heading. 
+(2) Gold-Medalist Coders Build an AI That Can Do Their Job for Them [ https://substack.com/redirect/ef0e0e8b-dc95-4f91-9a6f-e4c936a1a93b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Ashlee Vance for Bloomberg
+Cognition AI is full of sport-coders. Its staff has won a total of 10 gold medals at the top international competition [ https://substack.com/redirect/35a2b0a3-c2e5-4f3d-8b38-37ce1f81a5a8?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], and Scott Wu says this background gives his startup an edge in the AI wars.
+Humans rock, but AI is getting pretty great too. 
+On Tuesday, Cognition AI lit the internet on fire when they announced their AI software engineer, Devin [ https://substack.com/redirect/7d9c24c3-cd9f-484b-a24a-22b6faf527d1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] (great name!). The tweet announcing the product currently has 27 million views. 
+I’ve gotten to play around with Devin over the last couple of days, and it’s a totally different experience than you might be used to with something like ChatGPT. You tell Devin something you want to code — a website, game, debugging your code, spinning up an LLM inside a Docker container, whatever — and it plans out the steps required, executes them in order, and pings you when it needs something like an API key. 
+Given its name, I asked it to spin me up a site that has Devin and Maya’s names bouncing around the screen, which it did quickly and deployed to Netlify [ https://substack.com/redirect/9e88a745-e51a-401d-9263-e6db38051066?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
+The early demo is impressive, especially when you consider that the company officially incorporated two months ago, and it will only get smarter and faster from here. The speed shouldn’t be surprising given that the team of 10 has won 10 IOI gold medals for competitive coding, and that its CEO, Scott Wu, did this when he was a kid:
+If you’re a real diehard Not Boring reader, you may remember Scott’s brother, and Cognition AI team member, Neal Wu from the piece I wrote on Ramp in 2022 [ https://substack.com/redirect/85e8ffee-0106-4ab3-81c0-19f63ee553de?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]: 
+As someone who doesn’t know how to code but would love to, I for one welcome our AI coderlords. 
+(3) Ushering in the Thermodynamic Future [ https://substack.com/redirect/a3c1dbb5-29d0-4d17-8ab4-87978f1267c7?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Guillaume Verdon & Trevor McCourt for Extropic
+Extropic’s superconducting chips are entirely passive, meaning we only expend energy when measuring or manipulating its state. This likely makes these neurons the most energy-efficient in the universe.
+Not Boring Capital portfolio company Extropic AI came out of stealth a little earlier than expected when Forbes doxxed its co-founder [ https://substack.com/redirect/78c970e2-d169-4ad8-b29e-84f08079ea2f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], Beff Jezos/Guillaume Verdon, late last year. The company promised that it would explain more about what it was up to soon. 
+On Monday, it did, releasing a litepaper that provides some more detail on its plans to build thermodynamic chips. Sitting between classical computing and quantum computing, thermodynamic computing essentially uses the fluctuations of electrons as random number generators to provide the randomness needed for Energy-Based Models.
+Energy-Based Models perform well when there’s limited data or when modeling tail events by taking a brute force-ish approach: it imagines all possible events, including those not in the training data, assigns probabilities to each event based on their compatibility with the data, and penalize the lower-probability events. Imagining every possible event and assigning probabilities to each of them would consume a ton of energy in a classical computer, but by using nature’s randomness and baking it into the physics of the chips, Extropic gets that energy practically for free and can operate orders of magnitude faster. 
+These models might be very useful in applying generative AI to weather forecasting or financial markets, among other high-value use cases.
+If you want more explanation than my feeble human brain can provide, check out the litepaper and:
+Andrew Côté’s tweet explainer [ https://substack.com/redirect/4a2fb8c2-5051-4ce4-b9d4-11bbac6b86c2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Guillaume and Trevor on Christian Keil’s First Principles [ https://substack.com/redirect/3177bd20-26c2-4fed-91df-b07382231e7b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Guillaume and Trevor in conversation with Garry Tan [ https://substack.com/redirect/53b9448d-6172-4167-ba27-11799d5baa9d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Extropic is taking a massive swing and attempting to accelerate the next era of computing, which Guillame and Trevor believe is inevitable as silicon transistors hit “Moore’s Wall.” They’re building analog chips and the software that runs on top of them. If they succeed, Côté wrote that they’ll build the Transistor for the AGI Era that “unblocks fundamental progress, relaxes resource constraints, and forever changes the world.” That’s a swing worth taking. 
+(4) Sharing a Bit More About Reflect Orbital [ https://substack.com/redirect/ba393651-e4da-4444-a56f-162aa4a5aa94?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+By precisely reflecting sunlight that is endlessly available in space to specific targets on the ground, we can create a world where sunlight powers solar farms for longer than just daytime, and in doing this, commoditize sunlight.
+Ben Nowack for Reflect Orbital 
+Even when Extropic makes computing much more energy efficient, we’re still going to need to consume a ton of energy. That’s how we progress. 
+The curves suggest that solar is going to have an enormous role to play in producing that energy — it just keeps getting cheaper as we build more of it. 
+One of the most interesting things happening now that people are beginning to trust solar’s curve is that there are businesses being built to complement and enhance solar. Batteries are the obvious complement — they keep getting cheaper too, though not as fast as solar itself.
+But there are more creative complements, too. Terraform Industries, which uses solar to produce synthetic fuels, is one that I’ve written about a few times. And this week, a startup called Reflect Orbital [ https://substack.com/redirect/b751f0bf-3dab-4540-8511-87f7468a8903?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] announced what it’s been building on twitter. 
+Reflect sits at the intersection of two curves: cheaper solar and cheaper launch. It plans to send satellites with mirrors on them into orbit, and use those satellites to reflect sunlight on solar farms when it’s dark. Nighttime has been one of solar’s biggest challenges; Reflect is kinda trying to solve night. If they do, they’ll make solar panels and solar farms more productive, make them even better investments, and drive the price down even further as they drive installations up.  
+Now if that doesn’t brighten up your day… 
+(5) With OpenAI, Figure 01 can now have full conversations with people [ https://substack.com/redirect/30542b50-1c85-44ba-8c4f-86ab299ac07d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+On it, so I gave you the Apple because it’s the only edible item I could provide you with from the table.
+— A robot, while also picking up trash
+Just watch the video. 
+That robot wasn’t coded to do any of the things in the video specifically. It was trained on a lot of video data, and is now able to respond to verbal requests to do physical things in real-time thanks to that training and a partnership with OpenAI. 
+This comes weeks after Figure, the company behind the bot, announced a $675 million round at a $2.6 billion valuation from investors including Jeff Bezos, Nvidia, Microsoft, and OpenAI. 
+Like Devin, this is as dumb as these robots are ever going to be. Every time one of them learns how to do something new, all of them will know how to do it, like the Neo “I know Kung Fu” thing from the Matrix applied to a growing fleet of humanoid robots. 
+Energy, dexterity, and intelligence [ https://substack.com/redirect/da2634f1-6034-4ed0-b3e6-ae467b829ef2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]… it’s all happening. 
+(6) Ethereum Completes EIP-4844 Upgrade [ https://substack.com/redirect/402daa0b-26ce-40d7-94a5-209a369f036c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+One of Ethereum’s biggest challenges historically has been that it’s expensive to do anything on the chain. Gas fees are regularly ~$5-10 and can spike into the hundreds of dollars. 
+In response to that challenge, a number of groups have built Layer 2s (L2s) that handle a bunch of transactions off of the Ethereum mainnet, and then send them down in batches. L2s have brought gas fees sub-$1. If you’re making a big trade or buying a valuable NFT, something like $0.30 is nothing, but if you want to bring all sorts of actions onchain, asking users to pay $0.30 each time is still tough. Imagine having to fork over 30 cents every time you like a tweet. 
+In 2022, Ethereum devs drafted and implemented a proposal, EIP-4844, that introduced “blob-carrying transactions” to lower costs and improve scalability. Blob-carrying transactions contain a large amount of data, called “blobs,” that can be used to bundle multiple transactions together and process them off-chain. The blobs are stored on the Ethereum network for a short period, allowing anyone to download and verify the data if needed. This ensures data availability for L2s.
+This week, Ethereum successfully completed the Mainnet upgrade to 4844. Gas fees on L2s have plummeted to less than 1 cent in most cases, a longstanding holy grail. 
+I view blockchains as platforms [ https://substack.com/redirect/38e0cc97-c4e5-4486-bff9-f50b4f1cedbc?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], and think that the more trade-offs that get eliminated, the more developers will build onchain to take advantage of blockchains’ unique properties. Cost has been a really big trade-off. I’m excited to see what people cook up with sub-cent transaction costs. 
+(7) Company aiming to ‘de-extinct’ mammoths creates elephant stem cell line [ https://substack.com/redirect/52bf5170-5258-428f-b602-b94013e7e383?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Christie Wilcox for Science
+A biotech company has succeeded in converting skin cells from Asian elephants (Elephas maximus) into stem cells [ https://substack.com/redirect/8e35e9e8-022c-41f8-b196-1f74db9f8d9d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] capable of growing into the layered cells that become vertebrate tissues—a feat that may not only help conserve the endangered species, but also aid efforts to bring long-extinct woolly mammoths back to life.
+“Your scientists were so preoccupied with whether or not they could, they didn’t stop to think if they should.”
+Just getting the obvious Jurassic Park line out of the way here before letting you know that a startup co-founded by legendary Harvard geneticist George Church successfully converted the skin cells from Asian elephants into stem cells, which can grow into other types of cells and bingo bongo, the wooly mammoths are back. 
+Colossal [ https://substack.com/redirect/b77c9593-20e7-4e12-8ea6-f532daa06195?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], the company behind the work, has a lot left before it can meet its splashy initial goal of de-extincting the wooly mammoth, but its a step towards an absolutely … colossal … step in its mission to make extinction extinct. 
+We’ll be back in your inbox on Tuesday. Until then, spread the good news:
+Thanks for reading,
+Packy + Dan
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVFF5TmpBNU9EazFMQ0pwWVhRaU9qRTNNVEExTURNMk1ETXNJbVY0Y0NJNk1UY3hNekE1TlRZd015d2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LlV0dEdYckVTSURzTzA1NmkyRU9zeFQyemRoX0JSeUQtdTdEZHRpMEhMU0EmZXhwaXJlcz0zNjVkIiwicCI6MTQyNjA5ODk1LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTcxMDUwMzYwMywiZXhwIjoxNzEzMDk1NjAzLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.7khbY5gPYPpc-xJEGD5FbdGi-f6SuPg0zRXOGGknK5w?

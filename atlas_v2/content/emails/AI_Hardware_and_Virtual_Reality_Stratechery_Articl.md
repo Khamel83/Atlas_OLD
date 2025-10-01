@@ -1,0 +1,137 @@
+# AI, Hardware, and Virtual Reality (Stratechery Article 9-29-2023)
+
+**Source**: inputs/saved_emails/AI, Hardware, and Virtual Reality (Stratechery Article 9-29-2023)_Thu,_28_Sep_2023_18-19-12_+0000_18add043f6e77d1c.eml
+**Type**: email
+**Created**: 2025-08-27T03:02:19.358348
+
+---
+
+Defining virtual reality as being about hardware is to miss the point: virtual reality is AI, and hardware is an (essential) means to an end.
+
+View in browser ( https://stratechery.com/2023/ai-hardware-and-virtual-reality/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL2FpLWhhcmR3YXJlLWFuZC12aXJ0dWFsLXJlYWxpdHkvIl19LCJleHAiOjE2OTg1MTcxNTIsImlhdCI6MTY5NTkyNTE1MiwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.E2wcjl6Ia4dcnV0qxpBu5g6h0Kic3RDdQ7vHf5EQYFMUvpd2A8EBsQu-yGD09i9kb6-iyrtT-FlASZ-8MYGnx8pCObw4NK-4Qjxf86nJdfUE8KqIc8XbKc80HM_wwbMG_cyq4AQjekPW3OXrCBsZ2JHZwKs0G1ME_n3KCkBEHphpKdM5pjTbYld5RHxOajWwBULToAc-hErMXvmg8nxyKeU-mayirDYCmx38dlhRc3nm-JE4AkA_CTb-PgoEIzoLVQtRWObfi2GASovSmHz-kdKGABJXPBgEZlG23aJjn_kknkGM5oeZ929iAzwhQmDjMeuuyZhs9TXUzRaCGtZRDw )
+
+( https://stratechery.com )
+
+AI, Hardware, and Virtual Reality
+
+( https://stratechery.com/2023/ai-hardware-and-virtual-reality/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL2FpLWhhcmR3YXJlLWFuZC12aXJ0dWFsLXJlYWxpdHkvIl19LCJleHAiOjE2OTg1MTcxNTIsImlhdCI6MTY5NTkyNTE1MiwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.E2wcjl6Ia4dcnV0qxpBu5g6h0Kic3RDdQ7vHf5EQYFMUvpd2A8EBsQu-yGD09i9kb6-iyrtT-FlASZ-8MYGnx8pCObw4NK-4Qjxf86nJdfUE8KqIc8XbKc80HM_wwbMG_cyq4AQjekPW3OXrCBsZ2JHZwKs0G1ME_n3KCkBEHphpKdM5pjTbYld5RHxOajWwBULToAc-hErMXvmg8nxyKeU-mayirDYCmx38dlhRc3nm-JE4AkA_CTb-PgoEIzoLVQtRWObfi2GASovSmHz-kdKGABJXPBgEZlG23aJjn_kknkGM5oeZ929iAzwhQmDjMeuuyZhs9TXUzRaCGtZRDw ) Thursday, September 28, 2023
+
+Listen to this Update in your podcast player ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+In a recent interview I did with Craig Moffett ( https://stratechery.com/2023/an-interview-with-craig-moffett-about-charter-vs-disney-and-the-path-dependency-of-the-communications-industry/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL2FuLWludGVydmlldy13aXRoLWNyYWlnLW1vZmZldHQtYWJvdXQtY2hhcnRlci12cy1kaXNuZXktYW5kLXRoZS1wYXRoLWRlcGVuZGVuY3ktb2YtdGhlLWNvbW11bmljYXRpb25zLWluZHVzdHJ5LyJdfSwiZXhwIjoxNjk4NTE3MTUyLCJpYXQiOjE2OTU5MjUxNTIsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.ZaQ7BqnQUSyeIYoodaZNmI7hWdiZaJPHzbMkZRiekujiDvCW7VWzUHt72x3NObPRzfauz7OfM5bT_LAd6n8DHFyOc2VQWE4bg9rmXJbmAh0oQCl863UpC9q8PLgIEcazArXSAu_snBLXtnCsi0YJXs4T_Ve_9uJLaIVf8TkbuC4cwWCzUIwPCu2YGYV1QGSfG5kE8mDj1VStek_v04RFnBq9bnTK8UFJjyv5f5mfIDcWRos3bp-XdCequFljnCUKwZ7R--8e2zhqnh1Lt4B8pyFNP_O7u95w2beAaA0ZVv4vGtvXyMJ0JyIQEnYMdCVNUcaUkFL0EjmplliZM1C2gw ) we discussed why there is a “TMT” sector when it comes to industry classifications. TMT stands for technology, media, and telecoms, and what unifies them is that all deal in a world of massive up-front investment — i.e. huge fixed costs — and then near perfect scalability once deployed — zero marginal costs.
+
+Each of these three categories, though, is distinct in the experience they provide:
+
+* Media is a recording or publication that enables a shift in time between production and consumption.
+* Telecoms enables a shift in place when it comes to communication.
+* Technology, which generally means software, enables interactivity at scale.
+
+Another way to think about these categories is that if reality is the time and place in which one currently exists, each provides a form of virtual reality:
+
+* Media consumption entails consuming content that was created at a different time.
+* Communication entails talking to someone who is in a different place.
+* Software entails manipulating bits on a computer in a manner that doesn’t actually change anything about your physical space, just the virtual one.
+
+The constraint on each of these is the same: human time and attention. Media needs to be created, software needs to be manipulated, and communication depends on there being someone to communicate with. That human constraint, by extension, is perhaps why we don’t actually call media, communication, or software “virtual reality”, despite the defiance of reality I noted above. No matter how profound the changes wrought by digitization, the human component remains.
+
+AI removes the human constraint: media and interactive experiences can be created continuously; the costs may be substantial, particularly compared to general compute, but are practically zero relative to the cost of humans. The most compelling use case to date, though, is communication: there is always someone to talk to.
+
+ChatGPT Talks and Sees
+----------------------
+
+The first AI announcement of the week was literally AI that can talk: OpenAI announced that you can now converse with ChatGPT, and I found the experience profound.
+
+You have obviously been able to chat with ChatGPT via text for many months now; what I only truly appreciated after talking with ChatGPT, though, was just how much work it was to type out questions and read answers. There was, in other words, a human constraint in our conversations that made it feel like I was using a tool; small wonder that the vast majority of my interaction with ChatGPT has been to do some sort of research, or try to remember something on the edge of my memory, too fuzzy to type a clear search term into Google.
+
+Simply talking, though, removed that barrier: I quickly found myself having philosophical discussions including, for example, the nature of virtual reality. It was the discussion itself that provided a clue: virtual reality feels real, but something can only feel real if human constraints are no longer apparent. In the case of conversation, there is no effort required to talk to another human in person, or on the phone; to talk to them via chat is certainly convenient, but there is a much more tangible separation. So it is with ChatGPT. 1 ( #fn1-11652 )
+
+The second AI announcement was that ChatGPT now has vision: you can take a picture of an object or a math problem, and ask ChatGPT about it. It’s a very powerful capability, particularly because it seems that GPT-4 is truly multi-modal: there isn’t some sort of translation layer in-between. The limitation, though, was effort: I had to open up the camera, take a picture, and then ask some sort of question. To put it another way, the impressiveness of the vision capability was, at least for me, somewhat diminished by the fact said capability was released at the same time as voice chat, which impressed precisely because it was easy.
+
+What is interesting is that I had the opposite reaction during a demo last week: when I watched someone from OpenAI demonstrate vision, it seemed like the more impressive feature by far. The context in which I observed that demo, though, was a Zoom call, which meant I was engaging with the feature on a distant and more intellectual level — a level not dissimilar from how I might have interacted with ChatGPT when I had to type my questions and read the answers. To simply talk, meanwhile, wasn’t very impressive to observe, but was much more impressive when I was the one interacting.
+
+Meta AI and Emu
+---------------
+
+The next set of AI announcements happened yesterday at Meta Connect. Meta is releasing its own chatbot, called Meta AI, and a fleet of celebrity-based AI characters, with the promise of more to come, and a developer platform to boot. I haven’t used any of these products, which are, for now, limited to text interactions. What the releases point to, though, is the removal of another kind of human constraint: in the very near future literally billions of people can talk to Tom Brady or Snoop Dogg, all at the same time.
+
+I doubt, for the record, that celebrity chat bots will ever be much more than a novelty and cool demo, but that is only because they will be superceded by bots that are actually tuned much more explicitly to every individual; 2 ( #fn2-11652 ) each individual bot, though, will have the same absence of constraint inherent in conversations with real people: the bot will always be available, no matter what.
+
+Meta also announced that you will be able to use Emu, its image generation model, to create custom stickers in chat, and to edit photos in Instagram. Both seem immediately useful, not because Emu is particularly good — that remains to be seen — but because its capabilities are being applied in an immediately useful use case, in a pre-existing channel. The existence of these channels, whether they be Meta’s messaging apps or its social networks, is why Meta was always destined to be a force in AI: it is one thing to build a product that people choose to use, and another, significantly easier thing, to augment a product people already use every day. Less friction is key!
+
+Meta Smart Glasses
+------------------
+
+The most compelling announcement for me, though, was a hardware product, specifically the updated Meta Smart Glasses. Here is the key part of the introduction:
+
+( https://videopress.com/embed/pmocaNTS?hd=1&cover=1&loop=0&autoPlay=0&permalink=1&muted=0&controls=1&playsinline=0&useAverageColor=0&preloadContent=metadata )
+
+The most interesting thing about this isn’t any of those specs. It’s that these are the first smart glasses that are built and shipping with Meta AI in them. Starting in the US you’re going to get a state-of-the-art AI that you can interact with hands-free wherever you go…
+
+This is just the beginning, because this is just audio. It’s basically just text. Starting next year, we’re going to be issuing a free software update to the glasses that makes them multi-modal. So the glasses are going to be able to understand what you’re looking at when you ask them questions. So if you want to know what the building is that you’re standing in front of, or if you want to translate a sign that’s in front of you to know what it’s saying, or if you need help fixing this sad leaky faucet, you can just talk to Meta AI and look at it and it will walk you through it step-by-step how to do it.
+
+I think that smart glasses are going to be an important platform for the future, not only because they’re the natural way to put holograms in the world, so we can put digital objects in our physical space, but also — if you think about it, smart glasses are the ideal form factor for you to let an AI assistant see what you’re seeing and hear what you’re hearing.
+
+I wonder what my reaction would have been to this announcement had I not experienced the new OpenAI features above, because I basically just made the case for smart glasses: there is a step-change in usability when the human constraint is removed, which is to say that ChatGPT’s vision capabilities seem less useful to me because it takes effort to invoke and interact with it, which is to further say I agree with Zuckerberg that smart glasses are an ideal form factor for this sort of capability.
+
+The Hardware Key
+----------------
+
+What was most remarkable about this announcement, though, is the admission that followed:
+
+( https://videopress.com/embed/8SvIWITf?hd=1&cover=1&loop=0&autoPlay=0&permalink=1&muted=0&controls=1&playsinline=0&useAverageColor=0&preloadContent=metadata )
+
+Before this last year’s AI breakthroughs, I kind of thought that smart glasses were only really only going to become ubiquitous once we dialed in the holograms and the displays and all that stuff, which we’re making progress on, but is somewhat longer. But now, I think that the AI part of this is going to be just as important in smart glasses being widely adopted as any of the other augmented reality features.
+
+It was just 11 months ago that Meta’s stock was plummeting thanks to investor angst about its business, exacerbated by the perception that Meta had shifted to the Metaverse in a desperate attempt to find new growth. This was an incorrect perception, of course, which I explained in Meta Myths ( https://stratechery.com/2022/meta-myths/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIyL21ldGEtbXl0aHMvIl19LCJleHAiOjE2OTg1MTcxNTIsImlhdCI6MTY5NTkyNTE1MiwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.XIPcOqnf5AxSg6IA8rslxcuEq3Q39WTErAQtO2Bi4B1Z5R30_rCIQYZBQfDOKgD2etMMvnzvItGbDP3R6PYqb4tJZxL_zOGFpdbnQWXBC9qG-KTsJ0t4Vvwn247suSpJR3rUrD1-IOg_NpeeoWT2keS-FV1qrHLR4Nk55jpBHt-PSyipJx5w8vprxq9i2DedJGvqTYa-HIssMHepEOmOYsw8eH7ZcsoFo44FIvHqAO8ZXHzPJW-LOiSUi32Yb-uq41pc5onPXn2ndhR8NSASWDnMH5TQdNSpE4837E9taoYLg-YqzfN0KcS4rsOlzBIG47q71w--Ksm4X3epoAk5lw ) : users were not deserting Facebook, Instagram engagement was not plummeting, TikTok’s growth had been arrested, advertising was not dying, and Meta’s spending, particularly on AI, was not a waste. At the end, though, I said that one thing was maybe true: the Metaverse might be a waste of time and money.
+
+However, it seems possible that AI — to Zuckerberg’s surprise — may save the day. This smart glasses announcement is — more than the Quest 3 — evidence that Meta’s bet on hardware might pay off. AI is truly something new and revolutionary and capable of being something more than just a homework aid, but I don’t think the existing interfaces are the right ones. Talking to ChatGPT is better than typing, but I still have to launch the app and set the mode; vision is an amazing capability, but it requires even more intent and friction to invoke. I could see a scenario where Meta’s AI is inferior technically to OpeanAI, but more useful simply because it comes in a better form factor.
+
+This is why I wasn’t surprised by this week’s final piece of AI news, first reported by The Information ( https://www.theinformation.com/articles/designer-jony-ive-and-open-ais-sam-altman-discuss-ai-hardware-project ) :
+
+Jony Ive, the renowned designer of the iPhone, and OpenAI CEO Sam Altman have been discussing building a new AI hardware device, according to two people familiar with the conversations. SoftBank CEO and investor Masayoshi Son has talked to both about the idea, according to one of these people, but it is unclear if he will remain involved.
+
+The Financial Times ( https://www.ft.com/content/4c64ffc1-f57b-4e22-a4a5-f9f90a7419b7 ) added more details:
+
+Sam Altman, OpenAI’s chief, has tapped Ive’s company LoveFrom, which the designer founded when he left Apple in 2019, to develop the ChatGPT creator’s first consumer device, according to three people familiar with the plan. Altman and Ive have held brainstorming sessions at the designer’s San Francisco studio about what a new consumer product centred on OpenAI’s technology would look like, the people said. They hope to create a more natural and intuitive user experience for interacting with AI, in the way that the iPhone’s innovations in touchscreen computing unleashed the mass-market potential of the mobile internet. The process of identifying a design or device remains at an early stage with many different ideas on the table, they said.
+
+Son, SoftBank’s founder and chief executive, has also been involved in some of the discussions, pitching a central role for Arm — the chip designer in which the Japanese conglomerate holds a 90 per cent stake — as well as offering financial backing. Son, Altman and Ive have discussed creating a company that would draw on talent and technology from their three groups, the people said, with SoftBank investing more than $1bn in the venture.
+
+There are obviously many steps before a potential hardware product, including actually agreeing to build one. And there is, of course, the fact that Apple and Google already make devices everyone carries, with the latter in particular investing heavily in its own AI capabilities; betting on the hardware in market winning the hardware opportunity in AI is the safest bet.
+
+That may not be a reason for either OpenAI or Meta to abandon their efforts, though: waging a hardware battle against Google and Apple would be difficult, but it might be even worse to be “just an app” if the full realization of AI’s capabilities depend on fully removing human friction from the process.
+
+Virtual Reality
+---------------
+
+I should, I suppose, mention the Quest 3, which was formally announced at Meta’s event, given that I opened this Article with allusions to “Virtual Reality.” I have used a prototype Quest 3 device, but not a release version, and so can’t fully comment on its capabilities or the experience; what I will note is that the mixed reality gaming experiences were incredibly fun, particularly a Zombie shooter that is set in the room you are located in.
+
+That’s the thing, though: Quest 3 still strikes me mostly as a console, while the Apple Vision ( https://stratechery.com/2023/apple-vision/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL2FwcGxlLXZpc2lvbi8iXX0sImV4cCI6MTY5ODUxNzE1MiwiaWF0IjoxNjk1OTI1MTUyLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.LuRPAIvz3QKQz-w-vlr1bDgu_g1iwFZeuoMiAiPs0YxATYXI48IVjEFKgLWdydR6NU2WXpBalimrujW2b2KIntfIF0gM61VKnfHYXJKFcwBK_bheL4wTybdUkOOX7EYAKDZy2UWypfgnevoYojC9HYZ7mr162L8sddrrmvk_wKHHzSo021IyWpYvYiOaek7XPjpPZ1KZYroOZiNKr221c1Ag1A-DpKHZV8r-KcPpEjiHIx9H3_PVPmScokxZQz_-taRjs1fFy6qEesuzYhb05FsrbQ25gcDZnUzV1a1K-j8QF16QedjcI8G8PkdDI_aXM_mDIbCp95J5JI6DSL0Xyg ) strikes me mostly as a productivity device. Both are interesting niches, but niches nonetheless. What seems essential for both to fully realize the vision of virtual reality is to lose their current sense of boundedness and friction, which is to say that both need AI generation ( https://stratechery.com/2022/dall-e-the-metaverse-and-zero-marginal-content/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIyL2RhbGwtZS10aGUtbWV0YXZlcnNlLWFuZC16ZXJvLW1hcmdpbmFsLWNvbnRlbnQvIl19LCJleHAiOjE2OTg1MTcxNTIsImlhdCI6MTY5NTkyNTE1MiwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.KU335b2yZ-EUJdlPIDJtmzRJbH30TPNfMm7QJbFTd9DDExxEsHaSaG9P9zwTOagtl2KQ4AXkdWusVDhTmIPKGgx1eazXY2mS4tklVUKhq9aXk2GFegMhhe-9me6eI8dlB4eiYkzjN0Nl5Gx3vEOFmELyIQhRCMfnvoZ9KJqexaEqlLh_K0z5Tn0aUisy-BU8guQvzDab53Ici8z8r_f6KQKsYIxm_boc5OeNvXWswkMUu9S6y0V9e09Jbm5LYvjvXbfLn2zBEC04baD8a_b-XUmXhYdxeYGe88jFxQTQqL3Tuu-0S598YW0XH_5TqdPb-wqKO5S4YTzXZy6ur-245g ).
+
+In fact, I would argue that defining “virtual reality” to mean an immersive headset is to miss the point: virtual reality is a digital experience that has fully broken the bounds of human constraints, and in that experience the hardware is a means, not an end. Moreover, a virtual reality experience need not involve vision at all: talking with ChatGPT, for example, is an aural experience that feels more like virtual reality than the majority of experiences I’ve had in a headset.
+
+True virtual reality shifts time like media, place like communications, and, crucially, does so with perfect availability and infinite capacity. In this view, virtual reality is AI, and AI is virtual reality. Hardware does matter — that has been the focus of this Article — but it matters as a means to an end, to enable an interactive experience without the constraints of human capacity or the friction of actual reality.
+
+* 
+
+The experience wasn’t perfect, both from a usability standpoint, and from the overly verbose answers, delivered in ChatGPT’s sterile style; you can see the seeds of something very compelling though ↩︎ ( #rf1-11652 )
+
+* 
+
+And startups like Character.AI ( https://beta.character.ai/ ) are reportedly doing extremely well ↩︎ ( #rf2-11652 )
+
+Listen to this update and other Stratechery Plus content in your podcast player:
+Stratechery ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp Tech ( https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Dithering ( https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp China ( https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | GOAT ( https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Subscription Information
+
+Member: Omar Zoheri
+Email: stratecheryUSC@khamel.com
+Member since: April 23, 2022
+Auto-renewal is disabled
+Expiration date: December 8, 2023
+
+You are receiving this email because you are subscribed to Stratechery ( https://www.stratechery.com ).
+
+Click here ( https://stratechery.passport.online/member/login?email=stratecheryUSC%40khamel.com ) to view your account and manage your subscriptions.
+
+© 2023 Stratechery LLC ( https://www.stratechery.com ) , 2093 Philadelphia Pike #9930, Claymont DE 19703

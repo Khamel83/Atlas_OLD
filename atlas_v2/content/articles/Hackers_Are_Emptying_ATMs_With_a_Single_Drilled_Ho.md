@@ -1,0 +1,70 @@
+# Hackers Are Emptying ATMs With a Single Drilled Hole and $15 Worth of Gear | WIRED
+
+**Source**: https://www.wired.com/2017/04/hackers-emptying-atms-drill-15-worth-gear/
+**Type**: article
+**Created**: 2025-08-13T17:25:39.468397
+
+---
+
+title: Hackers Are Emptying ATMs With a Single Drilled Hole and $15 Worth of Gear | WIRED
+source: https://www.wired.com/2017/04/hackers-emptying-atms-drill-15-worth-gear/
+date: 2025-08-13T17:25:29.813889
+tags: []
+---
+Not so long ago, enterprising thieves who wanted to steal the entire contents
+of an ATM had to [blow it
+up](http://web.archive.org/web/20250714155213/https://www.liveleak.com/view?i=b14_1360324246&comments=1).
+Today, a more discreet sort of cash-machine burglar can walk away with an
+ATM's stash and leave behind only a tell-tale three-inch hole in its front
+panel.
+
+Researchers from the Russian security firm Kaspersky on Monday detailed a new
+ATM-emptying attack, one that mixes digital savvy with a very precise form of
+physical penetration. Kaspersky's team has even reverse engineered and
+demonstrated the attack, using only a portable power drill and a $15 homemade
+gadget that injects malicious commands to trigger the machine's cash
+dispenser. And though they won't name the ATM manufacturer or the banks
+affected, they warn that thieves have already used the drill attack across
+Russia and Europe, and that the technique could still leave ATMs around the
+world vulnerable to having their cash safes disemboweled in a matter of
+minutes.
+
+"We wanted to know: To what extent can you control the internals of the ATM
+with one drilled hole and one connected wire? It turns out we can do anything
+with it," says Kaspersky researcher Igor Soumenkov, who presented the research
+at the company's annual Kaspersky Analyst Summit. "The dispenser will obey and
+dispense money, and it can all be done with a very simple microcomputer."
+
+Drill, Baby, Drill
+
+For Kaspersky, the mystery of the drilled ATMs began last fall, when a bank
+client showed them an emptied cash machine whose only evidence of tampering
+was a golf-ball sized hole next to its PIN pad. To hide their tidy surgery,
+the thieves had even covered the entry point with a sticker. Eventually, the
+researchers learned of close to a dozen similar ATM heists. And when police
+arrested a suspect in one of the cases, they found a laptop, along with a
+cable he'd apparently snaked into the PIN pad hole. "Just a laptop, some
+wiring, and a hole in the ATM, that’s it," says Soumenkov.
+
+Kaspersky's researchers already had the same model of ATM in their test lab,
+one that's been in wide use since the 1990s. They removed its front panel to
+find a serial port that would have been accessible from the thieves' hole. It
+connected to a wire that ran through the ATM's entire internal bus of
+components, from the computer that controlled its user interface to the cash
+dispenser. Then the researchers spent five solid weeks with an oscilloscope
+and logic analyzer, decoding the protocol of the ATM's internal communications
+from raw electric signals. They found that the machine's only encryption was a
+weak XOR cipher they were able to easily break, and that there was no real
+authentication between the machine's modules.
+
+In practical terms, that means any part of the ATM could essentially send
+commands to any other part, allowing an attacker to spoof commands to the
+dispenser, giving them the appearance of coming from the ATM's own trusted
+computer.
+
+Eventually, the researchers were able to build their own device capable of
+sending cash-ejecting commands through just that exposed port. Their compact
+gadget, far smaller than even the arrested suspect's laptop, consisted of only
+a breadboard, an Atmega microcontroller of the kind commonly found in Arduino
+microcomputers, some capacitors, an adapter, and a 9 volt battery. All told,
+it took less than $15 worth of equipment.

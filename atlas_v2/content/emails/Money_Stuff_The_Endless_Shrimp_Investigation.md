@@ -1,0 +1,322 @@
+# Money Stuff: The Endless Shrimp Investigation
+
+**Source**: inputs/saved_emails/Money Stuff The Endless Shrimp Investigation_Mon,_20_May_2024_13-16-55_-0400_(EDT)_18f9701d913ce2e8.eml
+**Type**: email
+**Created**: 2025-08-25T02:53:57.237864
+
+---
+
+Here is a hypothetical move: You are in the business of producing and selling shrimp. You expand vertically by acquiring a chain of seafood 
+      
+    
+  
+  
+    
+      
+        
+          
+          
+        
+        
+          
+            
+          
+        
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          
+  
+    
+      Ultimate endless shrimp
+    
+  
+
+Here is a hypothetical move:
+	You are in the business of producing and selling shrimp.	You expand vertically by acquiring a chain of seafood restaurants.	The restaurants start to struggle and are heavily indebted, and you worry that your equity investment is losing value and possibly worthless.	How to cut your losses?	Well, you have two relationships to the restaurant chain: You own the equity, and you also supply the shrimp.	Not much you can do with the equity: There’s a lot of debt, the creditors rank ahead of you, and they are unlikely to let you take any cash out as a dividend.	But, as the equity owner, you also control the board of directors and get to appoint the chief executive officer.	The CEO decides how much shrimp to buy.	What if he decided to buy a lot of shrimp?	Then you’d make money on the shrimp, and extract at least some value out of your equity investment.
+
+There is presumably some tipping point. There is some level where the restaurants are viable enough that you will want to operate them to maximize their equity value, but if they fall below that level, you will give up on the equity and just try to maximize the shrimp consumption. In the first equilibrium, you will spend money carefully on shrimp and biscuits and silverware and advertising, with the goal of increasing profitability. In the second equilibrium, you will spend money profligately and only on shrimp, with the goal of spending money on shrimp.
+“Red Lobster Chain Goes Bankrupt After Unlimited Shrimp Deal” is the great Bloomberg News headline:
+
+Seafood restaurant chain Red Lobster filed for bankruptcy, succumbing to onerous leases, high labor costs and a disastrous unlimited shrimp promotion.
+The Orlando, Florida-based company filed for Chapter 11 protection on Sunday, listing assets and liabilities of $1 billion to $10 billion each in its bankruptcy petition. The filing allows the company to keep operating while it works out a plan to repay creditors.
+Red Lobster plans to hand control of the company to its lenders, who have agreed to provide $100 million in financing to support the chain through bankruptcy. 
+
+Here is the bankruptcy docket, and here is yesterday’s first-day declaration from Chief Executive officer Jonathan Tibus, a restructuring expert who was appointed in March and who effectively works for the creditors. Here he is on endless shrimp, and on the possible conflicts of interest of Red Lobster’s equity owner and supplier, Thai Union
+  [1]
+:
+
+Historically, the Debtors’ Ultimate Endless Shrimp (“UES”) promotion was utilized as a limited-time promotion. In May 2023, however, Paul Kenny, the Debtors’ former CEO, made the decision to add UES as a permanent $20 item to the menu despite significant pushback from other members of the Company’s management team. This decision created both operational and financial issues for the Debtors, costing the Debtors $11 million and saddling the Company with burdensome supply obligations, particularly with its equity sponsor, Thai Union. The Debtors are currently investigating the circumstances around these decisions.
+The Debtors are also investigating whether Thai Union and Mr. Kenny encouraged excessive merchandising of the UES promotion in-store (including heavy in-store promotion), which was atypical for the Company. The excessive merchandising decision led to supply issues resulting in major shortages of shrimp with restaurants often going days or weeks without certain types of shrimp. Moreover, the Debtors are investigating whether Mr. Kenny’s decision-making process circumvented the Company’s normal supply chain and demand planning processes.
+Furthermore, I understand Red Lobster’s supply process was strained by virtue of its relationship with Thai Union, which, in addition to being the Company’s equity sponsor and 100% owner of Red Lobster Master Holdings GP, has historically been a large-scale supplier to Red Lobster. I understand that Thai Union exercised an outsized influence on the Company’s shrimp purchasing, as indicated by, for example, Mr. Kenny’s April 2023 purported direction to Thai Union to continue producing shrimp for Red Lobster that did not flow through the traditional supply process or bid cycle or adhere to the Company’s demand projections. I also understand that in apparent coordination with Thai Union and under the guise of a “quality review,” Mr. Kenny made a series of decisions that eliminated two of the Company’s breaded shrimp suppliers, leaving Thai Union with an exclusive deal that led to higher costs to Red Lobster.
+The Debtors are exploring the impact of the control Thai Union exerted, in concert with Mr. Kenny and other Thai Union-affiliated entities and individuals, and whether actions taken in light of these parties’ varying interests were appropriate and consistent with applicable duties and obligations to Red Lobster.
+
+I love my job, but would I take a sabbatical to spend a few months on the team investigating whether Red Lobster’s controlling shareholder “exercised an outsized influence” on its shrimp purchasing and “circumvented [its] normal supply chain and demand planning processes”? Probably. Someone has to get to the bottom of that shrimp merchandising.
+Look: I think I am kidding. “As to what drove Red Lobster to the edge, it’s clear that despite not being a very good idea, the blame doesn’t fall on Endless Shrimp,” Business Insider’s Emily Stewart argued a few weeks ago. They didn’t send all the money out the door for shrimp. My assumption here is that the investigation won’t find much, everyone was operating in good faith and doing the best job they could to save a struggling company, and at the start of a bankruptcy you cast a wide net for possible ways to claw back money for creditors.
+  [2]
+ But what if that’s wrong? What if the executive meetings were like:
+
+CEO: We’re in a lot of trouble, any ideas?
+Chief Financial Officer: Let’s close some underperforming locations and do a liability management exercise.
+CEO: I have a better idea. Shrimp. 
+Chief Experience Officer: What about shrimp in particular?
+CEO: I think we should buy a ton of shrimp and then sell the heck out of them. I’m talking heavy in-store promotion, a permanent unlimited shrimp for $20 deal, maybe commission some songs about shrimp.
+Chief Experience Officer: We actually have pretty detailed demand projections and they show that customers only want —
+CEO: Never mind the projections, I am telling you, the answer is shrimp. We use every penny we have left to buy shrimp, and the demand will follow!
+Chief Experience Officer: ...
+CEO: Just bet the whole company on shrimp.
+Chief Supply Chain Officer: Okay I guess we can bid out a huge new shrimp contract to suppliers.
+CEO: Oh no, no bids.
+
+Then he gets up from the table and shrimp fall out of his pockets and he walks out of the boardroom trailing shrimp everywhere, this is what corporate finance is all about.
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      Head of Macro
+    
+  
+
+I have written before, about my time at an investment bank, that I was the head of a lot of businesses, and so was everyone else:
+
+Everyone is the head of something, or at least co-head. Global Head of Cardboard Packaging Investment Banking, or Americas Head of Exotic Volatility Trading in Stocks Starting with ‘P,’ or whatever. And many people are the head of two things, or three things, or most commonly an indeterminate number of things.
+I cannot stress enough how important the head-of-something thing is. As a fairly junior vice president I would regularly go into client meetings with some senior relationship banker whom I had just met and who had no real idea of who I was, to talk about some weird derivative trade, and the banker would always introduce me to the client as like “this is Matt, he’s our global head of” whatever the weird trade was. … These headships were not, like, written down anywhere. No vote was taken, no corporate resolutions passed to make me the head of whatever I was the head of that day. It was marketing: If a relationship banker was taking me to pitch some weird thing to a client, then the client would be happier and the relationship banker would be happier and I would be happier if we all agreed that I was the bank’s leading expert and fully empowered manager of whatever weird thing I was pitching.
+
+I went on to add that some headships are pretty real: “Head of Investment Banking” is a real title that matters. One way you know it matters is that a lot of investment bankers report to the head of investment banking; that person is an actual boss. As head of whatever I was head of, I had one analyst, if I was lucky.
+I worked at a big investment bank, with thousands of employees, many of whom were, like me, the heads of a short list of obscure businesses. At a single-manager hedge fund things are a bit different:
+	There are probably only like a couple of dozen employees.	Titles are probably less important: There are fewer of you, and the job is less about marketing and more about results; most people would probably rather be called “an analyst” and get paid a lot than be called “head of consumer retail” and be paid less.	But there’s still some use for titles: You might get your due diligence calls returned quicker if you are the “head of consumer retail” than if you are just “an analyst.”	Those titles can be granted at least as informally as they are at a bank: Your boss can say “here’s Matt, he’s the head of consumer retail,” and who is going to disagree?	Because there are fewer employees, the titles can be bigger. Being the head of consumer retail at an investment bank is a big job! There are a lot of investment bankers covering the consumer retail sector, and they all report to you; a lot of people would like to be the head of consumer retail but only one person (maybe two) gets to be it. At a hedge fund with a dozen analysts, probably each analyst will have her own fairly large coverage universe. If you’re the analyst covering consumer retail companies, then you are also the “head of consumer retail.” Who else could it be? You are the head of a team of one, but that’s a pretty common experience in the financial industry.
+
+Sorry! None of this is very important! But I cannot not mention James Fishback and Greenlight Capital Inc., who are suing each other about whether or not Fishback was Greenlight’s “head of macro.”
+  [3]
+ Here is Fishback’s lawsuit from last October, saying that he was:
+
+Mr. Fishback was previously employed by Greenlight, beginning as a research analyst, then as a trader, and finally as its Head of Macro. …
+Greenlight repeatedly confirmed, both in writing and verbally, that Mr. Fishback was Greenlight’s Head of Macro.
+For example, on May 11, 2023, [Greenlight Chief Operating Officer Daniel] Roitman, in securing an invitation for Mr. Fishback to join a private call with Dr. Eric S. Rosengren, former president of the Federal Reserve Bank of Boston, emailed Heather Robertson, a Senior Manager of the GLG Group the following: …
+“Heather — can you sign James Fishback for this? He’s our head of macro here. Copying him to the email.” …
+In addition to this email from Roitman directly stating that Mr. Fishback was Greenlight’s Head of Macro, the title had been communicated to Mr. Fishback and others numerous times, including when he was introduced by Greenlight employees at conferences, dinners, and on calls.
+
+And here’s Greenlight’s lawsuit from March, saying that he wasn’t:
+Greenlight received information suggesting that Defendant had falsely represented himself as having held certain titles during his employment with Greenlight other than “Research Analyst,” including but not limited to “Head of Macro,” and upon information and belief, falsely represented his role in Greenlight’s investment performance. Greenlight became aware of these false representations through Defendant’s efforts to market himself and a hedge fund that he had founded, Azoria Partners, to potential investors. Greenlight understood that Defendant was using the “Head of Macro” title to wrongfully appropriate Greenlight’s track record and success in making investments informed by macroeconomic events (referred to as “macro” investing or trading). These representations were false because the purported “Head of Macro” title has never existed at Greenlight, and had not been given to Defendant.
+Some of the most gloriously petty stuff you will ever see in investment management. Here is an email exchange between Roitman and Fishback, in which Fishback says “I will not be compelled to lie,” and Roitman replies “Compelled to lie? What are you talking about?” Here is Fishback’s X account, where he posts memes about being the head of macro and tries to debate Greenlight boss David Einhorn about Tesla.
+Fishback’s complaint says that he had a lot of responsibility at Greenlight, including making trades with its capital, but it does not seem to mention how many other people were on the macro team that he headed. I have a guess! Anyway I assume both sides are right: Surely Greenlight did not have a “head of macro,” and surely Greenlight did go around saying that Fishback was it.
+
+  
+    
+      T+1ish
+    
+  
+
+The way it works now is:
+	On Monday, we do a stock trade: I agree to sell you 100 shares of XYZ for $20 each.	On Wednesday, we settle the trade: I give you the 100 shares, and you give me the $2,000.	That gives me two days to find the shares. Probably I already had them on Monday, but maybe not. Maybe I was doing a short sale, and I need to arrange to borrow the shares between Monday and Wednesday.
+  [4]
+ Or maybe I was doing a long sale, but I had loaned my shares to someone else, and now I need to call them back.	And you have two days to find the money. Maybe you already had the money in your brokerage account on Monday, but maybe not. Maybe you need to move money from a bank account. Maybe you need to get a margin loan from your broker. Maybe your money is in euros and you need to convert it into dollars.	Almost all of the time, this works out fine: I get the stock, you get the money, we meet up on Wednesday and exchange them.	Every so often, we run out of time: I recall my stock loan but the borrower doesn’t return the shares in time, or your bank closes early and you can’t move the money in time.	In that case … we settle the trade on Thursday? Maybe Friday? Ehh. Mistakes happen. This is called a “settlement fail,” and it’s not great, you know, but mostly everyone survives. Not always. Fails “can result in regulatory punishment, loss of capital tied up in the trade, and even — in very rare instances when the transaction is large enough — the collapse of parties in the deal.” Also they make Devin Nunes angry.
+
+Anyway that system is called T+2 settlement, because trades settle two days after the trade date. Next week the US will move to T+1 settlement. That is the same as the above, except:
+	We settle on Tuesday instead of Wednesday.	This gives you one less day to find the cash, and me one less day to find the stock.	We will run out of time more often, especially in the beginning, when we are less used to doing stuff this fast.	In that case … probably we settle on Wednesday? Mistakes happen. This will be more embarrassing on a systemic level — everyone is practicing real hard to settle trades T+1, and will be paying attention to the transition — but less embarrassing on an individual level, because of course everyone is going to mess it up sometimes. 
+
+Roughly speaking, moving from T+2 to T+1 settlement means something more like moving from T+2.001 settlement to, like, T+1.05 settlement. Most trades settle faster, but a larger minority don’t. Bloomberg’s Greg Ritchie reports:
+
+When US markets reopen next Tuesday after the long weekend, everything will likely seem normal. It’s only after the close and in the following days that any cracks are expected to appear.
+A spike in the number of failed trades, operational glitches and additional costs are among industry fears as the trading process for American securities accelerates, with the time allowed to complete every transaction halved to a single day. …
+“There’s a lot of anxiety even just around the technology and the actual way by which settlement will take place,” Amy Hong, head of market structure and strategic partnerships for global banking and markets at Goldman Sachs Group, told the Bloomberg Sell-Side Leaders Forum this month. “There are going to be some mismatches around funding, there are going to be some FX-related issues that we’re going to need to work out.” ...
+Just 9% of sell-side firms polled by Coalition Greenwich in April and May said they expect the T+1 switch to go smoothly, with 38% warning that buy-side managers are unprepared, and 28% believing trading platforms aren’t fully ready. Almost a fifth anticipate a large disruption with “many or severe issues.”
+The consensus view is that trade failures — when either a seller doesn’t deliver securities or a buyer fails to produce payment — are about to rise. The question is how large and persistent that uptick will be. …
+The $7.5 trillion-a-day foreign-exchange market is a flashpoint of the shift, because currency trades typically settle on a T+2 basis. An overseas investor buying a US stock will soon need to either have dollars ready or find them within a day in an arena where it can take two.
+
+It’s worth wondering what “many or severe issues” could mean. Like two possible categories of “severe issues” would be:
+	The stock market will stop functioning, trades that are agreed will never settle, and major financial institutions will be bankrupted by the chaos.	The person at the sell-side firm who is answering the Coalition Greenwich settlement-mechanics survey will get yelled at a lot more over the next month than she was over the prior month.
+
+Those both probably feel severe. 
+
+  
+    
+      ETH consensus
+    
+  
+
+I wrote last Thursday about two brothers who were charged with wire fraud for doing an exploit on the Ethereum blockchain that allegedly earned them $25 million from arbitrage bots. Ordinarily here is where I would give a two-sentence summary of the story, but honestly it is complicated, and I would advise you to either (1) read what I wrote last week or (2) skip the rest of this section.
+If you are still here, though, I want to clarify two points based on emails I got from readers.
+First, though I described the exploit as “front-running the front-runners,” I do want to be clear that it was not just that. This is not a pure case of (1) submitting spoofy orders to bait front-running bots, (2) having them take the bait and (3) finding some trade to make them lose money. (There are prior examples of that, using oddly structured tokens to make the front-runners lose money.) Here, though, the brothers are accused of something closer to hacking, exploiting a weakness in software code to be able to see (and reorder) a series of transactions that was supposed to be kept confidential from them. That is worse; it’s sort of like the difference between (1) putting in spoof orders on the stock exchange to try to trick a high-frequency trading firm and (2) hacking into the stock exchange’s computer system to reverse the HFT firm’s trades. Even if you think that the front-running bots are bad, you might — as the Justice Department does — object to this approach to punishing them.
+Second, I said that “they exploited a bug in Ethereum” to do this, but that’s not quite right. They exploited a bug in Flashbots’ MEV-Boost, open-source block-building software that “approximately 90% of Ethereum validators use” but that is not part of the core Ethereum system itself. (Here is Flashbots’ explanation.) They exploited a bug in how blocks are normally built and proposed on Ethereum. From the names “Flashbots” and “MEV-Boost,” though, you might get some sense of why the case is controversial. The way that blocks are normally built and proposed on Ethereum involves “maximal extractable value” (MEV), where arbitrage traders bid to pay validators for priority to make the most profitable trades. These brothers hacked that system, but not everyone likes that system, because it involves predatory traders front-running more naive traders. 
+This is also important because, as one reader commented: “A a crucial distinguishing factor here is that James and Anton did not re-order committed transactions; they instead picked an ordering of pending transactions that were favorable to them. Under this lens, the integrity of the blockchain is not compromised; the network explicitly ‘allows’ validators to pick whatever arbitrary ordering of transactions they like; it's just that generally it’s economically favorable for validators to prioritize transactions which pay them the most first.” 
+Elsewhere, here is a good and balanced CoinDesk article about why this case is controversial:
+
+MEV, which itself is controversial, can be a highly lucrative game dominated by automated bots that often comes at blockchain users’ expense, which is partially why so many in the crypto community have rushed to denounce the DOJ’s complaint. …
+“They used a flaw in MEV boost to push invalid signatures to preview bundles. That gives an unfair advantage via an exploit,” former employee of the Ethereum Foundation and Flashbots Hudson Jameson told CoinDesk in an interview. Jameson added that the Peraire-Bueno brothers were also running their own validator while extracting MEV, which violates something of a gentleman’s agreement in MEV circles.
+“No one else in the MEV ecosystem was doing both of those things at once that we know of,” he added. “They did more than just play by both the codified and pinky promise rules of MEV extraction.”
+“It's not some kind of robin hood story as they didn't return the money to people MEVers extracted it from,” pseudonymous researcher Banteg said.
+
+Well, no, they’re not going to return the money.
+
+  
+    
+      Some sort of computer database to verify the provenance of cocoa beans
+    
+  
+
+Every time I see an article like this:
+
+Starting from Dec. 30, chocolate makers that sell or produce in the EU will have to show that the cocoa they use wasn’t grown on land cut from forests since the end of 2020. In practice, it means that each morsel of cocoa that makes its way into the bloc will need to be linked to the GPS coordinates of the farm where it was harvested. 
+That’s where people like [Brice-Armel] Konan, who helps monitor cocoa farm data in Ivory Coast for the Rainforest Alliance, a nonprofit based in New York and Amsterdam, and his smartphone come in. Such nonprofits, along with industry groups, governments and chocolate companies, are racing to help farmers record the data they need in time. 
+Ivory Coast’s cocoa and coffee regulator says it has mapped just over 80% of the country’s estimated 1.55 million cocoa farms. That leaves some 300,000—or about 2,000 a day—to be mapped or otherwise accounted for by Oct. 1, the start of the new cocoa season.
+
+I immediately search for the word “blockchain.” Five years ago, this article would absolutely have used the word “blockchain.” In 2024 it does not. I suppose that is some sort of progress.
+
+  
+    
+      Things happen
+    
+  
+
+Millennium Covets Citadel-Size Commodities Gains, Just Not the Risk. Dimon Led Bank CEOs to Fend Off Tougher Capital Rules. Flash in the Pan Meme Moment Takes Some Stock Traders on Wild Ride. Russian court seizes €700mn of assets from UniCredit, Deutsche Bank and Commerzbank. Meta’s Plan to Win AI Race: Give Its Tech Away Free. “Safety culture and processes have taken a backseat to shiny products.” Why prediction markets aren’t popular. There is No Excess Volatility Puzzle. Computer-Science Majors Graduate Into a World of Fewer Opportunities. “Excessive estimates of fraud damages contribute to a perception that high finance is an industry rife with criminals capable of squandering unimaginable amounts of money.” Feds Say Crypto Scammer Gave Nod To ‘Seinfeld’ Gag.
+If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
+        
+  [1] “Thai Union indirectly holds approximately 47% of common equity interests and 100% of the preferred equity units, and Seafood Alliance indirectly holds approximately 38% of the common equity interests,” says the declaration; it appears to have effective governance control. “At the direction of Thai Union, Mr. Kenny became acting interim CEO following the resignation of the previous permanent CEO in April 2022,” says a footnote in the declaration.
+
+
+  [2] The idea here is presumably something like equitable subordination, a bankruptcy doctrine designed “to prevent [corporate insiders] from converting equity interests into claims or from improving the priority of their claims in anticipation of bankruptcy.” My hypothetical trade at the beginning is, roughly, a way to convert equity interests into claims (as a supplier), and if you can prove that the shareholder/supplier was doing it intentionally then maybe you can claw back some money for creditors.
+
+
+  [3] I feel like Greenlight is mostly known as a long/short equity fund, but it does do macro. Here’s a 2023 investor letter, noting 1.9% gross return from macro.
+
+
+  [4] The rule is mostly that I need a “locate” to do the short sale, that is, my broker needs to be pretty confident that I *can* borrow the shares by Wednesday. But I don’t need to actually borrow the shares before doing the trade.
+
+
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+
+
+  
+    
+      
+        
+        
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cl3m7m.6464/fbdf6c88.gif" alt="" border="0" /></a>

@@ -1,0 +1,49 @@
+# Italy issues a nationwide Uber ban | The Verge
+
+**Source**: http://www.theverge.com/2017/4/7/15226400/uber-italy-ban-court-ruling
+**Type**: article
+**Created**: 2025-08-13T17:24:28.822003
+
+---
+
+title: Italy issues a nationwide Uber ban | The Verge
+source: http://www.theverge.com/2017/4/7/15226400/uber-italy-ban-court-ruling
+date: 2025-08-13T17:24:27.555904
+tags: []
+---
+Uber’s latest regulatory roadblock happens to be the entire country of Italy.
+In a court ruling issued today, all of Uber’s services were banned in the
+European country after a Rome judge ruled in favor of Italy’s major taxi
+associations that the ride-hailing service amounted to unfair competition,
+according to a [report from _Reuters_](http://www.reuters.com/article/us-
+italy-uber-idUSKBN1792IS). That means Uber’s Black, Lux, Suv, X, XL, Select,
+and Van services are all blocked from operating in Italy, and Uber cannot
+advertise at all in the country.
+
+Uber says it’s “shocked” by the ruling
+
+“We’re shocked,” Uber’s lawyers said in a statement [obtained by Italian
+newspaper _Corriere della
+Sera_](http://www.corriere.it/cronache/17_aprile_08/blocco-totale-le-auto-
+uber-8244cbc4-1bd1-11e7-a7aa-d3cb5d83b09d.shtml?cmpid=tbd_e594ac49oc). “We
+will appeal this ruling that is based on a 25-year-old law. Now the government
+can’t waste more time and needs to decide whether it wants to remain anchored
+to the past, protecting privileged profits, or whether it wants to allow
+Italian to benefit from new technologies.”
+
+The lawyers for Italy’s top taxi associations were a bit more celebratory.
+“This is the fourth ruling by an Italian judge that ascertains Uber’s unfair
+competition, the latest battle in a legal war that began in 2015 to stop the
+most striking form of unfair competition ever registered on the Italian local
+public transportation market,” the lawyers told _Corriere della Sera_.
+
+Uber plans to appeal the ruling. It has 10 days to do either that or cease
+operating its service in Italy. If it does neither, it faces fines up to
+$10,600 for every day it continues operating illegally. The news ends another
+rather rough week for Uber, as the company continues [sustaining bad press
+over its treatment of drivers and female
+employees](http://www.theverge.com/2017/3/6/14791080/uber-sexism-scandal-
+strike-waymo-lawsuit-travis-kalanick) and remains stuck in a high-profile
+[legal battle over trade secret theft with Alphabet’s Waymo
+division](http://www.theverge.com/2017/4/7/15218292/uber-waymo-lawsuit-
+response-self-driving-car-google).

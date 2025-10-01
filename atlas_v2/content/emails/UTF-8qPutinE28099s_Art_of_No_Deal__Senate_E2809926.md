@@ -1,0 +1,200 @@
+# =?UTF-8?q?Putin=E2=80=99s_Art_of_No_Deal_&_Senate_=E2=80=9926_Math?=
+
+**Source**: inputs/saved_emails/=UTF-8qPutin=E2=80=99s_Art_of_No_Deal_&_Senate_=E2=80=9926_Math=_Fri,_14_Mar_2025_00-00-53_+0000_19591f43f4989c51.eml
+**Type**: email
+**Created**: 2025-08-25T02:54:06.616160
+
+---
+
+Mar 13, 2025
+
+The Best & The Brightest ( https://puck.news/newsletters/the-best-and-the-brightest/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Julia Ioffe ( https://puck.news/author/julia-ioffe/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Julia Ioffe ( https://puck.news/author/julia-ioffe/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Hello, and welcome back to The Best & The Brightest, Thursday foreign policy edition.
+I’m your host, Julia Ioffe, and I appreciate your bearing with us as we figure out the best day for me to slide into your inbox post-leave.
+
+In tonight’s email, what I’m hearing around Washington about the ceasefire deal that U.S. negotiators brought to Moscow—and why Vladimir Putin is slow-rolling a truce. Plus, Abby Livingston previews the gap in the Senate Democrats’ midterm map.
+
+But first…
+
+* Ukraine
+by the numbers: Earlier this week, during the commercial break for Kasie Hunt’s new CNN show, my fellow panelist Kristen Soltis Anderson shared a poll with me. Anderson, the co-founder of Echelon Insights, a Republican-leaning polling firm that partners with Puck, pointed me to data indicating that American support for Ukraine has gotten squishy over time. In October 2022, eight months into the war, 44 percent of Americans felt that our “interests
+and values” were at stake in Ukraine. Thirty-seven percent said the war was a tragedy, but one that had little to do with American interests and values. By January 2025, those numbers had flipped. (The level of support stayed firm only among Democrats.) And while 62 percent of Americans thought providing military support to Ukraine was “a good idea” back then, only 49 percent think so now. Even among Democrats, this position has slipped 10 points.
+
+Meanwhile, The
+Economist is out with its own poll ( https://bsky.app/profile/ygorodnichenko.bsky.social/post/3lka6w3rhos2s?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )—of Ukrainians. The proportion of Ukrainians who think their country should “keep fighting, even if the United States withdraws all support”? 74 percent. Check out the other numbers in the poll, which underscore that the majority of Ukrainians remain unwilling to cede their territory, or accept demilitarization
+or a peace without real security guarantees. So even if Zelensky steps aside, and even if Trump gives Ukraine to Putin on a silver platter, don’t expect it to be an easy occupation. Ukrainians, despite being exhausted and battered after three years of war, are nowhere close to giving up the fight.
+* Great expectations: Speaking of surprising polling, there’s plenty of remarkable data in Puck’s own
+quarterly polling series ( https://puck.news/private-conversation/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) with Orchestra—including the fact that so few respondents actually thought Trump would follow through with his threats to institute mass layoffs across the federal government (41 percent) or close the Department of Education (14 percent). The percentage of finance professionals who told us in January that the economy was looking up might want to double
+check their terminals. My partner Baratunde Thurston will be walking through the numbers with Orchestra C.E.O. Jonathan Rosen in a virtual event tomorrow at 2:30 p.m. ET. Register here ( https://us02web.zoom.us/webinar/register/WN__q7XIqnmQASkjQk0gWOTxA?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a#/registration ).
+
+Now, here’s Abby with more on some Senate ’26 math…
+
+Abby Livingston
+Abby Livingston
+
+ 
+
+The
+Senate Dem Shuffle
+------------------
+
+* So
+long, Shaheen: New Hampshire Senator Jeanne Shaheen, 78, has opted not to contribute to the Democratic Party’s nasty post-Feinstein/R.B.G./Biden hangover. In vowing not to stand for reelection in 2026, Shaheen, the ranking member of the Senate Foreign Relations Committee, is doing exactly what many other party elders have long refused to do: Follow the Jerry Seinfeld model and
+bow out ( https://www.nytimes.com/1997/12/26/us/seinfeld-says-it-s-all-over-and-it-s-no-joke-for-nbc.html?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) at the peak of her powers.
+
+Ironically, even as calls for generational change rip through the Democratic Party, it seems obvious that Shaheen would have made life easier for them if she had decided to run again. An open seat Senate race in Shaheen’s increasingly red-leaning home state will jangle Democratic nerves
+and stress their campaign funds. And the state’s Republican bench is fearsome: Contenders include Shaheen’s 2014-era rival Scott Brown and former Gov. Chris Sununu. On the Dem side, U.S. Rep. Chris Pappas is making lots of noise about running, and retired Rep. Annie Kuster’s name has also bounced around in the past 36 hours.
+
+This is going to become a recurring headache for the party as its members age out. Democratic
+colleagues Tina Smith of Minnesota and Gary Peters of Michigan, ages 67 and 66 respectively, have also said they won’t stand for reelection. (All eyes are now on Senate Minority Whip Dick Durbin, 80, of Illinois.) So far, though, Peters is the only one vacating a Democratic Senate seat in a state that Trump won in 2024.
+* Speaking of generational change…: Intriguingly, Pete Buttigieg
+won’t be joining the Michigan Senate fray, having taken himself out of the running for Peters’s seat in what was widely portrayed as a missed opportunity for Democrats. (There’s speculation he could be eyeing the White House instead.) Nevertheless, Buttigieg could have had an incredibly difficult campaign: He moved to the state not three years ago, after branding himself as the mayor of South Bend… Indiana. And the potential Michigan bid seemed particularly opportunistic, given that there was little chance he would have ever gotten elected statewide in Indiana. Granted, different states have different tolerance for carpet-bagging:
+It worked for Romney and Clinton (born in Michigan and Illinois, respectively), although not for Scott Brown, who ran against Shaheen after losing reelection across state lines in Massachusetts.
+
+Anyway, both parties have stacked farm teams in Michigan. On the Republican side, there are sitting U.S. Representatives John James and Bill Huizenga, along with 2024 Republican Senate nominee and former Representative
+Mike Rogers. Things on the Democratic side are also busy: Michigan state Sen. Mallory McMorrow, Representatives Kristen McDonald Rivet, Haley Stevens, and Hillary Scholten, and former gubernatorial candidate and current Wayne County health director Abdul El-Sayed are among those looking at the race. One plugged-in Michigan Democrat predicted that with Buttigieg
+out of the equation, we may see contenders start making more consequential moves toward running: “It’s almost certain that we’ll have a spirited and open primary, with multiple strong candidates running.”
+
+And finally, the main event…
+
+Putin’s Art of No Deal ( https://puck.news/putins-bad-faith-ceasefire-tactics/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Putin’s Art of No Deal ( https://puck.news/putins-bad-faith-ceasefire-tactics/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Putin has responded to Washington and Kyiv’s ceasefire proposal by doing what he does
+best: dragging negotiators into diplomatic purgatory while continuing to fight.
+
+Julia Ioffe ( https://puck.news/author/julia-ioffe/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Julia Ioffe ( https://puck.news/author/julia-ioffe/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Earlier this week, after hammering out a vaguely worded
+ceasefire proposal ( https://www.state.gov/joint-statement-on-the-united-states-ukraine-meeting-in-jeddah/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) with Ukraine to stop a war that Russia started, Secretary of State Marco Rubio said that he was eager to hear the Russian response. A “no,” he said, would “tell us a lot about what their goals are and what their mindset is.” Well, the suspense is over, kind of. After meeting with Trump envoy Steve
+Witkoff, Putin said he was open to a ceasefire—kind of.
+
+Actually, what he said was even more telling—and more classically in character—than if he’d simply rejected Rubio’s deal. “The idea itself is a good one and we absolutely support it,” Putin said ( https://x.com/maxseddon/status/1900216782259994792?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) at a press conference. “But there are questions that we have to discuss.” It’s funny if you consider
+the word he used for “absolutely” here: bezuslovno, which literally means without conditions.
+
+Of course, Putin did have conditions, which he spent a good five minutes laying out: What would happen if Ukrainian soldiers got more American weapons during the ceasefire? Who would ensure that new weapons didn’t get in? And, by the way, who would actually give the order for the ceasefire? Who would monitor any violations of said ceasefire, and how would we
+make sure that no one blamed anyone else for their own ceasefire violations? “These are all questions,” Putin said, “that demand painstaking investigation.”
+
+In the meantime, he spoke in emphatic, brutal detail about the victory his troops had achieved in pushing the Ukrainian army out of Kursk. As he did on Wednesday, when he traveled ( https://tass.ru/armiya-i-opk/23380299?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to a Russian command center in the region wearing
+fatigues. Putin stressed that facts were being determined “on the ground,” not in Saudi Arabian conference rooms, and that victory would be his.
+
+Rubio should have known Putin’s mindset beforehand. In March 2022, just weeks after Russia’s full-scale invasion of Ukraine, he tweeted ( https://x.com/marcorubio/status/1501559375210680322?s=46&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) that “Many in the West still don’t understand that #Putin is an expert liar. He doesn’t care
+about ‘humanitarian’ relief, if in fact there is a ‘ceasefire’ it’s because he sees some strategic or tactical benefit.” And Putin himself already explained his intentions months ago. “If we’re talking about any kind of peace process, then these shouldn’t be processes that are connected to a ceasefire for a week or two or a year,” he said ( https://www.vedomosti.ru/politics/news/2024/10/18/1069676-rossii-ne-nuzhno?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) this past summer,
+arguing that NATO countries could use that time to rearm. “We need conditions for a long-term sustainable and lasting peace, guaranteeing equal security for every participant of this complex process.” Nothing new here today.
+
+Putin has also been clear about what those security guarantees would entail: a demilitarized and neutral Ukraine with a new, Moscow-friendly government that has forever conceded its claim to Donetsk, Luhansk, Zaporizhzhia, and Kherson, plus Crimea. He doesn’t care
+that these are completely incompatible with the security guarantees that Ukraine is seeking. And these concessions, plus the lifting of sanctions, are the conditions that Putin has set for merely starting the talks. After that, he has other ambitions, like returning to his December 2021 demand ( https://www.reuters.com/world/russia-unveils-security-guarantees-says-western-response-not-encouraging-2021-12-17/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) that NATO withdraw
+its troops to 1997 lines—as in, out of Poland, Eastern Europe, and the Baltics. (These are the “root causes” of the conflict to which he alluded, yet again, today.) Putin might very well get his wish, thanks to Donald Trump and J.D. Vance’s hostility to NATO.
+
+In any case, Putin hasn’t rejected the more immediate ceasefire proposal, which would only piss off Trump and prove Ukraine’s point that Putin is against peace and negotiating in bad faith. Nor did
+he say “yes,” which would cede too much control to the diplomatic process. Instead, Putin is doing what he’s always done: parking everyone in diplomatic purgatory and dragging out negotiations while Russia continues to fight and seize land.
+
+This will drive everyone insane while allowing Russia to proclaim that it is the only reasonable adult in the room, the only one committed to serious and painstaking diplomacy. “It would be bad to say no, so they’ll add conditions, stall for
+time, make a show of thinking about it, and then find a way to blame Ukraine” after Moscow inevitably scuttles the talks, said Boris Bondarev, a former senior Russian diplomat who resigned in protest ( https://puck.news/ukraine-must-win-a-kremlin-defector-tells-all/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) in the early months of the war. We spoke just before Putin offered his nonresponse to the proposal, but Bondarev clearly foresaw the obvious outcome.
+
+Talking
+to Death
+--------
+
+Stalling is a skill that Russia has elevated to a virtuosic art form. A Russian journalist once told me of
+watching in disbelief as Sergei Lavrov ground the proceedings of the European Parliament to a complete halt simply by drawing attention to the fact that MPs had drafts of a proposed resolution on sheets of paper that happened to be different colors. Lavrov, representing a country with mere observer status in the parliament, managed to gum up the works for hours by asking how members could be sure they were working off the same text.
+
+The technique took on far more
+sinister proportions in the years between the initial Russian invasion of Ukraine, in 2014, and the full-scale invasion eight years later. During that time, Russia dragged Ukraine and the West through interminable, circuitous negotiations over a series of accords—Minsk 1, Minsk 2, Minsk Infinity-Plus-One—all of which involved countless ceasefires and contained Russian-inserted poison pills that made them impossible to implement.
+
+All the while, Russia continued to fight in Ukraine,
+violating every ceasefire that Moscow had signed on to and then blaming the Ukrainians. (Here’s a helpful list ( https://docs.google.com/spreadsheets/d/1XdWtEbmvYH6BIQaqQ29kAhZDyQNs6HCf0uTqk7der6I/edit?gid=0&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a#gid=0 ). Zelensky provided ( https://kyivindependent.com/zelensky-gave-trump-list-of-all-ceasefires-violated-by-russia/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) a similar one to Keith
+Kellogg when Trump’s special envoy for Ukraine and Russia visited Kyiv. This seems to have irritated the White House even more.) At the same time, Russia continued to insist that they were the only ones truly interested in peace. Their evidence? The endless Minsk negotiations, the details of which they took so very seriously.
+
+But from the beginning, the Russian side wasn’t negotiating in good faith. When peace talks began in 2014, two of the representatives whom the
+Obama White House sent to Minsk were Celeste Wallander and Toria Nuland. The Russian delegation, led by the erstwhile gray cardinal Vladislav Surkov, wanted the women to know that the Russians saw them, first and foremost, as just women. And so, at the opening of each round of negotiations, Surkov would arrive with two massive bouquets for Wallander and Nuland, one with the official flower of the Donetsk People’s
+Republic, the second with the official flower of the Luhansk People’s Republic—the two astroturf entities that Russia was fighting to sever from Ukraine.
+
+The goal now is the same as it was then. Putin has not and will not budge from his demands, and he intends to fulfill every single one. And, says Bondarev, “Putin will play Trump like a fool.”
+
+“Self-Involved
+Idiots”
+----------------
+
+Trump responded Thursday afternoon by calling Putin’s statement “promising… but it wasn’t complete,” which
+is at least half right. He has threatened sanctions as an additional point of leverage, but what sanctions are left in the U.S. toolkit? And how effective could they be when the Russian economy is already sanctioned to the hilt and long ago ( https://puck.news/the-putin-apostates-come-home/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) managed to adapt ( https://puck.news/putins-shadow-fleet/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )? As I’ve long said,
+sanctions are just a cost of doing business for Putin—not a deterrent, but overhead. And given China’s willingness to help Russia evade them, that overhead is becoming increasingly affordable. (Trump seemed to understand this when he ducked a question about whether he had any leverage over Putin. “I do have leverage, but I don’t want to talk about leverage now,” he
+demurred ( https://www.cnn.com/politics/live-news/trump-administration-presidency-03-13-2025?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a#cm87mqzho00003b6ohrm67shs ).)
+
+If the U.S. does have leverage over Russia, it’s not being felt in the Kremlin. “These people don’t understand the world they’re living in,” mused a source close to the Russian Foreign Ministry leadership, ridiculing Trump’s bluster and grandstanding. “America is the most powerful—we’ll do this to you,
+we’ll do that to you!” the source said, mockingly. “America’s military is half of what it needs to be. Can you really be such self-satisfied, self-involved idiots?” It’s a sentiment I’ve heard often from other plugged-in Moscow sources. “Moscow knows it, Beijing knows it, the whole world knows it,” the source scoffed.
+
+The unmistakable dynamic of Trump II’s early days is that our adversaries don’t fear us and our allies don’t trust us. Though the U.S. has restored the intelligence
+sharing and military aid that Trump cut to Ukraine earlier this month, “the damage is done,” said Marc Polymeropoulos, who used to run the C.I.A.’s operations in Europe. “Ukraine can never trust America again because we can’t be trusted,” he said. But it’s worse than that. “The damage will be long lasting,” Polymeropoulos continued, “because China will say to Taiwan, ‘You think Americans are going to come to your aid? Please.’”
+
+Putin has been telling the world exactly
+this for a long time: America is not a trustworthy ally. In his rendering, Americans are greedy and spoiled cowards who have elections too frequently, and are too wedded to their own comfort, to stick by any missions abroad. They may come to your aid initially, but they’ll eventually get bored and bail out. Not Russia. Putin has been keen to show, by contrast, that he will put actual boots on the ground to defend Russia’s friends (never mind the ultimate fate of Syrian President Bashar
+al-Assad), which is why he’s been successful in making inroads with traditional U.S. allies around the world, especially in the Middle East.
+
+Ironically, Trump is just amplifying a pattern we saw during the Obama administration, when the president failed to enforce his own red line against Assad’s use of chemical weapons in Syria, and again in the administration of Joe Biden, with his perennial fear of Russian escalation and his microdosing
+military aid to Ukraine. “Nobody believes in Article V anymore,” Bondarev said, referring to the NATO collective-security guarantee that Trump has repeatedly questioned—including just last week, when he said ( https://www.france24.com/en/live-news/20250313-nato-s-trump-whisperer-heads-to-white-house-for-tough-talks?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) that if alliance members “don’t pay, I’m not going to defend them.” Added Bondarev: “Everyone knows that the United States
+isn’t going to help anyone.”
+
+ 
+
+That’s all from me, friends. I’ll see you back here next week. Until then, good night, because you know
+damn well that tomorrow will be worse.
+
+Julia
+
+The Powers That Be ( https://puck.news/podcasts/the-powers-that-be/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Join Emmy Award-winning journalist Peter Hamby, along with the team of expert journalists at Puck, as they let you in on the
+conversations insiders are having across the four corners of power in America: Wall Street, Washington, Silicon Valley, and Hollywood. Presented in partnership with Audacy, new episodes publish daily, Monday through Friday.
+
+Dry Powder ( https://puck.news/newsletters/dry-powder/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Unique and privileged insight into the private conversations taking place inside boardrooms and corner offices up and down
+Wall Street, relayed by best-selling author, journalist, and former M&A senior banker William D. Cohan.
+
+A Bezos Reality Check
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+A Bezos Reality Check ( https://puck.news/jeff-bezos-wapo-mandate-is-not-pro-trump/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DYLAN BYERS
+
+Schumer's Vanishing Act
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Schumer’s Vanishing Act ( https://puck.news/chuck-schumer-stays-silent-as-senate-democrats-face-shutdown-vote/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+LEIGH ANN CALDWELL
+
+LVMH’s
+New Bet
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+LVMH’s New Bet ( https://puck.news/inside-louis-vuittons-high-fashion-beauty-play/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+RACHEL STRUGATZ
+
+Puck
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact us ( fritz@puck.news?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences,
+click here ( https://puck.news/unsubscribe/?subscription=the_best_and_the_brightest&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVkfN0bT5fEnsf5aStPmo=&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F13%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+ 
+
+Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

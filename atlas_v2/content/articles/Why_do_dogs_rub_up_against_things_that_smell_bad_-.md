@@ -1,0 +1,168 @@
+# Why do dogs rub up against things that smell bad? - By Jesse Bering - Slate Magazine
+
+**Source**: http://www.slate.com/id/2299835/pagenum/all/#p2
+**Type**: article
+**Created**: 2025-08-13T20:41:17.447834
+
+---
+
+title: Why do dogs rub up against things that smell bad?
+source: http://www.slate.com/id/2299835/pagenum/all/#p2
+date: 2025-08-13T20:41:15.692741
+tags: []
+---
+I’m no perfume connoisseur, but somewhere along the way, in a cheap strip mall
+in Brussels, my nose found a pleasurable, enigmatic scent called Eau des Baux,
+by the popular French chain L’Occitane. The company describes it as a “sensual
+and mysterious blend of cypress and incense.” How fancy. I’ve always wanted to
+be sensual and mysterious, in fact, but, sadly, nature failed to endow me with
+either this rich blend of natural secretions or the corresponding personality
+attributes. So I shelled out some 34 euros, and prior to my book launch in
+Ohio a few months later, I entertained this olfactory illusion with a few
+liberal spritzes on my upper half. I must say, while I didn’t feel especially
+erotic that night, I did smell delicious. [My dog,
+Gulliver](http://twitpic.com/4dncsj), would agree, since on getting a good
+whiff of me, he performed a shameless act of [vertical scent-
+rubbing](http://books.google.com/books?id=S6o5ypyRPQEC&lpg=PA123&ots=Y-Ll4ygYLS&pg=PA123#v=onepage)
+by grinding his cheeks and sides vigorously against my cologne-covered body.
+
+The curious thing about this was that, earlier that same day—and in fact I’d
+just gotten through bathing him to wash away the mealy intestinal bits stuck
+in his fur—Gulliver had done the very same thing with the week-old, rotting
+carcass of an albino squirrel at the park. Most men might second-guess their
+_[sillage de parfum](https://www.slate.com/id/2273201/)_ given these facts,
+since heaven knows we’re not all turned on by a trail of festering squirrel
+juice, but I still liked it, myself. In any event, all of this had me
+wondering why it is that dogs indulge in such scent-rubbing behavior, and in
+response to such diverse cues as Eau des Baux and Eau de Squirrel Innards.
+(Note the distinction between _scent-marking_ , which transfers the animal’s
+signature scent to its surroundings, and _scent-rubbing_ , which transfers
+environmental scents to the animal’s body.) L’Occitane wasn’t in business when
+domesticated dog brains were evolving, of course, but perhaps the general
+behavior has some adaptive function.
+
+As it happens, a team of animal behaviorists led by Jenny Ryon at Dalhousie
+University had explored this very question of [canines’ penchant for
+perfume](http://www.nrcresearchpress.com/doi/pdf/10.1139/z86-084) in 1986.
+Their study wasn’t with dogs—to the best of my knowledge, no controlled
+studies on scent-rubbing with domesticated dogs have ever been done—but with a
+very close relative instead: the wolf (_Canis lupus_). The authors note that
+scent-rubbing is an unconditioned response in wolves, which means that it’s an
+instinct, more or less, and they submit that wolves have been observed to
+luxuriate among the pungent, nostril-pinching stews of everything from
+detached body parts to insect repellent to rotten fruit and cigar ashes.
+That’s quite a wide array of stinky things, some of which did not exist
+through most of evolutionary history.
+
+Ryon and her coauthors’ objective, however, was to conduct a controlled test
+of the idea that wolves will grind up on unfamiliar, strong-smelling objects
+as a way to obtain chemosensory information about them. This is a relatively
+easy hypothesis to test, because if it’s correct, then simple repeated
+exposure to the same stimulus should lead to a decrease in rubbing.
+Fortunately, the authors had a few packs of wolves at their disposal in their
+university labs, wolves whose normal diets consisted of “raw chicken necks and
+backs and whole or partial carcasses of road-killed deer.” (We can only assume
+there was no shortage of the latter on the
+[Madonna](https://www.slate.com/id/2136724/)-blaring highways of 1980s Nova
+Scotia.)
+
+Here’s how the experiment worked. The researchers selected four pairs of
+“odiferous substances” and coated 15 cm circles of clean, demarcated ground
+area with these substances using a sterile wooden tongue depressor. The
+_carnivore feces_ pair included the dung of black bears and cougars;
+_herbivore feces_ consisted of the waste products of Aoudad sheep and the
+Sable Island Horse; the _food_ class sampled albacore tuna oil and
+commercially produced salt pork; and, finally, the _manufactured_ category was
+represented by heavy-duty motor oil and a now-discontinued Max Factor perfume
+called “[Geminesse](http://thevintageperfumevault.blogspot.com/2009/03/in-
+search-of-max-factor-geminesse.html),” which, just to be clear, was redolent
+of a leather-floral mix atop a musky, amber base.
+
+The wolves were released into the pen one by one, and observed “from an
+automobile inside their enclosure”—there’s no telling how insane Geminesse
+might make these beasts, after all. In contradiction to their hypothesis,
+explain the authors, the wolves showed a marked propensity to rub on some
+substances and not others, with manufactured odors eliciting the strongest
+response. All individuals that rubbed did so most often on the perfume.
+Interestingly, just as Gulliver did with me, some of the wolves waiting their
+turn performed the same type of “vertical scent-rubbing” on the perfumed
+bodies of those that had just returned from the pen. Carnivore feces had them
+rolling around on the malodorous dirt too, but none of the other stimuli,
+herbivore dung and food, did the trick.
+
+The authors argue that it’s not novelty or even pungency per se that elicits
+scent-rubbing; some especially smelly substances, such as the sheep shit and
+the tuna oil, went unmolested. Rather, “[o]ur wolves showed a negative
+correlation between substances rubbed and substances tasted. Manufactured and
+carnivore odors were most frequently rubbed but rarely tasted, whereas the
+reverse applied to food and herbivore odors.” In other words, the wolves
+didn’t rub against the sheep shit and tuna oil; they _licked_ or even ate it.
+These findings also cast considerable doubt on another theory, not mentioned
+by these authors but circulating in dog-behavior crowds for some time, which
+is that dogs scent-roll to “camouflage” their own odors. This evolutionary
+theory sounds good in principle: It would have helped ancestral canines thwart
+detection by prey animals that bolted whenever they got wind of wolf in the
+air. Yet, if it were true, then we wouldn’t expect the wolves in the foregoing
+study to behave as they did, since it’s hard to imagine that smelling like a
+bear or cougar is much better than smelling like a wolf for this purpose, and
+it’s certainly less effective than masking predator odor with that of a
+harmless ungulate.
+
+Ryon and her colleagues concede that it’s difficult to make sense of these
+data, since, after all, “if wolves are differentially sensitive to certain
+odors, they should be more sensitive to substances of biological relevance
+such as herbivore feces.” But they speculate that the animals’ rolling around
+in motor oil and perfume may reflect a mnemonic strategy, wherein the wolves
+learn about odors that signal potentially important, deviant changes in their
+environment. These changes may be evolutionarily relevant (competitive
+predators) or just really weird (a leather-floral mix) and therefore of
+uncertain adaptive importance.
+
+More recently, another group of animal behaviorists got back into this dirty
+business, but traipsed down the taxonomic line to spotted hyenas—a scent-
+rubbing species that is more distantly related to domestic dogs. For a 2002
+article in the _Journal of Comparative Psychology_ , Christine Drea and her
+colleagues were keen to understand the specific function of the behavior, at
+least as it occurs in spotted hyenas. The authors hypothesize that [rolling
+around in rot](http://www.ncbi.nlm.nih.gov/pubmed/12539928) serves not only a
+memory-related function, but also an important social function for hyenas.
+Whatever information is contained in the odor would be conveyed from one hyena
+to another, their theory goes, in the animals’ characteristic greeting
+display—a ritualistic activity that sounds remarkably similar to my own
+reunions with my partner after some time apart:
+
+> During a greet, participants first sniff each other’s mouth, head, and back,
+> and then, while displaying erections, stand head to tail and mutually
+> inspect each other’s genitals, flanks, and bulging anal pouch. … In nature,
+> a hyena that rolls in an odiferous substance ultimately brings that odor
+> back to the clan. If rolling serves a social function, its consequences are
+> likely to be evident when hyenas reunite.
+
+To determine the social function of scent-rubbing in this species, an
+investigator surreptitiously squirted one of two different odors (either
+carrion, which reliably elicits spontaneous rolling among wild hyenas, or
+camphor, which doesn’t) upon the necks, head and shoulder regions of
+individual hyenas while petting them. Then the “odor-wearer” animal was
+released into the yard and its behavioral interactions with another hyena, the
+“odor-perceiver,” were observed.
+
+Why do dogs roll around in smelly stuff?
+
+As predicted, hyenas perfumed with carrion received significantly more
+attention than did the camphor-dappled or those not wearing any odor. Donning
+eau de carrion led to heightened and positive social interactions—lots of anal
+bulging—between the two, regardless of the social status of the odor-wearer.
+Termination of the ceremony also ended peacefully with the carrion odor,
+unlike some of the other greetings, which met with aggression. It’s probably
+wise to be on friendly terms with the guy who can lead you to the meat. (Or
+the gal, but female spotted hyenas have [faux male
+genitalia](https://www.slate.com/id/2249557/), so gender-equality grammar may
+be overkill here.) “As olfactory cues and social sniffing are frequently used
+to unify the clan or to rally hyenas into group activity,” Drea and her co-
+authors conclude, “rolling may ultimately promote social cohesion.”
+
+It’s not clear how much of these wolf and hyena findings you can extrapolate
+to your own dog’s behavior next time she rolls around in rotting duck gizzards
+or badger vomit. But cut your bitch some slack and don’t make her feel ashamed
+about it: The putrid smell of microbial fermentation is her own personal
+Geminesse.

@@ -1,0 +1,41 @@
+# Carmelo Anthony Isn’t Underrated, But He’s Not Overrated Either | FiveThirtyEight
+
+**Source**: inputs/New Docs/html/fivethirtyeight.com_datalab_carmelo-anthony-isnt-underrated-but-hes-not-overrated-either.html
+**Type**: article
+**Created**: 2025-08-25T02:53:50.942219
+
+---
+
+![](https://fivethirtyeight.com/wp-content/uploads/2014/10/ap120408038160.jpg?w=575)
+
+
+
+New York Knicks’ Carmelo Anthony scoring a 3-pointer in the closing seconds of overtime in a game against the Chicago Bulls at Madison Square Garden in New York.
+
+Mary Altaffer / AP
+
+Carmelo Anthony [raised eyebrows](http://www.espn.com/new-york/nba/story/_/id/11624895/carmelo-anthony-new-york-knicks-says-most-underrated-star-player) this week when he told ESPN’s Chris Broussard, “I think I’m the most underrated superstar that’s out there.”
+
+Oh, really?
+
+Anthony, who plays for the New York Knicks, is a devastating scorer and trails only Kevin Durant and LeBron James [in points per game](http://bkref.com/tiny/sW5X0) over the past five NBA seasons, but he’s also a [polarizing player](http://wagesofwins.com/tag/carmelo-anthony/) in the age of advanced analytics, which place increased emphasis on efficiency. While Anthony puts a lot of points on the board, he also takes a lot of shots. He’s one of the [chief practitioners](http://bkref.com/tiny/JmYKo) of the dreaded [midrange jumper](http://online.wsj.com/news/articles/SB10001424052702304049904579515883764199014), a generally low-yield attempt that statheads have long decried as the [worst kind](http://www.sbnation.com/2013/12/16/5215616/midrange-jumpers-shot-charts-wizards-bobcats-rockets) of shot.
+
+These are some reasons why, depending on the statistic being employed, you could make the case that Anthony is one of the most *overrated* superstars in the NBA. Among the 12 players with at least four All-Star nods in the last five seasons, Anthony [ranks 10th](http://www.basketball-reference.com/play-index/psl_finder.cgi?request=1&match=combined&type=totals&per_minute_base=36&per_poss_base=100&lg_id=NBA&is_playoffs=N&year_min=2010&year_max=2014&franch_id=&season_start=1&season_end=-1&age_min=0&age_max=99&height_min=0&height_max=99&shoot_hand=&birth_country_is=Y&birth_country=&is_active=&is_hof=&is_as=Y&as_comp=gt&as_val=4&pos_is_g=Y&pos_is_gf=Y&pos_is_f=Y&pos_is_fg=Y&pos_is_fc=Y&pos_is_c=Y&pos_is_cf=Y&qual=&c1stat=pts&c1comp=gt&c1val=2500&c2stat=&c2comp=gt&c2val=&c3stat=&c3comp=gt&c3val=&c4stat=&c4comp=gt&c4val=&c5stat=&c5comp=gt&c6mult=1.0&c6stat=&order_by=ws_per_48&order_by_asc=Y#stats::30) in Basketball-Reference.com’s [Win Shares](http://www.basketball-reference.com/about/ws.html) per 48 minutes, an advanced statistic that places a premium on offensive efficiency. (Similarly, economist David Berri’s [Wins Produced](http://wagesofwins.com/how-to-calculate-wins-produced/) model considers Anthony a [well-below-average player](http://www.boxscoregeeks.com/players/215-carmelo-anthony) over the course of his career.)
+
+But as FiveThirtyEight editor-in-chief Nate Silver [has written](https://fivethirtyeight.com/features/why-carmelo-anthony-is-the-ultimate-team-player-and-what-advanced-stats-miss-about-him/) in the past — specifically when Anthony was a member of the Denver Nuggets — Anthony does in fact have a tendency to be underrated by advanced metrics that don’t properly value the positive influence he has on his teammates’ efficiency rates:
+
+> What is missing from formulas [that focus heavily on efficiency] is an account of what Anthony does to the rest of the Nuggets. Because he is able to score from anywhere in the court, Anthony draws attention and defenders away from his teammates, sometimes leaving them with wide-open shots. He also allows them to be more selective about the shots that they choose to take, since they know that Anthony can usually get a respectable shot off before the 24-second clock expires if needed. … These effects produce a profound increase in the efficiency of Anthony’s supporting cast when he is on the floor.
+
+The in-between element of Anthony’s game may also open things up for his teammates. I’ve [found evidence](http://insider.espn.go.com/nba/story/_/id/7791774/nba-midrange-game-case-good-inefficiency) that, even after controlling for a player’s own rates of [usage](http://www.basketball-reference.com/about/glossary.html#usg_pct), [shooting efficiency](http://www.basketball-reference.com/about/glossary.html#efg_pct) and [assists](http://www.basketball-reference.com/about/glossary.html#ast_pct), his tendency toward midrange attempts is a positive variable when predicting his [on-court impact](http://www.gotbuckets.com/2014-ffapm-offense/) on overall team shooting and turnover percentages. Essentially, the more of a midrange game a player has (all else being equal), the more he helps his team shoot well and avoid giveaways. This is part of why Anthony shows up as the NBA’s [18th-best offensive player](http://www.espn.com/nba/statistics/rpm/_/sort/ORPM) according to [Real Plus-Minus](http://www.espn.com/nba/story/_/id/10740818/introducing-real-plus-minus) (RPM), a statistic that estimates a player’s influence on team efficiency while on the floor.
+
+Having said all that, Anthony is far from the most underrated star in the game. He’s a big-time scorer playing in the most high-profile city in America. His [placement](http://www.espn.com/nba/story/_/id/9841623/2013-nba-player-rankings-11-15) in ESPN’s annual [#NBARank](http://www.espn.com/nba/story/_/id/9862025/2013-nba-player-rankings-1) straw poll typically exceeds his [ranking](http://stats-for-the-nba.appspot.com/ratings/2013.html) in RPM. His contract [pays him exactly what he’ll be worth](https://fivethirtyeight.com/features/carmelo-anthonys-contract-could-doom-the-knicks-to-mediocrity/), to the likely detriment of the Knicks going forward. Charitably speaking, Anthony might *just* be rated properly.
+
+The NBA’s true most underrated superstar is far more likely to be a player such as Dirk Nowitzki of the Dallas Mavericks; Tim Duncan of the San Antonio Spurs, whose [greatness](https://fivethirtyeight.com/features/to-find-a-career-like-tim-duncans-we-have-to-go-back-to-kareem-abdul-jabbar/) is still not always fully appreciated; or LaMarcus Aldridge of the Portland Trail Blazers, all of whom ranked highly in RPM a season ago but have not gotten commensurate respect in this year’s #NBARank voting.
+
+Perhaps realizing this, Anthony [backed off](http://probasketballtalk.nbcsports.com/2014/10/02/carmelo-anthony-says-hes-not-nbas-most-underrated-superstar/) from his earlier statements on Thursday:
+
+> Melo said he doesn't consider himself an underrated superstar.
+>
+> — Al Iannazzone (@Al\_Iannazzone) [October 2, 2014](https://twitter.com/Al_Iannazzone/status/517718702973001729?ref_src=twsrc%5Etfw)
+
+Anthony is right. He is who we think he is.

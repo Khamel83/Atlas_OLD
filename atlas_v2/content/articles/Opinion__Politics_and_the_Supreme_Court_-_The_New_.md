@@ -1,0 +1,77 @@
+# Opinion | Politics and the Supreme Court - The New York Times
+
+**Source**: http://www.nytimes.com/2011/02/05/opinion/05sat1.html?pagewanted=print
+**Type**: article
+**Created**: 2025-08-13T21:16:39.407537
+
+---
+
+title: Opinion | Politics and the Supreme Court - The New York Times
+source: http://www.nytimes.com/2011/02/05/opinion/05sat1.html?pagewanted=print
+date: 2025-08-13T21:16:33.385428
+tags: []
+---
+When it comes to pushing the line between law and politics, Justices Antonin
+Scalia and Clarence Thomas each had a banner month in January.
+
+Justice Scalia, who is sometimes called “the Justice from the Tea Party,” met
+behind closed doors on Capitol Hill to talk about the Constitution with a
+group of representatives led by Representative Michele Bachmann of the House
+Tea Party Caucus.
+
+Justice Thomas, confirming his scorn for concern about conflicts of interest
+and rules designed to help prevent them, acknowledged that he has failed to
+comply with the law for the past six years by not disclosing his wife’s income
+from conservative groups.
+
+In Supreme Court opinions, they showed how their impatience for goals promoted
+in conservative politics is infecting their legal actions. They joined in an
+unusual dissent from a court decision not to take a case about the commerce
+clause that turned into polemic in favor of limited government. In an
+important privacy case, NASA v. Nelson, they insisted the court should settle
+a constitutional issue it didn’t need to.
+
+Constitutional law is political. It results from choices about concerns of
+government that political philosophers ponder, like liberty and property. When
+the court deals with major issues of social policy, the law it shapes is the
+most inescapably political.
+
+To buffer justices from the demands of everyday politics, however, they
+receive tenure for life. The framers of our Constitution envisioned law
+gaining authority apart from politics. They wanted justices to exercise their
+judgment independently  to be free from worrying about upsetting the powerful
+and certainly not to be cultivating powerful political interests.
+
+A petition by Common Cause to the Justice Department questioned whether
+Justices Scalia and Thomas are doing the latter. It asked whether the court’s
+ruling a year ago in the Citizens United case, unleashing corporate money into
+politics, should be set aside because the justices took part in a political
+gathering of the conservative corporate money-raiser Charles Koch while the
+case was before the court.
+
+If the answer turns out to be yes, it would be yet more evidence that the
+court must change its policy  or rather its nonpolicy  about recusal.
+
+One possible reform would be to require a justice to explain, in a public
+statement and in detail, any decision to recuse or not. It would be even
+better to set up a formal review process. A group of other justices  serving
+in rotation or randomly chosen  could review each decision about recusal and
+have the power to overrule it.
+
+In the NASA case, the two justices issued opinions on a unanimous ruling that
+NASA can require background checks for contract workers. Six justices (Justice
+Elena Kagan was recused) said the court didn’t need to decide whether there is
+a right to informational privacy.
+
+Justices Scalia and Thomas, on the other hand, insisted that the Constitution
+doesn’t protect such a right and the court should settle the issue. The Scalia
+opinion is a rambling, sarcastic political tirade. The Thomas opinion is short
+but caustic. This is the sort of thing that gets these justices invited to
+gatherings like Mr. Koch’s.
+
+About Justice Scalia, the legal historian Lucas Powe said, “He is taking
+political partisanship to levels not seen in over half a century.” Justice
+Thomas is not far behind.
+
+Both seem to have trouble with the notion that our legal system was designed
+to set law apart from politics precisely because they are so closely tied.

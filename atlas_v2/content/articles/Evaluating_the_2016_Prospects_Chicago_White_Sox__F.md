@@ -1,0 +1,1098 @@
+# Evaluating the 2016 Prospects: Chicago White Sox | FanGraphs Baseball
+
+**Source**: http://www.fangraphs.com/blogs/evaluating-the-2016-prospects-chicago-white-sox/
+**Type**: article
+**Created**: 2025-08-13T18:28:44.915972
+
+---
+
+title: Evaluating the 2016 Prospects: Chicago White Sox | FanGraphs Baseball
+source: http://www.fangraphs.com/blogs/evaluating-the-2016-prospects-chicago-white-sox/
+date: 2025-08-13T18:28:42.618005
+tags: []
+---
+_Other clubs:[Braves](http://www.fangraphs.com/blogs/evaluating-
+the-2016-prospects-atlanta-braves/),
+[Cubs](http://www.fangraphs.com/blogs/evaluating-the-2016-prospects-chicago-
+cubs/), [Diamondbacks](http://www.fangraphs.com/blogs/evaluating-
+the-2016-prospects-arizona-diamondbacks-2/),
+[Orioles](http://www.fangraphs.com/blogs/evaluating-the-2016-prospects-
+baltimore-orioles/), [Red Sox](http://www.fangraphs.com/blogs/evaluating-
+the-2016-prospects-boston-red-sox/)._
+
+The White Sox have seen their lowly regarded farm system weakened by the [Todd
+Frazier](http://www.fangraphs.com/statss.aspx?playerid=785&position=3B) deal,
+but they still have a few guys at the top who could be impact players. This
+system’s biggest strength is in its depth of depth pieces, including a lot of
+bullpen arms and bench players that still have some upside if things break
+right. Perhaps the most interesting quality is how unique some of their
+prospects are. Many are gifted athletes who seem to have atypical looks on the
+field, or just unique stories. Watch [Tyler
+Danish](http://www.fangraphs.com/statss.aspx?playerid=sa737562&position=P) on
+the mound and how his delivery works, with possibly surprising success,
+depending on who you ask. Or take [Eddy
+Alvarez](http://www.fangraphs.com/statss.aspx?playerid=sa806877&position=SS),
+who previously won a silver medal in speed skating before coming back to
+baseball.
+
+Though I don’t think this system will churn out a bunch of surprise
+superstars, the scouting department has done a good job bringing in gifted yet
+undeveloped players in at the lower levels. Give their Rookie-level players a
+year to develop and we may have three or four of them high on this list next
+year.
+
+I think you’ll find the top three players here to be the same three as most
+evaluators would say, though my order is a little different. As fun as [Carson
+Fulmer](http://www.fangraphs.com/statss.aspx?playerid=sa658272&position=P) is
+to watch, his delivery makes it harder to project the necessary improvements
+to reach his upside, so I actually think [Spencer
+Adams](http://www.fangraphs.com/players.aspx?lastname=Spencer%20Adams) and
+[Tim
+Anderson](http://www.fangraphs.com/statss.aspx?playerid=sa737508&position=SS)
+have a brighter future. Adams is more potential than reality in some ways, but
+his athleticism and easy actions are too good not to see him fully
+progressing. It may be a year early for most to feel comfortable with Adams’
+grades, but I’m going to trust the potential.
+
+Here’s the [primer](http://www.fangraphs.com/blogs/evaluating-
+the-2016-prospects-introduction-and-primer/) for the series and my scouting
+thoughts in general. The grades I put on players heavily weight the
+functionality of each tool in game situations, rather than just pure tool
+grades. Here is a table to understand the position player grades:
+
+![](http://www.fangraphs.com/blogs/wp-
+content/uploads/2015/08/FG_logo_transparency.png)
+
+Scouting Grades in Context: Hitters
+
+80 | 80 | 0.320 | 40 | 0.300 | 12 | 30  
+---|---|---|---|---|---|---  
+75 |  | 0.310 | 35-40 | 0.275 | 10 | 25  
+70 | Plus Plus | 0.300 | 30-35 | 0.250 | 8 | 20  
+65 |  | 0.290 | 27-30 | 0.225 | 6 | 15  
+60 | Plus | 0.280 | 23-27 | 0.200 | 4 | 10  
+55 | Above Average | 0.270 | 19-22 | 0.175 | 2 | 5  
+50 | Average | 0.260 | 15-18 | 0.150 | 0 | 0  
+45 | Below Average | 0.250 | 12-15 | 0.125 | -2 | -5  
+40 |  | 0.240 | 8-12 | 0.100 | -4 | -10  
+35 |  | 0.230 | 5-8 | 0.075 | -6 | -15  
+30 |  | 0.220 | 3-5 | 0.050 | -8 | -20  
+  
+As well as one to understand what the overall grades approximate:
+
+![](http://www.fangraphs.com/blogs/wp-
+content/uploads/2015/08/FG_logo_transparency.png)
+
+Scouting Grades in Context: Overall
+
+80 | Top 1-2 | #1 Starter | —- | 7  
+---|---|---|---|---  
+75 | Top 2-3 | #1 | —- | 6  
+70 | Top 5 | #1/2 | —- | 5  
+65 | All-Star | #2/3 | —- | 4  
+60 | Plus | #3 | High Closer | 3  
+55 | Above Avg | #3/4 | Mid Closer | 2.5  
+50 | Avg Regular | #4 | Low CL/High SU | 2  
+45 | Platoon/Util | #5 | Low Setup | 1.5  
+40 | Bench | Swing/Spot SP | Middle RP | 1  
+35 | Emergency Call-Up | Emergency Call-Up | Emergency Call-Up | 0  
+30 | *Organizational | *Organizational | *Organizational | -1  
+  
+One other difference in the way I’ll be communicating scouting grades to you
+is the presence of _three numbers on each tool_ instead of just two. The first
+number is the current grade. The second number is the likely future grade; or,
+if you prefer percentiles, call this the 50th percentile projection. The third
+number is the ceiling grade, or 90th percentile projection, to help
+demonstrate the volatility and raw potential of a tool. I feel this gives
+readers a better sense of the possible outcomes a player could achieve, and
+more information to understand my thoughts on the likelihood of reaching those
+levels.
+
+In the biographical information, level refers to where they finished the year,
+unless they were sent down for injury rehab or other extraneous reasons. Ages
+are listed as of April 1, 2016. You can also find each player’s previous rank
+from Kiley’s list [last year](http://www.fangraphs.com/blogs/evaluating-the-
+prospects-chicago-cubs/). Below, Dave Cameron shares his thoughts on the
+general state of the organization. Returning for his popular cameo, Carson
+Cistulli picks his favorite fringe prospect toward the end of the list. Next
+up will be the Cincinnati Reds.
+
+Organizational Overview
+
+The White Sox are the quintessential stars-and-scrubs organization, a mix of
+high-level performers whose contributions could not overcome the deficiencies
+around them. Not wanting to waste the peak of an elite ace in Chris Sale, the
+team is pushing to win in the short-term, making significant additions to
+bolster the second-line players on the roster this winter. But like a few
+other teams in similar positions, the White Sox are also taking a risk on
+getting trapped in the middle, stopping short of putting a team on the field
+that should expect to win its division, but also putting enough emphasis on
+the present that the longer-term future is somewhat questionable as well. If
+the organization can improve the weak links of their roster, there is the
+chance for the team to make a significant push for a playoff spot, but they
+should not settle for a roster that could result in another lost season like
+2015. The upgrades made this winter will help, and this team can win in 2016,
+but there is more work to be done to justify the short-term moves that have
+already been made.
+
+50+ FV Prospects VIDEO
+
+Video courtesy of Baseball America
+
+**1.[Spencer
+Adams](http://www.fangraphs.com/players.aspx?lastname=Spencer%20Adams), RHP**
+**Current Level/Age**
+
+: A+/20.0, 6’3/171, R/R
+
+**Acquired**
+
+: Drafted 44th overall (2nd round) in 2014 out of Georgia HS by CHW for
+$1.2827 million bonus
+
+**Previous** **Rank**
+
+: 4
+
+Adams stormed through A-ball hitters in 2015, capping off an excellent year in
+terms of performance and ending up in High-A Winston-Salem. Across 171 innings
+in pro ball, he has only walked 22 batters with a low homer rate — and with
+enough strikeouts to make him a high-interest guy to follow. His arsenal
+requires sharpening and he needs to develop strength to project as a starter,
+but there is plenty to like about his future.
+
+For a pitcher his age, he is already showing a superb ability to pound the
+strike zone. It’s an even more impressive feat when you look at his build.
+Having a thin frame, his pitch effectiveness gets a little off when his lower
+half gets unstable, though there is an ease to his actions that is really
+exceptional for his age. He has great direction to his movements, but added
+lower body mass will help keep his velocity steady and allow his athleticism
+to play up.
+
+His fastball sat mostly in the low-90s in 2015, but he can reach up to 97. At
+points in the last two years, Adams has shown plus potential on all of his
+secondary pitches, though the slider is the best usable pitch currently. He
+can spin a tight curveball that is tough to hit even in the zone, and his
+changeup shows sharp splitter movement with good arm action. The combination
+of athleticism, early results and future physical development give me a lot of
+faith in him ending up with at least one plus offering to pair with his
+fastball.
+
+The 2016 season will only be the second in which Adams has focused solely on
+baseball, being a former basketball
+([VIDEO](https://www.youtube.com/watch?v=iV0CT1eUVlA)) and football player as
+well. He has all the ingredients you expect to see in a developing frontline
+pitcher. He has shown he can run his fastball up into plus-plus range, he
+throws strikes while also showing impressive command, and he has feel for his
+collection of offspeed pitches. Adams will need to put on some muscle and get
+more consistent action on his curve and changeup, improvements that could put
+him in the top tier of all prospects by next offseason.
+
+**Fastball** : 55/60/70 **Curveball** : 45/55/60 **Slider** : 50/60/65
+**Changeup** : 40/50/60 **Command:** 45/55/65  
+**Overall** : 45/55/70
+
+VIDEO  
+Video courtesy of FutureSox  
+**2.[Tim
+Anderson](http://www.fangraphs.com/statss.aspx?playerid=sa737508&position=SS),
+SS**  
+**Current Level/Age** : AA/22.8, 6’1/180, R/R  
+**Acquired** : Drafted 17th overall (1st round) in 2013 out of East Central CC
+by CHW for $2.164 million bonus  
+**Previous Rank** : 2
+
+Anderson is an excellent all-around athlete, with quick-twitch actions on both
+sides of his game that teams dream of having in a middle infielder. His 2015
+went a long way toward solidifying his status as a premium prospect, improving
+both his defense at shortstop and his strikeout avoidance. Though there are
+still questions about whether he remains at the position long-term, his
+offensive abilities will earn him a starting role wherever his defensive home
+ends up.
+
+Watching him at the plate, his hands are the first thing that jump out. He has
+a real loose, athletic look to his upper body with a quick bat. Combined with
+great contact skills, Anderson has the ceiling of a plus or better hit tool,
+with a slight hedge due to his lack of walks. His hands often push out in
+front of his body before his hips can create enough force to tap into his raw
+power, though he projects to have at least league-average overall production
+at the plate.
+
+His aggressive approach has worked so far, though his low walk rate and
+climbing strikeout rate may become issues against better pitching. Major-
+league hurlers will take advantage of his approach with tougher chase pitches
+until he shows improved selectivity. His swing and hand-eye coordination give
+him enough room for error that even a small improvement in approach will be
+enough to project as a starter.
+
+The most impressive figure on his stat sheet this year was the 49 stolen
+bases. Anderson has always had the speed to be an imposing base-running
+threat, and this year he made big strides learning to take advantage of
+opposing batteries. He still has work to do for it to translate to the majors,
+but the big jump in effectiveness this year is a hugely positive sign he can
+be an impact when he comes up.
+
+Defensively, the tools have never been in question, with great range, quick
+feet, and plus arm strength. While he remains slightly raw, most evaluators
+agree that he made huge gains this year on his footwork and positioning,
+drastically reducing the number of errors he committed. I see him sticking at
+the position with continued focus on improving his technique this year, though
+he may need 2016 and 2017 to be fully qualified as a trusted defender at
+short.
+
+I feel more confident in Anderson developing into a shortstop, despite likely
+starting in Triple-A with a fair amount of work to do. Anderson gets some
+leeway on the finer points of his game for being a multi-sport athlete, a
+sentiment with which I strongly agree. He has shown the aptitude to carry his
+practice improvements into games, and the tools give him plenty of chances for
+development. He may end up earning a big-league roster spot before his defense
+and approach have been conquered, but Anderson has a very bright future.
+
+**Hit** : 50/55+/65 **Power** : 30/40/40+ **Run** : 60/65/75 **Field** :
+45/50/55 **Throw** : 55/60/65  
+**Overall** : 45/55/65
+
+VIDEO  
+**3.[Carson
+Fulmer](http://www.fangraphs.com/statss.aspx?playerid=sa658272&position=P),
+RHP**  
+**Current Level/Age** : A+/22.3, 6’1/190, R/R  
+**Acquired** : Drafted 8th overall (1st round) in 2015 out of Vanderbilt by
+CHW for $3.47 million bonus  
+**Previous Rank** : NA
+
+Fulmer capped his junior year at Vanderbilt with a high draft bonus and 23
+professional innings, all but one thrown at High-A Winston-Salem. He is a fun
+pitcher to watch, with a fast delivery and an incredible fastball/curveball
+combo that will challenge any hitter he faces. His stuff will let him move
+fast enough that he could see big league time in 2016, with the plan to keep
+him in the rotation despite future concerns regarding his delivery.
+
+His fastball sits in the mid-90s, touching 97 with excellent life, with a
+release that is very difficult to pick up. The curveball has at least a plus
+ceiling, though with both offerings he will need to improve his command to
+beat major-league hitters consistently. His changeup may end up being average,
+but in my view it looks like a below-average pitch, often with a noticeably
+slowed down arm and not much fade.
+
+On his delivery, he has a quick tempo with a lot of momentum toward the plate.
+His arm action is muscled rather than a loose rotation, finishing differently
+each pitch with some rough deceleration at times. His follow through looks
+stilted and his arm has a lot of recoil, especially when he tries to reach
+peak velocity or break on his pitches.
+
+Even with the good drive from his legs, I worry how much his arm will be able
+to take as his innings pile up, unless he can loosen up his shoulder motion.
+It’s important to note he hasn’t had arm issues in the past, and I’m not
+saying he will. However, maintaining his stuff and developing his command may
+be tough without learning to throw with some more efficiency.
+
+Going for Fulmer are the raves about his makeup and competitiveness, and the
+stuff is good enough that he could dial it back a bit while still being very
+effective. He has three areas for improvement as I see it: enhancing his
+command, developing his changeup into at least an average pitch, and lessening
+the stress in his delivery.
+
+Because of his fastball/curveball filthiness, he probably only needs one of
+those things to happen to be a number-three starter. I think he ends up
+reaching his ceiling as a closer before a starter, though he could still be a
+55 rotation guy without much more development. He likely will join the majors
+in short order, possibly as soon as this year, with his present stuff. We
+should see early in 2016 what advances he will be able to make before facing
+major-league hitters.
+
+**Fastball** : 55/60/70 **Curveball** : 55/60/70 **Changeup** : 40/45/50
+**Command** : 40/45/50  
+**Overall** : 45/55/65
+
+VIDEO  
+Video courtesy of Moore Baseball  
+**4.[Adam
+Engel](http://www.fangraphs.com/statss.aspx?playerid=sa709002&position=OF),
+OF**  
+**Current Level/Age** : High-A/24.3, 6’1/215, R/R  
+**Acquired** : Drafted 573rd overall (19th round) in 2013 out of Louisville by
+CHW for $100,000 bonus  
+**Previous Rank** : 21
+
+Engel had a solid year in the Carolina League, hitting for above-average
+offense and stealing 65 bases in 76 attempts. Then he went to the Arizona Fall
+League, where he unveiled a new swing that helped propel him to winning the
+league MVP award. Always possessing excellent defense and base-running value,
+if Engel can build off the changes he made going into the fall season, the
+White Sox may have a real monster on their hands.
+
+Though there aren’t any long drives in the embedded video above, you can
+really see the differences in his cuts that would help him be more effective
+at the plate. Compare them to these swings from earlier in the year:
+
+VIDEO  
+Video courtesy of FutureSox
+
+Gone is the late step with the rush off his back leg. He picks up his foot and
+takes a true stride with his head and hips staying together, rather than
+reaching out and getting uphill with his posture. Instead of the quick push
+back with his hands as he stepped, now he has a much more athletic and
+rhythmic move down, which helps to keep his hands in motion and in a better
+spot to stay connected with the rest of his swing.
+
+And finally, his swing path has leveled out considerably, unlike the chop down
+to the ball he had during the regular season. He’s always had a quick-twitch
+lower half, but his poor swing plane and tendency to force the barrel around
+his hands made his swing look disjointed and long to the ball. You will still
+see him get anxious to let the barrel go early, but he’s in a much better spot
+to swing with some looseness, the lack of which was a big source of his
+troubles adjusting to movements and speeds previously.
+
+The changes in posture and bat path put him in position to drive balls into
+the outfield rather than filleting balls that dump over the infielders’ heads.
+He hit more fly balls than ground balls for the first time in his professional
+career, combining with his solid raw strength to produce 12 extra-base hits in
+19 games.
+
+It’s near impossible that Engel has actually cut his true-talent strikeout
+rate in half and will continue hitting for a .200+ ISO, but if his swing looks
+the same as it did in the AFL or even improves going into the spring, I expect
+his offense to really take off. I’m projecting him based on how he looked in
+the fall, since it’s too obvious he made conscious changes that are unlikely
+to revert totally. Even if he goes back to striking out close to his career
+rates, Engel looks like a good bet for at least an average hit tool with power
+approaching that level if he progresses.
+
+With the defensive skills to capably handle center field and the base-running
+ability to be at least a plus runner, Engel becomes a very exciting prospect.
+He still may never be an average hitter overall; he just has to hit enough to
+keep him on the field so his speed and defense can carry his profile. I can’t
+help but hedge a little bit to account for possible regression, but his new
+approach now makes him look like one of the better prospects in the system.
+
+The team sources with whom I spoke all had Engel a bit lower than this,
+believing he needs to work on a few more things offensively. I agree totally
+with it not being there yet, but I see a brighter future in his reach. Those
+same sources praised him for being a tremendous worker, and even hinted that
+his defense may be underrated despite the acclaim it receives.
+
+**Hit** : 40/50/55 **Power** : 40/45/50 **Run** : 60/65/70 **Field** :
+55/60/65 **Throw** : 45/50/55  
+**Overall** : 45/50+/60
+
+VIDEO  
+Video courtesty of Minor League Baseball  
+**5.[Jordan
+Guerrero](http://www.fangraphs.com/players.aspx?lastname=Jordan%20Guerrero),
+LHP**  
+**Current Level/Age** : A+/21.8, 6’3/190, L/L  
+**Acquired** : Drafted 471st overall (15th round) in 2012 out of California HS
+by CHW for $100,000 bonus  
+**Previous Rank** : NA
+
+Guerrero picked apart the Carolina League after showing he outclassed South
+Atlantic League in his first nine starts. Between the two, he threw a personal
+high 149 innings with 148 strikeouts against 31 walks and only seven homers.
+His changeup is one of the best pitches of its kind in the minor leagues, and
+his command should allow the rest of his arsenal to play in the majors with
+mid-rotation potential.
+
+The lefty closes himself off as he picks up his stride leg, but he gets
+himself going to the plate with good momentum and balance that provides some
+deception without taking away from his stuff. He throws from true overhand
+slot without compromising his balance side to side, exhibiting good arm
+action. He can show some effort on his fastball at that angle, which may worry
+some considering his 2013 shoulder injury. He has done well to put on muscle
+since then, and seems to have better shoulder-blade movement to support his
+arm than he had back then.
+
+Guerrero’s fastball sits around 90 mph and touches 93-94 with some cut and
+sink, commanding it well down in the zone and to both sides of the plate. He
+doesn’t have consistently above-average heat, so he will need to raise his
+fastball effectiveness to at least an above-average level through movement
+and/or command to be reach his ceiling, and to let his changeup play to its
+full potential.
+
+The change is a swing-and-miss pitch with excellent fade, backed up by a great
+sell out of the hand. He has a developing curveball and slider that are
+successful currently due to his release consistent with his fastball, though
+they need to show improvements in break to be better than average. His curve
+sits slightly ahead of his slider at present.
+
+There are plenty of pitchers who tear up the low minors with control and a
+good changeup, yet struggle to continue that success against higher level
+hitters. I think Guerrero separates himself from that type in a number of
+ways. His being left-handed helps, for sure, with the changeup being his
+equalizer against right-handed hitters. He only has to develop one of his
+breaking balls to the point he can keep lefties off balance, rather than both
+sides.
+
+He also locates the ball very well at a young age, with athleticism and
+strength projections pointing toward growth into true command rather than just
+throwing strikes. I’m cautiously buying his potential as a mid-rotation
+starter, but seeing a consistently average breaking ball or an extra mile per
+hour or two would make him a lock. Guerrero has a nice base to build from
+while being able to develop under the radar due to his average fastball
+velocity.
+
+**Fastball** : 45/55/60 **Slider** : 35/40/45 **Curveball** : 40/45/50
+**Changeup** : 50/60/65 **Command** : 50/55/60  
+**Overall** : 40/50/60
+
+45+ FV Prospects **6.[Tyler
+Danish](http://www.fangraphs.com/statss.aspx?playerid=sa737562&position=P),
+RHP,
+[VIDEO](http://www.milb.com/multimedia/vpp.jsp?&sid=milb&content_id=34933417)**
+
+Danish turned a lot of heads in 2014 spending the year in the rotation, where
+filled up the strike zone and gave up only seven homers in nearly 130 innings
+pitched. He also turns heads with an extremely aggressive side-arm delivery
+that led many to believe he would be a bullpen piece in the future. His 2015
+season may have rekindled the sentiment, as his ratios regressed and he
+finally looked human on a professional mound.
+
+He has a real talent for making hitters feel uncomfortable with the movement
+on his offerings, as well as the conviction he pitches with on the mound.
+Danish is widely reported to have elite makeup, and just reading some of his
+[interviews](http://www.chicagonow.com/future-sox/2015/08/interviews-with-
+five-barons-tim-anderson-tyler-danish-nick-delmonico-peter-tago-and-danny-
+hayes/) supports those claims if you haven’t seen his competitiveness on the
+field.
+
+His arsenal consists of a fastball in the low-90s with exceptional ground-ball
+potential, complemented by a slider and changeup. The slider comes in at two
+different speeds, with the higher velocity pitch acting more like a cutter.
+Both versions have plus potential, but can often get flat depending on how
+well he stays on top of his release. His changeup is less consistent, but also
+could be an above-average offering with time. All of his pitches rely on him
+keeping his release under control, not leaving them in the heart of the zone
+when he loses it.
+
+Despite his low release angle, it must be recognized how well he uses his hips
+and core to set up his upper body rotationally. He creates a ton of torque
+with his body rather than just slinging his arm through. The worry is how much
+strain his motion puts on his elbow in particular, and what it could mean if
+it led to decreased velocity, or worse. He has worked to raise his release
+point and stay within himself on the mound, though he remains a work in
+progress as he faces advanced hitters in the high minors.
+
+His delivery reminds some of [Chris
+Sale](http://www.fangraphs.com/statss.aspx?playerid=10603&position=P), due to
+the arm slot and general misgivings from pitching mechanics experts. While a
+natural comparison, I think his development may end up more similar to [Justin
+Masterson](http://www.fangraphs.com/statss.aspx?playerid=2038&position=P)’s,
+assuming his arm stays intact. He has a high floor as a valuable reliever,
+especially against righties. If his changeup and command take steps forward,
+there’s no reason he can’t be a mid-rotation starter. I think he is more
+likely to be a back-end starter or reliever, though with real upside in either
+role if he can improve his feel.
+
+**Fastball** : 55/55/60 **Slider** : 45/55/60 **Changeup** : 40/45/55
+**Command** : 45/50/55  
+**Overall** : 40/45+/55
+
+**7.[Jacob
+May](http://www.fangraphs.com/statss.aspx?playerid=sa550097&position=OF), OF,
+[VIDEO](https://www.youtube.com/watch?v=6kjaLkIiSvc)**
+
+May’s biggest asset on the field is his elite speed, using it to steal bases
+and cover a ton of ground in center field. He projects as a plus defensive
+outfielder with speed and contact. The 2015 season was a good development year
+for May even with time missed after a bad collision in June. He didn’t hit for
+much power, but showed he can hit for a decent average against pitchers with
+better command.
+
+His defense has come along nicely with improved reads and routes compared to
+past years. His arm is a liability, but his speed should allow him to more
+than make up for it by chasing down more hits than most. He is still learning
+how to play the running game optimally, having some work to do on picking
+spots and reading pitchers. There is enough aptitude here to expect plus-plus
+base running at the big-league level.
+
+May is overall a better hitter from the left side of the plate, but may end up
+hitting for more power from his right. Both swings are geared toward low line
+drives, with his lefty cuts getting too choppy at times, even for a guy with
+his speed. Though he has some bat speed, it’s unreasonable to expect any more
+than below-average power.
+
+I have heard concerns over his contact ability, but he made above-average
+contact relative to his league in 2015. May has a good eye at the plate, which
+will be tested as pitchers challenge him in the zone without the fear of
+serving up a dinger. His batted-ball profile will be littered with ground
+balls, opening his average up to some highs and lows as the BABIP gods see
+fit. In all he should be a better than average hitter.
+
+**Hit** : 45/55/60 **Power** : 30/35-40/40 **Run** : 60/70/75 **Field** :
+60/60/65 **Throw** : 40/40/40  
+**Overall** : 40/45/55
+
+**8.[Chris
+Beck](http://www.fangraphs.com/statss.aspx?playerid=13418&position=P), RHP,
+[VIDEO](https://www.youtube.com/watch?v=HscheM4Bq4s)**
+
+Beck has a great pitcher’s body with strong legs and a thick yet athletic
+core. The first three months of the season were a great success for Beck,
+culminating in his big-league debut against the Orioles. A few Triple-A starts
+later, he went down with an elbow injury that hinted at [Tommy
+John](http://www.fangraphs.com/statss.aspx?playerid=1006515&position=P)
+surgery in his future, but instead he underwent ulnar nerve transposition
+surgery to take the stress off the important nerve. He is on track to be ready
+for spring training with his normal throwing progression, and is hopeful for
+minor-league opening day.
+
+He has yet to put concerns over his upside to rest as he searches for a
+breaking ball that can generate whiffs to complement his worm-burning ways.
+Both his fastball and changeup have the movement to produce ground balls at a
+high rate, with his fastball getting into the mid-90s. He mixes in a slider
+and a seldom-used curveball, both of which are likely to remain below-average
+offerings.
+
+Beck has a fairly simple, clean delivery with good use of his lower-half
+strength. His balance can waver laterally on occasion, but his arm path is
+direct and has plenty of room for deceleration. Despite his lack of a
+strikeout pitch, Beck should succeed in the walk and home run categories with
+his solid-average to above command and good movement on his primary pitches.
+At this point, there’s not much chance for him to add swings and misses to his
+game, but his strengths put him solidly in the back end of a rotation.
+
+**Fastball:** 50/55/55 **Slider** : 40/45/50 **Curveball** : 40/40/45
+**Changeup** : 45/50/55 **Command** : 50+/55/60  
+**Overall** : 45/45-50/50
+
+**9.[Corey
+Zangari](http://www.fangraphs.com/statss.aspx?playerid=sa875065&position=1B),
+1B, [VIDEO](https://www.youtube.com/watch?v=HFEN7vcChYc)**
+
+Drafted in the sixth round of the 2015 draft, Zangar demonstrated excellent
+power potential in his first season over two rookie levels. There are some
+concerns about his contact rate, with a propensity for swinging and missing at
+pitches that may limit his hit tool in the future. His long swing and bat path
+give him little room for error with a defensive profile that leaves at first
+base for the long haul, but there are some encouraging qualities at the plate
+that hint at positive future developments.
+
+Right now, everything with Zangari’s swing looks geared toward chopping down
+on the ball, making it difficult to lift pitches below his belt. It also
+forces him to have a short contact window out in front of the plate, resulting
+in pull-side power with higher pitches being more in his wheelhouse, where his
+swing path is automatically leveled out. I like his strong base and the
+sequencing of his arms and hands, but he will have to level out his swing
+plane to get to his raw power against better pitching.
+
+Nearly drafted as a pitcher due to his mid-90s fastball, Zangari has both a
+strong arm and a fallback option on the mound if his development were to
+stagnate. I see more potential in his bat, especially if he can improve his
+swing plane, though his current and likely future grades are what I expect
+from him if he doesn’t make changes. He’s an interesting young slugger, but
+with a lot of risk in reaching his ceiling.
+
+**Hit** : 25/35/40 **Power** : 35/50/60 **Run** : 25/30/35 **Field** :
+35/40/40 **Throw** : 55/60/65  
+**Overall** : 30/45/55
+
+**10.[Trey
+Michalczewski](http://www.fangraphs.com/statss.aspx?playerid=sa737859&position=3B),
+3B, [VIDEO](https://www.youtube.com/watch?v=NTAMpjgqeyQ)**
+
+Michalczewski has an easy-going swing from both sides of the plate, with
+scouts waiting for his power to develop as he gets stronger. Though he has
+played both second and third base as a professional, he seems destined to
+settle at third with his strong arm and developing defense. None of his tools
+stand out, but there is still hope that he can develop into a big-league
+regular.
+
+Watching him at the plate, he has the look of an above-average hitter with
+smooth actions, though he has some swing-and-miss tendencies on pitches in the
+zone. He shows a good eye at the plate, with enough power to make pitchers
+want to keep the ball out of the middle of the plate. He may not reach average
+power production, though he already has the strength and swing path to provide
+solid doubles totals.
+
+Added strength will be the best help for his home run power, though it’s tough
+to imagine a ton of growth there due to his contact-oriented approach and
+effort level. So far in his career, he has demonstrated the ability to drive
+the ball to the fence across the entire field, but his homer power is mostly
+to his pull side. Mechanically he could try to get more use out of his legs,
+though his more likely path is developing muscle to turn his singles into
+doubles, and doubles into homers.
+
+At third base, he has improved his footwork over the last couple years, but
+has about an average ceiling at the hot corner. His arm strength covers up
+some of his shortcomings on the technical side. Stealing bases isn’t his
+forte, although he shows good reads for taking extra bases to provide close to
+average value overall.
+
+I hate player comps, but I couldn’t help thinking about [Chase
+Headley](http://www.fangraphs.com/statss.aspx?playerid=4720&position=3B) when
+grading out Michalczewski’s ceiling. He projects as a fringe starter for now,
+but with the ability to approximate average value across the board, it won’t
+take much improvement for him to be a solid regular at third. In all, he has
+the skills to contribute off the bench, but adding average-level power to his
+game would go a long way toward strengthening his case for a full-time role.
+
+**Hit** : 45/50/50+ **Power** : 40/45/50 **Run** : 40/40/45 **Field** :
+45/45/50 **Throw** : 50/55/55  
+**Overall** : 40/45/50
+
+**11.[Eddy
+Alvarez](http://www.fangraphs.com/statss.aspx?playerid=sa806877&position=SS),
+SS, [VIDEO](https://www.youtube.com/watch?v=utnvxtLQMfY)**
+
+It’s hard to have a more unique background than Alvarez does, only two years
+removed from receiving a silver medal in speed skating before being signed by
+the White Sox, and a long time off from the game prior to that. Despite his
+advanced age compared to his level, Alvarez has the tools to be a legitimate
+big-league shortstop if he continues improving over the next two years. What
+he’s done in his first two seasons has been nothing short of amazing.
+
+His run, hit and fielding tools all flash plus, but each are understandably
+raw to the point where they could look well below average on a given play. His
+work at shortstop is serviceable, though he’s likely a better fit at second
+despite his fast improvement. His raw tools at short are excellent, giving him
+the ability to make plays beyond where many others can. But he also struggles
+with the routine plays at times, lacking the comfort level, and the
+repetitions, to let his tools work for him. One team source admitted he
+probably isn’t an everyday shortstop, but he hasn’t played himself off the
+position yet.
+
+His arm may not be an impact tool, but he won’t embarrass himself with long
+throws in the 5/6 hole. Alvarez has plus-plus running speed, and is improving
+his aptitude in the running game (53 SB to 15 CS in 2015), though he still has
+room to go for it to be a plus asset against big-league batteries.
+
+At the plate, Alvarez has the bat speed but not the efficiency or exit angles
+to project for power. He will turn on a few pitches up or on the inside half,
+but expecting better than a handful of homers and a .100 ISO is probably a
+reach. His speed and contact will result in more extra-base hits than hitting
+true drives past the outfielders. He also has a ground-ball-heavy profile that
+may hinder both the hit and power tools at higher levels.
+
+His approach centers around seeing a lot of pitches, and being able to fall
+back on his contact when he’s deep in the count. As he advances, he will need
+to take a more aggressive stance early in the count to keep better pitchers
+from putting him in the hole to start every at-bat. His eye is good enough
+that it shouldn’t be a terribly difficult adjustment, but his walk totals may
+go down as he approaches the big leagues.
+
+It’s tough projecting a guy who still is relatively young to professional
+baseball, yet will be pressured to move quickly at his age. Alvarez is
+unlikely to blossom into a starting option, but his tools alone make him
+project as a bench player at worst in my opinion. Some contacts with whom I
+spoke see him as a minor-league depth piece and nothing more, so it’s
+important to keep perspective on where he is at currently. However, if he has
+another development year like his last two, we could see him pushing for a
+starting job. Exposure to Double-A and Triple-A pitching will round up the
+adjustments he has to make very quickly.
+
+**Hit** : 45/50/55 **Power** : 30/35/40 **Run** : 55/60/70 **Field** :
+50/55/60 **Throw** : 50/50/55  
+**Overall** : 35/45/50
+
+**12.[Jhoandro
+Alfaro](http://www.fangraphs.com/statss.aspx?playerid=sa877352&position=C), C,
+[VIDEO](https://www.youtube.com/watch?v=VvPwY3kIs6Q)**
+
+Alfaro had an inconspicuous start to his professional career with 95
+uneventful plate appearances in the rookie Arizona League. The younger brother
+of Phillies’ prospect [Jorge
+Alfaro](http://www.fangraphs.com/statss.aspx?playerid=sa551307&position=C),
+Jhoandro is an exciting catcher with tons of potential on both offense and
+defense. His throwing ability is his calling card, with at least plus arm
+strength that scouts think will be a shutdown tool as he matures.
+
+On the offensive side, it’s still very early to figure out what he could be.
+He has an easy-going stroke with good athletic actions, and looks like he
+could profile into some power down the road. I think I like his chances of
+being a solid line-drive hitter more than power guy, but I can see where the
+optimism comes from. Alfaro shows more of a line-drive swing path, but it
+wouldn’t take much of a change or strength gains to see him approaching
+average power in the future. One team contact believes he could have plus hit
+and power tools if everything comes together.
+
+His swing can get a little long by letting his barrel get disconnected early
+in his swing, which likely contributed to his issues facing professional
+pitching for the first time. He looks like he’ll make enough contact that it
+won’t be a huge issue, though. For what it’s worth, he maintained a decent
+strikeout rate in his Arizona at-bats (15.8%).
+
+For now, Alfaro the younger can only be projected as a bench guy or fringe
+starter, but only because he’s so young and his offense is still raw. Unlike
+most teenage professional hitters, he has the makings of a decent swing that
+should put him in line as an above-average big-league catcher should his
+defense live up to its billing. Another shot at the Arizona League this year
+after extended spring training will help provide more information about his
+skills and likelihood of contributing to the major-league team.
+
+**Hit** : 25/40/50 **Power** : 25/40/45 **Run** : 30/30/30 **Field** :
+45/50/55 **Throw** : 55/60/65  
+**Overall** : 30/45/55
+
+**13.****[Jordan
+Stephens](http://www.fangraphs.com/statss.aspx?playerid=sa875031&position=P),
+RHP, [VIDEO](https://www.youtube.com/watch?v=0yDCpH-k5LI)**
+
+Stephens has the potential for 3-4 average to above-average pitches, running
+his fastball up to the mid-90s with decent control. His future is a bit unsure
+as he builds up innings after having Tommy John surgery in 2014, but he has
+the arsenal and control to challenge for the top 10 if he stays healthy. One
+team contact can see him reaching the major leagues by 2017. He likely starts
+in the rotation this year, but his highest upside is on the relief side.
+
+His delivery is simple and direct, though his motion does put extra stress on
+his elbow. It seems best for him to work out of the bullpen, both so his
+pitches can play up and to prevent overuse of his reconstructed arm. I want to
+see how his command develops this year before bumping his grades up too high,
+but there’s reasonable optimism he could be another late-inning reliever
+coming out of the system.
+
+**Fastball** : 50/55/60 **Curveball** : 45/55/60**Slider** : 40/45/50
+**Changeup** : 35/40/45 **Command** : 45/50/55  
+**Overall** : 40/45/50
+
+**14.[Courtney
+Hawkins](http://www.fangraphs.com/statss.aspx?playerid=sa657904&position=OF),
+OF, [VIDEO](https://www.youtube.com/watch?v=Vh-MhGswN9s)**
+
+It’s hard to close the book on Hawkins despite another disappointing season.
+He still has tools in every part of the game, but at this point you really
+have to squint to see his potential turning to reality. His power numbers
+dipped, but more concerning was the strikeout rate climbing back over 30%.
+Missing time due to plantar fasciitis certainly hurt his numbers before going
+on the disabled list, and the injury prevented him from participating in the
+Arizona Fall League. He’s going through maintenance treatment and will be
+ready for spring training.
+
+Hawkins still has around average base-running ability, which was obviously
+limited by his foot issues this year. He may not steal many bases as he
+continues maturing, but he should still be able to make contributions with his
+speed. He has the physical tools to play as an above-average outfielder,
+though his skills need work for him to contribute at that level consistently.
+
+In the box, he still suffers from discipline issues, chasing pitches out of
+the zone and having trouble swinging through some in the zone. He has done
+well to get a more consistent base under him, though he remains a boom-or-bust
+hitter due to his contact. His swing gets long early as his hands get away
+from him, so most of the time he’s wrapping his bat around the pitch and
+yanking it to his pull side. Good breaking balls will still get him off his
+legs, and I’m not sure there is much room for growth without really continuing
+to improve his approach.
+
+He still has a ways to go to be a valuable bat in a big-league setting, but he
+has good qualities in the other parts of his game that will make him useful.
+He projects as a fringe starter or platoon bat until he figures out his
+approach or somehow makes more contact.
+
+**Hit** : 30/35/40 **Power** : 40/55/60 **Run** : 45/45/50 **Field** :
+50/50/55 **Throw** : 50/50/55  
+**Overall** : 35/45/50
+
+**15.****[Brian
+Clark](http://www.fangraphs.com/statss.aspx?playerid=sa827463&position=P),
+LHP, [VIDEO](http://m.mlb.com/video/topic/26271672/v535096183/top-prospects-
+brian-clark-lhp-white-sox)**
+
+Clark has split his time between relieving and starting as a professional,
+though it hasn’t been because of lack of results. He will continue pitching in
+the rotation in Double-A this season, where at least one team source believes
+he could be a number-three or -four starter. Others agree he is probably a
+reliever down the road, a notion that I also share.
+
+It is not a problem with his stuff, as he throws a low-90s fastball he can
+locate and a potential above-average slider. His changeup isn’t anything
+special, but the White Sox are hoping he can turn it into close to an average
+pitch. He has a very rigid upper back that puts a kink in his motion, that I
+think sheds doubt on him amassing a full starter’s workload across an entire
+season. It also tempers my expectations for how much better his stuff can get,
+particularly with finding a useful changeup. Even still, his slider will make
+him a weapon against lefties, and his ability to command the baseball give him
+a realistic future as a later inning reliever.
+
+**Fastball** : 50/55/55 **Slider** : 45/50/55 **Changeup** :
+35/40/40**Command** : 50/50/55  
+**Overall** : 40/45/45+
+
+**16.[Jason
+Coats](http://www.fangraphs.com/statss.aspx?playerid=sa577916&position=OF),
+OF, [VIDEO](https://www.youtube.com/watch?v=Dpd5OgstDso)**
+
+Coats has produced at a steady level since being taken in the 29th round of
+the 2012 draft. He projects to make decent contact, hit for low double-digits
+power, and steal a few bags despite below-average raw speed. With lingering
+questions about his plate discipline and barrel control, he is a good
+candidate for a platoon or fourth outfielder role.
+
+His swing gets stiff and forces him to be jammed on occasion. He generates
+almost all of his power to the pull side, and may not have the adjustability
+at the plate to face pitchers who show the ball late or have good movement.
+Regardless, he has shown enough ability at each level to warrant a chance in
+the big leagues, and he’s primed to get it this season.
+
+**Hit** : 40/45/45 **Power** : 40/45/45 **Run** : 50/50/50 **Field** :
+50/50/50 **Throw** : 50/50/50  
+**Overall** : 40/45/45
+
+40+ FV Prospects **17.****[Brandon
+Brennan](http://www.fangraphs.com/statss.aspx?playerid=sa550121&position=P),
+RHP, [VIDEO](https://www.youtube.com/watch?v=RFP_YyEATTI)**
+
+The 2016 campaign will be Brennan’s first full season in a while, after he
+missed parts of 2013-14 with Tommy John surgery and the beginning of 2016 with
+a neck injury. He has a fast arm that produces mid-90s heat with good sink,
+and has a good slider with a well below-average changeup. He has some
+pitchability and can throw strikes, enough that some believe he could be a
+fourth or fifth starter. The strikeouts haven’t been there yet, as he is still
+finding his command and doesn’t have great feel for his secondary pitches in
+my opinion.
+
+His arm action is quick but moderately labored, and he truncates his finish
+without letting everything finish naturally. He babies his changeup by slowing
+down his arm and feeling through his release, both signs that he won’t develop
+it any time soon. His overall grades here reflect more what I think he could
+be in the bullpen. Both his fastball and slider look like pitches that would
+work best in short outings, and have a higher potential with an extra half
+grade possible on each.
+
+**Fastball** : 50/55/60 **Slider** : 40/45/50 **Changeup** : 30/35/40
+**Command** : 40/40/45+  
+**Overall** : 40/40+/50
+
+**18.[Micker
+Adolfo](http://www.fangraphs.com/statss.aspx?playerid=sa830303&position=OF),
+OF, [VIDEO](https://www.youtube.com/watch?v=MIQED4rgEVw)**
+
+Adolfo had an unfortunate season in 2015, being limited by a hamstring injury,
+followed by a broken fibula that required surgery. He is reportedly going to
+be ready for the start of 2016, with the organization hoping to see a
+continued effort to improve his approach and contact in the low minors. He is
+an exciting player to dream on, with impact arm strength and potential plus
+power, but the utility of his bat is held down by swings and misses at his
+young stage.
+
+He shows the ability to tap into his power in batting practice, with explosive
+lower-half movements and good lift in his hands. He gets really long to the
+ball at times, letting his barrel get away from his body and come around the
+ball, which pulls him out of his strong base. Though his approach is the main
+focus for his development, I see a bigger issue in him swinging through a lot
+of pitches in the zone, something that will be much more difficult to improve.
+
+I believe he is most likely a future bench bat at this point until he quells
+his contact issues, though his power potential and age give him a lot of
+leeway and upside. Getting a chance in full-season ball should really help put
+his future in the right perspective.
+
+**Hit** : 20/35/40 **Power** : 40/55/60 **Run** : 45/40/45 **Field** :
+45/50/50 **Throw** : 55/60/65  
+**Overall** : 25/40/55
+
+**19.[Jake
+Peter](http://www.fangraphs.com/statss.aspx?playerid=sa829115&position=2B),
+2B/SS/OF, [VIDEO](https://www.youtube.com/watch?v=EdAA-wPOmRE)**
+
+Peter had an excellent 2015 season between his steady performance in High-A
+and a strong showing in the Arizona Fall League. He has some versatility as an
+infielder who can play up the middle or in the outfield, though his strengths
+are more apparent at second base. Not possessing any power, Peter needs to
+really sharpen his hit tool to profile as more than a bench player.
+
+He has average speed at best, but has shown the base-running chops to possibly
+parlay it into above-average to plus value on the bases. Though he handles the
+bat well and makes a lot of contact, his swing is choppy and comes across ball
+without much lift. He has poor barrel awareness with a lot of balls hit weakly
+off his bat. He looks like he’ll be a slave to the BABIP gods unless he can
+hit line drives with more frequency.
+
+Despite some tools on defense and the bases, his hit tool looks like it will
+limit him to a part-time role. He has made enough contact in his minor-league
+career to suggest he could reach the plus level with the bat, which would put
+him in the conversation for a starting role, but he will likely settle in as
+versatile bench piece who won’t kill you at the plate.
+
+**Hit** : 40/50/60 **Power** : 25/30/35 **Run** : 50/55/60 **Field** :
+50/50/55 **Throw** : 55/55/60  
+**Overall** : 35/40/50
+
+**20.[Andre
+Wheeler](http://www.fangraphs.com/statss.aspx?playerid=sa549578&position=P),
+LHP, [VIDEO](https://www.youtube.com/watch?v=etr_OnelmaE)**
+
+Wheeler throws hard and has shown an ability to get lefties out in the
+bullpen, though he may have more upside than just being a situational guy. He
+has had some success spot starting, mostly relying on his 90-95 mph fastball
+and decent slider to keep hitters off balance. I saw him in the Arizona Fall
+League, and was surprised by his changeup arm speed and fade, giving him a
+possible weapon against righty hitters as well.
+
+He’s still mostly a two-pitch guy, and his command needs to improve a tick or
+so to profile as more than a middle reliever. The combination of present
+ability athleticism give him a good chance of making improvements, and I like
+his chances of becoming a seventh-inning bullpen guy who can get hitters out
+on both sides of the plate, though lefties will still have a tougher time.
+
+**Fastball** : 50/55/55 **Slider** : 45/50/55 **Changeup** : 40/45/50
+**Command** : 40/45/45  
+**Overall** : 35/40/45
+
+**21.[Jace
+Fry](http://www.fangraphs.com/statss.aspx?playerid=sa598246&position=P), LHP,
+[VIDEO](https://www.youtube.com/watch?v=mbGkj2JFZsM)**
+
+Fry is now the recipient of two replacement ligaments, having undergone his
+second Tommy John surgery after ten starts in 2015. His move to the bullpen
+was probably inevitable to begin with, but it’s likely assured now to help
+protect his arm. He could end up with four average or better pitches, with his
+slider continuing to show the most promise.
+
+With a chance for average command if he can come back in normal form, Fry has
+the stuff to stay in the rotation. His delivery is extremely taxing on his
+arm, with very stiff actions and an abbreviated finish that doesn’t utilize
+his body to protect his arm. I worry about how his elbow holds up even in the
+bullpen without making some changes, but he has the ability to be a useful
+seventh- or eighth-inning guy in a best case scenario.
+
+**Fastball** : 50/50/50 **Slider** : 45/50/55 **Curveball** : 40/45/50
+**Changeup** : 40/40/45 **Command** : 40/45/50  
+**Overall** : 35/40/45
+
+**22.[Robin
+Leyer](http://www.fangraphs.com/statss.aspx?playerid=sa657613&position=P),
+RHP, [VIDEO](https://www.youtube.com/watch?v=HDw2U9LzUyY)**
+
+Leyer has one of the strongest arms in the system, with a fastball that can
+touch the upper-90s and sits comfortably a few ticks below. The numbers
+haven’t been where you would expect with his arm strength, though he has
+maintained a decent strikeout rate into Double-A. He has below-average
+deception and doesn’t hide his secondary pitches well, leaving him with a lot
+of work to do to stay in the rotation.
+
+Even with the hard velocity, it’s hard to project his fastball to be more than
+average without added movement, command or masking his release better. Batters
+see the ball well at release with his overhand angle and shoulders squared up
+to the plate. His tempo often telegraphs what pitch he’s throwing, which
+advanced hitters will take advantage of unless they have trouble handling
+velocity. His changeup has a chance of developing into an average pitch with
+good depth, but it also suffers from poor release at present.
+
+Leyer may keep getting a shot in the rotation, but the Sox see his best chance
+to help will be in the bullpen. Giving him shorter outings where he can live
+off in the upper range of his velocity may allow him to project as a decent
+matchup option. Focusing on the development of one offspeed pitch should also
+help him get big-league hitters out, but he still has many adjustments to make
+before getting to that level.
+
+**Fastball** : 45/50/60 **Slider** : 35/40/45 **Changeup** : 35/40/50
+**Command** : 40/45/45  
+**Overall** : 35/40/45
+
+**23.[Thad
+Lowry](http://www.fangraphs.com/statss.aspx?playerid=sa737826&position=P),
+RHP, [VIDEO](https://www.youtube.com/watch?v=qNJNXzBxhOI)**
+
+Lowry is still figuring out how to pitch as a relatively recent convert to the
+mound, but he shows promise as a strike thrower with a good fastball and
+strong frame. Though he doesn’t walk many hitters, his command looks to remain
+below average at the moment, especially of his slider and changeup. His
+physical maturity may end up working against him, with only so much room for
+growth expected before he reaches his maximum ability level.
+
+His fastball usually runs up to 93, though he has thrown mid-90s at points in
+the past. He projects to have around average command of his heater. It
+features decent arm-side run and is his best pitch now and in the future, with
+his secondary pitches slowly developing in both movement and command. His
+slider has shown flashes of being a consistent above-average pitch, but
+getting to that level will take a lot of work, as his feel for both of his
+offspeed pitches is still below average.
+
+The White Sox knew they were getting a project with Lowry, and he is
+progressing well enough to keep him in the rotation as he progresses. They
+hope to see him develop into a fourth or fifth starter eventually. Sharpening
+his slider will help him get mid-level minor-league hitters out, while the
+changeup likely needs to reach its ceiling for him to stay in the rotation
+long-term. Look for how consistent his delivery and feel for his slider and
+change improve this year as indicators of his future role and likelihood of
+reaching the big leagues.
+
+**Fastball** : 50/55/60 **Slider** : 40/45/55 **Changeup** : 35/40/45
+**Command** : 40/45/45+  
+**Overall** : 35/40/45
+
+Quick Hits**  
+****RHP[Danny
+Dopico](http://www.fangraphs.com/statss.aspx?playerid=sa875346&position=P) **
+
+registered 56 strikeouts in 35 Arizona League innings in 2015, and reportedly
+finished well in instructionals after tweaking his pitches a bit. One source
+put 60 to 70 grades on his fastball and breaking ball. He’ll move quickly if
+his stuff holds up and his command fares well against better hitters, with the
+same source saying he will be in the team’s top 10 this time next year.
+
+**SS[Johan
+Cruz](http://www.fangraphs.com/statss.aspx?playerid=sa736621&position=3B/SS)**
+is tall and thin-bodied player that team sources say has enough tools to stick
+at shortstop. His offensive turnaround was widely praised by all the contacts
+with whom I spoke.******SS[Amado
+Nunez](http://www.fangraphs.com/statss.aspx?playerid=sa877349&position=SS)
+([VIDEO](https://www.youtube.com/watch?v=QxLSSax-8D0)) **is an athletic young
+player with good hands and instincts at his position. He has some contact
+potential but has a long way to go from a strength standpoint. **3B[Nick
+Delmonico](http://www.fangraphs.com/statss.aspx?playerid=sa597968&position=3B)
+([VIDEO](https://www.youtube.com/watch?v=G1fx52EMs0c)) **doesn’t project for
+much power against big-league pitching, and with defensive question marks and
+no speed, he’s likely a stretch for a big-league role. **3B[Matt
+Davidson](http://www.fangraphs.com/statss.aspx?playerid=7226&position=3B)
+([VIDEO](https://www.youtube.com/watch?v=9wA7ppsVkGg&feature=youtu.be))** is
+what he is at this point. He has the strength to hit as many homers as the
+times he can connect with the ball. The problem is he doesn’t connect often
+enough due to poor bat-to-ball skills and a swing path that is too choppy to
+have any room for error. **1B[Keon
+Barnum](http://www.fangraphs.com/statss.aspx?playerid=sa657864&position=1B)
+([VIDEO](https://www.youtube.com/watch?v=G_H-rYDJJvc))** is a first baseman
+with a downward swing plane, contact issues and injury concerns, Barnum has
+the BP power to keep getting a chance but is unlikely to do much at the big-
+league level.
+
+**RHP[Nolan
+Sanburn](http://www.fangraphs.com/statss.aspx?playerid=sa549956&position=P)
+**has a power arm that could earn him a bullpen spot, but his breaking ball
+comes up short and he has to throw more strikes. **RHP[Luis
+Martinez](http://www.fangraphs.com/statss.aspx?playerid=sa830305&position=P)
+**will hopefully be enjoying his first full season back from Tommy John
+surgery. He has to be more aggressive throwing strikes, but he has some upside
+with projectabale stuff. **RHP Blake Hickman** is another strong arm that will
+be back from TJ surgery in August of this year. **RHP[David
+Trexler](http://www.fangraphs.com/statss.aspx?playerid=sa829196&position=P)
+**may end up a decent bullpen arm, but he hasn’t been able to put a run of
+good performances together yet. **RHP[Zach
+Thompson](http://www.fangraphs.com/statss.aspx?playerid=sa602893&position=P)
+**is a big strong righty that needs to improve his command, though one source
+lamented that he just hasn’t gotten better since signing. **RHP[Michael
+Ynoa](http://www.fangraphs.com/statss.aspx?playerid=sa549595&position=P) **is
+healthy now and showing some ability to throw strikes with his live arm, but
+he still has a lot of approach and mechanical things to work on before
+reaching his ceiling as a seventh-inning guy at best.
+
+Cistulli’s Guy _Note: it has recently come to Carson Cistulli’s attention that
+Junior Guerra is now a member of the Brewers, which club claimed Guerra on
+waivers this offseason. Rather than dwell on Cistulli’s shortcomings (i.e.
+that he lacks the basic sense to have confirmed Guerra’s employer) let’s
+instead use this oversight as a platform to applaud the Milwaukee front office
+for their shrewd acquisition. Well played, the Brewers!_
+
+**[Junior
+Guerra](http://www.fangraphs.com/statss.aspx?playerid=5702&position=P), RHP**
+
+Guerra was a fixture this year among the [Fringe
+Five](http://www.fangraphs.com/blogs/category/fringe-five/), the author’s
+weekly attempt to identify rookie-eligible players who’ve been excluded from
+top-prospect lists but who neverthless exhibit some combination of tools and
+skills such as to render them candidates for future success.
+
+The White Sox signed the right-hander to a minor-league deal last offseason
+out of the Italian League — this after he’d made previous stops as a
+professional in both Spain and Wichita, as well. Guerra was immediately
+effective, earning a promotion to Charlotte after producing one of the [top
+strikeout- and walk-rate
+differentials](http://www.fangraphs.com/minorleaders.aspx?pos=all&stats=pit&lg=5,6,7&qual=10&type=1&season=2015&team=0&players=0&sort=10,d)
+among all Double-A pitchers. He made his major-league debut not long after
+that, as well.
+
+While the 31-year-old Guerra worked mostly in relief towards the end of the
+season, it’s not out of the question that he could start. He reached the
+mid-90s in that capacity last year and also featured a split-change to help
+neutralize lefties, two examples of which pitch are featured in the video
+below.

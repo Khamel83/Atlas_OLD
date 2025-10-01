@@ -1,0 +1,267 @@
+# 10 Cool New Travel Products for 2016 | Frugal Travel Guy
+
+**Source**: http://www.frugaltravelguy.com/2016/02/10-cool-new-travel-products-for-2016.html
+**Type**: article
+**Created**: 2025-08-13T18:22:35.751920
+
+---
+
+title: 10 Cool New Travel Products for 2016 | Frugal Travel Guy
+source: http://www.frugaltravelguy.com/2016/02/10-cool-new-travel-products-for-2016.html
+date: 2025-08-13T18:22:24.208198
+tags: []
+---
+There are a lot of cool travel products coming out all the time. I have
+rounded up 10 of the coolest new products for 2016.
+
+### 1\. The Travel Halo
+
+[![Travel
+Halo](http://web.archive.org/web/20170513002659im_/http://www.frugaltravelguy.com/wp-
+content/uploads/2016/02/Travel-
+Halo-300x222.png)](http://web.archive.org/web/20170513002659/http://www.frugaltravelguy.com/wp-
+content/uploads/2016/02/Travel-Halo.png)
+
+The Travel Halo is a relatively new, award winning alternative to your typical
+neck pillow. They currently have two different versions, the
+[original](http://web.archive.org/web/20170513002659/http://www.thetravelhalo.com/shop/travel-
+halo/) ($24.00) and the
+[adjustable](http://web.archive.org/web/20170513002659/http://travelhalo.com/)
+($24.00). Both versions come with a flip-down sleep mask to block out the
+light, too! The Travel Halo has two small head stabilizing pillows so that
+your head won’t bob side to side and cause neck pain. Exclusive to Frugal
+Travel Guy readers, get **30% off** using coupon code **frugal**.
+
+### 2\. Pac2Go Speaker
+
+[![Pac2Go
+Speaker](http://web.archive.org/web/20170513002659im_/http://www.frugaltravelguy.com/wp-
+content/uploads/2016/02/Pac2Go-
+Speaker-300x215.png)](http://web.archive.org/web/20170513002659/http://www.frugaltravelguy.com/wp-
+content/uploads/2016/02/Pac2Go-Speaker.png)
+
+The [Pac2Go Portable Bluetooth
+Speaker](http://web.archive.org/web/20170513002659/http://shop.pac2go.com/products/pac2go-
+bluetooth-portable-speaker) ($39.99) was released in December 2015 and has
+360-degree stereo audio sound with superb bass and crystal clear treble.
+Pac2Go uses a portion of their profits to support faith-based charitable
+organizations. Pac2Go is offering **20% off** their speaker system through
+March 31, 2016, using code **FrugalTravelGuy3-31**.
+
+### 3\. FlipSlips Shoes
+
+[![FlipSlips](http://web.archive.org/web/20170513002659im_/http://www.frugaltravelguy.com/wp-
+content/uploads/2016/02/FlipSlips-300x215.jpg)](http://web.archive.org/web/20170513002659/http://www.frugaltravelguy.com/wp-
+content/uploads/2016/02/FlipSlips.jpg)
+
+[FlipSlips](http://web.archive.org/web/20170513002659/http://flipslips.com/products/flipslips-
+shoes) ($37.00) are a new, stylish, foldable shoes that come with three
+different colors of ankle straps for added versatility. The foldable nature of
+the shoes will make them a great choice for carrying around when space is
+limited without sacrificing style. Use coupon code **FRIENDS** for **10% off**
+of your FlipSlips!
+
+### 4\. Wander Box
+
+[![WanderBox](http://web.archive.org/web/20170513002659im_/http://www.frugaltravelguy.com/wp-
+content/uploads/2016/02/WanderBox-200x300.jpg)](http://web.archive.org/web/20170513002659/http://www.frugaltravelguy.com/wp-
+content/uploads/2016/02/WanderBox.jpg)
+
+[Wander
+Box](http://web.archive.org/web/20170513002659/https://globein.com/wander)
+($35/month, $50 one time) is a box filled with products made from around the
+world. It has a subscription box style to it such that you can sign up and
+receive a box once a month for the length of your subscription. Globe In makes
+similar boxes with different themes that also have products from around the
+world.
+
+### 5\. HydraPak Stash
+
+[![HydraPak
+Stash](http://web.archive.org/web/20170513002659im_/http://www.frugaltravelguy.com/wp-
+content/uploads/2016/02/HydraPak-
+Stash-300x283.jpg)](http://web.archive.org/web/20170513002659/http://www.frugaltravelguy.com/wp-
+content/uploads/2016/02/HydraPak-Stash.jpg)
+
+The [HydraPak
+Stash](http://web.archive.org/web/20170513002659/http://hydrapak.com/featured/stash-1l)
+($17.99 750 mL, $22.99 1L) is an innovative, collapsible water bottle designed
+with the traveler in mind. The water bottle collapses down to approximately
+the size of a hockey puck which means that the days of carrying a large,
+clunky water bottle are over!
+
+### 6\. SandCloud Towels
+
+[![SandCloud](http://web.archive.org/web/20170513002659im_/http://www.frugaltravelguy.com/wp-
+content/uploads/2016/02/SandCloud-300x300.png)](http://web.archive.org/web/20170513002659/http://www.frugaltravelguy.com/wp-
+content/uploads/2016/02/SandCloud.png)
+
+SandCloud makes beautiful beach towels, and what I really love is that they
+make XL sized towels too. I don’t know about you, but when I am hanging out on
+the beach with friends I would rather share a towel for laying it. Being
+closer together makes it easier to talk. SandCloud does some extra good and
+donates 10% of their profits to protect marine life. For **25% off** your
+SandCloud purchase,
+click**[here](http://web.archive.org/web/20170513002659/http://r.sloyalty.com/r/uKD4N1PSxYnK)**.
+
+### 7\. Aqua Vault
+
+[![AquaVault](http://web.archive.org/web/20170513002659im_/http://www.frugaltravelguy.com/wp-
+content/uploads/2016/02/AquaVault-300x300.png)](http://web.archive.org/web/20170513002659/http://www.frugaltravelguy.com/wp-
+content/uploads/2016/02/AquaVault.png)
+
+Have you ever been hanging out at the beach with your phone and wallet wanting
+to go in the water? Now instead of hiding your valuables under your towel, you
+can attach the Aqua Vault ($39.95) to a chair or umbrella so you can get in
+the water without having to worry that someone will steal your valuables. Use
+coupon code **SAVE20NOW** for **20% off** your order.
+
+### 8\. SleepPhones
+
+[![SleepPhones](http://web.archive.org/web/20170513002659im_/http://www.frugaltravelguy.com/wp-
+content/uploads/2016/02/SleepPhones-300x191.png)](http://web.archive.org/web/20170513002659/http://www.frugaltravelguy.com/wp-
+content/uploads/2016/02/SleepPhones.png)
+
+Tired of trying to get comfortable with headphones on, especially on
+airplanes?
+[SleepPhones](http://web.archive.org/web/20170513002659/https://www.sleepphones.com/affiliate/38824/)
+($39.95) are much more comfortable than either in-ear or over-ear headphones
+and should make it much easier to get a comfortable night sleep.
+
+### 9\. Smart Parka
+
+[![Smart
+Parka](http://web.archive.org/web/20170513002659im_/http://www.frugaltravelguy.com/wp-
+content/uploads/2016/02/Smart-
+Parka-300x216.png)](http://web.archive.org/web/20170513002659/http://www.frugaltravelguy.com/wp-
+content/uploads/2016/02/Smart-Parka.png)
+
+The [Smart
+Parka](http://web.archive.org/web/20170513002659/http://g3tlakcd.kckb.st/)
+(~$250) is still in the Kickstarter Phase but looks very promising as an all-
+around coat, especially great for those of you who may be hitting multiple
+different climates on the same trip. I know that I often have trouble
+determining the best outerwear to bring and have massively failed on a few
+occasions. The Smart Parka would definitely solve that problem! If you choose
+to pledge to the Smart Parka Kickstarter, you can also get a hat included at
+the same price by using coupon code **FRKCA45**.
+
+### 10\. GoSleep
+
+[![Go
+Sleep](http://web.archive.org/web/20170513002659im_/http://www.frugaltravelguy.com/wp-
+content/uploads/2016/02/Go-
+Sleep-300x172.png)](http://web.archive.org/web/20170513002659/http://www.frugaltravelguy.com/wp-
+content/uploads/2016/02/Go-Sleep.png)
+
+GoSleep ($64.95) is a 2-in-1 travel kit that was developed specifically to
+help prevent “head-bob” when trying to sleep upright. For those of you that
+often travel in coach, the GoSleep system is a great solution to help you get
+some much-needed shut-eye when you are traveling.
+
+_**Are there any new travel products that you have had your eye on?**_
+
+[Caroline
+Lupini](http://web.archive.org/web/20170513002659/http://www.frugaltravelguy.com/author/caroline-
+lupini "Posts by Caroline Lupini")
+
+In 2011, with a four-week trip around Europe, Caroline became a true road
+warrior. Caroline likes to mix roughing it and luxury on her travels,
+sometimes staying in five-star hotels and other times in hostels. Her mantra:
+splurge...
+
+[All
+Articles](http://web.archive.org/web/20170513002659/http://www.frugaltravelguy.com/author/caroline-
+lupini)
+
+![](//web.archive.org/web/20170513002659im_/http://www.frugaltravelguy.com/wp-
+content/uploads/2017/04/sapphire_preferred_card-1.png)
+
+### Chase Sapphire Preferred® Card
+
+  * Annual Fee: $95 fee waived for the first year 
+  * Foreign Fees: No 
+  * Card Type: Bank
+
+[Apply
+Now](http://web.archive.org/web/20170513002659/http://track.linkoffers.net/a.aspx?foid=13242625&fot=9999&foc=1)
+[Add to
+Favorites](/web/20170513002659/http://www.frugaltravelguy.com/login?redirect_to=/2016/02/10-cool-
+new-travel-products-for-2016.html?fav_c_id=16)
+
+  * Earn 50,000 bonus points when you spend $4,000 on purchases in the first 3 months from account opening. That's $625 toward travel when you redeem through Chase Ultimate Rewards®
+  * Named Best Credit Card for Flexible Travel Redemption - Kiplinger's Personal Finance, July 2016
+  * 2X points on travel and dining at restaurants worldwide & 1 point per dollar spent on all other purchases.
+  * Earn 5,000 bonus points after you add the first authorized user and make a purchase in the first 3 months from account opening
+  * No foreign transaction fees
+  * 1:1 point transfer to leading airline and hotel loyalty programs
+  * Get 25% more value when you redeem for airfare, hotels, car rentals and cruises through Chase Ultimate Rewards. For example, 50,000 points are worth $625 toward travel
+  * No blackout dates or travel restrictions - as long as there's a seat on the flight, you can book it through Chase Ultimate Rewards
+
+Breakdown
+
+Earn (pt.)
+
+Spend
+
+First 3 months
+
+50,000
+
+$4,000
+
+Restaurants Purchases
+
+2.00
+
+$1
+
+Coffee Shops Purchases
+
+2.00
+
+$1
+
+Fast Food Purchases
+
+2.00
+
+$1
+
+Alcohol & Bars Purchases
+
+2.00
+
+$1
+
+![](//web.archive.org/web/20170513002659im_/http://www.frugaltravelguy.com/wp-
+content/uploads/2017/04/sapphire_preferred_card-1.png)
+
+### Chase Sapphire Preferred® Card
+
+  * **Annual Fee:** $95 fee waived for the first year 
+  * **Foreign Fees:** No 
+  * **Card Type:** Bank
+
+[Apply
+Now](http://web.archive.org/web/20170513002659/http://track.linkoffers.net/a.aspx?foid=13242625&fot=9999&foc=1)
+[Add to
+Favorites](/web/20170513002659/http://www.frugaltravelguy.com/login?redirect_to=/2016/02/10-cool-
+new-travel-products-for-2016.html?fav_c_id=16)
+
+FTG Review | Reward Breakdown | Points Breakdown  
+---|---|---  
+  
+  * Earn 50,000 bonus points when you spend $4,000 on purchases in the first 3 months from account opening. That's $625 toward travel when you redeem through Chase Ultimate Rewards®
+  * Named Best Credit Card for Flexible Travel Redemption - Kiplinger's Personal Finance, July 2016
+  * 2X points on travel and dining at restaurants worldwide & 1 point per dollar spent on all other purchases.
+  * Earn 5,000 bonus points after you add the first authorized user and make a purchase in the first 3 months from account opening
+  * No foreign transaction fees
+  * 1:1 point transfer to leading airline and hotel loyalty programs
+  * Get 25% more value when you redeem for airfare, hotels, car rentals and cruises through Chase Ultimate Rewards. For example, 50,000 points are worth $625 toward travel
+  * No blackout dates or travel restrictions - as long as there's a seat on the flight, you can book it through Chase Ultimate Rewards
+
+Breakdown Earn (pt.) Spend First 3 months 50,000 $4,000 Restaurants Purchases
+2.00 $1 Coffee Shops Purchases 2.00 $1 Fast Food Purchases 2.00 $1 Alcohol &
+Bars Purchases 2.00 $1 [Apply
+Now](http://web.archive.org/web/20170513002659/http://track.linkoffers.net/a.aspx?foid=13242625&fot=9999&foc=1)

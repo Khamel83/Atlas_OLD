@@ -1,0 +1,257 @@
+# How I Got Arrested While Reporting on a Private Prison - Mother Jones
+
+**Source**: http://www.motherjones.com/politics/2016/06/james-west-journalist-arrest-winn-cca-prison
+**Type**: article
+**Created**: 2025-08-13T18:03:22.332471
+
+---
+
+title: How I Got Arrested While Reporting on a Private Prison - Mother Jones
+source: http://www.motherjones.com/politics/2016/06/james-west-journalist-arrest-winn-cca-prison
+date: 2025-08-13T18:03:20.987282
+tags: []
+---
+VIDEO
+
+_Read_ Mother Jones _reporter Shane Bauer’s[firsthand
+account](http://www.motherjones.com/politics/2016/06/private-prisons-
+corrections-corporation-inmates-investigation)_ _of his four months spent
+working as a guard at a corporate-run prison in Louisiana._
+
+One of the best parts of my job at _Mother Jones_ is teaming up with
+colleagues to shoot and produce video [for our
+investigations](http://www.motherjones.com/politics/2015/04/true-cost-of-gun-
+violence-in-america). In March 2015, I traveled to Louisiana to work with
+Shane Bauer, a reporter who was in [his fourth month as a
+guard](http://www.motherjones.com/politics/2016/06/private-prisons-
+corrections-corporation-inmates-investigation) at Winn Correctional Center, a
+medium-security private prison operated by the [Corrections Corporation of
+America (CCA)](http://www.motherjones.com/politics/2016/06/cca-corrections-
+corperation-america-private-prisons-company-profile).
+
+It was Friday the 13th, around 7:45 p.m. The night was warm and overcast when
+I set out to collect [“B-roll”](https://en.wikipedia.org/wiki/B-roll) of the
+prison, a 20-minute drive from Winnfield, the nearest town. Between the prison
+and the Kisatchie National Forest was a wide, unfenced field. I didn’t know it
+at the time, but it was prison property. I walked into this open field with a
+telephoto lens, intending to get a shot of Winn from about 1,000 feet away.
+
+Then I stepped deep in mud. I used my iPhone flashlight to check out the muck.
+About two minutes later I saw searchlights coming from the direction of the
+prison. I walked back to my rental car parked on the side of the road. A
+powerful light swept the trees, emanating from a prison patrol vehicle that
+pulled up about 150 feet behind me. I called out “Hello? Hello?” and waited
+for an answer. When no one addressed me, I got into my car and drove away.
+
+I wound my SUV back through the dark forest—and straight into several police
+cars and prison vehicles blocking the road outside Winn. I stepped out of the
+car and was surrounded by three sheriff’s deputies and five or six men dressed
+in black from head to toe. I saw their faces as they passed in and out of the
+light from their headlights and flashers. Shane had told me about them: They
+were members of the prison’s Special Operations Response Team (SORT), the
+tactical squad called in to restore order when things got out of hand.
+
+I handed over my Australian driver’s license. In my panic, I told the cops I’d
+stopped to go to the bathroom beside the road. I quickly realized things were
+getting serious, and I told them I was a photographer working in the area.
+
+The cops and guards were amped up. They talked about the threat of ISIS and
+the possibility that I was an actual terrorist.
+
+Police body camera footage that I later obtained captured part of my arrest
+(and gloriously, for a videographer, from _two angles_). “What kind of
+pictures you got there?” asked the main arresting officer, Winn Parish deputy
+Kelly Fannin, a paunchy man with a white mustache.
+
+“They’re my pictures,” I replied. I knew they probably couldn’t look at the
+images on my cameras or memory cards without a search warrant. I don’t
+remember acting this defiant at the time, but there it is, on video. Still, I
+wore a worried grin on my face and I sounded scared.
+
+“Now, wait a minute. Let me explain something: What you took here don’t belong
+to you,” Fannin said, stabbing the air with his finger. “When you come here in
+this country, when you get around a prison, you don’t fuck around, okay?”
+
+With my camera gear now strewn on the road by the SORT officers, my profession
+seemed obvious. But the cops and guards were amped up like I was a big catch.
+I heard them talking repeatedly about the threat of ISIS and the possibility
+that I was an actual terrorist. “An Australian with a Texas license plate in
+Louisiana runs some red flags,” Winn Parish Sheriff Cranford Jordan [later
+joked to CNNMoney](http://money.cnn.com/2015/03/18/media/mother-jones-
+journalist-arrested/).
+
+Fannin demanded my camera’s memory card. His temper was rising: “Let’s have
+it.”
+
+“No, sir, I’m not going to show you that,” I said.
+
+“I will take everything you’ve got!” he said.
+
+I reached down to grab my camera from the pile of gear, setting off a bout of
+tussling and yelling. “Whoa, come here!” Fannin grabbed my arm in a stiff
+grip.
+
+“You can’t take my camera,” I protested. “I know that.” The cops said they
+would get a search warrant. But, Fannin warned, “If you don’t want to give it
+to me, I will take it. It’s just that simple.”
+
+“Do you want me to charge you for going on that property?” he continued. “And
+put you in jail tonight and show you what a jail is?”
+
+“I mean, no sir, I do not want that,” I replied.
+
+Going through my gear, the officers pulled out an aerial drone I’d brought
+along—a discovery that ratcheted up the tension even more. Never mind that it
+was broken and I was planning to return it to Amazon.
+
+Deputy Tommy Chandler told me to “go ahead and turn and put your hands behind
+your back.”
+
+“I’m cooperating,” I said.
+
+Bodycam footage shows a prison guard scrolling through the contents of my
+camera while sheriffs’ deputies looked on.
+
+“No, you ain’t,” he shot back.
+
+After a Miranda warning, I was put in the back seat of a patrol car next to a
+police dog in a cage. The door slammed.
+
+The deputies’ body cameras continued to roll after I was taken into custody.
+“We’ll just book him for trespassing,” one said. “I know what it was: He was
+out here looking for kangaroos!”
+
+“Apparently they’ve got different laws over there in New South Wales,
+Australia,” an officer can be heard saying. “Welcome to the Free State of
+Winn!”
+
+The footage also shows one of the prison’s SORT members scrolling through the
+contents of my camera, without a warrant, while the deputies looked on. The
+Winn Parish sheriff later said he was “not aware” of anyone searching my
+belongings; his office declined to comment further for this article. CCA’s
+spokesman said that the company was “not aware of the camera footage or what
+it contains.” Yet months later, Winn’s former assistant chief of security
+emailed Shane what looked like a photo of a screen showing an image of him.
+The image’s geolocation data suggested it had been created on the premises of
+the sheriff’s office. There’s only one place the original image of Shane could
+have come from: my memory card, which contained a video of him that I’d made
+shortly before my arrest.
+
+I arrived at the Winnfield jail sometime around 10pm. I was charged with
+simple criminal trespass, a misdemeanor. (In Louisiana you can be charged with
+trespassing even if you didn’t know that you were on private land.) The
+computer system couldn’t compute the address on my Australian drivers’
+license, which gave one guy plenty of time to brag about how he once made it
+with an Aussie girl with hairy armpits.
+
+“Are kangaroos good for hunting?” the old jailer asked me. “Perhaps we’ll all
+have to go there when Hillary Clinton becomes president.” After I was made to
+strip and show my asshole (just to make sure I wasn’t carrying any
+contraband), I was put in handcuffs and leg shackles and made to wait in a
+small office surrounded by three or four guards.
+
+I mostly observed my right to remain silent. But I also wanted to be a good
+cultural ambassador, so I told them kangaroos are eaten for meat and sometimes
+are regarded [as pests that need to be
+shot](http://www.outsideonline.com/2037071/overrood-behind-scenes-australias-
+surprising-kangaroo-conflict). They seemed to like that.
+
+Maybe it was the stress, or the adrenaline, or the accents, but I understood
+only every fourth or fifth word the cops and prison orderlies were saying to
+me. The bewilderment was mutual. I do know that I was threatened with an FBI
+investigation, immigration detention, and deportation. I asked to speak to a
+lawyer, but that never happened. I was allowed to call my editor, who started
+working like hell to get me out.
+
+A couple of hours later, around midnight, my mugshot was snapped and my
+fingerprints were taken. My arrest records indicate that CCA said that night
+that it wanted trespassing charges filed against me. The jailer finally led me
+to a small cell separated from rest of the prisoners. The sheriff had told me
+earlier that, “They’d whoop you bad.” A 23-year-old named Alex was put in
+there with me, but he was too out of it to really talk, apart from telling me
+everything was gonna be okay. My standard-issue orange jumpsuit swam on me. “I
+wish I could keep it and wear it out in Brooklyn,” I thought.
+
+The next morning, I felt grateful to be protected by prison bars. “Hey girl,
+hey girl,” someone shouted from the next cell. “You ever slept with a man? Do
+you want to?” It wasn’t an invitation; it was a threat.
+
+This went on sporadically for hours. “No one’s letting us rape that girl’s
+hole.” I was scared I might do something to really out myself—I’m gay. I was
+hoping that just as being an Aussie threw a curve ball at the cops’ ability to
+identify a real terrorist, it also might scramble their gaydar.
+
+Sheriff Jordan, a big man with a comb-over who liked to make jokes, came by to
+tell me the judge had denied me bail. It was Saturday, which meant it would be
+two days before I could get a hearing. Worse, it meant two nights of threats
+and snoring and unpredictable meals and gawking. I asked if I could call my
+parents. “Tell them we didn’t shoot you at dawn,” Jordan said.
+
+I tried to start reading the the third volume of _Game of Thrones_ , taken
+from the jail bookshelf. I wrote a letter. A prisoner sang a [top 40
+tune](http://www.azlyrics.com/lyrics/edsheeran/thinkingoutloud.html), but in a
+slow, sad baritone—”So baby now, take me into your loving arms, kiss me under
+the light of a thousand stars…” The prisoners and guards all began to call me
+“Australia.”
+
+I started to resign myself to several days in this shithole, even though
+Jordan told me _Mother Jones_ ‘ lawyer had been “hollering” down the phone
+line, a fact that made him displeased.
+
+I was shackled again and interrogated by state police officers, a local
+deputy, and a Homeland Security agent.
+
+Then suddenly, at about 4:30 p.m., I was shackled again and taken to be
+interrogated by two state police officers, a local deputy, and— _you’ve got to
+be kidding me_ —a Homeland Security agent. These new guys already knew
+everything about me, and seemed bored that I was just a journalist. “Write all
+the exposés about CCA you like,” one told me. After about 45 minutes, I
+shuffled from the room with promises that the judge would soon set bond.
+
+About five hours later, I heard that I’d made bail—for $10,000. “How cool are
+drones! I really want one!” said an officer, a professed camera buff, as he
+took stock of my equipment and processed me out of the jail. “Send me a copy
+of the article when it’s done.”
+
+The old jailer came down to say good-bye. “I’m so sorry you had to see that,”
+he said. “Some of these places I wouldn’t put my dog in.” I thought about my
+cellmate Alex and wondered about the people who would never see the outside of
+Louisiana’s criminal justice system. I felt good to be walking free,
+unscathed.
+
+Everyone shook my hand as I left to meet the bail bondsman, who turned out to
+be the son of the local lawyer hired to kick-start my defense, the fabulously
+named Bobby Culpepper. (Culpepper [died suddenly several months later at age
+74](http://www.thenewsstar.com/story/news/local/2015/08/17/jonesboro-attorney-
+bobby-culpepper-dies/31853081/). My case was eventually concluded by a
+criminal defense lawyer named [Marty
+Stroud](http://www.huffingtonpost.com/2015/04/01/marty-stroud-
+prosecutor_n_6988752.html).) The bondsman drove me to a gas station at the
+edge of Winnfield where Shane and his wife Sarah were waiting for me, tired
+yet relieved. We embraced, then we got the hell out of there.
+
+News of my arrest broke not long after we left town, first in the local paper
+(the _Winn Parish Enterprise_[called
+me](https://www.facebook.com/WinnParishEnterprise/posts/830548233685282) a
+“renowned international journalist,” which I will treasure forever), then in
+CNNMoney, the _Washington Post_ , and Gawker. I didn’t comment publicly, but
+the police account of was over-dramatized: The sheriff claimed I’d run from my
+vehicle toward the prison’s fence, which never happened. “You don’t go to a
+prison at night. You don’t violate the law when you’re doing a story,”
+[Sheriff Jordan told ](http://money.cnn.com/2015/03/18/media/mother-jones-
+journalist-arrested/)[CNN](http://money.cnn.com/2015/03/18/media/mother-jones-
+journalist-arrested/)Money. CCA issued a statement about Shane and me. It said
+that trespassing “is a security threat that we take very seriously” and noted
+that a drone “could be used to transport contraband or provide detailed
+imagery in a way that could create a security risk.”
+
+Seven months later, I entered a no contest plea on a criminal trespass charge
+and paid a $500 fine. The alternative was to face down a maximum sentence of
+30 days in prison and a trial that could have potentially compromised our
+investigation. The court then dismissed the conviction under a state law that
+allowed me to have my criminal record expunged.
+
+I recall one prisoner yelling out to me during my night in orange: “You’re
+gonna get Winnfield on the news.”
+
+We did. I’m really proud of our work.

@@ -1,0 +1,884 @@
+# Murder by Craigslist - The Atlantic
+
+**Source**: http://www.theatlantic.com/magazine/archive/2013/09/advertisement-for-murder/309435/
+**Type**: article
+**Created**: 2025-08-13T19:47:24.256081
+
+---
+
+title: Murder by Craigslist - The Atlantic
+source: http://www.theatlantic.com/magazine/archive/2013/09/advertisement-for-murder/309435/
+date: 2025-08-13T19:47:23.166862
+tags: []
+---
+> Wanted: Caretaker For Farm. Simply watch over a 688 acre patch of hilly
+> farmland and feed a few cows, you get 300 a week and a nice 2 bedroom
+> trailer, someone older and single preferred but will consider all,
+> relocation a must, you must have a clean record and be trustworthy—this is a
+> permanent position, the farm is used mainly as a hunting preserve, is
+> overrun with game, has a stocked 3 acre pond, but some beef cattle will be
+> kept, nearest neighbor is a mile away, the place is secluded and beautiful,
+> it will be a real get away for the right person, job of a lifetime—if you
+> are ready to relocate please contact asap, position will not stay open.
+
+Scott Davis had answered the job ad on Craigslist on October 9, 2011, and now,
+four weeks later to the day, he was watching the future it had promised glide
+past the car window: acre after acre of Ohio farmland dotted with cattle and
+horses, each patch framed by rolling hills and anchored by a house and a
+barn—sometimes old and worn, but never decrepit. Nothing a little carpentry
+couldn’t fix.
+
+Davis rode in the backseat of the white Buick LeSabre; in the front sat his
+new employer, a man he knew only as Jack, and a boy Jack had introduced as his
+nephew, Brogan. The kid, who was driving the car, was only in high school but
+was already a giant—at least as tall as his uncle, who was plenty tall. Jack
+was a stocky, middle-aged man; Davis noticed that he’d missed a couple of
+spots shaving and had a tattoo on his left arm. He was chatty, telling Davis
+about his ex-wife, his favorite breakfast foods, and his church.
+
+Davis, 48, had left his girlfriend behind in South Carolina, given away the
+accounts for his landscaping business, and put most of his equipment in
+storage. He’d packed his other belongings—clothes, tools, stereo equipment,
+his Harley-Davidson—into a trailer, hitched it to his truck, and driven to
+southeastern Ohio. He’d told everyone that he was moving in part to help take
+care of his mom, who lived outside Akron and whose house was falling apart.
+Moving back home at his age might seem like moving backward in life. But the
+caretaker job he’d stumbled across online made it seem more like he’d be
+getting paid to live free and easy for a while—a no-rent trailer plus $300 a
+week, in exchange for just watching over a farm with a few head of cattle
+outside the town of Cambridge. Jack had reminded him in an e‑mail to bring his
+Harley because there were “plenty of beautiful rural roads to putt-putt in.”
+
+![](https://cdn.theatlantic.com/thumbor/P9nviojTNO9A6IthPxpoZSWJjhw=/0x0:960x500/655x341/media/img/posts/2018/06/lead_960/original.jpg)Left
+to right: Richard Beasley, aka "Jack"; his young accomplice, Brogan Rafferty;
+victim David Pauley's twin sister, Deb. (_Akron Beacon Journal_ / AP)
+
+Jack and Brogan had met Davis for breakfast at the Shoney’s in Marietta, where
+Jack had quizzed his new hire about what he’d brought with him in the trailer.
+Davis boasted that it was “full from top to bottom.” After breakfast, Davis
+followed Jack and Brogan to the Food Center Emporium in the small town of
+Caldwell, where he left his truck and trailer in the parking lot, to be picked
+up later. Jack told Davis that the small road leading to the farm had split,
+and they’d have to repair it before bringing the truck up. They’d been driving
+for about 15 minutes, the paved road giving way to gravel, and then the gravel
+to dirt, while Davis watched the signal-strength bars on his cellphone
+disappear.
+
+On a densely wooded, hilly stretch, Jack told his nephew to pull over. “Drop
+us off where we got that deer at last time,” he said, explaining to Davis that
+he’d left some equipment down the hill by the creek and they’d need to
+retrieve it to repair the road. Davis got out to help, stuffing his cigarettes
+and a can of Pepsi into the pockets of his jean jacket. He followed Jack down
+the hill, but when they reached a patch of wet grass by the creek, Jack seemed
+to have lost his way and suggested they head back up to the road. Davis turned
+around and started walking, with Jack following behind him now.
+
+Davis heard a click, and the word _fuck_. Spinning around, he saw Jack
+pointing a gun at his head. _Where we got that deer at last time_. In a flash,
+it was clear to Davis: he was the next deer.
+
+Davis instinctively threw up his arms to shield his face. The pistol didn’t
+jam the second time. As Davis heard the crack of the gunshot, he felt his
+right elbow shatter. He turned and started to run, stumbling and falling over
+the uneven ground. The shots kept coming as Davis ran deeper into the woods,
+but none of them hit home. He ran and ran until he heard no more shots or
+footsteps behind him. He came to the road and crossed it, worried that if he
+stayed in the open he’d be spotted by his would-be killer. He was losing a lot
+of blood by now, but he hid in the woods for several hours, until the sun was
+low, before he made his way back to the road and started walking.
+
+Jeff Schockling was sitting in his mother’s living room, watching _Jeopardy_ ,
+when he heard the doorbell. That alone was strange, as he’d later explain on
+the witness stand, because out there in the boondocks, visitors generally just
+walked in the front door. Besides, he hadn’t heard a car drive up. Schockling
+sent his 9-year-old nephew to see who it was, he testified, and the kid came
+back yelling, “There’s a guy at the door! He’s been shot and he’s bleeding
+right through!” Schockling assumed his nephew was playing a prank, but when he
+went to the door, there was the stranger, holding his right arm across his
+body, his sleeve and pant leg soaked with blood. The guy was pale and fidgety
+and wouldn’t sit down at the picnic table outside. But he asked Schockling to
+call 911.
+
+Sheriff Stephen Hannum of Noble County arrived after about 15 minutes. He
+would later describe Davis as remarkably coherent for a man who had been shot
+and was bleeding heavily. But what Davis was saying made no sense. He claimed
+that he’d come to the area for a job watching over a 688-acre cattle ranch,
+and that the man who’d offered him the job had shot him. But Hannum didn’t
+know of any 688-acre cattle ranches in Noble County—nothing even close. Most
+of the large tracts of land had been bought up by mining companies. Davis kept
+going on about a Harley-Davidson, and how the guy who shot him was probably
+going to steal it. The sheriff sized Davis up—middle-aged white guy, puffy
+eyes, long hair, jean jacket, babbling about a Harley—and figured he was
+involved in some kind of dope deal gone bad. Hannum made a few calls to his
+local informants, but none of them had heard anything. Then he located the
+truck and trailer in the Food Center Emporium parking lot, and they were just
+as Davis had described them. “It was beginning to look,” Hannum later
+recalled, “like Mr. Davis truly was a victim rather than whatever I thought he
+was at the beginning.”
+
+Davis wasn’t the only person to answer the Craigslist ad. More than 100 people
+applied for the caretaker job—a fact that Jack was careful to cite in his
+e-mails back to the applicants. He wanted to make sure that they knew the
+position was highly sought-after. Jack had a specific type of candidate in
+mind: a middle-aged man who had never been married or was recently divorced,
+and who had no strong family connections. Someone who had a life he could
+easily walk away from. “If picked I will need you to start quickly,” he would
+write in his e-mails.
+
+Jack painstakingly designed the ad to conjure a very particular male fantasy:
+the cowboy or rancher, out in the open country, herding cattle, mending
+fences, hunting game—living a dream that could transform a post-recession
+drifter into a timeless American icon. From the many discarded drafts of the
+ad that investigators later found, it was clear that Jack was searching for
+just the right pitch to catch a certain kind of man’s eye. He tinkered with
+details—the number of acres on the property, the idea of a yearly bonus and
+paid utilities—before settling on his final language: “hilly,” “secluded,”
+“job of a lifetime.” If a woman applied for the job, Jack wouldn’t bother
+responding. If a man applied, he would ask for the critical information right
+off the bat: _How old are you? Do you have a criminal record? Are you
+married?_
+
+Jack seemed drawn to applicants who were less formal in their e-mail replies,
+those who betrayed excitement, and with it, vulnerability. “I was raised on a
+farm as a boy and have raised some of my own cattle and horses as well,” wrote
+one. “I’m still in good shape and not afraid of hard work! I really hope you
+can give me a chance. If for some reason I wouldn’t work out for you no hard
+feelings at all. I would stick with you until you found help. Thank you very
+much, George.”
+
+If a candidate lived near Akron, Jack might interview him in person at a local
+Waffle House or at a mall food court. He’d start by handing the man a
+preemployment questionnaire, which stated that he was an equal-opportunity
+employer. Jack and the applicant would make small talk about ex-wives or
+tattoos, and Jack, who fancied himself a bit of a street preacher, would
+describe the ministry he’d founded. He’d ask about qualifications—any
+carpentry experience? ever work with livestock?—and provide more details about
+the farm. Jack explained that his uncle owned the place, and he had six
+brothers and sisters with a lot of kids and grandkids running around,
+especially on holiday weekends and during hunting season. The picture Jack
+painted was of a boisterous extended family living an idyllic rural
+life—pretty much the opposite of the lonely bachelor lives of the men he was
+interviewing.
+
+Schockling went to the door, and there was the stranger, holding his right arm
+across his body, his sleeve and pant leg soaked with blood.
+
+If the interview went well, Jack might tell the applicant that he was a
+finalist for the job. But if the applicant gave any sign that he did not meet
+one of Jack’s criteria, the meeting would end abruptly. For one candidate,
+everything seemed on track until he mentioned that he was about to get
+married. Jack immediately stood up and thanked him for his time. George, the
+man who’d written the e-mail about being raised on a farm, told Jack that he’d
+once been a security guard and was an expert in martial arts. He figured this
+would be a plus, given that he’d have to guard all that property when no one
+else was around. But the mood of the interview immediately changed for the
+worse. Jack took the application out of George’s hands before he even finished
+filling it out and said he’d call him in a couple of days. If George didn’t
+hear anything, he should assume that “someone else got it.”
+
+![](https://cdn.theatlantic.com/assets/media/img/posts/0913_WEL_Murder_Davis_davis-
+pauley.jpg)
+
+Scott Davis (left) and David Pauley (right), two of the men who had the
+misfortune of answering the Craigslist ad placed by the mysterious "Jack"
+
+David Pauley was the first applicant who met Jack’s exacting criteria. He was
+51 years old, divorced, and living with his older brother, Richard, in his
+spare bedroom in Norfolk, Virginia. For nearly two decades, Pauley had worked
+at Randolph-Bundy, a wholesale distributor of building materials, managing the
+warehouse and driving a truck. He married his high-school sweetheart, Susan,
+and adopted her son, Wade, from an earlier marriage. For most of his life,
+Pauley was a man of routine, his relatives said. He ate his cereal, took a
+shower, and went to work at precisely the same times every day. “He was the
+stable influence in my life,” says Wade. “I grew up thinking everyone had a
+nine-to-five.”
+
+But Pauley grew increasingly frustrated with his position at Randolph-Bundy,
+and finally around 2003 he quit. He bounced around other jobs but could never
+find anything steady. He and Wade often had disagreements, and in 2009 he and
+Susan got a divorce. Now he found himself sitting on his brother’s easy chair,
+using Richard’s laptop to look for jobs. Mostly he’d find temp stuff, jobs
+that would last only a few weeks. Sometimes he had to borrow money just to buy
+toothpaste. He got along fine with Richard and his wife, Judy, but their
+second bedroom—with its seafoam-green walls, frilly lamp shades, and ornate
+dresser—was hardly a place where he could put up his poster of Heidi Klum in a
+bikini or start enjoying his post-divorce freedom.
+
+Pauley was cruising online job opportunities when he came across the
+Craigslist ad in October 2011. Usually Pauley looked for jobs only around
+Norfolk. But his best friend since high school, Chris Maul, had moved to Ohio
+a couple years earlier and was doing well. He and Maul talked dozens of times
+a day on the Nextel walkie-talkies they’d bought specifically for that
+purpose. If Maul, who was also divorced, could pick up and start a new life,
+why couldn’t Pauley?
+
+And the Craigslist job sounded perfect. Three hundred dollars a week and a
+rent-free place to live would solve all Pauley’s problems at once. On top of
+that, his brother, an ex-Navy man, was always pestering Pauley to cut his long
+hair before job interviews. With a gig like this, who would care whether he
+had long hair—the cattle? Pauley sat down and wrote an e-mail to Jack.
+
+> Well about me, I’m fifty one years young, single male, I love the out doors,
+> I currently live in virginia have visited ohio and i really love the state.
+> Being out there by myself would not bother me as i like to be alone. I own
+> my own pick up truck so hauling would not be a problem. I can fix most
+> anything have my own carpentry tools.  
+>  
+>  If chosen i will work hard to take care of your place and treat it like my
+> own.  
+>  
+>  I also have a friend in Rocky River, Ohio. Thank you, David.
+
+A few days later, Pauley got an e-mail back from Jack saying that he had
+narrowed his list down to three candidates, “and you are one of the 3.” Jack
+asked his usual questions—was Pauley married? had he ever been arrested for a
+felony?—and told him that if he was chosen, he’d have to start immediately.
+
+Richard remembers his younger brother being energized in a way he hadn’t seen
+in months. Pauley called Jack several times to see whether there was anything
+else he could do to help him decide. Jack promised that he’d call by 2 p.m. on
+a Friday, and Pauley waited by the phone. When 2 o’clock came and went, he
+told his brother, “Well, I guess the other person got chosen above me.”
+
+But early that evening, the phone rang. When Pauley got on the line, Richard
+recalls, his whole face lit up.
+
+“I got it! I got the job!” he yelled as soon as he hung up. He immediately
+called his friend Maul on the walkie-talkie and started talking a mile a
+minute. He swore that this was the best thing that had ever happened to him
+and said he couldn’t wait to pack up and go. To Maul’s surprise, he found
+himself in tears. For the past few years he’d been worried about Pauley, whom
+he’d always called his “brother with a different last name.” Maul remembers,
+“It was like, maybe this is the turning point, and things are finally going
+the right way.” They made a promise to each other that on Pauley’s first
+weekend in Ohio after settling in, Maul would bring down his hot rod and
+they’d drive around on the empty country roads.
+
+Next Pauley called his twin sister, Deb, who lives in Maine. She told him that
+she hated the thought of him sitting alone on some farm for Christmas and made
+him promise that he’d come visit her for the holidays. He told her that his
+new boss was a preacher and said he felt like the Lord was finally pointing
+him toward the place where he might “find peace.”
+
+That week, Pauley went to the men’s Bible-study group he’d been attending
+since he’d moved into Richard’s house. For weeks he’d been praying—never to
+win the lottery or get a girlfriend, always for steady work. Everyone there
+agreed that God had finally heard his prayers.
+
+The church gave Pauley $300 from its “helping hands” fund so that he could
+rent a U-Haul trailer. He packed up all his stuff—his model trains, his books
+and DVDs, his Jeff Gordon T-shirts and posters, his Christmas lights, and the
+small box containing the ashes of his old cat, Maxwell Edison—and hit the
+road.
+
+Pauley arrived at the Red Roof Inn in Parkersburg, West Virginia, on the night
+of Saturday, October 22, 2011. It was not far from Marietta, Ohio, where he
+was supposed to meet his new employer at a Bob Evans for breakfast the next
+morning. He called his sister, who told him that she loved him and said to
+call back the next day.
+
+Then, just before going to bed, he called up Maul, who told him, “Good luck.
+As soon as you’re done talking to them tomorrow, let me know. Give me an exact
+location so I can come down Saturday and we can hang out.”
+
+The next day came and went with no call from Pauley. Maul tried him on the
+walkie-talkie, but there was no response. He then called Richard and got the
+number for Pauley’s new employer, Jack, whom he reached on his cellphone. Yes,
+everything was all right, Jack told Maul. He’d just left Pauley with a list of
+chores. Yes, he would pass on the message when he saw him the next day. But a
+few more days went by without a call, so Maul dialed Jack again. This time
+Jack said that when he showed up at the farm that day, Pauley had packed all
+his things in a truck and said he was leaving. Apparently he’d met some guy in
+town who was headed to Pennsylvania to work on a drilling rig, and he’d
+decided to follow him there.
+
+There was no way, Maul thought to himself, that Pauley would take off for
+Pennsylvania without telling him. The two men had been best friends since high
+school, when they’d bonded over their mutual distaste for sports and love of
+cars. Over the years they’d moved to different cities, gotten married, gotten
+divorced, but they’d stayed “constantly in touch,” Maul said.
+
+They kept their walkie–talkies on their bedside tables and called each other
+before they even got up to brush their teeth in the morning. They talked, by
+Maul’s estimate, about 50 times a day. “Most people couldn’t figure out how we
+had so much to talk about,” Maul said. “But there’d always end up being
+something.” But after Pauley reached Ohio? Nothing.
+
+Early in November, about two weeks after he’d last spoken to Pauley, Maul
+called his friend’s twin sister. Deb hadn’t heard from him either, and was
+also worried—a habit she’d honed over a lifetime. When she and her brother
+were 14, their mother got emphysema. Since their father had left the family
+and their older siblings were already out of the house, Deb quit school and,
+as she put it, “basically became David’s mother.” Years later, she moved to
+Maine with her second husband and Pauley stayed in Norfolk, but the twin bond
+remained strong.
+
+By the time she received the concerned phone call from Maul, Deb had already
+spent several days sitting with her laptop at the kitchen table, in her
+pajamas, looking for clues to explain why she hadn’t heard a word from her
+brother. With a red pen and a sheet of legal paper, she’d made a list of
+places to call—the motel in Parkersburg, the U-Haul rental place—but she’d
+learned nothing from any of them. It wasn’t until Friday night, November 11,
+nearly three weeks after Pauley had left for Ohio, that she remembered
+something else: Cambridge, the town where he had said the farm was located.
+She typed the name into Google and found the local paper, _The Daily
+Jeffersonian_. She scrolled through the pages until she landed on this
+headline, dated November 8: “Man Says He Was Lured Here for Work, Then Shot.”
+There was no mention of the man’s name, but there was one detail that sounded
+familiar: he said he’d been hired to work on a 688-acre ranch. The article
+cited the Noble County sheriff, Stephen Hannum. Deb called his office right
+away.
+
+After picking up Scott Davis five days earlier, Hannum and his team had been
+following up on his strange story, but not all that urgently. They had Davis’s
+explanation about the Craigslist ad, and they’d located security-camera
+footage from his breakfast meeting with his “employers.” But Deb’s phone call
+lit a fire under Hannum’s investigation. She told Jason Mackie, a detective in
+the sheriff’s office, that Pauley had talked with his friend Maul 50 times a
+day and then suddenly stopped. Although no one said it explicitly at the time,
+a sudden drop-off like that meant a missing person, and that in turn meant
+there might be a body.
+
+The next day, a Saturday, the sheriff’s office called an FBI cyber-crimes
+specialist to help them get information about who had written the Craigslist
+ad. They also sent a crew with cadaver dogs back to the woods where Davis had
+been shot. One FBI agent would later recall the “torrential downpour” that day
+and the sound of coyotes howling. A few hours before dark, the investigators
+found a patch of disturbed soil overlaid with tree branches. They began
+digging with their hands, until they found blood seeping up from the wet earth
+and a socked foot appeared. The body they discovered was facedown, and one of
+the items they removed from it was a corded black-leather bracelet with a
+silver clasp. Mackie telephoned Deb and described the bracelet. Yes, it was
+her brother’s, she told them. The investigators also found a second grave,
+this one empty. They later learned it had been meant for Davis.
+
+Now the investigators knew they were looking for a murderer. By early the next
+week, they had identified the man in the breakfast-meeting footage as a local
+named Richard Beasley. Additionally, the cyber-crimes specialist had received
+enough information from Craigslist to trace the IP address of the ad’s
+originating computer to a small house in Akron. When the investigators arrived
+at the house, its occupant, Joe Bais, said he’d never written any ads on
+Craigslist and he didn’t know anyone named Richard Beasley or Jack. But when
+they showed him a picture, he recognized the man who’d called himself Jack. It
+was someone he knew as Ralph Geiger, who until recently had rented a room from
+Bais for $100 a week. “Real nice guy,” Bais would later recall on the witness
+stand. “He didn’t cuss, didn’t smoke, didn’t drink … First Sunday he was
+there, went to church.” As it happened, Geiger had just left him a note with
+his new cellphone number. The landlord called Geiger and kept him on the line
+as investigators traced the call. On November 16, an FBI SWAT team arrested
+the man outside another Akron house, where he had been renting a room after
+leaving Bais’s place. The suspect’s name was, in fact, Richard Beasley.
+Although investigators didn’t know it yet, Ralph Geiger was the name of his
+first victim.
+
+Tracking down the teenager who had been with Beasley/Jack when he drove Scott
+Davis out into the woods proved easier. Just as Jack had said, his name was
+Brogan, Brogan Rafferty to be exact, and he was a junior at Stow-Munroe Falls
+High School. A detective and an FBI agent drove to the school and interviewed
+Rafferty in the principal’s office, while another set of investigators
+searched his house. Rafferty later told his mother that before he left school
+that day, he had found a girl he liked and kissed her, even though her
+boyfriend was nearby. He had been worried that he’d never see her, or anyone
+else from his high school, again. He was right to worry: that evening, police
+arrived with a warrant, and he was taken into custody.
+
+Richard beasley, aka Jack, was born in 1959 and raised in Akron primarily by
+his mother, who worked as a secretary at a local high school, and his
+stepfather. He was briefly married and had a daughter, Tonya, who was about
+Rafferty’s age. Over the years, he worked as a machinist, but his job record
+was interrupted by spells in jail. He served from 1985 to 1990 in a Texas
+prison on burglary charges and, starting in 1996, another seven years in a
+federal prison for a firearms offense. When he went on trial for the 2011
+Craigslist murders, the photo favored by newspapers made him look deranged,
+with wild eyebrows and hair and a crumpled mouth. But during the trial, with
+his white hair combed and his beard trimmed, he looked almost like Santa
+Claus, especially when he smiled.
+
+In the mid-2000s, a dump truck hit Beasley’s car and he suffered head, chest,
+and spinal injuries. He had recently returned to Akron from federal prison,
+where, he told everyone, he’d found God, and he’d begun spending a lot of time
+at a local megachurch called the Chapel. After the accident, he started taking
+opiates for back and neck pain and stopped working steadily.
+
+But Brogan Rafferty’s father, Michael, who knew Beasley from the local
+motorcycle circuit, told me that even before the car wreck, Beasley had been
+“lazy.” He was known as someone who always had “a little bit of an angle
+going,” like a “scam artist,” Michael Rafferty said. People in their
+motorcycle clubs knew Beasley had a criminal record, but to Michael Rafferty
+he seemed harmless, like he was “all talk.” Michael Rafferty said he’d never
+once seen Beasley lose his temper in the 20 years he knew him.
+
+Beasley didn’t drink or smoke much, and he spent a lot of his free time at the
+Chapel, where he went to Bible study and worked in a soup kitchen. So when, at
+age 8, Brogan Rafferty said he wanted to start going to church on Sundays, his
+dad said it was okay for him to go with Beasley. It was only church, after
+all. And Michael Rafferty, a single parent who was working long shifts at the
+time, hated waking up early on Sundays anyway.
+
+For the next eight years, Beasley was a regular presence in the Rafferty house
+on Sundays, coming by early to get his young charge, who’d be waiting in a
+slightly rumpled suit. Sometimes when he took Rafferty to church, Beasley
+would bring along his daughter, Tonya, or Rafferty’s half-sister Rayna, who
+was three years younger than Rafferty and shared the same mother but, like
+Rafferty, lived full-time with her own father. (Rafferty’s mother, Yvette, was
+a crack addict who didn’t have custody of her four children and was rarely
+around when they were young.) Beasley was a mentor to Rayna and her brother,
+Rayna recalls. After Bible study, he’d sneak them leftover donuts or take them
+to McDonald’s and talk to them about the importance of school or the danger of
+drugs. “The Bible is the key to peace of mind, and a road map to salvation,”
+he wrote in the Bible he gave Brogan.
+
+Around 2009, Beasley founded what he told friends was a halfway house to help
+reform addicts, runaways, and prostitutes. Beasley would cruise the streets of
+Akron at night, picking up strays and bringing them back to the house. If they
+were in trouble with the law, he would vouch for them in court, saying they
+had turned their lives over to Christ. A few times, Rafferty asked Beasley
+whether they could go out and look for his mother, Yvette, who Rafferty always
+worried was in trouble.
+
+But there was another side to Beasley—and to his halfway house. Amy Saller,
+who later described herself on the witness stand at Rafferty’s trial as a
+former crack addict and prostitute, lived at the house on and off for more
+than two years from 2009 to 2011. Beasley had picked her up one night, and she
+came to stay with him because he told her his mission was to “save all the
+girls that are on the streets,” she testified. “I pictured him as a savior,
+somebody that was trying to help me.” There were four or five other
+prostitutes in the house, Saller recalled, and Beasley got them all
+cellphones. Soon, instead of being their savior, he became their pimp. He
+began advertising their services online and driving them to meet johns. Saller
+said that Beasley would “do anything in his power” to keep the girls at the
+house, including buying them drugs. Saller said she never saw Beasley get
+violent, although she added that she was nonetheless afraid of him.
+
+In February 2011, Beasley was arrested in Ohio on a variety of drug-related
+charges. While he was in jail, investigators were building a prostitution case
+against him. He was released on bond in mid-July. But after he failed to check
+in with authorities in Texas, where he was still on parole for his earlier
+crimes, the state issued a warrant for his arrest, and he was deemed on the
+run from the law.
+
+Beasley wanted to disappear. The key, he realized, would be to assume a new
+identity, and it wasn’t long before he came up with an idea. Whereas once he
+had preyed on prostitutes, now he would target a member of a new class of
+vulnerable citizens drifting at the margins of society: unemployed, middle-
+aged white men.
+
+_T_ _his will be_ _the fourth time we’ve talked to you. And each time we get a
+little bit more. But tonight it all needs to come out, 100 percent. All
+right?_
+
+One week after arresting Brogan Rafferty, investigators made a deal with their
+16-year-old suspect. If he agreed to testify against Beasley, he would be
+charged only with complicity to murder and attempted murder, respectively, in
+the cases of David Pauley and Scott Davis. He would not be charged with two
+other homicides that had by now been uncovered. Later, Rafferty would back out
+of the deal, but the plea-deal interview was recorded and the judge allowed it
+to be played at Rafferty’s trial.
+
+The story Rafferty told began in the first week of August, when Beasley told
+Rafferty that he was on the run from the law. He was determined not to go back
+to jail, and he suggested to Rafferty that “he needed [his] help to survive.”
+
+The first thing Beasley wanted was a new identity, and he began hanging around
+a local homeless shelter searching for someone who looked like him. He had by
+now come up with the perfect lure for a male victim in post-recession America:
+he would present himself as a beneficent but exacting employer, one with the
+power to alter a man’s fortunes by granting him the “job of a lifetime” as the
+caretaker of a sprawling farm.
+
+It wasn’t long before Beasley met a man named Ralph Geiger, who for many years
+had run a thriving maintenance business, but for whom jobs had gradually dried
+up. Geiger, 56, was staying at a shelter and looking for work, and Beasley
+told him about the caretaker job he’d invented. Geiger had lived on a farm
+when he was younger, and he leapt at the opportunity. Rafferty remembers
+Beasley quizzing Geiger about his size and appearance: _How much do you weigh?
+You look a lot like me, except your hair is a little bit darker._
+
+At what other moment in history could a serial killer identify middle-aged
+white men as his most vulnerable targets?
+
+Whether Rafferty knew that Beasley intended to kill Geiger would later become
+a key point in the teenager’s trial, and he told different versions of his
+story at different times. In his plea-deal confession, Rafferty told the
+investigators that Beasley “said that he needed a new identity. And that this
+guy looked similar to him. And he said that he needed to somehow murder him.”
+Later, though, Rafferty would tell the jury that he’d had no idea what was
+coming. The first time he realized that Beasley was anything other than a
+“very nice man,” he claimed, was on August 9, when they drove Geiger to the
+same wooded spot where they would later take David Pauley and Scott Davis.
+After they got out of the car, Beasley raised a pistol and shot Geiger in the
+back of the head. “It was as if somehow I immediately slipped into a dream or
+something,” Rafferty told the jury. “Like I had ice in my veins.” From then
+on, Rafferty said, he lived in a state of fear and panic, terrified that
+Beasley would kill his mother or half-sister Rayna if he told anyone what had
+happened, or that maybe on their next run Beasley would kill _him_.
+
+“He was just scared and he didn’t see a way out,” Rafferty’s father, Michael,
+told me. “Heroes aren’t born at 16.”
+
+Rafferty didn’t tell anyone about Geiger’s murder, but he did describe it in a
+poem dated August 16, 2011, that was later found on his hard drive. It was
+titled “Midnight Shift”:
+
+> We took him out to the woods on a  
+>  humid summer’s night.  
+>  I walked in front of them.  
+>  They were going back to the car.  
+>  I did’nt turn around.  
+>  The loud crack echoed and I did’nt  
+>  hear the thud.  
+>  The two of us went back to the car  
+>  for the shovels.  
+>  He was still there when we returned.  
+>  He threw the clothes in a garbage  
+>  bag along with the personal items.  
+>  I dug the hole.  
+>  It reached my waist when I was in  
+>  it, maybe four feet wide.  
+>  We put him in with difficulty,  
+>  they call them stiffs for a reason.  
+>  We showered him with lime like a  
+>  Satanic baptism  
+>  it was like we were excommunicating  
+>  him from the world  
+>  I thought there would be extra dirt,  
+>  he was’nt a small man.  
+>  There wasint. I don’t know how.  
+>  We drove out of there discarding  
+>  evidence as we went  
+>  felt terrible until I threw up  
+>  in the gas station bathroom where  
+>  I was supposed to throw away the bullets and shell.  
+>  I emptied myself of my guilt, with  
+>  my dinner, but not for long.  
+>  When I got home,’ took a shower hotter than hell itsself.  
+>  prayed like hell that night.
+
+Rafferty grew moody that fall, according to his parents and friends, but they
+figured it was just hormones or girl trouble. He later told his mom that after
+homecoming, while the other kids were having fun, all he could think about was
+crashing the Buick his dad had bought him, so that he could join Gram Rita,
+his beloved grandmother who’d died a few years earlier. But he didn’t wreck
+the car. He just stayed in his room and waited for Beasley to call.
+
+Beasley, meanwhile, was constructing a life as Ralph Geiger. He dyed his hair
+brown and found a room to rent. He went to a doctor to get prescription
+painkillers for the injuries he’d sustained in his car accident. In September,
+he landed a job as a quality inspector at a company that made liftgates for
+trucks. But it didn’t last long. Beasley’s back still hurt, and he became
+worried that parole officers would somehow catch on to him. Still, he couldn’t
+survive without a steady income. Perhaps that’s when the idea came to him. The
+Geiger killing had gone so smoothly that he could turn it into a career of
+sorts, preying on other men who’d fallen out of the economy.
+
+Instead of trolling the shelters, as he’d done to find Geiger, Beasley came up
+with the strategy of placing an ad on Craigslist. After all, he didn’t want
+his victims to be completely down and out. He needed men on the margins, yes,
+but not so marginal that they didn’t have some possessions worth killing for:
+a truck or a TV or a computer or even a motorcycle.
+
+On Sunday, October 23, as David Pauley was driving his U-Haul full of stuff to
+the breakfast meeting with his new employer, Rafferty woke up early. He fed
+his cats, tidied his room, and told his father he was heading out for a job
+digging drainage ditches. “I love you, Dad,” he said as he left to pick up
+Beasley. Before driving to the Bob Evans in Marietta, Beasley and Rafferty
+went to Kmart and bought a couple of shovels. Then they drove to a spot not
+far from where Geiger was buried, and Rafferty dug the grave intended for
+Pauley. Before they left, Beasley put a $20 bill under a nearby rock: if it
+was gone when they came back, he’d know someone had been there.
+
+After breakfast with Pauley, Beasley had his new hire follow him to the
+Emporium in Caldwell, to park his truck and trailer. He told Pauley the same
+story about the road to the farm being split that he would later tell Davis.
+On the subsequent drive in the Buick, Pauley asked about the job and Beasley
+told him not to worry: “You get an honest day’s pay for an honest day’s work.”
+When they pulled over near the creek, Beasley asked Rafferty and Pauley to
+follow him up a hill, but Rafferty said he had to go to the bathroom. “And
+then, as I finished and turned around,” Rafferty told investigators, “I heard
+a crack.” Pauley was lying facedown. Somehow his cowboy hat had ended up
+hanging on a nearby branch.
+
+Back in Akron, Beasley began to improvise. He’d heard from a friend about the
+reality-TV show _Storage Wars_ , in which people bid on abandoned storage
+units hoping that there might be valuable items hidden inside. Beasley told
+people he was involved in that kind of thing, and began to unload Pauley’s
+stuff: he returned the U-Haul, sold Pauley’s truck for $1,000, and sold the
+other belongings—the Christmas lights, the model trains, some tackle boxes,
+the Jeff Gordon memorabilia—to neighbors or at flea markets.
+
+The Pauley money quickly dwindled, but Beasley wasn’t all that concerned. He
+already had a still-better victim lined up in Scott Davis. Before Davis had
+even hit the road for Ohio, Beasley told his landlord that he’d won a bid on a
+fantastic storage unit that contained a flat-screen TV, a computer, some lawn-
+care equipment, and, best of all, a Harley. He told Rafferty that he thought
+he could net $30,000 on this kill, enough for him to make it through the
+winter.
+
+But at Beasley’s moment of anticipated triumph, his gun jammed. Rafferty was
+waiting in the car when he saw Beasley hustling back toward him. “He got
+away,” Beasley said, breathing hard as he climbed back into the Buick. If they
+saw Davis along the road, Rafferty told the investigators, “I was to hit him
+with my car.” But they didn’t find him, so they headed back out onto the
+highway. Beasley started madly tossing things out of the car—the shovels, a
+leather jacket, the air freshener, even his own laptop. If Davis made it to
+the police, he didn’t want the Buick to be easy to identify. Rafferty went
+along, but he refused to toss out the rosary beads hanging from the rearview
+mirror. They were a gift from his Gram Rita.
+
+Eventually, they made their way back to Akron, where, as Rafferty saw it, any
+logic or purpose to Beasley’s actions went out the window too. Following a
+botched murder like Davis’s, you’d think Beasley would lie low. But he’d been
+counting on that haul, and now that it had fallen through, he recklessly
+pursued another. Though police were already talking with Davis and beginning
+to track down leads, they didn’t move quickly enough to save Beasley’s fourth
+and final victim. On Sunday, November 13, exactly a week after the attempt on
+Davis’s life, Beasley and Rafferty picked up a man named Timothy Kern in the
+parking lot outside a pizzeria in Canton, where he’d spent the night sleeping
+in his car. Kern was from the Akron area, 47 years old and divorced. He’d
+recently lost his job as a street cleaner.
+
+Beasley had a mental inventory of the items he thought Kern was bringing with
+him, and almost as soon as they got into Rafferty’s Buick, Beasley began
+questioning him. Did he have that laptop he’d mentioned? Kern said no, he’d
+left it behind with his sons Zachary and Nicholas. The flatscreen TV? Same
+story: Zach and Nick had it. Instead, Kern had brought an old TV. Apart from
+that, he just had a couple of garbage bags full of clothes and cassette tapes,
+which fit easily in the back of Rafferty’s car. That, and the late-’80s sedan
+that he’d abandoned in the pizzeria parking lot because it barely ran.
+
+“I get half a pit in my stomach,” Rafferty later told the investigators,
+“because as the story goes on and on, I’m realizing that I’m about to help
+Beasley do this for no reason at all. Not that I even wanted to do it at all.
+But it takes, like, all the minimal sanity and reason out of doing this … It
+would be like if a lion killed a zebra just to kill it … Just ’cause it
+wanted, like, its hoof or something. The man literally I think had $5 in his
+pocket.” One other thing struck Rafferty at the time—enough so that he
+mentioned it to the investigators more than once: Timothy Kern had given
+everything he had of value to his sons, who were just a little older than
+Rafferty himself. It was clear that Kern’s family had broken up, but just as
+clear was that “he loved his kids,” Rafferty told the investigators.
+
+In his e-mails to Jack, Kern had described himself as single and “available
+for immediate relocation,” but hadn’t said much about his sons. In truth, Kern
+was ambivalent about the caretaker job he’d been offered—he described it on
+his Facebook page as a “good offer” but with “drawbacks,” because he would be
+more than two hours away from his sons and wouldn’t have cellphone service.
+Kern and his ex-wife Tina had divorced in 1997, and Zach and Nick were already
+19 and 17. But Kern made a point of seeing them nearly every day, even if that
+meant waiting around the corner from their house until after Tina left for
+work.
+
+Kern’s marriage wasn’t the only thing in his life that had fallen apart. In
+the 1990s, he’d worked as a sound engineer at a local club, but when he lost
+that job in 2000, he had trouble finding a new one. He lived with his parents
+for a few years, but then his father kicked him out, and after that no one was
+sure where he slept. Maybe in his car.
+
+But despite all that, or maybe because of it, he was never unsteady in his
+commitment to Zach and Nick. He focused on his children in the intense way
+certain divorced dads do when they’re cut off from the daily routines of their
+families. (He had another son from an earlier marriage, whom he didn’t see
+much, and that might have played a part, too.) “He only cared about these two.
+I mean, that was his purpose, that was his thing,” his ex-wife told me. It
+sometimes drove her crazy that he’d spend his last penny on cellphone bills to
+make sure he could stay in touch with the boys—instead of, say, keeping up
+with his child-support payments. “All day, texting, every day,” Tina said.
+
+Inset: Victim Timothy Kern with his sons Nick and Zach around 2001 (Courtesy
+of the Kern family). Large photo: Zach and Nick today (Gregg Ruffing).
+
+Zach and Nick present themselves to the world as pretty tough—they’re both
+covered in tattoos, and Zach plays in a heavy-metal band—but they had
+remarkably tender relationships with their father. They knew, for instance, to
+always answer his texts quickly, so that he didn’t get his feelings hurt and
+follow up with _Oh, I see you’re busy_ or _2 cool 4 dad_. The day Kern left
+for Ohio, Nick, who was a senior in high school, lent him $20. That night,
+Nick texted him before going to a party:_I love you. I miss you. I’m proud of
+you. Good luck_. When Kern got up the next morning, he wrote Nick: _Text me
+when you wake up. Love you. Leaving soon_.
+
+Rafferty knew that they weren’t taking Kern to the same spot where they’d shot
+Geiger, Pauley, and Davis—not even Beasley was _that_ crazy. Instead, their
+destination was a narrow wooded area behind a mall on the western edge of
+Akron, where Beasley had had Rafferty dig a grave the night before. He’d done
+a sloppy job: it was barely two feet deep and uneven, but Beasley no longer
+seemed to care. It was a Sunday, and the mall was empty. Locals refer to the
+place as a “dead mall” because every store had gone out of business during the
+recession, except for a mattress-and-furniture liquidator, where desperate
+families went to sell their belongings. The other storefronts were suspended
+in a last moment of forced cheer, with neon signs in the windows still reading
+Everything must go and Wall to wall savings.
+
+They parked, and Beasley told Kern that they had been there squirrel hunting
+earlier and he’d lost his watch. Kern followed Beasley into the woods behind,
+which were littered with plastic cups and beer cans from a party. Rafferty
+kept his distance, he told the investigators, and then “heard a pop.” He saw
+Kern on his knees, holding the side of his head. He kept taking “enormous
+gulp[s] of air.” Three shots later, he was still gulping. Finally, on the
+fifth shot, he stopped.
+
+That night, Nick tried to call his dad and got no answer, but he figured he
+was just getting settled. Then a couple of days went by and Nick started to
+get worried. “I called him like 2,000 times. Because he would contact us like
+every hour of every day. And now nothing?” Nick began sleeping with his phone
+in his hand and waking up to listen to the messages, even though no new ones
+had registered. The next Sunday, a week later, he was at a friend’s house
+watching a football game when his mom called and told him to come home
+immediately—she had something she needed to tell him.
+
+“Tell me now!” he screamed into the phone. “Tell me right fucking now!” As he
+explained to me, “I knew. Because that would be the only explanation for him
+not calling us.”
+
+I was initially drawn to the story of the Beasley murders because I thought it
+would illuminate the isolation and vulnerability of so many working-class men,
+who have been pushed by the faltering economy from one way of life—a nine-to-
+five job, a wife, children—into another, far more precarious one: unemployed
+or underemployed, single or divorced, crashing on relatives’ spare beds or in
+the backseats of cars. At what other moment in history would it have been
+plausible for a serial killer to identify middle-aged white men as his most
+vulnerable targets?
+
+But what I discovered in the course of my reporting was something quite
+different. As traditional family structures are falling apart for working-
+class men, many of them are forging new kinds of relationships: two old high-
+school friends who chat so many times a day that they need to buy themselves
+walkie-talkies; a father who texts his almost-grown sons as he goes to bed at
+night and as he wakes up in the morning.
+
+Christians often talk about a “God-shaped hole,” a need inside us that can be
+filled only by faith. But perhaps we share a “family-shaped hole.” When the
+old structures recede for men, they find ways to replace them with alternative
+attachments, bonds with one or two people that offer the warmth and intimacy
+typically provided by a wife or significant other. If anything, these
+improvised families can prove _more_ intense because they are formed under
+duress and, lacking a conventional domestic routine or a recognized status,
+they must be constantly tended and reinforced.
+
+While researching a recent book she co-wrote about working-class fathers,
+_Doing the Best I Can_ , the sociologist Kathryn Edin noticed something
+surprising. The men she spoke with were exceptionally emotional when it came
+to their children—children whom many of the men did not live with and were not
+steadily providing for. They had taken the ethos that fathers should be
+involved with their children and “kind of gone overboard with it,” Edin
+explained to me, “so they were even more expressive than middle-class men.”
+Often this emotiveness spilled over into other areas or landed on children who
+were not their own, or even on other adults—a sibling or cousin, a childhood
+best friend—as if the men were inventing a new language of intimacy. In some
+cases, when a man was courting a woman, Edin found that he would court her
+child so intensely that it seemed “the child was the main audience for his
+affections,” not the mother.
+
+Edin concluded that for men who are failing the traditional tests of marriage
+and parenting, this kind of intense emotional connection “is the last form of
+identity available.” It’s a way to maintain a sense of family if you can’t be
+a reliable breadwinner, or even keep up with child support.
+
+David Pauley had his friend Chris Maul and his twin sister, Deb. Timothy Kern
+had his sons Zach and Nick. Scott Davis was fortunate enough to live to tell
+his own story, but even if he hadn’t, his mother was eagerly waiting for him
+to arrive in Ohio to help fix her house. Of all Beasley’s victims, the one it
+took me the longest to learn much about was the first, Ralph Geiger. He had
+some family in California and Atlanta, but unlike the relatives of the other
+victims, they did not attend the trials of Beasley and Rafferty. After Geiger
+was cremated, his ashes were delivered to a young woman named Summer Rowley.
+Though she was not a relative of Geiger, she did attend the trials, and I
+visited her at home one day. She mentioned that she was afraid of what people
+might think about Geiger’s relationship with her, that he was just “hitting on
+the pretty young girl. But he would _never_ do that.”
+
+Rowley met Geiger in 2004, when she was 19 and he was 49. A friend had set her
+up with a job cleaning his house, and after a few visits he asked her whether
+she wanted to try painting some drywall. Rowley didn’t know how to do that,
+but Geiger taught her, and after a while they began working together
+regularly. He taught her how to fix a drain, caulk a hole, and perform various
+other plumbing tasks. He taught her how to cook a roast and make soup. “He was
+like a father,” Rowley told me. He helped change her from a wild teenager into
+a young woman who was ready, at 25, to have a baby with her fiancé. When her
+daughter was born, she presented Geiger as the little girl’s “pa-pa.” On the
+mantle beneath Rowley’s TV is a picture of Geiger nestling the infant, barely
+a week old, against his big chest.
+
+Richard Beasley had believed that no one would come looking for the divorced,
+unsettled, middle-aged men he was targeting. But he should have known better.
+Like his victims, Beasley was himself divorced, and lived apart from his
+child, and was only sporadically employed. And like them, he too had created
+an intense surrogate family relationship, with Brogan Rafferty.
+
+When prosecutors interviewed Beasley’s daughter, Tonya, she said that when she
+saw her dad and Rafferty together on Sunday mornings, they seemed like father
+and son—much closer to one another than she and her dad had ever been. On the
+stand, Rafferty described Beasley as “the one person that I could go to …
+about anything,” “a father that I never had.”
+
+Rafferty, of course, did have a father, one with whom he lived and who
+provided for him—right down to the white Buick LeSabre. But long before the
+murders, Rafferty would complain to his half-sister Rayna about how tough his
+dad, Michael, was on him. Michael hardly had an easy situation himself. When
+Brogan was not yet a week old, Michael came home from work one day to discover
+that his wife, Yvette, and his infant son were gone. It was bitterly cold that
+week—Brogan was born on Christmas Eve—and Michael searched for 48 hours before
+Yvette came back home. He assumed she was doing drugs again, and as much as
+Michael loved her, he decided to kick her out and raise Brogan alone, with the
+help of his own mother, Rita.
+
+At the trial, the local press seized on the story of how, at age 5, when he
+was in kindergarten, Brogan would eat breakfast alone, get himself dressed,
+and make his own way to the bus stop. “He raised himself, in my opinion,” one
+grade-school counselor who knew him told the jury. But things weren’t quite so
+simple: Michael explained to me that he worked an early shift at a machine
+shop and had to leave the house by 6:30 a.m. Before he left, he laid out
+clothes for his son, poured his favorite cereal in a bowl, and left him a
+little pitcher of milk. Then he gently woke him up and left for work.
+
+That said, Michael allows that “I put a lot of responsibility” on Brogan,
+because it was “just the two of us.” Michael is regimented and strict and has
+a fierce temper. He had been raised to believe that boys don’t cry, and he
+raised Brogan the same way. Rayna believes that Brogan drifted toward Beasley
+because he was a little scared of his father, and Beasley was “like an
+escape.”
+
+Rafferty’s lawyers wondered whether Beasley and the boy had a sexual
+relationship. Rafferty’s dad wondered too. How else to explain a bond so
+intense it led Rafferty to pick up a shovel and dig four graves? But Rafferty
+rolled his eyes when his dad asked and said, “It wasn’t like that at all.” The
+real explanation seems less complicated. Michael represented an old vision of
+fatherhood: strict, manly, and reliable, working the early shift to put food
+on the table but coming home worn and agitated. Beasley, by contrast, had no
+such parental obligations and was free to represent a newer and in some ways
+more appealing vision: expressive, loving, always around to listen and give
+advice. It was easy for Beasley to be a hero to Rafferty—and, to a lesser
+degree, to Rayna and the other kids at their church. He did what their
+distracted, overworked, and somewhat traumatized parents couldn’t do, Rayna
+says, which was “really connect to us.”
+
+In November 2012, a jury convicted Brogan Rafferty of two dozen criminal
+counts, including murder, robbery, and kidnapping. Judge Lynne Callahan told
+Rafferty that he had been “dealt a lousy hand in life” but that he had
+“embraced the evil,” and sentenced him to life without parole. In April 2013,
+Richard Beasley was also convicted of murder and was sentenced to death.
+Throughout his trial, he maintained that he was innocent. (Both Beasley and
+Rafferty are appealing their convictions.)
+
+In letters to his father now, Rafferty sometimes sounds like a kid and
+sometimes like a damaged man: “I’m sorry … I left my room a mess when I left.
+I’m sorry for disgracing you and the family name,” he wrote from jail. He
+reads books from the library straight out of a high-school curriculum— _The_
+_Grapes of Wrath_ and _Catcher in the Rye_ and _Treasure Island_. He
+identifies with _All Quiet on the Western Front_ , he wrote, because prison
+life is like war: “Each man fights his own battle, and each with an invisible
+enemy.” He has admitted to his dad that he used to resent him for being so
+strict, but now he’s grateful, because thanks to all the rules and the chores
+and the premature independence, he knows how to take care of himself.
+
+Mostly, though, his letters are full of longing for family, for his dad and
+his half-sisters, his dog, Whiskey, and his cats, Cow and Monkey, his mom and
+his grandma and grandpa and his aunts and uncles. The Raffertys are an old
+Irish clan, with a coat of arms hanging in the living room. Rafferty draws
+that coat of arms sometimes in prison, along with the two tattoos he wants to
+get, one that says Dad and another that says Rita.
+
+> I deserve to be here, but I don’t deserve to sit in a hole while my loved
+> ones and pets die around me. That’s Hell.  
+>  
+>  I love you Dad, and I always will.

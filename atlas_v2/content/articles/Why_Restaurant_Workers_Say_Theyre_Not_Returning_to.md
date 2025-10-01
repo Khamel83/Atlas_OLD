@@ -1,0 +1,160 @@
+# Why Restaurant Workers Say They’re Not Returning to Work | Eater
+
+**Source**: https://www.eater.com/22417344/restaurant-labor-shortage-covid-19-unemployment-benefits-risks
+**Type**: article
+**Created**: 2025-08-13T15:38:16.665383
+
+---
+
+title: Why Restaurant Workers Say They’re Not Returning to Work | Eater
+source: https://www.eater.com/22417344/restaurant-labor-shortage-covid-19-unemployment-benefits-risks
+date: 2025-08-13T15:38:15.642635
+tags: []
+---
+After eight years in the restaurant industry, Estefanía decided she’d had
+enough. Last summer, she quit her job at a New American restaurant in Chicago
+where she had worked as a manager and sommelier since 2017. Estefanía, who
+asked to be referred to by her first name because she is an undocumented
+worker, said she got COVID-19 in June and took two weeks off to recover and
+quarantine. When she came back, she noticed a shift in the way her employers
+treated her. “I came back to be given the silent treatment from the owner,”
+she told me via email. “He said I abandoned him and that he couldn’t trust me
+[or] see me as a manager anymore.”
+
+Estefanía said the last straw was when a coworker threatened to call ICE on
+her. She quit the restaurant, got a job as a receptionist, and thought she was
+done with the restaurant industry altogether. But the pay couldn’t compare to
+what she was making before, so now, she’s back. Despite her hesitancy to
+return to the industry, Estefanía just started working at a Mexican restaurant
+in Logan Square, which she describes as a better experience than her last job.
+
+The fact that Estefanía quit restaurant work and returned makes her a COVID-
+era rarity. For months, restaurateurs
+[across](https://www.bizjournals.com/stlouis/news/2021/04/23/st-louis-
+restaurants-mission-taco-retreat-gastro.html)[
+the](https://www.providencejournal.com/story/business/2021/04/23/ri-
+restaurant-worker-shortage-pandemic-unemployment/7333158002/)[
+country](https://www.staugustine.com/story/business/economy/2021/04/11/st-
+augustine-restaurants-are-booming-but-staffing-problem-labor-shortage-service-
+industry-florida/7129637002/) have been sounding the alarm about an industry-
+wide labor shortage. Managers of small, independent restaurants and [big
+national chains](https://www.businessinsider.com/mcdonalds-subway-struggle-to-
+find-workers-forcing-changes-2021-4) alike have told the press they’re having
+trouble getting longtime staff to return to their jobs or finding new
+employees to replace them. Managers and owners are
+[largely](https://twitter.com/tamisawyer/status/1382043431208423433)[
+blaming](https://www.nytimes.com/2021/04/08/dining/restaurant-worker-
+shortage.html) their inability to retain — or even re-hire — staff on expanded
+unemployment benefits designed to mitigate the economic devastation of the
+pandemic; claims that “no one wants to work” because they’d rather stay home
+and cash unemployment checks have become commonplace, even though they aren’t
+entirely accurate.
+
+“I haven’t been back because I can’t really trust any restaurant owners to
+provide a safe environment for their employees.”
+
+Matt Glassman, the owner of the Greyhound Bar & Grill in Los Angeles, said
+unemployment has made it harder to rehire staff, but added that it’s more
+complicated than people not wanting to work. Glassman’s restaurant has been
+closed since last summer and will reopen in May at reduced capacity. For
+servers and bartenders, fewer patrons means less tips — which means that
+they’re putting their health at risk while making less money than they would
+on unemployment. Glassman said he pays servers and bartenders $15 an hour
+before tips, and that before the pandemic, it wasn’t unusual for a bartender’s
+hourly wage to come out to $50 or $60 after tips. “Now that number is going to
+be closer to $25 to $30,” Glassman said.
+
+The dangers are even more acute for back-of-house staff, like line cooks and
+dishwashers. “We do a ton of business out of a 400-square-foot kitchen,”
+Glassman said. “There’s no mask in the world that’s going to protect you from
+being next to someone for eight hours a day in that hot environment.” Even
+with vaccinations on the rise, plenty of people remain scared to go back to
+grueling restaurant jobs. A February[
+study](https://www.cnbc.com/2021/02/02/jobs-where-workers-have-the-highest-
+risk-of-dying-from-covid-study.html) from researchers at the University of
+California, San Francisco found that line cooks had the highest mortality rate
+during the height of the pandemic in the U.S. Even when cities were under
+“lockdown,” plenty of restaurants were open for takeout and delivery, and
+back-of-house staff were bearing the brunt of the labor and the risk.
+
+Glassman said he’s offered 10 to 20 percent raises for back-of-house staff,
+but acknowledges that it may not be enough to entice people to come back. At
+the same time, he said it’s difficult for him to raise wages more than he
+already has, since the restaurant will be operating at limited capacity for
+the foreseeable future.
+
+When Isaac Furman quit his job as a line cook in early 2020 to go back to
+school, he assumed it would be a temporary break from the industry. “I haven’t
+been back since,” he said, “because I can’t really trust any restaurant owners
+to provide a safe environment for their employees.”
+
+Before quitting, Furman, who had worked in restaurant kitchens for seven
+years, thought he’d have a long — and hopefully fruitful — career as a cook.
+“I always figured I’d be an industry lifer,” he said. “I never harbored any
+illusions about it being easy per se, but I liked the idea of being part of
+the community… Restaurant ownership was the ultimate goal.”
+
+Time away from the industry made him realize how disillusioned he had become
+with the industry, which he described as unsustainable and exploitative,
+especially in places with a high cost of living, like New York City. “By the
+time I was 26 at my last place, I was one of the oldest cooks in the kitchen,”
+he said. After he aged out of his parents’ health insurance, the subsidized
+insurance his work offered him was around $500 a month — which he could hardly
+afford with his wages. “Health care is a big part of this. The total lack of
+ability to raise a family while working on the line is, too. But there’s also
+the physical toll,” he added. “I had a foot injury once and couldn’t work for
+a week. What happens if it was longer than that? There’s absolutely no safety
+net, and every day you feel worse and worse.”
+
+Furman said these problems aren’t limited to any one restaurant or city;
+[they’re industry-wide](/22308106/covid-one-year-later-restaurant-workers-
+frustrated-anxious-angry). Nearly two million restaurant and bar workers lost
+their jobs between March and April 2020, when cities across the country first
+began shutting down due to the pandemic. The wave of re-openings and
+subsequent shutterings that came with ever-changing regulations and individual
+exposures meant that, in many cases, restaurants were laying off and re-hiring
+their staff cyclically. Fed up by the instability, some restaurant workers[
+found jobs in other
+industries](https://www.restaurantbusinessonline.com/workforce/other-
+industries-step-hire-unemployed-restaurant-workers) and didn’t look back.
+
+Those who have decided to stick it out have more choices than ever before.
+Joseph Tiedmann, an executive chef in New Orleans, said the problem isn’t just
+that people aren’t applying to jobs, but that there are more open jobs than
+there are applicants. “The number of responses [to job listings] has
+definitely decreased but when we reach out to applicants, we’re way less
+successful in actually getting a hold of people or getting them to actually
+come in for interviews,” Tiedmann said. “There’s such a wide selection of
+restaurants to work at right now. If someone is looking for a job and they use
+Indeed or use Culinary Agent to put a resume out there, they’re going to get a
+_ton_ of responses. They have so many choices, they’re bombarded by calls for
+interviews and may not have time to respond to all of them, or they might take
+the one that looks most favorable to them.”
+
+Tiedmann said he’s offered pay increases to current staff members and higher
+starting wages for new employees, but hiring has still been difficult. If
+there’s any bright side to the current labor situation, he added, it’s that
+it’s causing owners and hiring managers to reevaluate everything from wages to
+company culture — and for consumers who spent the last year praising essential
+workers to realize they need to be paying more for their food.
+
+“I think we’re at a point where people are like, ‘We’re going to have to raise
+our prices, because we need to pay our employees more money, and we need to
+offer them benefits when we can,’” Tiedmann said. “We need to make this an
+attractive business to work in. At the end of the day, it’s all about being
+able to do more for your employees. But in order to do that, you’re going to
+have to pay for it somehow.”
+
+For those who have never worked in food service, the changes restaurant
+workers are asking for may not seem like much. But those who have been in the
+industry for a long time know how resistant many bosses are to change. Tara, a
+cook in the Washington, DC area who asked that her last name be withheld to
+protect her identity while she looks for work, said the pandemic has made her
+realize what her non-negotiables are. “I refuse to take [a job] that’s the
+minimum serving wage. I need a place that’s at least minimum wage plus tips,”
+she said. “We are so sick and tired of [restaurant owners] assuming we want a
+handout. We want to work, but we also want to be treated like human beings. We
+haven’t been for way too long.”
+
+[ __Gaby del Valle__](https://borderlines.substack.com/) __is a freelance
+reporter who primarily covers immigration and labor.__

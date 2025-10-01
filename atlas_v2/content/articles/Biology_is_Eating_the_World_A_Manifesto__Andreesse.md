@@ -1,0 +1,124 @@
+# Biology is Eating the World: A Manifesto | Andreessen Horowitz
+
+**Source**: https://a16z.com/2019/10/28/biology-eating-world-a16z-manifesto/
+**Type**: article
+**Created**: 2025-08-13T16:05:09.611926
+
+---
+
+title: Biology is Eating the World: A Manifesto | Andreessen Horowitz
+source: https://a16z.com/2019/10/28/biology-eating-world-a16z-manifesto/
+date: 2025-08-13T16:05:08.425709
+tags: []
+---
+We are at the beginning of a new era, where biology has shifted from an
+_empirical_ science to an [_engineering_ discipline](https://a16z.com/when-
+biology-moves-to-engineering/). After a millennia of using man-made approaches
+for controlling or manipulating biology, we have finally begun using nature’s
+own machinery—through biological engineering—to design, scale, and transform
+biology.
+
+**Our ability to**[**engineer biology**](https://a16z.com/how-to-engineer-
+biology/)**will**[**fundamentally
+transform**](https://a16z.com/podcast/a16z-podcast-when-and-how-biology-
+becomes-engineering/)**how we diagnose, treat, and manage disease.** The first
+great leap forward took place in the early 1980s with recombinant DNA
+technology and the first biotech drug, thanks to our newfound ability to
+insert human genes into bacteria to produce human insulin. Today, modern tools
+like CRISPR and gene circuitry enable us to to [program biology with greater
+and greater precision and sophistication](https://a16z.com/engineering-the-
+genome-challenges-and-opportunities-in-the-next-wave-of-medicine/), from
+bacteria that is engineered to produce new chemicals and proteins, to cells
+that are engineered to attack cancer. The explosion of “[programmable
+medicines](https://a16z.com/programming-medicine/)” (in the form of genes,
+cells, microbes, even mobile apps and software that can improve our health
+itself) are today leading us closer than ever before to that holy grail of
+medicine, the cure.
+
+Because these [new medicines](https://a16z.com/what-is-a-medicine/) are
+engineered systems and programmable in nature, **drug discovery and
+development will move from a bespoke to an iterative process.** We can now
+move from designing a molecule for one specific target to designing a platform
+on which [many future medicines](https://a16z.com/podcast/a16z-podcast-the-
+science-and-business-of-innovative-medicines/) can be built. Like software
+upgrades, programmable medicines make it increasingly possible to improve a
+given medicine in subsequent generations. Each new version of engineered CAR
+T-cells, for example, will be more sophisticated than the last. And [the
+modular aspect of these medicines mean that new applications will be easier to
+build](https://a16z.com/biology-the-new-old-technical-debt-and-what-that-
+means-for-healthcare-innovation/), reusing and repurposing common components
+like Lego blocks: once we learn how to deliver a gene to a specific cell in a
+given disease, it’s significantly more likely we will be able to deliver a
+different gene to a different cell for another disease.
+
+Increasingly, not all therapies will be molecules. Already, today you can
+download a therapeutic to manage complex chronic conditions like diabetes or
+behavioral disorders—potentially better than any existing medicines can. For
+these complex conditions, [software may be our _best_ way to impact
+biology](https://a16z.com/the-hidden-40-to-unlock-healthcare-and-clean-up-our-
+lifestyles/). These digital health therapeutics have the potential to not only
+make you better, but themselves get better and better over time as they treat
+you. **Now biology doesn’t just evolve, our therapeutics do, too.**
+
+All of this is powered by the ability to generate [data that we’ve never had
+before](https://a16z.com/podcast/a16z-podcast-dark-data-in-healthcare/), plus
+[sophisticated computational tools](https://a16z.com/how-to-democratize-
+healthcare-ai-gives-everyone-the-very-best-doctor/) to make sense of them.
+[Biology is incredibly
+complex](https://www.nytimes.com/2018/01/25/opinion/artificial-intelligence-
+black-box.html) —maybe even beyond the ability of the human mind to fully
+comprehend. [AI-powered](https://a16z.com/podcast/a16z-podcast-ai-and-your-
+doctor-today-and-tomorrow/) [platforms](https://a16z.com/a-practical-toolkit-
+for-deep-learning-in-the-life-sciences/) have the potential to connect dots
+that have before looked like noise; to generate new discoveries; even to
+change the nature of discovery itself. This will drive both new therapies and
+next-generation diagnostics that give us the ability to detect diseases like
+cancer earlier and earlier, perhaps even [stopping disease before it
+begins](https://a16z.com/podcast/a16z-podcast-how-to-live-longer-and-better/).
+
+But when we do get sick, we rely on the healthcare system. [**We are at a
+unique moment in time**](https://a16z.com/for-healthcare-this-time-really-is-
+different/)**where our entire healthcare system—**[**how we access, pay for,
+and deliver healthcare**](https://a16z.com/video-software-eats-care-
+delivery/)**—is being re-engineered through technology.** Dynamics that have
+traditionally been barriers to change in the [healthcare
+system](https://a16z.com/podcast/a16z-podcast-the-infrastructure-of-total-
+health/), such as misaligned incentives and lack of transparency, are finally
+shifting. The patient is finally becoming a powerful stakeholder in the
+system. And healthcare is being pushed outside the four walls of the hospital,
+with new models emerging every day for delivering care at community-based
+locations; or at home; or virtually, wherever you are.
+
+In all these areas, technology is **reducing friction, introducing automation,
+and enabling new methods for delivering cost-effective clinical services**.
+Building successful products and services in this market will always require a
+deep understanding of the complex healthcare value chain as it exists
+today—and how to integrate into it. But payment model innovation and an
+expanding definition of what constitutes healthcare itself are exposing gaps
+in the system that can be uniquely filled by new startups. Going forward, the
+dominant players in the healthcare market will be technology companies at
+their core. [Software, finally, is eating
+healthcare](https://a16z.com/podcast/a16z-podcast-software-has-eaten-the-
+worldand-healthcare-is-next/).
+
+Biology, of course, doesn’t just impact human health and disease. With its
+unparalleled ability to evolve, replicate, and create, [biology is one of the
+most advanced manufacturing technologies](https://a16z.com/nature-as-
+technology/) on earth. We’ve already seen it transform food, agriculture,
+textiles, manufacturing, and—with DNA-based computers—even software itself.
+**Bio today is where information technology was 50 years ago** : on the
+precipice of touching all of our lives. Just like software—and because of
+it—biology will one day become part of _every_ industry.
+
+**This next generation of companies will be built by**[**a new generation of
+founders**](https://a16z.com/the-next-bio-startup-born-in-the-wild-vs-bred-in-
+captivity/)**who are multidisciplinary, with deep expertise in their
+domains.** The bio [companies of the
+future](https://a16z.com/2019/04/26/building-software-company-healthcare/)
+will take learnings from [predecessors in other
+spaces](https://a16z.com/16-terms-entrepreneurs-should-know-for-navigating-
+the-healthcare-industry/): consumer, enterprise, fintech, and beyond. So, just
+like our founders, we believe investors in this space also need to have deep
+expertise and experience, and be multidisciplinary—to have the vision to
+support founders as these traditional sectors and industry lines are shifting.
+We are living in the century of biology, and biology is eating the world.

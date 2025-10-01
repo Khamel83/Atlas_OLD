@@ -1,0 +1,193 @@
+# When Will Life Be 'Normal' Again, Post-Pandemic? - The Atlantic
+
+**Source**: https://www.theatlantic.com/family/archive/2021/02/pandemic-daily-life-normal-summer-fall/618108/
+**Type**: article
+**Created**: 2025-08-13T15:42:26.463427
+
+---
+
+title: When Will Life Be 'Normal' Again, Post-Pandemic? - The Atlantic
+source: https://www.theatlantic.com/family/archive/2021/02/pandemic-daily-life-normal-summer-fall/618108/
+date: 2025-08-13T15:42:25.192003
+tags: []
+---
+_Updated at 10:12 a.m. ET on February 24, 2021._
+
+The end of the coronavirus pandemic is [on the
+horizon](https://www.theatlantic.com/health/archive/2020/11/vaccines-end-
+covid-19-pandemic-sight/617141/) at last, but the timeline for actually
+getting there feels like it shifts daily, with updates about viral variants,
+vaccine logistics, and other important variables seeming to push back the
+finish line or scoot it forward. When will we be able to finally live our
+lives again?
+
+Pandemics are hard to predict accurately, but we have enough information to
+make some confident guesses. A useful way to think about what’s ahead is to go
+season by season. In short: Life this spring will not be substantially
+different from the past year; summer could, miraculously, be close to normal;
+and next fall and winter could bring either continued improvement or a
+moderate backslide, followed by a near-certain return to something like pre-
+pandemic life.
+
+Here, in more detail, is what Americans can expect daily life to look like for
+the next four(-ish) seasons.
+
+* * *
+
+#### **Spring 2021**
+
+For the most part, daily life will continue to be far from normal for the next
+few months. _Normal_ is of course a slippery word, given that many Americans
+have had to report to work or have chosen to dine out, travel, and do all
+sorts of things that others have avoided. But whatever people have not been
+doing for the past year, they can expect to keep not doing it this spring.
+
+It’s unlikely that enough people will get vaccinated in the spring to restore
+normalcy. In fact, experts fear that the pandemic could get much worse in the
+near term, because [variants of the virus that are more contagious or vaccine-
+resistant](https://www.nytimes.com/interactive/2021/health/coronavirus-
+variant-tracker.html) than the original version have begun circulating in the
+United States. The damage those variants will do is still unknown; “March to
+May is the mystery,” as my colleague Robinson Meyer [wrote earlier this
+month](https://www.theatlantic.com/health/archive/2021/02/will-there-be-
+another-surge-spring-mystery/617900/).
+
+The good news, though, is that even with these variants, existing vaccines
+appear to reduce the risk of severe illness, meaning more and more people will
+be protected as vaccinations continue. And vaccines can change individuals’
+risk calculus. Ashish Jha, the dean of Brown University’s School of Public
+Health, told me that in a month or so, in the absence of a variant-driven
+surge, he’d probably be comfortable going to a friend’s house for a drink,
+mask-free and indoors, if he and his friend were both fully vaccinated. “As we
+get into late spring, a lot of that stuff—the smaller gatherings of vaccinated
+people—I think starts becoming quite possible,” Jha said.
+
+![With a view of Throgs Neck Bridge crossing to the Bronx in the background,
+people enjoy an evening from a jetty at Fort Totten Park in Queens, May 24,
+2020. Memorial Day weekend in New York City usually marks the beginning of a
+vibrant summer to come, but this year traditions have been altered under the
+shadow of the
+coronavirus.](https://cdn.theatlantic.com/thumbor/WYdOofb6cQHpkMkCwPZYpvDZ3Qk=/0x0:3000x2000/655x437/media/img/posts/2021/02/h_15375341/original.jpg)(Victor
+J. Blue / The New York Times / Redux)
+
+#### **Summer 2021**
+
+Whatever happens in the spring, the summer should be a sublime departure from
+what Americans have lived through so far. As my colleague James Hamblin [wrote
+last
+week](https://www.theatlantic.com/health/archive/2021/02/summer-2021-pandemic/618088/),
+“In most of the U.S., the summer could feel … ‘normal,’” even “revelatory.”
+
+“Barring some variant that is just really crazy, I expect the summer to be a
+lot like the summer of 2019,” Andrew Noymer, a public-health professor at UC
+Irvine, told me. Based on [the drop-off in cases and
+hospitalizations](https://www.theatlantic.com/ideas/archive/2021/02/why-
+covid-19-cases-are-falling-so-fast/618041/) over the past few weeks, he thinks
+life could even be close to normal as soon as sometime in May.
+
+Other experts I consulted were slightly less optimistic, but they generally
+agreed that at some point between June and September, the combination of
+widespread vaccinations and [warmer
+weather](https://www.theatlantic.com/health/archive/2021/02/will-there-be-
+another-surge-spring-mystery/617900/) would likely make many activities much
+safer, including having friends and family over indoors, taking public
+transit, being in a workplace, dining inside restaurants, and traveling
+domestically (whether for work, visiting loved ones, or a vacation).
+
+Regardless of when vaccines for children become available, all of the above
+applies to kids and their families, according to Emily Oster, an economist at
+Brown who writes about everyday pandemic decision making in [her newsletter
+_ParentData_](https://emilyoster.substack.com/). In-person schooling should
+become safer as well. Though the timing for kids’ vaccines is uncertain,
+Oster’s guess is that they might become available over the summer for children
+12 and up, and later on for children under 12, perhaps in the fall.
+
+[Read: A quite possibly wonderful
+summer](https://www.theatlantic.com/health/archive/2021/02/summer-2021-pandemic/618088/)
+
+The safest way to phase activities back in will be for people to gradually go
+from smaller, private social settings (such as a friend’s house) to bigger,
+public ones (such as a restaurant)—which is also what many will probably feel
+most comfortable with. “People will slowly expand the social world that they
+engage in, building [their] pod back up,” predicts Oster.
+
+Jha, for instance, expects to host 20 or so friends for a Fourth of July
+barbecue in his backyard, with every adult vaccinated and no one having to
+wear a mask. He imagines himself being comfortable eating indoors at a
+restaurant later on in the summer, provided it’s not packed and the
+ventilation is decent.
+
+The summer will still have its limitations, though. The experts I spoke with
+didn’t foresee the return of indoor concerts, full attendance at sporting
+events, or high levels of international travel.
+
+They did, however, expect that Americans will be able to ease up on mask
+wearing and social distancing in other contexts. “I think when people are
+vaccinated themselves, they will start letting their guard down, but it will
+also genuinely be safer from a public-health perspective,” said Jennifer Beam
+Dowd, a professor of demography and population health at the University of
+Oxford and the chief scientific officer of [Dear
+Pandemic](https://dearpandemic.org/), a COVID-19 public-education campaign.
+Noymer’s prediction is that masking will be necessary in public settings until
+every American has at least been offered a vaccine, at which point he figures
+he would be okay with repealing mask mandates.
+
+Even once these precautions are no longer strictly necessary, many people will
+probably keep up some of them, opting to wear a mask, say, on public
+transportation or in a grocery store. Oster thinks that while certain
+activities should become much safer over the summer, many people might not be
+comfortable resuming them until the end of the year or even later.
+
+#### **Fall/Winter 2021–22**
+
+Even if the summer feels like the end of the pandemic, it could turn out to be
+more of a temporary reprieve.
+
+Most of the U.S. population should be vaccinated by the fall, but some
+resurgence of the virus seems likely in the colder months. “It won’t be as bad
+as this winter, but I don’t know if it’s going to be pretty bad or [if] just a
+few people will get it,” Noymer said.
+
+Thankfully, the latter scenario seems more likely, and could still allow for
+additional normalcy; indoor concerts might even come back. “The summer might
+be a little early for really large crowds,” Dowd said. “I see the autumn as
+the important turning point for those kinds of mass gatherings.”
+
+This scenario might result in isolated viral flare-ups, but vaccines should
+significantly reduce the likelihood that anyone who gets infected would end up
+in the hospital, and could also make them less likely to spread the virus.
+
+[Read: What if we never reach herd
+immunity?](https://www.theatlantic.com/health/archive/2021/02/herd-immunity-
+might-be-impossible-even-vaccines/617973/)
+
+Another outcome seems less probable but more troubling: Whether because a
+variant ends up evading existing vaccines or because infections surge among
+unvaccinated people, cases might climb again. Even after a wonderful summer, a
+rise in cases could necessitate a reversion to many of the precautions from
+earlier in the pandemic, even if it doesn’t require full-on lockdowns. “I’m
+not saying that the return of the masks and working from home and all the crap
+that we hate is guaranteed,” Noymer said. “But if it does return, it won’t be
+in the summer. It’ll be in the fall.”
+
+Thankfully, though, if stubborn variants do circulate, new vaccines should be
+able to tame them relatively quickly. Adjusting an existing vaccine recipe
+could take only a few months, meaning that the disruption to daily life would
+not be as drawn out as what Americans have lived through already.
+
+#### **Spring/Summer 2022**
+
+Beyond next winter, experts’ predictions are blessedly simple: Life in the
+warmer months of 2022 should be normal, or at least whatever qualifies as
+normal post-pandemic. The virus will still exist, but one possibility is that
+it will be less likely to make people severely ill and that it will, like the
+flu, circulate primarily in the colder months; some people would still die
+from COVID-19, but the virus wouldn’t rage out of control again. Meanwhile,
+Americans should be able to do most, if not all, of the things that they
+missed so much in 2020 and 2021, mask- and worry-free.
+
+Of course, this dreamy era is still more than a year away, and some unforeseen
+obstacle could delay the resumption of normalcy. Jha said he couldn’t picture
+what that might be, though. After a year spent gaming out how bad the pandemic
+could get, he can finally see ahead to a time when there are no more
+catastrophes to imagine.

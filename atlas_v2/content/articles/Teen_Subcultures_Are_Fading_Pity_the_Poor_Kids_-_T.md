@@ -1,0 +1,25 @@
+# Teen Subcultures Are Fading. Pity the Poor Kids. - The New York Times
+
+**Source**: inputs/old stuff/Docs/Teen Subcultures Are Fading Pity the Poor Kids  The New YorkTimes_022124.html
+**Type**: article
+**Created**: 2025-08-25T02:53:54.214109
+
+---
+
+A few weeks ago, my 12-year-old daughter showed me a video created by a Dallas clothing store called Dear Hannah Prep, depicting a girl’s first time visiting “the preppiest boutique in Texas.” “How excited are you?” an off-camera voice asks. “I’m so excited!” the girl says. Then she opens the door, gasps and declares, [“It’s so preppy in here!”](https://www.tiktok.com/@shopdearhannahprep/video/7289826866658086186?lang=en)
+
+That this moment had become a meme, spawning an array of other videos riffing on the original (we see the girl enter a derelict classroom or padded cell and swoon, each time, that it’s “so preppy in here”) was far less confusing to me than the fact that people were calling this store — an all-white box exploding with smiley-face sweatshirts, tie-dyed fuzzy bathrobes and a generally berserk neon beachiness — preppy.
+
+“That,” I told my daughter, “is *not* preppy.” I did not have much hope of persuading her that millions of teenagers on TikTok were wrong and her 50-year-old mother — who does, in fact, own a copy of Lisa Birnbach’s 1980 “The Official Preppy Handbook” — was right, but it seemed worth trying. I looked around her room, and for lack of any stray loafers or rumpled chinos to use as examples, I touched the top of an antique oak dresser that was once her grandmother’s. “*This* is preppy,” I said. She rolled her eyes: “Mom, that dresser is super cottagecore, and that is *not* my aesthetic at all.”
+
+My daughter’s “preppy” is not my idea of preppy — the prep of actual New England prep schools, of frayed Oxford cloth and WASPy noblesse oblige. Nor is it the aspirational varsity style of Tommy Hilfiger and 1990s rappers in rugby shirts, or even J. Crew’s self-conscious 2010s update on old-money style. Those meanings haven’t vanished; a great deal has been written about them lately, much of it connected to Avery Trufelman’s erudite series [“American Ivy,”](https://articlesofinterest.substack.com/p/american-ivy-chapter-1) released on her podcast in 2022. But those iterations are now known, in the TikTok world, as “old preppy.” The new sort fills its Pinterest pages with something else: colorful Stanley mugs, tiered pink micro-minis, bulbed makeup mirrors and Brazilian Bum Bum Creams. Part of what makes it hard to describe is that it is not rooted in any specific *culture; it seems to be largely about being fun and a girl and buying things packaged with a bright color on a white background*. There is no deep ethos to it, no shared experience other than posting videos of shopping hauls or makeup routines — pastimes usually engaged in alone, in your bedroom.
+
+This is not just true of “preppy.” If you are a teenager or have exposure to teenagers, what I am about to write is something you probably know already. Subcultures *in general* — once the poles of style and art and politics and music around which wound so many ribbons of teenage meaning — have largely collapsed.
+
+What teenagers today are offered instead is a hyperactive landscape of so-called aesthetics — thousands of them, including everything from the infamous cottagecore to, these days, prep. These are more like cultural atmospheres, performed mainly online, with names and looks and hashtags, an easy visual pablum. They come and go and blend and break apart like clouds in the wind, many within weeks of appearing. They have much content but little context — a lot to look at but a very thin relationship to any “real life” anything, like behaviors or gathering places. On one end, even a distinctly in-the-world subculture (like, say, grunge) can be reduced to a vibe packet of anodyne references (cigarettes, grimy things); on the other, a mere mood tone can be elevated to something offered as lifestyle (there are girls who enjoy the color red and a certain Euro effortlessness, and they are called [Tomato Girls,](https://www.teenvogue.com/story/tiktok-tomato-girl-summer-aesthetic-trend-explained) while others who prefer white are called [Vanilla Girls](https://www.elle.com/fashion/shopping/g42571722/vanilla-girl-aesthetic-amazon/)). If two dozen things on a Pinterest page feel as if they go together, chances are someone, even just as a lark or experiment, is calling it an aesthetic.
+
+Thank you for your patience while we verify access.
+
+Already a subscriber? [Log in](https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2F2024%2F02%2F21%2Fmagazine%2Faesthetics-tiktok-teens.html&asset=opttrunc).
+
+Want all of The Times? [Subscribe](https://www.nytimes.com/subscription?campaignId=89WYR&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2F2024%2F02%2F21%2Fmagazine%2Faesthetics-tiktok-teens.html).

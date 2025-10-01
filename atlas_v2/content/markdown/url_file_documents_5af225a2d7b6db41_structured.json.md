@@ -1,0 +1,166 @@
+# 5af225a2d7b6db41
+
+## Document Information
+- **Source File**: inputs/saved_html/Review of 50 Brooklyn Murder CasesOrdered_051213_20250818_154500.html
+- **Document ID**: 5af225a2d7b6db41
+- **Processed**: 2025-08-19T09:35:10.479108
+
+## Review of 50 Brooklyn Murder Cases Ordered
+
+NY Times · by N. R. Kleinfield · May 11, 2013
+
+The Brooklyn district attorney’s office has ordered a review of some 50 murder cases assigned to an acclaimed homicide detective, an acknowledgment of mounting questions about the officer’s tactics and the legitimacy of the convictions.
+
+The office’s Conviction Integrity Unit will reopen every murder case that resulted in a guilty verdict after being investigated by Detective Louis Scarcella, a flashy officer who handled some of Brooklyn’s most notorious crimes during the crack epidemic of the 1980s and 1990s.
+
+The development comes after The New York Times examined a dozen cases involving Mr. Scarcella and found disturbing patterns, including the detective’s reliance on the same eyewitness, a crack-addicted prostitute, for multiple murder prosecutions and his delivery of confessions from suspects who later said they had told him nothing. At the same time, defense lawyers, inmates and prisoner advocacy organizations have contacted the district attorney’s office to share their own suspicions about Mr. Scarcella.
+
+The review by the office of District Attorney Charles J. Hynes will give special scrutiny to those cases that appear weakest — because they rely on either a single eyewitness or confession, officials said. The staff will re-interview available witnesses, and study any new evidence. If they feel a conviction was unjust, prosecutors could seek for it to be dismissed.
+
+“People will look for blame,” said John O’Mara, who leads the Conviction Integrity Unit. “Our goal isn’t to look for blame. Our goal is to correct injustice.”
+
+Mr. Scarcella’s name surfaced in March after a judge freed David Ranta, who had spent 23 years in prison after being convicted of murdering a rabbi. Prosecutors determined that Mr. Ranta’s conviction resulted in large part from flawed police work by Mr. Scarcella and a partner, including failing to pursue a more logical suspect. An investigation found they removed violent criminals from jail to let them smoke crack cocaine and visit prostitutes in exchange for incriminating Mr. Ranta. A witness also said Mr. Scarcella told him who to choose in a lineup.
+
+Mr. Scarcella, 61, who retired from the police force in 1999, said he was surprised to learn of the review.
+
+“Are you kidding me?,” he said Saturday in an interview.“Wow. This is quite a bit of a shock. Let them look at my convictions. I will help them if they need me. I don’t know what else to say. I expect he will find nothing,” he said.
+
+He has maintained that he did nothing wrong.
+
+“I couldn’t sit with my family the past 30, 40 years if I had hurt an individual,” he said in a previous interview. “I never fudged a lineup in my life. I never, ever took a false confession.”
+
+He suggested that, following the Ranta news, those he put away believe that “Scarcella is the get-out-of-jail-free key.”
+
+Pressed about specific cases, he said he could not recall many details and that he was being unfairly singled out.
+
+“I have to be a pretty smart guy to lock someone up, get it through the D.A.’s office, get it through a trial and jury, and convict a guy,” he said. “I’m not that smart. It’s not a Louie Scarcella show.”
+
+The questions about Mr. Scarcella stem from the sordid decades when the city saw as many as six homicides a day, and the police and the district attorney struggled to keep up.
+
+Interviews with dozens of lawyers, prosecutors, witnesses and suspects, as well as a review of legal documents, suggest a detective who followed his own rules.
+
+The new developments have proved embarrassing for Mr. Hynes, who is seeking re-election to his seventh term this fall. Although many of Mr. Scarcella’s cases date back to Mr. Hynes’s predecessor, Elizabeth Holtzman, his office has for years aggressively fended off appeals and denied public records requests from inmates who believe they were wrongly targeted by Mr. Scarcella.
+
+Ms. Holtzman said Saturday, “I support a review of these cases.”
+
+A Common Eyewitness
+
+Teresa Gomez, a drug addict born in Trinidad who spent her nights on the streets of Crown Heights, seemed to have a knack for witnessing homicides Mr. Scarcella was assigned to, prompting lawyers to call her “Louie’s go-to witness.”
+
+In the late 1980s, Ms. Gomez testified that she saw a drug dealer, Robert Hill, commit two separate murders. Both times, she was the only eyewitness.
+
+In the first trial, she said she was hiding in a closet in a crack den, watching through a keyhole in the door, and saw Mr. Hill put a pillow over a man’s head and shoot him. Mr. Hill’s cousin said the family later hired an investigator and found no keyhole in the closet door.
+
+Mr. Hill was acquitted.
+
+In the second trial, Mr. Hill was accused of shooting a man on a Crown Heights street corner and then, curiously, putting the dying man inside a livery cab and ordering the driver to take him to the hospital.
+
+Ms. Gomez’s testimony was so belligerent that the judge threatened to strike it in its entirety. She contradicted the evidence in several ways, including the direction the shot was fired and the color of the cab. She even admitted she lied during the first trial.
+
+Yet Mr. Hill was convicted.
+
+“I was kind of no good, but I wasn’t a killer,” Mr. Hill, now 52, said in an interview at the Fishkill Correctional Facility.
+
+Mr. Hill and his family say they are convinced he had been railroaded by Mr. Scarcella, and believe the detective coached Ms. Gomez on her testimony.
+
+They said in interviews that they were startled when Ms. Gomez surfaced again, this time at the trial of Mr. Hill’s stepbrothers, Darryl Austin and Alvena Jennette, who were accused of killing a man for his money.
+
+Transcripts show Ms. Gomez, who claimed to see the killing from a nearby street corner and decided to follow the killers home because she was “nosy,” gave muddled answers that contradicted the other eyewitness.
+
+Jurors were deadlocked and leaning toward acquittal, according to court records. They complained of moldy sandwiches, and the judge pressed them to try harder. Three hours later, they returned with a conviction. Mr. Austin died in prison of lung disease, while Mr. Jennette, 49, was released in 2007 after serving 21 years. “The whole neighborhood knows we didn’t kill that guy,” he said.
+
+As for Ms. Gomez, he said, “I don’t know anyone who ever witnessed three, four or five homicides, unless you were doing them.”
+
+The Legal Aid Society said recently that Ms. Gomez’s repeated role is so troubling that it plans to review homicide appeals of that era to see how many mention her.
+
+Mr. Scarcella said she testified in at least six cases and had nothing but praise for her.
+
+“God bless her,” he said. Though he said he did not recall many specifics of the cases that involved her, he “stood by her 100 percent.” She died years ago, in what acquaintances said was a hit-and-run accident.
+
+Witnesses back then were elusive. Yet Mr. Scarcella could not explain Ms. Gomez’s verbosity and ubiquity. He said he would give her cigarettes and some food money, but that was it.
+
+George Duke, a former supervisor of Mr. Scarcella’s who speaks highly of him, said he thinks Ms. Gomez was among several prostitutes whom the police paid $100 per murder for information. But when they were obviously lying, Mr. Duke said, he would not use them in that case.
+
+A prosecutor’s view of Ms. Gomez is available in an Internet posting on a cigar-smokers forum. Neil Ross, a former assistant district attorney who is now a Manhattan criminal court judge, prosecuted the two Hill cases. In a 2000 posting, he reminisced about a cigar he received from the “legendary detective” Louis Scarcella as they celebrated in a bar after the Hill conviction.
+
+In the post, Mr. Ross said that the evidence backed up Ms. Gomez but acknowledged, “It was near folly to even think that anyone would believe Gomez about anything, let alone the fact that she witnessed the same guy kill two different people.”
+
+Mr. Ross declined to comment, citing judicial ethics rules. “That is horrible,” Mr. Scarcella said about the post. “I don’t know what else to say.”
+
+His Own Way
+
+Mr. Scarcella grew up in Bensonhurst and his father, Domenick, was a police officer. The young Scarcella served six years in the Navy, and joined the police force in 1973. He became a detective in 1981, and in 1987 transferred to the Brooklyn North homicide squad. During off hours, he moonlighted as a Coney Island carnival barker.
+
+His day job was nonstop. All told, Mr. Scarcella estimates he was the lead investigator on around 175 homicides and had a role in at least another 175. After he left the police force, he served as a schools investigator and a dock builder.
+
+Some lawyers who crossed paths with Mr. Scarcella said they thought he imagined himself a crusader who created his own rules.
+
+“He had a gregarious, funny, wonderful personality,” said Martin Marshak, a defense lawyer who represented clients in several cases in which, he said, Mr. Scarcella threatened witnesses. “N.Y.P.D. and prosecutors thought he was one of the best homicide detectives. The only problem was he never followed the rules.”
+
+He added, “I don’t want to say he manufactured witnesses, but he got people to say what he wanted them to say.”
+
+The Police Department would not comment on Mr. Scarcella or make his personnel record available.
+
+Jay Saltpeter, a former detective who worked with Mr. Scarcella and is now a private investigator, says Mr. Scarcella is being unfairly scapegoated. He said detectives back then often assembled sloppy cases that prosecutors accepted. But he also said people did harbor doubts about Mr. Scarcella. “All the questions and rumors we heard then are coming out now,” he said.
+
+In the 1987 murder trial of James Jenkins, who was convicted, Judge Francis X. Egitto said that the witness identification procedures used by Mr. Scarcella were “a classic illustration of what not to do.” Witnesses were shown one photo rather than a gallery, the court records show. They were allowed to mingle together while making an identification of Mr. Jenkins, and Mr. Scarcella told them, “We have the guy who committed the murder.”
+
+“That was wrong if I did that,” Mr. Scarcella said. “But I don’t remember.”
+
+Questionable Tactics
+
+When Shabaka Shakur was interrogated by Mr. Scarcella back in 1989, he said he told the detective nothing of consequence.
+
+But when Mr. Shakur showed up in court for his double murder trial, he was confronted by an incriminating statement that Mr. Scarcella swore he had taken from him. Mr. Scarcella’s underlying interrogation notes were missing, a lapse that shows up in other Scarcella cases.
+
+Mr. Shakur was convicted in what was characterized by prosecutors as a squabble over car payments. The key evidence was an eyewitness and the incriminating statement.
+
+Mr. Shakur, 48, is at Auburn Correctional Facility, in his 26th year of a 40-year-to-life sentence. In a telephone interview, he said Mr. Scarcella fabricated the statement and “they ignored the evidence that shows I wasn’t the guy.”
+
+Ronald Kuby, his current lawyer, said he believes further investigation will show that a vicious drug gang was responsible.
+
+Mr. Scarcella said he did not recall the case.
+
+He does readily acknowledge that he obtained confessions and witnesses that fellow detectives could not. But he ascribes it to his beguiling manner.
+
+“You’re right,” Mr. Scarcella said, “there were cases where suspects talked to one detective and they got nothing, and they called me and I got statements. A lot of guys don’t know how to talk to people.”
+
+At times, he would bang tables and belittle suspects, but he said he favored more delicate approaches.
+
+“Sometimes I would cry with them. Sometimes I would pray with them. Sometimes I would sit with them for hours and hours and hours,” he said, adding, “One young man, after advising him of his rights, said I was the father he never had. He felt so good. Unfortunately, he killed his roommate.”
+
+In 2007, Mr. Scarcella appeared on the Dr. Phil show as an interrogation expert to discuss false confessions. At one point, he said: “Are there rules when it comes to homicide? No. No, there are none. I lie to them. I will use deception. The bad guys don’t play by the rules when they kill Ma and Pop, shoot them in the head, ruin the lives of their family. I don’t play by the rules.”
+
+He went on: “I would use a lie. I had a case, and I said: ‘I have your prints. You were there, and that’s it.’ He said: ‘No. No way. I wasn’t there.’ It’s like 4 in the morning. I take him into the bathroom, and he says to me, ‘Louis, you were right. I was there, but he kicked me, and I shot him by accident.’ I said, ‘Don’t you feel better now?’ And he’s now doing 37 ½ years to life.”
+
+Few individuals feel as wronged by Mr. Scarcella as Derrick Hamilton. He spent nearly 21 years in prison for a 1991 murder, before being paroled in 2011. Now a paralegal, he continues to try to prove he was set up by Mr. Scarcella.
+
+Prosecutors defend the conviction, but Mr. Hamilton has affidavits from four witnesses, including a former police officer, who put him in New Haven, Conn., when the murder occurred. None had originally testified. The sole eyewitness who testified said Mr. Scarcella coached her on what to say, and has since recanted.
+
+Mr. Hamilton, 47, had earlier served seven years for manslaughter. When Mr. Scarcella came to arrest him at a beauty parlor, Mr. Hamilton said, the detective gave him a smart-alecky kiss, and then at the precinct “looked me straight in the eye and said he knew for a fact I didn’t do it, but said I didn’t do enough time on a prior case.”
+
+Asked about that, Mr. Scarcella said: “He can drop dead. The man is an out-and-out liar.”
+
+Accusations of Intimidation
+
+Witnesses as well as suspects accused Mr. Scarcella of coercing false testimony from them.
+
+In 1992, Ronald Pondexter was accused of murdering a man during a middle-of-the-night robbery in the vestibule of an apartment building. The victim was with another man, who survived. After first offering a description that did not match Mr. Pondexter, the survivor said Mr. Pondexter was the killer, though his consumption of 12 drinks undercut his reliability as a witness.
+
+Mr. Scarcella, the arresting officer, produced one other witness, a 19-year-old girl.
+
+Her testimony of what she saw outside her window implicated Mr. Pondexter. Her mother, however, swore her daughter was asleep. In court papers, it was suggested that the mother might have been intimidated by associates of Mr. Pondexter.
+
+During the trial, Michael Baum, Mr. Pondexter’s defense lawyer, said the daughter told him that she had lied because Mr. Scarcella had threatened her.
+
+The judge did not allow her to take the stand again or strike her testimony. Mr. Pondexter was convicted. In 1996, the Court of Appeals ordered a new trial. The girl did not appear, and Mr. Pondexter was acquitted.
+
+Mr. Scarcella called it “ridiculous” that he would intimidate a person to testify.
+
+“I have no recollection of that whatsoever,” he said.
+
+Alain Delaquérière contributed research.
+
+A version of this article appears in print on , Section A, Page 1 of the New York edition with the headline: Review of 50 Brooklyn Murder Cases Ordered
+
+NY Times · by N. R. Kleinfield · May 11, 2013

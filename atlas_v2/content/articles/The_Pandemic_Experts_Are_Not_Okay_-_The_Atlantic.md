@@ -1,0 +1,238 @@
+# The Pandemic Experts Are Not Okay - The Atlantic
+
+**Source**: https://www.theatlantic.com/health/archive/2020/07/pandemic-experts-are-not-okay/613879/
+**Type**: article
+**Created**: 2025-08-13T15:54:38.818274
+
+---
+
+title: The Pandemic Experts Are Not Okay - The Atlantic
+source: https://www.theatlantic.com/health/archive/2020/07/pandemic-experts-are-not-okay/613879/
+date: 2025-08-13T15:54:37.571656
+tags: []
+---
+_Join Ed Yong for a conversation about COVID-19 at Pulse,_ The Atlantic _'s
+virtual summit on health care on July 15.
+Register[here](http://pulsehealthcare.theatlantic.com/)._
+
+Saskia Popescu’s phone buzzes throughout the night, waking her up. It had
+already buzzed 99 times before I interviewed her at 9:15 a.m. ET last Monday.
+It buzzed three times during the first 15 minutes of our call. Whenever a
+COVID-19 case is confirmed at her hospital system, Popescu gets an email, and
+her phone buzzes. She cannot silence it. An epidemiologist at the University
+of Arizona, Popescu works to prepare hospitals for outbreaks of emerging
+diseases. Her phone is now a miserable metronome, ticking out the rhythm of
+the pandemic ever more rapidly as Arizona’s cases climb. “It has almost become
+white noise,” she told me.
+
+For many Americans, the coronavirus pandemic _has_ become white noise—old news
+that has faded into the background of their lives. But the crisis is far from
+over. [Arizona is one of the pandemic’s new hot
+spots](https://www.nytimes.com/interactive/2020/us/arizona-coronavirus-
+cases.html), with 24,000 confirmed cases over the past week and rising
+hospitalizations and deaths. Popescu saw the surge coming, “but to actually
+see it play out is heartbreaking,” she said. “It didn’t have to be this way.”
+
+Popescu is one of many public-health experts who have been preparing for and
+battling the pandemic since the start of the year. They’re not treating sick
+people, as doctors or nurses might be, but are instead advising policy makers,
+monitoring the pandemic’s movements, modeling its likely trajectory, and
+ensuring that hospitals are ready.
+
+[Read: America’s patchwork pandemic is fraying even
+further](https://www.theatlantic.com/health/archive/2020/05/patchwork-
+pandemic-states-reopening-inequalities/611866/)
+
+By now they are used to sharing their knowledge with journalists, but they’re
+less accustomed to talking about themselves. Many of them told me that they
+feel duty-bound and grateful to be helping their country at a time when so
+many others are ill or unemployed. But they’re also very tired, and dispirited
+by America’s continued inability to control a virus that many other nations
+have brought to heel. [As the pandemic once again
+intensifies](https://www.theatlantic.com/science/archive/2020/07/week-america-
+lost-control-pandemic/613831/), so too do their frustration and fatigue.
+
+America isn’t just facing a shortfall of testing kits, masks, or health-care
+workers. It is also looking at a drought of expertise, as the very people
+whose skills are sorely needed to handle the pandemic are on the verge of
+burning out.
+
+To work in preparedness, Nicolette Louissaint told me, is to constantly stare
+at society’s vulnerabilities and imagine the worst possible future. The
+nonprofit she runs, Healthcare Ready, works to steel communities for outbreaks
+and disasters by ensuring that they have access to medical supplies. She
+started revving up her operations in January. By March, when businesses and
+schools started closing and governors began issuing stay-at-home orders, “we
+were already running on fumes,” she said. Throughout March and April, she got
+two hours of sleep a night. Now she’s getting four. And yet “I always feel
+like I’m never doing enough,” she said. “Like one of my colleagues said, I
+could sleep for two weeks and still feel this tired. It’s embedded in us at
+this point.”
+
+But the physical exhaustion is dwarfed by the emotional toll of seeing the
+imagined worst-case scenarios become reality. “One of the big misconceptions
+is that we enjoy being right,” Louissaint said. “We’d be very happy to be
+wrong, because it would mean lives are being saved.”
+
+The field of public health demands a particular way of thinking. Unlike
+medicine, which is about saving individual patients, public health is about
+protecting the well-being of entire communities. Its problems, from
+malnutrition to addiction to epidemics, are broader in scope. Its successes
+come incrementally, slowly, and through the sustained efforts of large groups
+of people. As Natalie Dean, a biostatistician at the University of Florida,
+told me, “The pandemic is a huge problem, but I’m not afraid of huge
+problems.”
+
+[Read: Why the coronavirus is so
+confusing](https://www.theatlantic.com/health/archive/2020/04/pandemic-
+confusing-uncertainty/610819/)
+
+The more successful public health is, however, the more people take it for
+granted. [Funding has dwindled](https://www.tfah.org/wp-
+content/uploads/2020/04/TFAH2020PublicHealthFunding.pdf) since the 2008
+recession. Many jobs have disappeared. Now that the entire country needs
+public-health advice, there aren’t enough people qualified to offer it. The
+number of epidemiologists who specialize in pandemic-level infectious threats
+is small enough that “I think I know them all,” says Caitlin Rivers, who
+studies outbreaks at the Johns Hopkins Center for Health Security.
+
+The people doing this work have had to recalibrate their lives. From March to
+May, Colin Carlson, a research professor at Georgetown University who
+specializes in infectious diseases, spent most of his time traversing the
+short gap between his bed and his desk. He worked relentlessly and knocked
+back coffee, even though it exacerbates his severe anxiety: The cost was worth
+it, he felt, when the United States still seemed to have a chance of
+controlling COVID-19.
+
+The U.S. frittered away that chance. Through social distancing, the American
+public bought the country valuable time at substantial personal cost. The
+Trump administration should have used that time to roll out a coordinated plan
+to ramp up America’s ability to test and trace infected people. It didn’t.
+Instead, to the immense frustration of public-health advisers, leaders rushed
+to reopen while most states were still woefully unprepared.
+
+[Read: The U.S. is repeating its deadliest pandemic
+mistake](https://www.theatlantic.com/health/archive/2020/07/us-repeating-
+deadliest-pandemic-mistake-nursing-home-deaths/613855/)
+
+When Arizona Governor Doug Ducey began reviving businesses in early May, the
+intensive-care unit of Popescu’s hospital was still full of COVID-19 patients.
+“Within our public-health bubble, we were getting nervous, but then you walked
+outside and it was like Pleasantville,” she said. “People thought we had
+conquered it, and now it feels like we’re drowning.”
+
+The COVID-19 unit has had to expand across an entire hospital wing and onto
+another floor. Beds have filled with younger patients. Long lines are snaking
+around the urgent-care building, and people are passing out in the 110-degree
+heat. At some hospitals, labs are so inundated that it takes several days to
+get test results back. “We thought we could have scaled down instead of
+scaling up,” Popescu said. “But because of poor political decisions that every
+public-health person I know disagreed with, everything that could go wrong did
+go wrong.”
+
+“I feel like I’ve been making the same recommendations since January,” says
+Krutika Kuppalli, an infectious-disease physician who works in public health.
+The last time she felt this tired was in 2014, after spending three months in
+West Africa helping with the region’s historic Ebola outbreak. Everyone who
+experienced that crisis, she told me, was deeply shaken; she herself suffered
+from post-traumatic stress upon returning home.
+
+The same experts who warned of the coronavirus’s resurgence are now staring,
+with the same prophetic worry, at a health-care system that is straining just
+as hurricane season begins. And they’re demoralized about repeatedly shouting
+evidence-based advice into a political void. “It feels like writing ‘Bad
+things are about to happen’ on a napkin and then setting the napkin on fire,”
+Carlson says.
+
+A pandemic would have always been a draining ordeal. But it is especially so
+because the U.S., instead of mounting a unified front, is disjointed,
+cavalier, and fatalistic. Every week brings fresh farce, from Donald Trump
+suggesting that the country should do less testing to massive [indoor
+gatherings of unmasked people](https://www.nbcnews.com/think/opinion/trump-s-
+phoenix-megachurch-rally-proves-how-much-faith-face-ncna1231992).
+
+“One by one, people are seeing something so absurd that it takes them out of
+commission,” Carlson says.
+
+Public health is not a calling for people who crave the limelight, and
+researchers like Rivers, the Johns Hopkins professor, have found their sudden
+prominence jarring. Almost all of the 2,000 Twitter followers she had in
+January were other scientists. Most of the 130,000 followers she now has are
+not. The slow, verbose world of academic communication has given way to the
+blistering, constrained world of tweets and news segments.
+
+The pandemic is also bringing out academia’s darker sides—competition,
+hostility, sexism, and a lust for renown. [Armchair experts from unrelated
+fields](https://www.theatlantic.com/technology/archive/2020/01/china-
+coronavirus-twitter/605644/) have successfully positioned themselves as
+trusted sources. [Male scientists are
+publishing](https://www.nature.com/articles/d41586-020-01294-9) more than
+their female colleagues, who are disproportionately [shouldering the burden of
+child care](https://www.the-scientist.com/news-opinion/gender-gap-in-research-
+output-widens-during-pandemic-67665) during lockdowns. Many researchers have
+suddenly pivoted to COVID-19, producing [sloppy
+work](https://www.sciencemag.org/news/2020/06/whos-blame-these-three-
+scientists-are-heart-surgisphere-covid-19-scandal) with [harmful
+results](https://www.nytimes.com/2020/05/12/magazine/didier-raoult-
+hydroxychloroquine.html). That further dispirits more cautious researchers,
+who, on top of dealing with the virus and reticent politicians, are also
+forced to confront their own colleagues. “If I cannot reasonably convince
+people I’ve been friends with for years that their work is causing tangible
+harm, what possible future do I see on this career path?” Carlson asks.
+
+[Read: A dire warning from COVID-19 test
+providers](https://www.theatlantic.com/science/archive/2020/06/us-coronavirus-
+testing-could-fail-again/613675/)
+
+Other scientists and health officials are facing the wrath of a nation on
+edge. Unsettled by months of stay-at-home orders, confused by rampant
+misinformation, distraught over the country’s blunders, and embroiled in yet
+more culture wars over masks and lockdowns, Americans are lashing out. Public-
+health experts—and women in particular—have become targets. [Several have
+resigned](https://www.cnn.com/2020/06/22/us/health-officials-threats-
+coronavirus/index.html) because of threats and harassment. Others face streams
+of invective in their inboxes and on their Twitter feeds. “I can say something
+and get horrendously attacked, but a man who doesn’t even work in this field
+can go on national TV and be revered for saying the exact same thing,” Popescu
+said.
+
+Some critics have caricatured public-health experts as finger-wagging
+alarmists ensconced in an ivory tower, far away from the everyday people who
+are suffering the restrictive consequences of their advice. But this dichotomy
+is false. The experts I spoke with are also scared. They’re also feeling
+trapped at home. They also miss their loved ones. Louissaint, who lives in
+Baltimore, hasn’t seen her New York–based parents this year.
+
+“I feel like I’m living in at least three realities at the same time,”
+Louissaint told me. She’s responding directly to the pandemic, trying to
+ensure that patients and hospitals get the supplies they need. She’s running
+an organization, trying to make sure that her employees keep their jobs. She’s
+a Black woman, living through a pandemic that has disproportionately killed
+Black people and the historic protests that have followed the killings of
+George Floyd, Breonna Taylor, and Ahmaud Arbery. During the ensuing reckonings
+about race, “I’ve been pulled into so many conversations about equity that
+people weren’t having months ago,” Louissant said.
+
+“Someone said to me, ‘I hope you’re getting tons of support,’” she added. “But
+there’s no feasible thing that anyone could do to make this better, no matter
+how much they love you. The mental toll isn’t something you can easily share.”
+
+These laments feel familiar to people who lived through the AIDS crisis in the
+’80s, says Gregg Gonsalves, a Yale epidemiologist who has been working on HIV
+for 30 years and who has the virus himself. “I have friends who survived the
+virus but didn’t survive the toll it took on their lives,” Gonsalves told me.
+“I’m incredulous that I’m seeing this twice in my lifetime. The idea that I’m
+going to have to fend off another virus … like, really, can I have just one?”
+
+But Gonsalves added that HIV veterans have a deep well of emotional reserves
+to draw from, and a sense of shared purpose to mobilize. His advice to the
+younger generation is twofold. First, don’t ignore your feelings: “Your
+anxiety, fear, and anger are all real,” he said. Then, find your people. “They
+may not be your colleagues,” he said, and they might not be scientists. But
+they’ll share the same values, and be united in recognizing that “public
+health is not a career, but a mission and a calling.”
+
+Despite the toll of the work and the pressure from all sides, the public-
+health experts I talked with are determined to continue. “I’m glad I have a
+way in which I can be useful,” Rivers said. “I feel like it’s my duty to do
+what I can."

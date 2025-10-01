@@ -1,0 +1,267 @@
+# The GOP Must Choose Between Conspiracy and Reality - The Atlantic
+
+**Source**: https://www.theatlantic.com/ideas/archive/2021/01/conspiracy-theories-will-doom-republican-party/617707/
+**Type**: article
+**Created**: 2025-08-13T15:43:29.476153
+
+---
+
+title: The GOP Must Choose Between Conspiracy and Reality - The Atlantic
+source: https://www.theatlantic.com/ideas/archive/2021/01/conspiracy-theories-will-doom-republican-party/617707/
+date: 2025-08-13T15:43:28.220194
+tags: []
+---
+Eugene Goodman is an American hero. At a pivotal moment on January 6, the
+veteran United States Capitol Police officer single-handedly prevented untold
+bloodshed. Staring down an angry, advancing mob, he retreated up a marble
+staircase, calmly wielding his baton to delay his pursuers while calling out
+their position to his fellow officers. At the top of the steps, still alone
+and standing just a few yards from the chamber where senators and Vice
+President Mike Pence had been certifying the Electoral College’s vote, Goodman
+strategically lured dozens of the mayhem-minded away from an unguarded door to
+the Senate floor.
+
+  
+The leader of that flank of the mob, later [identified by
+](https://www.desmoinesregister.com/story/news/crime-and-
+courts/2021/01/15/u-s-capitol-riot-read-charges-against-des-moines-suspect-
+doug-
+jensen/4173864001/)[the](https://www.desmoinesregister.com/story/news/crime-
+and-courts/2021/01/15/u-s-capitol-riot-read-charges-against-des-moines-
+suspect-doug-jensen/4173864001/)[
+FBI](https://www.desmoinesregister.com/story/news/crime-and-
+courts/2021/01/15/u-s-capitol-riot-read-charges-against-des-moines-suspect-
+doug-jensen/4173864001/) as Douglas Jensen, wore a T-shirt emblazoned with a
+red-white-and-blue Q—the insignia of the delusional QAnon conspiracy theory.
+Its supporters believe that a righteous Donald Trump is leading them in a
+historic quest to expose the U.S. government’s capture by a global network of
+cannibalistic pedophiles: not just “deep state” actors in the intelligence
+community, but Chief Justice John Roberts and a dozen-plus senators, including
+me. Now Trump’s own vice president is supposedly in on it, too. According to
+the FBI, Jensen “wanted to have his T-shirt seen on video so that ‘Q’ could
+‘get the credit.’”
+
+[From the June 2020 issue: The prophecies of
+Q](https://www.theatlantic.com/magazine/archive/2020/06/qanon-nothing-can-
+stop-what-is-coming/610567/)
+
+January 6 is a new red-letter day in U.S. history, not just because it was the
+first time that the Capitol had been ransacked since the War of 1812, but
+because a subset of the invaders apparently were attempting to disrupt a
+constitutionally mandated meeting of Congress, kidnap the vice president, and
+somehow force him to declare Trump the victor in an election he lost. En
+route, the mob ultimately injured scores of law-enforcement officers. The
+attack led to the deaths of two officers and four other Americans. But the
+toll could have been much worse: Police [located pipe
+bombs](https://www.cbsnews.com/news/pipe-bomb-dnc-rnc-buildings-viable/) at
+the headquarters of both the Republican and Democratic National Committees.
+Investigators discovered a vehicle fully loaded with weaponry and what
+[prosecutors are calling](https://apnews.com/article/donald-trump-joe-biden-
+inaugurations-capitol-siege-8828a6a920198d0ea1ee0c73a49d8847) “homemade napalm
+bombs.”
+
+The violence that Americans witnessed—and that might recur in the coming
+days—is not a protest gone awry or the work of “a few bad apples.” It is the
+blossoming of a rotten seed that took root in the Republican Party some time
+ago and has been nourished by treachery, poor political judgment, and
+cowardice. When Trump leaves office, my party faces a choice: We can dedicate
+ourselves to defending the Constitution and perpetuating our best American
+institutions and traditions, or we can be a party of conspiracy theories,
+cable-news fantasies, and the ruin that comes with them. We can be the party
+of Eisenhower, or the party of the conspiracist Alex Jones. We can applaud
+Officer Goodman or side with the mob he outwitted. We cannot do both.
+
+If and when the House sends its article of impeachment against Trump to the
+Senate, I will be a juror in his trial, and thus what I can say in advance is
+limited. But no matter what happens in that trial, the Republican Party faces
+a separate reckoning. Until last week, many party leaders and consultants
+thought they could preach the Constitution while winking at QAnon. They can’t.
+The GOP must reject conspiracy theories or be consumed by them. Now is the
+time to decide what this party is about.
+
+The newly elected Representative Marjorie Taylor Greene is cuckoo for Cocoa
+Puffs. She [once ranted](https://www.npr.org/2020/08/12/901628541/qanon-
+supporter-who-made-bigoted-videos-wins-ga-primary-likely-heading-to-congre)
+that “there’s a once-in-a-lifetime opportunity to take this global cabal of
+Satan-worshiping pedophiles out, and I think we have the president to do it.”
+During her campaign, House Minority Leader Kevin McCarthy had a choice:
+disavow her campaign and potentially lose a Republican seat, or welcome her
+into his caucus and try to keep a lid on her ludicrous ideas. McCarthy failed
+the leadership test and sat on the sidelines. Now in Congress, Greene isn’t
+going to just back McCarthy as leader and stay quiet. She’s already announced
+plans to try to impeach Joe Biden on his first full day as president. She’ll
+keep making fools out of herself, her constituents, and the Republican Party.
+
+[Read: The conspiracy theories that fueled the Civil
+War](https://www.theatlantic.com/politics/archive/2020/05/conspiracy-theories-
+civil-war/612283/)
+
+If the GOP is to have a future outside the fever dreams of internet trolls, we
+have to call out falsehoods and conspiracy theories unequivocally. We have to
+repudiate people who peddle those lies.
+
+We also have to show a healthier path forward. The frustrations that caused so
+many people to turn in desperate directions for a political voice are not
+going away when Trump leaves the White House for Mar-a-Lago, because deception
+and demagoguery are the inevitable consequences of a politics that is
+profoundly, systemically dysfunctional. We must begin by asking how we got to
+such a discontented place, where we are mired in lies, rage, and now violence.
+In this essay, I am focusing on the maladies of the right, but Americans
+across the political spectrum are falling prey to the siren song of
+conspiracism. Here are three reasons.
+
+#### America’s junk-food media diet
+
+The way Americans are consuming and producing news—or what passes for it these
+days—is driving us mad. This has been said many times, but the problem has
+worsened in the past five years. On the supply side, media outlets have
+discovered that dialing up the rhetoric increases clicks, eyeballs, and
+revenue. On the demand side, readers and viewers like to see their opinions
+affirmed, rather than challenged. When everybody’s outraged, everybody wins—at
+least in the short term.
+
+This is not a problem only on the right or only on obscure blogs. The
+underlying economics that drive Fox News and upstarts such as One America News
+to cultivate and serve ideologically distinct audiences also drive MSNBC, CNN,
+and _The New York Times_. More and more fiercely, media outlets rally their
+audience behind the latest cause du jour, whether it’s battling supposed
+election fraud or abolishing local police departments.
+
+The conservative swaths of this media landscape were primed for Trump’s “Stop
+the steal” lie, which lit the fuse for the January 6 riot. For nine weeks, the
+president consistently lied that he had “won in a landslide.” Despite the fact
+that his lawyers and allies were laughed out of court [more than
+](https://www.usatoday.com/in-depth/news/politics/elections/2021/01/06/trumps-
+failed-efforts-overturn-election-
+numbers/4130307001/)[60](https://www.usatoday.com/in-
+depth/news/politics/elections/2021/01/06/trumps-failed-efforts-overturn-
+election-numbers/4130307001/) [times](https://www.usatoday.com/in-
+depth/news/politics/elections/2021/01/06/trumps-failed-efforts-overturn-
+election-numbers/4130307001/), he spread one conspiracy theory after another
+across television, radio, and the web. For anyone who wanted to hear that
+Trump won, a machine of grifters was turning clicks into cash by telling their
+audiences what they wanted to hear. The liars got rich, their marks got angry,
+and things got out of control.
+
+#### America’s institutional collapse
+
+Traditional media outlets are only some of the long-standing institutions
+collapsing as the digital revolution erodes geographic communities in favor of
+placeless ones. Many people who yell at strangers on Twitter don’t know their
+own local officials or even their neighbors across the street. The loss of
+rootedness and institutional authority has created an opening for populists on
+the right and the left. It’s not a coincidence that in 2016, millions of
+Republicans threw in their lot behind a man who for almost all of his life had
+been a Democratic voter and donor, and millions of Democrats wanted as their
+nominee a senator who staunchly refused to join their party. On both sides,
+conventional politicians were being told they had lost the thread.
+
+The anger being directed today at major internet platforms—Twitter, Facebook,
+and Google, especially—is, in part, a consequence of the fading of traditional
+political authority. Sometimes intentionally, sometimes inadvertently,
+Americans have outsourced key parts of political life to Silicon Valley
+behemoths that were not designed to, and are not competent to, execute
+functions traditionally in the province of the government. The failure of our
+traditional political institutions and our traditional media to function as
+spaces for genuine political conversation has created a vacuum now filled by
+the social-media giants—who are even worse at the job.
+
+[Read: QAnon is
+winning](https://www.theatlantic.com/technology/archive/2020/11/a-biden-
+victory-isnt-a-defeat-for-qanon/616998/)
+
+Civic authority has ebbed in other ways. Political incompetence and
+malpractice around the COVID-19 pandemic have only deepened suspicions that
+some politicians will never let a crisis go to waste. The decisions in
+California to keep churches closed but to keep open strip clubs and marijuana
+dispensaries baffle Main Street. Similarly, the jolting juxtaposition of a
+media-addict mayor breaking up Hasidic funerals while marching in Black Lives
+Matter protests not only deepens the cynicism of many Americans, but it
+indisputably undermined institutions of public health that should have been
+cautiously protecting their standing.
+
+#### America’s loss of meaning
+
+Our political sickness has a third cause. At least since World War II,
+sociologists and political scientists have been tracing the erosion of the
+institutions and habits that joined neighbors together in bonds of friendship
+and mutual responsibility. Little Leagues were not just pastimes; soup
+kitchens were not just service organizations; they were also venues in which
+people found shared purpose. Today, in many places, those bonds have been
+severed.
+
+In 1922, G. K. Chesterton called America “a nation with the soul of a church.”
+But according to a [recent study of dozens of
+countries](https://www.foreignaffairs.com/articles/world/2020-08-11/religion-
+giving-god), none has ditched religious belief faster since 2007 than the U.S.
+Without going into the causes, we can at least acknowledge one cost: For
+generations, most Americans understood themselves as children of a loving God,
+and all had a role to play in loving their neighbors. But today, many
+Americans have no role in any common story.
+
+Conspiracy theories are a substitute. Support Donald Trump and you are not
+merely participating in a mundane political process—that’s boring. Rather, you
+are waging war on a global sex-trafficking conspiracy! No one should be
+surprised that QAnon has found a partner in the empty, hypocritical, made-for-
+TV deviant strain of evangelicalism that runs on dopey apocalypse-mongering.
+(I still consider myself an evangelical, even though so many of my nominal co-
+religionists have emptied the term of all historic and theological meaning.) A
+conspiracy theory offers its devotees a way of inserting themselves into a
+cosmic battle pitting good against evil. This sense of vocation that makes it
+dangerous is also precisely what makes it attractive in our era of isolated,
+alienated consumerism.
+
+Whatever the Republican Party does, it faces an ugly fight. The fracture that
+so many politicians on the right have been trying desperately to avoid may
+soon happen. But if the party has any hope of playing a constructive, rather
+than destructive, part in America’s future, it must do two things.
+
+First, Republicans must repudiate the nonsense that has set our party on fire.
+Putting it out will take courage—and I don’t mean merely political courage.
+This week, after realizing that some Capitol insurrectionists wanted to
+capture the vice president, several Republican House members [said
+privately](https://twitter.com/TimAlberta/status/1349389150622019584) that
+they believed a vote to impeach the president would put their lives, or the
+lives of their families, at risk. That is not the “constituent engagement”
+that elected officials are duty-bound to deal with on a daily basis. That is
+simply tyranny, just from the bottom up, instead of the top down. When
+arsonists are inside our house, can we just stand by and hope that they’ll
+depart quietly?
+
+[Zeynep Tufekci: Most House Republicans did what the rioters
+wanted](https://www.theatlantic.com/ideas/archive/2021/01/more-dangerous-
+capitol-riot/617655/)
+
+Second, the party has to rebuild itself. It must offer a genuine answer to the
+frustrations of the past decade. Other than by indulging Trump’s fantasies
+about building iPhones in America, Republicans have not figured out how to
+address Americans’ anger about community erosion, massive dislocations in the
+labor force, or Big Tech’s historically unprecedented role in governing de
+facto public squares.
+
+Sensing a chance at tribal expansion, some on the left are thrilled by the
+chaos on the right, and they’re eager to seize the moment to banish from
+polite society not just those who participated and encouraged violence, but
+anyone with an _R_ next to his or her name. Already on Twitter, a conservative
+position as long-standing as opposition to abortion [has been
+recast](https://www.faithwire.com/2021/01/11/pro-abortion-doctor-accuses-lila-
+rose-of-domestic-terrorism-for-posting-pro-life-tweet/) as “domestic
+terrorism.” An MSNBC host [talked
+about](https://www.washingtonexaminer.com/news/joy-reid-trump-
+debaathification-gop) the “de-Baathification” of the GOP, comparing rank-and-
+file Republicans to supporters of Saddam Hussein. In an exchange on CNN, a
+host [accused Republican voters](https://www.foxnews.com/media/cnns-don-lemon-
+all-trump-voters-klansmen-nazis-capitol-rioters) of making common cause with
+Nazis and the Ku Klux Klan. Yet the exploitative overreaction by the left
+should not allow an underreaction by the right.
+
+The past four years have wounded our country in grievous, long-lasting ways.
+The mob that rushed the Capitol had been fed a steady diet of lies and
+conspiracy theories. It is very possible that the QAnon devotee Douglas Jensen
+believed the junk he’d been sold—that he was a valued foot soldier in Trump’s
+war against shadowy forces of darkness. So, according to the FBI, he put on
+his Q T-shirt and acted like a foot soldier. Right up until he ran into
+Officer Goodman.
+
+In a standoff between the Constitution and madness, both men picked a side.
+It’s the GOP’s turn to do the same.

@@ -1,0 +1,196 @@
+# Career coaches on the biggest mistakes people make in the job search - Fast Company
+
+**Source**: https://www.fastcompany.com/90436831/career-coaches-on-the-biggest-mistakes-people-make-in-the-job-search
+**Type**: article
+**Created**: 2025-08-13T16:03:28.419299
+
+---
+
+title: Career coaches on the biggest mistakes people make in the job search - Fast Company
+source: https://www.fastcompany.com/90436831/career-coaches-on-the-biggest-mistakes-people-make-in-the-job-search
+date: 2025-08-13T16:03:18.833589
+tags: []
+---
+How often, during a tough week at the office, have you heard your friends say,
+“Time to update my résumé!”
+
+You’ve probably said it, too.
+
+Most people take this approach to the job search, and it makes sense. There’s
+so much you can’t control about the process, but adding new bullet points to
+your résumé feels actionable and straightforward.
+
+But when it comes to thinking about your next career move, this isn’t the best
+place to start, says Jenny Foss, a career coach, certified professional résumé
+writer, and the voice behind the popular career blog
+[JobJenny.com](http://web.archive.org/web/20250724192512/https://www.jobjenny.com/).
+“Job seekers will be in much better shape if they think about what they do
+(and don’t) want in that next job BEFORE they update the résumé,” she
+explains.
+
+Subscribe to the Daily newsletter.Fast Company's trending stories delivered to
+you every day
+
+What other not-so-intuitive traps do we fall into? Here, seven experts who
+coach people through these very scenarios share how to job search the right
+way:
+
+## **Mistake 1: Not starting with you**
+
+Founder and lead coach [Evangelia
+Leclaire](http://web.archive.org/web/20250724192512/https://www.evangelialeclaire.com/)
+agrees that people often initially focus too much on job search tactics, like
+their résumé and elevator pitch. “I suggest you focus on _you_ first as the
+foundation,” she says. “The beliefs, attitude, and energy a smart person will
+bring to a job search will determine their success.”
+
+Specifically, she advises spending time building up your confidence. Because
+you’re often competing with hundreds of candidates, it’s easy to doubt
+yourself, but that’s counterproductive, she explains. “We behave how we
+believe. So, if you believe that you are not enough or think, ‘I don’t have
+enough,’ your attitude, approach, and actions will reflect that.”
+
+Some practical tips to boost your confidence? Leclaire suggests jotting down
+your competencies, character traits, and core strengths and using those to
+create a vision for your next chapter. She also recommends crafting a
+narrative about your future ambitions and repeating it daily, both in your
+mind and out loud.
+
+These mental exercises can be powerful motivation. “You don’t want to end up
+in a job you hate, or simply tolerate, because you weren’t honest with
+yourself or didn’t believe you could grow into bigger and better
+opportunities,” she says.
+
+## **Mistake 2: Thinking like a historian, not a marketer**
+
+Once you’re clear on what you want, is it time to update your résumé? Yes, but
+maybe not in the same way you’ve done in the past.
+
+Foss often tells her clients that a résumé is a marketing document, not an
+autobiography that details every role and responsibility you’ve ever had.
+“Just like in marketing, you’re trying to prompt a purchase decision. In this
+case, that purchase decision is, ‘Invite you in for an interview,'” she
+shares. “The easier you make it for decision makers to quickly connect the
+dots between what they need and what you can walk through their doors and
+deliver, the better the odds they’re going to want to talk.”
+
+What does this look like in practice? Foss recommends digging into job boards
+and companies’ careers pages. Pull a few postings, and find the themes and
+criteria that keep coming up. “For instance, if you pull five job descriptions
+and four of them indicate in some form that they need someone who can solve
+complex problems and navigate ambiguity—and you can absolutely do these
+things—then you need to make it clear very quickly on your résumé that this is
+you.”
+
+## **Mistake 3: Not looking at the big picture**
+
+With that said, don’t forget about _all_ of the skills that you bring to the
+table. “The biggest mistake smart people make during their job search is not
+looking at their experience in a holistic way,” says Dorianne St Fleur, a
+career strategist and the founder of [Your Career
+Girl](http://web.archive.org/web/20250724192512/https://www.yourcareergirl.com/),
+a career development agency for black women. “While it may seem like a no-
+brainer to solely focus on your project management experience if you’re
+applying for a project management role, consider highlighting the
+complementary skills you bring to the table as well.”
+
+For example, she explains, if you’re a project manager who also has experience
+in web design and operations management—and those skills are relevant to a
+specific role—find a way to highlight them. “Showcasing how your specific
+background allows you to bring a new perspective to your work will help you
+stand out among the hundreds of job seekers vying for the same position,” she
+explains. Just make sure to make it feel like a value add, not a random
+sidebar of your career. “It’s your job to connect the dots.”
+
+## **Mistake 4: Overemphasizing what you want**
+
+Another part of your job? Showing a company what you can do for them, not vice
+versa. “One of the biggest mistakes even the savviest job seekers make is they
+put too much emphasis on what they want,” explains Emily Liou, career
+happiness coach and founder of
+[CultiVitae](http://web.archive.org/web/20250724192512/https://www.cultivitae.com/).
+“When asked, ‘Why do you want to work here?’ or ‘Why are you interested in
+this role?’ . . . they may catch themselves stating, ‘I want to grow and am
+ready for greater challenges.'”
+
+But, she cautions, employers don’t really care—at least not initially. “What
+they want to know is: How will you make our lives easier? What are you going
+to immediately contribute? How are you going to solve my problem?”
+
+Instead, she advises zeroing in on the solutions you can provide and sharing
+how you’ve accomplished related milestones before. Her example: Try reframing
+“I’m interested in greater challenges” as something like “I’m really looking
+forward to leveraging my expertise in developing programs that impact global
+communities. I can accomplish this as I’ve spent the past six years studying
+various learning theories and creating curriculum that’s increased engagement
+by 78%.”
+
+## **Mistake 5: Relying solely on job postings**
+
+In theory, online job boards are great—you can submit your application to as
+many companies as you’d like in the span of an hour or so. But given how easy
+it is for anyone, anywhere to apply online, hiring managers are flooded with
+résumés, says Ryan Kahn, career coach and founder of [The Hired
+Group](http://web.archive.org/web/20250724192512/https://hiredgroup.com/).
+
+So it’s a mistake to rely only on these sites. He paints this picture:
+“Imagine you’re a hiring manager trying to fill a position. You have two
+piles—a stack of 100 résumés from qualified candidates who applied online and
+five résumés from candidates who were personally referred by your colleagues.
+Which pile would you tackle first? It’s only natural for hiring managers to
+start with candidates who’ve already been vetted.”
+
+He coaches candidates to spend more time networking with friends, second-
+degree connections, and even people they don’t know yet to build the kinds of
+professional relationships that can lead to being referred—or even hearing
+about positions before they’re posted. “Job seekers who rely solely on online
+job postings are only tapping into a small percentage of the available
+market,” he explains.
+
+## **Mistake 6: Only networking when you need something**
+
+[ Jena
+Viviano](http://web.archive.org/web/20250724192512/https://jenaviviano.com/),
+career strategist and founder of [Recruit the
+Employer](http://web.archive.org/web/20250724192512/https://jenaviviano.com/rte),
+seconds the importance of networking, adding that too many job seekers only do
+it when they need something. “That is just too late,” she cautions.
+
+Most people, she adds, tend to avoid networking because they have a
+misconstrued idea of what it entails. “We often think of it as sleazy, or a
+one-time interaction, or a happy hour,” she says. “But networking at its core
+is about mutually beneficial professional relationships developed over
+time—with an emphasis on ‘over time’.”
+
+If done correctly, she often tells people, networking can make the search
+infinitely easier. So, if you’re even thinking about looking for a new gig,
+start now. “I would recommend connecting with three different contacts a week.
+That way, when it is time to find a job, you have a whole army of people to
+support you.”
+
+## **Mistake 7: Not following up**
+
+Like Kahn, Ariel Lopez, founder and CEO of tech hiring platform
+[Knac](http://web.archive.org/web/20250724192512/https://knac.io/), notes that
+most hiring managers receive an overwhelming volume of applications. “It’s
+almost impossible for them to screen everyone in their pipeline,” she shares.
+
+Which is why she says that it’s a big mistake to spend time on finding the
+perfect opportunity, polishing up your résumé and cover letter, submitting
+them—and then never following up. “Avoiding following up could result in your
+application being overlooked and you not getting the job you want,” she adds.
+
+She advises candidates to follow up with every position they apply to, as well
+as looking for referrals within the companies you’re applying with to help you
+out. “Be persistent,” she says. “Don’t be afraid of being too aggressive in
+your job search. Fortune favors the bold.”
+
+ _
+
+The super-early-rate deadline for Fast Company’s[Most Innovative Companies
+Awards](http://web.archive.org/web/20250724192512/https://www.fastcompany.com/apply/most-
+innovative-companies) is this Friday, July 25, at 11:59 p.m. PT. [ Apply
+today.](http://web.archive.org/web/20250724192512/https://www.fastcompany.com/apply/most-
+innovative-companies)
+
+_

@@ -1,0 +1,141 @@
+# The 100 novels Americans love the most, based on a survey of thousands Quartz
+
+**Source**: https://quartzy.qz.com/1258190/the-top-100-books-americans-love-the-most/
+**Type**: article
+**Created**: 2025-08-13T16:39:14.084736
+
+---
+
+title: The top 100 books Americans love the most - Quartzy
+source: https://quartzy.qz.com/1258190/the-top-100-books-americans-love-the-most/
+date: 2025-08-13T16:39:02.950161
+tags: []
+---
+In 2018, Michael Wolff’s  _Fire and Fury_ and James Comey’s  _A Higher
+Loyalty_ have captured US readers with juicy insights into the Trump White
+House. But what books bring Americans deep, blithe pleasure?
+
+Starting in May, PBS will run a series called  _The Great American Read_ , in
+which journalist Meredith Vieira traverses the country to interview people
+about their favorite novels. PBS will also run a nationwide survey starting
+May 22, in which Americans can vote as many times as they’d like for their
+favorite title among a list of 100.
+
+To make the top 100 list, polling company YouGov asked a representative sample
+of 7,366 Americans to answer the question, “What is your most-loved novel?”
+The surveys returned a list of 700 individual titles, which editors culled,
+limiting it to novels, one title per author, and books published in the US in
+English.
+
+Based on our count, about half of the books in the top 100 list are considered
+classics or are books you might see on an American high school curriculum.
+More than 80 authors on the list are white, and just under 70 are men. Around
+60 of the authors are American.
+
+About a quarter are books written for kids or teens, and three-quarters have
+been made into a movie or TV show. Five titles are Christian fiction, and five
+could be considered dystopian novels. Around 15 are sci-fi or fantasy, and two
+titles could be considered romances.
+
+Here’s the full list of 100, in alphabetical order going by book title:
+
+  * _1984_ , by George Orwell
+  * _A Confederacy of Dunces_ , by John Kennedy Toole
+  * _A Game of Thrones_ , by George R. R. Martin
+  * _A Prayer for Owen Meany_ , by John Irving
+  * _A Separate Peace_ , by John Knowles
+  * _A Tree Grows in Brooklyn_ , by Betty Smith
+  * _The Adventures of Tom Sawyer_ , by Mark Twain
+  * _The Alchemist_ , by Paulo Coelho
+  * _Alex Cross Mysteries_ (series), by James Patterson
+  * _Alice’s Adventures in Wonderland_ , by Lewis Carroll
+  * _Americanah_ , by Chimamanda Ngozi Adichie
+  * _And then There Were None_ , by Agatha Christie
+  * _Anne of Green Gables_ , by Lucy Maud Montgomery
+  * _Another Country_ , by James Baldwin
+  * _Atlas Shrugged_ , by Ayn Rand
+  * _Beloved_ , by Toni Morrison
+  * _Bless Me, Ultima_ , by Rudolfo Anaya
+  * _The Book Thief_ , by Markus Zusak
+  * _The Brief Wondrous Life of Oscar Wao_ , by Junot Díaz
+  * _The Call of the Wild_ , by Jack London
+  * _Catch-22_ , by Joseph Heller
+  * _The Catcher in the Rye_ , by J.D.Salinger
+  * _Charlotte’s Web_ , by E.B. White
+  * _The Chronicles of Narnia_(series), by C.S. Lewis
+  * _The Clan of the Cave Bear_ , by Jean M. Auel
+  * _The Coldest Winter Ever_ , by Sister Souljah
+  * _The Color Purple_ , by Alice Walker
+  * _The Count of Monte Cristo_ , by Alexandre Dumas
+  * _Crime and Punishment_ , by Fyodor Dostoyevsky
+  * _The Curious Incident of the Dog in the Night-Time_ , by Mark Haddon
+  * _The Da Vinci Code_ , by Dan Brown
+  * _Don Quixote_ , by Miguel de Cervantes
+  * _Doña Barbara_ , by Rómulo Gallegos
+  * _Dune_ , by Frank Herbert
+  * _Fifty Shades of Grey_ , by E.L. James
+  * _Flowers in the Attic_ , by V. C. Andrews
+  * _Foundation_ , by Isaac Asimov
+  * _Frankenstein_ , by Mary Shelley
+  * _Ghost_ , by Jason Reynolds
+  * _Gilead_ , by Marilynne Robinson
+  * _The Giver_ , by Lois Lowry
+  * _The Godfather_ , by Mario Puzo
+  * _Gone Girl_ , by Gillian Flynn
+  * _Gone with the Wind_ , by Margaret Mitchell
+  * _The Grapes of Wrath_ , by John Steinbeck
+  * _Great Expectations_ , by Charles Dickens
+  * _The Great Gatsby_ , by F. Scott Fitzgerald
+  * _Gulliver’s Travels_ , by Jonathan Swift
+  * _The Handmaid’s Tale_ , by Margaret Atwood
+  * _Harry Potter_(series), by J.K. Rowling
+  * _Hatchet_ , by Gary Paulsen
+  * _Heart of Darkness_ , by Joseph Conrad
+  * _The Help_ , by Kathryn Stockett
+  * _The Hitchhiker’s Guide to the Galaxy_ , by Douglas Adams
+  * _The Hunger Games_ , by Suzanne Collins
+  * _The Hunt for Red October_ , by Tom Clancy
+  * _The Intuitionist_ , by Colson Whitehead
+  * _Invisible Man_ , by Ralph Ellison
+  * _Jane Eyre_ , by Charlotte Brontë
+  * _The Joy Luck Club_ , by Amy Tan
+  * _Jurassic Park_ , by Michael Crichton
+  * _Left Behind_ , by Tim LaHaye and Jerry B. Jenkins
+  * _The Little Prince_ , by Antoine de Saint-Exupéry
+  * _Little Women_ , by Louise May Alcott
+  * _Lonesome Dove_ , by Larry McMurtry
+  * _Looking for Alaska_ , by John Green
+  * _The Lord of the Rings_(series), by J.R.R. Tolkien
+  * _The Lovely Bones_ , by Alice Sebold
+  * _The Martian_ , by Andy Weir
+  * _Memoirs of a Geisha_ , by Arthur Golden
+  * _Mind Invaders_ , by Dave Hunt
+  * _Moby Dick_ , by Herman Melville
+  * _The Notebook_ , by Nicholas Sparks
+  * _One Hundred Years of Solitude_ , by Gabriel García Márquez
+  * _Outlander_ , by Diana Gabaldon
+  * _The Outsiders_ , by S.E. Hinton
+  * _The Picture of Dorian Gray_ , by Oscar Wilde
+  * _The Pilgrim’s Progress_ , by John Bunyan
+  * _The Pillars of the Earth_ , by Ken Follett
+  * _Pride and Prejudice_ , by Jane Austen
+  * _Ready Player One_ , by Ernest Cline
+  * _Rebecca_ , by Daphne du Maurier
+  * _The Shack_ , by William P. Young
+  * _Siddhartha_ , by Hermann Hesse
+  * _The Sirens of Titan_ , by Kurt Vonnegut
+  * _The Stand_ , by Stephen King
+  * _The Sun Also Rises_ , by Ernest Hemingway
+  * _Swan Song_ , by Robert R. McCammon
+  * _Tales of the City_ , by Armistead Maupin
+  * _Their Eyes Were Watching God_ , by Zora Neale Hurston
+  * _Things Fall Apart_ , by Chinua Achebe
+  * _This Present Darkness_ , by Frank E. Peretti
+  * _To Kill a Mockingbird_ , by Harper Lee
+  * _Twilight_ , by Stephenie Meyer
+  * _War and Peace_ , by Leo Tolstoy
+  * _Watchers_ , by Dean Koontz
+  * _The Wheel of Time_(series), by Robert Jordan
+  * _Where the Red Fern Grows_ , by Wilson Rawls
+  * _White Teeth_ , by Zadie Smith
+  * _Wuthering Heights_ , by Emily Brontë

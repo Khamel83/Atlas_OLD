@@ -1,0 +1,98 @@
+# Opinion | Ben Franklin’s Nation - The New York Times
+
+**Source**: http://www.nytimes.com/2010/12/14/opinion/14brooks.html?_r=1&partner=rssnyt&emc=rss&pagewanted=print
+**Type**: article
+**Created**: 2025-08-13T21:42:04.824241
+
+---
+
+title: Opinion | Ben Franklin’s Nation - The New York Times
+source: http://www.nytimes.com/2010/12/14/opinion/14brooks.html?_r=1&partner=rssnyt&emc=rss&pagewanted=print
+date: 2025-08-13T21:41:56.517317
+tags: []
+---
+After you read this column, go to YouTube and search “Hans Rosling and 200
+countries.” [You’ll see a Swedish professor
+describe](http://web.archive.org/web/20210314192105/http://www.youtube.com/watch?v=jbkSRLYSojo)
+the growth of global wealth and well-being over the past 200 years.
+
+He presents an animated time-lapse chart. It starts in 1810, when the nations
+of the world were clumped on the bottom left-hand side of the chart because
+they had low income and low life expectancy. Then the industrial revolution
+kicks in and the nations of the West surge upward and to the right as they get
+richer and healthier. By 1948, it’s like a race, with the United States out
+front and the other nations of the world stretched in a long tail behind.
+
+Then, over the last few decades, the social structure of the world changes.
+The Asian and Latin American countries begin to catch up. With the exception
+of the African nations, living standards start to converge. Now most countries
+are clumped toward the top end of the chart, thanks to the incredible
+reductions in global poverty and improvements in health.
+
+This convergence is great news, but the change in the global social structure
+has created a psychological crisis in the U.S. Since World War II, we’ve built
+our national identity on our rank among the nations  at the front with
+everybody else trailing behind. But in this age of convergence, the world
+doesn’t have much of a tail anymore.
+
+Some people interpret this loss of lead-dog status as a sign of national
+decline.
+
+Other people think we are losing our exceptionalism. But, the truth is,
+there’s just been a change in the shape of the world community. In a world of
+relative equals, the U.S. will have to learn to define itself not by its rank,
+but by its values. It will be important to have the right story to tell, the
+right purpose and the right aura. It will be more important to know who you
+are.
+
+Americans seem uncertain about how to answer that question. But one answer is
+contained in Rosling’s chart. What is the core feature of the converging
+world? It is the rise of a gigantic global middle class.
+
+In 2000, the World Bank classified 430 million people as middle class. By
+2030, there will be about 1.5 billion. In India alone, the ranks of the middle
+class will swell from 50 million to 583 million.
+
+To be middle class is to have money to spend on non-necessities. But it also
+involves a shift in values. Middle-class parents have fewer kids but spend
+more time and money cultivating each one. They often adopt the bourgeois
+values  emphasizing industry, prudence, ambition, neatness, order, moderation
+and continual self-improvement. They teach their children to lead different
+lives from their own, and as Karl Marx was among the first to observe, unleash
+a relentless spirit of improvement and openness that alters every ancient
+institution.
+
+Last year, the Pew Research Center surveyed the global middle class and found
+that middle-class people are more likely than their poorer countrymen to value
+democracy, free speech and an objective judiciary. They were more likely to
+embrace religious pluralism and say that you don’t have to believe in God to
+be good.
+
+Over the next few decades, a lot of people are going to get rich selling
+education, self-help and mobility tools to the surging global bourgeoisie. The
+United States has a distinct role to play in this world.
+
+American culture was built on the notion of bourgeois dignity. We’ve always
+been lacking in aristocratic grace and we’ve never had much proletarian
+consciousness, but America did produce Ben Franklin, one of the original
+spokesmen of middle-class values. It did produce Horatio Alger, who told
+stories about poor boys and girls who rose to middle-class respectability. It
+does produce a nonstop flow of self-help leaders, from Dale Carnegie to Oprah
+Winfrey. It did produce the suburbs and a new sort of middle-class dream.
+
+Americans could well become the champions of the gospel of middle-class
+dignity. The U.S. could become the crossroads nation for those who aspire to
+join the middle and upper-middle class, attracting students, immigrants and
+entrepreneurs.
+
+To do this, we’d have to do a better job of celebrating and defining middle-
+class values. We’d have to do a better job of nurturing our own middle class.
+We’d have to have the American business class doing what it does best:
+catering to every nook and cranny of the middle-class lifestyle. And we’d have
+to emphasize that capitalism didn’t create the American bourgeoisie. It was
+the social context undergirding capitalism  the community clubs, the
+professional societies, the religious charities and Little Leagues.
+
+For centuries, people have ridiculed American culture for being tepid,
+materialistic and middle class. But Ben Franklin’s ideas won in the end. The
+middle-class century could be another American century.

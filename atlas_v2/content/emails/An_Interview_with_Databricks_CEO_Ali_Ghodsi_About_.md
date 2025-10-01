@@ -1,0 +1,324 @@
+# An Interview with Databricks CEO Ali Ghodsi About Building Enterprise AI (Stratechery Interview 5-2-2024)
+
+**Source**: inputs/saved_emails/An Interview with Databricks CEO Ali Ghodsi About Building Enterprise AI (Stratechery Interview 5-2-2024)_Thu,_2_May_2024_12-26-03_+0000_18f3944fab944a53.eml
+**Type**: email
+**Created**: 2025-08-27T03:02:25.335292
+
+---
+
+An interview with Databricks co-founder and CEO Ali Ghodsi about founding Databricks, managing large data, and creating AI for enterprise.
+
+View in browser ( https://stratechery.com/2024/an-interview-with-databricks-ceo-ali-ghodsi-about-building-enterprise-ai/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2FuLWludGVydmlldy13aXRoLWRhdGFicmlja3MtY2VvLWFsaS1naG9kc2ktYWJvdXQtYnVpbGRpbmctZW50ZXJwcmlzZS1haS8iXX0sImV4cCI6MTcxNzI0NDc2MywiaWF0IjoxNzE0NjUyNzYzLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.S_B21ppImMKqz_79aIkPvhyM-hgSlvxyjXVbbVSthVRCa1U1vv_I7vApAaKIGxlfsOVSn81rr2HSN4cJF_jXaQ7a34jjS-9i6Y1fkkpb1uwgj1PwOl00Q6WyZZRXztemVjbUNWHVDtMeVT7fFri7B4Yg8lq0ehxubq4gqifK7eDD8dgjM9Xmvipt3dA-FM47dFe8kNRpi51Jznx3pI51xX4XWTonV_tNoF23DotchXiLfHESjnyMhbnK-ZxxyxOvfy3zT8ERBHkNpwuTWMS2P_djuOdOog_5WCM3f4qo4mc4PC4LNay2X3hzx4NqK-zmFqQSJr0j3sjPcIuTil2Pug )
+
+( https://stratechery.com )
+
+An Interview with Databricks CEO Ali Ghodsi About Building Enterprise AI
+
+( https://stratechery.com/2024/an-interview-with-databricks-ceo-ali-ghodsi-about-building-enterprise-ai/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2FuLWludGVydmlldy13aXRoLWRhdGFicmlja3MtY2VvLWFsaS1naG9kc2ktYWJvdXQtYnVpbGRpbmctZW50ZXJwcmlzZS1haS8iXX0sImV4cCI6MTcxNzI0NDc2MywiaWF0IjoxNzE0NjUyNzYzLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.S_B21ppImMKqz_79aIkPvhyM-hgSlvxyjXVbbVSthVRCa1U1vv_I7vApAaKIGxlfsOVSn81rr2HSN4cJF_jXaQ7a34jjS-9i6Y1fkkpb1uwgj1PwOl00Q6WyZZRXztemVjbUNWHVDtMeVT7fFri7B4Yg8lq0ehxubq4gqifK7eDD8dgjM9Xmvipt3dA-FM47dFe8kNRpi51Jznx3pI51xX4XWTonV_tNoF23DotchXiLfHESjnyMhbnK-ZxxyxOvfy3zT8ERBHkNpwuTWMS2P_djuOdOog_5WCM3f4qo4mc4PC4LNay2X3hzx4NqK-zmFqQSJr0j3sjPcIuTil2Pug ) Thursday, May 2, 2024
+
+Listen to this Update in your podcast player ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Good morning,
+
+This Stratechery Interview is another installment of the Stratechery Founder Series ( https://stratechery.com/topic/founder-series/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS90b3BpYy9mb3VuZGVyLXNlcmllcy8iXX0sImV4cCI6MTcxNzI0NDc2MywiaWF0IjoxNzE0NjUyNzYzLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.DtmWPpZn1_F4sPLN5_KOUGeEOmxRihr29s6pO8-FZoiFWWBkLiGv0KRxmb-0uWstEjb0mU8n3sC7-nnCtPKfrw5WvsdOis37yORx8UDNP2S1kLQwpOCcg44wnyMQEKB2xz19uGFL9g-ZVPjSvavGen5wQyekMGBHVAWLtg9PuGoahji_p4ycACHhuqynM6yoo0yhS8uoEdHa3wbZ85eQ18IdEcmhP_L4OljPRV1CJ7Lb0OY7sLgG1YuFLPt81A9TXFS-7Xb_A1oZfVpbIoTE2x-zvTYdYBkscww74iRCQ1q2fuufMpOrH2KTXeXgAS-cZL3gew-bFS6nA8WXjXz2wA ) ; as a reminder, one of the challenges in covering startups is the lack of available data. My solution is to go in the opposite direction and interview founders directly, letting them give their subjective overview of their companies, while pressing them on their business model, background, and long-term potential.
+
+This week’s Interview is with Databricks ( https://www.databricks.com/ ) co-founder and CEO Ali Ghodsi ( https://twitter.com/alighodsi ). Ghodsi was a professor at U.C.-Berkeley when he and his colleagues created Apache Spark, an open-source analytics engine for analyzing data at scale. Ghodsi then started Databricks to commercialize the technology; last year Databricks generated $1.6 billion in revenue, and was most recently valued at $43 billion, making it one of the most valuable private companies in the world.
+
+In this Interview we discuss Ghodsi’s path to America and how he never planned on being a CEO; what it is Databricks does, exactly, including the concept of a data lakehouse; and Databricks’ competitive set. A major focus is also AI, including the impact of ChatGPT, the acquisition of MosaicML and the release of Databricks’ own LLM, and why enterprise LLM needs are fundamentally different than what we see from consumer-focused LLMs.
+
+As a reminder, all Stratechery content, including interviews, is available as a podcast; click the link at the top of this email to add Stratechery to your podcast player.
+
+On to the Interview:
+
+An Interview with Databricks CEO Ali Ghodsi About Building Enterprise AI
+------------------------------------------------------------------------
+
+This interview is lightly edited for clarity.
+
+*Topics:*
+Background ( #background ) | Apache Spark ( #spark ) | Data Lakehouses and Open Source ( #lakehouses ) | Competition ( #competition ) | AI ( #ai ) | Mosaic ML ( #mosaicml ) | Enterprise LLMs ( #enterprise ) | Lessons Learned ( #future-past )
+
+Background
+
+*Ali Ghodsi, welcome to Stratechery.*
+
+*Ali Ghodsi:* Thank you so much. Pleasure to be here.
+
+*So tell me about yourself and your background, starting with Iran where you were born. A pretty eventful time period, as I think you’re about the same age I was, I have no remembrance of that interesting time period, but what’s your path?*
+
+*AG:* Yeah, I was born basically during the Islamic Revolution, and there were a lot of kids that were born around that time named Ali. Turns out people want to have kids when they think the future is uncertain, so there was a boom around that time.
+
+I was there first five years and then we had to abruptly flee the country and you go wherever you can go. I think my parents preferred for us to go to the United States, but with the hostage crisis and everything, the United States didn’t really want refugees from Iran. So we went to Sweden, which was a country that was very welcoming of refugees at the time, and that’s it.
+
+I grew up there pretty much my whole life until 2009, went through the whole school system there and thankfully, Sweden invests heavily in infrastructure IT, so when I was in seventh grade, which is a long time ago, they asked me, “Okay, so now you’re going to learn a new language. Do you want to learn French or German or C++ or Pascal?”, and I said, “Pascal”, of course, I thought that sounded good.
+
+*(laughing) Oh, nice. That means you’re employable for life, I believe, I think that’s the pitch for Pascal.*
+
+*AG:* (laughing) Yep.
+
+*So you said you came over to the U.S. in 2009. Did you go straight to UC Berkeley? There’s some great videos of you giving lectures on YouTube. You’re still an adjunct professor there. Do you ever teach anymore or is this a, “Homeboy made good, we’ll give him the title forever”, sort of situation?*
+
+*AG:* No, I teach ( https://people.eecs.berkeley.edu/~alig/ ) about a class a year and I still enjoy really doing that. I imagine if I had nothing to do, that’s a job I would actually enjoy doing.
+
+So yeah, I came to the United States just to stay here one year and do research at UC Berkeley and just ended up staying another year, another year, another year. And the timing was — we didn’t know it at the time, but Dave Patterson ( https://www2.eecs.berkeley.edu/Faculty/Homepages/patterson.html ) , who was a professor at UC Berkeley, and now Turing Award winner, which is the Nobel Prize in computer science essentially, said at the time, “We’ve had Moore’s Law, but we no longer know how to make the computers faster and cramming more transistors. That era is over, so computers are not going to get any faster”, and we know he was right, they’re all between two and four gigahertz since then.
+
+So we need the new computer, and the new computer is the cloud, and it also needs new software, so we built all this software stack — the era of data and AI. So it was the perfect time. I always regretted, “Why was I not born in the ’50s or ’60s when computers happened?” — well, actually it kind of happened again in ’08, ’09, ’10, and Berkeley was at the forefront of that. So we were super lucky to see that kind of revolution and being part of that.
+
+Apache Spark
+
+*So at Berkeley, you helped start, along with the folks you were referring to, Apache Mesos ( https://en.wikipedia.org/wiki/Apache_Mesosf ) , and Apache Spark ( https://en.wikipedia.org/wiki/Apache_Spark ) projects. Explain to me what those are — they weren’t called Apache then since you hadn’t yet donated them to the Apache foundation ( https://www.apache.org/ ) — and why they are that new software you needed for the cloud?*
+
+*AG:* Yes. The computer cannot be made any faster, you can’t just buy a computer that’s twice the speed every 18 months, so now the cloud is the new computer.
+
+Just to put this in perspective, we were at Twitter — a lot of these companies were started around that time: Twitter, Airbnb, Uber — and at Twitter, they had a mega machine. One single machine, which was processing all of the tweets in the world, one computer, and they were like, “Hey, we’re going to run out of memory on this machine, so how do we distribute this? How do we get this out on a cluster? Because otherwise we’re not going to be able to process all the tweets on the planet.”
+
+It was exactly around that cusp, so Mesos was sort of an operating system to let you run all this kind of software. Today, I would say Mesos is not really around, I think it influenced the design of a much more popular project that was being developed at the same time called Kubernetes ( https://en.wikipedia.org/wiki/Kubernetes ).
+
+*Yep.*
+
+*AG:* And then as an application on top of Mesos, we wanted to demonstrate the value. What are you going to do with it? What’s an operating system for a new cluster? So we said, “Look, we’ll develop this thing called Spark, which lets you do machine learning and AI and predictions,” as just a demo that it works. Then it turned out the demo actually was much more successful than the main thing, and eventually it subsumed that, and that became the main thing.
+
+*It’s funny because my next question is, “What is the Databricks origin story?”, I was going to ask, “Did you have the idea of starting a company around this all along?”, but it sounds like it was a discovery of, “Wow, our demo application is actually pretty useful here”.*
+
+*AG:* No, really, it was. These Silicon valley tech companies that are starting around that time, Twitter, Uber, and so on, Airbnb, and then there were some existing giants like Yahoo and Facebook. They are leveraging data in massive scales and doing AI on it, and they’re doing predictions and it’s pretty amazing. The rest of the world is so behind, they don’t even understand this stuff. Let us publish this stuff in research papers and create some open source projects, and then the whole world will read our papers and adopt what we’ve published in research.
+
+*Sounds like you had a very strong professor mindset at this time.*
+
+*AG:* Yeah, so turned out people don’t read these papers and they don’t really care. So then we tried to go knock on the doors of these companies. At the time, there was this thing called Hadoop ( https://en.wikipedia.org/wiki/Apache_Hadoop ) , and we tried to tell them, “Hey, there’s this AI, there’s machine learning you can do on big data,” and they were completely uninterested.
+
+So 2013, we started Databricks out of frustration and some of us, especially me, reluctantly, because we were not really interested in creating a business, we really wanted to do our research and publish our papers, but it seemed we could not have any impact. So that was sort of the genesis. Some companies we would go to before we started Databricks, we would say, “Please take this software”, and they would say, “No, no, no, I will refuse to take it unless I can give you a million dollars, I need someone to be liable. I need a throat to choke, so to say, otherwise I can’t take this”. So it became kind of clear — if we don’t have a company, there’s no chance we can have impact here.
+
+*It’s interesting because Spark is open source, Databricks is sort of built on an open source foundation, and one of the questions you would generally pose to people taking this approach is, “What was your basis of conviction that you can make this model work?”. We can get into some of the specifics of the challenges of that in general, but it sounds like, again, you’re upsetting the expectations. It was basically the exact opposite of, “We have to have a company so that anyone will even pay attention to this project because we think it’s a big deal”.*
+
+*AG:* Keep in mind, we started Spark in 2009. In 2010, ’11, ’12, ’13, ’14, nothing, no one cares about Spark. And only in ’14, it became like a worldwide sensation once we had already created the company. We didn’t have a clear idea of how you can monetize it, what’s the strategy needed to succeed with open source, we only developed that later when we learned the hard way that, “Oh, if you give away all your IP, there is no business to be had”.
+
+*So two questions then. What happened in 2014?*
+
+*AG:* I think it’s just the technology was so much superior. What Peter Thiel calls the Zero To One ( https://www.penguinrandomhouse.com/books/234730/zero-to-one-by-peter-thiel-with-blake-masters/ ) , you need to be 10x better. It really was 10x, sometimes 100x faster, cheaper. It could do AI, it could do real-time processing, it could process big graphs that social network companies had.
+
+I think eventually it just broke through and it coincided with us setting the record ( https://www.databricks.com/company/newsroom/press-releases/apache-spark-beats-world-record-fastest-processing-big-data ) for sorting a petabyte of data, and somehow that news item got a life of its own. Before that, there was all kinds of FUD against Spark that, “Oh, it only works if you can fit everything in memory, but people don’t have enough memory in these computers”. But we showed that, “Hey, we sorted a petabyte of data and we certainly didn’t have a petabyte of data memory”, so then it became clear, “Okay, this thing works”.
+
+The open source project started taking off, but then we were left in the dust as Databricks as a company with almost no revenue. In 2015, we ended the year with one-and-a-half-million dollar revenue, and at that time already companies like Amazon were probably making hundreds of millions of dollars on our open source technology.
+
+Data Lakehouses and Open Source
+
+*Right. The general idea is you mentioned you started out with Mesos where you needed to compute in parallel instead of serially so you have to have a cluster of computers, not just one. Spark lets you basically do the same thing with data, spread it out over a huge number of computers. You can end up with massive amounts of data, structured, unstructured, people will call it like a “data lake”. There’s a data lake, there’s a data warehouse, there’s a Data Lakehouse ( https://www.databricks.com/product/data-lakehouse ). Walk me through the distinction and where that applies to Databricks and its offering.*
+
+*AG:* At the time, the world was kind of split. Those that have structured data, structured data are things that you can represent in tables with rows and columns, those were in data warehouses and you could connect your BI tools, business intelligence tools, that lets you ask questions about the past from those rows and columns. “What was my revenue last week in different regions, by different products, by different SKUs?”, but you couldn’t ask questions about the future.
+
+Then at the same time, we had these future looking workloads, which were, “Okay, we have all kinds of text, images, and unstructured data that’s coming into the enterprise,” and that you couldn’t store in these structured tables, they cannot be represented as tables of rows and columns, those you stored in what’s called data lakes. But then the good news was if you knew what you were doing, you could ask questions about the future, “What’s my revenue going to be next week? Which customer is going to churn next?”. But these worlds were living completely separately and securing them was very hard and there was a lot of redundant stacks that were being built up at the same time.
+
+Our idea was how do we, 1) unify this and 2) how do we disrupt the existing ecosystem? How do we create the company that’s disruptive? And our idea was what if we have open source technology, everybody stores all their data, both the structured and unstructured data in the lake, which is just basically almost free storage by the cloud vendors, but we standardize the format in an open source format, so it almost becomes like USB — you can plug anything in there. Then we build an engine that can do both the BI stuff, backwards looking questions, and the futuristic AI stuff, and that’s what we call the Lakehouse, which is a portmanteau of data lakes and their warehouses. The marketing firms we talked to and anyone we’d ask said, “This is a terrible idea”.
+
+*Believe me, I have lots of experience with problematic portmanteau’s ( https://stratechery.com/2013/welcome-to-stratechery/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDEzL3dlbGNvbWUtdG8tc3RyYXRlY2hlcnkvIl19LCJleHAiOjE3MTcyNDQ3NjMsImlhdCI6MTcxNDY1Mjc2MywiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.qQzT4DvOHaRy7Xfv5L_EQHBfYt1ERc9RVq0mKCTGALYRgrnXcRfpwKMvvJx7wtY9PzfXjQ2F9_hF4li7nWxTdrXdzzbU9XVU6Cy9j_zWr_2S8wyestcChgYDlfLeg6zex8EfRS5BJ8vmTbbx_osx-zth-p8Qch4YnoCdh4mvMXKeDorxLgr96mIeP8XcjZsJAwMAysnTBoKIlP5C7MRB8adMnbJE1QAWi_UDO7pnSkPPtJJKyDzQpxQeM85yETiQdgleHVF2Od9HXjHtDRqTW0WXdml3A_zXpIr3fW3aa6MQ-DlnfjiAk50uiIiKJAt-pmaehBf7YR4hfm4gbTQqTQ ).*
+
+*AG:* Yeah, pretty much everybody said, “This is a bad idea,” and we went with it anyway. And actually, the immediate reaction from the market was, “Oh my God, another data lake analogy, this is horrible”. But we kept at it and we thought the disruption is real. People do want to ask questions about the future and the past in an open format. And within a year, people started picking up the phrase, and then a few years later these days, if you Google it, basically everybody has bought AdWords for it.
+
+*So how did this then tie into figuring out a business model that worked for Databricks? You have Spark as an open source project, AWS can roll it out, this story is as old as time, I’ve certainly written about it plenty ( https://stratechery.com/2019/aws-mongodb-and-the-economic-realities-of-open-source/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDE5L2F3cy1tb25nb2RiLWFuZC10aGUtZWNvbm9taWMtcmVhbGl0aWVzLW9mLW9wZW4tc291cmNlLyJdfSwiZXhwIjoxNzE3MjQ0NzYzLCJpYXQiOjE3MTQ2NTI3NjMsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.Bpwm25C7JneoXniHr4HAIIRxjlNEv36uwFRWuKs2HPIwXPOuCkMR7itqyrOdiW6BM59zV-1B-DrWToYNgbwSl3_PDNuy0f_O7JUyC_DvnyrKvzkDNnhtWAzlcKsRxDK8dSIWn-vT0CynQ07S2cfm5mlkWR5L84UE1EpTv6XjdkctJGtDFWDsoGQxkQHp_F8FWqIN0uuMbExQEp5XMj5ohAKTqeV1jT_FUG8AQPvplQeujTokHPauxAs68865xjVoXa1RYSeRBPKNTkgLjDH2MbZLg66Hm5SbLG9Rfztr-jHtWgihg7pz_5TJ5RMVHOdgvoS1sD2xANI6Ok8FptCl8A ). What did you do then to provide unique value that was sustainable and couldn’t just be peeled off?*
+
+*AG:* I think of open source as a very, very difficult strategy that I do not recommend other people to adopt — we did it because of our academic roots. I sort of liken it to playing baseball and having a strategy that you’re going to hit two home runs in a row after each other consecutively. The first home run is going to be your open source home run. You’re going to give away the software, and it better be a home run. “Home run” here is defined as the whole world loves it and downloads it, otherwise you’ve accomplished nothing, you’ve just given away your intellectual property for free and accomplished absolutely zero. So that’s home run number one. It’s necessary for the strategy, it’s not sufficient for succeeding.
+
+Then you need to hit another home run in Peter Thiel’s parlance another Zero to One that’s 10x better than the open source project. So that’s the home run, if it’s 10x better than the open source project, that one you keep proprietary and you run with that. In some sense, I think of the perfect open source project, a company that doesn’t exist, would be GitHub if they had also open source Git originally, which they didn’t do. Git was actually created by Linus Torvalds and then later developed by others.
+
+So at Databricks we had Spark and the cloud vendors were just giving it away and beating us to it, so we had to come up with something that’s 10x better, so we came up with something called the Photon engine ( https://www.databricks.com/product/photon ) , which is a complete rewrite of the engine under the hood. It’s 100% compatible with the API’s in Spark so if you’re build something that uses Spark, out of the box it will work. But we have something that’s 10x faster, and in this kind of distributed parallel processing world, 10x faster also means 10x cheaper because you can use 10 times fewer machines.
+
+So then the value proposition would be, “Hey, you already love Spark, you’re already using Spark, I’m getting the cost of it down to a tenth, and we can split the difference”. The initial reaction of people would be, “Well, wait a minute, that’s not open and you’re not giving away for free anymore”, and it’s like, “Yeah, but we need to make money somehow”, and they said, “Okay, if you can prove to me that you really can lower the cost by that much, I’ll split the difference with you”. That became the strategy, but we only came up with it in hindsight.
+
+*It’s a challenge because the initial cloud wave was like, “Oh, we can monetize our open source project by providing hosting or doing servers”. It turns out Amazon is much better at that than you are, you’re at a bit of a cost disadvantage there. How does your relationship work with the cloud providers now though? Because that’s still where the data is primarily stored, correct?*
+
+*AG:* Exactly, and that’s why they love us, but of course there’s competition as well. So 70% of their revenue is storage and compute, that’s not a surprise to people, and they’re at this big war with each other trying to win your workloads. They know that data has gravity so they’re saying, “Please give your data to me. I’ll make it almost free for you, don’t move it elsewhere”, because they know if they lose your data, if they don’t have your data, there is no next game after that. They can’t move up the stack so they have to win the data and we’re a killer app that drives over two-and-a-half exabytes of data, so that’s 2,500 petabytes of data per day, using over 25 million virtual machines per day, so of course they love that and we have to be best friends.
+
+But they also know that, “Hey, the future is AI, the future is to move up the stack”, and they have their own services that overlap to some extent, and that’s where the competition comes in. So if you go talk to those product teams that own those products, they’re probably directly competing with us, but I think if you go to the CEO level of the cloud vendors, they’re saying, “Hey, let’s look at the big picture here, these guys are a killer app that drive more storage and compute for us”.
+
+Competition
+
+*How do you think about competition generally? We talked about you have this issue of originally the cloud providers just providing Spark, but then you have now the cloud vendors are coming out with much more substantial challenges to what you’re doing. There’s Microsoft Fabric ( https://www.microsoft.com/en-us/microsoft-fabric ) , obviously Google BigQuery ( https://cloud.google.com/bigquery ) has been around for a while, AWS Redshift ( https://aws.amazon.com/redshift/ ). But then there’s your direct competitor Snowflake ( https://stratechery.com/2020/snowflakes-s-1-snowflake-vs-the-public-cloud-snowflakes-sales-marketing/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIwL3Nub3dmbGFrZXMtcy0xLXNub3dmbGFrZS12cy10aGUtcHVibGljLWNsb3VkLXNub3dmbGFrZXMtc2FsZXMtbWFya2V0aW5nLyJdfSwiZXhwIjoxNzE3MjQ0NzYzLCJpYXQiOjE3MTQ2NTI3NjMsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.DL-2J6X94NSgAvSCfs8Erdr-eEe-M9LzYnzDkSxI2dsbBxL-C3O01sa6hNBPMYy081Nkpue_Ho4AyNilkWHchJ_KdvCd9_eElA4nc5sUurLHlSY2oaycTXP5_0BG90BxiogM_o71rdJy_kPGSlK5AYBw4-piD6IcilFS_ul4ydPQxDc7wUqeWP5YkTcqY44q0iQ2KcsrSyDxdz0S6BlxXoZwvwgr1BDgCmJWZtCHv7zkvAHzFLr0x0IT6Gxcciz2_fc_d0kcoPJD1U7uTaTZM2Gb9tOZNk5qOcvR1R8vQumTAyemjaZYryxwPoKgp7EJ9fXerJ1Z08GcRNj-VeoZZA ) , everyone talks about Snowflake versus Databricks, they’re kind of more proprietary, you’re built on open source project. Then there’s stuff coming up from the bottom like Tabular or MotherDuck that are providing — if you want to truly separate the application layer from the data layer and not have to buy it all from one place. How can you resist just being broken up even further? Do you feel your position is tenuous or do you feel very secure?*
+
+*AG:* I think that we are doing very well because if you take each of those that you mentioned, so those are good categories. Let’s start with Snowflake. That’s a great company, they really didn’t have any AI. So AI is an afterthought, and I think they actually even went through a CEO change ( https://investors.snowflake.com/news/news-details/2024/Sridhar-Ramaswamy-Named-Chief-Executive-Officer-of-Snowflake/default.aspx ) now just to try to fix that. They have a lot of catching up to do for AI and also traditional machine learning workloads and it’s easier to take a general engine, a processing distributed parallel engine that can process all kinds of unstructured and structured data, and make it work really well with data warehousing than to go the other way around, having an engine that only supports the specific special structured data and generalizing it to unstructured data. So that’s the most important. There’s also other nuances with respect to Snowflake, the lakehouse pattern. We’ve been driving that for many, many years, they’re just now trying to get into that, so I think they’re a great data warehouse, but I think they’re facing disruption with the lakehouse pattern and with AI from us. So that’s that.
+
+*So now we have the big cloud providers with their own PaaS services or we have the upstarts coming on from under, you can choose the next one.*
+
+*AG:* Yeah, I would say the cloud vendors, that 70% of our customers are on more than one cloud. As much as I would like to tell you that this data and AI stuff is so easy, just press a button, you get it, for large enterprise that have so much different software and so much compliance challenges, succeeding with data and AI is not a walk in the park for them, so having to do that then on two different clouds is not desirable. Keep in mind, all those services that you mentioned that compete with Databricks on the clouds do not work on any other cloud. You cannot run Fabric on GCP, you cannot run BigQuery on AWS and so on and so forth.
+
+*That’s such an obvious differentiator in enterprise, they don’t want to be stuck on one cloud. But do we still underrate that, how much that influences decision making?*
+
+*AG:* Yeah, and every year that grows. It’s one of those things, it’s one of those slow trends and these trends creep up on you. So yeah, there’s a little bit of it, but every year, which way is history going? People are going more multi-cloud, they want less lock-in and the truth is the cloud bills that they have are starting to become one of the most expensive items for any enterprise today, and actually they’ve only migrated 20% of their workloads to the cloud. So they want to have multiple clouds and they don’t want to give them more, so then I think it’s natural that the cloud vendors are awesome, they provide great infrastructure that could be a, call it, half-a-trillion dollar or trillion dollar market for them, but then there’s a layer on top, just like the PC existed on top, you had operating system. It didn’t matter if you ran your operating system on Dell or Compaq or whatever it was called or IBM and similarly, you’ll have vendors like Databricks and Snowflake and MongoDB that it doesn’t matter what you have under the hood, we will take care of that for you.
+
+*So this is sort of the question, right? You benefit from the fact that cloud providers are competing with each other, that’s why the product teams might not like you, but the CEO is like, “Look, they’re giving us a whole bunch of storage and compute. It’s all good, we don’t want them to push their customers or shift to Azure or to GCP or whatever it might be”, but from a customer perspective is it the case where they get that? They’re like, “We don’t want to be locked into Amazon, we don’t want to lock into Microsoft”, and are you just sort of sitting there, “Okay, that’s fine, we’ll lock you into Databricks”. Is that sort of what happens? There’s a real stickiness that happens once — yes, they’re avoiding competition at one layer, but are getting locked in at another.*
+
+*AG:* In some sense history will just repeat itself layer by layer, and if you look at the history of technology in Silicon Valley, I mean the absolutely hottest, coolest technology a few decades ago was Cisco building the routers, and then it moved up the stack and we had virtual machines with VMware and so on, and then there was the clouds which took that and sort of provided as a service and technology and now it’s data and AI. This story will repeat itself.
+
+I will say that Databricks, by leveraging open source and offering so much open source, does give you the ability that, if we one day stop innovating, if you one day want to move away from Databricks, there is the open source alternative, it’s much more standardized, and I do think we lock in customers much, much, much less than all of our competition. And today, I believe pound for pound per engineer, we produce more open source code that we donate to the open source world than any other company our scale. Of course, Google has more engineers than us but per engineer, we produce more open source code that we give away.
+
+So yes, I think that there is more flexibility in being able to move. Having said that, data does have gravity, and once you’ve stored your data one place, if it ain’t broke, don’t try to fix it.
+
+*(laughing) Yep, you need that 10x improvement on the other side. I mean this gets to some of the upstarts in general. I mean, you talked about going up the stack. What risks do you see for Databricks of people going up the stack beyond that and breaking apart the various component pieces?*
+
+*AG:* Well, I mean, I think what’s going to happen is that you’re going to see verticalization on top and in particular, I think that — so Lakehouse supports data and AI, backwards-looking BI, forward-looking AI. If you look at all the system of records that are out there today, these companies that store all your company records on HR, all your company records on CRM, all your company records for security logs, you name it, or finance, all of your company records on finance, in the future, even today, you’d like to actually build them in a way so that they’re not just our system of records with a little bit of analytics, you’d like to actually to go one step further and have AI built into them and be able to do predictions on which employee should get promoted, which customer is going to turn, zero-day attacks security that you can detect and so on. So you can see that the SaaS software stack will be rewritten with AI incorporated, that’s going to happen, AI is going to eat all the software.
+
+*The thing that I’m sort of hearing is somewhere in this stack, there is going to be a point of integration where it just makes sense to put it together, and so you’re saying, “Look, underneath us, it makes sense that there’s all these layers, companies want to have this competition, on top of this, there’s all these vertical pillars”. What people are going to want to do is pull that data above you down into your data store so you can basically have everything. So you feel fairly confident that you’re actually at the right level to integrate both vertically and both up and down the stack and have all the data there, and that’s sort of the play?*
+
+*AG:* Absolutely. I think it’s hard on top of us to be very horizontal.
+
+*Right. You’re at the highest level of horizontal playing.*
+
+*AG:* At least the most obvious one that’s clear right now. Never say never in the future, but it’s clear that you will need apps and a verticalization that happens on top.
+
+AI
+
+*So you’ve been using the word AI a lot. Did you use the word AI a lot five years ago?*
+
+*AG:* I think we used the word ML quite a bit.
+
+*Yeah, machine learning. That’s right, there’s a big word branding moment. I mean, there was the ChatGPT moment, so I guess there’s two questions. Number one, did that shift how you were thinking about this space, or was this already super clear to you? But then number two, I have to imagine it fundamentally changed the way your customers were thinking about things and asking about things.*
+
+*AG:* Yeah, from day one we were doing machine learning. We actually built MLlib ( https://spark.apache.org/mllib/ ) as part of Spark already before we actually started Databricks. Actually the first use case of Spark in 2009 was to participate in the Netflix competition ( https://en.wikipedia.org/wiki/Netflix_Prize ) of recommending the best movie, and we got the second prize actually, we didn’t get the first prize.
+
+*The whole point about being able to distribute broadly and do things in a highly parallel manner, I mean we’re basically in that world.*
+
+*AG:* Exactly. Well, a lot of people also use that parallel worlds to just do backwards processing, like a data warehouse that tells you, “Tell me everything about the past”, and it’s great to see trend lines about the past, but to use this kind of more advanced statistical approach, that’s when you venture into machine learning. We were doing it already in 2012, ’13, I tried to push the company to use the phrase AI instead of ML, the most hardcore academics in the company were against it. They said that AI was a buzzword but I said, “No, I think that’s actually what resonates with people”. But at the same time we were seeing more and more deep neural networks so these neural networks are getting stacked do better and better.
+
+Around 2018 is when we started seeing especially language processing, natural language processing, getting more and more applications on the platform. We saw insurance companies using them to analyze huge amounts of texts to assess risks, we saw translation starting to happen, we saw pharma companies analyzing big amounts of electronic medical records that were written, unstructured text. So it was pretty clear that something is going on with NLP [Natural Language Processing] ( https://en.wikipedia.org/wiki/Natural_language_processing ) and that just accelerated during the pandemic. So we saw it, we already had over a thousand customers using these kind of transformer models. So when ChatGPT came out, we kind of thought it’s a nothing burger, but of course we were wrong in that it was an absolute awareness revolution.
+
+*Yes, exactly.*
+
+*AG:* What we took for granted was not what the rest of the world was taking for granted. So we feel like the world woke up to AI in November 2022 with ChatGPT, though the truth is it had been going on for 20 years.
+
+*That’s what strikes me. That’s the biggest impact is number one, you had the total rebranding of everything to AI, my washing machine now has AI, what a miracle. But just the fact that you went through this when you started with Spark, you thought this is a great idea, no one knows what it is. Now suddenly people are asking you, knocking on your door, “We have data on your thing, can we run ChatGPT on it?” — is that how those conversations went?*
+
+*AG:* Yeah, I mean literally before ChatGPT, I would tell the marketing department to tone down the AI language because customers would say, “Hey, this AI stuff is futuristic, we have concrete problems right now with data that we need to solve”, so I actually shot down a marketing campaign and marketing was really upset about it, which said, “Customer X is a data and AI company, Customer Y is a data and AI company”. They had it ready to go and I shot it down and I said, “We don’t want to push so hard on AI because people don’t really want AI”, and then literally after ChatGPT happened, I told them, “Hey, that campaign from a couple of years ago, maybe we should run it now” — which we did actually and people loved it. So yeah, it’s just the market was just not ready.
+
+Mosaic ML
+
+*So I’ve written about Databricks once ( https://stratechery.com/2023/friction-follow-up-databricks-acquires-mosaicml/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL2ZyaWN0aW9uLWZvbGxvdy11cC1kYXRhYnJpY2tzLWFjcXVpcmVzLW1vc2FpY21sLyJdfSwiZXhwIjoxNzE3MjQ0NzYzLCJpYXQiOjE3MTQ2NTI3NjMsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.hW68xMe-6jPCymTNrhCyaoLiv0ZtAq-DAuj3nxh7lqT_dzoC2e1hr384vidRTJwUzuBfejJeD9Wh2lPKM-mi2qoHHVy2mQhRgRbLTeLToUvmqx6SrxmiOUJUtpV-XLZhp_vbNsXBXPjSPrFnDUvbI7a-ZdnLxEsxLWYHZTHmKUVkgMjh9FiVguG2X3NKphR3U5_PcA8N0bG-_Punk_mDw_LPe2EvCami7cPxSHXrVntTG81VhkjJ6QjLjYZMZqudOhZirhIWOcNs3DgUrA7pjJeHFxZOeZ6fIvZT7bX1sxleWbYdHP2_sbFiwl2IvW7LvVGpu0gonQNPnJkBtrvgWQ ) in substance, when you bought Mosaic ML last June. You have to let me know if my takes are correct. So I summarized my takes in three bullet points. You have to tell me what I got right and what I got wrong. Are you ready?*
+
+*AG:* Ready.
+
+*All right. Number one, LLMs are table stakes for data providers. However, LLMs are not themselves long-term differentiators, the most important strategic consideration is that data is sticky and has gravity. Thumbs up, thumbs down?*
+
+*AG:* A hundred percent.
+
+*Any corrections? That seems like a pretty obvious one, I was kind of cheating on that one first.*
+
+*AG:* Nailed it.
+
+*All right, number two, Mosaic ML is a good match for Databricks because both companies have a picks-and-shovels approach to their markets as opposed to being proprietary.*
+
+*AG:* Yeah, it’s very prescient of you, because actually when we analyzed the companies we were hit by the realization, “Wow, the roadmaps are probably going to be the same, we’re going to probably do the same things, they’re enterprise focused”. By the way, one thing I would add is, which was unusual at the time, the vast majority of LLM companies are consumer companies and were consumer companies at the time. One of the very few ones that was doing really well was Mosaic ML in the B2B enterprise space. So absolutely, and the idea was, hey, picks-and-shovels to anyone who wants to come for this gold rush.
+
+*All right, number three, Databricks solves Mosaic ML’s need to build a sales force and Mosaic ML solves Databricks need to build a sustainable differentiated business around an open source project.*
+
+*AG:* Yes, I think you are 99% right? I would modify that last sentence to say —
+
+*I didn’t give you enough credit for how much you had differentiated to date?*
+
+*AG:* No, I actually think that you kind of were spot on, but I would say with open source, I would say that it was Mosaic ML having a research team that really was deep in LLM research and AI, it was hard to come by at the time and it was very, very hard actually to hire those researchers that really gave us that. And then the know-how to customize LLMs on your data in a secure way.
+
+*How does that work? How do you do that?*
+
+*AG:* So this is what their specialty was. When everybody else was building one giant model or a few giant models that are supposed to be very smart, these guys, their business model was, “We build it again and again and again, custom either from scratch or from an existing checkpoint, you tell us or we can fine tune it, but we can help you build an LLM for you and we will give you the intellectual property of that LLM and its weights”. That way you as a customer can compete with your competitors and in the long run you become a data and AI leader just like our billboards that I had banned a few years earlier say. You’re going to be a data and AI company. It doesn’t matter if you’re a pharma company or a finance company or a retail company, you’re actually going to be a data and AI company, but for that you need intellectual property. Elon Musk is not just going to call OpenAI for his self-driving capabilities, he needs to have his own. Same thing is going to be true for you in finance, retail, media. So that was their specialty, but we had the data.
+
+*Is that actually true though? Do they actually need to have their own intellectual property or is there a sense — my perception, and I picked up on this, I was at some sort of conference with a bunch of CEOs, it struck me how they had this perception of, “We’ve had this data for years, we were right to hold onto it, this is so valuable!”, and I’m almost wondering, are you now so excited about your own data that you’re going to be over protective of it? You’re not going to want to do anything, you’re actually going to sort of paralyzed by, “We have so much value here, we have to do it ourselves”, and miss out on leveraging it sooner rather than later because you’re like, “It has to be just us”.*
+
+*AG:* No, I do think that people have now realized how valuable their data is, there’s no doubt about that and it is also true, I believe in it. The way I think of it is that you can think of the world as two kind of parallel universes that coexist these days with LLMs. We’re super focused on one, which is the kind of open Internet and the whole crawl of everything that’s in it and all of the history of mankind that has been stored there. Then you’re building LLMs that’s trained on that and they become intelligent and they can reason and understand language, that’s what we’re focused on.
+
+But we’re ignoring this other parallel universe, which is every company on the planet that you join have you sign an NDA, an employee agreement, and then that gives you access to all this proprietary data that they have on the customers and everything else, and they have always been protective of that. The LLMs today that we are training and we’re talking about, they don’t understand that data, they do not understand the three letter acronyms in any organization on the planet.
+
+So we do the boring LLMs and the boring AI for those enterprises. We didn’t have quite the muscle to do it without Mosaic, they really understood how to build those LLMs, we had the data already. So we had the data and we had the sales force, Mosaic did not have the data, they did not have the sales force, they did have the know-how of how to build those custom models.
+
+I don’t think that the companies are hamstrung and they’re not going to do anything with it, they want to do things with it. I mean, people are ready to spend money to do this. It’s just that I feel like it’s a little bit of a 2007 iPhone moment. iPhone comes out, every company on the planet says, “We have to build lots of iPhone apps, we have to”. Then later it turns out, “Well, okay, every company building a flashlight app is maybe not the best use of resources, in fact, maybe your iPhone will just have a flashlight in it”. So then it comes back to what special data do you have that no one else has, and how can we actually monetize that?
+
+Enterprise LLMs
+
+*How does it actually work to help companies leverage that? So you released a state-of-the-art open LLM, DBRX ( https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm ) , pretty well regarded. Do you do a core set of training on open data on whatever might exist and then you’d retrain it with a few extra layers of the company’s proprietary data and you have to do that every time? How modular is that? How does that actually work in practice?*
+
+*AG:* Yeah, there’s a whole slew of different techniques ranging from very, very lightweight fine tuning techniques. The most popular one is called LoRA ( https://www.databricks.com/blog/efficient-fine-tuning-lora-guide-llms ) , low rank adaptation, to actually training a chunk of the model. So you take an existing model that’s already trained and it already works and you customize a bunch of the layers to what’s called CPT, continuous pre-training, in which case you actually train all of the layers of the model, an existing model that’s already baked and ready, but you train all of the layers. It costs more to do that to all the way if you’re doing something really different. So if the domain that you’re using for the data set is significantly different, then you want actually what’s called pre-train, which is train the model from scratch. If you’re a SaaS application and LLMs is the core of the offering, you probably want to have a pre-trained model from scratch, so we can do all of those.
+
+I would say the industry is not actually a hundred percent, the research is not a hundred percent clear today of when should you use which, where. We have a loose idea that if you don’t have huge amounts of data and it’s kind of similar in domain to what the LLM already can do, then you can probably use the more lightweight ones, and if your data is very different and it’s significant, then probably the lightweight mechanisms are not good for you, and so on. So we have a research team that really can do this really, really well for enterprises. But I think a lot of progress is going to happen in the next few years to determine how can we do this automatically? How do we know when to use them? And there might be new techniques also that are developed.
+
+*What’s the trade-off? I imagine you talk to a company, we absolutely want the most accurate model for sure, we want it totally customized to us. And then you’re like, “Okay, that’s going to cost XYZ, but then also to serve it is going to cost ABC”. The larger a model is the more expensive it is to serve and so your inference costs are just going to overwhelm even the upfront costs. What’s that discussion like and trade-off like that you’re having with your customers?*
+
+*AG:* Well, the vast majority have lots of specific tasks that they want to do. So again, a lot of people are thinking of things like ChatGPT, which are sort of completely general purpose open-ended, ask me anything. But enterprise typically have, “Okay, I want to extract labels from all this core piece of data, I want to do it every day like ten times a day”, or, “I want to tag all of these articles with the right tags and I want to do that very accurately”. So then actually for those specific tasks, it turns out you can have small models. The size of the model helps you actually be much cheaper and that matters at scale and then they are really, really concerned about quality and accuracy of that, but for that specific task, it doesn’t need to nail a super balanced answer to the question of whether there was election fraud or not in 2020.
+
+*(laughing) Right.*
+
+*AG:* It just needs to really extract those tags really, really well, so then there are techniques you can use to that. There is a way where you can actually have your cake and eat it too, assuming that the task you want to do is somewhat narrow.
+
+But we also have customers that are, “No, I’m building a complete interactive general-purpose application in say, many of the Indian dialects in India, and I want to do that, and existing models are not very good at that, help me do that”. Then you have to go for a bigger model but bigger is usually more expensive. Of course, we are using the mixture of experts architecture, which we think is where the world is headed and which is what people also think what GPT-4 was based on, but we’ve also seen with Llama 3 from Meta that dense models, that are not mixture of experts, are also excellent and they’re doing really, really well.
+
+*Where does the compute happen for this with your customers? Mosaic was offering compute, but I think they were really capacity limited, everyone’s capacity limited. Are you reopening conversations with the cloud providers to have them do that? Are you doing it yourself? How do you actually — you go to a company and say, “Okay, if you want to do this big model, you’re going to need this much compute, and you have to figure out how to get it,” or how does that work?*
+
+*AG:* Mosaic when we bought them, had two modes. One was they had some GPUs themselves that they were getting from the cloud vendors, but they were also saying, “Hey, you can bring your own GPUs. If you bought your own as a customer, bring them, bring your own GPUs”. The first thing I did is kill that offering and not offer that. It’s something that we had learned at Databricks earlier that if you want to build something that’s really serverless, really efficient, turnkey, you don’t want to mess around. This is what we learned from moving on-prem to the cloud, you don’t want to mess with people’s infrastructure, it’s death by thousand cuts, we killed that.
+
+So what we have now is serverless infrastructure. We have the GPUs on all the clouds and actually, we have them in other places as well. Not just the clouds, you don’t have to worry about it, and we’ll just make it work for you. We’ll make sure that we always have the latest generation of machines so that you don’t have to get in that game of buying your own.
+
+*Is that a case then, generally, that you talked about the vast majority of computing storage in the enterprise is still on-prem, and you’re like, “Of course”, I know this because I read the big companies earnings calls every quarter, they’re happy to remind you about that every call. Are you downstream from that then? You need them to bring people into the cloud and then Databricks is a solution and you just have to accept that there’s a vast array of stuff out there that is not an addressable market for us?*
+
+*AG:* Correct, but it matters less in some sense. You could say that on-prem is dead, in the sense that people would say mainframes are dead though all the big banks run mainframe still.
+
+*But just no new jobs are going on-prem.*
+
+*AG:* Yeah, the most interesting and the thing that actually you can make the most amount of revenue on is no longer going there. I think the same thing is going to also happen with the GPUs. They move into the cloud and you get them there, you’re going to be able to get them as pay-as-you-go eventually, and it becomes a commodity in the cloud that you get.
+
+So when we started Databricks, this was the biggest barrier, and this was one of the biggest strategic questions. I had annual bets with one of the big strategic analyst firms that said, “You have to pivot to on-prem or you will be dead”, this was the biggest problem we had, we couldn’t get the workloads in the cloud. These days, it’s no longer a problem. Any CEO you talk to of a large company will say, “Hey, the future is the cloud. We are moving to the cloud. It’s just a question of how fast can we get there?”.
+
+*Do you feel then this AI moment, is it accentuating your advantage of data gravity and letting you better be that operating system for data as it were, or is there an aspect of people want to go elsewhere, they feel there are other features or places that might be and they’re starting looking at Databricks and saying, “Man, our data’s kind of stuck here, we would like to use it in other places”? What’s the balance between, “This model’s really good, I want to use XYZ”, versus, “Moving my data is a real big pain in the rear end”.*
+
+*AG:* You can use Databricks with all the models that exist.
+
+*That’s true, but if you talk about the fact that this compute is expensive, is there a possibility that the differentiation chases expense to some extent where it’s like, “Okay, if we can unbundle Databricks to a certain extent, then we can more easily bring in alternatives. We need to induce competition on this layer because we’re paying so much on this other layer”. Do you see any dynamics of that or do you feel it’s going the opposite direction?*
+
+*AG:* Right now, it’s going in the opposite direction, in the future it might change. Right now, what we’re seeing is that on the one hand people are extremely excited about GenAI and LLMs. On the other hand, they’re more concerned than ever about security, and privacy, and making sure that their data is not trained on and doesn’t get hacked — this is both of those. That’s why security companies are also doing really, really well, not just in AI companies, over the last 12 years, we’ve convinced them to trust us and give their data to us. They know that we can’t look at their data, that it is safe, that we are secure, and that it’s privacy-preserving, it’s the other way around. They’ll say, “Hey, if you can just offer anything here already where it is, it would be a huge advantage to us, and we could just use it where it is so that we don’t have to move the data”, because data movement, you have to talk to SecOps, you have to get architecture review. Even if it’s a good idea, we’re talking 6 months to 12 months.
+
+Lessons Learned
+
+*I’ve heard from a lot of entrepreneurs that, “One of the big advantages we have from going public is it actually made us more trustworthy, it made people more willing to work with us”. Do you feel you’re leaving anything on the table by not being a public company?*
+
+*AG:* Probably a little bit, but I think we’ve actually — as a private company, I think we have the brand awareness and the trust. Now, already close to 70% of Fortune 500 uses us, so I don’t see it as a big barrier. I think in the United States it would help us probably a little bit more on the margins. I don’t know if it would help internationally. I’m not sure, internationally, if people care if an American company IPO’s on the American stock market as much.
+
+*Is there a difference between domestic and international in terms of the aggressiveness with which they’re approaching AI?*
+
+*AG:* Yeah, I would say that China is moving very, very fast on AI. Some Asian countries, there’s less regulation. Europe, I feel is lagging always, has been lagging a few years behind the United States, and they’re concerned about — there’s also competitive concerns with so many American companies, cloud companies and so on from Europe. So Europe is a little bit more regulated and a few years usually lagging United States.
+
+That’s what we’re seeing, but there’s regional differences. Like India is very interesting because it’s moving so fast, there’s no signs of anything that’s recession-like over there. There are markets like Brazil and so on that are doing really well. So really, you have to go case-by-case, country-by-country. We have significant portion now of our business in Europe as well, and also now a growing business in Asia and also Latin America.
+
+*To take this full circle, the accidental tech CEO here, what has surprised you the most about running a company, and what would you tell young Ali as he is coming to Berkeley and what he needs to know about business 15 years ago?*
+
+*AG:* Great question. Well, it’s very hard to find leaders. They’re hard to come by, leaders that you trust and that are amazing. That you have to work on, and you might have a handful of them or less than you can count on one hand, so that you have to work on all the time, even if your company is 7,000 employees. That’s a difficult one, and it takes time to build trust with humans, so get started now, it’s just like friendships. That’s one, I would say.
+
+The second one is that, don’t be afraid of the big guys. You can actually go after them, and you can beat them if you’re focused and you get the strategy right. Don’t be afraid, you can do it, it’s surprising because you think they have so much resources and they have so much advantages on their side. But I think most of the large companies are hamstrung by — they’re a loosely coupled, complex adaptive system of humans that are trying to further their own interests and hopefully as a part of that, their company strategy works out as well. They’re much less machines that set the strategy and move forward.
+
+I think there’s a huge power in being a founder CEO, and having the full context, and understanding the full space, and having it all in your head, and being able to implement. It is a huge advantage that the companies that have been around 20, 30, 40 years no longer have that, unfortunately. Don’t underestimate that, those are the kind of things I would say, so go for it.
+
+*I would say number three has actually been a lot of this episode, which is you have to sell. It’s not enough to just make it and put it out there.*
+
+*AG:* Oh, for sure. Definitely, at least in B2B, I would say is the combination of the amazing product and an amazing go-to-market machine, and you’ve got to get both right. There’s plenty of companies that just consists of one and that just won’t work really. You need both of those and need to be in harmony.
+
+*Well, I think you did a good job selling today, so it was very interesting. Thank you for the overview. Yeah, it’s going to be fascinating to watch how it turns out. You need to get an IPO out there because I need some documents to read.*
+
+*AG:* All right, I appreciate it, I enjoyed it very much.
+
+*It’s okay, you sneak in on the Founder Series ( https://stratechery.com/topic/founder-series/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS90b3BpYy9mb3VuZGVyLXNlcmllcy8iXX0sImV4cCI6MTcxNzI0NDc2MywiaWF0IjoxNzE0NjUyNzYzLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.DtmWPpZn1_F4sPLN5_KOUGeEOmxRihr29s6pO8-FZoiFWWBkLiGv0KRxmb-0uWstEjb0mU8n3sC7-nnCtPKfrw5WvsdOis37yORx8UDNP2S1kLQwpOCcg44wnyMQEKB2xz19uGFL9g-ZVPjSvavGen5wQyekMGBHVAWLtg9PuGoahji_p4ycACHhuqynM6yoo0yhS8uoEdHa3wbZ85eQ18IdEcmhP_L4OljPRV1CJ7Lb0OY7sLgG1YuFLPt81A9TXFS-7Xb_A1oZfVpbIoTE2x-zvTYdYBkscww74iRCQ1q2fuufMpOrH2KTXeXgAS-cZL3gew-bFS6nA8WXjXz2wA ) level, so it’s all good.*
+
+This Daily Update Interview is also available as a podcast. To receive it in your podcast player, visit Stratechery ( https://stratechery.passport.online/member ).
+
+The Daily Update is intended for a single recipient, but occasional forwarding is totally fine! If you would like to order multiple subscriptions for your team with a group discount (minimum 5), please contact me directly.
+
+Thanks for being a supporter, and have a great day!
+
+Listen to this update and other Stratechery Plus content in your podcast player: Stratechery ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp Tech ( https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Dithering ( https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp China ( https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Greatest Of All Talk ( https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Subscription Information
+
+Member: Omar Zoheri
+Email: stratecheryUSC@khamel.com
+Member since: April 23, 2022
+Your subscription renews every year
+Renewal date: December 8, 2024
+
+You are receiving this email because you are subscribed to Stratechery ( https://www.stratechery.com ).
+
+Click here ( https://stratechery.passport.online/member/login?email=stratecheryUSC%40khamel.com ) to view your account and manage your subscriptions.
+Click here ( https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FRseuYE8jgHePpWJf1fAb4C%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1JzZXVZRThqZ0hlUHBXSmYxZkFiNEMvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcxNzI0NDc2MywiaWF0IjoxNzE0NjUyNzYzLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.qU4aS9q05aenYOHGVFrOvsqKnLK7EGl2T9vek2Zrkf198D7IFSnTiJq2J_T3tYZq44pGKR4JeV7abC8d4O6wqDMlwXqtGg6PrzK0bty2UJCAaZUG2O8HfxVuRq77iHOPPGqSz0UesDxUyEDOtIyLe4F8xeDQXJUKFQfnLk58uyR-D-mPJFITRk4Yr_S2gc_eoJsff3ilXRe1bYhFmuGB7gFa8kXtri9snMQmKR_UYgiEk-cw-_4Y5Xd_IWOei-mgZk_nCzq9sA5B3V4jZIgq4kLDDfB7G2uD7n18_N3LILFRDHw0D4h8YEwPR-iZYeqxeJ9o3IAI-VUWdzlL_Vm14g%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe ) to unsubscribe.
+
+© 2024 Stratechery LLC ( https://www.stratechery.com ) , 2093 Philadelphia Pike #9930, Claymont DE 19703

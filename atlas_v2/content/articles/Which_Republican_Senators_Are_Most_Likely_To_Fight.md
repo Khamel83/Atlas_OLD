@@ -1,0 +1,246 @@
+# Which Republican Senators Are Most Likely To Fight Trump? | FiveThirtyEight
+
+**Source**: inputs/New Docs/html/fivethirtyeight.com_features_which-republican-senators-are-most-likely-to-fight-trump.html
+**Type**: article
+**Created**: 2025-08-25T02:53:52.577505
+
+---
+
+![](https://fivethirtyeight.com/wp-content/uploads/2016/11/promo_4x3_senators1.jpg?w=575)
+
+
+
+Getty Images
+
+Out of the rubble of the Nov. 8 election, Democrats managed to pick up two U.S. Senate seats from Republicans — in Illinois and New Hampshire — while [holding on to all of their own](https://fivethirtyeight.com/features/there-were-no-purple-states-on-tuesday/). It was an underwhelming performance given how many chances Democrats had to gain seats all over the map. Still, Donald Trump will begin his presidential term with Republicans holding only a narrow Senate majority: either 51-49 or (more likely) 52-48, depending on the results of [Louisiana’s runoff election](https://www.bloomberg.com/view/articles/2016-11-16/democrats-can-t-write-off-the-last-senate-race-in-louisiana) on Dec. 10.
+
+That means defections of just two to three Republican senators could block Trump from confirming his cabinet, making successful Supreme Court appointments, or passing new pieces of legislation. But how many anti-Trump Republicans can we really expect in the Senate, especially given that all but three Republican senators come from states that voted for him? And with the [daunting Senate map](http://www.politico.com/story/2016/11/senate-democrats-2018-midterms-231516) that Democrats face in 2018 — with several red-state Democrats up for re-election — how many of their own senators might join with Trump on key votes?
+
+Until the Senate convenes on Jan. 3, the best we can do is make educated guesses about the coalitions that will line up around Trump. But there are a few obvious factors that will presumably correlate with support for his agenda:
+
+* **Issue alignment:** Senators whose policy positions are more aligned with Trump’s will be more likely to support him.
+* **Personal support:** Senators who endorsed Trump — and there were a lot of gradations of endorsements and non-endorsements — will be more likely to support him.
+* **Electoral incentive:** The better Trump performed in a senator’s state, the more likely the senator will be to support Trump, other factors held equal, especially if the senator is up for re-election in 2018.
+
+I came up with a quick way to measure each of these qualities on a 1-to-5 scale, where 5 implies a higher likelihood of supporting Trump. Although the calculation for the first factor, issue alignment, is fairly involved, this is *not* meant to be a terribly precise exercise. Instead, we just want to get a rough sense for how many potential Republican defectors or Democratic supporters there might be for Trump on contentious votes. Not to be overlooked: How easy or challenging it will be for Trump to gather the 60 votes necessary to overcome potential Democratic filibusters, a tactic that [probably won’t be going away](http://www.huffingtonpost.com/entry/key-republican-puts-dagger-in-push-to-end-filibusters_us_582caa6ae4b099512f806e7b) anytime soon.
+
+Here’s a brief description of how I calculated the score for each factor:
+
+
+Instead, I used data from [OnTheIssues.org](http://www.ontheissues.org/Donald_Trump.htm), which tracks candidates’ positions within 20 policy areas based on their public statements and voting history. The site rates candidates’ positions on a 10-point scale from -5 to +5 — for instance, on immigration, -5 represents a conservative stance (start deporting people) whereas +5 is a liberal one (amnesty for immigrants who entered the country illegally).
+
+We can calculate each senator’s similarity to Trump in the aggregate over these various issues.1 For each issue, I measured the distance between each senator’s stance and Trump’s position on the 10-point scale.2 Then I squared the result, which punishes larger differences of opinion as compared to smaller ones, and weighted each issue based on how often Trump talks about it3 — so immigration matters more than school choice, for instance. This calculation resulted in a weighted, root-mean-squared distance (RMSD) from Trump, where lower numbers meant more similarity to him.
+
+| REPUBLICANS | | | |  | DEMOCRATS | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  | SENATOR | STATE | SCORE |  |  | SENATOR | STATE | SCORE |
+| 1 | Perdue | GA | 2.6 |  | 37 | Heitkamp | ND | 4.1 |
+| 2 | Scott | SC | 3.1 |  | — | Campbell\* | LA | 4.7 |
+| 3 | Risch | ID | 3.4 |  | 52 | Warner | VA | 4.8 |
+| 4 | Sasse | NE | 3.4 |  | 54 | Donnelly | IN | 5.3 |
+| 5 | Tillis | NC | 3.4 |  | 55 | Manchin | WV | 5.3 |
+| 6 | Cassidy | LA | 3.5 |  | 56 | McCaskill | MO | 5.7 |
+| 7 | Shelby | AL | 3.6 |  | 58 | Hassan | NH | 5.8 |
+| 8 | Enzi | WY | 3.6 |  | 59 | Merkley | OR | 5.9 |
+| 9 | Sullivan | AK | 3.6 |  | 60 | Tester | MT | 5.9 |
+| 10 | Gardner | CO | 3.6 |  | 61 | Klobuchar | MN | 6.1 |
+| 12 | Johnson | WI | 3.6 |  | 62 | Shaheen | NH | 6.1 |
+| 12 | Alexander | TN | 3.6 |  | 63 | Schatz | HI | 6.1 |
+| 13 | Young | IN | 3.6 |  | 64 | King | ME | 6.1 |
+| 14 | Barrasso | WY | 3.6 |  | 65 | Casey | PA | 6.2 |
+| 15 | Cruz | TX | 3.7 |  | 66 | Carper | DE | 6.3 |
+| 16 | Rubio | FL | 3.7 |  | 67 | Booker | NJ | 6.4 |
+| 17 | Ernst | IA | 3.8 |  | 68 | Stabenow | MI | 6.4 |
+| 18 | Toomey | PA | 3.8 |  | 69 | Kaine | VA | 6.4 |
+| 19 | Daines | MT | 3.8 |  | 70 | Coons | DE | 6.5 |
+| 20 | Inhofe | OK | 3.8 |  | 71 | Heinrich | NM | 6.5 |
+| 21 | Fischer | NE | 3.8 |  | 72 | Cortez Masto | NV | 6.6 |
+| 22 | Graham | SC | 3.8 |  | 73 | Blumenthal | CT | 6.6 |
+| 23 | Burr | NC | 3.9 |  | 74 | Wyden | OR | 6.7 |
+| 24 | Hoeven | ND | 3.9 |  | 75 | Murphy | CT | 6.7 |
+| 25 | Crapo | ID | 3.9 |  | 76 | Peters | MI | 6.8 |
+| 26 | Sessions | AL | 3.9 |  | 77 | Gillibrand | NY | 6.8 |
+| 27 | Cochran | MS | 3.9 |  | 78 | Feinstein | CA | 6.9 |
+| 28 | Flake | AZ | 4.0 |  | 79 | Harris | CA | 7.0 |
+| 29 | Capito | WV | 4.1 |  | 80 | Bennet | CO | 7.0 |
+| 30 | Corker | TN | 4.1 |  | 81 | Nelson | FL | 7.0 |
+| 31 | Isakson | GA | 4.1 |  | 82 | Brown | OH | 7.0 |
+| 32 | Cotton | AR | 4.1 |  | 83 | Menendez | NJ | 7.1 |
+| 33 | Thune | SD | 4.1 |  | 84 | Sanders | VT | 7.1 |
+| 34 | Cornyn | TX | 4.1 |  | 85 | Leahy | VT | 7.1 |
+| 35 | Boozman | AR | 4.1 |  | 86 | Durbin | IL | 7.1 |
+| 36 | Lankford | OK | 4.1 |  | 87 | Reed | RI | 7.2 |
+| 38 | Wicker | MS | 4.2 |  | 88 | Schumer | NY | 7.2 |
+| 39 | Hatch | UT | 4.2 |  | 89 | Franken | MN | 7.2 |
+| 40 | Lee | UT | 4.2 |  | 90 | Hirono | HI | 7.2 |
+| 41 | Moran | KS | 4.3 |  | 91 | Warren | MA | 7.2 |
+| 42 | McConnell | KY | 4.3 |  | 92 | Whitehouse | RI | 7.3 |
+| 43 | Grassley | IA | 4.4 |  | 93 | Udall | NM | 7.3 |
+| 44 | Roberts | KS | 4.4 |  | 94 | Markey | MA | 7.4 |
+| 45 | Heller | NV | 4.5 |  | 95 | Cardin | MD | 7.4 |
+| 46 | Kennedy\* | LA | 4.5 |  | 96 | Duckworth | IL | 7.5 |
+| 47 | Blunt | MO | 4.6 |  | 97 | Baldwin | WI | 7.5 |
+| 48 | Rounds | SD | 4.6 |  | 98 | Van Hollen | MD | 7.5 |
+| 49 | Murkowski | AK | 4.7 |  | 99 | Cantwell | WA | 7.6 |
+| 50 | Portman | OH | 4.8 |  | 100 | Murray | WA | 7.7 |
+| 51 | Paul | KY | 4.8 |  |  |  |  |  |
+| 53 | McCain | AZ | 5.0 |  |  |  |  |  |
+| 57 | Collins | ME | 5.8 |  |  |  |  |  |
+Which senators are most similar to Trump?
+
+Because of Trump’s unorthodox stances, no senator is a carbon copy of him. (Perhaps that will change once Trump has been in office four years and reshapes the party in his image.) The closest, according to our similarity score, is Sen. David Perdue of Georgia, who like Trump was a wealthy businessman before running for office. And in general, senators who were first elected during the tea party era from 2010 onward are more similar to Trump than those who have held longer tenures in office. The former group includes some senators, such as Ben Sasse of Nebraska, who have [publicly feuded with Trump](https://www.facebook.com/sassefornebraska/posts/561073597391141). Their beefs with Trump may have less to do with differences over policy and more about his style of leadership and fitness for office.
+
+By contrast, a few Republican senators really don’t have much in common with Trump, policywise. Sen. Susan Collins of Maine, especially, has more differences with Trump than similarities. Arizona Sen. John McCain and Trump may both be “mavericks,” but not in a way that will necessarily be compatible with one another. Kentucky Sen. Rand Paul’s libertarian-ish views are a bad mix for Trump’s populist ones. And moderate, pro-free-market Republicans such as Ohio Sen. Rob Portman may find themselves at odds with Trump on issues such as trade.
+
+Among Democrats, Trump has some commonalities with moderate, populist Democrats such as North Dakota Sen. Heidi Heitkamp, Indiana Sen. Joe Donnelly and West Virginia Sen. Joe Manchin. Heitkamp, in particular, rates as being closer to Trump on the issues than many Republicans. Several of these Democrats also happen to be up for re-election in 2018 in states that Trump won by wide margins (more about that in a moment). Meanwhile, the least similar senators to Trump are Patty Murray and Maria Cantwell of Washington, liberal Democrats who (unlike many of their liberal compatriots) [support free trade](http://www.thestand.org/2015/06/murray-cantwell-put-fast-track-over-the-top/).
+
+(Note: for easier comparison with the other metrics, I translated the RMSD scores to a 5-point scale, where 5 indicates more similarity to Trump. You can find that calculation in the footnotes.4)
+
+
+* **1 point — endorsed Hillary Clinton.** All current and newly elected Democratic senators fall into this category, except for Foster Campbell, the Democrats’ candidate in the Louisiana runoff, who [didn’t endorse either Clinton or Trump](http://www.theadvocate.com/baton_rouge/news/politics/elections/article_8db42f6e-76da-11e6-8baf-b35428b37236.html).
+* **2 points — endorsed Evan McMullin or Gary Johnson**. This category applies only to Sen. Lindsey Graham of South Carolina, who [endorsed and then voted for McMullin](https://www.washingtonpost.com/politics/2016/live-updates/general-election/real-time-updates-on-the-2016-election-voting-and-race-results/sen-lindsey-graham-i-voted-evan-mcmullin-for-president/).
+* **3 points — didn’t endorse Trump or anyone else.** Several Republicans, [such as Collins](http://www.politico.com/story/2016/08/susan-collins-no-clinton-226822), fall into this category, including some like McCain who unendorsed Trump after the “Access Hollywood” tape surfaced.
+* **3.5 points — ambiguous on Trump**. Sen. Shelley Moore Capito of West Virginia [called on Trump](http://www.usatoday.com/story/news/politics/onpolitics/2016/10/08/donald-trump-debate-mike-crapo-mike-lee-barbara-comstock/91784714/) to “re-examine his candidacy” after the “Access Hollywood” tape, but never formally unendorsed him, nor did she ever reaffirm her original endorsement.
+* **4 points — wavered, then endorsed Trump**. These candidates eventually endorsed Trump by Election Day, but either unendorsed him at some point during the campaign before [re-endorsing him](http://www.politico.com/story/2016/10/mike-crapo-endorses-trump-again-230248), [endorsed one of his opponents](https://projects.fivethirtyeight.com/2016-endorsement-primary/) in the primary or ran against him in the primary.
+* **5 points — endorsed Trump without wavering**. Everyone else falls into this category.
+
+
+By contrast, 11 or 12 Senate Democrats will hail from states won by Trump, depending on whether Campbell wins the Louisiana runoff. But there are obviously varying degrees of Trumpiness in their states. It looks as if Trump will eventually win Michigan by a couple 10ths of a percentage point — [results](http://www.mlive.com/news/index.ssf/2016/11/michigan_election_voter_certif.html) aren’t finalized yet — but Michigan Sen. Debbie Stabenow doesn’t have as much to worry about as Heitkamp, given that Trump won North Dakota by 36 percentage points. I translated Trump’s margin of victory or defeat in each state onto a 5-point scale, as detailed in the footnotes.5
+
+
+Here are the scores for the 51 or 526 Republican senators, ranked in inverse order of their Trump support score.
+
+| SENATOR | STATE | RE-ELECT YEAR | ISSUE ALIGNMENT | PERSONAL SUPPORT | ELECTORAL INCENTIVE | TRUMP SUPPORT SCORE |
+| --- | --- | --- | --- | --- | --- | --- |
+| Collins | ME | 2020 | 2.5 | 3 | 2.5 | 2.7 |
+| Heller | NV | 2018 | 3.5 | 3 | 2.5 | 2.9 |
+| McCain | AZ | 2022 | 3 | 3 | 3.5 | 3.1 |
+| Gardner | CO | 2020 | 4 | 3 | 2.5 | 3.2 |
+| Portman | OH | 2022 | 3 | 3 | 4 | 3.2 |
+| Murkowski | AK | 2022 | 3 | 3 | 4.5 | 3.3 |
+| Flake | AZ | 2018 | 3.5 | 3 | 3.5 | 3.4 |
+| Graham | SC | 2020 | 4 | 2 | 4.5 | 3.5 |
+| Lee | UT | 2022 | 3.5 | 3 | 4.5 | 3.5 |
+| Toomey | PA | 2022 | 4 | 4 | 3 | 3.8 |
+| Paul | KY | 2022 | 3 | 4 | 5 | 3.8 |
+| Rubio | FL | 2022 | 4 | 4 | 3 | 3.8 |
+| Sullivan | AK | 2020 | 4 | 3 | 4.5 | 3.8 |
+| Capito | WV | 2020 | 3.5 | 3.5 | 5 | 4.0 |
+| Rounds | SD | 2020 | 3 | 4 | 5 | 4.0 |
+| Cruz | TX | 2018 | 4 | 4 | 4 | 4.0 |
+| Boozman | AR | 2022 | 3.5 | 4 | 5 | 4.0 |
+| Thune | SD | 2022 | 3.5 | 4 | 5 | 4.0 |
+| Tillis | NC | 2020 | 4.5 | 4 | 3.5 | 4.0 |
+| Hatch | UT | 2018 | 3.5 | 4 | 4.5 | 4.1 |
+| Blunt | MO | 2022 | 3 | 5 | 4.5 | 4.1 |
+| Kennedy\* | LA | 2022 | 3 | 5 | 4.5 | 4.1 |
+| Sasse | NE | 2020 | 4.5 | 3 | 5 | 4.2 |
+| Roberts | KS | 2020 | 3.5 | 4 | 5 | 4.2 |
+| McConnell | KY | 2020 | 3.5 | 4 | 5 | 4.2 |
+| Cochran | MS | 2020 | 4 | 4 | 4.5 | 4.2 |
+| Cornyn | TX | 2020 | 3.5 | 5 | 4 | 4.2 |
+| Grassley | IA | 2022 | 3.5 | 5 | 4 | 4.2 |
+| Isakson | GA | 2022 | 3.5 | 5 | 4 | 4.2 |
+| Johnson | WI | 2022 | 4 | 5 | 3 | 4.2 |
+| Crapo | ID | 2022 | 4 | 4 | 5 | 4.2 |
+| Burr | NC | 2022 | 4 | 5 | 3.5 | 4.3 |
+| Scott | SC | 2022 | 4.5 | 4 | 4.5 | 4.3 |
+| Daines | MT | 2020 | 4 | 4 | 5 | 4.3 |
+| Alexander | TN | 2020 | 4 | 4 | 5 | 4.3 |
+| Inhofe | OK | 2020 | 4 | 4 | 5 | 4.3 |
+| Ernst | IA | 2020 | 4 | 5 | 4 | 4.3 |
+| Wicker | MS | 2018 | 3.5 | 5 | 4.5 | 4.4 |
+| Moran | KS | 2022 | 3.5 | 5 | 5 | 4.4 |
+| Lankford | OK | 2022 | 3.5 | 5 | 5 | 4.4 |
+| Fischer | NE | 2018 | 4 | 4 | 5 | 4.4 |
+| Cotton | AR | 2020 | 3.5 | 5 | 5 | 4.5 |
+| Risch | ID | 2020 | 4.5 | 4 | 5 | 4.5 |
+| Young | IN | 2022 | 4 | 5 | 4.5 | 4.5 |
+| Corker | TN | 2018 | 3.5 | 5 | 5 | 4.6 |
+| Hoeven | ND | 2022 | 4 | 5 | 5 | 4.6 |
+| Shelby | AL | 2022 | 4 | 5 | 5 | 4.6 |
+| Sessions | AL | 2020 | 4 | 5 | 5 | 4.7 |
+| Enzi | WY | 2020 | 4 | 5 | 5 | 4.7 |
+| Cassidy | LA | 2020 | 4.5 | 5 | 4.5 | 4.7 |
+| Perdue | GA | 2020 | 5 | 5 | 4 | 4.7 |
+| Barrasso | WY | 2018 | 4 | 5 | 5 | 4.7 |
+Which Republicans might defy Trump?
+
+Collins, although she’s [reportedly](https://twitter.com/JRubinBlogger/status/799737265627004928) set to back Trump’s nomination of Jeff Sessions as Attorney General, is a good bet to be the most frequent Republican vote against Trump, not having much in common with him on the issues, never having endorsed him, and hailing from a blue state — although Maine was much closer than usual this year. Still, her vote alone wouldn’t be enough to block Trump.
+
+Instead, there’s a set of five to 10 Republican senators who might defect from Trump, depending on the circumstances. One group consists of Republicans who might be on thin ice with swing voters if Trump proves to be an unpopular president. Heller — the only Republican from a Clinton state up for re-election in 2018 — probably faces the most acute electoral pressure. Democrats will also almost certainly make a serious play for Arizona Sen. Jeff Flake’s seat in 2018 given that Arizona is trending blue and they don’t have very many alternatives, and Flake was among the more consistent Republican critics of Trump over the course of the campaign. And Gardner will face a potential toss-up race in 2020.
+
+![Senators Susan Collins, John McCain, TK, TK, TK.](https://fivethirtyeight.com/wp-content/uploads/2016/11/gop_defectors2.jpg)
+
+Senators Susan Collins, John McCain, Dean Heller, Rob Portman and Lisa Murkowski.
+
+Getty Images
+
+On the flip side are Republicans who might be free to defy Trump because they *don’t* face much electoral pressure. McCain, who just won re-election in Arizona, was a thorn in the side of George W. Bush early in his first term and could do the same to Trump. Portman, Paul, Alaska Sen. Lisa Murkowski and Utah Sen. Mike Lee also won re-election last week by commanding margins and could afford to defy Trump if they have a philosophical disagreement with him. Graham, up for re-election in 2020 and never having been all that popular with the Republican base to begin with, is in a somewhat riskier position.
+
+But if it won’t always be that easy for Trump to rustle up support from 50 Republicans, there are also times when he can probably win votes from some Democrats:
+
+| SENATOR | STATE | RE-ELECT YEAR | ISSUE ALIGNMENT | PERSONAL SUPPORT | ELECTORAL INCENTIVE | TRUMP SUPPORT SCORE |
+| --- | --- | --- | --- | --- | --- | --- |
+| Heitkamp | ND | 2018 | 3.5 | 1 | 5 | 3.4 |
+| Campbell\* | LA | 2022 | 3 | 3 | 4.5 | 3.3 |
+| Manchin | WV | 2018 | 3 | 1 | 5 | 3.3 |
+| Tester | MT | 2018 | 2.5 | 1 | 5 | 3.1 |
+| Donnelly | IN | 2018 | 3 | 1 | 4.5 | 3.1 |
+| McCaskill | MO | 2018 | 2.5 | 1 | 4.5 | 2.9 |
+| Brown | OH | 2018 | 1 | 1 | 4 | 2.3 |
+| Stabenow | MI | 2018 | 2 | 1 | 3 | 2.1 |
+| Klobuchar | MN | 2018 | 2 | 1 | 3 | 2.1 |
+| Casey | PA | 2018 | 2 | 1 | 3 | 2.1 |
+| Hassan | NH | 2022 | 2.5 | 1 | 3 | 2.0 |
+| Warner | VA | 2020 | 3 | 1 | 2 | 2.0 |
+| Shaheen | NH | 2020 | 2 | 1 | 3 | 2.0 |
+| King | ME | 2018 | 2 | 1 | 2.5 | 1.9 |
+| Baldwin | WI | 2018 | 1 | 1 | 3 | 1.9 |
+| Nelson | FL | 2018 | 1 | 1 | 3 | 1.9 |
+| Peters | MI | 2020 | 1.5 | 1 | 3 | 1.8 |
+| Kaine | VA | 2018 | 2 | 1 | 2 | 1.7 |
+| Merkley | OR | 2020 | 2.5 | 1 | 1.5 | 1.7 |
+| Franken | MN | 2020 | 1 | 1 | 3 | 1.7 |
+| Heinrich | NM | 2018 | 1.5 | 1 | 2 | 1.6 |
+| Bennet | CO | 2022 | 1.5 | 1 | 2.5 | 1.5 |
+| Cortez Masto | NV | 2022 | 1.5 | 1 | 2.5 | 1.5 |
+| Booker | NJ | 2020 | 2 | 1 | 1.5 | 1.5 |
+| Coons | DE | 2020 | 2 | 1 | 1.5 | 1.5 |
+| Carper | DE | 2018 | 2 | 1 | 1.5 | 1.5 |
+| Murphy | CT | 2018 | 1.5 | 1 | 1.5 | 1.4 |
+| Schatz | HI | 2020 | 2 | 1 | 1 | 1.3 |
+| Udall | NM | 2020 | 1 | 1 | 2 | 1.3 |
+| Blumenthal | CT | 2022 | 1.5 | 1 | 1.5 | 1.3 |
+| Wyden | OR | 2022 | 1.5 | 1 | 1.5 | 1.3 |
+| Cantwell | WA | 2018 | 1 | 1 | 1.5 | 1.2 |
+| Whitehouse | RI | 2018 | 1 | 1 | 1.5 | 1.2 |
+| Menendez | NJ | 2018 | 1 | 1 | 1.5 | 1.2 |
+| Harris | CA | 2022 | 1.5 | 1 | 1 | 1.2 |
+| Durbin | IL | 2020 | 1 | 1 | 1.5 | 1.2 |
+| Reed | RI | 2020 | 1 | 1 | 1.5 | 1.2 |
+| Feinstein | CA | 2018 | 1.5 | 1 | 1 | 1.1 |
+| Gillibrand | NY | 2018 | 1.5 | 1 | 1 | 1.1 |
+| Duckworth | IL | 2022 | 1 | 1 | 1.5 | 1.1 |
+| Murray | WA | 2022 | 1 | 1 | 1.5 | 1.1 |
+| Van Hollen | MD | 2022 | 1 | 1 | 1 | 1.0 |
+| Hirono | HI | 2018 | 1 | 1 | 1 | 1.0 |
+| Markey | MA | 2020 | 1 | 1 | 1 | 1.0 |
+| Warren | MA | 2018 | 1 | 1 | 1 | 1.0 |
+| Leahy | VT | 2022 | 1 | 1 | 1 | 1.0 |
+| Cardin | MD | 2018 | 1 | 1 | 1 | 1.0 |
+| Sanders | VT | 2018 | 1 | 1 | 1 | 1.0 |
+| Schumer | NY | 2022 | 1 | 1 | 1 | 1.0 |
+Which Democrats might support Trump?
+
+Heitkamp, Manchin and Donnelly (and Campbell, if he wins the Louisiana runoff) are probably the biggest defection risks for Democrats, not being all that far apart from Trump on the issues and coming from extremely red states that are voting again in 2018. Sen. Jon Tester of Montana and Sen. Claire McCaskill of Missouri also face tough re-election bids, but they’re further removed from Trump on the issues and have a track record of standing with their party on major votes.
+
+![Senators Heidi Heitkamp, TKTKTKT.](https://fivethirtyeight.com/wp-content/uploads/2016/11/dem_defectors2.jpg)
+
+Senators Heidi Heitkamp, Joe Manchin, Joe Donnelly, Jon Tester and Claire McCaskill.
+
+Getty Images
+
+But if the bad news for Democrats is that three to six of their votes could potentially be in play depending on the issue, the good news is that the rest of their senators are likely to be pretty unified. Because Democrats lost so many Senate races in swing states in 2014 and 2016, most of their remaining senators come from reliably blue states, and also have reliably liberal voting records. Some 43 Democrats have a Trump support score of 2.0 or lower, which is two more than they need to sustain a filibuster.
+
+In short, the Senate — after a relatively dormant period during President Obama’s second term — will be the center of attention again once Trump enters office. There will potentially be a fair amount of party crossover, with Democratic senators supporting Trump and Republican ones opposing him, sometimes on the same vote. Relatively minor differences in Trump’s popularity could make a big difference in whether his agenda is passed or stymied, as these senators calculate the impact of their vote in 2018 or 2020. And special elections — such as the one that brought Massachusetts’ Scott Brown into the Senate in 2010 — could make a big difference. But with a large GOP majority in the House of Representatives, the Senate will be the closest thing to a check on Trump’s power until voters go to the polls again.

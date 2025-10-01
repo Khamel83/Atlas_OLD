@@ -1,0 +1,316 @@
+# Revealed: The brutal reality for mechanics as F1's calendar expands
+
+**Source**: https://www.motorsport.com/f1/news/revealed-the-brutal-reality-for-mechanics-as-f1s-calendar-expands/6960259/amp/
+**Type**: article
+**Created**: 2025-08-13T15:31:39.855215
+
+---
+
+title: Revealed: The brutal reality for mechanics as F1's calendar expands
+source: https://www.motorsport.com/f1/news/revealed-the-brutal-reality-for-mechanics-as-f1s-calendar-expands/6960259/amp/
+date: 2025-08-13T15:31:37.355776
+tags: []
+---
+Grand prix racing’s chiefs have always tried to give the impression that they
+are doing their best to manage the difficulties those that working in the
+pitlane face.
+
+However, as F1’s calendar looks set to explode even more in the future, and
+triple headers are now the norm, many within the paddock have expressed some
+private concerns that they don’t appear to be being listened to, as things
+look set to get even worse for them in the future.
+
+While some team bosses have cruelly suggested that anyone who doesn’t like the
+gruelling work demands can simply go and find another job outside F1, losing a
+bunch of staff needlessly through burnout is not a solution that suits the
+sport best for the long term.
+
+Motorsport.com has heard the story of what life is really like on the road for
+a mechanic right now, and just why things are close to a breaking point.
+
+Speaking anonymously to a team member who travels with the F1 circus, he
+reveals how life has changed for mechanics in recent years, what impact the
+bigger calendar is having for those in the garages, and just what F1 can do to
+help make a better future for all those involved.
+
+Here are his words...
+
+## The mechanic's viewpoint
+
+There is no hiding from the fact that life on the road as a Formula 1 mechanic
+is tough. It has always been that way, and none of us do it because we are
+after an easy time.
+
+We all love F1, and know that being a part of grand prix racing is something
+that requires you to dig deep.
+
+But, as the calendar has expanded and the triple-headers become a norm, things
+have hit a breaking point for a lot of people who work in the garages.
+
+The working hours are a lot. From the Wednesday before a race until the Sunday
+night afterwards, it's a minimum of 12-hour days every day. You don't realise
+what that takes out of you until you go back to work in the factory and a
+normal eight-hour day is almost comical because it feels so short!
+
+In fact, you don't realise what an abnormal life it is on the road until you
+actually come back home.
+
+What makes it especially tough is the fact that it is so relentless, with no
+recovery time. You work from the moment you get off the plane, and that can be
+after a really crappy flight where you have been crammed in economy class and
+got little to no sleep.
+
+After the end-of-season triple-header in Mexico, Brazil, and Qatar, the
+combination of punishing economy flights, late timetables and timezone changes
+meant everyone was absolutely shattered, and that is when I think I saw people
+struggling the most.
+
+The peak tiredness when it hits is a horrible, horrible thing. When you are
+away from your loved ones and on the road, you can feel so alone.
+
+Then, when you are coming home on a Monday morning or Monday evening, and you
+haven't slept properly in days, that then affects how you feel in your
+personal time. It means your relationships can suffer – either because you are
+agitated with your partners or you've got other things on your mind. And
+that's not fair on you nor them.
+
+You are not just mentally fatigued, you are physically drained as well. As the
+season wears on, there are a hell of lot of injuries happening. The teams do
+have doctors and physios to help look after you, but the easiest solution is
+to pump you with painkillers to just keep you going. There is no way in a
+million years that a regular doctor would give you what we are given to keep
+us going.
+
+For those that don't want to go down the painkiller route, they turn to
+alcohol, and that's not especially good either.
+
+![Max Verstappen, Red Bull Racing RB16B, arrives on the busy pre race
+grid](//cdn-2.motorsport.com/images/mgl/6D1nZG70/s8/max-verstappen-red-bull-
+racing-1.jpg)
+
+Max Verstappen, Red Bull Racing RB16B, arrives on the busy pre race grid
+
+Photo by: Simon Galloway / [Motorsport
+Images](https://www.motorsportimages.com)
+
+On top of all this, the COVID rules have added another stress point,
+especially as teams like to manage the timing of the tests in terms of what is
+best for them rather than what is best for the individual.
+
+Some teams don't want you to test too early in case that puts you out for
+qualifying or the race. Instead they prefer for you to wait until as late as
+you can for your pre-return PCR.
+
+But if there is a problem and the test result doesn't come back for any
+reason, then it's the mechanic who suffers as he has to stay away from home
+for yet another day to go and get retested.
+
+One day extra doesn't seem a lot, but it all adds up when everyone is so tired
+and just wants to be home with their loved ones. It is typical of a lack of
+empathy from the teams about what they are putting people through.
+
+Between the stress of test results being processed in time so we can all go
+home, the requirement to self-isolate in the UK, and the calendar changes on
+short notice, we have had to give up so much of our lives to F1 so that people
+at the top can make more money while we get nothing in return.
+
+On top of the sheer tiredness and being away from home so much, it is
+difficult to balance the relentlessness of it with the really high
+expectations that are placed upon everyone in the garage to work at their
+highest level. Nobody wants to make a car in which a driver retires or
+crashes, so everyone is absolutely wired into it.
+
+And that just adds to the stress. The drivers, and all the factory personnel,
+are relying on you to perform at 100% and not to make any errors. But anyone
+can make mistakes. We're only human, and I've made plenty in my time.
+
+When you do, there is just this silent disappointment from others. You get
+asked about why you let it happen, why you weren't more aware of things, and
+it's difficult to take that in on top of everything else.
+
+Then you start doubting yourself. It throws you, and you risk making even more
+mistakes because you start getting more stressed about it. It's mentally
+fatiguing.
+
+The pressures of all that, plus the tiredness triggered by the number of races
+and the triple-headers, has got to a point where the atmosphere in the garages
+can be very toxic at times.
+
+And that toxicity comes from being in a competitive arena. It's almost like a
+corporate environment where you're trying to climb the ladder but people
+aren't getting anywhere so they end up being horrible to others.
+
+There is a lot of banter but it can get nasty very quickly. I've seen it a lot
+of times where it's been funny but has then crossed the line a bit too much,
+and the humour has become too dark.
+
+It can have a negative impact on some members within the team who have
+insecurities regarding their appearance, sexuality, or work status.
+Exacerbating those insecurities can lead to depression and everything that
+comes with it like social isolation and an unhealthy lifestyle.
+
+It's a toxicity caused because everyone is on top of each other all the time:
+there is no getting away to have a little bit of a breather.
+
+The guys are having to build the car, then straight after they might have to
+go and build the gearbox and then they might have to go and do the suspension.
+There isn't even half an hour for some lunch sometimes, as you feel you need
+to wolf your food down to get back to work.
+
+![The standard night-time curfew sign outside the paddock entrance swipe
+gates](//cdn-4.motorsport.com/images/mgl/6l97dX40/s8/the-standard-night-time-
+curfew-1.jpg)
+
+The standard night-time curfew sign outside the paddock entrance swipe gates
+
+Photo by: Sam Bloxham / [Motorsport Images](https://www.motorsportimages.com)
+
+Teams have tried to do their bit to improve things, and there are things that
+are better now than a few years ago.
+
+The curfew has helped a bit, and of course we don't have to do a whole bunch
+of testing between races like there was a few decades ago.
+
+On hotel rooms, we did used to have to share rooms, but now a lot of teams
+have realised that giving everyone single rooms doesn't really affect their
+budget too much. And the positive reaction they're getting from the people due
+to that is is very beneficial for the teams.
+
+However, the mental health awareness on teams’ social media is often about the
+drivers, but not the rest of their workforce.
+
+You get the impression that the top management don’t want to assess their
+mechanics and technicians as they’ll be scared of the results. If they know
+the results, they know that they have to act upon them, and ultimately a
+mechanic isn’t important enough to worry about nor spend extra money on.
+
+That just then leaves some of us feeling that if you do mentally break down –
+and I know some colleagues who have – there is no extra support for us. No one
+is going to come and catch us.
+
+Often when people talk about the stresses and strains of the mammoth F1
+calendar, they say that if you don't like it then you can leave. Some team
+bosses have even said as much.
+
+But that attitude just shows how out of touch some are with the reality of
+what is needed in F1, and this belief that you can simply slot in replacement
+staff like fresh light bulbs.
+
+All that will be left, if you push everyone over the edge, is having kids
+doing the job. You won't find great mechanics, you won't find great
+technicians, and the sport as a whole will fail because it is no longer about
+the best staff working for the best teams who attract the best drivers.
+
+If any teams think they can promote someone fresh and young from a junior
+category with no experience, and expect them to win championships in the
+future, then they’re not understanding the reality of the sport.
+
+Just like any master craftsman, you need the experienced person to pass on
+their knowledge to create the best product. F1 isn’t too far from that, and
+you need the previous generation to teach the new generation. Without that, a
+team won’t succeed in being the best.
+
+I feel that F1 is close to a tipping point, with the calendar getting longer
+and the sport's bosses thinking they can keep rolling out the triple-headers.
+
+So many people have talked about quitting this year and that hasn't happened
+any other years that I've been involved in the sport.
+
+Normally at the end of the season there are two or three team members who
+decide they don't want to keep going to the races. But this year there have
+been so many more people talking about the need to get out. I think with
+COVID, people are realising that there is a life outside of F1.
+
+I worry about the long-term future too because on top of all the stress and
+strain caused by the schedule, the mechanics are also paying a big price for
+the cost cap.
+
+The wages of a mechanic have pretty much flatlined over the past 20 years –
+and what motivation does that give you for the amount of time, mental and
+physical effort that you are putting in over your years in the sport?
+
+In addition, because teams are trying to keep a lid on spending due to the
+cost cap, they simply cannot afford to hand out pay rises that keep up with
+inflation. So it's going to stall wages, and kill the job market in F1 as it
+will fall behind other series.
+
+There is a weird scenario where we are almost better off going to work in
+Formula 2, Formula E or WEC for slightly less money, but do almost half the
+number of races and not have to put up with all the hassles of a 23-race
+schedule. It should not be like that.
+
+It also means for those who love F1, and who can put up with the stresses,
+that there just isn't the scope to plot a normal career path. In the past you
+could aspire to move up to be number one mechanic, to chief mechanic and then
+even higher. And each time getting a decent pay hike.
+
+That path doesn't exist anymore because the pay grades just aren't there – and
+if the staff inside the sport can't see a future, then how on earth can F1
+expect to attract the most promising individuals from outside?
+
+And does it make sense for the cost cap to exempt the highest paid staff in
+the team who already enjoy many more luxuries than those working on the garage
+floor?
+
+I think team management and those who run F1 are aware of what's going on, but
+I don't think they fully understand it, which is why there isn't an urgency to
+make changes that would help everyone.
+
+If F1 does nothing and doesn't react to what a lot of mechanics feel, then you
+are just going to end up with a high turnover of people, and that is going to
+hurt the teams the most.
+
+I'm not sure if it's just the working staff who think that 23 races is too
+much: I sense even the fans think that a run of triple-headers is not great.
+It feels like the sport is being cheapened in a way, where each race is no
+longer as valuable and important because there are now so many.
+
+And why isn't there more consideration for a calendar that works better for
+staff? Why, for example, are we going from Azerbaijan straight to Canada next
+year? It doesn't make any sense at all, especially when a Turkey/Baku run
+would be much more sensible.
+
+![Mechanics clear the grid as the drivers prepare to begin the formation
+lap](//cdn-5.motorsport.com/images/mgl/6O1g1XG2/s8/mechanics-clear-the-grid-
+as-th-1.jpg)
+
+Mechanics clear the grid as the drivers prepare to begin the formation lap
+
+Photo by: Glenn Dunbar / [Motorsport Images](https://www.motorsportimages.com)
+
+There are some solutions though that would help us a lot.
+
+Of course, wages are always important. There needs to be a rethink about the
+pay structure in the sport to ensure that those on the front line aren't being
+hurt the most by the cost cap.
+
+For what would seem like a small pay rise for the bosses would make a massive
+difference to a lot of us on the ground.
+
+Also, why not get us out of our cramped economy plane seats for some of the
+more gruelling races, just so when we land we are in much improved shape to do
+a better job for the teams?
+
+And what about pushing more for a staff rotation system, so we keep the best
+team members refreshed and motivated for the entire season? I know one team
+has tried resting mechanics for a few races this year and it has made a big
+difference.
+
+But perhaps the biggest thing that would help is a bit of empathy from the top
+of F1.
+
+We all do this job because we love grand prix racing, but there comes a point
+where our mental and physical well-being needs to take priority over the needs
+of the sport to keep pumping out the races.
+
+More downtime for exercise and for recovery, some proper health checks to
+ensure we can perform at our very best, and just a better understanding of
+what our life is really like when you hit those brutal low points in the
+middle of yet another triple-header, would mean the world.
+
+In this article
+
+Be the first to know and subscribe for real-time news email updates on these
+topics
+
+Subscribe to news alerts

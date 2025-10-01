@@ -1,0 +1,354 @@
+# Ramadan 2017 9 questions about the Muslim holy month you were too embarrassed to ask Vox - All
+
+**Source**: https://www.vox.com/2017/5/25/11851766/what-is-ramadan-2017-muslim-islam-about
+**Type**: article
+**Created**: 2025-08-13T17:16:50.023828
+
+---
+
+title: 9 questions about Ramadan you were too embarrassed to ask | Vox
+source: https://www.vox.com/2017/5/25/11851766/what-is-ramadan-2017-muslim-islam-about
+date: 2025-08-13T17:16:48.674802
+tags: []
+---
+Ramadan is the Muslim holy month, and most of the world’s [estimated 1.8
+billion](https://www.pewresearch.org/religion/wp-
+content/uploads/sites/7/2017/04/FULL-REPORT-WITH-APPENDIXES-A-AND-B-
+APRIL-3.pdf) Muslims will observe it in some form.
+
+Which means there’s a good chance you — or a friend, a coworker, a neighbor,
+your child’s teacher — will be celebrating, fasting, and doing all sorts of
+other activities that are unique to the holy month.
+
+But what is Ramadan, exactly? What’s the deal with fasting? And is there
+anything special you should do or say when you’re around Muslim friends and
+acquaintances during Ramadan?
+
+Don’t worry, we’ve got you covered: Here are the most basic answers to the
+most basic questions about Ramadan.
+
+## 1) What is Ramadan actually about?
+
+Ramadan is the most sacred month of the year for Muslims — the [Prophet
+Mohammed](http://sunnah.com/bukhari/30/9) reportedly said, “When the month of
+Ramadan starts, the gates of heaven are opened and the gates of hell are
+closed and the devils are chained.”
+
+Muslims believe it was during this month that God revealed the first verses of
+the Quran, Islam’s sacred text, to Mohammed, on a night known as “The Night of
+Power” (or Laylat al-Qadr in Arabic).
+
+During the entire month of Ramadan, Muslims fast every day from dawn to
+sunset. It is meant to be a time of spiritual discipline — of deep
+contemplation of one’s relationship with God, extra prayer, increased charity
+and generosity, and intense study of the Quran.
+
+But if that makes it sound super serious and boring, it’s really not. It’s a
+time of celebration and joy, to be spent with loved ones. At the end of
+Ramadan, there’s a big three-day celebration called Eid al-Fitr, or the
+Festival of the Breaking of the Fast.
+
+It’s kind of like the Muslim version of Christmas, in the sense that it’s a
+religious holiday where everyone comes together for big meals with family and
+friends, exchanges presents, and generally has a lovely time.
+
+## 2) How does fasting work?
+
+Fasting during Ramadan is one of the five pillars — or duties — of Islam,
+along with the testimony of faith, prayer, charitable giving, and making a
+pilgrimage to Mecca. All Muslims are required to take part every year, though
+there are special dispensations for those who are ill, pregnant or nursing,
+menstruating, or traveling, and for young children and the elderly.
+
+The practice of fasting serves several spiritual and social purposes: to
+remind you of your human frailty and your dependence on God for sustenance, to
+show you what it feels like to be hungry and thirsty so you feel compassion
+for (and a duty to help) the poor and needy, and to reduce the distractions in
+life so you can more clearly focus on your relationship with God.
+
+During Ramadan, Muslims abstain from eating any food, drinking any liquids,
+smoking cigarettes, and engaging in any sexual activity, from dawn to sunset.
+That includes taking medication (even if you swallow a pill dry, without
+drinking any water). Chewing gum is also prohibited (though I didn’t find that
+one out until about halfway through my first Ramadan after converting — oops).
+
+Doing any of those things “invalidates” your fast for the day, and you just
+start over the next day. To make up for days you didn’t fast, you can either
+fast later in the year (either all at once or a day here and there) or provide
+a meal to a person in need for each day you missed.
+
+Muslims are also supposed to try to curb negative thoughts and emotions like
+jealousy and anger, and even lesser things like swearing, complaining, and
+gossiping, during the month. Some people may also choose to give up or limit
+activities like listening to music and watching television, often in favor of
+listening to recitations of the Quran.
+
+## 3) What is a typical day like during Ramadan?
+
+During Ramadan, Muslims wake up well before dawn to eat the first meal of the
+day, which has to last until sunset. This means eating lots of high-protein
+foods and drinking as much water as possible right up until dawn, after which
+you can’t eat or drink anything.
+
+At dawn, we perform the morning prayer. Since it’s usually still pretty early,
+many go back to sleep for a bit before waking up again to get ready for the
+day (I certainly do).
+
+Muslims are not supposed to avoid work or school or any other normal duties
+during the day just because we are fasting. In many Muslim countries, however,
+businesses and schools may [reduce their
+hours](https://www.thepeninsulaqatar.com/article/10/05/2018/Qatar-government-
+announces-official-working-hours-during-Ramadan) during the day or close
+entirely. For the most part, though, Muslims go about their daily business as
+we normally would, despite not being able to eat or drink anything the whole
+day.
+
+When the evening call to prayer is _finally_ made (or when the alarm on your
+phone’s Muslim prayer app goes off), we break the day’s fast with a light meal
+— really more of a snack — called an iftar (literally “breakfast”), before
+performing the evening prayer. Many people also go to the mosque for the
+evening prayer, followed by a special prayer that is only recited during
+Ramadan.
+
+People perform the Friday prayer at the Lagos Central Mosque in Lagos on March
+8, 2024, ahead of the holy fasting month of Ramadan.  Benson Ibeabuchi/AFP via
+Getty Images
+
+Decorations hang from a vendor’s stall as people shop for Ramadan lanterns
+outside the historic Sayyida Zeinab mosque in central Cairo on March 7, 2024.
+Amir Makar/AFP via Getty Images
+
+This is usually followed by a larger meal a bit later in the evening, which is
+often shared with family and friends in one another’s homes throughout the
+month. Then it’s off to bed for a few hours of sleep before it’s time to wake
+up and start all over again.
+
+(Note: There are good reasons for only having a small snack to break your fast
+before performing the evening prayer and then eating a bigger meal later.
+Muslim prayers involve a lot of movement — bending over, prostrating on the
+ground, standing up, etc. Doing all that physical activity on a full stomach
+after not having eaten for 15 hours is a recipe for disaster. Just trust me on
+this one.)
+
+Despite the hardship of fasting for a whole month, most Muslims (myself
+included) actually look forward to Ramadan and are a little sad when it’s
+over. There’s just something really special about knowing that tens of
+millions of your fellow Muslims around the world are experiencing the same
+hunger pangs, dry mouth, and dizzy spells that you are, and that we’re all in
+it together.
+
+## 4) So do you lose weight during Ramadan?
+
+Some of you may be thinking, “Wow, that sounds like a great way to lose
+weight! I’m going to try it!” But in fact, Ramadan is actually notorious for
+often causing weight _gain_. That’s because eating large meals super early in
+the morning and late at night with a long period of low activity bordering on
+lethargy in between can wreak havoc on your metabolism.
+
+One [meta-analysis](http://www.ncbi.nlm.nih.gov/pubmed/23182306) of scientific
+studies on the effects of Ramadan fasting on body weight found that “[w]eight
+changes during Ramadan were relatively small and mostly reversed after
+Ramadan, gradually returning to pre-Ramadan status. Ramadan provides an
+opportunity to lose weight, but _structured and consistent lifestyle
+modifications are necessary to achieve lasting weight loss_.” [Italics mine.]
+
+So just like with any other extreme diet plan, you may lose a few pounds, but
+unless you actually make “structured and consistent lifestyle modifications,”
+you’re probably not going to see major, lasting results.
+
+## 5) Why do the dates of Ramadan change every year?
+
+For religious matters, Muslims follow a lunar calendar — that is, one based on
+the phases of the moon — whose 12 months add up to approximately 354 days.
+That’s 11 days shorter than the 365 days of the standard Gregorian calendar.
+Therefore, the Islamic lunar calendar moves backward approximately 11 days
+each year in relation to the regular Gregorian calendar.
+
+So that means that the first day of the month of Ramadan, which is the ninth
+month of the Islamic lunar calendar, moves backward by about 11 days each
+year.
+
+This has a large impact on how people experience Ramadan from year to year.
+When Ramadan falls in the winter, it’s much easier to fast: the days are
+shorter, which means you don’t have to fast as long, and it’s colder out, so
+not being able to drink water all day isn’t as big of a deal because you’re
+not sweating as much.
+
+Conversely, when Ramadan falls in the summer, fasting can be brutal. In many
+Muslim countries in the Middle East and Africa, summer temperatures can [reach
+levels](http://www.foxnews.com/world/2015/07/16/in-iraq-searing-ramadan-
+temperatures-prompt-holiday-for-some-while-others-brave.html) usually reserved
+for [the deepest bowels of
+hell](https://www.nytimes.com/2020/07/31/world/middleeast/Middle-East-heat-
+wave.html).
+
+And in some Northern European countries such as Iceland, Norway, and Sweden
+(where, yes, there are Muslims), fasting can last an average of [_20 hours or
+more_](http://english.alarabiya.net/en/life-style/art-and-
+culture/2015/06/13/How-long-is-the-world-fasting-this-Ramadan-A-country-
+rundown-.html) in the summer. (And in a few places above the Arctic Circle,
+the sun never actually sets in the summer. In these cases, [Muslim religious
+authorities have
+decreed](http://www.theatlantic.com/international/archive/2013/07/how-to-fast-
+for-ramadan-in-the-arctic-where-the-sun-doesnt-set/277834/) that Muslims can
+either fast along with the closest Muslim country or fast along with Mecca,
+Saudi Arabia.)
+
+## 6) Okay, but why is there always confusion every year about exactly what
+day Ramadan starts on?
+
+There’s a reason “Ramadan start date” is one of the most-searched phrases
+every single year. That’s because Muslims around the world do not know when
+exactly Ramadan is actually supposed to start.
+
+That also has to do with the moon — as well as disagreements about science,
+history, and tradition, plus a bit of geopolitical rivalry.
+
+The beginning of each new month in the Islamic calendar starts on the new
+moon. Which means the month of Ramadan starts on the new moon. Simple enough,
+right?
+
+If it’s been a while since your high school astronomy class, here’s a reminder
+of what the phases of the moon look like:
+
+The phases of the moon. Getty Images/iStockphoto
+
+Back in Mohammed’s day, in sixth-century Arabia, astronomical calculations
+weren’t as precise as they are today, so people went by what they could see
+with the naked eye.
+
+Since the new moon isn’t actually super visible in the night sky (as you can
+see above), Muslims traditionally waited to start fasting until the small
+sliver of crescent moon became visible. There’s even [a saying attributed to
+the Prophet
+Mohammed](http://www.islamicity.com/mosque/sunnah/bukhari/031.sbt.html) about
+waiting to start the fast until you see the crescent. (Some people think this
+is why the star and crescent is the symbol of Islam, but the crescent was used
+as a symbol long before Islam.)
+
+This method was a bit messy, though, since things like clouds or just the
+difficulty of spotting the moon in some locations often led to different
+groups starting their fast on separate days, even within the same country.
+Each community, village, or even mosque within the village might send its own
+guy out to look for the crescent, with rival groups arguing over whether the
+other guy really saw it.
+
+Today, however, we have precise scientific calculations that tell us exactly
+when the new moon begins, and we don’t need to wait until someone spots a tiny
+crescent in the sky. (In fact, according to the [Oxford Dictionary of
+Islam](http://www.oxfordislamicstudies.com/article/opr/t125/e845?_hi=10&_pos=1),
+“The need to determine the precise appearance of the hilal [crescent moon] was
+one of the inducements for Muslim scholars to study astronomy.”)
+
+So problem solved! Except that some Muslim scholars believe we should still
+wait until the slight crescent moon is visible in the night sky because that’s
+what Mohammed said to do and that’s the way we’ve always done it.
+
+[Others argue](http://www.islamicity.org/2719/moon-sighting-vs-moon-fighting/)
+that Islam has a strong tradition of reason, knowledge, and science, and that
+if Mohammed were around today, he’d choose the more precise scientific
+calculations over sending the guy at the mosque with the best eyesight outside
+to squint at the night sky.
+
+To make things even more fun, some argue that the whole world should just
+follow the official moon-sighting decrees of Saudi Arabia, the birthplace of
+Islam and the location of its holiest sites.
+
+But not everyone thinks that’s such a swell idea — especially rival countries
+like Pakistan and Iran, which balk at the idea of treating Saudi Arabia as the
+ultimate authority on anything having to do with Islam.
+
+## 7) Are there differences between how Sunni Muslims and Shia Muslims observe
+Ramadan?
+
+For the most part, no. Both Sunni and Shia Muslims fast during Ramadan. But
+there are some minor differences — for instance, [Sunnis break their daily
+fast at
+sunset](http://content.time.com/time/specials/packages/article/0,28804,2086309_2086333_2086319,00.html),
+when the sun is no longer visible on the horizon (but there’s still light in
+the sky), whereas Shia wait until the redness of the setting sun has
+completely vanished and the sky is totally dark.
+
+Shia also celebrate an additional holiday within the month of Ramadan that
+Sunnis do not. For three days — the 19th, 20th, and 21st days of Ramadan —
+Shia commemorate the martyrdom of Ali ibn Abi Talib, the cousin and son-in-law
+of the Prophet Mohammed who was both the revered fourth caliph of Sunni Islam
+and the first “legitimate” imam (leader) of Shia Islam.
+
+Ali was assassinated in the fierce civil wars that erupted following the death
+of Mohammed over who should lead the Muslim community in his stead. On the
+19th day of the month of Ramadan, while Ali was worshipping at a mosque in
+Kufa, Iraq, an assassin from a group of rebels who opposed his leadership
+fatally struck him with a poisoned sword. Ali died two days later.
+
+Ali is a hugely important figure in Shia Islam. His tomb in nearby Najaf,
+Iraq, is the third-holiest site in Shia Islam, and millions of Shia make a
+pilgrimage there every year. Although Sunnis revere Ali as one of the four
+“rightly guided” caliphs who ruled after Mohammed’s death, they do not
+commemorate his death or make a pilgrimage to his tomb.
+
+Dozens of Muslims participate in prayer on the day of the Feast of the Lamb,
+Eid al Adha, on June 29, 2023, in Ceuta, Spain. Antonio Sempere/Europa Press
+via Getty Images
+
+## 8) What can I do to be respectful of my Muslim friends during Ramadan?
+
+In some Muslim countries, it is a crime to eat and drink in public during the
+day in the month of Ramadan, even if you’re not Muslim.
+
+Of course, this is not the case in the United States, where we enjoy freedom
+of (and freedom from) religion. And most American Muslims, myself included,
+don’t expect the non-Muslims around us to radically change their behavior to
+accommodate our religious fast during Ramadan.
+
+I’ve had friends and coworkers who have chosen to fast along with me out of
+solidarity (or just because it seems “fun”), and that was sweet of them, but
+it’s not something I ever expect people to do. (Plus, they usually last about
+three days before they decide solidarity is overrated and being thirsty for 15
+hours is not remotely “fun.”)
+
+All that said, there are things you can do, and not do, to make things a
+little easier for friends or colleagues who happen to be fasting for Ramadan.
+If you share an office with someone fasting, maybe eat your delicious, juicy
+cheeseburger in the office break room rather than at your desk, where your
+poor, suffering Muslim coworkers will have to smell it and salivate (if they
+even have enough moisture left in their bodies to salivate at that point).
+
+Try to remember not to offer them a bite or a sip of what you’re eating,
+because it’s sometimes hard for us to remember that we’re fasting and easy to
+absentmindedly accept and eat that Lay’s potato chip you just offered us. But
+if you do, it’s okay. We’re not going to get mad or be offended (unless you’re
+doing it on purpose, in which case, what is wrong with you?).
+
+If you’re having a dinner party and you want to invite your Muslim friends,
+try to schedule it after sunset so they can eat. Muslims don’t drink alcohol
+or eat pork, but we usually don’t mind being around it.
+([Contrary](http://www.cnn.com/2015/12/08/politics/philadelphia-mosque-pigs-
+head/) to [popular belief](https://www.rt.com/usa/344750-texas-bair-shoot-
+muslims/), we are not scared of or allergic to pork; we just don’t eat it.
+It’s not like we’re vampires and pork is garlic.) But do let us know if
+there’s alcohol or pork in something so we don’t accidentally consume it.
+
+If you want to wish your Muslim friends or acquaintances a happy Ramadan or
+happy Eid al-Fitr, you’re welcome to just say, “Happy Ramadan!” or “Happy
+Eid!” That’s not offensive or anything. But if you want to show them you made
+an effort to learn more about their religion, the standard greetings are
+“Ramadan/Eid kareem” (which means “have a generous Ramadan/Eid”) or
+“Ramadan/Eid mubarak” (which means “have a blessed Ramadan/Eid”).
+
+Even something as simple as learning one of those expressions and saying it
+with a smile to your Muslim friends will go a long way toward making them feel
+comfortable and welcome.
+
+## 9) So if you’re not supposed to get angry or complain or gossip during
+Ramadan, how come terror attacks by groups like
+[ISIS](http://qz.com/439226/isils-call-for-a-ramadan-surge-is-un-islamic-and-
+highly-effective/) and [al-
+Qaeda](http://www.nbcnews.com/id/14920246/ns/world_news-mideast_n_africa/t/us-
+general-more-violence-during-ramadan/#.V1NiBZMrLBI) sometimes spike during
+Ramadan?
+
+Because terrorists are assholes.
+
+_**Update, March 7, 2024, 3 pm ET:** This story was originally published in
+2017, and has been updated with new dates and to remove outdated references. _

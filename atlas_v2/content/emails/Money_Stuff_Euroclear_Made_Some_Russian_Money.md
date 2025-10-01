@@ -1,0 +1,373 @@
+# Money Stuff: Euroclear Made Some Russian Money
+
+**Source**: inputs/saved_emails/Money Stuff Euroclear Made Some Russian Money_Thu,_26_Oct_2023_14-12-04_-0400_(EDT)_18b6d2fc97d12261.eml
+**Type**: email
+**Created**: 2025-08-25T02:54:06.339181
+
+---
+
+Programming note: Money Stuff will be off tomorrow, back on Monday.Consider a Russian oligarch who invested some money in the bonds of a Ger
+      
+    
+  
+  
+    
+      
+        
+          
+          
+        
+        
+          
+            
+          
+        
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          Programming note: Money Stuff will be off tomorrow, back on Monday.
+
+  
+    
+      Euroclear
+    
+  
+
+Consider a Russian oligarch who invested some money in the bonds of a German company a few years ago. After Russia invaded Ukraine, the oligarch was subjected to comprehensive sanctions by the European Union, forbidding anyone in the EU from doing any business with him. His bonds are trapped at an EU brokerage and he can’t sell them. But then the bonds mature and the German company has to pay them back. But it can’t send money to the oligarch. What happens? Who gets the money?
+You could imagine various theoretical possibilities:
+	The oligarch gets the money: Sure you’re not generally supposed to send him money, but this is just repayment of a preexisting debt, so it doesn’t count. 	The company keeps the money: It’s just random windfall; the sanctions caused some of its bonds to disappear.	The EU gets the money: The sanctions operate as a form of forfeiture, and instead of paying back the oligarch the company sends the bond repayment to the EU, which then spends it on defense or Ukraine aid or whatever.
+
+But the delightful actual answer is that Euroclear gets the money. The Financial Times reports:
+
+Euroclear has earned just over €3bn so far this year from Russian assets frozen at the securities depository by EU sanctions, in a windfall that is likely to crank up the pressure on European leaders to channel the profits to Ukraine.
+The Belgium-based group said on Thursday that income related to trapped Russian assets jumped in the first nine months of the year from €347mn in the same period in 2022, propelled by rising interest rates.
+The sharp rise is uncomfortable for Euroclear, which has been sitting on Russian assets since Russian president Vladimir Putin ordered the full-scale invasion of Ukraine, because the EU’s subsequent sanctions on Moscow mean it cannot move funds to Russian banks. Millions of securities deals a day are tracked and settled at the Brussels-based group.
+About €197bn Russian assets are stuck at Euroclear, according to the Belgian government. Of that total, €180bn are from the Russian central bank, the lion’s share of the $300bn of central bank assets frozen by western sanctions.
+
+Here is  Euroclear’s announcement of its financial results, which explains how this works. It’s not really that Euroclear gets to keep the money; it’s just that (1) Euroclear gets to hold the money until someone figures out what to do with it and (2) meanwhile, it gets to invest the money and keep any interest it earns. Which is a lot:
+
+One consequence of the sanctions is that blocked coupon payments and redemptions owed to sanctioned entities results in an accumulation of cash on Euroclear Bank’s balance sheet. At the end of September 2023, Euroclear Bank’s balance sheet had increased by EUR 45 billion year-on-year to a total of EUR 164 billion.
+As per Euroclear’s standard process, cash balances are unremunerated and cash balances are invested to minimise credit risk. ... The interest paid on reinvestment of cash balances is net interest income earned by Euroclear.
+In the nine months to 30 September 2023, interest arising on cash balances from Russia-sanctioned assets was approx. EUR 3 billion. Such interest earnings are driven by two factors: (i) the prevailing interest rates and (ii) the amount of cash balances that Euroclear is required to invest.
+
+There are some financial businesses that consist of mechanically moving gigantic piles of cash through the pipeline and collecting a tiny fee for your efforts. And then every so often the pipeline gets blocked and the gigantic pile of cash is yours! Weird.
+Still, other answers are possible. Possibly the money goes to the EU? Possibly to the Russians? The FT adds:
+
+EU officials have been grappling with how best to deploy the proceeds from Russian assets that are stuck in Europe’s financial system. It is considering using the windfall profits Euroclear makes for Ukraine, with EU leaders due to discuss the plans later on Thursday. ...
+While the EU seeks to spend the profits, Euroclear is facing lawsuits from Russia to force it to hand over the money. 
+
+It does seem strange for Euroclear to keep all that money just because the pipes backed up.
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      Private equity
+    
+  
+
+Oversimplifying dramatically, there are two sorts of investment funds in the US: public and private. Public investment funds are most classically mutual funds, but also business development companies and other things. They can be marketed more or less widely to individual investors, and they are subject to regulation by the US Securities and Exchange Commission under the Investment Company Act of 1940. 
+Private investment funds are most classically hedge funds and private equity funds, which restrict their investors to institutions and very rich individuals. These funds are much less regulated, but can’t be marketed widely to individual investors.
+  [1]
+
+If you run a big private equity firm, your funds will tend to be private funds, like the name suggests. This is very important to you, because regulation under the Investment Company Act would limit your flexibility a lot. It would restrict your ability to borrow money, for instance. It would restrict the investments you could make. Conflict-of-interest rules might restrict your ability to charge the fees you want to charge.
+  [2]
+
+On the other hand a lot more people can invest in public funds, and if you run a big enough private equity firm you will want their money too. And so you might launch some public, or at least public-ish, funds, subjecting some of your business to more regulation in the pursuit of more assets under management.
+  [3]
+
+Really though the ideal would be to raise money from public investors without running a public fund. One classic way to do this is with insurance: You buy or start an insurance company, the insurance company sells life insurance and annuities to public investors, and it invests the float in your private equity business. The public investors aren’t investors in a fund; they are customers of an insurance company. (The insurance company, meanwhile, is a large institutional investor, so its investments are private.) This is a very popular approach and many of the big private equity firms have insurance businesses.
+  [4]
+
+There are, I am sure, other approaches.
+But here is a really simple one. What fundamentally makes a fund a fund — particularly, what makes it a regulated investment company — is that it makes investments; it buys securities, fractional shares of businesses. But, like, Alphabet Inc. is not a fund; it’s not an investment company. It’s just a company. It doesn’t own shares in a bunch of businesses. It owns a bunch of businesses. (Google, YouTube, various moonshots, etc.
+  [5]
+) If you own the whole company — or several whole companies — then you are not a fund; you’re just a company.
+  [6]
+ Or a “holding company.” Or, in the classic terminology, a “conglomerate.”
+If you run a big private equity firm you are, in some loose sense, running a conglomerate anyway. You control a bunch of companies and try to run them somewhat independently (while imposing some best practices and central oversight).
+  [7]
+ Why not … launch a conglomerate? Just a regular company, that owns some of your portfolio companies, and that raises money from investors? You could raise money broadly from retail investors, without being subject to Investment Company Act restrictions. Plus your money would be permanent: Instead of having to return money to investors at the end of the fund’s life, you’d have a corporation that could keep its capital forever.
+You could imagine taking this quite far: Plop some portfolio companies into one big holding company, do an initial public offering, sell shares to the public, acquire new companies by issuing new shares (either to the targets or to public investors to raise cash) and just, sort of, be a regular public conglomerate? Like Berkshire Hathaway Inc.,
+  [8]
+ or like 3M Co. I suppose if you did that it would be harder to charge the fees you want to charge. Also your company would be public, which (1) sort of undermines the name “private equity” and (2) subjects you to the whims of daily market prices, activism, etc.
+But you could take smaller steps into conglomeracy. Bloomberg’s  Miles Weiss reports:
+
+Schwab and Fidelity are listed alongside Morgan Stanley Smith Barney and Rockefeller Financial in regulatory filings as potentially receiving compensation through a private placement by KKR Infrastructure Conglomerate.
+KKR, Schwab and Fidelity declined to comment on the entity, one of two flagships created to raise money from rich individuals. The other is KKR Private Equity Conglomerate.
+The two conglomerates have raised more than $2 billion combined since May, according to Kevin Gannon, chief executive officer of Robert A. Stanger & Co., an investment bank whose specialties include alternatives such as non-listed real estate investment trusts and business development companies. …
+The two conglomerates mark the first time that KKR has directly opened its infrastructure and private equity deals to accredited investors, a category that generally includes the mass affluent. KKR plans to draw 30% to 50% of its new capital from the private wealth sector, up from about 15% now, Chief Financial Officer Robert Lewin said in a February conference call. …
+The conglomerates were formed as operating companies rather than investment funds, meaning they’re direct owners of actual businesses and hard assets — such as toll roads and airports – instead of securities and shares of other funds. They’ll directly co-invest in buyouts and infrastructure deals through joint ventures with the main private equity and infrastructure funds that KKR runs for institutional investors.
+As operating companies, the conglomerates also qualify for exemptions from rules that would otherwise cap the amount of IRA money they can take in at 25% of net assets. While this structure has been previously used by the likes of Brookfield Infrastructure Partners, whose shares are publicly traded, the major PE firms are just now starting to adopt it. In June, Apollo Global Management Inc. filed documents for an infrastructure entity that’s in many ways identical to KKR’s. 
+
+It’s a bit more complicated than that: The conglomerates own joint ventures alongside other (private) KKR-run funds, somewhere in between owning whole companies/assets and owning stock in those companies.
+  [9]
+ KKR manages the conglomerates and gets management and performance fees.
+  [10]
+ Also the conglomerates are not traditional public companies; they make public filings, but sell their shares privately to accredited investors. Still, these are baby steps into running a private equity fund in the form of a public company.
+
+  
+    
+      Private credit
+    
+  
+
+There used to be two main ways for companies to borrow money: bonds and bank loans. Bonds were sold publicly to big investors (insurance companies, mutual funds, etc.) and traded in a reasonably active secondary market. Bank loans were made by banks that had deep longstanding relationships with their borrowers, and were then held by those banks to maturity. There were other differences (in seniority, collateral, term, rates, etc.), which were driven in part by the different investor bases and relationships.
+For instance, bank loans to risky companies often had maintenance covenants, requiring the company to have at least some minimum amount of earnings every quarter.
+  [11]
+ If the company’s income cratered, it would be in default on its loan. And then it would call up its relationship bank and say “hey we have a problem,” and the bank and the company would work out some mutually beneficial solution. The covenants gave the bank leverage over the company if things went wrong; the long-term relationship between the bank and the company made this reasonable. Bonds generally did not have maintenance covenants, in part because bondholders were traditionally dispersed public investors who couldn’t monitor the company as well as the banks, or negotiate efficiently if it ran into trouble.
+This is all very quaint and old-timey, and for many years now “bank loans” to non-investment-grade companies have been widely syndicated to non-banks, hedge funds and collateralized loan obligations and other institutional investors. The markets have, to a quite large extent, converged: Bonds and loans are now sold to overlapping groups of institutional investors, they both trade in similar secondary markets, etc. There are still some real differences (loans are still more often floating-rate and secured), and some weird vestigial differences (loans are still not considered “securities” under US securities law), but bonds and loans are much more interchangeable than they used to be. 
+Also leveraged bank loans are now commonly “covenant-lite,” meaning that they no longer have maintenance covenants. For the same reason that bonds have not traditionally had maintenance covenants: Loan investors are now dispersed institutions without much relationship with the issuer,
+  [12]
+ so issuers do not want to have to renegotiate their loans with those investors if their business gets worse.
+Now there is a third way for companies to borrow money, “private credit,” in which one or more big lenders (specialized asset managers, private-equity managers, insurance companies, business development companies) negotiates directly with the company in a way that cuts out banks. We have  talked about this before. Private credit deals are different from bank loan and bond deals, for reasons that have to do with the different participants and relationships in that market; they are designed to serve different needs from traditional bank loans or bond deals.
+For instance, private credit has done a good job recently of lending to leveraged buyouts. Traditionally the way to get LBO financing was to go to a bank to get a commitment letter; the bank would promise to raise $X billion of financing by selling bonds and loans, but would retain some flexibility on the exact terms and costs of that financing. Private credit investors can promise to do the whole $X billion of financing themselves, at fixed terms, giving the LBO sponsor more certainty. In choppy markets, people like that.
+Still my vague sense is that we are at the beginning of another long convergence, and that sometime within the next, like, three years, I am going to be writing about a story like “Company X is launching a marketplace to allow private credit lenders to trade loans.”
+  [13]
+ Why not? Credit investors will want to invest in good credits regardless of their formal classification, and everybody wants to be able to sell when they want to. I just assume that eventually “private credit” will feel like a misnomer, the way “bank loan” does today.
+Anyway  here’s Bloomberg’s Paula Seligson:
+
+Private credit firms seeking to capture market share from traditional bank lenders are giving up investor protections as they snag larger financings, according to Moody’s Investors Service.
+Direct lenders have been siphoning business from the broadly-syndicated leveraged loan market in recent years, in part by staking a claim to increasingly larger deals. But an analysis by the credit-rating firm shows that legal safeguards that protect investors tend to weaken as the size of the transactions increase.
+“Private credit is dropping maintenance covenants in larger deals,” analysts including Derek Gluckman wrote in a Thursday report, referring to a type of investor protection that requires companies to periodically meet certain tests of financial health. Leveraged loans discarded the safeguards years ago and most are now considered ‘covenant-lite.’ Direct lenders are following suit, Moody’s says, noting that only 7% of private credit loans larger than $500 million in its analysis had maintenance covenants, compared to 67% of loans smaller than $250 million. …
+The global $1.5 trillion private credit market has been known for more conservative deal terms that give lenders increased control over the debt and the company if things go wrong, whereas the competition of numerous lenders trying to get into the same deals has led covenants to erode over time in the broadly-syndicated market.
+“Private credit loans are strikingly more protective than broadly-syndicated loans, but differences will narrow,” Moody’s wrote. “The ramparts between public and private lenders will come down as competitive pressures mount, just as the same protections eroded in the broadly-syndicated loan market over time.”
+
+Right now, private credit lenders are much more likely than bond or bank loan investors to be relationship lenders, to get to know the company well, lend it money and hold the loan to maturity. But give that some time and it will change.
+
+  
+    
+      Ted Pick
+    
+  
+
+I suppose one theory of CEO succession is that the next chief executive officer of a firm should be the person who runs the division that makes the most money, that contributes most to the firm, that is the firm’s intended future. And another theory would be that the next CEO should be the person who runs the division that could lose the most money. If there’s a problem, that guy can fix it! Whereas the guy who runs the consistent moneymaker has had it too easy; what does he know about risk?
+In general, big modern investment banks want to tell their shareholders a story about some other business — asset management, wealth management,  retail banking (?) — that offers more stable revenues than traditional investment banking and sales and trading. But if a big modern investment bank is going to incinerate itself in a week, it’s probably going to be in the sales and trading business inside the investment bank.
+  [14]
+ “Enormous reputational disaster in wealth management” is also a good candidate. Of course  retail banking has problems too. Still, the traditional way to go bust fast is in the investment bank.
+And so if you are choosing the next CEO of a universal investment bank, the guy running asset management might represent the future, but the guy running investment banking might be the guy you need. 
+Anyway the next chief executive officer of Morgan Stanley  is Ted Pick, who currently runs investment banking and sales and trading. The Financial Times notes:
+
+One immediate hurdle for Pick will be to clarify the optics of an investment banker having got the job ahead of the bosses of Morgan Stanley’s wealth and asset management divisions, its two major growth drivers.
+“The downside is a perceived de-emphasis of wealth management within the company,” said Christian Bolu, banking analyst at Autonomous Research. “That certainly to investors is a risk. So I think he has to communicate very early on that wealth management is still the driver of the long-term growth of the business.” …
+Nevertheless, Pick’s running of investment banking and his head for risk was seen as a big selling point to Morgan Stanley’s board of directors during the selection process, according to people familiar with the matter.
+
+On the other hand, is he communicating very clearly that wealth management is still the driver of the long-term growth of the business?     I dunno:
+“In equities and fixed income and across investment banking, we’re focused on being No. 1,” Pick said in a Bloomberg Television interview Thursday. “We want to have the right people in place. We’ve been investing for the next cycle. That next cycle is going to be investment banking led.”
+Why not; he likes investment banking. Also this is fun:
+
+In a rare setup, the firm said the two men who missed out on the top job will stay on. Co-President Andy Saperstein will gain oversight of the firm’s asset-management business in addition to his role leading wealth management, and Dan Simkowitz will replace Pick as co-president leading the investment-banking and trading division.
+The two deputies are also long-time Morgan Stanley veterans. Saperstein, 56, started under Gorman at consulting giant McKinsey & Co. and was with him at Merrill Lynch before following him to Morgan Stanley in 2006. Simkowitz, 58, started his career at the bank in 1990 and ran capital markets before moving to run the asset-management division.
+“This doesn’t happen on Wall Street — people don’t stay. Every bloody pundit said this wouldn’t happen, but we pulled it off,” [outgoing CEO James] Gorman said. “It’s a testament to their respect for Ted in this role.”
+
+To be fair you have pulled it off for like 20 hours; see if they’re still there in a year before bragging.
+
+  
+    
+      No HODL
+    
+  
+
+This is apparently real?
+  [15]
+
+
+MultiBank.io, the cryptocurrency exchange arm of the MultiBank Group, the world’s leading financial derivatives institution, is announcing the launch of its innovative "Panic Sell" feature, marking another milestone in its ongoing commitment to enhancing the trading experience for its users.
+The "Panic Sell" feature is designed to provide traders the convenience to swiftly convert all positions into a specific cryptocurrency, or even fiat currency, with just a single click, allowing them to subsequently wire out their funds to their bank accounts. This feature comes from the understanding of the time-sensitive nature of trading.
+"During tumultuous market conditions, every second counts. Our 'Panic Sell' feature stems from a personal pain point I faced in my trading journey. It's not just a tool; it's our commitment to empower every MultiBank.io user with swift decision-making capabilities when they need it most. It's a powerful tool we believe our traders will find invaluable.” said Zak Taher, CEO at MultiBank.io. "We are at the outset of an exciting journey, armed with a comprehensive roadmap of innovative features poised to serve as invaluable assets for the traders of tomorrow."
+
+Honestly: reasonable? On the one hand, I  sometimes point out that often the best thing a retail broker can do for its customers is not answer the phone during a market crash, since customers do sometimes sell irrationally at the bottom. On the other hand, not always! Sometimes the customers are rational. Sometimes the best service is to let everyone sell fast, and asking them to check a little box next to each asset they want to sell costs precious seconds. Especially in crypto, sure, but not only in crypto. I suspect that some number of highly sophisticated algorithmic multi-asset trading firms in traditional finance have a big red “SELL EVERYTHING AND GO TO CASH” button on the wall. Why shouldn’t retail crypto investors?
+Also I love the name. It is pleasantly pejorative: If you want to sell everything at once, they’ll make it easy and fast, but they’ll also make you feel bad about it. Possibly that is the right amount of friction for your broker to provide, selling everything instantly at your request but making a disappointed face at you while they do it.
+
+  
+    
+      Things happen
+    
+  
+
+SBF  Takes the Stand in His Own Defense at Trial Over FTX Failure. FTX Claims Rise After Potential Bidders for Shuttered Exchange Emerge. Sam Bankman-Fried Testimony Is Trial Climax for  FTX Court Watchers. Jury Convicts Hedge-Fund Manager Accused of  Rigging Foreign-Exchange Market. Bitcoin Faces Reality Check if   ETF Launches Spark ‘Sell-the-News’ Pivot. Silver Lake Looks to Privatize Hollywood Agency Titan  Endeavor. Griffin Says SEC Scrutiny of Basis Trade ‘Utterly Beyond Me.’ Xi Jinping Is Looking for Someone to Blame for  China’s Property Bust. Country Garden’s Missed Bond Payment Triggers  CDS Payout. Vanguard Plans to Open a   Miami Office for Offshore Latin America Wealth. Wave of Job Cuts ‘Probably Just the Beginning’ at   Canadian Banks. CEO  morning routines.
+If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
+        
+  [1] Again: oversimplifying dramatically! Basically private funds are exempt from the ’40 Act under Section 3(c)(7), meaning that they sell only to “qualified purchasers,” meaning institutions and individuals with at least $5 million of investments. See Sections 3(c)(7) and 2(a)(51) of the Act. (Or under Section 3(c)(1), meaning that they sell to 100 or fewer “accredited investors,” a lower standard.)
+
+
+  [2] See, for instance, this risk factor in KKR Infrastructure Conglomerate LLC’s 10-K: “We would not be able to operate our business according to our business plans if we are required to register as an investment company under the Investment Company Act.” Specifically: “The Investment Company Act provides certain protections to investors and imposes certain restrictions on companies that are required to be regulated as investment companies. Among other things, such rules limit or prohibit transactions with affiliates, impose limitations on the issuance of debt and equity securities and impose certain governance requirements. If the Company were required to register as an investment company under the Investment Company Act, it would be impractical for the Company to operate as contemplated. Agreements and arrangements between and among the Company and the Manager would be impaired, the type and amount of acquisitions that the Company would be able to make as a principal would be limited and its business, financial condition and results of operations would be materially adversely affected. Accordingly, the Company would be required to take extraordinary steps to address the situation, such as the amendment or termination of the Management Agreement, the restructuring of the Company and its Joint Ventures, the amendment of the Company’s LLC Agreement or the termination and liquidation of the Company, any of which could materially adversely affect the value of the Shares.”
+
+
+  [3] See, for instance, page 39 of KKR & Co.’s 10-K, noting that it has several funds that are registered investment companies under the Investment Company Act.
+
+
+  [4] See, for instance, the “investment company” risk factor on page 107 of KKR & Co.’s 8-K, which has a discussion of its Global Atlantic insurance subsidiary and how it is not an investment company under the Investment Company Act.
+
+
+  [5] Also a portfolio of minority venture investments, and a portfolio of bonds, but that’s fine; regular companies are allowed to own *some* securities, just not too many. People used to wonder if Apple Inc. was an investment company, because it had a lot of cash that it just parked in investment securities.
+
+
+  [6] We 
+talked about this distinction in the context of special purpose acquisition companies, which are an oddity, a fund that is raised with the intent of becoming a company.
+
+
+  [7] Traditionally the financing is a bit different: A conglomerate borrows centrally, using its lower cost of capital as a big diversified company, while private equity portfolio companies borrow individually, insulating themselves from one another’s risks. We 
+have discussed this before, though, and it is not always true.
+
+
+  [8] It’s the obvious comparison, but I think Berkshire is not quite a traditional conglomerate because it is also investing insurance float.
+
+
+  [9] See the infrastructure conglomerate’s 10-K: “A key part of our strategy is to form Joint Ventures by pooling capital with KKR Vehicles (defined below) that target acquisitions of Infrastructure Assets that are compatible with our business strategy. We expect that we will own nearly all of our Infrastructure Assets through Joint Ventures alongside one or more KKR Vehicles and that the Joint Ventures will be managed in a way that reflects the commonality of interests between the KKR Vehicles and the Company. We believe that a joint acquisition and management strategy between the KKR Vehicles and the Company will lead to greater opportunities to gain sufficient influence or control over Infrastructure Assets to deploy an operations-oriented management approach to value creation with the objective of achieving both current income and capital appreciation.”
+
+
+  [10] For infrastructure, that’s 1% or 1.25% of assets (it differs for different share classes) and 12.5% of returns. See page 14 of the 10-Q.
+
+
+  [11] More technically, the covenants would generally require some maximum leverage ratio (debt to earnings before interest, taxes, depreciation and amortization) or minimum coverage ratio (EBITDA to interest expense and/or other fixed charges). Here is a 2019 law firm memo on covenant-lite loans, with a box on the purpose of covenants.
+
+
+  [12] Also they are often CLOs, which have more inertia than most investors about renegotiating terms with borrowers.
+
+
+  [13] By “within the next, like, three years,” I mean next week, after several readers email me today to say “I actually work at a company that just launched this marketplace.”
+
+
+  [14] Including 
+prime brokerage, obviously.
+
+
+  [15] It links to a real page on MultiBank.io’s website, explaining how to execute a Panic Sell order.
+
+
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+
+
+  
+    
+      
+        
+        
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjqmow.5hum/2b341ca3.gif" alt="" border="0" /></a>

@@ -1,0 +1,147 @@
+# =?UTF-8?q?A_Zaz_Bull_Case,_Ron_Meyer=E2=80=99s_Legal_Bet_&_Trump=E2=80=99?=
+
+**Source**: inputs/saved_emails/=UTF-8qA_Zaz_Bull_Case,_Ron_Meyer=E2=80=99s_Legal_Bet_&_Trump=E2=80=99=
+**Type**: email
+**Created**: 2025-08-25T02:54:09.628839
+
+---
+
+=UTF-8qs_Yuge_Loss=_Wed,_14_Aug_2024_23-15-17_+0000_191532cb4d98324a.eml
+
+Welcome back to Dry Powder. The sharks are circling WBD in the aftermath of the company’s brutal second-quarter performance. And yet, there have been some positive signs and underappreciated events at the company. In today’s issue, a look at the bull case for David Zaslav, and whether he will ever get to the promised land.
+
+ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+
+Dry Powder ( https://puck.news/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Daily Courant ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B31723783.400065006;dc_trk_aid=591829180;dc_trk_cid=219142426;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Welcome back to Dry Powder. I’m Bill Cohan.
+
+The sharks are circling WBD in the aftermath of the company’s brutal second-quarter performance. And yet, there have been some positive signs and underappreciated events at the company. In today’s issue, a look at the bull case for David Zaslav, and whether he will ever get to the promised land.
+
+P.S.: You asked, and we’ve delivered… another member survey, which will help us continue to improve your Puck experience. It should only take a minute or two. Click here to take it ( https://web.appin.io/_yNXcn-9P?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )—and thanks in advance.
+
+A MESSAGE FROM OUR SPONSOR
+
+$(ad2_title) ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B31723783.400065006;dc_trk_aid=591829180;dc_trk_cid=219142426;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Range Rover Sport. Dynamic from any angle.
+
+But first…
+
+* Meyer’s bad bet: As it turns out, Ron Meyer, the co-founder of Creative Artists Agency and the former longtime president of Universal Studios, really does like to gamble. The Hollywood rainmaker, whose friends have reportedly helped him out ( https://variety.com/2021/film/news/joel-silver-ron-meyer-gambling-debt-nbcuniversal-1234897544/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) in the past, now finds himself in an interesting legal pickle. In August 2015, while still at
+Universal, several years before he was dismissed for making hush money payments to cover up an old affair, he made a $5 million loan application to the Mohegan Sun Casino, in Connecticut. The application was approved. Then, two years later, on October 13, 2017, Meyer signed six “markers” with the casino—checks for $1 million each, made out to Mohegan Sun. That day, he redeemed one of the $1 million checks for chips, and the casino retained the other five $1 million checks. Then Meyer went gambling. “He did not win,” according to a complaint filed by the casino against Meyer, in June, for breach of contract.
+
+In fact, according to the complaint, Meyer lost $5 million gambling that day. The casino then agreed to give Meyer until April 4, 2018, to pay the money he owed. But when the casino went to cash the checks it still held from Meyer at the bank, all five were returned for insufficient funds. And so on April 26, Meyer and the casino entered into a
+new agreement, under which Meyer agreed to a repayment schedule for the $5 million he owed. The plan was to pay $60,000 a month between May 1, 2018, and September 1, 2022, with one final payment of $45,960. The casino even agreed to give Meyer a discount, of slightly more than $1.5 million, on the debt if he made the payments on schedule. Meyer also agreed to give the casino 50 percent of any winnings from his gambling at the casino, to be applied to the debt he owed.
+
+Meyer did well, for a while. But in October and November 2020, he missed his $60,000 payments, and then paid $120,000 in December 2020. He didn’t make another payment for six months, and then paid only $10,000 in June 2021. He then paid $10,000 a month between June 2021 and August 2022, and then made monthly payments of $12,500. He stopped making payments altogether on September 1, 2023, still owing the casino $2,782,500. According to the complaint, the casino subsequently spoke with Meyer
+“on numerous occasions,” and Meyer “repeatedly stated that he had every intention of paying the balance, but he did not do so.”
+
+That’s how the litigation between Mohegan Sun and Meyer ended up in Superior Court, in New London, Connecticut, where it is still pending. In a court filing on August 9, Brian Spears, Meyer’s Southport, Connecticut, lawyer, asked that the judge dismiss the “breach of contract” claim against Meyer—the only count against him—arguing that “Connecticut prohibits the enforcement of contracts facilitating any type of gambling on credit” and that Connecticut has an “ancient and deep-rooted” public policy against gambling. He cited a state statute that includes the language that “all contracts to repay any money knowingly lent at the time and place of such game, race, sport or pastime, to any person so gaming, betting or wagering, or to repay any money lent to any person who, at such time and place, so pays,
+bets or wagers, shall be void.”
+
+If I have this right, Spears is arguing that we should all go to Mohegan Sun, gamble to our heart’s content, lose millions, and we won’t have to pay the money we lost using credit because gambling using credit is illegal in Connecticut. Well, that’s a new one. Reached at his office on Wednesday, Spears declined to comment on the pending litigation.
+* Trump’s latest financial mess: In many ways, Trump Media & Technology—the SPAC that merged with Trump’s Truth Social earlier this year—remains one of the more reliable bellwethers of Trump’s prospects for winning in November, even though the stock shouldn’t exist at all, since it is tied to a business with little revenue, massive losses, and few users, outside of the former president and his lunatic rants.
+
+Anyway, in the last month—roughly coinciding with the R.N.C., the assassination attempt in Butler, Pennsylvania,
+and Kamala Harris’s honeymoon period—the DJT (that’s the symbol, natch) stock price is down 40 percent. Forty percent in a month! The Donald’s stock, once worth more than $5 billion, is now worth around $2.75 billion. That’s not nothing, of course, and it’s free money for him. He only has to keep using Truth Social for his idiotic ramblings to hold up his part of the bargain (although he’s now back to using X, at least temporarily, which must have been part of the exchange for the grueling Trump/Musk Spaces conversation on Monday night).
+
+What explains the ongoing collapse of the DJT stock price? Part of it, of course, is the company’s inexplicable market cap of $4.75 billion—a miracle since it’s nothing more than a meme stock. Combine that with poor second-quarter operating results—the company lost $16.4 million on piddling revenue of $837,000 (that’s not a typo!), a 30 percent decline from the same quarter in
+2023—and the clouds begin to part. Then, of course, there are Trump’s increasingly unhinged Truth Social diatribes.“Has anyone noticed that Kamala CHEATED at the airport?” he wrote the other day. “There was nobody at the plane, and she ‘A.I.’d’ it, and showed a massive ‘crowd’ of so-called followers, BUT THEY DIDN’T EXIST!” This would be almost humorous if Trump weren’t a former president of the United States with a 50-50 chance of regaining that office after November. “Here we have a badly damaged and disturbed person,” Morning Joe’s Mike Barnicle tweeted after that one.
+
+The truth is that Trump Media & Technology is not a sustainable business. It’s simply a referendum on Trump’s political future, and a way for his supporters to try to shuffle money to him. As ever, it’s these retail investors who continue to get burned by owning the stock, since it is now well off its high of nearly $80 per share. Once a
+con artist, always a con artist, I guess…
+
+Jekyll & Zaz ( https://puck.news/bull-case-for-david-zaslavs-warner-bros-discovery/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Jekyll & Zaz ( https://puck.news/bull-case-for-david-zaslavs-warner-bros-discovery/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Interrogating the bull case—or at least the view that things aren’t as totally awful as they seem—for David Zaslav and Warner Bros. Discovery.
+
+WILLIAM D. COHAN ( https://puck.news/author/william-cohan/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+WILLIAM D. COHAN ( https://puck.news/author/william-cohan/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A toxic combination of short sellers and the nattering nabobs of negativism have really got their hooks into the Warner Bros. Discovery stock these days. It’s now trading below $7 a share, around the all-time low, and down a whopping 15 percent in the last week. Overall, the stock is down 73 percent since David Zaslav’s Hollywood experiment began, in April 2022, and the company’s enterprise value is around $55 billion, 45 percent less than the $100 billion Zaz paid for WarnerMedia alone. As my partner Matt Belloni reported ( https://puck.news/newsletter_content/what-im-hearing-joaquins-debacle-blakes-bonanza-zaz-pocalypse-fallout/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) on Monday, there is also a growing frustration inside WBD, where Zaz has been likened by some to Michael Scott, Steve Carell’s comic boob of a manager from
+The Office.
+
+Clearly, Zaz et al. are still absorbing the fallout from WBD’s brutal second-quarter performance that I wrote about on Sunday ( https://puck.news/newsletter_content/schwarzmans-soiree-the-zazquake-yaccarinos-war-3/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), during which Zaz wrote off $9 billion of the goodwill related to his linear TV assets and his other businesses after a rough three months. And yet,
+there have been some underappreciated events at the company. WBD has just expanded its streaming offerings globally in the last few months. And it’s reaping the rewards of that move—4 million new subscribers outside the U.S. in less than two months. And that doesn’t yet include the new Olympics-related subscribers who signed up during July and August—the third quarter—in Europe.
+
+Zaz may have alienated the creative community in many ways, but he also has the realpolitik understanding that he can win them back with his growing film budgets and personal commitments. WBD got rid of the content it thought wasn’t working, or wasn’t going to work—Batgirl and Coyote vs. Acme—but it also invested $2 billion more in the business. That’s probably why the likes of Paul Thomas Anderson, Ryan Coogler, George Clooney, and Zendaya want to be in business with WBD. With Dune 1 and 2, WBD
+crowned Timothée Chalamet as a legitimate movie star. Zaz has a new Beetlejuice opening in three weeks, and a new Joker with Joaquin Phoenix and Lady Gaga coming after that. Apple has come to WBD to promote its F1 film, even though Warner offered a quarter of what other studios did. Perhaps Tim Cook and Eddy Cue appreciate what the studio did with Barbie and Wonka.
+
+No one would argue that Zaz’s new sports toys—NASCAR, the French Open, Mountain West football, some licensed CFP games, Big East basketball, etcetera—are the equivalent of the NBA. But the impending affiliate fee battles with cable providers may be slightly oversold. As negotiations loom, Wall Street analysts wonder if TNT’s $3-per-sub fee will be reduced to 50 cents, or somewhere around that zip code. But Zaz knows how to play this game—and as his NBA lawsuit demonstrates, he’s willing to go there. I
+would bet that he’s never taken a reduction in sub fees during his whole 40-year career in the cable business, and fighting back here is increasingly existential.
+
+Trying to reduce WBD cable sub fees would be a gamble for Comcast and others, too. WBD has 30 cable channels and around 40 percent of the viewership on cable television (and even more when it’s broadcasting sports). If they can’t work out a deal and WBD pulls its channels from Comcast and Charter, they lose the Food Channel and Guy Fieri and Chip and Joanna Gaines, and ice truckers, and Animal Planet, and TLC. You laugh, but 90 Day Fiancé is the No. 3 show on cable. If Zaz can manage the fee declines without the NBA, Wall Street analysts and shorts will take note. (This is not investment advice.)
+
+$(ad3_title) ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B31723783.400065006;dc_trk_aid=591829180;dc_trk_cid=219142426;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Zazology
+
+As I’ve heard him surmise in the past, Zaz thinks there are going to be five surviving global content providers at the end of the day: Amazon Prime, YouTube, Netflix, Disney, and WBD. (He doesn’t think that a purely domestic player, such as NBCU, will make it.) Whether or not this prophecy bears out probably comes down to creative dealmaking on his part, particularly now that WBD is out from under from the tax restrictions of the Reverse Morris Trust that governed the merger of the Discovery and WarnerMedia assets.
+
+Zaz has been busy creating various partnerships—with Disney (to bundle D+ and Hulu with Max); with Disney and Fox (to create Venu); with Brazil’s Globo—but that’s only one part of what Zaz hopes will be a winning formula. Will Zaz end up with Paramount+ and its 60 million subscribers, if David Ellison sees fit
+to hive the streaming service off? Could he end up with CBS and its local television affiliates? It’s not as far-fetched as you may think, given that WBD’s balance sheet continues to improve quarter after quarter.
+
+Although it never went anywhere, Sony and Apollo did surface the idea of paying $26 billion for Paramount Global. That’s an interesting benchmark from savvy buyers. According to my calculations, WBD’s studio is three times bigger than Paramount’s. Its television business is four or five times bigger. Its content library is two to three times bigger. If Paramount Global is worth $26 billion, then WBD has got to be worth $75 billion, according to that math. (Again, this is not investment advice.) Less the $38 billion in debt, this back-of-the-envelope arithmetic suggests the WBD equity is worth around $37 billion, or at least twice what it’s trading for these days. (Please, not investment advice…)
+
+I have no idea if Zaz will get to the
+promised land. He’s on the high wire at the moment. I suspect he’s still got the support of John Malone, the WBD director and major stakeholder who is also Zaz’s mentor. Malone is probably advising him to ignore the noise, stay focused on paying down debt, keep creating great content, and maneuver into a position to save some of the other swimmers who are drowning. But there are other big shareholders, too, such as Vanguard, which owns 10 percent of WBD, and the Newhouse family, which owns 8 percent, and BlackRock, which owns 6.3 percent, and State Street, which owns 5.6 percent. Will Zaz be able to keep these other wolves at bay? Will an activist investor hop into the WBD fray to try to implement a version of the break-up plan that BofA Securities analyst Jessica Reif Ehrlich proposed last month, and which briefly got the stock moving up? Is Zaz on a short leash or a long rope?
+
+I don’t know the answer to any of these questions. But I
+still believe the market is overreacting to the wave of bad news at WBD. And if and when the per-sub carriage fees are renegotiated for more than the market expects, or if and when the third-quarter streaming subs come in higher than anticipated, or even if and when Beetlejuice and Joker: Folie à Deux overperform, the narrative could turn.
+
+Remember, it wasn’t that long ago that Netflix looked to be down in the dumps, too. The company reported subscriptions fell by 200,000 or so in the first quarter of 2022, and the supposedly savvy investor Bill Ackman dumped ( https://www.theinformation.com/articles/what-netflixs-stock-recovery-and-ackmans-mistake-tells-us?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) his $1.1 billion investment in the company
+that April, perfecting a $400 million loss. Bad move. That was the moment Ackman should have been buying more Netflix, not selling. The stock has pretty much tripled since then. So just when everyone seems to think it’s over for you can be the very moment things begin to turn around. I’m not saying that’s necessarily where WBD is currently, but it’s always darkest before the dawn.
+
+FOUR STORIES WE’RE TALKING ABOUT
+
+Zaz Legal Omens ( https://puck.news/venu-trial-is-the-new-sports-streaming-service-in-trouble/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Zaz Legal Omens ( https://puck.news/venu-trial-is-the-new-sports-streaming-service-in-trouble/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A dispatch from the front row of the Venu trial.
+
+ERIQ GARDNER
+
+Art Market Optimism ( https://puck.news/finally-a-sign-the-art-market-is-back/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Art Market Optimism ( https://puck.news/finally-a-sign-the-art-market-is-back/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Revealing a few promising signs of life in the art market.
+
+MARION MANEKER
+
+Ukraine’s Guns of August ( https://puck.news/what-ukraines-kursk-incursion-means-for-the-long-war/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Ukraine’s Guns of August ( https://puck.news/what-ukraines-kursk-incursion-means-for-the-long-war/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Examining Ukraine’s bold military operation inside Russia.
+
+JULIA IOFFE
+
+Harris’s Achilles Heel ( https://puck.news/the-race-to-define-kamala-harris/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Harris’s Achilles Heel ( https://puck.news/the-race-to-define-kamala-harris/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Outlining the G.O.P.’s evolving Kamala attack plan.
+
+PETER HAMBY
+
+Puck ( https://puck.news/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQs
+page ( https://puck.news/faq/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact
+us ( fritz@puck.news?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/global-unsubscribe/?subscription=dry_powder&delivery_id=dgT2xgYDAKvRKqrRKgGRUyxhU9yK_QrjlcGJNLA=&utm_campaign=Dry+Powder+-+SUBSCRIBERS+%288%2F14%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%287%2F24%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Puck is published by Heat Media LLC. 227 W 17th St New York, NY 10011.

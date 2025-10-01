@@ -1,0 +1,224 @@
+# I Inspired a "Bad" Version of Myself on Aaron Sorkin's "The Newsroom" | xoJane
+
+**Source**: http://www.xojane.com/entertainment/mandy-stadtmiller-aaron-sorkin-newsroom-character
+**Type**: article
+**Created**: 2025-08-13T20:13:11.654361
+
+---
+
+title: I Inspired a "Bad" Version of Myself on Aaron Sorkin's "The Newsroom"
+source: http://www.xojane.com/entertainment/mandy-stadtmiller-aaron-sorkin-newsroom-character
+date: 2025-08-13T20:13:02.109413
+tags: []
+---
+This is my Aaron Sorkin date night look. Self-tanner. Check. Fake eyelashes.
+Check.
+
+Have you ever tried to explain the evilness of your job in celebrity gossip
+trafficking to someone who has been the victim of it?
+
+Yeah, I did that once. On a date with Aaron Sorkin. Then he wrote a character
+based on it. Who looks just like me. And is an evil gossip trafficker.
+
+Here's the headline, aggregators (oh, and be sure to put the picture of my
+face next to Hope Davis; I know, crazy isn't it?): "FORMER NEW YORK POST
+WRITER SAYS SHE INSPIRED AARON SORKIN 'NEWSROOM' CHARACTER." Hopefully the
+Internet pickup will eventually "Telephone"-like-game transform it into:
+"Starfucker says she once gave Oscar winner a notion" because that would be
+chillingly accurate.
+
+I was the basis for a character -- an evil version of me, he said -- on Aaron
+Sorkin's "Newsroom" after we went on a few dates. You can't really call them
+dates even. One time, when I told him that I recognized he was "Fantasy Camp
+Husband" potential and that I was essentially propelling the chase, he did
+write, "Well hang on...I've asked you out on several actual dates (and happily
+for me you accepted)."
+
+Fine. But you know that book "He's Just Not That Into You"? Yeah, I've read
+it, too. I get it.
+
+Man, I really hope I am not, like, murdered for writing this -- NOT THAT HE
+WOULD, I MEAN METAPHORICALLY -- although that didn't happen even when I quit
+The New York Post which at the time felt very scary. I did it in a -- as I
+like to say -- "manufactured-controversy" type of hullabaloo, announcing on
+Twitter I was going to write a ["Devil Wears Prada" tell-
+all.](http://web.archive.org/web/20180920002722/http://favstar.fm/users/mandystadt)
+Please. Even this piece. It's G-rated, baby. It is so G.
+
+This is what happens when you ask Aaron Sorkin to send you flowers on your
+36th birthday at The New York Post.
+
+I met Sorkin -- who incidentally, and I can't emphasize this enough, I have
+nothing but the utmost respect for as a writer and a human being -- when I
+approached him at "The Social Network" after-party at the Harvard Club in
+2010. At the party I introduced myself. Sorkin and I had a moment. I dodged
+and weaved his publicist and eventually slipped him my card. Sorkin emailed me
+before I had left the party.
+
+Which leads me to the story of the genesis of "The Newsroom" character played
+by Hope Davis at a gossip rag called "TMI" (initially, he said, he was going
+to have her be an actual Post reporter). She is -- as Sorkin wrote me -- "Bad
+Mandy" and "the character you inspired as the opposite of you."
+
+Although gee, come to think of it, revealing completely private conversations
+I really don't have any right whatsoever to reveal is pretty...wow. Self-
+fulfilling. I am being Bad Mandy.
+
+The night in question: Aaron was nice enough to pick me up at The Post at 1211
+Avenue of the Americas, 47th Street and Sixth Avenue near Radio City -- which
+was like an enemy territory coup in its own right -- and I had of course run
+to Saks Fifth Avenue that day to buy an entirely new dress so that I could be
+A-list ready for my little fantasy fairytale date where I just kind of, you
+know, ignored the fact that I always suggested things like, let's get actual
+dinner, or you should send me flowers -- and just enjoyed the ride (very
+Hannah in "Girls," which is I think sometimes why that show makes me almost
+nauseous to watch) and he picked me up in front of The Post, stepping out of
+his chauffeured town car.
+
+"What do you think?" I said, holding my arms up to the Evil Empire.
+
+"I think you look like a million bucks," he said.
+
+At dinner, he asked me what I had done for the day. At the time, I was writing
+a story about one of the "Real Housewives" on Bravo. And not only that, it was
+a "takedown piece" as we call them at The Post. Meaning, an almost faux-
+populist, folksy "we're not gonna take it anymore," very tabloid-y STFU rant
+for whatever winged creature of the moment has flown too close to the sun.
+
+Today it was Bethenny Frankel.
+
+Poor Bethenny. She had done three recent things that were not so good. And
+maybe another reporter had an anecdote or something. And you know how
+journalism works don't you. Three things make a trend. A trend -- or a
+takedown piece.
+
+There was part of me that was glad to show Sorkin the stomach-twisting
+grossness of life as a gossip peddler who also happens to be, very
+inconveniently, not a sadist. There was part of me that was glad he could get
+a glimpse of how the other half lives -- when the other half is trapped, and
+needs a fucking paycheck.
+
+"I have to write a takedown piece," I said. He looked at me like I had three
+heads. He wasn't as well versed in the jargon of personal character
+assassination.
+
+"A takedown piece?" he asked.
+
+"Yes," I said. "You know, a takedown piece. That's what we call them at The
+Post. That's what we do. It's The Post. It's a formula where you talk about
+all the things the public is pissed off about. It sucks. I hate it. It's
+depressing. It's pure negativity. It's just toxic. But it's my job. In fact, I
+even tried to get out of this one because it's about Bethenny Frankel, one of
+'The Real Housewives of New York,' and I like Bethenny and have used her as a
+source before. But I just can't get out of it."
+
+"So...it's just bitchiness?" he asked, horrified. "What if you suggested five
+different alternative stories?"
+
+"It's The Post," I said. "Have you ever read The Post?"
+
+Later in the night, I fell into a bad habit I have: offering unwanted advice
+ever so arrogantly on exactly how I can "help" someone. You know, because I'm
+just oh so self-actualized. Both my parents are therapists. I've been through
+a lot of therapy. So you can see where my (very misguided) heart lay.
+
+"Don't try to fix me," he said.
+
+I wrote [my
+story](http://web.archive.org/web/20180920002722/http://www.nypost.com/p/entertainment/tv/frankel_my_dear_you_lied_HMjNXElbIutuHGZI6ufokJ)
+on Bethenny. It comforted me that she is a very smart, very savvy woman and
+knows exactly how the game is played. Sorkin emailed me later from LA.
+
+Sorkin explains how he got the idea for Bad Mandy.
+
+"I want to remind you about a conversation we had at dinner in New York. I
+asked you what you were working on and you told me about the take down piece
+and I got preachy and condescending (so unusual for me) and instead of being
+insulted, defensive or telling me to go fuck myself, you said that you
+understood completely but that it was your job. I told you then that while you
+were talking I had an idea. What if the same thing were to happen to Jeff
+Daniels -- he's on a date with a Post reporter who tells him he's doing a take
+down piece, Will tells her what he thinks of that but instead of acting the
+way you did, she goes off in a huff and starts taking him down with little
+items in the Post. I'm about to start writing that episode right now and I'm
+telling you now as I told you then, THIS CHARACTER IS NOT YOU. In fact, in the
+writer's room, when talking about this story, we call the character 'Bad
+Mandy' (as opposed to real Mandy) because I haven't named her yet. I thought
+it was worth re-emphasizing that."
+
+Of course, I was thrilled. Normally, I am very stingy with giving away ideas.
+As a well-seasoned idea vulture myself, I know exactly how this trick works.
+Next time that old friend who's now a TV writer calls you just to "catch up
+and hear some of your crazy stories," tell them absolutely, and you in return
+would love some of their crazy paycheck. See how that goes down. But this was
+different. This was Aaron Sorkin.
+
+Sorkin says something typically charming and amazing.
+
+So when I finally watched episode 4 of "The Newsroom," called "I'll Try to Fix
+You," and gossip columnist Nina Howard (played by Hope Davis) throws herself
+at Will McAvoy (played by Jeff Daniels) and tells him bitterly, "You just
+passed up a sure thing," and Will later complains, "I was the victim of an
+unwanted sexual advance," oh my God, I felt like such a fucking asshole.
+
+I will tell you that I fully cried, totally humiliated at the wreckage of what
+happens when you are a scheming little manipulating starfucker such as myself.
+Maybe it bothered me so much because I realized how close to the character I
+really was.
+
+Where I get into trouble -- where I got into trouble -- is when I am a big
+gnarly faker. I get rewarded for it, obviously. I get raises. And dates. With
+powerful men. But it's gross. I am a gross person who is fake when I am fake.
+
+Reading back through my emails to write this piece my stomach did a triple
+cramp reading through what a preening sycophant I can be when it comes to
+powerful men I am trying to seduce. In business and in personal relationships.
+
+But oh man, such good stories. Am I right? GOOD STORIES. Know what's great to
+cuddle with at night? Stories.
+
+Sorkin starts filming the character who is "the opposite" of me.
+
+What hurt the most watching that first episode -- and yes, I realize it is
+supposed to be "the opposite" of me -- was the close to the bone nailing. Of
+me. The sexual forthrightness. The heavy flirtation geared toward a very
+specific brand of money, fame, power and intellect. And my personal
+codependent quirk: the unasked for advice.
+
+Nina says to Will, seemingly out of the blue, with near-psychotherapeutic
+Tourette's: "Now you seem lonely and broken to me...But don't worry, I can fix
+you."
+
+Watching the Bad Mandy/Nina character, it was painful to see her hinting
+smile, her leaning in movements. Oh, she wanted it, baby. If you watch the
+show, while the character seems to get progressively more evil, including
+blackmailing him in the spirit of the Page Six extortion scandal of 2006,
+Sorkin assured me when I emailed him on Friday, her character makes a
+surprising change later in the season.
+
+Oh, and full disclosure? So you can see how striving I really am, I emailed
+Sorkin as recently as like a week ago about working for "The Newsroom." Classy
+Mandy. In my defense, I had initially asked to meet with him about consulting
+for the just-announced HBO show. I swear to God. He thought I was asking him
+on a date. It got more complicated from there.
+
+He has also been supportive about the book I'm writing, the roman a clef about
+The Post, called "News Whore," and said from the pages I sent him, it was
+"absolutely fantastic." (A brag, there. Not a humble one. As I tell other
+women, and I tell myself on the regular: Own your shit. Someone has to.) More
+recently, Sorkin said of the creative process itself: "You're a very gifted
+writer with a unique, beautiful and stunning voice. Most of the time it's
+going to be brutal and demoralizing but when you see the result you won't feel
+any pain."
+
+He won't like this article.
+
+But, you know. The Internet. Besides, if someone uses me in his writing,
+doesn't it seem fair that I use him in my own?
+
+Bad Mandy.
+
+***
+
+_Find Mandy long-form
+at[http://tinyurl.com/stadtmiller](http://web.archive.org/web/20180920002722/http://tinyurl.com/stadtmiller)._

@@ -1,0 +1,103 @@
+# Spotify's New Home Page, Categorizing Advertising, Spotify's Competition for Discovery (Stratechery Update 3-14-2023)
+
+**Source**: inputs/saved_emails/Spotify's New Home Page, Categorizing Advertising, Spotify's Competition for Discovery (Stratechery Update 3-14-2023)_Tue,_14_Mar_2023_12-40-14_+0000_186e022c5fa6ba7b.eml
+**Type**: email
+**Created**: 2025-08-27T03:02:31.829444
+
+---
+
+Spotify announced a new home page, which makes sense both in isolation and in the context of Spotify's competition with YouTube.
+
+View in browser ( https://stratechery.com/2023/spotifys-new-home-page-categorizing-advertising-spotifys-competition-for-discovery/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjMvc3BvdGlmeXMtbmV3LWhvbWUtcGFnZS1jYXRlZ29yaXppbmctYWR2ZXJ0aXNpbmctc3BvdGlmeXMtY29tcGV0aXRpb24tZm9yLWRpc2NvdmVyeS8iXX0sImV4cCI6MTY4MTM4OTYxMCwiaWF0IjoxNjc4Nzk3NjEwLCJpc3MiOiJodHRwczovL3N0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.H-HjYCcNa1ClZtU_522GX4rcCyD2uWAf--k8j_KPNcO4FT1_4KAdFvy0COWJ7KqhBDCRmHMpGECXjTzdOOiOfHXsJJdxoxJ2y5b03PNXeKBqQ1foJ7Pb6AfvYINFC5wsMQ3_2tk7nQt3_vALmHlHciz8F3NXDxMcHbkqtahPDO3UKQsbuE0MbPJvVlsaxaOVOquqD-8pIDp4zBbSJ63baxHzyTST-45qKzODcjSArnehjz_HcGVKAdLugQSg-wbFIET4Q3HDbFViCKIWwXSej_t0Y6TCPteY2uBDCGzFIGGAFTYXToaa-_c1IyZaDOjBoQBWavXBsPVaEEY_v77xyg )
+
+( https://stratechery.com )
+
+Spotify's New Home Page, Categorizing Advertising, Spotify's Competition for Discovery
+
+( https://stratechery.com/2023/spotifys-new-home-page-categorizing-advertising-spotifys-competition-for-discovery/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjMvc3BvdGlmeXMtbmV3LWhvbWUtcGFnZS1jYXRlZ29yaXppbmctYWR2ZXJ0aXNpbmctc3BvdGlmeXMtY29tcGV0aXRpb24tZm9yLWRpc2NvdmVyeS8iXX0sImV4cCI6MTY4MTM4OTYxMCwiaWF0IjoxNjc4Nzk3NjEwLCJpc3MiOiJodHRwczovL3N0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.H-HjYCcNa1ClZtU_522GX4rcCyD2uWAf--k8j_KPNcO4FT1_4KAdFvy0COWJ7KqhBDCRmHMpGECXjTzdOOiOfHXsJJdxoxJ2y5b03PNXeKBqQ1foJ7Pb6AfvYINFC5wsMQ3_2tk7nQt3_vALmHlHciz8F3NXDxMcHbkqtahPDO3UKQsbuE0MbPJvVlsaxaOVOquqD-8pIDp4zBbSJ63baxHzyTST-45qKzODcjSArnehjz_HcGVKAdLugQSg-wbFIET4Q3HDbFViCKIWwXSej_t0Y6TCPteY2uBDCGzFIGGAFTYXToaa-_c1IyZaDOjBoQBWavXBsPVaEEY_v77xyg ) Tuesday, March 14, 2023
+
+Listen to this Update in your podcast player ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Good morning,
+
+On yesterday’s Sharp Tech ( https://sharptech.fm/member/episode/the-svb-collapse-how-the-government-responded-and-the-era-in-tech-that-ended-this-weekend ) we went deep into the Silicon Valley Bank collapse; this was recorded before I wrote The End of Silicon Valley (Bank) ( https://stratechery.com/2023/the-death-of-silicon-valley-bank/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjMvdGhlLWRlYXRoLW9mLXNpbGljb24tdmFsbGV5LWJhbmsvIl19LCJleHAiOjE2ODEzODk2MTAsImlhdCI6MTY3ODc5NzYxMCwiaXNzIjoiaHR0cHM6Ly9zdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.YZLoJtVyjCTqYRO41CHgwHhTNfm3Hjhb49c8-TXuH3pbdLz1b6hTdU6jqBylbmQ5WvDTVcwYwt-eOxwRBHMhNqbzgSSSWSyfxr3rK0TlGLfYFOrdN-XqiEYX_ya3QQkMperSb0e2jEbWMdkbKQ1ZNc60f4ivYyZ9QAJZ3c-O0kcG_TC3pI7NSryuaGXTeH7WvfYJjFRb3c_4c3mwpwxTr2rEYlRnXzlUqBnWTl6hCDdg3JM3yDx5elvdqQkg8OarSSYN5KZi7HpsiJYOoXGOUhxMhIEYuhctjblNmvpn2fZXTQTA8ffD3TiV8ZXtMhh7V5nR0Bv8RHaT76IIyzY8OQ ) , and covers some of the same things, while going deeper into the dynamics of the collapse itself.
+
+On to the update:
+
+Spotify’s New Home Page
+-----------------------
+
+From the Wall Street Journal ( https://www.wsj.com/articles/spotify-launches-new-video-feed-to-keep-listeners-listening-ece6f21d ) :
+
+Spotify Technology wants users to discover their next favorite artist on its platform, and not on TikTok or YouTube. The Swedish music-streaming company on Wednesday introduced a new video feed for its app, aiming to recommend music, podcasts and audiobooks to users via short clips, similar to TikTok and YouTube Shorts. Spotify’s new feature, called “Previews,” prompts users to swipe through to browse new content recommendations. The short clips—generated algorithmically or chosen by an artist or podcaster to showcase the hook of a song or a key part of a podcast—are meant to entice users to save music and shows to their libraries to listen to later.
+
+Being involved with the moments when users first hear new content, which the company calls “foreground discovery,” is ultimately the key to retaining them, said Spotify co-presidents Gustav Söderström and Alex Norström. “When you have your phone in your pocket, when you’re listening to a playlist, we’re really good at finding similar songs,” said Mr. Söderström, who is also Spotify’s product chief. “But there’s another part of the discovery journey, which is foreground discovery.”
+
+Though Spotify has benefited from music discovered via viral TikTok trends—those songs tend to be streamed often—the company says it wants to offer its own new content recommendations. “We don’t only want to rely on other platforms to do the foreground discovery,” said Mr. Söderström.
+
+“Foreground discovery” is a new term to me; the primary examples of the term I found were mostly about image detection and machine learning. Machine learning certainly plays an essential role in Spotify’s new video feed, but the way I am thinking about “foreground discovery” is more inline with how I think about advertising.
+
+Categorizing Advertising
+------------------------
+
+There are, to drastically simplify, two types of digital advertising. The first, and most profitable, is search advertising. Search benefits from the fact the user is telling the ad provider exactly what they are looking for; to put it in marketing terms, the user is already in the funnel, and a well-placed ad can move them that much closer to conversion.
+
+Of course a lot of search ads end up functioning more as a rake on organic search results, particularly when properties that would be at the top of organic search results feel compelled to pay for an ad just to make sure their competitors don’t (App Store search, for example, or some Google searches ( https://stratechery.com/2019/the-google-squeeze/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMTkvdGhlLWdvb2dsZS1zcXVlZXplLyJdfSwiZXhwIjoxNjgxMzg5NjEwLCJpYXQiOjE2Nzg3OTc2MTAsImlzcyI6Imh0dHBzOi8vc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.m60L3yXKbVuUkvKpZY5nbp6viuziKAzqVFXhMkN4k8DMptjKqSzTEB5N_CAfylwiVLwuKbDcdbEccApSOKoq_haGryUCrn14dcTDILM4TwrKlmc69K-BHrMh4GSK59xgwrN8of5eepdBsdOBVrobNZc1cD_jHL0nIu7XtmPRwLsQ_mmG5msd06H5DxSGgPrnS1MgHhzKhpPpXMWTcGwHiahGDDTAXuFD9FCSVv6yuGO5s4pvqFm0KaFz_KERSG8KbBQymjj6cOXOKXlbPnk71fmr_77XLzyt9Mty2bUeL8fvzKyBty-Z1NsUzJ-FKKhyF3WAiF-bK_u71LYKVD14EA ) ). Generally speaking, the more specific the search term, the more likely it is that the search ad that is returned is a rake; more general search terms that surface specific results the user hasn’t specified are more “honest”, if you will.
+
+Search, in the context of Spotify, is, well, search, and I would imagine is one of the primary ways that users interact with the Spotify app. You open the app, type in the name of an artist or song, and Spotify delivers you to that artist’s page, or give you an option to play the song. Of course you can also search for genres or moods or whatever else you like, and Spotify will give you something to listen to, but I would imagine keyword matching is the most frequent use case. It’s also worth noting that this search is not very amenable to monetization: Spotify has a utility function — it’s a tool to listen to what you want to listen to, for which you (can) pay — and placing search ads would defeat that utility.
+
+The second type of digital advertising is display advertising, and yes, this is a very broad bucket that I’m basically using to include almost everything but search. Display advertising can be further divided into two categories: contextual advertising and targeted advertising (and again, these often overlap, but bear with me here). Contextual advertising shows you ads based on what you are looking at; if you are on a site that is dedicated to HiFi gear, for example, you might get ads about speakers. Targeted advertising, on the other hand, is tailored to you specifically, and doesn’t really have anything to do with the content it is sitting next to. Rather, the site or feed you are looking at has run an auction based on the information the ad server knows about you for an ad that you might be interested in (based on your cookie data, profile on the service you are using, etc.).
+
+When it comes to Spotify, an analogy to context advertising might be recommendations for other artists that are similar to who you are currently listening to; an analogy to targeted advertising might be custom playlists that are tuned to your listening. Both of these are more amenable to advertising than search is: Spotify sells recommendations through its Marquee program ( https://artists.spotify.com/marquee ) , and inclusion in playlists through its Discovery Mode program ( https://artists.spotify.com/en/discovery-mode ).
+
+In this framing “Foreground discovery” is firmly in the “display advertising” side of things, in that Spotify is trying to show you things you didn’t know you were interested in. The difference from something like playlists, though, is that “Foreground discovery” is catering to the explicit attention of the user. That’s why Spotify emphasized the importance of video and is remaking their homepage to be a TikTok-like feed that show previews for music, podcasts, and audiobooks.
+
+This seems like a pretty worthwhile endeavor to me (although sites like Mashable ( https://mashable.com/article/spotify-tiktok-video-feed-internet-reactions ) and the Twitteroti they aggregate are already out in force complaining about it). Most of the previous Spotify home page honestly seems pretty worthless to me: either I want to go directly to a song or artist, in which case I will search, or I just want something to listen to, in which case I’ll start a playlist. Neither of those need that much real estate! What was missing was some sort of exploration mode, where I could see what was available and try out a sample; this seems like an obvious addition to the experience.
+
+Moreover, it seems like a real win for everyone else in the ecosystem, particularly podcasts. Playlists are a pretty great way to find new music; listening to a new song isn’t a big burden, particularly if its tuned to my interests, and if I like what I hear I’ll pull out my phone and save the artist. What I don’t want to do is randomly listen to an hour-long podcast: playlist discovery doesn’t make sense there at all. A 90-second clip, on the other hand, is much more approachable, and certainly better than simply seeing some random podcast art and an inscrutable title.
+
+Spotify also stands to benefit, particularly when you consider who exactly this new feature competes with.
+
+Spotify’s Competition for Discovery
+-----------------------------------
+
+First, a quick aside about Apple Music, Spotify’s most explicit competitor: this shift by Spotify is probably to Apple Music’s benefit, just like Spotify’s shift to podcasts were: the latter cluttered up the Spotify experience, whereas Apple Music is much more utilitarian and focused (of course this also meant it was bad for Apple Podcasts, which is no longer the biggest player in the market). Similarly, music listeners who are set in their ways and only every want their music service to be a utility may very well prefer Apple Music more after this shift.
+
+However, I don’t think that Apple Music is Spotify’s most important competitor: not only is Spotify winning that fight, it is also a fight that is not a particularly profitable one to win, given that music labels take a big chunk of the winnings. What continues to hold the biggest promise for Spotify in the long run is its playlist business on the music side — where Spotify can capture back some of what it pays to labels in the form of marketing — and advertising for its podcast business (and free music listening). Both of these compete first and foremost with YouTube.
+
+YouTube provides a significant challenge to Spotify because it integrates both discovery of new content you might be interested in and a place to consume that content — with effective creator monetization on top. To understand the importance of this integration, think about the other relevant companies in this space, particularly TikTok and Instagram Reels.
+
+First, though, a digression: back in 2015 I wrote Grantland and the (Surprising) Future of Publishing ( https://stratechery.com/2015/grantland-and-the-surprising-future-of-publishing/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMTUvZ3JhbnRsYW5kLWFuZC10aGUtc3VycHJpc2luZy1mdXR1cmUtb2YtcHVibGlzaGluZy8iXX0sImV4cCI6MTY4MTM4OTYxMCwiaWF0IjoxNjc4Nzk3NjEwLCJpc3MiOiJodHRwczovL3N0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.AifdyYOsK4ouW1nruyRWHVXav9Q1-1q37VQXUKw6zuAWDad-cX_4HtLf2gCI7KKpCXcdJ7j3X7F7OGuZCFBgqy3M9LhWVzjfqcZzQEqIiZEXq2pY5DStoVbr7aeeehCEJRTUiRjbrdkZkzjdJ5tp5aRkTYeVlY9pgqxqibSddM2CKyQsGgaZpqszPgJ_Ui9Lug97pMvuqvHgdknwwlVFLdi5yotOJVssGGi2BOsaeT4wt9pfRDxN-JR41ErBN0DvCtB_YrhsOnl3OxwLl4HjWZEzV3B27T02rktAw7kt9cBIqVcZEZbaoNX8QFSm95R62k2ebsEzTsSDbN5FTVl7OA ) ; the overall thrust of that Article was that media companies should not constrain themselves to a single medium, but rather should leverage different mediums — which on the Internet, were all just bits — to drive different parts of the business. Specifically in the case of Bill Simmons and Grantland (and later The Ringer ( https://www.theringer.com/ ) ), it made sense to leverage text to acquire customers, because text was easily shareable; podcasts, in contrast, increased loyalty and reduced churn, and were great vehicles for advertising — the trick was to use the writing to drive podcast listeners. This advice has obviously worked for me: the fact that the Stratechery Plus bundle includes multiple successful podcasts is downstream from all of the writing I have done over the last ten years. I’m not sure, though, that this is the model for podcast growth going forward.
+
+This is where I go back to TikTok and Reels: what is compelling about short-form video is that you can actually use the final product — the podcast itself, particularly if you recorded video — to generate the short-form video that goes on these services. In other words, the final product is much more native to the platform on which it is shared. To put it another way, I think that these short-form video platforms will, in the long run, be the primary place where podcasts acquire customers.
+
+TikTok and Reels, though, don’t have a place to consume the long-form content that they drive awareness to. This, by extension, is why I don’t think that Spotify should get too wrapped up in the focus on its home page to the exclusion of partnering with others: if anything Spotify should be seeking out partnerships with TikTok and Meta to figure out a way how to convert short-form video viewers to Spotify podcast listeners.
+
+Still, those partnerships are hardly a sure thing — and Spotify would have to share something with TikTok and Meta in exchange. To that end it makes sense to build their own alternative. YouTube, though, already has built out the full stack, from discovery to search to recommendations, all within the same app where you can consume long-form content, and again, married it to effective creator monetization. Spotify’s home page shift is about matching that capability.
+
+There is more to cover about Spotify’s announcement, including the expansion/absorption of Anchor into its now-unified podcast management, and the overall shift of the company to podcast advertising of commodity content and an abandonment of a misguided exclusive strategy ( https://stratechery.com/2022/spotify-netflix-and-aggregation/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjIvc3BvdGlmeS1uZXRmbGl4LWFuZC1hZ2dyZWdhdGlvbi8iXX0sImV4cCI6MTY4MTM4OTYxMCwiaWF0IjoxNjc4Nzk3NjEwLCJpc3MiOiJodHRwczovL3N0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.pE-wPS1kW-ESCPP-vWfnqhXUJ6ahMvheMzC3iqfhB3Z1ZBCPZC87C2TZF36atPTm7zYQb6TaDwicL22vPj3BxaVhosXjY645y8cYj5KlJs_xIzHIjHVyJU8j2LVqLRaHp6HqJV8a0RrtzfzRtZj1xqcEIl9lXaLAwqDFxpeFvmm-q5c0wt3s24oAlEvnQjknMJpbDEumEUE1CSNUn7Gg4w8DwgnYIaJXTvh9h5tMRG7kGcoiFPTJeP_WyptA38JYv3wc5lGckNYXPUnCTUXtswsV2tDlJ4oWlr2p2FEw4B-s8PxjUTgfkntB4OrwGT6q6186eAtxGGoNWmCsW8T_GA ) ; I covered a lot of this in this episode of Sharp Tech ( https://sharptech.fm/member/episode/what-spotify-learned-about-podcasting-the-rsn-train-wheezing-along-does-espn-need-the-nba ).
+
+I wanted to really tease out the implications of the new home page, though, because I think it highlights the Spotify vs. YouTube dynamic: the key to being an Aggregator is discovery, not distribution. The latter is a utility, which is where Spotify started (and where Apple Music remains); the real value to both end users and creators, though, and corresponding profitability, is in discovery, and to maximize discovery Spotify had to effectively create new inventory, particularly since YouTube is already there.
+
+This Update will be available as a podcast later today. To receive it in your podcast player, visit Stratechery ( https://stratechery.passport.online/member ).
+
+The Stratechery Update is intended for a single recipient, but occasional forwarding is totally fine! If you would like to order multiple subscriptions for your team with a group discount (minimum 5), please contact me directly.
+
+Thanks for being a subscriber, and have a great day!
+
+Listen to this update and other Stratechery Plus content in your podcast player:
+Stratechery ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp Tech ( https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Dithering ( https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp China ( https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | GOAT ( https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Subscription Information
+
+Member: Omar Zoheri
+Email: stratecheryUSC@khamel.com
+Member since: December 8, 2022
+Auto-renewal is disabled
+Expiration date: December 8, 2023
+
+You are receiving this email because you are subscribed to Stratechery ( https://www.stratechery.com ).
+
+Click here ( https://stratechery.passport.online/member/login?email=stratecheryUSC%40khamel.com ) to view your account and manage your subscriptions.
+
+© 2023 Stratechery LLC ( https://www.stratechery.com ) , 2093 Philadelphia Pike #9930, Claymont DE 19703

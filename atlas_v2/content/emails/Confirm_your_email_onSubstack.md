@@ -1,0 +1,22 @@
+# Confirm your email on Substack
+
+**Source**: inputs/old stuff/Docs/Confirm your email onSubstack_050324.html
+**Type**: email
+**Created**: 2025-08-25T02:53:46.149916
+
+---
+
+# Confirm your email on Substack
+
+Before setting up your publication, we need to confirm your email. Please click the link below to
+continue:
+
+[Create your account](https://email.mg-d1.substack.com/c/eJyEks9uozwUxZ_G7Brha2PIgkUVQkS-hqj92qTJJvK_BDcYGDCl5OlHZEaaajazPT7Huvd3ruROX-p2jJtelKYrHvil1drqyj3Iujqb1nJn6spTMZkLP5LM0zEOMQ1DSoPI05ab8nTRlW650-rE3bdXmBOviCWWQEAJEfJI-YyeNZNMUwlnxc6YM8_E4AP1A58AYIrDGZlprPlcM419JkH64Ux-kZFGTYGoby8PCs-6XnSOy-tM1tYz3ek8Tc1NGbu2114ZF841HSKPCFIE6Xc3gpQ3BkH6iRGkfadbBOk9iyD9vTMiqauvukIk0eMaS9iN71Bes4963NyWQ_56uOW3Q5dVeSlJ3ggI1sdFxkS168RiMPz90WxtgMVqmDzNEQIsly-FWi3_6LYs1CJjm1f5lSeS5Mkzzs1gju_FkH3UX_lt6W-Tw7BN3uBpsW4k2ZitWQ9qn7nNIpv-xQeTsczu3GFfdk_7_FPYYyMtLtSq_BRmPZ_N3yJKMlfz8SX439DnebhbPL9sVkrlPL-ezEd0EP_RH-vdfoOAtVqZVkuHSPILHwQTwGBCGPwNcRLMpeqbyZV2V9M8Sln3lbvHEuy18bXgVpcRQdS_THzvXXW9ULXlpoqHYfDcv-5u6udkVAwE-wEjIfsZAAD__5-o4wY)
+
+If you didn't attempt to create this publication, please disregard this message.
+
+© 2024 Substack Inc.  
+548 Market Street PMB 72296, San Francisco, CA 94104   
+[Unsubscribe](https://email.mg-d1.substack.com/c/eJyEkMGusyAQhZ9GdjXAoOKCxZ_86WuYEUYlFWxgTG_f_sauurvLyZycc77jkWk9yts9z3mPdbvhWogSZb75Iy-xJOR4ZBEcjLO0vhfk1KDMMBjTWUEJ4z6tlKkgU5iQv756BLE52Wk_gl0USmuDlWrUswn9iIgG7KxFdFpqIzsJWiujhhZaUoQj9aRk77WXQ-t_4G3sc2uMTOstqLaec2X0j9YfScQ6LVdrjLvjcpLY3cb8rA38a_S90fdv9XUSc8xrbeBeyV98DfzPB8cl-g9uFcU9Nky0W2iMXC_nT1I953AkjNm9Xi_Bf612VipTDE6Dkl0PQ_8bAAD__0ypeJk)
+
+[![](https://substackcdn.com/image/fetch/w_393%2Cc_limit%2Cf_auto%2Cq_auto:good%2Cfl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fgeneric-app-button%403x.png)](https://email.mg-d1.substack.com/c/eJyEkD2OpDAQRk9jZyD_NYbAwUojroHKpgCrsY3sQr1z-1X3JpNNUsl7Uj19AQj3Ur_ddfsztqODvSImzNSFkrdYE1Asma9OT16MYeDopJXGWmMeI8cE8Vx2zFiBcF2AflA1aX44Hzax2XEC2B7CWDMZhGkag9deKaU9j04JZcRDaKWkkbbXPUqECQeUYggqCNuHv_rbjNfBjEh7t8q-3b4RhGcfSuKxLdu7GuLpqN7IT3cQXY3pP0zNTM0_baZmuK7_t2tUKnYV11gxENPzTWkJkC6Ie2b66-0kqE-kmHemhg8umTAT01-fj91WCmHt_E1UMq_ueUDCc9TMiP0tfBLb7deSIGb3er04_Tb33bAucXVKS_EYtB3-BQAA__86443W)[![](https://substackcdn.com/image/fetch/w_405%2Cc_limit%2Cf_auto%2Cq_auto:good%2Cfl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%403x.png)](https://email.mg-d1.substack.com/c/eJyEkc2unDAMhZ8m2Q1KYobAIotKdF6gD4BMMBANSVB-NL1vXzHtre6iUpf-_On4SLZYaIvpw5x1Plzeb7glIk-h3GwMq0sei4uBLwaGWfS242Sklq3WbXvvOXl0x7RRoISFlgnLl60agO-GSCgrFpRw1yhxHbDTZOdZi0GIARR3RgnVirsApWQrdQMNScKBOpKis8oK3dif8NH2585a4bfbIptc51zQPhsbPXd5Wq_W6A5TUiV-mL2UMzP4xtSDqcdX-xrdFurJ4FGLn3KsyRKD8VNiqru4p8VVz2B85_6BNoZCoTAY1xgLpU-M_kS3BQYj1hJXdxy03P4qV7kf75vf31kwPnf0dPTAWrFd6HexLjEYoTxtH3ky_3J4rvMSPbpgXq8XL_97W82UJrcYBVLcO9DdrwAAAP__IpWmBQ)

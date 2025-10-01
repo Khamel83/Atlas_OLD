@@ -1,0 +1,252 @@
+# Moderates are losing the fight to save Islam from racists and extremists
+
+**Source**: http://qz.com/646545/moderates-are-losing-the-fight-to-save-islam-from-racists-and-extremists/
+**Type**: article
+**Created**: 2025-08-13T18:18:20.073087
+
+---
+
+title: Moderates are losing the fight to save Islam from racists and extremists
+source: http://qz.com/646545/moderates-are-losing-the-fight-to-save-islam-from-racists-and-extremists/
+date: 2025-08-13T18:18:10.833294
+tags: []
+---
+The alarming exploitation of the Brussels attacks for political purposes shows
+how urgent it is to take back the discourse around Islam and Muslims from
+racists and extremist populists like Donald Trump and Marine Le Pen.
+
+Instead of leaving the field wide open for the big-mouthed bigots and
+xenophobes surfing the murderous wave of global Islamist terror to stigmatize
+refugees and all peoples of Muslim confession, let’s recognize and tackle the
+important religious dimension to jihadist violence—in order to better overcome
+it.
+
+Muslim modernizers, reformers, and secularists, intellectuals, theologians,
+writers, artists, academics, political figures, and ordinary believers, have
+long been engaged in an intense ideological war with the Islamic
+fundamentalists—the same fanatics who helped create the breeding ground for
+today’s terrorists committing atrocities against civilian populations in
+Europe, Africa, the Middle East, Asia, and the US.
+
+They are currently losing the winner-takes-all battle to stop the
+“confiscation” of Islam, dating back to the 19th century when contemporary
+Islamism first emerged as a neo-reactionary force in response to
+modernization. And they need the West’s support, fast, if it is to make any
+inroads in winning the fight against terrorism.
+
+As French author Jean Birnbaum, the editor of Le Monde’s literary review,
+declares in his excellent new book  _Un Silence Religieux_(_A Religious
+Silence: The Left confronted by Jihadism_), by not standing with the brave
+souls resisting encroaching religious extremism and fighting to save Islam
+from its “Islamist perversion,” we have betrayed those who are determined not
+to watch their cherished religion “degraded before their very eyes, with all
+its cherished cultural, spiritual, and human richness.” He says:
+
+> By repeating that jihadist terrorism has “nothing to do” with Islam, the
+> highest authorities of the state have not only orchestrated a dangerous
+> negation, they have also planted a knife in the back of all the
+> intellectuals and Muslim theologians who refuse to see their religion
+> reduced to these murderous avatars.
+
+(Birnbaum names among other reformers and critical voices the acclaimed
+Algerian writer-living-under-a-fatwa Kamel Daoud, the late Mohammed Arkoun and
+Abdelwahab Meddeb, Rachid Benzine, and Abdennour Bidar, as well as past heros
+like India’s Mohamed Iqbal and Sudan’s Mahmoud Mohammed Taha).
+
+The chiefly Saudi-inspired neo-Salafists reclaiming a so-called “pure Islam”
+and championing a bloody rupture with Europe and the West have been trying, at
+an accelerated pace in recent decades, to assume control over Islam worldwide.
+
+With Gulf States’ money and the purchased silence of Western allies, they have
+brought their deadly politico-theological battles to the heart of Europe via
+radical mosques and cultural centers, hate-preachers, and media and digital
+“soft power,” laying the fertile ground for jihadist recruitment by the
+messianic millenarian apocalyptic behemoth called ISIL.
+
+By fomenting hysteria around the Palestinian cause and deliberately spreading
+anti-Semitic, women and western-hating propaganda, they have brainwashed
+entire communities into states of collective resentment, victim mentality, and
+in the worst case, smoothed the transition to murderous “holy war.”
+
+The phenomenon is nowhere more pronounced than in the Belgian capital, home to
+the European Commission, and thus the capital of Europe. This, in a
+shambolically-governed country riven by its own ethnic and linguistic
+disputes, that has let the Jihadist poison spread virtually unchecked among a
+vulnerable Moroccan immigrant population. Today Belgium is the number one per
+capita European exporter of foreign fighters to Syria (almost 400, of which
+170 have returned). All Euro-terrorist investigation roads have led to
+Brussels in recent years (Mehdi Nemmouche’s Jewish Museum killings in 2014,
+the aborted Verviers attacks, and the AK47 wielding attempted mass murder on
+the Thalys last year) and particularly to Molenbeek where the November 2015
+Paris attacks were planned, until the jihadists made Brussels itself the
+target.
+
+The rot began decades back. Since the 1960s Saudi Arabia has focused on
+proselytizing in Brussels, financing a grand Sunni mosque and an Islamic
+culture center in the Cinquantenaire complex, and laying the foundations for
+Belgium as the epicenter of European jihadism. As Liberation reported:
+
+> It is against this background that a myriad of extremist organizations began
+> to prosper, taking advantage all at once of the central position of Belgium
+> in European geography, a socially disadvantaged immigrant population, often
+> relegated to living in the same neighborhoods and a certain passivity by the
+> authorities.
+
+Now, according to French philosopher Pascal Bruckner, the notorious terrorist
+hotbed of Molenbeek in central Brussels is more like Mossul or Gaza. It’s not
+a Trump-style “no-go zone,” but a place where, thanks to the election-focused
+politicians and deals with Imams, religious associations, and community
+leaders, “other laws” prevail, mixing “sharia with the code of honor of
+gangsters” with appalling results.
+
+Yet while Trump goes on his Twitter rampages blaming all Muslims for the
+“horrible” murders in Belgium and Paris, and calling for state-sanctioned
+torture to extract terrorist confessions, president Obama and the State
+Department—alongside other world leaders like Canada’s Justin Trudeau and so-
+called “expert analysts”—only respond by trotting out their trademark neutral
+language. Implausibly, this is just any old “violent extremism” (whatever you
+do don’t mention religion or Riyadh!).
+
+TV news reports are filled with interviews with veiled Muslim women declaring
+“This isn’t Islam,” as the pious—and yes, politically correct—crowd are
+exhorting right-thinking people to avoid suggesting Molenbeek and similar
+Salafist-captured districts in Belgium and France are Islamist-sheltering
+enclaves. Meanwhile, police trying to arrest terrorists—like Paris attacks
+logistics man Salah Abdeslam—are attacked by young boys. BBC TV trucks are
+vandalized, and community ‘Omerta’ means families and friends take months
+before someone informs on the local boy turned jihadi “star.”
+
+It’s time the political establishment in the US and Europe, but particularly
+the center-left—as exemplified by Obama and French president Francois
+Hollande—owned up to the profound faith-based motivations underpinning the
+current wave of ISIL-inspired terrorism.
+
+What Abdelwahab Meddeb titled the “malady of Islam” in his remarkable essay
+(“If fanaticism is the malady of Catholicism, if Nazism was the malady of
+Germany, it is certain that fundamentalism is the malady of Islam”) is hitting
+Europe. But it can and has already spilled over into the US at San Bernardino
+and Chattanooga—and the much-vaunted American “assimilation” is no bulwark.
+
+This is not just about crushing “barbarism” and random “monsters.” We need to
+name the enemy, and it is extremist Islamism, whose first victims are of
+course Muslims, attacked in their homes and countries everywhere.
+
+It is patently irresponsible to continue parroting the hollow received wisdom
+that “this has nothing to do with Islam” (as Hollande has done since the
+Charlie Hebdo attacks in January 2015). Every man and woman in the street
+knows these terrorists are shouting Allahu Akhbar—God is Great—and citing
+their absolutist reading of the Koran in their murders of Christian
+“crusaders,” “infidels,” Jews and “miscreants”—Muslim or otherwise.
+
+The disconnect is deafening and will only help propel the likes of Trump and
+Le Pen to power because ordinary voters recognize they are at least telling
+half-truths amid the scare-mongering, hate, and lies.
+
+Such deliberate obfuscation on the part of otherwise sane world leaders and
+influential commentators directly plays into the hands of the Trumps and Le
+Pens and the bigots taking to Twitter to #StopIslam.
+
+The best way to isolate demagogues like Trump and Le Pen is surely to deny
+them the legitimacy of truth-telling when it comes to Islamist extremism, and
+take sides in the civil war tearing apart one of the world’s great
+monotheistic faiths.
+
+However, until religion is acknowledged as one of the key factors driving
+jihadism—although religion is evidently not the entire story—we can’t begin to
+grapple with its causes. Focusing purely on smashing ISIL in its stronghold
+‘caliphate’—or honing in only on the porous links between drug trafficking
+syndicates, criminal gangsters, Islamism, and the policing challenge of
+breaking apart well-hidden terrorist cells—will change little on the ground in
+Europe and elsewhere, if faith is ignored. Suicide attackers are attracted by
+a religious fanaticism, and they are engaged in a spiritual war where ideas
+count.
+
+As the most nuanced analysts show, poverty, social exclusion, alienation,
+nihilism, or even Western foreign policy cannot be seen as the isolated
+“causes” of suicide bombings and attacks on civilians. They provide the
+context in some cases, but why ignore the salient religious—and yes—Islamic
+element? “Islamization of radicalism” alone will not suffice.
+
+These young men blowing themselves and others up are not simply victims of a
+“cult” of deranged “radicals.” In his book, Birnbaum recounts how jihadists
+like the 2015 Paris attackers and their counterparts in Kenya, Australia, and
+Syria have libraries filled with erudite theological and religious texts
+providing the spiritual underpinnings for their actions. And they can’t be
+kept out with walls and better security, because they are within the
+society—they are homegrown.
+
+Encouragingly, a growing movement of center-left thinkers, academics, writers,
+politicians, and journalists in France and Belgium are calling for a new
+approach that takes the Islamic aspect of ISIL-style jihadism seriously. They
+are standing firm against calculated assaults on universal values—equality,
+liberty, and fraternity—that make modern Europe the magnet for refugees it is
+today.
+
+Birnbaum in  _Un Silence Religieux_ castigates the Left for going along with
+the trite, politically-expedient Hollande-style (and by association, though he
+doesn’t name him, Obama-style) script after every terrorist attack.
+
+In fact, Birnbaum says the Left has proven incapable of grasping the deep-
+seated religious element (not the only dimension but an important one
+nonetheless) influencing jihadism, stretching back to the 1979 Iranian
+revolution when only Michel Foucault picked up on the new fusion of politics
+and spirituality being touted by the Ayatollah Khomeini. The Left is blinded
+because it has a secular bias that looks down on spiritual belief, or in
+France’s case, is grounded in a strong anti-clerical tradition.
+
+Even if many of these new jihadists were far from devout—if they were party
+animals, drug traffickers, users, or even criminals to start—they radicalized
+very quickly and transformed into murderous religious fanatics. Such a
+transformation does not occur outside a social, political, and spiritual
+context—a reality confirmed by researchers like Gilles Kepel, and journalists
+like Jason Burke and Graeme Wood. And it is precisely the religious element
+that offers them the justification for turning into suicide bombers and mass
+murderers of civilians.
+
+The secular agnostic atheistic Left has moved so far from the revolutionary
+energy of its past, it cannot even understand that religious fervor could be a
+motivating factor behind such acts, and indeed dismisses the idea, to its
+peril. Birnbaum even says the Left has misinterpreted Marx, who never
+dismissed religion as a factor in radicalization when he called it the “Opium
+of the Masses.” He writes:
+
+> The weakening of the internationalist profane Left has left the space open
+> to a radical religious hope. If a certain part of the Left is shocked by
+> this comparison it is because it has forgotten its proper messianic vocation
+> and its religious energy. It is so removed from its revolutionary origins,
+> it isn’t even capable anymore of seeing this in the eyes of others.
+
+Significantly he argues the Left has abandoned the independent voices who are
+fighting to maintain a definition of Islam that embraces multiple readings of
+the Koran and equality for women, rejecting the “sexual misery” of the “lands
+of Allah” so eloquently outlined by writers like Algeria’s Daoud in The New
+York Times and elsewhere.
+
+Taking Birnbaum’s cue, the Left and the political mainstream needs to
+reexamine the religious zealotry exciting jihadists. Properly informed, it can
+then go after the ideas and the hate-preachers online, in mosques, on the
+streets, and in families and community settings that are spreading this
+cancer.
+
+In the US, even on the Right, many analysts—like Max Boot at Commentary—say
+Europe has just done a bad job of “assimilating” migrants, whereas the US has
+done much better.
+
+Well, buyer beware. These young men are not doing what they are doing because
+they are all poor, miserable, excluded, alienated-types.
+
+As we know, the Abdeslam family was fully “integrated” with a family income of
+more than €100,000 ($120,000), even owning bars. Other jihadists have been
+highly educated, and held down decent jobs.
+
+Bruckner too persuades us to look again at Islamism.
+
+“We keep saying that we mustn’t conflate (the attacks) with Islam without
+understanding that the jihadists themselves claim they are the only true
+Muslims,” he says.
+
+“The others, the very large majority are rejected by these fanatics as living
+in the shadows of miscreants. But these soldiers of the apocalypse are first
+and foremost believers and we should take them as they are.”
+
+## 📬 Sign up for the Daily Brief

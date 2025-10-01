@@ -1,0 +1,213 @@
+# How to live your best #vanlife - The Verge
+
+**Source**: inputs/New Docs/html/www.theverge.com_2017_9_15_16311668_how-to-live-your-best-vanlife.html
+**Type**: article
+**Created**: 2025-08-25T02:53:50.812973
+
+---
+
+* [Tech](/web/20241208025036/https://www.theverge.com/tech)
+
+# How to live your best #vanlife
+
+## Brent Rose has lived in a van for over two years. Here’s what made it possible.
+
+By  [Brent Rose](/web/20241208025036/https://www.theverge.com/authors/brent-rose)
+
+Sep 15, 2017, 3:34 PM UTC
+
+## Share this story
+
+* Threads
+
+If you buy something from a Verge link, Vox Media may earn a commission. [See our ethics statement.](https://web.archive.org/web/20241208025036/https://www.theverge.com/ethics-statement)
+
+![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1363/2400x2400/filters:focal(1031x877:1032x878):format(webp)/cdn1.vox-cdn.com/uploads/chorus_asset/file/9254399/brose_170914_1996_0011.jpg)
+
+![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1363/2400x1600/filters:focal(1031x877:1032x878):format(webp)/cdn1.vox-cdn.com/uploads/chorus_asset/file/9254399/brose_170914_1996_0011.jpg)
+
+Once upon a time I went through a breakup and it sucked very much, thank you. We’d been living together for five years, and when it came time to figure out where I wanted to live next, I realized that I didn’t want to commit to an apartment, a city, or even a state. So, instead, [I bought a van](https://web.archive.org/web/20241208025036/http://www.connectedstates.com/about-the-van/). It was a 2006 Freightliner Sprinter that was already converted into a small Class B RV by Gulf Stream, model name Vista Cruiser G24. After five months of exhaustive research, it was the only van I could find that had the exact layout I was looking for.
+
+But as a writer that covers a lot of tech and gadgets, I knew that if I wanted to be able to continue working from the road (mandatory), I was going to have to make some modifications so it could keep up with my geeky lifestyle. And if I was going to be living in it full time, I wanted it to have as many creature comforts as possible. So I made some upgrades. A lot of upgrades. By the time I hit the road on July 15th, 2015 for a road trip that I would call [Connected States](https://web.archive.org/web/20241208025036/http://www.connectedstates.com/), my van (Ashley “The Beast”) was properly equipped, and it’s continued to evolve.
+
+I’m now more than two years in and I’ve learned a lot over that time. The following is my list of the best gear for #vanlife.
+
+*Note: because the van I ended up buying was already converted, it already had the basics included. We’re talking about a bed, a fridge and microwave, a toilet, shower, and sink, plus holding tanks for fresh, gray, and black water. These things are obviously important but the focus of this piece is on upgrades beyond the basics.*
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1360/2400x1600/filters:focal(1020x680:1021x681):format(webp)/cdn3.vox-cdn.com/uploads/chorus_asset/file/9254405/brose_170914_1996_0008.jpg)
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1360/2400x1600/filters:focal(1020x680:1021x681):format(webp)/cdn3.vox-cdn.com/uploads/chorus_asset/file/9254405/brose_170914_1996_0008.jpg)
+
+### **First step: Power up**
+
+The first and largest upgrade I made was an overhaul the electrical system. It was the single most expensive addition, but also the most worth it. (This upgrade cost about one-fifth of what I paid for the van itself. Ouch.) Because this dealt with drilling, running wires behind panels, and things that could catch fire and/or explode if done improperly, I decided to have professionals do it, and I took the van to [AM Solar](https://web.archive.org/web/20241208025036/http://amsolar.com/) in Springfield, OR. They were reputed to be the best in all the forums I’d read, and they did not disappoint.
+
+They managed to squeeze two 160 watt solar panels onto my roof, for a total of 320 watts. Not at all bad for a smaller rig. The power runs down into an extremely beefy 3000 watt hybrid [Magnum Energy inverter/charger](https://web.archive.org/web/20241208025036/http://amsolar.com/rv-inverters-chargers/99-ms3012kit), and then into a custom built 200 amp-hour lithium battery array. This might sound like overkill, but it wasn’t.
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1360/2400x1601/filters:focal(1020x680:1021x681):format(webp)/cdn0.vox-cdn.com/uploads/chorus_asset/file/9254403/brose_170914_1996_0009.jpg)
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1360/2400x1601/filters:focal(1020x680:1021x681):format(webp)/cdn0.vox-cdn.com/uploads/chorus_asset/file/9254403/brose_170914_1996_0009.jpg)
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1360/2400x1601/filters:focal(1020x680:1021x681):format(webp)/cdn2.vox-cdn.com/uploads/chorus_asset/file/9254407/brose_170914_1996_0007.jpg)
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1360/2400x1601/filters:focal(1020x680:1021x681):format(webp)/cdn2.vox-cdn.com/uploads/chorus_asset/file/9254407/brose_170914_1996_0007.jpg)
+
+The “house battery” (i.e. the battery for living, not for the engine) that my van came with was a standard, 80aH AGM battery. They’re cheaper, but once you drain them past 50 percent there’s a serious voltage-drop and you risk damaging the battery, so you really only get 40 usable amp-hours. Lithium batteries, while very pricey, are not only more power-dense, but you can drain them as far as 20 or even 10 percent before you get much voltage drop, and you aren’t likely to damage them. That means that now I had more like 160-180 usable amp-hours of energy per charge, and it fit in the same space as the old AGM battery.
+
+Lithium also charges quicker (it can pull up to 80 amps from the alternator when my engine is running) and can let out its juice faster, too, which is where that big 3,000-watt inverter comes in. Before, if I wanted to microwave something or even use the van’s hot water heater for a shower, I either had to be plugged into shore power (which I rarely am) or using my noisy propane generator, which isn’t exactly incognito. Now I can run either appliance, and keep all of my gadgets charged via AC outlets, off of the battery, completely silently. It was a total game-changer.
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1363/2400x1604/filters:focal(1020x682:1021x683):format(webp)/cdn2.vox-cdn.com/uploads/chorus_asset/file/9254421/brose_170914_1996_0021.jpg)
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1363/2400x1604/filters:focal(1020x682:1021x683):format(webp)/cdn2.vox-cdn.com/uploads/chorus_asset/file/9254421/brose_170914_1996_0021.jpg)
+
+### **Getting connected**
+
+As someone who works on the internet, having reliable internet access is kinda important. Fast 4G mobile internet is one of the primary reasons why there are so many #vanlifers these days. I’ve driven more than 60,000 miles, zigzagging around the U.S. and two products have served me extremely well. The first is the [Verizon Jetpack MiFi 6620L](https://web.archive.org/web/20241208025036/https://go.skimresources.com/?id=1025X1701640&xs=1&url=http%3A%2F%2Fwww.verizonwireless.com%2Finternet-devices%2Fjetpack-mifi-6620l%2F) which has covered me just about everywhere in the country for most of the first two years of this journey. For basically everywhere else, I’m using the [ZTE Falcon Z-917](https://web.archive.org/web/20241208025036/https://www.amazon.com/T-Mobile-ZTE-FALCON-Z-917-Blue/dp/B01ER6UAP2?tag=theverge02-20) on T-Mobile’s network, which has delivered solid speeds even in squirrely canyons. Both seem to have stronger antennas and deliver faster data speeds compared to phones on the same networks.
+
+These devices have a bit of help, too. I’ve been using the [WeBoost Drive 4G-X](https://web.archive.org/web/20241208025036/https://www.amazon.com/weBoost-Drive-Phone-Signal-Booster/dp/B00WMFXE5O?tag=theverge02-20) signal booster. A small antenna magnetically attaches to the roof of the van and connects to a box (which I’ve now permanently wall-mounted), that plugs into a DC outlet. It isn’t night and day, but it typically adds 1-2 bars of reception when it’s turned on, so I basically just always leave it on. When I was in Big Bend National Park in Texas I had zero reception. When I turned it on I got one bar, which was enough to make a phone call and text my family back home. The only times I had no signal from either Verizon or T-Mobile and the WeBoost didn’t help was when I was in extremely remote areas or deep into National Parks.
+
+If things get really desperate, I have the [Garmin inReach Explorer+ satellite communicator](https://web.archive.org/web/20241208025036/https://www.anrdoezrs.net/links/8836598/type/dlg/https://buy.garmin.com/en-US/US/p/561269). Not only does it have offline topographic maps, but it allows me to send and receive text messages via satellite. There’s also an SOS button you can hit which will immediately send in search and rescue no matter where you are. I also carry this with me whenever I’m hiking or mountain biking alone. I consider it a good insurance policy.
+
+I’ve shuffled phones a few times but for the last year I’ve been using the [Google Pixel XL](https://web.archive.org/web/20241208025036/https://go.skimresources.com/?id=1025X1701640&xs=1&url=https%3A%2F%2Fwww.verizonwireless.com%2Fsmartphones%2Fgoogle-pixel-xl%2F) with a Verizon SIM, and it’s been extremely solid. It’s fast, battery life is reliable, and the photos it takes are unbeatable amongst phones. I also have a T-Mobile SIM which I swap in when needs be.
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1363/2400x1604/filters:focal(1020x682:1021x683):format(webp)/cdn2.vox-cdn.com/uploads/chorus_asset/file/9254389/brose_170914_1996_0017.jpg)
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1363/2400x1604/filters:focal(1020x682:1021x683):format(webp)/cdn2.vox-cdn.com/uploads/chorus_asset/file/9254389/brose_170914_1996_0017.jpg)
+
+### **Locking it down**
+
+So, I’ve got a fair amount of gadgets in here and I’m often out of the van exploring, and/or parking in unfamiliar neighborhoods, so I need to keep my stuff and myself safe. So I got a top-of-the-line security system from Viper. This included [the 5806 system](https://web.archive.org/web/20241208025036/http://www.viper.com/car/securityremotestart/product/5806v/viper-led-2-way-security-and-remote-start-system), plus [GPS SmartStart](https://web.archive.org/web/20241208025036/http://www.viper.com/SmartStart/). It’s a two-way system so if my alarm goes off my keychain will ring even if I’m up to a mile away and I’ll get an alert on my phone, even if I’m across the country.
+
+It also has a microphone so it can detect the sound of shattering glass. It adds an extra layer of security, but it’s made for a few humorous moments. Apparently, my sneeze sound like glass breaking, as does accidentally dropping my keys on the floor. The smartphone app isn’t a gimmick either. I can see exactly where I parked and even unlock the van for a friend to grab something when I’m elsewhere. It also lets me start the van remotely, which is nice in winter.
+
+But even with that killer security system, I wanted some extra protection. So I completely dismantled one of my precious cabinets and I installed the [Viking Security Safe VS-38BL](https://web.archive.org/web/20241208025036/https://www.amazon.com/Viking-VS-38BL-Biometric-Fingerprint-Safe/dp/B00UO2GGX4?tag=theverge02-20) with biometric fingerprint scanner. It’s big enough to fit my laptop, cameras, hard drives, and microphones, no problem. I’ve also installed it in such a way that there’s no way to get it out of the van without completely disassembling the bed, which would take a lot of time. The fingerprint scanner is kind of excessive, but hey, it’s supposed to be a teched-out van so I decided to go all in, and it does make it easier to open in the dark.
+
+If things ever get really dire, I have this flashlight: the [Vipertek VTS-195](https://web.archive.org/web/20241208025036/https://www.amazon.com/gp/product/B01FL444JW/ref=ask_ql_qh_dp_hza?tag=theverge02-20). It has a powerful 400 lumen beam. Oh and it’s also a stun gun capable of delivering a 25,000,000 volt zap (though, interestingly enough, the company has stopped listing the voltage since I purchased it). I can confirm that getting shocked with it really, really hurts a lot. I also have a Louisville Slugger, should a low-tech option be necessary.
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://cdn.vox-cdn.com/uploads/chorus_asset/file/9254415/brose_170914_1996_0003.jpg)
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://cdn.vox-cdn.com/uploads/chorus_asset/file/9254413/brose_170914_1996_0004.jpg)
+
+### **Boom Boom**
+
+For the installation of the Viper system I went to [All Pro Audio](https://web.archive.org/web/20241208025036/http://allproaudioinc.com/) in Santa Clara, CA, and I started talking with owner Jim Lee about audio stuff. See, I really wanted a system that could run Android Auto, but all Android Auto capable systems required a double-DIN slot, which is the taller, closer-to-square slot for a car stereo. My van had a single-din slot, so I thought I was out of luck. Jim said, “Y’know, we could cut open your dash to expand the slot…” Oh hell yes.
+
+I went with the Pioneer [AVIC-8100NEX](https://web.archive.org/web/20241208025036/http://www.pioneerelectronics.com/PUSA/Car/NEX/AVIC-8100NEX)— the flagship at the time — which is capable of running both Android Auto and Apple Car Play. It has a capacitive touch screen, and it works with a backup cam, which I had Jim install, too. (Backing The Beast up is a lot less stressful now). The whole install matches the rest of my dash perfectly, and being able to use Google Maps and stream music as I make my way across the country has been great.
+
+Jim noted that I was going to have this nice new stereo head but it would be running through two wimpy speakers built into the dash. Those speakers produced almost zero bass. I told him I’d been thinking of installing a self-powered subwoofer called the [Kicker BassStation](https://web.archive.org/web/20241208025036/https://www.amazon.com/Kicker-Pt250-Subwoofer-Built-Amplifier/dp/B00J5JLIOE?tag=theverge02-20) under the table behind the driver’s seat, so we did that. Then, during the installation he called me and said there’s actually room for two more speakers at the base of the captain’s chairs.
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1324/2400x1558/filters:focal(1020x662:1021x663):format(webp)/cdn3.vox-cdn.com/uploads/chorus_asset/file/9254423/brose_170914_1996_0022.jpg)
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1324/2400x1558/filters:focal(1020x662:1021x663):format(webp)/cdn3.vox-cdn.com/uploads/chorus_asset/file/9254423/brose_170914_1996_0022.jpg)
+
+I had him pop in a pair of [Phoenix Gold 6x9 RX speakers](https://web.archive.org/web/20241208025036/http://phoenixgold.com/catalog/speakers/6x9-speaker). The result? I now have way more sound than I need, and I’ve gone mad with power. It’s not an audiophile-grade system, but I’m really impressed with the sound for the price. My audio engineer friend [Greg Sextro](https://web.archive.org/web/20241208025036/http://www.productionsoundmixer.nyc/) even made me a custom EQ setting, tuning the system to the resonant frequency of the van’s interior. It sounds fantastic and listening to music is now pure joy.
+
+The capper was that Jim’s team built a fake faceplate for the stereo to make it look old and junky and less theft-worthy. It’s one of my very favorite upgrades.
+
+### **Mood Lighting**
+
+The van came with a whole bunch of small incandescent bulbs and a few fluorescent tubes. The incandescents get hot and suck a fair amount of power. So I took a quick trip to an RV supply store in Santa Cruz, CA and managed to find replacement LEDs in all the right sizes. The fluorescent replacements took a bit of rewiring (thanks for the help, dad!) but it was pretty simple. The interior is now brighter yet it uses about one fifth the amount of energy.
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1363/2400x1604/filters:focal(1020x682:1021x683):format(webp)/cdn3.vox-cdn.com/uploads/chorus_asset/file/9254395/brose_170914_1996_0013.jpg)
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1363/2400x1604/filters:focal(1020x682:1021x683):format(webp)/cdn3.vox-cdn.com/uploads/chorus_asset/file/9254395/brose_170914_1996_0013.jpg)
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1363/2400x1604/filters:focal(1020x682:1021x683):format(webp)/cdn2.vox-cdn.com/uploads/chorus_asset/file/9254417/brose_170914_1996_0002.jpg)
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1363/2400x1604/filters:focal(1020x682:1021x683):format(webp)/cdn2.vox-cdn.com/uploads/chorus_asset/file/9254417/brose_170914_1996_0002.jpg)
+
+The only problem is that bright LEDs are can be harsh and not great for relaxing, so I leveled-up in a big way and installed [Phillips Hue LightStrips](https://web.archive.org/web/20241208025036/https://www.amazon.com/Philips-LightStrip-Dimmable-Compatible-Assistant/dp/B014H2OXYU?tag=theverge02-20) in a ring around the ceiling. Not only does this give me even lighting throughout the interior, but I can change the lights to any color I want or even put it in disco mode with a third-party app. It wasn’t trivial to rig it up for mobile life because my 4G hotspots don’t have Ethernet ports, which you need to connect the Hue hub to. So I had to install a [D-Link DAP 1650 Extender and Access Point](https://web.archive.org/web/20241208025036/https://www.amazon.com/D-Link-Wireless-Gigabit-Extender-DAP-1650/dp/B00JFOP688?tag=theverge02-20). Basically, it acted as a repeater for my hotspot’s Wi-Fi, and I could plug the hub into it. Once I had that set up I installed the [Hue Dimmer Switch](https://web.archive.org/web/20241208025036/http://www2.meethue.com/en-us/p/hue-dimmer-switch/046677458140) and the [Hue Tap Switch](https://web.archive.org/web/20241208025036/https://www.amazon.com/Philips-Switch-Compatible-HomeKit-Assistant/dp/B00ME9CD28?tag=theverge02-20) (both of which work when the system is offline) so I could change color modes without needing Wi-Fi to be on every time.  Basically, it was a pain in the ass to set up, but it was beyond worth it. It’s amazing how much that has changed the look and feel of the van.
+
+### **Miscellaneous Miracles**
+
+Because my van was already converted it already had an AC/DC fridge, a microwave, and a two-burner propane stove, so it’s pretty well set-up for cooking, and I’d say I make about 75-percent of my meals in the van (which helps me eat cheaper and healthier while on the road). It isn’t without its challenges, though. With cabinet space at a premium I’ve experimented with a number of coffee-making systems over the last two years. It started out with a French press, which was kind of bulky and took a lot of precious water to clean. Eventually I discovered this amazing [Better Housewares Collapsible Tea Kettle](https://web.archive.org/web/20241208025036/https://www.amazon.com/gp/product/B008IA4NYI/ref=oh_aui_search_detailpage?ie=UTF8&psc=1&tag=theverge02-20), which I instantly feel in love with. It hardly takes up any space, and allows me to make pour-overs. I experimented with a couple mesh systems from Bodum, but they too took up a ton of space and were also tough to clean. Finally I discovered this [Snow Peak Folding Coffee Pour Over Brewer](https://web.archive.org/web/20241208025036/https://www.avantlink.com/click.php?tt=cl&merchant_id=e295c418-295a-447c-b265-734e25f82503&website_id=0f9b0f6f-13ac-4498-8e0f-b3beae765e07&url=https%3A%2F%2Fwww.rei.com%2Fproduct%2F100184%2Fsnow-peak-folding-coffee-pour-over-brewer%3Fs_kwcid%3DPS_Google%257C401_3662734%257CREI_DSA%257CNB%257Cae212cc5-68ab-40ff-9d47-14f7f3370608%257Cdsa-192211730885%26gclid%3DEAIaIQobChMI6efVzciT1QIVUGt-Ch2kIA77EAAYAiAAEgJ0zvD_BwE%26cm_mmc%3Daff_AL), which is made of stainless steel and folds away into nothing. I use biodegradable #2 coffee filters, so there’s basically no cleanup, it takes up hardly any space, and it makes killer coffee.
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://cdn.vox-cdn.com/uploads/chorus_asset/file/9254429/brose_170914_1996_0018.jpg)
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://cdn.vox-cdn.com/uploads/chorus_asset/file/9254427/brose_170914_1996_0019.jpg)
+
+I also have a [Joule Sous Vide by Chef Steps](https://web.archive.org/web/20241208025036/https://www.amazon.com/dp/B0727R431B?tag=theverge02-20). Because it’s small and this is a high-tech van so why the hell not.
+
+The number one pain-point of vanlife is finding a place to park. Sometimes you end up parking pretty far from where you want to be. Because of that I wanted a folding bike, so I could keep it safely inside my trunk space, but also one that was tough enough to handle single-track. Enter the [Montague Swissbike X90](https://web.archive.org/web/20241208025036/https://www.amazon.com/Montague-SwissFolding-Mountain-Folding-Wheels/dp/B0080S2HBO/?tag=theverge02-20). It has full 26-inch wheels as well as very cushy front suspension, and it sets up and breaks down in a hurry. I’ve taken it on trails in Moab, Marquette, Giant Sequoia National Monument, and many other places and I’m always amazed at how well it handles. I added [Shimano XTR M9020 Trail SPD pedals](https://web.archive.org/web/20241208025036/https://www.amazon.com/Shimano-PD-M9020-Trail-Pedals-Color/dp/B00O66VK5I?tag=theverge02-20) so I could ride with or without bike shoes. Montague has a [new model](https://web.archive.org/web/20241208025036/https://www.amazon.com/Montague-Paratrooper-Elite-20-Folding/dp/B01C4Z6PA2/?tag=theverge02-20) out with 27.5-inch wheels I’m dying to try.
+
+I’ve tested more than a dozen different backpacks over the last couple years, and the one I keep coming back to is the [Mountainsmith Borealis](https://web.archive.org/web/20241208025036/https://www.amazon.com/Mountainsmith-14-81230-65-Borealis-Camera-Pack/dp/B00HNGEFO6/?tag=theverge02-20). It’s the first backpack I’ve found that has ample (padded) room for my cameras, lenses, and mics, but also plenty of space for food, clothes, and even a sleeping bag and pad. It has a built-in rain-cover, a separate laptop sleeve, ample padding for the hips, and it fits under most airplane seats. If I’m actually *backpacking* backpacking, though, I use the [Gregory Baltoro 75](https://web.archive.org/web/20241208025036/https://www.amazon.com/Gregory-Mountain-Products-75-Backpack/dp/B01BNSI26G/?tag=theverge02-20), which is well laid-out, has a ton of space, and there’s even a built-in 7-watt Goal Zero solar panel for gadget charging. For a quick hike or snowboarding at a resort I use the [Eddie Bauer Bacon Pack](https://web.archive.org/web/20241208025036/https://go.skimresources.com/?id=1025X1701640&xs=1&url=http%3A%2F%2Fwww.eddiebauer.com%2Fproduct%2Fbacon-pack%2F82302272) which is super light, hydration-bladder compatible, and has nice organization and plenty of room for a day’s recreation.
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1129/2400x1328/filters:focal(1020x565:1021x566):format(webp)/cdn2.vox-cdn.com/uploads/chorus_asset/file/9254393/brose_170914_1996_0014.jpg)
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1129/2400x1328/filters:focal(1020x565:1021x566):format(webp)/cdn2.vox-cdn.com/uploads/chorus_asset/file/9254393/brose_170914_1996_0014.jpg)
+
+I’m also using a the [Peak Design Clip Pro](https://web.archive.org/web/20241208025036/https://www.amazon.com/Peak-Design-CapturePRO-Camera-Clip/dp/B00OY5UMD2/?tag=theverge02-20), which I can attach to the strap of any backpack (or belt), and allows me to hike with my camera out, without it constantly bashing into my sternum. I’ve only had it for a few weeks and I don’t know how I went the last two years without it.
+
+Basically, any item you select for your van needs to be evaluated for its versatility. One of the advantages of #vanlife is being able to be on the beach during one season, and in the mountains the next. I knew I could only fit one surfboard in the trunk, so I went with a 5’ 8” [Rusty DWART](https://web.archive.org/web/20241208025036/http://www.rustysurfboards.com/dwart/) which is a shape that can handle an extremely wide variety of waves. It’s made with [Varial foam](https://web.archive.org/web/20241208025036/http://www.varialsurf.com/), which not only makes it stronger, but gives it way more float for its diminutive size. For a snowboard (which I only travel with during winter) I got a custom stick from [Wagner Custom Skis](https://web.archive.org/web/20241208025036/https://www.wagnerskis.com/). They don’t even advertise that they make boards, but they’re happy to do one for you, and they’re incredible. Every one is custom-made, so mine is built for my height, weight, and riding style, and I had them design a shape that can twist through trees but still float over powder. I even got one of my own photos put on the deck. I pair it with [The Ride 92](https://web.archive.org/web/20241208025036/https://www.amazon.com/Ride-Ninety-Snowboard-Boot-2016/dp/B01JMZF7ZQ/?tag=theverge02-20) snowboard boots, which are incredibly comfy, offer great tread, and look cool at the bar.
+
+Versatility translates to the things you wear, too. I need to give a special mention to what I consider the best shoes I’ve ever owned: the [Keen’s Glenhaven Mid](https://web.archive.org/web/20241208025036/https://go.skimresources.com/?id=1025X1701640&xs=1&url=http%3A%2F%2Fwww.keenfootwear.com%2Fp%2FM-GLENHAVEN-MID.html%3Fdwvar_M-GLENHAVEN-MID_color%3D1014695%26cgid%3D). They comfortable, quick to put on because of the bungee laces, and the look good pretty much everywhere. I’ve worn them to important meetings, on dates, and just walking around cities. It looks like the Mid is being discontinued, which breaks my heart, but there’s [a new lower-cut version](https://web.archive.org/web/20241208025036/https://go.skimresources.com/?id=1025X1701640&xs=1&url=http%3A%2F%2Fwww.keenfootwear.com%2Fp%2FM-GLENHAVEN.html) I’m hoping will prove just as worthy. The applies to exercise, too. For a while I had two pairs of running shoes: One for street and one for trail. Eventually, I found the [Altra Lone Peak 2.5](https://web.archive.org/web/20241208025036/https://go.skimresources.com/?id=1025X1701640&xs=1&url=https%3A%2F%2Fwww.altrarunning.com%2Fmen%2Flonepeak25), which work incredibly well for both. They have wide toe boxes, they’re zero drop, and have excellent tread and padding. They have become my all-time favorite running shoe.
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1226/2400x1442/filters:focal(1020x613:1021x614):format(webp)/cdn3.vox-cdn.com/uploads/chorus_asset/file/9254425/brose_170914_1996_0020.jpg)
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1226/2400x1442/filters:focal(1020x613:1021x614):format(webp)/cdn3.vox-cdn.com/uploads/chorus_asset/file/9254425/brose_170914_1996_0020.jpg)
+
+This may seem like a small thing, but it makes a huge difference. A lot of vans and RVs have ceiling fans (usually made by Fantastic or MaxxFan). They’re indispensable for getting hot air (or cooking smells) out, and it’s a safe way to leave a window open. My recommendation is to get a plastic cover for you fan, like the one you see here. Yes, they’re dorky-looking, but it gives you the ability to keep your fan open and running even when it’s raining, which is often when it’s muggiest. You can leave you fan door open and explore the city without worrying about a sudden thunderstorm. It’s a great addition.
+
+### **When Stuff Breaks**
+
+When things break, you need to have some tools handy. My number-one most-used tool is the [Leatherman Wave](https://web.archive.org/web/20241208025036/https://go.skimresources.com/?id=1025X1701640&xs=1&url=http%3A%2F%2Fwww.leatherman.com%2Fwave-10.html) multi-tool which I’ve been using for more than a decade now. For bigger jobs, I grabbed a [soft-bag toolkit from Denali](https://web.archive.org/web/20241208025036/https://www.amazon.com/gp/product/B000HDHGWU/ref=oh_aui_search_detailpage?ie=UTF8&psc=1&tag=theverge02-20), which was cheap and is easily shoved into a cabinet, but it has a wide variety of things one might need. For drilling and screwdriving, I’ve been extremely happy with the [Porter Cable Max Compact Lithium Drill/Driver](https://web.archive.org/web/20241208025036/https://www.amazon.com/gp/product/B0045JK3F4/ref=oh_aui_search_detailpage?ie=UTF8&psc=1&tag=theverge02-20). It’s small and light, but it has plenty of torque and fantastic battery-life.
+
+For cleaning up, I’ve been heavily reliant on the [Black + Decker 20V Max Lithium Flex Vac](https://web.archive.org/web/20241208025036/https://www.amazon.com/dp/B00JILGZOC?tag=theverge02-20). It’s small enough to pack into a little cabinet, but it offers excellent suction, and the detachable hose is critical for getting into tight spaces, which a converted van is full of. I also use a ton of [Gorilla Tape](https://web.archive.org/web/20241208025036/https://www.amazon.com/Black-Gorilla-Tape-1-88-Roll/dp/B000CSS8UE?tag=theverge02-20) (and Gorilla Clear Repair Tape) for quick fixes, and I end up velcroing a lot of things to walls (notice my velcro shoe rack in the photo of the speakers above).
+
+### **Work Tools**
+
+Lastly, I’d be remiss if I didn’t mention the stuff I’ve been using for work. I have an aging MacBook Pro which I’m hoping will last me a bit longer. For external hard drives I’ve been using the [Seagate Backup Plus Ultra Slim](https://web.archive.org/web/20241208025036/https://www.amazon.com/Seagate-Portable-External-Platinum-STEH2000100/dp/B0195XZJ9E/?tag=theverge02-20) in the 2TB flavor. I’ve found them to be fast and reliable and they can fit in my jeans pocket. They haven’t let me down yet (knock wood).
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1363/2400x1604/filters:focal(1020x682:1021x683):format(webp)/cdn3.vox-cdn.com/uploads/chorus_asset/file/9254419/brose_170914_1996_0001.jpg)
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1363/2400x1604/filters:focal(1020x682:1021x683):format(webp)/cdn3.vox-cdn.com/uploads/chorus_asset/file/9254419/brose_170914_1996_0001.jpg)
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1530/2400x1799/filters:focal(1020x765:1021x766):format(webp)/cdn2.vox-cdn.com/uploads/chorus_asset/file/9254401/brose_170914_1996_0010.jpg)
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1530/2400x1799/filters:focal(1020x765:1021x766):format(webp)/cdn2.vox-cdn.com/uploads/chorus_asset/file/9254401/brose_170914_1996_0010.jpg)
+
+For camera, I’ve got the [Sony A7S](https://web.archive.org/web/20241208025036/https://go.skimresources.com/?id=1025X1701640&xs=1&url=https%3A%2F%2Fwww.bhphotovideo.com%2Fc%2Fproduct%2F1044728-REG%2Fsony_ilce7s_b_alpha_a7s_mirrorless_digital.html), which is a small and lightweight full-frame mirrorless camera that’s unbeatable in low-light (except by Sony’s own A7S II and the A9). It’s gotten me the best [Milky Way shots](https://web.archive.org/web/20241208025036/https://www.instagram.com/p/BVcfM5-lKYT/) of my life. My go-to drone for aerial shots has been the [DJI Phantom 3 Pro](https://web.archive.org/web/20241208025036/https://go.skimresources.com/?id=1025X1701640&xs=1&url=https%3A%2F%2Fwww.dji.com%2Fphantom-3-pro), but I’m probably going to swap it for the smaller [DJI Mavic Pro](/web/20241208025036/https://www.theverge.com/2016/11/4/13508560/dji-mavic-pro-drone-review-price) soon, simply because it’s so much more packable. Hell, it would even fit in my safe.
+
+I use a [GoPro Hero5 Black](https://web.archive.org/web/20241208025036/https://www.amazon.com/GoPro-CHDHX-502-HERO5-Black/dp/B01M14ATO0/?tag=theverge02-20) for a rugged solution I can just throw in my pocket (or stick on my helmet or surfboard) when I’m about to do something stupid. It also acts as my video journal of the whole road trip, thanks to a sticky mount I attached to my dashboard. It shoots killer wide-angle footage, it’s waterproof as is, and the built-in screen is nice for quickly framing a shot. I’ve also been messing with the [Karma Grip](https://web.archive.org/web/20241208025036/https://www.amazon.com/GoPro-Karma-HERO5-Official-Accessory/dp/B01M0UL6IO/?tag=theverge02-20) stabilizer while snowboarding, mountain biking, and just trying to get smooth handheld panning shots, and found that in general it works really well.
+
+For capturing audio, I use a [Zoom H6](https://web.archive.org/web/20241208025036/https://go.skimresources.com/?id=1025X1701640&xs=1&url=https%3A%2F%2Fwww.bhphotovideo.com%2Fc%2Fbuy%2FPortable-Digital-Recorders%2Fci%2F15657%2FN%2F4232861133) as my go-to digital recorder and a [Blue Yeti Pro USB mic](https://web.archive.org/web/20241208025036/https://www.amazon.com/Blue-Yeti-Condenser-Microphone-Multipattern/dp/B004L9KLT6?tag=theverge02-20) for all of my voice-recording needs. Between the two I’ve been able to record voiceovers for TV pilots, podcasts, as well as the occasional song, and the quality has never let me down. When I’m recording on location I use a pair of aging Sennheiser G2 wireless lavalier mics. If you’re looking, you’ll want the newer G3 system. For monitoring (and listening to music in general), I’ve been using the [Sennheiser Urbanite on-ear headphones](https://web.archive.org/web/20241208025036/https://click.linksynergy.com/deeplink?id=nOD/rLJHOac&mid=42592&murl=https%3A%2F%2Fen-us.sennheiser.com%2Furbanite-on-ear). They have very nicely-balanced sound, a built-in mic, and they aren’t insanely expensive. You can see all three of these items in the video above.
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1430/2400x1682/filters:focal(1020x715:1021x716):format(webp)/cdn3.vox-cdn.com/uploads/chorus_asset/file/9254431/brose_170914_1996_0016.jpg)
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](https://web.archive.org/web/20241208025036im_/https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1430/2400x1682/filters:focal(1020x715:1021x716):format(webp)/cdn3.vox-cdn.com/uploads/chorus_asset/file/9254431/brose_170914_1996_0016.jpg)
+
+There are tons of other little tweaks and additions I’ve made over the last two years, but these are the main tools that have really improved my vanlife. This was originally supposed to be a one-year project, but when I hit that point I realized that I didn’t want to stop, and I didn’t need to, in part because of all these additions. I may live in a small, mobile space, but I’ve found it to be surprisingly comfortable, and I’ve managed to stay productive despite the constant siren call of new experiences just outside my door. Currently, the plan is to keep going until it stops being fun or until I find something better. If you want to read more about life on the road, check out my blog for the trip at [ConnectedStates.com](https://web.archive.org/web/20241208025036/http://connectedstates.com/). And if you have any questions hit me up on [Instagram](https://web.archive.org/web/20241208025036/http://instagram.com/brentdangerrose), [Twitter](https://web.archive.org/web/20241208025036/http://twitter.com/brentrose), or [Facebook](https://web.archive.org/web/20241208025036/https://www.facebook.com/BrentRoseOfficial/) and I’ll do my best to answer them.
+
+*Photography by Brent Rose for The Verge.*
+
+*Vox Media has affiliate partnerships. These do not influence editorial content, though Vox Media may earn commissions for products purchased via affiliate links. For more information, see our*[*ethics policy*](/web/20241208025036/https://www.theverge.com/pages/ethics-statement)*.*
+
+Comments
+
+Most Popular
+
+Most Popular
+
+1. [## Valve’s master plan for Steam Machines is finally coming into focus](/web/20241208025036/https://www.theverge.com/2024/12/6/24315098/valve-steam-machines-steamos-steam-deck-vr)
+
+   ---
+2. [## X’s Grok AI chatbot is now available to all users](/web/20241208025036/https://www.theverge.com/2024/12/6/24314860/x-grok-ai-chatbot-available-all-users)
+
+   ---
+3. [## Google’s AI weather prediction model is pretty darn good](/web/20241208025036/https://www.theverge.com/2024/12/7/24314064/ai-weather-forecast-model-google-deepmind-gencast)
+
+   ---
+4. [## Google Wallet’s new passport ID feature won’t help you enter the country](/web/20241208025036/https://www.theverge.com/2024/12/6/24315065/google-wallet-digital-id-passport-airports)
+
+   ---
+5. [## AGI is coming and nobody cares](/web/20241208025036/https://www.theverge.com/2024/12/6/24314746/agi-openai-sam-altman-cable-subscription-vergecast)
+
+   ---
+
+From our sponsor
+
+### 
+
+[Advertiser Content From![Sponsor logo](/web/20241208025036im_/https://www.theverge.com/icons/native-ad-placeholder.png)](https://web.archive.org/web/20241208025036/http://theverge.com/)
+
+![Sponsor thumbnail](/web/20241208025036im_/https://www.theverge.com/icons/native-ad-placeholder.png)

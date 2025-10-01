@@ -1,0 +1,499 @@
+# How to Track a Human | The Art of Manliness
+
+**Source**: http://www.artofmanliness.com/2016/10/13/how-to-track-a-human/
+**Type**: article
+**Created**: 2025-08-13T17:50:20.522111
+
+---
+
+title: How to Track a Human | The Art of Manliness
+source: http://www.artofmanliness.com/2016/10/13/how-to-track-a-human/
+date: 2025-08-13T17:50:18.717287
+tags: []
+---
+![Man tracking human footprints on river bed
+illustration.](https://content.artofmanliness.com/uploads/2016/10/Human-
+Tracking-Header-1-e1476394591925.jpg)
+
+Itâs a common trope in classic Westerns. A posse is rounded up to find some
+bad guys whoâve headed out into the desert to hide. To help track them down,
+they bring on an Indian scout. To the astonishment of the cowboys, the native
+guide can determine how many people are in the bad guyâs gang, how long ago
+they camped at a particular spot, and that one of the ruffians is injured. It
+almost seems like magic.
+
+But itâs not.
+
+The scout was simply using a set of keen, field-developed senses, and
+practicing good forensics.
+
+A few years ago when I did the [ITS Tactical
+Muster](https://www.artofmanliness.com/articles/its-tactical-muster-review/),
+one of my favorite classes at the event was on human tracking, taught by
+[professional combat tracker John Hurth](https://tyrgroupllc.com/). In just a
+few short hours, John was able to show us how to know whatâs going on with
+someone on the lam and where he or she is headed simply by looking at their
+footsteps or noticing a broken branch.
+
+Why would you need to know how to track a human? Youâll probably never have
+to go on a manhunt for a fugitive, but itâs a handy skill to have
+nonetheless. Maybe your kid wanders away from your house, or you lose a buddy
+in a remote wilderness area. Instead of wandering frantically and aimlessly,
+calling their name, you can know how to search for them effectively and
+efficiently.
+
+Plus, once you know how to track a human, you can reverse engineer the process
+as well; that is, youâll better be able to make your own escape without
+leaving a trail. You know, just in case you find yourself on an island, being
+chased by a stalker playing [âthe most dangerous
+game.â](https://archive.org/stream/TheMostDangerousGame_129/danger.txt)
+
+Below, we provide a primer on tracking humans. Keep in mind, to really learn
+how to do this stuff, you need to practice it and practice it for years. But
+with some dedication, you may eventually reach the level of tracking evinced
+by the crack trackers in _Butch Cassidy and the Sundance Kid_ , of whom the
+protagonists repeatedly said with exasperation, â _Who are those guys_?â
+
+###  _Develop Your Situational Awareness_
+
+The most important attribute a tracker must develop is his situational
+awareness. Without it, clues and signs that would lead him to his target go
+unnoticed.
+
+Situational awareness comes down to two things: 1) observing, and 2) correctly
+interpreting your observations.
+
+Learning how to become more observant takes time and dedication. It requires
+changing your mindset, training your memory and senses, and daily practice in
+truly noticing what you see. Fortunately, we have some fantastic guides on how
+to do all of those things:
+
+Once you sharpen your powers of observation, you next need to know how to
+correctly interpret what you see, in order to reach correct conclusions about
+whatâs going on. To do that, you must broaden and deepen your mental models.
+
+### _Broaden and Deepen Your Mental Models_
+
+[Mental models](https://www.artofmanliness.com/articles/ooda-loop/) are simply
+ways of looking at and understanding the world. These paradigms create our
+expectations for how the world works — helping us grasp whatâs happened
+before, whatâs happening now, and whatâs likely to happen next.
+
+For a tracker, the mental models he needs to broaden and deepen the most are
+the ones that will better help him find his target. These fall into two main
+categories: environment and psychology/habits.
+
+### Environment
+
+The most obvious subject a tracker needs to know inside and out is the
+environment in which he is tracking. He needs to understand things like how
+snow keeps a track changes depending on whether itâs more wet or dry. He
+needs to know that spiders usually spin their webs late in the evening (if
+footprints are beneath an unbroken spider web, the tracker can assume that the
+target passed the point earlier in the day). He needs to know about the fauna
+and rocks in the area. He needs to know how the wind blows. He needs to know
+the usual temperature of embers a certain number of hours after a campfire has
+burned out.
+
+He also needs to know how stuff ages in an environment. A skilled tracker can
+look at objects or signs in his surroundings and roughly gauge how long ago
+they were left there by his target. He knows how long it takes for paper to
+start to brown or a plastic bottle to become discolored after being discarded
+in a desert or forest. He should be able to look at a broken branch and, based
+on the color of the exposed wood, roughly guess when it was broken. He even
+knows what human feces look like 1, 2, 3 days after it was excreted by his
+target. Developing these mental models will come with practice and time, but
+one way to build them up before you need them is to make âaging stands.â
+
+**Aging Stands: The Tracker’s Experiment**
+
+![Aging stand for learning human tracking techniques
+illustration.](https://content.artofmanliness.com/uploads//2016/10/Aging-
+Stand-1.jpg)
+
+Aging stands are described by expert combat tracker John Hurth as âscience
+experimentsâ for trackers. You make a one-row grid on the ground out of
+branches and place different objects into its squares. Ideally, each square
+will be exposed partly to direct sunlight and partly to areas shaded and
+protected by trees. In week one, you put items that you want to test in the
+first square: footprints, paper, broken twigs, water bottles, and yes, even
+poop. You want to make sure you have duplicate samples in the shaded and
+unshaded part of the square.
+
+Each day, visit your aging stand and take notes on how things have changed.
+How have the exposed branches changed color? Has the paper started fading?
+Whatâs happened to the poop? Have the impressions of the footprints changed
+over time?
+
+The next week, move to the next square in the grid and put fresh samples of
+the same items in it. Compare them to the samples in the first weekâs
+square. Take notes on differences. The next week put new samples in the third
+square. Compare them to the first and second weekâs squares. Over time,
+youâll get a rough idea of the aging progression undergone by both natural
+and manufactured items.
+
+Youâll want to conduct aging stand experiments at different times of the
+year — spring, summer, fall, and winter — to learn how seasonal variations in
+humidity, temperature, and precipitation affect the aging process. Itâs a
+laborious exercise, but itâs essential for creating the mental models you
+need to successfully track someone.
+
+### Human Psychology & Behavior**  
+**
+
+A tracker needs to not only know whatâs going on in the environment in which
+heâs following a target, but whatâs going on in the targetâs head as
+well. He needs to develop mental models that deal with human behavior, and
+this means having a robust knowledge of human psychology and sociology.
+Knowing the mindset and cultural background of your target can help you know
+how heâll act and lead you to where he is. The famous scout [Frederick
+Russell Burnham](https://www.artofmanliness.com/articles/podcast-203-the-real-
+life-most-interesting-man-in-the-world/) had this to say about developing
+these kinds of mental models:
+
+> “It is imperative that a scout should know the history, tradition, religion,
+> social customs, and superstitions of whatever country or people he is called
+> on to work in or among. This is almost as necessary as to know the physical
+> character of the country, its climate and products. Certain people will do
+> certain things almost without fail. Certain other things, perfectly
+> feasible, they will not do. There is no danger of knowing too much of the
+> mental habits of an enemy. One should neither underestimate the enemy nor
+> credit him with superhuman powers. Fear and courage are latent in every
+> human being, though roused into activity by very diverse means.”
+
+Besides general cultural and psychological mental models, you need to develop
+mental models for your particular target. Does he like to eat certain foods?
+Does he have any medical conditions? Does he smoke or bite his nails? Is he
+familiar with the outdoors or is he a city dweller? Does he have any
+particular fears or insecurities? Does he know anyone in the area?
+
+Knowing this sort of information about your target will inform the way you
+conduct your search and interpret the evidence you find in the field. For
+example, if you know your target smokes, youâll be on the lookout for
+cigarette butts. If he has diabetes, and you come across a puddle of urine
+that smells fruity, youâll know youâre on the right track.
+
+### _Scan and Search: Taking in Your Environment_
+
+Now that youâre working on increasing your situational awareness by becoming
+more observant and developing appropriate mental models (this is in fact an
+exercise that should never end), itâs time to start actually tracking.
+
+When youâre out tracking, youâll be engaging in two visual modes: scan and
+search.
+
+### Scan
+
+When you scan the landscape, the goal is to get a general, big-picture
+overview of your surroundings. Keep an open focus. Donât have any particular
+thing youâre looking for, as that will cause âtarget blindnessâ and
+result in your missing other pieces of evidence. Visually sweep the area for
+possible anomalies in your environment like tracks, litter, blood stains, etc.
+
+Rather than scanning an area haphazardly, tracking experts [David Diaz and V.
+L.
+McCann](https://www.amazon.com/gp/product/B00MJD6ZDC/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00MJD6ZDC&linkCode=as2&tag=stucosuccess&linkId=FSXA3GZUT5SFDAZ4)
+recommend dividing it horizontally into thirds:
+
+> âImagine the territory in front of you is a two-dimensional canvas of a
+> painted nature scene. The top boundary is the horizon; the bottom boundary
+> is the ground in front of you. Now divide that canvas into three equal
+> parts: the foreground, the mid-distance, and the far groundâ¦
+>
+> In order to âseeâ everything in such a vast area, it must be scanned
+> systematically. With a horizontal movement of your eyes, sweep the
+> foreground from left to right, right to left, and left to right, moving your
+> line of vision up just enough to slightly overlap the area above the last
+> sweep.â
+
+In this way, you methodically work your way up to the far ground and ensure
+that you donât miss anything — distant or near — lying before you.
+
+### Search
+
+Diaz and McCann describe searching as âin-depth analysis of an area or
+object.â You can begin searching at any point in the scanning process once
+youâve noticed an anomaly. Searching involves looking at the anomaly more
+closely and recording it in your mind or notebook for later analysis.
+
+Just because youâve searched one anomaly, doesnât mean you should stop
+your scan of the area. Keep scanning and looking for more anomalies that you
+can more closely examine. As you continue your scan and search, take extra
+caution to avoid contaminating signs that youâve uncovered. Leave litter
+where you found it, and donât walk on footprints. You want to leave things
+in their original locations so you can put the pieces together and construct a
+story based on the evidence found.
+
+### Using Light for Scanning and Searching
+
+![Man tracking humans using angle of sunlight to help
+illustration.](https://content.artofmanliness.com/uploads//2016/10/Sun-1.jpg)
+
+As you scan and search, use the light available to you to better locate
+possible anomalies. For example, in the morning and evening, the sun casts
+long shadows over impressions in the ground, bringing them into sharper
+relief. To better see these shadows, position yourself so that the tracks
+youâre following are between you and the light source. This will require you
+to change your position in relation to the tracks. Be mindful of not
+contaminating them with your own prints as you do so.
+
+Tracking at night is possible with the assistance of a light source [like a
+flashlight](https://www.artofmanliness.com/articles/flashlights-guide/).
+Youâll want to use a colored light like green or red to avoid disrupting
+your night vision. (Side note: red used to be the preferred nighttime light
+color, but many operators are switching to green because it allows them to see
+objects more clearly without reducing night vision that much.)
+
+![Using night vision to track someone in the
+dark.](https://content.artofmanliness.com/uploads/2016/10/Signs-in-
+Dark-1-e1476394673658.jpg)
+
+When youâre searching at night, if you look directly at the object youâve
+identified, youâll likely stop seeing it. Looking directly at objects
+requires you to use the cone area of the retina, and thatâs not very active
+during low-light settings. To make up for this deficiency, youâll want to
+use what Diaz and McCann call âoff-center vision.â Instead of looking
+directly at the object youâve identified, youâll want to look left, right,
+above, and below it, pausing at times to verify the properties of the object.
+
+### Know What To Look For
+
+As you scan and search your environment, you want to be on the lookout for a
+few indicators that will help you track your target. Hurth suggests being on
+the lookout for the following visual indicators (I havenât included all of
+them — [check out Johnâs book for the complete, exhaustive
+list](https://www.amazon.com/gp/product/B00BJ8LQ64/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00BJ8LQ64&linkCode=as2&tag=stucosuccess&linkId=FSXA3GZUT5SFDAZ4)):
+
+**Ground Indicators (on the ground)**
+
+![How to track a person grass disturbed in straight line
+illustration.](https://content.artofmanliness.com/uploads//2016/10/Grass-1.jpg)
+
+  * Footprints
+  * Vehicle tracks
+  * Trampled grass
+  * Boot and shoe scuffs
+  * Turned over dead leaves
+  * Disturbed grass or soil
+  * Mud, soil, sand, and water transferred from footwear onto another medium
+
+> **Track Traps: The Honey Pot of Ground Indicators**
+>
+> Hurth suggests being on the lookout for âtrack traps.â These are areas
+> on the ground that do an excellent job of capturing your targetâs tracks.
+> He calls them âhoney potsâ because they leave so much information
+> behind. Mud, sand, soft dirt, and snow are great examples of track traps.
+> Bodies of water or oil spills can be track traps too. A target who steps in
+> water or oil will likely leave footprints on the ground after stepping in
+> the fluid.
+
+**Aerial Indicators (above your ankle)**
+
+![Broken spider web between two trees how to track a person
+illustration.](https://content.artofmanliness.com/uploads//2016/10/Spider-
+Web-1.jpg)
+
+  * Broken cobwebs
+  * Detached or missing leaves
+  * Broken branches that point in the direction of the target
+  * Scratches or scuffs on trees
+  * Cut or broken vegetation
+  * Tall grass or vegetation pushed down into an unnatural position
+  * Clothing fabric in branches
+  * Hair in branches
+
+**Litter Indicators (objects discarded intentionally or unintentionally)**
+
+  * Cigarette butts
+  * Candy and food wrappers
+  * Spent ammo casings
+  * Used medical supplies
+  * Gum/tobacco
+  * Clothing
+
+**Blood Indicators**
+
+![Blood indicators what type of wound identification
+illustration.](https://content.artofmanliness.com/uploads//2016/10/Blood-1.jpg)
+
+Your target might be injured and consequently leaving blood stains. The color
+of the blood stain can tell you a lot about the injury he or she has and how
+long itâs been since they left the blood stain there.
+
+  * _Dark red drops of blood_. Indicates a venous wound. Non-life-threatening.
+  * _Bright red streaks of blood_. Indicates a possible arterial wound. Life-threatening.
+  * _Pink, frothy blood_. Indicates a possible wound to the lungs.
+  * _Light red, foul-smelling blood_. Indicates a possible wound to the stomach.
+
+Blood changes color over time as itâs exposed to the elements. Initially,
+blood spots will be brighter but will eventually fade to a brown or rust
+color.
+
+**Bodily Discharge Indicators**
+
+Vomit, poop, pee, snot — these bodily discharges may not be pleasant to
+contemplate, but they can not only help lead you in the direction of your
+target, but also paint a picture of his current condition.
+
+Vomit and poop can tell you what sort of food your targetâs been eating. If
+thereâs a lot of liquid, clear vomit or you see diarrhea, thereâs a chance
+he could be dehydrated.
+
+If you find a urine spot that has a very fragrant ammonia smell, the target is
+likely dehydrated. If it has a fruity smell, thereâs a chance heâs
+diabetic.
+
+![How to track a person man's urine on the ground
+illustration.](https://content.artofmanliness.com/uploads/2016/10/Likely-
+Man-1.jpg)
+
+Man peeing
+
+![How to track a person woman's urine on the ground
+illustration.](https://content.artofmanliness.com/uploads/2016/10/Likely-
+Woman-1.jpg)
+
+Woman peeing
+
+The relation of a urine stainâs position to a set of footprints can tell you
+if it came from a man or a woman. If the urine stain is in front of the
+footprints, probably a dude. If the stain is in the middle of the footprints
+or near the heels, likely a lady who popped a squat to do her business.
+
+**Audio and Olfactory Indicators**
+
+As a tracker, you canât just rely on your sight to track down your target.
+Sounds — heavy breathing, talking, crying, movement in brush, coughing, etc. —
+can provide insights as to where your target is.
+
+Smells can also provide useful clues. The smell of smoke can lead you to a
+campfire where the target is currently or has been recently. If the targetâs
+been without a shower for a couple of days, he might also be giving off some
+pungent body odor.
+
+Bottom line: as you scan and search with your eyes, donât take your nose and
+ears offline. They can provide useful information youâd be missing using
+sight alone.
+
+### _Identifying and Interpreting Footprints_
+
+While you should be scanning and searching for signs and indicators like
+blood, trampled grass, and broken cobwebs, footprints will be one of your
+primary ways of following and tracking your target.
+
+A professional tracker is so adept at tracking footprints that he can identify
+individuals simply with a glance at the impressions in the ground. They can
+also immediately tell if the person is running, carrying a load, carrying
+another person, or even walking backwards.
+
+The ability to create this dossier on a target simply by looking at their
+footprints requires some careful observation. Hereâs what to look for when
+identifying and interpreting footprints.
+
+### Collect Information on a Footprint Data Card
+
+A footprint data card is your police sketch of your targetâs footprint.
+(John has a template in his book.) Youâll draw the pattern of the sole of
+his footwear on the card, determine if itâs a boot, shoe, or sandal, and
+make measurements that include the length of the print overall, the width of
+its heel (and its length if itâs a boot), and the width of the ball of the
+foot. Youâll also note if the impression reveals any manufacturer or sizing
+labels and if the toe is rounded, square, or pointed. Youâll want to record
+the time and location you located the print and the direction of travel as
+well.
+
+Hurth recommends putting a nickname on top of the footprint data card based on
+its salient characteristics. So if you see a âVibramâ logo in a print, you
+can call that print âVibram.â
+
+If the target is barefoot, youâll want to note whether he has a high arch,
+regular arch, or is flat-footed. Youâll want to measure the width of the
+ball of the foot and the heel. Make notes about their toes too — missing
+digits? Hammer toe?
+
+### Interpreting Footprints
+
+![Determining meaning in footprints when tracking humans
+illustration.](https://content.artofmanliness.com/uploads/2016/10/Footprints-1.jpg)
+
+If you look closely enough at footprints, they can tell you a lot about what
+your target was doing when he left them.
+
+For example, the spacing and depth of the impressions can tell you about the
+targetâs gait — whether he was running or walking. Impressions that are far
+apart from each other and deeper in the toe or the heel indicate that the
+target was running; impressions that are shallower and closer together
+indicate walking.
+
+If the gait is shorter and the impressions are deeper, the target was likely
+carrying a load like a backpack. If you see a short gait and deep impressions,
+along with intermittent additions of another set of prints next to the
+targetâs, you can deduce that he was carrying a person (and occasionally
+putting them down for breaks).
+
+A set of impressions that have a circular indention to the side indicates that
+the target is using a walking cane or stick.
+
+If one foot leaves a deeper impression than the other, it likely means the
+target is favoring that leg and that the other leg is injured.
+
+So as you look at footprints, donât just stop with the observation phase.
+Try to put together a story of what your target was doing, as this can help
+you develop a theory as to what heâs likely to do next.
+
+### Determining the Number of People in a Group by Footprints
+
+![Determining number of people in a group with footprints
+illustration.](https://content.artofmanliness.com/uploads/2016/10/Number-in-
+Group-1.jpg)
+
+Sometimes counting the number of people in a target group is easy because
+there are distinct sets of footprints that you can count. But often the
+footprints overlap and mix together. How do you get a count then?
+
+One way is to use the Box Method to get an estimate. Draw a line behind one
+print and then measure 48-60 inches forward and draw another line. Count all
+full and partial prints between those two lines (round up if you end on an odd
+number). Divide the total print count by two, and youâll have a rough
+estimate of the number of people in your target group.
+
+### Practice Reading Footprints
+
+Reading and interpreting footprints is a skill that can be acquired through
+practice. A great way to do that is to create an artificial track trap out of
+sand and then have your friends walk through it in different ways while
+youâre not looking. They can run, limp on one leg, carry each other, walk
+and then kneel, drag a body, pretend to fight each other, etc.
+
+After theyâve left their tracks, go to the track trap and interpret what
+they did by looking at the tracks. After youâve recreated the scenario your
+friends acted out, use a rake to clear the track trapâs slate and have your
+buds walk through it again.
+
+I did this exercise with Hurth at the ITS Tactical Muster and had a blast.
+Itâs pretty cool to be able to determine whether a fight went on or if
+someone was carrying a rifle simply by looking at footprints.
+
+### Putting It All Together: Creating a Story of Your Target
+
+Tracking requires you to be hyper observant of your environment while
+simultaneously orienting your observations to the mental models in your head.
+This back and forth observing and orienting allows you to create a story of
+whatâs going on with your target even though you werenât there to observe
+them firsthand. By creating this story about your target as you collect
+evidence, youâll be in a better position to figure out where theyâre
+headed so you can find them.
+
+_____
+
+**Sources**
+
+ _[Combat Tracking
+Guide](https://www.amazon.com/dp/B00BJ8LQ64/ref=as_li_ss_tl?_encoding=UTF8&btkr=1&linkCode=sl1&tag=artofmanliness03-20&linkId=88c2acba529d479a2ccbff4eb173224e)
+_by John Hurth (If you get the chance, [take a course from
+John](https://tyrgroupllc.com/upcoming-courses). He’s extremely knowledgeable
+and a great teacher.)
+
+_[Tracking
+Humans](https://www.amazon.com/gp/product/B00MJD6ZDC/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00MJD6ZDC&linkCode=as2&tag=stucosuccess&linkId=FSXA3GZUT5SFDAZ4)
+_by David Diaz and V.L. McCann

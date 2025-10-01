@@ -1,0 +1,57 @@
+# Revolt of the Elites | Issue 10 | n+1 | The Editors
+
+**Source**: http://nplusonemag.com/revolt-of-the-elites
+**Type**: article
+**Created**: 2025-08-13T21:22:32.342398
+
+---
+
+title: Revolt of the Elites | Issue 10 | n+1 | The Editors
+source: http://nplusonemag.com/revolt-of-the-elites
+date: 2025-08-13T21:22:23.154979
+tags: []
+---
+Has any concept more completely defined and disfigured public life over the
+last generation than so-called elitism? Ever since Richard Nixon’s
+speechwriters pitted a silent majority (later sometimes “the real America”)
+against the nattering nabobs of negativism (later “tenured radicals,” the
+“cultural elite,” and so on), American political, aesthetic, and intellectual
+experience can only be glimpsed through a thickening fog of culture war. And
+the fog, very often, has swirled around a single disreputable term.
+
+The first thing to note is the migration of the word  _elite_ and its cognates
+away from politics proper and into culture. Today “the cultural elite” is
+almost a redundancy — the culture part is implied — while nobody talks anymore
+about what C. Wright Mills in 1956 called “the power elite.” Mills glanced at
+journalists and academics, but the main elements of the elite, in his sense,
+were not chatterers and scribblers but (as George W. Bush might have put it)
+deciders: generals, national politicians, corporate boards. “Insofar as
+national events are decided,” Mills wrote, “the power elite are those who
+decide them.” The pejorative connotations of “elite” have remained fairly
+stable across the decades. The word suggests a group of important individuals
+who have come by their roles through social position as much as merit; who
+place their own self-maintenance as an elite and the interests of the social
+class they represent above the interests and judgments of the population at
+large; and who look down on ordinary people as inferiors. Today, though, it’s
+the bearers of culture rather than the wielders of power who are taxed with
+elitism. If the term is applied to powerful people, this is strictly for
+cultural reasons, as the different reputations of the identically powerful
+Obama and Bush attest. No one would think to call a foul-mouthed four-star
+general an elitist, even though he commands an army, any more than the term
+would cover a private equity titan who hires Rod Stewart to serenade his 60th
+birthday party. Culture, not power, determines who attracts the epithet.
+
+There are two opposed explanations for this situation. One would be that
+access to political, economic, and military power is today more meritocratic
+and open than access to filmmaking, humanistic academia, freelance writing,
+wine criticism, and so on. Do people no longer complain about the power elite
+because those with power are no longer elitist? Culture, in that case, would
+constitute a last vestige of unearned prestige in an otherwise democratically
+constituted society. The other explanation would be that it simply goes
+without saying these days that the materially consequential areas of life are
+lorded over by self-recruiting elites. You wouldn’t speak of a business elite,
+a governing elite, or a firepower elite because, now,  _that_ would be
+redundant. Complaints about cultural elitism would then be merely a sign that
+in the world of culture (unlike that of power) there is still an ongoing
+contest between elitism and equality that in all other realms has already been
+decided. By the deciders.

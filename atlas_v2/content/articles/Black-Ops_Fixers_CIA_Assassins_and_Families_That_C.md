@@ -1,0 +1,498 @@
+# Black-Ops Fixers, CIA Assassins, and Families That Control Global Finance -- New York Magazine - Nymag
+
+**Source**: http://nymag.com/news/features/octopus-sam-israel-2012-7/
+**Type**: article
+**Created**: 2025-08-13T20:16:22.123441
+
+---
+
+title: Black-Ops Fixers, CIA Assassins, and Families That Control Global Finance -- New York Magazine - Nymag
+source: http://nymag.com/news/features/octopus-sam-israel-2012-7/
+date: 2025-08-13T20:16:20.458903
+tags: []
+---
+![](https://images.nymag.com/news/features/octopus120709_1_560.jpg)
+_Illustration by Tim McDonagh_
+
+The first rule of a confidence game is that it is impossible to con an honest
+man. Con men are not thieves, at least in the conventional meaning of the
+word. They offer a deal that is too good to be true, that any honest man would
+know to be too good to be true, and make the mark believe it to be the
+truth—the urgent, lucrative, top-secret truth.
+
+“Investing in Bayou entails substantial risks,” marketing material for the
+$450 million hedge fund acknowledged in February 2004. “Bayou Funds are
+single-manager funds. This eliminates diversification of viewpoint and
+expertise.” Investors were entrusting their money, they were told, to one
+person: Sam Israel.
+
+Israel was the middle-aged scion of a legendary family of commodity traders,
+still boyishly eager to make his own name in the more breakneck corners of
+Wall Street. He had been running Bayou since 1996, when he launched it in his
+Westchester basement with less than $1 million invested. He had been
+falsifying Bayou’s returns since the very first annual audit—first in a panic
+to cover a single bad bet on gold, then systematically to hide losses that
+seemed to accrue every quarter. Israel told investors he’d invented a computer
+program called “forward propagation” that had the quasi-mystical ability to
+foresee the future by a few seconds—or a “tick.” The program, with indicators
+that would light up like a slot ­machine to make an investment recommendation,
+was correct precisely 86 percent of the time, Israel said. And for years, the
+returns seemed to reflect its foresight: An investment in Bayou of $1,000 in
+1997 was worth $4,000 by the beginning of 2004, according to company filings.
+
+But the fantastic performance was just that: a performance. In truth, Bayou
+was down more than $100 million, losses Israel had covered with fake profits
+he’d inserted into financial statements in an ambiguous line called “Due From
+Brokers.” The hedge fund had its own fictitious auditing firm established off-
+site, and while records at Bayou’s clearinghouse, SLK, clearly showed annual
+losses, SLK’s parent company, Goldman Sachs, neglected to scrutinize the
+paperwork. When the SEC finally asked to see the company’s numbers, in 2004,
+Bayou’s CFO scrambled to falsify the material. But Israel told him not to
+bother—the regulators wouldn’t understand the slew of data and wouldn’t dare
+call out the fund if they did smell a rat. They didn’t.
+
+Investors gave Bernie Madoff money because they trusted him. They gave Sam
+Israel money because they liked him—a gregarious, disarming goofball who, as a
+Wall Street apprentice, had invented an alter ego he called Captain Proton, a
+fearless superhero whose special powers were granted by vodka and cocaine. Now
+in his forties, he lived in a Westchester mansion, rented from Donald Trump
+for $22,000 a month, with an adjacent chapel in which he had built a replica
+of the Bayou trading floor alongside an 800-­gallon saltwater fish tank and a
+menagerie of rare reptiles. He’d also installed a high-end studio for jam
+sessions, where he’d play with the Allman Brothers’ drummer when the band was
+in town. He owned a fleet of Porsches and signed personal checks printed with
+the image of SpongeBob SquarePants.
+
+But he was also a man living under a mountain of lies, and the stress was
+killing him. He’d had a series of major back operations and open-heart
+surgery. He’d been diagnosed as bipolar and prescribed Depakote (for
+seizures), Neurontin (an antiepileptic), lithium (a mood stabilizer),
+Wellbutrin (for depression), and Zoloft (for anxiety)—a cocktail he washed
+down with a handful of opiate painkillers.
+
+His marriage to his high-school sweetheart was in shambles. Once he’d welcomed
+his family home from a short trip standing in the driveway wearing cowboy
+boots, his wife’s bikini underwear, a lacrosse helmet, swim goggles, a life
+jacket, and a cape, then started screaming at his wife when she didn’t get the
+joke. He’d fallen asleep over the turkey at a Thanksgiving dinner meant to be
+a kind of reconciliation. When his wife found him bent over a pile of white
+powder on his desk with a $20 bill in his nose, he went for the big lie: How
+dare she suggest he was snorting coke?
+
+“There was a black hole in my heart,” Israel recalls. “It weighed on me all
+the time—on my shoulders, my heart, my mind. I was always surrounded by
+blackness.”
+
+He was desperate to fill the hole—to find some way of making $100 million
+quickly. “I knew no one would care about the fraud if I got the money back,”
+he says. “This is America. No one cares how you make money as long as you’re
+making it.”
+
+![](https://images.nymag.com/news/features/octopus120709_2_560.jpg) “I’ve
+heard that there are five families that run the world,” Israel said.
+“Thirteen,” corrected Nichols.Photo: Illustration by Tim McDonagh
+
+A Wall Street friend just out of jail told him that prisons were filled with
+aspiring traders and about a system perfected there that yielded 100 percent
+annual returns; Bayou invested $5 million, losing most of it in a couple of
+weeks. Desperate, Israel turned to a father at his son’s private school, a
+cousin and friend to George W. Bush, for an investment pick—and not just any
+pick. “If you’re going to bring me a company,” he said, “make sure it’s going
+to go up tenfold, not just a few points.” At an investors’ meeting on the Isle
+of Man for the start-up the father had suggested, Israel’s CFO got wind of
+another company, Debit Direct, whose preposterous plan to compete with Western
+Union and MoneyGram wasn’t entirely clear, but whose pitchman, a six-foot-six
+venture capitalist named Jack O’Halloran, hugely impressed ­Israel—telling him
+he had acted in _Superman, Dragnet,_ and _King Kong_ , slept with Hollywood
+starlets, and fought George Foreman at Madison Square Garden. All of this was,
+improbably, true. O’Halloran also told Israel that he was the secret love
+child of a Gambino-family crime boss and that he was writing a firsthand
+account revealing the truth about the Kennedy assassination—that the president
+had been shot by his driver and the footage edited out of the Zapruder film by
+the CIA. Israel invested $2 million in Debit Direct, followed by $500,000 in
+O’Halloran’s book.
+
+Worried about Israel’s emotional well-being, his new interior-decorator
+girlfriend suggested he talk to her psychic, who communicated with a Native
+American spirit named Silver Cloud. “Good things will happen in the next month
+or two,” the psychic told Israel. “A financial opportunity will present itself
+that could make a big change for you.” The psychic said that a man named
+Robert was going to enter Israel’s life and have a big impact. He couldn’t
+quite hear all that Silver Cloud was saying about Robert—the spirit’s voice
+was too faint. But Israel should be prepared.
+
+Afterward, his girlfriend eagerly asked how the session had gone.
+
+“It was a bunch of bullshit,” Israel said, rolling his eyes.
+
+Days later, a man named Robert did enter Israel’s life. He was introduced by
+Jack O’Halloran, who was having Chinese food in the chapel when Israel began
+complaining that the hedge-fund business had gotten tedious.
+
+“There are paradigm shifts on Wall Street every ten years,” Israel told
+O’Halloran. “When I started, it was insider trading and soft-dollar scams.
+Then it became IPOs and the dot-com bubble. Now it is high-frequency trading.
+The banks are front-running the market like crazy. I’m trying to figure out
+what’s coming next.”
+
+“There’s a technology I’ve heard about that might be good for your trading
+system,” O’Halloran said. “But the guy who knows about it is really secretive.
+I shouldn’t even be talking about him. He’s very deep into CIA black ops.”
+
+O’Halloran said the man’s name was Robert Booth Nichols—a national-­security
+asset whom O’Halloran called a real-life Jason Bourne. “Bob is a keeper of the
+secrets of the world,” O’Halloran said. “That’s the only reason he is still
+alive.”
+
+Later that night, Israel turned on his computer and typed the name “Robert
+Booth Nichols.” Hundreds of links appeared—Nichols seemed to be a kind of
+conspiracy-theory superstar. According to one manuscript Israel downloaded,
+Nichols was a CIA assassin, illegal-arms dealer, mob associate, and con man.
+He had been involved in virtually every nefarious covert plot carried out by
+the U.S. government for the past three decades, the book said: Iran-contra,
+the October “surprise,” MK Ultra. When the CIA dealt heroin to fund a war
+against Hezbollah, Nichols was supposedly there, and when three people were
+murdered on the Cabazon Indian Reservation, Nichols was there, too, developing
+biological weapons, a laser gun, and machine guns to arm Nicaraguan rebels.
+
+But it was another story involving Nichols that captured Israel’s imagination.
+The manuscript described how, through front companies in the eighties, the CIA
+had covertly sold a computer program named PROMIS to banks and financial
+institutions like the Federal Reserve, then used a trapdoor in the program to
+secretly monitor financial transactions digitally. (Pieces of this story had
+been reported elsewhere, particularly after Inslaw, the company that had
+originally developed the program for use in the court system, sued the
+Department of Justice.)
+
+“A lightbulb went off in my head,” Israel recalls. “If I had PROMIS, I could
+track the movement of money. I could see how the Fed operated. If money was
+going into semiconductors, then I could get there ahead of the market. The
+same for consumer goods or oil and gas. I would be at the ﬂux point. I would
+slay the market. I was going to make so much money it wouldn’t even be fun. It
+would be the ultimate inside trade.”
+
+![](https://images.nymag.com/news/features/octopus120709_3_560.jpg) “The guy
+was taking aim to shoot Bob. I pulled my Beretta out, and I shot at the guy. I
+hit him in the left hip, then walked over and shot him in the head. Point-
+blank. His head exploded all over the sidewalk.”Photo: Illustration by Tim
+McDonagh
+
+I first met Israel in 2008, not long after he’d been sentenced to twenty years
+in prison for the Bayou fraud. After the sentencing, he had faked his own
+suicide to avoid jail time, leaving the simple note SUICIDE IS PAINLESS in
+dust on his GMC Envoy on Bear Mountain Bridge in upstate New York—a stunt that
+earned him two more years in prison. Israel wore an orange jumpsuit and nursed
+a broken hand from a fight with another inmate. He was heavily drugged, a
+deluded but disarmingly likable raconteur. And he had an incredible story to
+tell about his role in a high-stakes confidence game so big that not just the
+future of Bayou but the solvency of the global economy and the fate of world
+government would hang on it—or so he had believed.
+
+When he began to tell me that story, he promised to tell the truth—a vow I
+treated with profound skepticism. Often I found myself doubting not just his
+story but his sanity. Inevitably, there are twists and turns in Israel’s tale
+that have to be taken on his word alone—this is the story of a self-confessed
+con man, after all, and in some cases, for legal reasons, I’ve used pseudonyms
+in describing unprosecuted crimes. But whenever it was possible for facts to
+be checked, I was able to confirm his account, if not his interpretation, with
+sealed legal documents, confidential financial records, and previously
+classified FBI reports. In the year before his arrest, Israel had been living
+a kind of fantasy life, at the very center of an impossible-to-believe
+international conspiracy that mixed elements of dime-novel spy thrillers and
+an Illuminati-style financial cabal. But it was a fantasy life that had been
+remarkably well choreographed for him by a master confidence man who wove the
+story with just enough plausible detail, and staged just enough real-world
+encounters, that Israel, a con man himself, had come to truly believe it.
+
+The Dorchester Hotel in London was the setting for Israel’s first meeting with
+Nichols. It was the spring of 2004. The pretext was the investment Israel had
+made in Debit Direct, which was going to pay Nichols to facilitate access to
+the CIA’s top-secret biometric technology. As two engineers present began
+discussing the challenges of the project, Israel leaned over to whisper in
+Nichols’s ear. “I need to talk to you privately,” he said.
+
+“Aren’t you part of this group?”
+
+“This has nothing to do with them,” Israel said. “I’m here to talk about
+something different. PROMIS. The computer program.”
+
+“Who are you?” Nichols asked once they’d slipped separately out of the
+meeting.
+
+“I run a fund called Bayou,” Israel said. “I’m a trader.”
+
+“Do you have $100 million in cash?”
+
+It seemed to Israel that Nichols had tossed out the huge number as a way to
+brush him off. “I do,” he said.
+
+“Do you have $150 million?” Nichols asked.
+
+“Yes.”
+
+“Do you have $200 million?”
+
+“That’s pushing it,” Israel said.
+
+“You should forget PROMIS,” Nichols said. “I know how to put your money to
+work.”
+
+Nichols told Israel that the most powerful institutions of the modern
+world—the U.S. government, the U.N., the IMF—were all a front. “There is a
+secret government operating within the world’s government,” he said. “They run
+a secret trading program—the high-yield market. Only a few chosen people
+participate in the program. The returns are staggering. The proceeds are used
+to fund black operations, fight wars, pay off foreign governments, and conduct
+good works in the Third World. I don’t know if I can get you into the market.
+But I know people who can give you a shot.”
+
+Nichols called the secret society the “Upperworld.” The large banks that were
+designated primary dealers by the Federal Reserve—Goldman Sachs, Deutsche
+Bank, Union Bank of Switzerland—also operated in the shadow market. The
+Federal Reserve was a private company, Nichols said, designed to hide the
+reality that the United States government was bankrupt. If Israel managed to
+gain entrée to the market, he could double his money in a matter of weeks.
+
+Israel listened carefully, disbelief turning to excitement. Growing up, he had
+heard how the Israel family had cornered the market for cocoa not once but
+three times in the fifties and sixties. His family had been friends with the
+titans of Wall Street—Alan Greenspan, Larry Tisch, Sandy Weill—and he had seen
+the dealings of financial power brokers up close. But that didn’t make him
+skeptical of Nichols’s story; it made him credulous. “I knew Bob was right,”
+Israel told me. “I’d grown up watching how things were manipulated.” It made
+sense that there was a secret shadow market. He wanted in.
+
+On April 14, 2004, Bayou wired $150,999,847.42 to an account at Barclays in
+London. Under the terms of the agreement with Nichols, Israel was now called
+the “Benefactor.” Israel believed he’d read the terms carefully, though he
+never managed to explain to me precisely how the bond market was supposed to
+work or where the profits were meant to come from. “The parties agree that the
+financial return to the Benefactor shall be one hundred percent (100 percent)
+paid every ten days.”
+
+Investing in the high-yield market was financially risk-free, Nichols had
+explained, but just attempting to trade in it meant that Israel risked being
+killed at any moment by a rival faction angling for control over the lucrative
+bonds. Their own faction, Nichols told him, would include John Cassidy and
+Nigel Finch, whom Nichols introduced at a London lunch as intelligence
+operatives but were likely “shills,” or bit players in the con. (“Cassidy” and
+“Finch” are pseudonyms.)
+
+Finch was a suave Englishman—a veteran of MI6, Nichols told Israel, who ran an
+antiques store in London and was a fellow of the Royal Society of the Arts.
+Cassidy was a former CIA station chief, a pilot for Air America during
+Vietnam, and a descendant of a legendary Old West gunslinger. “Bob didn’t
+really trust Cassidy. But he said Cassidy was the only way to get into the
+market,” Israel says. “He was truly freaky looking. He had tattooed eyebrows.
+He limped badly. He was short. His teeth were fucked up. He was one scary-
+looking dude.”
+
+Nichols told Israel that the three men had squired wealthy people into the
+market for years. But all they had received were broker commissions. Now, with
+Israel’s $150 million, they would have the chance to get into the game as
+principals.
+
+There was more: Their trading wouldn’t just make them all impossibly rich,
+Nichols said. It would change the world. Since traders were only allowed to
+keep a portion of the profits for themselves, a charity was a necessary part
+of the structure of any faction. Their extra money, the men told Israel, would
+be used to cure aids.
+
+Finch and Cassidy showed Israel a zinc-based mineral supplement they said they
+had developed. In drop form, it had been proved to drastically reduce levels
+of HIV, they said, but the medicine wasn’t available because pharmaceutical
+companies were making a lot of money selling antiretroviral drugs and were
+protected by the American government.
+
+As Israel inspected the medicine with interest, the three men watched him
+expectantly. Cassidy especially.
+
+“Do you have a problem with me?” Israel asked.
+
+“You’re Mossad,” Cassidy said.
+
+Israel laughed. “You’re out of your _cabeza._ ”
+
+Cassidy sneered. “Have you had any heart trouble?”
+
+Israel was flabbergasted. There was no way some stranger could know about his
+condition. _No way._
+
+“You’re on something called the Intellectual Threat to State list,” Cassidy
+said. “The CIA poisoned you and made it look like it was heart failure. There
+are people who want to kill you. You’re either very lucky or you’re in great
+shape.”
+
+Israel started to panic, but Cassidy calmed him. There was no need to be
+afraid, he said—Cassidy could arrange to have Israel’s name taken off the
+list. Israel was now under the watch of a highly skilled assassin, Cassidy
+reminded him. Nichols would protect him.
+
+By far the most important role in a long con is the “inside man”—the mark’s
+handler and confidant, who is also the master of ceremonies and teller of the
+tale. But who was Robert Booth Nichols really? He told Israel he was a
+“facilitator”—spookspeak for jack-of-all-trades—and that he’d been apprenticed
+to a tiny elite of national-security operatives called the “Chosen,” then
+later disowned by the CIA in the fallout from Iran-contra. But it is hard to
+establish much beyond the very basic contours of Nichols’s biography, since so
+much is shrouded in myth or blocked by the veil of national security. A 1978
+FBI report identified Nichols as a professional confidence man—but one with
+some undefined association with intelligence agencies. He’d been licensed to
+manufacture the G-77 submachine gun, the report said. He claimed he’d been
+sent to Switzerland for three years to be taught the intricacies of
+intelligence-agency high finance. Nichols “should be considered armed and
+dangerous,” the FBI report concluded.
+
+For months, Nichols led Israel around London, attempting to enter the shadow
+market through mysterious back channels. On Lombard Street, late one night,
+they visited Barclays bank, where Israel was given a trading desk and appeared
+to make millions immediately. Unbeknownst to him, Barclays was moving its
+headquarters from Lombard Street to Canary Wharf at the time, and the setting
+that night was what con artists call “the big store”—essentially a soundstage,
+assembled by Nichols, with just enough trappings of the real version
+(flickering computer screens, security guards, oak-paneled walls) to convince
+his mark the scam was real. (The Bayou trading floor in Connecticut was
+another “big store.”) But when Israel tried to collect the $942 million he
+thought he’d made over two weeks of late-night trading at Barclays, the
+counterparties vanished, and he was left with only his original investment.
+
+Following similar “leads” to the other financial capitals of Europe—Frankfurt,
+Zurich, Geneva—­Israel discovered it was maddeningly difficult to trade the
+mythical bonds. It was also treacherous. Israel was chased through the streets
+of London by rival factions, he tells me, assaulted in Amsterdam, and dragged
+behind a vehicle in Zurich.
+
+Along the way, Nichols gave Israel a master class in alternate world history.
+“The government has been keeping things from the public for years,” Israel
+remembers Nichols saying. “The people you think are running
+things—politicians, bankers, diplomats—are not even halfway up the food
+chain.”
+
+“I’ve heard that there are five families that run the world,” Israel said.
+
+“Thirteen,” corrected Nichols.
+
+Israel reveled in the intrigue as he was ushered into the world of black
+ops—or what passed for black ops in Nichols’s telling. Like learning to check
+for a tail in the reflection in your own sunglasses, shopping at the Counter
+Spy Shop in London’s Mayfair, or speaking only in whispers, preferably
+whispered codes. Israel came to call the conspiracy “the Octopus”—the title of
+an unfinished book by the journalist Danny Casolaro, who died under mysterious
+circumstances in 1991 while investigating PROMIS. His death had been reported
+in _Time_ magazine, _Vanity Fair,_ and _The Village Voice_ ; Israel believed
+he’d been “suicided” by Nichols.
+
+But the weeks continued to pass without a single trade. Nichols told Israel
+the market schedule was limited and the “paper” was scarce. Hoping to force
+some action by creating leverage, Israel wired his $150,999,847.42 back to
+Bayou’s Citibank account in New York. He may even have begun to doubt that
+Nichols could pull it off.
+
+Then, in July, Nichols announced that he had found a tranche of bonds in
+Germany. Israel had to act immediately, Nichols said, if he was going to cash
+in on the trade with Postbank in Hamburg.
+
+Before Israel was willing to send the money back to Europe, where Nichols
+could gain access to it, he insisted on meeting an official at Postbank.
+Following Nichols’s instructions, Israel flew to Hamburg, rendezvousing first
+with a man he was told was Pakistani intelligence and given a bag containing
+two 9-mm. Beretta handguns, each equipped with a silencer.
+
+Nichols arrived the next morning, in full black-ops mode: Hundreds of
+operatives had descended on Hamburg to try to stop them from making a trade,
+Nichols told Israel, and urban combat was highly likely.
+
+The meeting was scheduled for Saturday morning, a short walk from the hotel.
+As Israel and Nichols cautiously made their way, the streets of Hamburg seemed
+eerily empty. Israel and Nichols were greeted by a German banker at the rear
+entrance to a nondescript brown-brick building and ushered through the back
+door and into the lobby—completely deserted, aside from two cleaners
+vacuuming. In an office, the banker explained that the transaction involved $2
+billion in medium-term-note prime-bank debentures. The instruments were
+“seasoned,” he said, meaning they’d been traded already.
+
+To perform the final step of due diligence, Nichols borrowed a phone to call
+Phil Severt (also a pseudonym), who Nichols claimed was a former Reagan
+official and a member of the Trilateral Commission who would be responsible
+for the charitable component of the trade—a water-treatment facility outside
+Karachi. Israel had talked to Severt once before—it was a conversation that
+had made a strong impression on him.
+
+“When we spoke, Severt repeatedly told me he had what he called a stupid
+face,” Israel recalls. “He said he had the kind of face that was instantly
+forgettable. He could vanish into crowds. He said he was invisible because his
+face was so average—so stupid.”
+
+Severt assured the men that the Karachi initiative was in place. All that
+remained was for Israel to transfer $120 million to a “non-depletion” account
+in Postbank.
+
+For security purposes, Israel left the meeting ahead of Nichols, walking out
+the back door.
+
+“Across the street there was a man standing next to a telephone pole,” Israel
+remembers. “He was short, maybe five-five, wearing a turban. He appeared to be
+Pakistani. One of his eyes drooped down. He started to walk toward me. As I
+got near him, he passed by and he said—I swear to God—he said, ‘You have a
+really smart face.’ I stopped dead. I knew it was Severt telling me he’d sent
+people to watch us in Hamburg. So I threw the guy against the wall and asked
+what the fuck was going on. He wouldn’t talk to me, not in English. All of a
+sudden he could only speak Urdu. He kept saying the same thing—‘No, sahib, no,
+sahib.’
+
+“I let him go. I walked a couple more steps, and then I turned around to see
+if Bob was behind me. As I turned, I saw the guy reach into his jacket and
+pull out a gun. Now Bob was coming out of the building. The guy was taking aim
+to shoot Bob. I pulled my Beretta out, and I shot at the guy. I hit him in the
+left hip. Everything was moving in slow motion. The guy dropped the gun and
+fell to the ground. By that time, Bob had pulled out his gun, and he plugged
+the guy in the right shoulder. I walked over and shot him in the head. Point-
+blank. Killing him. His head exploded all over the sidewalk. Blood and brains
+were everywhere.
+
+“There were no cars. No witnesses. Nobody was there. The silencers worked, so
+the shots didn’t make any sound. No one had seen what happened. Bob grabbed
+me. He took the gun from my hand, and we ran for our lives. When we got back
+to the hotel, I didn’t know what to do. We went to Bob’s room. I was crying. I
+was devastated. I threw up. Bob said I was the craziest person he’d ever met.
+But I’d saved his life. He told me he’d take care of it. Bob started to make
+calls. He got rid of the body. He had cleaners to take care of that kind of
+thing—to make a body disappear before the police were alerted. He got rid of
+the guns too. He made it so there were no traces of the crime.”
+
+The next business day, Israel wired $120 million to Germany.
+
+Had Israel really killed a man? Or was it a piece of theater choreographed by
+Nichols? Staging a murder is one of the oldest ruses of the grift—a ploy that
+provided the finale for _The Sting,_ the movie inspired by the classic book
+_The Big Con._ Blood, guts, guns, the frisson of extreme danger, the need to
+flee before the law arrives—the elements are eternal. _Cackle-bladder_ is the
+term of art for the sack filled with chicken blood a fraudster would conceal
+in his mouth until the precise moment for a sudden bite down. The exploding
+turban was an amazing new twist on an old scam, it seemed.
+
+For all his emotional investment in the shadow market, Israel’s money had been
+sitting back in New York, and Nichols had apparently concluded that Israel
+needed a “convincer”: an event to eliminate any lingering doubts, to prove
+that everything he said was true. Nichols wanted Israel to see that the
+Octopus was real. Terrifyingly real.
+
+Even today, seven years later, Israel continues to believe—the best possible
+outcome for a long con, as any scam artist will tell you. Israel’s
+multimillion-dollar wires to and from Europe eventually triggered law-
+enforcement interest in Bayou, and he turned himself in when a frozen bank
+account stopped him from paying out an investor’s large withdrawal. But
+waiting out the twenty-year fraud sentence he considers excessive, Israel
+continues to believe he’s gotten away with murder.
+
+As a teenager, Israel had once walked into a deli in Manhattan immediately
+after an armed robbery and seen the shop owner lying on the ﬂoor after being
+shot in the head. The scene in Hamburg was just as real, he says—just as
+vivid.
+
+“Bob controlled me from the first day we met,” Israel tells me. “But not in
+this way. There was no chance he faked it on me. It wasn’t a Hollywood setup.
+This was the real thing.”
+
+Adapted from _Octopus: Sam Israel, the Secret Market, and Wall Street’s
+Wildest Con,_ by Guy Lawson (Crown, 2012).

@@ -1,0 +1,125 @@
+# Hospital checklist questions: Patients should ask on admission, discharge, and during stay.
+
+**Source**: http://www.slate.com/articles/health_and_science/medical_examiner/2015/07/hospital_checklist_questions_patients_should_ask_on_admission_discharge.html
+**Type**: article
+**Created**: 2025-08-13T18:53:24.728664
+
+---
+
+title: Hospital checklist questions: Patients should ask on admission, discharge, and during stay.
+source: http://www.slate.com/articles/health_and_science/medical_examiner/2015/07/hospital_checklist_questions_patients_should_ask_on_admission_discharge.html
+date: 2025-08-13T18:53:23.354960
+tags: []
+---
+Hospitalization can be a harrowing experience. Patients arrive seriously ill
+or injured, and in addition to whatever ailments they’re suffering, they must
+simultaneously find ways to cope with unfamiliar medical professionals and
+uncomfortable procedures. We doctors and hospital support staff are often
+asking these people—some of whom might be quite sick or in a great deal of
+pain—not only to quickly understand their complex conditions and treatments,
+but also to arrange for the assistance and care they’ll need after discharge.
+Many will find themselves facing new medications, follow-up treatments, a rash
+of specialists, unfamiliar equipment, and physical limitations—and this barely
+takes the emotional strain into account. It’s not difficult to see why such a
+large number of patients and their families report being overwhelmed by a
+hospital stay.
+
+As a hospital physician, I see patients and families every day who struggle to
+understand the information they are (or sometimes aren’t) given. Patient
+advocacy—for yourself or for someone whose care you’re responsible
+for—significantly affects health and recovery. I want to help make you better
+at it.
+
+Hospitals around the country have embraced Atul Gawande’s [checklist
+approach](http://www.npr.org/player/v2/mediaPlayer.html?action=1&t=1&islist=false&id=122226184&m=122243697)
+to managing medical care, described in his 2010 book [_The Checklist
+Manifesto: How to Get Things
+Right_](http://www.amazon.com/dp/0312430000/?tag=slatmaga-20), and have seen
+dramatic improvement. According to the World Health Organization, a study in
+eight hospitals showed that the implementation of checklists during surgical
+procedures reduced the rate of deaths and surgical complications by more than
+a third.
+
+It seems likely, then, that patients would benefit from a checklist of their
+own. The following list is a resource meant to aid patients and their loved
+ones in better preparing for and understanding what information they’ll need
+before, during, and after a hospital stay. The 12 steps cover how to obtain
+vital information for recovery as well as which member of your hospital care
+team can provide it.
+
+1\.  _After admission_ , ask the names of your primary hospital doctor and the
+other specialists who make up your physician team. Your primary hospital
+physician will coordinate with the team, and your nurses will assist you
+during your stay.
+
+2\. Ask your physician: What is my main diagnosis, and are there any other
+newly diagnosed issues? Feel free to express your fears and anxieties about
+your diagnosis to the physicians and nursing staff. Don’t let the anxiety
+build until it becomes uncontrollable.
+
+3\. Ask your nurse or physician: How are my illnesses responding to treatment?
+Ask the nursing staff in particular about how your condition is progressing
+and how you can facilitate your recovery. It’s your fundamental right to
+obtain information regarding your medical condition. Understanding both your
+diagnosis and your treatment plan is a central tenet of the [Patient’s Bill of
+Rights](http://www.aapsonline.org/patients/billrts.htm), which was adopted by
+the Association of American Physicians and Surgeons in 1995. According to this
+document, all patients are entitled “to be informed about their medical
+condition, the risks and benefits of treatment, and appropriate alternatives.”
+
+4\. Ask your family, friends, or other trusted individuals to be involved and
+help support you in your recovery. Yes, it’s hard to put ourselves in a
+situation where we feel like we’re burdening someone or losing our
+independence, even for a little while. Understand that these people are an
+integral part of your treatment team and contribute to the success of your
+recovery.
+
+5\. Ask to speak with a hospital social worker if you have questions about
+insurance and billing related to your stay. The social worker is there to help
+clarify what your insurance covers and how much you may be required to pay. If
+you need assistance with payment, discuss the options available to you with
+the social worker before you leave as well.
+
+6\. Ask to see the nurse manager or charge nurse if you’re experiencing
+ongoing issues with care or communication about your condition. The person in
+this role is responsible for helping patients and easing any misunderstanding
+or tensions that may arise during your stay.
+
+7\.  _As you approach discharge_ , ask if you should continue taking any of
+the medications (including vitamins and supplements) you took before you were
+admitted. This information should be included in your discharge instructions,
+but take the time to fully understand this aspect of your care to avoid
+potentially disastrous or even fatal complications later.
+
+8\. Ask the staff to show you and your caregivers how to perform any tasks
+prescribed for after you’ve left the hospital, especially any treatments that
+may require a special skill, such as changing a bandage or giving an
+injection. Ask the nurse or physician to remain in your room while you
+practice to ensure you’re doing it correctly.
+
+9\. Ask your nurse or physician if it’s safe to perform ordinary tasks alone,
+like bathing, dressing, driving, or exercising. Make sure you’ve arranged for
+help with any of these activities before you leave the hospital.
+
+10\. Ask your nurse or physician if you can or should use any medical
+equipment, such as a walker, brace, or health monitor, to help with your
+recovery and comfort. If the answer is yes, ask for assistance in obtaining
+these items before you leave or shortly after your return home.
+
+11\.  _At the time of your discharge_ , ask the discharge nurse any questions
+you have about your discharge information. You should have been provided with
+printed discharge instructions. Don’t leave the hospital without obtaining
+these, reading them (or having them read to you), and making sure you
+understanding _all_ of the information they cover.
+
+12\. Ask about any follow-up appointments or additional testing. Take a moment
+now to record anything that’s already been scheduled or to schedule necessary
+appointments in the coming weeks.
+
+My hope is that regular use of this checklist will aid physicians in providing
+more streamlined and accessible care; will further educate patients in how to
+advocate for themselves; will help facilitate the best possible hospital
+experience for patients; and will reduce or eliminate some of the strain on
+the emotions, wallets, time, and energy of everyone involved. If we can ease
+the many demands of a hospital stay, we’re working in service a medical team’s
+goal: a successful patient recovery.

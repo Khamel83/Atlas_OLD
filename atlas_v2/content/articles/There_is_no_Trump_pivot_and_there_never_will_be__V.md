@@ -1,0 +1,97 @@
+# There is no Trump pivot, and there never will be | Vox
+
+**Source**: https://www.vox.com/policy-and-politics/2017/9/22/16346904/there-is-no-trump-pivot-there-never-will-be
+**Type**: article
+**Created**: 2025-08-13T16:59:18.361892
+
+---
+
+title: There is no Trump pivot, and there never will be | Vox
+source: https://www.vox.com/policy-and-politics/2017/9/22/16346904/there-is-no-trump-pivot-there-never-will-be
+date: 2025-08-13T16:59:17.430079
+tags: []
+---
+In recent weeks, Washington has been abuzz over the new Donald Trump. He was
+quarreling with Republicans. He was dealing with Democrats. He had rid himself
+of Steve Bannon. He had elevated Gen. John Kelly. Finally, the long-awaited
+pivot had happened, and the coverage was glowing.
+
+On September 9, the New York Times
+[wrote](https://www.nytimes.com/2017/09/09/us/politics/trump-republicans-
+third-parties.html?rref=collection%2Fbyline%2Fpeter-
+baker&action=click&contentCollection=undefined&region=stream&module=stream_unit&version=latest&contentPlacement=9&pgtype=collection)
+that Trump “is, in many ways, the first independent to hold the presidency
+since the advent of the current two-party system around the time of the Civil
+War.”
+
+On September 19, Mike Allen’s morning Axios email was touting “the Kelly
+effect.” The ex-general had revamped White House processes so the paper flow
+to Trump read more like _Morning Joe_ than Breitbart. “Trump’s exposure to
+populist nationalism is now close to zero,” Allen wrote, and readers should
+“look for the latest version of Trump to be on display when he speaks to the
+U.N. General Assembly.”
+
+Well, it was nice while it lasted. Trump took the stage at the UN and [turned
+it into a campaign rally](/world/2017/9/19/16334910/trump-united-nations-
+north-korea-iran-unga) that sounded a lot more like Bannon than Scarborough.
+“Mr. Trump promised to ‘crush loser terrorists,’ mocked North Korea’s leader
+as ‘Rocket Man’ and declared that parts of the world ‘are going to hell,’”
+[summarized](https://www.nytimes.com/2017/09/19/world/trump-un-north-korea-
+iran.html?mcubz=3&_r=0) the New York Times.
+
+He also [elevated populist nationalism](/world/2017/9/19/16332770/trump-unga-
+speech-north-korea-iran) into a foreign policy philosophy, announcing, “I will
+always put America first. Just like you, as the leaders of your countries,
+will always and should always put your countries first.”
+
+Then Trump warmly embraced the GOP’s scuttling of bipartisan health care talks
+in favor of the Graham-Cassidy bill. The bill breaks all of Trump’s health
+care promises and has no chance of a single Democratic vote, but it’s the
+GOP’s health care bill, and Trump is all for it. (As you read Trump’s tweet
+here, remember Graham-Cassidy allows states to waive out of the Obamacare
+regulations protecting patients with preexisting conditions.)
+
+It’s become a joke on politics Twitter that Trump’s pivot is always around the
+corner, that the media can’t stop announcing that _this_ is the moment Trump
+finally became president. But there will be no pivot. There will be no moment
+Trump suddenly and permanently grows into the job. Kelly can stanch Trump’s
+paper flow all he wants: Trump can still read Twitter, and click over to
+Breitbart, and watch _Fox & Friends_, and he does all those things.
+
+What confuses the media about Trump is that he defies Washington’s categories.
+It’s true that he’s not a typical elected Republican, and that he feels little
+love for the GOP’s congressional leadership. But that doesn’t make him an
+independent. That makes him a very typical _base_ Republican. He’s the kind of
+Republican who hangs out in the Breitbart comments section, who listens to
+Sean Hannity on the radio — not the type of Republican who donates to
+fundraisers for Paul Ryan.
+
+If Trump’s policy preferences sometimes come out scrambled or inconsistent,
+well, that’s how most people’s policy preferences come out. If there are
+plenty of Republican elected officials he doesn’t like, well, that’s also true
+for most Republican voters. If he appears more enthusiastic about abstract
+border security than about deporting actual DREAMers, well, that’s what most
+people’s immigration preferences look like. But Trump’s tribal loyalties are
+fierce, his worldview is shaped by conservative media, and he never forgets
+who his true allies are.
+
+This has always been Trump’s secret advantage. His connection with the GOP
+base runs so deep because he authentically _is_ a member of the GOP base —
+he’s just the rare base Republican who had the money, celebrity, and media
+skills to successfully run for president despite never having held elected
+office.
+
+And Trump continues to be that guy. For all his frustrations with elected
+Republicans, and for all Kelly’s efforts to bury him in professionalized
+“decision memos,” Trump still gets his news from Fox News and Breitbart and
+his own Twitter followers. He still hears about how Obamacare is failing and
+Democrats are conspiring. Like many voters, Trump often seems less motivated
+by love of his party than by fear and loathing of the other party. [Negative
+partisanship is the tie that binds](/policy-and-
+politics/2017/7/23/15983786/trump-negative-partisanship). It’s why Trump
+always comes back to his core politics: He may not love Republicans, but his
+worldview, and his information sources, is built around fighting Democrats.
+
+Trump has been in the presidency for nine months now, and if there’s anything
+we’ve learned, it’s that he is who he has always shown himself to be. He’s not
+changing.

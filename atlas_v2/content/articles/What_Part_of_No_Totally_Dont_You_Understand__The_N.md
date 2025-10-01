@@ -1,0 +1,227 @@
+# What Part of “No, Totally” Don’t You Understand? | The New Yorker
+
+**Source**: http://www.newyorker.com/books/page-turner/what-part-of-no-totally-dont-you-understand
+**Type**: article
+**Created**: 2025-08-13T19:03:05.390760
+
+---
+
+title: What Part of “No, Totally” Don’t You Understand? | The New Yorker
+source: http://www.newyorker.com/books/page-turner/what-part-of-no-totally-dont-you-understand
+date: 2025-08-13T19:02:57.272350
+tags: []
+---
+ILLUSTRATION BY ELLEN SURREY
+
+Not long ago, I walked into a friend’s kitchen and found her opening one of
+those evil, impossible-to-breach plastic blister packages with a can opener.
+This worked, and struck me as brilliant, but I mention it only to illustrate a
+characteristic that I admire in our species: given almost any entity, we will
+find a way to use it for something other than its intended purpose. We
+commandeer cafeteria trays to go sledding, “The Power Broker” to prop open the
+door, the Internet to look at kittens. We do this with words as well—time was,
+spam was just Spam—but, lately, we have gone in for a particularly dramatic
+appropriation. In certain situations, it seems, we have started using “no” to
+mean “yes.”
+
+Here’s Lena Dunham demonstrating this development, during a conversation with
+the comedian Marc Maron on his podcast “WTF.” The two are talking about people
+who reflexively disparage modern art:
+
+> M _ARON_ : They can look at any painting and go, “Eh.” They can look at a
+> Rothko and go, “Hey, three colors.” And then you want to hit them.  
+> D _UNHAM_ : No, totally.
+
+Dunham is twenty-eight years old, but the “No, totally!” phenomenon is not
+limited to her generation. It’s not even limited to “No, totally.” I first
+started noticing it when a fiftysomething acquaintance responded to a question
+I asked by saying, “Yup! No, very definitely.” That sent me looking for other
+examples, which turn out to be almost nonexistent in written English but
+increasingly abundant in speech. In 2001, the journalist Bernard Kalb told the
+White House correspondent Dana Milbank that it was the job of reporters to
+thoroughly investigate political candidates, to which Milbank responded, “Oh,
+no, yes, I agree with you there.” In 2012, Anderson Cooper, talking with the
+CNN senior political analyst Gloria Borger, referred to Newt Gingrich as “the
+guy who has come back from the dead multiple times.” Borger’s reply veered
+toward Molly Bloom terrain: “Yes, no, exactly, exactly, exactly.”
+
+“No, totally.” “No, definitely.” “No, exactly.” “No, yes.” These curious uses
+turn “no” into a kind of contranym: a word that can function as its own
+opposite. Out of the million-odd words in the English language, perhaps a
+hundred have this property. You can seed a field, in which case you are adding
+seeds, or seed a grape, in which case you are subtracting them. You can be in
+a fix but find a fix for it. You can alight from a horse to observe a
+butterfly alighting on a flower.
+
+Such words—also called auto-antonyms, antagonyms, Janus words, and
+antiologies—can arise for different reasons. Some are just a special kind of
+homonym; what appears to be one word with two opposite meanings is really two
+different words with identical spellings and pronunciations. Thus “clip,”
+meaning “to attach together,” comes from the Anglo-Saxon _clyppan_ , while
+“clip,” meaning “to cut off,” comes from the Old Norse _klippa_. Other
+contranyms arise when nouns becomes verbs. Sometime around 1200 A.D., _dust_
+turned into a verb and, as dust will do, went every which way: “to dust” can
+mean to remove dust, as from a bookshelf, or to add something dusty, as flour
+to a cake pan or snow to the streets of Brooklyn. Alternatively, a contranym
+can reverse meanings when it is used as a different part of speech. As a noun,
+“custom” refers to a behavior that is common to many people. As an adjective,
+it refers to something designed for just one person.
+
+Occasionally, however, a contranym arises through a process called
+amelioration, whereby a normally negative word develops a secondary, positive
+meaning. This phenomenon is particularly common in slang: “bad” becomes good,
+“wicked” becomes awesome, and “sick” and “ill” become wonderful. (They have
+been ameliorated: made better.) The use of “no” to mean “yes” appears to be an
+example of amelioration, but with one important distinction: “no” can’t mean
+“yes” on its own. Consider a slightly abridged version of Lena Dunham’s
+conversation about art appreciation:
+
+> M _ARON_ : And then you want to hit them.  
+> D _UNHAM_ : No.
+
+Take away the “totally” and Dunham appears to be rejecting anti-philistine
+violence. By contrast, you can take away the “no” without doing any evident
+semantic damage at all. A perfectly fine response to “Then you want to hit
+them” is “Totally”—or, for that matter, “Yes, totally,” or just “Yes.” In
+fact, every instance of “No, totally” and its kindred phrases can be replaced
+with “Yes,” without any disruption of grammar or meaning. So why do we
+sometimes use “no” instead?
+
+At first blush, “no” does not appear to be the kind of word whose meaning you
+can monkey with. For one thing, there is its length. At just two letters and
+one syllable, it lacks the pliable properties of longer words. You can’t stuff
+stuff inside it. (You can say “unfreakingbelievable,” but you cannot say
+“nfreakingo.”) You can’t mangle it, à la “misunderestimate” or (the finest
+example I’ve heard lately) “haphazardous.” On the contrary, it is so simple
+and self-contained that it is a holophrasm, a word that can serve as a
+complete sentence. (Holophrasms aren’t common in English, but any verb in
+command form can be holophrastic—“Go,” “Help,” “Run”—and babies just learning
+to talk use single words to express complex ideas all the time, albeit without
+regard to grammar: “Ball,” “Up,” “Want.”) Moreover, the word has the apparent
+fixity and clarity of a logical operator: like “if,” “then,” “and,” “or,” and
+“not,” “no” seems designed to be unambiguous. When we ask, in the face of
+excessive pestering, “What part of ‘no’ don’t you understand?,” what we mean
+is: “Unless you are a complete cretin, there is no part of ‘no’ that you could
+possibly misunderstand.”
+
+Well, perhaps you would care to join me for a while in the land of complete
+cretinhood. For instance, answer me this, if you can: What part of speech is
+“no”? I thought it over for a while and concluded that it must be an
+interjection, even though it fails the Mad Libs test. (“The burglar bumped
+into the dresser and exclaimed, ‘_**_** _, my toe!’ ” The last time someone
+filled in a blank like that with “no” was never.) At a generous estimate, I
+was only one-sixth correct—but, in my defense, “no” resists all ready
+grammatical categorization. It is not an interjection, except when it is.
+(“Oh, no, I missed the train.”) It is not a noun, except when it is. (“The nos
+have it.”) It is not an adjective, except when it is. (“I have no idea what
+you’re talking about.”) It is not an adverb, except when it is. (“I’m no
+clearer on this than I was when I began.”) Some linguists grant it the
+separate part-of-speech status of “sentence word,” because, as I noted, it can
+serve as a stand-alone sentence. Others consider it a particle—even though, as
+a rule, the point of particles is precisely that they _can’t_ stand alone;
+they exist to affect the meaning of other words.
+
+In addition to this grammatical ambiguity, “no” also sometimes suffers from
+semantic ambiguity—which is odd, considering that we regard it as absolute.
+But consider the question “You aren’t a fan of cilantro?” The answer “No” is
+confusing, since it can mean either “No, it tastes like dish soap” or “No, I
+adore it.” Some languages avoid this type of indeterminacy. In Japanese, for
+instance, _hai_ and _iie_ , although generally translated as “yes” and “no,”
+actually mean something closer to “That’s correct” and “That’s incorrect.”
+This eliminates the grey area. “You’re not a fan of cilantro?” “That’s
+incorrect,” you _are_ a fan. In English, by contrast, we must resort to
+elaboration: “No, I like it fine, I just don’t want any on my pancakes.”
+
+Until the end of the sixteenth century or thereabouts, English had a tidier
+solution to this problem: we had two words for “no,” which we used in distinct
+ways. Those two words formed half of what’s called a four-form system of
+negation and affirmation. If you speak French (or, in a statistical
+unlikelihood, Norwegian, Swedish, Danish, or Icelandic), you are familiar with
+a three-form system: in French, _n__on_ can negate anything, _oui_ is used
+only in response to positively phrased questions or statements, while _si_ is
+used to contradict questions or statements phrased in the negative. In
+Franglish:
+
+> Would you like to have dinner with me on Friday?  
+> _Oui_ , I’d like that very much.
+
+> You don’t like the cilantro pesto I made?  
+> _Si,_ it’s delicious!
+
+Back when English was a four-form system, it, too, had a _si_ —a word used
+specifically to contradict negative statements. That word was “yes.” To affirm
+positive statements, you used “yea”:
+
+> Shoot, there aren’t any open pubs in Canterbury at this hour.  
+> Yes, there are.
+
+> Is Chaucer drunk?  
+> Yea, and passed out on the table.
+
+Similarly, “nay” was used to respond to positive statements or questions,
+while “no” was reserved for contradicting anything phrased in the negative:
+
+> Is the Tabard open?  
+> Nay, it closed at midnight.
+
+> Isn’t Chaucer meeting us here?  
+> No, he went home to bed.
+
+Over time, the distinction withered, “yea” and “nay” became obsolete, and
+“yes” and “no”—the words that started out as special cases, for responding
+exclusively to negatives—came to hold their current status. Or, as the case
+may be, statuses.
+
+What does all this have to do with the strange case of “No, totally”? The
+linguists I spoke with thought that this use of “no” might be a response to an
+implicit or explicit negative in the preceding statement: the type of “no” we
+used back when we also had “nay.” In modern English, you need to use something
+to clear up the cilantro-style confusion—so why not “totally” or its ilk?
+Here’s ABC News’s Joy Behar talking to the comedian Ricky Gervais about how
+girls, unlike boys, are not encouraged to make fools of themselves in public:
+
+> B _EHAR_ : Well, they don’t get rewarded for acting stupid.  
+> G _ERVAIS_ : No, exactly, yes.
+
+Because Behar’s statement is negative, either “yes” or “no” on its own would
+be a confusing response. Gervais chooses “no,” then has to add “exactly, yes”
+to indicate that he doesn’t mean “No, Joy, you’re wrong.” You could argue that
+there’s also a negative, this one implicit, in the exchange between Mark Maron
+and Lena Dunham. By that logic, Maron is really saying, “You want to hit them
+[because these guys don’t know anything about art],” and Dunham’s reply means,
+“No, they don’t, I totally agree.”
+
+In suggesting this negation theory of “No, totally,” linguists are borrowing
+from their far more developed explanation of a seemingly similar expression:
+“Yeah, no.” The “no” in that phrase is generally thought to retain its
+customary negative function. I’m a little dubious about whether that’s the
+whole story, but it doesn’t matter, because I’m going to ignore “Yeah, no”
+here. For one thing, those who are interested can refer to what the Oxford
+English Dictionary lexicographer Jesse Sheidlower called “the extensive ‘Yeah,
+no’ literature.” (An excellent place to start is this [three-part
+analysis](http://web.archive.org/web/20250715150510/http://itre.cis.upenn.edu/~myl/languagelog/archives/005523.html)
+by the University of Pennsylvania linguistics professor Mark Liberman.) For
+another, the comparison only gets us just so far—because in many examples of
+“No, totally!” there doesn’t seem to be any negation whatsoever. Consider:
+
+> L _YDIA_ : That book is constructed so brilliantly. It’s like a locked-room
+> mystery.  
+> I _VAN_ : No, totally.
+
+In this case and many others like it, “No, totally” appears to be all
+affirmation—a surprised and happy seconding. A rough translation might be,
+“Wow, that’s just how I feel!”
+
+We’ve been using “no” to express surprise, including happy surprise, for a
+very long time. You hear that use in “No way!” You hear it (or heard it) in
+the early-aughts slang “Oh no you di’int!”And you hear it in “The Adventures
+of Tom Sawyer,” after Tom asks Huck Finn what you can do with a dead cat. Why,
+you can use it to cure warts, Huck replies. “No! Is that so?” Tom exclaims.
+Here, “no” is again serving as an interjection, akin to the “damn” in the
+phrase, “Damn, that’s smart”—“damn” being another normally negative word that
+can sometimes swap polarity and become positive. With both “damn” and “no,”
+the slimmest hint of the negative might linger, in the form of envious
+admiration. But, for the most part, this enthusiastic “no” has very little
+negative meaning, or really much semantic content at all. It is more like
+verbal punctuation—like the initial, upside-down exclamation mark in Spanish
+that alerts you to impending excitement: _¡Totally!_

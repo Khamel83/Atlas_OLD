@@ -1,0 +1,111 @@
+# (EXPIRED) Amazon: Save 20% On Up To $250 Of Spend When Redeeming 1 Membership Rewards Point
+
+**Source**: https://frequentmiler.boardingarea.com/amazon-save-20-on-up-to-250-of-spend-when-redeeming-1-membership-rewards-point/
+**Type**: article
+**Created**: 2025-08-13T15:58:18.795995
+
+---
+
+title: (EXPIRED) Amazon: Save 20% On Up To $250 Of Spend When Redeeming 1 Membership Rewards Point
+source: https://frequentmiler.boardingarea.com/amazon-save-20-on-up-to-250-of-spend-when-redeeming-1-membership-rewards-point/
+date: 2025-08-13T15:58:15.357622
+tags: []
+---
+_NOTICE: This post references card features that have changed, expired, or are
+not currently available_
+
+**Update 4/19/20:** As per [Ben’s comment
+here](https://frequentmiler.com/last-chance-deals-20-off-on-amazon-including-
+gift-cards-up-to-35-free-stocks-shopping-portal-bonus-more/comment-
+page-1/#comment-2227759), the expiry date has apparently been extended to
+April 30.
+
+**Update 4/8/20:** This is now working on third party gift cards again. The
+offer is due to end on April 20, 2020 but might be pulled sooner than that, so
+buy ASAP if you’re interested. (h/t [Doctor of
+Credit](https://www.doctorofcredit.com/amazon-get-20-off-on-amazon-when-
+using-1-membership-rewards-point-max-50-discount/)).
+
+~
+
+Amazon has relaunched one of its best offers, giving a 20% discount on up to
+$250 of purchases when you redeem at least 1 Membership Rewards point when
+checking out. Unlike similar past offers though, this sadly doesn’t seem to be
+working on gift cards.
+
+![Amazon American Express Membership Rewards
+03.24.20](https://frequentmiler.com/wp-content/uploads/2020/03/Amazon-
+American-Express-Membership-Rewards-03.24.20.jpg)
+
+#### **The Deal**
+
+  * Save 20% on Amazon on up to $250 of spend when redeeming at least 1 Membership Rewards point.
+  * [Direct link to offer](https://amzn.to/2JirXjv) (our affiliate link)
+
+#### **Key Terms**
+
+  * This is a limited time offer. This is a limited time offer. The promotion will end on the earlier of (a) 11:59 PT on ~~4/20/2020~~ 4/30/20, or (b) the time at which 40,000 customers have redeemed the offer. The promotion button will expire concurrently.
+  * Amazon.com reserves the right to cancel or modify this offer at any time.
+  * Offer is available by invitation only, is non-transferable, is not redeemable for cash, and may not be resold.
+  * Offer applies only to the purchase where Membership Rewards points are used for at least a portion of the purchase and the promotion is applied at checkout.
+  * **Offer only applies to products shipped and sold by Amazon.com. Products sold by third-party sellers or other Amazon entities will not qualify for this offer, even if they are “fulfilled by Amazon.com” or “Prime Eligible”.**
+  * Maximum benefit you may receive from this offer is $50 per eligible Membership Rewards enrolled card per one account
+  * Offer may not be combined with other offers.
+  * Shipping charges may apply to discounted promotional items.
+  * Offer does not apply to purchase of digital content.
+  * Offer discount will be allocated proportionally among all promotional items in your original order. If any of the items in your original order are subsequently returned, your refund will equal the original price of the product, less the proportional amount of the discount. The total discount on the unreturned amount of your original order will then be less than $50.
+  * If any of the products related to your original order are returned, subject to Amazon’s refund policy, you will receive a refund of the amount charged to your card first, followed by Membership Rewards points.
+  * Promotional codes (including those placed directly in accounts) may not be redeemed for Amazon Gift Cards.
+  * This promotion is available only to Amazon.com customers with an eligible Membership Rewards points card issued in United States.
+  * Promotional credit is applied before taxes and fees.
+  * If you violate any of these terms, the offer will be invalid.
+
+#### **Quick Thoughts**
+
+A lot of people are avoiding bricks & mortar stores right now, so being able
+to save up to $50 when ordering on Amazon is a great offer. Be sure to only
+redeem 1 Membership Rewards point when using this offer as using any more than
+that is a poor use of your points.
+
+In the past it was possible to buy $250 worth of gift cards to get the $50
+discount, but that doesn’t seem to be working this time. Miles to Memories
+noticed this difference and I didn’t have any luck ordering a few different
+types of gift card either. That’s a shame as it was an easy way to max out the
+offer, but I’m sure many of you can still get the full $50 discount when
+buying merchandise.
+
+Something important to note is that only items both shipped and sold by
+Amazon.com are eligible for the discount. That reduces your selection,
+especially seeing as there are so many third party resellers on Amazon, but
+there are still tons of eligible items to choose from. In case you’re not sure
+how to determine whether an item is eligible or not, look for where it says
+“Ships from and sold by Amazon.com”. This can appear in a couple of places –
+sometimes it’s in the main description area…
+
+![Ships from and sold from Amazon 1.](https://frequentmiler.com/wp-
+content/uploads/2020/03/Ships-from-and-sold-from-Amazon-1..jpg)
+
+…while other times it’s in the sidebar beneath the Add To Cart / Buy Now
+buttons.
+
+![Ships from and sold from Amazon 2.](https://frequentmiler.com/wp-
+content/uploads/2020/03/Ships-from-and-sold-from-Amazon-2..jpg)
+
+If it says that, you’re good to go. Other times it’ll say that it’s sold by a
+third party reseller and fulfilled by Amazon – it’s those types of products
+that aren’t eligible for the 20% discount.
+
+![Sold by third party & fulfilled by Amazon.](https://frequentmiler.com/wp-
+content/uploads/2020/03/Sold-by-third-party-fulfilled-by-Amazon..jpg)
+
+[h/t Miles to Memories](https://milestomemories.com/amazon-amex-points-promo/)
+
+**![](https://frequentmiler.com/wp-content/uploads/2023/01/PodcastEmail-
+icon.png)****Want to learn more about miles and points?**[ Subscribe to email
+updates](https://frequentmiler.com/subscribe/)
+
+or check out
+
+[our podcast](https://frequentmiler.com/frequent-miler-on-the-air/)
+
+on your favorite podcast platform.

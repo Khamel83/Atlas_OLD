@@ -1,0 +1,548 @@
+# Relativity's Ryan Kavanaugh Breaks Silence, Points Fingers in Emotional Post-Bankruptcy Interview (Exclusive) | Hollywood Reporter
+
+**Source**: http://www.hollywoodreporter.com/features/relativitys-ryan-kavanaugh-breaks-silence-813257
+**Type**: article
+**Created**: 2025-08-13T18:49:19.534910
+
+---
+
+title: Relativity's Ryan Kavanaugh Breaks Silence, Points Fingers in Emotional Post-Bankruptcy Interview (Exclusive) | Hollywood Reporter
+source: http://www.hollywoodreporter.com/features/relativitys-ryan-kavanaugh-breaks-silence-813257
+date: 2025-08-13T18:49:05.904343
+tags: []
+---
+## "I never thought an interview would make me cry," insists the embattled
+helicopter-flying, high-living mogul who claims he's the victim of an
+elaborate financial scheme (hint: not his own) and vows he won't be wiped out
+personally by his company's downfall (despite potentially losing $70 million).
+
+_A version of this story first appeared in the Aug. 14 issue of The Hollywood
+Reporter magazine. To receive the magazine,[click here to
+subscribe](http://web.archive.org/web/20210418004103/https://subscribe.hollywoodreporter.com/sub/?p=THR&f=saleb&s=IH1402HR20)._
+
+On July 30, declaring it was "hopelessly insolvent," **Ryan****Kavanaugh** 's
+Relativity Media, with assets of $560?million but liabilities of a whopping
+$1.18?billion, filed for bankruptcy protection in New York. Since May, when
+more than $330?million in outstanding debt came due, Kavanaugh, 40, the Los
+Angeles-born wheeler-dealer who co-founded the film and TV company in 2004,
+had been working furiously to bring in new investors and forestall a default.
+Many in Hollywood have been predicting Kavanaugh's downfall for years: After
+starting his first company at 22 (it failed), he'd secured a foothold in the
+movie business in the mid-2000s by bringing in financing to back $500 million-
+plus studio slates at Sony Pictures and Universal Pictures. His young age,
+helicopter-flying lifestyle and outspoken political activism (especially in
+[defense of
+Israel](http://web.archive.org/web/20210418004103/https://www.hollywoodreporter.com/news/relativitys-
+ryan-kavanaugh-javier-bardem-723108)) helped make him a target of industry
+attention. And when Relativity started making and releasing its own movies in
+2010, even though Kavanaugh claimed to be reinventing the business with a set
+of algorithms that minimized risks, many predicted he would fall flat. The
+poor box-office performance of many Relativity movies only increased the
+chatter.
+
+By early July, Kavanaugh thought he had found a reprieve when Bay Area fund
+VII Peaks Capital said it was investing "significant equity" in Relativity and
+Toronto-based Catalyst Capital Group agreed to buy $130?million in senior
+debt. Kavanaugh also claims Catalyst promised to make an equity investment of
+$170?million, though that's when his troubles really started. On July?9,
+subordinate debt holders, led by hedge fund Anchorage Capital, exercised an
+option and bought out Catalyst. A few weeks later, Kavanaugh had run out of
+time and Relativity sought Chapter?11 protection. He has remained mostly
+silent since then.
+
+But now, the embattled Kavanaugh, in the course of a wide-ranging two-hour
+interview with _THR_ , his first since the bankruptcy, says he won't
+surrender. He insists that despite significant handicaps — like the fact that
+he turned over most of the film library (and its revenue) to extricate
+Relativity from hedge fund Elliott Management in 2012 for roughly $1?billion —
+Relativity had been on course for a 2016 IPO offering. Instead, he offers a
+version of events that portray him as the victim of a Shakespearean betrayal
+by **Jason Beckman** and **Jason Colodne**, partners in New York-based Colbeck
+Capital, who helped syndicate Relativity debt. While sources close to Colbeck
+insist the firm was operating with the full knowledge and endorsement of
+Relativity's nine-person board — a board that includes billionaire **Ron
+Burkle**, who has invested an estimated $800?million in the company; **Tucker
+Tooley**, its president; producer **Mark Canton** ; former talent agent **Jim
+Wiatt** ; manager **Shep Gordon** ; and Kavanaugh himself — Kavanaugh's
+opinion is that both Beckman and Colodne (close friends who stood witness at
+his March wedding) orchestrated a stealth campaign to "steal" the company from
+him through financial maneuvering.
+
+Although his days as CEO may be numbered, Kavanaugh has been spending much of
+his time at UCLA Medical Center, Santa Monica, tending to a more personal
+problem. His wife, model **Jessica Roffey** , 30, has been hospitalized after
+going into early labor with their first child at 22 weeks. As Kavanaugh tells
+his emotional side of the story — one version among others — his voice becomes
+a gravelly whisper: "I never thought an interview would make me cry."
+
+_![](/web/20210418004103im_/https://www.hollywoodreporter.com/sites/default/files/custom/Meena/THR_Kavanaugh_Tooley_embed.jpg)_
+
+_Relativity president Tooley (right, with Kavanaugh at the Polo Lounge at The
+Beverly Hills Hotel, photographed by Christopher Patey in 2014) has been
+running day-to-day operations and could stay on even if his boss is ousted._
+
+**What have these past few weeks been like for you?**
+
+My wife has been in the hospital for a month. I'm watching two babies of mine
+go through hard times. It's almost surreal because on one hand I'm having a
+doctor tell me, "I don't know what's going to happen to this baby," and on the
+other hand I'm having?my lawyers telling me, "I don't know what's going to
+happen to this baby." But in my?lifetime, everything has happened for a
+reason.
+
+**Only a few months ago, Relativity was talking about an IPO, and now it's in
+bankruptcy. How did you get from there to here?**
+
+That is a very complicated and long answer with many twists and turns. In
+2012, we had to sell our entire library to Elliott in our restructuring. The
+way that GAAP [generally accepted accounting practices] works in the film
+business, you have to write off expenses the day you put a movie out, but you
+recognize the revenue for a seven- or 10-year period. So there is a ramp-up
+period that has to take place for a distribution company. This means that no
+matter how profitable a film may be, you're generally going to show a loss for
+five or six years.
+
+Because the company had doubled its revenue and more than tripled its EBITDA
+despite that 2012 sale, it was looking very likely that 2016 would actually be
+that turning point. We brought in three different bankers, and all three spent
+weeks, if not months — in some cases over a year — working with the company
+and confirmed that it would be a viable IPO candidate for early or mid-2016,
+and we had ranges from $5?billion to $10?billion.
+
+What changed is that in a company like ours — if you look at Fox or Universal
+or Paramount, they have a parent [company] that seeds them with $1?billion to
+$2?billion a year to make new productions [because] it takes time for DVD
+sales, digital sales, free and pay TV sales. But we have to continue to raise
+cash until we get to a place where we have enough cash flow from our library
+to sustain the going-forward movies.
+
+Four or five months ago, we had firm commitments on the table for more than
+enough money to take the company to an IPO.
+
+![](/web/20210418004103im_/https://www.hollywoodreporter.com/sites/default/files/custom/Natalie/Kavanaugh_Main_1_embed.jpg)
+
+_From left: Director Michael Hoffman, star Michelle Monaghan and Kavanaugh at
+the October premiere of Relativity's 'The Best of Me.'_
+
+**Who were you in talks with? Bay Area fund VII Peaks?**
+
+We were in talks with a number of investors. We had turned some of those talks
+into firm, binding, committed deals. The deals, like the $350?million deal
+with VII Peaks, were actually thwarted and/or stolen by a board member and
+paid adviser who saw a different plan for themselves to line their own pockets
+and hurt everybody else in the company.
+
+**OK, let's talk about that. Was it Colbeck Capital?**
+
+Yes. They [had a board seat at the time], they [had] a fiduciary duty to the
+company to maximize value for equity and debt. They were being paid $300,000 a
+month to be consultants to the company. In 2012, before the company bought
+Elliott out, Relativity had zero debt. When the company needed to buy Elliott
+out, it hired Colbeck to go syndicate that debt. Colbeck pulled out of the
+company in excess of $100?million in fees and interest, maybe $150?million.
+
+So we had signed commitments, and the banks were saying, "Great, you have more
+than you need to get you to profitability, and we'll be taking you public." We
+even started getting our accounting department to start quarterly audits so we
+could be a public company.
+
+**Who else were the commitments from?**
+
+A very well-known hedge fund who reviewed all the commitments and said this is
+a done deal. [_Kavanaugh would not name the fund._] We needed to raise
+an?additional $200?million. What ended up occurring is that Colbeck — and we
+didn't even know this for four months — [was sabotaging the deal]. A number of
+their investors have come to me and flipped sides and said, "We want to
+support you in this process because we've realized how sleazy it is what
+Colbeck did." [_Kavanaugh declined to say who these investors are_.]
+
+![](/web/20210418004103im_/https://www.hollywoodreporter.com/sites/default/files/custom/Natalie/Kavanaugh_Main_2_embed.jpg)
+
+**Explain what you believe they did.**
+
+There were basically four people raising capital, and we had a whole group of
+people interested. So we had a number of meetings where we divided and
+conquered who was going to go raise, who was closer to which group. A number
+of them were parties that I had close relationships with, but I said [to
+Colbeck], "You're in the hedge fund world, you should call them."
+
+It turns out Colbeck never called any of these parties to pitch the Relativity
+plan. [Instead,] they created a business plan, which we have a copy of, that
+was, let's call it, "A Colbeck Takeover of Relativity." [_The proposal, a
+portion of which was seen by_ THR _, was sent to a group of potential
+investors_.] In their mind, if they could effectively get the equity to not
+show up, the debt would come due, and because they were so close with the
+debt, they could utilize the debt maturity to force a sale at effectively
+about $1?billion and make themselves an extra $1?billion. And of course,
+Colbeck was going to receive between 25 and 30?percent of the company. [_A rep
+for Colbeck responds to this and Kavanaugh's other claims of self-dealing:
+"The Relativity board and Ryan Kavanaugh fully authorized Colbeck to run a
+parallel process."_]
+
+I want to make it very clear, because we keep seeing in the press that Colbeck
+is against Relativity or Colbeck is running this process. Today Colbeck's
+entire?relationship with Relativity is, I think they have around $6?million or
+$7?million of the total $500?million of debt. And I think they have — other
+than some options that came along with the original debt — a 5?percent
+employee stock grant that I suggested they get for their hard work and gave
+them about eight months ago.
+
+Other than that, they have no interest, they don't control the company, they
+don't own a big piece of the company, they don't have a say over the company.
+
+![](/web/20210418004103im_/https://www.hollywoodreporter.com/sites/default/files/custom/Natalie/Kavanaugh_Main_3_embed.jpg)
+
+_Gerard Butler (right) made 'Machine Gun Preacher' with Relativity and became
+a Kavanaugh confidant._
+
+**Do they have a board seat?**
+
+No. They were going to be fired, and before they could be fired, they stepped
+down.
+
+**They have said they still have a board seat.**
+
+They do not. Now, Ron Burkle has a board seat. But Ron Burkle does not own
+Colbeck. His only affiliation with Colbeck is that if they bring him deals,
+and if he likes them, just like if Joe Schmo brings him deals and he likes
+them, he'll fund them and agree to some economics. That's his relationship
+with Colbeck. [_Burkle, through a spokesperson, declined to comment on his
+relationships with Colbeck or Kavanaugh, though a source close to him issued a
+statement to the press in support of Kavanaugh in May_.]
+
+**So is the oft-repeated line that Ron Burkle backs Colbeck not accurate?**
+
+It is not accurate. I can't answer if he would back future deals. I would be
+highly skeptical considering that I consider Ron to be one of my best friends.
+
+**Jason Beckman once was a very good friend, right?**
+
+While this was going on, [Beckman and Jason Colodne] signed the ketubah at my
+wedding. A ketubah is a Jewish marriage document. It's the most sacred of all
+documents. You have the first and closest to you sign as a witness that you're
+getting married. The two of them signed my ketubah, and this was while they
+were doing this and I didn't know.
+
+**Why would they do that?**
+
+The motivation is very?simple. You can take the person out of the distressed
+banking job, but you can't take the distressed banker out of the person. So
+having been ex-heads of Goldman Sachs distressed banking, I think they just
+saw an opportunity where if they could just push it far enough along to where
+our debt was going to be coming due, they could jump in with their own equity
+and their own plan. And I have a copy of the business plan that would take
+them from owning basically none of the company, or let's say a fraction of a
+fraction of the company, to being 30, 40?percent shareholders and make
+themselves $1?billion.
+
+**If you believe you have proof, will you sue?**
+
+I can't comment. But I can tell you that people with knowledge of the
+situation say I have, quote, "the mother of all lawsuits." What I can also
+tell you is that during this process, they made up a lot of negative things.
+They were saying things to people like I was pulling money out of the company
+and making all this money off the company. [_A source close to Colbeck denies
+this_.]
+
+Prior to the Chapter 11, people I'd never met, they randomly called me and
+said, through a mutual friend, "I think we should meet." And they would bring
+up things like they hear that I was spending so much money out of the company,
+burning all this money. They failed to mention that I put $25?million of my
+own money into this preferred round six months ago because I was so confident
+on the refinance. I put $15?million of my own money into the last equity
+round. I put $10?million into our own P&A facility. When the company didn't
+have enough money to do certain movies, I put $3?million, $4?million, $5
+million into movies on my own.
+
+I haven't added up the numbers, but let's say it's $50?million, $60?million
+that I've personally put into the company in the short term. I'm not taking a
+salary. I'm still the CEO and chairman, but I'm actually taking a one-dollar
+salary.
+
+![](/web/20210418004103im_/https://www.hollywoodreporter.com/sites/default/files/custom/Natalie/Kavanaugh_Main_4_embed.jpg)
+
+_Kavanaugh (left) and Harrison Ford at the 'Paranoia' premiere afterparty in
+2013._
+
+**To be clear, describe what you think Colbeck did?**
+
+They … took an opportunity that they saw to try and effectively steal the
+company. And they were on the board of directors and they were paid
+consultants, which changes their duty. For example, I turned a hedge fund over
+to them that was ready to invest — done, ready, finished the diligence, ready
+to invest $25?million to $50?million. When I called the hedge fund back and
+said, "You talked to Colbeck? Are you in?" They said, "No, we didn't hear
+about any plan, except Colbeck just pitched us on _their_ plan." And they had
+a copy of it. "Colbeck wants to take the company over, get rid of you."
+[_Kavanaugh declined to identify the fund_.]
+
+**Was the plan to push Relativity into bankruptcy?**
+
+No, I think that actually backfired on them. I think what happened was they
+thought they had this capital together. They had a Russian group backing them.
+And the Russian group was putting up $150?million. And so they only needed to
+raise probably another $250?million. And they would have then negotiated with
+the debt and they would have executed on this plan.
+
+What ended up happening was the Russian group bailed on them. [_Kavanaugh
+declined to identify the Russians_.] So six or seven months ago, Anchorage
+comes and buys $30?million or less of [subordinate] debt. Now, the founder of
+Anchorage, **Kevin Ulrich** , and Jason Beckman are best friends. [Colbeck]
+hired [New York PR firm] Rubenstein quote, "together" [with Anchorage], so
+when you see in the press Colbeck/Anchorage, Colbeck's trying to make itself
+seem important. [_Anchorage did not respond to requests for comment_.]
+
+You've got Falcon [Investment], who holds the biggest B position. You've got
+Luxor [Capital], who holds a position bigger?than Anchorage or Colbeck.
+They're not?mentioned anywhere. The point is that this is clearly being
+instrumented not by the lenders. Anchorage has [just] $25?million invested.
+
+Maybe five months ago, we started getting some weird press calls that Ron
+Burkle had turned on Ryan, and this guy [TPG Capital consultant and former CEO
+of Fox Networks Group] **Tony Vinciquerra** — I had no idea who this guy was —
+was coming in to run the company at the behest of Ron. Ron and I were both
+scratching our heads like, "This is horseshit."
+
+We know it was started by Colbeck and Anchorage, using **Rubenstein** to try
+and start implying that there was a rift between Ron and I and try and get the
+press to stir it up. [_Responds Rubenstein: "Rubenstein did not begin working
+with Colbeck until June?18, 2015, and up until that point, Colbeck had not
+spoken with any media."_]
+
+**So you became radioactive at that point?**
+
+We found out that Rubenstein has a very close connection to the _New York
+Post_ and has basically just been feeding the _Post_ the whole time. Like
+every negative thing they can.
+
+**Behind the scenes, who is being supportive of you?**
+
+Ron Burkle has been one of the most supportive people I could possibly ask
+for. He put his own personal money in. He owns a lot of the equity.
+
+**You've been scrutinized since you began Relativity. And many people won't
+believe what you are saying now. Why is that?**
+
+I said I was going to change Hollywood. I said I was going to change the
+model. Every two years there was a new story or rumor as to what was going to
+happen, and it was our demise. None of them came true, not one for 12 years.
+So all of a sudden, there's a hiccup. And that's what I'm going to call this,
+a hiccup. Because we're not in a Chapter?7, we're in a Chapter?11. It's a
+reorganization, right?
+
+![](/web/20210418004103im_/https://www.hollywoodreporter.com/sites/default/files/custom/Natalie/Kavanaugh_Main_5_embed.jpg)
+
+_Universal's Ron Meyer (right) was an early Kavanaugh supporter as Relativity
+invested in studio slates._
+
+**But Relativity has huge debts. Do you at least concede there was a flaw in
+your business model?**
+
+I will stand by our business model 100?percent. The fact that I was really
+inside the studios [with slate financing deals], I saw they're risking between
+$250?million and $350?million per movie between [prints and advertising] and
+making the movies. And they have the ability to do that because they get
+$2?billion a year so they can swing for the fences every single time, and then
+once in a while they get that billion-dollar hit, and you know what that does
+for them? That gives them a 12?percent return. No hedge fund in the world
+would stand for that. It would be like, "This is $2?billion for a 12?percent
+return on a venture capital risk?" It is the most ridiculous business model.
+But it gets sheltered from the rest of the world because they're all owned by
+such large media conglomerates. I can tell you that a majority of other
+studios' movies lose money. But they get a fresh $2?billion every single year.
+They don't have to worry about when the cash comes back on movies and they get
+their _Superman_ or their _Batman_ or their _Iron Man_.
+
+So we created a business model that I stand by that nobody else has created. I
+have partnerships in 167 countries. It takes the risk out of the films for me.
+Instead of spending $70?million marketing a movie hoping to get high box
+office so I can look good to the press, I spend $25?million marketing that
+movie hoping to get to the right box office, one or two quadrants, so that I
+can maximize the actual place where the profit is, which is in digital and
+DVD. I would much rather have 70?percent of $19.99 than $5 of a $10 movie
+ticket that I'm spending $70?million to market. The problem is that we were
+capital-constrained since 2012, when we sold our library to Elliott. We had to
+get this $350?million debt financed that Colbeck did for us. Colbeck lined up
+the terms. It basically left the company with $80?million. Last year, because
+of the way my model works, we had less than $10?million invested in film. I
+think 83?percent ended up making a profit. The problem is that when you're
+making those films, they make a small profit, and it takes two, three, four
+years to actually get the cash back. Our model is for 60, 70?percent of our
+films to make a modest profit, 20?percent to make more than a modest profit
+and lose on 5 or 10?percent. [On an unprofitable film,] we lose $5?million or
+$10?million, not $250?million, like the studios can.
+
+**You often are criticized for having a lavish lifestyle. Fair?**
+
+If you called up any of my friends, they'd tell you that the press paints me
+in the exact opposite way of what I really am. Yes, 10 years ago, did I have a
+party every six or seven or eight months or a Fourth of July party? Sure. But
+I don't drive a Ferrari. I drive a Ford F-150 pickup truck. My wife drove a
+Jeep Wrangler. Yes, I fly private. It's a jet I personally bought — not the
+company.
+
+I made close friends with certain people like **Bradley Cooper** or **Leo**
+[**DiCaprio**] or **Gerry Butler**. They are very close friends. If you ask
+any of them what we do, they come to my house and we watch movies. (_Laughs._)
+It's almost like saying — and I hate to say it — but why does **Rupert
+Murdoch** get a lavish lifestyle? Or **Jeff Skoll**? Or **Les Moonves**? I'm
+not putting down [Moonves'] movies, but we beat CBS [Films] every year in box
+office. Nobody is saying, "Why does Les Moonves have a beach house and live
+his lavish lifestyle?"
+
+_Kavanaugh chatted with THR at the Milken Global Conference last year._
+
+**Did you buy your CFO a Maserati?**
+
+I did not buy a CFO a Maserati. Did I lease for various people within the
+company cars that they would normally not lease for themselves when they would
+do extraordinary things? Absolutely. But unlike other companies, we don't have
+every SVP and above all get car allowances or a car lease. We developed _300_.
+[Director] **Zack Snyder** , after the premiere, Warner Bros. handed him a
+$270,000 Aston Martin. It's not an uncommon thing.
+
+**Do you think you are a target because of your politics?**
+
+There's reasons why there's groups like [secret conservative organization]
+Friends of Abe. They're scared they'll be blackballed from Hollywood just to
+say what they believe in it. I remember I read an article [about Relativity's
+woes] where someone was like, "And while this was all going on he took the
+time to write a piece on the president and slamming him about Iran [nuclear
+deal]." I read that and I couldn't believe they even questioned that — the
+fact that I [took] 10 minutes out of my day to say I believe the fabric of
+America is at risk? You don't have to believe me, but let's assume that maybe
+there is a 2 percent chance I'm right, shouldn't I be writing that and not be
+selfishly focusing just on my company?
+
+**The judge has given Relativity $9.5 million to operate, not the $45?million
+requested. How do you run the company given those constraints?**
+
+I can't really comment on the bankruptcy. I can just say it's the beginning of
+the bankruptcy, and that's not going to be the end. A lot is going to happen.
+
+**What happened with the Catalyst deal?**
+
+When this started to go bad with Colbeck, and it looked like [Beckman's] plan
+was working, I brought in Catalyst. They came in and in less than five days
+not only agreed to but wired $130?million to buy out our entire senior debt
+and agreed to extend [debt payment] by one year and also agreed to give us
+$170?million of working capital. [_Catalyst did not respond to a request for
+comment_.] Anchorage, which was one of our smallest term loan B lenders,
+stepped up without talking to us, without saying a word — we didn't even know
+they had this right — and bought back $130?million. Two weeks prior, I was
+walking into the office, getting high fives, like, "You did it again." Within
+an hour, I got a call from the lawyer saying Anchorage just exercised an
+option to buy out the term loan A. I was like, "What are you talking about?
+How can they buy out the term loan A?" In page 162 of a 496-page [contract],
+there is some provision that says the junior debt can always buy the senior
+debt.
+
+**Did your lawyers miss that clause?**
+
+I have no idea. They don't say they missed it, they say they just never
+thought that [Anchorage] would [exercise it]. They say it was always there,
+and I should have known about it. Why would Anchorage do that? It didn't make
+any sense.
+
+**Who is running the company now?**
+
+I'm the CEO and chairman. I am running the company. It still has the same
+board, the board is 100?percent supportive of me. I still actually have
+control of the board, and that's the way it's going to work through the
+bankruptcy. I'm not planning on going anywhere.
+
+_[After the publication of this story, Kavanaugh clarified his response to the
+question of who is running the company now, saying: "While it’s true that I am
+chairman of Relativity’s board of directors, that does not imply that I
+control the board, its deliberations or the exercise of its fiduciary duties.
+The board is independent, and the company’s directors are committed to proper
+governance and the fulfillment of their duties under the law, without regard
+to the source of their election."]_
+
+_Kavanaugh, Snoop Dogg and Chelsea Handler were shot for THR's annual Pets
+Issue in 2013._
+
+**But you could be forced out.**
+
+This is a bidding process. If Anchorage, Colbeck or any iteration of one of
+their 100 affiliates buys the company, they will then own [Relativity], and
+they will have a right to do what they want. They could pick their own CEO and
+pick their own board. If someone pays up for the company and ends up owning it
+and doesn't want me to be the CEO or chairman, that's going to be their
+decision. They can say, "We want Tony Vinciquerra." But Tony came in [for a
+meeting with Colbeck] under the guise of a consultant [for TPG] when he is on
+the board of a competitive studio [STX Entertainment], and that wasn't
+disclosed to me. He was actually coming in to take my job. He sat there, and I
+gave him my whole business model. In my opinion, A) he'll run the company into
+the ground, but B) I definitely won't go quietly into the night. [_A TPG
+spokesperson confirms Vinciquerra met with Kavanaugh and Colbeck but says he
+ultimately recommended TPG pass on investing in Relativity._]
+
+**Is Brian Kushner, the restructuring officer, calling the shots now?**
+
+A chief restructuring officer doesn't call the shots. The CEO doesn't even
+call the shots. The board actually calls the shots.
+
+**What is your message for film and television producers trying to pull
+projects from Relativity?**
+
+The word "bankruptcy" inside Hollywood is very scary and outside Hollywood is
+not. Look at the names of companies that [have been through it]: Eddie Bauer,
+Chrysler, Circuit City, MGM, Marvel, any airline you've ever flown, CIT Group,
+Macy's. Outside of Hollywood, nobody pays attention to it. For all the
+producers, writers, directors who worry what's going to happen to their
+projects, this is not a process by which they wake up on a Tuesday and someone
+says, "OK, everything is done." This is a process that is actually set up
+specifically to avoid that situation. Their projects will get made, the movies
+will come out. It's not going to be half-assed, it's going to be twice as
+good.
+
+**What about the vendors who are owed money?**
+
+If I have anything to do with it, as CEO and chairman of the company, I will
+make sure they get as much if not all of their money paid through one form or
+another.
+
+**What about the people who have been laid off?**
+
+Personally, it was the hardest thing I've ever had to do. [_Choking back
+tears._] We consider Relativity a family. Out of those 70 people, 50 of them
+thanked me and started crying and said they would come back here in one phone
+call. They didn't deserve to be let go. If I end up with this company, not
+that I'm saying I'm bidding on it, almost every one of those people will be
+brought back.
+
+[![](/web/20210418004103im_/https://www.hollywoodreporter.com/sites/default/files/custom/Meena/Who's_who_drama_embed.jpg)](/web/20210418004103/https://www.hollywoodreporter.com/sites/default/files/custom/Meena/Who's_who_drama_embed.jpg)
+
+**Any regrets?**
+
+My biggest regret was trusting Colbeck. My second biggest regret was not being
+more involved in the making and marketing of the movies since 2012.
+
+**Are you sorry it came to this?**
+
+Am I sorry? Of course I am. This company should not be in bankruptcy.
+
+**What has been the personal toll of this on you?**
+
+The headlines want to destroy me. But it's important to say: Relativity is in
+bankruptcy. Ryan Kavanaugh is not in bankruptcy. I've been very lucky that
+I've made quite a bit of money through the last 10 years, and I've been very
+lucky that the investments have panned out, I've been very lucky that on the
+way up I sold a lot of stock through Relativity, and I own 40 other companies.
+
+**But you hold a lot of common stock. Doesn't that get squashed in
+bankruptcy?**
+
+Oh yeah. I'll lose $60?million or $70?million in this, no question, if not
+more. It's not a small amount of money, but it's not going to wipe me out.
+
+[![](/web/20210418004103im_/https://www.hollywoodreporter.com/sites/default/files/custom/Meena/Relativity-
+bankruptcy.jpg)](/web/20210418004103/https://www.hollywoodreporter.com/sites/default/files/custom/Meena/Relativity-
+bankruptcy.jpg)
+
+[![](/web/20210418004103im_/https://www.hollywoodreporter.com/sites/default/files/custom/Meena/Relativity-
+releases.jpg)](/web/20210418004103/https://www.hollywoodreporter.com/sites/default/files/custom/Meena/Relativity-
+releases.jpg)
+
+![](/web/20210418004103im_/https://www.hollywoodreporter.com/sites/default/files/custom/Meena/26cover_lores.jpeg)

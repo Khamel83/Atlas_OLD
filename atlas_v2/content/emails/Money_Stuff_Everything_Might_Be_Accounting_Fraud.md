@@ -1,0 +1,500 @@
+# Money Stuff: Everything Might Be Accounting Fraud
+
+**Source**: inputs/saved_emails/Money Stuff Everything Might Be Accounting Fraud_Mon,_13_Jan_2025_19-32-30_+0000_1946127778b9dac4.eml
+**Type**: email
+**Created**: 2025-08-25T02:54:11.254474
+
+---
+
+Money Stuff 
+ Here’s an accounting trick. You start a company. You sell 20% of the stock to 
+investors and keep 80% for yourself. The company makes widgets 
+
+
+ <> 
+ 
+<https://sli.bloomberg.com/click?s=825881&stpe=default&li=12293147&m=21d6dea82d6b16615cf44233be620525&p=01132025>
+
+
+
+Settlement accounting
+
+Here’s an accounting trick. You start a company. You sell 20% of the stock to 
+investors and keep 80% for yourself. The company makes widgets; it gets $1 
+million of revenue from selling the widgets. The company needs raw materials to 
+make the widgets. The raw materials cost $500,000. The company also has various 
+other expenses — salaries and rent and so forth — which total $600,000. In 
+total the company has $1 million of revenue and $1.1 million of expenses, for a 
+negative net income. The economics aren’t great, and the stock won’t be worth 
+very much.
+
+So the trick is, you buy the raw materials, with your own money, and you give 
+them to the company for free. Now the company has $1 million of revenue, 
+$600,000 of expenses, $400,000 of net income and a 40% profit margin. “Our 
+margins were high this quarter because we negotiated favorable pricing with 
+suppliers of raw materials,” you say on the earnings call. (You are also the 
+chief executive officer.) The stock soars; the company trades at 30 times 
+earnings, or $12 million. You own 80% of the stock. You sell it for $9.6 
+million. You are out the $500,000 for raw materials, but the $9.6 million more 
+than covers that. Next year, you stop paying for the materials, the company 
+starts losing money, and the stock collapses, but that’s not your problem.
+
+This seems bad, and it is more or less not allowed under US generally accepted 
+accounting principles. To prevent this trick, the correct accounting is:
+
+ * The company has an expense for the $500,000 of raw materials: The 
+accountants pretend that the company paid for the materials, not you. 
+ * The company has an offsetting increase in additional paid-in capital: The 
+accountants pretend that you gave the company the money to pay for the 
+materials. But that money is a shareholder transaction that does not flow 
+through income. The company’s net income is still negative. 
+That’s more or less the rule. [1]  <> Here is the US Securities and Exchange 
+Commission’s statement of the rule. It’s in aquestions-and-answers document <>, 
+and the SEC’s hypothetical is not about widget raw materials but about lawsuits:
+
+Facts: Company X was a defendant in litigation. ... A principal stockholder of 
+the company transfers a portion of his shares to the plaintiff to settle such 
+litigation. If the company had settled the litigation directly, the company 
+would have recorded the settlement as an expense.
+
+Question: Must the settlement be reflected as an expense in the company's 
+financial statements, and if so, how?
+
+Interpretive Response: Yes. The value of the shares transferred should be 
+reflected as an expense in the company's financial statements with a 
+corresponding credit to contributed (paid-in) capital. ...
+
+The substance of such a transaction is that the economic interest holder makes 
+a capital contribution to the reporting entity, and the reporting entity makes 
+a share-based payment to its grantee in exchange for goods or services provided 
+to the reporting entity.
+
+The staff believes that the problem of separating the benefit to the principal 
+stockholder from the benefit to the company … is not limited to transactions 
+involving stock compensation. Therefore, similar accounting is required in this 
+and other transactions where a principal stockholder pays an expense for the 
+company, unless the stockholder's action is caused by a relationship or 
+obligation completely unrelated to his position as a stockholder or such action 
+clearly does not benefit the company.
+
+So if someone sues the company and the controlling shareholder pays them to go 
+away, that is, for accounting purposes, an expense of the company. This one is 
+maybe less intuitively obvious than in the widget materials case, but it’s the 
+same general principle.
+
+Why might someone sue the company? Why might the controlling shareholder pay 
+them off? Oh, various reasons. Here’s one: The controlling shareholder is also 
+the CEO, and he (allegedly) sexually harassed an employee. The employee 
+threatens to sue the CEO/shareholder, for sexually harassing her, and the 
+company, for allowing it. The CEO/shareholder says “this is a private matter 
+and I don’t want the company dragged into it” and writes her a check, in 
+exchange for a settlement agreement in which she agrees to drop the suit 
+against him and the company.
+
+Here, the CEO/shareholder’s payment is partly to settle the lawsuit against 
+him (a personal expense), and partly to settle the lawsuit against the company 
+(a corporate expense). Intuitively, you might argue that it ismostly about him: 
+He’s the one who (allegedly) did the harassing, after all, and this is really 
+more his problem than the company’s. But the SEC’s rule is that the company has 
+to expense 100% of the payment “unless the stockholder’s action is caused by a 
+relationship or obligation completely unrelated to his position as a 
+stockholder or such action clearly does not benefit the company.” Is that true 
+here? I mean, the company obviously benefits: It was going to get sued, and now 
+it isn’t. It’s hard to say that the CEO/shareholder’s payment wascompletely 
+unrelated to his position as a stockholder, or that itclearly doesn’t benefit 
+the company.
+
+Or that’s what World Wrestling Entertainment Inc.’s accountants concluded in 
+2022 <>, when this came up. [2]  <> Vince McMahon, who was the controlling 
+shareholder of WWE and, until July 2022, also its chairman and CEO, paid 
+settlements to two women who accused him of various personal misconduct. He 
+paid a total of $10.5 million of his own money to the two women, and in 
+exchange they signed agreements (1) agreeing not to sue him or WWE and (2) 
+agreeing not to talk about their allegations publicly. The agreements were 
+countersigned by McMahon and WWE. McMahon, as CEO of WWE, signed the agreements 
+on its behalf.
+
+But apparently he didn’t tell anyone else at WWE about them; you can kind of 
+guess why. And, to be fair, it was his money: These agreements made a problem 
+go away, and didn’t cost WWE anything. Except that, foraccounting purposes, 
+they cost WWE $10.5 million: That’s $10.5 million of expenses paid by WWE, 
+reducing its net income, which were reimbursed by a shareholder contribution 
+from McMahon, which did not increase its net income. So WWE’s net income was 
+$10.5 million less than it otherwise would have been.
+
+Except that, since he didn’t tell anyone, WWE accounted for it incorrectly for 
+several years. Eventually the board and accountants found out, in 2022 (part of 
+why he left as chairman and CEO [3]  <>), and WWE had to restate its financial 
+statements to account for this expense.
+
+And on Friday, the SEC announced a settlement with McMahon <>
+
+for signing two settlement agreements, one in 2019 and one in 2022, on behalf 
+of himself and WWE without disclosing the agreements to WWE’s Board of 
+Directors, legal department, accountants, financial reporting personnel, or 
+auditor. Doing so circumvented WWE’s system of internal accounting controls and 
+caused material misstatements in WWE’s 2018 and 2021 financial statements. ...
+
+McMahon consented to the entry of the SEC’s order finding that he violated the 
+Securities Exchange Act by knowingly circumventing WWE’s internal accounting 
+controls and that he directly or indirectly made or caused to be made false or 
+misleading statements to WWE’s auditor. The order also finds that McMahon 
+caused WWE’s violations of the reporting and books and records provisions of 
+the Exchange Act. Without admitting or denying the SEC’s findings, McMahon 
+agreed to cease-and-desist from violating those provisions, pay a $400,000 
+civil penalty, and reimburse WWE $1,330,915.90 pursuant to Section 304(a) of 
+the Sarbanes-Oxley Act.
+
+One problem here is that, while WWE’s accountants and auditors are obviously 
+quite familiar with the accounting literature and knew that these payments from 
+McMahon’s personal accounts actually needed to be accounted for as corporate 
+expenses,he presumably didn’t know that. [4]  <> As far as he knew, he was 
+settling these cases without costing WWE anything, so why should he tell 
+anyone? And so WWE’s accountants didn’t know about the payments, so they 
+couldn’t account for them properly. Ignorance of the law is no excuse, but 
+honestly this is a pretty arcane piece of accounting lore to expect the average 
+CEO to know about. Or it was. Now there’s an SEC settlement, and CEOs are on 
+notice.
+
+I mean, technically, CEOs who are also controlling shareholders are on notice. 
+If you’re a manager-CEO and you own 0.5% of your company’s stock, can you 
+settle a sexual harassment demand out of your own pocket without looping in the 
+board and accountants? Obviously I do not give advice about law, accounting, or 
+appropriate workplace behavior in general. Maybe you can hush that up, I don’t 
+know.
+
+“Everything is securities fraud,” I like <> to say <> around here: If a 
+company (or its CEO) does a bad thing, and doesn’t disclose it immediately, and 
+then later it comes out and the stock goes down, someone (maybe the SEC) will 
+sue the company for securities fraud, saying that it deceived investors by 
+covering up the bad thing. “The CEO was accused of sexual misconduct, settled 
+the accusations quietly, didn’t tell shareholders, and when it came out the 
+stock went down” is a perfectly plausible everything-is-securities-fraud sort 
+of case, though there are some problems with it in this case. (The stock didn’t 
+go down that much when itcame out <>, and quickly recovered.)
+
+But “the CEO was accused of sexual misconduct, settled the accusations 
+quietly, didn’t tellaccountants, and therefore the financial statements were 
+wrong” is a new one for me. Not everything is accounting fraud, but some 
+surprising things are.
+
+ 
+<https://sli.bloomberg.com/click?s=868432&stpe=default&li=12293147&m=21d6dea82d6b16615cf44233be620525&p=01132025>
+
+ 
+<https://sli.bloomberg.com/click?s=868432&stpe=default&li=12293147&m=21d6dea82d6b16615cf44233be620525&p=01132025>
+
+Conglomerates
+
+If you think too hard about it, it’s a little weird to expect investment funds 
+to trade at their book value. If you want to buy shares in an exchange-traded 
+fund with a net asset value of $100 per share — that is, each share of the ETF 
+represents $100 worth of stocks or bonds or crypto or whatever, at current 
+market prices — then you will pay something very close to $100 per share. If 
+you want to invest in a hedge fund or buy a stake in a private equity fund, 
+things might be harder, and you might end up getting a discount or paying a 
+premium. But the starting point is usually net asset value, and generally when 
+thefund transacts in its shares it does so at roughly NAV. When funds trade at 
+prices very far removed from NAV, it’skind of a weird story <>. 
+
+Shares of companies don’t work like this. For the most part, nobody’s thesis 
+on a biotech stock is “they own $2.40 per share worth of centrifuges, so I’ll 
+pay between $2.39 and $2.41 for the stock.” Everyone understands that modern 
+knowledge-based companies get their value from their employees and their 
+know-how and their hard-to-account-for internally generated intellectual 
+property, and they are valued based on expected future earnings.
+
+You could imagine valuing an investment fund that way too. “I think this 
+manager will generate returns of 20% per year on invested capital, and I need a 
+10% return on my capital, so I am willing to buy $100 of net asset value for 
+$200.” But this mostly doesn’t happen. Why? Some possibilities:
+
+ * Years of efficient markets theory (and empirical evidence) make investors 
+skeptical that a manager of an investment fund can reliably produce 
+above-market returns. You can buy an index fund for more or less exactly 100% 
+of NAV; paying a multiple of NAV for some manager’s fund seems like a very 
+confident bet that she can add value. 
+ * Relatedly: There clearly are some investment managers with good long-term 
+track records, but a lot of them, quite rationally, tend to charge fees that 
+roughly equal all of the value they provide to investors. The expected total 
+return may be high, so the expected value of the fund may be much more than 
+NAV, but you should expect the manager to capture most of it. 
+ * Many sorts of investment funds, due to regulation <> or their fund 
+documents,have to buy or sell shares at NAV. An open-end mutual fund will 
+always happilysell you shares <> at NAV, so there’s no reason for you to pay up 
+to buy shares from someone else. 
+ * We live in a fairly transparent, efficient world, one where ETFs update 
+their holdings and market values frequently and high-speed traders compete to 
+arbitrage their prices; we are justused to knowing exactly what a fund’s 
+holdings are worth, and it is psychologically challenging to say “actually this 
+fund is worth more than the pot of stuff in the fund.” Whereas with companies 
+there is much less transparency, and the actual value of their assets is much 
+less obvious, so you do have to guess more about future income. 
+Still. If you manage an investment fund, it’s probably nice for you if shares 
+of the fund trade at a multiple of the underlying assets. That’s good 
+financing! You sell stock for $100, you buy $100 of assets, the value of your 
+fund goes up by $200 or $400 or whatever. A dollar in your hands is worth more 
+than a dollar, so people will be happy to give you their dollars. (In the long 
+run this should only work if you canactually turn a dollar into more than a 
+dollar, by buying stuff that goes up, but in the short run it’s helpful.)
+
+How can you achieve this? There are ways. But an important one is: You run a 
+regular public company, and you turn it into an investment fund. People are 
+used to valuing regular companies based on expected future earnings rather than 
+at 100% of balance-sheet equity, and there are no restrictions on you selling 
+shares for more than their book value.
+
+This is, of course, the story of MicroStrategy Inc. Or I mean it’s part of the 
+story of MicroStrategy; there is a lot going on there, but Iwrote last week <> 
+that “this is its simplest and most important piece of financial engineering: 
+It is economically a Bitcoin investment fund, but technically a regular public 
+technology company.” Its shares trade at a large premium to the value of the 
+underlying pot of Bitcoins, in part because there is also a software business 
+there that you can value based on its expected future earnings, but in larger 
+part because, if you’re doing that anyway, you might value MicroStrategy based 
+on your expectations of its futureBitcoin earnings. 
+
+But it’s not just MicroStrategy. Berkshire Hathaway Inc. trades at a premium 
+to its book value. Berkshire is a big company with a lot of wholly owned 
+operating subsidiaries, so its accounting book value is not quite the same 
+thing as the net asset value of an investment fund. But loosely speaking it 
+seems fair to say that (1) Berkshire Hathaway is “the investment fund” of 
+Warren Buffett, (2) people think that Warren Buffett is a very good investor, 
+and (3) therefore they put a premium on Berkshire Hathaway’s holdings. But it 
+matters for this analysis that Berkshire is nottechnically an investment fund. 
+If it were, it would have a strong tendency to trade at NAV.
+
+We talked <> a bunch <> last year <> about Bill Ackman’s efforts to raise a 
+giant closed-end fund, Pershing Square USA. Itdidn’t work <>. The problem, I 
+suggested, was that for the initial public offering of PSUS to work, investors 
+would need to value it at a premium to its net asset value. Ackman wasquite 
+confident that they would <>: To him, PSUS was not an investment fund but 
+rather a company, comparable to Berkshire Hathaway, that would be worth a lot 
+of money because he is a good investor. People would pay up for shares of his 
+fund, because they would expect him to bring them above-market returns. “This 
+isn’t a closed-end fund, this is Bill Ackman Incorporated,” a potential investor
+told the Financial Times <>. Ackman even thought that PSUS might one day be in 
+the S&P 500 index (as Berkshire Hathway is, and as MicroStrategymight be soon <>
+!), which is not really a possibility with a closed-end fund.
+
+Again, this didn’t work, for various reasons, but a simple one is: No, PSUS 
+really was a closed-end fund. Whatever social and legal and technical facts 
+make funds trade like funds applied to PSUS, so it couldn’t get off the ground 
+at a premium to net asset value.
+
+But what if <> …
+
+Billionaire investor Bill Ackman has said he is seeking to build a “modern-day 
+Berkshire Hathaway” that takes control of companies in an attempt to transform 
+his hedge fund into a diversified financial giant.
+
+Ackman’s Pershing Square on Monday offered to buy millions of shares it does 
+not already own in Texas real estate developer Howard Hughes Holdings, in a 
+deal worth more than $1bn.
+
+The proposed purchase is part of an aggressive push by Ackman to reinvent his 
+hedge fund, which at present buys minority stakes in listed companies, into a 
+large financial group with the capacity to compete with powerful private equity 
+buyers and other corporations on large takeovers.
+
+“With apologies to Mr Buffett, [Howard Hughes] would become a modern-day 
+Berkshire Hathaway that would acquire controlling interests in operating 
+companies,” Ackman said in an investor letter on Monday, referring to the 
+company built by Warren Buffett.
+
+Here’s the letter <> proposing to buy Howard Hughes. Ackman would buy Howard 
+Hughes,not through his funds (which currently own 37.6% of Howard Hughes), but 
+through Pershing Square Holdco LP, “the parent company of the alternative 
+investment manager which employs the entire Pershing Square team and manages 
+our investment funds.” (The funds “would elect to roll-over their 37.6% stake 
+in the Company.”) And then Pershing Square would be, not just a fund manager, 
+but also a conglomerate:
+
+While HHC [Howard Hughes Corp., the real estate company] would remain 
+unchanged, HHH, the holding company to HHC, would become a diversified holding 
+company. As a result, we would expect that HHH and its HHC subsidiary would 
+operate largely independently with oversight from the HHH board and its new 
+senior leadership team. With apologies to Mr. Buffett, HHH would become a 
+modern-day Berkshire Hathaway that would acquire controlling interests in 
+operating companies. …
+
+HHH would invest the excess cash resources of its HHC subsidiary – with 
+additional resources including potential cash from the Transaction and the 
+financial resources generated from HHH’s access to public company capital – in 
+new companies and assets with the long-term goal of growing HHH’s per-share 
+intrinsic value [5]  <> at a high compound rate of return. …
+
+In summary, Pershing Square’s management team and resources would be 
+contributed to HHH, and HHH would invest the excess cash and other financial 
+resources of the Company to diversify its business through the acquisition of 
+new operating companies and other assets. …
+
+While Pershing Square’s investment strategy has been constrained by the 
+Pershing Square Funds’mandate which limits our investments to public 
+securities, we have historically identified and received many inbound 
+investment opportunities in private and controlled company situations that we 
+are structurally, currently unable to pursue. The Transaction would empower HHH 
+to leverage Pershing Square’s transaction sourcing and execution capabilities 
+in the private and controlled company markets and enable Pershing Square to 
+pursue these opportunities via its substantial investment in HHH. …
+
+HHH will become Pershing Square’s long-term platform for acquiring controlling 
+interests in public and private operating companies.
+
+So this is not “we’ll do our closed-end fund in the form of a regular public 
+company”; this is “we’ll buy controlling stakes through Howard Hughes and make 
+it a Berkshire-like conglomerate, while also doing regular public stock 
+investing through funds.” Conglomerates, these days, have a certain appeal.
+
+
+Capital solutions
+
+I have written <> a few <> times <> about the formatting of the debt financing 
+pitchbook that investment banks will show potential clients in, say, 2026. This 
+pitchbook will, as pitchbooks do, contain market updates and other filler, but 
+the centerpiece will be a page of indicative pricing for various financing 
+options. In the financing pitchbook of, say, 2022, this page had two columns, 
+one for syndicated loans and one for bonds. In 2026, I have suggested,the page 
+will havethree columns <>:
+
+If you are a company looking to borrow money, the best user experience is 
+something like “one person, whom we trust, shows up at our office, gives us a 
+menu of borrowing options, lists the pros and cons of each one, and then goes 
+and gets us the one we choose.” Traditionally that person was an investment 
+banker, and she’d show up with a pitchbook on the pros and cons of bonds and 
+bank loans. The current situation is, I guess, that she shows up, does her 
+pitch, leaves, and then you have appointments with six private lenders who 
+offer alternatives. But that seems unstable. In the long run, the best user 
+experience is probably that the investment banker adds another column, for 
+private credit, to her pitchbook.
+
+In some sense this is extremely obvious. Companies and private equity sponsors 
+want to borrow money, and they come to investment banks for (1) advice on how 
+to do that and (2) the money. Historically the main ways to borrow the money 
+are in the syndicated loan market and the bond market, but recently there has 
+been a ton of money available from private credit funds. It would be 
+irresponsible for borrowers not to consider the pluses and minuses of private 
+credit, and it is bad customer service for banks not to advise on it.
+
+But there are dumb administrative impediments to formatting the pitchbook this 
+way. If you are a leveraged finance banker at an investment bank, you talk a 
+lot to your bank’s salespeople who cover investors in leveraged loans and 
+high-yield bonds, and you have a good sense of how that market works. But 
+private credit is harder. A lot of private credit firms are designed to
+disintermediatethe banks, to deal with borrowers directly rather than letting 
+banks earn a fee. Even if your bank does cover private credit firms and try to 
+bring them deals, the people who cover those firms are probably not the same 
+salespeople who cover traditional bond and loan buyers. Meanwhile your bank 
+itself might run private credit funds, or partner with managers who do, but the 
+people doing that don’t work on your floor — they work inasset management, 
+because they run funds of outside money — and so you don’t have the same 
+relationship with them that you do with the bond and loan people.
+
+Again, though, these impediments are dumb, and you can just fix them. 
+Bloomberg’sTodd Gillespie reports <>:
+
+Goldman Sachs Group Inc. promoted several key executives and combined teams to 
+form a capital solutions group, a move recognizing the growing importance of 
+private markets and giving a path forward for more of its emerging talent. ...
+
+The restructuring combines capabilities from the bank’s financing group, 
+financial-sponsors coverage in investment banking, and coverage of private 
+equity firms from its fixed-income and equities trading group, according to a 
+statement Monday. The firm’s banking and asset-management arms have long worked 
+together to offer clients private loans and investment opportunities.
+
+The restructuring reflects Goldman’s desire to “operate at the fulcrum of one 
+of the most important structural trends taking place in finance,” Chief 
+Executive Officer David Solomon said in the statement.
+
+(Disclosure: I used to work at Goldman, in the financing group.) The Wall 
+Street Journal <> notes:
+
+It will include the financial-sponsors team that provides investment-banking 
+services to private-equity firms, the global financing group that finds 
+investors to provide capital for deals and a big chunk of what the company 
+calls its FICC financing team that makes loans tied to collateral to other 
+lenders, including private-credit funds.
+
+It is also creating a team within Capital Solutions that will focus on finding 
+alternative sources of financing, especially for its corporate clients. …
+
+The move is a bet by the firm that a large amount of its growth will come from 
+arranging financing, both by facilitating deals through its investment-banking 
+arm and its asset-management business and using its own money to make loans. 
+The unit will also offer other capital-markets services, including equity 
+underwriting.
+
+And from Goldman’s statement:
+
+Our One Goldman Sachs approach allows us to channel the growing synergies 
+between our clients in Global Banking & Markets (GBM) and those in Asset & 
+Wealth Management (AWM). The combination of a preeminent corporate franchise 
+with a globally scaled investing platform allows us to identify the most 
+compelling opportunities for our investing clients across private credit, 
+private equity and other assets. The ability to source these private asset 
+opportunities provides both important capital for our banking clients and 
+unique investments for our asset and wealth management clients.
+
+Yes, right, you have raised money from investors, and you have managers whose 
+job is to deploy that money by lending it to companies (and sponsors). You have 
+bankers who cover those companies and advise them on borrowing money. Seems 
+weird for them not to sit together.
+
+
+Things happen
+
+US Steel <> Rises on CNBC Report of American Rivals Mulling Bid. Mets Owner 
+Steve Cohen <> Had an Even Better Year Off the Field. Big Banks Poised for 
+Trading Windfalls <> From Election Volatility. Big US banks set for $31bn 
+quarterly profit asWall Street business <> booms. Argentina <> pays bondholders 
+$4.3bn in key test for Javier Milei. ElitePrep Schools <> Flood Muni Market 
+After Regional-Bank Tumult. Sonos CEO Leaving AfterBotched App Revamp <> Led to 
+Customer Revolt. JPMorgan Chase Disables Employee Comments After
+Return-to-Office Backlash <>. “America’s bourbon boom <> is over.” Pastor who 
+saw crypto project in his “dream” <> indicted for fraud.
+
+If you'd like to get Money Stuff in handy email form, right in your inbox, 
+pleasesubscribe at this link <>. Or you can subscribe to Money Stuff and other 
+great Bloomberg newslettershere <>. Thanks!
+
+[1] PWC says <>: “If a principal stockholder settles an obligation on behalf 
+of the entity, it should be reflected as an expense in the company's financial 
+statements with a corresponding credit to contributed (paid-in) capital, unless 
+the stockholder's action is caused by a relationship or obligation completely 
+unrelated to their position as a stockholder or such action clearly does not 
+benefit the company.”
+
+[2] Page F-45 of the 10-K/A <> describes the situation, and the accounting.
+
+[3] He  changed his mind in 2023 <>, and then resigned again in 2024 <>; 
+there’s a lot of subsequent corporate drama that I’m glossing over here.
+
+[4] I assume? It would be wild if he did. I certainly didn’t; this is all news 
+to me.
+
+[5] I think “intrinsic value” is a term of art meaning something like “net 
+asset value, but I’m Warren Buffett.”
+
+
+ <> 
+
+Follow Us  <>  <>  <>  Get the newsletter  <> 
+
+
+Like getting this newsletter?  Subscribe to Bloomberg.com <> for unlimited 
+access to trusted, data-driven journalism and subscriber-only insights.
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the 
+Terminal delivers information and analysis that financial professionals can’t 
+find anywhere else.Learn more <>.
+
+Want to sponsor this newsletter?  Get in touch here <>.
+
+ You received this message because you are subscribed to Bloomberg's Money 
+Stuff newsletter. 
+Unsubscribe <> | Bloomberg.com <> | Contact Us <> 
+
+ <>  |  <> 
+Bloomberg L.P. 731 Lexington, New York, NY, 10022  
+<https://links.message.bloomberg.com/e/eh?_t=f574328d4d0c4c359b90d8e49b10e21d&_m=81204cd7543f4a8db6989fa22ebd100e&_e=cl2X0fOknMpSvZ7oyLoNn47tQhj4yHRZgS_XY70fSzOHZNWDFMmfMtiJls4KAKJR2_47DF6mx_4DoiuO3GD34UKQr_C-jkWJaXUyU9-xgDFChr7WF_TZ313VOKvj5-WcMzkzBzKqWkBIfvkKZ50c0zHW9TaTEFPhObGT72hsnS4KP6bj8hqdr_Hkuw0ntuFekqsNO2ZdkkbsVvy1VW_1Sa8-zgNzQeA1boq3CI8yI8E6E8CQdTFfN-wCYCghr_N_Vw81bUDFdden5ziN6des3g%3D%3D>

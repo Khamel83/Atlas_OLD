@@ -1,0 +1,126 @@
+# 3 real ways to boost your credit score in 30 days - The Points Guy - The Points Guy
+
+**Source**: https://thepointsguy.com/guide/boost-credit-score-in-30-days/
+**Type**: article
+**Created**: 2025-08-13T16:13:05.477062
+
+---
+
+title: 3 real ways to boost your credit score in 30 days - The Points Guy - The Points Guy
+source: https://thepointsguy.com/guide/boost-credit-score-in-30-days/
+date: 2025-08-13T16:12:57.611579
+tags: []
+---
+_Editor’s note: This is a recurring post, regularly updated with new
+information._
+
+Like most good things, building a good credit score takes time. But if you
+think you need to give up on your dreams of a new car or [great travel rewards
+card](http://web.archive.org/web/20230514100526/https://thepointsguy.com/credit-
+cards/travel/), think again. Bringing up your credit score may not take as
+long as you're afraid it will.
+
+If you want to [improve your credit
+score](http://web.archive.org/web/20230514100526/https://thepointsguy.com/credit-
+cards/how-to-improve-credit-score/), start with these three things. Depending
+on where your credit is now, you could see a higher number in just 30 days.
+
+## Focus on utilization
+
+On-time payments get a lot of fanfare when we talk about credit scores — and
+for good reason. But there's another part of your credit score that deserves
+your attention: [credit
+utilization](http://web.archive.org/web/20230514100526/https://thepointsguy.com/guide/credit-
+utilization-ratio-guide/). In fact, this one element makes up 30% of your
+credit score.
+
+“Credit utilization” refers to the percentage of your credit limits that’s
+being used on your credit card accounts. If you have a credit card with a
+$10,000 limit and a $5,000 balance, the account is 50% utilized (i.e., you’re
+using half of your available credit).
+
+EXPERIAN BOOST
+
+Lower utilization ratios are good for your credit score. As you use more of
+your available credit and your utilization ratios climb, it has a negative
+impact on your credit score.
+
+You can lower your credit utilization in two ways:
+
+### Pay down your credit card balances
+
+This increases the amount of available credit on your account. In the same
+example where a $10,000 card with a $5,000 balance was 50% utilized, if you
+paid the balance down to $2,500, your new credit utilization rate would be
+only 25% once the account was updated on your credit report.
+
+### Ask for a credit limit increase
+
+A credit limit increase can also help to lower your credit utilization ratio.
+If you can only afford to pay down your $5,000 card balance to $4,000 right
+now, but the card issuer increases your credit limit to $16,000, these two
+actions will net you a credit utilization rate of 25%.
+
+Sign up for our daily newsletter
+
+**Related:[Should I ask for a limit
+increase?](http://web.archive.org/web/20230514100526/https://thepointsguy.com/guide/credit-
+limit-increase-when/)**
+
+## Fix errors on your credit report
+
+The credit bureaus work to keep the information on your reports accurate, but
+credit reporting mistakes do occur. In fact, a [study by the Federal Trade
+Commission](http://web.archive.org/web/20230514100526/https://go.skimresources.com/?id=108360X1565867&sref=https%3A%2F%2Fthepointsguy.com%2Fguide%2Fboost-
+credit-score-in-30-days%2F&url=https%3A%2F%2Fwww.ftc.gov%2Fnews-
+events%2Fpress-releases%2F2013%2F02%2Fftc-study-five-percent-consumers-had-
+errors-their-credit-reports) found that 20% of consumers had an error on at
+least one of their credit reports with Equifax, TransUnion or Experian.
+
+Not every error will wreck your credit score, but many credit reporting errors
+can cause severe damage. This is especially true of derogatory information
+like late payments and collection accounts.
+
+[Review all three of your credit
+reports](http://web.archive.org/web/20230514100526/https://thepointsguy.com/credit-
+cards/three-major-credit-reporting-agencies/) often. If you find information
+that isn’t correct, the [Fair Credit Reporting
+Act](http://web.archive.org/web/20230514100526/https://go.skimresources.com/?id=108360X1565867&sref=https%3A%2F%2Fthepointsguy.com%2Fguide%2Fboost-
+credit-score-in-30-days%2F&url=https%3A%2F%2Fwww.experian.com%2Fblogs%2Fask-
+experian%2Fcredit-education%2Freport-basics%2Ffair-credit-reporting-act-
+fcra%2F) gives you the right to dispute those mistakes with the credit
+bureaus. If an incorrect negative item is removed from your credit report,
+there’s a good chance your credit score will improve once the error is fixed.
+
+**Related:[6 things to do to improve your
+credit](http://web.archive.org/web/20230514100526/https://thepointsguy.com/guide/how-
+to-improve-credit-score/)**
+
+## Become an authorized user
+
+Your credit score might be able to benefit from someone else’s good credit
+history. When a loved one adds you to an existing credit card account as an
+[authorized
+user](http://web.archive.org/web/20230514100526/https://thepointsguy.com/guide/best-
+authorized-user-credit-cards/), the account will typically find its way onto
+your credit reports within a few months.
+
+If someone in your family has made on-time payments and has a low credit
+utilization ratio, they can also help boost your credit score. If the account
+was opened some time ago, there is an added bonus for you because your loved
+one’s account on your report might improve the average age of your credit —
+another move that might be very good for your scores.
+
+**Related:[Everything you need to know about authorized
+users](http://web.archive.org/web/20230514100526/https://thepointsguy.com/news/everything-
+you-need-to-know-about-authorized-users/)**
+
+## Bottom line
+
+The best way to earn and keep great credit scores is to practice smart credit
+management habits over a long period of time. Most simply, make your payments
+on time and don’t charge more on a credit card than you can afford to pay off
+in a given month. And the sooner you start these good habits, the sooner
+you'll see your credit score climb.
+
+_Additional reporting by Benét J. Wilson._

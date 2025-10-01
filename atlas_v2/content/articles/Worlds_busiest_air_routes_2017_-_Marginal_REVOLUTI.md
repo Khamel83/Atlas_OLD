@@ -1,0 +1,38 @@
+# World's busiest air routes, 2017. - Marginal REVOLUTION
+
+**Source**: https://marginalrevolution.com/marginalrevolution/2018/08/worlds-busiest-air-routes-2017.html
+**Type**: article
+**Created**: 2025-08-13T16:30:28.233350
+
+---
+
+title: World's busiest air routes, 2017. - Marginal REVOLUTION
+source: https://marginalrevolution.com/marginalrevolution/2018/08/worlds-busiest-air-routes-2017.html
+date: 2025-08-13T16:30:21.540250
+tags: []
+---
+1\. Jeju to Seoul
+
+2\. Melbourne to Sydney
+
+3\. Mumbai to Delhi
+
+4\. Fukuoka to Tokyo
+
+5\. Rio de Janeiro to Sao Paulo
+
+6\. Sapporo to Tokyo
+
+7\. LA to San Francisco
+
+8\. Brisbane to Sydney
+
+9\. Cape Town to Johannesburg
+
+10\. Beijing to Shanghai
+
+Here is [the
+source](http://web.archive.org/web/20240327184707/https://twitter.com/spectatorindex/status/1031299772571836416).
+Via [Henry
+Farrell](http://web.archive.org/web/20240327184707/https://twitter.com/henryfarrell).
+It is striking how poorly America and of course Europe fare on this list.

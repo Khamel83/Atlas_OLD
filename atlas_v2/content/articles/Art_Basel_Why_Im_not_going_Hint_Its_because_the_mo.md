@@ -1,0 +1,228 @@
+# Art Basel: Why I’m not going. (Hint: It’s because the modern art world is the worst.)
+
+**Source**: http://mobile.slate.com/articles/arts/doonan/2012/11/art_basel_why_i_m_not_going_hint_it_s_because_the_modern_art_world_is_the.html
+**Type**: article
+**Created**: 2025-08-13T20:10:24.140364
+
+---
+
+title: Art Basel: Why I’m not going. (Hint: It’s because the modern art world is the worst.)
+source: http://mobile.slate.com/articles/arts/doonan/2012/11/art_basel_why_i_m_not_going_hint_it_s_because_the_modern_art_world_is_the.html
+date: 2025-08-13T20:10:22.383397
+tags: []
+---
+_Now that photographs of this year’s Art Basel Miami are finally working their
+way out of everyone’s Instagram feeds, it’s worth revisiting Simon Doonan’s
+takedown of the modern art world. First published in 2012, it explains why
+Doonan skipped Miami that year—and what’s wrong with art today._
+
+Freud said the goals of the artist are fame, money, and beautiful lovers.
+Based on my artist acquaintances, I would say this holds true today. What
+_have_ changed, however, are the goals of the art itself. Do any exist?
+
+How did the art world become such a vapid hell-hole of investment-crazed
+pretentiousness? How did it become, as Camille Paglia [has recently described
+it](http://online.wsj.com/article/SB10000872396390444223104578034480670026450.html),
+a place where “too many artists have lost touch with the general audience and
+have retreated to an airless echo chamber”? (More from her in a moment.)
+
+There are sundry problems bedeviling the contemporary art scene. Here are
+eight that spring readily to mind:
+
+**1.****Art Basel Miami.**
+
+It’s baaa-ack, and I, for one, will not be attending. The overblown art fair
+in Miami—an offshoot of the original, held in Basel, Switzerland—has become a
+promo-party cheese-fest. All that craven socializing and trendy posing
+epitomize the worst aspects of today’s scene, provoking in me a strong desire
+to start a Thomas Kinkade collection. Whenever some hapless individual
+innocently asks me if I will be attending Art Basel—even though the
+shenanigans don’t start for another two weeks, I am already getting e-vites
+for pre-Basel parties—I invariably respond in Tourette’s mode:
+
+“No. In fact, I would rather jump in a river of boiling snot, which is ironic
+since that could very well be the title of a faux-conceptual installation one
+might expect to see at Art Basel. Have you seen Svetlana’s new piece? It’s a
+river of boiling snot. No, I’m not kidding. And, guess what, Charles Saatchi
+wants to buy it and is duking it out with some Russian One Percent-er.”
+
+**2.****Blood, poo, sacrilege, and porn.**
+
+Old-school ’70s punk shock tactics are so widespread in today’s art world that
+they have lost any resonance. As a result, twee paintings like [Gainsborough’s
+_Blue Boy_](http://www.britsattheirbest.com/cr_gainsborough_blue_boy.jpg) and
+[Constable’s _Hay
+Wain_](http://www.youreinsanehoney.com/modernart/romanticism/constable-
+thehaywain.jpg) now appear mesmerizing, mysterious, and wildly transgressive.
+And, as Camille Paglia brilliantly argues in her must-read new book,
+[_Glittering
+Images_](http://www.amazon.com/gp/product/0375424601/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0375424601&linkCode=as2&tag=slatmaga-20),
+this torrent of penises, elephant dung, and smut has not served the broader
+interests of art. By providing fuel for the Rush Limbaugh-ish prejudice that
+the art world is full of people who are shoving yams up their bums and doing
+horrid things to the Virgin Mary, art has, quoting Camille again, “allowed
+itself to be defined in the public eye as an arrogant, insular fraternity with
+frivolous tastes and debased standards.” As a result, the funding of school
+and civic arts programs has screeched to a halt and “American schoolchildren
+are paying the price for the art world’s delusional sense of entitlement.”
+Thanks a bunch, [Karen Finley](http://en.wikipedia.org/wiki/Karen_Finley),
+[Chris Ofili](http://en.wikipedia.org/wiki/Chris_Ofili), [Andres
+Serrano](http://en.wikipedia.org/wiki/Andres_Serrano), [Damien
+Hirst](http://en.wikipedia.org/wiki/Damien_Hirst), and the rest of you naughty
+pranksters!
+
+Any taxpayers not yet fully aware of the level of frivolity and debasement to
+which art has plummeted need look no further than the Museum of Modern Art,
+which recently hosted a jumbo garage-sale-cum-performance piece created by one
+Martha Rosler titled “[Meta-Monumental Garage
+Sale](http://www.moma.org/visit/calendar/exhibitions/1279).” Maybe this has
+some reverse-chic novelty for chi-chi arty insiders, but for the rest of us
+out here in the real world, a garage sale is just a garage sale.
+
+**3.****Art a la mode.**
+
+The growing mania for melanging fashion with art is great for the former, but
+it has been a gravitas-eroding catastrophe for the latter. The world of style
+is ephemeral and superficial by nature. Art, real art, fabulous art, high art,
+must soar and endure and remain unencumbered by the need to sell handbags and
+blouses. Example: Selfridges recently strapped a massive effigy of [dot-queen
+Yayoi Kusama](http://en.wikipedia.org/wiki/Yayoi_Kusama) to the front of the
+store in celebration of her new collaboration with Louis Vuitton. Similar
+installations took place at Vuitton stores worldwide. There was no downside
+for the historic department store or for Maison Vuitton. From a fashion point
+of view the entire project was memorable and rather marvelous. But what about
+Art? Did the excitable hordes of tourists who were sticker-shocking their way
+through the spotty merchandise have any notion that they were scrutinizing the
+oeuvre of a so-called great artist? Did they, as a result, schlep to the
+Whitney to see the Kusama exhibit? And what of Ms. Kusama herself? How is the
+poor luv fairing after being dragged up Rodeo Drive and down 57th Street? Just
+as well she is already in a nut house. (She voluntarily committed herself to a
+psychiatric hospital in 1977 and has lived and made art there ever since.)
+
+**4\. The post-skill movement.**
+
+“No major figure of profound influence has emerged in painting or sculpture
+since the waning of Pop Art and the birth of Minimalism in the early 1970s,”
+writes Camille P. But what about those annoying YBAs, the young British
+artists, the folks that noted U.K.-based art critic Brian Sewell has wickedly
+and accurately dubbed “The Post-Skill Movement”? Are they profound or
+influential?
+
+As a window dresser (recently retired) who pursued his craft for more than 40
+years, I have always taken a keen interest in art. I have occasionally
+collaborated with artists—Warhol, Rauschenberg, Mapplethorpe, Candyass—all the
+while enjoying the freedom of _not_ being an artist myself. I always saw my
+work as a combo of street theater and Coney Island sideshow. This allowed me
+to switch styles and try anything without ever feeling the need to create
+profundity or permanence. Example: I am probably the only person on Earth to
+have incorporated—back in the ’70s—colostomy bags into a designer clothing
+display. Did it mean anything? Was it ART? No, emphatically, no! A nurse
+friend gave me large stash of dead-stock unused bags, and I felt compelled to
+rescue them, which is another way of saying that I had not prepared anything
+for my window installation on that particular week and was glad to take
+receipt of a ready-made prop.
+
+For years I happily free-associated with my papier-mâché, my props, and my
+found objects … and then something weird happened. Artists put down their
+brushes and stole my _objets trouves_ , my staple guns and glue guns. I first
+noticed the trend at the [1997 Sensation
+show](http://en.wikipedia.org/wiki/Sensation_\(art_exhibition\)) at the Royal
+Academy in London. Enter the Post-Skill Movement.
+
+With its Damien Hirst vitrines, Tracey Emin camping vignettes, and Sarah Lucas
+found-object tableaux, this landmark show was like one giant Barneys window.
+This realization brought me no satisfaction: “If art is morphing into display,
+then what the hell are we window dressers supposed to plonk into our
+constantly changing vignettes?” I asked myself as I gazed at Jake and Dinos
+Chapman’s defiled window mannequins. I felt like a professional hooker who is
+no longer sure what to wear because all the regular respectable ladies are now
+dressing like sluts. (Which, by the way, [they
+are](https://www.slate.com/articles/video/conversations_with_slate/2012/01/simon_doonan_on_why_stilettos_and_spray_tans_should_be_avoided_.html).)
+
+In a desperate search of some gravitas and some skill, I fled the _Sensation_
+tableaux and ran next door to the adjacent, and infinitely more artful,
+_Victorian Fairy Painting_ exhibit. FYI, the catalog for [this strange and
+significant show](http://www.amazon.com/Victorian-Fairy-Painting-Pamela-
+Trimpe/dp/1858940435) is still available and makes a lovely holiday gift.
+
+**5.****The flight of craft.**
+
+As stated above, a lack of skill and craft among artists is sucking the life
+and the gravitas out of the art world. There are, thank God, still some
+artists and designers who are bucking this trend and making gorgeous stuff.
+You won’t find it at trendy galleries or at Art Basel. You are more likely to
+find it among the potters and craftsmen on Etsy. My favorite artists at the
+moment work in the field of illustration and applied art: Examples include
+[Ruben Toledo](http://en.wikipedia.org/wiki/Ruben_Toledo), [John-Paul
+Philippe](http://www.jeanpaulphilippe.eu/index.php?option=com_content&task=view&id=3&Itemid=8&lang=en),
+and [Malcolm
+Hill](http://malcolmhillnyc.com/malcolmhillnyc.com/malcolmhill.html).
+
+**6\. Adderall a go-go.  
+  
+**Short attention spans have made art into one quickie sight gag after
+another. Is that an oversized Tiffany bag? No, it’s [a metal sculpture by
+Jonathan Seliger](http://www.artnet.com/artwork/426108560/139/jonathan-
+seliger-charms.html). Gotcha! Clearly, in our frenetic, technology-obsessed
+age we have lost the ability to contemplate and are interested only in visual
+puns. Camille to the rescue: [_Glittering
+Images_](http://www.amazon.com/Glittering-Images-Journey-Through-
+Egypt/dp/0375424601) _—_ I keep banging on about her book, but only because
+it’s so fantastic—is an invitation to think, to scrutinize, to gaze, to stare,
+to shut the fuck up, to learn, and to self-cultivate. La Paglia dares to take
+us beyond the high jinks of contemporary art and refocuses our Internet-
+scrambled brains on the pure uncynical contemplation of high art. Surrender to
+her!
+
+**7\. Dollars and shekels and rubles.**
+
+My father-in-law, Harry Adler, was a committed, ferocious, lifelong passionate
+artist who produced a massive body of work in all mediums. However, I never
+once remember him holding up a painting or a drawing and asking, “How much
+d’ya think I could get for this?” Unfettered by the impulse to grease his
+creative journey with financial validation, he pursued his art with freedom
+and authenticity.
+
+Today’s successful artists, on the other hand, seem _obsessed_ with money.
+How, you may ask, does this jive with the artist’s bohemian esprit? In the age
+of Occupy, when the 1 percent are so reviled, how do groovy, liberal, and, one
+assumes, democratic dealers and artists rationalize their politician-like
+reliance upon, and coziness with, the super-wealthy?
+
+“Aha!” I hear you artists say. “But what about fashion? Aren’t fancy designers
+and retailers reliant on exactly the same group?” To which I reply, “Exactly
+my point. Fashion has no lofty goals. It’s about buying a dollop of
+transformative glamour and a jolt of prestige. Should art not aspire to more
+than that?”
+
+**8\. Cool is corrosive.**
+
+The dorky uncool ’80s was a great time for art. The
+[Harings](http://en.wikipedia.org/wiki/Keith_Haring),
+[Cutrones](http://en.wikipedia.org/wiki/Ronnie_Cutrone),
+[Scharfs](http://en.wikipedia.org/wiki/Kenny_Scharf), and
+[Basquiats](http://en.wikipedia.org/wiki/Basquiat)—life-enhancing, graffiti-
+inspired painters—communicated a simple, relevant, populist message of hope
+and flava during the darkest years of the AIDS crisis. Then, in the early
+‘90s, grunge arrived, and displaced the unpretentious communicative culture of
+the ‘80s with the dour obscurantism of COOL. Simple fun and emotional
+sincerity were now seen as embarrassing and deeply uncool. Enter artists like
+[Rachel barrel-of-laughs
+Whiteread](http://en.wikipedia.org/wiki/Rachel_Whiteread), who makes casts of
+the insides of cardboard boxes. (Nice work if you can get it!)
+
+A couple of decades on, art has become completely pickled in the vinegar of
+COOL, and that is why it is so irrelevant to the general population.
+
+Enough kvetching. Let’s end on a positive note. Not every blue-chip artist
+today is shoving his poo into tins and calling it art. I love me a little Nick
+Cave and an occasional Jeff Koons. And here’s the great news: While we wait
+for the art world to change direction and seek out a more meaningful place in
+our lives, there are no shortage of chuckles to be had. The landscape of art
+has never been more vast or intriguingly bonkers. The pretentions and foibles,
+to mention nothing of the gobbledygook theoretical justifications that
+accompany all the neo-Duchamp-ian bollocks, provide many occasions for
+amusement, mockery, and parody. If Jacques Tati were alive today he would have
+unwittingly blundered round that “Meta-Monumental Garage Sale” looking for a
+new raincoat. On his way home, he would have popped into a travel agent and
+booked his flight to Miami.

@@ -1,0 +1,166 @@
+# Why Tom Perez won | Vox
+
+**Source**: http://www.vox.com/2017/2/25/14736930/tom-perez-dnc-race
+**Type**: article
+**Created**: 2025-08-13T17:32:07.259233
+
+---
+
+title: Why Tom Perez won | Vox
+source: http://www.vox.com/2017/2/25/14736930/tom-perez-dnc-race
+date: 2025-08-13T17:32:05.997652
+tags: []
+---
+ATLANTA — Karl Sandstrom looked at the room across from where the Democratic
+Party was about to choose its new leader and shook his head in disbelief.
+
+The scene was chaotic. Pete Buttigieg had just quit the race, and three of the
+Indiana mayor’s young volunteers were hugging. Two reporters conducting an
+interview walked briskly past. Hundreds of campaign posters were scattered
+across the room — dozens of Minnesota Rep. Keith Ellison’s green signs lay on
+the floor next to a three-foot pile of white-and-blue ads for vice chair
+candidate Michael Blake.
+
+“You see these signs out here? Never has there been a DNC race like this.
+We’ve never had this much energy, this many volunteers, this much debate, this
+much chanting, this much _stuff_ ,” said Sandstrom, an attorney for Democratic
+state parties attending his 10th chair election. “The DNC chair is normally a
+relatively obscure figure.”
+
+Not anymore. Many Democrats saw this year’s election as a chance to heal the
+wounds of the 2016 primary, as left-wing populists and congressional Democrats
+joined together behind Ellison, while the party’s establishment and veterans
+of President Obama’s administration backed Tom Perez, Obama’s former labor
+secretary. (Perez ultimately beat Ellison on the second ballot by a 235-200
+vote margin.)
+
+Ellison’s supporters argued picking him would ensure that Sen. Bernie
+Sanders’s fans had a home in the Democratic Party. They cast [him as a unity
+choice](http://www.vox.com/2017/1/3/14084382/keith-ellison-dnc-chair), arguing
+he was best positioned to incorporate the outpouring of activism on the
+streets into the party.
+
+But in Atlanta, many Democrats were convinced they didn’t need Ellison to
+harness grassroots excitement. It’s not just Sanders’s backers who are
+energized, they argued. And officials said they are confident that most of the
+Sanders/Ellison wing will come back into the fold even with Perez as chair —
+in part to oppose Trump, and in part because Ellison and Sanders are
+themselves committed to party unity.
+
+## Democrats backing Perez: Grassroots energy isn’t just on Sanders left
+
+Photo by Chip Somodevilla/Getty Images
+
+Ohio Democratic Party Chair David Pepper was one of the few state party chairs
+who endorsed Perez. (More than 25 publicly endorsed Ellison, and Perez only
+had a handful of state party endorsements going into Saturday.) Pepper largely
+dismissed concerns that die-hard Ellison and Sanders voters would refuse to
+work with the Democratic Party.
+
+“A few will say that, I’m sure, but with what Paul Ryan and Trump are doing,
+I’m confident we’ll unite,” Pepper said.
+
+The excitement over the DNC race didn’t only come from the Ellison wing, he
+argued. He noted that while Ellison’s supporters were the loudest, he heard
+from backers of all three of the leading candidates — Perez, Ellison, and
+Buttigieg — something he’d never expected to happen in a DNC race.
+
+“The DNC was a very stale organization — every meeting was stale. It was
+buttoned up. But this is spirited, passionate; you have people running for
+every level and every position,” Pepper says. “We heard from all comers.”
+
+This was a common refrain among those predicting party unity: that either
+Perez or Ellison could corral the outpouring of anti-Trump energy, including
+that from Ellison backers who shared Sanders’s skepticism of the Democratic
+Party. And once Perez won, he appointed Ellison to be deputy chair.
+
+“Whichever one of them wins, they’re committed to be the voice for the party
+and come together,” said Stephanie C. Rawlings-Blake, former Baltimore mayor
+and secretary of the Democratic National Committee, in an interview Friday.
+“We’re going to find a way to work together.”
+
+Christina Reynolds, the deputy communications director for Hillary Clinton’s
+presidential campaign and a Perez supporter, added that there was “interest
+across the board” in grassroots support emerging within the Democratic Party.
+
+“I don’t think it’s just the Bernie wing,” Reynolds said.
+
+## Was Ellison necessary as a unity choice?
+
+Photo by Alex Wong/Getty Images
+
+The powerful idea that Perez could also prove a unity candidate won an
+unlikely ally: Keith Ellison.
+
+Speaking to his supporters on Friday night, Ellison repeatedly praised Perez.
+Ellison volunteers said they were told to speak positively about Perez and
+that party unity was essential for them to believe in, regardless of the
+outcome.
+
+As promised, soon after his loss, Ellison rushed to urge his supporters to get
+behind Perez.
+
+“Here’s what I want to say to [my supporters]: If you care about people ...
+you have to stay here and support Tom Perez for chair. This is not a small
+thing; it’s a big thing,” Ellison said. “The fate of our nation is in the
+balance right now. If they trust me, they need to come on and trust Tom Perez
+as well.”
+
+Part of this was necessary electioneering — it certainly would have made
+Ellison’s uphill climb much steeper had he threatened to withhold his
+faction’s support. But Ellison’s promise to unify the party also allowed
+Perez’s supporters to reasonably argue that the former labor secretary could
+also be a unity choice — depriving Ellison of what could have otherwise been
+one of his strongest arguments.
+
+Some of Ellison’s supporters were free to make the opposite case anyway. Six
+hours after New York City Mayor Bill de Blasio, an Ellison backer, arrived in
+Atlanta Friday night, he was still at the hotel bar, trying to persuade
+undecided voting delegates.
+
+”This is not an optional situation,” de Blasio urged, according to the
+Washington Post’s David Weigel. “We need Keith Ellison.”
+
+## Left-wing groups beyond the Democratic Party sense an opening
+
+Photo by Jeff Swensen/Getty Images
+
+Before the vote, Ellison supporters said they worried the grassroots, populist
+energy would leave the party if Perez won. “The Perez folks don’t have
+anywhere else to go. They’re good Democrats. But that’s not true for a lot for
+the Ellison folks,” said Cliff Moone, a DNC voting member and Ellison
+supporter from Hickory, North Carolina.
+
+Two Ellison supporters on Friday admitted they felt the same way. If Ellison
+lost, said Krupesh Patel, a 30-year-old clutching a green “Keith Ellison for
+DNC Chair” sign, “it would just look terrible because they’re trying to burn
+the left again.” Scott Brown, 31, nodded in agreement. “There’d be no good
+reason to say, ‘Hey, the Democratic Party cares about Bernie Sanders’s primary
+voters,’” Brown says. “This is maybe only our second chance to bring the party
+together.”
+
+And even Ellison supporters open to the possibility of unity under Perez
+admitted it would be difficult to achieve. “There’s going to be a silent
+undercurrent that will stay away because they’ll feel their voices were not
+heard,” said Denise D. Adams, a city council member from Winston-Salem, North
+Carolina.
+
+Calling that faction “silent” might have been too hopeful. When outgoing Chair
+Donna Brazile announced that Perez had won, a chant broke out among a few
+dozen Ellison supporters, drowning out the chair at the front of the room:
+“Party for the people, not big money! Party for the people, not big money!”
+
+A handful of Ellison supporters left the room in anger. Others tried to quiet
+down their own side, while a Perez supporter yelled across the room for them
+to be quiet.
+
+Indeed, the country’s two biggest socialist organizations — the Democratic
+Socialists of America and the Socialist Alternative — immediately moved to use
+the news of Ellison’s loss for recruitment.
+
+Alexandria Ellison, the candidate’s 22-year-old niece, said that many of her
+friends were talking about leaving the Democratic Party if Ellison lost. But
+Alexandria, like her uncle, said she’d work within the party — and said she
+thought it was likely many would do the same.
+
+”I think it will be fine,” she said. “Hopefully.”

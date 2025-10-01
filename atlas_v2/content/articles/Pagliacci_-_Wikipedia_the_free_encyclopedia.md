@@ -1,0 +1,426 @@
+# Pagliacci - Wikipedia, the free encyclopedia
+
+**Source**: https://en.wikipedia.org/wiki/Pagliacci
+**Type**: article
+**Created**: 2025-08-13T18:28:16.985206
+
+---
+
+title: Pagliacci - Wikipedia
+source: https://en.wikipedia.org/wiki/Pagliacci
+date: 2025-08-13T18:28:14.965194
+tags: []
+---
+Opera by Ruggero Leoncavallo
+
+Pagliacci  
+---  
+[![](//upload.wikimedia.org/wikipedia/commons/a/a9/Pagliacci_Original_Score_Cover.jpg)](/wiki/File:Pagliacci_Original_Score_Cover.jpg)Cover
+of first piano/vocal score, published in 1892  
+Librettist| Ruggero Leoncavallo  
+Language| Italian  
+Premiere|  
+  
+_**Pagliacci**_ (Italian pronunciation: [[paʎˈʎattʃi]](/wiki/Help:IPA/Italian
+"Help:IPA/Italian"); literal translation, 'Clowns')[a] is an [Italian
+opera](/wiki/Italian_opera "Italian opera") in a prologue and two acts, with
+music and [libretto](/wiki/Libretto "Libretto") by [Ruggero
+Leoncavallo](/wiki/Ruggero_Leoncavallo "Ruggero Leoncavallo"). The opera tells
+the tale of Canio, actor and leader of a [commedia
+dell'arte](/wiki/Commedia_dell%27arte "Commedia dell'arte") theatrical
+company, who murders his wife Nedda and her lover Silvio on stage during a
+performance. _Pagliacci_ premiered at the [Teatro Dal
+Verme](/wiki/Teatro_Dal_Verme "Teatro Dal Verme") in Milan on 21 May 1892,
+conducted by [Arturo Toscanini](/wiki/Arturo_Toscanini "Arturo Toscanini"),
+with [Adelina Stehle](/wiki/Adelina_Stehle "Adelina Stehle") as Nedda,
+[Fiorello Giraud](/wiki/Fiorello_Giraud "Fiorello Giraud") as Canio, [Victor
+Maurel](/wiki/Victor_Maurel "Victor Maurel") as Tonio, and [Mario
+Ancona](/wiki/Mario_Ancona "Mario Ancona") as Silvio. Soon after its Italian
+premiere, the opera played in London (with [Nellie Melba](/wiki/Nellie_Melba
+"Nellie Melba") as Nedda) and in New York (on 15 June 1893, with Agostino
+Montegriffo as Canio). _Pagliacci_ is the best-known of Leoncavallo's ten
+operas and remains a staple of the repertoire.[1]
+
+_Pagliacci_ is often staged with _[Cavalleria
+rusticana](/wiki/Cavalleria_rusticana "Cavalleria rusticana")_ by [Pietro
+Mascagni](/wiki/Pietro_Mascagni "Pietro Mascagni"), a double bill known
+colloquially as "Cav/Pag".
+
+## Origin and disputes
+
+[[edit](/w/index.php?title=Pagliacci&action=edit&section=1 "Edit section:
+Origin and disputes")]
+
+Leoncavallo was a little-known composer when [Pietro
+Mascagni](/wiki/Pietro_Mascagni "Pietro Mascagni")'s _[Cavalleria
+rusticana](/wiki/Cavalleria_rusticana "Cavalleria rusticana")_ premiered
+around 1890. After seeing Mascagni's success, Leoncavallo decided to write an
+opera in response: one act composed in the [verismo](/wiki/Verismo "Verismo")
+style.
+
+Leoncavallo based the story of _Pagliacci_ on an incident from his
+childhood:[2] the 1865 murder of a Leoncavallo family servant, Gaetano
+Scavello, killed by Gaetano D'Alessandro, with brother Luigi acting as
+accomplice. The incident stemmed from a series of perceived romantic
+entanglements involving Scavello, Luigi D'Alessandro, and a village girl with
+whom both men were infatuated. Leoncavallo's father, a judge, presided as
+magistrate over the criminal investigation.[4]
+
+Leoncavallo originally titled his story _Il pagliaccio_ (_The Clown_). The
+baritone [Victor Maurel](/wiki/Victor_Maurel "Victor Maurel"), who was cast as
+the first Tonio, requested that Leoncavallo change the title from the singular
+_Il pagliaccio_ to the plural _I Pagliacci_ , to broaden dramatic interest
+from Canio alone to include Tonio (his own role).
+
+The French author [Catulle Mendès](/wiki/Catulle_Mend%C3%A8s "Catulle Mendès")
+sued Leoncavallo for [plagiarism](/wiki/Plagiarism "Plagiarism") after
+learning of the plot of Leoncavallo's libretto from an 1894 French
+translation. Mendès thought it resembled his 1887 play _La Femme de Tabarin_
+("Tabarin's Wife"), which was structured as a play-within-the-play and
+featured a clown murdering his wife. Leoncavallo pleaded ignorance of Mendès's
+play.[2] Later, there were counter-accusations that Mendès's play resembled
+Don [Manuel Tamayo y Baus](/wiki/Manuel_Tamayo_y_Baus "Manuel Tamayo y
+Baus")'s _Un Drama Nuevo_ (1867). Mendès dropped his lawsuit. Scholar [Matteo
+Sansone](/wiki/Matteo_Sansone_\(musicologist\) "Matteo Sansone
+\(musicologist\)") has suggested that Leoncavallo had ample opportunity to be
+exposed to new French art and musical works while living in Paris from 1882 to
+1888, including potentially Mendès's play, another version of _La femme de
+Tabarin_ by Paul Ferrier, and _Tabarin_ , an opera composed by [Émile
+Pessard](/wiki/%C3%89mile_Pessard "Émile Pessard") that was based on Ferrier's
+play.[6]
+
+The opening Prologue was written for Maurel "as an afterthought", as
+Leoncavallo said in a conversation with the critic and singing teacher [Herman
+Klein](/wiki/Herman_Klein "Herman Klein") during his visit to London for the
+UK premiere in 1893: he wrote it "as an inducement to a clever, but rather
+egotistical baritone to sing the part of Tonio, who felt it wasn't important
+enough for an artist of his distinction. Perhaps he was right. Anyhow I
+thought the matter over and hit upon the idea that a prologue, sung before the
+curtain by one of the humblest characters, would prove something of a novelty
+and by no means out of place. Being, as you know, my own librettist, I quickly
+wrote the words and sketched the music. My baritone was delighted, both with
+the notion and the result, and I am bound to add that it proved one of the
+most striking features of the opera when I brought it out at the Dal Verme,
+Milan, just a year ago."
+
+Towards the end of the prologue, singers often interpolate a high A♭ and a
+high G, although these do not appear in the original full score. In an
+Australian newspaper article in December 1893, the baritone Guigliemo Caruson,
+who had already sung the part in Genoa earlier that year[9] said that "whilst
+rehearsing under Signor Leoncavallo's immediate direction, the composer gave
+his consent to the interpolation remarking that it was very effective, but
+that he would not add it to the score as he did not wish to force the note
+upon voices it did not suit."[10]
+
+## Performance history
+
+[[edit](/w/index.php?title=Pagliacci&action=edit&section=3 "Edit section:
+Performance history")]
+
+_Pagliacci_ received mixed critical reviews after its world premiere, but was
+instantly successful with the public and has remained so ever since.
+
+The UK premiere of _Pagliacci_ took place at the [Royal Opera
+House](/wiki/Royal_Opera_House "Royal Opera House"), [Covent
+Garden](/wiki/Covent_Garden "Covent Garden"), under the management of Sir
+[Augustus Harris](/wiki/Augustus_Harris "Augustus Harris") in London on 19 May
+1893, supervised by the composer. [Nellie Melba](/wiki/Nellie_Melba "Nellie
+Melba") sang Nedda, with [Fernando De Lucia](/wiki/Fernando_De_Lucia "Fernando
+De Lucia") as Canio and [Mario Ancona](/wiki/Mario_Ancona "Mario Ancona") as
+Tonio, M. Bonnard (Beppe) and Richard Green (Silvio). The conductor was [Luigi
+Mancinelli](/wiki/Luigi_Mancinelli "Luigi Mancinelli").
+
+The US premiere followed a month later at the [Grand Opera
+House](/wiki/Grand_Opera_House_\(Manhattan\) "Grand Opera House
+\(Manhattan\)") in New York City on 15 June 1893, conducted by [Gustav
+Hinrichs](/wiki/Gustav_Hinrichs "Gustav Hinrichs"), with [Selma
+Kronold](/wiki/Selma_Kronold "Selma Kronold") (Nedda), American tenor Agostino
+Montegriffo (Canio), and [Giuseppe Campanari](/wiki/Giuseppe_Campanari
+"Giuseppe Campanari") (Tonio).[12]
+
+The 'old' [Metropolitan Opera
+House](/wiki/Metropolitan_Opera_House_\(39th_Street\) "Metropolitan Opera
+House \(39th Street\)") first staged the work on 11 December as a double-bill
+with _[Orfeo ed Euridice](/wiki/Orfeo_ed_Euridice "Orfeo ed Euridice")_ , with
+the same cast as the London premiere with Melba in the role of Nedda, De Lucia
+as Canio, and Ancona as Tonio.[14][15] The Met again staged _Pagliacci_ as a
+double-bill with the same cast and conductor, this time followed by
+_Cavalleria rusticana_ on 22 December 1893 with [Emma
+Calvé](/wiki/Emma_Calv%C3%A9 "Emma Calvé") as Santuzza, conducted by [Enrico
+Bevignani](/wiki/Enrico_Bevignani "Enrico Bevignani").[17] The two operas have
+since been frequently performed in this double-bill, a pairing referred to in
+the operatic world colloquially as "Cav and Pag".
+
+The Belgian premiere (in a French translation) took place on 14 February 1895
+([Valentine's Day](/wiki/Valentine%27s_Day "Valentine's Day")) at the [Theatre
+de la Monnaie](/wiki/Theatre_de_la_Monnaie "Theatre de la Monnaie"), Brussels,
+with [Cécile Simonnet](/wiki/C%C3%A9cile_Simonnet "Cécile Simonnet") as Nedda,
+conducted by [Philippe
+Flon](/w/index.php?title=Philippe_Flon&action=edit&redlink=1 "Philippe Flon
+\(page does not exist\)").[18]
+
+In 1902, the opera received its French premiere at the [Paris
+Opera](/wiki/Paris_Opera "Paris Opera"), with legendary tenor [Jean de
+Reszke](/wiki/Jean_de_Reszke "Jean de Reszke") as Canio in what would be his
+last public performance, as he would later retire from the stage to focus on
+teaching and to spend more time with his family. [19][20]
+
+_Pagliacci_ was produced alone in [Washington National
+Opera](/wiki/Washington_National_Opera "Washington National Opera")'s November
+1997 production by [Franco Zeffirelli](/wiki/Franco_Zeffirelli "Franco
+Zeffirelli"). The re-organised [New York City Opera](/wiki/New_York_City_Opera
+"New York City Opera") presented _Pagliacci_ in 2016 on a double bill with
+Rachmaninoff's _[Aleko](/wiki/Aleko_\(Rachmaninoff\) "Aleko
+\(Rachmaninoff\)")_.[22]
+
+[![](//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Victor_Maurel_By_Dupont.jpg/190px-Victor_Maurel_By_Dupont.jpg)](/wiki/File:Victor_Maurel_By_Dupont.jpg)French baritone [Victor Maurel](/wiki/Victor_Maurel "Victor Maurel"), creator of the role of Tonio Roles in the opera and in the commedia dell'arte, voice types, premiere cast Role  | Role in _[Commedia dell'arte](/wiki/Commedia_dell%27arte "Commedia dell'arte")_ | [Voice type](/wiki/Voice_type "Voice type") | Premiere cast, 21 May 1892  
+Conductor: [Arturo Toscanini](/wiki/Arturo_Toscanini "Arturo Toscanini")  
+---|---|---|---  
+Canio, _head of the troupe_ | [Pagliaccio](/wiki/Clown "Clown") ([Pierrot](/wiki/Pierrot "Pierrot")), _Colombina's husband_ | [tenor](/wiki/Tenor "Tenor") | [Fiorello Giraud](/wiki/Fiorello_Giraud "Fiorello Giraud")  
+Nedda, _Canio's wife,  
+in love with Silvio_ | [Colombina](/wiki/Colombina "Colombina"), _Pagliaccio's wife, in love with Arlecchino_ | [soprano](/wiki/Soprano "Soprano") | [Adelina Stehle](/wiki/Adelina_Stehle "Adelina Stehle")  
+Tonio, _the fool_ | Taddeo, _Colombina's servant_ | [baritone](/wiki/Baritone "Baritone") | [Victor Maurel](/wiki/Victor_Maurel "Victor Maurel")  
+Beppe (Peppe[b]), _actor_ | [Arlecchino](/wiki/Harlequin "Harlequin"), _Colombina's lover_ | tenor  | [Francesco Daddi](/wiki/Francesco_Daddi "Francesco Daddi")  
+Silvio, _Nedda's lover_ |  | baritone  | [Mario Ancona](/wiki/Mario_Ancona "Mario Ancona")  
+Chorus of villagers  
+  
+    Place: [Calabria](/wiki/Calabria "Calabria"), near [Montalto](/wiki/Montalto_Uffugo "Montalto Uffugo"), on the [Feast of the Assumption](/wiki/Feast_of_the_Assumption "Feast of the Assumption")
+    Time: between 1865 and 1870
+
+During the orchestral introduction, Tonio, dressed as his [commedia
+dell'arte](/wiki/Commedia_dell%27arte "Commedia dell'arte") character Taddeo,
+pokes his head through the curtain, advances, and addresses the audience. ("Si
+può?... Si può?... Signore! Signori! ... Un nido di memorie"). He reminds the
+audience that actors have feelings too, and that the show is about real
+people. Tonio returns behind the curtain, which then rises for the main
+action.
+
+At three o'clock in the afternoon, the commedia troupe enters the village to
+the cheering of the villagers. Canio describes the night's performance: the
+troubles of Pagliaccio. He says the play will begin at _ventitré ore_ , an
+agricultural method of time-keeping that means the play will begin an hour
+before sunset.[c] As Nedda steps down from the cart, Tonio offers his hand,
+but Canio pushes him aside and helps her down himself.
+
+The villagers suggest drinking at the tavern. Canio and Beppe accept, but
+Tonio stays behind. The villagers tease Canio that Tonio is planning an affair
+with Nedda. Canio warns everyone that while he may act the foolish husband in
+the play, in real life he will not tolerate other men making advances to
+Nedda. Shocked, a villager asks if Canio really suspects her. He says no, and
+sweetly kisses her on the forehead. As the church bells ring
+[vespers](/wiki/Vespers "Vespers"), he and Beppe leave for the tavern, leaving
+Nedda alone.
+
+Nedda is frightened by Canio's vehemence ("Qual fiamma avea nel guardo"), but
+the birdsong comforts her ("Stridono lassù"). Tonio returns and confesses his
+love for her, but she laughs. Enraged, Tonio grabs Nedda, but she takes a
+whip, strikes him and drives him off. Silvio, who is Nedda's lover, comes from
+the tavern, where he has left Canio and Beppe drinking. He asks Nedda to elope
+with him after the performance and, though she is afraid, she agrees. Tonio,
+who has been eavesdropping, leaves to inform Canio so that he might catch
+Silvio and Nedda together. Canio and Tonio return and, as Silvio escapes,
+Nedda calls after him, "I will always be yours!"
+
+* * *
+
+Performed by Enrico Caruso
+
+[![](//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Enrico_Caruso_As_Canio.jpg/250px-
+Enrico_Caruso_As_Canio.jpg)](/wiki/File:Enrico_Caruso_As_Canio.jpg)[Enrico
+Caruso](/wiki/Enrico_Caruso "Enrico Caruso") as Canio in _Pagliacci_ , one of
+his signature roles
+
+Canio chases Silvio, but does not catch him and does not see his face. He
+demands that Nedda tell him the name of her lover, but she refuses. He
+threatens her with a knife, but Beppe disarms him. Beppe insists that they
+prepare for the performance. Tonio tells Canio that her lover will give
+himself away at the play. A heartbroken Canio is left alone to put on his
+costume and prepare to laugh ("[Vesti la giubba](/wiki/Vesti_la_giubba "Vesti
+la giubba")" – "Put on the costume").
+
+As the crowd arrives, Nedda, costumed as [Colombina](/wiki/Colombina
+"Colombina"), collects their money. She whispers a warning to Silvio, and the
+crowd cheers as the play begins.
+
+Colombina's husband Pagliaccio has gone away until morning, and Taddeo is at
+the market. Alone, she anxiously awaits her lover
+[Arlecchino](/wiki/Arlecchino "Arlecchino"), who comes to serenade her ("O
+Colombina") from beneath her window. Taddeo returns and confesses his love,
+but she mocks him. She lets Arlecchino in through the window. He boxes
+Taddeo's ears and kicks him out of the room, and the audience laughs.
+
+Arlecchino and Colombina dine, and he gives her a sleeping
+[potion](/wiki/Potion "Potion") to use later, "so that when Pagliaccio
+returns, she can drug him and elope with Arlecchino." Taddeo then bursts in,
+warning them that Pagliaccio is suspicious of his wife and is about to return.
+As Arlecchino escapes through the window, Colombina tells him, "I will always
+be yours!"
+
+As Pagliaccio enters, he hears Colombina speak this line and, now as Canio,
+exclaims "Nome di Dio! Quelle stesse parole!" – "Name of God! Those same
+words!" He tries to continue the play, but loses control and demands to know
+her lover's name. Nedda, hoping to keep to the performance, calls Canio by his
+stage name "Pagliaccio" to remind him of the audience's presence. He answers
+with his [arietta](/wiki/Aria "Aria"): "No! Pagliaccio non son!" – "I am not
+Pagliaccio!" He sings that if his face is pale, it is not from the stage
+makeup but from the shame she has brought him. The crowd is impressed by his
+emotional performance and cheers him, without realizing that it is real.
+
+Nedda, trying to continue the play, admits that she has been visited by the
+innocent "Arlecchino". Canio, furious and forgetting the play, demands the
+name of her lover. Nedda swears she will never tell him, and it becomes
+apparent that they are not acting. Side-stage, Beppe asks Tonio to intervene,
+but Tonio refrains and prevents Beppe from halting the action. Silvio begins
+to fight his way toward the stage. Canio, grabbing a knife from the table,
+stabs Nedda. As she dies, she calls: "Help! Silvio!" Silvio attacks Canio, but
+Canio kills him as well. The horrified audience then hears the celebrated
+final line:
+
+    "La commedia è finita!!" – "The comedy is finished!"
+
+#### Assignment of the final line
+
+[[edit](/w/index.php?title=Pagliacci&action=edit&section=9 "Edit section:
+Assignment of the final line")]
+
+In the original manuscript, Tonio sang the opera's final line, "La Commedia è
+finita!", paralleling the prologue, also sung by Tonio. The appropriation of
+this final line by Canio dates back to 1895. John Wright has analysed the
+[dramaturgy](/wiki/Dramaturgy "Dramaturgy") of the opera in the context of
+assignment of the final line, and concluded that the original assignment of
+the final line to Tonio is the most consistent and appropriate assignment.
+Wright says that Tonio shows more deliberate control in his manipulation of
+the other characters in order to obtain his revenge upon Nedda, after she has
+rejected him, and is more aware of the demarcation between life and art. By
+contrast, Canio is unaware of the behind-the-scenes manipulations and
+surrenders control of his perception of the difference between life and art as
+the opera proceeds.[27]
+
+In the present day, the assignment of the final line to Canio has continued to
+be standard. Several exceptions, where Tonio delivers the final line, include:
+
+The orchestra consists of 2 [flutes](/wiki/Western_concert_flute "Western
+concert flute"), 1 [piccolo](/wiki/Piccolo "Piccolo"), 2 [oboes](/wiki/Oboe
+"Oboe"), 1 [cor anglais](/wiki/Cor_anglais "Cor anglais"), 2
+[clarinets](/wiki/Clarinet "Clarinet"), 1 [bass clarinet](/wiki/Bass_clarinet
+"Bass clarinet"), 3 [bassoons](/wiki/Bassoon "Bassoon"), 4
+[horns](/wiki/French_horn "French horn"), 3 [trumpets](/wiki/Trumpet
+"Trumpet"), 3 [trombones](/wiki/Trombone "Trombone"), 1 [tuba](/wiki/Tuba
+"Tuba"), 2 [harps](/wiki/Harp "Harp"), [timpani](/wiki/Timpani "Timpani"),
+[tubular bells](/wiki/Tubular_bells "Tubular bells"), percussion (triangle,
+cymbals, bass drum, glockenspiel, and tam-tam[37]) and strings. Additionally,
+there is an onstage violin, oboe, trumpet, and [bass drum](/wiki/Bass_drum
+"Bass drum").[38]
+
+1907 recording of _Pagliacci_
+
+In 1907, _Pagliacci_ was the first opera to be recorded in its entirety, with
+the Puerto Rican tenor [Antonio Paoli](/wiki/Antonio_Paoli "Antonio Paoli") as
+Canio and under Leoncavallo's personal supervision. In 1931, it became the
+first complete opera to be filmed with sound, in a now-obscure version
+starring the tenor Fernando Bertini as Canio, in his only film, with the [San
+Carlo Opera Company](/wiki/San_Carlo_Opera_Company "San Carlo Opera
+Company").[_[citation needed](/wiki/Wikipedia:Citation_needed
+"Wikipedia:Citation needed")_] Franco Zeffirelli directed his 1981 La Scala
+production with [Plácido Domingo](/wiki/Pl%C3%A1cido_Domingo "Plácido
+Domingo") and [Teresa Stratas](/wiki/Teresa_Stratas "Teresa Stratas") for a
+[1982 television airing](/wiki/Pagliacci_\(1982_film\) "Pagliacci \(1982
+film\)"),[39] which has since been released on DVD. The movie's soundtrack
+received a [Grammy](/wiki/Grammy "Grammy") nomination for Best Opera
+Recording. _Pagliacci_ was also recorded in English in 1997, and released
+commercially in 1998, for the [Chandos](/wiki/Chandos_Records "Chandos
+Records") "Opera in English" label with [Dennis
+O'Neill](/wiki/Dennis_O%27Neill_\(tenor\) "Dennis O'Neill \(tenor\)") as
+Canio, [Alan Opie](/wiki/Alan_Opie "Alan Opie") as Tonio, and [Rosa
+Mannion](/wiki/Rosa_Mannion "Rosa Mannion") as Nedda.[40]
+
+In 1991, [Kent State University](/wiki/Kent_State_University "Kent State
+University") student Michael Mould began translating _Pagliacci_ into English
+for a comics adaptation, but died on [USAir Flight 405](/wiki/USAir_Flight_405
+"USAir Flight 405") before he could complete it. [Marc
+Andreyko](/wiki/Marc_Andreyko "Marc Andreyko") finished Mould's translation as
+_The Clowns_ , a [one-shot](/wiki/One-shot_\(comics\) "One-shot \(comics\)")
+written by [P. Craig Russell](/wiki/P._Craig_Russell "P. Craig Russell") and
+illustrated by Galen Showman. Published in 1998 by [Dark Horse
+Comics](/wiki/Dark_Horse_Comics "Dark Horse Comics"), _The Clowns_ is
+dedicated in memory of Mould.[41]
+
+## References in popular culture
+
+[[edit](/w/index.php?title=Pagliacci&action=edit&section=12 "Edit section:
+References in popular culture")]
+
+  * In the [Agatha Christie](/wiki/Agatha_Christie "Agatha Christie") short story _Swan Song_ , a tale of revenge referencing [Tosca](/wiki/Tosca "Tosca"), the final line is "la commedia e finita!"
+  * In the 1936 film [The Great Ziegfeld](/wiki/The_Great_Ziegfeld "The Great Ziegfeld"), a section of "[Vesti la giubba](/wiki/Vesti_la_giubba "Vesti la giubba")" is featured during the famously large-scale "[A Pretty Girl Is Like a Melody](/wiki/A_Pretty_Girl_Is_Like_a_Melody "A Pretty Girl Is Like a Melody")" sequence. A closeup of Canio marks the only cut in the entire scene.
+  * In _[Batman](/wiki/Batman "Batman")_ [comic books](/wiki/Comic_book "Comic book") and media adaptations, the [Joker](/wiki/Joker_\(comics\) "Joker \(comics\)"), an insane [supervillain](/wiki/Supervillain "Supervillain") who resembles a clown with homicidal tendencies, often makes references to this opera.[42] For instance, the character makes a reference to the lyrics in the story, "The Case of the Joker's Crime Circus" in _Batman_ #4.[43] In addition, the opera is featured in the _[Batman](/wiki/Batman_\(TV_Series\) "Batman \(TV Series\)")_ [television series](/wiki/Television_series "Television series") episode, "[The Joker is Wild](/wiki/The_Joker_Is_Wild_\(Batman\) "The Joker Is Wild \(Batman\)")" where the Joker is disguised as the lead character of the opera, singing _[Vesti la giubba](/wiki/Vesti_la_giubba "Vesti la giubba")_.
+  * The song "(I'm Afraid) The Masquerade Is Over", written by [Allie Wrubel](/wiki/Allie_Wrubel "Allie Wrubel") and [Herb Magidson](/wiki/Herb_Magidson "Herb Magidson") and popularized in 1939 by both the [Larry Clinton](/wiki/Larry_Clinton "Larry Clinton") and [Jimmy Dorsey](/wiki/Jimmy_Dorsey "Jimmy Dorsey") orchestras, references _Pagliacci_ in the lines, "I guess I'll have to play Pagliacci and get myself a clown's disguise/And learn to laugh like Pagliacci with tears in my eyes." The song was most notably covered by [Marvin Gaye](/wiki/Marvin_Gaye "Marvin Gaye") in 1961 for [Motown Records](/wiki/Motown "Motown").
+  * The song "[Mr. Sandman](/wiki/Mr._Sandman "Mr. Sandman")", written by [Pat Ballard](/wiki/Pat_Ballard "Pat Ballard") and popularized in 1954 by [The Chordettes](/wiki/The_Chordettes "The Chordettes"), references _Pagliacci_ in the lines, "Give him a lonely heart like Pagliacci, And lots of wavy hair like [Liberace](/wiki/Liberace "Liberace")."[44]
+  * The 1970 [Smokey Robinson](/wiki/Smokey_Robinson "Smokey Robinson") and the Miracles hit "[The Tears of a Clown](/wiki/The_Tears_of_a_Clown "The Tears of a Clown")" references _Pagliacci_ in the lines "Just like Pagliacci did, I try to keep my sadness hid". An earlier song cowritten by Robinson, "My Smile Is Just a Frown Turned Upside," sung by [Carolyn Crawford](/wiki/Carolyn_Crawford "Carolyn Crawford") in 1964, had included the same line.
+  * In the 49th episode of the sitcom _[Seinfeld](/wiki/Seinfeld "Seinfeld")_ , "[The Opera](/wiki/The_Opera_\(Seinfeld\) "The Opera \(Seinfeld\)")", the characters attend a production of _Pagliacci_.
+  * In _[Batman: The Animated Series](/wiki/Batman:_The_Animated_Series "Batman: The Animated Series")_ , Episode 52 "Birds of a Feather", Story by Chuck Menville and directed by Frank Pour, Oswald Chesterfield Cobblepot, also known as the Penguin, goes out with Veronica Vreeland to see the opera _Pagliacci_. In which he tries to sing with the clown, but he is way out of tune.
+  * In _[Shock Corridor](/wiki/Shock_Corridor "Shock Corridor")_ , one of the patients is named after the opera. This patient has a caricature of Canio above his bed.
+  * In _[Cabrini](/wiki/Cabrini_\(film\) "Cabrini \(film\)")_ , the famous solo _Vesti La Giubba_ is sung by [Rolando Villazón](/wiki/Rolando_Villaz%C3%B3n "Rolando Villazón") playing Enrico DiSalvo.
+  * The protagonist of _Pagliacci_ , Canio, also appears as a legendary joker card in the [poker](/wiki/Poker "Poker")-themed video game [Balatro](/wiki/Balatro "Balatro"). The Canio joker card grows more powerful when [face cards](/wiki/Face_card "Face card") are destroyed, a nod to the murders Canio commits.
+  * The opera is performed in _[The Simpsons](/wiki/The_Simpsons "The Simpsons")_ episode "[The Italian Bob](/wiki/The_Italian_Bob "The Italian Bob")" (2005) in which [Sideshow Bob](/wiki/Sideshow_Bob "Sideshow Bob") sings the final verse of [Vesti la giubba](/wiki/Vesti_la_giubba "Vesti la giubba").[45]
+
+  1. **^** The title is sometimes incorrectly rendered in English with a definite article as _I pagliacci_. _Pagliacci_ is the Italian plural for "clowns", and although _i_ is the corresponding plural definite article, it is not used in the original title.
+  2. **^** According to [Konrad Dryden](/wiki/Konrad_Dryden "Konrad Dryden"), the original spelling of the character's name was "Peppe" (Dryden 2007, p. 38).
+  3. **^** Literally "the twenty-third hour", but not 23:00 hours (11pm), as translated in some libretti. The term refers to when the hours were counted from one _avemmaria della sera_ (evening [angelus](/wiki/Angelus "Angelus")) to the next, and hence one hour before _avemmaria_ or as in some libretti "at sundown". This _Italian time_ was in use between the fourteenth and eighteenth centuries, but persisted in some isolated rural communities as here, till the mid nineteenth century (Swan 1892, ["Time" p. 40](https://books.google.com/books?id=asIBAAAAYAAJ&pg=PA40)). In other operas it appears in _[Rigoletto](/wiki/Rigoletto "Rigoletto")_ and _[Un ballo in maschera](/wiki/Un_ballo_in_maschera "Un ballo in maschera")_.
+  4. **^** [In the liner notes](https://www.chandos.net/chanimages/Booklets/CH3003.pdf), the synopsis indicates Canio as stating the final line, inconsistent with the presentation of the libretto in the booklet. The English title given to the opera in this recording is 'The Touring Company'.
+
+  1. **^** Stewart, Henry (February 2016). ["Operapedia: _Pagliacci_ "](https://web.archive.org/web/20210308120835/https://www.operanews.com/Opera_News_Magazine/2016/2/Departments/Operapedia_%E2%80%94_Pagliacci.html). _[Opera News](/wiki/Opera_News "Opera News")_. **80** (8). Archived from [the original](http://www.operanews.com/Opera_News_Magazine/2016/2/Departments/Operapedia_%E2%80%94_Pagliacci.html) on 2021-03-08. Retrieved 2017-02-19.
+  2. ^ _**a**_ _**b**_ Leoncavallo, R. (November 1902). "How I Wrote _Pagliacci_ ". _[North American Review](/wiki/North_American_Review "North American Review")_. **175** (552): 652–654\. [JSTOR](/wiki/JSTOR_\(identifier\) "JSTOR \(identifier\)") [25119331](https://www.jstor.org/stable/25119331).
+  3. **^** Ardoin, John (1985). "Apropos _Wozzeck_ ". _[The Opera Quarterly](/wiki/The_Opera_Quarterly "The Opera Quarterly")_. **3** (3): 68. [doi](/wiki/Doi_\(identifier\) "Doi \(identifier\)"):[10.1093/oq/3.3.68](https://doi.org/10.1093%2Foq%2F3.3.68).
+  4. **^** Sansone, Matteo (1989). "The 'Verismo' of Ruggero Leoncavallo: A Source Study of _Pagliacci_ ". _[Music& Letters](/wiki/Music_%26_Letters "Music & Letters")_. **70** (3): 342–362\. [doi](/wiki/Doi_\(identifier\) "Doi \(identifier\)"):[10.1093/ml/70.3.342](https://doi.org/10.1093%2Fml%2F70.3.342).
+  5. ^ _**a**_ _**b**_ Born in Naples in 1863. For his singing career, see ["Caruson, Gugliemo: Cronologia"](http://www.lavoceantica.it/Baritono/Caruson&20%Guglielmo.htm). _La Voce Antica_ (in Italian and English). Retrieved 20 June 2024.[_[permanent dead link](/wiki/Wikipedia:Link_rot "Wikipedia:Link rot")_]
+  6. **^** ["Musical and Dramatic Notes"](https://trove.nla.gov.au/newspaper/article/13915984#pstart1371916). _The Sydney Morning Herald_. 2 December 1893. p. 4. Retrieved 20 June 2024. NB In this article, Caruson claims to have sung at the 'old' [Metropolitan Opera](/wiki/Metropolitan_Opera_House_\(39th_Street\) "Metropolitan Opera House \(39th Street\)") under the impresarios [Abbey, Schoeffel and Grau](/wiki/Abbey,_Schoeffel_and_Grau "Abbey, Schoeffel and Grau") before performing in [Guatemala](/wiki/Guatemala "Guatemala"). This seems to have been in 1889, see[9] However, the trio of impresarios didn't return to the 'Met' until 1891, and he probably meant the [Auditorium Theatre, Chicago](/wiki/Auditorium_Theatre,_Chicago "Auditorium Theatre, Chicago"). 
+  7. **^** ["_Pagliacci_ – Synopsis"](https://www.musicwithease.com/pagliacci-synopsis.html). _Music with Ease_. Retrieved 20 June 2024.
+  8. **^** ["Met Performance CID:11620 – _Orfeo ed Euridice_ , _Pagliacci_ "](https://archives.metopera.org/MetOperaSearch/record.jsp?dockey=0358289). _Metropolitan Opera Archives_. Retrieved 20 June 2024. with review by [W. J. Henderson](/wiki/William_James_Henderson "William James Henderson") in _[The New York Times](/wiki/The_New_York_Times "The New York Times")_
+  9. **^** G. Schirmer (1963). __Pagliacci _: Opera in Two Acts_. G. Schirmer's collection of opera librettos.
+  10. **^** ["Met Performance CID:11740 – _Pagliacci_ , _Cavalleria Rusticana_ "](https://archives.metopera.org/MetOperaSearch/record.jsp?dockey=0358300). _Metropolitan Opera Archives_. Retrieved 20 June 2024.
+  11. **^** ["Paillasse (traduction de E. Crosti)"](https://carmen.lamonnaie.be/pls/carmen/carmen3.produktievoorstelling?t=3&vid=595488&id=-1&sid=-1). _lamonnaie.be_ (in French). Retrieved 20 June 2024.
+  12. **^** ["Jean de Reszke"](https://www.historicaltenors.net/polish/dereszke1.html). _www.historicaltenors.net_. Retrieved 2025-03-27.
+  13. **^** Clara Leiser (1934). [_Jean de Reszke and the Great Days of Opera_](https://archive.org/details/jeandereszkeandt000641mbp/page/n293/mode/2up?q=canio). Universal Digital Library. Minton, Balch & Company.
+  14. **^** [Anthony Tommasini](/wiki/Anthony_Tommasini "Anthony Tommasini") (2016-09-09). ["Review: Signs of Rebirth at New York City Opera"](https://www.nytimes.com/2016/09/10/arts/music/review-new-york-city-opera-aleka-pagliacci.html). _[The New York Times](/wiki/The_New_York_Times "The New York Times")_. Retrieved 2017-02-19.
+  15. ^ _**a**_ _**b**_ Wright, John (Summer 1978). "'La Commedia è finita' – An Examination of Leoncavallo's _Pagliacci_ ". _Italica_. **55** (2): 167–178\. [doi](/wiki/Doi_\(identifier\) "Doi \(identifier\)"):[10.2307/478969](https://doi.org/10.2307%2F478969). [JSTOR](/wiki/JSTOR_\(identifier\) "JSTOR \(identifier\)") [478969](https://www.jstor.org/stable/478969).
+  16. **^** Williams, Jeannie, [_Jon Vickers: A Hero's Life_](https://books.google.com/books?id=GlfVLFMwLJsC&pg=PA101). Northeastern University Press (Lebanon, New Hampshire, US), [ISBN](/wiki/ISBN_\(identifier\) "ISBN \(identifier\)") [978-1-55553-674-9](/wiki/Special:BookSources/978-1-55553-674-9 "Special:BookSources/978-1-55553-674-9") (1999), pp. 100–101.
+  17. **^** _[Gramophone](/wiki/Gramophone_\(magazine\) "Gramophone \(magazine\)")_ (March 1991). ["Review: Mascagni – _Cavalleria rusticana_ ; Leoncavallo – _Pagliacci_ "](https://www.gramophone.co.uk/review/leoncavallo-i-pagliacci-mascagni-cavalleria-rusticana-4)
+  18. **^** _[Philadelphia Daily News](/wiki/Philadelphia_Daily_News "Philadelphia Daily News")_ (4 February 1992). ["The Story of _I Pagliacci_ "](https://www.newspapers.com/newspage/184916812/), p. 28
+  19. **^** Naxos Records (2007). ["Review: Naxos DVD recording of live productions of February-March 2007"](https://www.naxos.com/catalogue/item.asp?item_code=OA0983D). _Naxos_. Retrieved 2020-01-03.
+  20. **^** RM Campbell (2008-01-13). ["Seattle Opera's _Pagliacci_ is a bold and vital slice of life"](http://www.seattlepi.com/news/article/Seattle-Opera-s-Pagliacci-is-a-bold-and-vital-1261508.php). _Seattle Post-Intelligencer_. Retrieved 2015-06-30.
+  21. **^** Jeffrey Kaczmarczyk (2010-02-13). ["Audience savors Opera Grand Rapids' _Pagliacci_ "](http://www.mlive.com/entertainment/grand-rapids/index.ssf/2010/02/review_audience_savors_opera_g.html). _Grand Rapids Press_. Retrieved 2015-06-30.
+  22. **^** James Chute (2014-01-25). ["Despite some pluses, SD Opera _Pagliacci_ disappoints"](http://www.utsandiego.com/news/2014/jan/25/san-diego-opera-pagliacci/). _The San Diego Union-Tribune_. Retrieved 2015-06-30.
+  23. **^** David Shengold (2015-04-15). ["Cav/Pag Miss/Hit in Met's Debut of McVicar Stagings"](https://classicalvoiceamerica.org/2015/04/15/met-opera-review-cavalleria-rusticana-pagliacci-david-mcvicar/). _Classical Voice North America_. Retrieved 2021-01-09.
+  24. **^** Gangi, Luigi; Giacomazzi, Ugo (February 12, 2020). ["_Leoncavallo: Pagliacci – Trailer [2019 – Maggio Musicale Fiorentino]_ "](https://www.youtube.com/watch?v=dRMR6bG6OpA). [YouTube](/wiki/YouTube "YouTube").
+  25. **^** ["Image 358 of Title not available"](https://www.loc.gov/resource/muslcdb.100002.0/?sp=358&r=0.067,0.417,0.903,0.447,0). _[Library of Congress](/wiki/Library_of_Congress "Library of Congress")_.
+  26. **^** Ruggiero Leoncavallo (1992) [1892]. _Pagliacci_. Dover Music Scores (reprint ed.). Courier Corporation. [ISBN](/wiki/ISBN_\(identifier\) "ISBN \(identifier\)") [9780486273631](/wiki/Special:BookSources/9780486273631 "Special:BookSources/9780486273631").
+  27. **^** John J O'Connor (1984-11-09). ["TV Weekend: Zeffirelli's _Pagliacci_ from La Scala in 1982"](https://www.nytimes.com/1984/11/09/arts/tv-weekend-zeffirelli-s-pagliacci-from-la-scala-in-1982.html). _The New York Times_. Retrieved 2015-06-13.
+  28. **^** _[Gramophone](/wiki/Gramophone_\(magazine\) "Gramophone \(magazine\)")_. ["Leoncavallo: _Pagliacci_ (in English)"](http://www.gramophone.co.uk/review/leoncavallo-pagliacci-in-english). Retrieved 15 July 2015
+  29. **^** Russell, P. Craig (April 22, 1998). ["_The Clowns_ "](https://www.darkhorse.com/Comics/97-610/The-Clowns-Pagliacci). [Dark Horse Comics](/wiki/Dark_Horse_Comics "Dark Horse Comics").
+  30. **^** ["Pagliacci in pop culture"](https://www.lyricopera.org/lyric-lately/pagliacci-in-pop-culture/). _Lyric: Opera of Chicago_. Opera of Chicago. Retrieved 25 November 2023.
+  31. **^** Finger, Bill; Kane, Bob; Robinson, Jerry. "The Case of the Joker's Crime Circus". _Batman_. **1** (4).
+  32. **^** ["The Chordettes – Mr. Sandman"](https://genius.com/The-chordettes-mr-sandman-lyrics).
+  33. **^** ["You think you don't know opera? Here are 19 ways you're wrong (at least about _Pagliacci_)"](https://operacarolina.org/news/you-think-you-dont-know-opera-here-are-19-ways-youre-wrong-at-least-about-pagliacci/) by Helen Schwab, _[The Charlotte Observer](/wiki/The_Charlotte_Observer "The Charlotte Observer")_ via [Opera Carolina](/wiki/Opera_Carolina "Opera Carolina"), 31 March 2016
+
+  * Anon. (n.d.). ["ventiquattro"](http://www.treccani.it/vocabolario/ventiquattro/). _Vocabolario online_ (in Italian) – via [Treccani](/wiki/Treccani "Treccani").
+  * Anon. (1970). ["ventitrè"](http://www.treccani.it/enciclopedia/ventitre_%28Enciclopedia-Dantesca%29/). _[Enciclopedia Dantesca](/wiki/Enciclopedia_Dantesca "Enciclopedia Dantesca")_ (in Italian) – via [Treccani](/wiki/Treccani "Treccani").
+  * [Dryden, Konrad](/wiki/Konrad_Dryden "Konrad Dryden") (2007). [_Leoncavallo: Life and Works_](https://archive.org/details/leoncavallo00domi). Plymouth, UK: Scarecrow Press. [ISBN](/wiki/ISBN_\(identifier\) "ISBN \(identifier\)") [978-0-8108-5880-0](/wiki/Special:BookSources/978-0-8108-5880-0 "Special:BookSources/978-0-8108-5880-0").
+  * [Klein, Herman](/wiki/Herman_Klein "Herman Klein") (September 1924). ["The Gramophone and the Collector: The Prologue to _Pagliacci_ "](https://archive.org/details/gramophone-1924-09/page/n10/mode/1up?view=theater). _[The Gramophone](/wiki/The_Gramophone "The Gramophone")_. Vol. II, no. 4. p. 110.
+  * [Leoncavallo, Ruggero](/wiki/Ruggero_Leoncavallo "Ruggero Leoncavallo") (n.d.) [1892]. [_Pagliacci_](https://imslp.org/wiki/Pagliacci_\(Leoncavallo,_Ruggiero\)). (Reprint ed., Kalmus, n.d.) (in Italian). Milan: [Casa Musicale Sonzogno](/w/index.php?title=Casa_Musicale_Sonzogno&action=edit&redlink=1 "Casa Musicale Sonzogno \(page does not exist\)") [[it](https://it.wikipedia.org/wiki/Sonzogno_\(editore_musicale\) "it:Sonzogno \(editore musicale\)")] – via [IMSLP](/wiki/IMSLP "IMSLP").
+  * [Phillips-Matz, Mary Jane](/wiki/Mary_Jane_Phillips-Matz "Mary Jane Phillips-Matz") (2006). _Washington National Opera 1956–2006_. Washington, D.C.: Washington National Opera. [ISBN](/wiki/ISBN_\(identifier\) "ISBN \(identifier\)") [0-9777037-0-3](/wiki/Special:BookSources/0-9777037-0-3 "Special:BookSources/0-9777037-0-3").
+  * Sims, Michael. ["_Cavalleria rusticana_ and _I Pagliacci_ (sic) – Crimes of Passion"](http://concertoperaboston.org/cavalleria.html), Concert Opera Boston, programme notes (accessed 8 February 2020)
+  * Swan, Howard (1892). [_Travellers' Colloquial Italian: A Handbook for English-speaking Travellers and Students. Idiomatic Italian Phrases with an Exact Pronunciation Represented on a New System Based Upon a Scientific Analysis of Italian Sounds, with Other General Information Useful to Travellers in Italy_](https://books.google.com/books?id=asIBAAAAYAAJ). London: David Nutt. Retrieved 26 April 2015.
+
+Wikimedia Commons has media related to
+
+[Pagliacci](https://commons.wikimedia.org/wiki/Category:Pagliacci
+"commons:Category:Pagliacci")
+
+.
+
+Look up
+
+_**[pagliacci](https://en.wiktionary.org/wiki/pagliacci
+"wiktionary:pagliacci")**_
+
+in Wiktionary, the free dictionary.

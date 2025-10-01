@@ -1,0 +1,447 @@
+# ESPN.com - The man who just can't win: Sam Hinkie (finally) speaks
+
+**Source**: http://espn.go.com/espn/print?id=16597961
+**Type**: article
+**Created**: 2025-08-13T18:01:54.043054
+
+---
+
+title: ESPN.com - The man who just can't win: Sam Hinkie (finally) speaks
+source: http://espn.go.com/espn/print?id=16597961
+date: 2025-08-13T18:01:52.943953
+tags: []
+---
+**Wednesday, June 29, 2016  
+Updated: June 30, 1:30 PM ET  
+** The man who just can't win: Sam Hinkie (finally) speaks  
+
+* * *
+
+By Jordan Brenner  
+ESPN.com  
+  
+
+_This story appears in ESPN The Magazine's July 18 Body Issue.[Subscribe
+today!](https://w1.buysub.com/pubs/ES/ESN/AR_SplitTest.jsp?cds_mag_code=ESN&addata=2012_MAGNB_COM_ART_SUB_TXT)_
+
+![](http://a.espncdn.com/photo/2015/0603/truehooppresents_288x162.png)
+
+_As Ben Simmons rose from his seat to begin his ceremonial march to the NBA,
+he tugged on a flat-brimmed 76ers cap. How Philadelphia ended up drafting
+Simmons on June 23 is a story three years in the making -- but one that's
+perhaps lost on the No. 1 pick. Two days earlier, the 6-foot-10 forward had
+posted an Instagram photo of his workout with the 76ers with the caption:
+"Trust the process." When later asked by a reporter if he understood the
+phrase's significance, he replied: "A little bit. I know it's been said around
+a lot of the Sixers community."_
+
+_The scores of Sixers fans who made the trek to Barclays Center on draft night
+fully understood the phrase's meaning, though. And as they cheered Simmons'
+selection, one fan thrust a homemade poster into the air. It read:_ Hinkie
+died for your sins.
+
+* * *
+
+**THREE MONTHS BEFORE** the draft, and three weeks before he ended the NBA's
+most controversial experiment in team-building through corporate hara-kiri,
+Sam Hinkie sat in the food court of a Providence mall and plowed his way
+through a chalupa. It was the opening day of the NCAA tournament, and
+spectators had rushed straight from watching Yale upend Baylor to seek
+something resembling nourishment. On the street below, St. Patrick's Day
+revelers crawled from one pub to the next, clad in all manner of green. And
+there, just beyond the growing line at Taco Bell, sat the general manager of
+the Philadelphia 76ers, inconspicuous as ever.
+
+Hinkie had just begun working to change that image. In three years at the helm
+of the Sixers, he'd been only slightly less secretive than SEAL Team 6,
+closing himself off to such a degree that most reporters had stopped bothering
+to ask for interviews. But in early March, after weeks of discussions, Hinkie
+had agreed to allow _ESPN The Magazine_ to join him on a scouting trip. It was
+the first of two on-the-record, hourslong conversations designed to shed light
+on the player evaluations behind his rebuilding plan. It was time, he sensed,
+to open up.
+
+The time, it turns out, was too late.
+
+Hinkie resigned as the Sixers' GM on April 6, penning a 13-page letter to the
+team's investors that inspired intense, contrasting reactions. The note, which
+was quickly leaked, became fodder for a last round of jokes from his
+detractors while also reading as a final salvo for the true believers in the
+three-year teardown now widely known as Hinkie's "Process." But if Hinkie knew
+he was on his way out in March, he had an odd way of showing it. His words
+from those interviews now read as blindly prophetic, like those of a man
+pondering his own death without knowing that it was imminent.
+
+"So many of my friends will tell me, 'Don't do that. Don't try that. It's
+going to end poorly. They'll run you out,'" Hinkie would later say. "And
+that's the reason to do it, because fear has been the motivating factor for
+way too many people for way too long. There's a huge agency problem in the
+whole business, particularly in my role: _Keep the job_."
+
+A week after the second interview, the architect of the boldest rebuilding
+project in NBA history would be gone -- undone by the very realities he hoped
+would never apply in Philadelphia. But it's how he was undone that's most
+telling of all and suggests how leagues are prone to respond when forced to
+face truths about themselves.
+
+* * *
+
+**ON THE NIGHT** of the 2016 NBA draft lottery, six weeks after Hinkie's
+resignation, there was no question how some Sixers fans still felt about
+Hinkie.
+
+In Philly's Xfinity Live, a massive sports bar/venue not 500 yards from Wells
+Fargo Center, hundreds of fans celebrated the announcement of the team's first
+No. 1 pick since 1996. Search for the YouTube video and you'll see it, a
+throng of partisans, gleefully chanting: _THANK you, HINkie-clap, clap, clap-
+clap-clap ... THANK you, HINkie-clap, clap, clap-clap-clap._
+
+What they were celebrating was Hinkie's parting gift to Philadelphia, three
+seasons in the wrapping.
+
+| ![](https://a.espncdn.com/photo/2016/0628/r96936_576x324_16-9.jpg)  
+---|---  
+**Joel Embiid, left, was Sam Hinkie's first selection in the 2014 draft. He
+has yet to play a game.**  
+  
+He'd bet much of his future on an endless pursuit of star-level talent, a
+pipeline that runs almost exclusively through the top of the NBA draft. Over
+the past five seasons, more than 60 percent of the players who made an All-NBA
+team were top-five picks (and 76 percent came from the top 10).
+
+To get a shot at one of these premium players, then, a team must lose a lot of
+games. And the Sixers succeeded in that with ruthless efficiency: Their 47
+wins in Hinkie's three seasons was the second-worst three-year stretch in NBA
+history. All part of the process, which is why he was a hero to those fans on
+draft night.
+
+In the minds of his critics, though, he failed on every level, and it was
+getting harder to ignore them. During his tenure in Philly, Hinkie had
+frequently confessed that he didn't mind being misunderstood and even embraced
+it. "I think to perfectly understand somebody is to predict their next move,"
+he said.
+
+But in the final months of his tenure, Hinkie had begun to see the danger in
+allowing others to control the narrative of the franchise he ran. (There was
+also the little matter of the Sixers' having hired Jerry Colangelo in December
+as chairman of basketball operations. The barbarians were at the gate.)
+
+Hinkie, the story went, was impersonal and aloof -- high school valedictorian,
+Stanford Arjay Miller Scholar, Bain consultant, a nerd glued to a laptop, an
+MBA who treated players as commodities. Definitely not a "basketball guy."
+
+The perception of Hinkie had arguably reached a point where it was damaging
+the Sixers brand. During his time in Philly, he'd developed, for example, a
+reputation as a dogged negotiator. Knowing that he had unusual leverage --
+Philly's unused cap space -- he would aim to extract as much blood as possible
+in deals. But an industry with only 29 other businesses necessitates dealing
+with the same people over and over again.
+
+"There has to be a level of understanding, a level of trust between teams,"
+one former GM says. "I think Sam had a hard time opening up in that process.
+If you are trying to win the deal each time, that's fine, as long as the other
+side gets a win too. But if you are trying to kill them, then it makes it
+harder to work with them in the future."
+
+Adds one Western Conference executive: "Sam's a hard-nosed negotiator, which
+is intimidating to some people. There's a bit of 'what's behind the curtain?'
+with Sam. People don't know what his factors are. It's not as straightforward
+as 'I like that guy.'"
+
+Agents had their own concerns. Hinkie became known for drafting players in the
+second round and signing them to four-year partially guaranteed contracts.
+Without any leverage, agents were forced to accept those team-friendly terms,
+but they didn't have to like it.
+
+Those decisions had consequences: Agents and rival GMs were happy to turn
+Hinkie into the embodiment of every negative stereotype of the analytics
+movement.
+
+"I think Sam is a pure analytics guy," says David Falk, who gained fame in the
+late 1980s as Michael Jordan's agent and still represents a small list of
+clients. "I don't think they had enough pure basketball people. While there's
+a lot more utilization of analytics, it's like painting by the numbers. And
+you can't paint a masterpiece by the numbers."
+
+On this point, Hinkie is adamant: More than anything else, he loathes the idea
+that he was representing a movement. And so it was that a week before he would
+step down as GM, Hinkie found a seat at La Colombe, a spacious coffeehouse in
+the Fishtown section of Philadelphia, booted up his laptop and spent three
+hours breaking down even the most minor, subtle actions on the court, eager to
+demonstrate his basketball chops.
+
+His single goal, he said time and again, was to build a championship
+contender, not to prove to the world that a particular kind of thinking was
+superior: "It's the caricature everybody wants to talk about -- that all we
+have is a screen and we don't treat people like people. It is ridiculous. And
+the more we talk about it, the more others talk about it." And talk about it
+they did.
+
+"We're in a competitive business," says one Western Conference exec. "I think
+a lot of people feared what Sam was doing: 'What if it works? It will become
+the new model.'"
+
+Adds the former GM, "There was a perception that Sam thought he was smarter
+than everyone else."
+
+* * *
+
+**IT'S HARD TO** defend a man whose team is coming off a 10-win season. Philly
+actually won more games during each of the first two years of Hinkie's tenure.
+
+But progress is rarely linear. The 76ers now have Simmons as a potential
+franchise cornerstone. Joel Embiid, whom Hinkie drafted No. 3 in 2014, might
+finally be healthy; players who competed against him in open gyms prior to his
+second foot surgery last summer gushed over his talent. Forward Dario Saric is
+scheduled to arrive from Europe two seasons after being drafted in the first
+round. Add those players to recent top picks Jahlil Okafor and Nerlens Noel,
+plus an abundance of salary cap space, and it's not hard to see how much
+better next year's Sixers should be.
+
+| ![](https://a.espncdn.com/photo/2016/0628/r96937_576x324_16-9.jpg)  
+---|---  
+**Ben Simmons never met Sam Hinkie, but the two men will forever be united by
+The Process.**  
+  
+Says one Western Conference GM: "I really believe what Hinkie did was break
+something down masterfully. People say you can just tank and get picks. Sam
+did so much more. His deals brought multiple picks back every time. I never
+saw someone do more deals with more moving parts in such a short amount of
+time."
+
+To wit: Hinkie pillaged Sacramento last July by taking on the contracts of
+Carl Landry and Jason Thompson to acquire Nik Stauskas along with a 2018
+first-round pick and the right to swap first-rounders in 2016 or 2017.
+
+In 2015, he flipped former rookie of the year (and current marginal starter)
+Michael Carter-Williams for the rights to a future Lakers first-round pick.
+During the 2014 draft, Hinkie picked Elfrid Payton 10th, getting a player
+Orlando wanted, then negotiated a trade with the Magic that netted the Sixers
+No. 12 pick Saric, a second-rounder and a conditional future first -- all to
+move back just two spots.
+
+A multitude of moves, all part of The Process. And back at the coffeehouse on
+that bright March afternoon in Fishtown, Hinkie couldn't hide his enthusiasm.
+"I think things are going to feel very different very soon for our fans, our
+players, our coaches, our staff," he said. "I think people haven't fully
+realized what different level of talent is about to hit our team in a variety
+of ways -- draft, free agency, trade. I think you'll see a real change in how
+we approach things going forward. We'll be increasingly focused on fit."
+
+Now that job belongs to Bryan Colangelo, son of Jerry Colangelo and former GM
+of the Raptors and Suns. Why Sixers ownership picked this moment to make that
+move, with the franchise so close to the end of its tunnel of foulness, is
+complicated. In some ways, it is evidence that The Process worked.
+
+Adam Silver admitted to reaching out to Jerry Colangelo on behalf of the
+Sixers' owners in December. But interviews with more than a dozen league
+sources -- including GMs, other executives and agents -- suggest that the
+commissioner's involvement in that regime change may have been greater than he
+has let on.
+
+Some sources claim Philly's ownership group had grown impatient with Hinkie's
+lack of a clear timetable to be competitive and had been worn down by constant
+criticism. Others suggest Silver pressured the 76ers into making a change.
+
+The league has never hidden its distaste for tanking, and sources around the
+NBA say Silver grew more irritated after the Sixers lost their first 18 games
+last fall and Okafor was involved in multiple off-court incidents. Ultimately,
+those sources say, it is likely that a combination of all those factors led to
+Jerry Colangelo's hiring. (The NBA declined to comment for this story.)
+
+> “
+>
+> I think to perfectly understand somebody is to predict their next move.
+>
+> ”\- Sam Hinkie
+
+The 76ers are hardly the first team to build through the draft; The Process
+was once known as The OKC Thing. But the Sixers' plan to openly exploit the
+lottery system by amassing high picks threatened to expose the draft's flaws
+and make the NBA look ridiculous.
+
+So it was, league sources say, that the glorification of The Process (by those
+who actually thought it would work) scared the commissioner, perhaps even more
+than the condemnation. Silver has made no secret of his desire to reform the
+lottery, a system in place for 32 years. And it's doubtful that 17 owners
+would have voted to reduce the odds that the worst team got the top pick, as
+they did in 2014, had there not been sound logic behind the Sixers' plan (23
+votes were required to pass the measure).
+
+Says Rockets GM Daryl Morey, Hinkie's former boss in Houston: "The common
+refrain I've heard is that [Hinkie] is taking the easy way out and taking
+advantage of the rules. The league chooses to give the most valuable asset in
+the game -- a high draft pick -- to the worst team. So if people want to be
+upset about how well Philly has set themselves up, they should get upset with
+the league office and the collective owners who wouldn't pass even the modest
+reforms that were put forward."
+
+Now consider this: The Lakers won 17 games this season, and their prized
+rookie, D'Angelo Russell, secretly filmed a conversation in which he asked
+teammate Nick Young about being with women other than his then-fiancée, Iggy
+Azalea. Yet no one blamed that incident on the organization's culture the way
+Okafor's troubles were linked to The Process.
+
+Consider too: The Kings haven't finished with a .500 record since 2005-06 and
+just hired their sixth coach in five years. In neither case did the NBA force
+a regime change.
+
+By stepping in and facilitating the Jerry Colangelo move in Philadelphia,
+then, Silver sent a message: Gross incompetence is acceptable; strategic
+gaming of a flawed system is not.
+
+* * *
+
+**IT WOULD NOT** have required much effort for Hinkie to dispel the notion
+that he didn't know basketball. In Providence, it took five minutes.
+
+As he settled into his seat, Hinkie reached into his bag. He didn't pull out a
+laptop with Excel files listing players' effective field goal percentages or
+turnover rates but rather a stack of booklets, each dedicated to a different
+player in one of the day's four NCAA tournament games and filled with scouting
+reports and interviews.
+
+  
+
+> “
+>
+> So many of my friends will tell me, 'Don't do that. Don't try that. It's
+> going to end poorly. They'll run you out,' And that's the reason to do it
+> ... There's a huge agency problem in the whole business, particularly in my
+> role: _Keep the job_.
+>
+> ”\- Sam Hinkie
+
+During nearly nine hours of live hoops on this chilly Thursday in Dunkin'
+Donuts Center, the conversation focused on basketball minutiae. From a few
+rows behind the scorer's table, Hinkie demonstrated the way one player's thumb
+disrupted the rotation on his shot. He noted how another cupped the ball in
+traffic and finished by spinning it from tough angles, an indicator that he
+could convert around the rim in the NBA. Bad body language, separation gained
+on dribble moves, the size of players' hands -- these were what got Hinkie
+excited on that day, not actuarial tables.
+
+He talked culture and psychology -- two qualities, conventional wisdom held,
+that he ignored in favor of metrics. He noted that the Sixers were so heavily
+invested in player development that they taught players how to communicate
+with referees (among the lessons: Don't call them "ref"; address them by
+name), going so far as to fasten posters displaying every official's name and
+photo on the doors of the bathroom stalls at their practice facility. "What
+else are you doing in there?" Hinkie jokes now.
+
+In early January, the 76ers signed Elton Brand, one of the first moves Jerry
+Colangelo recommended after he joined the front office. A frequent criticism
+of Hinkie's rebuilding effort was that he didn't have veterans in place to
+guide his young prospects, and the then-36-year-old Brand was clearly meant to
+counter that notion.
+
+Before Brand arrived, he had heard the chatter about what was happening in
+Philly. "I just thought everything about the organization was low-grade and
+terrible, that they weren't even trying," Brand says. "I get there and I'm
+blown away. The new practice facility, the training staff, the doctors they
+had on staff, the scientific people they brought in -- I was like, 'Whoa, this
+certainly isn't what I thought it was.' This is a high-quality, top-notch
+organization. They had every advantage conceivable for the players. I was
+surprised."
+
+Others might also have been surprised if they'd been allowed to see what Brand
+did. But, fatally, that's not how The Process worked.
+
+Over coffee in Fishtown, Hinkie clicked on a slide that he has often
+referenced as a way to explain his thinking. He used it in a meeting with
+Sixers owners when interviewing for the GM job.
+
+It shows a series of concentric circles, each representing a move that
+eventually helped the Rockets acquire James Harden in 2012, back when Hinkie
+was Houston's executive VP of basketball operations. "I learned that Yao Ming
+broke his navicular bone like five days before the 2009 draft," Hinkie said.
+"From that moment on, all I thought about was going from zero stars to one
+star. How do you do it?
+
+"We paid a record price to Sam Presti for the 31st pick to draft Carl Landry
+in 2007. He's the best offensive rebounder and the best rim finisher in the
+league as a rookie. And then over time, he ends up in a deal for Kevin Martin.
+And over time, Kevin Martin ends up in a deal for James Harden. You start with
+a set of chips, given to you by the league. How do you make it bigger and
+bigger and bigger and bigger, such that you can win?"
+
+| ![James Harden, Kevin
+Durant](https://a.espncdn.com/photo/2016/0129/r49159_576x324_16-9.jpg)  
+---|---  
+**It took three years for Daryl Morey and Sam Hinkie to acquire James Harden.
+The Rockets guard has been in the top 10 in MVP voting in each of his first
+four seasons in Houston.**  
+  
+It took three years to land Harden in Houston, the end point in a series of
+deals that, at the time, had many observers scratching their heads over what,
+exactly, the Rockets were up to. Hinkie would resign a month before his three-
+year anniversary in Philly -- just prior to an offseason in which he would
+have held more assets and more payroll flexibility than any other team in
+basketball.
+
+* * *
+
+**IF HINKIE THOUGHT** he could get by without addressing criticisms about him,
+it's the same way, sources confirm, that he never anticipated his resignation
+letter becoming public. (Rumors continue to swirl over which member of a small
+group of recipients leaked the document.)
+
+The note was one of dozens he penned in his time with Philadelphia. The
+language was standard for an investor letter and typical of communication on
+Wall Street, the home turf of several Sixers owners, but also deeply
+idiosyncratic.
+
+It was 7,168 words of Hinkie being Hinkie: _A league with 30 intense
+competitors requires a culture of finding new, better ways to solve repeating
+problems. In the short term, investing in that sort of innovation often
+doesn't look like much progress, if any. Abraham Lincoln said "give me six
+hours to chop down a tree and I will spend the first four sharpening the
+axe."_ To the general public, though, the memo read as something else, be that
+a desperate attempt to defend his record or yet another case of Hinkie's
+viewing himself as the smartest guy in the room. In his words: _You can be
+right for the wrong reasons. In our business, you're often lionized for it.
+You can be wrong for the right reasons._
+
+How history will judge Hinkie depends, ironically, not on the process he drove
+but on whether the ultimate outcome is a Sixers turnaround; his validation
+depends on the very results his process rejects as being immaterial.
+
+But in a way it is almost fitting that Hinkie's final message would be
+misconstrued -- and that he has once again closed himself off, refusing to
+talk to reporters to add clarity about his departure. He did agree to a photo
+shoot for this story but declined to comment on his exit or his future. One
+might be inclined to think that Hinkie just doesn't give a damn about
+messaging.
+
+But back in Fishtown, Hinkie dropped a story that suggested something else.
+Between sips of La Colombe's signature latte, as Hinkie reminisced about his
+time in Houston, he recalled one of his first interactions with Morey.
+
+Hinkie had actually predated Morey's arrival in Houston; he was the Rockets'
+first analytics specialist. And when the team hired Morey in 2006, the new
+assistant GM spent Easter weekend logging long hours in the office with
+Hinkie.
+
+When the two broke for lunch on that Sunday, Hinkie and his wife deliberately
+took Morey to a nearby Mexican restaurant. "I knew he hadn't eaten enough
+Mexican food to live in Texas," Hinkie says. "I ordered queso so he could be
+introduced to it. And he loved it."
+
+Two days later, Morey and Hinkie went out to another Mexican restaurant with a
+larger group of Rockets staff. "That was literally the reason I'd done it,"
+Hinkie says, smiling at the memory. He'd tried to prep his new boss, to keep
+Morey from coming across as what he actually was: an Ohioan by way of Boston.
+
+Hinkie understood the value of messaging. He knew how perception could
+undermine reality. It would be a shame, he thought, if Morey failed because he
+didn't fit in.
+
+But when they took their seats, Morey turned to Hinkie and said, "Sam, let's
+order that _KWAY-so_ dip we had the other day!"
+
+Hinkie sighed. "We were so close."
+
+  
+  
+
+* * *

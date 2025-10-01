@@ -1,0 +1,76 @@
+# Paul Ryan, Arthur Brooks, and David Brooks Debate Big Government
+
+**Source**: http://www.weeklystandard.com/print/blogs/paul-ryan-arthur-brooks-and-david-brooks-debate-big-government_520592.html
+**Type**: article
+**Created**: 2025-08-13T21:47:02.815867
+
+---
+
+title: Paul Ryan, Arthur Brooks, and David Brooks Debate Big Government
+source: http://www.weeklystandard.com/print/blogs/paul-ryan-arthur-brooks-and-david-brooks-debate-big-government_520592.html
+date: 2025-08-13T21:46:19.106179
+tags: []
+---
+David Brooks and Rep. Paul Ryan of Wisconsin had a great debate at AEI today
+over the proper size and scope of the federal government. The debate
+originated with [a WSJ op-ed that Ryan and AEI's president, Arthur Brooks,
+wrote in
+September](http://web.archive.org/web/20120510211847/http://www.aei.org/article/102517).
+Brooks responded to their argument in [one of his NYT
+columns](http://web.archive.org/web/20120510211847/http://www.nytimes.com/2010/09/14/opinion/14brooks.html?_r=1).
+Then the two sides agreed to meet and discuss their differences in front of a
+public audience. The conversation was as civil, reasoned, and insightful as
+you'd expect.
+
+I watched the debate online. Basically, the difference is this: Ryan and
+Arthur Brooks say that the Democratic party is moving America toward a cradle-
+to-grave welfare state, and voters face a stark choice between a return to
+traditional values of limited government and personal responsibility or a
+debt-laden, low-growth future of managed decline. David Brooks says the choice
+is not that stark; that Obama and the Democrats are not socialists but
+traditional American liberals; and that there is a long tradition in America
+of limited but energetic government that conservatives and Republicans ought
+to embrace.
+
+There's a lot of overlap between the two positions. Both Brookses and Ryan
+believe, for example, in a safety net that protects those who cannot protect
+themselves. But David Brooks also believes that there are some places where
+government ought to be more interventionist and perhaps even more
+paternalistic—such as in social policy, where intervention at an early age is
+necessary to prevent the degradation or loss of human capital. (Read [David
+Kirp's excellent _National Affairs_ article on the black-white achievement
+gap](http://web.archive.org/web/20120510211847/http://www.nationalaffairs.com/publications/detail/the-
+widest-achievement-gap) for an example.)
+
+One thing that struck me was that neither side really defined their terms.
+What kind of welfare state are we debating? David Brooks mentioned Hamilton,
+Lincoln, and TR. All three men used "big government" to intervene in the
+economy. But what sort of big government?
+
+I think we need to distinguish between a government that finances long-term
+investment and a government that finances present consumption. Hamilton, the
+Whigs, Lincoln, and TR sought to improve American infrastructure and level the
+playing field so that young men of talent could overturn entrenched market
+incumbents. Growth was the result. Yet the American welfare state, as
+presently composed, is devoted almost entirely to consumption in the form of
+Social Security, Medicare, Medicaid, and interest on the debt. The money spent
+on education, R&D, and infrastructure is a pittance by comparison. The one
+place where we actually do massively invest in (global) public goods is
+defense. But of course that's where everyone wants to cut.
+
+We need to deemphasize consumption and focus on investment. I think that
+Obama, in his heart, would like to do just that—as David Brooks pointed out,
+Obama's "New Foundation" speech, while disturbing in its rhetoric of a
+fundamental break from past decades of American history, was about an economy
+of investors rather than consumers.
+
+But the president is also trapped, as he and his party seek to protect, and in
+some cases expand, the welfare state as it exists today. The problem is that
+consumption has crowded out all other parts of the budget, and is on its way
+to creating a massive fiscal crisis. Raising taxes and creating a new
+entitlement in the form of Obamacare is not the way to make things better. To
+have more money to spend on defense, highways, education, and the like, we
+will have to radically reshape the bedrock programs of Social Security and
+Medicare and reduce the debt through pro-growth tax reform. In other words, to
+get the sort of government David Brooks wants, we are going to have to use
+Paul Ryan's means.

@@ -1,0 +1,66 @@
+# Have You Heard the Good News About Cornstarch Eggs Skillet
+
+**Source**: https://skillet.lifehacker.com/have-you-heard-the-good-news-about-cornstarch-eggs-1835699803
+**Type**: article
+**Created**: 2025-08-13T16:13:25.754714
+
+---
+
+title: To Make Perfect Scrambled Eggs, Add Cornstarch
+source: https://skillet.lifehacker.com/have-you-heard-the-good-news-about-cornstarch-eggs-1835699803
+date: 2025-08-13T16:13:19.712515
+tags: []
+---
+Being subjected to rubbery, overcooked scrambled eggs is enough to ruin the
+genre, but properly cooked scrambles are creamy, indulgent piles of comfort. I
+have long been a fan of [the super-slow
+scramble](http://web.archive.org/web/20210517231120/https://skillet.lifehacker.com/how-
+to-make-perfect-scrambled-eggs-no-matter-how-you-l-1819089160), but I only
+enjoy them about once a month, as they take a full 45 minutes to cook.
+
+I can barely get it together enough to shower before noon, so standing over a
+stove for the better part of an hour is simply not an option during the
+workweek. But I do long for custardy, creamy eggs more mornings than I care to
+admit, which is why I will name my first child after [Mandy of Lady &
+Pup’s](http://web.archive.org/web/20210517231120/http://ladyandpups.com/), the
+woman who let the world know (via
+[Food52](http://web.archive.org/web/20210517231120/https://food52.com/recipes/36211-lady-
+pups-s-magic-15-second-creamy-scrambled-eggs)) about the sheer and utter
+genius of adding cornstarch to scrambled eggs. (Just kidding, I’m never
+reproducing.)
+
+Cornstarch—a common thickening agent—works wonders here, letting you cook eggs
+that seem slow-cooked in a fraction of the time. The curds are larger than the
+truly slow bois, but texture is just as rich, and still has that whole “cheesy
+without cheese” vibe going for it which, in my esteemed, highly-valued
+opinion, is the whole point of the slow scramble. These eggs are so creamy and
+so good that, after taking my first bite, all I could manage was a very quiet,
+very sincere, “well, fuck me.”
+
+Just like any other recipe that uses cornstarch as a thickening agent, this
+one has you make a slurry. Mandy recommends milk, but I used heavy cream,
+because it’s what I had. Stir the slurry until there are no lumps, creating an
+almost non-Newtonian fluid, then whisk it in with some beaten, salted eggs.
+The mixture noticeably thickens and, after a quick spell in a very hot pan,
+you have a pile of tender, velvety, creamy scrambled eggs. To make them
+yourself, you will need:
+
+  * Eggs, at least 3
+  * Cornstarch, 1/2 + 1/8 teaspoon for each egg
+  * Milk (or cream), 1 tablespoon for each egg
+  * Salt to taste
+  * Butter, 1 tablespoon for each egg
+
+Beat the eggs and, in a separate bowl, beat the starch and dairy. Combine,
+season with salt, and beat into a uniform mixture. Heat a pan over high heat,
+then add the butter and, once it’s melted and foaming, add the eggs. Leave
+them alone until the edges start to set, then turn off the heat, move them to
+a cool burner if you’re using an electric stove, and push them around in
+circular, sweeping motions until they are just set, but still look not quite
+done. I had to move the pan back to the off-but-still-hot burner a couple of
+times, as the residual heat of the pan was not enough to finish the job. If
+you’ve been stirring your eggs for over half a minute, and they’re not quite
+done, pop ‘em back on low heat for a moment. Once they start to look “almost
+done,” spoon ‘em on a plate, and enjoy with lots of crisp, buttered toast.
+
+G/O Media may get a commission

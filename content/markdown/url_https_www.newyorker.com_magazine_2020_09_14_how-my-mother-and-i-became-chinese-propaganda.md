@@ -1,7 +1,7 @@
 # How My Mother And I Became Chinese Propaganda
 
 **Source**: https://www.newyorker.com/magazine/2020/09/14/how-my-mother-and-i-became-chinese-propaganda
-**Extracted**: 2025-09-30T23:28:56.692530+00:00
+**Extracted**: 2025-10-01T05:34:26.239079+00:00
 
 ---
 

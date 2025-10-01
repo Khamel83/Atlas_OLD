@@ -1,0 +1,73 @@
+# Poor Students Struggle as Class Plays a Greater Role in Success - The New York Times
+
+**Source**: http://www.nytimes.com/2012/12/23/education/poor-students-struggle-as-class-plays-a-greater-role-in-success.html?hp&pagewanted=print
+**Type**: article
+**Created**: 2025-08-13T20:10:12.859961
+
+---
+
+title: Poor Students Struggle as Class Plays a Greater Role in Success - The New York Times
+source: http://www.nytimes.com/2012/12/23/education/poor-students-struggle-as-class-plays-a-greater-role-in-success.html?hp&pagewanted=print
+date: 2025-08-13T20:10:03.857416
+tags: []
+---
+GALVESTON, Tex. — Angelica Gonzales marched through high school in Goth armor
+— black boots, chains and cargo pants — but undermined her pose of alienation
+with a place on the honor roll. She nicknamed herself after a metal band and
+vowed to become the first in her family to earn a college degree.
+
+“I don’t want to work at Walmart” like her mother, she wrote to a school
+counselor.
+
+Weekends and summers were devoted to a college-readiness program, where her
+best friends, Melissa O’Neal and Bianca Gonzalez, shared her drive to “get off
+the island” — escape the prospect of dead-end lives in luckless Galveston.
+Melissa, an eighth-grade valedictorian, seethed over her mother’s boyfriends
+and drinking, and Bianca’s bubbly innocence hid the trauma of her father’s
+death. They stuck together so much that a tutor called them the “triplets.”
+
+Low-income strivers face uphill climbs, especially at Ball High School, where
+a third of the girls’ class failed to graduate on schedule. But by the time
+the triplets donned mortarboards in the class of 2008, their story seemed to
+validate the promise of education as the great equalizer.
+
+Angelica, a daughter of a struggling Mexican immigrant, was headed to Emory
+University. Bianca enrolled in community college, and Melissa left for Texas
+State University, President Lyndon B. Johnson’s alma mater.
+
+“It felt like we were taking off, from one life to another,” Melissa said. “It
+felt like, ‘Here we go!’ ”
+
+Four years later, their story seems less like a tribute to upward mobility
+than a study of obstacles in an age of soaring economic inequality. Not one of
+them has a four-year degree. Only one is still studying full time, and two
+have crushing debts. Angelica, who left Emory owing more than $60,000, is a
+clerk in a Galveston furniture store.
+
+We are having trouble retrieving the article content.
+
+Please enable JavaScript in your browser settings.
+
+* * *
+
+Thank you for your patience while we verify access. If you are in Reader mode
+please exit and [log
+into](http://web.archive.org/web/20250122093542/https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2F2012%2F12%2F23%2Feducation%2Fpoor-
+students-struggle-as-class-plays-a-greater-role-in-
+success.html&asset=opttrunc) your Times account, or
+[subscribe](http://web.archive.org/web/20250122093542/https://www.nytimes.com/subscription?campaignId=89WYR&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2F2012%2F12%2F23%2Feducation%2Fpoor-
+students-struggle-as-class-plays-a-greater-role-in-success.html) for all of
+The Times.
+
+* * *
+
+Thank you for your patience while we verify access.
+
+Already a subscriber? [Log
+in](http://web.archive.org/web/20250122093542/https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2F2012%2F12%2F23%2Feducation%2Fpoor-
+students-struggle-as-class-plays-a-greater-role-in-
+success.html&asset=opttrunc).
+
+Want all of The Times?
+[Subscribe](http://web.archive.org/web/20250122093542/https://www.nytimes.com/subscription?campaignId=89WYR&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2F2012%2F12%2F23%2Feducation%2Fpoor-
+students-struggle-as-class-plays-a-greater-role-in-success.html).

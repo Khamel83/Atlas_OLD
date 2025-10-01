@@ -1,0 +1,35 @@
+# How America uses its land - FlowingData
+
+**Source**: https://flowingdata.com/2018/08/01/how-america-uses-its-land/
+**Type**: article
+**Created**: 2025-08-13T16:31:06.763155
+
+---
+
+title: How America uses its land - FlowingData
+source: https://flowingdata.com/2018/08/01/how-america-uses-its-land/
+date: 2025-08-13T16:31:06.139281
+tags: []
+---
+#  How America uses its land
+
+Dave Merrill and Lauren Leatherby for Bloomberg [visualized land use for the
+conterminous United States using a pixel-like grid
+map](https://www.bloomberg.com/graphics/2018-us-land-use/):
+
+> The 48 contiguous states alone are a 1.9 billion-acre jigsaw puzzle of
+> cities, farms, forests and pastures that Americans use to feed themselves,
+> power their economy and extract value for business and pleasure.
+>
+> Using surveys, satellite images and categorizations from various government
+> agencies, the U.S. Department of Agriculture divides the U.S. into six major
+> types of land. The data can’t be pinpointed to a city block—each square on
+> the map represents 250,000 acres of land. But piecing the data together
+> state-by-state can give a general sense of how U.S. land is used.
+
+The above map is the full aggregate, but be sure to click through to see the
+comparisons across categories. Using a scrollytelling format, the graphics are
+a hybrid of grid maps and square pie charts. States serve as a point of
+reference. They’re the banana for scale. I like it.
+
+### FlowingData Delivered to Your Inbox

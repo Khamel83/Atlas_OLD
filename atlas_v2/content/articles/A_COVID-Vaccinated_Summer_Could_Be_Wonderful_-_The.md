@@ -1,0 +1,326 @@
+# A COVID-Vaccinated Summer Could Be Wonderful - The Atlantic
+
+**Source**: https://www.theatlantic.com/health/archive/2021/02/summer-2021-pandemic/618088/
+**Type**: article
+**Created**: 2025-08-13T15:42:28.958023
+
+---
+
+title: A COVID-Vaccinated Summer Could Be Wonderful - The Atlantic
+source: https://www.theatlantic.com/health/archive/2021/02/summer-2021-pandemic/618088/
+date: 2025-08-13T15:42:27.644553
+tags: []
+---
+_Updated on February 22, 2021 at 9:55 p.m. ET_
+
+The summer of 2021 is shaping up to be historic.
+
+After months of soaring deaths and infections, COVID-19 cases across the
+United States are declining even more sharply than experts
+[anticipated](https://www.theatlantic.com/health/archive/2021/02/will-there-
+be-another-surge-spring-mystery/617900/). This is expected to continue, and
+rates of serious illness and death will
+[plummet](https://www.theatlantic.com/health/archive/2021/02/covid-19-deaths-
+are-finally-decline/617936/) even faster than cases, as high-risk populations
+are vaccinated. Even academics who have spent the pandemic delivering ominous
+warnings have shifted their tone to cautiously optimistic now that vaccination
+rates are exploding.
+
+Until very recently, Anthony Fauci had been citing August as the month by
+which the U.S. could vaccinate 70 to 80 percent of the population and reach
+herd immunity. Last week, he suddenly threw out [May or early
+June](https://www.cnbc.com/2021/02/16/dr-fauci-slightly-delays-timeline-for-
+widespread-vaccine-availability-in-the-us-to-may-.html) as a window for when
+most Americans could have access to vaccines. Despite
+[some](https://www.theatlantic.com/health/archive/2021/01/coronavirus-
+evolving-same-mutations-around-world/617721/)
+[concerns](https://www.theatlantic.com/health/archive/2021/01/coronavirus-
+evolving-same-mutations-around-world/617721/) about new coronavirus variants,
+Ashish Jha, the dean of the Brown University School of Public Health, told me
+that he doesn’t see viral mutation as a reason to expect that most people
+couldn’t be well protected within that time frame.
+
+If all of this holds true, it would mean that many aspects of pre-pandemic
+life will return even before summer is upon us. Because case numbers guide
+local policies, much of the country could soon have reason to lift many or
+even most restrictions on distancing, gathering, and masking. Pre-pandemic
+norms could return to schools, churches, and restaurants. Sports, theater, and
+cultural events could resume. People could travel and dance indoors and hug
+grandparents, their own or others’. In most of the U.S., the summer could feel
+… “normal.”
+
+The feeling could even go beyond that. The pain wrought by the virus has
+differed enormously by location, race, and class, but a global pandemic still
+may be as close as the world can come to a shared tragedy. Periods of intense
+hardship are sometimes followed by unique moments of collective catharsis or
+awakening. The 1918 influenza that left the planet short of some 50 million
+people—several times as many as had just been killed in a gruesome war—gave
+way to the Roaring ’20s, when Americans danced and flouted Prohibition,
+hearing the notes that _weren’t_ being played. For some, the summer of 2021
+might conjure that of [1967](https://www.vanityfair.com/culture/2012/07/lsd-
+drugs-summer-of-love-sixties), when barefoot people swayed languidly in the
+grass, united by an appreciation for the tenuousness of life. Pre-pandemic
+complaints about a crowded subway car or a mediocre sandwich could be replaced
+by the awe of simply riding a bus or sitting in a diner. People might go out
+of their way to talk with strangers, merely to gaze upon the long-forbidden,
+exposed mouth of a speaking human.
+
+In short, the summer could feel revelatory. The dramatic change in the
+trajectory and tenor of the news could give a sense that the pandemic is over.
+The energy of the moment could be an opportunity—or Americans could be dancing
+in the eye of a hurricane.
+
+* * *
+
+The life expectancy in the United States is now [a
+year](https://www.statnews.com/2021/02/18/u-s-life-expectancy-fell-by-a-year-
+in-the-first-half-of-2020-cdc-report-finds/) shorter than before COVID-19. No
+other country has endured so much death and illness. But for all the failures
+that led to this point, the U.S. does finally seem to be experiencing some
+protective effects of population-level immunity. Recent research from Columbia
+University [estimates](https://www.baltimoresun.com/coronavirus/ct-sns-nyt-
+vaccines-will-not-end-pandemic-20210126-iz35dhbgfjdlrlntdy7usldk6y-story.html)
+that the U.S. is already much closer to Fauci’s stated threshold of 70 to 80
+percent than our case numbers suggest. Owing to minimal and patchwork testing
+efforts, lead researcher Jeff Shaman told me, the actual number of infections
+in the U.S. has likely been about _five times_ higher than reported. This
+would mean that about one in three Americans has already been infected by
+SARS-CoV-2. This does not alter the goal of vaccinating as many people as
+possible, but it does mean that while vaccines are rolling out, transmission
+rates should fall much more rapidly than if the population were all totally
+susceptible to the virus.
+
+In some parts of the United States that have been hit extremely hard by the
+virus, the numbers give a sense that—if vaccination continues apace—the worst
+is behind us in those areas. In North and South Dakota, where leaders [have
+been reluctant](https://www.washingtonpost.com/national/as-coronavirus-cases-
+rise-red-state-governors-resist-measures-to-slow-the-spread-preach-personal-
+responsibility/2020/10/18/bb95176e-0fc3-11eb-b1e8-16b59b92b36d_story.html) to
+require preventive measures, the per capita [death
+rate](https://covid.cdc.gov/covid-data-tracker/#cases_deathsper100k) is about
+34 percent higher than the national average, and [13
+percent](https://covid.cdc.gov/covid-data-tracker/#cases_casesper100k) of the
+population has had a confirmed case. “That probably means that 60 or 65
+percent of the population has been infected there,” Shaman said. “That could
+mean they’re creeping up on herd immunity.” Indeed, North Dakotans have seen
+[relatively
+few](https://bismarcktribune.com/news/local/health/covid-19-positivity-rate-
+remains-low-in-north-dakota-coronavirus-related-deaths-tailing-
+off/article_9d289323-53d4-510d-ada8-dfed7acbeb7f.html) cases this winter, even
+while most of the U.S. saw a horrific surge. The state’s mask mandate
+[expired](https://www.grandforksherald.com/newsmd/coronavirus/6842585-North-
+Dakotas-statewide-mask-mandate-will-expire-next-week-Burgum-says) a month ago.
+For the past six days, the state has [reported
+zero](https://bismarcktribune.com/news/local/health/covid-19-vaccine-initial-
+doses-top-100-000-in-north-dakota-no-new-deaths-
+for/article_dffa8f80-a4b5-5b12-a69d-7ecca58eb9b5.html) COVID-19 deaths.
+
+[Read: The good news of COVID-19 is sticking, for
+now](https://www.theatlantic.com/health/archive/2021/02/major-
+covid-19-metrics-are-falling/618068/)
+
+The warming weather and longer days should also decrease transmission. In much
+of the world, summers have proved safer than winters during the pandemic,
+“apparently by virtue of how much time people spend outdoors, and how likely
+they are to keep windows open and have fresh air circulating,” says Saad Omer,
+a vaccinologist and the director of the Yale Institute for Global Health.
+Light and heat can kill the virus directly, but their main effect seems to be
+making the world more hospitable for us simply to go outside, be social, move
+our bodies, and improve our baseline levels of health.
+
+Although most experts are hesitant to make concrete predictions about
+_exactly_ when the U.S. can consider its outbreak _over_ , personal plans can
+be revealing. Jha has famously been hoping to have a July 4 barbecue in his
+backyard, including 20 people. By August, he told me, he hopes to travel with
+his family. The pandemic expert and former assistant secretary of homeland
+security [Juliette Kayyem](https://www.theatlantic.com/author/juliette-
+kayyem/) [told me](https://www.theatlantic.com/health/archive/2021/01/listen-
+how-badly-vaccination-going/617617/) much the same last month: “I have plans
+to travel abroad in August. I feel like the world will start to move well
+before then.”
+
+Where exactly that world is going, however, is far from certain. A beautiful,
+COVID-free summer may be a vision of hope, and possibly a reality for many,
+but optimistic projections about the coming months in the U.S. can mean losing
+sight of a far more unsettling global picture. As things get better, the world
+could fall into the same patterns that got us to the point of nearly half a
+million American deaths. “I’m feeling generally optimistic for the U.S. this
+summer,” Omer says. “But I’m also having nightmares.”
+
+* * *
+
+Under no circumstances is the coronavirus simply going to disappear this
+summer. Cases will drop, and restrictions will lift in many places. But rather
+than an abrupt end to the pandemic, the coming months will be more like the
+beginning of an extended and still-volatile tail of the outbreak globally.
+What that will look like, and how long it will last, depends on how nations
+cooperate and coordinate—or fail to. Regardless of how quickly the immediate
+threat of viral illness subsides in the U.S., America’s choices in the coming
+weeks and months could mean the difference between a pandemic that ends this
+year and one that haunts everyone indefinitely.
+
+Though Shaman’s projections about herd immunity may sound hopeful, the fact
+that the U.S. was able to identify such a small fraction of our cases is
+evidence of profound, persistent failures in detection, communication, and
+prevention. Rapid testing will be key to containing local outbreaks,
+especially next fall and winter. This infrastructure is not yet in place, nor
+do many Americans have easy access to [high-quality
+masks](https://www.theatlantic.com/health/archive/2021/01/why-arent-we-
+wearing-better-masks/617656/). We also have a far-from-impeccable record of
+accepting lifesaving vaccines when they are on offer. Even assuming that
+almost everyone gets their shots as soon as possible, the Columbia researchers
+estimate that in the U.S. alone, roughly [29
+million](https://www.nytimes.com/interactive/2021/01/24/us/covid-vaccine-
+rollout.html) additional cases could occur between now and July, depending on
+how Americans decide to act and which restrictions states choose to lift. “We
+should really be redoubling our efforts to control the virus,” Shaman said.
+
+Variant strains that increase the transmissibility of the virus could also
+throw these estimates off, Shaman noted. As the virus mutates, the reliability
+of immunity from prior infections also changes. The recent outbreak in Manaus,
+Brazil,
+[suggested](https://www.theatlantic.com/health/archive/2021/02/coronavirus-
+pandemic-brazil-variant/617891/) that even high levels of past infection
+didn’t necessarily protect a population for long. Fundamentally, we still do
+not know how herd immunity will work—if it even does. “The most important
+thing to remind ourselves of is that herd immunity is only relevant to
+consider if we have a vaccine that blocks transmission,” says Shweta Bansal, a
+biologist at Georgetown University. If it turns out that vaccinated people can
+still carry and spread the virus, then a group cannot assume that they are
+protected because people around them are vaccinated. It would mean that the
+finish line is not 70 percent, but 100.
+
+[Read: The Brazil variant is exposing the world’s
+vulnerability](https://www.theatlantic.com/health/archive/2021/02/coronavirus-
+pandemic-brazil-variant/617891/)
+
+In the absence of a mythically perfect vaccine, the value of each dose depends
+almost entirely on how that dose is deployed. The situation in North Dakota,
+for example, stands in stark contrast to Vermont, where only [2
+percent](https://covid.cdc.gov/covid-data-tracker/#cases_casesper100k) of the
+population has had a documented infection. In a place with low levels of
+immunity, each dose of the vaccine is more valuable than it would be
+elsewhere—more likely to save a life or prevent a chronic disease. The Trump
+administration’s approach to vaccination, since inherited by Joe Biden, was to
+leave it up to states to handle distribution individually, rather than
+allocate based on where the vaccines could have the biggest impact. Such an
+approach leaves pockets of the country open to surges in death and disease,
+despite national averages falling. As Bansal put it, even assuming that the
+vaccines do make herd immunity possible, the path will not be a straight line
+so much as “playing a game of whack-a-mole with COVID outbreaks.”
+
+If the differences in vulnerability are significant between towns, counties,
+and states, the global disparities are chasms. Vietnam, for example, is a
+country of 97 million people that has had fewer than 1,600 cases of COVID-19
+and 35 deaths. They have done an exemplary job of controlling the virus, and
+presumably have very low levels of immunity. Nonetheless, the current scheme
+of vaccine production—wherein every country is on its own to produce or
+procure vaccines from private companies selling them at a profit—leads to
+redundancies at every level, from innovation to distribution, and severe
+misallocation when comparing one population with another. The coming months
+could see, for instance, vaccines going to healthy 20-year-olds in North
+Dakota before much older, chronically ill people in places such as Vietnam.
+Americans might have to wonder whether we’ll need to wait until April or May
+to get shots, but many low-income countries may not have widespread access
+until 2022, or possibly even 2023, notes Ruth Faden, a bioethics professor at
+Johns Hopkins University.
+
+This haphazard approach will mean deaths among high-risk people around the
+world who could’ve been saved by doses that went to teenage Americans this
+summer. “From a standpoint of global equity, this is profoundly wrong,” Faden
+says. Morality aside, it’s also dangerous for everyone. Providing the virus
+with new places to spread will allow it to linger with us indefinitely. The
+longer it sticks around, the more time it has to mutate—which is bad news for
+the entire world, Americans included. “As long as there are large swaths of
+people who are unprotected, then we’re going to see variants continue to pop
+up,” Faden says. “And it’s likely that some of those variants will evolve to
+escape the power of vaccines.”
+
+* * *
+
+If we are lucky, year over year, SARS-CoV-2 will evolve to cause milder
+disease than it has these past two years. That would be consistent with the
+virus that spread in 1918, which became the seasonal flu. It never again
+produced the same level of mortality as it did during its first two years, but
+the virus continues to evolve and kill hundreds of thousands of people every
+year. Most of us have come to accept this as inevitable.
+
+For the coronavirus, that fate is not yet entirely sealed. It could still be
+avoided if we can draw as close as possible to _global_ herd immunity, not a
+patchwork of immunized nations. This would require a unified effort of
+governments and pharmaceutical companies to ramp up vaccine production and
+coordinate distribution. “The reason we have to do all this careful rationing
+of the vaccines is that the supply is constrained, and the logistics of
+distribution weren’t worked out in advance,” says Ed Kaplan, a professor at
+Yale School of Management who has worked extensively in bioterrorism
+preparedness. “You need a centralized strategy.”
+
+Many experts see the United States as singularly positioned to make this
+happen. “We need to get vaccine manufacturers together and increase production
+tenfold,” Jha, the dean at Brown, told me, “and the World Health Organization
+isn’t going to do it.” The WHO has aligned with other groups to form an
+advocacy network called [COVAX](https://www.who.int/initiatives/act-
+accelerator/covax), which has [relied
+on](https://www.politico.com/newsletters/global-pulse/2021/02/18/the-global-
+vaccine-arrives-and-questions-follow-491787?cid=su_tw_gp) donated doses from
+countries such as Russia and India, while the U.S. and Canada are focused on
+building up their own supplies. But no other country has the combination of
+wealth, influence, and infrastructure to orchestrate a definitive, global
+vaccination movement, Jha said. “Only the U.S. could lead an effort like
+that.”
+
+[Read: What’s the use of a pretty good
+vaccine?](https://www.theatlantic.com/health/archive/2021/01/johnson-johnson-
+covid-vaccine/617880/)
+
+After President Donald Trump abandoned the World Health Organization,
+abdicating responsibility to the global community and squandering American
+credibility, Biden promised to rebuild the country’s reputation as a leader in
+health and humanitarian efforts. So far, though, his vaccination approach has
+been emphatically “America first,” having negotiated deals to secure doses for
+everyone within our borders, with little mention of a pandemic beyond them.
+Public-health experts have proposed what a more ambitious initiative might
+look like, based on the way the U.S. invested in the HIV pandemic. Biden could
+establish the [President’s Emergency Plan for Vaccine Access and
+Relief](https://www.nytimes.com/2021/01/12/opinion/world-covid-vaccines.html),
+or PEPVAR, modeled on the
+[PEPFAR](https://www.theatlantic.com/health/archive/2019/02/trump-state-of-
+the-union-hiv/582076/) strategy to lead global AIDS eradication, which has
+been a boon for U.S. diplomacy as well as global health.
+
+As opposed to simply donating money or a certain number of vaccines, the U.S.
+could build a coalition that can actually solve this problem—and stand ready
+to address any emerging variants or new coronaviruses in the coming months and
+years. “We will look back with regret on the months the U.S. wasted by not
+engaging globally,” says Omer, the Yale vaccinologist. “It’s a leadership
+opportunity. What better moment to rally the world?”
+
+This is what could truly make the summer historic. Instead of aspiring to go
+back to the way things were, we go forward to how things could be. The
+canonical image of the Summer of Love may be most useful as a cautionary tale.
+In 1967, a visible minority listened to the Grateful Dead and discovered LSD,
+but their anti-war sentiment did not stop the U.S. from bombing civilians in
+Southeast Asia, and Richard Nixon won the White House the following year.* The
+post-pandemic 1920s gave way to yet another war, and a world that would later
+be unprepared for a global outbreak of a deadly respiratory virus, despite 100
+years’ notice.
+
+This summer could bring cause for celebration over not simply having made it
+through this morbid winter alive, but having built a system that can end this
+pandemic—and stop the next one. It could be when we ensure that no plague of
+this magnitude happens again.
+
+* * *
+
+_* This article previously misstated the year Richard Nixon won the
+presidency._
+
+* * *
+
+### **Related Podcast**
+
+Listen to James Hamblin on an episode of _Social Distance_ , the podcast from
+_The Atlantic_ about the pandemic:
+
+Subscribe to [_Social Distance_](https://megaphone.link/ATL1220134962) to
+receive new episodes as soon as they’re published.

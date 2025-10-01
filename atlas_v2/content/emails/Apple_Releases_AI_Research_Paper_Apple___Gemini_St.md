@@ -1,0 +1,107 @@
+# Apple Releases AI Research Paper, Apple   Gemini? (Stratechery Update 3-18-2024)
+
+**Source**: inputs/saved_emails/Apple Releases AI Research Paper, Apple   Gemini (Stratechery Update 3-18-2024)_Mon,_18_Mar_2024_12-57-58_+0000_18e51a3f280b7133.eml
+**Type**: email
+**Created**: 2025-08-27T03:02:28.667261
+
+---
+
+Apple releases a new paper about AI, while there are rumors the company might partner with Google to offer Gemini in iOS; both make sense for Apple's strategic position.
+
+View in browser ( https://stratechery.com/2024/apple-releases-ai-research-paper-apple-gemini/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2FwcGxlLXJlbGVhc2VzLWFpLXJlc2VhcmNoLXBhcGVyLWFwcGxlLWdlbWluaS8iXX0sImV4cCI6MTcxMzM1ODY3NywiaWF0IjoxNzEwNzY2Njc3LCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.irBc2yM2hSR11tlIAJvlg6T-unVnybbTcHXes8CJhB7FWlsMV3M75Jswgq5TTe36VkoB3PGsMrVlch0tFqlf44JTFbdRiEFgGT667gGkFIxqXT4HiFlyCMpl-DguDoA5_DLKjangWfAy523iyxkBB8MdsY_guUysuYrhZPOC0KeIeNsLYE-BZzJ6hFYBikbCo2dM77JqbWAr75XkFhh95IORjwI5AdMXgVOajprWTf9VS3b0MSASVgjt2H24fEOW3IqsGpQB9PH3Hw0gFJihATjfFBO185BdVjX-EIuF9FQO8oo0oMeVOQAfVTuWOaxCKS0e3-dXYEmzt1DkaTEVmg )
+
+( https://stratechery.com )
+
+Apple Releases AI Research Paper, Apple + Gemini?
+
+( https://stratechery.com/2024/apple-releases-ai-research-paper-apple-gemini/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2FwcGxlLXJlbGVhc2VzLWFpLXJlc2VhcmNoLXBhcGVyLWFwcGxlLWdlbWluaS8iXX0sImV4cCI6MTcxMzM1ODY3NywiaWF0IjoxNzEwNzY2Njc3LCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.irBc2yM2hSR11tlIAJvlg6T-unVnybbTcHXes8CJhB7FWlsMV3M75Jswgq5TTe36VkoB3PGsMrVlch0tFqlf44JTFbdRiEFgGT667gGkFIxqXT4HiFlyCMpl-DguDoA5_DLKjangWfAy523iyxkBB8MdsY_guUysuYrhZPOC0KeIeNsLYE-BZzJ6hFYBikbCo2dM77JqbWAr75XkFhh95IORjwI5AdMXgVOajprWTf9VS3b0MSASVgjt2H24fEOW3IqsGpQB9PH3Hw0gFJihATjfFBO185BdVjX-EIuF9FQO8oo0oMeVOQAfVTuWOaxCKS0e3-dXYEmzt1DkaTEVmg ) Monday, March 18, 2024
+
+Listen to this Update in your podcast player ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Good morning,
+
+On last Thursday’s Sharp Tech ( https://sharptech.fm/member/episode/reddit-goes-public-reddit-and-evolution-on-the-internet-the-company-that-should-buy-tik-tok ) we discussed the Reddit S-1, and went deep on TikTok and why some of the opposition to the TikTok bill has merit. Plus, at the end, I explain why Amazon is a dark horse candidate to acquire the short-form video company.
+
+On to the update:
+
+Apple Releases AI Research Paper
+--------------------------------
+
+From VentureBeat ( https://venturebeat.com/ai/apple-researchers-achieve-breakthroughs-in-multimodal-ai-as-company-ramps-up-investments/ ) :
+
+Apple researchers have developed new methods for training large language models on both text and images, enabling more powerful and flexible AI systems, in what could be a significant advance for artificial intelligence and for future Apple products. The work, described in a research paper titled “ MM1: Methods, Analysis & Insights from Multimodal LLM Pre-training ( https://arxiv.org/abs/2403.09611 ) ” that was quietly posted to arxiv.org this week, demonstrates how carefully combining different types of training data and model architectures can lead to state-of-the-art performance on a range of AI benchmarks.
+
+“We demonstrate that for large-scale multimodal pre-training using a careful mix of image-caption, interleaved image-text, and text-only data is crucial for achieving state-of-the-art few-shot results across multiple benchmarks,” the researchers explain. By training models on a diverse dataset spanning visual and linguistic information, the MM1 models were able to excel at tasks like image captioning, visual question answering, and natural language inference.
+
+MM1 is a family of models, the largest of which is 32 billion parameters; that’s quite small — GPT-4 reportedly has ~1.7 trillion parameters — but performance appears to be pretty good given the model’s size. Unfortunately the models were not released, but the paper is chock full of details about the process Apple went about creating the models and appears to be a very useful contribution to the space.
+
+That Apple would release these details did take a lot of people by surprise, but not me, for three reasons.
+
+* First, Apple has long been open about core technology undergirding their products, from WebKit (Safari’s browser engine, which was later forked to create Chromium, Chrome’s browser engine) to LLVM (compiler technology that is used throughout the industry) to Swift (Apple’s preferred programming language). It is very much in Apple’s interest to contribute to and benefit from communities around core technologies.
+* Second, what Apple is very secretive about are products. Ergo, MM1 is not a product for Apple; it’s a model — or a precursor to a model — that will be used by Apple to make products, which the company will be very secretive about! To put it another way, Apple’s isn’t competing with OpenAI here; they are commoditizing a complement ( https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/ ) (while, not quite, at least not yet, but moving in that direction).
+* Third, and perhaps most importantly, Apple is letting everyone know that yes, they are aware that AI exists, and that yes, they are working on it.
+
+Stepping back, Apple’s AI needs are a bit different than other companies. AI, for the short-to-medium term, will be accessed using the devices we already use: phones, tablets, PCs, even headsets. You can certainly envision a future where another phone has AI that is so good that it actually gets people to change platforms, but that is a very tall mountain to climb. To that end, Apple’s short-to-medium term goal is to provide good enough solutions on their platforms such that its customers don’t even see the need to go elsewhere for phone-level functionality in particular (of course they can use apps).
+
+Over the longer run, meanwhile, Apple is very well-positioned to run some models locally; the company has the best mobile chips, with a unified memory architecture that should, in theory, give the company more latitude to run decently-sized models on device (a 7 billion parameter quantized model needs a bit over 3 GB of memory). It makes sense that the company’s efforts are focused on that space. However, that still leaves a big hole in their product story.
+
+Apple + Gemini?
+---------------
+
+From Bloomberg ( https://www.bloomberg.com/news/articles/2024-03-18/apple-in-talks-to-license-google-gemini-for-iphone-ios-18-generative-ai-tools ) :
+
+Apple Inc. is in talks to build Google’s Gemini artificial intelligence engine into the iPhone, according to people familiar with the situation, setting the stage for a blockbuster agreement that would shake up the AI industry.
+
+The two companies are in active negotiations to let Apple license Gemini, Google’s set of generative AI models, to power some new features coming to the iPhone software this year, said the people, who asked not to be identified because the deliberations are private. Apple also recently held discussions with OpenAI and has considered using its model, according to the people. If a deal between Apple and Google comes to fruition, it would build upon the two companies’ search partnership. For years, Alphabet Inc.’s Google has paid Apple billions of dollars annually to make its search engine the default option in the Safari web browser on the iPhone and other devices. The two parties haven’t decided the terms or branding of an AI agreement or finalized how it would be implemented, the people said…
+
+Apple is preparing new capabilities as part of iOS 18 — the next version of the iPhone operating system — based on its own AI models. But those enhancements will be focused on features that operate on its devices, rather than ones delivered via the cloud. So Apple is seeking a partner to do the heavy lifting of generative AI, including functions for creating images and writing essays based on simple prompts…
+
+While the talks between Apple and Google remain active, it’s unlikely that any deal would be announced until June, when the iPhone maker plans to hold its annual Worldwide Developers Conference. It’s possible that the companies don’t reach an agreement or Apple ultimately chooses to go with another generative AI provider, like OpenAI. Or Apple could theoretically tap multiple partners, as it does with search in its web browser. Other generative AI providers include Anthropic, which offers a chatbot called Claude.
+
+This is a classic example of a rumor that is a bit of a shock but not at all a surprise. This partnership, should it come to fruition, makes a massive amount of sense for both sides.
+
+First off, while MM1 sounds nice, and appears to be quite performant for its size and can perhaps be adapted to run locally, it is nowhere near the size and performance of GPT-4, the larger Gemini models, Claude, etc. Simply figuring out how to train models of that size is a massive undertaking, and Apple doesn’t appear to be anywhere close — nor should they be, given reports of their relatively late start (i.e. after ChatGPT came out).
+
+Second, even if Apple had their own Gemini-level model, they do not have the infrastructure to serve it to their massive user base, and if they wanted to build said infrastructure, they would need to get in line for Nvidia GPUs behind everyone else — and keep in mind that Apple and Nvidia have been giving each other the cold shoulder for over a decade, thanks in part to a never-settled dispute about Nvidia chip issues in Apple laptops. I doubt that Nvidia CEO Jensen Huang would be willing to do the company any favors, even if they wanted to build an inference cloud for serving their own models, which don’t exist.
+
+Indeed, it’s possible that there isn’t an inference cloud that is large enough to service the iPhone user base outside of Google: ChatGPT can still occasionally struggle under high usage, and that’s for people who know to go and use it; being built into iOS has the potential to unlock an entirely new level of usage that only Google, with its TPU-based infrastructure spread all over the world, can even hope to handle (to the extent there were talks with OpenAI and Anthropic, I suspect they were about being available as an option).
+
+Third, Gemini’s embarrassing launch ( https://stratechery.com/2024/gemini-and-googles-culture/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2dlbWluaS1hbmQtZ29vZ2xlcy1jdWx0dXJlLyJdfSwiZXhwIjoxNzEzMzU4Njc3LCJpYXQiOjE3MTA3NjY2NzcsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.MOxNiiY-cqvMYBZx_3y5gJOrIAE2sawzI7XHukdo6Lm5OvSU7rpT21WW9NUYecf2NpzrgHknQUIedpQxMd1HGaOgTiYV7V1WbCv3PoNjbDyVW9RYU8YrFDTpGLd4YVgITqxorKtxJ2z3FX_jzGNqPqvJFgOa7cg9pEACjXiG9yQBarRcy1Pjw_sKjT0ZrBimkM8AxAvzFkFFXGEreJDcJkWGtNGVpl2pQaRQo-pmuxO-ys-hhs231SmUMfnZsv9vcuMmcS_AuItLNFq68XzL08-IDBUmxfRRnY3pVuRQEQ6eum8IDyVgrkrmvurOVuD-Hc-jV7CtXAoKwTPvT4g1_g ) is, from Apple’s perspective, a bit of a feature, not a bug. First off, it’s a reminder to the company of the risk entailed in having your own LLM: you own the output ( https://stratechery.com/2024/aggregators-ai-risk/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2FnZ3JlZ2F0b3JzLWFpLXJpc2svIl19LCJleHAiOjE3MTMzNTg2NzcsImlhdCI6MTcxMDc2NjY3NywiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.Rv18ieTspdmv6obPRoFSaJgyknOTSaOg_6H19XLUe9kSxxd5HaCqqUaLLC87sw1lui7NCoDNTHrQI_PJJC7a9v2pieogqhF542I6j4gvSZFHX2EhVUQKAeEFz2wcwmJAbot9ZFP3EfuzwX0Z4duB7iWW2hcx6jhUON40L1gyQWSKzQleqXXlf84Hch7jxNgqQ0Wydx4RUij9YlEXycpFuzk17nTHXxd0eR4fzqpVfyAQbbk4kf3FP9y9uQR590GpUA1ujwk6kDyvYqLJmHR8xFeTC6dKenk0uyzgRLR3e6z5YtggKl5cwbPe2ydPIJYXSCz9Ntb_LZTXIhYqpbOkMQ ). If Gemini is doing the text and image generation, though, well, that’s Google’s fault! It’s kind of how Apple can benefit from the wide-scale user tracking done by Google — while condemning such wide-scale user tracking — by being paid by Google for the default position in search. Moreover, the Gemini mess may very well have made this laundry service cheaper to acquire.
+
+Indeed, the analogy to the search deal is obvious. For Apple to build its own search engine would be an extremely expensive undertaking that — if Bing is any indication — wouldn’t be nearly as good as Google’s and wouldn’t have any real prospects of becoming better, given that Apple would be primarily focused on only a subset of the market (its own users). It makes a ton of sense to simply collect rent from Google to have the best engine as the default (and again, never mind about how Google makes its money).
+
+This also gets to why this makes sense for Google: the company is designed to benefit from scale, and while Gemini isn’t monetizing in any meaningful way, that simply means that Google probably wouldn’t have to pay Apple for the privilege of getting iOS users onto its model (the two companies’ search deal is a revenue share, and this would probably be something similar). Yes, this would be an expensive endeavor, but it’s not out of the question that Apple might pay for access (or negotiate a credit against the money it gets from Google for search results). To put it another way, the short-term economics are a bit fuzzy, but the long-term strategic benefit for both companies is pretty clear.
+
+The ultimate result, should this deal come to fruition, would probably be a hybrid: Apple will focus on smaller models that it can run on its devices, ideally with an API that makes certain functionality available to developers, who will no longer need to download a model independently. Those models will probably not be surfaced to users directly, but rather be built into products like Siri. More complicated queries, meanwhile, like text generation, will be sent to the cloud to be handled by Gemini. Indeed, this is how Siri works today: it handles basic queries and hands most off to search engines. This doesn’t preclude Apple building its own cloud-based model, either, but I wouldn’t be surprised if it never ends up making sense for the company to build out the infrastructure necessary to support that level of capability; instead the iPhone maker will slowly work to move more and more interactions onto the device itself.
+
+This all, to be clear, is speculation, because the actual manifestation of this deal is in fact a product question, and Apple is going to be very secretive about product; if the company has news to announce it will probably happen at June’s WWDC.
+
+Two notes of follow-up to Wednesday’s Update on Reddit’s S-1 ( https://stratechery.com/2024/reddit-s-1-reddits-prospects-reddit-grows-up/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L3JlZGRpdC1zLTEtcmVkZGl0cy1wcm9zcGVjdHMtcmVkZGl0LWdyb3dzLXVwLyJdfSwiZXhwIjoxNzEzMzU4Njc3LCJpYXQiOjE3MTA3NjY2NzcsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.Gg7MdiJd8unaODiq320kVKpTLWKYDoqclUipRQaJTzrpqzzgfIwCeLvE-OQimPftHtT2bfG5hdDr6k6dTqPfeHC6FA3MrzbQmAgUNjG6fiWy26AVui0iV5DD7wDdemVCBrilwyo8gYRZKIA--WS1GzCu4LKpFzMgsEpkWdaZyROaTHz5LZu2NmrWcUBTQNXcf7LzoTImJ6OMn1ojUSvnTQHYqyXknMLXb2nE5toAyJSoLQ-MZon4Oh11r_Xl37YCTiOSan9IxKuaeTm6Qme9-qD0eNf8tYDnvKaSYWsBLe-3S9Xj4YY7E5_VCgTpZPVt-dVImU_R13Ze2QNBw9tHHg ) :
+
+* First, while I noted that CEO Steve Huffman’s re-negotiated compensation package made sense in the context of Reddit’s hoped-for valuation (which is lower than their last round), I assumed that it came at the expense of the investors in that round; in fact, a reader reached out to note that it appears that the re-working actually lowered Huffman’s potential compensation (which was priced according to that higher valuation).
+* Second, Jamie Quint on Twitter ( https://twitter.com/jamiequint/status/1768393162220097632 ) noted that I overstated Reddit’s contextual advertising; most of their money is from brand advertising and is behavioral (i.e. based on content you interacted with previously). This is, of course, the path taken by almost all ad-supported companies, and I should have been more precise about that; I was speaking more to Reddit’s longer-term potential as an ad platform (and was frankly a bit skeptical) which — and here Quint and I agree — is not affected by ATT (that was the point I was trying to make).
+
+Reddit’s IPO, meanwhile, is officially set for March 21 ( https://www.inc.com/christine-lagorio/report-reddit-sets-ipo-date-price-range.html ).
+
+This Update will be available as a podcast later today. To receive it in your podcast player, visit Stratechery ( https://stratechery.passport.online/member ).
+
+The Stratechery Update is intended for a single recipient, but occasional forwarding is totally fine! If you would like to order multiple subscriptions for your team with a group discount (minimum 5), please contact me directly.
+
+Thanks for being a subscriber, and have a great day!
+
+Listen to this update and other Stratechery Plus content in your podcast player: Stratechery ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp Tech ( https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Dithering ( https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp China ( https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Greatest Of All Talk ( https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Subscription Information
+
+Member: Omar Zoheri
+Email: stratecheryUSC@khamel.com
+Member since: April 23, 2022
+Your subscription renews every year
+Renewal date: December 8, 2024
+
+You are receiving this email because you are subscribed to Stratechery ( https://www.stratechery.com ).
+
+Click here ( https://stratechery.passport.online/member/login?email=stratecheryUSC%40khamel.com ) to view your account and manage your subscriptions.
+Click here ( https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FRseuYE8jgHePpWJf1fAb4C%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1JzZXVZRThqZ0hlUHBXSmYxZkFiNEMvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcxMzM1ODY3NywiaWF0IjoxNzEwNzY2Njc3LCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.Uq3jsG6u2NuS6iZUXQukRPDs9RgeXlskGIgOLT9azsy7ZmxQBGko7dXsCVW7pymxpFMogL9ynJuwUaTqgnCwL-eeiyOuxPzV4YbQe1LBP4fA6_K4wvUIgDGyjflQkjtPlKb_7398gUsffQRx-PZeXEvhKhRRr2PY42LmYtCPLOM1Bd5Sm6oaYpbyOILbrrrf6B6OeABbeG_XWRcp97n5yrjvPn4ngIjAOQ2NA8reYO4YNXhuSQnbHCkmzu1gH-acKErQbNpCDSNKNmdLrCYqPOHmYsPO93vbD4l_BtgSUnkoJMmcRwtVvg2N302M9j4NbJtPDaKbjH_wvKWES_JwSg%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe ) to unsubscribe.
+
+© 2024 Stratechery LLC ( https://www.stratechery.com ) , 2093 Philadelphia Pike #9930, Claymont DE 19703

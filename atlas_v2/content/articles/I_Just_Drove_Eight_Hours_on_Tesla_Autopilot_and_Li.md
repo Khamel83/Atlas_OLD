@@ -1,0 +1,21 @@
+# I Just Drove Eight Hours on Tesla Autopilot and Lived to Tell the Tale - Bloomberg
+
+**Source**: http://www.bloomberg.com/news/articles/2016-08-10/i-just-drove-8-hours-on-tesla-autopilot-and-lived-to-tell-the-tale
+**Type**: article
+**Created**: 2025-08-13T17:57:47.743673
+
+---
+
+title: I Just Drove Eight Hours on Tesla Autopilot and Lived to Tell the Tale - Bloomberg
+source: http://www.bloomberg.com/news/articles/2016-08-10/i-just-drove-8-hours-on-tesla-autopilot-and-lived-to-tell-the-tale
+date: 2025-08-13T17:57:37.368451
+tags: []
+---
+I knew Tesla had a problem when everyone started telling me to “be safe.”
+
+I was getting ready to embark on a 550-mile road trip in a $145,000 Tesla
+Model S. I’d be driving through the twisted passes of the Sierra Nevada
+mountain range, and I couldn’t imagine a more enjoyable vehicle for the
+journey. But when I mentioned the trip to friends and family, all they wanted
+to talk about was a recent crash involving Autopilot, Tesla’s version of
+cruise control—on steroids.

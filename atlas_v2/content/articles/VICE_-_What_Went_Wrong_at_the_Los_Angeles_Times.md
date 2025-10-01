@@ -1,0 +1,1185 @@
+# VICE - What Went Wrong at the Los Angeles Times
+
+**Source**: https://www.vice.com/en_us/article/v7g34y/what-went-wrong-at-the-los-angeles-times
+**Type**: article
+**Created**: 2025-08-13T15:54:40.875117
+
+---
+
+title: What Went Wrong at the Los Angeles Times
+source: https://www.vice.com/en_us/article/v7g34y/what-went-wrong-at-the-los-angeles-times
+date: 2025-08-13T15:54:38.819034
+tags: []
+---
+Norm Pearlstine was not pleased. For half a century, his integrity had rarely,
+if ever, been questioned. He believed the charge that had been leveled against
+him was without merit. For the past 20 months, he had spent his days trying to
+rebuild one of America’s great newspapers, and here he was facing questions
+that had the potential to throw his hard-earned reputation into doubt. So he
+snapped.
+
+“My asshole,” he shouted, “is clean!”
+
+Pearlstine, executive editor of the _Los Angeles Times_ , was meeting with two
+veteran investigative journalists from his own newsroom. The two arranged the
+conference to raise concerns, which had been circulating among a handful of
+people in the newsroom, about his coverage of the Chinese telecommunications
+corporation Huawei.
+
+The meeting was tense. On one side were a Pulitzer Prize-winning reporter and
+editor, who had followed _Times_ ethical guidelines that require staffers to
+report even a perceived or potential conflict of interest. On the other was
+Pearlstine, the 77-year-old media veteran, who was angrily accusing the
+reporter of “looking up my ass.” At one point, the editor in the meeting asked
+Pearlstine if he could “lower the temperature.” Pearlstine vehemently refused,
+and went on to denigrate the work of the reporter, cast aspersions on his
+motivations for asking questions about Huawei, and deny that he had done
+anything improper, according to sources briefed on the meeting
+contemporaneously and a summary of the meeting that was sent to HR.
+
+Pearlstine and the _Times_ would later tell VICE News that an investigation
+had cleared him of wrongdoing, though the paper would not share the results of
+that investigation. Our own reporting suggests no impropriety. It also shows,
+though, that the basic dynamic of that meeting has been recapitulated again
+and again. Pearlstine has, in his short tenure atop the _Times_ , responded
+unpredictably to crises great and small, alternately dismissing and
+overreacting to them while at times showing a curious lack of attention to
+detail. In all, this has confused and frustrated a staff that on the whole
+values the work he’s done to support and gallantly rebuild a newsroom that
+was, when he came on, in a state of utter chaos.
+
+In the course of reporting this story, during which we spoke to more than 40
+current and former _Times_ staffers, VICE News found that Pearlstine allowed a
+top editor whom staffers had accused of inappropriate conduct and toxic
+management practices to retire in relative glory; didn’t act on the
+recommendations of respected newsroom staffers seeking to bring in more
+diverse staff; did little to repair well-established systemic inequities that
+disadvantaged people of color; brushed off complaints about ethical concerns;
+and reacted erratically when he realized some in his newsroom had grown
+frustrated and disillusioned with his leadership.
+
+**Do you know anything we should know? Send an email to the reporters
+at[laura.wagner@vice.com](mailto:laura.wagner@vice.com) or
+**[**maxwell.strachan@vice.com**](mailto:maxwell.strachan@vice.com)**,** **or
+reach out on Signal at (310) 614-3752.**
+
+The mistakes do not tell the full story of Pearlstine’s tenure. Even his
+critics describe him as operating in good faith. “I don’t think that Norm is
+malicious,” said one newsroom source who was otherwise critical of his
+decisions. Pearlstine was handed the messiest of situations to fix, which
+forced him and the rest of leadership to sometimes ruthlessly prioritize
+problems. On that front, his two years at the _Times_ have been marked by
+success as well as failure; and his failures are not his alone, but those of
+an institution that has struggled to overcome a broken culture rooted in both
+mismanagement and the biases that pervade all aspects of American life. The
+failures are real, though, and the most damning among them may prove to have
+been the squandering of the opportunity offered by the very man who chose
+Pearlstine to build the paper into something that was not just better than
+what came before it, but truly different too.
+
+In a statement, _Times_ owner Patrick Soon-Shiong said that allegations VICE
+News raised to Pearlstine in a lengthy interview “had been reviewed previously
+and had been found to be without merit or otherwise addressed appropriately.”
+
+“The _Times_ continues to benefit from Norm’s leadership, integrity and
+passion for great journalism,” the statement continued. “We can assure our
+staff that we have an ongoing commitment to diversity and inspiring our
+community which started when we took over the reins just two years ago.”
+
+The statement came four months after an anonymous letter, which said it was on
+behalf of newsroom leaders, was delivered to Soon-Shiong’s office regarding
+Pearlstine’s leadership. The letter, which was obtained by VICE News,
+requested that Soon-Shiong start a nationwide search for Pearlstine’s
+replacement.
+
+When Soon-Shiong [agreed to
+purchase](https://www.nytimes.com/2018/02/07/business/dealbook/los-angeles-
+times-sale.html) the _Times_ (and the _San Diego Union-Tribune_) for $500
+million in February 2018, he inherited a newspaper in crisis. The [Tronc
+era](https://www.theverge.com/2018/6/18/17476412/tronc-tribune-publishing-
+name-change-la-times-sale) that preceded Soon-Shiong had been defined by
+scandals, resignations, cuts, and departures. To save the paper and
+themselves, [the staff had
+unionized](https://money.cnn.com/2018/01/19/media/los-angeles-times-union-
+vote-tronc/index.html) at the beginning of the year and waged a successful
+campaign against ownership that even the higher-ups came to appreciate. “It’s
+a very, very courageous group of journalists,” said Sewell Chan, the editorial
+page editor. “They fought to keep the institution alive.” Their prize was
+Soon-Shiong, a deep-pocketed local owner willing to invest in quality
+journalism. Here was reason for an unfamiliar feeling at the _Times_ :
+optimism.
+
+From the outset, Soon-Shiong showed an ambitious desire to restore the _Times_
+to its former glory. In his search to find a lead editor and chart a course
+forward, Soon-Shiong quickly brought on Norm Pearlstine in an advisory role.
+From their first dinner, Soon-Shiong displayed a commitment to diversifying
+the paper, asking which female journalists or journalists of color could lead
+the way, Pearlstine has said. “We were extremely impressed by Norm’s inherent
+commitment to this goal to improve hiring practices and, as importantly, to
+overcome implicit bias,” Soon-Shiong told VICE News.
+
+But finding the paper’s next leader proved difficult. Soon-Shiong personally
+attempted to [recruit top
+stars](https://www.latimes.com/business/hollywood/la-fi-ct-norman-pearlstine-
+latimes-editor-20180618-story.html) like the _Washington Post_ ’s Marty Baron
+and the _New York Times_ ’ Dean Baquet to run the paper, but they were
+uninterested. Pearlstine himself has said that he found other potential
+candidates were wary of the job too. “A few asked whether, after so many years
+of turmoil, it was too late for a turnaround,” he told staff this June in an
+all-hands meeting held on Zoom. Pearlstine ultimately suggested that [Soon-
+Shiong not rush into committing to
+anyone](https://www.latimes.com/business/hollywood/la-fi-ct-norman-pearlstine-
+latimes-editor-20180618-story.html) before they familiarized themselves with
+the staff, according to the _Times_.
+
+The day Soon-Shiong [completed his
+purchase](https://www.latimes.com/business/hollywood/la-fi-ct-patrick-soon-
+shiong-latimes-sold-20180616-story.html) of the paper that June, he announced
+the first major editorial decision of his reign: He was hiring Pearlstine as
+executive editor. Pearlstine, then 75, felt like an upgrade to many in the
+newsroom. He had 50 years of experience in newsrooms, and had held top jobs at
+Time Inc., Bloomberg L.P., and the _Wall Street Journal_. “He’s a journalist,”
+explained one current _Times_ staffer. “We’ve been in positions before where
+we’ve had people running the place that didn’t have that kind of experience.”
+
+But the elevation of Pearlstine rankled more than a few staffers, who
+questioned how thorough his search had been to fill a job that became his. (A
+few quipped that he’d pulled a Dick Cheney.) In May, a number of respected
+reporters in the newsroom had generated a list of 10 prospective candidates,
+only one of whom was a white man, and presented it to Pearlstine. At least
+four people on the list—including Kevin Merida, editor-in-chief of ESPN’s The
+Undefeated; Lydia Polgreen, then editor-in-chief of HuffPost; and Susan Chira,
+former _New York Times_ deputy executive editor and current editor-in chief of
+the _Marshall Project_ —were not contacted about the job, they told VICE News.
+Several of the proposed candidates told VICE News they would have been
+interested in the position. “I got a lot of lists,” Pearlstine said in
+response. “You happen to have found one of many, and I spoke to a lot of
+people.” (One of the reporters for this story worked at HuffPost under
+Polgreen.)
+
+![1593623615441-GettyImages-1222843054](https://www.vice.com/wp-
+content/uploads/sites/2/2020/07/1593623615441-GettyImages-1222843054.jpeg)Norm
+Pearlstine at a June 24, 2020 virtual town hall. Photo by Jay L. Clendenin /
+Los Angeles Times via Getty Images
+
+Entrusted with the newspaper, Pearlstine understood his main job to be
+building up a new and more diverse masthead—“a succession team,” as he put it.
+He quickly elevated insiders, like Scott Kraft and Kimi Yoshino, and poached
+the likes of BuzzFeed’s [Shani
+Hilton](https://www.latimes.com/about/pressreleases/la-
+mediagroup-20190403-story.html), Slate’s [Julia
+Turner](https://www.latimes.com/about/pressreleases/la-
+mediagroup-20181004-story.html),
+[Chan](https://www.latimes.com/about/pressreleases/la-
+mediagroup-20180820-story.html), who came from the _New York Times_ , and
+Lucky Peach co-founder [Peter Meehan](https://www.latimes.com/food/la-fo-new-
+food-section-20190205-story.html), who [announced his
+departure](https://twitter.com/pfmpfmpfm/status/1278384855609421827) as this
+story was being published, following the publication of a [Twitter
+thread](https://twitter.com/tammieetc/status/1277601084618543105) earlier this
+week that surfaced allegations against him. The leadership team is now more
+than 40 percent female and 40 percent people of color, according to an
+internal report. “I thought I made very good progress on issues of
+inclusiveness and diversity in terms of my direct reports,” Pearlstine told
+VICE News.
+
+The newly formed team inherited a dilapidated version of a once-revered
+paper—and a staff that had dropped to [one-
+third](https://www.cjr.org/business_of_news/la-times-cuts-layoffs.php) of its
+size in the 1990s. “The level of damage that was done to this place in the
+Tronc era is hard to overstate,” said one holdover. Pearlstine said he was the
+11th editor in two decades and the fifth in less than a year, if you count
+both of [Jim Kirk](https://www.latimes.com/business/hollywood/la-fi-ct-jim-
+kirk-tronc-20180129-story.html)’s stints, and he wanted to help stabilize the
+paper. He could not do so immediately. “It was chaos,” Chan said. The staff
+was thin and overworked, and the paper far behind on multiple digital fronts.
+Pearlstine told VICE News that Tronc’s exit proved logistically complicated as
+well, leaving the paper with no teams dedicated to business development,
+marketing, national ad sales, legal, or corporate communications.
+
+“I told Pat there were no problems I hadn’t seen before coming to the _Times_.
+It’s just that I had never seen them all at once,” Pearlstine told staff at
+the June all-hands meeting. “It became clear that reviving the _Times_ , while
+perhaps easier than curing cancer, was going to be immensely complicated.”
+
+The paper had to be rebuilt, and Pearlstine and his team worked hard to do so.
+The _Times_ [moved its offices](https://www.latimes.com/business/la-fi-la-
+times-el-segundo-address-20180416-story.html) to El Segundo, [redesigned its
+website](https://www.latimes.com/about/pressreleases/story/2019-07-16/graphene-
+cms), and heavily reinvested in journalism, hiring more than 20 people on
+Metro and 14 apiece on Sports and Entertainment & Arts starting in July,
+according to internal figures. Following Tronc, it was a breath of fresh air,
+according to a number of people who spoke with VICE News. “Tronc was just a
+complete nightmare,” one of them said. “It’s so much better than it was
+before. It’s just night and day.”
+
+The problems at the newspaper, though, ran even deeper than Pearlstine could
+have ever expected when he first arrived. Over decades, the _Times_ had
+developed an internal culture some described as toxic. One complicating issue
+was deputy managing editor Colin Crawford.
+
+In June 2018, the _Times_ received an anonymous complaint from “ _Times_
+staffers” about Crawford, who ran the photo and video department. The
+complaint, obtained by VICE News, urged the paper to investigate Crawford for
+“his relationships with and treatment of women on his staff, his bullying and
+intimidating behavior, and his overall conduct of putting his personal
+interests ahead of those of the Photo Department and The Times.” It also said,
+“Colin rules Photo mostly by fear and threats. That’s why this complaint is
+anonymous.” It went on to detail specific complaints about Crawford and his
+behavior and, at the end, list the names of current and former staffers that
+were suggested as sources. (Several people on the list told VICE News they did
+not know they were listed nor did they want to be.)
+
+Two months later, in August 2018, a _Times_ employee specifically asked
+Pearlstine and the rest of leadership to address issues surrounding Crawford
+and another manager, Tracy Boucher, according to three people who were aware
+of the request at the time and text messages reviewed by VICE News. Then, in
+September, a BuzzFeed reporter began looking into a story about Crawford.
+After Pearlstine became aware of this, he contacted then-BuzzFeed EIC Ben
+Smith about the story, according to a person at BuzzFeed who knew about the
+reporting. Pearlstine, when asked by VICE News about the nature of that
+conversation, said, “none of your business.” The BuzzFeed reporter declined to
+comment for this story; the BuzzFeed source told VICE News that the story died
+for reasons unrelated to Pearlstine’s call.
+
+Ultimately, it wasn’t until December 2018, after the issue of Crawford’s
+management and history with women was raised yet again, that Pearlstine and
+the _Times_ began to investigate the claims against Crawford.
+
+VICE News spoke to three women who were interviewed in December 2018 by
+Pearlstine and a lawyer. VICE News also spoke to three other photographers who
+have worked for the _Times_ and who confirmed aspects of Crawford’s behavior.
+All of these sources, who collectively spanned Crawford’s career at the
+_Times_ , alleged that Crawford had inappropriate relationships with women
+during his time with the paper, which created an uncomfortable and, for some,
+toxic, work environment.
+
+Two women who worked with Crawford in the 1980s and 1990s described him
+touching them inappropriately, and—after each had talked to HR about his
+behavior—retaliating against them by giving them less desirable assignments
+and undermining their work.
+
+One woman said Crawford touched her in highly inappropriate ways on numerous
+occasions. She said she didn’t feel comfortable speaking to HR about instances
+of this happening where there were no witnesses, but did so after Crawford
+“put his hand down her shirt” in front of other colleagues at a staff
+gathering. (A person present recalled seeing the incident and confirmed that
+Crawford grabbed the woman and that she left the bar soon after.) However, she
+said that not only was Crawford not punished, but it “became apparent that I
+was being punished for reporting the incident by receiving lower level
+assignments.”
+
+Another woman who worked with Crawford in the 1980s and 1990s described
+similar inappropriate touching and retaliation.
+
+The woman, who said she preferred to handle her own business and didn’t want
+any favors, reluctantly spoke to HR after they contacted her about Crawford’s
+behavior. As a result, she said, Crawford was sent to management
+training—which was joked about in the department as “charm school”—and told
+that he could no longer meet with women one on one. Subsequently, she said,
+Crawford ramped up his intimidation of her, coming into the darkroom, locking
+the door behind him, and yelling at her. She said he tried to undermine her,
+denigrating her work and lying about her missing deadlines or not doing her
+job until, eventually, she left the paper.
+
+“I was actually quite a good photographer. I was winning a lot of awards and
+had a lot of section fronts,” she said. “[But] I realized there was just no
+way I could continue. Because he was just making my life miserable.”
+
+“I realized there was just no way I could continue.”
+
+Both women were hesitant to go into detail because it was a long time ago, and
+they didn’t want to be the subject of renewed focus themselves. (A freelance
+photographer who worked for the _Times_ during this period confirmed to VICE
+News that they had heard about Crawford’s inappropriate behavior.) But
+Crawford’s troubling management continued for decades, according to former
+staffers who worked with him more recently.
+
+One former staff photographer who worked with Crawford over many years until
+the late 2000s said they didn’t know him to use intimidation but that his
+“inappropriate relationships” with women were well known.
+
+“It was kind of common knowledge,” they said.
+
+The third woman interviewed by the _Times_ as part of the investigation said
+Crawford was authoritarian, with an awkward, bullying sense of humor, and that
+he degraded certain employees and managed through retaliation.
+
+“He berated me, yelled at me, told me he was going to fire me. He tried to
+constantly keep me down. I was always passed over [for assignments] for other
+people, even though I was perfectly capable of doing assignments,” she told
+VICE News. “One time after he yelled at me for an hour, I left his office and
+I was so upset that I went to the bathroom and was in there crying.”
+
+One man, who worked at the _Times_ under Crawford within the past 10 years,
+confirmed to VICE News that intimidation was one of Crawford’s preferred
+tactics.
+
+“He used fear,” he said, noting that before the paper unionized in 2018,
+everyone was constantly terrified of being laid off. “There was favoritism in
+the department for sure. He had his favorites that would kind of get the pick
+of all the best assignments. It was just unseemly, how it worked.”
+
+In January 2019, about a month after the _Times_ investigation concluded,
+Crawford announced he was retiring to “tend to family,” as he wrote in a
+January 16 email obtained by VICE News.
+
+This struck numerous newsroom sources as awkward. Concerns about Crawford were
+well known, and his sudden retirement created the perception among some
+_Times_ employees that he had been forced out. One person told VICE News it
+seemed like “he basically got out of actually getting in trouble … and was
+afforded this opportunity to just step aside.”
+
+A manager put a slightly finer point on it.
+
+“Crawford’s retirement, as it were, was unlike any normal retirement,” they
+said. “Norm announced it at a masthead meeting. Then Colin retired, full stop
+… I would say that a normal retirement of someone so senior would have been
+accompanied by a retirement lunch, maybe some newsroom toasts, maybe some nice
+comments. There was none of that here.” Several sources characterized
+Crawford’s retirement as a slap in the face to everyone who had raised
+concerns about him.
+
+In an email to VICE News, Crawford denied the allegations from the 1980s and
+1990s.
+
+These are false, allegations from almost 30 years ago, that I vehemently deny.
+They were investigated thoroughly by the Times Mirror Human Resources
+Department, and found to be lacking in substance. I was employed by the Times
+for 35 years and subsequently was promoted and served with distinction under
+eight different editors – none of whom received complaints from female members
+of my staff.
+
+Crawford did not comment on whether he was sent to management training and
+told he could no longer be in one-on-one meetings with women; nor did he
+address the remarks from staffers who worked with him more recently and
+characterized his management style as authoritarian and demeaning; nor did he
+have anything to say about what the _Times_ manager said about his
+“retirement, as it were,” and how unlike the usual retirement of someone of
+his stature and tenure it was. Crawford implied that the allegations were
+being weaponized against him—by whom he didn’t say—because of his role in
+union negotiations, and insisted his January retirement had nothing to do with
+the fact that the _Times_ investigated claims of misconduct against him the
+previous month.
+
+It’s not a coincidence that these allegations surfaced more recently. I was
+asked by the Times’ new management to help negotiate a union contract with the
+newsroom. It was a difficult role that often put me at odds with some of my
+long-time colleagues that, frankly, was a very disheartening experience. That
+along with the revolving door of ownership and leadership, and endless
+downsizing were the reasons I decided to call it a career.
+
+Pearlstine repeatedly declined to comment on Crawford in an interview with
+VICE News, saying he couldn’t discuss personnel issues. A company spokesperson
+did issue a statement: “The _Los Angeles Times_ promptly investigated
+allegations made against Colin Crawford, which he has denied. Additionally,
+the _Times_ HR department investigated certain of these allegations when they
+were first made in the early 1990s, which he also denied. Over a period of
+more than 25 years following those allegations, Crawford had a series of
+promotions, and we are unaware of any additional allegations of sexual
+harassment. He retired in early 2019.”
+
+The _Times_ declined to comment when asked about the findings of its
+investigation into Crawford.
+
+In one of the December 2018 interviews during the _Times_ ’ investigation into
+Crawford’s behavior, one woman, after sharing at length her experience working
+under Crawford, asked Pearlstine to confirm that the _Times_ would fire him.
+She said his response was this: “If we don’t, we should be ashamed of
+ourselves.”
+
+Through a spokesperson, Pearlstine said he didn’t recall the exchange.
+
+The woman recalled it with clarity. She told VICE News that Pearlstine’s
+response struck her, specifically the first word.
+
+“I remember thinking, ‘If’?” she said. “If he’s not fired?”
+
+For her, and for several others who spoke to VICE News for this story, the
+sense of betrayal stings the most.
+
+“It’s because I love the _Los Angeles Times,_ ” she said, “that I find the
+hypocrisy so heartbreaking.”
+
+The Crawford issue wasn’t all Pearlstine inherited. When he arrived at the
+_Times_ , it was rife with racial inequities, and the problems went back
+decades. As Pearlstine himself later wrote, the _Times_ had “fomented the
+hysteria that led to Japanese American incarceration, the Zoot Suit Riots,
+redlining and racial covenants, and it turned a blind eye to generations of
+police abuses against minority communities. At its worst, our coverage didn’t
+simply ignore people of color — it actively dehumanized them.”
+
+Internally, there was growing evidence that it mistreated them, too. Just
+months before Pearlstine took over, the newly formed Guild had released [a
+survey of salaries among the bargaining
+unit](https://drive.google.com/file/d/1CFPE3wS3xESTAXYqbeIiN3kOCMC2dKnA/view)
+that confirmed what many had long known to be true: The _Times_ had developed
+into an institution with enormous pay gaps—$14,000 at the median between men
+and women, $19,000 between white and non-white employees, and $31,000 between
+white men and non-white women. There were cultural issues too, including a
+sense of uneven opportunities and expectations, that fueled resentment.
+
+“There’s a culture that has continued to fester there for a very long time.”
+
+“There’s a culture that has continued to fester there for a very long time,”
+said one former Black staffer.
+
+In his first address to staff, Soon-Shiong [made a
+commitment](https://latguild.com/news/2018/8/24/lets-turn-metpro-back-into-a-
+program-we-can-be-proud-of) to developing a more diverse workplace, and
+_Times_ staffers made sure Pearlstine was aware of the longstanding problems
+on multiple occasions, including during his initial introduction as executive
+editor, according to two newsroom sources. In August, the union [released a
+report](https://latguild.com/news/2018/8/24/lets-turn-metpro-back-into-a-
+program-we-can-be-proud-of) on one area people believed was in particular need
+of overhaul: Metpro, previously known as the Minority Editorial Training
+Program. The training program had been established in 1984 as “a way to build
+a pipeline and provide opportunities for journalists of color, many with
+diverse backgrounds,” the Guild stated. Young journalists had the opportunity
+to work with various editors and desks and potentially get hired. But the
+program had transformed as the company started to struggle into what graduates
+felt was an “exploitative” pipeline of low-wage workers, who “contend[ed] with
+depressed wages” and felt “like second-class journalists.”
+
+When Michael Livingston joined the _Times_ as a Metpro in November 2017, he
+could hardly believe his luck. He’d long been eyeing the program as a crime
+reporter at the _Danville Register & Bee _in Virginia. An energetic young
+reporter, he had nevertheless struggled to find a mentor willing to take him
+under his wing on the East Coast. “I looked at Metpro as being a way to get
+the tutelage that I’d been wanting,” Livingston said. He still remembers his
+own awe as he first walked into the downtown newsroom.
+
+Early on, Livingston tried to help with daily coverage where he could, driving
+45 minutes to an hour to feed reporting back to the office. In January 2018,
+[heavy rains in Montecito](https://www.latimes.com/local/california/la-me-
+montecito-evacuation-20180110-story.html) led to a deadly mudslide, and he got
+to the office Monday morning at 7am and told an editor he wanted to help
+however he could, he said.
+
+“It was going well for a while,” said Livingston.
+
+Then his car started breaking down. A taillight here. A headlight there. The
+engine struggled. But he didn’t have the money to fix it. (The typical Metpro
+wage was $44,200 per year in 2018, according to the Guild’s report.) Without a
+reliable car, he felt lost in the newsroom, not sure what to do or where to
+turn. The mentorship he had hoped for wasn’t there. “It was all a ruse in
+retrospect,” he said. (_Times_ spokesperson Hillary Manning admitted to VICE
+News that Metpro had been “under-resourced for quite some time.”)
+
+The woman tasked with running Metpro was Tracy Boucher. Among other jobs at
+the _Times_ , Boucher had been overseeing Metpros since 2011, during which
+time people in the program—many of them young journalists of color—had
+repeatedly found her behavior to be demeaning, according to 12 former Metpros.
+Livingston was among them. “When she was around, she was just berating us with
+harmful language,” said Livingston. “She wanted competition.” Boucher
+sometimes referred to Metpro as a program like _Survivor_ or _The Hunger
+Games_ and suggested that Metpros sell jewelry if they needed extra money,
+according to multiple sources. (Boucher told VICE News in an email that she
+was proud of her work with the program and said she suggested Metpros try and
+“distinguish themselves” but “consistently emphasized to the fellows that they
+are not in competition.”)
+
+Livingston found it difficult as a Black man to navigate the predominantly
+white newsroom. He was often mistaken for another Black male in Metpro, who
+was taller than him and had a different skin tone, Livingston said. (“Him and
+I do not look alike.”) Slowly, Livingston started to feel isolated. The desire
+to breed competition amongst the Metpros ran counter to everything he thought
+he knew about journalism. He was eventually told in an evaluation that he
+seemed to lack interest. “It got me thinking: It’s gotta be something wrong
+with me. Because this is _the_ _Los Angeles Times_ ,” Livingston said. “I just
+start[ed] losing confidence in myself. And it’s like, _If this doesn’t work
+out, what happens to me_? I was one of those people who—my self-esteem and my
+self-identity revolved around being a journalist. So if I’m not doing well,
+then that really sets a big blow to who I am.” Livingston said a sense of
+imposter syndrome kicked in, and he started to struggle with depression.
+
+“It got me thinking: It’s gotta be something wrong with me. Because this is
+_the_ _Los Angeles Times.”_
+
+On Friday, August 17, 2018, former Metpros met with Pearlstine and quietly
+told him about Boucher’s management style. The meeting was confirmed by four
+people in attendance. It wasn’t the only time staffers had told management of
+Boucher’s issues, according to four sources. Pearlstine said in a statement
+that he did meet with then-current and former Metpro in summer 2018. “[S]ome
+participants in the program expressed concerns about how it was managed,” he
+wrote. “Others said that they’d benefited from it, and from Tracy Boucher’s
+support and guidance.” All agreed, he said, that the program needed salary
+increases and more newsroom support. That same August, _Times_ editor Steve
+Padilla came aboard to take charge of the program, but Boucher continued to
+manage Metpros for nearly two years. The _Times_ admitted it wasn’t enough.
+
+“Newsroom management thought that Padilla’s oversight of the program would
+help resolve the need for additional mentoring, but he remained extremely busy
+with his editing responsibilities,” Manning said.
+
+Three months afterward, Livingston’s time with Metpro ended. The _Times_ had
+left him “angry, disappointed, let down and lost,” he said. Before he left, a
+top editor referenced a metaphor to Livingston that stuck with him. It was
+about seeds and soil. “If the seed is not growing in the soil, then what is
+the problem? Is there something wrong with the soil? Or is there something
+wrong with the seed? He implied that there’s something wrong with the seed,
+and the seed was me, because there’s no way that the _Los Angeles Times_ could
+be at fault,” Livingston said.
+
+“Apparently,” he added, “I’m just a bad seed.”
+
+Livingston, who turns 31 this week, no longer works in journalism.
+
+As Livingston exited, Pearlstine and the rest of the leadership team went on a
+hiring spree to resurrect the _Times_. In a decaying industry, Soon-Shiong had
+given the newsroom a rare gift: The ability to grow and create a newsroom that
+truly reflected Los Angeles County, where [three-quarters of the
+population](https://www.census.gov/quickfacts/fact/table/losangelescountycalifornia/HSG010219)
+are people of color. Writer Esmeralda Bermudez sent three memos to management
+that included the names of dozens of potential Latino hires of all experience
+levels, according to messages she has since posted on internal Slack channels
+and her comments at a recent company meeting. Pearlstine told VICE News that
+“a few people” did go through every name on Bermudez’s list. But Bermudez said
+on Slack and in the meeting that only one was brought in for an interview, and
+management hired none of them. (Bermudez declined to comment for this story.)
+
+Others sent in ideas too, only to see little come of them. Instead, they
+became used to seeing throngs of prospective white employees enter the
+newsroom, a number of whom were returning after [a massive 2015 round of
+buyouts](https://money.cnn.com/2015/11/25/media/los-angeles-times-buyouts/).
+Pearlstine later told the _Times_ in a meeting that the paper’s reputation had
+made it difficult to hire, and that he believed _Times_ alumni were in many
+cases the best people he could find. “When there was a willingness of some
+people to come back and help out, it was like ‘Great, they can plug in and
+start working,’” one senior manager said. “Did we act a little bit too
+hastily? Probably.”
+
+Some people saw the problem as a good one to have—at least the paper was
+adding payroll—but the hiring spree was difficult for some women and employees
+of color who had spent years feeling underpaid. “Young white kids coming out
+of college to the _LA Times_ were making more than me, and I had proven
+myself,” said one reporter of color. Early on in Pearlstine’s tenure, Hector
+Becerra, the _Times_ ’ city editor, asked the executive editor to consider
+giving a raise to Angel Jennings, the only Black reporter on the Metro desk,
+and someone he believed to be making “a shameful salary for anyone with her
+experience,” as [NPR previously
+reported](https://www.npr.org/2020/06/15/874530954/rancor-erupts-in-la-times-
+newsroom-over-race-equity-and-protest-coverage). When Jennings brought it up
+to Pearlstine herself, he “acknowledged her abominably low pay,” according to
+a [civil complaint,](https://www.npr.org/2020/06/25/883185996/journalists-
+file-bias-complaint-against-l-a-times-as-editor-promises-change) but did not
+raise her salary, citing ongoing union contract negotiations. (Becerra
+confirmed the exchange with Pearlstine to VICE News but declined to comment
+further. Jennings declined to comment.)
+
+Jennings confronted Pearlstine, saying she knew of several people who had been
+given raises when they secured job offers elsewhere, according to a source
+close to the situation. Pearlstine confirmed to VICE News that he did provide
+some raises to people who had outside offers. But while management bargained
+with the union, “it was the advice of our Labor Counsel to do as few
+individual negotiations over salary as possible” Pearlstine said. He added
+that he provided the same reasoning to other people. “That’s one thing that
+has come back to haunt him and us,” one senior manager said. “But folks need
+to understand the context: We were getting poached by competitors but we
+didn’t yet have a union contract so we couldn’t give raises to everyone.”
+
+Jennings became a plaintiff in [a proposed class-action
+lawsuit](https://www.npr.org/2020/06/25/883185996/journalists-file-bias-
+complaint-against-l-a-times-as-editor-promises-change) over pay inequities at
+the company.
+
+![1593625691434-GettyImages-1211874816](https://www.vice.com/wp-
+content/uploads/sites/2/2020/07/1593625691434-GettyImages-1211874816.jpeg)The
+Los Angeles Times building and newsroom along Imperial Highway on Friday,
+April 17, 2020 in El Segundo, CA. Photo by Kent Nishimura / Los Angeles Times
+via Getty Images
+
+While a few areas of the newsroom, including the Sports department, made
+inroads at diversifying their sections, others were less successful. One such
+section was Entertainment & Arts, which had come under [the control of
+Turner](https://www.latimes.com/about/pressreleases/la-
+mediagroup-20181004-story.html), the former editor-in-chief of Slate. (One of
+the reporters on this story worked under Julia Turner at Slate and had early-
+stage discussions with Turner and Pearlstine about a job at the _Times_ that
+did not result in a formal application or offer.) “One of the things that had
+most impressed me about her tenure as editor-in-chief of Slate was the number
+of people of color she had hired. She had worked very hard on making it a more
+inclusive workplace,” Pearlstine said. But of the 14 hires on the section
+since July 2018, nine were white, one was Latino, and zero were Black,
+according to a preliminary company diversity report.
+
+The section also lost young journalists and former Metpros like entertainment
+reporter Tre’vell Anderson, who left shortly before Turner arrived, and pop
+music writer Gerrick Kennedy, who left in December 2019. [Kennedy later
+wrote](https://twitter.com/villarrealy/status/1275534080747032576) that there
+was “a brick wall that too many of us encounter”—at the _Times_ —“where we
+know we will not be promoted or even considered for promotion … Black
+reporters are subjected to being cast as ‘difficult to work with’ or ‘lazy’ or
+‘problematic’ when the reality is we are in a system that’s rigged against
+us.”
+
+Kennedy declined to comment for this story, but Anderson agreed.
+
+“It wasn’t clear that as a Black reporter, as a queer reporter, as a gender-
+nonconforming reporter, that there would be an opportunity for me to become
+more than just a reporter,” Anderson told VICE News. “I am interested in
+leadership and there was not—and to my knowledge still is not—any sort of
+leadership pipeline efforts, particularly if you’re of color or come from some
+sort of disadvantaged background.”
+
+“It wasn’t clear that as a Black reporter, as a queer reporter, as a gender-
+nonconforming reporter, that there would be an opportunity for me to become
+more than just a reporter.”
+
+Staffers in the section later complained of “disconcerting practices that have
+disproportionately affected our Black and POC colleagues” in a memo to
+management. “I’m grateful to the Entertainment staff for raising their
+concerns and look forward to working with them to make our workplace and our
+coverage more diverse and inclusive, with a particular focus on diversifying
+our leadership ranks,” Turner said in a statement to VICE News.
+
+Pearlstine told VICE News that he was not aware of the issues laid out in the
+memo until this June. But sources said Pearlstine should have been more aware
+of the broader issues at hand. White male reporters more often received
+opportunities to work on larger projects, while people of color felt their
+social media was more closely policed, staffers said. “And when reporters and
+writers have brought this up—particularly if they’re Black—to management,
+they’re deemed problematic,” one _Times_ staffer said. (“There’s been probably
+uneven reactions to tweeting by different managers,” Pearlstine told VICE
+News. “It’s one of the things the Standards and Practices Committee is looking
+at now.”)
+
+Pearlstine’s own blindspots occasionally reared their heads. In April 2020, he
+celebrated a Sunday issue of the paper in an email to staff and three white
+writers in particular—Bill Plaschke, Chris Goffard, and Daniel Miller. The
+email bothered some staffers. That day, the front page had been plastered with
+the bylines of three women of color, including Jennings, the Metro reporter
+whose raise request Pearlstine had recently declined.
+
+“I’ve been slow to understand the pain that accompanies feeling ignored,
+whether intentional or inadvertent,” Pearlstine said of the email at the June
+all-hands meeting. “You would think that by now I would have known better, but
+it’s obvious that I didn’t.”
+
+There were other issues that Pearlstine either didn’t see as problems or
+simply didn’t want to deal with: ethical breaches, conflicts of interest, and
+perceived conflicts of interest that prompted variously disinterested and
+defensive responses from the executive editor.
+
+In January 2018, the Santa Anita racetrack, best known for its dozens of
+mysterious horse deaths, hosted a party for the _Times_ sports department. An
+email from then-sports editor Angel Rodriguez inviting staff and significant
+others to the party read: “Please join us on Sunday, Jan 14th at Santa Anita
+for a day at the races with your coworkers. We will have reserved a suite and
+look forward to enjoying a great day at the track.”
+
+People present at the party said there were dozens of attendees, who were
+served food and alcohol by wait staff. It was an all-day affair, and by all
+accounts good times were had by all. It wasn’t until after the party that
+questions about who paid for it, and how much they paid, emerged. Staffers
+became concerned that they had attended a party that the _Times_ had gotten at
+a discount or for free from an institution the paper covers.
+
+In an interview, Rodriguez, now Assistant Managing Editor, News Desk, told
+VICE News that he had reached out to the PR director at Santa Anita asking if
+it would be possible for them to throw a party there. He said he was clear
+that they would need to pay for it, but that on the day of the party, he was
+sick and unable to attend. He said this created confusion about who was
+supposed to pay for the party.
+
+“What I do know is that a couple people, I think Mike Hiserman and the
+administrative assistant, Maggie Barnett […] had paid a certain amount of
+money,” he said. “I think Hiserman paid $200. And I think Maggie paid $100 or
+maybe $200. I don’t really know exactly how much that was that might have been
+for tip or whatever.” Hiserman confirmed to VICE News the confusion over
+payment and that he paid around $200 in tip. Barnett died last summer.
+
+“I knew that we needed to pay, […] but it was one of those things that, after
+the fact, it was just like I didn’t really follow up with the payment. I never
+got a bill,” Rodriguez said. (Santa Anita did not respond to messages asking
+about the cost, but track [notes](https://www.santaanita.com/stable-
+notes/stable-notes-by-ed-golden-mike-willman-saturday-
+april-14-2018/#.XvolN5NKjBI) published on Santa Anita’s website a few months
+after the _Times_ shindig value a suite for 20 people, without booze, at
+$3,500.) Rodriguez said, “That’s probably my mistake as well for not being a
+little bit more vigilant there.” He acknowledged that payment was something he
+“should have handled right then and there” but rejected the notion that he
+accepted a comped party, and insisted it was an honest mistake.
+
+![1593623859518-GettyImages-186642524](https://www.vice.com/wp-
+content/uploads/sites/2/2020/07/1593623859518-GettyImages-186642524.jpeg)Santa
+Anita Park racetrack, 2013. Photo by Frederic J. Brown/AFP via Getty Images
+
+Pearlstine agreed. He said that though the party had happened before he was
+hired, when the issue was brought to his attention, he looked into it and
+“felt that our sports editor had acted appropriately and there was no need to
+do anything more than just to remind all of our editors that not only under
+guidelines but under general practices we don’t get comps and we don’t let PR
+people, if you will, give us something like this.” (He said that he didn’t
+know what it would normally have cost to access the room the party was held
+in; when told that it would be in the thousands of dollars, he said, “Well, I
+did not do that research.”)
+
+When asked to confirm if anything had been paid to Santa Anita beyond the few
+hundred dollars on the date of the party, Pearlstine said, “Subsequently,
+there was a contribution made to a charity that deals with employees at Santa
+Anita.” When asked how this payment related to the party, he said, “I’m not
+going to go any further than that. It’s a level of day to day business that
+I’m not going to be discussing.” Rodriguez said that a payment of what he
+thought was $1,000 was made to a Santa Anita charity for former jockeys.
+
+Pearlstine was similarly unconcerned about issues raised about sports
+columnist Arash Markazi, who had made a name for himself writing about the NBA
+and college sports for _Sports Illustrated_ and ESPN, but also by building a
+personal brand as man about town in Las Vegas, reporting about Vegas, enjoying
+Vegas, and sometimes blurring the line between the two. Most notably, he’s
+[tweeted](https://twitter.com/ArashMarkazi/status/1041381527815241728?s=20)
+[glowingly](https://twitter.com/ArashMarkazi/status/991350927297724418?s=20)
+[on](https://twitter.com/ArashMarkazi/status/973743799703781377?s=20)
+[many](https://twitter.com/ArashMarkazi/status/974710125096091648?s=20)
+[occasions](https://twitter.com/ArashMarkazi/status/974343849907666944?s=20)
+[about](https://twitter.com/ArashMarkazi/status/1268662677028528128?s=20)
+[one](https://twitter.com/ArashMarkazi/status/999820264622866433?s=20)
+[hotel](https://twitter.com/ArashMarkazi/status/974371868621750272?s=20)
+[on](https://twitter.com/ArashMarkazi/status/877405035482669056?s=20)
+[the](https://twitter.com/ArashMarkazi/status/917568079722315776?s=20)
+[strip](https://twitter.com/ArashMarkazi/status/973373429381455873?s=20), the
+Cosmopolitan, praising its
+[food](https://twitter.com/ArashMarkazi/status/801301675063513088?s=20) and
+[views](https://twitter.com/ArashMarkazi/status/729918683200421888?s=20).
+Markazi told VICE News he has no arrangement with the hotel, saying he’s never
+gotten a free room there. (When I asked Rodriguez about Markazi’s promotion of
+the Cosmopolitan, he said it wasn’t something he would do—“that’s not how I
+use my social media”—but said he didn’t see it as an ethical problem.) Markazi
+has also plugged, in now-deleted tweets, a Las Vegas helicopter service and a
+meal prep company. Markazi said that those were strictly personal—both
+businesses were owned by friends—but that he understood that there’s no
+difference between personal and professional when it comes to social media.
+
+Personal or not, _Times_ staffers, made aware in early 2019 that Markazi was
+being considered for the columnist job, saw his cozy rapport with businesses
+and his promotion of various brands as at least meriting discussion. In
+January 2019, Pearlstine heard from a staffer about concerns over Markazi’s
+hire. According to a summary of the meeting that was sent to a union rep and
+obtained by VICE News, as well as sources told of the meeting, the discussion
+grew heated, and Pearlstine was dismissive of any concerns.
+
+![1593624211760-GettyImages-179457118](https://www.vice.com/wp-
+content/uploads/sites/2/2020/07/1593624211760-GettyImages-179457118.jpeg)Arash
+Markazi attends the Microsoft Fantasy Football Draft Party at the Microsoft
+Experience on September 3, 2013 in Venice, California. Photo by Ben
+Horton/Getty Images for Microsoft
+
+Pearlstine told VICE News he was comfortable with the hire because he “did
+some due diligence with sources of mine at ESPN” to ask if there had been any
+issues with Markazi that ESPN perceived as serious. He said the answer was no,
+though ESPN did, in 2010, [scrub one of Markazi’s
+stories](https://www.nytimes.com/2010/07/30/sports/basketball/30sandomir.html)
+about LeBron James in Vegas because, the network said, he hadn’t properly
+identified himself as a journalist. “I did ask,” Pearlstine said, “that our
+sports editor have a conversation with Arash to familiarize himself with the
+guidelines regarding ethics with the _Los Angeles Times_.”
+
+The concerns about Markazi didn’t go away after he was hired, though. In one
+instance, he [wrote a soft column about USC athletics director Lynn
+Swann](https://deadspin.com/la-times-columnist-throws-temper-tantrum-when-
+confronte-1833411110), at the time facing criticism over USC’s role in the
+college admissions bribery scandal, without disclosing that he himself was a
+professor at USC. Markazi, who said he stopped teaching at USC after finishing
+the semester, told VICE News that he consulted with the _Times’s_ USC beat
+reporter ahead of the Swann interview to make sure he was asking the right
+questions, but acknowledged the problem with the “optics” of him writing the
+story. The [article](https://www.latimes.com/sports/usc/la-sp-lynn-swann-
+usc-20190315-story.html) itself was undeniably sympathetic.
+
+In other instances, Markazi’s columns were similar to—or the same as—press
+releases. In April, Markazi re-wrote, practically verbatim, a [press
+release](https://www.aegworldwide.com/press-center/press-releases/local-
+sports-franchises-come-together-create-teams-la-benefit-mayors) about brands
+selling merchandise for charity for a [short
+column](https://www.latimes.com/sports/story/2020-04-21/la-sports-merchandise-
+sale-help-those-impacted-by-coronavirus) that included no original reporting.
+Entire paragraphs in his column mirrored the press release. Markazi
+acknowledged that he “did not do a good job of changing it.”
+
+“I tweaked it, but certainly not enough,” he told VICE News. “That was
+unfortunate because that was for charity, and I was just kind of being like,
+_Oh, this is a good thing for a good cause_.’ I talked to the sports editor
+[Chris Stone] after that and we decided that I wouldn’t be writing off of
+press releases moving forward.”
+
+When asked if he had been aware of any issues concerning Markazi’s coverage
+since joining the _Times_ , Pearlstine said he had only been made aware of
+Markazi writing about his USC colleague Swann without disclosing that they
+were colleagues. “We agreed,” he said, “that that was something that should
+have been disclosed.”
+
+Pearlstine himself has faced ethical questions, and handled them less than
+gracefully.
+
+In 2019, Pearlstine wrote three stories about Huawei, the Chinese technology
+giant. The [first ](https://www.latimes.com/projects/la-fi-tn-huawei-5g-trade-
+war/)carried the bylines of six journalists; a
+[second](https://www.latimes.com/projects/la-fg-huawei-timeline/), those of
+three; a [third](https://www.latimes.com/business/story/2019-12-19/huawei-war-
+with-america), Pearlstine’s alone. They raised eyebrows in the newsroom for
+what some saw as a soft-focus look at a company that was at the time under
+investigation and has since been [charged with
+racketeering](https://www.justice.gov/opa/pr/chinese-telecommunications-
+conglomerate-huawei-and-subsidiaries-charged-racketeering) by the U.S.
+Department of Justice. (Pearlstine rejected this notion, noting that one of
+the stories “prompted Huawei to complain that they thought it was unfair to
+them.” On the day we published this story, Pearlstine sent an email to us
+pointing out that the newspaper had won a “SABEW award for the coverage of
+Huawei that was of such interest to you,” which it
+[had](https://sabew.org/best-in-business/).)
+
+What raised further concerns were connections between Steve Mann, the famous
+“father of wearable computing,” and Pearlstine and Max Lu, a _Times_
+technologist who took a byline on the first Huawei story and a reporting
+credit on the second. Mann is the chair of [MannLab](https://mannlab.com/),
+which he described to VICE News as “a research company focusing on Humanistic
+Intelligence.” He’s also the chief scientist at
+[Visionertech](http://www.visionertech.com/about/index.aspx), a company he co-
+founded with MannLab chief development officer Arkin Ai. (The two companies
+are, he said, distinct.) Visionertech, according to its
+[website](http://www.visionertech.com/about/index.aspx), has done business
+with Huawei. Mann is also a professor in the Department of Electrical and
+Electronic Engineering at the University of Toronto, which has a [strategic
+partnership](https://www.utoronto.ca/news/huawei-ceo-visits-u-t-explore-ways-
+further-strategic-partnership) with Huawei. Lu, whom Pearlstine recruited to
+the _Times_ , was for his part a cofounder of MannLab, while Pearlstine [told
+_Politico_ in
+2017](https://www.politico.com/tipsheets/playbook/2017/10/04/about-that-nick-
+ayers-conversation-the-latest-in-las-vegas-trump-heading-to-nevada-as-police-
+search-for-motive-eliana-johnson-on-trumps-iran-plan-obamas-dine-at-fiola-
+for-25th-anniversary-222626) that he was consulting for a company run by Mann,
+and was listed as an advisor to MannLab on their
+[website](https://web.archive.org/web/20190621123121/https://mannlab.com/team/)
+as recently as last summer.
+
+Lu, who left MannLab in 2018, told VICE News that he was unaware of any
+financial dealings between MannLab and Huawei, and that his contribution to
+the stories involved obtaining publicly available information from Chinese-
+language internet sources. When asked about the nature of Huawei’s
+relationship to Mann Labs and Visionertech, a Huawei spokesperson initially
+said he would get back to VICE News, then ultimately declined to comment. Mann
+said he was unaware of any partnership or collaboration with Huawei, referring
+questions to Ai—who did not respond to requests for comment—and that he has
+not entered into partnerships with Huawei and that they have not funded his
+research.
+
+This network of affiliations of course doesn’t show that Pearlstine or Lu were
+compromised in their ability to cover Huawei. Any _Times_ journalist who
+believed it presented so much as the appearance of a possible conflict of
+interest, though—and Pearlstine’s and Lu’s connections to a founder of a
+company with a website that said it did business with Huawei could be seen to
+do that—would be required to report it under the _Times_ ‘ [ethics
+guidelines](https://www.latimes.com/la-times-ethics-guidelines-story.html).
+One reporter did just that, which is how on February 13, 2020—the same day the
+Department of Justice filed racketeering charges against Huawei—he and his
+editor found themselves in a meeting with Pearlstine in which the executive
+editor was yelling about how his asshole was clean.
+
+While the meeting calmed down eventually, and Pearlstine did answer the
+reporter’s questions while vigorously denying any wrongdoing, the general
+effect was such that a complaint was filed to HR asking for an investigation
+into his threatening behavior. Additionally, Pearlstine himself requested an
+investigation into his coverage of Huawei.
+
+When VICE News began reporting this story, Pearlstine reached out to demand a
+chance to talk about Huawei before we had even determined if there was
+anything to ask him about. Before long, he followed up with another email
+demanding a meeting on which our editor’s boss’s boss’s boss was copied. In
+it, he touted the exculpatory findings of the _Times_ ‘ investigation into him
+and Lu—”The independent investigator determined that that there was no
+conflict of interest and no appearance of a conflict of interest,” he wrote.
+He later admitted, when our editor asked for a copy of the investigation, that
+he hadn’t read it, but was going by results which had been related to him. (Lu
+declined to comment on the investigation.)
+
+In an eventual conversation with VICE News, Pearlstine took an alternately
+conciliatory and bewildered tone. He acknowledged the “outburst” in the
+February meeting with the two staffers and said he apologized for it. “It was
+not meant to be intimidating,” he said. “It was not meant to be retaliatory.
+It was meant to convey shock and pain that these kinds of allegations were
+coming at me when I knew them to be absolutely frivolous and bizarre.”
+
+He had never had any relationship with Huawei, he said, and had never so much
+as had a conversation with Steve Mann about Huawei. (In fact, he said, “after
+the first Huawei story I got an email from Steve asking for an introduction to
+the executives of Huawei, which implied to me that he had no relationship with
+them.”) He said that he hadn’t been compensated for his consulting
+relationship with Mann, aside from being reimbursed for a round-trip flight to
+Shanghai, which Mann confirmed. He said that he didn’t know MannLab and had no
+relationship to it. When it was pointed out that he had been listed as an
+advisor to MannLab on its website, he said that he didn’t know he had been,
+and that if he had, it was incorrect. (Mann, who said that Pearlstine was a
+consultant to MannLab, agreed, saying that the consulting relationship ended
+in 2017, and that Pearlstine should have been taken off the website.) When it
+was pointed out that MannLab has close connections to Visionertech—a company
+whose offices, he said, he’s visited, and whose founders he’s had dinner
+with—and that Visionertech’s website says it does business with Huawei, he
+scoffed.
+
+“Well, do you believe everything on the internet?” he said. “Please.”
+
+“Well, do you believe everything on the internet?” he said. “Please.”
+
+Pearlstine, throughout our reporting, acted like a man with nothing to hide.
+He could not conceal how incredulous he was that concerns about his ethics had
+been raised, and that he was being asked about them again, and it was easy to
+see why: In his mind, a connection to a renowned scientist who may have had
+dealings with a company he’d covered was being used as a weapon against him
+and the reputation he’d spent a lifetime building, for no good reason that he
+could surmise. In our conversation, he mentioned the possibility of a
+“personal vendetta,” only to dismiss it, only to return to it as the only
+explanation that made sense to him.
+
+“I was astounded,” he said, “when the allegations were raised. And I remain
+astounded as I’m listening to your questions today as to why this is still
+something of interest when there’s no there there.”
+
+He fundamentally didn’t seem to understand why these questions had been
+brought to him in the first place, or why they were being raised when he had
+issued broad assurances that there was nothing to them. He didn’t seem to
+understand why his being listed as an advisor to a company on a website, or
+what people associated with that company did, would matter to anyone when he
+had said it didn’t. He didn’t seem to understand the difference between asking
+and accusing. Most of all, he didn’t seem to understand that things might look
+different to other people than they do to him.
+
+The _Los Angeles Times_ is in a much better place than it had been under
+Tronc. Management agreed to the newsroom’s first [collective bargaining
+agreement](https://www.latimes.com/california/story/2019-10-16/los-angeles-
+times-first-guild-contract) in 2019, which raised wages, and implemented an
+innovative workshare agreement to stave off layoffs at the suggestion of the
+union in 2020. The _Times_ won two [Pulitzer Prizes in
+May](https://www.latimes.com/world-nation/story/2020-05-04/la-times-pulitzer-
+prizes#:~:text=The%20Los%20Angeles%20Times%20has,%E2%80%9CRemain%20in%20Mexico%E2%80%9D%20policy.)
+and was a finalist for three others. It also took home seven Sigma Delta Chi
+Awards. (“No other publication had more than two,” Pearlstine said.) Under
+Pearlstine’s leadership, the paper also better adapted to the digital world,
+doubling digital subscriptions, he said. Soon-Shiong and Pearlstine have
+mostly left their journalists to do journalism while they invested and
+stabilized, respectively.
+
+“Although I don’t for a minute claim credit for the good work of others, I do
+believe we have created an environment where we are creating great journalism
+for the audiences we seek to serve and that it is increasingly recognized as
+such by our peers,” Pearlstine said in a statement.
+
+A number of staffers told VICE News they didn’t believe Pearlstine had done
+anything explicitly wrong. Still others emphasized the culture started to
+deteriorate years before Pearlstine arrived.
+
+“Yes, Norm has a lot to answer for, but so does everybody else,” one staffer
+said.
+
+“But inaction in and of itself is doing something wrong,” argued another
+staffer. Many others agreed. And as in newsrooms all around the country, the
+killing of George Floyd on May 25 reignited anger and frustration about the
+lack of diversity on the _Times_ ’ staff and other racial inequities. While
+the newsroom had grown by more than 100 employees since July 2018, the
+percentage of Black staffers, at 5.2 percent, remained within a percentage
+point of where it had been previously, according to a diversity report
+released internally in June. The same went for Latino and Asian staffers.
+Overall, the percentage of _Times_ staffers who identified as people of color
+rose to 38.6 from 33.4 percent, according to the report. That compared
+favorably to competitors like the _New York Times_ , the _Washington Post_ ,
+and the _Wall Street Journal_ , as Pearlstine noted to VICE News. But it also
+proved the paper’s newsroom did not come close to representing Los Angeles
+County.
+
+Internally, it felt to many people like the newsroom had fumbled a rare chance
+to fix a problem that had dogged the paper for decades. “We did hire a lot of
+really talented people of color, but it wasn’t enough to move the needle
+significantly on the demographic makeup of the newsroom,” one _Times_ reporter
+said. “That’s really upsetting, partly because we probably won’t ever get an
+opportunity like that again.”  
+
+“We did hire a lot of really talented people of color, but it wasn’t enough to
+move the needle significantly on the demographic makeup of the newsroom.
+That’s really upsetting, partly because we probably won’t ever get an
+opportunity like that again.”
+
+“Are people fair to say we didn’t do a hard enough or diligent enough search
+for especially mid-career journalists of color during that hiring opportunity?
+That’s a fair criticism,” said one senior manager.
+
+Pearlstine acknowledged the lack of development was a “failure” and that
+responsibility ultimately rested with him, while also noting his own primary
+focus was on finding a succession team, to which he delegated “authority and
+responsibility.” “Most of the hiring was actually done at levels below [him],”
+Pearlstine said. There, he overemphasized making sure the newspaper
+interviewed diverse candidates, rather than making sure it hired them, but
+also conceded there was “a failure to interview as many people as we could
+have or should have.” Asked what happened, he said, in part, “You’d probably
+need to talk to the editors who were doing the hiring.”
+
+On Tuesday, June 2, as national protests erupted around the county, Metpro’s
+Tracy Boucher sent an email to _Times_ interns about their social media
+behavior that set staffers off. “If you’re unable or unwilling to follow the
+guidelines below, I respect that and we can arrange for your last day a bit
+sooner than originally planned,” Boucher wrote in part. People complained. And
+this time, the complaints registered. In a follow-up email, Boucher admitted
+she had gone too far.
+
+“I’d like to apologize for making this sound so threatening,” Boucher wrote in
+a follow-up email. “I know this is such a trying time for everyone and
+especially our journalists of color.”
+
+Soon afterward, Pearlstine announced that Boucher was moving off the program
+“at her request” and the _Times_ planned to hire someone into a masthead-level
+position “with an eye toward creating a more inclusive newsroom,” which would
+include Metpro oversight. It had been almost two years since Metpros had
+brought issues about Boucher to Pearlstine’s attention. She still oversees the
+newsroom’s interns.
+
+Pearlstine realized he needed to make changes. Three days after Boucher’s
+email, he sent an email to staff in which he openly admitted to the
+newspaper’s recent shortcoming on issues of race. The paper, he wrote, had
+focused “on a white subscriber base even as the city became majority non-
+white”; “not always followed through when journalists of color have applied
+for positions”; not done enough to “recruit, promote and retain a more diverse
+staff”; and not placed enough journalists of color in leadership positions.
+Additionally, Pearlstine admitted, journalists of color within the
+organization had had to overcome “management’s blind spots” to tell critical
+stories and been asked to perform additional labor by “helping their
+colleagues avoid mistakes.”
+
+“I want to emphasize today that the responsibility to fight racism—both
+conscious and unconscious, in our institution and in our coverage—lies with
+all of us who are here now, and ultimately with me,” Pearlstine said.
+
+The note didn’t satisfy staffers, who felt it was at odds with a story the
+newspaper had published the same day. Originally headlined “Looters who hit
+L.A. stores explain what they did: ‘Get my portion!,’” the piece quoted one
+expert, a Scottish professor specializing in crowd psychology, and included a
+photo of an identifiable Black man that was later replaced. “I was just like,
+‘Oh my God. This is horrific,’” one staffer told VICE News. “‘This place hates
+people that look like me.’” The story set off a multi-day conversation in the
+company’s #diversity Slack channel around the company’s coverage of the
+protests, as staffers said the paper should publicly take a firm anti-racism
+editorial position and privately work to address its racial inequities. Some
+shared stories. In the process of pushing the _Times_ to better reflect the
+city it covered, Bermudez wrote in Slack, she had been met with defensiveness
+and spoken to sternly—including by one screaming editor in a one-on-one
+meeting.
+
+Jennings, who is reportedly [in the process of settling with the
+company](https://www.npr.org/2020/06/25/883185996/journalists-file-bias-
+complaint-against-l-a-times-as-editor-promises-change) over the proposed
+class-action lawsuit over pay, said the _Times_ needed to take actionable
+steps to address the “glaring Black problem in this newsroom.” “That note from
+Norm wasn’t even a good start,” Jennings wrote in the Slack channel. “I met
+with @Norman Pearlstine back in August 2018 after months of seeing a parade of
+white people going into his office vying for jobs. I laid bare the problems
+that were so glaringly clear from the pay study, staff complaints and a simple
+look around the newsroom.”
+
+“Here we are 1.5 year later having the same conversation,” Jennings added. “We
+are tired of the excuses and the ‘I hear you.’ That’s not enough.’” Boucher
+expressed regret for her past behavior. “I too hope to be a part of the
+solution going forward and am struggling personally with where I’ve failed in
+the past. I tend to get defensive or want to explain why things are the way
+they are rather than try to change them,” she said. “I will do better.”
+
+Meehan, the food editor, [decided to leave the
+company](https://twitter.com/pfmpfmpfm/status/1278384855609421827) after his
+staff spoke out against him, he announced on Twitter as this story was being
+published. “In my tunnel-vision commitment to making the best things we could,
+I lost sight of people and their feelings. That is a terrible failing on my
+part,” he wrote.
+
+(After this story was published, the _Times_ issued a statement: “Peter Meehan
+has resigned his position as L.A. Times Food editor. Earlier this week, there
+were a number of assertions made via social media about Meehan. Among them was
+the claim that the Human Resources department had received multiple complaints
+about him, and which was simply untrue. It was also alleged that he was paid a
+$300,000 annual salary. That is a wildly inflated number. Meehan decided to
+offer his resignation and we have accepted it. Any and all allegations
+received by the company are taken seriously. The matter will be thoroughly
+reviewed.”)
+
+Numerous _Times_ staffers told them the relevelations of the last month were
+eye-opening, even “liberating,” as they had previously wondered how alone they
+were in struggling with the things they felt about their workplace. “It’s
+really painful because in a certain way, you soldier forward while you’re
+working and you think, ‘Okay, well maybe this is only happening in this
+corner,’” one staffer said. “And then you realize how company-wide this is and
+how this has just continually gone ignored—and it’s hard.”
+
+On Monday, June 22, the Entertainment & Arts section sent the memo to Turner,
+Pearlstine, and others in leadership detailing their growing issues with the
+section. “It was not always this way,” the staff stated. “Even during the
+turmoil of the Tronc years, there was a period when The Times considered
+diversity a priority in hiring and in its entertainment and culture coverage,”
+they wrote. The next day, a [newly formed Black
+caucus](https://latguild.com/news/2020/6/23/letter-from-la-times-guild-black-
+caucus) sent a list of demands to address the “racist treatment,
+marginalization and neglect” many Black employees experienced at the
+newspapers over the last decades. Almost 300 members of the newsroom signed
+it.
+
+“Their frustrations are legitimate,” said Chan, the editorial page editor.
+“But I hope they can also see what has happened in the last few years in
+context, and give the current leadership team a chance to fix it going
+forward.”
+
+“I do think things are heading in the right direction,” Chan added. “I really,
+really do.”
+
+On Wednesday, June 24, Pearlstine led a meeting with the editorial staff over
+Zoom in hopes of addressing the issues that had been raised in the month since
+Floyd’s death. Pearlstine opened the meeting with a remorseful speech in which
+he tried to explain the rationale behind some of his past decisions and
+apologized for others. “Yesterday’s demands reflected accumulated frustrations
+and a determination not to repeat the past be it 1992, or many times since
+then, when promises were made and not kept,” Pearlstine said. “I must be more
+sensitive to sins of omission as well as commission,” he said at another
+point. He referenced Jennings by name, and admitted he had only truly “come to
+understand the difference between not being racist and being anti-racist” in
+recent weeks.
+
+“I have replayed all our hiring and coverage decisions in my head and I’ve
+been looking in the mirror. I haven’t liked everything I’ve seen,” Pearlstine
+added. “With the benefit of hindsight, I realized that hiring people of color
+was always a priority. But it was never _the_ priority.” Then, for hours,
+Pearlstine patiently took questions from frustrated and exhausted staffers.
+One staffer took issue with Pearlstine saying he had internalized the
+complaints of staffers but continued to believe in the management team he had
+formed.
+
+“Many of those things happened under the same managers that you told us you
+relied on to bring stability to the _Times_ ,” the staffer said. “I wonder how
+we’re supposed to trust that those same people are gonna make any kind of
+change when they allowed this situation to happen, when some of them have
+actually helped to create a climate that disparages and demeans Blacks and
+Latinos and other people of color in the newsroom.”
+
+At the end of the day, Pearlstine sent an email to managing editor Kimi
+Yoshino, accidentally cc’ing a _Times_ reporter, who briefly shared the email
+in a large private Slack channel. After two years of complaints, and an
+internal uprising, Pearlstine still had questions. In the email, which VICE
+News obtained from a separate _Times_ staffer, Pearlstine said he wanted the
+paper to undertake “a well-executed poll of the entire newsroom, to see how
+much the Diversity Channel reflects a broader mood.” “BTW,” he added, “your
+notes [on] my first draft saved it from disaster.” Pearlstine told VICE News
+he simply wanted additional information about the range of issues that had
+been discussed, but his own staffers saw it as evidence Pearlstine still
+doubted the complaints’ validity.
+
+It wouldn’t end up being Pearlstine’s final misstep of the week. During the
+course of VICE News’ reporting, Pearlstine had been made aware of the
+anonymous letter that had been delivered to Soon-Shiong in February. Then, on
+Thursday, in a Zoom call with a reporter about the previous day’s town hall,
+Pearlstine told the reporter she had been identified as the person who had
+made the delivery based off of security camera footage from Soon-Shiong’s
+office, according to sources who were briefed on the call. Sources say the
+reporter, who did not respond to requests for comment, was confused and
+alarmed.
+
+That was understandable enough. In an attempt to identify the person he
+thought had tried to undermine him, Pearlstine had confronted the wrong
+person. He apologized.
+
+_This story was updated after publication to clarify Angel Rodriguez’s
+title—he is an Assistant Managing Editor, News Desk, while an earlier version
+described him as an editor on the news desk—and to incorporate a statement
+the_ Times _issued on Peter Meehan’s resignation._

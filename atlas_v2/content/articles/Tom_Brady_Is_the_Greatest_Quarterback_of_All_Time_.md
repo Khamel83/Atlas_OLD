@@ -1,0 +1,108 @@
+# Tom Brady Is the Greatest Quarterback of All Time. Period. | GQ
+
+**Source**: http://www.gq.com/story/tom-brady-chuck-klosterman-gq-man-of-the-year-2015
+**Type**: article
+**Created**: 2025-08-13T18:37:03.793216
+
+---
+
+title: Tom Brady Is the Greatest Quarterback of All Time. Period. | GQ
+source: http://www.gq.com/story/tom-brady-chuck-klosterman-gq-man-of-the-year-2015
+date: 2025-08-13T18:37:02.509439
+tags: []
+---
+These questions shall remain unasked, simply because Brady refused to repeat a
+one-word response he claims to have given many times before. Now, I’m not a
+cop or a lawyer or a judge. I don’t have any classified information that can’t
+be found on the Internet. My opinion on this event has as much concrete value
+as my opinion on Brady’s quarterbacking, which is exactly zero. But I strongly
+suspect the real reason Brady did not want to answer a question about his
+“general awareness” of Deflategate is pretty uncomplicated: He doesn’t want to
+keep saying something that isn’t true, nor does he want to directly contradict
+what he said in the past. I realize that seems like a negative thing to
+conclude about someone I don’t know. It seems like I’m suggesting that he both
+cheated and lied, and technically I am.
+
+But I’m on his side here, kind of. Yes, what Brady allegedly did would be
+unethical. It’s also what the world wants him to do. And that may seem
+paradoxical, because—in the heat of the moment, when faced with the specifics
+of a crime—consumers are programmed to express outrage and disbelief and self-
+righteous indignation. But Brady is doing the very thing that prompts athletes
+to be lionized; the only problem is the immediacy of the context. And that
+context will evolve, in the same direction it always does. Someday this media
+disaster will seem quaint.
+
+* * *
+
+The Oakland Raiders of the 1970s broke every rule they could, on and off the
+field, sometimes for no reason. They were successful and corrupt, and fans
+living outside the Bay Area hated what they represented. But nobody hates the
+’70s Raiders now. In fact, we long for those teams, nostalgic for the era when
+their sublime villainy could thrive. It’s widely assumed Red Auerbach bugged
+the opponents’ locker room when he coached the Celtics, an illicit subterfuge
+retrospectively re-imagined as clever and industrious. When former Tar Heels
+basketball player Buzz Peterson talks about the greatness of his college
+roommate Michael Jordan, he sometimes recounts a story of the evening Jordan
+tried to cheat Peterson’s mother in a card game, an anecdote employed to
+reinforce how MJ was so supernaturally competitive that even middle-aged women
+got sliced. The defining memory of Kansas City Royals legend George Brett
+involves the illegal use of pine tar on his bat, an unambiguous infraction
+that was ultimately reversed on appeal, just like Brady’s suspension.
+
+“I’m the pine-tar guy,” Brett would say years later. “And it’s not a bad thing
+to be remembered as.”
+
+In the present, we overvalue the rules of sport and insist that anyone caught
+breaking those parameters must be stopped, sanctioned, and banned. But as the
+decades slip away, such responses tend to invert. Who won and who lost matters
+less than the visage of the experience; as long as nobody got hurt and nobody
+took drugs and nothing was fixed by gamblers, a little deception almost
+becomes charming. A deficiency of character _adds_ character, somehow. It
+proves that the cheater cared.
+
+The Patriots are the Raiders of now, despite the fact that the Raiders still
+exist. They push the limits of everything, and that’s how they dominate.
+Sometimes that limit-pushing is lawful and brilliant: When Belichick placed
+seven “eligible” receivers on the field against the Ravens in last season’s
+divisional playoff, it was a stroke of strategic genius. Sometimes that limit-
+pushing is (perhaps) significantly less than totally legal. But it’s all
+philosophically essential to what makes them who they are. They don’t need to
+cheat in order to win, but it certainly doesn’t hurt. I mean, how do rich
+people stay rich? By avoiding all the taxes specifically designed for rich
+people. How does a football franchise sustain a dynasty within an NFL system
+designed to instill parity? By attacking the boundaries of every rule in that
+system, at every level of the organization. And in both cases, the
+_perception_ of those actions does not matter to the individuals involved.
+Perception is other people’s problem. Brady does not hide from this: “I don’t
+really care how the Patriots are perceived. I really don’t.”
+
+There is nothing more attractive than a person who does not care if other
+people find him attractive.
+
+These are all just games. Within the grand scheme of existence, they have no
+intrinsic value. A game can matter only as much as the involved players
+believe it to matter. This is why no one watches the Pro Bowl. It’s also what
+makes Brady different from normal people, and from other quarterbacks: He will
+do whatever it takes to win, regardless of what that win represents. He is, by
+definition, a winner. Which is what everyone has _always_ said about him. We
+always knew this. He is precisely the man society demands him to be. It’s just
+that society doesn’t like to think about what that means in practice.
+
+Before I asked Brady about Deflategate, I asked him about playing golf with
+Donald Trump. He explained how this is an amazing experience, and how you
+never really know what the actual score is, and that there’s always some sort
+of side bet, and that Trump always goes home with the money. I ask him if this
+means Trump cheats, as it’s hard to imagine how someone could always win,
+particularly since _Golf Digest_ estimates Brady’s handicap as an 8.
+
+“Nah,” says Brady. “He just—he doesn’t lose. He just doesn’t lose.”
+
+The scoreboard is the scoreboard is the scoreboard. Everything else is just,
+like, _your opinion,_ man.
+
+* * *
+
+[Chuck Klosterman](https://www.gq.com/contributor/chuck-klosterman)
+(_[@CKlosterman](https://twitter.com/cklosterman)) is the author of eight
+books, most recently_ I Wear the Black Hat: Grappling with Villains (Real and
+Imagined).

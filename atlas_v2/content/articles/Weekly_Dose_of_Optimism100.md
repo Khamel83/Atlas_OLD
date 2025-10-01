@@ -1,0 +1,151 @@
+# Weekly Dose of Optimism #100
+
+**Source**: inputs/old stuff/Docs/Weekly Dose of Optimism100_062824.html
+**Type**: article
+**Created**: 2025-08-25T02:53:52.676365
+
+---
+
+# Weekly Dose of Optimism #100
+
+[![](https://substackcdn.com/image/fetch/w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ccf14a1-ecfd-434d-92b3-ba8b844579ab_1200x600.png)](https://substack.com/redirect/30d72247-3b21-4e8e-8256-12d805d515fe?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Hi friends 👋,
+
+Happy Friday and welcome back to our 100th *Weekly Dose of Optimism.*
+
+The Big 1-0-0.
+
+Each week, Packy and I are share 5 stories that make us more optimistic about the future. We’ve done it 100 times now — which means 500+ examples of humans doing cool shit, pushing frontiers, and learning new things. There’s not been a slow week throughout the last 100 — we humans are prolific and, seemingly, have become even more prolific in just the last two years. Optimism compounds and progress steadily arcs up and to the right.
+
+We appreciate you all reading and sharing the *Weekly Dose* over these last 100 editions. We write it, in part, because doing so makes us keep our finger on the pulse of everything happening in science, energy, and technology. But we also write the *Weekly Dose* as a counterbalance to the pessimism that has permeated the mainstream media. Obviously we have much work to do on that front, but this is our little weekly contribution.
+
+If you’ve enjoyed reading the *Weekly Dose of Optimism* over the last 100 editions, we ask that you share it with a friend, family member, or colleague.
+
+[Share](https://substack.com/app-link/post?publication_id=10025&post_id=146047319&utm_source=substack&utm_medium=email&utm_content=share&utm_campaign=email-share&action=share&triggerShare=true&isFreemail=true&r=9p0gt&token=eyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTQ2MDQ3MzE5LCJpYXQiOjE3MTk1Nzg0NDUsImV4cCI6MTcyMjE3MDQ0NSwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.dCeDmmKUMOgCKHXKHUBSv-BtThu3CZH-I2fNJj3AeAg)
+
+Let’s get to it.
+
+
+*I wouldn’t be writing this to you right now if it weren’t for David Perell and [Write of Passage](https://substack.com/redirect/122d57c3-d859-4cb2-844e-e1e5eab2602f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). The course changed the trajectory of my life, no exaggeration.*
+
+*Whether you want to write full-time, or just get better at writing to sharpen your thoughts or communicate better at work, there’s no one better to learn from than David. He has a knack for deconstructing the work of history’s top writers, and of pulling secrets from modern greats. His podcast,* [How I Write](https://substack.com/redirect/2a80e420-f1e0-4a89-a99b-f7a034369352?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), *is one of my favorites.*
+
+*David recently started a free weekly newsletter,* **[Writing Examples](https://substack.com/redirect/eb1ee3d0-73a7-4e86-9373-22920e4ea241?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)**, *in which he studies history’s greats and teaches you how to write like they do.* [Writing Examples](https://substack.com/redirect/eb1ee3d0-73a7-4e86-9373-22920e4ea241?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) *is everything you wanted from your 5th-grade English class but never got. It’s rigorous without being dull and exciting without being superficial. In short, it’s not boring.*
+
+*I learned to be a better writer from David, and now you can too, for free. I can’t recommend subscribing to* [Writing Examples](https://substack.com/redirect/eb1ee3d0-73a7-4e86-9373-22920e4ea241?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) *more strongly.*
+
+[Subscribe to Writing Examples](https://substack.com/redirect/eb1ee3d0-73a7-4e86-9373-22920e4ea241?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+[![](https://substackcdn.com/image/fetch/w_1100,h_618,c_fill,f_auto,q_auto:good,fl_progressive:steep/l_play_button_usfui2,w_144,e_colorize:0/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F146047319%2F9cedf729-18c5-41fc-adfc-6096aa2afe2d%2Ftranscoded-00001.png)](https://substack.com/redirect/ff94252d-07a8-4ccb-854a-77ab9f1e175e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Packy here. Watch that video. Can you feel the optimism?
+
+Not Boring favorite [Jason Carman](https://substack.com/redirect/c3c0d635-472f-4b50-9062-decd2343898e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) made the video to kick off Reindustrialize, a conference in Detroit that Austin Bishop, Mike Slagh, Aaron Slodov, and crew organized in just three months. The event, as the name suggests, was all about how we can get back to building things in America again.
+
+I spent Tuesday and Wednesday there, and moderated a panel on ENERGY. The whole conference was, if you’ll excuse the pun, electric. The timing was coincidental, but it was the perfect way to spend the Weekly Dose of Optimism’s 100th week.
+
+A little over two years ago, feeling the heavy deep mid-2022 pessimism, I wrote a post titled [Optimism](https://substack.com/redirect/7e7c7e96-17fb-4d53-8e54-c6bf7a646fa7?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), in which I said that Not Boring’s mission is to make the world more optimistic and made the case for optimism in three parts:
+
+1. **We’re more pessimistic than we should be.**
+2. **Optimism shapes reality.**
+3. **The downside to optimism is limited, the upside is uncapped.**
+
+Part of the reason for the pessimism was that the press serves up the most negative stories it can find, and takes the most negative angle on even the most positive stories. The view from my day job(s) — writing this newsletter and investing at Not Boring Capital — was completely different. Every day, I meet people doing things that seem straight out of the pages of utopian [sci-fi](https://substack.com/redirect/24f34fde-4874-4d51-bd3f-c607848aa7d5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). Entrepreneurs, scientists, researchers, and all sorts of people are producing clean, abundant energy, curing cancer, giving hearing back to deaf kids, launching huge rockets into space, landing them back on earth, and building machines that can think. They’re fighting — and often winning — to make the world a better place.
+
+But you wouldn’t know it if you opened up a newspaper or a popular website. So a month later, [Dan](https://substack.com/redirect/507ad794-fd1d-47b2-a054-4435c57f4775?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) and I started writing the [Weekly Dose of Optimism](https://substack.com/redirect/3787b252-d76f-4029-81c2-98d505f9da63?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) to share the stories of the people doing insanely hard things for the benefit of humanity.
+
+Two years later, the world, or at least our little corner of it, feels a whole lot more optimistic. When people pull off incredible things, the roar of the cheers drowns out the snark and the boos. There’s a sense that every problem is solvable, even, and especially, if it’s going to take a lot of work to solve it.
+
+That spirit was on full display at Reindustrialize. Every speaker and panelist talked about the magnitude of the challenge ahead, and each one seemed to relish the struggle. As Dean Ball wrote in his [reflections on the event](https://substack.com/redirect/62ac5b4e-5454-4f8c-9370-396aa77f9415?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU):
+
+> *In the last year, I’ve sensed a vibe shift… I associate this vibe shift with an earnest desire to build—new factories, new energy sources, new institutions. A recognition that creating new things is preferable to arguing over how to redistribute the things we already have. A recognition that history is not over.*
+>
+> *I’ve had trouble finding the right word to describe this shift. Then, at the [Reindustrialize](https://substack.com/redirect/7b809a8b-e02b-4be9-bbc7-2f15fe0e0e18?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) conference this week in Detroit, [Hadrian](https://substack.com/redirect/fdb50164-4923-4fdc-8e91-952500b37c42?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) CEO Chris Power found the words for me: Seriousness, he said. America, Power argues, is becoming serious again, or at least, it’s trying to.*
+
+This combination of optimism and seriousness infused Reindustrialize. There’s a lot of work left to be done — we’re really just getting started — but I’ve never been more certain that the people we write about in the Weekly Dose every week, and many of you who read it, are going to get it done.
+
+Here’s to hundreds more weeks of their increasingly mind-blowing stories.
+
+*Arc Institute*
+
+> *In a quest over the last two and a half years, scientists at the Arc Institute have now discovered a compact and entirely new type of programmable molecular system that evolved to directly insert new DNA sequences into the genome using bridge RNAs – a new class of guide RNAs.*
+
+[![](https://substackcdn.com/image/youtube/w_550,c_limit/l_youtube_play_qyqt8q,w_120/hJ7zvZTxgT4)](https://substack.com/redirect/1ed34c8f-1dd5-4032-bb86-57603872e8b6?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Researchers at [Arc Institute, led by Dr. Patrick Hsu, reported](https://substack.com/redirect/2641a237-3e72-4a3b-a83e-7716ca88fa21?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) “the discovery of bridge RNAs and 3 atomic structures of the first natural RNA-guided recombinase - a new mechanism for programmable genome design” in two back-to-back *Nature* papers this week.
+
+For those less biologically inclined among us, like me, Stripe co-founder and Arc patron Patrick Collison asked Claude to summarize the importance of the papers, which you should [check out](https://substack.com/redirect/a7a97a2b-c096-4406-beb4-9f04071b8477?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). Patrick/Claude explained it more simply than I can:
+
+> *Imagine you're trying to edit a document, but instead of a cursor, you have a pair of scissors. You can cut out words you don't like, maybe paste in a few new ones, but precise editing? Forget about it. Now imagine someone hands you a pen. Suddenly, you can write whatever you want, wherever you want. This is the kind of leap we're seeing in the world of genome editing.*
+>
+> *For the past few decades, we've been snipping away at genomes with tools like CRISPR, making impressive progress but always constrained by the fundamental nature of our tools: they cut DNA. But what if we could write directly into the genome, inserting whatever we want, wherever we want, without ever making a single cut?*
+>
+> *This isn't just a "wouldn't it be nice" daydream anymore. Researchers at the Arc Institute have discovered a new system that does exactly that. They're calling it "bridge recombination," and it might just be the biggest revolution in genetic engineering since CRISPR.*
+
+Essentially, instead of cutting DNA like CRISPR does, “bridge RNA” unzips the DNA, inserts new DNA, and zips it back up, making the process more precise and giving scientists “a word processor for DNA.”
+
+Some of the things we might be able to do with the technology include more precise gene therapies, using synthetic biology to give organisms new capabilities, watching evolution in real-time, creating more resilient crops, and designing genetic circuits like we design chips. (Separately, Elliot just tweeted about a preprint that points to *[growing](https://substack.com/redirect/96692bb1-2fb1-4e60-bbd6-6c4b896c2fa2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)* [semiconductors](https://substack.com/redirect/96692bb1-2fb1-4e60-bbd6-6c4b896c2fa2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)… what a world.)
+
+The science itself is amazing, but what’s equally compelling is where it came from: Arc. Back in October 2022, [Elliot](https://substack.com/redirect/f8442b0c-0a29-42af-8d6b-497f8650adba?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) and [Dr. Jocelynn Pearl](https://substack.com/redirect/ed75f541-0b0d-4e1d-ba72-fed928b863cb?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) teamed up on a Not Boring piece called *[Gassing the Miracle Machine](https://substack.com/redirect/84baebad-7466-4ebc-a854-c96f0c29fbdd?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)* on the various ways people were working to reinvent the “Miracle Machine,” the complex system that produces scientific progress. One of the ways they discussed was the creation of new institutions for research outside of the university, including Arc.
+
+Founded by Silvana Konermann, Patrick Hsu, and Patrick Collison after the three had worked on Fast Grants during COVID, Arc “gives scientists no-strings-attached, multi-year funding, so that they don’t have to apply for external grants, and invests in the rapid development of experimental and computational technological tools.” It’s an experiment in new ways of building institutions to advance science, and just three years in, it seems as if the experiment is working.
+
+Its success is a signal that we can build new institutions beyond startups. Creating a word processor for DNA is amazing; creating a machine that might produce many such advances is miraculous.
+
+*Kyle Wiggers for TechCrunch*
+
+> *[Etched](https://substack.com/redirect/df321ef3-facf-423c-8123-c049a2967ddd?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) is among the many, many alternative chip companies vying for a seat at the table — but it’s also among the most intriguing. Only two years old, Etched was founded by a pair of Harvard dropouts, Gavin Uberti (ex-[OctoML](https://substack.com/redirect/875a2f81-69ca-4534-beaf-f8fd4c87ee24?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) and ex-[Xnor.ai](https://substack.com/redirect/a980260b-9906-4886-b0cf-5d70439f3609?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)) and Chris Zhu, who along with Robert Wachen and former Cypress Semiconductor CTO Mark Ross, sought to create a chip that could do one thing: run AI models.*
+
+[![](https://substackcdn.com/image/fetch/w_2912,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdbd32213-2569-42a6-b01c-cb9d5f189883_2800x1575.jpeg)](https://substack.com/redirect/3b23fe6b-866a-458d-9d06-cbdd87244e34?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Earlier this month, Nvidia briefly surpassed Microsoft as the most valuable company in the world with a market cap above $3T. The decades old company, as I’m sure you’re well aware, has fueled and been one of the main beneficiaries of the AI boom over the last couple of years. Given it’s size and importance, it should come at now surprise that a number of companies have popped up to take on Nvidia and gobble up some of that sweet, sweet AI chip spend.
+
+One such company is [Etched](https://substack.com/redirect/df321ef3-facf-423c-8123-c049a2967ddd?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), a two year old company that designed chips with the sole intent of running Transformer based AI models. The company recently announced it’s $120M Series A, which is certainly a sizable round but also about 12 hours of Nvidia revenue. Etched’s chip, called Sohu, is tailored specifically for running Transformer models, and the company claims it’s both faster and cheaper than Nvidia’s general-purpose GPUs.
+
+Etched’s founder and CEO, Gavin Uberti, went on *[Invest Like the Best](https://substack.com/redirect/d3897702-be07-4650-9d3a-f724a1fff60f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)* a few months ago and made a convincing case that the future of AI hardware is specialized. If he’s right, there’s a very clear multi-trillion dollar opportunity up for grabs.
+
+Faster and cheaper chips —> more capable models —> more intelligence in the world —> civilizational progress. Very few companies have the chance to make such a direct and potentially profound impact on the world. Rooting for them.
+
+[![](https://substackcdn.com/image/youtube/w_550,c_limit/l_youtube_play_qyqt8q,w_120/Ys4rFt8XbMM)](https://substack.com/redirect/a413f98e-810d-4724-9605-5e2bb86623b7?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+OK, so we’ve established that is AI important and that building the chips that fuel the AI boom is lucrative. Well, actually, unless you’ve been living under a rock for the last couple of months, those two ideas have already been pounded into your head. Hard to turn on the TV or go online without seeing something about AI and/or chips. Yet still, very few people could simply explain how any of it actually works.
+
+The short answer is Transformers. Transformers is a neural network architecture that enables efficient processing of sequential data by using self-attention mechanisms, making it possible for AI to understand and generate complex language patterns and sequences. Sounds simple enough, but it’s obviously much more complex than that.
+
+[Jacob Rintamaki](https://substack.com/redirect/f7db1a80-93b2-4165-bdf7-a601ff332c2e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) made a Youtube video explaining everything that you need to know about Transformers, from the atom to the chip all the way up to the model. It’s interesting to technical and non-technical folks alike. If AI is important as we make it out to be, might as well know how it actually works.
+
+Rintamaki is a Stanford student who came onto our radar when he went deep on nanotech, which [J. Storrs Hall thinks is going to be a very big deal](https://substack.com/redirect/65e71207-2b1c-4798-944b-9931489ee650?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). If you’re interested in getting all the way down into the atomic level, [give him a follow](https://substack.com/redirect/f7db1a80-93b2-4165-bdf7-a601ff332c2e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). We expect that he’ll be showing up in the *Weekly Dose* a bunch in the coming years.
+
+*Sammy Roth for The LA Times*
+
+> *Geothermal startup Fervo Energy — which has spent seven years perfecting lower-cost drilling techniques, with financial backing from Microsoft co-founder Bill Gates and other investors — [announced its largest contract to date](https://substack.com/redirect/c18c07fc-9a55-43ef-9049-b252ba3769e1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), a milestone 15-year deal to sell 320 megawatts of climate-friendly power to Southern California Edison, one of the nation’s largest utility companies.*
+
+[![](https://substackcdn.com/image/fetch/w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc2acb1ff-9caa-4631-becb-dec5fa9fe8eb_1200x674.jpeg)](https://substack.com/redirect/975c4332-6650-4ba2-a70a-2affb89713b8?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+[Fervo Energy](https://substack.com/redirect/6c7a6523-8c1d-4a44-a2d5-a9a80c8c0070?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) announced a 15-year contract to sell 320 megawatts of geothermal power to Southern California Edison. Fervo, a company we’ve covered a couple of times in the *Weekly Dose,* is a geothermal startup that has developed cost-effective drilling techniques to generate renewable electricity.
+
+Fervo’s Cape Station plant in Utah will provide continuous power to 350,000 homes in Southern California. Fervo makes geothermal commercially feasible by utilizing a number of horizontal drilling techniques. Horizontal drilling allows access to a larger area of underground heat from a single well, increasing the likelihood of hitting hot fluid and reducing costs compared to traditional vertical drilling. (We highly recommend [Anna-Sofia Lesiv’s](https://substack.com/redirect/d2629373-d5d0-48ec-8510-2ccfdf32a43a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) recent *[The Untapped Potential of Geothermal Energy](https://substack.com/redirect/6eea2a2b-9b41-4930-89ff-bd1633bf73b3?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)* for more on the technology and its promise.)
+
+Things are just starting to heat up in geothermal and Fervo’s leading the charge with partnerships with Microsoft and contracts with major California utilities. Geothermal is renewable, cost effective, resilient, and takes up less land than solar. The geothermal energy at the Earth’s core could theoretically power civilization for millions of years. If we figure out how to harness and transfer that energy effectively, we’ll be cooking with heat (literally).
+
+Since we started writing the *Weekly Dose*, solar has gotten cheaper and more abundant, [batteries are riding similar curves](https://substack.com/redirect/6f1a48bf-f0ac-4ccf-b766-ff4e9f8d6494?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), fusion researchers achieved Q>1 for the first time, and [nuclear](https://substack.com/redirect/4d08266b-c5a6-43ca-b2e8-a031e674e52c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) has very much been put back on the table. Throw in some geothermal, and we’re on our way to a world of cheap, clean, abundant energy that will power all of the other things we like to write about here.
+
+The future is unbelievably bright.
+
+
+It feels appropriate that our 100th Weekly Dose is landing on Elon Musk’s birthday. There’s no one whose work — at SpaceX, Neuralink, and Tesla — we’ve covered more. So we’ll leave you with a video of not one, but two, SpaceX rockets landing back-to-back.
+
+[![](https://substackcdn.com/image/fetch/w_1100,h_1100,c_pad,f_auto,q_auto:good,fl_progressive:steep/l_play_button_usfui2,w_144,e_colorize:0/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F146047319%2F2044d3bf-7034-4a32-9083-c31698b725e2%2Ftranscoded-00001.png)](https://substack.com/redirect/f4b2446c-c85f-45a2-ac30-2e95a24b9320?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Humans rock.
+
+Have a great weekend y’all.
+
+We’ll be back in your inbox on **Tuesday**.
+
+[Share](https://substack.com/redirect/adb3e4aa-b73d-40ae-bd58-0cc0f945c4d3?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Thanks for reading,
+
+Packy + Dan

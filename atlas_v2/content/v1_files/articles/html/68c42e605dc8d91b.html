@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>What is asynchronous communication? Plus, how to implement it</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://async.twist.com/assets/built/screen.css?v=2b8eaaac70">
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WZ8G8S6');</script>
+    <!-- End Google Tag Manager -->
+
+    <script type="text/javascript">
+    var HYVOR_TALK_WEBSITE = 7167;
+    </script>
+    <script async type="text/javascript" src="//talk.hyvor.com/web-api/count/"></script>
+
+    <meta name="description" content="Struggling with the switch to remote? Asynchronous communication might be what you&#x27;re missing for more productive and harmonious teamwork. Find out how we use it as a fully remote team.">
+    <link rel="icon" href="https://async.twist.com/content/images/size/w256h256/2022/02/TwistLogoColor-1.png" type="image/png">
+    <link rel="canonical" href="https://async.twist.com/asynchronous-communication/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="The Async Newsletter">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="What is asynchronous communication? Plus, how to implement it">
+    <meta property="og:description" content="And what you can do to start implementing it, whether you&#x27;re an individual contributor or a team leader.">
+    <meta property="og:url" content="https://async.twist.com/asynchronous-communication/">
+    <meta property="og:image" content="https://async.twist.com/content/images/size/w1200/2022/05/asynchronous-communication-1.png">
+    <meta property="article:published_time" content="2022-05-17T16:13:54.000Z">
+    <meta property="article:modified_time" content="2023-03-03T20:30:24.000Z">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="What the heck is asynchronous communication anyway?">
+    <meta name="twitter:description" content="Async is a game-changer even for co-located teams, but it&#x27;s an absolute must for teams collaborating remotely.">
+    <meta name="twitter:url" content="https://async.twist.com/asynchronous-communication/">
+    <meta name="twitter:image" content="https://async.twist.com/content/images/size/w1200/2022/05/asynchronous-communication-1.png">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Amir Salihefendic">
+    <meta name="twitter:site" content="@twistwork">
+    <meta name="twitter:creator" content="@amix3k">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="675">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "The Async Newsletter",
+        "url": "https://async.twist.com/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://async.twist.com/content/images/2022/02/twist-logo-1.png",
+            "width": 174,
+            "height": 56
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Amir Salihefendic",
+        "image": {
+            "@type": "ImageObject",
+            "url": "//www.gravatar.com/avatar/34386a146c8a6064f77ebb9f819bba1b?s=250&d=mm&r=x",
+            "width": 250,
+            "height": 250
+        },
+        "url": "https://async.twist.com/author/amir/",
+        "sameAs": [
+            "https://x.com/amix3k"
+        ]
+    },
+    "headline": "What is asynchronous communication? Plus, how to implement it",
+    "url": "https://async.twist.com/asynchronous-communication/",
+    "datePublished": "2022-05-17T16:13:54.000Z",
+    "dateModified": "2023-03-03T20:30:24.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://async.twist.com/content/images/size/w1200/2022/05/asynchronous-communication-1.png",
+        "width": 1200,
+        "height": 675
+    },
+    "description": "And what you can do to start implementing it, whether you&#x27;re an individual contributor or a team leader. ",
+    "mainEntityOfPage": "https://async.twist.com/asynchronous-communication/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 5.130">
+    <link rel="alternate" type="application/rss+xml" title="The Async Newsletter" href="https://async.twist.com/rss/">
+    <script defer src="https://cdn.jsdelivr.net/ghost/portal@~2.51/umd/portal.min.js" data-i18n="true" data-ghost="https://async.twist.com/" data-key="ee7fd12e5d3cb052e36ba352a7" data-api="https://the-twist-newsletter.ghost.io/ghost/api/content/" data-locale="en" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style>
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js" data-key="ee7fd12e5d3cb052e36ba352a7" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/main.css" data-sodo-search="https://the-twist-newsletter.ghost.io/" data-locale="en" crossorigin="anonymous"></script>
+    
+    <link href="https://async.twist.com/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=2b8eaaac70"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=2b8eaaac70">
+    <script defer src="/public/member-attribution.min.js?v=2b8eaaac70"></script><style>:root {--ghost-accent-color: #008AA6;}</style>
+</head>
+
+<body class="post-template has-serif-title">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZ8G8S6"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="site">
+        <header id="site-header" class="site-header">
+    <div class="header-inner">
+        <div class="header-brand">
+            <a class="logo" href="https://twist.com/home">
+                    <img class="logo-image" src="https://async.twist.com/content/images/2022/02/twist-logo-1.png" alt="The Async Newsletter">
+            </a>
+
+            <div class="burger">
+                <div class="burger-bar"></div>
+                <div class="burger-bar"></div>
+            </div>
+        </div>
+
+        <nav class="header-nav">
+                        <a class="menu-item menu-item-the-front-page" href="https://async.twist.com/">The front page</a>
+        <a class="menu-item menu-item-about-the-newsletter" href="https://async.twist.com/about/">About the newsletter</a>
+        <a class="menu-item menu-item-start-here" href="https://async.twist.com/start-here/">Start here</a>
+        <a class="menu-item menu-item-the-async-toolkit" href="https://async.twist.com/async-collaboration-toolkit/">The async toolkit</a>
+        <a class="menu-item menu-item-the-async-quiz" href="https://async.twist.com/async-questionnaire/">The async quiz</a>
+
+        </nav>
+
+        <div class="header-actions">
+            <div class="social">
+
+                    <a class="social-item social-item-twitter"
+                        href="https://x.com/twistwork" target="_blank"
+                        rel="noopener noreferrer" aria-label="Twitter">
+                        <svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg>
+                    </a>
+            </div>
+
+            <a class="button-text menu-item" href="https://twist.com" target="_blank;">Try Twist</a>
+        </div>
+    </div>
+</header>
+
+
+        <div class="site-content">
+            
+<div class="content-area">
+    <main class="site-main">
+            <article class="single post featured">
+    <header class="single-header kg-canvas">
+        <div class="single-header-inner">
+            <div class="single-meta">
+                <span class="single-meta-item single-meta-date">
+                    <time datetime="2022-05-17">
+                        May 17, 2022
+                    </time>
+                </span>
+
+
+            </div>
+
+        <h1 class="single-title">What the heck is asynchronous communication anyway?</h1>
+
+            <div class="single-excerpt">
+                And what you can do to start implementing it, whether you&#x27;re an individual contributor or a team leader. 
+            </div>
+                    <h3 class="single-author gh-content">By <span><a href="/author/amir/">Amir Salihefendic</a></span></h3>
+    </div>
+    </header>
+
+    <div class="single-content gh-content kg-canvas">
+        <figure class="kg-card kg-image-card kg-width-wide kg-card-hascaption"><img src="https://async.twist.com/content/images/2022/06/asynchronous-communication.jpg" class="kg-image" alt loading="lazy" width="1840" height="1035" srcset="https://async.twist.com/content/images/size/w600/2022/06/asynchronous-communication.jpg 600w, https://async.twist.com/content/images/size/w1000/2022/06/asynchronous-communication.jpg 1000w, https://async.twist.com/content/images/size/w1600/2022/06/asynchronous-communication.jpg 1600w, https://async.twist.com/content/images/2022/06/asynchronous-communication.jpg 1840w" sizes="(min-width: 1200px) 1200px"><figcaption>Illustration by <a href="https://dribbble.com/yin-weihung?ref=async.twist.com">Yin Weihung</a></figcaption></figure><p><a href="https://www.inc.com/scott-mautz/a-2-year-stanford-study-shows-astonishing-productivity-boost-of-working-from-home.html?ref=async.twist.com" rel="noopener noreferrer">Study</a> after <a href="https://newsroom.cisco.com/press-release-content?articleId=5000107&ref=async.twist.com" rel="noopener noreferrer">study</a> after <a href="https://hbr.org/2019/08/is-it-time-to-let-employees-work-from-anywhere?ref=async.twist.com" rel="noopener noreferrer">study</a> into remote work has clarified that remote workers are more productive than their office-bound counterparts.</p><p>What’s not entirely clear is why.</p><p>Yes, people gain back time (and sanity) by avoiding rush hour commutes. They avoid <a href="https://blog.doist.com/focused-teamwork/?ref=async.twist.com" rel="noopener">the distractions of the office</a>. They regain a sense of control over their workdays. They have more time to dedicate to family, friends, and hobbies.</p><p>But apart from the commute, all of those benefits aren’t necessarily the result of location independence, but rather the byproduct of asynchronous communication — giving employees control over when they communicate with their teammates.</p><blockquote class="kg-blockquote-alt">Teams who try to go remote without putting in place tools, workflows, and norms for asynchronous communication will fail.</blockquote><p>Not only does async produce the best work results, but it also lets people do more meaningful work and live freer, more fulfilled lives. It's a game-changer even for co-located teams, but it's an absolute must for teams collaborating remotely. And as workers flex their current power in a tight labor market, it's the only way companies can give employees the <a href="https://www.wsj.com/articles/workers-care-more-about-flexible-hours-than-remote-work-11643112004?ref=async.twist.com">flexible schedules they're demanding</a>. </p><p>Drawing on the experience of my own fully remote, async-first company, <a href="https://blog.doist.com/?ref=async.twist.com" rel="noopener noreferrer">Doist</a>, I'll explain what asynchronous communication is, how it drives team productivity and employee well-being, and the concrete steps you can take to start building a more asynchronous workplace.</p><h2 id="what-is-asynchronous-communication">What is asynchronous communication? </h2><p>Simply put, <strong>asynchronous communication is when you send a message without expecting an immediate response</strong>. For example, you send an email. I open and respond to the email several hours later.</p><p>In contrast, <strong>synchronous – or real-time – communication is when you send a message and the recipient processes the information and responds immediately</strong>. In-person communication, like meetings, are examples of purely synchronous communication. You say something, I receive the information as you say it, and respond to the information right away.</p><p>But digital forms of communication, like real-time chat messaging, can be synchronous too. You send a message, I get a notification and open up Slack to read the message and respond to what you said in near real-time. </p><p>Even email is treated as a synchronous form of communication. A 2015 <a href="https://abcnews.go.com/Health/emails-answered-minutes-study-finds/story?id=30280230&ref=async.twist.com" rel="noopener noreferrer">study</a> conducted by Yahoo Labs found that the most common email response time was just 2 minutes. Asynchronous communication isn't primarily about tools — <a href="https://async.twist.com/async-collaboration-toolkit/">though the right ones help</a> — it's about team culture and habits. </p><p></p><!--kg-card-begin: markdown--><table>
+<thead>
+<tr>
+<th>Real-time communication</th>
+<th>Asynchronous communication</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Communication requires all team members to be present simultaneously, in meetings and video calls or respond quickly to work chats or emails. <br><br>Everyone is tied to more or less the same work schedule. <br><br>Prioritizes speed of collaboration.</td>
+<td>Communication happens in writing or prerecorded video with team members catching up and responding on their own schedules.<br><br> Everyone can work when it works best for them. <br><br>Prioritizes focus and flexibility.</td>
+</tr>
+</tbody>
+</table>
+<!--kg-card-end: markdown--><p></p><p>Before we dig into the benefits of a more async approach to teamwork, let’s look at why we should question our current, real-time ways of working and communicating.</p><div class="kg-card kg-callout-card kg-callout-card-grey"><div class="kg-callout-emoji">🧮</div><div class="kg-callout-text">Curious how async your team is? <a href="https://async.twist.com/async-questionnaire/">Get your async score →</a></div></div><h2 id="the-problem-with-real-time-all-the-time-communication">The problem with real-time, all-the-time communication</h2><figure class="kg-card kg-image-card"><img src="https://async.twist.com/content/images/2023/01/22.10.18_diminishing-returns-1.png" class="kg-image" alt loading="lazy" width="2000" height="2120" srcset="https://async.twist.com/content/images/size/w600/2023/01/22.10.18_diminishing-returns-1.png 600w, https://async.twist.com/content/images/size/w1000/2023/01/22.10.18_diminishing-returns-1.png 1000w, https://async.twist.com/content/images/size/w1600/2023/01/22.10.18_diminishing-returns-1.png 1600w, https://async.twist.com/content/images/size/w2400/2023/01/22.10.18_diminishing-returns-1.png 2400w" sizes="(min-width: 720px) 720px"></figure><p>If employees are consistently more productive when working away from the office, there’s something broken about the modern workplace.</p><p>According to the Harvard Business Review article “<a href="https://hbr.org/2016/01/collaborative-overload?ref=async.twist.com" rel="noopener noreferrer">Collaborative Overload</a>”, the time employees spend on collaboration has increased by 50% over the past two decades. Researchers found it was not uncommon for workers to spend <em>a full 80% </em>of their workdays communicating with colleagues in the form of:</p><ul><li> Email – on which workers spend an average of <a href="https://theblog.adobe.com/email/?ref=async.twist.com" rel="noopener noreferrer">six hours</a> a day</li><li> Meetings – time spent in meetings since the pandemic forced companies to go remote has <a href="https://www.microsoft.com/en-us/worklab/work-trend-index/great-expectations-making-hybrid-work-work?ref=async.twist.com">ballooned by 253%</a></li><li>Instant messaging apps — the average Slack user sends an <a href="https://www.vox.com/recode/2019/5/1/18511575/productivity-slack-google-microsoft-facebook?ref=async.twist.com" rel="noopener noreferrer">average of 200 messages a day</a>, though 1,000-message power users are “not the exception”</li></ul><blockquote class="kg-blockquote-alt">As one office worker told New York Magazine, “I used to wake up and turn off the alarm and check Tinder. Now I wake up and check Slack.”</blockquote><p>This trend toward near-constant communication means that the average knowledge worker must organize their workday around multiple meetings with the time in between spent doing their work half-distractedly with one eye on email and Slack.</p><p>To make matters worse, the rise of mobile technology means that workplace communication is no longer limited to the physical workplace or work hours. We can, and do, check email and respond to messages at any time, day or night. As a result, we’re never fully off the clock. As one office worker <a href="http://nymag.com/intelligencer/2017/05/what-has-slack-done-to-the-office.html?ref=async.twist.com" rel="noopener noreferrer">told New York Magazine</a>, “I used to wake up and turn off the alarm and check Tinder. Now I wake up and check Slack.”</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://async.twist.com/content/images/2022/05/Slack-Engagement-Stats.jpg" class="kg-image" alt loading="lazy" width="1400" height="618" srcset="https://async.twist.com/content/images/size/w600/2022/05/Slack-Engagement-Stats.jpg 600w, https://async.twist.com/content/images/size/w1000/2022/05/Slack-Engagement-Stats.jpg 1000w, https://async.twist.com/content/images/2022/05/Slack-Engagement-Stats.jpg 1400w" sizes="(min-width: 720px) 720px"><figcaption>Slack <a href="https://slackhq.com/work-is-fueled-by-true-engagement?ref=async.twist.com" rel="noopener noreferrer">boasts</a> that users spend 9+ hours per workday connected to the app.</figcaption></figure><p>This highly synchronous way of working would at least be understandable if it produced results, but there is more and more evidence that all the real-time communication overhead makes it hard to focus, drains employees’ mental resources, and generally makes it more challenging to make meaningful progress on work.</p><p>I’ve written before about <a href="https://blog.doist.com/betting-against-slack?ref=async.twist.com" rel="noopener noreferrer">why we’re betting against real-time team messaging apps</a>, but it’s worth summarizing the core problems and generalizing it to most forms of synchronous communication:</p><h3 id="it-leads-to-constant-interruptions">It leads to constant interruptions. </h3><figure class="kg-card kg-image-card kg-width-wide kg-card-hascaption"><img src="https://async.twist.com/content/images/2023/01/stop-context-switching_graphic-1.png" class="kg-image" alt loading="lazy" width="1472" height="880" srcset="https://async.twist.com/content/images/size/w600/2023/01/stop-context-switching_graphic-1.png 600w, https://async.twist.com/content/images/size/w1000/2023/01/stop-context-switching_graphic-1.png 1000w, https://async.twist.com/content/images/2023/01/stop-context-switching_graphic-1.png 1472w" sizes="(min-width: 1200px) 1200px"><figcaption>Synchronous communication leads to constant context switching which fragments people's attention, making it difficult to focus on cognitively demanding work.</figcaption></figure><p>Interruptions <a href="https://ideas.repec.org/a/eee/jobhdp/v109y2009i2p168-181.html?ref=async.twist.com" rel="noopener noreferrer">split people’s attention</a> and make it more difficult to make meaningful progress on work. High-value, cognitively-demanding activities — like coding, writing, designing, strategizing, and problem-solving — require long periods of <a href="https://blog.doist.com/complete-guide-to-deep-work?ref=async.twist.com" rel="noopener noreferrer">deep, focused work</a>. Synchronous communication requires constant <a href="https://blog.doist.com/context-switching/?ref=async.twist.com" rel="noopener">context switching</a> and makes creating large, uninterrupted chunks of time during the workday impossible.</p><h3 id="it-prioritizes-being-connected-over-being-productive">It prioritizes being connected over being productive. </h3><p>In real-time environments, you’re incentivized to stay connected and available at all times. If you disconnect, discussions will move on before you even have a chance to respond to or even see them. To avoid missing out on crucial decisions and discussions, people always try to be online and in as many meetings as possible, hurting their well-being and productivity.</p><h3 id="it-creates-unnecessary-stress">It creates unnecessary stress. </h3><p>The expectation of being constantly available means that workers lack control over their schedules. They spend their workdays attending meetings and responding to requests rather than proactively setting their own agenda. </p><p>One study found that people <a href="https://www.ics.uci.edu/~gmark/chi08-mark.pdf?ref=async.twist.com" rel="noopener noreferrer">compensate for the time lost</a> to workplace interruptions by attempting to work faster, leading to “more stress, higher frustration, time pressure, and effort”. A <a href="https://amanda-au.medium.com/3-successful-things-weve-tested-as-a-remote-first-team-e140d4c6147?ref=async.twist.com">2022 Microsoft study</a> found that people often cope by working a "second shift" in the evening when they know they won't be interrupted. This type of synchronous culture quickly leads to burnout.</p><h3 id="it-leads-to-lower-quality-discussions-and-sub-optimal-solutions">It leads to lower quality discussions and sub-optimal solutions. </h3><p>When you have to respond immediately, people don’t have time to think through key issues thoroughly and provide thoughtful responses. Your first response to any given situation is often not your best response.</p><figure class="kg-card kg-embed-card"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;Writing is thinking. To write well is to think clearly. That&#39;s why it&#39;s so hard.&quot; — David McCullough<br><br>Give your team the tools to think well. <a href="https://t.co/L2hJ5PDnSs?ref=async.twist.com">pic.twitter.com/L2hJ5PDnSs</a></p>&mdash; Twist (@TwistWork) <a href="https://twitter.com/TwistWork/status/1486047478243897344?ref_src=twsrc%5Etfw&ref=async.twist.com">January 25, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</figure><h2 id="the-benefits-of-asynchronous-communication">The benefits of asynchronous communication</h2><p>Most people accept meetings and interruptions as just a part of doing business, but some companies — like <a href="https://about.gitlab.com/blog/2015/04/08/the-remote-manifesto/?ref=async.twist.com" rel="noopener noreferrer">GitLab</a>, <a href="https://zapier.com/learn/remote-work/how-build-culture-remote-team/?ref=async.twist.com" rel="noopener noreferrer">Zapier</a>, <a href="https://www.wsj.com/articles/the-next-wave-in-remote-work-flexibility-in-locationand-hours-11643993475?ref=async.twist.com">Automattic</a>, <a href="https://buffer.com/resources/asynchronous-communication/?ref=async.twist.com">Buffer</a>, and my own Doist — are embracing a more asynchronous approach to collaboration. </p><p>Here are some of the core benefits of giving employees more control over when they connect to communicate with their team:</p><h3 id="control-over-the-workday-leads-to-happier-and-more-productive-employees">Control over the workday leads to happier and more productive employees.</h3><p>In an async environment, there are no set work hours. Employees have total control over how they structure their workdays to fit their lifestyles, <a href="https://blog.doist.com/daily-schedule/?ref=async.twist.com">biorhythms</a>, and responsibilities, from childcare to simply running an errand. Some Doisters work during the night as it suits them the best. I spend an hour with my kids every morning and no one inside my async organization notices. One <a href="https://www.wsj.com/articles/workers-care-more-about-flexible-hours-than-remote-work-11643112004?ref=async.twist.com"><em>Wall Street Journal</em> survey</a> showed that workers want flexible hours <em>even more</em> than they want remote work. </p><h3 id="async-incentivizes-higher-quality-communication-over-knee-jerk-responses">Async incentivizes higher-quality communication over knee-jerk responses.</h3><p>Async communication is admittedly slower (at least in the immediate sense), but it also tends to be of higher quality. People learn to communicate more clearly and thoroughly to avoid unnecessary back-and-forths. They have the time to think through a particular problem or idea and provide more thoughtful responses. Instead of knee-jerk responses, people can reply when they’re ready. (As an added benefit, when people have the time to think through their responses, there tend to be fewer unthinking outbursts. Over the last decade, we haven't had a single serious HR issue.)</p><h3 id="better-planning-leads-to-less-stress">Better planning leads to less stress. </h3><p>Advanced planning is a must when last-minute ASAP requests aren’t an option. People learn to plan their workloads and collaborations more carefully to give enough time for coworkers to see and respond to their requests. This leads to less stressful collaborations and ultimately higher quality work.</p><h3 id="deep-work-becomes-the-default">Deep work becomes the default.</h3><p>Because employees don’t have to stay on top of each message as it comes in, they can block off large chunks of uninterrupted time to do the work that creates the most value for your organization. They can come back to process their messages in batches 1-3 times a day instead of bouncing back and forth between work and messages or meetings.</p><figure class="kg-card kg-image-card"><img src="https://async.twist.com/content/images/2022/05/Synchronous-vs-asyncrhronous-.png" class="kg-image" alt loading="lazy" width="1187" height="686" srcset="https://async.twist.com/content/images/size/w600/2022/05/Synchronous-vs-asyncrhronous-.png 600w, https://async.twist.com/content/images/size/w1000/2022/05/Synchronous-vs-asyncrhronous-.png 1000w, https://async.twist.com/content/images/2022/05/Synchronous-vs-asyncrhronous-.png 1187w" sizes="(min-width: 720px) 720px"></figure><h3 id="documentation-and-greater-transparency-become-automatic">Documentation and greater transparency become automatic.</h3><p>Because most communication happens in writing, key discussions and important information are documented automatically, particularly if you use a more public tool than email. It’s easier to share and reference those conversations later. For example, at Doist instead of asking for or explaining why a certain decision was made or the status of a particular project, we can search for and/or link to the relevant <a href="https://twist.com/home?ref=async.twist.com" rel="noopener noreferrer">Twist</a> threads.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://async.twist.com/content/images/2023/01/async-communication_graphic-1.png" class="kg-image" alt loading="lazy" width="1488" height="1182" srcset="https://async.twist.com/content/images/size/w600/2023/01/async-communication_graphic-1.png 600w, https://async.twist.com/content/images/size/w1000/2023/01/async-communication_graphic-1.png 1000w, https://async.twist.com/content/images/2023/01/async-communication_graphic-1.png 1488w" sizes="(min-width: 720px) 720px"><figcaption>In this monthly update, our CMO, Brenna Loury, links to relevant threads so people can catch up on progress and follow along asynchronously.</figcaption></figure><h3 id="collaboration-across-time-zones-is-seamless">Collaboration across time zones is seamless.</h3><p>Communication between time zones becomes smooth, and no one is at an informational disadvantage because of the time zone. That means you’re not limiting your hiring pool to specific time zones. You can build a stellar and truly diverse team from anywhere in the world.</p><h3 id="it-puts-in-office-and-remote-employees-on-the-same-footing">It puts in-office and remote employees on the same footing.</h3><p>The biggest challenge that faces hybrid workplaces is <a href="https://blog.doist.com/remote-first/?ref=async.twist.com">preventing remote employees from becoming second-class citizens</a>. When communication happens asynchronously, in-office and remote employees have access to the same information and conversations. They have an equal opportunity to contribute to discussions and decisions.   </p><p>While employee retention is a bit of a vanity metric, we think the async culture is one of the core reasons most people hired at Doist over the past 10 years have stayed with us. Our employee retention is 90%+ — much higher than the overall tech industry. For example, even a company like Google — with its legendary campuses full of perks from free meals to free haircuts — has a median tenure of just <a href="https://www.forbes.com/sites/forbesbusinessdevelopmentcouncil/2018/06/29/the-real-problem-with-tech-professionals-high-turnover/?ref=async.twist.com" rel="noopener noreferrer">1.1 years</a>. Freedom to work from anywhere at any time beats fun vanity perks any day, and it costs our company $0 to provide.</p><h2 id="but-you-still-need-synchronous-communication-too">But! You still need synchronous communication too</h2><p>As with most things in life, async culture has pros and cons. Doist has experienced them both.</p><p>At the beginning of our async journey, we got rid of most meetings as we thought they were a waste of time. Most things could be done via written communication. But not long into that experiment, Brenna, our CMO, started a candid thread about how we had lost the human element, how she felt disconnected and that she missed seeing other Doisters face-to-face.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://async.twist.com/content/images/2023/01/async-communication_graphic-2_resize.png" class="kg-image" alt loading="lazy" width="1360" height="1018" srcset="https://async.twist.com/content/images/size/w600/2023/01/async-communication_graphic-2_resize.png 600w, https://async.twist.com/content/images/size/w1000/2023/01/async-communication_graphic-2_resize.png 1000w, https://async.twist.com/content/images/2023/01/async-communication_graphic-2_resize.png 1360w" sizes="(min-width: 720px) 720px"><figcaption>Discussing the limits of async work asynchronously. 🙃</figcaption></figure><p>We learned that we needed to mix in synchronous communication where it makes sense: for example, in 1-on-1s and weekly team meetings. It’s hard to build rapport and personal relationships with only written communication. In the words of Daft Punk, “we are human after all”.</p><p>Here are some of the things we do to <a href="https://blog.doist.com/humanizing-async-work/?ref=async.twist.com">build personal connections on the team</a>:</p><ul><li>Everyone has at least one monthly 1-on-1 with their direct report to touch base, discuss roadblocks, set professional development goals, etc.</li><li>We organize monthly casual team video hangouts where people from different teams can get together to chat about non-work things.</li></ul><figure class="kg-card kg-embed-card"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">I had a blast catching up with <a href="https://twitter.com/aboutboard?ref_src=twsrc%5Etfw&ref=async.twist.com">@aboutboard</a>, <a href="https://twitter.com/odsamuels?ref_src=twsrc%5Etfw&ref=async.twist.com">@odsamuels</a>, and <a href="https://twitter.com/jvalente?ref_src=twsrc%5Etfw&ref=async.twist.com">@jvalente</a> about life and work. <br><br>We&#39;ve got lots of casual hangouts happening this week at <a href="https://twitter.com/doist?ref_src=twsrc%5Etfw&ref=async.twist.com">@doist</a>! Little things like this help us feel connected to all the great people we work with! <a href="https://twitter.com/hashtag/remotework?src=hash&ref_src=twsrc%5Etfw&ref=async.twist.com">#remotework</a> <a href="https://t.co/lAhAL8LQSw?ref=async.twist.com">pic.twitter.com/lAhAL8LQSw</a></p>&mdash; Andrew Gobran (@andrewgobran) <a href="https://twitter.com/andrewgobran/status/1179435521170378753?ref_src=twsrc%5Etfw&ref=async.twist.com">October 2, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</figure><ul><li>Most teams hold weekly meetings. While the format differs from team-to-team, these meetings tend to focus on building rapport rather than giving status updates. Several teams use <a href="https://blog.chaddickerson.com/2019/01/30/the-magic-of-the-personal-check-in-red-yellow-green/?ref=async.twist.com">red/yellow/green checkins</a> as a way to connect on a more personal level. </li><li>We organize yearly company-wide and smaller team retreats where people can connect in real life. </li></ul><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://async.twist.com/content/images/2023/01/Doist-Retreat-2019.jpg" class="kg-image" alt loading="lazy" width="1920" height="1091" srcset="https://async.twist.com/content/images/size/w600/2023/01/Doist-Retreat-2019.jpg 600w, https://async.twist.com/content/images/size/w1000/2023/01/Doist-Retreat-2019.jpg 1000w, https://async.twist.com/content/images/size/w1600/2023/01/Doist-Retreat-2019.jpg 1600w, https://async.twist.com/content/images/2023/01/Doist-Retreat-2019.jpg 1920w" sizes="(min-width: 720px) 720px"><figcaption>Our 2019 company-wide retreat in the Azores.</figcaption></figure><ul><li>We fly new team members out to spend a week working in-person with their team mentor. This helps new people feel more connected and comfortable asking questions right off the bat.</li><li>We instituted an annual meet-up perk that Doisters can spend on meals, activities, transportation, etc. when they get together with teammates outside of organized retreats. </li><li>We reimburse the cost of a coworking space so our people can get outside their homes and be in a more office/community setting.</li></ul><p>(If you’re interested, I’ve written more on the very related topic of <a href="https://blog.doist.com/mental-health-and-remote-work?ref=async.twist.com" rel="noopener noreferrer">remote work and mental health</a>.)</p><p>Today, we minimize the number of meetings, but <a href="https://blog.doist.com/replace-meetings-twist/?ref=async.twist.com">we have meetings when they make sense</a>. Our current communication stack looks something like this:</p><ul><li>70% async using Twist, Github, Google Docs, Figma, and Todoist</li><li>25% sync using something like Zoom, Around, or Google Meet</li><li>5% in-person meetups, e.g., annual company and smaller team retreats</li></ul><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://async.twist.com/content/images/2023/01/async-vs-aync-tools-pyramid-1-1.png" class="kg-image" alt loading="lazy" width="1538" height="975" srcset="https://async.twist.com/content/images/size/w600/2023/01/async-vs-aync-tools-pyramid-1-1.png 600w, https://async.twist.com/content/images/size/w1000/2023/01/async-vs-aync-tools-pyramid-1-1.png 1000w, https://async.twist.com/content/images/2023/01/async-vs-aync-tools-pyramid-1-1.png 1538w" sizes="(min-width: 720px) 720px"><figcaption>Our communication stack</figcaption></figure><p>In general, use synchronous communication when the following is true:</p><ul><li>You want to build rapport with people (e.g., a 1-on-1 or team meeting).</li><li>You need to provide critical feedback or discuss other sensitive topics.</li><li>You have a lot of unknowns and you want to brainstorm different ideas and solutions.</li><li>There are a lot of moving variables and you want to bring everyone on the same page quickly, e.g., via a project kickoff meeting.</li><li>A crisis happens that requires immediate attention, e.g., a server crashes. We use Telegram with the notifications turned on at all times for emergency communications only.</li></ul><p>Synchronous communication should be the exception, not the rule.</p><figure class="kg-card kg-image-card kg-width-wide kg-card-hascaption"><img src="https://async.twist.com/content/images/2022/09/Snippets.png" class="kg-image" alt loading="lazy" width="1200" height="616" srcset="https://async.twist.com/content/images/size/w600/2022/09/Snippets.png 600w, https://async.twist.com/content/images/size/w1000/2022/09/Snippets.png 1000w, https://async.twist.com/content/images/2022/09/Snippets.png 1200w" sizes="(min-width: 1200px) 1200px"><figcaption>Instead of standup meetings, an <a href="https://twist.com/help/articles/use-scheduled-threads-with-twist?ref=async.twist.com">automated Twist thread</a> prompts each team member to reflect on the past week and plan for the week to come.</figcaption></figure><h2 id="how-to-move-your-team-toward-asynchronous-communication">How to move your team toward asynchronous communication</h2><p>Moving from sync to async isn’t going to happen overnight. It takes a profound shift in tools, processes, habits, and culture. Here are some concrete steps you can take, both individually and as a team leader, to get started.</p><h3 id="things-you-can-do-individually">Things you can do individually:</h3><p><strong>Overcommunicate.</strong> When sending a message, include as much information as possible. Visualize things with screenshots or screen recordings with apps like <a href="https://www.getcloudapp.com/?ref=async.twist.com">CloudApp</a> and <a href="https://www.loom.com/?ref=async.twist.com">Loom</a>. Be clear about what you need from the other person and what the deadline is. A few extra minutes adding details and editing for clarity on the front-end can save days of back-and-forths in an async environment.</p><p></p><!--kg-card-begin: markdown--><table>
+<thead>
+<tr>
+<th>Under-communication</th>
+<th>Over-communication</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Can you please provide me with reporting on content once you get a chance?</td>
+<td>Can you please provide me with a short report (a few paragraphs) on our blog metrics from Google Analytics for next Tuesday by 2pm EST? I'd like to know top posts, unique page views, bounce rate, and conversation rate. Thanks!</td>
+</tr>
+</tbody>
+</table>
+<!--kg-card-end: markdown--><p></p><p><strong>Plan ahead to give people time to consider your message. </strong>For example, “I want to finish this in 2 days and would love your input”, instead of “I need your feedback in the next hour.”</p><p><strong>Say no to unnecessary meetings. </strong>It can be extremely uncomfortable to say no to a meeting, particularly in meeting-heavy work cultures. But there are tactful ways to nudge people towards async-first communication. Next time someone asks for a "quick call" try one of <a href="https://blog.dropbox.com/topics/work-culture/-virtual-first-toolkit--how-to-communicate-effectively?ref=async.twist.com">these incredibly useful scripts from Dropbox</a>:  </p><blockquote>“Thanks for including me! I’m wondering if we could try to solve this in a Twist thread instead?”</blockquote><blockquote>“I’ve been in so many meetings lately, but I’m trying to be more disciplined about my schedule. Could we try to solve this without a meeting, first?”</blockquote><blockquote>“I’d be happy to give you feedback on that! Before we schedule a meeting, could I review it in Paper/a Google Doc/Figma/a GitLab issue?”</blockquote><p><strong>Before meetings, start a Twist thread or document.</strong> Share all relevant information and discuss key issues before the meeting so that everyone can come with a complete understanding of the topic at hand.</p><p><strong>After meetings, document discussions and outcomes. </strong>Start or continue a Twist thread or document so that people who weren’t there can find that information. We’ve even started experimenting with recording the video of our meetings so that others can “attend” asynchronously. An app like <a href="https://tldv.io/?ref=async.twist.com">TL;DV</a> makes it easy to time stamp, annotate, and tag teammates in meeting recordings so anyone who missed the meeting can skip straight to the parts that are relevant to them. </p><p><strong>Turn off notifications – try removing work apps from your phone altogether. </strong>Instead, set aside specific <a href="https://blog.doist.com/time-blocking?ref=async.twist.com">time blocks</a> to check and respond to emails and messages during the day.</p><figure class="kg-card kg-image-card"><img src="https://25r4fj22vjh18a4i91qamh06-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/async-communication_graphic-4_resize.png" class="kg-image" alt loading="lazy"></figure><p><strong>Use waiting time productively. </strong>We’ve found that waiting for a reply isn’t a massive problem as there’s always something else to work on.</p><p><strong>Always check your document sharing settings.</strong> This seems like a small thing, but if someone needs to request access, it can lead to hours or even a full day of delay in an async workplace.</p><h3 id="things-you-can-do-as-a-team-leader">Things you can do as a team leader:</h3><p><strong>Promote writing and communication as core skills to master.</strong> This will reduce back-and-forths and help people get to the core of things faster. Everyone <a href="https://blog.doist.com/writing-tips/?ref=async.twist.com" rel="noopener noreferrer">needs to be a great writer</a> in an async workplace.</p><p><strong>Evaluate people based on their output and results,</strong> not how responsive they are or the number of hours they work. We’ve written more on how to <a href="https://blog.doist.com/measure-improve-employee-productivity/?ref=async.twist.com" rel="noopener noreferrer">measure employee productivity</a>.</p><p><strong>Abolish required work hours or the requirements to come into an office.</strong> This will allow you to hire from anywhere in the world and will naturally move your organization towards more asynchronous communication when taps on the shoulder are no longer an option.</p><p><strong>Emphasize trust, organization, independence, and accountability.</strong> Without these values, asynchronous communication will never work. For example, one of Doist’s core values states that others can trust that you’ll deliver on time and your teammates don’t need to worry about you keeping your word. Brenna Loury, our CMO, has written in more detail about <a href="https://blog.doist.com/trust-remote-workplace?ref=async.twist.com" rel="noopener noreferrer">how to build trust</a> in a remote, async-first “workplace”.</p><p><strong>Adopt a <a href="https://www.forbes.com/sites/quora/2012/10/02/how-well-does-apples-directly-responsible-individual-dri-model-work-in-practice/?ref=async.twist.com#67d11fd7194c" rel="noopener noreferrer">Direct Responsible Individual</a> (DRI) model for management and decision-making.</strong> Made popular by Apple, DRI means a single person is responsible for any given area or project inside the company. That person doesn’t do everything themselves but instead organizes the team or project, makes key decisions, and generally owns the timeline and results. The more you can decrease the number of people involved in decisions, decentralize authority, and increase individual accountability, the more efficient your team will be. This is true in any company but is especially crucial for success in an async environment.</p><p><strong>Set reasonable, team-wide expectations for acceptable response times.</strong> For example, at Doist, we expect people to answer within 24 hours.</p><p><strong>Make transparency and documentation a priority.</strong> For example, everyone at Doist can read all of the core discussions regardless of which team it is. This includes leadership discussions. With transparency, people don’t miss crucial conversations or decisions. They can work more efficiently and independently when they don’t have to ask others for the information they need.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://async.twist.com/content/images/2023/01/async-communication_graphic-5_resize.png" class="kg-image" alt loading="lazy" width="1338" height="997" srcset="https://async.twist.com/content/images/size/w600/2023/01/async-communication_graphic-5_resize.png 600w, https://async.twist.com/content/images/size/w1000/2023/01/async-communication_graphic-5_resize.png 1000w, https://async.twist.com/content/images/2023/01/async-communication_graphic-5_resize.png 1338w" sizes="(min-width: 720px) 720px"><figcaption>Everyone on the Doist team has access to all of the leadership conversations in our public “Doist Heads” channel.</figcaption></figure><p><strong>Use tools that promote transparency, deep work, and async communication.</strong> e.g., Github pull requests, Basecamp conversations, and <a href="https://get.twist.help/hc/en-us/articles/115003629449-What-are-threads-?ref=async.twist.com" rel="noopener noreferrer">Twist threads</a>. Don’t use email internally. While email can be used asynchronously, it also locks information inside people’s inboxes where no one else can find it. Collaboration becomes much less efficient when people can’t find the information they need. More on the <a href="https://get.twist.help/hc/en-us/articles/115003654589?ref=async.twist.com">pitfalls of relying on email for team communication</a>.</p><p><strong>For communication-heavy roles like tech support or client services, implement a rotating coverage system. </strong>Some roles are more conducive to asynchronous communication than others, but all can benefit from blocking off chunks of time for deep work. Anti-Agency Group founder <a href="https://amanda-au.medium.com/3-successful-things-weve-tested-as-a-remote-first-team-e140d4c6147?ref=async.twist.com">Amanda Au</a> describes how their team uses a rotating coverage system to balance client communications and creative work:</p><blockquote>While we haven't fully adopted an async model because we are a client services team, we promote DND (do-not-disturb) time blocks or full days. During your DND time, you'll have a teammate cover for you on any incoming client comms so that you can truly have undisturbed time to finish a presentation, ideate on strategy, or dive deep into reporting.</blockquote><p>Doist's own head of front-end development, Henning, wrote more about <a href="https://blog.doist.com/heroes-housekeeping-days/?ref=async.twist.com">how we use a rotating "hero system" and "house-keeping days"</a> at Doist to create space for deep work even in communication-heavy roles. </p><p><strong>Have communication channels for emergencies.</strong> Doist has Telegram rooms and phone numbers that we use as an emergency mechanism. We use these a few times per year for truly urgent incidents. The vast majority of things aren’t urgent and don’t require an instant response.</p><h2 id="async-is-an-uphill-battle-that-challenges-the-status-quo">Async is an uphill battle that challenges the status quo</h2><p>We know that we are challenging the status quo and that calm, asynchronous communication isn’t the current norm. It’s going to take a paradigm shift to change things.</p><p>We’re betting that the most successful companies and teams will be the ones who make this shift in the future. It will be the teams that don’t require their employees to be always-on, prioritize asynchronous communication to create space for deep work, and allow employees to disconnect and recharge fully. We’re excited to share our journey and invite you to explore this space.</p><hr><p><strong>What’s Twist? </strong>Twist is an async messaging app for teams burned out by real-time chat, meetings, and email.</p><p>You don’t need to use Twist to get a ton of value out of this newsletter and community. But if the topics we talk about resonate with you, there’s a good chance the app will too. <a href="http://twist.com/?ref=async.twist.com">See what makes Twist different →</a></p><p>🌎 Built asynchronously by the fully remote team at <a href="https://doist.com/?ref=async.twist.com">Doist</a></p>
+    </div>
+
+            <footer class="single-footer container small">
+    <div class="single-footer-left">
+            <div class="navigation navigation-previous">
+                <a class="navigation-link" href="/member-thread-what-is-async-to-you/" aria-label="Previous post">
+                    <span class="navigation-icon"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <path d="M26.667 14.667v2.667h-16L18 24.667l-1.893 1.893L5.547 16l10.56-10.56L18 7.333l-7.333 7.333h16z"></path>
+</svg>
+</span>
+                </a>
+            </div>
+    </div>
+
+    <div class="single-footer-middle">
+            <div class="single-footer-top">
+                <h3 class="single-footer-title">Published by:</h3>
+                <div class="author-list">
+                        <div class="author-image-placeholder u-placeholder square">
+                            <a href="/author/amir/" title="Amir Salihefendic">
+                                    <img class="author-image u-object-fit" src="//www.gravatar.com/avatar/34386a146c8a6064f77ebb9f819bba1b?s&#x3D;250&amp;d&#x3D;mm&amp;r&#x3D;x" alt="Amir Salihefendic" loading="lazy">
+                            </a>
+                        </div>
+                </div>
+            </div>
+
+            <div class="single-footer-bottom">
+                <div class="share">
+                    <a class="share-link share-link-facebook"
+                        href="https://www.facebook.com/sharer.php?u=https://async.twist.com/asynchronous-communication/"
+                        target="_blank" rel="noopener noreferrer">
+                        <svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.9981 11.9991C23.9981 5.37216 18.626 0 11.9991 0C5.37216 0 0 5.37216 0 11.9991C0 17.9882 4.38789 22.9522 10.1242 23.8524V15.4676H7.07758V11.9991H10.1242V9.35553C10.1242 6.34826 11.9156 4.68714 14.6564 4.68714C15.9692 4.68714 17.3424 4.92149 17.3424 4.92149V7.87439H15.8294C14.3388 7.87439 13.8739 8.79933 13.8739 9.74824V11.9991H17.2018L16.6698 15.4676H13.8739V23.8524C19.6103 22.9522 23.9981 17.9882 23.9981 11.9991Z"/></svg>
+                        Share
+                    </a>
+                    <a class="share-link share-link-twitter"
+                        href="https://twitter.com/intent/tweet?url=https://async.twist.com/asynchronous-communication/&text=What%20the%20heck%20is%20asynchronous%20communication%20anyway%3F"
+                        target="_blank" rel="noopener noreferrer">
+                        <svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg>
+                        Tweet
+                    </a>
+                </div>
+            </div>
+    </div>
+
+    <div class="single-footer-right">
+            <div class="navigation navigation-next">
+                <a class="navigation-link" href="/best-work-life-advice/" aria-label="Next post">
+                    <span class="navigation-icon"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <path d="M5.333 14.667v2.667h16L14 24.667l1.893 1.893L26.453 16 15.893 5.44 14 7.333l7.333 7.333h-16z"></path>
+</svg>
+</span>
+                </a>
+            </div>
+    </div>
+</footer>
+</article>
+                            <div id="comments" class="comment container small">
+        <div id="hyvor-talk-view"></div>
+        <script type="text/javascript">
+            var HYVOR_TALK_WEBSITE = 7167; var HYVOR_TALK_CONFIG = { url: false,
+            id:
+            6282a4c857f34c003d2adb70
+            };
+        </script>
+        <script
+            async
+            type="text/javascript"
+            src="//talk.hyvor.com/web-api/embed.js"
+        ></script>
+    </div>
+    </main>
+</div>
+
+
+
+        </div>
+
+        <footer class="site-footer container">
+    <div class="footer-inner">
+        <div class="footer-left">
+            <div class="copyright">
+                The Async Newsletter © 2025
+            </div>
+        </div>
+
+        <nav class="footer-nav">
+                    <a class="menu-item menu-item-data-privacy" href="https://doist.com/privacy">Data &amp; privacy</a>
+        <span class="sep">•</span>
+        <a class="menu-item menu-item-about-twist" href="https://twist.com">About Twist</a>
+        <span class="sep">•</span>
+        <a class="menu-item menu-item-were-hiring" href="https://doist.com/careers">We&#x27;re hiring!</a>
+        <span class="sep">•</span>
+
+            <a class="menu-item badge" href="https://ghost.org/" target="_blank" rel="noopener noreferrer">Published with Ghost</a>
+        </nav>
+
+        <div class="footer-right">
+            <div class="social">
+
+                    <a class="social-item social-item-twitter"
+                        href="https://x.com/twistwork" target="_blank"
+                        rel="noopener noreferrer" aria-label="Twitter">
+                        <svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg>
+                    </a>
+            </div>
+        </div>
+    </div>
+</footer>
+        <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe.
+        It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides.
+          PhotoSwipe keeps only 3 of them in the DOM to save memory.
+          Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+
+    <script>
+        if (document.body.classList.contains('with-full-cover') && (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.platform))) {
+            document.getElementsByClassName('cover')[0].style.height = window.innerHeight + 'px';
+        }
+    </script>
+
+    <script src="https://async.twist.com/assets/built/main.min.js?v=2b8eaaac70"></script>
+
+    
+</body>
+
+</html>

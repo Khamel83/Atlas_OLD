@@ -1,0 +1,303 @@
+# Don’t call this man the “next Obama” | Vox
+
+**Source**: https://www.vox.com/policy-and-politics/2017/10/27/16550322/michigan-governor-el-sayed
+**Type**: article
+**Created**: 2025-08-13T16:55:03.943823
+
+---
+
+title: Don’t call this man the “next Obama” | Vox
+source: https://www.vox.com/policy-and-politics/2017/10/27/16550322/michigan-governor-el-sayed
+date: 2025-08-13T16:55:02.429212
+tags: []
+---
+A young politician heralded as [“the new
+Obama”](https://www.theguardian.com/us-news/2017/aug/24/next-obama-abdul-el-
+sayed-first-muslim-governor-michigan) does not, in fact, think too highly of
+Barack Obama’s politics.
+
+Dr. Abdul El-Sayed, 32, will become the country’s first Muslim governor if he
+wins in 2018. But first he needs to take on the Democratic Party favorite in
+the primary, former Michigan Senate minority leader Gretchen Whitmer, whom
+he’s trying to challenge from the left.
+
+[National](https://www.theguardian.com/us-news/2017/aug/24/next-obama-abdul-
+el-sayed-first-muslim-governor-michigan)
+[media](https://www.vice.com/en_us/article/4x97yd/more-muslims-are-running-
+for-office-in-a-vile-political-climate)
+[stories](https://washingtonmonthly.com/2017/07/19/the-challenges-of-running-
+to-be-the-first-muslim-governor/) have compared El-Sayed to Obama; after all,
+he’s charismatic, was educated at the world’s most prestigious universities,
+and is racing to break a major barrier in American politics at a young age.
+He’s catching the attention of national Democrats too. Not long after El-
+Sayed’s latest [campaign video went
+viral](https://twitter.com/AbdulElSayed/status/922799613337272320), former
+Obama speechwriter Jon Favreau [tweeted a link to it]() with the caption,
+“Reminds me of someone I used to work for.”
+
+“I get compared to Obama because my name is funny, and I’m brown, and my
+politics are about inspiring us to believe in each other again,” he told Vox.
+“But when it comes to our political positions, I believe that right now we
+need a set of solutions that remind us that the people should be the core of
+what we do in government.”
+
+While El-Sayed is compared to Obama, a better ideological comparison might be
+Bernie Sanders. El-Sayed shares the views of the rising populist left on
+health care, immigration, economics, and foreign policy. He represents a shift
+that could ultimately redefine the Democratic Party, as it increasingly takes
+up the cause of economic inequality and questions the role of corporations and
+big money in politics.
+
+“[Obama] had fairly centrist, middle-of-the-road Democratic policies,” El-
+Sayed told me. “There’s frustration [among voters] with the fact that they’re
+being told by elites that their economy is back and that they should just be
+happy. But it’s not. Frankly, the economic comeback has largely benefited
+corporations and has not really benefited people like them.”
+
+El-Sayed is trailing Whitmer by double digits, though [at least one recent
+poll shows](http://mrgmi.com/2017/09/schuette-whitmer-lead-in-primary-
+battles/) most Michigan Democratic voters are still undecided. He’s pulled in
+an impressive $1.6 million fundraising haul, funded entirely by grassroots
+donors, but that still puts him behind Whitmer, who has
+[raised](http://www.freep.com/story/news/local/michigan/2017/10/25/michigan-
+governor-election-shri-thanedar-funding/797795001/) $2.3 million. Another
+candidate, Shri Thanedar, is an Ann Arbor businessman who has self-funded his
+campaign with a $3 million loan. Yet another candidate, former Xerox executive
+Bill Cobbs, has [also thrown](http://www.macombdaily.com/general-
+news/20170110/william-cobbs-former-xerox-executive-files-to-run-for-governor)
+his hat into the crowded Democratic ring.
+
+The race could end up a test of which version of party politics represents
+Democratic voters in Michigan. Obama won Michigan twice, but Sanders beat
+Hillary Clinton in the primary. Clinton ran as an Obama third-term candidate,
+while El-Sayed appears to be eager to reject that label.
+
+I spoke to El-Sayed on the phone about the comparisons to Obama, why he think
+he can implement a single-payer health care system in his state of Michigan
+(though Vermont and California have failed), and what it’s like to run for
+governor as a Muslim. A lightly edited transcript of our conversation follows.
+
+## The “new Obama” isn’t too hot on Obama
+
+Photo by Alex Wong/Getty Images
+
+There have been a few profiles and pundits who have called you the “new
+Obama,” and I think the parallels are interesting.
+
+But I’m more interested in the differences — he didn’t reject [corporate
+donations](https://www.propublica.org/article/obamas-flip-flops-on-money-in-
+politics-a-brief-history) as you have, or really push for single-payer as you
+are.
+
+There’s a [story](http://www.theamericanconservative.com/articles/obama-is-a-
+republican/) that says Obama won by combining higher black turnout with a
+safer and more centrist policy message. To what extent is your campaign a
+divergence from that idea? Or am I reading Obama’s legacy incorrectly
+altogether?
+
+I’m not the next anybody. That’s not my framing of myself at all — I operate
+independently of anybody.
+
+I’m very thankful Obama was president of the United States while I was a young
+man who also happened to be brown and the child of immigrants and have a funny
+name. I’m very thankful for what he was able to change in our politics about
+who could and couldn’t aspire to leadership.
+
+But there are a lot of things I disagree with President Obama on — in terms of
+both domestic and, certainly, international politics. I’m not him, and I have
+no intention of being him.
+
+Your interpretation of him is right. He had fairly centrist, middle-of-the-
+road Democratic policies. You’ll have to remember it was a different time —
+the experience of a lag-recession, I think, has really changed the minds and
+hearts of a lot of Americans in a lot of places.
+
+There’s frustration with the fact that they’re being told by elites that their
+economy is back and that they should just be happy. But it’s not. Frankly, the
+economic comeback has largely benefited corporations and has not really
+benefited people like them. ...
+
+I don’t apologize for believing in the positive value of what government can
+do if it’s run sufficiently and honestly and not corrupted and funded to do
+the things it’s supposed to do. I’ll stand by that over the course of my
+political career.
+
+I get compared to Obama because my name is funny and I’m brown and, I hope, my
+politics are about inspiring us to believe in each other again. But when it
+comes to our political positions, I believe that right now we need a set of
+solutions that reminds us that the people should be the core of what we do in
+government — that solutions to the problems we face have to engage government
+in real ways, and that corporations have, hook line in sinker, run away with
+our politics in real ways. And that’s a big problem.
+
+And you think Obama didn’t really remedy the economy, right?
+
+I don’t think he did. Look at where we are. He did a lot of good things during
+his presidency — the fact that he in Michigan bailed out the automotive
+industry was crucial. The state of our state would be very different right
+now, and so I’m very thankful for many of the things he did.
+
+But I don’t agree with him on everything. I don’t think he was strong enough
+on things like health care. I don’t think he was strong enough when it comes
+to regulating big banks. I don’t think he was strong enough when it came to
+campaign finance reform, or strong enough on immigration.
+
+He was someone who was, at the end of the day, not able to inspire the people
+on the other side of the aisle to see things his way. Is that his fault? I
+don’t think so — he was up against a very united Republican establishment
+whose goal it was to shut down everything that came out of his White House.
+
+But I’ll be honest. I don’t see myself being him at all. I’ve done a lot of
+reading about him; he and I were very different people. Obama was a very cool,
+cautious, collected person —
+
+Right, and you’re a maniac who doesn’t believe in the value of reason.
+
+[laughs] Obviously, one has to be cautious and collected. But I believe at the
+end of the day, the moment calls you to something — I promise you, I really
+was never supposed to run for office. It was not something that was in my
+cards. ...
+
+I think we’re different people. Obviously, we get put in the same boat because
+of the demographic similarity we share, and I don’t mind being compared to him
+— there’s a lot I really admire. But when it comes to the [policy] positions
+and politics, he and I differ substantially.
+
+We need to be a lot more unapologetic about the role of government in solving
+critical challenges people face in this moment. I will always appreciate
+Obama’s efforts to unite, but I believe in a certain progressive approach to
+things because, right now, the scales have tipped very far toward one side —
+toward the biggest unaccountable economic players in our society.
+
+Which is always meant to be checked by what government does — we have gone
+very far to one side, and we have to say, “There are some things only
+government can solve.” And otherwise, people will suffer.
+
+Right now this moment requires a different approach.
+
+## Why El-Sayed thinks Michigan can succeed on single-payer where Vermont and
+California failed
+
+Photo by Win McNamee/Getty Images
+
+Can you explain how you arrived at supporting single-payer?
+
+If you look at how societies have allocated resources for health care, there’s
+no question that some sort of government involvement, as either a payer or a
+provider, is important for addressing the bad incentives that exist in the
+health care system — the fact that insurers want to make a buck, the fact
+providers want to make a buck, and that often leads to care not aligned with
+what’s best for patients.
+
+You look at a single-provider system like the UK — it vastly outperforms the
+United States’ [system]. It’s clear we need some kind of government
+involvement. I don’t believe we need a single-_provider_ system, simply
+because there’s too much operational capacity that has to be built. [El-Sayed
+is talking here about something akin to a “VA-for-all”
+[system](http://www.chicagotribune.com/news/opinion/letters/ct-charlie-gard-
+single-payer-britain-20170706-story.html), where providers, rather than just
+insurers, are run by the government.]
+
+I do believe in a [single-_payer_ system](/cards/single-payer). Compare us to
+Canada — we spend 19 cents on the dollar; depending on what province you go
+to, they spend 35 to 40 percent less than we do. Every resident of Canada has
+access to the care they need, when they need it. ...
+
+That leads to a life expectancy difference. They outlive us by, on average,
+one year and a half. They save, everybody gets care, and they live longer than
+we do, and infant mortality rates are substantially lower.
+
+By any metric that anybody measures about health care performance, the
+Canadian system outperforms ours. Medicare-for-all is an attempt to build out
+a single-payer system in the United States, leveraging a public system that
+already exists on the books, which is Medicare. If the politics worked out at
+the federal level, it’d be a fantastic boon for all Americans.
+
+There’s a robust discussion over whether supporting single-payer is easier to
+implement at the state or federal level.
+
+It’s been remarkably difficult to pull off for deeply blue states like Vermont
+and California. So why is Michigan different?
+
+I believe that getting it done at the state level is going to be far easier
+than getting it done at the federal level, because you’re dealing with
+substantially less heterogeneity. And you’re talking about solutions that
+really can take into account a smaller breadth of bureaucracy when you’re
+enacting them.
+
+I’d love to be able to leverage riders in the ACA to empower our state
+government to act in this way. If you look at the history of the Canadian
+health care system, it didn’t start federally. It was built out across the
+provinces and then ultimately became federal policy after that.
+
+This is a moment where we need state-level leadership, and Michigan is a great
+place to act. I think the fact we have already taken the Medicaid waiver, for
+example, I think there’s a lot we can do here.
+
+The main problem they ran into Vermont was getting the tax hike through the
+powerful business community, and that appears to be part of why it’s stalling
+in California too.
+
+Why would Michigan be the first state to figure this out?
+
+Michigan businesses have had the albatross of having to provide health care
+for their employees for quite a long time, and in circumstances where it’s
+really threatening to the business.
+
+Back in 2007-’08, when General Motors was facing bankruptcy, it was paying 15
+cents on the dollar for health care not just for employees but also for
+retirees. Now, providing health care in the United States is extremely
+expensive — and what folks in Vermont and California have not always succeeded
+at is showing why, over time, single-payer translates into reduced overall
+costs for employees, even when you think about the tax hike. Because at the
+end of the day, this is the only way to control the incentives that are
+leading businesses to spend more and more on health care.
+
+There’s a responsibility here when we talk about this program to make sure
+we’re standing in the shoes of businesses and employers to explain why this is
+something we want to do.
+
+So if you’re able to say, “Listen, this will look like a tax hike, but this is
+the only way to bring down the costs of health care for you, and you won’t
+have to deal with the headache of providing your employees health care, it’s a
+pretty good deal” — there’s substantial will for this in the business
+community.
+
+## El-Sayed on trying to be the first Muslim governor in US history
+
+You’re running to be the first Muslim governor in American history. I’m
+curious if you’ve encountered any Islamophobia on the campaign trail and what
+you’ve seen and heard.
+
+I’m not running as a Muslim. I am a Muslim who is running to be governor of my
+state. I don’t think being Muslim is a factor in the question of whether I’d
+be the best governor of my state, simply because our Constitution tells us
+there should be no religious test for leadership.
+
+I hope to be the best governor Michigan has ever had. I also happen to be
+Muslim — that informs my personal life and provides me a lot of inspiration to
+build a more just, equitable, and sustainable world of the kind I want to hand
+off to my little girl. It’s part of who I am in my own home.
+
+I’ve been all over the state now, and a lot is made of Islamophobia in the
+current moment. I gotta tell you the vast, vast, vast majority of people don’t
+care that much. Some people ask about it, but they’re not as interested in how
+I pray or what language I pray in. [They are interested] in what I pray for.
+
+Like most Michiganders who pray, and even those who don’t, what comes out in
+my prayers is a prayer for my family and my yet-unborn daughter and my parents
+and wife and my community and my state — and the University of Michigan
+football team.
+
+That’s what usually comes out, and usually, most people agree on those things.
+Some people who speak out particularly loudly want to play to a narrative that
+the current occupant of the United States [presidency] has pushed.
+
+But it’s a small group of people. And if you don’t pay them any mind, they
+don’t have any power over you. Really, the story of America is that we have
+called ourselves to something higher — there’s something beautiful about “a
+more perfect union.” It implies we are not perfect and calls us to be more
+perfect.
+
+And I honestly believe my run right now is part of calling us to that more
+perfect union.

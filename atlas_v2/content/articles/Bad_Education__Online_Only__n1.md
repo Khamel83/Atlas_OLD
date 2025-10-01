@@ -1,0 +1,311 @@
+# Bad Education | Online Only | n+1
+
+**Source**: http://nplusonemag.com/bad-education
+**Type**: article
+**Created**: 2025-08-13T20:53:42.442423
+
+---
+
+title: Bad Education | Online Only | n+1
+source: http://nplusonemag.com/bad-education
+date: 2025-08-13T20:53:37.052830
+tags: []
+---
+The Project On Student Debt estimates that the average college senior in 2009
+graduated with $24,000 in outstanding loans. Last August, student loans
+surpassed credit cards as the nation’s single largest source of debt, edging
+ever closer to $1 trillion. Yet for all the moralizing about American consumer
+debt by both parties, no one dares call higher education a bad investment. The
+nearly axiomatic good of a university degree in American society has allowed a
+higher education bubble to expand to the point of bursting.
+
+Since 1978, the price of tuition at US colleges has increased over 900
+percent, 650 points above inflation. To put that number in perspective,
+housing prices, the bubble that nearly burst the US economy, then the global
+one, increased only fifty points above the Consumer Price Index during those
+years. But while college applicants’ faith in the value of higher education
+has only increased, employers’ has declined. According to Richard Rothstein at
+The Economic Policy Institute, wages for college-educated workers outside of
+the inflated finance industry have stagnated or diminished. Unemployment has
+hit recent graduates especially hard, nearly doubling in the post-2007
+recession. The result is that the most indebted generation in history is
+without the dependable jobs it needs to escape debt.
+
+What kind of incentives motivate lenders to continue awarding six-figure sums
+to teenagers facing both the worst youth unemployment rate in decades and an
+increasingly competitive global workforce?
+
+During the expansion of the housing bubble, lenders felt protected because
+they could repackage risky loans as mortgage-backed securities, which sold
+briskly to a pious market that believed housing prices could only increase. By
+combining slices of regionally diverse loans and theoretically spreading the
+risk of default, lenders were able to convince independent rating agencies
+that the resulting financial products were safe bets. They weren’t. But since
+this wouldn’t be America if you couldn’t monetize your children’s futures, the
+education sector still has its equivalent: the Student Loan Asset-Backed
+Security (or, as they’re known in the industry, SLABS).
+
+SLABS were invented by then-semi-public Sallie Mae in the early ’90s, and
+their trading grew as part of the larger asset-backed security wave that
+peaked in 2007. In 1990, there were $75.6 million of these securities in
+circulation; at their apex, the total stood at $2.67 trillion. The number of
+SLABS traded on the market grew from $200,000 in 1991 to near $250 billion by
+the fourth quarter of 2010. But while trading in securities backed by credit
+cards, auto loans, and home equity is down 50 percent or more across the
+board, SLABS have not suffered the same sort of drop. SLABS are still
+considered safe investments—the kind financial advisors market to pension
+funds and the elderly.
+
+With the secondary market in such good shape, primary lenders have been eager
+to help students with out-of-control costs. In addition to the knowledge that
+they can move these loans off their balance sheets quickly, they have had
+another reason not to worry: federal guarantees. Under the just-ended Federal
+Family Education Loan Program (FFELP), the US Treasury backed private loans to
+college students. This meant that even if the secondary market collapsed and
+there were an anomalous wave of defaults, the federal government had already
+built a lender bailout into the law. And if that weren’t enough, in May 2008
+President Bush signed the Ensuring Continued Access to Student Loans Act,
+which authorized the Department of Education to purchase FFELP loans outright
+if secondary demand dipped. In 2010, as a cost-offset attached to health
+reform legislation, President Obama ended the FFELP, but not before it had
+grown to a $60 billion-a-year operation.
+
+Even with the Treasury no longer acting as co-signer on private loans, the
+flow of SLABS won’t end any time soon. What analysts at Barclays Capital wrote
+of the securities in 2006 still rings true: “For this sector, we expect
+sustainable growth in new issuance volume as the growth in education costs
+continues to outpace increases in family incomes, grants, and federal loans.”
+The loans and costs are caught in the kind of dangerous loop that occurs when
+lending becomes both profitable and seemingly risk-free: high and increasing
+college costs mean students need to take out more loans, more loans mean more
+securities lenders can package and sell, more selling means lenders can offer
+more loans with the capital they raise, which means colleges can continue to
+raise costs. The result is over $800 billion in outstanding student debt, over
+30 percent of it securitized, and the federal government directly or
+indirectly on the hook for almost all of it.
+
+* * *
+
+If this sounds familiar, it probably should, and the parallels with the pre-
+crisis housing market don’t end there. The most predatory and cynical subprime
+lending has its analogue in for-profit colleges. Inequalities in US primary
+and secondary education previously meant that a large slice of the working
+class never got a chance to take on the large debts associated with four-year
+degree programs. For-profits like The University of Phoenix or Kaplan are the
+market’s answer to this opportunity.
+
+While the debt numbers for four-year programs look risky, for-profit two-year
+schools have apocalyptic figures: 96 percent of their students take on debt
+and within fifteen years 40 percent are in default. A Government
+Accountability Office sting operation in which agents posed as applicants
+found all fifteen approached institutions engaged in deceptive practices and
+four in straight-up fraud. For-profits were found to have paid their
+admissions officers on commission, falsely claimed accreditation,
+underrepresented costs, and encouraged applicants to lie on federal financial
+aid forms. Far from the bargain they portray themselves to be on daytime
+television, for-profit degree programs were found to be more expensive than
+the nonprofit alternatives nearly every time. These degrees are a tough sell,
+but for-profits sell tough. They spend an unseemly amount of money on
+advertising, a fact that probably hasn’t escaped the reader’s notice.
+
+But despite the attention the for-profit sector has attracted (including
+congressional hearings), as in the housing crisis it’s hard to see where the
+bad apples stop and the barrel begins. For-profits have quickly tied
+themselves to traditional powers in education, politics, and media. Just a few
+examples: Richard C. Blum, University of California regent (and husband of
+California Sen. Dianne Feinstein), is also through his investment firm the
+majority stakeholder in two of the largest for-profit colleges. The Washington
+Post Co. owns Kaplan Higher Education, forcing the company’s flagship paper to
+print a steady stream of embarrassing parenthetical disclosures in articles on
+the subject of for-profits. Industry leader University of Phoenix has even
+developed an extensive partnership with GOOD magazine, sponsoring an education
+editor. Thanks to these connections, billions more in advertising, and nearly
+$9 million in combined lobbying and campaign contributions in 2010 alone, for-
+profits have become the fastest growing sector in American higher education.
+
+If the comparative model is valid, then the lessons of the housing crash nag:
+What happens when the kids can’t pay? The federal government only uses data on
+students who default within the first two years of repayment, but its numbers
+have the default rate increasing every year since 2005. Analyst accounts have
+only 40 percent of the total outstanding debt in active repayment, the
+majority being either in deferment or default. Next year, the Department of
+Education will calculate default rates based on numbers three years after the
+beginning of repayment rather than two. The projected results are staggering:
+recorded defaults for the class of 2008 will nearly double, from 7 to 13.8
+percent. With fewer and fewer students having the income necessary to pay back
+loans (except by taking on more consumer debt), a massive default looks closer
+to inevitable.
+
+Unlike during the housing crisis, the government’s response to a national wave
+of defaults that could pop the higher-ed bubble is already written into law.
+In the event of foreclosure on a government-backed loan, the holder submits a
+request to what’s called a state guaranty agency, which then submits a claim
+to the feds. The federal disbursement rate is tied to the guaranty agency’s
+fiscal year default rate: for loans issued after October 1998, if the rate
+exceeds 5 percent, the disbursement drops to 85 percent of principal and
+interest accrued; if the rate exceeds 9 percent, the disbursement falls to 75
+percent. But the guaranty agency rates are computed in such a way that they do
+not reflect the rate of default as students experience it; of all the guaranty
+agencies applying for federal reimbursement last year, none hit the 5 percent
+trigger rate.
+
+With all of these protections in place, SLABS are a better investment than
+most housing-backed securities ever were. The advantage of a preemptive
+bailout is that it can make itself unnecessary: if investors know they’re
+insulated from risk, there’s less reason for them to get skittish if the
+securities dip, and a much lower chance of a speculative collapse. The worst-
+case scenario seems to involve the federal government paying for students to
+go to college, and aside from the enrichment of the parasitic private lenders
+and speculators, this might not look too bad if you believe in big government,
+free education, or even Keynesian fiscal stimulus. But until now, we have only
+examined one side of the exchange. When students agree to take out a loan, the
+fairness of the deal is premised on the value for the student of their
+borrowed dollars. If an 18-year-old takes out $200,000 in loans, he or she
+better be not only getting the full value, but investing it well too.
+
+* * *
+
+Higher education seems an unlikely site for this kind of speculative bubble.
+While housing prices are based on what competing buyers are willing to pay,
+postsecondary education’s price is supposedly linked to its costs (with the
+exception of the for-profits). But the rapid growth in tuition is mystifying
+in value terms; no one could argue convincingly the quality of instruction or
+the market value of a degree has increased ten-fold in the past four decades
+(though this hasn’t stopped some from trying). So why would universities raise
+tuition so high so quickly? “Because they can” answers this question for home-
+sellers out to get the biggest return on their investments, or for-profits out
+to grab as much Pell Grant money as possible, but it seems an awfully cynical
+answer when it comes to nonprofit education.
+
+First, where the money hasn’t gone: instruction. As Marc Bousquet, a leading
+researcher into the changing structures of higher education, wrote in _How The
+University Works_ (2008):
+
+> If you’re enrolled in four college classes right now, you have a pretty good
+> chance that one of the four will be taught by someone who has earned a
+> doctorate and whose teaching, scholarship, and service to the profession has
+> undergone the intensive peer scrutiny associated with the tenure system. In
+> your other three classes, however, you are likely to be taught by someone
+> who has started a degree but not finished it; was hired by a manager, not
+> professional peers; may never publish in the field she is teaching; got into
+> the pool of persons being considered for the job because she was willing to
+> work for wages around the official poverty line (often under the delusion
+> that she could ‘work her way into’ a tenurable position); and does not plan
+> to be working at your institution three years from now.
+
+This is not an improvement; fewer than forty years ago, when the explosive
+growth in tuition began, these proportions were reversed. Highly represented
+among the new precarious teachers are graduate students; with so much
+available debt, universities can force graduate student workers to scrape by
+on sub-minimum-wage, making them a great source of cheap instructional labor.
+Fewer tenure-track jobs mean that recent PhDs, overwhelmed with debt, have no
+choice but to accept insecure adjunct positions with wages kept down by the
+new crop of graduate student-workers. Rather than producing a better-trained,
+more professional teaching corps, increased tuition and debt have enabled the
+opposite.
+
+If overfed teachers aren’t the causes or beneficiaries of increased tuition
+(as they’ve been depicted of late), then perhaps it’s worth looking up the
+food chain. As faculty jobs have become increasingly contingent and
+precarious, administration has become anything but. Formerly, administrators
+were more or less teachers with added responsibilities; nowadays, they
+function more like standard corporate managers—and they’re paid like them too.
+Once a few entrepreneurial schools made this switch, market pressures
+compelled the rest to follow the high-revenue model, which leads directly to
+high salaries for in-demand administrators. Even at nonprofit schools, top-
+level administrators and financial managers pull down six- and seven-figure
+salaries, more on par with their industry counterparts than with their fellow
+faculty members. And while the proportion of tenure-track teaching faculty has
+dwindled, the number of managers has skyrocketed in both relative and absolute
+terms. If current trends continue, the Department of Education estimates that
+by 2014 there will be more administrators than instructors at American four-
+year nonprofit colleges. A bigger administration also consumes a larger
+portion of available funds, so it’s unsurprising that budget shares for
+instruction and student services have dipped over the past fifteen years.
+
+When you hire corporate managers, you get managed like a corporation, and the
+race for tuition dollars and grants from government and private partnerships
+has become the driving objective of the contemporary university
+administration. The goal for large state universities and elite private
+colleges alike has ceased to be (if it ever was) building well-educated
+citizens; now they hardly even bother to prepare students to assume their
+places among the ruling class. Instead we have, in Bousquet’s words, “the
+entrepreneurial urges, vanity, and hobbyhorses of administrators: Digitize the
+curriculum! Build the best pool/golf course/stadium in the state! Bring more
+souls to God! Win the all-conference championship!” These expensive projects
+are all part of another cycle: corporate universities must be competitive in
+recruiting students who may become rich alumni, so they have to spend on
+attractive extras, which means they need more revenue, so they need more
+students paying higher tuition. For-profits aren’t the only ones consumed with
+selling product. And if a humanities program can’t demonstrate its economic
+utility to its institution (which can’t afford to haul “dead weight”) and
+students (who understand the need for marketable degrees), then it faces cuts,
+the neoliberal management technique par excellence. Students apparently have
+received the message loud and clear, as business has quickly become the
+nation’s most popular major.
+
+When President Obama spoke in the State of the Union of the need to send more
+Americans to college, it was in the context of economic competition with
+China, phrased as if we ought to produce graduates like steel. As the near-
+ubiquitous unpaid internship for credit (in which students pay tuition in
+order to work for free) replaces class time, the bourgeois trade school
+supplants the academy. Parents understandably worried about their children
+make sure they never forget about the importance of an attractive résumé. It
+was easier for students to believe a college education was priceless when it
+wasn’t bought and sold from every angle.
+
+If tuition has increased astronomically and the portion of money spent on
+instruction and student services has fallen, if the (at very least
+comparative) market value of a degree has dipped and most students can no
+longer afford to enjoy college as a period of intellectual adventure, then at
+least one more thing is clear: higher education, for-profit or not, has
+increasingly become a scam.
+
+* * *
+
+We know the consequences of default for lenders, investors, and their backers
+at the Treasury, but what of the defaulters? Homeowners who found themselves
+with negative equity (owing more on their houses than the houses were worth)
+could always walk away. Students aren’t as lucky: graduates can’t ditch their
+degrees, even if they borrowed more money than their accredited labor power
+can command on the market. Americans overwhelmed with normal consumer debt
+(like credit card debt) have the option of bankruptcy, and although it’s an
+arduous and credit-score-killing process, not having ready access to thousands
+in pre-approved cash is not always such a bad thing. But students don’t have
+that option either. Before 2005, students could use bankruptcy to escape
+education loans that weren’t provided directly by the federal government, but
+the facetiously named “Bankruptcy Abuse Prevention and Consumer Protection
+Act” extended non-dischargeability to all education loans, even credit cards
+used to pay school bills.
+
+Today, student debt is an exceptionally punishing kind to have. Not only is it
+inescapable through bankruptcy, but student loans have no expiration date and
+collectors can garnish wages, social security payments, and even unemployment
+benefits. When a borrower defaults and the guaranty agency collects from the
+federal government, the agency gets a cut of whatever it’s able to recover
+from then on (even though they have already been compensated for the losses),
+giving agencies a financial incentive to dog former students to the grave.
+
+When the housing bubble collapsed, the results (relatively good for most
+investors, bad for the government, worse for homeowners) were predictable but
+not foreordained. With the student-loan bubble, the resolution is much the
+same, and it’s decided in advance.
+
+In addition to the billions colleges have spent on advertising, sports
+programs, campus aesthetics, and marketable luxuries, they’ve benefited from a
+public discourse that depicts higher education as an unmitigated social good.
+Since the Baby Boomers gave birth, the college degree has seemed a panacea for
+social ills, a metaphor for a special kind of deserved success. We still tell
+fairy tales about escapes from the ghetto to the classroom or the short path
+from graduation to lifelong satisfaction, not to mention America’s collective
+college success story: The G.I. Bill. But these narratives are not inspiring
+true-life models, they’re advertising copy, and they come complete with loan
+forms.
+
+* * *
+
+If you like this article, please
+
+[subscribe](https://www.nplusonemag.com/subscribe/?affid=article)
+
+or leave a tax-deductible tip below to support n+1.

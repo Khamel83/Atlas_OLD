@@ -1,0 +1,26 @@
+# Why You Should Visit Kauai, Hawaii, This Fall
+
+**Source**: https://thepointsguy.com/2017/10/why-you-should-visit-kauai-hawaii/
+**Type**: article
+**Created**: 2025-08-13T16:57:27.105886
+
+---
+
+title: Why You Should Visit Kauai, Hawaii, This Fall
+source: https://thepointsguy.com/2017/10/why-you-should-visit-kauai-hawaii/
+date: 2025-08-13T16:57:15.735392
+tags: []
+---
+### Advertiser Disclosure
+
+Many of the credit card offers that appear on the website are from credit card
+companies from which ThePointsGuy.com receives compensation. This compensation
+may impact how and where products appear on this site (including, for example,
+the order in which they appear). This site does not include all credit card
+companies or all available credit card offers. Please view our [advertising
+policy page](/web/20210515081145/https://thepointsguy.com/advertising-policy/)
+for more information.
+
+Editorial Note: Opinions expressed here are the author’s alone, not those of
+any bank, credit card issuer, airlines or hotel chain, and have not been
+reviewed, approved or otherwise endorsed by any of these entities.

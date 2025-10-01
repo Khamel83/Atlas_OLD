@@ -1,0 +1,180 @@
+# Big East Bucks, Sunday Ticket Intrigue & A Disney Drama
+
+**Source**: inputs/saved_emails/Big East Bucks, Sunday Ticket Intrigue & A Disney Drama_Fri,_28_Jun_2024_01-30-13_+0000_1905c770c09e29b4.eml
+**Type**: email
+**Created**: 2025-08-25T02:54:00.478205
+
+---
+
+Welcome back to The Varsity, my twice-weekly private email about the mensches and miscreants running the sports business. Happy First-Ever Day 2 of the NBA Draft to all who celebrate. I’m sending tonight’s email from Dardanelle, Arkansas, where I’m playing John Daly’s course as part of a charity golf tournament. I’m told that “Long John” will play a hole or two with my group… which means I’ll be swinging out of my shoes to try to out-drive him.
+
+ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+
+The Varsity ( https://puck.news/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Image ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B31723783.396104693;dc_trk_aid=587786912;dc_trk_cid=216313598;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Welcome back to The Varsity, my twice-weekly private email about the mensches and miscreants running the sports business. Happy First-Ever Day 2 of the NBA Draft to all who celebrate. I’m sending tonight’s email from Dardanelle, Arkansas, where I’m playing John Daly’s course as part of a charity golf tournament. I’m told that “Long John” will play a hole or two with my group… which means I’ll be swinging out of my shoes to try to out-drive him.
+
+📺 Ratings review: In Monday’s Varsity, I took the over on ABC’s Stanley Cup Finals Game 7 viewership, guessing that it would eclipse 6 million. Florida’s thrilling win over Edmonton destroyed that figure, averaging 7.7 million viewers. If you include Canadian television, that number jumps to 16.3 million, much higher than any of my sources predicted and
+the cause of some crowing inside NHL offices this week.
+
+🎧 Programming note: Make sure to check out my appearance on Peter Hamby’s The Powers That Be podcast ( https://podcasts.apple.com/us/podcast/espns-talent-wars-the-venu-countdown/id1586269186?i=1000660278319&utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), where we talked about Stephen A. Smith’s dizzying contract negotiations and the coming launch of Spulu, a.k.a. Venu.
+
+Quick reminder: The detectives inside Puck’s Tribeca headquarters are tracking the behavior of every single forwarder. The next one we catch will end up on an untested clinical trial for Marchand’s new semaglutide miracle drug!
+
+Let’s get to it…
+
+Quote of the Week
+
+“We took Doc at his word that he was done coaching. He gave us a three-year commitment. It was written into the contract specifically that he was not going to go back to coaching. That’s not what happened. Unfortunately, it left us in the lurch in the middle of the season, which was extremely uncomfortable.”
+—ESPN’s Burke Magnus on Doc Rivers’ decision ( https://www.nytimes.com/athletic/5589575/2024/06/26/espn-burke-magnus-jj-redick-pat-mcafee-netflix/?source=emp_shared_article&utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to leave ESPN’s “A” booth to coach the Milwaukee Bucks just
+three months into his tenure. Whatever happens with Rivers’ Bucks journey—and it will not have a happy ending if the team loses in the first round again next year—don’t count on him working at ESPN ever again.
+
+Player of the Week:
+Eric Shanks
+
+While all eyes are on the interminable NBA rights auction, Fox Sports C.E.O. Eric Shanks has quietly signed three low-key media rights deals in the past two weeks—with IndyCar, the UEFA Women’s Euro tournament, and the Big East. With its biggest deals enshrined in long-term contracts—the NFL, MLB, Big Ten, Big 12, etcetera—Shanks showed that Fox will also continue to be active with smaller properties.
+
+Down to the J.V.:
+Roger Goodell
+
+The NFL took a huge risk by not settling its Sunday Ticket class-action suit back when it had the chance. Just this afternoon, a U.S. District Court jury ruled that the league will have to pay $4.8 billion in damages—a judgment that will get tripled to $14.4 billion, per antitrust law. (To deter antitrust behavior, Congress provided that damages would be automatically tripled for injuries under the Sherman Act.) This case will wind its way through years of appeals, of course, but league executives have to be kicking themselves for playing this out. My partner Eriq Gardner, Puck’s resident legal expert, and I will have much more on all the implications of this decision in Monday’s issue.
+
+A MESSAGE FROM OUR SPONSOR
+
+$(ad2_title) ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B31723783.396104693;dc_trk_aid=587786912;dc_trk_cid=216313598;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Range Rover Sport. Where power meets poise.
+
+The Starting Five
+
+* Cord-cutting blues: ESPN crossed an unwelcome threshold earlier this year when distribution of the network dropped below 70 million homes for the first time since the early days of cable television. ESPN is now in just under 68 million homes, according to Nielsen, a dramatic and expensive drop from its peak a decade ago. Back then, the Worldwide Leader in Sports was in 100 million homes.
+
+Of course, cord-cutting is impacting every pay TV channel: FS1 has dropped to 67.9 million homes, and FS2 is currently in 49 million homes. TBS and TNT have each seen their subscriber numbers shrink to 66 million homes. Meanwhile, the NFL Network has fallen below 50 million homes for the first time in recent memory, to
+49.6 million, and NBA TV (36 million) and MLB Network (33 million) have seen their numbers fall even more dramatically than channels run by traditional media companies. These steep drops are a primary reason why ESPN, Fox, and WBD are launching Venu this fall. It also explains why ESPN is moving forward with its plan to launch its main channel as a direct-to-consumer service next year: The business is trying to reach a swath of the 50 to 60 million U.S. consumers who do not subscribe to pay TV.
+* More chaos is coming: Michael Nathanson, the respected media analyst, put out a report this week declaring that we’re in the third act of the streaming wars—an era defined by industry consolidation and more spending on live sports rights by traditional media companies and streamers. “From the leagues’ perspectives, there is a delicate balance between reach (e.g., NFL on broadcast TV) and immediate money (e.g., MLS on Apple TV),” Nathanson
+wrote, neatly summing up the philosophy that guided the NBA’s media rights auction. “In order to stay relevant and grow the game, it is in the best interest of sports leagues to maximize eyeballs.”
+
+Streamers have different strategies when it comes to sports programming—Amazon wants broadcast-style packages, Apple wants to own everything, and Netflix wants to focus on unique events. But they’ve all shown a willingness to invest in sports rights—even Netflix, which is paying around $150 million for two NFL games on Christmas Day. As readers of The Varsity know well, legacy media companies see live sports as their last chance to save the lucrative cable bundle, setting up a competition for sports rights which Nathanson believes will increasingly be dominated by the streamers. “Going forward, as technology improves and latency comes down, streaming will become a more suitable home for sports than it is today,” he wrote. “In addition, games/matches from
+smaller leagues may start to pop up on sports betting apps, but there isn’t an expectation that betting operators will be the primary rights holders for top-tier leagues anytime soon.”
+* Disney’s legal drama: Sports media newshounds have been focused on the Sunday Ticket case. But there’s another class-action suit making its way through U.S. District Court in San Francisco that has the potential to upend the way we watch—and pay for—sports. The suit alleges that Disney used ESPN, Hulu, and “most-favored nations” clauses in contracts essentially to raise rates for live sports. Earlier this week, Judge Edward Davila ruled against Disney’s bid to get the lawsuit tossed. (Funnily enough, the ruling cites the Sunday Ticket case as precedent.)
+
+I asked Eriq to explain the judge’s decision. “Let’s set aside the headline that this specific lawsuit survives dismissal and moves forward. (Disney can rightfully claim certain
+victories, such as knocking out the plaintiffs’ hope for damages under federal antitrust law.) What’s important here is the growing challenge Disney faces in maintaining its position as a streaming bundler—whether through Hulu With Live TV or through the upcoming Venu—while also serving as a major sports programmer via ESPN for other distributors like DirecTV and YouTube TV. Any advantages Disney reserves for itself will face intense scrutiny, and the marketplace benefits are going to need to outweigh the drawbacks. We can expect more of this analysis in separate legal challenges toward Venu.”
+* Adios, Seth Waugh: As soon as word got out late yesterday that Seth Waugh was stepping down as C.E.O. of PGA of America, I started calling around in search of the real story. It turns out that there is no other story. After spending six years heading up the organization, the well-liked Waugh decided not to renew his deal. The PGA gig was
+a second career for Waugh, formerly C.E.O. of Deutsche Bank Americas. “It was inevitable that he was going to run it for a certain period of time and move on,” a source told me.
+
+Kerry Haigh, the group’s chief championships officer, will serve as interim C.E.O. Meanwhile, C.O.O. Craig Kessler, who joined the organization last year after a five-year stint with Topgolf, is considered a strong possibility to replace Waugh, whose main accomplishment was cutting long-term TV deals for the PGA Championship (with CBS) and the Ryder Cup (with NBC) that run into the next decade. He’s also been given kudos for relocating the group’s headquarters from Florida to Frisco, Texas.
+* Happy trails: It’s the end of an era over at Broadcasting+Cable and Multichannel News, where Kent Gibbons is retiring ( https://www.nexttv.com/news/kent-gibbons-to-retire-as-content-director-of-bc-multichannel-news?utm_term=548F30A6-1E92-4C4F-872F-9BECC5826CD9&lrh=9fe2012a47d879c8f4fc5422fd2b898202774c2a9875123efe2361725f246c03&utm_campaign=C74FC4FA-5D4D-4151-8915-3043BA411DBE&utm_medium=email&utm_content=863D09D6-9F79-40E2-BA17-9ED4B97D9C8D&utm_source=SmartBrief&fbclid=IwZXh0bgNhZW0CMTEAAR07xoaihfffmCPmyk8VCx_8x18BZRl0xZFSaOAKCj2eM2SJ9coAW3x47WM_aem_3LOyRu1n45098SXgSoElRQ&utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) after 30 years. Gibbons was the content director at both publications and a ubiquitous presence in broadcast and cable circles since the early 1990s.
+
+Big East of Eden ( https://puck.news/how-nbc-wbd-fox-negotiated-to-land-big-east-basketball/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Big East of Eden ( https://puck.news/how-nbc-wbd-fox-negotiated-to-land-big-east-basketball/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The inside story of how NBC and WBD negotiated with Fox to land Big East basketball. In the modern sports media business, one company’s “nice-to-have” content is another’s “need to have” package.
+
+John Ourand ( https://puck.news/john-ourand/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+JOHN OURAND ( https://puck.news/john-ourand/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+When NBC Sports president Rick Cordella became interested in picking up broadcast rights to the Big East conference, he didn’t actually ring up the conference. Instead, his first calls went to Fox Sports executives Mark Silverman and Jordan Bazant, who were running the process. WBD Sports’ Luis Silberwasser was right behind him on the phone log.
+
+Yes, this all seems very unorthodox: Why would a broadcast network negotiate a rights deal with competitors? After all, Fox Sports didn’t actually control these rights; the conference did, of course. And this wasn’t even some sort of sublicensing agreement, like ESPN’s recent decision to sell College Football Playoff games to WBD. (Fox Sports also recently sold some UEFA Euro 2024 matches to Fubo.)
+
+And yet, rival executives weren’t all that surprised
+to learn that Silverman and Bazant were the ones running these discussions for the Big East. A mere two years ago, Silverman and Larry Jones (a Fox Sports E.V.P. at the time) ran the Big Ten rights negotiations and cut deals with CBS and NBC. Fox had a say in those rights because it was a majority owner of the Big Ten Network. Silverman and Jones were designated representatives of the BTN, which created a bizarre and fascinating dynamic in which sports media executives were forced to make a pitch to a rival.
+
+The Big East deal is slightly different. In its previous Big East deal, Fox bought the conference’s rights and brought CBS on as a partner. Before the rights hit the open market this year, Fox told the conference that it wanted the same type of deal, but might consider moving away from CBS. The Big East was amenable. Negotiations started around six months ago, and the six-year deals were announced today, with Fox keeping the main package, and
+NBC and WBD divvying up the rest. All told, starting with the 2025-26 season, the Big East will see its rights revenue double to an average of around $80 million per year, from the $41 million the conference receives now.
+
+$(ad3_title) ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B31723783.396104693;dc_trk_aid=587786912;dc_trk_cid=216313598;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Big East or Famine
+
+As TV networks have become more judicious about spending and cash flow, the Big East appeared to be the type of conference that was destined to be left behind. It doesn’t have football, the main driver of these college deals. Plus, the conference faced persistent rumors that its top school, UConn, could bolt.
+
+But each of the networks had a different reason for cutting a deal. Fox, of course, liked the control that it had during the negotiations and has a history with the conference. Fox started carrying Big East games in 2013 as the company launched its FS1 pay TV channel, and the games dominated FS1’s schedule in those early years. More recently, Fox has diversified through deals with the Big Ten and Big 12, but Big East teams have still won five national championships since its carriage deal began. Also, even despite defections, it
+remains the conference in the Acela corridor media markets of New York, Philadelphia, and Washington, D.C.
+
+NBC was aggressive from the start of the negotiations. The network wants to put more games on Peacock, which will carry 25 regular-season men’s basketball games next season, a year before the deal officially starts, and five early-round and quarterfinal conference tournament games. The following year, NBC and Peacock have committed to carrying 60 men’s and women’s regular-season games, plus some tourney games.
+
+Then there’s Warner Bros. Discovery, which has been amassing sports rights as its prospects for renewing the NBA look dim. In recent months, WBD has picked up rights to the French Open, some College Football Playoff games, and NASCAR races as David Zaslav looks for maneuvers to preserve the value of his cable assets. WBD executives say these deals are part of its strategy to expand its sports offerings, but it’s
+hard not to see the move as a hedge against losing the NBA. If WBD can’t sign an NBA deal, it will need to show distributors that it still has the high-value content to keep them paying top dollar for TNT and TBS.
+
+CBS negotiated to keep its piece, and at one point was viewed as the frontrunner, but bowed out as the conference’s rights fee escalated. For CBS and its cable sports channel, the Big East was nice-to-have but not need-to-have programming. CBS will add more Big Ten and Big 12 basketball games next year. ESPN, which has a ton of college sports programming, didn’t take part in the negotiations. Neither did Amazon or any of the streamers. They have their eyes on bigger fish than Syracuse-St. John’s games…
+
+From the Cheap Seats
+
+On Stephen A.’s Negotiations: “ESPN is like Netflix. Their reach and impact is like none other. Stephen A. might be able to get more money elsewhere, but will he be seen by as many eyeballs and be as relevant? Does anyone really want their show airing on Apple or Paramount+? No. Netflix is king. Just like ESPN is king in sports. Don’t be greedy.” —An entertainment executive
+
+On the comment in last week’s Cheap Seats about Fox’s soccer coverage: “Through Sunday:
+* * Euro viewership +30 percent over 2021
+* * Copa +453 percent over 2021 (no USMNT), +71 percent over 2016 (with USMNT)
+* * First USMNT Copa match up +143 percent over first USMNT
+match in 2016
+* * Announced deal to put Women’s Euros on broadcast TV for first time ever
+#Invisible ( https://x.com/hashtag/Invisible?src=hashtag_click&utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )” —Fox Sports E.V.P. Mike Mulvihill via X ( https://x.com/mulvihill79/status/1805638261433671983?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+More on that Cheap Seats email: “Regarding the item saying there is no soccer noise this summer and Fox sucks at soccer: That item is surely from one of a couple people I know, all of whom were defenestrated from Fox or never got the chance to be because they didn’t get hired in the first place. Glad you
+spelled the journalist with a lowercase ‘j’ because a real capital ‘J’ journalist would never resort to blind items to try and avenge their career being sent off a cliff path. But the chef's kiss of the item: It literally came on the day Fox announced an all-time ratings record for a soccer game. Dear journalist-with-a-lower-case-j: You may want to do some actual reporting next time because the facts just left you Grinfucked… with a capital G!” —A former journalist
+
+On the dearly departed Mando podcast: “Watching closing arguments of Sunday Ticket trial, and they just aired a clip from the old Marchand/Ourand podcast featuring Brian Rolapp from the Super Bowl. It brought a tear to my eye.” —An emotional league executive
+
+On my upcoming podcast: “The Stephen A. Smith & Ourand Podcast, Shut Up, I’m Talking…, has a nice ring to it. Easy gig for you—open the show, close the show, and let
+S.A.S. fill in the rest.” —A cable guy
+
+On Marchand: “I was curious if forwarding this email back to John Ourand would open a time paradox where Marchand is now the controlling shareholder of Paramount.” —A digital content and social media executive
+
+See you Monday,
+John
+
+FOUR STORIES WE’RE TALKING ABOUT
+
+Wet Hot British Summer ( https://puck.news/cnn-missed-presidential-debate-opportunity-more-will-lewis-washington-post-agita/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Wet Hot British Summer ( https://puck.news/cnn-missed-presidential-debate-opportunity-more-will-lewis-washington-post-agita/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+On the recent travails of WaPo and CNN’s C.E.O.s.
+
+DYLAN BYERS
+
+Shari's Plan B ( https://puck.news/jeff-bezos-rubber-room-shari-redstones-plan-b/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Shari's Plan B ( https://puck.news/jeff-bezos-rubber-room-shari-redstones-plan-b/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Plus, the Bezos-Lewis “Third Newsroom” master plan.
+
+WILLIAM D. COHAN
+
+Arnault’s Richemont Toe Dip ( https://puck.news/does-bernard-arnault-want-more-of-richemont/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Arnault’s Richemont Toe Dip ( https://puck.news/does-bernard-arnault-want-more-of-richemont/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Inspecting B.A.’s newest investment.
+
+LAUREN SHERMAN
+
+A Hollywood Spy Saga ( https://puck.news/bikeriders-middling-box-office-isnt-backers-biggest-problem/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A Hollywood Spy Saga ( https://puck.news/bikeriders-middling-box-office-isnt-backers-biggest-problem/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+On the legal drama surrounding Yariv Milchan’s Regency.
+
+ERIQ GARDNER
+
+swash divider
+
+Puck ( https://puck.news/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQs
+page ( https://puck.news/faq/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact
+us ( fritz@puck.news?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGQXHbFMBeyDDGLSzlBciE=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F27%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Puck is published by Heat Media LLC. 227 W 17th St New York, NY 10011.

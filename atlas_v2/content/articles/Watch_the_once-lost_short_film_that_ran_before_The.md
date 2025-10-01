@@ -1,0 +1,43 @@
+# Watch the once-lost short film that ran before The Empire Strikes Back | The Verge
+
+**Source**: http://www.theverge.com/2015/5/15/8610545/watch-black-angel-free-youtube-short-film
+**Type**: article
+**Created**: 2025-08-13T18:58:08.863360
+
+---
+
+title: Watch the once-lost short film that ran before The Empire Strikes Back | The Verge
+source: http://www.theverge.com/2015/5/15/8610545/watch-black-angel-free-youtube-short-film
+date: 2025-08-13T18:58:07.454532
+tags: []
+---
+_Black Angel_ almost slipped into movie folklore. [The 25-minute short
+film](http://www.theverge.com/2012/12/29/3815086/black-angel-lost-film-
+download), directed by _Empire Strikes Back_ art director Roger Christian, was
+played before the fifth _Star Wars_ episode when Lucas’ movie opened in Europe
+in 1980. While _Star Wars_ went on to become a cultural juggernaut, the
+original prints for _Black Angel_ were lost. Now, 35 years after it
+disappeared from movie theaters, _Black Angel_ [has arrived on
+YouTube](https://www.youtube.com/watch?v=5L8pHKP-vv4).
+
+"The prints for the movie were thought lost"
+
+The movie, filmed among in the ruined castles and rolling hills of Scotland,
+tells the story of ageing knight Sir Maddox on his return from the Crusades.
+Unable to find his family, Maddox has visions of a woman being held captive by
+a skull-faced, cobweb-covered black knight. The short film culminates in a
+dreamlike battle between the weary Maddox and the implacable knight, who
+appears dark as death itself in a lush forest clearing. There’s an easy
+parallel between _Black Angel_ and the _Star Wars_ movie it preceded — both
+feature hand-to-hand combat against silent figures in dark robes, filmed using
+a process called “step-printing” that gives the action a trippy vibe.
+
+The movie’s been[ available on iTunes for a
+while](http://www.theverge.com/2014/3/7/5483060/long-lost-fantasy-film-that-
+accompanied-star-wars-will-see-wider), but this new YouTube release makes it
+easier than ever to see a slice of film history for free, and in HD.
+Christian, who believed he only had sub-par versions available after the loss
+of the original prints, had preferred to let _Black Angel_ fade into memory
+than release a poor-quality version of his movie. With his work still
+evocative and unsettling after three-and-a-half decades, I’m glad he brought
+it back.

@@ -1,0 +1,70 @@
+# Cuban Players Are Powering The White Sox | FiveThirtyEight
+
+**Source**: inputs/New Docs/html/fivethirtyeight.com_features_cuban-players-are-powering-the-white-sox.html
+**Type**: article
+**Created**: 2025-08-25T02:53:46.924194
+
+---
+
+![](https://fivethirtyeight.com/wp-content/uploads/2020/08/GettyImages-1265331880-1-e1598285738954.jpg?w=575)
+
+
+
+Cuban players Luis Robert and José Abreu have spurred the success of the Chicago White Sox this season.
+
+Gregory Shamus / Getty Images
+
+The Chicago White Sox haven’t had a winning season [since 2012](https://www.baseball-reference.com/teams/CHW/) — and it’s been even longer since they were truly relevant. The last postseason series the South Siders won came in the [2005 World Series](https://www.baseball-reference.com/postseason/2005_WS.shtml), when they beat the Houston Astros for their first championship [since 1917](https://www.baseball-reference.com/postseason/1917_WS.shtml). As a general rule, the Pale Hose are practically never among the most electrifying teams in baseball.
+
+This year, however, is different. After a slightly rocky start to the season, the ChiSox have won nine of their last 12 games — including two of three against the crosstown rival Cubs over the weekend — raising their playoff chances to 94 percent [according to the FiveThirtyEight prediction model](https://projects.fivethirtyeight.com/2020-mlb-predictions/). And they’re doing it with a very particular source of production: a record-breaking ensemble of Cuban-born stars.
+
+On [Aug. 1](https://www.baseball-reference.com/boxes/KCA/KCA202008010.shtml), the White Sox [became the first team in MLB history](https://twitter.com/whitesox/status/1289706513733476352?s=21) to have an all-Cuban top four in their lineup when they started their contest against the Kansas City Royals off with center fielder Luis Robert, third baseman Yoán Moncada, first baseman José Abreu and catcher Yasmani Grandal hitting in order. (The quartet went 11-for-22 with 17 total bases in the game.) That group also dominated for the Sox against the Cubs this weekend, with 10 total home runs and 16 runs batted in.
+
+Chicago has plenty of American-born talent on hand, of course, led most notably by shortstop Tim Anderson, who has an 1.063 [on-base plus slugging](http://m.mlb.com/glossary/standard-stats/on-base-plus-slugging) with 1.3 [wins above replacement](http://m.mlb.com/glossary/advanced-stats/wins-above-replacement)1 already this season. It also has a wealth of Latin American talent from *outside* Cuba, headlined by Dominican left fielder Eloy Jiménez (0.7 WAR). But even so, it’s true that the White Sox would not be winning anywhere near as much — or be anywhere near [as exciting to watch](https://www.youtube.com/watch?v=baoISdYUcUo) — without Robert, Moncada, Abreu and Grandal leading the way.
+
+It’s early still, but no team has ever gotten as much from its Cuban players as those four are tracking to give Chicago in 2020. Together, the quartet has already generated 3.61 WAR in 29 games, which would work out to 20.2 WAR over a full, 162-game season. Going into this season, the MLB record for WAR (per 162 games) by Cuban players on one team was 14.6, by Zoilo Versalles, Tony Oliva, Camilo Pascual and Sandy Valdespino of the [1965 Minnesota Twins](https://www.baseball-reference.com/teams/MIN/1965.shtml). That club came [within a game of winning the World Series](https://www.baseball-reference.com/postseason/1965_WS.shtml) with a core of Latin American players [signed by scout Joe Cambria](https://sabr.org/bioproj/topic/the-building-of-the-1965-twins/) while the team was still the Washington Senators, who also show up high on the list [in 1959](https://www.baseball-reference.com/teams/WSH/1959.shtml):
+
+|  | | Latin-Born Players | | Cuban-Born Players | |
+| --- | --- | --- | --- | --- | --- |
+| Season | Team | WAR\* | Share of Tm | WAR\* | Share of Tm |
+| 2020 | White Sox | 26.9 | 45.9% | 20.2 | 30.7% |
+| 1965 | Twins | 14.6 | 31.5 | 14.6 | 31.5 |
+| 1968 | Indians | 16.3 | 39.1 | 13.8 | 32.7 |
+| 1964 | Twins | 12.5 | 27.7 | 12.6 | 27.7 |
+| 1959 | Senators | 11.2 | 38.4 | 11.2 | 38.4 |
+| 1970 | Twins | 16.5 | 33.4 | 10.9 | 22.2 |
+| 1954 | White Sox | 16.3 | 32.6 | 10.7 | 21.4 |
+| 1969 | Twins | 19.6 | 36.4 | 9.9 | 18.5 |
+| 1923 | Reds | 9.4 | 21.3 | 9.4 | 21.3 |
+| 1962 | Twins | 10.7 | 24.9 | 9.1 | 21.0 |
+| 1963 | Twins | 9.4 | 18.4 | 9.1 | 17.9 |
+| 1963 | Phillies | 9.2 | 21.6 | 8.8 | 20.7 |
+| 2019 | Astros | 21.1 | 32.1 | 8.4 | 12.6 |
+| 1970 | Athletics | 10.0 | 22.9 | 8.1 | 18.1 |
+| 1967 | Indians | 9.0 | 29.8 | 7.9 | 23.7 |
+
+The [1968 Cleveland Indians](https://www.baseball-reference.com/teams/CLE/1968.shtml), who rank third on the list above, also deserve mention for the stellar trio of starter Luis Tiant, center fielder José Cardenal and catcher Joe Azcue. (Tiant in particular [had an incredible season](https://www.lavidabaseball.com/luis-tiant-magical-1968/) that year, [leading the American League](https://www.baseball-reference.com/leagues/AL/1968-pitching-leaders.shtml) with a 1.60 ERA.) But it’s also no coincidence that the majority of teams on the list are concentrated in a very tight range of seasons. [Aside from the Senators](https://www.britannica.com/topic/Latin-Americans-in-Major-League-Baseball-910675/The-1930s-through-World-War-II), most teams had not considered Latin America as a serious source of talent — to their great detriment — until the 1950s. (Cincinnati Reds pitcher Dolf Luque [stood out in the 1920s](https://www.lavidabaseball.com/adolfo-luque-first-latino-superstar/),2 but he was [very much the exception](https://www.britannica.com/topic/Latin-Americans-in-Major-League-Baseball-910675#ref230096).) What followed was an era of Latino stars who rose to become some of the best in baseball, led by the likes of Tiant, Pascual, Versalles, Puerto Rico’s Roberto Clemente, Juan Marichal of the Dominican Republic and Tony Pérez of Cuba. Chicago even [had its own Cuban superstar](https://www.mlb.com/news/the-white-sox-deep-cuban-connection) in Minnie Miñoso, who starred for the Sox in [four different decades](https://www.baseball-reference.com/players/m/minosmi01.shtml).
+
+Unfortunately, MLB’s Cuban heyday came to an end around when the United States [began an embargo against the country](https://www.washingtonpost.com/wp-stat/graphics/world/cuba-2014/timeline/index.html) in 1960, forcing countless subsequent stars [into a terrible choice](https://www.npr.org/2018/12/19/678336893/realization-of-an-impossible-dream-mlb-and-cuba-make-historic-deal) between defecting (which [can be a dangerous act](https://www.npr.org/2014/04/16/303769820/from-cuba-to-la-baseball-diamond-yasiel-puigs-dangerous-odyssey) for numerous reasons) and giving up their major-league dreams to play [for far less than their worth](https://sabr.org/bioproj/topic/cuban-league/) on government-owned teams. It’s no coincidence that, as the generation of players who began their careers in the 1950s — and starred through the 1970s — retired, there was a huge dropoff in Cuban production at the MLB level:
+
+![](https://fivethirtyeight.com/wp-content/uploads/2020/08/Paine-Cuba-White-Sox-0824-2.png)
+
+That trend reversed some in the late 1980s and into the ’90s, as José Canseco and Rafael Palmeiro emerged as perennial All-Stars — though [both grew up in Miami](https://www.sun-sentinel.com/news/fl-xpm-1988-07-22-8802120760-story.html) after their parents left Fidel Castro’s Cuba for the U.S. An arguably greater watershed moment came with pitcher Liván Hernández’s [midnight defection](https://vault.si.com/vault/1996/03/25/delivering-a-strong-pitch-livan-hernandez-the-marlins-sensational-21-year-old-cuban-defector-may-be-ready-for-the-majors) in 1995, [aided by scout Joe Cubas](https://www.nytimes.com/1996/08/15/sports/joe-cubas-helps-cuban-ballplayers-defect.html). Hernández [dominated the 1997 postseason](https://www.thebaseballgauge.com/post.php?tab=pit_yr&first=min&last=max&pos=All&throws=All&invTm=All&park=All&minIP=0&active=All&living=All&results=25&page=1&sort=W_a#metric), earning World Series MVP honors with the Florida Marlins, and his brother Orlando [made a harrowing journey to America by boat](https://yankees.mlblogs.com/the-story-behind-orlando-el-duque-hernandez-417350e6c7a0) several months later. Along with countryman José Contreras, the Hernández brothers starred for six World Series champions from 1997 through 2005, powering a Cuban revival in the 21st century.
+
+That renaissance continued with the emergence of such talented Cuban hitters as Yunel Escobar, Kendrys Morales, Alexei Ramírez, Leonys Martín, Yoenis Céspedes and Yasiel Puig, to go with a new generation of fireballing pitchers headlined by Aroldis Chapman and José Fernández. The same era also helped produce Robert, Moncada, Abreu and Grandal — all building blocks behind the White Sox’s impressive 2020 season.
+
+Abreu landed in Chicago first, [signing as an international free agent](https://www.sportingnews.com/us/mlb/news/jose-dariel-abreu-contract-white-sox-reportedly-set-to-pay-cuban-defector-68m-over-6-years/1tt948i6aagm01gkx8rwc36nb5) in 2013 and [winning Rookie of the Year honors](https://www.baseball-reference.com/awards/awards_2014.shtml#all_AL_ROY_voting) in his debut season the following year. He has generated 21.0 WAR in his career, or 3.0 per season — fourth most of any Cuban player ever, behind Fernández, Palmeiro and Tiant — with a career OPS 36 percent better than league average. So far this year, he’s been the South Siders’ best player with 11 home runs and 1.6 WAR.
+
+Then came Moncada, who was [acquired from the Boston Red Sox](https://www.mlb.com/news/chris-sale-traded-to-red-sox-for-yoan-moncada-c210441104) in 2016 as part of the Chris Sale trade — which cost Chicago an all-time pitcher but gained them one of the best young infielders in all of baseball. Since the start of 2019, only four third basemen — Alex Bregman, Anthony Rendon, Matt Chapman and Nolan Arenado — have more WAR than Moncada’s 6.0 mark, and Moncada (who turned 25 in May) is younger than any of them.
+
+Robert arrived next, after [defecting in the winter of 2016-17](https://www.baseballamerica.com/stories/luis-robert-leaves-cuba-with-clock-ticking-before-new-rules-begin/). Although he hasn’t been quite as good as Abreu, he might be the most exciting player in Chicago — if not the entire major leagues — in 2020 so far:
+
+Though he strikes out a ton (in 36 percent of plate appearances, to be exact), Robert [hits the ball hard](https://baseballsavant.mlb.com/leaderboard/statcast?type=batter&year=2020&position=&team=&min=q&sort=16&sortDir=asc), runs [very fast](https://baseballsavant.mlb.com/leaderboard/sprint_speed) and has been one of the [best defensive center fielders in baseball](https://www.baseball-reference.com/leagues/MLB/2020-specialpos_cf-fielding.shtml#players_players_standard_fielding_fielding::19) this year. Robert may be a rookie, but the [second-best prospect in all of baseball](https://www.baseballamerica.com/rankings/2020-top-100-prospects/) going into the season3 hasn’t really needed much of an adjustment period before excelling against MLB competition.
+
+The final piece, Grandal, was [added as a free agent](https://www.mlb.com/news/yasmani-grandal-signs-with-white-sox) last fall after enjoying a solid 2019 season (3.8 WAR) with the Milwaukee Brewers. After [coming to America as a child](https://www.chicagotribune.com/sports/white-sox/ct-cb-chicago-white-sox-yasmani-grandal-things-to-know-20191121-crdausy4qffq3i4lgwzl6vie5i-story.html) under a [special Cuban immigration lottery](https://en.wikipedia.org/wiki/Wet_feet,_dry_feet_policy#Special_Cuban_Migration_Lottery), Grandal lived and went to college in Miami before being taken with the [12th overall pick](https://www.baseball-reference.com/draft/?year_ID=2010&draft_round=1&draft_type=junreg&query_type=year_round) in the 2010 draft. Including 2020, he’s been the second-best catcher in baseball by WAR (behind Buster Posey) since first becoming a regular in 2014.
+
+Together, the White Sox’s Cuban connection has been the primary force behind the team’s long-awaited breakout season. They have hit 26 combined home runs with an .863 OPS and 206 total bases. They’ve also produced a little less than one-third of the team’s WAR, with Abreu and Robert in particular ranking as two of the team’s three best players (sandwiched around Anderson). No other team in baseball history has showcased Cuban talent so front and center, and there will likely be more where that came from as the season goes on.
+
+The White Sox’s success is also another milestone in the evolution of MLB’s Cuban players, whose contributions have grown by leaps and bounds over the past decade. Back in 2016, it looked like the influx of players from Cuba would increase even more dramatically after then-President Barack Obama [loosened the U.S.’s embargo](https://www.espn.com/mlb/story/_/id/14977450/looser-us-cuba-embargo-restrictions-allow-cuban-mlb-players-legally-earn-us-income) on the country. A couple of years later, MLB had even agreed with the Cuban government to [streamline the path for players](https://www.nytimes.com/2018/12/19/sports/baseball/cuba-mlb-posting-system.html) to play in America. That agreement was scuttled, however, when the Trump administration [declared it illegal](https://www.washingtonpost.com/world/national-security/trump-administration-cancels-mlb-deal-with-cuba/2019/04/08/99c7d9be-5a2f-11e9-842d-7d3ed7eb3957_story.html) last year. But even if the relationship between countries remains fraught, Cuba’s baseball talent can’t be denied — and there’s no greater proof of that than the turnaround transpiring in Chicago this summer.
+
+*Check out our latest* [*MLB predictions*](https://projects.fivethirtyeight.com/2020-mlb-predictions/?ex_cid=endlink)*.*

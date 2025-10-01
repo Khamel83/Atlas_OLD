@@ -1,0 +1,348 @@
+# Why the Electoral College is the absolute worst, explained | Vox
+
+**Source**: http://www.vox.com/policy-and-politics/2016/11/7/12315574/electoral-college-explained-presidential-elections-2016
+**Type**: article
+**Created**: 2025-08-13T17:46:47.846685
+
+---
+
+title: Why the Electoral College is the absolute worst, explained | Vox
+source: http://www.vox.com/policy-and-politics/2016/11/7/12315574/electoral-college-explained-presidential-elections-2016
+date: 2025-08-13T17:46:46.869359
+tags: []
+---
+Hillary Clinton won more votes than Donald Trump in last month’s presidential
+election. But due to the magic of the Electoral College, Donald Trump will be
+the next president of the United States.
+
+Yes, the November 8 “presidential election” was in actuality the venerable
+ritual in which the residents of Florida, Ohio, Pennsylvania, and a few other
+states got the privilege of choosing the president of the United States of
+America.
+
+Or, to be more precise, it was the venerable ritual in which all the states
+chose their representatives in the _Electoral College_. It’s those people who
+are going to technically pick the president this Monday.
+
+It’s a patchwork Frankenstein’s monster of a system, which in the best of
+times merely ensures millions of Americans’ votes are irrelevant to the
+outcome because they don’t live in competitive states, and in the worst of
+times could be vulnerable to a major crisis.
+
+Amazingly enough, though, nothing in the Constitution gives American voters
+the right to choose their president. That power is reserved for those 538
+_actual people_ who will meet in their respective states this Monday — the
+electors. It’s up to the states to decide how to appoint them.
+
+Despite the oddness and unfairness of this system, its defenders argue that it
+ordinarily “works” just fine. States award electors based on the outcome of
+the popular vote in the state. Those electors almost always end up voting the
+way they’re expected to. And the winner of the national popular vote is
+usually also the winner in the Electoral College.
+
+But “usually” will be cold comfort to Democrats, who have now won the popular
+vote and lost the Electoral College in two of the past five elections.
+
+## 1) What is the Electoral College, and how does it work?
+
+The presidential election is generally portrayed as a battle to win states and
+their accompanying electoral votes. Hillary Clinton won Vermont, so she got
+its three electoral votes. Donald Trump won Alaska, so he got its three
+electoral votes. Whoever gets to 270 or more electoral votes first — a
+majority of the 538 total — wins the election.
+
+So rather simply trying to win the most _actual votes_ in the country, a
+presidential campaign must try to put together a map of _state victories_ that
+will amass more than 270 electoral votes. That’s the simplified version.
+
+What’s happening under the hood, though, is more complicated. When people go
+to the polls to vote for a presidential candidate, what they are actually
+doing is voting for each party’s nominated slate of _electors_ in their
+respective states (or, in the case of Maine and Nebraska, in congressional
+districts too).
+
+So when Donald Trump won the state of Alaska, the practical effect was that
+the Republican Party’s [nominated elector slate
+there](https://www.elections.alaska.gov/ec_eia.php) — former Gov. Sean
+Parnell, Jacqueline Tupou, and Carolyn Leman — officially became Alaska’s
+three electors.
+
+This process repeated itself across the country, resulting in the selection of
+the Electoral College — the 538 electors who will cast their votes for
+president in their respective states this Monday. (In the modern era, this
+ceremonial occasion has been a formality that reiterates an outcome known well
+in advance.)
+
+## 2) But the outcome of the presidential election is really just settled in a
+few swing states, right?
+
+The Democratic and Republican parties have each developed solid bases in a
+series of states that are all but certain to vote for them in a presidential
+year. But the Electoral College winner will be determined by those few swing
+states that are more divided politically and look like they could go either
+way. This year, only the states in gray above were decided by a margin of less
+than 9 percentage points, as of Wednesday afternoon.
+
+The swing states’ dominance is a consequence of the fact that almost every
+state chooses to allot all its electoral votes to whoever comes in first place
+statewide, regardless of his or her margin of victory.
+
+That is, it doesn’t matter whether Clinton wins New York by a 30 percent
+margin or a 10 percent margin, since she’ll get the same amount of electoral
+votes either way. But the difference between winning Florida by 0.1 percent
+and losing it by 0.1 percent is crucial, since 29 electoral votes could flip.
+
+Naturally, then, when the general election comes around, candidates ignore
+every noncompetitive state — meaning the vast majority of the country — and
+pour their resources into the few that tend to swing back and forth between
+Republicans and Democrats. That’s the best strategy for reaching that magic
+number, 270.
+
+Well, there’s a lot that’s unfair — or at the very least undemocratic — about
+the Electoral College.
+
+For one, the winner of the nationwide popular vote can lose the presidency. In
+2000, Al Gore won half a million more votes than George W. Bush nationwide,
+but Bush won the presidency after he was declared the winner in Florida by a
+mere 537 votes. And that wasn’t the first time — electoral college/popular
+vote splits happened in 1876 and 1888 too, and occurred in 2016 too.
+
+Second, there’s swing state privilege. Millions of votes in safe states end up
+being “wasted,” at least in terms of the presidential race, because it makes
+no difference whether Clinton wins California by 4 million votes, 400,000
+votes, or 40 votes — in any scenario, she gets its 55 electors. Meanwhile,
+states like Florida and Ohio get the power to tip the outcome just because
+they happen to be closely divided politically.
+
+Third, a small state bias is also built in, since every state is guaranteed at
+least three electors (the combination of their representation in the House and
+Senate). The way this shakes out in the math, the 4 percent of the country’s
+population in the smallest states end up being allotted 8 percent of Electoral
+College votes.
+
+And fourth, there’s the possibility for those electors themselves to hijack
+the outcome.
+
+## 4) Wait, the electors can hijack the outcome of the presidential election?
+What?
+
+For decades, it’s been assumed that the 538 electors will essentially rubber-
+stamp the outcome in their respective states, and they mostly have. But
+there’s scarily little _assurance_ that they’ll actually do so.
+
+According to the [National Conference of State
+Legislatures](http://www.ncsl.org/research/elections-and-campaigns/the-
+electoral-college.aspx#nomination), about 30 of the 50 states have passed laws
+“binding” their electors to vote in accordance with the presidential popular
+vote in their state. But in most, the penalty for not doing so is only a fine,
+and it’s unclear whether stiffer penalties would hold up in court — it’s never
+been tested, and the Constitution does appear to give the electors the right
+to make the final call. Furthermore, there are still 20 or so states that
+haven’t even tried to bind their electors.
+
+This hasn’t mattered much in the past because, almost always, the parties do a
+good enough job of vetting their respective electoral slates to ensure that
+they will indeed loyally back their party’s presidential nominee.
+
+But there have been a few rogue, faithless, or just plain incompetent electors
+over the years — and their votes have all been counted as cast.
+
+  * In 1837, rogue electors from Virginia briefly [blocked the seating](http://blog.constitutioncenter.org/2016/02/the-day-the-senate-picked-a-u-s-vice-president-on-its-own/) of the vice president-elect because they were offended that he had a mixed-race common-law wife. (The Senate overrode them.)
+  * A Democratic elector from Tennessee cast his ballot for segregationist third-party candidate Strom Thurmond in 1948, and a Republican elector from North Carolina voted for segregationist third-party candidate George Wallace in 1968.
+  * In 2000, an elector from Washington, DC, withheld an electoral vote from Al Gore, because she wanted to protest the fact that DC didn’t have representation in Congress.
+  * Perhaps most bizarrely of all, in 2004, an elector from Minnesota who was supposed to vote for John Kerry for president instead voted for _John Edwards_. (It’s [believed that this was an accident](http://news.minnesota.publicradio.org/features/2004/12/13_ap_electors/), but since the votes were cast anonymously, we don’t really know for sure. Great system!)
+  * And this year, one Democratic elector candidate from Washington state has [repeatedly said](http://www.vox.com/2016/11/6/13540504/electors-electoral-college-washington) that he will “absolutely not” cast his ballot for Hillary Clinton if she wins his state. We’ll see whether he follows through.
+
+Rogue electors have never been numerous enough to actually affect the outcome
+of a presidential race. But it really doesn’t look like there’s much stopping
+them should they choose to do so.
+
+Now, some defenders of the system, like Georgetown professor [Jason
+Brennan](http://www.marketwatch.com/story/the-electoral-college-is-anti-
+democraticand-thats-a-good-thing-2016-09-12), take the comforting view that
+the power of electors to go rogue is a good thing, since they could
+conceivably save America from a popularly elected majoritarian candidate who
+could oppress the minority.
+
+But it seems just as likely, if not more likely, that electors could _install_
+that candidate with dictatorial tendencies _against_ that popular will.
+Perhaps some electors are wise sages with better judgment than the American
+people, but others are likely malign, corrupt, or driven by their own
+idiosyncratic beliefs. (You’ll notice above that several of those historical
+rogue electors in history had racist motivations.)
+
+In any case, if we had a process in which the electors were notable citizens
+who were chosen _because_ they’re supposed to exercise good judgment, maybe
+Brennan’s defense would make sense. But in the system we have today, the
+electors are chosen to be rubber stamps. As a result, there’s incredibly
+little attention paid to [who those
+electors](http://www.politico.com/magazine/thepeoplewhopickthepresident/2016)
+even are outside internal party machinations in each state. Any defection by
+an elector would, essentially, be a random act that could that could hold our
+system hostage.
+
+## 5) Why do we use such a bizarre system anyway?
+
+The Constitutional Convention of 1787. Hulton Archive/Getty
+
+The electoral college is, essentially, a vestigial structure — a leftover from
+a bygone era in which the founding fathers specifically _did not_ want a
+nationwide vote of the American people to choose their next president.
+
+Instead, the framers gave a small, lucky group of people called the “electors”
+the power to make that choice. These would be some upstanding citizens chosen
+by the various states, who would make up their own minds on who should be the
+president (they’d have to vote on the same day in their respective home
+states, to make it tougher for them to coordinate with each other).
+
+The Constitution remained silent on just how these elite electors would be
+chosen, saying only that each state legislature would decide how to appoint
+them. Initially, some state legislators picked the electors themselves, while
+other states had some form of statewide vote in which the electors themselves
+would be candidates.
+
+But over the new nation’s first few decades, two powerful trends in American
+politics brought attention to the Electoral College system’s shortcomings —
+the rise of national political parties that would contest presidential
+elections, and the growing consensus that all white men (not just the elite)
+should get the right to vote, including for president.
+
+The parties and states responded to these trends by trying to jury-rig the
+existing system. Political parties began to nominate slates of electors in
+each state — electors they believed could be counted on to vote for the
+presidential nominee. Eventually, many states even passed laws _requiring_
+electors to vote for their party’s presidential nominee.
+
+Meanwhile, by the 1830s, almost every state had changed its laws so that all
+electors were chosen winner-take-all through a statewide vote, according to
+[Richard Berg-
+Andersson](http://www.thegreenpapers.com/Hx/ElectoralCollege.html). The point
+of all this was to try to make the presidential election function like
+ordinary statewide elections for governor or senator, at least within each
+state.
+
+## 6) Well, are there arguments _for_ the Electoral College?
+
+It’s tough to argue with a straight face that this bizarre system is
+_inherently_ better than just a simple vote. After all, why doesn’t any state
+elect its governor with an “Electoral College” of various counties? Why does
+pretty much every other country that elects a president use a simple popular
+vote, or a vote accompanied with a runoff?
+
+Now, you can argue that the Electoral College’s seeming distortions of the
+popular will aren’t as bad as they seem — for instance, by pointing out that
+swing states [tend to swing along with the
+nation](http://www.realclearpolitics.com/articles/2012/10/12/how_likely_is_an_electoral_votepopular_vote_split_115749.html)
+rather than overriding its will, or that the popular vote winner almost always
+wins. But of course, that’s not guaranteed to always be the case, and the
+biggest major exception (the 2000 election) was an incredibly consequential
+one.
+
+Others try to fearmonger about the prospect of a [contested nationwide
+recount](http://www.huffingtonpost.com/curtis-gans/national-popular-
+vote_b_1189390.html) — which, sure, would be ugly, but if you’ll recall, the
+Florida recount was also extremely ugly. And since there are so many more
+votes cast nationally, it’s much less likely that the national vote would end
+up a near tie than that a tipping point’s state vote would end up as a near
+tie.
+
+Some argue that the Electoral College ensures [regional
+balance](http://www.fec.gov/pdf/eleccoll.pdf), since it’s mathematically
+impossible for a candidate with overwhelming support from just one region to
+be elected. But realistically, the country is big and broad enough that this
+couldn’t happen under a popular vote system either — any regional candidate
+would need to get _some_ support outside his or her region.
+
+But when we get down to brass tacks, the most serious objections to reforming
+the Electoral College come from rural and small-state elites who fear that
+under a national popular vote system, they’d be ignored and elections would be
+decided by people who live in cities.
+
+Gary Gregg of the University of Louisville [wrote in
+2012](http://www.politico.com/story/2012/12/keep-electoral-college-for-fair-
+presidential-votes-084651) that eliminating the Electoral College would lead
+to “dire consequences.” Specifically, he feared that elections would “strongly
+tilt” in favor of “candidates who can win huge electoral margins in the
+country’s major metropolitan areas.” He continued:
+
+> If the United States does away with the Electoral College, future
+> presidential elections will go to candidates and parties willing to cater to
+> urban voters and skew the nation’s policies toward big-city interests.
+> Small-town issues and rural values will no longer be their concern.
+
+And Pete du Pont, a former governor of Delaware (three electoral votes), has
+made a similar case, calling proposals for a national popular vote an [“urban
+power
+grab.”](https://web.archive.org/web/20091001064458/http://www.opinionjournal.com/columnists/pdupont/?id=110008855)
+
+But a national popular vote system wouldn’t _devalue_ the votes of people who
+live in rural states and small towns. It would _accurately_ value them by
+treating them equal to people who live in cities, rather than giving them an
+extra weighting. Furthermore, small-state interests are built into the
+Senate’s math (where Delaware absurdly gets as many senators as California),
+and many House districts are rural. So rural and small-state areas are hardly
+hurting for national political representation.
+
+Sure, candidates might end up spending less time stumping in the rural areas
+that currently happen to be lucky enough to fall within the borders of swing
+states, and more time in urban centers. But is that really a convincing
+rebuttal to the pretty basic and obvious argument that in the most important
+electoral choice Americans make, their votes should be treated equally?
+
+## 7) Is there any hope that the US will ditch the Electoral College someday?
+
+For decades, polls have shown that large majorities of Americans [would
+prefer](http://www.gallup.com/poll/159881/americans-call-term-limits-end-
+electoral-college.aspx) a popular vote system instead of the Electoral
+College. For instance, a 2013 Gallup poll showed 63 percent of adults wanted
+to do away with it, and a mere 29 percent wanted to keep it. (However, these
+margins [have tightened](http://thehill.com/blogs/blog-briefing-
+room/news/310973-poll-plurality-of-americans-prefer-the-popular-vote) since
+the 2016 election.)
+
+But to ditch the Electoral College entirely, the US would have to pass a
+constitutional amendment (passed by two-thirds of the House and Senate and
+approved by 38 states) — or convene a constitutional convention (which has
+never been done, but would have to be called for by 34 states). Either method
+is vanishingly unlikely, because each would require many small states to
+approve a change that would reduce their influence on the presidential
+outcome.
+
+There is one potential workaround, however: the National Popular Vote
+Interstate Compact, a clever proposal that uses the Constitution’s ambiguity
+on electors to its own ends.
+
+A state signing on to the compact agrees that it will pledge all its electors
+not to its state winner but to the victor in the _national_ popular vote —
+_but only if_ states controlling 270 or more electoral votes have agreed to do
+the same. If they do, and everything works as planned, then whoever wins the
+popular vote will necessarily win the electoral vote too.
+
+It’s a fun proposal that’s already been enacted into law by 10 states
+(including massive California and New York) and the District of Columbia,
+which together control 165 electoral votes. But there’s one big obstacle: All
+of the states that have adopted it are solidly Democratic, with zero being
+Republican or swing states.
+
+So unless a bunch of swing states decide to reduce their own power, or
+Republican politicians conclude that a system bringing the power of small and
+rural states in line with that of big urban centers is a good idea, the
+compact isn’t going to get the support it needs, [as Nate Silver has
+written](http://fivethirtyeight.com/datalab/why-a-plan-to-circumvent-the-
+electoral-college-is-probably-doomed/). (Furthermore, it wouldn’t solve the
+rogue elector problem.)
+
+As messed up as the Electoral College is, then, we’re likely stuck with it for
+some time. Your safe state vote might be wasted, or it might even be subverted
+by rogue electors.
+
+But at least you’ll get to [draw fun
+maps](http://www.vox.com/2016/11/4/13448928/interactive-presidential-
+electoral-college-map-2016).
+
+_This article was originally published before the election. Minor updates have
+been made to reflect that the election has concluded._
+
+* * *
+
+## Watch: The bad map we see every election

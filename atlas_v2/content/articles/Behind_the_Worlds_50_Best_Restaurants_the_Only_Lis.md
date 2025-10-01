@@ -1,0 +1,111 @@
+# Behind the World's 50 Best Restaurants, the Only List That Matters | GQ
+
+**Source**: http://www.gq.com/story/50-best-restaurants-list-backstory
+**Type**: article
+**Created**: 2025-08-13T18:10:15.145153
+
+---
+
+title: Behind the World's 50 Best Restaurants, the Only List That Matters | GQ
+source: http://www.gq.com/story/50-best-restaurants-list-backstory
+date: 2025-08-13T18:10:12.806683
+tags: []
+---
+Maybe the first thing you should know about the World's 50 Best Restaurants
+list is that it contains 100 restaurants. If you would like a better metaphor
+for the contradictions and puzzlements of what has become the restaurant
+world's most influential ranking, I'm not sure I can find one. Nevertheless,
+if you pay any attention to chefs and restaurants, you will have heard of the
+List, which, in 14 years of existence, has gone from an obscure curiosity to
+dominating the dining conversation, even eclipsing the Michelin Guide, that
+_grand-père_ of restaurant judgment. For better and for worse, there can be no
+doubt that the World's 50 Best has become the ranking of The Way We Eat Now—or
+at least The Way We Talk About Eating Now.
+
+Like many lists, the 50 Best was born in the offices of a magazine—Britain's
+_Restaurant,_ in 2002—though it has since become its own enterprise. Until
+this year, it was technically The World's 50 Best Restaurants sponsored by
+S.Pellegrino and Acqua Panna, voted on by the Diners Club World's 50 Best
+Restaurants Academy, presented alongside the Veuve Clicquot World's Best
+Female Chef Award, the World's Best Pastry Chef Award sponsored by Cacao
+Barry, and so on. Perhaps tired of it being shorthanded as “the San Pellegrino
+list,” the organization dropped the water company's title rights this year,
+though it remains a sponsor.
+
+Of course, it's only fair to note that the Michelin Guide was and is named for
+a tire company. The organizers of the 50 Best insist that they are not in
+competition with Michelin, but it's nearly impossible not to consider one
+without the context of the other. Philosophically, practically, even
+geographically, the 50 Best is, among other things, a rebuke to Michelin and
+its old-world—which is to say, classically French—values. In broad terms, if
+Michelin is the list of white tablecloths, the 50 Best is the list of no
+tablecloths; if Michelin rewards stolid excellence, the 50 Best rewards
+novelty; if Michelin's heart lies in France, the 50 Best's theoretically
+encompasses the entire world.
+
+The List's first No. 1, in 2002, was Ferran Adrià's El Bulli, helping to spur
+both the global influence of Spanish avant-garde cooking and the kind of
+deeply theatrical, multicourse tasting menus that the 50 Best continues to
+most prominently reward. Lately, the top three spots have rotated among
+Copenhagen's Noma; Osteria Francescana in Modena, Italy; and the current No.
+1, El Celler de Can Roca in Girona, Spain. A French restaurant has never held
+the top spot—an honor awarded at a lavish ceremony that has always been held
+in London. This year it will take place on June 13 in New York City, a move
+designed to emphasize the List's global reach.
+
+Arriving and evolving in the era of social media and a nonstop circuit of
+culinary conferences and festivals, the 50 Best has become a kind of house
+list for the cult of chef as artist and personality. (Although its makers
+insist that they publish a ranking of restaurants, not chefs, one glance at
+the gallery of winners on its website—a checkerboard of predominantly white-
+male head shots—tells a different story.) Michelin's famous definition of a
+three-star restaurant is “worth a special journey,” but it's the World's 50
+Best that has been embraced by a generation of eaters for whom dining
+experiences have become the primary reason to travel. Or just a chance to
+chatter: It is the list of the Instagrammed, the Snapchatted, and the Status
+Updated. I have a friend who religiously follows the World's 50 Best. He keeps
+up with menu changes, openings, and changes in reputation the way others once
+followed the movie or book business. It does not strike him as the least bit
+odd that he has never actually eaten at any of the restaurants.
+
+* * *
+
+Illustration by Wren McDonald
+
+Why a restaurateur might want to get on the List is obvious: Its effects can
+be transformative. Winners find their profiles instantly raised. It was its
+climb up the ladder of the 50 Best that turned Noma, like El Bulli before it,
+into the most influential restaurant in the world—and, not coincidentally,
+filled its reservation book in perpetuity. Nor are the effects limited to the
+top. “We felt an immediate impact: the amount of e-mails, the amount of phone
+calls,” says Esben Holmboe Bang of Oslo's Maaemo, which climbed last year from
+No. 79 to No. 64. “And we're not even in the top 50.”
+
+“People who are into the list are very perseverant,” says David McMillan of
+Montreal's Joe Beef, which debuted at No. 81 last year. “You get some pretty
+OCD foodies: five e-mails, eight calls, begging for an eleven-fifteen
+reservation. There are people who just want to notch restaurants on their
+belts.”
+
+And once a restaurant is on the List, that restaurant tends to stay on the
+List. In a self-perpetuating cycle, the ranking begets articles begets
+visitors begets social media begets votes.
+
+The World's 50 Best's methodology is a hybrid of two very different ways of
+thinking about rankings: On the one hand, there's the American love of a
+survey—the belief in consensus that undergirds guides like Zagat and Yelp. On
+the other is the European ideal of the expert, reflected in the fantasy of
+all-knowing, all-seeing Michelin ninjas roaming the countryside in their
+cloaks of invisibility. In other words, while the List is generated by voting,
+it's only among a smallish group of culinary elites—just shy of 1,000.
+
+The elites, in this case, belong to three groups: chefs, journalists, and so-
+called _gastronauts._ (The best thing that can be said about that term is that
+it is not _foodies,_ though it still brings to mind a band of miniaturized
+scientists sailing their way through somebody's colon in a tiny spaceship.)
+Some gastronauts are from sectors of the food business—wine importers,
+restaurant consultants—whose jobs allow them to eat widely. Most, however, are
+simply civilian members of the very rich. They are both the List's authors and
+its customers, the people for whom each year's edition serves as a map for
+future travel, future dining, and future list-making. For the rest of us,
+their verdicts are something to parse, debate, and salivate over.

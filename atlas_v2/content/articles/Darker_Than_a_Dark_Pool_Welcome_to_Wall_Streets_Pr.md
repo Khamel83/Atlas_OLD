@@ -1,0 +1,230 @@
+# Darker Than a Dark Pool? Welcome to Wall Street’s ‘Private Rooms’
+
+**Source**: https://finance.yahoo.com/news/darker-dark-pool-welcome-wall-210011026.html
+**Type**: article
+**Created**: 2025-08-13T15:06:20.924940
+
+---
+
+title: Darker Than a Dark Pool? Welcome to Wall Street’s ‘Private Rooms’
+source: https://finance.yahoo.com/news/darker-dark-pool-welcome-wall-210011026.html
+date: 2025-08-13T15:06:06.970499
+tags: []
+---
+(Bloomberg) -- Wall Street’s infamous dark pools are getting even darker.
+
+Most Read from Bloomberg
+
+A decade after being engulfed by a controversy that culminated in multiple
+enforcement actions and a regulator clampdown, these off-exchange trading
+platforms are touting a way to buy and sell stocks that’s even more opaque.
+
+They’re offering what are dubbed private rooms, gated venues that take the
+core benefit of a dark pool — the ability to hide big equity deals so they
+won't impact prices — and add exclusivity, specifying exactly who can partake
+in any trade.
+
+Created within the dark pools themselves, the rooms are independent from one
+another and each is invisible to anyone not invited, raising questions about
+both market transparency and fragmentation. But with more than half of all US
+stock trading now happening away from public exchanges, they’re in high demand
+from firms eager to choose whom they do business with, often to help them
+carry out individual orders more efficiently.
+
+“It’s like shopping when you know exactly the item you want, and who and where
+you are buying or selling it from, instead of going to Walmart on Black
+Friday,” says David Cannizzo, the head of electronic trading at Raymond James
+and Associates. “You’re controlling the terms of engagement.”
+
+Right now, it’s impossible to say how many private rooms exist, or how much
+activity is moving through them. Companies operating alternative trading
+systems, or ATS — the formal term for dark pools — say it’s a minority of
+their volumes at present, since the growth in demand is a relatively new
+phenomenon.
+
+But they’re seeing rapid adoption by everyone from broker-dealers and market
+makers to hedge funds and asset managers, so much so that private-room volumes
+at one major ATS — Stamford, Connecticut-based IntelligentCross — now eclipse
+the total trading activity at nine rival dark-pool operators.
+
+Dark pools are so-called because the trades they handle happen away from the
+“lit” public exchange. That helps prevent order details leaking to the broader
+market and triggering adverse price moves before they can be executed. But
+there’s still a downside: a pool is open to anyone, and firms inside never
+know who their counterparty is in any trade. Private rooms can be even more
+discreet.
+
+“It’s about exercising control, what liquidity a broker wants to interact with
+to achieve better execution quality,” says Roman Ginis, CEO of Imperative
+Execution, the parent company of IntelligentCross.
+
+There are myriad reasons why users may opt for private rooms. Take the case of
+CastleOak Securities, a New York-based minority-run brokerage. The firm wants
+to trade with similarly minded businesses, so it uses a private room provided
+by the ATS operator OneChronos.
+
+Carlos Cabana, head of equity sales and trading at CastleOak, dubs the room a
+“diversity pool,” because the participants are all minority-operated brokerage
+firms. While in this instance CastleOak doesn’t know specifically who is on
+the other side of every trade, it knows it will be one of about 10
+counterparties who meet certain eligibility criteria related to ownership and
+investment goals.
+
+“Think of it as an apartment that’s hosting a party, and there’s one purpose
+for the party with only invited guests,” says Cabana.
+
+Thanks to CastleOak’s increasing use of the diversity pool, OneChronos is now
+its third most-used trading venue, behind only the New York Stock Exchange and
+Nasdaq, Cabana says.
+
+Execution Excellence
+
+Private rooms are known by a slew of other names including hosted pools,
+restricted-access rooms, ATS pools, and custom counterparty groups. They’re
+gaining popularity in the huge, ultra-fast modern market as a way to help
+firms avoid losing out against players who may be able to move quicker or who
+have access to superior information.
+
+For instance, many brokers and market makers are keen to take the other side
+of retail investor orders. Those small, less volatile trades are generally
+unlikely to impact prices — so a market maker won’t see an adverse move occur
+the instant it agrees to fill an order, as might happen with another type of
+counterparty.
+
+High-Frequency Traders Love Business With Robinhood
+
+Brokers who take orders to private rooms typically expect to fill the order at
+the midpoint of the national-best-bid and offer, or NBBO (assuming the rule of
+the room is set up that way, which is usually the case). If for some reason
+the order is not filled in the room at the midpoint, it can move to the
+broader ATS where multiple other parties can compete to fill it. And if a
+broker has bad experiences with a private room, they can change to another in
+the future, avoiding those counterparties.
+
+“The problem we have is, how do we identify good versus bad liquidity?” says
+Jatin Suryawanshi, global head of quant strategy at Jefferies, who estimates
+that 15 in every 100 shares executed by the firm’s algorithms currently move
+via a room. “In using private rooms, you can prioritize who you want to
+interact with.”
+
+The growth of private rooms has accelerated as their use has become more
+common and as stock trading has migrated away from public exchanges. Off-
+exchange activity has been rising for years in the US, and now frequently
+accounts for more than half of all recorded volume.
+
+Private rooms emerged at the ATS firm LeveL as far back as 18 years ago. LeveL
+started by allowing firms to match their own orders, in what's known as
+internalization. That expanded to other forms of segmentation, including bi-
+lateral and multi-lateral agreements, where one party agrees to trade with
+another, or multiple parties agree to only interact with each other, within
+the same ATS.
+
+Following requests from its own clients, IntelligentCross started offering its
+version of private rooms about a year-and-a-half ago, and OneChronos joined
+the party last year.
+
+Private rooms are not generally needed by big banks or brokers who have the
+resources to create their own ATS or what are called single-dealer platforms.
+That’s another breed of off-exchange trading venue where the operator is
+always the counterparty to any trade.
+
+But for smaller players, it's too expensive and cumbersome to build and manage
+an ATS or SDP, meet the associated regulatory reporting requirements and set
+up the necessary connections. Arranging a private room at an established ATS
+is a solution.
+
+“There are various factors of why a firm would want to outsource this activity
+than keep it in house,” says Steve Miele, CEO of Kezar Markets, the parent of
+LeveL. “It could be a cost, an overhead they don’t necessarily have to take on
+if we can build it, then scale it” using the existing network, he says. “We
+lower the barrier to entry.”
+
+At IntelligentCross, the majority of rooms currently offered serve
+institutional brokers that don’t have capacity to conduct similar activities
+internally. Jefferies trades in a private room provided by the firm where it
+interacts with seven other brokers who don’t have their own ATS, but have
+institutional orders, according to Suryawanshi.
+
+“These are always created at the request of a subscriber, who is the host that
+invites others to be guests in their book,” says Ginis at Imperative
+Execution.
+
+Dark Disclosure
+
+Not every ATS is rushing to embrace private rooms. New York-based PureStream
+offers “pools” that operate like rooms, but they are disclosed to all
+subscribers if they are created, and anyone can join. In essence, the room is
+open to all.
+
+So far no one has asked to set up a pool at PureStream, so there is zero
+volume in so-called sub-pools, according to CEO Armando Diaz. He says offering
+a private room that isn’t open to all subscribers raises questions about the
+regulation. “The more the host controls the room, the more they are operating
+an ATS, and that opens up regulatory risk,” he says.
+
+Perhaps the biggest criticism of private rooms is that they create phantom
+liquidity, because transactions taking place inside a room are simply lumped
+in with the total activity reported by its dark pool parent. That creates a
+misleading picture for anyone trying to gauge market depth, since reported
+trading volumes include activity not available to those outside the room.
+
+ATS are regulated trading venues, overseen by the Securities and Exchange
+Commission, which in 2018 enhanced its supervision of such venues by imposing
+new disclosure requirements. Each dark pool must now file a form, ATS-N, which
+gives an overview about the specific trading mechanisms on its platform.
+
+These publicly available forms go into various details, including whether
+private rooms are available. But they don’t say how many exist or who is in
+them, and the varying language and levels of disclosure used mean it can
+sometimes be difficult to determine if an ATS is even hosting any rooms.Wall
+Street Dark Pools to Come Out of Shadows Thanks to SEC
+
+“There are no rules to force ATS to break out the identity of single-dealer
+rooms or their volume,” Larry Tabb, head of market structure at Bloomberg
+Intelligence, wrote in a May note. The Financial Industry Regulatory Authority
+“does a good job of ATS volume reporting on a post-execution basis. Yet there
+are no rules to aid analysts or users looking to break down the percentage of
+ATS volume executed in the open pool vs. the private room, or the volume
+executed using segmentation strategies,” he wrote.
+
+Dark pools are no strangers to transparency worries. Their opacity provoked
+extensive media coverage and regulatory scrutiny about a decade ago amid
+speculation they gave high-frequency firms advantages against other investors
+— attention partly prompted by the bestselling book Flash Boys.
+
+Representatives for both Finra and the SEC declined to comment.
+
+‘Growth Mode’
+
+For their users, private rooms are a handy tool, but still one of a set.
+Hosted pools represent a single-digit percentage of IntelligentCross’s overall
+volumes for now — an average of about 5.4% last year — because they’re so new,
+according to Ginis. “It will take brokers some time to optimize for this,” he
+says.
+
+CEO of OneChronos Capital Markets Vlad Khandros says its rooms represent less
+than 5% of volume at present as “it’s newer for us, so it’s still in growth
+mode.” But demand is strong. “We’ve seen increased interest from both retail
+and institutional brokers,” Khandros says. “The focus on execution quality
+will continue to grow.”
+
+LeveL declined to disclose the number of rooms it operates or how much
+activity takes place in them, with Miele saying the absence of industry-wide
+criteria for categorizing rooms means it could be “misleading to quantify.”
+
+Mark Gurliacci, senior vice president and senior quantitative trader at
+AllianceBernstein, reckons up to 75% of the firm’s activity is now happening
+off-exchange, including in private rooms. While the latter is a small slice of
+their trading at present, he thinks it’s set to grow.
+
+“Many firms are setting up private rooms these days,” says Gurliacci, who used
+to work for the NYSE. “They are innovative, and here to stay. There is more
+going on there than most people know.”
+
+\--With assistance from Lydia Beyoud.
+
+(Updates with extra detail on the growth in off-exchange trading activity.)
+
+Most Read from Bloomberg Businessweek
+
+©2025 Bloomberg L.P.

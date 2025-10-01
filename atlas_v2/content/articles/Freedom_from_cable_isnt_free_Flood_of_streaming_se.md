@@ -1,0 +1,137 @@
+# Freedom from cable isn’t free: Flood of streaming services will make cutting the cord more complicated - The Washington Post
+
+**Source**: https://www.washingtonpost.com/business/economy/freedom-from-cable-isnt-free-flood-of-streaming-services-will-make-cutting-the-cord-more-complicated/2017/08/11/01f9ade0-7d1f-11e7-a669-b400c5c7e1cc_story.html
+**Type**: article
+**Created**: 2025-08-13T17:05:15.393810
+
+---
+
+title: Freedom from cable isn’t free: Flood of streaming services will make cutting the cord more complicated - The Washington Post
+source: https://www.washingtonpost.com/business/economy/freedom-from-cable-isnt-free-flood-of-streaming-services-will-make-cutting-the-cord-more-complicated/2017/08/11/01f9ade0-7d1f-11e7-a669-b400c5c7e1cc_story.html
+date: 2025-08-13T17:04:20.432373
+tags: []
+---
+In the old days of video streaming — that is, not so long ago — consumers
+could cut the cable cord and subscribe to one or two services, enjoying a vast
+array of movies and television programming at a rate far less than the monster
+cable bill.
+
+It’s not so simple anymore.
+
+Disney, the juggernaut behind ESPN, Pixar, Marvel and the recent additions to
+the Star Wars franchise, shook the entertainment world this week with an
+announcement that it would remove many of its offerings from Netflix. The
+company said it would create a service — or multiple services — for its films
+and shows, and another for ESPN.
+
+As a result, a Netflix user who enjoyed access to Disney content — plus all of
+Netflix’s other content — on one site may have to turn to three or more sites
+to get it all. “It’s all in discussion,” said Disney chief executive Bob Iger.
+
+It is the most recent example of how the move toward streaming — though
+consumers have been demanding it for years — is proving to be a more
+fragmented experience than many have anticipated. Entertainment companies are
+now running services with increasingly narrow offerings, looking to hit
+consumers up for more subscription revenue wherever possible.
+
+“I worry that we’ll be going down yet another rabbit hole where exclusivity
+will take over and I’ll ultimately end up paying more for less,” said Brett
+Hatten, a father of two toddlers from Chicago who already pays for six
+streaming services. “I don’t want to end up in a place where you have to
+subscribe to a bunch of different fiefdoms.”
+
+The shift is breaking down popular expectations in the entertainment world.
+For a half-century, for instance, viewers have expected to see shows on CBS
+broadcast free over the air on their TV. But this year, the network is
+launching highly anticipated shows such as the sequel to "[The Good
+Wife](http://web.archive.org/web/20250715075925/https://www.amazon.com/gp/product/B0066NA8CU?ie=UTF8&tag=thewaspos09-20&camp=1789&linkCode=xm2&creativeASIN=B0066NA8CU
+"www.amazon.com")" and a new "Star Trek" series only on its online service,
+marking yet another service people may need to subscribe to. CBS announced a
+separate sports streaming service this week.
+
+CBS sees this as a way to court specific audiences. “To succeed, you need a
+great core and content that only you have,” Marc DeBevoise, the president of
+CBS Interactive, said of the network’s streaming service, CBS All Access.
+
+The original programs, for example, specifically court an audience interested
+in prestige dramas. “These are not for a big, broad audience,” he said.
+
+And the plethora of television options is changing consumer behaviors in still
+other ways, leading many viewers to hopscotch between services, subscribing to
+HBO for a few months to watch "[Game of
+Thrones](http://web.archive.org/web/20250715075925/https://www.amazon.com/gp/product/B007HJ84ZK?ie=UTF8&tag=thewaspos09-20&camp=1789&linkCode=xm2&creativeASIN=B007HJ84ZK
+"www.amazon.com")," then moving to Showtime to take in "[The
+Affair](http://web.archive.org/web/20250715075925/https://www.amazon.com/gp/product/B00TYB9Y30?ie=UTF8&tag=thewaspos09-20&camp=1789&linkCode=xm2&creativeASIN=B00TYB9Y30
+"www.amazon.com")," before joining yet another service for an eight-episode
+binge.
+
+"I happily subscribe to Netflix, Hulu and Amazon Prime, which all have a wide
+selection of shows and movies. But when I consider other streaming services,
+the costs add up," said Diana Urban, a 30-year-old marketing manager and
+fiction author in Boston. She signs up for HBO Now during "Game of Thrones"
+season, when she also catches up on
+"[Veep](http://web.archive.org/web/20250715075925/https://www.amazon.com/gp/product/B00C0OMXKE?ie=UTF8&tag=thewaspos09-20&camp=1789&linkCode=xm2&creativeASIN=B00C0OMXKE
+"www.amazon.com")" and a few other shows. "Paying $15 a month indefinitely for
+only four shows isn't worth it," she said.
+
+Streaming services such as Netflix, Hulu and Amazon Prime, which offers a
+video library along with its other features, such as free two-day shipping,
+took off in part because they promised a convenient, cheaper alternative to
+cable. (Amazon chief executive Jeffrey P. Bezos owns The Washington Post.)
+
+Cable companies are bound to distribution deals from network conglomerates,
+including Disney, which require cable firms to pair their most popular
+channels with less popular ones. As cable-bill prices continued to climb every
+year, however, consumers balked at paying more for content that they didn’t
+want and some decided to turn to streaming sites.
+
+The shift has prompted cable companies to explore smaller cable packages that
+cut the bloat. But for many customers, making their own bundles of streaming
+services has proved appealing. Those not interested in live sports — which
+contributes a lot to the cost of a cable package — can easily get news, movies
+or sitcoms from Netflix or Hulu without having to buy a preset bundle. (Or
+they can get just the opposite, in the case of ESPN’s upcoming stand-alone
+service.)
+
+That’s provided consumers with a lot of choice, said John Bergmayer, senior
+counsel at the consumer advocacy group Public Knowledge.
+
+“The stranglehold of cable isn’t broken yet — for most people it’s hard to cut
+the cord — but these are all really good signs,” he said.
+
+But it’s clear from viewers that the cost per service is a growing concern.
+“The current influx of these subscription-based plans is saturating the
+market,” said Jamie O’Dell, 35, a food safety program manager from Albany,
+N.Y. “We do not need more options for streaming services,” she said. “We need
+less.”
+
+About 21 percent of American video viewers pay for multiple streaming-video
+on-demand services, according to the market research company GfK. That number
+has grown by roughly one-third for the past three years.
+
+Big streaming services such as Netflix provide subscribers content from many
+sources. But many others are now getting into the game. At least six networks
+have launched services, with subscription fees ranging from $6 to $15 per
+month. Many of those already offer their shows in some way through existing
+services.
+
+Now, consumers may find that shows and films they used to be able to access on
+broader services such as Netflix are pulled out for a separate service. The
+cost and mental effort of managing multiple services may be starting to prove
+nettlesome.
+
+“I just don’t want another subscription bill I have to pay,” said Erin
+Thompson, a mother of four from North Tonawanda, N.Y.
+
+Justifying the hassle of managing another service also puts pressure on Disney
+and rivals, creating a different kind of relationship with its fans, analysts
+say.
+
+The company will have a more direct line to consumers but will also have to
+deal with complaints, for example, about the quality and reliability of their
+streams.
+
+The appeal of streaming will prompt many more companies to launch their own
+video streaming services, said Brian Wieser, senior research analyst at
+Pivotal Research Group. “It’s inevitable [there will be] more direct-to-
+consumer offerings as time progresses.”

@@ -1,0 +1,29 @@
+# Your Life in Weeks - Cool Infographics
+
+**Source**: http://www.coolinfographics.com/blog/2015/4/17/your-life-in-weeks.html
+**Type**: article
+**Created**: 2025-08-13T19:00:58.769165
+
+---
+
+title: Your Life in Weeks - Cool Infographics
+source: http://www.coolinfographics.com/blog/2015/4/17/your-life-in-weeks.html
+date: 2025-08-13T19:00:45.346739
+tags: []
+---
+[Your Life in
+Weeks](http://web.archive.org/web/20221208121412/http://waitbutwhy.com/2014/05/life-
+weeks.html) infographic is the life of a typical American broken down into the
+52 weeks within each year. This infographic was created by [Tim
+Urban](http://web.archive.org/web/20221208121412/http://www.huffingtonpost.com/wait-
+but-why/) from [Wait But
+Why](http://web.archive.org/web/20221208121412/http://www.waitbutwhy.com/).
+Each dot represents one week of your life. The infographic highlights some of
+the major milestones in life, while color coding the weeks into the big
+categories of schooling, career, and retirement.
+
+> _Each row of weeks makes up one year. That’s how many weeks it takes to turn
+> a newborn into a 90-year-old._
+>
+> _It kind of feels like our lives are made up of a countless number of weeks.
+> But there they are — fully countable — staring you in the face._

@@ -1,0 +1,189 @@
+# China and Russia Visa-Free for 72 hours if you DO THIS! [EXPIRED] | Frugal Travel Guy
+
+**Source**: http://www.frugaltravelguy.com/2014/06/china-and-russia-visa-free-for-72-hours-if-you-do-this.html
+**Type**: article
+**Created**: 2025-08-13T19:42:11.981643
+
+---
+
+title: China and Russia Visa-Free for 72 hours if you DO THIS! [EXPIRED] | Frugal Travel Guy
+source: http://www.frugaltravelguy.com/2014/06/china-and-russia-visa-free-for-72-hours-if-you-do-this.html
+date: 2025-08-13T19:42:00.694096
+tags: []
+---
+(Offers on this page are now expired and are no longer available.)  
+We all know you can’t go to Russia or China without jumping through hoops to
+secure a costly visa. Times are changing quickly however and with capitalism
+making its way into the main stream of these countries, there is the
+realization that the economic benefits of allowing tourists to hang out (and
+spend money) during a short stay may be a good thing. The 72-hour visa is
+becoming a popular way to lure travelers and their wallets to some previously
+visa-required cities.
+
+[![Photo Credit:
+K.Oncu](/web/20210114195415im_/https://www.frugaltravelguy.com/wp-
+content/uploads/2014/06/72_hour_visa_china.jpg)](http://web.archive.org/web/20210114195415/https://www.frugaltravelguy.com/wp-
+content/uploads/2014/06/72_hour_visa_china.jpg)
+
+Photo Credit: K.Oncu
+
+**China**
+
+Currently, there are six major cities in China that allow 72-hour direct
+transit for US citizens (and citizens of many other countries) without a visa.
+Those cities adapting the 72 hour visa-free visit for transit passengers
+include Beijing, Shanghai, Guangzhou, Chengdu, Chongqing, Shenyang, and
+Dalian. The trend is really catching on and additional Chinese cities are in
+the process of implementing the same transit policy. There are strict
+guidelines but it is pretty simple to adhere to them. Here are the details:
+
+You must have a confirmed ticket (and visa if needed) to a third country. A
+roundtrip ticket to Beijing would not qualify nor a ticket that went from
+Beijing onward to another city in China. For instance, if you were flying NRT
+-PEK (Beijing)-NRT it would not qualify. An ORD-PEK-BKK (and return) would
+qualify for a 72 hour transit visa for Beijing as you would be stopping in
+Beijing on your way to Bangkok, your final destination (a third country).
+
+You must stay in the visa-free city for the entire transit time; you cannot
+travel to other cities. You must arrive and leave from the same airport. When
+you check into your hotel, you will be registered and you must do it within
+the first 24 hours. Alternately, if staying with family or friends, you would
+register at a police station.
+
+The visa applies only when transiting by air, not train or other ground
+transportation. If, for any unforeseen circumstances, you cannot leave within
+72 hours, perhaps due to illness, flight delays, etc., you must apply for a
+visa. There are severe penalties for not doing so.
+
+A copy of the policy for the Beijing 72 hour transit visa can be found
+[online](http://web.archive.org/web/20210114195415/http://en.bcia.com.cn/server/notice/72visafree/72visafree_policy.shtml).****
+
+**[![72_hour_visa_ferry_to_st_petersburg](/web/20210114195415im_/https://www.frugaltravelguy.com/wp-
+content/uploads/2014/06/72_hour_visa_ferry_to_st_petersburg.jpg)](http://web.archive.org/web/20210114195415/https://www.frugaltravelguy.com/wp-
+content/uploads/2014/06/72_hour_visa_ferry_to_st_petersburg.jpg)**
+
+**Russia**
+
+The Russian visa system has to be one of the most restrictive. You must apply
+for the visa well in advance, have personal sponsorship, and adhere to other,
+very time-sensitive requirements. There are however, ways to visit Russia
+visa-free for 72 hours.
+
+One consideration the Russian government does make is allowing international
+cruise ship passengers a 72-hour visa exception. The passengers are required
+to stay with a Russian-licensed organized tour group during their entire stay
+and return to the ship to sleep.
+
+Another exception to the Russian visa requirement is entering and departing
+Saint Petersburg from Helsinki, Tallinn, or Stockholm via ferry. A 72-hour
+visa-free visit is allowed with proof of purchase of arrival and departure
+sailing tickets and a confirmed booking with an authorized tour provider. The
+cheapest option to book an authorized tour is the shuttle bus offered at 25
+Euros. You will have this option available when booking your voyage to Saint
+Petersburg.
+
+The cruise from Helsinki, Finland or Tallinn, Estonia is around 11-12 hours
+each way but there are sleeping accommodations on the ships. I found 3 day/2
+night cruises for under $200 + service fees. Various visa-free ferry and
+cruise journeys can be booked at
+[here](http://web.archive.org/web/20210114195415/http://5stars-
+scandinavia.com/visa-free-cruises.html) and
+[here](http://web.archive.org/web/20210114195415/http://www.stpeterline.com/en/OnBoard/News.aspx).
+For more information on the 72-hour visa-free option via ferry or cruise ship
+you can go
+[online](http://web.archive.org/web/20210114195415/http://www.stpeterline.com/en/Goodtoknow/Visafreerule.aspx).
+To learn more about Saint Petersburg and tips for making your visa-free visit
+go smoothly, check out this
+[guide](http://web.archive.org/web/20210114195415/http://www.st-petersburg-
+essentialguide.com/ferry-to-st-petersburg.html).
+
+Coming soon (hopefully) is another 72-hour visa-free proposal for airline
+passengers who arrive at several of Russia’s major airports. It would allow
+those passengers who arrive and depart on a Russian carrier a visa-free stay.
+While this proposal was approved by the Russian government last September (I
+first read about it thanks to Lucky at [One Mile at a
+Time](http://web.archive.org/web/20210114195415/http://boardingarea.com/onemileatatime/2013/11/06/russia-
+introduce-72-hour-transit-without-visa/)) and the effective date was supposed
+to be June 1, 2014; it is not yet in effect.
+
+I went through a lot of Russian State documents, translating them and reading
+the proceedings on the proposal to get an update on the bill and bottom line
+is that it has been approved in the first reading and three readings are
+required. Readings two and three are not scheduled but it appears the next
+action on the proposal is June 19th. But then I’m reading translated Russian,
+so I could be slightly off on that. In the meantime perhaps you’d like to read
+[a fascinating (and slightly humorous)
+transcript](http://web.archive.org/web/20210114195415/http://government.ru/en/news/850)
+on the Russians discussing the promotion of tourism with some amazing comments
+that will make you smile.
+
+Have you taken advantage of any of these 72 hour visa-free visits? How did it
+go?
+
+Have questions about this or other topics? Feel fee to comment below or
+[email](/web/20210114195415/https://www.frugaltravelguy.com/cdn-cgi/l/email-
+protection#2346474a574c516345515644424f57514255464f44565a0d404c4e) us.
+
+[Christine
+Krzyszton](http://web.archive.org/web/20210114195415/https://www.frugaltravelguy.com/author/christinekrzyszton
+"Posts by Christine Krzyszton")
+
+Christine Krzyszton lives in Northern Michigan and travels the world with no
+predetermined destination in mind, letting airfare prices dictate where she
+will travel. A points and miles junkie, she prefers to utilize points to
+offset the cost...
+
+[All
+Articles](http://web.archive.org/web/20210114195415/https://www.frugaltravelguy.com/author/christinekrzyszton)
+
+![](http://web.archive.org/web/20210114195415im_/https://www.frugaltravelguy.com/wp-
+content/uploads/2018/03/unnamed-1.png)
+
+### Delta® Reserve for Business
+
+  * Annual Fee: $450 fee 
+  * Foreign Fees: No 
+  * Card Type: Travel
+
+[Apply
+Now](http://web.archive.org/web/20210114195415/https://oc.brcclx.com/t/?lid=26642082&cr=23052&last_updated=1519918806)
+[Add to
+Favorites](/web/20210114195415/https://www.frugaltravelguy.com/login?redirect_to=/2014/06/china-
+and-russia-visa-free-for-72-hours-if-you-do-this.html?fav_c_id=136)
+
+  * Earn 40,000 bonus miles and 10,000 MQMs after you spend $3,000 in purchases with your new Card in the first 3 months.†
+  * Earn 15,000 Medallion® Qualification Miles (MQMs) and 15,000 bonus miles after you reach $30,000 in eligible purchases on your Card in the calendar year.
+  * Earn 2 Miles per dollar spent on eligible purchases made directly with Delta. Earn 1 mile on every eligible dollar spent on purchases.
+  * Settle into your seat sooner with Priority Boarding and enjoy 20% savings on eligible in-flight purchases in the form of a statement credit.
+  * Pay no foreign transaction fees when you spend overseas.‡
+  * Complimentary Delta Sky Club® Access.‡
+  * Terms and limitations apply
+  * [See Rates & Fees](http://web.archive.org/web/20210114195415/https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/delta-reserve-for-business-credit-card/42732-9-0?key=tncBody&rwdFlag=rwd)
+
+Breakdown
+
+Earn (pt.)
+
+Spend
+
+Per dollar on eligible purchases with Delta Purchases
+
+2.00
+
+$1
+
+FTG Review | Reward Breakdown | Points Breakdown  
+---|---|---  
+  
+  * Earn 40,000 bonus miles and 10,000 MQMs after you spend $3,000 in purchases with your new Card in the first 3 months.†
+  * Earn 15,000 Medallion® Qualification Miles (MQMs) and 15,000 bonus miles after you reach $30,000 in eligible purchases on your Card in the calendar year.
+  * Earn 2 Miles per dollar spent on eligible purchases made directly with Delta. Earn 1 mile on every eligible dollar spent on purchases.
+  * Settle into your seat sooner with Priority Boarding and enjoy 20% savings on eligible in-flight purchases in the form of a statement credit.
+  * Pay no foreign transaction fees when you spend overseas.‡
+  * Complimentary Delta Sky Club® Access.‡
+  * Terms and limitations apply
+  * [See Rates & Fees](http://web.archive.org/web/20210114195415/https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/delta-reserve-for-business-credit-card/42732-9-0?key=tncBody&rwdFlag=rwd)
+
+Breakdown Earn (pt.) Spend Per dollar on eligible purchases with Delta
+Purchases 2.00 $1 [Apply
+Now](http://web.archive.org/web/20210114195415/https://oc.brcclx.com/t/?lid=26642082&cr=23052&last_updated=1519918806)

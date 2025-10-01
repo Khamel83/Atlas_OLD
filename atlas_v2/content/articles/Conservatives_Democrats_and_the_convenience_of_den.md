@@ -1,0 +1,356 @@
+# Conservatives, Democrats and the convenience of denouncing free speech | Glenn Greenwald | The Guardian
+
+**Source**: http://www.guardian.co.uk/commentisfree/2012/sep/16/conservatives-democrats-free-speech-muslims
+**Type**: article
+**Created**: 2025-08-13T20:12:44.553539
+
+---
+
+title: Conservatives, Democrats and the convenience of denouncing free speech | Glenn Greenwald | The Guardian
+source: http://www.guardian.co.uk/commentisfree/2012/sep/16/conservatives-democrats-free-speech-muslims
+date: 2025-08-13T20:12:42.909879
+tags: []
+---
+_[Updated below]_
+
+Nothing tests one's intellectual honesty and ability to apply principles
+consistently more than free speech controversies. It is exceedingly easy to
+invoke free speech values in defense of political views you like. It is
+exceedingly difficult to invoke them in defense of views you loathe. But the
+true test for determining the [authenticity of one's belief in free
+speech](http://www.aclu.org/free-speech/aclu-history-taking-stand-free-speech-
+skokie) is whether [one does the
+latter](http://www.nytimes.com/2012/09/15/us/georgia-in-suing-state-aclu-
+defends-klan.html), not the former.
+
+The anti-US protests sweeping the Muslim world have presented a perfect
+challenge to test the free speech convictions of both the American right and
+the Democratic party version of the left. Neither is faring particularly well.
+
+Let's begin with the Democrats. On Thursday, the Obama White House [called
+executives at Google](http://www.politico.com/politico44/2012/09/white-house-
+asked-youtube-to-review-antimuslim-film-135586.html), the parent company of
+YouTube, and "requested" that the company review whether the disgusting anti-
+Muslim film that has sparked such unrest should be removed on the ground that
+it violates YouTube's terms of service.
+
+In response, free speech groups such as the ACLU and EFF [expressed serious
+concerns](http://www.politico.com/blogs/under-the-radar/2012/09/activists-
+troubled-by-white-house-call-to-youtube-135618.html) about the White House's
+actions. While acknowledging that there was nothing legally compulsory about
+the White House's request (indeed, Google [announced the next
+day](http://www.huffingtonpost.com/2012/09/14/white-house-innocence-of-
+_n_1885684.html) they would leave the video up), the civil liberties groups
+nonetheless noted – correctly – that "it does make us nervous when the
+government throws its weight behind any requests for censorship", and that "by
+calling YouTube from the White House, they were sending a message no matter
+how much they say we don't want them to take it down; when the White House
+calls and asks you to review it, it sends a message and has a certain chilling
+effect".
+
+Right-wing commenters loudly decried the White House's actions on free speech
+grounds. Some of their rhetoric was overblown (the sentiment behind the
+request was understandable, and they did nothing to compel its removal). But,
+for reasons made clear by the ACLU and EFF, these conservative objections were
+largely correct.
+
+In sum, the White House has no business sticking its nose into which videos
+YouTube decides to publish or suppress. [Corporations that depend on the US
+government](http://talkingpointsmemo.com/archives/2010/12/big_web.php?ref=fpblg)
+for all sorts of vital benefits and contracts, and which are subject to its
+regulations and punishments, will always perceive White House "requests" as
+being far less optional than similar requests from random users. Nobody should
+want the US government insinuating itself into the determination by private
+internet companies about which political speech they will allow.
+
+The White House's request to YouTube provoked almost no objections from
+[Democrats](https://www.theguardian.com/us-news/democrats), who – when there
+is a Republican president – tightly bind themselves to the ACLU and parade
+around as free speech crusaders. To the extent they acknowledged any of this
+at all, their responses ranged from indulging patently absurd pretenses (this
+was just a polite request from the White House: what's wrong with that?) to
+affirmative justification (the film is intended to cause violence and thus
+should be removed).
+
+Just imagine if the Bush White House had called YouTube and "requested" that
+it remove anti-war videos on the ground that such videos were endangering US
+troops. That is hardly some fantastical hypothetical. The claim that
+administration critics were "emboldening the enemy" was a [very common
+trope](http://www.brendan-nyhan.com/blog/gop-dissent-attacks.html) during the
+Bush era (an ugly trope that some progressives [now
+repeat](http://www.brendan-nyhan.com/blog/attacks-on-dissent-against-
+president-obama.html) toward conservative critics of Obama). John Ashcroft
+[infamously
+announced](http://articles.cnn.com/2001-12-06/us/inv.ashcroft.hearing_1_military-
+tribunals-terrorism-probe-attorney-general-john-ashcroft?_s=PM:US) when
+testifying before the Senate in December 2001 that civil libertarian
+objections to administration policies "only aid terrorists" and "give
+ammunition to America's enemies".
+
+Does anyone doubt that if the Bush White House had "requested" in the wake of
+9/11 that all anti-war or anti-administration videos be "reviewed" to see if
+they should remain on the internet – on the not-implausible ground that they
+might encourage attacks on American troops or personnel – that Democrats would
+have little trouble seeing why it is dangerous to have the executive branch
+taking action to influence private internet companies to suppress political
+speech? The actions of the Obama White House are no less inappropriate.
+
+Recall the [so-called "request" in December 2010 from Joe
+Lieberman](http://www.salon.com/2010/12/02/lieberman_55/), made in his
+capacity as chairman of the Senate Homeland Security Committee, that private
+corporations such as Amazon, Visa, MasterCard and others cut off all services
+to WikiLeaks, including hosting its website and allowing payments to the
+group. Those corporations instantly complied – how many American companies
+will continue with behavior which a leading senator announces is harming US
+national security? – and [few Democrats had trouble
+understanding](http://tpmmuckraker.talkingpointsmemo.com/2010/12/how_lieberman_got_amazon_to_drop_wikileaks.php)
+why such a "request" was so odious. It should be equally easy to see why this
+is the case with the Obama White House's request to Google.
+
+Then there's the merits of the censorship case regarding this video. The claim
+that political speech should be suppressed because it is intended to "inspire"
+or "provoke" others to commit violence has been the favorite tactic of censors
+and free speech enemies for decades. Indeed, every single tyrant who wants to
+suppress political speech does so by claiming that the ideas being expressed
+are more than mere "political opinion": it is "incitement" to violence, they
+invariably claim.
+
+In the 1950s and 1960s, southern states repeatedly attempted to impose
+criminal and civil liability on the NAACP by claiming, not inaccurately, that
+the fiery speeches of the group's leaders in defense of boycotts and protests
+were inspiring some of the group's members to break the law and engage in
+violence. But the US supreme court, [in the 1972 case NAACP v
+Claiborne](http://supreme.justia.com/cases/federal/us/458/886/), _unanimously_
+rejected that pernicious theory, holding that there would be no meaningful
+free speech if speech could be proscribed on the ground that it "inspires"
+others to commit violence: "While the State legitimately may impose damages
+for the consequences of violent conduct, _it may not award compensation for
+the consequences of nonviolent, protected activity_ " [my emphasis].
+
+The court in Claiborne also noted that even "advocacy of the use of force or
+violence does not remove speech from the protection of the first amendment."
+The court there was citing its [earlier decision in Brandenberg v
+Ohio](http://www.law.cornell.edu/supct/html/historics/USSC_CR_0395_0444_ZO.html),
+which had overturned the criminal conviction of a Ku Klux Klan leader who had
+threatened violence against political officials in a speech. The Brandenberg
+court explained that "the constitutional guarantees of free speech and free
+press do not permit a State to forbid or proscribe advocacy of the use of
+force." Obviously, if the state cannot suppress speech even where it
+_explicitly_ advocates violence, then it cannot suppress a video on the ground
+that it _implicitly_ incites violence.
+
+In sum, free speech is not intended to protect benign, uncontroversial, or
+inoffensive ideas. Those ideas do not need protection. It is intended to
+protect – to foster – exactly those political ideas that are most offensive,
+most provocative, most designed to inspire others to act in the name of its
+viewpoints. One could say that [every significant political
+idea](http://www.washingtonpost.com/local/crime/family-research-council-guard-
+shot-by-gunman-in-
+dc/2012/08/15/e420527e-e719-11e1-a3d2-2a05679928ef_story.html), on the right
+and the left, has that provocative potential. If speech can be constrained on
+the ground that it can inspire or provoke violence by others, then a wide
+range of political ideas, arguably the only ones that really matter, are
+easily subject to state suppression.
+
+A Yemeni protester burns a US flag as others storm the US embassy in Sana'a
+during a protest. Photograph: Yahya Arhab/EPA
+
+Other than would-be tyrants and their authoritarian followers, nobody should
+want that. Nobody should want the state to make and enforce lists of
+prohibited ideas. Even if such state action does not offend you in principle,
+there's a very pragmatic reason to oppose it: those who cheer when ideas they
+dislike are suppressed will very likely find, at some point in the future,
+that their ideas end up on the prohibited list, and will have little ground
+for objecting when it happens.
+
+Then we come to the newfound champions of free speech on the American right.
+Conservatives do so love to depict themselves as victims: both in general and
+specifically as free speech martyrs. They particularly love to declare their
+rights assaulted at the hands of Muslims.
+
+Sometimes their complaints are valid. That was true when [Canada formally
+investigated a hateful right-wing
+journalist](http://www.salon.com/2008/01/13/hate_speech_laws/) for his vile
+speech on the ground that it was "defamatory" of Islam, and when [France did
+the same](http://www.guardian.co.uk/world/2011/feb/18/french-journalist-
+racism-drug-dealer). It was true when Democratic city officials [threatened or
+even acted to
+block](http://www.salon.com/2012/07/26/rahm_emanuels_free_speech_attack/)
+zoning permits for a fast food chain on the ground that its owner expresses
+anti-gay views. It was true when violent protesters tried to suppress Danish
+cartoons about Muhammad, and it is true now with the violence (that is
+partially) in response to this video.
+
+But the US and its western allies have, in the name of combating terrorism,
+engaged in free speech assaults aimed primarily at Muslims far more dangerous
+than any of those examples. And with very few exceptions, these same right-
+wing free speech champions have remained utterly silent, except when cheering
+it all on.
+
+Last September, the [justice department arrested and
+indicted](http://www.salon.com/2011/09/04/speech_23//) Jubair Ahmad, a
+24-year-old Pakistani legal resident living in Virginia and charged with
+"providing material support" to a designated terrorist organization (Lashkar-
+e-Tayyiba (LeT)). His alleged crime? As [I
+wrote](http://www.salon.com/2011/09/04/speech_23//) when the indictment was
+announced:
+
+> He produced and uploaded a 5-minute video to YouTube featuring photographs
+> of U.S. abuses in Abu Ghraib, video of armored trucks exploding after being
+> hit by IEDs, prayer messages about 'jihad' from LeT's leader, and –
+> according to the [FBI's
+> Affidavit](http://www.scribd.com/doc/63816237/Jubair-Ahmad-Affidavit) – 'a
+> number of terrorist logos.' That, in turn, led the FBI agent who signed the
+> affidavit to assert that 'based on [his] training and experience, it is
+> evident that the video … is designed as propaganda to develop support for
+> LeT and to recruit jihadists to LeT.' The FBI also claims Ahmad spoke with
+> the son of an LeT leader about the contents of the video and had attended an
+> LeT camp when he was a teenager in Pakistan. For the act of uploading that
+> single YouTube video (and for denying that he did so when asked by the FBI
+> agents who came to his home to interrogate him), he faces 23 years in
+> prison.
+
+Last July, former Obama justice department official Marty Lederman
+[highlighted](http://balkin.blogspot.com.br/2011/07/begolly-indictment-and-
+first-amendment.html) the arrest of a 22-year-old former Penn State student
+for - in [the FBI's
+words](http://www.justice.gov/opa/pr/2011/July/11-nsd-919.html) \- "repeatedly
+using the Internet to promote violent jihad against Americans" by posting
+comments on a "jihadist" Internet forum including "a comment online that
+praised the [October, 2010] shootings" at the Pentagon and Marine Corps Museum
+and "a number of postings encouraging attacks within the United States". He
+also posted links to a bomb-making manual.
+
+Regarding the part of the indictment based on "encouraging violent attacks",
+Lederman argued that it "does not at first glance appear to be different from
+the sort of advocacy of unlawful conduct that is entitled to substantial first
+amendment protection under the Brandenburg line of cases."
+
+As for linking to bomb-making materials, Lederman wrote: "the first amendment
+generally protects the publication of publicly available information, even
+where there is a chance or a likelihood that one or more readers may put such
+information to dangerous, unlawful use." As a result, Lederman concluded, the
+indictment "would appear to be very vulnerable to a first amendment
+challenge".
+
+Such blatant assaults on the free speech rights of Muslims in the US, and in
+the west generally, are common. In 2009, a Pakistani man in New York was
+[sentenced to almost six years in federal
+prison](http://www.aljazeera.com/news/americas/2009/04/2009423233919457969.html)
+for the "crime" of including a Hezbollah news channel in the cable package he
+offered for sale to television viewers in Brooklyn. Just this month, a British
+Muslim teenager, Azhar Ahmed, was [convicted of the
+"crime"](http://www.bbc.co.uk/news/uk-england-leeds-19604735) of posting a
+Facebook message which said: "all soldiers should die and go to hell." There
+is even [ample evidence](http://www.salon.com/2011/06/01/free_speech_4/) that
+the US government targeted its own citizen, Anwar al-Awlaki, for assassination
+without due process _not_ based on unproven claims that he was engaged in
+plotting terror attacks (a claim the government made only long after it was
+disclosed that they were trying to kill him), but rather due to its dislike of
+his political and religious sermons against the US which became quite popular
+among Muslim youth on YouTube.
+
+The rationale for all of this speech-based punishment aimed at Muslims is
+exactly the same as the one used to advocate the suppression of the anti-Islam
+video and other anti-Muslim speech: it goes beyond mere "speech" and is
+intended to incite or justify violence. Those who accept that precept to
+ignore or even cheer for the suppression or punishment of views they dislike,
+while loudly decrying it when it comes to the views they share, are not
+believers in free speech.
+
+They are just rank manipulators who exploit free speech values in an attempt
+to ensure that only their views can be heard while the views they despise are
+suppressed. This, unfortunately, is the [clear history of the American
+right](http://www.salon.com/2009/05/06/free_speech_2/), now marching so
+flamboyantly behind the free speech banner in order to protect hateful anti-
+Islam speech.
+
+It would be genuinely nice to believe that these newfound conservative free
+speech champions would henceforth become consistent allies in the fight
+against state suppression of political opinions: not just when their own ideas
+are attacked, but also when those views they hate are, including those of
+Muslim critics of US foreign policy. Until that happens, the complete
+insincerity of their free speech cheerleading is manifest.
+
+## Other matters
+
+It is just extraordinary, as I [noted on
+Friday](http://www.guardian.co.uk/commentisfree/2012/sep/14/egypt-nbc), that
+even after multiple wars and killings and invasions and occupations, the US,
+in the face of these anti-American protests in the Muslim world, is still
+stuck, oh-so-earnestly, on that eternal question: _why do they hate us?_ That
+continues even as [things like
+this](http://www.cbc.ca/news/world/story/2012/09/16/afghanistan-nato-
+airstrike.html) happen continuously.
+
+Along those lines, the New York Times yesterday [expressed
+bafflement](http://www.nytimes.com/2012/09/15/world/middleeast/anti-american-
+protests-over-film-enter-4th-day.html) that Afghans would burn an effigy of
+President Obama given that he "had made an outreach to Muslims a thematic
+pillar of his first year in office." As FAIR's Jim Naureckas
+[responded](https://twitter.com/JNaureckas/status/247290827041292288): "Maybe
+WAR made a bigger impression?"
+
+On a different note: over the next six weeks, I will be speaking in numerous
+American cities (and one event in Canada) on civil liberties, Islamophobia,
+the war on terror, the surveillance state, and related matters. Those events
+will be in California, Colorado, Missouri, Arizona, Michigan, Washington,
+Texas, and New Jersey, as well as in Ottawa, Canada. All events are open to
+the public, and [event information is
+here](http://ggsidedocs.blogspot.com.br/2012/09/late-septemberoctober-
+speaking-events.html).
+
+## UPDATE
+
+Numerous people have popped up in the comment section in order, quite
+unsurprisingly, to create all sorts of exceptions to "free speech" designed to
+protect their own views while allowing the criminalization of views they
+dislike. The hallmark of someone who does not really believe in free speech is
+when they claim they do, followed by a "but", followed by efforts to explain
+why the views they embrace should be permitted, while the views they despise
+should not be.
+
+The most common claim in this regard is that speech that advocates violence is
+not permissible. Leave aside the fact that most of the examples I cited above
+where the speech of Muslims was criminalized involved no such advocacy. Leave
+aside the fact that the US supreme court, more than 40 years ago and by a
+unanimous vote, ruled that "the constitutional guarantees of free speech and
+free press do not permit a State to forbid or proscribe advocacy of the use of
+force."
+
+Further leave aside that this free speech "exception" would render illegal all
+sorts of views which are plainly legitimate. Do people who believe this really
+think that it should be illegal for a Muslim to say: "The west is continuously
+bringing violence to our societies by attacking us with bombs, invasions and
+occupations, and I believe the only way deter this is to take up arms and
+impose violence back on them"? Should it be similarly illegal for someone to
+say, as the American founders did: "I believe our government has become so
+tyrannical and unjust that it is now justified to take up arms against it in
+revolution"?
+
+And finally leave aside the fact that all sorts of common political advocacy
+can be construed as "advocating violence". As noted, it is often claimed that
+those who denounce US wars as unjust aggression or imperialism are
+"emboldening" attacks on US troops and therefore inciting violence.
+
+My real question for those who insist that advocacy of violence should be
+suppressed is this: do you apply this view consistently? Do you want those who
+advocated the attack on Iraq - i.e., who advocated violence - to be arrested?
+How about those who cheer for the war in Afghanistan, or drone attacks on
+Pakistanis and Yemenis? The next time someone in the US or UK stands up and
+advocates a new war - say, attacking Iran - should they be arrested on the
+ground that they are advocating violence?
+
+Or is it the case, as it certainly appears, that when people say that
+"advocating violence" should be suppressed, what they really mean is: _it
+should be prohibited for those people over there to advocate violence against
+my society, but my society is of course free to advocate violence against
+them?_
+
+As I wrote above, those who apply free speech values inconsistently are not
+merely being hypocritical; worse, they are attempting to exploit free speech
+precepts to protect and legitimize the views of themselves and their own side
+while suppressing those views they dislike and which are advocated by the
+other side. Indeed, it's often the very people who insist that "advocacy of
+violence" should not be permitted who, in the next breath, justify the wars
+and bombings and drone-attacks of their government.

@@ -1,0 +1,117 @@
+# How Yahoo lost its way, and why Verizon bought it anyway.
+
+**Source**: http://www.slate.com/articles/technology/technology/2016/07/how_yahoo_lost_its_way_and_why_verizon_bought_it_anyway.html
+**Type**: article
+**Created**: 2025-08-13T17:59:40.448809
+
+---
+
+title: How Yahoo lost its way, and why Verizon bought it anyway.
+source: http://www.slate.com/articles/technology/technology/2016/07/how_yahoo_lost_its_way_and_why_verizon_bought_it_anyway.html
+date: 2025-08-13T17:59:38.816841
+tags: []
+---
+After a remarkable 110-year run as an independent company, Yahoo is being
+acquired by Verizon.
+
+What? Oh, sorry, those are internet years. In human years, Yahoo is 22.
+
+Yahoo was once Silicon Valley’s brightest star, but its luster has faded over
+the years, as lusters are prone to do. Valued at more than $100 billion at its
+2000 peak, the company turned down a $45 billion offer from Microsoft in 2008,
+only to sell to Verizon this week for less than $5 billion. Which suggests
+that “star” was the wrong term; in retrospect, Yahoo was more like a
+meteorite.
+
+Now that the company is crashing into Verizon, it’s worth looking at what’s
+left of Yahoo, and what impact it might have.
+
+First, one thing Verizon won’t be getting: Yahoo’s stakes in Alibaba and Yahoo
+Japan, which together accounted for the vast majority of its value. Yahoo’s
+board plans to spin those off into a separate holding company, where they’ll
+be unencumbered by Yahoo’s sprawling, declining core business.
+
+“Core business” might be a misnomer. Yahoo today is an agglomeration of
+tenuously related properties that include Tumblr, Flickr, and a bunch of sites
+and services whose names start with Yahoo: Mail, Search, News, Groups,
+Finance, and Fantasy Sports, to name a few.
+
+These are not worthless properties. Many have large, loyal audiences and
+provide real value. At one time, collectively they would have amounted to a
+coherent internet company. But that was back when people “browsed the web”
+beginning from a single, default home page, such as Yahoo.com, and often
+expected to find most of their favorite online utilities there, in addition to
+a wide variety of content like journalism, weather forecasts, and sports
+scores. Such a home page makes less sense in a world of highly differentiated
+sites and services such as Google search, Amazon, and the Facebook News Feed.
+And it’s virtually useless in a world where people do most of their computing
+via the small screens and discrete apps of mobile devices.
+
+Thus Yahoo has become a very different company from the one that first
+conquered the web—not because Yahoo has changed, but because it stayed largely
+the same while the world around it changed. Acquisitions such as Flickr and
+Tumblr, meant to help Yahoo keep up with the times, seemed to languish under
+the company’s ownership rather than pulling it forward. A parade of CEOs, most
+recently Marissa Mayer, tried under enormous shareholder pressure to rapidly
+turn the company around by focusing on one aspect or another, before getting
+dumped. The result was that it veered from one priority to the next without
+ever settling on a long-term course.
+
+“It’s a beautiful example of a company that has a lot of indispensable pieces,
+but they don’t add up to an indispensable whole,” says Rita McGrath, professor
+of management at Columbia Business School. Yahoo’s problems, she believes,
+stemmed from “a fundamental unwillingness to choose” what kind of company it
+wanted to be.
+
+Yahoo’s window to make that choice has expired. Now Verizon will choose which
+parts of Yahoo to keep and which to jettison.
+
+More specifically, it seems at least some of those choices may fall to Tim
+Armstrong, the hard-charging CEO of fellow Verizon acquisition AOL. His own
+company was in many ways Yahoo’s predecessor as the early consumer internet’s
+defining force, and it suffered a similar slide over the years, for similar
+reasons. But Armstrong is credited with making some tough but needed cuts, and
+with refocusing AOL around content and advertising technology while Yahoo
+continued to vacillate between those and other priorities.
+
+A merged Yahoo–AOL makes intuitive sense. Their combined traffic would make
+them the [largest digital media company in the United
+States](https://www.comscore.com/Insights/Rankings/comScore-Ranks-the-
+Top-50-US-Digital-Media-Properties-for-February-2016), ahead of Google,
+according to Comscore. That scale alone gives Verizon a chance to establish
+itself as a viable rival to Facebook and Google, at least when it comes to
+advertising.
+
+And here is where Verizon’s own assets could come into play. Scale helps in
+the advertising business, but it isn’t everything. Crucial to Google and
+Facebook’s dominance are those companies’ ability to target advertisements
+based on the data they collect on their users’ interests, search and browsing
+histories, and personal connections. Verizon, by virtue of owning the
+infrastructure that hundreds of millions of people rely on to connect to the
+internet, has the ability to track users’ online behavior perhaps even more
+broadly than Google and Facebook do—including their location. Combine
+Verizon’s tracking abilities with Yahoo and AOL’s audience and ad technology,
+and you have the makings of a potential powerhouse.
+
+That potential comes with pitfalls, however. Federal privacy regulators have
+already [cracked down on
+Verizon](http://www.theverge.com/2016/3/7/11173010/verizon-supercookie-
+fine-1-3-million-fcc) and may continue to constrain its ability to track
+people on their mobile devices. And it’s not clear that producing reams of
+online content is the path to long-term success in online advertising. Google
+and Facebook are so profitable precisely because they produce so little
+content of their own. Instead, they build algorithms to organize content
+that’s produced by others.
+
+For Verizon, buying AOL and now Yahoo represents a bid to stave off its own
+fall to earth. As _Wired_ ’s Brian Barrett points out, [internet service is
+increasingly regulated like a utility](http://www.wired.com/2016/07/verizon-
+yahoo/) by the federal government, and probably rightly so. Faced with a
+future in which data infrastructure is a commodity, Verizon and others are
+looking to stay relevant by not only building and maintaining the proverbial
+pipes, but by creating the content (and advertising) that passes through them.
+
+And yet, in its quest to avoid a Yahoo-like decline, Verizon risks repeating
+one of its key mistakes. Yahoo, too, sought to fight irrelevance through
+diversification. But in the process of tacking on acquisitions, it lost sight
+of its identity.

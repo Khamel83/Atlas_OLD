@@ -1,0 +1,1030 @@
+# Ranking All 45 Bears Quarterbacks Since the Team Last Won the Super Bowl - The Ringer
+
+**Source**: https://www.theringer.com/nfl/2021/8/31/22648501/chicago-bears-qb-ranking-jay-cutler-mitch-trubisky-justin-fields
+**Type**: article
+**Created**: 2025-08-13T15:35:52.543254
+
+---
+
+title: Ranking All 45 Bears Quarterbacks Since the Team Last Won the Super Bowl - The Ringer
+source: https://www.theringer.com/nfl/2021/8/31/22648501/chicago-bears-qb-ranking-jay-cutler-mitch-trubisky-justin-fields
+date: 2025-08-13T15:35:48.629972
+tags: []
+---
+[](/\[...wordpressNode\])
+
+#
+
+Chicago finally seems to have its franchise QB in Justin Fields. Before he
+takes his first NFL snap, let’s rank every one of his predecessors since
+1985—from the mediocre to the bad to the truly baffling.
+
+[](/\[...wordpressNode\])
+
+#
+
+Chicago finally seems to have its franchise QB in Justin Fields. Before he
+takes his first NFL snap, let’s rank every one of his predecessors since
+1985—from the mediocre to the bad to the truly baffling.
+
+After taking Justin Fields with the 10th pick in this year’s NFL draft, the
+Bears finally seem to have their franchise savior at quarterback. I know what
+you’re probably thinking: Didn’t Bears fans just delude themselves into
+thinking they had a franchise quarterback? Didn’t the team select Mitch
+Trubisky second merely four years ago?
+
+But there’s a critical difference this time around: Although Trubisky was also
+a high first-round draft pick, Fields was considered “really good at football”
+for almost his whole life before the NFL, while Trubisky was not. During his
+tenure at Ohio State, Fields was widely seen as the second-best prospect in
+the 2021 draft class, behind only Trevor Lawrence; during his time at North
+Carolina, Trubisky started just 13 games, and was never regarded as the best
+passer in his own conference. With Trubisky, the Bears reached for a
+questionable QB prospect. With Fields, a great one seems to have fallen into
+their lap.
+
+If Fields succeeds in Chicago, he will snap a stunningly long stretch of
+franchisewide passing failure. The Bears are 281-278 since 1986, 17th in wins
+out of the league’s 32 teams, almost perfectly mediocre. But when the team has
+been good, its success has been almost completely the result of a stellar
+defense. For most teams, QBs are the heroes whose jerseys are worn in bars and
+tailgate lots for decades. In Chicago, the franchise heroes are players like
+Mike Singletary and Brian Urlacher, who anchored amazing defenses that carried
+lackluster offenses.
+
+While the Bears rank among the middle of the pack in wins since 1986, they’re
+30th in passer rating. They haven’t produced a first-team All-Pro quarterback
+since Johnny Lujack in 1950, when Lujack threw four touchdowns and 21
+interceptions. The Bears’ only Pro Bowl QB since the 1980s is … Trubisky, who
+got a Pro Bowl nod in 2018. Of course, he was the fifth NFC quarterback
+selected, making the cut only after Drew Brees, Jared Goff, and Aaron Rodgers
+all turned down invitations.
+
+It defies logic that one franchise could be so consistently inept at one
+aspect of football! So to celebrate the potential end of this run, we’re
+ranking all 45 quarterbacks who have thrown passes for the Bears since the
+team last won the Super Bowl, in the 1985 season. The main factor in this
+ranking is the players’ performances with the Bears; however, we’re also
+factoring in their overall career performances, to demonstrate that almost no
+good QBs have played for Chicago in more than three decades. For a task this
+important, we turned to science. Here is our system:
+
+  * Quarterbacks received between 1 and 45 points for their ranking in two categories: passing touchdowns with the Bears and career approximate value according to Pro Football Reference. For example, Jay Cutler passed for the most touchdowns of any Bears QB since 1986, so he got 45 points in that category. The first stat reflects how well these QBs performed for the Bears; the second helps put their contributions in Chicago into context. 
+  * QBs received one point for every win they had as a starter for the Bears.
+  * Players were given five bonus points for making a Pro Bowl with any team, five bonus points for leading the league in any major passing statistic, and five bonus points for winning a Super Bowl as a starter. As you might expect, these bonuses were rare. The bonuses were doubled if any of the above accomplishments happened when a QB was on the Bears. This was _extremely_ rare. 
+  * One bonus point was awarded to any QB who won a championship in a foreign football league. This bonus was wildly popular.
+  * Players were awarded _10,000_ bonus points for being named All-Pro at any point in their NFL careers, or for leading the league in any major statistical category as a member of the Bears. Unfortunately, none of the 45 players on the list claimed this bonus, since no Bears QB since 1985 has ever been named All-Pro or led the league in any meaningful stat besides interceptions. 
+  * Five bonus points were awarded to any QB who set a Bears single-season or franchise record. 
+  * Although this list only includes players who have thrown passes for the Bears since 1986, we used the full Bears career statistics for Jim McMahon and Steve Fuller, who began playing with the team in 1982 and 1984, respectively. 
+  * In the event of a scoring tie, the quarterbacks are ranked based on my personal discretion.
+
+And that’s it! Without further ado, let’s get to the list.
+
+### 45\. Mark Hartsell
+
+##### Bears TD points: 0  
+Bears wins points: 0  
+Career AV points: 0  
+Bonus points: 0  
+Total: 0
+
+Hartsell, who came into a Bears-Packers game in 2000, is one of just seven NFL
+quarterbacks since the 1970 AFL-NFL merger to throw _exactly one_ career pass.
+It was incomplete.
+
+### 44\. Tyler Bray
+
+##### Bears TD points: 0  
+Bears wins points: 0  
+Career AV points: 0  
+Bonus points: 0  
+Total: 0
+
+Bray _almost_ joined Hartsell on the vaunted one-career-attempt list. He threw
+just one in-game pass over his first seven NFL seasons, but his practice
+contributions were apparently enough to keep his job safe.
+
+Unfortunately, Bray was called into action last year after injuries to both
+Trubisky and Nick Foles left Chicago shorthanded at QB. And he looked
+completely baffled while trying to lead the Bears on a game-winning drive
+against the Vikings, going 1-of-5 for 18 yards. Now he’s out of the league.
+
+### 43\. Cory Sauter
+
+##### Bears TD points: 0  
+Bears wins points: 0  
+Career AV points: 0  
+Bonus points: 0  
+Total: 0
+
+Sauter—[one of the lowest-rated quarterbacks in _Madden_
+history](https://www.ign.com/articles/2008/07/31/the-ten-worst-quarterbacks-
+in-madden-history)—got to play once, in garbage time of a 2002 Week 17 matchup
+against Tampa Bay. Although the Buccaneers had already qualified for the
+playoffs, they refused to take out their starters, so Sauter was left to face
+Derrick Brooks, John Lynch, and the rest of the eventual Super Bowl champs.
+Tough break!
+
+### 42\. Sean Payton
+
+##### Bears TD points: 0  
+Bears wins points: 0  
+Career AV points: 0  
+Bonus points: 0  
+Total: 0
+
+The Super Bowl–winning Saints coach was once a quarterback. He was also a
+scab—he was a replacement for the Bears during the 1987 player strike. He was
+the worst of the three QBs Chicago brought in, going 8-of-23 passing with no
+touchdowns and an interception. It’s unclear whether this will come up in his
+[Paul Blart–led biopic](https://www.nfl.com/news/sean-payton-kevin-james-
+netflix-new-orleans-saints).
+
+David FalesGetty Images
+
+### 41\. David Fales
+
+##### Bears TD points: 0  
+Bears wins points: 0  
+Career AV points: 9  
+Bonus points: 0  
+Total: 9
+
+Fales has a good relationship with former Bears offensive coordinator Adam
+Gase, who signed him in Chicago, then again with the Dolphins, and then again
+with the Jets. I’m implicitly skeptical of anyone Gase trusts.
+
+### 40\. Will Furrer
+
+##### Bears TD points: 0  
+Bears wins points: 0  
+Career AV points: 9  
+Bonus points: 0  
+Total: 9
+
+Furrer started exactly one game with the Bears, going 9-of-23 passing with no
+touchdowns and three interceptions in a 1992 Week 17 loss against the Cowboys.
+It’s hard to imagine any quarterback performing worse … but Todd Collins
+posted a lower career passer rating during his time with the Bears. Furrer
+recorded a 7.3 passer rating for Chicago; Collins managed a 5.9. (In case
+you’re wondering: If you pull a Hartsell and go 0-of-1, you get a 39.6.)
+
+### 39\. Steve Bradley
+
+##### Bears TD points: 13 (2, T-33rd)  
+Bears wins points: 0  
+Career AV points: 0  
+Bonus points: 0  
+Total: 13
+
+Along with Payton, Bradley was one of the 1987 picket-crossers. He went
+6-of-18 passing with two touchdowns and three interceptions in a loss to the
+Saints. Even in a world of replacement players, the Bears quarterbacks still
+had upsetting stat lines.
+
+### 38\. Moses Moreno
+
+##### Bears TD points: 9 (1, T-36th)  
+Bears wins points: 0  
+Career AV points: 9  
+Bonus points: 0  
+Total: 18
+
+Moreno cracks the top 40 on this list because he actually threw a touchdown
+for the Bears. He now [works as a
+referee](https://www.sandiegouniontribune.com/sdut-moses-moreno-official-
+chargers-castle-park-2016jun28-htmlstory.html).
+
+### 37\. Todd Collins
+
+##### Bears TD points: 0  
+Bears wins points: 1  
+Career AV points: 22  
+Bonus points: 0  
+Total: 23
+
+A journeyman who made stops in Buffalo, Kansas City, and Washington, Collins
+ended his career in Chicago, throwing no touchdowns and five interceptions in
+his lone season as Cutler’s backup. He’s surprisingly high on this list
+because he [actually managed to win a game](https://www.pro-football-
+reference.com/boxscores/201010100car.htm?__hstc=205977932.2e07910ff13bdf44d53c1750b9b600d5.1629875164974.1629875164974.1629875164974.1&__hssc=205977932.4.1629875164974&__hsfp=1750719282)
+as the Bears starter, despite throwing four interceptions in that contest. It
+probably helped that the opposing QB was Bears legend Jimmy Clausen.
+
+Only four teams have managed to win a game since the 2000 season in which
+their quarterback threw no touchdowns and four interceptions. Chicago has done
+it twice. In one of those games, we learned that [the Bears are who we thought
+they were](https://www.youtube.com/watch?v=SWmQbk5h86w).
+
+### 36\. Jonathan Quinn
+
+##### Bears TD points: 9 (1, T-36th)  
+Bears wins points: 0  
+Career AV points: 16  
+Bonus points: 1 (World Bowl title)  
+Total: 26
+
+Quinn lost all three of his starts with the Bears, but was named MVP of the
+2001 World Bowl after leading the Berlin Thunder to a come-from-behind victory
+against the Barcelona Dragons. Big thanks to whoever decided to upload the
+entire 2001 World Bowl to YouTube.
+
+### 35\. Jimmy Clausen
+
+##### Bears TD points: 13 (2, T-33rd)  
+Bears wins points: 0  
+Career AV points: 13  
+Bonus points: 0  
+Total: 26
+
+ESPN draft maven Mel Kiper Jr. once [promised he’d retire if Clausen didn’t
+become a successful NFL
+quarterback](https://www.sbnation.com/nfl/2018/4/19/17226834/mel-kiper-jimmy-
+clausen-nfl-draft-bet). Kiper has yet to follow through on that promise even
+though Clausen finished his career with twice as many interceptions as
+touchdowns.
+
+### 34\. Henry Burris
+
+##### Bears TD points: 17 (3, T-30th)  
+Bears wins points: 0  
+Career AV points: 9  
+Bonus points: 3 (CFL titles)  
+Total: 29
+
+What’s the exchange rate between Canadian football greatness and United States
+football greatness? Burris may help provide an answer. He had a rough stint
+with the 2002 Bears; in six games, he went 18-of-51 passing with three
+touchdowns and five interceptions. But he went on to become a CFL _legend_.
+Burris played in Canada until he was 41, retiring after winning his third Grey
+Cup in 2016. The two-time MVP and seven-time All-Star is third in career CFL
+passing yards. (Yes, the CFL has yards as its default measurement, despite the
+country’s use of the metric system.)
+
+Between Burris and Quinn, I had to make tough calls about how to value NFL
+Europe championships versus CFL championships. Unfortunately, the Bears lost
+every game started by both QBs, so the conversion rate must not be good.
+
+Caleb HanieGetty Images
+
+### 33\. Caleb Hanie
+
+##### Bears TD points: 17 (3, T-30th)  
+Bears wins points: 0  
+Career AV points: 12  
+Bonus points: 0  
+Total: 29
+
+Hanie was a Bears cult hero for about 45 minutes after he was forced into
+action during the January 2010 NFC championship game following injuries to
+both Jay Cutler and Todd Collins. Hanie, who had previously played a handful
+of snaps late in blowouts, was suddenly tasked with leading the team to the
+Super Bowl.
+
+And he almost did it! Although the Packers had held the Bears scoreless
+through three quarters, Hanie led the offense on two touchdown drives.
+Unfortunately, he also threw a pick-six to 330-pound defensive tackle B.J.
+Raji and the Bears lost, so these heroics have largely been forgotten.
+
+For some reason, [the only YouTube video of this event is set to “The
+Call,”](https://www.youtube.com/watch?v=mYXCTL9GahM) the ninth-best single by
+the Backstreet Boys. It also leaves out the pick-six.
+
+Hanie’s playoff magic convinced the Bears to start him in a few games during
+the 2011 season. These weren’t as magical, as he went 0-4 while throwing three
+touchdowns and nine interceptions. He has a plaque next to Taylor Heinicke’s
+in the Hall of Random Quarterbacks Forced Into Playoff Games Who Played
+Surprisingly Well but Didn’t Win.
+
+### 32\. Craig Krenzel
+
+##### Bears TD points: 17 (3, T-30th)  
+Bears wins points: 3  
+Career AV points: 9  
+Bonus points: 0  
+Total: 29
+
+Krenzel is best known for throwing the ball that resulted in one of the most
+famous pass interference calls of all time: His fourth-down overtime pass in
+the 2002 BCS championship game [drew a
+flag](https://www.youtube.com/watch?v=DkVpPoU4DC8&t=7010s) that kept Ohio
+State alive against Miami and is still debated to this day. But while Krenzel
+is a hero in Columbus, his Bears career is less memorable: He completed just
+46.5 percent of his passes while throwing twice as many interceptions as
+touchdowns. Of his 127 pass attempts, Krenzel got only one pass interference
+call, so it clearly wasn’t a repeatable skill.
+
+### 31\. Rick Mirer
+
+##### Bears TD points: 0  
+Bears wins points: 0  
+Career AV points: 31  
+Bonus points: 0  
+Total: 31
+
+Bears fans may be disappointed with the Trubisky era, but as far as failed no.
+2 picks go, it has nothing on the Rick Mirer era in Seattle. There was a real
+debate about whether the Patriots should take Mirer or Drew Bledsoe first in
+1993. Bledsoe made three Pro Bowls in New England and started for the Pats for
+nearly a decade. Mirer started only four years in Seattle, ranking dead last
+in passer rating in his fourth season.
+
+Yet, for some reason, the Bears traded for him! The team sent away the 11th
+pick in the 1997 draft to bring the struggling Mirer to Chicago. The 13th pick
+in that draft was Tony Gonzalez, who would go on to become the greatest tight
+end in league history. Former Bears scout Mike McCartney [told _The Athletic_
+recently](https://theathletic.com/2382485/2021/02/21/chicago-bears-trade-
+draft-pick-rick-mirer/) that the Bears likely would’ve selected Gonzalez with
+the pick the franchise traded for Mirer. NFL teams have always been willing to
+give guys with lofty predraft hype an extra chance, but this was an off-the-
+charts bad move.
+
+Mirer never threw a touchdown for the Bears, but he did manage to throw six
+interceptions. He was eventually demoted to third-stringer, and asked for his
+release after the 1997 season. Mirer now owns a winery [whose website
+notes](https://www.mirrorwine.com/Our-Story/Rick-Mirer) that he was “a
+quarterback in the NFL after a successful college career at Notre Dame.” It’s
+pretty bad when even your own winery implies your NFL career wasn’t
+successful!
+
+### 30\. Mike Hohensee
+
+##### Bears TD points: 21 (4, T-25th)  
+Bears wins points: 2  
+Career AV points: 12  
+Bonus points: 0  
+Total: 35
+
+The best of the Bears picket-crossing QBs of 1987, Hohensee went 2-0 while
+throwing four touchdowns and just one interception. When the actual Bears came
+back from their strike, Walter Payton [reportedly told Hohensee, “You were
+good.”](https://www.espn.com/espn/columns/story?columnist=wojciechowski_gene&id=2734076)
+That’s the nicest thing anyone has ever said about a Bears quarterback.
+
+### 29\. Chad Hutchinson
+
+##### Bears TD points: 21 (4, T-25th)  
+Bears wins points: 1  
+Career AV points: 16  
+Bonus points: 0  
+Total: 38
+
+Chicago sports fans can at least appreciate Hutchinson’s history on the city’s
+biggest baseball rival: The St. Louis Cardinals took him in the second round
+of the 1998 draft, but he was a bust, posting a 24.75 ERA before leaving to
+pursue football. He wasn’t half bad for the Bears either—in fact, he was the
+team’s best quarterback in 2004. After Rex Grossman got hurt and Krenzel and
+Quinn struggled in his place, Hutchinson took over and led the team in almost
+every major passing stat.
+
+That’s not really saying much—the Bears ranked dead last that season in both
+total yards and points scored. When I say Hutchinson led the team in touchdown
+passes, I mean he had four, just edging out Krenzel’s three.
+
+But still! Hutchinson was briefly the best quarterback on an NFL team! He was
+set to keep starting in 2005, but went down during the preseason with a broken
+ankle that essentially ended his career.
+
+###  
+28\. Steve Stenstrom
+
+##### Bears TD points: 21 (4, T-25th)  
+Bears wins points: 1  
+Career AV points: 19  
+Bonus points: 0  
+Total: 41
+
+The phrase “threw twice as many interceptions as touchdowns” comes up a lot in
+this list. But Stenstrom, who started seven games for the 1997 Bears, had
+_thrice_ as many career interceptions (12) as touchdowns (four). Three of
+those interceptions were also pick-sixes, giving Stenstrom a nearly 1-to-1
+touchdown-to–opposing touchdown ratio.
+
+### 27\. Peter Tom Willis
+
+##### Bears TD points: 27 (6, T-21st)  
+Bears wins points: 0  
+Career AV points: 16  
+Bonus points: 0  
+Total: 43
+
+Willis holds the NFL record for having the most first names, with three. Tom
+Brady, Lamar Jackson, and Matt Ryan are among the many tied for second in this
+advanced statistic.
+
+### 26\. Mike Glennon
+
+##### Bears TD points: 21 (4, T-25th)  
+Bears wins points: 1  
+Career AV points: 23  
+Bonus points: 0  
+Total: 45
+
+If this list were based on salary rather than performance, the North Carolina
+Neck would be close to the top. Glennon famously signed a three-year, $45
+million deal with Chicago in 2017, but went on to start only four games for
+the Bears. He threw four touchdowns, committed eight turnovers, and was
+benched in favor of the rookie Trubisky. Longtime Bears defensive lineman
+Akiem Hicks would later [cite the Glennon signing as
+evidence](https://profootballtalk.nbcsports.com/2020/06/03/akiem-hicks-on-
+colin-kaepernicks-unemployment-we-signed-mike-glennon/) NFL teams effectively
+blackballed Colin Kaepernick.
+
+### 25\. Chase Daniel
+
+##### Bears TD points: 27 (6, T-21st)  
+Bears wins points: 1  
+Career AV points: 19  
+Bonus points: 0  
+Total: 47
+
+A career backup, Daniel is a financial legend for his magical ability to
+receive large sums of money without playing football. Daniel has made almost
+$38 million over 12 NFL seasons while rarely taking the field. For his career,
+he has made more than $4 million per touchdown pass and more than $140,000 per
+attempt.
+
+Only one team has been rude enough to actually make Daniel play regularly: the
+Bears. Three of his five career starts and 53.6 percent of his career passing
+attempts came in his two-season stint with Chicago, due to some injuries to
+Trubisky. He wasn’t bad, completing 70 percent of his passes and winning a
+Thanksgiving Day game against the Lions.
+
+### 24\. Matt Barkley
+
+##### Bears TD points: 29 (8, 18th)  
+Bears wins points: 1  
+Career AV points: 17  
+Bonus points: 0  
+Total: 47
+
+After Cutler and Brian Hoyer went down with injuries, Barkley stepped in for
+the 2016 Bears. He went 1-5 as a starter, throwing eight touchdowns and 12
+interceptions, including a five-interception game against Washington. In the
+regular-season finale against Minnesota, [he caught a touchdown pass on a
+trick play](https://www.youtube.com/watch?v=xZRrKll-JGg)—a play that Doug
+Pederson [cited as his inspiration](https://www.12up.com/posts/5971459-doug-
+pederson-admits-he-actually-got-philly-special-play-from-the-bears) for the
+Philly Special in Super Bowl LII.
+
+Foles’s success in that Super Bowl prompted the Jaguars to massively overpay
+for him, before he disappointed in Jacksonville and was later traded to
+Chicago. It’s all part of the Circle of Bad Bears QBs.
+
+### 23\. Jason Campbell
+
+##### Bears TD points: 13 (2, T-33rd)  
+Bears wins points: 0  
+Career AV points: 35  
+Bonus points: 0  
+Total: 48
+
+Campbell got one start for the Bears, in a 2012 _Monday Night Football_ game
+against the 49ers. By early in the third quarter, Chicago was losing 27-0.
+Campbell would get into one more game with the Bears, but it’s hard to come
+back from that kind of performance.
+
+### 22\. Brian Hoyer
+
+##### Bears TD points: 27 (6, T-21st)  
+Bears wins points: 1  
+Career AV points: 26  
+Bonus points: 0  
+Total: 54
+
+Hoyer, best known for repeatedly procuring jobs as Tom Brady’s backup despite
+demonstrating little football talent, was stunningly good for the 2016 Bears,
+completing 67 percent of his attempts while passing for six touchdowns and no
+interceptions. He threw for more than 300 yards in four straight games before
+breaking his arm. He has lost all eight of his NFL starts since leaving
+Chicago.
+
+### 21\. Jeff Blake
+
+##### Bears TD points: 9 (1, T-36th)  
+Bears wins points: 0  
+Career AV points: 41  
+Bonus points: 5 (Pro Bowl)  
+Total: 55
+
+We’re getting to the part of the list that features QBs who didn’t play all
+that much for the Bears, but who got points in our system because they had
+good careers elsewhere _._ Blake was a Pro Bowler on some fun Bengals teams in
+the late 1990s before signing with Chicago in 2005. He went 8-of-9 passing
+with the team while serving as Kyle Orton’s backup.
+
+Cade McNownGetty Images
+
+### 20\. Cade McNown
+
+##### Bears TD points: 35 (16, 12th)  
+Bears wins points: 3  
+Career AV points: 20  
+Bonus points: 0  
+Total: 58
+
+McNown was even more of a bust than your average Bears QB bust. Chicago took
+him with the 12th pick in the 1999 draft, one spot behind where the Vikings
+selected Daunte Culpepper. He made headlines for all the wrong reasons: McNown
+[got banned from the Playboy Mansion](https://www.latimes.com/archives/la-
+xpm-2000-oct-05-sp-31649-story.html), [parked in a handicapped
+spot](https://www.latimes.com/archives/la-xpm-1999-aug-04-sp-62564-story.html)
+(after news broke that [he illegally acquired a parking pass for people with
+disabilities at UCLA](https://www.chicagotribune.com/news/ct-
+xpm-1999-07-19-9907190091-story.html#:~:text=Bears%20rookie%20quarterback%20Cade%20McNown,14%20of%20his%20Bruins%20teammates.)),
+and [didn’t know how to pay a toll at a
+tollbooth](https://www.windycitygridiron.com/2011/7/22/2282096/taking-a-look-
+in-the-bears-history-book-cade-mcnown).
+
+His failings followed him to the field. McNown threw more interceptions than
+touchdowns in his two seasons in Chicago, and [had to apologize for telling
+fans to stop booing him](https://www.chicagotribune.com/news/ct-
+xpm-2000-09-26-0009260223-story.html). He was ultimately benched when his
+Bears teammates made clear to head coach Dick Jauron [that they would not play
+if McNown remained the starter](https://www.chicagotribune.com/news/ct-
+xpm-2000-12-20-0012200076-story.html), citing his lack of preparation.
+
+Before McNown’s third NFL season, the Bears sent him to the Dolphins in a
+package for some late-round draft picks. His attitude was [reportedly a
+critical factor in the
+decision](https://www.nytimes.com/2001/08/26/sports/pro-football-notebook-
+bears-traded-mcnown-over-his-attitude.html?pagewanted=3&src=pm). McNown never
+played in the league again.
+
+### 19\. Steve Fuller
+
+##### Bears TD points: 27 (6, T-21st)  
+Bears wins points: 6  
+Career AV points: 28  
+Bonus points: 0  
+Total: 61
+
+Who decided to give the backup quarterback a verse on “The Super Bowl
+Shuffle”? Fuller started five games for the 1985 Bears and rushed for five
+touchdowns. But he’ll forever be remembered for delivering the greatest,
+worst, and only rap verse in the history of second-string QBs.
+
+After briefly outlining the job description of backup quarterbacks—“If Jimmy
+can’t do it, I sure can”)—Fuller drops one of the most convoluted rhymes in
+the history of rap: “I’m not here to feathers ruffle / I’m just here to do the
+Super Bowl shuffle.” It seems like all the good Bears players got reasonable
+words to pair with “shuffle”: Walter Payton got “trouble,” Jim McMahon got
+“double,” Mike Richardson got “hustle.” Then the poor backup QB got stuck with
+“ruffle” and a bar written by Yoda. I would’ve gone with “I’m a hog, and the
+trophy’s my truffle,” but then again I’m not a professional novelty rap
+ghostwriter for backup quarterbacks.
+
+### 18\. Doug Flutie
+
+##### Bears TD points: 17 (3, T-30th)  
+Bears wins points: 1  
+Career AV points: 37  
+Bonus points: 8 (5 for his Pro Bowl; 3 for his CFL championships)  
+Total: 63
+
+Flutie is one of the great comeback stories in NFL history—but he only had to
+come _back_ because his stint in Chicago didn’t work out.
+
+The former Heisman Trophy winner began his career in the USFL, as he was
+billed as the startup league’s big-name star. When the USFL folded, Bears head
+coach Mike Ditka fought to bring the 5-foot-10 QB to Chicago [midway through
+the 1986 season](https://www.latimes.com/archives/la-
+xpm-1986-10-26-sp-7842-story.html)—much to the chagrin of the players who had
+just won a Super Bowl. When Jim McMahon got hurt late in the season, Flutie
+entered the mix to play, winning a Week 16 game against Dallas and starting a
+first-round playoff game against Washington.
+
+Flutie threw two interceptions and the Bears lost by two touchdowns. And there
+are people mad _to this day_ about Ditka’s decision to start Flutie. Richard
+Dent, the legendary lineman, [said the choice to start Flutie ruined Chicago’s
+chances of
+repeating](https://www.espn.com/chicago/nfl/story/_/id/8578026/richard-dent-
+blames-mike-ditka-chicago-bears-not-repeating-1986). Dent and McMahon [both
+referred to Flutie using a term that’s derogatory to little
+people](https://www.youtube.com/watch?v=U7EszLXG2pc). When the Bears played
+against Flutie on the Patriots two years later, [tight end Emery Moorehead
+said “everybody wants to squash him.”](https://www.sun-sentinel.com/news/fl-
+xpm-1988-10-30-8803040010-story.html) An apparent sore spot for many players:
+[Flutie got an invite to Ditka’s house for Thanksgiving
+dinner](https://www.chicagotribune.com/news/ct-
+xpm-1995-08-16-9508160299-story.html). (Ditka defends his decision to start
+Flutie.)
+
+Flutie soon found himself in Canada, where he had a Henry Burris–esque career,
+winning multiple Grey Cups and MVPs. When he returned to the NFL, he went on
+to make a Pro Bowl with the Bills. The Bears don’t have many what-ifs at QB,
+since almost every player they’ve brought in for more than 30 years has been
+bad. Flutie is the outlier, the rare player who could have been good if his
+presence and social calendar hadn’t disrupted the chemistry of one of the best
+teams of all time.
+
+### 17\. Steve Walsh
+
+##### Bears TD points: 31 (10, T-15th)  
+Bears wins points: 8  
+Career AV points: 25  
+Bonus points: 0  
+Total: 64
+
+The man most famous for [losing a quarterback battle to Troy
+Aikman](https://vault.si.com/vault/1989/08/21/a-duel-in-the-sun-quarterbacks-
+troy-aikman-and-steve-walsh-compete-to-be-the-cowboys-starter) was
+surprisingly good for Chicago, filling in for the injured Erik Kramer and
+leading the 1994 Bears to the playoffs. Walsh even threw two touchdowns in a
+wild-card-round win over the Vikings. Kramer took the starting job back from
+Walsh the following season; it would be more than a decade until the Bears’
+next playoff victory.
+
+### 16\. Shane Matthews
+
+##### Bears TD points: 36 (19, 10th)  
+Bears wins points: 8  
+Career AV points: 21  
+Bonus points: 0  
+Total: 65
+
+Matthews spent parts of seven NFL seasons with the Bears, backing up everyone
+from Jim Harbaugh to Jim Miller. If he’d come around 20 years later, he could
+have made Chase Daniel money. [The highlight of his career came when he
+completed a Hail Mary pass](https://youtu.be/KSw6-yFy8b8?t=49) against the
+Browns, one of two Chicago touchdowns in the final 30 seconds of that game.
+
+The lowlight came when he had to play in the 2001 playoffs. Matthews went
+8-of-17 passing for 66 yards with no touchdowns and two picks in a loss to the
+Eagles.
+
+### 15\. Nick Foles
+
+##### Bears TD points: 31 (10, T-15th)  
+Bears wins points: 2  
+Career AV points: 29  
+Bonus points: 5 (Super Bowl)  
+Total: 67
+
+That’s SUPER BOWL MVP Nick Foles, who turned back into a pumpkin after his
+magnificent victory over the Patriots. Other than McMahon, he is the only
+quarterback on this list to win a Super Bowl as a starter, either in Chicago
+or elsewhere. Unfortunately, his ring and his
+[thing](https://www.sportingnews.com/us/nfl/news/nick-foles-
+nickname/btry8qwrl9w41skxmf198zgi5) have not led to success outside of Philly.
+He is 7-16 as a starter for not-the-Eagles, and is currently a very expensive
+third-stringer for the Bears.
+
+### 14\. Kordell Stewart
+
+##### Bears TD points: 28 (7, T-18th)  
+Bears wins points: 2  
+Career AV points: 39  
+Bonus points: 5 (Pro Bowl)  
+Total: 74
+
+Slash! Stewart became a Pittsburgh legend for his versatility, beginning his
+career as a wide receiver before transitioning to quarterback and leading the
+Steelers to two AFC championship game appearances. But most of his magic had
+evaporated by 2003, when the Bears brought him in for one sad season in which
+he competed against Chris Chandler for the QB job. Stewart started seven games
+for Chicago, going 2-5.
+
+Josh McCownGetty Images
+
+### 13\. Josh McCown
+
+##### Bears TD points: 34 (15, 12th)  
+Bears wins points: 4  
+Career AV points: 34  
+Bonus Points: 5 (Bears’ single-season passer rating record)  
+Total: 77
+
+In 2013, Bears fans witnessed The McCown Miracle. Journeyman Josh has played
+for 10 NFL teams and flopped for most of them. He was a backup for most of his
+first two seasons in Chicago, but took over the starting gig in 2013 after
+Cutler went down with injury. To everyone’s surprise, he threw 13 touchdowns
+to just one interception and set a franchise record in passer rating. In his
+final Bears start, he had four passing touchdowns and one rushing score in [a
+45-28 beatdown of the Cowboys on _Monday Night
+Football_.](https://www.youtube.com/watch?v=i8liXHkzJcA)
+
+He’d finally found his groove, and was ready to establish himself as a bona
+fide NFL starter. Then he proceeded to go 2-20 over the next three seasons for
+the Buccaneers and Browns.
+
+Maybe McCown could have excelled for the Bears if he had stayed in Chicago—but
+McCown wasn’t meant to stay anywhere for long, and the Bears weren’t meant to
+have successful QBs. They both had fates to fulfill.
+
+### 12\. Jim Miller
+
+##### Bears TD points: 40 (34, 6th)  
+Bears wins points: 15  
+Career AV points: 24  
+Bonus points: 0  
+Total: 79
+
+Miller played some decent seasons with the Bears, but also had some
+unfortunate breaks. A sixth-round draft pick by the Steelers in 1994, he never
+got a real chance to play in the NFL until winning the Bears’ starting job in
+1999—yet after three games he was suspended for steroid use, which is unusual
+for quarterbacks and seems to have been accidental. “You guys have seen my
+physique,” [Miller told the media at the
+time](https://www.washingtonpost.com/archive/sports/1999/12/02/bears-qb-
+miller-gets-sacked-for-steroids/721f9169-9dff-4c50-b76f-b475474b2455/). “This
+was an honest mistake.”
+
+In 2001, after the Bears got over their McNown phase, Miller was named the
+starter again. He had a career year and led Chicago to 11 wins. But after
+throwing an interception early in the team’s playoff game against the Eagles,
+Miller separated his shoulder when he was slammed into the turf. The hit
+didn’t draw a penalty, but the NFL subsequently fined Eagles defensive end
+Hugh Douglas $35,000 and changed its rules on hitting quarterbacks.
+
+In 2019, Douglas [said that the hit would now get him kicked out of the
+league](https://www.inquirer.com/eagles/eagles-hugh-douglas-jim-miller-bears-
+playoffs-nfc-20190104.html); in 2021, Miller [said that Douglas has a standing
+offer for a cage
+match](https://chicago.suntimes.com/2021/8/12/22622222/chicago-bears-
+preseason-analyst-jim-miller-adam-amin-pat-kirwan-siriusxm-nfl-radio-movin-
+the-chains). Matthews played terribly in relief; Miller needed six surgeries,
+[nearly had his arm
+amputated](https://theathletic.com/2403879/2021/02/23/bears-fan-favorite-jim-
+miller-keeps-moving-the-chains-in-his-media-career/), and never played again
+after the 2002 season.
+
+### 11\. Brian Griese
+
+##### Bears TD points: 32 (11, 14th)  
+Bears wins points: 3  
+Career AV points: 38  
+Bonus points: 10 (5 for Pro Bowl, 5 for leading NFL in passer rating)  
+Total: 84
+
+Ol’ Brain Grease is the second-best quarterback to make a Pro Bowl with the
+Broncos before eventually joining the Bears. He spent most of his two seasons
+in Chicago locked in a battle for playing time with Rex Grossman, and went 3-3
+as a starter in 2007.
+
+Fifteen years later, he’s still causing headaches for Bears fans. Now a
+_Monday Night Football_ commentator, Griese caused a mini-controversy last
+season when he said on-air that Nick Foles [had privately criticized head
+coach Matt Nagy’s play-calling in a production
+meeting](https://nypost.com/2020/10/27/brian-griese-stirs-up-bears-
+controversy-during-monday-night-football/).
+
+### 10\. Rex Grossman
+
+##### Bears TD points: 39 (33, T-7th)  
+Bears wins points: 19  
+Career AV points: 27  
+Bonus points: 0  
+Total: 85
+
+Sexy Rexy never saw a pass he thought he couldn’t complete. He famously
+chucked balls deep into double and triple coverage, as if he had a rare
+condition that prevented him from seeing defenders. Somehow, he took the Bears
+to Super Bowl XLI on the heels of a campaign in which he had four games with
+no touchdowns and at least three interceptions. (Among his lowlights: a game
+against the Vikings in which he went 6-of-19 passing for 34 yards with three
+interceptions, and a game against the Packers in which he had two completions
+and two pick-sixes.)
+
+Watching Grossman try to win a Super Bowl was like watching an untrained puppy
+try to win the Westminster Dog Show. You couldn’t even be mad at him for
+pooping on the floor! He just didn’t know any better!
+
+[He threw this hideous pick-six](https://www.youtube.com/watch?v=thIuzz5x0ns).
+And [desperately lobbed this ball into double coverage in a
+rainstorm](https://www.youtube.com/watch?v=9W4xN_kMfhw).
+
+Grossman lost his starting job mere weeks into the 2007 campaign. We may never
+again see a quarterback play a full decade in the NFL and finish his career
+with more interceptions than touchdowns.
+
+### 9\. Kyle Orton
+
+##### Bears TD points: 37 (30, 9th)  
+Bears wins points: 21  
+Career AV points: 32  
+Bonus points: 0  
+Total: 90
+
+What is it that made me inherently distrust Kyle Orton? Was it the way he
+combed his hair forward, so it always looked like he’d just gotten out of a
+shower with high water pressure? Was it that he never realized you’re supposed
+to shave the hair that grows on your neck? Was it the way that Jack Daniel’s
+glistened on his chin in one [infamous photo of
+him](http://photos1.blogger.com/blogger/951/485/1600/Orton%20Bottle4.jpg)?
+
+Yet while Orton didn’t look the part of a reliable quarterback, he was steady
+by Bears’ standards. Of all the players on this list, he’s ninth in touchdowns
+and sixth in wins.
+
+He was eventually traded to the Broncos in the 2009 deal that sent Cutler to
+the Bears … and played better in Denver than he ever did in Chicago. Over the
+next two seasons, Cutler threw 50 touchdowns and 42 interceptions; Orton threw
+41 touchdowns and 21 picks.
+
+### 8\. Chris Chandler
+
+##### Bears TD points: 28 (7, T-18th)  
+Bears wins points: 5  
+Career AV points: 43  
+Bonus points: 15 (10 for two Pro Bowls, 5 for leading the NFL in yards per
+attempt)  
+Total: 91
+
+Chris Chandler was really good for the Falcons in the late 1990s! He averaged
+9.6 yards per attempt in 1998—the second-highest mark since the AFL-NFL
+merger. But like many others on this list, he was past his prime by the time
+he arrived in Chicago. The Bears brought in Chandler and Stewart to play in
+2003 while waiting for Grossman to develop. That led to one of the most washed
+QB battles ever and Chicago going 7-9.
+
+### 7\. Mike Tomczak
+
+##### Bears TD points: 39 (33, T-7th)  
+Bears wins points: 21  
+Career AV points: 36  
+Bonus points: 0  
+Total: 96
+
+Tomczak won 21 games as Chicago’s starting quarterback, the fifth most of any
+QB on the list. In fact, the Bears won his first _10_ games as a starter—an
+NFL record that was later broken by Ben Roethlisberger.
+
+But none of this means that Tomczak was good! The Calumet City, Illinois,
+native may be the king of all the Bears quarterbacks who were carried to
+success on the back of dominant defenses. In 1986, the team won every game he
+started—but he threw just two touchdowns and 10 interceptions. [Tomczak was
+the QB in the famous 1988 “Fog Bowl” against the
+Eagles,](https://www.youtube.com/watch?v=q6b3sneCxbM) earning the win in a
+game in which he threw three picks and none of his receivers could even see
+him.
+
+Perhaps Tomczak’s greatest contribution to the Bears was the time that he
+convinced coaches to let him cover a kickoff in Super Bowl XX against the
+Patriots. He got called for a facemask penalty, but nobody can say he didn’t
+play a part in that championship victory.
+
+### 6\. Dave Krieg
+
+##### Bears TD points: 33 (14, 13th)  
+Bears wins points: 6  
+Career AV Points: 45 (highest on the list)  
+Bonus Points: 15 (Pro Bowls)  
+Total: 99
+
+Based on full-career performance, I think Krieg is the best quarterback to
+play for the Bears since 1986. He made the most Pro Bowls of anybody on this
+list. He’s the only player who threw for 30 touchdowns in a season. He led the
+league in touchdown percentage three times and in completion percentage once.
+
+Of course, all of those accomplishments came in Krieg’s decade with the
+Seahawks, as he was 38 when he joined the Bears to spend one season backing up
+Erik Kramer. Still, it’s worth emphasizing: _Dave Krieg is probably the best
+quarterback to play for the Bears over the past 35 years._
+
+### 5\. Erik Kramer
+
+##### Bears TD points: 42 (63, 4th)  
+Bears wins points: 18  
+Career AV points: 33  
+Bonus points: 10 (5 each for holding the Bears’ single-season records in
+passing touchdowns and passing yards)  
+Total: 103
+
+Thirty-one of 32 NFL teams have had a quarterback throw 30 touchdown passes in
+a given season. And then there are the Bears, whose single-season passing
+touchdown record is 29. Normally, when a quarterback holds a franchise record
+for 20-plus years, the mark is set by a legend—someone like Dan Marino, who
+still holds the Dolphins’ touchdown record. But with the Bears, the record
+belongs to Erik Kramer, an undrafted journeyman who only played two full
+seasons as an NFL starter.
+
+I don’t know what the hell happened in 1995, when Kramer set that mark.
+Outside of the 29-touchdown campaign, he never threw for more than 14
+touchdowns in a season. And it’s not like the Bears had an otherworldly
+receiving corps in 1995; they pretty much had the same group as in 1994, led
+by Jeff Graham and Curtis Conway. Yet Kramer posted a career-high touchdown
+percentage and a career-low interception percentage.
+
+Based solely off this one good season, we have to consider Kramer one of the
+best Bears quarterbacks of all time. At least, until somebody unseats him from
+the franchise record books.
+
+Mitch TrubiskyGetty Images
+
+### 4\. Mitch Trubisky
+
+##### Bears TD points: 43 (64, 3rd)  
+Bears wins points: 29  
+Career AV points: 30 (so far)  
+Bonus points: 10 (5 for his Pro Bowl, double for doing it on the Bears)  
+Total: 112
+
+Trubisky’s Bears career will be remembered as a failure. Chicago had the
+second pick in the 2017 draft and famously took Trubisky over Patrick Mahomes
+and Deshaun Watson, even though Trubisky seemed like the worst prospect of the
+three and certainly became the worst NFL player of the three. Over four
+seasons in Chicago, he never cracked the top 10 in any positive passing
+category, and led an offense that ranked among the bottom five in points
+scored twice. His greatest career achievement was probably [being named
+“NVP”](https://www.sportingnews.com/us/nfl/news/mitchell-trubisky-nvp-award-
+nickelodeon/4ql3t6lh5kf61u647sbwo3auv) of last season’s wild-card loss to the
+Saints after Nickelodeon’s online fan vote was hijacked by people who thought
+it’d be funny to give the losing QB a slime bath. (Unfortunately, Trubisky did
+not receive a slime bath.)
+
+And yet, Trubisky is _easily_ one of the most prolific passers in Bears
+history. He is fifth all time in QB wins (29) and touchdown passes (64); he
+has the highest passer rating (87.2) of anybody to start more than 10 games
+for the franchise. He is the only Bears quarterback to make a Pro Bowl in the
+past 30 years. And he would’ve won a playoff game if not for the [Double
+Doink](https://www.youtube.com/watch?v=BICgLiBy46o).
+
+Trubisky is so supremely frustrating for Bears fans not only because he
+represents a wasted opportunity for the franchise, but also because he was
+better than almost everyone else who has quarterbacked for Chicago over the
+past three decades. If only he had learned to [throw
+left](https://www.theringer.com/nfl/2019/9/6/20853124/mitchell-trubisky-
+chicago-bears-quarterback-throw-left).
+
+### 3\. Jim Harbaugh
+
+##### Bears TD points: 41 (50, 5th)  
+Bears wins points: 35  
+Career AV points: 42  
+Bonus points: 15 (5 for Pro Bowl, 5 for leading the NFL in passer rating, 5
+for leading the league in yards per attempt)  
+Total: 132
+
+That’s right—before taking the 49ers to the Super Bowl and turning Michigan
+into a perennial contender for third place in the Big Ten East, the khaki-
+wearing, milk-loving coach was a QB for the Bears. His Chicago tenure was a
+disappointment: The franchise used a 1987 first-round pick on him, but he took
+four years to win the starting job, and threw more interceptions than
+touchdowns with the team.
+
+After leaving the Bears and joining the Colts, however, Harbaugh led the NFL
+in passer rating and yards per attempt in 1995. He came a [dropped Hail Mary
+away from taking Indianapolis to the AFC title
+game](https://www.youtube.com/watch?v=jp7WDCXQdJQ). Harbaugh was named the
+NFL’s Comeback Player of the Year—not because he’d recovered from serious
+injury, but because everyone simply assumed that he was incapable of
+quarterbacking at such a high level on the heels of his seven dismal years in
+Chicago.
+
+That may be the best summation of the Bears quarterbacking history. When a
+former Chicago QB shows up on another team and looks OK, he might win an award
+typically reserved for players who overcome grievous injuries.
+
+### 2\. Jim McMahon
+
+##### Bears TD points: 44 (67, 2nd)  
+Bears wins points: 46  
+Career AV points: 40  
+Bonus points: 20 (5 points for making the Pro Bowl, 5 for winning a Super
+Bowl, double points for both happening with the Bears)  
+Total: 150
+
+McMahon won a Super Bowl for the Bears. That’s pretty much all you need to
+know. Statistically, he wasn’t that great; during his lone Pro Bowl season, in
+1985, he ranked 19th in the league in touchdowns and 20th in passing yardage.
+But he was the quarterback for the most beloved period in franchise history.
+Between 1984 and 1987, the Bears won 22 straight regular-season games started
+by McMahon, an NFL record at the time.
+
+With his trademark headbands and brash persona, McMahon endeared himself to
+fans as the team kept on winning. McMahon later had a couple of playoff runs
+with the Vikings and Eagles; after he won a second Super Bowl ring as a backup
+for the Packers in 1996, he [wore a Bears jersey to the White
+House](https://totalpackers.com/2017/06/jim-mcmahon-bears-jersey-packers-
+white-house-visit/).
+
+McMahon [said this year that Chicago is where quarterbacks go to
+die](https://bearswire.usatoday.com/2021/04/15/jim-mcmahon-bears-packers-
+organizations/)—but he’s the one Chicago quarterback who gets to live forever.
+
+### 1\. Jay Cutler
+
+##### Bears TD points: 45 (154, 1st)  
+Bears wins points: 51  
+Career AV points: 44  
+Bonus points: 20 (5 for his Pro Bowl, 5 each for his Bears franchise records
+in passing yards, touchdowns, and wins)  
+Total: 160
+
+It had to be Jay, didn’t it? Cutler was [the embodiment of an average
+quarterback](https://www.theringer.com/2017/5/5/16046016/jay-cutler-
+retirement-fox-greatest-average-quarterback-51efd5f3cdb4) during his tenure in
+Chicago, with an occasional tendency to lead the NFL in interceptions. The
+Bears went exactly 51-51 in his 102 starts—52-52 including the playoffs. His
+career peaked before he even got to the team, as his lone Pro Bowl appearance
+and lone 4,000-yard season came during his final year with the Broncos.
+
+But on Bears Mountain, being an average QB makes you a giant. He is Chicago’s
+all-time leader in touchdown passes (154), passing yards (23,443), and career
+wins. For a franchise perpetually mired in hideous battles between has-beens,
+journeymen, and future busts, Cutler started in Chicago for nearly a decade.
+
+Cutler is inarguably the greatest Bears quarterback since their last Super
+Bowl appearance. That says more about the Bears than it does about Cutler.
+This is the bar that Justin Fields has to clear. I think he can do it.

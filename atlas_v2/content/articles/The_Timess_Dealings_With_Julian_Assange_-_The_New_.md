@@ -1,0 +1,78 @@
+# The Times's Dealings With Julian Assange - The New York Times
+
+**Source**: http://www.nytimes.com/2011/01/30/magazine/30Wikileaks-t.html?pagewanted=print
+**Type**: article
+**Created**: 2025-08-13T21:22:54.714140
+
+---
+
+title: The Times's Dealings With Julian Assange - The New York Times
+source: http://www.nytimes.com/2011/01/30/magazine/30Wikileaks-t.html?pagewanted=print
+date: 2025-08-13T21:22:45.117869
+tags: []
+---
+WikiLeaks was roundly criticized for its seeming indifference to the safety of
+those informants, and in its subsequent postings it has largely followed the
+example of the news organizations and redacted material that could get people
+jailed or killed. Assange described it as a “harm minimization” policy. In the
+case of the Iraq war documents, WikiLeaks applied a kind of robo-redaction
+software that stripped away names (and rendered the documents almost
+illegible). With the embassy cables, WikiLeaks posted mostly documents that
+had already been redacted by The Times and its fellow news organizations. And
+there were instances in which WikiLeaks volunteers suggested measures to
+enhance the protection of innocents. For example, someone at WikiLeaks noticed
+that if the redaction of a phrase revealed the exact length of the words, an
+alert foreign security service might match the number of letters to a name and
+affiliation and thus identify the source. WikiLeaks advised everyone to
+substitute a dozen uppercase X’s for each redacted passage, no matter how long
+or short.
+
+Whether WikiLeaks’s “harm minimization” is adequate, and whether it will
+continue, is beyond my power to predict or influence. WikiLeaks does not take
+guidance from The New York Times. In the end, I can answer only for what my
+own paper has done, and I believe we have behaved responsibly.
+
+The idea that the mere publication of such a wholesale collection of secrets
+will make other countries less willing to do business with our diplomats seems
+to me questionable. Even Defense Secretary Robert Gates called this concern
+“overwrought.” Foreign governments cooperate with us, he pointed out, not
+because they necessarily love us, not because they trust us to keep their
+secrets, but because they need us. It may be that for a time diplomats will
+choose their words more carefully or circulate their views more narrowly, but
+WikiLeaks has not repealed the laws of self-interest. A few weeks after we
+began publishing articles about the embassy cables, David Sanger, our chief
+Washington correspondent, told me: “At least so far, the evidence that foreign
+leaders are no longer talking to American diplomats is scarce. I’ve heard
+about nervous jokes at the beginning of meetings, along the lines of ‘When
+will I be reading about this conversation?’ But the conversations are
+happening. . . . American diplomacy has hardly screeched to a halt.”
+
+As for our relationship with WikiLeaks, Julian Assange has been heard to boast
+that he served as a kind of puppet master, recruiting several news
+organizations, forcing them to work in concert and choreographing their work.
+This is characteristic braggadocio — or, as my Guardian colleagues would say,
+bollocks. Throughout this experience we have treated Assange as a source. I
+will not say “a source, pure and simple,” because as any reporter or editor
+can attest, sources are rarely pure or simple, and Assange was no exception.
+But the relationship with sources is straightforward: you don’t necessarily
+endorse their agenda, echo their rhetoric, take anything they say at face
+value, applaud their methods or, most important, allow them to shape or censor
+your journalism. Your obligation, as an independent news organization, is to
+verify the material, to supply context, to exercise responsible judgment about
+what to publish and what not to publish and to make sense of it. That is what
+we did.
+
+But while I do not regard Assange as a partner, and I would hesitate to
+describe what WikiLeaks does as journalism, it is chilling to contemplate the
+possible government prosecution of WikiLeaks for making secrets public, let
+alone the passage of new laws to punish the dissemination of classified
+information, as some have advocated. Taking legal recourse against a
+government official who violates his trust by divulging secrets he is sworn to
+protect is one thing. But criminalizing the publication of such secrets by
+someone who has no official obligation seems to me to run up against the First
+Amendment and the best traditions of this country. As one of my colleagues
+asks: If Assange were an understated professorial type rather than a character
+from a missing Stieg Larsson novel, and if WikiLeaks were not suffused with
+such glib antipathy toward the United States, would the reaction to the leaks
+be quite so ferocious? And would more Americans be speaking up against the
+threat of reprisals?

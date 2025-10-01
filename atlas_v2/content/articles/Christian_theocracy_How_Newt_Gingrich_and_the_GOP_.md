@@ -1,0 +1,171 @@
+# Christian theocracy: How Newt Gingrich and the GOP would abolish courts and legislate morality.
+
+**Source**: http://www.slate.com/articles/news_and_politics/human_nature/2011/11/christian_theocracy_how_newt_gingrich_and_the_gop_would_abolish_courts_and_legislate_morality_.html?fb_ref=sm_fb_like_toolbar&fb_source=profile_multiline
+**Type**: article
+**Created**: 2025-08-13T20:26:27.349928
+
+---
+
+title: Christian theocracy: How Newt Gingrich and the GOP would abolish courts and legislate morality.
+source: http://www.slate.com/articles/news_and_politics/human_nature/2011/11/christian_theocracy_how_newt_gingrich_and_the_gop_would_abolish_courts_and_legislate_morality_.html?fb_ref=sm_fb_like_toolbar&fb_source=profile_multiline
+date: 2025-08-13T20:26:25.811947
+tags: []
+---
+Is the United States sliding toward theocracy? That’s what [Republican
+presidential
+candidates](https://www.slate.com/articles/news_and_politics/frame_game/2010/08/muslims_keep_out.html)
+have [told
+us](https://www.slate.com/articles/news_and_politics/frame_game/2011/07/christian_terrorism.html)
+for [more than a
+year](https://www.slate.com/articles/news_and_politics/politics/2010/09/creep_the_faith.html).
+Radical Islam, they’ve
+[argued](https://www.slate.com/articles/news_and_politics/frame_game/2011/06/colored_judgment.single.html),
+is on the verge of [taking over our
+country](https://www.slate.com/articles/news_and_politics/frame_game/2010/08/mosque_uprising.html)
+through [Sharia
+law](https://www.slate.com/articles/news_and_politics/politics/2010/08/sheikh_your_newtie.html).
+But this weekend, at an Iowa forum sparsely covered by the press, the
+candidates made clear that they don’t mind theocracy—in fact, they’d like to
+impose it—as long as it’s Christian.
+
+You can find video of Saturday’s “[Thanksgiving Family
+Forum](http://www.nationformarriage.org/site/c.omL2KeN0LzH/b.7874067/k.746D/Thanksgiving_Family_Forum.htm)”
+on the Web sites of two organizations that sponsored it:
+[CitizenLink](http://www.citizenlink.com/2011/11/19/thanksgiving-family-forum-
+complete-video/) and the [Family
+Leader](http://www.thefamilyleader.com/thanksgiving-family-forum). Here are
+highlights of the candidates’ remarks.
+
+**1\. Religious Americans must fight back against nonbelievers.** To quote
+Herman Cain:
+
+What we are seeing is a wider gap between people of faith and people of
+nonfaith. … Those of us that are people of faith and strong faith have allowed
+the nonfaith element to intimidate us into not fighting back. I believe we’ve
+been too passive. We have maybe _pushed_ back, but as people of faith, we have
+not _fought_ back.
+
+**2\. The religious values we must fight for are Judeo-Christian.** Rick Perry
+warned:
+
+Somebody’s values are going to decide what the Congress votes on or what the
+president of the United States is going to deal with. And the question is:
+Whose values? And let me tell you, it needs to be _our_ values—values and
+virtues that this country was based upon in Judeo-Christian founding fathers.
+
+**3\. Our laws and our national identity are Judeo-Christian.** Michele
+Bachmann explained:
+
+American exceptionalism is grounded on the Judeo-Christian ethic, which is
+really based upon the 10 Commandments. The 10 Commandments were the foundation
+for our law. That’s what Blackstone said—the English jurist—and our founders
+looked to Blackstone for the foundation of our law. That’s our law.
+
+**4\. No religion but Christianity will suffice.** Perry declared, “In every
+person’s heart, in every person’s soul, there is a hole that can only be
+filled by the Lord Jesus Christ.”
+
+**5\. God created our government.** Bachmann told the audience:
+
+I have a biblical worldview. And I think, going back to the Declaration of
+Independence, the fact that it’s God who created us—if He created us, He
+created government. And the government is on His shoulders, as the book of
+Isaiah says.
+
+**6\. U.S. law should follow God’s law.** As Rick Santorum put it:
+
+Unlike Islam, where the higher law and the civil law are the same, in our
+case, we have civil laws. But our civil laws have to comport with the higher
+law. … As long as abortion is legal—at least according to the Supreme
+Court—legal in this country, we will never have rest, because that law does
+not comport with God’s law.
+
+**7\. Anything that’s immoral by religious standards should be outlawed.**
+Santorum again:
+
+God gave us rights, but He also gave us laws upon which to exercise those
+rights, and that’s what you ought to do. And, by the way, the law should
+comport—the laws of this country should comport with that moral vision. Why?
+Because the law is a teacher. If something is illegal in this country because
+it is immoral and it is wrong and it is harmful to society, saying that it is
+illegal and putting a law in place teaches. It’s not just—laws cannot be
+neutral. There is no neutral, Ron. There is only moral and immoral. And the
+law has to reflect what is right and good and just for our society.
+
+**8\. The federal government should impose this morality on the states.**
+Santorum once more:
+
+The idea that the only things that the states are prevented from doing are
+only things specifically established in the Constitution is wrong. Our country
+is based on a moral enterprise. Gay marriage is wrong. As Abraham Lincoln
+said, the states do not have the right to do wrong. … As a president, I will
+get involved, because the states do not have the right to undermine the basic,
+fundamental values that hold this country together.
+
+**9\. Congress should erase the judiciary’s power to review moral laws.** Newt
+Gingrich suggested:
+
+I am intrigued with something which Robby George at Princeton has come up
+with, which is an interpretation of the 14th Amendment, in which it says that
+Congress shall define personhood. That’s very clearly in the 14th Amendment.
+And part of what I would like to explore is whether or not you could get the
+Congress to pass a law which simply says: Personhood begins at conception. And
+therefore—and you could, in the same law, block the court and just say, ‘This
+will not be subject to review,’ which we have precedent for. You would
+therefore not have to have a constitutional amendment, because the Congress
+would have exercised its authority under the 14th Amendment to define life,
+and to therefore undo all of _Roe vs. Wade_ , for the entire country, in one
+legislative action.
+
+Gingrich said the same strategy could secure the Defense of Marriage Act,
+which bars federal recognition of same-sex marriages and protects the right of
+states to disregard same-sex marriages performed in other states. In his
+words, “You could repass DOMA and make it not appealable to the court,
+period.”
+
+**10\. Courts that get in the way should be abolished.** Gingrich again:
+
+The simplest first step which I would take is to propose—and I hope this will
+be a significant part of the campaign next year—I have proposed to abolish the
+court of Judge Biery in San Antonio, who on June 1 issued an order that said,
+not only could students not pray at their graduation, they couldn’t use the
+word benediction, the could not say the word prayer, they could not say the
+word God, they could not ask people to stand for a moment of silence, they
+couldn’t use the word invocation, and if he broke any of those, he would put
+their superintendent in jail. I regard that as such a ruthless anti-American
+statement that he should not be on the court, and I would move to literally
+abolish his court, so that he could go back to private practice, as a signal
+to the courts.
+
+Biery’s order [was an
+overreach](http://www.txwd.uscourts.gov/opinions/cases/Schultz_SA09CV422.pdf).
+In fact, it was [overturned two days later by an appeals
+court](http://www.christianpost.com/news/texas-valedictorian-can-pray-at-
+graduation-appeals-court-rules-50834/). But he’s only the first target of the
+anti-judicial purge. The next words after Gingrich’s threat came from
+Santorum, who said: “I agree with a lot of what has just been said here. I
+would go farther—one step farther, Newt. I would abolish the entire Ninth
+Circuit.”
+
+**11\. The purge of judges should be based on public opinion.** Gingrich once
+more:
+
+Part of the purpose of singling out Judge Biery and eliminating his job is to
+communicate the standard that the two elected branches have the power and the
+authority to educate the judiciary when it deviates too far from the American
+people. And I think you would probably take that approach.
+
+**12\. Freedom means obeying morality.** Santorum concluded, “Our founders
+understood liberty is not what you _want_ to do, but what you _ought_ to do.
+That’s what liberty really is about.”
+
+There was one voice of dissent among the candidates. Ron Paul, the libertarian
+congressman from Texas, argued that people should be allowed to make bad
+decisions, that freedom of choice in religious matters should extend to
+atheists, and that powers not reserved to the federal government should be
+left to the states. But in a field of candidates bent on legislating Christian
+morality and purging uncooperative judges, Paul stood alone. Protecting
+America is too important to let the Constitution get in the way.
+
+_William Saletan’s latest short takes on the news, via_[
+_Twitter_](/exchweb/bin/redir.asp?URL=http://twitter.com/saletan.html) _:_

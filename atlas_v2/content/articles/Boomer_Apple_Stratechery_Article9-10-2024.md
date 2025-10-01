@@ -1,0 +1,159 @@
+# Boomer Apple (Stratechery Article 9-10-2024)
+
+**Source**: inputs/old stuff/Docs/Boomer Apple Stratechery Article9102024_091024.html
+**Type**: article
+**Created**: 2025-08-27T03:02:15.921530
+
+---
+
+# Boomer Apple (Stratechery Article 9-10-2024)
+
+Apple is well and truly a services company; hardware is necessary but insufficient for future growth.
+
+  
+  
+[View in browser](https://stratechery.com/2024/boomer-apple/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2Jvb21lci1hcHBsZS8iXX0sImV4cCI6MTcyODU2NzMyMSwiaWF0IjoxNzI1OTc1MzIxLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.OzuMMyC2OM6DOrwYdIv8hMOkhZgv0WliIVF17gRWOv7R7CZkUzR077mZbSAjebFFGehTVvemq1FVDtQ7IO0ou5H3-wcBOOaybuCoXYG26YyanmDvrZ3IgbEwlhRP-JwA4UXyCRRPJ7_d6JnkPe4g_2iBsaocj_gv5p07vP9u2aeSuT0Y6j4ZbEonSzdgKyZ6cC8djE90iPkhrjX-BPZl26nUXXGt_M0AOxvtdOYyWs72EdUsIAxlNlYnAMhHnnOT9tmc-D2wQ66OlVlXeqhvfNdUXiM8ZF9Cu1x1QFQCLVkrBGYUoZjImSdARYwXCvlFNnVBKP5syK0wsAZh9Yrorg)
+[![](https://stratechery.com/wp-content/themes/stratechery-theme/images/header_large.png)](https://stratechery.com)
+
+
+Tuesday, September 10, 2024
+
+#### [Listen to this Update in your podcast player](https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH)
+
+I was born in 1980, which technically makes me a part of Generation X; there is at least one data point, though, that makes me a millennial. In 2021 [Fast Company conducted a survey](https://www.fastcompany.com/90650700/when-does-middle-age-start-for-older-millennials-right-now) about what constituted middle age; millennials defined it as 35 to 50, while Generation X said 45 to 55 (Baby Boomers said 45 to 60).
+
+For my part, [I wrote that Apple was in its middle age in 2018](https://stratechery.com/2018/apples-middle-age/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDE4L2FwcGxlcy1taWRkbGUtYWdlLyJdfSwiZXhwIjoxNzI4NTY3MzIxLCJpYXQiOjE3MjU5NzUzMjEsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiV1JDWFY3TjVWVnNaWnplbmJFZzdIRSIsInVzZSI6ImFjY2VzcyJ9.EAAErkRlpV0XDSzWHhznkfcgAgD_Hl0dKYrFCVqc6ucmyA_3-v1XVY0hzhjB2te3zInS5HOWDpsbpw4tabbmNgVNc3mpZhnOwZcxNDY09A0-uSpEkryVYqUTaR9glF3kxPhRONvrsOXEzmiUN62KykcwHNGCXt70YXTnANVwyrC7tr0Tn5Uf1bRHtnvwjbVfKtejWfQ4mRX0a6CGDJMA2fIoo9AqrsdK04MiKrKy3q4hzLmkNIp2IGktJzOW2HLaPkJp3ymY5oirQ72ci6ZdSwHl1QKNPd-3v_KlZw7-k75aW7oR8_RYHVIWaYu-KlUtJ8YLM4FjZwlRqA2k8LEXxQ), when the company was 42 years old, a solidly millennial definition. My argument then was that Apple was increasingly — and rightly — behaving like an incumbent in a market that was no longer growing. That meant that future iPhone growth would come from (1) more expensive iPhones, (2) selling more devices to existing iPhone users (AirPods, Watches, etc.), and (3) accelerating the revenue it derived from services for iPhone users.
+
+That is exactly what the company did over the ensuing few years, but 2022 brought a bit of a surprise: Apple, in the face of the worst inflation in a generation, declined to raise the price of the iPhone, which in real terms meant an iPhone Pro, nominally priced at $999, was $116 cheaper than it had been two years prior.
+
+I thought this was a big deal at the time; I wrote in [The Services iPhone](https://stratechery.com/2022/the-services-iphone/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIyL3RoZS1zZXJ2aWNlcy1pcGhvbmUvIl19LCJleHAiOjE3Mjg1NjczMjEsImlhdCI6MTcyNTk3NTMyMSwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJXUkNYVjdONVZWc1paemVuYkVnN0hFIiwidXNlIjoiYWNjZXNzIn0.Bui-QfoaFLnLH_YBU7lgGqWbgXTRY_IAEWZTEIRabJ73_xyURxMWRJvZBuEGx2yetQpuO4ll0bej0UvRSob0mzGyUOMBxhOd1Y7kTxkUohrAA8odmKDqfK8y8vVghTO8MYYmOlnSwCw2dkIw00FBcTD-k-zeDTZkK3y3vQmmtWN35VW1hDVFgjpTPir4oAGF076vYrKLhl6DVBOzZD2kyRQW8WQjKl0fjW6FrFNB8x1rM3DwvuL2BGkp49GO4pDbniC_iPVcQ-brFp9mYVsRdnicIkSLW3XUHuuPb4HIB0UXrC0EcfCWHgR50-3HMi29qiUXfnFZLwN6Jq-5-rJafw):
+
+This doesn’t make much sense for the product company Apple has always been thought to be, and doesn’t fully align with the approach I laid out in [Apple’s Middle Age](https://stratechery.com/2018/apples-middle-age/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDE4L2FwcGxlcy1taWRkbGUtYWdlLyJdfSwiZXhwIjoxNzI4NTY3MzIxLCJpYXQiOjE3MjU5NzUzMjEsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiV1JDWFY3TjVWVnNaWnplbmJFZzdIRSIsInVzZSI6ImFjY2VzcyJ9.EAAErkRlpV0XDSzWHhznkfcgAgD_Hl0dKYrFCVqc6ucmyA_3-v1XVY0hzhjB2te3zInS5HOWDpsbpw4tabbmNgVNc3mpZhnOwZcxNDY09A0-uSpEkryVYqUTaR9glF3kxPhRONvrsOXEzmiUN62KykcwHNGCXt70YXTnANVwyrC7tr0Tn5Uf1bRHtnvwjbVfKtejWfQ4mRX0a6CGDJMA2fIoo9AqrsdK04MiKrKy3q4hzLmkNIp2IGktJzOW2HLaPkJp3ymY5oirQ72ci6ZdSwHl1QKNPd-3v_KlZw7-k75aW7oR8_RYHVIWaYu-KlUtJ8YLM4FjZwlRqA2k8LEXxQ). It does, though, make all kinds of sense for a services company, which is focused first-and-foremost on increasing its install base. Indeed, this is the missing piece from [that Update I wrote about Apple’s changing metrics](https://stratechery.com/2019/apple-earnings-apple-the-services-company-for-real/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDE5L2FwcGxlLWVhcm5pbmdzLWFwcGxlLXRoZS1zZXJ2aWNlcy1jb21wYW55LWZvci1yZWFsLyJdfSwiZXhwIjoxNzI4NTY3MzIxLCJpYXQiOjE3MjU5NzUzMjEsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiV1JDWFY3TjVWVnNaWnplbmJFZzdIRSIsInVzZSI6ImFjY2VzcyJ9.D6u-wbve1ucLYhetnSwTKEAxIpTS0BSgnMeOlIMnHEvbQKpVW4-inMaswl4Ta3dtp0wqmRh26luBhaXG_cFoJS5GtcFTMgWKuvGz8n_rYb7ZZ34lIMtxj1sdb9GRgM3KuA_KxVU5kTjH5axdUDjX95R889h75GYAlSXOGedBqQMg2xQIQBwPvpldtCUGK0GzwfDX3PMl3xHom2ca0WuShvPeXjJ6PWtCU86ZJokhIAcKOS8M4fynXV90Y1H6Xz_feXvFEcu5f1mDl4Spy5iMHwhYTzydiOr_MkdFOFx4puFo79oyVOcTVVtpwj5qyYeR0FQ6sDMj6Y_fGkYIhrX3BQ). To measure its business based on users, not products, was to measure like a services company; to lower the prices of the products that lead to services revenue is to price like one.
+
+Here’s another aspect of getting old: it’s hard to let go of the preconceptions of your youth. In [yesterday’s Update](https://stratechery.com/2024/iphone-pricing-directv-and-disney-bars-and-sports/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2lwaG9uZS1wcmljaW5nLWRpcmVjdHYtYW5kLWRpc25leS1iYXJzLWFuZC1zcG9ydHMvIl19LCJleHAiOjE3Mjg1NjczMjEsImlhdCI6MTcyNTk3NTMyMSwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJXUkNYVjdONVZWc1paemVuYkVnN0hFIiwidXNlIjoiYWNjZXNzIn0.q9ntExENDDGrc98db3yl3qzP-OX8bkFvxA_mlATF_ORUirdMnwdn7qvqAjpx_LsvDlgAEApgZIXANcNxKW04o78lrcciNL7NSiXdy6_tilqFMNp0AplSQXBE9k6oNLxQeIwAgR6kZL4P9zCXuiAU2zTbLQefNCiRCUPTiGJ7H8AMyGmgBqK5fIow-MIeF76mKOnLxT0iP1F_pejEfTQ2MNeLOtR4ryaKFHWhXf9u0DdVyzk3W4wDiYeVaFJKP4Dowi8XWN39GFJ1gy3P-uo5T-mPs77GkUKGqUBfNeXuDcBvvwaVEbBVM5078JZG9S1H4Q_em3vwnik3Q3cx3bqGHw) I wrote that I believed that Apple would surely raise prices this year; that $999 iPhone Pro is now $177 cheaper than in 2020 in real terms, and given the fact that Apple was increasing the bill of materials on the lower end phones in particular (bumping them to 8GB RAM, and onto the latest TSMC process), surely they wouldn’t accept the hit on margins on top of the loss in value of their longstanding iPhone pricing.
+
+ 2020 | 2021 | 2022 | 2023 | 2024 |2 year old iPhone
+$499
+$477
+$441
+$422
+$411
+1 year old iPhone
+$599
+$572
+$530
+$507
+$493
+New iPhone
+$799
+$763
+$707
+$676
+$657
+iPhone Pro
+$999
+$954
+$883
+$846
+$822
+iPhone Pro Max
+$1,099
+$1,050
+$972
+$1,015
+$904
+
+In fact, though, I had it right in 2022: Apple held the line on prices once again; I should have realized the company — like myself! — really is in a different stage.
+
+### The iPhone Event
+
+The lack of a price increase for the iPhone 16 Pro made more sense when I watched [Apple’s presentation](https://www.youtube.com/watch?v=uarNiSl_uh4); I found the updates over the iPhone 15 Pro to be pretty underwhelming. The A18 Pro chip is on TSMC’s newest 3nm process, there is a new Camera Control button, and the screen is a bit bigger with bezels that are a bit smaller; that’s really about it from a hardware perspective, although as always, Apple continues to push the envelope with computational photography. And, frankly, that’s fine: last year’s iPhone Pro 15, the first with titanium and USB-C, was for me the iPhone I had been waiting for (and most customers don’t upgrade every year, so these and other previous updates will be new features for them).
+
+What I find much more compelling — and arguably the best deal in iPhone history — is the $799 iPhone 16 (non-Pro). The A18 chip appears to be a binned version of the A18 Pro (there is one less GPU and smaller caches), while the aforementioned bump to 8GB of RAM — necessary to run Apple Intelligence — matches the iPhone 16 Pro. There is one fewer camera, but the two-camera system that remains has been reconfigured to a much more aesthetically pleasing pill shape that has the added bonus of making it possible to record spatial video when held horizontally. The screen isn’t quite as good, and the bezels are a bit larger, but the colors are more fun. It’s a great phone, and the closest the regular iPhone has been to the Pro since the line separated in 2017.
+
+It’s also the more important phone when it comes to Apple’s long-term addressable market. The non-pro iPhones are the ones that stay on sale for years (the iPhone 14 just received its expected price drop to $599); one potential consideration for Apple in terms of price is that it wants to move the 8GB RAM iPhone 16 down the line sooner rather than later; a price raise, if it meant keeping a 6GB RAM iPhone for sale one year longer, could be bad for Apple Intelligence.
+
+Apple Intelligence, meanwhile, is the great hope when it comes to driving new iPhone sales: [Apple shareholders](https://stratechery.com/2024/wwdc-apple-intelligence-apple-aggregates-ai/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L3d3ZGMtYXBwbGUtaW50ZWxsaWdlbmNlLWFwcGxlLWFnZ3JlZ2F0ZXMtYWkvIl19LCJleHAiOjE3Mjg1NjczMjEsImlhdCI6MTcyNTk3NTMyMSwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJXUkNYVjdONVZWc1paemVuYkVnN0hFIiwidXNlIjoiYWNjZXNzIn0.QL8RoJ4btBxtskYHP13LPeVH5_eLXj7XexpEAf2IDfGq8XS85KXU3Osp_xtfjfKC_DplXxD3eIW7kwsrgowAd8kvEy8Ie5T4wTw4QGWgt8DLD9ra7sa2jChnaj4zmhswAW6myTTASa-bPOWZ2gEjLaGuhUY2cDvitY5cr_0OvSXNLsdk_kCfH1DDtkTBCFgKNu0AN5WtpodqPXF-5jOZG3wENz3MoWJgc2l6qtan81GHM9hKMPXf1feDDEMJVZ2tyI0_jszA7VO0i16H40AUDMcFigzMSN2cus08EY-rOYDwmNqAjLIZT109BohzW-tjUy48t9OqHm27jcvj-BidEQ) are hoping for an AI-driven “supercycle”, when consumers, eager for Apple Intelligence features, update their iPhones to one of the latest models with sufficient RAM to run Apple’s new tentpole offering.
+
+### Apple’s Crossing Lines
+
+Notice, though, that this hope itself speaks to how Apple is at a different stage in life: the big hardware changes this year are at the low end; one of the takeaways from AI is that we are well and truly into the age of software-driven differentiation. This is hardly a surprise; I wrote in 2016’s [Everything as a Service](https://stratechery.com/2016/everything-as-a-service/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDE2L2V2ZXJ5dGhpbmctYXMtYS1zZXJ2aWNlLyJdfSwiZXhwIjoxNzI4NTY3MzIxLCJpYXQiOjE3MjU5NzUzMjEsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiV1JDWFY3TjVWVnNaWnplbmJFZzdIRSIsInVzZSI6ImFjY2VzcyJ9.FZtXhU9jgWfZVVVLIZ73AoenV4jsj6xOG3vAuuXOf3YWwjOqVBBoUOnA5oXXtdOX2UTGtnB4rmdjJexkGeCtHaSoNvtInYKg1cT55wJUpafWDRziDyfGv0eS1579JvQF_VHHTH23stZCWdbLVq_FUQ20ADNNta3BQIMYm2XaJ3lim7kdHs6kzhUWkir6f_Ftj0mnoNkKkxyubTeRDrlyuFxrnjIqV0Cj_Wns76AJ_3ga0X_LIkYg2O9Zihmk4z-pwhrljBsuDgfEb2_rxmP4AntZn_3F4b447TYjsk2MXGsrCECq4aw642sb9Ty6Lp_9L4QYubrVsyELknQjTo8AqA):
+
+Apple has arguably perfected the manufacturing model: most of the company’s corporate employees are employed in California in the design and marketing of iconic devices that are created in Chinese factories built and run to Apple’s exacting standards (including a substantial number of employees on site), and then transported all over the world to consumers eager for best-in-class smartphones, tablets, computers, and smartwatches.
+
+What makes this model so effective — and so profitable — is that Apple has differentiated its otherwise commoditizable hardware with software. Software is a completely new type of good in that it is both infinitely differentiable yet infinitely copyable; this means that any piece of software is both completely unique yet has unlimited supply, leading to a theoretical price of $0. However, by combining the differentiable qualities of software with hardware that requires real assets and commodities to manufacture, Apple is able to charge an incredible premium for its products.
+
+The results speak for themselves: this past “down” quarter saw Apple rake in $50.6 billion in revenue and $10.5 billion in profit. Over the last nine years the iPhone alone has generated $600 billion in revenue and nearly $250 billion in gross profit. It is probably the most valuable — the “best”, at least from a business perspective — manufactured product of all time.
+
+In the eight years since then the iPhone has driven another $1.4 trillion in revenue and something around $625 billion in profit;[1](#ipfootnote0) it is still tops in the company for both. It is software, though, specifically services revenue that doesn’t depend on how good the underlying hardware is, that is 2nd place in terms of revenue:
+
+![](https://i0.wp.com/stratechery.com/wp-content/uploads/2024/09/boomer-apple-1.png?resize=1024%2C606&ssl=1)
+
+The comparison is even more striking when you look at profit (again, with the assumption that iPhones have a 45% gross profit margin):
+
+![](https://i0.wp.com/stratechery.com/wp-content/uploads/2024/09/boomer-apple-2b.png?resize=1024%2C514&ssl=1)
+
+Jason Snell already noted the impending convergence of the overall product and services profit lines at [Six Colors](https://sixcolors.com/post/2024/08/existential-thoughts-about-apples-reliance-on-services-revenue/):
+
+But what about the bottom line? While Apple’s Services gross margin was 74% last quarter, products was only a measly 35%. (I’m kidding—35% margin on hardware is actually a really great number. It just can’t compare to Services, because hardware has some fundamental costs that services just don’t.)
+
+Let’s look at total profits:
+
+[![](https://i0.wp.com/stratechery.com/wp-content/uploads/2024/08/apple-earnings-1.png?resize=1024%2C633&ssl=1)](https://sixcolors.com/post/2024/08/existential-thoughts-about-apples-reliance-on-services-revenue/)
+
+Last quarter, Apple made about $22 billion in profit from products and $18 billion from Services. It’s the closest those two lines have ever come to each other.
+
+This is what was buzzing in the back of my head as I was going over all the numbers on Thursday. We’re not quite there yet, but it’s hard to imagine that there won’t be a quarter in the next year or so in which Apple reports more total profit on Services than on products.
+
+When that happens, is Apple still a products company? Or has it crossed some invisible line?
+
+Snell concludes his piece by imploring Apple to “remember where you came from”; hardware is what makes the whole thing work. I’m sympathetic to Snell’s case, because Apple the integrated hardware company is both an entity I admire and one that — as evidenced by my mistaken prediction yesterday — still looms large in my mind. Moreover, you can can (and should) make the case that Services revenue and profit is just an accounting distinction for what is just more hardware revenue and profit, because it is the latter that unlocks the former.
+
+That, though, is why I broke out the iPhone specifically: I think the invisible line Snell talks about has already been crossed. Yes, next quarter’s iPhone numbers will jump back up thanks to seasonality, but this is now three straight years of Apple either favoring its more reliably growing Services business (by increasing the iPhone’s addressable market by lowering real prices) or admitting that it doesn’t have the pricing power that drove up product revenue in their middle age.
+
+This is not, to be clear, an “Apple is Doomed” post; Apple hardware is still very good, and in lots of small ways that go beyond new buttons. I’ve been exploring the Android market over the past few weeks and there is a level of “it just works” that still differentiates the iPhone, particularly in terms of overall system integration (relative to the Pixel, which has a poor modem and problematic battery life) and worldwide reliability (relative to Samsung devices that are endlessly segmented in weird ways across markets, a hangup for me in particular).
+
+Moreover, it’s hardly a condemnation for hardware to become “good enough”, and to decrease in price over time; that has been the path of basically all consumer electronics.
+
+[![](https://i0.wp.com/stratechery.com/wp-content/uploads/2024/09/boomer-apple-3.png?resize=1024%2C722&ssl=1)](https://ourworldindata.org/grapher/price-changes-consumer-goods-services-united-states)
+
+It’s impressive that Apple was innovative enough to resist gravity for as long as it did.
+
+And, of course, there is the lock-in endemic to software: iMessage only works on iPhones,[2](#ipfootnote1) there are all of the apps you have already purchased, and, the muscle memory of years in a particular ecosystem. There are Watches and AirPods that only work or work best with iPhones, and the deep integration with Macs. Apple’s chips remain best-of-breed, and the company’s investment in privacy may pay off in the AI era as people trust Apple to leverage their personal data on device and in their new private cloud.
+
+That, though, is the rub: Craig Federighi, Apple’s software chief, usually doesn’t appear at the iPhone event; his domain is the Worldwide Developers Conference in June, and yet here he was in front of the camera for ten minutes.
+
+[![](https://i0.wp.com/stratechery.com/wp-content/uploads/2024/09/boomer-apple-4.png?resize=1024%2C600&ssl=1)](https://www.youtube.com/watch?v=uarNiSl_uh4)
+
+Software, specifically AI, is what will drive differentiation going forward, and even in the best case scenario, where Apple’s AI efforts are good enough to keep people from switching to Google, the economics of software development push towards broad availability on every iPhone, not special features for people willing to pay a bit more. It’s as if the iPhone, which started out as one model for everyone before bifurcating into the Pro and regular (and SE) lines, is coming full circle to standardization; the difference, though, is its value is harvested through R&D intensive services that need to run everywhere, instead of unit profits driven by hardware differentiation.
+
+So what stage of life is this, where you are banking on your earlier investments for your moat, and having no choice but to strive for good enough on the hot new trends that don’t quite fit your model? Maybe it’s the age where you’re worried about things like irregular heart beats, sleep apnea, or hearing loss. I’m not meaning to make fun of the health features that are an ever larger focus of these events; these are incredible applications of technology that Apple is right to brag about. Indeed, these features make me want to wear an Apple Watch or use AirPods.
+
+But I’m old, and so enamored of the companies of my youth that I ignored my own (correct!) analysis of Apple’s shift in a desire to believe that this was still a product company that could wow me and charge me like it did in 2020. This is a services company now; the hardware is necessary, but insufficient for long-term growth. So it goes.
+
+#### Listen to this update and other Stratechery Plus content in your podcast player: [Stratechery](https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Sharp Tech](https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Dithering](https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Sharp China](https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH) | [Greatest Of All Talk](https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2FAjAuUytxGNaa8WMvLCMHhH)
+
+  
+
+Subscription Information  
+  
+
+Member: Omar Zoheri  
+Email: [stratechery@khamel.com](mailto:stratechery@khamel.com)  
+Plan type: Free  
+  
+  
+You are receiving this email because you are subscribed to [Stratechery](https://www.stratechery.com).  
+  
+[Click here](https://stratechery.passport.online/member/login?email=stratechery%40khamel.com) to view your account and manage your subscriptions.  
+[Click here](https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FWRCXV7N5VVsZZzenbEg7HE%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1dSQ1hWN041VlZzWlp6ZW5iRWc3SEUvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcyODU2NzMyMSwiaWF0IjoxNzI1OTc1MzIxLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IldSQ1hWN041VlZzWlp6ZW5iRWc3SEUiLCJ1c2UiOiJhY2Nlc3MifQ.FcNIlJSegWxiegibAl4m8X4LAyL3yxIjo57Jau8pUVMdEWMcwz97Uorsa17qexXIMKi2j-j-qi5VbRHkVDSgysDw11Uj5hpQDI0bmiP4hoH8wdIIbzMJowx1h8QvZOeOIToqfJrGfyaHZj8L-TmlV-m7pF_y8hVkmpBD5F4bJFeKyQjrONavtEDUUAAd4TJpHrAkOVrq4hdWp8M8LZNfn0YgIgOq14lWw1HqK8tRbYPOuu2er78_oq-VrNo4cK6dMhLeMCtXYrDld4qe8kK4rFuXaDXaZ33_zdISLjT_XcSBwctBlpprOpa0zEMongDge9cq3l0-noYigpPonpaWBQ%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe) to unsubscribe.  
+
+  
+*© 2024
+[Stratechery LLC](https://www.stratechery.com),
+2093 Philadelphia Pike #9930, Claymont DE 19703*
+  
+  
+
+1. I am assuming 45% profit margins for the iPhone. Many iPhone models have reported gross profit margins of 50% or more, but those reports are based on the physical components of the phone, and do not include the attributed cost of software; therefore I am using 45% as a best guess to be conservative in terms of the following argument, but I would guess the true margin, including fully attributed R&D costs, is closer to 40%
+2. Although this can be worked around using services like [AirMessage](https://airmessage.org/)

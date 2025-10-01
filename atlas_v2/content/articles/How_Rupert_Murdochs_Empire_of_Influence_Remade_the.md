@@ -1,0 +1,897 @@
+# How Rupert Murdoch’s Empire of Influence Remade the World - The New York Times
+
+**Source**: https://www.nytimes.com/interactive/2019/04/03/magazine/rupert-murdoch-fox-news-trump.html
+**Type**: article
+**Created**: 2025-08-13T16:17:44.479470
+
+---
+
+title: How Rupert Murdoch’s Empire of Influence Remade the World - The New York Times
+source: https://www.nytimes.com/interactive/2019/04/03/magazine/rupert-murdoch-fox-news-trump.html
+date: 2025-08-13T16:17:43.443933
+tags: []
+---
+Rupert Murdoch was lying on the floor of his cabin, unable to move. It was
+January 2018, and Murdoch and his fourth wife, Jerry Hall, were spending the
+holidays cruising the Caribbean on his elder son Lachlan’s yacht. Lachlan had
+personally overseen the design of the 140-foot sloop — named Sarissa after a
+long and especially dangerous spear used by the armies of ancient Macedonia —
+ensuring that it would be suitable for family vacations while also remaining
+competitive in superyacht regattas. The cockpit could be transformed into a
+swimming pool. The ceiling in the children’s cabin became an illuminated
+facsimile of the nighttime sky, with separate switches for the Northern and
+Southern Hemispheres. A detachable board for practicing rock climbing, a
+passion of Lachlan’s, could be set up on the deck. But it was not the easiest
+environment for an 86-year-old man to negotiate. Murdoch tripped on his way to
+the bathroom in the middle of the night.
+
+Murdoch had fallen a couple of other times in recent years, once on the stairs
+while exiting a stage, another time on a carpet in a San Francisco hotel. The
+family prevented word from getting out on both occasions, but the incidents
+were concerning. This one seemed far more serious. Murdoch was stretchered off
+the Sarissa and flown to a hospital in Los Angeles. The doctors quickly
+spotted broken vertebrae, which required immediate surgery, as well as a
+spinal hematoma, increasing the risk of paralysis or even death. Hall called
+his adult children in a panic, urging them to come to California prepared to
+make peace with their father.
+
+Few private citizens have ever been more central to the state of world affairs
+than the man lying in that hospital bed, awaiting his children’s arrival. As
+the head of a sprawling global media empire, he commanded multiple television
+networks, a global news service, a major publishing house and a Hollywood
+movie studio. His newspapers and television networks had been instrumental in
+amplifying the nativist revolt that was reshaping governments not just in the
+United States but also across the planet. His 24-hour news-and-opinion
+network, the Fox News Channel, had by then fused with President Trump and his
+base of hard-core supporters, giving Murdoch an unparalleled degree of
+influence over the world’s most powerful democracy. In Britain, his London-
+based tabloid, The Sun, had recently led the historic Brexit crusade to drive
+the country out of the European Union — and, in the chaos that ensued, helped
+deliver Theresa May to 10 Downing Street. In Australia, where Murdoch’s power
+is most undiluted, his outlets had led an effort to repeal the country’s
+carbon tax — a first for any nation — and pushed out a series of prime
+ministers whose agenda didn’t comport with his own. And he was in the midst of
+the biggest deal of his life: Only a few weeks before his fall on Lachlan’s
+yacht, he shook hands on a London rooftop with Robert A. Iger, the chief
+executive of the Walt Disney Company, consummating a preliminary agreement to
+sell his TV and film studio, 21st Century Fox, to Disney for $52.4 billion.
+But control of this sprawling empire was suddenly up in the air.
+
+The four grown children had differing claims to the throne. The 61-year-old
+Prudence, the only child of Murdoch’s first marriage, to the Australian model
+Patricia Booker (whom he divorced in 1965), lived in Sydney and London and
+kept some distance from the family business. But the three children from
+Murdoch’s second marriage, to Anna Mann (whom he divorced in 1999), had spent
+at least parts of their lives jockeying to succeed their father. Elisabeth
+(50), Lachlan (47) and James (46) all grew up in the business. As children,
+they sat around the family’s breakfast table on Fifth Avenue, listening to
+their father’s tutorials on the morning papers: how the articles were selected
+and laid out, how many ad pages there were. All of them had imagined that his
+ever-growing company might one day belong to them. As friends of the Murdochs
+liked to say, Murdoch didn’t raise children; he raised future media moguls.
+
+It had made for fraught family dynamics, with competing ambitions and ever-
+shifting alliances. Murdoch was largely responsible for this state of affairs:
+He had long avoided naming one of his children as his successor, deferring an
+announcement that might create still more friction within his family, not to
+mention bringing into focus his own mortality. Instead, Murdoch tried to
+manage the tensions, arranging for group therapy with his children and their
+spouses with a counselor in London who specialized in working with dynastic
+families. There was even a therapeutic retreat to the Murdoch ranch in
+Australia. But these sessions provided just another forum for power games and
+manipulation.
+
+_[[Read 6 takeaways from this
+story](https://www.nytimes.com/interactive/2019/04/03/magazine/murdoch-family-
+investigation.html).]_
+
+Over the years, Lachlan and James had traded roles, more than once, as heir
+apparent and jilted son. It was no secret to those close to the family that
+Murdoch had always favored Lachlan. (“But I love all of my children,” Murdoch
+would say when people close to him pointed out his clear preference for
+Lachlan.) But it was James who spent the first decades of the 21st century
+helping reposition the company for the digital future — exploiting new markets
+around the world, expanding online offerings, embracing broadband and
+streaming technology — while his older brother was mostly off running his own
+businesses in Australia after a bitter split from their father. When Lachlan
+finally agreed to return to the United States in 2015, Murdoch gave him and
+James dueling senior titles: All the company’s divisions would report jointly
+to them. It was an awkward arrangement, not only because they were both
+putatively in charge of a single empire. James and Lachlan were very different
+people, with very different politics, and they were pushing the company toward
+very different futures: James toward a globalized, multiplatform news-and-
+entertainment brand that would seem sensible to any attendee of Davos or
+reader of The Economist; Lachlan toward something that was at once out of the
+past and increasingly of the moment — an unabashedly nationalist, far-right
+and hugely profitable political propaganda machine.
+
+Only one of Murdoch’s adult children would win the ultimate prize of running
+the world’s most powerful media empire, but all four of them would ultimately
+have an equal say in the direction of its future: Murdoch had structured both
+of his companies, 21st Century Fox and News Corp, so that the Murdoch Family
+Trust held a controlling interest in them. He held four of the trust’s eight
+votes, while each of his adult children had only one. He could never be
+outvoted. But he had also stipulated that once he was gone, his votes would
+disappear and all the decision-making power would revert to the children. This
+meant that his death could set off a power struggle that would dwarf anything
+the family had seen while he was alive and very possibly reorder the political
+landscape across the English-speaking world.
+
+As the children hurried to their father’s bedside in Los Angeles, it seemed as
+if that moment had finally arrived.
+
+Media power has historically accrued slowly, over the course of generations,
+which is one reason it tends to be concentrated in dynastic families. The
+Graham family owned The Washington Post for 80 years before selling it to
+Amazon’s founder, Jeff Bezos. William R. Hearst III still presides over the
+Hearst Corporation, whose roots can be traced to his great-grandfather, the
+mining-baron-turned-United-States-senator George Hearst. The New York Times
+has been controlled by the Ochs-Sulzberger family for more than a century. The
+Murdoch empire is a relatively young one by comparison, but it would be hard
+to argue that there is a more powerful media family on earth.
+
+The right-wing populist wave that looked like a fleeting cultural phenomenon a
+few years ago has turned into the defining political movement of the times,
+disrupting the world order of the last half-century. The Murdoch empire did
+not cause this wave. But more than any single media company, it enabled it,
+promoted it and profited from it. Across the English-speaking world, the
+family’s outlets have helped elevate marginal demagogues, mainstream
+ethnonationalism and politicize the very notion of truth. The results have
+been striking. It may not have been the family’s mission to destabilize
+democracies around the world, but that has been its most consequential legacy.
+
+Over the last six months, we have spoken to more than 150 people across three
+continents about the Murdochs and their empire — some who know the family
+intimately, some who have helped them achieve their aims, some who have fought
+against them with varying degrees of success. (Most of these people insisted
+on anonymity to share intimate details about the family and its business so as
+not to risk retribution.) The media tend to pay a lot of attention to the
+media: Fox News is covered almost as closely as the White House and often in
+the same story. The Murdochs themselves are an enduring object of cultural
+fascination: “Ink,” a play about Rupert’s rise, is opening soon on Broadway.
+The second season of [HBO’s
+“Succession,”](https://www.nytimes.com/2018/06/01/arts/succession-review-
+hbo.html) whose fictional media family, the Roys, bears a striking resemblance
+to the Murdochs, airs this summer. But what we as reporters had not fully
+appreciated until now is the extent to which these two stories — one of an
+illiberal, right-wing reaction sweeping the globe, the other of a dynastic
+media family — are really one. To see Fox News as an arm of the Trump White
+House risks missing the larger picture. It may be more accurate to say that
+the White House — just like the prime ministers’ offices in Britain and
+Australia — is just one tool among many that this family uses to exert
+influence over world events.
+
+What do the Murdochs want? Family dynamics are complex, too, and media
+dynasties are animated by different factors — workaday business imperatives,
+the desire to pass on wealth, an old-fashioned sense of civic duty. But the
+Murdochs’ global operations suggest a different dynastic orientation, one
+centered on empire building in the original sense of the term: territorial
+conquest. Murdoch began with a small regional paper in Australia, inherited
+from his father. He quickly expanded the business into a national and then an
+international force, in part by ruthlessly using his platform to help elect
+his preferred candidates and then ruthlessly using those candidates to help
+extend his reach. Murdoch’s news empire is a monument to decades’ worth of
+transactional relationships with elected officials. Murdoch has said that he
+“[never asked a prime minister for
+anything](https://www.npr.org/sections/thetwo-way/2012/04/25/151352244/hes-
+never-asked-a-prime-minister-for-anything-rupert-murdoch-says).” But press
+barons don’t have to ask when their media outlets can broadcast their desires.
+Politicians know what Murdoch wants, and they know what he can deliver: the
+base, their voters — power.
+
+The Murdoch approach to empire building has reached its apotheosis in the
+Trump era. Murdoch had long dreamed of having a close relationship with an
+American president. On the surface, he and Trump have very little in common:
+One is a global citizen with homes around the world, a voracious reader with
+at least some sense of self-awareness. (Murdoch was [photographed last
+year](https://twitter.com/rcbregman/status/1080506555920011264?lang=en) on the
+beach reading “Utopia for Realists,” by Rutger Bregman, the Dutch historian
+who later told Tucker Carlson in an interview that Carlson was a “millionaire
+funded by billionaires.”) The other is a proudly crass American who vacations
+at his own country clubs, dines on fast food and watches a lot of TV. But they
+are each a son of an aspiring empire builder, and their respective dynasties
+shared the same core value — growth through territorial conquest — and
+employed the same methods to achieve it, leveraging political relationships to
+gain power and influence. In Trump’s case, these relationships helped him
+secure zoning exemptions, tax abatements and global licensing deals; in
+Murdoch’s case, they allowed him to influence and evade antimonopoly and
+foreign-ownership rules.
+
+Murdoch has carefully built an image during his six decades in media as a
+pragmatist who will support liberal governments when it suits him. Yet his
+various news outlets have inexorably pushed the flow of history to the right
+across the Anglosphere, whether they were advocating for the United States and
+its allies to go to [war in
+Iraq](https://www.nytimes.com/2003/04/07/business/media-mr-murdoch-s-war.html)
+in 2003, undermining global efforts to combat [climate
+change](https://www.npr.org/2012/04/06/150142277/news-corp-coverage-a-climate-
+change-case-study) or [vilifying
+people](https://www.washingtonpost.com/business/2018/12/15/tucker-carlson-
+suggested-immigrants-make-us-dirtier-it-cost-fox-news-an-
+advertiser/?utm_term=.36beefa0df98) of color at home or from abroad as
+[dangerous threats](https://www.theguardian.com/media/2015/sep/21/ofcom-
+criticises-fox-news-for-calling-birmingham-no-go-zone-for-non-muslims) to a
+white majority.
+
+Even as his empire grew — traversing oceans, countries and media — Murdoch saw
+to it that it would always remain a family business. Underpinning it was a
+worldview that the government was the enemy of an independent media and a
+business model that depended nonetheless on government intervention to advance
+his interests and undermine those of his competitors. The Murdoch dynasty
+draws no lines among politics, money and power; they all work together
+seamlessly in service of the overarching goal of imperial expansion.
+
+It would be impossible for an empire as sprawling as Murdoch’s to be
+completely culturally and ideologically consistent. He is a businessman who
+wants to satisfy his customers. His assets also include [entertainment
+companies](https://www.fox.com/), sports networks and
+[moderate](https://www.thetimes.co.uk/) [broadsheets](https://www.wsj.com/).
+Murdoch embodies these same contradictions. He’s an immigrant stoking
+nationalism, a billionaire championing populism and a father who never saw any
+reason to keep his family separate from his business, and in fact had
+deliberately merged the two.
+
+Most dynasties break apart eventually, as decision-making power is dispersed
+across individuals and generations with different attitudes about their family
+business and the world in general. No one knows this better than Murdoch, who
+in 2007 took over Dow Jones, publisher of The Wall Street Journal, by
+exploiting divisions within [the Bancroft
+family](https://www.amazon.com/dp/B003IS76DU/ref=dp-kindle-
+redirect?_encoding=UTF8&btkr=1), which had run the paper for more than a
+century. Murdoch thought he had protected himself from a similar fate by
+keeping a controlling interest in his empire; no one could take it away from
+him.
+
+The challenge would be holding it together.
+
+To understand how the Murdoch empire works, it is essential to return to its
+origins. On the day in 1931 that Rupert Murdoch was born, his father, Keith
+Murdoch, was in the midst of his first campaign to elect a prime minister from
+his newsroom in Australia. As a young newspaperman, Keith [gained
+fame](https://www.telegraph.co.uk/news/worldnews/australiaandthepacific/australia/11560088/How-
+Rupert-Murdochs-father-changed-the-course-of-the-Gallipoli-campaign.html) by
+evading military censors to report on the slaughter of his countrymen during
+the British-led Gallipoli campaign of World War I. He leveraged that fame to
+become a powerful executive at the Melbourne Herald and Weekly Times news
+company, a position that he in turn leveraged to punish his enemies and reward
+his allies: The candidate he was supporting for prime minister, Joseph Lyons,
+earlier helped Keith overcome regulatory restrictions to start a radio station
+for his company in Adelaide, according to the historian Tom Roberts’s 2015
+biography of Murdoch’s father, [“Before
+Rupert.”](https://theconversation.com/book-review-before-rupert-keith-murdoch-
+and-the-birth-of-a-dynasty-49491) Lyons won, and as Keith saw it, Australia’s
+new leader served at his pleasure: “I put him there,” he reportedly said when
+the two later squabbled. “And I’ll put him out.”
+
+As Keith was creating one of the country’s first national news chains, a
+regional Australian newspaper editorialized about the danger of his ambitions,
+warning, Roberts wrote, that he was creating “a press dictatorship for all
+Australia with Murdoch-inspired leaders and Murdoch-trained reporters.” Bound
+up with Keith’s business interests were ideological inclinations not just
+about how power should work but also about who should be allowed to exercise
+it: He was a member of the Eugenics Society of Victoria and in an editorial
+once wrote that the great question facing Britain was “will she, if needs be,
+fight — for a White Australia?”
+
+Keith never built a true media empire. He did own two regional newspapers, one
+of which had to be sold to pay off his death duties when he died suddenly in
+1952. That left only the 75,000-circulation News of Adelaide for his 21-year-
+old son, who was finishing his degree at Oxford. But Rupert Murdoch had
+already received something much more valuable from his father: an extended
+tutorial in how to use media holdings to extract favors from politicians.
+
+His first order of business was to establish a proper Murdoch-owned empire in
+Australia. After buying a couple of additional local papers, he founded the
+country’s first national general-interest newspaper, The Australian, which
+gave him a powerful platform to help elect governments that eased national
+regulations designed to limit the size of media companies. He would eventually
+take control of nearly two-thirds of the national newspaper market. With the
+construction of his Australian media empire underway, Murdoch moved on to
+Britain and Fleet Street, using his newest acquisitions, The News of the World
+and The Sun, to successfully promote [Margaret Thatcher’s
+candidacy](https://www.margaretthatcher.org/document/103493) for prime
+minister. [Once elected](https://www.theguardian.com/uk-news/2015/apr/28/how-
+margaret-thatcher-and-rupert-murdoch-made-secret-deal), her government
+declined to refer his acquisition of The Times of London to antimonopoly
+regulators, giving him the country’s leading establishment broadsheet to go
+with his mass-circulation tabloids.
+
+Television was next. After Murdoch lost the bidding for the British
+government’s sole satellite broadcasting license, Thatcher again came to his
+rescue, looking the other way when he started a rival service, Sky Television,
+which beamed programming into Britain from Luxembourg. The bigger Murdoch’s
+empire became, the more power he had to clear away obstacles to further its
+expansion. His influence became an uncomfortable fact of British political
+life, and Murdoch seemed to revel in it. “It’s The Sun Wot Won It,” The Sun
+declared on its front page in 1992, after helping send the Tory leader John
+Major to 10 Downing Street by relentlessly smearing the character of his
+opponent, Neil Kinnock. (“Nightmare on Kinnock Street,” The Sun headlined a
+savage nine-page package that included a satirical endorsement from the ghost
+of Joseph Stalin.) Murdoch could switch parties when it suited his purposes
+and ably supported Britain’s “New Labor” movement in the 1990s: Conservatives
+at the time had proposed regulations that would have forced him to scale back
+his newspaper operations in order to expand further into TV.
+
+Murdoch used the same playbook in the United States. In 1980, he met Roy Cohn
+— the former adviser to Senator Joseph McCarthy and a Trump mentor — who
+introduced him to Gov. Ronald Reagan’s inner circle. It was a group that
+included Roger Stone Jr., another Trump confidant and the head of Reagan’s New
+York operations, who said in a later interview that he helped Murdoch
+weaponize his latest tabloid purchase, The New York Post, on Reagan’s behalf
+in the 1980 election. Reagan’s team [credited
+Murdoch](https://www.nytimes.com/1981/02/12/nyregion/ethics-of-murdoch-papers-
+under-scrutiny-as-he-prepares-to-buy-london.html) with delivering him the
+state that year — Murdoch gave Stone an Election Day printing plate from The
+Post over a celebratory meal at the 21 Club — and his administration
+subsequently facilitated Murdoch’s entry into the American television market,
+quickly approving his application for American citizenship so he could buy TV
+stations too.
+
+The Reagan administration later waived a prohibition against owning a
+television station and a newspaper in the same market, allowing Murdoch to
+hold onto his big metro dailies, The New York Post and The Boston Herald, even
+as he moved into TV in both cities. The administration of George H.W. Bush
+suspended rules that forbade broadcast networks to own prime-time shows or to
+profit from them. That move allowed Murdoch to build[ the nation’s fourth
+broadcast](https://www.nytimes.com/1990/07/15/magazine/fox-in-the-network-
+henhouse.html) network by rapidly filling out his schedule with shows from his
+newly acquired 20th Century Fox studio — “The Simpsons,” “21 Jump Street” —
+while also earning substantial profits from the production unit’s syndicated
+rerun hits like “M*A*S*H” and “L.A. Law.”
+
+Maybe more than any media mogul of his generation, Murdoch exploited the
+seismic changes transforming the industry during the waning years of the 20th
+century (another lesson from Keith, an early adopter of radio and newsreels).
+These changes were driven by technology: It was now possible to transmit
+endless amounts of content all over the world in an instant. But they were
+also driven by regulatory changes, in particular the liberation of TV and
+radio operators from the government guidelines that ruled the public airwaves.
+The Reagan administration’s elimination of the Fairness Doctrine, which had
+for decades required broadcasters to present both sides of any major public-
+policy debate, spawned a new generation of right-wing radio personalities who
+were free to provide a different sort of opinion programming to a large,
+latent conservative audience that was mistrustful of the media in general. It
+was only a matter of time until similar programming started migrating to the
+burgeoning medium of 24-hour-a-day cable television. And it was of course
+Murdoch who imported it.
+
+Murdoch had watched enviously as his younger rival, Ted Turner, built his own
+cable news network, CNN. In 1996, he and Roger Ailes, a former media adviser
+for Nixon and George H.W. Bush, started their conservative competitor, Fox
+News, which catered to those Americans whose political preferences had gone
+unaddressed on television news. Another political favor was crucial. When Time
+Warner, which owned CNN, refused to carry the new network on its cable system
+in New York, the city’s Republican mayor, Rudolph W. Giuliani — another future
+Trump adviser and a lion in the pages of The Post — [publicly
+pressured](https://www.nytimes.com/1996/10/13/nyregion/lobbying-at-murdoch-
+gala-ignited-new-york-cable-clash.html) the cable company as the two sides
+moved toward an eventual deal.
+
+A round-the-clock network with a virtual monopoly on conservative TV news, Fox
+conferred on Murdoch a whole new sort of influence that was enhanced by
+politically polarizing events like the Monica Lewinsky scandal and the post-
+Sept. 11 war in Iraq that marked its early years. If Murdoch’s papers were a
+blunt instrument, Fox’s influence was in some ways more subtle, but also far
+more profound: Hour after hour, day after day, it was shaping the realities of
+the millions of Americans who treated it as their primary news source. A 2007
+study found that the introduction of the network on a particular cable system
+pushed local voters to the right: the Fox News Effect, as it became known. In
+a 2014 Pew Research poll, a majority of self-described conservatives said it
+was the only news network they trusted. Murdoch’s office above the Fox
+newsroom in Midtown Manhattan became a requisite stop on any serious
+Republican presidential candidate’s schedule.
+
+Fifty years and an untold number of deals after taking possession of The News
+of Adelaide, Murdoch had arrived at the pinnacle of global influence.
+“Republicans originally thought that Fox worked for us,” David Frum, a former
+speechwriter for George W. Bush, said in an interview with “Nightline.” “And
+now we’re discovering we work for Fox.”
+
+Murdoch’s success in building his empire inevitably raised the question of who
+would rule it after he was gone. As he grew older, he would often say
+privately that he didn’t want to become another Sumner Redstone, the aging
+media mogul who had refused to cede control of CBS and Viacom, even as he was
+losing the ability to speak or eat unassisted. But as he turned 75, and then
+80, Murdoch, too, had declined to lay out a plan for the future of his empire.
+
+Initially he favored Lachlan, installing him as the general manager of one of
+his Australian newspaper chains at age 22 and overseeing his rise to the post
+of deputy chief operating officer of News Corp by age 33. But Lachlan’s rise
+was cut short after he clashed repeatedly with seasoned executives who viewed
+him as an entitled princeling. Furious at his father for siding against him in
+these disputes, Lachlan left the company — and the United States — in 2005,
+returning to the Murdochs’ ancestral homeland with a $100 million payout from
+the family trust. James, then the chief executive of British Sky Broadcasting
+— formerly Sky Television, later shortened to Sky — took over the mantle of
+heir apparent.
+
+But by the summer of 2015, Murdoch, now 84, had changed his mind: James was
+out, and Lachlan was once again next in line. The news was delivered to James
+not by his father but by Lachlan and the company’s president, Chase Carey,
+over lunch in Manhattan: Lachlan was moving back to the United States to take
+over the business. James would report to him.
+
+James was livid. The two brothers and their father had explicitly discussed
+succession not even two years earlier. James was supposed to take over, and
+Lachlan would never assume more than a symbolic role. As James saw it, he had
+not only been promised the job; he had earned it. He had devoted years of his
+life to trying to build the company — moving his family to Hong Kong and
+London, making monthly trips to Mumbai to push the family’s satellite-TV
+businesses into emerging technology and new markets — while his brother was
+off in Australia spearfishing and making dubious investments. Angry and
+appalled, James threatened to quit, heading straight from lunch to the airport
+for a flight to Indonesia.
+
+With a clipped, near-British accent and a penchant for wearing bluejeans and
+espadrilles, James reads as an archetype of today’s global power elite. Years
+ago, he was the family rebel, piercing his ears, dyeing his hair and having a
+light bulb tattooed on his right arm. As an undergraduate at Harvard, James
+flirted with becoming a medieval historian and joined the staff of The Harvard
+Lampoon before dropping out in 1995 to follow the Grateful Dead and start an
+independent hip-hop label, Rawkus Records, whose artists included Talib Kweli
+and Mos Def. A year later, his father bought Rawkus and brought James into
+News Corp, ending his short-lived foray outside the family business. In 2000,
+James married Kathryn Hufschmid, a fashion-marketing executive and part-time
+model from Oregon, whom he met on a mutual friend’s yacht bound for Fiji and
+whose more liberal politics made her an outlier in the Murdoch family. She
+argued frequently with her father-in-law over Fox’s politics. The constant
+sparring grew tiresome for Murdoch, who worried that Kathryn had too much
+influence over his younger son. He would often suggest to James that the two
+of them just go out to dinner alone when they needed to discuss something,
+according to a person close to Murdoch.
+
+Even inside his father’s empire, James continued to view himself in idealistic
+terms, as the one best suited to drag the sprawling, often backward-thinking
+company into the future, whether that meant making all of its offices [carbon-
+neutral](https://www.theguardian.com/media/2008/jan/10/newscorporation.mediabusiness),
+leading investments in digitally oriented businesses like Hulu or moderating
+the wilder impulses of Fox News. A self-described political centrist, James
+saw the network as one of the biggest obstacles to his efforts to diversify
+and expand the company. In a meeting of senior executives, one attendee
+recalled, he said he wanted to change the image of the Murdoch empire so that
+it was no longer viewed as a company “defined by a single product with a
+charismatic founder.”
+
+Lachlan identified closely with that charismatic founder. His trajectory was
+very different from James’s. He shared his father’s attachment to Australia,
+both to his family’s long history inside the country and to its
+hypermasculine, rough-hewed culture. When he was younger, he worked as a
+jackeroo, herding and vaccinating sheep and lambs in rural Australia, and
+culled kangaroos from the family’s ranch in Cavan with a shotgun. (His father
+stuck to clay pigeons.) After graduating from Princeton, Lachlan returned to
+Australia to work in the family business, becoming an instant celebrity, known
+for wearing outback boots with his suits, [riding a Kawasaki
+motorcycle](https://www.vanityfair.com/news/1997/06/murdoch-empire-heir) to
+work, showing off his armband tattoo while rock climbing and courting the
+Australian model Sarah O’Hare, whom he married in 1999.
+
+Lachlan doesn’t speak publicly about his politics, but his employees in
+Australia found that he took a hard line on many issues. Chris Mitchell, the
+longtime editor of The Australian, recalled in his 2016 memoir, [“Making
+Headlines,”](https://www.mup.com.au/books/making-headlines-paperback-softback)
+that “Lachlan’s conservatism is more vigorous than that of any Australian
+politician” and that his views were usually to the right of his father’s.
+Lachlan once presented himself at one of the family’s papers to express
+displeasure with its decision to run an editorial in support of same-sex
+marriage, according to three people who knew about the interaction at the
+time. (Lachlan said through a representative that he had no recollection of
+the incident and that he supports same-sex marriage.) According to people
+close to him, Lachlan questions what he sees as the exorbitant cost of
+addressing climate change and believes that the debate over global warming is
+getting too much attention.
+
+Lachlan viewed his brother as a good executive, but he felt that he was the
+one who had taken risks and proved himself in Australia. It was true that some
+of his investments had failed — he’d bought a TV network,
+[Ten](https://www.smh.com.au/entertainment/tv-and-radio/lachlan-murdochs-
+messy-legacy-at-ten-20140327-35kaw.html), that went into receivership after
+losing $232 million in six months — but others, including a group of Top-100
+and easy-listening radio stations, were earning [tens of millions of
+dollars](https://www.smh.com.au/business/companies/53m-radio-pay-day-for-
+lachlan-murdoch-20180515-p4zfdr.html) a year.
+
+Murdoch had been trying for years to coax Lachlan back from Australia.
+Murdoch’s 2013 divorce from his third wife, Wendi Murdoch, helped change
+Lachlan’s mind. He and James had tried to talk their father out of marrying
+Wendi over a 1999 dinner at the Manhattan restaurant Babbo — she was the rare
+subject on which the two sons agreed — and both of them had grown even less
+fond of her in the years that followed. James and at least one other company
+executive had heard from senior foreign officials that they believed she was a
+Chinese intelligence asset. And family members felt that she treated their
+father terribly, calling him “old” and “stupid.” (A spokesman for Wendi
+Murdoch denied these claims.)
+
+Apart from Wendi, the sons were at odds about almost everything. They were not
+only fighting over control of their father’s empire; they were fighting over
+one of his homes, a 8,651-square-foot Spanish-style mansion in Beverly Hills.
+Murdoch bought the house furnished in the 1980s from the music mogul Jules
+Stein, and his sons had a sentimental attachment to it, having spent a lot of
+time there as children. According to six people close to the family, James and
+Lachlan were upset to learn that their father had put the house on the market
+and had a $35 million offer on it from Leonardo DiCaprio. The brothers briefly
+discussed buying the house together; whoever happened to be in L.A. at any
+given moment could use it. James finally agreed to buy the house himself at a
+discounted price of $30 million, though after he and Kathryn did so, they
+learned that it needed four new retaining walls, costing them millions of
+dollars more. Lachlan was upset that his brother had gotten the house. As a
+gift, Murdoch gave him some of the antique furniture inside, even though James
+and Kathryn thought they had bought it furnished.
+
+While James was overseas, ready to quit, his father and brother came up with a
+compromise: All of 21st Century Fox’s divisions would report to both of them.
+James would be chief executive, while Lachlan would share the more exalted
+title of co-chairman with his father. The announcement would be carefully
+worded to suggest that they were coequals, to protect James from the public
+humiliation, even though Lachlan was technically the senior executive. Their
+salaries were identical, roughly $20 million a year to start. Each would have
+access to corporate planes for professional and personal use. James would be
+based in the company’s corporate offices in Midtown Manhattan, Lachlan on the
+other side of the country, in the vast chairman’s office formerly occupied by
+his father in Building 88 on the 21st Century Fox lot, which he decorated with
+a picture of the Cavan ranch and a 1979 black-and-white photograph of Murdoch
+standing in front of a New York Post printing press.
+
+James warily agreed to the terms, but the question of succession was not fully
+resolved. The news coverage of their promotions made no distinction between
+the seniority of their respective positions: Publicly at least, James was
+still seen as the heir apparent. When the dust finally settled, the two sons
+sat down for an interview with The Hollywood Reporter headlined, “The New Age
+of Murdochs.”
+
+Lachlan described the transition as “seamless.”
+
+In early 2015, Murdoch got a call from Ivanka Trump, proposing lunch with her
+and her father.
+
+They met soon after in the corporate dining room of the Fox News building in
+Midtown Manhattan. Ivanka’s husband, Jared Kushner, came, too. Just as the
+first course was being served, Trump told Murdoch that he was going to run for
+president.
+
+Murdoch didn’t even look up from his soup, according to three people who
+independently shared the story. “You have to be prepared to be rapped up
+badly,” Murdoch replied, using an expression for taking some knocks.
+
+Murdoch was deeply entwined with the Trump family. Trump had aggressively
+cultivated The Post during his rise to celebrity in New York in the late ’70s
+and ’80s. Kushner became close to Murdoch after he purchased The New York
+Observer in 2006. An improbable friendship blossomed between the octogenarian
+mogul and the 30-something publishing parvenu, with Murdoch and Wendi even
+taking Kushner and Ivanka on vacation in the Caribbean on Murdoch’s yacht.
+After Murdoch’s divorce in 2013, Kushner, who was also in the real estate
+business, helped him find a decorator for his new bachelor apartment. Ivanka
+was one of five individuals designated to oversee the trust for Murdoch and
+Wendi’s two daughters, which held $300 million in stock in News Corp and 21st
+Century Fox. (She relinquished her role as a trustee in 2016.)
+
+Murdoch recognized Trump’s appeal as a tabloid character and ratings driver,
+but he did not see him as a serious person, let alone a credible candidate for
+president. “He’s a [expletive] idiot,” Murdoch would say when asked about
+Trump, three people close to him told us (Through a spokeswoman, Murdoch
+denied that he ever used this phrase to describe Trump.).
+
+Roger Ailes, the longtime head of Fox News, was no more generous, at least
+when Trump was out of earshot. Ailes was close to Trump, too: Their alliance
+dated back to Rudolph Giuliani’s 1989 New York mayoral campaign, for which
+Ailes worked as a media adviser and Trump as a fund-raising figurehead. It was
+Ailes who, in 2011, gave Trump his regular Monday-morning slot on “Fox &
+Friends,” which Trump used to advance his [“birther”
+campaign](https://www.mediamatters.org/blog/2011/03/28/fox-goes-
+birther/178005). Still, Ailes ranted indignantly about the notion of a Trump
+presidency, saying that he wasn’t remotely worthy of the Oval Office, a person
+close to him at the time told us.
+
+Fox News’s initial resistance to promoting his candidacy came as an unpleasant
+surprise to Trump, who had assumed that his relationships with Murdoch and
+Ailes would ensure positive coverage. Ailes had even written Trump an email
+asking what he could do to help him. (After scrawling an enthusiastic note on
+top, Trump sent a printout of that email to his campaign manager, Corey
+Lewandowski.)
+
+During the campaign’s early months, it fell mostly to Ailes to manage the
+network’s tumultuous relationship with Trump, who complained constantly that
+Fox favored Ted Cruz and Marco Rubio. Trump was driven into a near-weekly rage
+by the Fox News host Bret Baier’s Friday-night segment, “Candidate Casino.”
+Opening with a graphic of a spinning roulette wheel and Vegas-style lights,
+Baier and his round table of political analysts would place bets on the
+probable party nominees. Even though Trump was winning in most of the polls,
+Baier’s parlor of experts regularly placed him toward the bottom of the pack.
+
+It was especially galling to Trump because he and Baier had golfed together,
+and Baier had briefly been a member at the Trump International Golf Club in
+West Palm Beach. (Baier dropped his membership when it became clear that Trump
+was likely to run for the presidency.) After the Fox contributor and Weekly
+Standard editor Stephen F. Hayes called Trump “a clown,” Trump faxed Baier a
+copy of his résumé, with a note scrawled across it in black marker: “Tell
+Hayes no clown could have done all this!” Trump even complained about Fox
+while appearing on Fox, ticking off, during a live interview with Sean
+Hannity, the contributors who should be fired because they were “biased”
+against him.
+
+Trump wasn’t without leverage in his relationship with Fox. The Murdoch
+formula was to deliver the enthusiasm of reactionary readers and viewers to
+chosen candidates, but Trump was already generating plenty of enthusiasm on
+his own. His hard-core supporters made up Fox’s core audience, and his social
+media accounts gave him a direct connection to them. If these supporters had
+to choose between Trump and Fox, Ailes might not like the results. At the same
+time, a new crop of right-wing outlets — Breitbart, Gateway Pundit, One
+America News, Sinclair — were embracing his candidacy, and mainstream
+broadcasters were no less aware of what he could do for their ratings. “I can
+go on the ‘Today’ show in my pajamas, and five million people will watch,” he
+warned Ailes, a former Trump campaign official recalled.
+
+After the Fox News anchor Megyn Kelly asked Trump, during the first Republican
+primary debate in the summer of 2015, to defend his comments about women —
+“You’ve called women you don’t like fat pigs, dogs, slobs and disgusting
+animals” — Trump demanded that Ailes force her to publicly apologize,
+according to the former Trump campaign official. (She didn’t.) Six months
+later, on the eve of another Republican debate in Des Moines, which Trump was
+boycotting because Kelly was once again moderating, Ailes tried desperately to
+persuade Trump to change his mind. His hopes were dashed when Trump called him
+from the tarmac in Iowa to refuse, having just watched the Fox News
+contributor Charles Krauthammer mock him on the network. Without Trump, the
+event drew just half the viewership of Fox’s first debate.
+
+Kushner was privately lobbying Murdoch to reconsider his attitude toward his
+father-in-law, showing him videos of the candidate’s overflowing campaign
+rallies on his iPhone. Even as Trump gained momentum, Murdoch continued to
+look for alternatives. Over the summer of 2015, he wrote a personal check for
+$200,000 to the super PAC of Gov. John Kasich, the relatively moderate
+Republican from Ohio, according to Federal Election Commission filings.
+
+Aware of her father-in-law’s dim view of Trump, James’s wife, Kathryn, tried
+to broker a meeting between Murdoch and Hillary Clinton. Having worked for the
+Clinton Climate Initiative, she knew both the Clintons and their inner circle
+of advisers and hoped Murdoch might consider an endorsement, or at least
+commit to staying neutral. The idea was not so far-fetched. Murdoch had, after
+all, backed Tony Blair, a Clinton-style Labor Party centrist, and had once
+even hosted a Senate fund-raiser for Hillary. Murdoch felt he didn’t need his
+daughter-in-law’s help. In fact, he called Clinton personally, leaving a
+message at her campaign headquarters. Clinton called back almost immediately
+but declined his invitation to meet with him. (A spokesman for Clinton did not
+respond to a request for comment.)
+
+During the primaries, Trump honed his political identity, railing against
+military intervention, free trade and immigration. They were all positions
+that directly contradicted Murdoch’s own, more neoconservative views. Murdoch
+had enthusiastically supported the Iraq War, evangelized for open immigration
+policies — even urging Australia to avoid the “self defeating” anti-
+immigration debate in the United States — [and
+endorsed](https://www.breitbart.com/politics/2016/01/27/foxs-rupert-murdoch-
+endorsed-obamatrade/) international trade agreements like the Trans-Pacific
+Partnership. His attitude toward Trump’s emergent ideology was often captured
+on the unremittingly anti-Trump editorial page of The Wall Street Journal. The
+page’s editor, Paul Gigot, was in frequent contact with his paper’s owner,
+according to sources familiar with the conversations. And yet Murdoch was in a
+sense responsible for unleashing the forces that were now propelling Trump’s
+rise. During the Obama years, Fox News had found ratings and profits with its
+wall-to-wall coverage of raucous Tea Party rallies and the opinion shows that
+advanced the campaign to delegitimize the country’s first African-American
+president. As the Republican nominating process progressed, this populist,
+anti-establishment energy was unmistakably coalescing around Trump.
+
+By March 2016, Donald Trump, the man Murdoch had so quickly dismissed a year
+earlier, was now the clear front-runner, and Murdoch was taking his first
+tentative steps toward embracing him.
+
+“If he becomes inevitable, party would be mad not to unify,” [he
+tweeted](https://twitter.com/rupertmurdoch/status/705134886324215808).
+
+Across the Atlantic, a similar right-wing wave was threatening to drive
+Britain out of the European Union. Murdoch had a hand in that as well. His
+most influential tabloid, The Sun, had long been advocating for an exit from
+the E.U., and so had Murdoch himself, distilling his opposition to the E.U.
+into a single quote to Anthony Hilton, a columnist at The Evening Standard:
+“When I go into Downing Street, they do what I say; when I go to Brussels,
+they take no notice.” (Murdoch subsequently [denied saying
+this](https://www.reuters.com/article/us-sky-m-a-twentyfirst-fox-
+idUSKBN1481KU); Hilton [stood by the
+quote](https://www.theguardian.com/media/2016/dec/19/rupert-murdoch-ive-never-
+asked-any-prime-minister-for-anything).) Prime Minister [John
+Major](https://www.telegraph.co.uk/news/uknews/leveson-inquiry/9326407/John-
+Major-at-the-Leveson-Inquiry-Rupert-Murdoch-told-me-to-change-policies-on-
+Europe.html) told a judicial inquiry that in 1997 Murdoch said that he could
+not support him if he didn’t change his stance toward Europe, which the prime
+minister took as a demand for an E.U. referendum. (Murdoch denied this, too.)
+As the summer of 2016 approached, that referendum was finally coming.
+
+The idea of Britain’s splitting from the E.U. had always seemed more like a
+nativist fever dream than a realistic political goal. But in 2016, Brexit
+proponents could scan the globe and see cause for optimism. Not only was
+Trump’s campaign surging in the United States, but reactionary nationalism was
+also gaining supporters worldwide: In Austria’s presidential elections, the
+candidate of the Freedom Party, founded by former Nazi officers, narrowly lost
+in a runoff. The Philippines had just elected as president Rodrigo Duterte,
+following a campaign during which he inveighed against the country’s business
+and political elites and promised to kill so many criminals that the fish in
+Manila Bay would “grow fat” from feeding on their dead bodies. Hungary’s prime
+minister, Viktor Orban, had already built his own version of a border wall,
+miles of barbed wire aimed at turning back what he later called “Muslim
+invaders.”
+
+In the weeks leading up to the vote, The Sun led the London tabloids in
+hammering the case for leaving the European Union. [It cast
+Brexit](https://www.thesun.co.uk/news/1277920/we-urge-our-readers-to-believe-
+in-britain-and-vote-to-leave-the-eu-in-referendum-on-june-23/) as a choice
+between the “arrogant europhiles” and the country’s working class, while
+railing against “mass immigration which keeps wages low and puts catastrophic
+pressure on our schools, hospitals, roads and housing stock.” It still looked
+like a long shot, and Murdoch’s other British newspaper, the more sober Times,
+had encouraged its wealthier and more politically moderate readers to vote in
+favor of remaining in the European Union. But The Sun was where Murdoch’s
+heart — and influence — lay.
+
+How much influence he still wielded in British politics was an open question.
+Murdoch had effectively been chased out of London five years earlier in the
+wake of the biggest crisis of his career: the revelations that his News of the
+World tabloid had, in search of dirt, been systematically hacking into the
+phones of politicians, celebrities, royals and even a 13-year-old schoolgirl.
+The [scandal that
+followed](https://www.nytimes.com/2010/09/05/magazine/05hacking-t.html),
+itself fit for tabloid headlines, would permanently alter the course of both
+the family and its empire. One of Murdoch’s executives, Rebekah Brooks, a
+virtual seventh child to Murdoch, was arrested, [tried and
+acquitted](https://www.nytimes.com/2015/03/02/business/media/news-corp-set-to-
+rehire-rebekah-brooks-acquitted-executive.html). Andy Coulson, a former
+Murdoch editor who had gone to work for Prime Minister David Cameron, was sent
+to prison for encouraging his reporters to engage in illegal practices. In a
+futile effort at damage control, the company spent millions of dollars
+settling claims from hacking victims. Murdoch and James, who was running the
+company’s European and Asian operations from London at the time, were grilled
+in a public hearing before Parliament. James denied knowing that the phone-
+hacking was widespread but was publicly confronted [with an
+email](https://www.nytimes.com/2012/02/12/world/europe/a-2008-e-mail-at-the-
+heart-of-a-hacking-scandal.html) he was sent in 2008 alerting him to the
+potential severity of the problem. (He said that he had not reviewed “the full
+email chain.”)
+
+It was a corporate scandal, but because of the nature of this corporation, it
+was also a family matter. James blamed his father for having allowed the
+freebooting, anything-goes culture to take root at the paper and for forcing
+him to absorb so much of the blame for the scandal, when the hacking itself
+took place before he took charge. As James saw it, his father was angry that
+he wouldn’t conduct a cover-up; James went so far as to tell some members of
+the board that he was concerned about Murdoch’s mental health. For his part,
+Murdoch blamed James for surrounding himself with feckless, sycophantic
+advisers who failed to neutralize the crisis when it still could have been
+contained. Elisabeth, having long been out of the succession mix, reinserted
+herself, urging her father to fire James and replace him with her, four people
+familiar with the conversations told us. (Through a spokesperson, Elisabeth
+denied that she encouraged her brother’s firing or asked for his job.) Murdoch
+agreed to fire James but reversed his decision before it became public.
+Lachlan used the opportunity to play the family savior in a time of crisis,
+calling his father from Bangkok — en route to Britain from Australia — to urge
+him not to do anything rash. He swept into the company’s London offices
+looking tan, fit and rested, despite the daylong flight from Australia. His
+presence appeared to be an instant comfort to his father.
+
+The public shaming did not end with the scandal — a worldwide news event for
+months — or the interrogation by Parliament. A judicial inquiry investigated
+the practices of the British press, with Murdoch’s papers front and center.
+The resulting document, the [Leveson
+Report](https://www.gov.uk/government/publications/leveson-inquiry-report-
+into-the-culture-practices-and-ethics-of-the-press), depicted a country in
+which a single family had amassed so much power that it had come to feel that
+the rules did not apply to them. “Sometimes the very greatest power is
+exercised without having to ask,” the report said. In their discussions with
+Murdoch, “politicians knew that the prize was personal and political support
+in his mass-circulation newspapers.”
+
+By the time the Leveson Report was released in 2012, Murdoch had shut down The
+News of the World and was keeping a low profile in Britain. Several factors
+accounted for his return in 2016, including his recent marriage to his fourth
+wife, Jerry Hall. They met in Australia, where Hall was playing Mrs. Robinson
+in a stage adaptation of “The Graduate.” Hall had a teenage son in London, and
+she and Murdoch were spending a lot of time in the 26-room house that she
+owned with her former partner, Mick Jagger.
+
+Now back in the city where he once wooed Margaret Thatcher, Murdoch used
+Britain’s largest tabloid to rally readers to vote to leave the European
+Union. The Sun’s cover on the day of the Brexit referendum was a picture of
+corporate synergy: “Independence Day: Britain’s Resurgence,” it read, over a
+mock version of the poster for the 21st Century Fox movie “Independence Day:
+Resurgence,” which opened in Britain that day. Murdoch flew in to London from
+Cannes for the vote and soon visited the newsroom of the anti-Brexit Times to
+gloat, joking to his reporters about their glum faces. Later, he likened the
+country’s decision to leave the European Union to “a prison break” and
+[celebrated the vote](https://www.youtube.com/watch?v=Z8oMjswB8gw) with Nigel
+Farage, a leading architect of Brexit (and a future Fox News contributor), at
+a garden party at the London mansion of the Russian oligarch Evgeny Lebedev.
+
+The referendum represented the realization of a long-deferred dream for
+Murdoch. But it also returned him to a position of influence in British
+politics that seemed inconceivable just a few years earlier. Not only had The
+Sun played a critical role in delivering the Brexit vote, but in the ensuing
+political upheaval, it had swung behind Theresa May, helping ensure her
+election as prime minister. Once in office, she found time for a private
+meeting with Murdoch on one of her first foreign trips: a less-than-36-hour
+visit to New York to address the United Nations.
+
+Days after the vote, Trump, who had seemed to be struggling with the basic
+principles of Brexit in an interview with The Sun a few weeks earlier, visited
+Scotland for a victory lap of his own: “I said this was going to happen, and I
+think that it’s a great thing.” He, too, found time for Murdoch, inviting him
+and Jerry Hall to dinner with Kushner and Ivanka at his golf course in
+Aberdeen. Photographers captured them riding off in a golf cart, with Trump at
+the wheel and Murdoch lounging in the back.
+
+The summer of 2016 was a good time to be a network with a dedicated audience
+of right-wing viewers. And yet the future of Fox News had never seemed more
+uncertain: Murdoch’s flagship network was now backing a Republican
+presidential nominee who not only represented a radical departure from the
+party’s traditional platform but who also seemed destined to lose in a few
+months. What’s more, that network’s lodestar, Roger Ailes, had just been
+forced out following multiple claims of sexual harassment.
+
+It was James and Lachlan who teamed up to push Ailes out, over the initial
+objections of their father. Ailes was another rare subject on which the two
+sons agreed, though they disliked him for different reasons. Lachlan had
+clashed repeatedly with Ailes early in his career in New York. He told friends
+that he reached his breaking point with his father in 2005 when he learned
+that Murdoch had said to Ailes, “Don’t worry about the boy.” For his part,
+James saw Ailes as a boorish showman who embodied many of the most retrograde
+impulses of the network’s opinion programming: its nativism; its paranoiac
+attitude toward Muslims and undocumented immigrants; its embrace of
+conspiracy; and, maybe most of all, its climate-change denialism.
+
+James saw in Ailes’s exit an opportunity to push the network in a new
+direction. He wanted to bring in an experienced news executive who would
+reposition it as a more responsible, if still conservative, outlet — one whose
+hosts would no longer be free to vent without adhering to basic standards of
+accuracy, fairness and, as he saw it, decency. One candidate he had in mind
+was David Rhodes. Then the president of CBS News, Rhodes was a former Fox News
+executive, as well as the brother of Ben Rhodes, a foreign-policy adviser for
+Obama. Both Murdoch and Lachlan dismissed the idea. They wanted continuity,
+not change. Like his father, Lachlan considered the idea of meddling with such
+an important profit driver a form of madness.
+
+Rather than replace Ailes with a new executive, Murdoch moved into his office
+and took over the job himself, a short-term solution intended to reassure both
+shareholders and talent. He was soon back in the newsroom, attending meetings
+and visiting sets — “my retirement job,” he called it — and was having more
+fun than he’d had in years.
+
+Having once dismissed Trump’s candidacy, Murdoch now threw himself wholly
+behind it. During the final stretch of the campaign, Fox cut back appearances
+by anti-Trump analysts and contributors and added pro-Trump ones, while also
+ramping up its attacks on Hillary Clinton. Sean Hannity built shows around the
+same sorts of false claims that were circulating on far-right internet sites
+and suspected Russian social media accounts, suggesting that [Clinton was
+suffering](https://www.washingtonpost.com/news/post-politics/wp/2016/08/11/in-
+prime-time-sean-hannity-carries-out-a-clinton-medical-
+investigation/?utm_term=.263db2892c05) from a possibly life-threatening
+illness and that one of her Secret Service agents was carrying a diazepam pen,
+which is commonly used to treat seizures. (It was actually a flashlight.) One
+anti-Clinton segment was built around an [appearance by Jeff
+Rovin](https://www.thedailybeast.com/sean-hannity-gives-platform-to-man-who-
+claims-hillary-is-evil-bisexual-secret-sex-freak), who had for years been the
+editor in chief of The Weekly World News, the supermarket tabloid best known
+for claiming that Hillary Clinton was possessed by Satan and had carried on an
+affair with a space alien named P’Lod. Other Murdoch outlets were swinging
+behind Trump, too: At The Wall Street Journal’s editorial page, Trump critics
+felt increasing pressure to moderate their positions. (The Journal’s news
+side, by contrast, [broke the first
+story](https://www.wsj.com/articles/national-enquirer-shielded-donald-trump-
+from-playboy-models-affair-allegation-1478309380) about The National
+Enquirer’s role in Trump’s efforts to buy the silence of women claiming
+affairs with him.)
+
+With Clinton taking on an air of inevitability, James and Kathryn invited
+Kushner and Ivanka to a small dinner salon they were hosting at their Upper
+East Side townhouse with a guest speaker: Adm. James Stavridis, a Democrat who
+had been talked about as a possible vice-presidential pick for Clinton. James
+and Kathryn knew Kushner and Ivanka socially and considered the invitation a
+gesture of empathy, a person who attended the dinner told us. They had endured
+their own public humiliation during the hacking scandal in London and wanted
+to show solidarity with the couple, and they also let them know that they
+would be welcomed back into polite Manhattan society after Trump lost.
+
+As the early returns came in on election night, Kathryn received a text
+message from her father-in-law, who was in the Fox newsroom: “Looks like your
+girl’s going to win.”
+
+[_Continue reading Part
+2_](https://www.nytimes.com/interactive/2019/04/03/magazine/james-murdoch-
+lachlan-succession.html) _, when_ _Trump’s presidency_ _cements Murdoch’s
+global influence —_ _and_ _the bitter struggle between his sons_ _threatens to
+tear the company apart._

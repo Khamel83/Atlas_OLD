@@ -1,0 +1,184 @@
+# Kareem Abdul-Jabbar: What the NBA Championship Means to Me
+
+**Source**: https://jacobinmag.com/2021/07/kareem-abdul-jabbar-nba-finals-1971-championship-bucks
+**Type**: article
+**Created**: 2025-08-13T15:36:30.526786
+
+---
+
+title: Kareem Abdul-Jabbar: What the NBA Championship Means to Me
+source: https://jacobinmag.com/2021/07/kareem-abdul-jabbar-nba-finals-1971-championship-bucks
+date: 2025-08-13T15:36:28.523286
+tags: []
+---
+The Milwaukee Bucks won the 2020-21 NBA championship, and I couldn’t be
+happier for my former team’s success. It’s especially gratifying to me because
+this is their first championship since 1971, when I played for the Bucks and
+we won the NBA championship.
+
+Although winning is exciting, fulfilling, and pretty much everything you
+imagine it would be, I’m also well aware that whether in 1971 or 2021, an NBA
+championship is often about more than just a team hoisting a shiny gold
+trophy. It can also be a reflection of the country’s zeitgeist with all its
+cultural, social, and political turmoil.
+
+Why is basketball different from all other sports leagues in embodying
+America’s social conscience? Perhaps because 83.1 percent of the players and
+60 percent of the fans [are non-
+white](https://en.wikipedia.org/wiki/Race_and_ethnicity_in_the_NBA#:~:text=According%20to%20racial%20equality%20activist,classified%20as%20%22other%22%20races),
+making it the only major North American sport in which the majority of fans
+aren’t white. This diversity might make basketball players and fans more
+sensitive to the urgency and consequences of battles over social and economic
+justice.
+
+In 2020, the Lakers’ NBA Finals win came during a national pandemic, the most
+contentious national election in recent history, and the largest protest
+movement in United States history. Between May 26 and June 22 of 2020, up to
+26 million Americans
+[marched](https://www.nytimes.com/interactive/2020/07/03/us/george-floyd-
+protests-crowd-size.html) in support of Black Lives Matter in over 4,700
+separate protests. At the same time, millions were sick and hundreds of
+thousands were dying from COVID-19. And democracy itself seemed more fragile
+than ever as a sitting administration attempted to undermine voting rights,
+punish immigrants, and endanger the health of Americans.
+
+![](https://images.jacobinmag.com/wp-
+content/uploads/2021/07/23182126/Wes_Unseld_and_Kareem_Abdul-
+Jabbar-378x675.jpg)Kareem Abdul-Jabbar shoots his signature “sky hook” over
+the Baltimore Bullets’ Wes Unseld in 1971. (Wikimedia Commons)
+
+When the Lakers won Game 6 on October 11, it felt like the triumph of American
+perseverance and ingenuity because the NBA had successfully MacGyvered a
+bubbled athletic community to make possible a basketball season. Most of us
+were in lockdown in our homes, so watching elite athletes performing reminded
+us of the resilience of the human body.
+
+It also felt like a victory for athletes being supported for speaking out as
+the NBA embraced social justice by allowing players to express beliefs on
+jerseys, kneel for the national anthem, and put “BLACK LIVES MATTER” on the
+courts. Despite the naysayers, NBA commissioner Adam Silver
+[declared](https://nba.nbcsports.com/2020/11/30/adam-silver-no-data-black-
+lives-matter-on-court-hurt-nba-ratings/) that there was no data indicating
+that fans were tuning out as a result of the league’s “woke” attitude. So when
+we celebrated the Lakers’ victory last October, we were cheering for a lot
+more than a final score. We were embracing hope.
+
+This year’s NBA Finals took place in a different America than last year.
+Vaccinations have allowed the country to open up more, BLM protests have
+trickled away, the government is more stable. The national mood is one of
+standing perfectly still and holding our collective breath in fear that any
+sudden move might bring back all the turmoil.
+
+It’s not that we don’t have troubles: the Delta variant is threatening a
+fourth wave of the pandemic, and states across the country are passing laws
+restricting voters’ rights, LGBT rights, and women’s rights. But we are
+exhausted. This year we’re taking a knee, not in protest, but to catch our
+breath, gather our strength.
+
+The Milwaukee Bucks’ against-all-odds victory in the Finals is an
+inspirational moment that could be just what we needed to recharge ourselves
+and recommit to building the country up — even against all odds — as those
+reactionaries and MAGA-ites tear it down.
+
+# When the Bucks Were First Champions
+
+In 1971, we were in the midst of civil unrest in America. The Vietnam War
+deeply divided the country. There were protests against the war, against
+racism, against sexism. The year before, the Ohio National Guard shot to death
+four protesting students and wounded nine others. A month before our Finals,
+the Weather Underground detonated a bomb in the US Capitol Building men’s
+room.
+
+And we played basketball.
+
+What did it feel like to play basketball during all this civil unrest? It felt
+like we were helping to keep the lid on, to give people something to cheer for
+rather than just protest against. This wasn’t to minimize the righteous need
+for those protests — I had participated in some myself — but to remind
+everyone that life was a balance of joy and sorrow and that it was our job to
+bring some of the joy.
+
+![](https://images.jacobinmag.com/wp-
+content/uploads/2021/07/23175901/image-1-675x675.png)Kareem Abdul-Jabbar in
+1971 and 2021 with his longtime friend and teammate Oscar Robertson. (Photo
+courtesy of the author / Iconomy)
+
+I was especially determined to bring the joy that year to the people of
+Milwaukee. The year before we had lost an important game to the New York
+Knicks, and I was feeling a bit glum afterward. It was my rookie season, so I
+took things a bit harder then.
+
+The team got on our plane and landed in Milwaukee around 1:30 in the morning.
+We felt defeated and weary as we shuffled off the plane only to find a crowd
+of a couple hundred fans cheering us on, waving signs that said, “Next Year!”
+The sight of them enthusiastically cheering as we got off the plane despite
+our loss inspired us to deliver the next season.
+
+Cynics who think we play only for the paycheck don’t understand the symbiotic
+dynamic between teams and fans, the responsibility we feel toward them.
+Without them, the game is about ego; with them, it’s about community.
+
+"Cynics who think we play only for the paycheck don’t understand the symbiotic
+dynamic between teams and fans, the responsibility we feel toward them."
+
+Our path to the championship that year was as smooth and direct as the flight
+of an arrow. We were the Dream Team: Me, Oscar Robertson, Bob Dandridge, Jon
+McGlocklin, Bob Boozer, Greg Smith, and Lucius Allen. We ended the season
+fourteen games better than the second-place team. We
+[finished](https://behindthebuckpass.com/2016/09/05/milwaukee-bucks-looking-
+back-1971-nba-finals/) first in points per game, assists per game, field goal
+percentage, offensive rating, and in defensive rating.
+
+We had expected to play the Knicks, which I was hoping for because I knew
+Willis Reed wouldn’t have a chance of containing me. But the Baltimore Bullets
+won their conference title, and we faced them. In the Finals against the
+Bullets, we were never down between quarters or at halftime and swept them in
+four games. It was only the third year of the franchise, as well as the first
+Western Conference champion since 1958. We had made history in many ways.
+
+The Bucks weren’t able to repeat their victory over the next few years. In
+part, this was due to replacing Greg Smith with bigger power forwards whose
+size never compensated for Greg’s talent. In 1974, we got another shot at the
+championship, losing the Finals in seven games to the Boston Celtics. It was
+the last time the Bucks were in the Finals until 2021.
+
+Shortly afterward, I decided it was time for me to look elsewhere to play.
+Milwaukee had been great, and I’d hoped I had paid back the fans for their
+support with a championship and a lot of exciting games. But I wanted to live
+in a larger city that was more culturally and ethnically diverse. And I wanted
+to be able to expand my own game, see what I was capable of with other
+players. I was well aware how short the lifespan is of an NBA player and
+wanted to be as active as possible in forging my own career.
+
+I told owner Wes Pavalon that I wanted to leave, and he couldn’t have been
+more supportive. Aware that I had only a year on my contract before I would
+become a free agent, he made a deal with the Los Angeles Lakers. I was happy,
+he was happy, the Lakers were happy.
+
+But things might not have been so cordial if not for my Bucks teammate Oscar
+Robertson. In 1970, while president of the National Basketball Players
+Association (NBPA), Oscar sued the NBA for free agency. This would allow
+athletes to play for teams they wanted to and to place their services up for
+bid. Until the lawsuit was settled in 1976, two years after Oscar retired,
+players [were basically indentured
+servants](https://theundefeated.com/features/free-agency-is-a-lie-that-keeps-
+nba-players-shackled-to-teams/) to their teams.
+
+"Arguments about ‘fair play’ are always hyped by owners who profit at the
+expense of the athletes who risk their health and careers every time they suit
+up."
+
+Free agency has continued to evolve since then but still has a ways to go
+before players are completely free to choose their teams. The draft system
+still restricts the free choice of players under the guise of leveling the
+playing field. The arguments about “fair play” are always hyped by owners who
+profit from them at the expense of the athletes who risk their health and
+careers every time they suit up.
+
+The 1971 NBA championship took place when America was transitioning from a
+nation that blindly followed its leaders to one of more individual and
+collective freedoms. The NBA transitioned with it. But as America continues to
+evolve to become a more inclusive democracy, sports evolve in lockstep with
+society. The NBA Finals will always be more than a battle between two teams —
+it will be a milestone of where America is on its journey to being a better
+home for all.

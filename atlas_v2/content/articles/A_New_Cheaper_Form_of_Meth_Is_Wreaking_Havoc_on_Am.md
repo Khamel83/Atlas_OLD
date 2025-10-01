@@ -1,0 +1,852 @@
+# A New, Cheaper Form of Meth Is Wreaking Havoc on America - The Atlantic
+
+**Source**: https://www.theatlantic.com/magazine/archive/2021/11/the-new-meth/620174/
+**Type**: article
+**Created**: 2025-08-13T15:33:19.120340
+
+---
+
+title: A New, Cheaper Form of Meth Is Wreaking Havoc on America - The Atlantic
+source: https://www.theatlantic.com/magazine/archive/2021/11/the-new-meth/620174/
+date: 2025-08-13T15:33:18.407296
+tags: []
+---
+In the fall of 2006, law enforcement on the southwest border of the United
+States seized some crystal methamphetamine. In due course, a five-gram sample
+of that seizure landed on the desk of a 31-year-old chemist named Joe Bozenko,
+at the Drug Enforcement Administration lab outside Washington, D.C.
+
+[![Magazine Cover
+image](https://cdn.theatlantic.com/thumbor/GLuw_kShAz1vEKOem9oERUmbTs8=/15x0:2348x3150/80x108/media/img/issues/2021/10/18/1121_Cover-1/original.jpg)](https://www.theatlantic.com/magazine/toc/2021/11/)
+
+## Explore the November 2021 Issue
+
+Check out more from this issue and find your next story to read.
+
+[View More](https://www.theatlantic.com/magazine/toc/2021/11/)
+
+Organic chemistry can be endlessly manipulated, with compounds that, like Lego
+bricks, can be used to build almost anything. The field seems to breed folks
+whose every waking minute is spent puzzling over chemical reactions. Bozenko,
+a garrulous man with a wide smile, worked in the DEA lab during the day and
+taught chemistry at a local university in the evenings. “Chemist by day,
+chemist by night,” his Twitter bio once read.
+
+Bozenko had joined the DEA seven years earlier, just as the global underworld
+was [veering toward synthetic drugs and away from their plant-based
+cousins](https://www.newyorker.com/magazine/2012/07/02/the-kingpins).
+Bozenko’s job was to understand the thinking of black-market chemists, samples
+of whose work were regularly plopped on his desk. He analyzed what they
+produced and worked out how they did it. In time, Bozenko began traveling
+abroad to clandestine labs after they’d been seized. His first foreign
+assignment was at a lab that had made the stimulant MDMA in Jakarta,
+Indonesia. He saw the world through the protective goggles of a hazmat suit,
+sifting through the remains of illegal labs in three dozen countries.
+
+Meth was the drug that Bozenko analyzed most in the early years of his job.
+Large quantities of it were coming up out of Mexico, where traffickers had
+industrialized production, and into the American Southwest. All of the stuff
+Bozenko analyzed was made from ephedrine, a natural substance commonly found
+in decongestants and derived from the ephedra plant, which was used for
+millennia as a stimulant and an anti-asthmatic. A Japanese researcher had
+first altered the ephedrine molecule to synthesize crystal methamphetamine in
+1919. During World War II, it was marketed in Japan as _hiropon_ , a word that
+combines the Japanese terms for “fatigue” and “fly away.” _Hiropon_ was given
+to Japanese soldiers to increase alertness.
+
+In the early 1980s, the ephedrine method for making meth was rediscovered by
+the American criminal world. Ephedrine was the active ingredient in the over-
+the-counter decongestant Sudafed, and a long boom in meth supply followed. But
+the sample that arrived on Bozenko’s desk that day in 2006 was not made from
+ephedrine, which was growing harder to come by as both the U.S. and Mexico
+clamped down on it.
+
+There was another way to make methamphetamine. Before the ephedrine method had
+been rediscovered, this other method had been used by the Hell’s Angels and
+other biker gangs, which had [dominated a much smaller meth trade into the
+’80s](https://bookshop.org/a/12476/9780312356170). Its essential chemical was
+a clear liquid called phenyl-2-propanone—P2P. Many combinations of chemicals
+could be used to make P2P. Most of these chemicals were legal, cheap, and
+toxic: cyanide, lye, mercury, sulfuric acid, hydrochloric acid, nitrostyrene.
+The P2P process of making meth was complicated and volatile. The bikers’
+cooking method gave off a smell so rank that it could only be done in rural or
+desert outposts, and the market for their product was limited.
+
+Bozenko tinkered with his sample for two or three days. He realized it had
+been made with the P2P method, which he had not seen employed. Still, that was
+not the most startling aspect of the sample. There was something else about
+those few grams that, to Bozenko, heralded a changed world.
+
+Among the drawbacks of the P2P method is that it produces two kinds of
+methamphetamine. One is known as d-methamphetamine, which is the stuff that
+makes you high. The other is l-methamphetamine, which makes the heart race but
+does little to the brain; it is waste product. Most cooks would likely want to
+get rid of the l-meth if they knew what it was. But separating the two is
+tricky, beyond the skills of most clandestine chemists. And without doing so,
+the resulting drug is inferior to ephedrine-based meth. It makes your heart
+hammer without offering as potent a high.
+
+Bozenko’s sample contained mostly d-methamphetamine. Someone had removed most
+of the l-meth. “I’ve taken down labs in several continents,” Bozenko told me
+years later. No one in the criminal world, as far as he and his colleagues
+knew, had ever figured out how to separate d-meth from l-meth before.
+
+Back in the late ’80s and ’90s, when the ephedrine method had taken over, the
+market for meth had grown because of ephedrine’s availability—and because the
+substance could be transformed into meth with ease and efficiency. All you had
+to do was tweak the ephedrine molecule, and doing that required little more
+than following a recipe. But you had to have ephedrine.
+
+The P2P method offered traffickers one huge advantage: The chemicals that
+could be used to make it were also used in a wide array of industries—among
+them racing fuel, tanning, gold mining, perfume, and photography. Law
+enforcement couldn’t restrict all these chemicals the way it had with
+ephedrine, not without damaging legitimate sectors of the economy. And a
+trained organic chemist could make P2P, the essential ingredient, in many
+ways. It was impossible to say how many methods of making P2P a creative
+chemist might come up with. Bozenko counted a dozen or so at first. He put
+them up in a large diagram on his office wall, and kept adding Post-it Notes
+with new ones as they appeared.
+
+As Bozenko dissected that sample in 2006, its implications hit him. Drugs made
+in a lab were not subject to weather or soil or season, only to chemical
+availability: With this new method and full access to the world’s chemical
+markets through Mexican shipping ports, traffickers could ramp up production
+of P2P meth in quantities that were, effectively, limitless.
+
+Even so, Bozenko couldn’t have anticipated just how widely the meth epidemic
+would reach some 15 years later, or how it would come to interact with the
+opioid epidemic, which was then gaining force. And he couldn’t know how
+strongly it would contribute to related scourges now very much evident in
+America—epidemics of mental illness and homelessness that year by year are
+growing worse.
+
+![A man wearing glasses, pink tie, white collared shirt, blue jacket with DEA
+logo, and DEA
+lanyard](https://cdn.theatlantic.com/thumbor/WXtFOX-5nDEBE59X_fg53ILM6Pg=/0x0:1200x1600/655x873/media/img/posts/2021/10/WEL_Quinones_MethJoe/original.jpg)Joe
+Bozenko at the DEA Special Testing and Research Laboratory in Virginia
+(Gabriella Demczuk for _The Atlantic_)
+
+A few months after Bozenko’s discovery, on December 15, 2006, in a town named
+Tlajomulco de Zúñiga in the central-Mexican state of Jalisco, a
+methamphetamine lab exploded. Firefighters responded to the blaze, at a
+warehouse where plastic dinnerware had once been made. No one was hurt in the
+fire, nor was anyone arrested. But a fire chief called the local DEA office.
+
+Abe Perez supervised the DEA’s Guadalajara office back then. The warehouse
+stood on a cul-de-sac at the end of a house-lined street, Perez, who is now
+retired, remembered years later. Residents “knew something was going on; the
+smells were giving them headaches,” Perez told me. But they were afraid to say
+anything. So they lived with it as best they could until the warehouse
+exploded, most likely because of a worker’s carelessness.
+
+Perez and his agents urged Mexican police and prosecutors to obtain a search
+warrant for the building. The process was slow, and the day ended with no
+warrant. That night another fire erupted, at a warehouse across the street
+that, the agents learned, contained chemicals in blue plastic barrels and in
+bags neatly stacked on pallets. “The traffickers came in the middle of the
+night with gasoline and burned it, burned all the evidence,” Perez said. “But
+we were able to get photos of the place.”
+
+Eduardo Chávez, another DEA agent, flew in from Mexico City the next
+afternoon. He and Perez stood outside the second smoldering warehouse. Each
+man had spent the early part of his career busting meth labs in rural
+California—Chávez in the area around Bakersfield, Perez in northeastern San
+Diego County.
+
+That had been a different era, and each had gotten a rare view into it.
+Bakersfield was Chávez’s first assignment, in 2000, and to his surprise, it
+was a hotbed of meth production. Southern California was where the ephedrine-
+based method had been rediscovered, largely due to the efforts of [an
+ingenious criminal named Donald Stenger](https://www.latimes.com/archives/la-
+xpm-1988-07-20-me-5842-story.html). Stenger died in 1988, in custody in San
+Diego County, after a packet of meth he’d inserted in his rectum broke open.
+But the ephedrine method had by then become more widely known and adopted by
+Mexican traffickers moving up and down the coast between Mexico and
+California.
+
+[From the January/February 2016 issue: How DEA agents took down Mexico’s most
+vicious drug
+cartel](https://www.theatlantic.com/magazine/archive/2016/01/drug-enforcement-
+agency-mexico-drug-cartel/419100/)
+
+The Mexican meth industry had been pioneered in that earlier time by two
+brothers, Luis and Jesús Amezcua. They came to California illegally as kids,
+and eventually ran an auto shop near San Diego. The story goes that a local
+meth cook dropped by their shop in about 1988, asking Jesús if he could bring
+in ephedrine from Mexico. Jesús at the time was smuggling Colombian cocaine.
+But he brought ephedrine north and, with that, became attuned to the market
+that had been opened by Stenger’s innovation.
+
+Ephedrine was then an unregulated chemical in Mexico. Within a few years, the
+Amezcuas were importing tons of it. Jesús traveled to India and Thailand,
+where he set up an office to handle his ephedrine exports. Later, his focus
+shifted to China and the Czech Republic.
+
+The Amezcuas’ meth career lasted about a decade, until cases brought against
+them landed them in a Mexican prison, where they remain. But the brothers
+marked a new way of thinking among Mexican traffickers. They were more
+interested in business deals and alliances than in the vengeance and endless
+shoot-outs so common to the previous generation of smugglers, who had
+trafficked mostly in marijuana and cocaine. The Amezcuas were the first
+Mexican traffickers to understand the profit potential of a synthetic drug,
+and the first to tap the global economy for chemical connections.
+
+At first, the brothers ran labs on both sides of the border. They set up many
+in California’s rural Central Valley—Eduardo Chávez’s territory—making use of
+an existing network of traffickers among the truckers and migrant farmworkers
+that stretched up from San Diego. At one bust, agents found a man in
+protective garments with an air tank on his back. He turned out to be a
+veterinarian from Michoacán who said he came up for four-month stints to teach
+the workers to cook.
+
+Hell’s Angels cooks took three days to make five pounds of meth. Mexican crews
+soon learned to arrive at cook sites like NASCAR pit crews, with premeasured
+chemicals, large vats, and seasoned workers. They produced 10 to 15 pounds per
+cook in 24 hours in what came to be known as “super labs.” Soon the biker
+gangs were buying their meth from the Mexicans.
+
+But toward the end of Chávez’s Bakersfield assignment, in 2004, the cooks and
+workers who’d been coming up from Mexico began to vanish. His informants told
+him that they were heading home. In California, law enforcement had made
+things hard; the job was getting too risky, the chemicals too hard to come by.
+The meth-cook migration would accelerate after Chávez left the state in 2004.
+[Meth-lab seizures in the United States
+withered](https://www.justice.gov/archive/ndic/pubs31/31379/meth.htm)—from
+more than 10,000 that year to some 2,500 in 2008. Today in the United States,
+they are rare, and “super labs” are practically nonexistent. In Mexico,
+however, it was a different story.
+
+The burned-down lab being surveyed by Chávez and Perez at the end of 2006 had
+been designed to produce industrial quantities of meth. Like many other labs
+that had been popping up in Mexico, it reflected the union of substantial
+capital and little concern for law enforcement. It used expensive equipment
+and stored large inventories of chemicals awaiting processing. Notes found on
+the scene suggested that the cooks typically got about 240 pounds per batch.
+
+Like Joe Bozenko, the agents standing at the edge of the smoke and the stench
+that afternoon felt that they were glimpsing a new drug world. What struck
+them both was what they were not seeing. No ephedrine. The lab was set up
+exclusively to make P2P meth.
+
+Working through all the chemicals on hand, by Bozenko’s estimation, the lab
+could have produced 900 metric tons of methamphetamine.
+
+What’s more, this lab was not hidden up in the mountains or on a rural ranch.
+Tlajomulco de Zúñiga lies just 15 miles south of Guadalajara, one of Mexico’s
+largest cities, and serves as home to the city’s international airport. The
+area has everything needed to be a center of meth manufacturing: warehouses,
+transportation hubs, proximity to chemists. Trucks rumble through the area
+daily from the shipping ports in Lázaro Cárdenas, in the state of Michoacán,
+and Manzanillo, in the state of Colima.
+
+The ephedrine method was still very much in use in 2006; Mexico, which had
+been reducing legal imports of ephedrine, wouldn’t ban them outright until
+2008; even after that, some traffickers relied on illegal shipments for a
+time. And despite all the advances when it came to making P2P, in at least
+some respects the traffickers “didn’t know what they were doing yet,” Chávez
+told me. The explosion showed that. Nonetheless, years later he thought back
+on that moment and realized that it was almost as if they were witnessing a
+shift right then, that week.
+
+About five years after the Tlajomulco lab exploded, in June 2011, Mexican
+authorities discovered a massive P2P meth lab in the city of Querétaro, just a
+few hours north of Mexico City. It was in a warehouse that could have fit a
+737, in an industrial park with roads wide enough for 18-wheelers; it made the
+Tlajomulco lab look tiny. Joe Bozenko and his colleague Steve Toske were
+called down from Washington to inspect it, and they wandered through it in
+awe. Bags of chemicals were stacked 30 feet high.
+
+Hundreds of those bags contained a substance neither Bozenko nor Toske had
+ever thought could be used to make P2P. Bozenko often consulted a book that
+outlined chemicals that might serve as precursors to making methamphetamine,
+but this particular substance wasn’t in it. Well-trained organic chemists were
+clearly improvising new ways to make the ingredients, expanding potential
+supply even further.
+
+Working through all the chemicals in the plant, by Bozenko’s estimation, the
+lab could have produced 900 metric tons of methamphetamine. Against a wall
+stood three 1,000-liter reactors, two stories tall.
+
+Nothing like this had been achieved with ephedrine, nor could it have been; no
+one could have imagined the accumulation of 900 metric tons of the chemical.
+Later, Mexican investigators would report that of the 16 workers arrested at
+the Querétaro lab, 14 died over the next six months from liver
+failure—presumably caused by exposure to chemicals at the lab.
+
+![2 photos: meth paraphernalia including glass pipe, hypodermic needles and
+caps, knife; city street with tents crowded along both
+sides](https://cdn.theatlantic.com/thumbor/KwZE6mwp4J-h9ojYRQF3ZJEksFY=/0x0:1182x1600/655x887/media/img/posts/2021/10/WEL_Quinones_MethPipeStreet/original.jpg)Meth
+and paraphernalia (_above_) inside a tent on Skid Row, in Los Angeles. The
+area encompasses about 50 square blocks of the city; tents (_below_) line many
+of its streets. (Rachel Bujalski for _The Atlantic_)
+
+Methamphetamine was having a cultural moment in the U.S.—“meth mouth” had
+become an object of can’t-look-away fascination on the internet, and _Breaking
+Bad_ was big. The switch from ephedrine-based labs to ones using the P2P
+method was even a plot point in the series. But few people outside the DEA
+really understood the consequences of this shift. Soon, tons of P2P meth were
+moving north, without any letup, and the price of meth collapsed. But there
+was more to the story than higher volume. Ephedrine meth tended to damage
+people gradually, over years. With the switchover to P2P meth, that damage
+seemed to accelerate, especially damage to the brain.
+
+One night in 2009, in Temecula, California, partway between San Diego and
+L.A., a longtime user of crystal meth named Eric Barrera felt the dope change.
+
+Barrera is a stocky ex-Marine who’d grown up in the L.A. area. The meth he had
+been using for several years by then made him talkative and euphoric, made his
+scalp tingle. But that night, he was gripped with paranoia. His girlfriend, he
+was sure, had a man in her apartment. No one was in the apartment, she
+insisted. Barrera took a kitchen knife and began stabbing a sofa, certain the
+man was hiding there. Then he stabbed a mattress to tatters, and finally he
+began stabbing the walls, looking for this man he imagined was hiding inside.
+“That had never happened before,” he told me when I met him years later.
+Barrera was hardly alone in noting a change. Gang-member friends from his old
+neighborhood took to calling the meth that had begun to circulate in the area
+around that time “weirdo dope.”
+
+[Read: A former meth addict talks about his experience with drug
+court](https://www.theatlantic.com/politics/archive/2016/06/using-against-my-
+will/486203/)
+
+Barrera had graduated from high school in 1998 and joined the Marine Corps. He
+was sent to Camp Lejeune, in North Carolina, where he was among the few
+nonwhite Marines in the platoon. The racism, he felt, was threatening and
+brazen. He asked for a transfer to Camp Pendleton, in San Diego County, and
+was denied. Over the next year and a half, he said, it got worse. Two years
+into his service, he was honorably discharged.
+
+After the September 11, 2001, terrorist attacks, Barrera was filled with
+remorse that he hadn’t stuck it out in the Corps. He was home now, without the
+heroic story he’d imagined for himself when he joined the Marines. The way he
+tells it, he drank and used meth to relieve his depression.
+
+He’d sometimes stay up on meth for four or five days, and he had to make
+excuses for missing work. But until that point, he’d held his life together.
+He worked as a loan processor, then for an insurance company. He had an
+apartment, a souped-up Acura Integra, a lot of friends.
+
+But as the meth changed around 2009, so did Barrera’s life. His cravings for
+meth continued, but paranoia and delusions began to fill his days. “Those
+feelings of being chatty and wanting to talk go away,” he told me. “All of a
+sudden you’re stuck and you’re in your head and you’re there for hours.” He
+said strange things to people. He couldn’t hold a job. No one tolerated him
+for long. His girlfriend, then his mother, then his father kicked him out,
+followed by a string of friends who had welcomed him because he always had
+drugs. When he described his hallucinations, “my friends were like, ‘I don’t
+care how much dope you got, you can’t stay here.’ ”
+
+By 2012, massive quantities of meth were flowing into Southern California.
+That same year, 96 percent of the meth samples tested by DEA chemists were
+made using the P2P method. And, for the first time in more than a decade of
+meth use, Barrera was homeless. He slept in his car and, for a while, in
+abandoned houses in Bakersfield. He was hearing voices. A Veterans Affairs
+psychologist diagnosed him with depression and symptoms of schizophrenia.
+
+Even many years later, when I spoke with him, Barrera didn’t know how the drug
+he was using had changed and spread, or why. But as a resident of Southern
+California, he was among the first to be affected by it. Over the next half-
+dozen years or so, the flood of P2P meth would spread east, immersing much of
+the rest of the country, too.
+
+Mention drug-running, and many people will think of cartels. Yet over the past
+decade, meth’s rising availability did not result from the dictates of some
+underworld board of directors. Something far more powerful was at work,
+particularly in the Sinaloa area: a massive, unregulated free market.
+
+By the time Eric Barrera’s life began to collapse, something like a Silicon
+Valley of meth innovation, knowledge, skill, and production had formed in the
+states along Mexico’s northern Pacific Coast. The deaths of kingpins who had
+controlled the trade, in the early 2010s, had only accelerated the process.
+“When the control vanishes, all these regional fiefdoms spring up,” said a DEA
+supervisor who pursued Mexican trafficking organizations during these years.
+(He, like some other DEA agents I spoke with, asked that his name not be used,
+because of the dangerous nature of his work.) “We just started seeing more and
+more labs springing up everywhere.” The new labs weren’t all as enormous as
+the Querétaro lab that Bozenko had seen in 2011. But they multiplied quickly.
+
+Beginning in about 2013 and continuing for the next several years, meth
+production expanded geometrically; the labs “just escape all limits,” a member
+of the Sinaloan drug world told me. “In a five-square-kilometer area outside
+Culiacán [Sinaloa’s capital city], there were, like, 20 labs. No exaggeration.
+You go out to 15 kilometers, there’s more than a hundred.”
+
+Listening to traffickers on wiretaps, one DEA agent told me, made it clear
+just how loose the confederations of meth suppliers were by then. The cartels
+had not vanished, and many of these suppliers were likely paying one or
+another of them off. But the wires nonetheless revealed a pulsing ecosystem of
+independent brokers, truckers, packagers, pilots, shrimp-boat captains,
+mechanics, and tire-shop owners. In the United States, the system included
+meat-plant workers, money-wiring services, restaurants, farm foremen, drivers,
+safe houses, and used-car lots. The ecosystem harnessed the self-interest of
+each of these actors, who got paid only when deals got done.
+
+“We’d waste hours listening on the wire,” the agent told me, “to people
+wasting their time calling around doing the networking as brokers, trying to
+set up drug deals, because they wanted to make money. There’s a huge layer of
+brokers who are the driving force [in Mexican drug trafficking]. Maybe they
+own a business or restaurant in Mexico or in the U.S.—this is something they
+do to supplement income. A large percentage of drug deals at this level don’t
+happen. But it’s like salesmen—the more calls you make, the more people you
+know, the more sales you get. So four or five people will be involved in
+getting 50 kilos to some city in the United States. This guy knows a guy who
+knows a guy who has a cousin in Atlanta … And with the independent
+transporters operating at the border, there’s no cartel allegiance. They’re
+all just making money.”
+
+From 2015 to 2019, the Mexican military raided some 330 meth labs in Sinaloa
+alone. But arrests were rare, according to a person involved in targeting the
+labs. Far from being a deterrent, the raids showed that no one would pay a
+personal price, and more people entered the trade as a result. At one point in
+2019, DEA intelligence held that, despite all the raids, at least 70 meth labs
+were operating in Sinaloa, each with the capacity to make tons of meth with
+every cook.
+
+With labs popping up everywhere, the price of a pound of meth fell to nearly
+$1,000 for the first time on U.S. streets by the late 2010s—a 90 percent drop
+from a decade earlier in many areas. Yet traffickers’ response to tumbling
+prices was to increase production, hoping to make up for lower prices with
+higher volume. Competition among producers also drove meth purity to record
+highs.
+
+Methamphetamine damages the brain no matter how it is derived. But P2P meth
+seems to create a higher order of cerebral catastrophe.
+
+Pot was part of this story too. As some American states legalized marijuana,
+Mexican pot revenue faltered. Many producers switched to making meth and found
+it liberating. Marijuana took months to grow, was bulky, and could rot. “But
+with crystal meth,” the member of the Sinaloan drug world told me, “in 10 days
+you’ve made it. It’s not as bulky as pot, so in two weeks you’re crossing the
+border with it. Within two or three months, you’re big.”
+
+In the Southwest, the drug quickly became more prevalent than ever. And
+[supply kept flowing
+east](https://www.dea.gov/sites/default/files/2020-01/2019-NDTA-
+final-01-14-2020_Low_Web-DIR-007-20_2019.pdf), covering the country in meth
+all the way to New England, which had almost none before the mid-2010s. Since
+late 2016, the Midwest and South have seen an especially dramatic shift.
+Mexican traffickers had never been able to get their hands on enough ephedrine
+to cover those regions, but now that was no longer an issue. In place after
+place, they made alliances with local dealers to introduce their product.
+
+![2 photos: man in red shorts does a high kick with foot above head inside
+tent containing chair, dresser, bike; another man in gray shirt/shorts sits
+and rests his head on a
+dog](https://cdn.theatlantic.com/thumbor/QMC21G4azZOmA4cVqhTlUBorHEs=/0x0:3000x1020/928x316/media/img/posts/2021/10/WEL_Quinones_MethTents/original.jpg)_Left_
+: A man inside his encampment on a Skid Row sidewalk, after taking a puff of
+meth. _Right_ : Another resident of the same encampment, who attributes his
+homelessness to a cycle of meth use he cannot break. (Rachel Bujalski for _The
+Atlantic_)
+
+The Louisville, Kentucky, area is one example. For years, Louisville had a
+paltry meth market. A pound of it sold for $14,000. Then Wiley Greenhill went
+to prison. Greenhill was a minor drug dealer in Detroit who had come to
+Louisville in 1999, attracted by Kentucky’s vibrant street market for pain
+pills, which were fetching five times what they sold for in Detroit.
+
+He eventually landed at the Roederer Correctional Complex, north of
+Louisville, where he struck up a friendship with an inmate from California.
+The inmate’s father, a businessman from Southern California named Jose Prieto,
+had gotten into debt with the wrong people from Sinaloa. The Sinaloans told
+Prieto that to settle his debt, he had to sell their meth. Greenhill was given
+the opportunity to buy it.
+
+By 2016 Greenhill was out of prison, and the meth began to flow. At first
+Prieto sent small quantities through the mail. Soon the loads reached 50 to
+100 pounds a month, driven east by women Greenhill hired.
+
+Prieto proved eager to get his product out. He fronted Greenhill hundreds of
+thousands of dollars’ worth of meth on the promise that he would be repaid.
+Tim Fritz, a DEA agent who investigated the Prieto-Greenhill ring, told me,
+“Jose Prieto would say, ‘Whatever you need, we got it. Whatever you buy, I’ll
+double it. You want 10 pounds, I’ll give you 20—pay me later.’ ”
+
+As months passed, the Louisville meth market expanded beyond anything the
+region had seen before. The trade spread to southern Indiana and nearby
+counties in Kentucky as the number of customers grew. Other local traffickers
+began to import meth as well. The price of a pound of meth fell to about
+$1,200, less than a tenth of what it had been just a few years earlier.
+
+At the MORE Center, a Louisville clinic set up to treat pain-pill and heroin
+addicts, patients started coming in on meth. Before the Prieto-Greenhill
+connection, only two of counselor Jennifer Grzesik’s patients were using meth.
+Within three years, almost 90 percent of new patients coming to the clinic had
+meth in their drug screen. “I don’t remember having any homeless people in my
+caseload before 2016,” she told me. But 20 percent of her clients now are
+homeless.
+
+Greenhill and Prieto were arrested in 2018 and 2019, respectively, and are now
+serving lengthy federal-prison terms. They left behind a transformed market.
+Primed by the new supply, meth demand has exploded, in turn drawing more
+dealers who have found their own supply connections. The price of a pound of
+meth remains low. To compete, some Louisville meth dealers now offer free
+delivery; others offer syringes already loaded with liquid meth so users can
+immediately shoot up. Similar partnerships, arrangements, and retail
+innovations have transformed regional drug markets across the U.S.
+
+Habits, once entrenched, are difficult to change. If they weren’t, more
+Americans would have quit smoking soon after 1964, when [the U.S. surgeon
+general issued his first report on its
+risks](https://www.cdc.gov/tobacco/data_statistics/sgr/history/index.htm).
+American nicotine addicts kept smoking because nicotine had changed their
+brain chemistry, and cigarettes were everywhere. We stopped people from
+smoking, argues Wendy Wood, a psychologist at the University of Southern
+California and the author of a book on habituation, by adding “friction” to
+the activity—making it harder to do or limiting access to supply. We removed
+cigarette vending machines, banned smoking in public spaces. By adding
+friction to smoking, we also removed cues that prompted people to smoke: bars
+where booze, friends, and cigarettes went together, for example.
+
+Something like the opposite of that has happened with P2P methamphetamine.
+“Meth reminds me of what alcoholics go through,” Matt Scharf, the director of
+recovery programs at Midnight Mission, a Los Angeles treatment center, told
+me. “There’s alcohol everywhere. Meth is now so readily available. There’s an
+availability to it that is not the case with heroin or crack. It’s
+everywhere.”
+
+All of that meth has been pushed into a market already softened up by the
+opioid epidemic. That should not have mattered: Historically, meth and opioid
+users had been separate groups with different cultures, and the drugs affect
+the brain’s reward pathways differently. But as large supplies of P2P meth
+began to arrive, many opioid addicts already feared for their life. Fentanyl,
+a dangerous synthetic opioid, was also spreading quickly. For many,
+Suboxone—which blocks opiate receptors and hence eliminates opioid
+cravings—was a lifesaver. They use it daily, the way a heart patient uses
+daily blood thinners to stay alive. Yet the counseling and continuum of care
+required to support the broader life changes necessary for addiction recovery
+are often absent.
+
+[From the May 2019 issue: Sam Quinones on how physicians get addicted
+too](https://www.theatlantic.com/magazine/archive/2019/05/opioid-epidemic-
+west-virginia-doctor/586036/)
+
+Thus, as P2P meth spread nationwide, an unprecedented event took place in
+American drug use: Opioid addicts began to shift, en masse, to meth. Meth
+overdoses have risen rapidly in recent years, but they are much less common
+than opioid ODs—you don’t typically overdose and die on meth; you decay. By
+2019, in the course of my reporting, I was routinely coming into contact with
+people in Kentucky, Ohio, Indiana, Tennessee, and West Virginia who were using
+Suboxone to [control their opiate cravings from long-standing
+addiction](https://www.theatlantic.com/magazine/archive/2019/05/opioid-
+epidemic-west-virginia-doctor/586036/) to pain pills and heroin, while using
+methamphetamine to get high. Massive supplies of cheap P2P meth had created
+demand for a stimulant out of a market for a depressant. In the process,
+traffickers forged a new population of mentally ill Americans.
+
+Over the past year and a half, I’ve talked with meth addicts, counselors, and
+cops around the country. The people I spoke with told me stories nearly
+identical to Eric Barrera’s: P2P-meth use was quickly causing steep
+deterioration in mental health. The symptoms were always similar: violent
+paranoia, hallucinations, conspiracy theories, isolation, massive memory loss,
+jumbled speech. Methamphetamine is a neurotoxin—it damages the brain no matter
+how it is derived. But P2P meth seems to create a higher order of cerebral
+catastrophe. “I don’t know that I would even call it meth anymore,” Ken Vick,
+the director of a drug-treatment center in Kansas City, Missouri, told me.
+Schizophrenia and bipolar disorder are afflictions that begin in the young.
+Now people in their 30s and 40s with no prior history of mental illness seemed
+to be going mad.
+
+![Man wearing "Moving Forward" t-shirt and jeans and holding leash of a dog
+wearing harness and booties in front of blue-tarp-covered tent with American
+flag](https://cdn.theatlantic.com/thumbor/-mUimaiqeNAZRyqFJC9jcqShVIU=/0x0:1067x1600/655x982/media/img/posts/2021/10/WEL_Quinones_MethEric/original.jpg)Eric
+Barrera, now an outreach worker to homeless military veterans on Skid Row, had
+used meth for years before the flood of P2P meth hit. His mental health took a
+sharp downward turn. (Rachel Bujalski for _The Atlantic_)
+
+Portland, Oregon, began seeing the flood of meth around 2013. By January 2020,
+[the city had to close its downtown sobering
+station](https://www.oregonlive.com/portland/2020/01/central-city-concern-
+closes-sobering-station-ends-associated-van-service.html). The station had
+opened in 1985 as a place for alcoholics to sober up for six to eight hours,
+but it was unequipped to handle people addicted to P2P meth. “The degree of
+mental-health disturbance; the wave of psychosis; the profound, profound
+disorganization [is something] I’ve never seen before,” Rachel Solotaroff, the
+CEO of Central City Concern, the social-service nonprofit that ran the
+station, told me. Solotaroff was among the first people I spoke with. She
+sounded overwhelmed. “If they’re not raging and agitated, they can be
+completely noncommunicative. Treating addiction [relies] on your ability to
+have a connection with someone. But I’ve never experienced something like
+this—where there’s no way in to that person.”
+
+[From the April 2015 issue: The irrationality of Alcoholics
+Anonymous](https://www.theatlantic.com/magazine/archive/2015/04/the-
+irrationality-of-alcoholics-anonymous/386255/)
+
+On Skid Row in Los Angeles, crack had been the drug of choice for decades.
+Dislodging it took some time. But by 2014 the new meth was everywhere. When
+that happened, “it seemed that people were losing their minds faster,” a Los
+Angeles Police Department beat officer named Deon Joseph told me. Joseph had
+worked Skid Row for 22 years. “They’d be okay when they were just using
+crack,” Joseph said. “Then in 2014, with meth, all of a sudden they became
+mentally ill. They deteriorated into mental illness faster than I ever saw
+with crack cocaine.”
+
+Susan Partovi has been a physician for homeless people in Los Angeles since
+2003. She noticed increasing mental illness—schizophrenia, bipolar disorder—at
+her clinics around the city starting in about 2012. She was soon astonished by
+“how many severely mentally ill people were out there,” Partovi told me. “Now
+almost everyone we see when we do homeless outreach on the streets is on meth.
+Meth may now be causing long-term psychosis, similar to schizophrenia, that
+lasts even after they’re not using anymore.”
+
+I called James Mahoney, a neuropsychologist at West Virginia University who
+had studied the effects of ephedrine meth on the brain in the early 2000s at
+UCLA. The psychosis he saw then was bad, he said, but it frequently appeared
+to be the result of extended sleep deprivation. In 2016, Mahoney took a job as
+a drug researcher and specialist in WVU’s addiction clinic. Less than a year
+later, the P2P crystal meth from Mexico started showing up. Mahoney was
+inundated with meth patients who came in ranting, conversing with phantoms. “I
+can’t even compare it to what I was seeing at UCLA,” he told me. “Now we’re
+seeing it instantaneously, within hours, in people who just used: psychotic
+symptoms, hallucinations, delusions.”
+
+In community after community, I heard stories like this. Southwest Virginia
+hadn’t seen much meth for almost a decade when suddenly, in about 2017, “we
+started to see people go into the state mental-hospital system who were just
+grossly psychotic,” Eric Greene, then a drug counselor in the area, told me.
+“Since then, it’s caused a crisis in our state mental-health hospitals. It’s
+difficult for the truly mentally ill to get care because the facilities are
+full of people who are on meth.”
+
+Mitchell told me that the most visible homelessness—people sleeping on
+sidewalks, or in the tents that now crowd many of the neighborhoods in
+L.A.—was clearly due to the new meth.
+
+Symptoms could fade once users purged the drug, if they did not relapse. But
+while they were on this new meth, they grew antisocial, all but mute. I spoke
+with two recovering meth addicts who said they had to relearn how to speak.
+“It took me a year and a half to recover from the brain damage it had done to
+me,” one of them said. “I couldn’t hardly form sentences. I couldn’t laugh,
+smile. I couldn’t think.”
+
+I spoke with Jennie Jobe, from rural Morgan County, in eastern Tennessee. Jobe
+had spent 20 years working in state prisons when she started a drug court and
+associated residential treatment center in 2013.
+
+For its first few years, Jobe’s court handled meth addicts who got their drugs
+from local “shake and bake” manufacturers— small-batch cooks using Sudafed,
+and usually producing just a few grams of the drug at a time. These meth users
+were gaunt, she remembers, and picked at their skin. But they were animated,
+lucid, with memories and personalities intact when they arrived at her
+facility, detoxed after months in jail.
+
+By 2017, however, people were coming to her treatment center stripped of human
+energy, even after several months spent detoxing from the drug in jail.
+“Normal recreational activities where guys talk trash and have fun—there’s
+none of that. It’s like their brain cannot fire.”
+
+Treating them was daunting. Despite years of research, science has found no
+equivalent of methadone or Suboxone to help subdue meth cravings and allow
+people addicted to the drug a chance to break from it and begin repairing
+their life. And, like many others I spoke with, Jobe found that the human
+connection essential to successful drug treatment was almost impossible to
+establish. “It takes longer for them to actually be here mentally,” Jobe said.
+“Before, we didn’t keep anybody more than nine months. Now we’re running up to
+14 months, because it’s not until six or nine months that we finally find out
+who we got.” Some can’t remember their life before jail. “It’s not unusual for
+them to ask what they were found guilty of and sentenced to,” she said.
+
+Why is P2P meth producing such pronounced symptoms of mental illness in so
+many people? No one I spoke with knew for sure. One theory is that much of the
+meth contains residue of toxic chemicals used in its production, or other
+contaminants. Even traces of certain chemicals, in a relatively pure drug,
+might be devastating. The sheer number of users is up, too, and the abundance
+and low price of P2P meth may enable more continual use among them. That,
+combined with the drug’s potency today, might accelerate the mental
+deterioration that ephedrine-based meth can also produce, though usually over
+a period of months or years, not weeks. Meth and opioids (or other drugs)
+might also interact in particularly toxic ways. I don’t know of any study
+comparing the behavior of users—or rats for that matter—on meth made with
+ephedrine versus meth made with P2P. This now seems a crucial national
+question.
+
+Once your eyes are open to the scale and human consequences of the P2P-meth
+epidemic, it’s hard to miss its ramifications in many areas of American public
+life.
+
+Perhaps the most significant is homelessness.
+
+In 2012, a Los Angeles Superior Court judge, Craig Mitchell, founded L.A.’s
+[Skid Row Running Club](http://www.skidrowrunningclub.com). Every Monday,
+Thursday, and Saturday, 20 to 50 people—recovering addicts, cops, public
+defenders, social workers—meet around dawn in front of a local shelter to run
+for an hour through the greatest concentration of homeless people in the
+United States. The club’s broader mission is to support the area’s homeless
+community through mentorship and a focus on wellness.
+
+![2 photos: Barrera in backward cap, backpack, and face mask hands package to
+man wearing vest and shorts on bike; group of people running past tents along
+street under a bridge in early morning
+light](https://cdn.theatlantic.com/thumbor/yhvb7gXdE8VtlGzotoX-
+wkq6pLo=/0x0:1692x2270/655x879/media/img/posts/2021/10/WEL_Quinones_MethBareeaSkidRow/original.jpg)_Top_
+: Barrera, distributing socks on Skid Row. _Bottom_ : The Skid Row Running
+Club—recovering addicts, cops, social workers—seeks to support the area’s
+homeless through mentorship and a focus on wellness. (Rachel Bujalski for _The
+Atlantic_)
+
+Los Angeles has long been the nation’s homelessness capital, but as in many
+cities—large and small—the problem has worsened greatly in recent years. In
+the L.A. area, homelessness more than doubled from 2012 to 2020. Mitchell told
+me that the most visible homelessness—people sleeping on sidewalks, or in the
+tents that now crowd many of the city’s neighborhoods—was clearly due to the
+new meth. “There was a sea change with respect to meth being the main drug of
+choice beginning in about 2008,” he said. Now “it’s the No. 1 drug.”
+
+Remarkably, meth rarely comes up in city discussions on homelessness, or in
+newspaper articles about it. Mitchell called it “the elephant in the
+room”—nobody wants to talk about it, he said. “There’s a desire not to
+stigmatize the homeless as drug users.” Policy makers and advocates instead
+prefer to focus on L.A.’s cost of housing, which is very high but hardly
+relevant to people rendered psychotic and unemployable by methamphetamine.
+
+Addiction and mental illness have always been contributors to homelessness.
+P2P meth seems to produce those conditions quickly. “It took me 12 years of
+using before I was homeless,” Talie Wenick, a counselor in Bend, Oregon, who
+began using ephedrine-based meth in 1993 and has been clean for 15 years, told
+me. “Now within a year they’re homeless. So many homeless camps have popped up
+around Central Oregon—huge camps on Bureau of Land Management land, with tents
+and campers and roads they’ve cleared themselves. And almost everyone’s using.
+You’re trying to help someone get clean, and they live in a camp where almost
+everyone is using.”
+
+Eric Barrera is now a member of Judge Mitchell’s running club. Through the VA,
+he got treatment for his meth addiction and found housing; without meth, he
+was able to keep it. The voices in his head went away. He volunteered at a
+treatment center, which eventually hired him as an outreach worker, looking
+for vets in the encampments.
+
+Barrera told me that every story he hears in the course of his work is
+complex; homelessness, of course, has many roots. Some people he has met were
+disabled and couldn’t work, or were just out of prison. Others had lost jobs
+or health insurance and couldn’t pay for both rent and the surgeries or
+medications they needed. They’d scraped by until a landlord had raised their
+rent. Some kept their cars to sleep in, or had welcoming families who offered
+a couch or a bed in a garage. Barrera thought of them as invisible, the hidden
+homeless, the shredded-safety-net homeless.
+
+But Barrera also told me that for a lot of the residents of Skid Row’s tent
+encampments, meth was a major reason they were there and couldn’t leave. Such
+was the pull. Some were addicted to other things: crack or heroin, alcohol or
+gambling. Many of them used any drug available. But what Barrera encountered
+the most was meth.
+
+Tents themselves seem to play a role in this phenomenon. Tents protect many
+homeless people from the elements. But tents and the new meth seem made for
+each other. With a tent, the user can retreat not just mentally from the world
+but physically. Encampments provide a community for users, creating the kinds
+of environmental cues that the USC psychologist Wendy Wood finds crucial in
+forming and maintaining habits. They are often places where addicts flee from
+treatment, where they can find approval for their meth use.
+
+In Los Angeles, the city’s unwillingness, or inability under judicial rulings,
+to remove the tents has allowed encampments to persist for weeks or months,
+though [a recent law allows for more proactive
+action](https://www.latimes.com/california/story/2021-08-02/los-angeles-new-
+homeless-anti-camping-law-humane-cruel). In this environment, given the
+realities of addiction, the worst sorts of exploitation have sometimes
+followed. In 2020, I spoke with Ariel, a transgender woman then in rehab, who
+had come to Los Angeles from a small suburb of a midsize American city four
+years before. She had arrived hoping for gender-confirmation surgery and
+saddled with a meth habit. She eventually ended up alone on Hollywood’s
+streets. “There’s these camps in Hollywood, on Vine and other streets—distinct
+tent camps,” she said, where women on meth are commonly pimped. “A lot of
+people who aren’t homeless have these tents. They come from out of the area to
+sell drugs, move guns, prostitute girls out of the tents. The last guy I was
+getting worked out by, he was charging people $25 a night to use his tents. He
+would give you girls, me and three other people. He’d take the money and we’d
+get paid in drugs.”
+
+Megan Schabbing, a psychiatrist and the medical director of emergency
+psychiatric services at OhioHealth, in Columbus, Ohio, later described to me
+how meth use and this sort of suffering can reinforce each other. Schabbing
+spends much of her time on the job digging into the underlying causes of drug
+use among those who end up in the ER. Often there was trauma: beatings,
+molestation, rape, war deployment, childhood chaos, neglect. For many of these
+patients, she discovered, the delusions fueled by meth became the point—the
+drug’s attraction. “Many would tell me, ‘I can stay out of reality on the
+street’ ” by using meth, she said. “When they come to us, it takes them days
+to figure out who and where they are. But some patients have told me that’s
+not a bad thing if you’re on the street.”
+
+If P2P meth pushed her patients toward homelessness, it also helped them bear
+it.
+
+How could this crisis emerge so quietly and remain, in many ways, invisible to
+most Americans? One reason, perhaps, is the national focus on the opioid
+epidemic, which was itself ignored for a long time. In recent years, the
+headlines have been about pain-pill or heroin overdoses, then fentanyl
+overdoses, and the funding has followed. Besides, deaths, however tragic,
+allow for memorials, a chance to remember the deceased’s better days. Meth
+doesn’t kill people at nearly the same rate as opioids. It presents, instead,
+the rawest face of living addiction. That part of addiction, one counselor
+told me, “people don’t want to touch it.”
+
+There is no central villain in the P2P-meth story—no Purdue Pharma, no
+dominant cartel. There’s no single entity to target, either. So the issue is
+often enveloped in a willful myopia. Advocates for homeless people seem
+reluctant to speak out about the drug, for fear that the downtrodden will be
+blamed for their troubles.
+
+![2 photos: person lying on ground resting head on wheel of shopping cart in
+front of two people sitting on curb; woman with long blonde hair holding large
+wooden heart and wearing angel wings in front of tall brick and metal
+fence.](https://cdn.theatlantic.com/thumbor/O9ZKyt8oKTs8tO5Mma5HFWXzo4A=/0x0:3000x1020/928x316/media/img/posts/2021/10/WEL_Quinones_MethFinalDiptych/original.jpg)_Left_
+: A couple sits on a Skid Row sidewalk while a man sleeps next to them.
+_Right_ : A woman near her tent in L.A., holding a wooden heart she found
+while searching for recyclables. She wants to kick her meth habit, she says,
+but cannot stop using. (Rachel Bujalski for _The Atlantic_)
+
+The spread of P2P meth is part of a larger narrative—a shift in drug supply
+from plant-based drugs such as marijuana, cocaine, and heroin to synthetic
+drugs, which can be made anywhere, quickly, cheaply, and year-round.
+Underground chemists are continually seeking to develop more potent and
+addictive varieties of them. The use of mind-altering substances by humans is
+age-old, but we have entered a new era.
+
+Drug demand is important in this new era. People need to understand what these
+drugs will ultimately do to them, and those who are using will need
+substantial help getting off them.
+
+But it must be said: The story of the meth epidemic (like the opioid epidemic
+before it) begins with supply. In a previous era, most Vietnam vets kicked
+heroin when they got home and were far from war and the potent supplies they
+were used to in Southeast Asia. Today, supplies of meth are vast and cheap
+throughout much of the country.
+
+Crystal meth is in some ways a metaphor for our times—times of anomie and
+isolation, of paranoia and delusion, of communities coming apart. Meth is not
+responsible for these much wider social problems, of course. But the meth
+epidemic is symptomatic of them, and also contributes to them.
+
+If you spend time among meth users, you’ll notice certain habits and tics:
+fixations on flashlights, for instance, and on bicycles, which are endlessly
+disassembled and assembled again. Hoodies are everywhere. The hoodie is
+versatile—cheap, warm, functional. But as opioids, then meth, spread across
+America, the hoodie also became, for many, a hiding place from a harsh world.
+“When we put up that hood,” one recovering addict told me, “we’re making the
+choice to separate ourselves from everyone else—instead of someone pushing us
+out. I think it’s our way to hide from the world that doesn’t accept us. The
+hood is the refuge. It’s our safe place.”
+
+Perhaps the best defense against epidemics like this one lies in choosing to
+look more closely and more sympathetically at the people in those hoods—to put
+a higher priority on community than we’ve done in recent years. America has
+made itself more vulnerable to scourges, even as those scourges grow more
+potent. But scourges are also an opportunity: They call on us to reexamine how
+we live. Until we begin to look out for the most vulnerable among us, there’s
+no reason to expect them to abate.
+
+* * *
+
+_This article is adapted from Sam Quinones’s new book,_[The Least of Us: True
+Tales of America and Hope in the Time of Fentanyl and
+Meth](http://bookshop.org/a/12476/9781635574357) _. It appears in the[November
+2021](https://www.theatlantic.com/magazine/toc/2021/11/) print edition with
+the headline “The New Meth.” When you buy a book using a link on this page, we
+receive a commission. Thank you for supporting _The Atlantic.
+
+* * *
+
+​When you buy a book using a link on this page, we receive a commission. Thank
+you for supporting The Atlantic.

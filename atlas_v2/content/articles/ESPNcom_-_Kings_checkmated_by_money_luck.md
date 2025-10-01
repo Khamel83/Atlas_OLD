@@ -1,0 +1,417 @@
+# ESPN.com - Kings checkmated by money, luck
+
+**Source**: http://sports.espn.go.com/espn/print?id=6426763&type=Story&imagesPrint=off
+**Type**: article
+**Created**: 2025-08-13T20:54:55.030721
+
+---
+
+title: ESPN.com - Kings checkmated by money, luck
+source: http://sports.espn.go.com/espn/print?id=6426763&type=Story&imagesPrint=off
+date: 2025-08-13T20:54:53.673380
+tags: []
+---
+**Tuesday, April 26, 2011  
+** Kings checkmated by money, luck  
+
+* * *
+
+By Bill Simmons  
+ESPN.com  
+  
+
+I know three things about Sacramento: The Kings play there; the governor of
+California lives there; and Kevin Johnson won the city's mayoral election
+without pulling either of his hammies. (Inside joke for anyone who ever had KJ
+on a fantasy team.) I certainly don't want to think about Sacramento during
+one of our most entertaining NBA postseasons ever. I'd rather wonder whether
+Rose and Durant are making The Leap, whether Nowitzki can reinvent his legacy,
+whether the Moheatos are coming together, whether the ragtag Grizzlies can
+pull a Hickory High, whether Kendrick Perkins swung the NBA title, whether
+Kobe has anything left in his apex predator tank, whether the porous Knicks'
+defense gave Rondo his mojo back or whether Brandon Roy is filming the last 15
+minutes of a sports movie and we haven't realized it yet.
+
+But with a momentum-killing lockout lurking and the Maloofs scrapping to keep
+their franchise afloat, it's hard not to wonder whether those two events are
+connected. Is there a chasm between big and small NBA markets that only a
+prolonged labor stoppage can prevent? Is Sacramento's failure a glimpse of a
+bigger picture -- that, in the Multitasker Generation, middle-class fans would
+rather stay home and do four things at once than spend their hard-earned money
+for mediocre seats and uninspired basketball?
+
+Or did the Maloofs simply go broke, and now they're trying to save their asses
+without selling the team and none of this means anything?
+
+We know this much: It's more challenging than ever for a small-market NBA team
+to succeed. You can pull it off, but you need to be smart and lucky. Oklahoma
+City created the best blueprint: Catch a lottery break (Durant), nail a few
+draft picks (Westbrook and Ibaka), make a smart trade (Perkins), avoid
+overpaying veterans, hoard your cap space, target character guys and stockpile
+as many extra picks as you can. The Kings haven't been nearly as smart or
+lucky. Suddenly, it's the arena's fault. You know, because the arena told them
+to trade Kevin Martin for half his value, or spend one-fourth of their payroll
+on Beno Udrih and Francisco Garcia.
+
+But let's pretend the Maloofs aren't broke for a second. Or overleveraged. Or
+whatever you want to call it when people have more debt than cash flow and
+can't solve that issue without selling one or two of their best assets, but
+they're too stubborn to sell those assets. Sacramento's current struggles
+highlight four of the league's biggest problems right now.
+
+**Problem No. 1:** Once you get approved to purchase an NBA franchise, for
+whatever reason, David Stern seemingly yields all control over your behavior
+unless you criticize his officials. That makes him really angry. Anything
+else? Knock yourself out. If you want to heckle your own players or bring your
+friends into your team's locker room specifically so they can ogle your half-
+naked players -- two things Donald Sterling did this past season -- Stern
+can't do anything. If your general manager gets involved in a massively
+embarrassing, multimillion-dollar sexual harassment suit (James Dolan,
+anyone?), Stern can't do anything. If you're going broke and stripping your
+operating costs to the bare minimum to survive -- screwing your fans over in
+the process -- Stern can't do anything. Buying into the NBA is like buying a
+house: Once you move in, feel free to disgrace the neighborhood however you
+want.
+
+**Problem No. 2:** It's difficult to generate revenue without a "state of the
+art" arena, only taxpayers just recently realized the hypocrisy of
+billionaires roping locals into paying for a new building, so it's a much more
+difficult feat to pull off now. (Although it was a fun era while it lasted. _I
+know I'm worth 4 billion on paper, but what if _you_ guys paid for the arena?
+You can put a few restaurants and bars around it, you'll totally break even!
+Just trust me!_) What happens when you're stuck in a washed-up arena with a
+perennial lottery team? You're screwed.
+
+**Problem No. 3:** It's really difficult to contend unless (A) you strike oil
+in the lottery, or (B) persuade Chris Wallace or Kevin McHale to trade you his
+best player. New Orleans landed Chris Paul only because Atlanta screwed up and
+took Marvin Williams, who's being used as the guy who holds back Zaza Pachulia
+in all of Zaza's pseudo-altercations. Oklahoma City needed pingpong help to
+land the second pick of the 2007 draft _and_ needed Portland to pass on
+Durant. Milwaukee? It landed the No. 1 overall pick of the 2005 draft (Andrew
+Bogut) one year after Dwight Howard and two years after LeBron James. Bad
+luck. You get only a couple of home run chances per decade as a small-market
+team. The odds are against you.
+
+**Problem No. 4:** It's really, _really_ difficult to persuade a franchise
+player, or even a perennial All-Star, to remain in a small market unless
+you're winning 60-plus games every year. NBA players like sunshine, big cities
+and tax-free states. If a franchise can't offer one of the three carrots, it
+becomes a self-fulfilling prophecy -- like the girl who joins "The Real World"
+and claims she's going to keep a long-distance relationship with her boyfriend
+of six years. You know she will hook up with a roommate; you know the
+boyfriend will come visit and play pool with that roommate; and you know she
+will dump him at the end of the weekend. It's just the way the show works.
+Same for LeBron leaving Cleveland. The current free-agency system doesn't give
+smaller markets any advantage to help them keep their best players. Superstars
+such as Chris Paul ultimately will play wherever they want. Lesser stars such
+as Danny Granger will stick around, but only if you overpay them and destroy
+your cap. You're screwed either way.
+
+* * *
+
+Full disclosure: I don't really care about Problem No. 4. People should live
+where they want without being judged … well, unless you're copping out and
+joining forces with your biggest rival like LeBron did. For us to expect
+professional athletes not to overrate location when deciding where to play is
+naive. If I said to a friend, "My wife and I are going to South Beach for a
+few days," my friend would say, "That's awesome, where are you staying?" If I
+said to that same friend, "My wife and I are going to Sacramento for a few
+days," my friend would say, "Sacramento? Why?" Sorry, it's true.
+
+Does that mean basketball can't work there? Not necessarily. A few weeks ago,
+I wrote that the Kings were leaving "because their franchise wasn't worth
+anything where it was." Not to argue with myself, but if that were true, why
+did billionaire Ron Burkle recently try to buy the Kings with the intention of
+keeping them in Sacramento?
+
+Obviously, I was wrong: the Kings _were_ worth something where they were, just
+as the Penguins (another Burkle purchase) turned out to be worth something in
+Pittsburgh. Burkle's intuition was the right one: He knew the lockout was
+coming (and shorter contracts, and a hard cap, and better protection for small
+markets with their best players), and he knew the NBA is sitting in a
+phenomenal place with talent (more recognizable stars than every other sport
+combined), digital distribution (no league has done a better job) and
+international growth (ditto). Buying the Kings at a discount, figuring out the
+stadium issue one way or the other, then moving them to Vancouver or Seattle
+(the best available markets) as a worst-case scenario makes more sense than
+overpaying for, say, the Phoenix Suns. It's the same reason mega-billionaire
+Larry Ellison tried to steal New Orleans this past winter.
+
+Of course, when the Maloofs publicly dismissed Burkle's offer in the same
+snotty, head-scratching way that a broke college stoner would dismiss a
+lucrative offer for his favorite bong ("We're not selling!"), it should have
+been a bigger deal. Burkle proved by helping to keep the Penguins in
+Pittsburgh that, at the very least, he isn't some soulless corporate sports
+raider. If anyone is acting soullessly here, it's the Maloofs.
+
+Some background on them: Their father owned the Houston Rockets in 1980 before
+suddenly passing away, leaving the franchise to the three brothers and their
+sister (now a star on "The Real Housewives of Beverly Hills," and no, I'm not
+making that up). None was older than 26. That same season, the 40-42 Rockets
+rode Moses Malone all the way to the Finals before losing to Boston. (Note:
+When researching my book a few years ago, I was watching an '81 Finals game
+and did a double take upon seeing the Maloof brothers sitting courtside. Even
+back then, they had the same glazed, happy-to-be-there look.) But they were in
+over their heads, and, with the league struggling at the time, the Maloofs
+cashed out a year later. And regretted it. A few years later, they bought back
+in with the Kings. You know the rest.
+
+Within the league, everyone loves the brothers -- owners, players, even David
+Stern, who calls them "the boys" even though they're older than any active
+player. That's why Stern allowed their ill-fated Anaheim "move" to limp along
+like it did, without ever asking the pertinent question, "Wait a second,
+aren't you guys just doing this because you're broke?" If Donald Sterling had
+tried it? The league would have thrown up a bigger roadblock than the one
+Harvey Keitel assembled for Thelma and Louise. Again, everyone likes the
+Maloofs. _Good guys._ That's what you always hear when their names come up.
+
+Well, you know who else are good guys? The Sacramento fans. They supported
+that crummy franchise for 25 years, getting rewarded only with the short-lived
+C-Webb Era: when the Kings suddenly evolved into the league's most
+entertaining team, when they came within an officiating monstrosity and a
+crunch-time choke of making the 2002 Finals, when everything quickly fell
+apart because they gave Webber a nine-figure extension even though his knees
+were made of fusilli. What other choice did they have? How many Chris Webbers
+fall into the lap of a small-market team? Lose him and you're definitely
+screwed. Pay him and you're screwed once he gets injured. They couldn't win.
+It's the Curse of the Small-Market NBA Team: once you stop being smart and
+lucky, everything falls apart.
+
+Webber's demise triggered a chain of events that eventually turned Sacramento
+into the NBA's Pittsburgh Pirates. Only in this past season did Kings fans
+start seriously worrying about losing their team -- not just because their
+owners were overleveraged but because they had little faith in Stern, who
+looked the other way after Game 6's officiating fiasco in 2002, then again as
+the Sonics were stolen, then again these past 12 months as the Maloofs did
+everything short of putting their office equipment on Craigslist.
+
+Remember, the owners pay Stern to run the league in _their_ best interests. As
+part of that responsibility, he also is supposed to care about players and
+fans. But in what order? Recent history shows that it's the owners first, then
+everyone else. We saw it in Seattle, when new owners conspired to move the
+Sonics (and did) without any real repercussions. We saw it when New Orleans'
+George Shinn was going under and needed to sell; the league office decided
+that, rather than allow someone to steal the Hornets like a plasma TV at an
+everything-must-go sale, they'd protect that sticker tag, purchase the team at
+"market value," then sell when the economy turned _or_ use it as contraction
+leverage for upcoming lockout talks. And we saw it again these past few months
+in Sacramento. Where was the commissioner as the Maloofs torched their
+relationship with locals and cut every conceivable financial corner?
+
+As a parent, my job is to take care of my kids, provide them shelter and food,
+keep them safe, and teach them right from wrong. The owners of a sports
+franchise have a much simpler job: They pay for stuff. That's it. Remember
+Jerry Seinfeld's joke about the only qualifications for a New York City cab
+driver being a name and a face? Being an NBA owner isn't much different: You
+need a face and a checkbook. The best owners take it much further by becoming
+the face of their franchise, engaging their fans, getting involved in the
+community, unearthing inventive ways to generate revenue, then putting that
+extra revenue back into their team. But you don't necessarily have to do that.
+You can just sit back, hire mediocre employees and pay for just enough stuff
+to stay afloat.
+
+Guess what? The Maloofs couldn't even do that. Consider …
+
+• The 2010-11 Kings had such a low payroll, they dipped more than a million
+_below_ the league's minimum team salary threshold after February's Carl
+Landry/Marcus Thornton trade. How did they fix it? By getting money from the
+Celtics to acquire Marquis Daniels, who was only crippled with a season-ending
+spinal injury at the time. Any time "acquiring someone with a season-ending
+spinal injury" is actually a savvy move, you know your season didn't go so
+well.
+
+• A few years ago, when the NBA offered struggling franchises a line of credit
+up to an estimated $75 million to weather a foundering economy, the Maloofs
+gobbled up every available dime. They haven't paid it back yet. They're like
+the annoying guy in your fantasy football league who hasn't paid the
+commissioner in three years. _I'm out of checks right now. Can I pay you on
+PayPal? Are you on PayPal? What if I just get you at the draft?_
+
+• ~~When the city of Sacramento lent them $77 million to help them build a new
+stadium years ago, the Maloofs eagerly cashed the check. They haven't paid the
+money back yet, which seems relevant, you know,_because they're trying to move
+the team to Anaheim._~~ Late correction: Thanks to some bad Googling, I
+botched the facts on this one. The Maloofs inherited that $77 million loan
+from the previous owner once they assumed control of the team in 1999. They
+have not paid the money back yet. Which seems relevant, you know, because
+they're trying to move the team to Anaheim.
+
+• When Anaheim approached them about relocating the Kings there, the Maloofs
+asked the city to pay for the relocation fee -- determined by the other 29
+owners based on the perceived value of the new market compared with the old
+one, which means that fee could climb as high as $75-100 million -- and lend
+them money to cover their debts _on top of that._ What a deal! So Anaheim gets
+a terrible basketball team and a ton of debt, plus, it doesn't get to own the
+team. How can the city turn that Godfather offer down?
+
+• The Maloofs made the fatal mistake of building a billion-dollar tower at the
+Palms right before the economy turned; between that and Las Vegas' abrupt
+decline as a tourist attraction, their economic fortune swung as fast as an
+unlucky blackjack player at one of their tables. Maybe that's why, in the past
+18 months, they [sold their family's liquor
+distributor](http://www.abqjournal.com/abqnews/business-daily/17422-End-of-an-
+Era--Maloofs-Selling-Coors-Biz.html), folded [their WNBA
+team](http://sports.espn.go.com/wnba/news/story?id=4674978), [shopped the
+Palms](http://www.sacbee.com/2011/01/07/v-mobile/3307053/maloofs-decline-
+comment-on-palms.html) and accumulated so much casino debt that Harrah's
+started buying it up [for a possible
+takeover](http://www.lasvegassun.com/blogs/elsewhere/2010/feb/25/harrahs-
+private-equity-owner-buying-palms-debt/).
+
+Getting the picture yet? If Mark Cuban owned the Kings and announced, "I've
+looked at this from every conceivable angle, and there's just no way a
+professional basketball team can work in Sacramento anymore," we would assume
+that opinion came from an educated, thoughtful place. Here's what we know
+about the Maloofs.
+
+**1.** They inherited a ton of money.
+
+**2.** At some point, one of them said, "We like basketball, we should buy an
+NBA team."
+
+**3.** At a later point, one of them said, "We like gambling, we should buy a
+casino."
+
+**4.** They no longer have a ton of money.
+
+* * *
+
+Young Flanagan always warns us on TBS and Cinemax 3, "Everything ends badly …
+or else it wouldn't end." Once upon a time, the Maloofs owned the hottest
+casino in Las Vegas and one of the hottest teams in basketball. Now, they
+apparently would rather destroy basketball in Sacramento than admit their own
+financial plight. The words of Young Flanagan are bouncing right off them.
+
+In baseball, Dodgers owner Frank McCourt ran out of money to pay for stuff.
+There were two big reasons for this: He was going through a nasty divorce, and
+he never had any money in the first place. How can you buy one of the most
+famous baseball franchises without any money? It's a great question. But when
+McCourt went behind Bud Selig's back and tried to secure a $30 million
+personal loan from Fox (his television partner), an enraged Selig seized the
+team from him last week under the rarely seen edict, "You Can't Pay For Stuff
+Anymore."
+
+Only Southern Californians fully understand what happened to the Dodgers
+during the McCourt Error. Six decades, Dodger Stadium, Vin Scully, Koufax and
+Drysdale, Garvey-Cey-Lopes-Russell, Fernandomania, Orel's streak, Gibson's
+homer, Gagne coming out of the bullpen breathing fire, Dodger Blue … the
+McCourts were crapping on all of it. Desecrating the brand. Maybe it took a
+sneaky loan and a poor Giants fan getting senselessly beaten into a coma for
+Selig to finally intervene, but he did. To his credit. When a commissioner
+keeps siding with owners over fans, he becomes nothing but a puppet with
+strings trickling out of his back. Selig stuck up for Dodgers fans. He did the
+right thing.
+
+Sacramento fans must have felt jealous: For months and months, they had been
+waiting for Stern to stick up for them. Last week, he finally did. And only
+because the arrogance of "the boys" left him no choice. One of the biggest
+economic swoons in American history just happened because overleveraged
+multimillionaires and billionaires took too many dumb chances, borrowed too
+much money and cheated the system too many times … you know, exactly how the
+Maloofs tried to keep a franchise they could no longer afford to run. Stern
+finally had enough. But only when the Lakers and Clippers refused to yield
+their lucrative Orange County territory unless they were paid accordingly.
+
+Suddenly, it's looking as if the Kings will stay in Sacramento for at least
+one more year. On Tuesday, the league meets with local sponsors that Mayor
+Johnson lined up [who pledged $10 million in advertising
+money](http://blogs.sacbee.com/city-beat/2011/04/sacramento-corporations-to-
+make-deposits-on-pledges-to-kings.html) for next season. Stern & Co. want to
+see a check. This means one of three things: Either the league plans to
+purchase the Kings to protect the sticker tag and gain additional contraction
+leverage; it's forcing the Maloofs to stick around (but making sure they have
+enough cash flow to meet payroll); or this is a new and improved way to stomp
+on the hearts of every Kings fan.
+
+My prediction: the league will pay full price for the Kings (or close to it),
+use them as lockout leverage (along with the Hornets), then work with Johnson
+and Sacramento on finding new ownership after the lockout. It's the right
+move. There's every reason to believe that Sacramento could turn into Oklahoma
+City or Portland in the right hands. But it needs the right hands. And those
+hands need to be able to write checks that pay for stuff.
+
+That reminds me, I attended Game 3 of the Mavericks-Blazers series on
+Thursday. Since winning the 1977 title, Rip City suffered through Walton's
+feet, Bowie's shins, Roy's knees and Oden's everything. Its team famously
+passed on Jordan _and_ Durant. It had quality contenders squashed by Isiah's
+Pistons, Magic's Lakers and Jordan's Bulls, eventually fumbling away the 2000
+title to Shaq's Lakers with the cruelest collective choke in modern NBA
+history. When that roster slowly morphed into the hideous Jail Blazers, the
+most fan-unfriendly team ever assembled, the fans finally reached a breaking
+point and rebelled. Corporations stopped buying suites; fans stopped selling
+out the arena. Things looked bleak.
+
+Why didn't the situation implode? Because Brandon Roy and LaMarcus Aldridge
+showed up. Because owner Paul Allen embraced how deeply Portlanders identified
+with his franchise and started emphasizing character. Because Allen hired an
+enterprising front office that used his money as a competitive advantage,
+buying extra draft picks, thinking outside the box with creative free-agent
+offers and raiding cost-cutting teams of solid veterans. The team built a good
+enough foundation to survive a few bad breaks (most recently, Oden and Roy),
+and now they're giving the Mavericks everything they can handle in Round 1.
+Maybe the Blazers haven't been totally lucky, but they've definitely been
+smart.
+
+During Game 3's satisfying victory, fans hollered for four quarters, worked
+the refs, heckled Cuban mercilessly, stood and cheered at the right times,
+brought their energy to another level when their team needed it, then skipped
+happily out of the arena when it was over. The way they were banging drums,
+honking horns and chanting "Let's go Blazers" on the street, you would have
+thought they had just won a Game 7. Some of them headed over to celebrate at
+Spirit of 77, a perfectly named sports bar because Walton's 1977 team
+legitimized Portland as a sports city, distinguished it from every other small
+market and set the tone for everything that followed. Portland might not be
+the best professional basketball city in America, but it's definitely in the
+top five.
+
+And guess what? Portland's arena isn't so great. The Rose Garden was built
+right before everyone figured out how to build state-of-the-art arenas, with
+only one tier of suites located too far from the court. Portland fans love
+their Blazers so much that they didn't even flip out when Allen [jacked the
+price of playoff tickets to staggering
+heights](http://www.oregonlive.com/blazers/index.ssf/2011/04/blazers_fans_paying_lakers_pri.html).
+You can do these things when you're winning with likable players. That's how
+any NBA team not located in Los Angeles, Florida, New York or Texas survives
+in the NBA in 2011.
+
+When you're not winning? You end up like Indiana -- trying to avoid a first-
+round sweep at home in a stadium filled with more Bulls fans than Pacers fans,
+only you can't ban anyone outside Indiana from buying tickets online because
+you need the money too badly. You end up like Minnesota, coming off six
+straight lottery appearances that included three separate rebuilding projects
+during that time. You end up like Charlotte, giving away three of your four
+best players from a 2010 playoff team for what amounted to two lottery-
+protected picks. And you end up like Sacramento, hearing your overleveraged
+owners pretend that your city can't support basketball, ending up [with
+moments like this](http://www.youtube.com/watch?v=EiMOABQRS_8) and wondering
+how you got there.
+
+Those things happen when you don't have better revenue sharing, or a hard
+salary cap, or franchise tags, or shorter guaranteed contracts. If there were
+a Kevin Durant and Sam Presti to go around for every small-market team, things
+would be fine. But you're much more likely to get stuck with Tyreke Evans and
+three Maloofs.
+
+That's why these next two months of ridiculously good basketball have a
+guillotine hanging over them, and that's why Sacramento's soap opera
+symbolizes everything. Thanks to Durant, Paul, Roy and everyone else who made
+Round 1 so special, the NBA is blowing up … right as it's about to be blown
+up. Go figure.
+
+Bill Simmons is a columnist for ESPN.com and the author of the recent New York
+Times No. 1 best-seller "The Book of Basketball," now out in paperback with
+new material and a revised Hall of Fame Pyramid. For every Simmons column and
+podcast, check out [Sports Guy's
+World](http://sports.espn.go.com/espn/page2/simmons/index) or the [BS Report
+page](http://espn.go.com/espnradio/show?showId=bsreport). Follow him on
+Twitter at http://twitter.com/sportsguy33.
+
+[Back to Page 2](http://espn.go.com/espn/page2/)
+
+  
+
+  
+  
+
+* * *

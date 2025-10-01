@@ -1,0 +1,223 @@
+# A Sephora Favorite Child, A Nordstrom Poach & More Versace Questions
+
+**Source**: inputs/saved_emails/A Sephora Favorite Child, A Nordstrom Poach & More Versace Questions_Thu,_20_Feb_2025_00-00-47_+0000_19520a87ba759b10.eml
+**Type**: email
+**Created**: 2025-08-25T02:54:01.973870
+
+---
+
+Feb 19, 2025
+
+Line Sheet ( https://puck.news/newsletters/line-sheet/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Lauren Sherman ( https://puck.news/author/lauren-sherman/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Lauren Sherman ( https://puck.news/author/lauren-sherman/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Hi, and welcome back to Line Sheet. So which one of you hacked Dior’s
+Instagram account? Or should we start calling it “the exclusive luxury crypto on Pumpfun”? (I’m so glad I’d never heard of Pump.fun before last night.) The situation was sorted within hours, so nothing to worry about, really. 
+
+ 
+
+Unfortunately, Meghan Markle’s rebranding of American Riviera Orchard to As Ever was not a hack. As Ever may already be familiar to you as the
+Brooklyn-based workwear brand worn by the likes of Jenna Lyons (her famous pink boilersuit) and Samira Nasr. (There was even an As Ever x Madewell collaboration a few years back.) Anyway, the question of who is advising Markle on such terrible decisions looms large. My best guess: no one.
+
+ 
+
+Of course, I never question the brilliance of Rachel
+Strugatz. Today, she’s back with intel on one of the most important beauty brands to launch since the pandemic: Violette_FR, which illuminates how makeup-artist-led lines are more powerful than ever, at least when executed properly. Up top, I’ve got the latest on the Versace saga, news about another Neiman Marcus tragedy, and Rachel also has the scoop on the sudden exit of Pat McGrath C.E.O. Rabih Hamdan. 
+
+ 
+
+As ever, if you haven’t yet subscribed to Puck, I reckon you are as clueless as Meghan and Harry. I suggest you do so now ( https://puck.news/join/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), or risk going the way of The Tig ( https://thetig.com/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). 
+
+ 
+
+🛍️🛍️ For
+those of you with the Shoppies: Last fall, I mentioned that Phoebe Philo was set to introduce a slightly smaller version of the Gig, a swingy bag that has the right shape, but sadly not the right size. (Just a little too small to fit a laptop and a little too big to take to dinner.) Behold the Small Gig ( https://www.phoebephilo.com/en_eu/small-gig-bag-stucco-leather?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), a $2,600 purse (I love that word) that’s diminutive enough to
+be held like a clutch. It’s perfect, has already sold out in toffee-colored suede, and is currently still available in black and a coffee creamer color they’re calling “stucco.” Sarah Shapiro said it reminds her of the Céline Trio in the best possible way. Buy it! 
+
+ 
+
+Mentioned in this issue: Violette Serrat, Violette_FR, Gucci Westman, Westman Atelier,
+Bobbi Brown, Brad Pitt, Sephora, Ulta Beauty, Isamaya Ffrench, Fara Homidi, François Nars, Hailey Bieber, LVMH, Estée Lauder, Heidi Merris, Pat McGrath, Versace, Donatella, John Idol, Neiman Marcus, the Nordstrom brothers, Catherine Bloom, and many more…
+
+ 
+
+Three Things You Should Know…
+-------------------------------
+
+* Rachel on another Pat McGrath shake-up: Now that we’ve moved on from Glass Skin masks (I’m told the number of “sold out” units totaled 100, by the way, and no, I’m not missing any zeros), Pat McGrath Labs is about to endure yet another executive shuffle. I’ve learned that C.E.O. Rabih Hamdan resigned after a nine-month tenure defined by several rounds of layoffs, rumors of missed deadlines and vendor payments, and all-around
+tumult. Hamdan was brought in last April to stabilize the business, and a new executive team was named in July, including a C.M.O. and C.F.O., both of whom are still there, to my knowledge.
+
+On Tuesday, Hamdan sent a pretty unhinged and cryptic farewell email to staff that was forwarded to me. “The business is underpinned by an admirable, iconic, and legendary makeup artist reputation, but I do not think that this gives license to make up things,” read part of the email. After thanking
+said legendary makeup artist, Pat McGrath, for convincing him to join the company and acknowledging that nothing happens without the founder’s approval, Hamdan wrote that he “no longer feels properly equipped to continue this journey and to credibly condone its practices.” I heard an email of similar tenor and sentiment was sent to Sephora merchants as well. 
+
+It gets messier. A source close to the brand insisted that Hamdan was a “consultant” and
+“never the C.E.O.”––even though Hamdan’s LinkedIn says he’s been C.E.O. of the company since last April. (It’s not unlikely that Hamdan was acting as a fractional C.E.O.) “Pat’s title has always been founder, chief creative officer, and C.E.O.,” this source said. Interestingly, before joining Pat McGrath Labs, Hamdan was chief of strategy at Kiko Milano, the “Italian Mac” that, as I reported, just poached Drew Elliott, MAC Cosmetics’ global creative director.
+—Rachel Strugatz
+* We just really want to know what’s going to happen with Versace: Today in New York, Capri C.E.O. and chairman John Idol hosted the company’s investor day, about two weeks after its 2024 numbers were released. The expectation, of course, was that Idol would share details about the future of the company and its brands—particularly Versace, which is tiny compared to Michael Kors (a projected $810 million
+in revenue in 2025 versus $3 billion) but also very much for sale, according to everyone but Idol, who acted business-as-usual during the presentation and deployed every piece of M.B.A. jargon under the sun. (There was much talk of “storytelling” and “omnichannel optimization.”) 
+
+The big takeaway is that the group, which owns Kors, Versace, and Jimmy Choo, is going to shrink to grow—that dreaded term—with a conservative return-to-growth plan targeted for 2027 that will
+include the closure of about 175 stores over the next two years. The company is also planning on increasing prices at its outlet stores. The market reacted favorably to that news, with shares up a couple percentage points in early trading. 
+
+Versace was the first of the three brands to present its plan, which includes broadening its price architecture to appeal to the high high end and the not-so-high end. C.E.O. Emmanuel Gintzburger admitted that
+the brand may have tried to go too upmarket too fast, and presented a few remedies for current operational problems. These will include layoffs, which started last week, with approximately 29 positions being eliminated, I’m told. (A rep for Versace declined to comment.) 
+
+This culling, across departments, is both expected and necessary. But does any of this matter if the company is about to be acquired by the Prada Group? Just this morning, Bloomberg
+reported ( https://www.bloomberg.com/news/articles/2025-02-19/prada-works-with-advisers-to-evaluate-versace-for-possible-bid?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) that the Italian company, which owns Prada, Miu Miu, and Church’s, has “kicked off a full review” of Versace’s financials. In an ideal scenario for most people involved, the Prada Group would acquire the business and former Miu Miu design director Dario Vitale would become a sort of companion to
+matriarch Donatella—who, by the way, was not mentioned in Gintzburger’s presentation. If Prada Group were to acquire Versace, many of these plans would likely be unwound, from the marketing strategy to the product pricing strategy. Idol didn’t say anything about the sale speculation during investor day. But no analyst asked…
+
+Perhaps there is a world in which Idol decided to hold on to Jimmy Choo and Versace, both fairly small businesses that can be engineered for
+growth in a healthy consumer market. Then again, investors would surely love to see them go so that he can focus on improving the already profitable Kors. But the price needs to be right: Former M&A buddy and current competitor Tapestry announced this morning that it was selling the shoe brand Stuart Weitzman (a sort of mid-market Jimmy Choo) to the owners of Famous Footwear for $105 million. Just a decade ago, the business was acquired for $574 million.
+* Another Neiman Marcus tragedy: Pretty sure we’re going to go five for five on Saks Global updates this week. In today’s unfortunate news, you may have heard that the sweet Nordstrom brothers took advantage of the strife over at Richard Baker’s newly formed department store supergroup by poaching Los Angeles–based Catherine Bloom, known as Neiman Marcus’s “most powerful personal shopper.” Bloom, who will join Nordstrom in the
+newly created role of director of luxury styling, will operate by-appointment-only out of the retailer’s small-footprint Nordstrom Local space on Melrose, which will be rebranded as Catherine Bloom for Nordstrom.
+
+It’s a brilliant idea, mostly because Bloom has an enormous rolodex and also because Nordstrom’s designer shop is in a mall near Calabasas (and only opened a few years ago), which means that many luxury shoppers who live elsewhere in the region don’t even know it exists. While I
+truly believe everyone is replaceable, this is an undeniable loss for Neiman and a win for Nordstrom, which stands to gain a lot from this Saks mess. Of course, Saks Global’s biggest challenge in California is figuring out how to make the still-new Saks (in the old Barneys New York, by the way) and Neiman Marcus—right next door—destination shopping in an area where locals are grossed out by Rodeo.
+
+And now on to the main event…
+
+A History of Violette ( https://puck.news/a-history-of-violette/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A History of Violette ( https://puck.news/a-history-of-violette/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Once relegated to backstage obscurity, makeup artists and their brands continue to take
+center stage—and an increasing amount of precious shelf space at Sephora. But as French makeup line Violette_FR hopes to prove, it’s as much about the product as the artistry.
+
+Rachel Strugatz ( https://puck.news/author/rachel-strugatz/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Rachel Strugatz ( https://puck.news/author/rachel-strugatz/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+In recent years, awards season has become the Super Bowl for makeup artists—an annual
+opportunity to paint and contour as many famous faces as possible on red carpets. It’s also free marketing for makeup artists, themselves. While celebrities rarely succeed with their own beauty ventures (J.Lo, Jared Leto, Brad Pitt, Gwen Stefani… I could go on), several top makeup artists (Mario Dedivanovic, Patrick Ta, Isamaya Ffrench, and Bobbi Brown, among
+them) have been able to capitalize on their A-list client relationships and media exposure to build formidable brands.
+
+ 
+
+The flurry of red carpet activity has been driven, in part, by growing competition. There are now dozens of artist-led ventures spanning every style of makeup, at every size and stage of their lifecycles, chasing the spoils of this multibillion-dollar industry. Dedivanovic’s
+Makeup by Mario, which he launched just five years ago, is now estimated to be doing about $200 million in sales. Charlotte Tilbury, which was launched in 2013, was acquired by Puig at a $1.2 billion valuation. 
+
+ 
+
+In fact, makeup now accounts for the largest share of revenue at Sephora, the top prestige beauty retailer, which is especially bullish on the subcategory of artist-led brands. In the
+last year, Patrick Ta increased its space in-store, and the same goes for Gucci Westman’s Westman Atelier, one of Lauren and my all-time favorite makeup brands, which now has distribution in all doors. This week, Sephora is launching the 4-year-old brand of former Estée Lauder global beauty director and Guerlain creative director Violette Serrat, Violette_FR, and the company also has plans to stock Fara Homidi’s namesake line
+in-store later this year. Earlier this month, a decidedly more sanitized version of Isamaya Ffrench’s brand hit the retailer, too.
+
+Alas, there’s only so much shelf space physically available in Sephora: For every up-and-coming brand the retailer launches, another must be depreciated or deprioritized. I hear the retailer has already downsized Pat McGrath Labs, with further reductions to come, and that Bobbi Brown, which
+basically created the artist-led category, is seeing cuts all around. I’m also told that Charlotte Tilbury, despite being a top 10 brand, will get less real estate due to its recent expansion at Ulta. (Brands lose value for Sephora when they forgo exclusivity.)
+
+ 
+
+Sure, there are some exceptions to this Darwinian war against all: François Nars’s Nars is still a Sephora bestseller 31 years
+after its debut. But for almost everyone else, it’s a constant battle for consumer attention that has only gotten more difficult as newer entrants leverage both retail and D.T.C. channels. Meanwhile, Sephora itself remains the rare brick-and-mortar distributor that has the ability to make, or break, celebrity- and artist-led brands.
+
+The
+Artist’s Way
+--------------
+
+Violette_FR, in particular, is set to launch in 65 stores in the coming days, with a
+planned rollout of close to 250 doors by year’s end. Selfishly, I’m excited about this one. Serrat is a true makeup artist, who is as comfortable on YouTube, where she has more than 300,000 subscribers for her makeup tutorials, as in the boardroom. The brand, itself, is beautiful, and the products are a physical manifestation of the founder, who actually is French and not just cosplaying the “French girl beauty” thing. It’s “no makeup makeup” for the person who still wears a
+semi-sheer, matte red lip or blue eyeliner.
+
+ 
+
+One makeup executive told me that Serrat makes her expertise accessible to regular people—unlike, say, Pat McGrath, an immensely talented artist whose inability to lean into the mainstream has limited her commercial success. Both are masters of their craft, but Serrat is much better at translating her aesthetic for laypeople. Serrat’s ethos isn’t to
+teach you how to paint a feathered, French girl lip; it’s to produce a new lipstick product that produces the same effect. The result is brilliant.
+
+ 
+
+I’m told Sephora is really getting behind Violette_FR and will sell all four of the brand’s product categories: primarily makeup, but also skincare, fragrance, and hair. “Not many brands have permission to extend to all four
+categories so early in their lifecycle,” said a person close to the brand. “Violette was able to prove out that she’s not just dabbling in things like skincare—Boum-Boum Milk is a hero product.” 
+
+ 
+
+The brand’s success also owes much to its owner’s patience. Serrat once told me that she didn’t run any paid marketing campaigns for almost her first full year in business because she wanted to see
+how consumers reacted to the products without pulling any customer acquisition levers—an unprecedented strategy. And while similar brands may have entered Sephora or Ulta within a year of launching, according to the person close to the brand, Serrat “chose to test out authentic French positioning and distribution” at places like Le Bon Marche and Oh My Cream!—a French beauty retailer with about 30 doors—before entering into a major retail partnership. 
+
+ 
+
+Now, after about four years, it feels like Violette_FR is on the verge of taking off. In December, Serrat raised a Series B led by Silas Capital—also a backer of Makeup by Mario—and brought on Estée Lauder veteran Heidi Merris as president. (Monogram Capital Partners, Female Founders Fund, Greycroft, and Felix Capital are also investors.) I know a liquidity event is almost always the ultimate goal, but Violette_FR doesn’t
+feel like it was created for the purpose of scaling and flipping it to a strategic—a rarity in this industry, or any industry, really. 
+
+ 
+
+But whatever success Violette_FR finds is at least partly due to beauty consumers with less tolerance for gimmicks. “The consumer is getting smarter about what feels like a B.S. brand,” one investor told me, “and they’re moving toward brands that have a founder with a real
+reason to speak. That’s what the heart of what artistry brands are.”
+
+ 
+
+What
+Rachel’s Reading… and Thinking About
+----------------------------------------
+
+Another Rhode pop-up opens today in L.A. I wonder how long the lines will be.
+[Instagram ( https://www.instagram.com/p/DGO6_eeyUka/?hl=en&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+ 
+
+While we’re on the topic of As Ever… I just last week pointed out that other celebrities launching their own Flamingo Estate knockoffs are going so far as to use the word estate in their names, including Liv Tyler, who’s decided to name her
+yet-to-launch brand Pink Mountain Estate. [Instagram ( https://www.instagram.com/pinkmountainestate/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+ 
+
+Isamaya Ffrench’s backstage beauty looks—especially for Thom Browne, with whom she’s worked for many years—are always insane and I love it.
+[WWD ( https://wwd.com/beauty-industry-news/beauty-features/nyfw-fall-2025-beauty-trends-1236928951/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+ 
+
+Until tomorrow,
+
+Lauren 
+
+ 
+
+P.S.: We are using affiliate links because we are a business. We may make a couple bucks off them.
+
+Fashion People ( https://puck.news/podcasts/fashion-people/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Puck fashion correspondent Lauren Sherman and a rotating cast of industry insiders take you deep behind the scenes of this
+multitrillion-dollar biz, from creative director switcheroos to M&A drama, D.T.C. downfalls, and magazine mishaps. Fashion People is an extension of Line Sheet, Lauren’s private email for Puck, where she tracks what’s happening beyond the press releases in fashion, beauty, and media. New episodes publish every Tuesday and Friday.
+
+Wall Power ( https://puck.news/newsletters/wall-power/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Puck’s daily art market email, anchored by industry expert Marion Maneker, offers unparalleled access to the mega-auctions
+and galleries, elite buyers and sellers, and the power players who run this opaque world. Wall Power also features Julie Brener Davich, a veteran of Christie’s and Sotheby’s, who provides unique insights into how the business really works.
+
+Steve Wynn’s Revenge
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Steve Wynn’s Revenge ( https://puck.news/is-steve-wynn-putting-new-york-times-v-sullivan-in-danger/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ERIQ GARDNER
+
+Post-Kamala Options
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Post-Kamala Options ( https://puck.news/democrats-post-kamala-future-mark-cuban-the-rock-stephen-a-smith/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PETER HAMBY
+
+Abercrombie & Rich
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Abercrombie & Rich ( https://puck.news/inside-the-growing-market-for-gertrude-abercrombies-art/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+JULIE BRENER DAVICH
+
+Puck
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact us ( fritz@puck.news?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVIKehQw9bqbZfWe2x-dg=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F19%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F18%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+ 
+
+Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

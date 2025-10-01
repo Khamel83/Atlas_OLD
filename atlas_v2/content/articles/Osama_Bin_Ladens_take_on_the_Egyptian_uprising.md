@@ -1,0 +1,121 @@
+# Osama Bin Laden's take on the Egyptian uprising.
+
+**Source**: http://www.slate.com/id/2283752/?from=rss
+**Type**: article
+**Created**: 2025-08-13T21:16:48.705616
+
+---
+
+title: Osama Bin Laden's take on the Egyptian uprising.
+source: http://www.slate.com/id/2283752/?from=rss
+date: 2025-08-13T21:16:47.020303
+tags: []
+---
+_Read more of**Slate** ’s coverage of the _ [_Egyptian
+protests_](https://www.slate.com/id/2283323/) _._
+
+Osama Bin Laden
+
+Demonstrations in Egypt are exciting Arabs around the world, giving them hope
+that democracy can at last flourish in their home countries. The same news
+images of brave demonstrators in Cairo’s Tahrir Square also probably animate
+another possible viewer—Osama Bin Laden—but in a completely different way. The
+master terrorist and his followers are likely to see the earthquake in Egypt
+as a grave threat to their legitimacy but, at the same time, an opportunity to
+exploit.
+
+Egypt has always had a special place in the hearts of al-Qaida members.
+Several of the organization’s key leaders and operatives first bloodied
+themselves in the struggle against the Mubarak regime before finding a home
+with Bin Laden. Bin Laden’s deputy, Ayman Zawahiri, led one group, Egyptian
+Islamic Jihad, which, along with its more important cousin the Islamic Group,
+staged a bloody uprising in the early 1990s. Calling Mubarak an apostate as
+well as a despot, the jihadists struck at Coptic Christians, secular
+Egyptians, and foreign tourists as well as regime and security-force targets.
+By the end of the decade, the Mubarak regime had brutally repressed the
+jihadists and co-opted less radical elements of Egypt’s Islamist
+scene—measures greatly aided by the jihadists’ brutal attacks, which alienated
+most Egyptians. A rump of these fighters joined with Bin Laden, taking
+advantage of the Saudi leader’s money and accepting his worldview that the
+United States, not the government of Egypt, was the primary enemy.
+
+The doctrinal disputes that arose in Egypt, such as the acceptable level of
+civilian casualties from terrorist attacks and how much deviation from “true”
+Muslim behavior is acceptable before one becomes an apostate, still roil
+jihadists today. And the condemnation of al-Qaida by former leaders of the
+Islamic Group and Egyptian Islamic Jihad has caused great consternation among
+Bin Laden’s followers.
+
+Nor is the spark of jihadism completely extinguished in Egypt. The middle of
+the last decade saw several attacks, the worst being the July 23, 2005, strike
+in the resort city of Sharm el-Sheikh that killed 88 people. But the problem
+seemed contained if not completely eradicated.
+
+The demonstrations and the probable end of the Mubarak regime change the
+situation, though. For now, al-Qaida and other jihadists have been caught off-
+guard. And although Egypt’s army is standing by as violence erupts between
+demonstrators and pro-regime thugs, it is still careful to police the
+country’s borders to make sure jihadists do not slip in.
+
+But if or when Mubarak goes, al-Qaida will face some immediate challenges. The
+first comes from the [Muslim Brotherhood](https://www.slate.com/id/2283616/),
+the Arab world’s oldest Islamist organization and a strong force in Egyptian
+politics today. This may surprise many: Several leading al-Qaida members
+entered Islamist politics through the Brotherhood; the Brotherhood has at
+times used violence, such as its unsuccessful 1978-82 war against the Syrian
+regime, which is also loathed by al-Qaida; and Brotherhood martyrs such as
+theologian Sayyid Qutb, whom the Egyptian regime hanged in 1966, are revered
+ideologues for people like Zawahiri. Yet the relationship between the
+Brotherhood and the jihadists is notable for the scorn and contempt both sides
+feel for the other. In his book _The Bitter Harvest_ , Zawahiri excoriates the
+Brotherhood for renouncing the use of violence against the Mubarak regime and
+for polluting itself by participating in more mainstream politics. The
+Palestinian group Hamas, itself a Muslim Brotherhood spinoff, has tried to
+crush al-Qaida-like groups in Gaza and, in turn, has found itself blasted by
+the al-Qaida core.
+
+A second challenge comes from the demands of the majority of the
+demonstrators, who came to Tahrir Square and other rallying points not in the
+name of Islam but in opposition to tyranny. These protesters have demands that
+fit better with reformers of all stripes around the world: an end to
+dictatorship, an end to corruption, and a government that reflects the will of
+the people. Al-Qaida, however, is virulently anti-democratic; its ideologues
+fear that governments of the people place man’s will above God’s and that they
+might produce anti-Islamic laws (say, permitting the drinking of alcohol).
+Even more important, al-Qaida feeds on the frustration many Muslims have about
+their own corrupt and brutal governments. Peaceful revolution in Egypt
+undermines their message that change will only come through violence.
+
+Yet Bin Laden may see opportunities as well as risks. In any successor regime,
+the hated security services will be purged, and the same men who arrested and
+harassed peaceful dissidents also kept the jihadists down. So pressure against
+the few jihadists who remain and any who might return may ease.
+
+And as the violence between protesters and Mubarak loyalists (and their hired
+thugs) makes clear, the country’s future is far from set. The transition from
+Mubarak may be peaceful, but chaos and bloodshed often follow the road that
+peaceful protesters first walk. Al-Qaida thrives on chaos. In Iraq,
+Afghanistan, Pakistan, and Somalia it has exploited local issues and worked
+with local groups to advance its cause. Should Egypt descend into violence,
+al-Qaida may find a similar niche.
+
+The Muslim Brotherhood’s new role also may offer al-Qaida opportunities. If
+the Brotherhood joins in a transitional government and does not fall prey to
+its more radical tendencies regarding Israel and Islamicizing Egyptian society
+(something U.S. policy should strive to accomplish), then the hardliners
+within its ranks will criticize it for selling out, offering al-Qaida a means
+to woo them. But should the Brotherhood lose out in a power struggle or fall
+prey to repression from the army or a new regime, there will be a new
+generation of embittered young Islamists who may find al-Qaida’s more radical
+message more convincing than calls for renewed participation in a system that
+cheated them.
+
+To close off opportunities for al-Qaida and other radical voices, managing the
+transition from Mubarak to a new government is vital. In the end, the greatest
+threat to Bin Laden and his allies will come from a stable, democratic Egypt
+that offers its citizens and other Muslims proof that peaceful political
+activity, not jihad, is how they can better their lives.
+
+_Like[**Slate** on Facebook](http://www.facebook.com/Slate). Follow
+[**Slate**](http://www.twitter.com/Slate) and the [**Slate** Foreign
+Desk](http://www.twitter.com/slateforeign) on Twitter._

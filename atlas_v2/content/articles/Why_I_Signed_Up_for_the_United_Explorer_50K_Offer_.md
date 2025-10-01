@@ -1,0 +1,199 @@
+# Why I Signed Up for the United Explorer 50K Offer | Frugal Travel Guy
+
+**Source**: http://www.frugaltravelguy.com/2014/08/why-i-signed-up-for-the-united-explorer-50k-offer.html
+**Type**: article
+**Created**: 2025-08-13T19:35:10.697321
+
+---
+
+title: Why I Signed Up for the United Explorer 50K Offer | Frugal Travel Guy
+source: http://www.frugaltravelguy.com/2014/08/why-i-signed-up-for-the-united-explorer-50k-offer.html
+date: 2025-08-13T19:34:56.934339
+tags: []
+---
+As someone who is always looking to diversify my points and miles, I am always
+on the lookout for new opportunities. That’s why I was particularly excited to
+hear that the [United MileagePlus Explorer
+card](http://web.archive.org/web/20160331043611/http://www.frugaltravelguy.com/rewards-
+cards/airline-cards/united-mileageplus-explorer-card) increased its signup
+bonus to 50,000 miles. I have never had a United card or earned a single
+United mile in my entire life, so I was giddy like a schoolgirl!
+
+The deal is this: Spend $2,000 within 3 months of account opening and earn
+50,000 bonus United miles! You also earn 5,000 bonus miles when you add an
+authorized user to the card and they also make a purchase within 90 days. You
+get 2 points/$1 spent on United purchases, and 1 point/$1 spent on everything
+else. The $95 annual fee is waived for the first year, and the card comes with
+the added value of priority boarding, 2 free United club passes per year, and
+your first checked bag free. One version of the offer even includes a $50
+statement credit after your first purchase, which was just icing on the cake
+in my eyes.
+
+_Sounds awesome, right?_
+
+However, it’s important to note that you may not be able to get this card
+again if you’ve had it within the past 24 months. From the fine print:
+
+_“This new cardmember bonus offer is not available to either (i) current
+cardmembers of this consumer credit card, or (ii) previous cardmembers of this
+consumer credit card who received a new cardmember bonus for this consumer
+credit card within the last 24 months.”_
+
+**Why I Signed Up for the United MileagePlus Explorer Card**
+
+Since I have never owned a United card in my life, those details were all fine
+with me. I knew it would be easy to spend $2,000 within 90 days and I was more
+than willing to add my husband as an authorized user and instruct him to use
+the card at least once right away. Doing those two things would easily net me
+55,000 United miles and I was anxious to see where they would take me.
+
+Have you ever looked at the reward redemption chart on United website? That
+thing literally blew…my…mind. I had to zoom in 400% to read it, and even then
+I wasn’t sure what I was looking at. Fortunately, they have an [interactive
+travel destinations awards
+chart](http://web.archive.org/web/20160331043611/http://www.united.com/web/en-
+US/apps/mileageplus/awards/travel/awardTravel.aspx) that was easy to play
+around with, so I used it to see how United miles might fit into next year’s
+travel plans for my family. Here is what I found:
+
+  * One-way Saver award from North America to Hawaii: 22,500 points
+  * Round-trip Saver award from North America to Mexico: 35,000 points
+  * Round-trip Saver award from North America to Caribbean: 35,000 points
+  * Round-trip Saver award from North America to Northern South America: 40,000 points
+  * Round-trip Saver award from North America to Europe: 60,000 points
+  * Round-trip Saver award within North America (less than 700 miles): 20,000 points
+
+Now, we’re still cooking up our travel schemes for next year, but I knew I
+could fit these United miles in there somewhere. Either we will use them to
+fly round-trip within the U.S., or possibly for a one-way trip off the
+continent (and fly home with another airline). I may also wait a month or two
+and sign my husband up for his own version of the card. Then we would have
+110,000 United miles and the possibilities would increase exponentially.
+
+The bottom line: I signed up for the card to diversify my airline miles and
+increase my travel possibilities. And with a free checked bag, no annual fee
+the first year, and a $50 statement credit, I honestly couldn’t think of any
+reason not to.
+
+**Have you signed up for the United 50K offer yet? If so, how do you plan to
+use your miles?**
+
+[Holly
+Johnson](http://web.archive.org/web/20160331043611/http://www.frugaltravelguy.com/author/holly-
+johnson "Posts by Holly Johnson")
+
+Holly Johnson is a financial expert and award-winning writer whose obsession
+with frugality, budgeting, and travel plays a central role in her work. In
+addition to serving as Contributing Editor for The Simple Dollar, Holly writes
+for inspiring...
+
+[All
+Articles](http://web.archive.org/web/20160331043611/http://www.frugaltravelguy.com/author/holly-
+johnson)
+
+|
+
+[Follow on
+Google+](http://web.archive.org/web/20160331043611/https://plus.google.com/114153139402898075664?rel=author)
+
+![](//web.archive.org/web/20160331043611im_/http://content.linkoffers.net/SharedImages/Products/204650/599888.png)
+
+### Chase Sapphire Preferred® Card
+
+  * Annual Fee: $95 fee waived for the first year
+  * Foreign Fees: No
+  * Card Type: Bank
+
+[Apply
+Now](http://web.archive.org/web/20160331043611/http://track.linkoffers.net/a.aspx?foid=22927319&fot=9999&foc=1)
+[Add to
+Favorites](/web/20160331043611/http://www.frugaltravelguy.com/login?redirect_to=/2014/08/why-
+i-signed-up-for-the-united-explorer-50k-offer.html?fav_c_id=16)
+
+The Sapphire Preferred offers 2x points on dining and travel, and no foreign
+transaction fees, making this the go-to card for travelers.
+
+This card accumulates Ultimate Rewards points, which are very valuable for
+transfer to United and Hyatt. Overall, this card is a great choice for
+maximizing earnings on dining, travel, and every day spend.
+
+  * Earn 50,000 bonus points when you spend $4,000 on purchases in the first 3 months from account opening. That's $625 in travel when you redeem through Chase Ultimate Rewards®
+  * Named a 'Best Credit Card' for Travel Rewards by MONEY Magazine
+  * 2X points on travel and dining at restaurants & 1 point per dollar spent on all other purchases
+  * Earn 5,000 bonus points after you add the first authorized user and make a purchase in the first 3 months from account opening
+  * $0 foreign transaction fees, plus chip-enabled for enhanced security and wider acceptance when used at a chip card reader
+  * 1:1 point transfer to leading frequent travel programs at full value - that means 1,000 Chase Ultimate Rewards points equal 1,000 partner miles/points
+  * Travel and shop with confidence with premium Travel and Purchase Protection Benefits, including Trip Cancellation/Trip Interruption Insurance, Auto Rental Collision Damage Waiver, Purchase Protection and more
+  * Introductory Annual Fee of $0 the first year, then $95
+
+Breakdown
+
+Earn (pt.)
+
+Spend
+
+First 3 months
+
+50,000
+
+$4,000
+
+Restaurants Purchases
+
+2.00
+
+$1
+
+Coffee Shops Purchases
+
+2.00
+
+$1
+
+Fast Food Purchases
+
+2.00
+
+$1
+
+Alcohol & Bars Purchases
+
+2.00
+
+$1
+
+![](//web.archive.org/web/20160331043611im_/http://content.linkoffers.net/SharedImages/Products/204650/599888.png)
+
+### Chase Sapphire Preferred® Card
+
+  * **Annual Fee:** $95 fee waived for the first year
+  * **Foreign Fees:** No
+  * **Card Type:** Bank
+
+[Apply
+Now](http://web.archive.org/web/20160331043611/http://track.linkoffers.net/a.aspx?foid=22927319&fot=9999&foc=1)
+[Add to
+Favorites](/web/20160331043611/http://www.frugaltravelguy.com/login?redirect_to=/2014/08/why-
+i-signed-up-for-the-united-explorer-50k-offer.html?fav_c_id=16)
+
+FTG Review | Reward Breakdown | Points Breakdown  
+---|---|---  
+The Sapphire Preferred offers 2x points on dining and travel, and no foreign
+transaction fees, making this the go-to card for travelers. This card
+accumulates Ultimate Rewards points, which are very valuable for transfer to
+United and Hyatt. Overall, this card is a great choice for maximizing earnings
+on dining, travel, and every day spend.
+
+  * Earn 50,000 bonus points when you spend $4,000 on purchases in the first 3 months from account opening. That's $625 in travel when you redeem through Chase Ultimate Rewards®
+  * Named a 'Best Credit Card' for Travel Rewards by MONEY Magazine
+  * 2X points on travel and dining at restaurants & 1 point per dollar spent on all other purchases
+  * Earn 5,000 bonus points after you add the first authorized user and make a purchase in the first 3 months from account opening
+  * $0 foreign transaction fees, plus chip-enabled for enhanced security and wider acceptance when used at a chip card reader
+  * 1:1 point transfer to leading frequent travel programs at full value - that means 1,000 Chase Ultimate Rewards points equal 1,000 partner miles/points
+  * Travel and shop with confidence with premium Travel and Purchase Protection Benefits, including Trip Cancellation/Trip Interruption Insurance, Auto Rental Collision Damage Waiver, Purchase Protection and more
+  * Introductory Annual Fee of $0 the first year, then $95
+
+Breakdown Earn (pt.) Spend First 3 months 50,000 $4,000 Restaurants Purchases
+2.00 $1 Coffee Shops Purchases 2.00 $1 Fast Food Purchases 2.00 $1 Alcohol &
+Bars Purchases 2.00 $1 [Apply
+Now](http://web.archive.org/web/20160331043611/http://track.linkoffers.net/a.aspx?foid=22927319&fot=9999&foc=1)

@@ -1,0 +1,107 @@
+# Blinkist shares the most popular passages from its business book summaries
+
+**Source**: https://qz.com/work/1672333/blinkist-shares-the-most-popular-passages-from-its-business-book-summaries/
+**Type**: article
+**Created**: 2025-08-13T16:11:19.167061
+
+---
+
+title: Blinkist shares the most popular passages from its business book summaries
+source: https://qz.com/work/1672333/blinkist-shares-the-most-popular-passages-from-its-business-book-summaries/
+date: 2025-08-13T16:11:04.305899
+tags: []
+---
+If you’re a voracious reader of new business titles, there’s a good chance
+you’ve heard of
+[Blinkist,](http://web.archive.org/web/20230609023941/https://www.blinkist.com/)
+the app that sells condensed versions of top-selling books.
+
+The Berlin-based startup wants to solve what it calls the “modern reading
+problem,” which is that no one has much time for reading anymore. The app’s
+writers consume books on behalf of subscribers and reduce them to texts that
+take 15 minutes to zip through. The company hopes you’ll call these executive
+summaries “Blinks.”
+
+If that sounds gross to you, you’re not alone. On the surface (Blinkist’s
+native territory) the service sounds like yet another sign of our culture’s
+demise. Facing short attention spans and a constant need for novelty, we’re
+throwing in the proverbial towel, giving up on any act that stretches our
+ability to focus on a narrative or go deep. (“After taking Blinkist for a
+spin, I think it may appeal less to a time-poor, avid reader than a sweating
+businessman, crouched in a golf course toilet, trying to quickly brush up on
+his knowledge of politics or astrophysics to impress his boss,” Sian Cain
+writes in [her review of the
+app](http://web.archive.org/web/20230609023941/https://www.theguardian.com/books/shortcuts/2018/dec/09/blink-
+and-youll-miss-it-can-you-really-digest-a-whole-book-in-15-minutes) for The
+Guardian.)
+
+Some argue that Blinkist and its competitors, like Scribd’s new
+[Snapshots](http://web.archive.org/web/20230609023941/https://www.scribd.com/snapshots),
+can have a place in one’s life if applied judiciously. They ought to be
+prohibited as stand-ins for literary work, goes the thinking, but may be
+acceptable shortcuts for mainlining non-fiction. Some books, meanwhile, really
+are meant to be information delivery systems, not experiences. In theory, that
+should make Blinkist perfect for books about careers and entrepreneurship,
+which are often fat with repetitive anecdotes, bullet-pointed material, and
+rehashed descriptions of social psychology or management studies.
+
+To get a sense of what’s resonating with US readers, who make up the bulk of
+the app’s 10 million subscribers, we asked Blinkist to share the most
+frequently highlighted passages in its career and entrepreneurship categories
+over the past year.
+
+The results do seem to capture certain preoccupations in our work lives:
+namely a desire for grounded-ness, presence, and balance. Readers were very
+taken, for instance, with Blinkist’s paraphrased definition of empathetic
+listening, from its summary of [_The 7 Habits of Highly Effective
+People_](http://web.archive.org/web/20230609023941/https://www.franklincovey.com/the-7-habits.html).
+Instructions for chilling out, distilled from [_Psyched Up: How the Science of
+Mental Preparation Can Help You
+Succeed_](http://web.archive.org/web/20230609023941/http://www.psychedupthebook.com/)
+(Portfolio, 2017) also ranks high on the list.
+
+Tellingly, one of the top 10 passages on careering has nothing to do with
+achievement at work. It comes from Blinkist’s summary of [_No Hard
+Feelings_](http://web.archive.org/web/20230609023941/https://www.lizandmollie.com/book)
+, a recently published book that calls for [an end to emotional
+compartmentalization](http://web.archive.org/web/20230609023941/https://qz.com/work/1545508/how-
+to-foster-a-culture-of-belonging-at-work) in the office. The favored line: “If
+your mood and life are coming to be dominated by work, then a good approach is
+to simply try to care a little less about your work, and a bit more about
+yourself.”
+
+Below are the full results, the best of the Blinks, so to speak. Do they
+accurately reflect the nuance or revolutionary spirit that helped make the
+books upon which they are based so popular? Tell us your thoughts—tweet to us
+at
+[@QuartzAtWork](http://web.archive.org/web/20230609023941/https://twitter.com/quartzatwork?lang=en),
+send us an email at work@qz.com, or leave a comment on the [Quartz
+app](http://web.archive.org/web/20230609023941/https://qz.com/app).
+
+## The most frequently highlighted passages from Blinkist’s summaries of books
+about careers
+
+  1. **“Empathetic listening means active listening: repeating back to the person what they’ve said in your own words, mirroring their emotions and helping them to structure their own thought processes.”** —[ _The 7 Habits of Highly Effective People_](http://web.archive.org/web/20230609023941/https://www.franklincovey.com/the-7-habits.html)
+  2. “It’s time, the billionaire said, to learn how you can transform your creativity, performance, utility, wealth and productivity. Just rising at 5 a.m. alone won’t do it…**What will is the 20/20/20 formula that says you use 20 minutes to move, 20 minutes to reflect and 20 minutes to grow**.”—[ _The 5 AM Club_](http://web.archive.org/web/20230609023941/https://www.robinsharma.com/book/the-5am-club)[ ](http://web.archive.org/web/20230609023941/https://www.robinsharma.com/book/the-5am-club) (Unbolded text was not part of the highlighted passage but is provided here for helpful context.)
+  3. **“Knowledge blindness occurs when you assess your competencies not on how you actually perform, but on general beliefs about how you should perform.”** _—_[ _Insight: The Surprising Truth About How Others See Us, How We See Ourselves, and Why the Answers Matter More Than We Think_](http://web.archive.org/web/20230609023941/https://www.insight-book.com/)
+  4. **“Begin by breathing deeply. While concentrating on your breath, release the tension in your muscles. Then imagine that all your body’s energy is concentrated in your physical center, the point just beneath your belly button. Once it’s all there, release it.”** —[ _Psyched Up: How the Science of Mental Preparation Can Help You Succeed_](http://web.archive.org/web/20230609023941/http://www.psychedupthebook.com/)
+  5. **“What do you love so much that you’d be willing to make significant sacrifices for it?”** _—_[ _The Execution Factor: The One Skill That Drives Success_](http://web.archive.org/web/20230609023941/https://www.kimperell.com/book/)
+  6. **“The possibility of receiving praise as a reward is a much stronger incentive than the threat of punishment for a bad job.”** —[ _How to Win Friends and Influence People_](http://web.archive.org/web/20230609023941/https://www.amazon.com/dp/B003WEAI4E/ref=dp-kindle-redirect?_encoding=UTF8&asc_campaign=kinjaquartzlink-20&asc_refurl=https://qz.com/work/1672333/blinkist-shares-the-most-popular-passages-from-its-business-book-summaries&asc_source=&btkr=1&tag=kinjaquartzlink-20)
+  7. **“A great way to start a learning loop is to spend 15 minutes of your workday improving a certain skill.”** —[ _Great at Work: How Top Performers Do Less, Work Better, and Achieve More_](http://web.archive.org/web/20230609023941/https://www.mortenhansen.com/book/great-at-work/)
+  8. **“If your type is INFJ, INTJ, ENFP or ENTP, you’re a dominant intuitive, so rather than facts, you focus on implications—all the meaning and subtext that is going on behind the facade that other people can’t see past. You’re also likely to have a strong creative streak and will be in your element if you can exercise your imagination or originality. Have you thought about a job in advertising?”** —[ _Do What You Are_](http://web.archive.org/web/20230609023941/https://www.amazon.com/dp/B00ECE9N2G/ref=dp-kindle-redirect?_encoding=UTF8&asc_campaign=kinjaquartzlink-20&asc_refurl=https://qz.com/work/1672333/blinkist-shares-the-most-popular-passages-from-its-business-book-summaries&asc_source=&btkr=1&tag=kinjaquartzlink-20)
+  9. **“This leaves us with the million-dollar question: How do you start shaking things up and improving your life? The good news is, it’s simpler than you might think. All it takes are three steps—the author calls them awakening, disrupting and designing.”** —[ _Design Your Future_](http://web.archive.org/web/20230609023941/https://www.amazon.com/Design-Your-Future-Drifting-Command-ebook/dp/B077K9J6PT?asc_campaign=kinjaquartzlink-20&asc_refurl=https://qz.com/work/1672333/blinkist-shares-the-most-popular-passages-from-its-business-book-summaries&asc_source=&tag=kinjaquartzlink-20)
+  10. **“If your mood and life are coming to be dominated by work, then a good approach is to simply try to care a little less about your work, and a bit more about yourself.”—**[ _No Hard Feelings: The Secret Power of Embracing Emotions at Work_](http://web.archive.org/web/20230609023941/https://www.lizandmollie.com/book)
+
+## The most frequently highlighted passages from Blinkist’s summaries of books
+about entrepreneurship
+
+  1. **“As Albert Einstein once said, ‘Failure is success in progress.’ What really matters isn’t that you managed to avoid failure your entire life, it’s that you went after your goals and learned the lessons behind the inevitable failures that came your way.”** —[ _Be Fearless_](http://web.archive.org/web/20230609023941/https://readbefearless.com/)
+  2. **“An intrapreneur takes initiative by handling what needs to be done whether or not they’re asked to do so. Intrapreneurs have the get-up-and-go to follow through with “first draft” ideas until they’re polished, profitable products.”** _—_[ _Think Like an Entrepreneur, Act Like a CEO_](http://web.archive.org/web/20230609023941/https://www.amazon.com/dp/B07J1JMDFZ/ref=dp-kindle-redirect?_encoding=UTF8&asc_campaign=kinjaquartzlink-20&asc_refurl=https://qz.com/work/1672333/blinkist-shares-the-most-popular-passages-from-its-business-book-summaries&asc_source=&btkr=1&tag=kinjaquartzlink-20)
+  3. **“Remember: your competitors can offer similar skills, products or services, but they can’t replicate your personality, and your personality is what’s going to allow you to stand out from the crowd – so let it shine!”** —[Company of One: Why Staying Small is the Next Big Thing for Business](http://web.archive.org/web/20230609023941/https://ofone.co/)
+  4. **“When it came to everyday work, Phil followed General Patton’s words of wisdom: “Don’t tell people how to do things. Tell them what to do and let them surprise you with their results.”** —[ _Shoe Dog: A Memoir By The Creator of Nike_](http://web.archive.org/web/20230609023941/https://www.amazon.com/dp/B0176M1A44/ref=dp-kindle-redirect?_encoding=UTF8&asc_campaign=kinjaquartzlink-20&asc_refurl=https://qz.com/work/1672333/blinkist-shares-the-most-popular-passages-from-its-business-book-summaries&asc_source=&btkr=1&tag=kinjaquartzlink-20)
+  5. **“[P]rocrastination can be overcome by imagining your future self.”** —[ _15 Secrets Successful People Know About Time Management_](http://web.archive.org/web/20230609023941/https://www.kevinkruse.com/15-secrets-successful-people-know-about-time-management/)
+  6. **“What we fear doing the most is often exactly the thing we should do to turn our dreams into a reality.”** —[ _The 4-Hour Workweek_](http://web.archive.org/web/20230609023941/https://fourhourworkweek.com/)
+  7. **“Two words—relationships and transactions—make all the difference between a heroic working culture and a toxic one. Heroic cultures are focused on the relationships they have with their employees and clients, and unheroic ones are solely concerned with transactions.”** —[ _The Hero Factor_](http://web.archive.org/web/20230609023941/https://www.herofactorbook.com/hero-factor)
+  8. **“Winning new clients costs anywhere from five to twenty-five times more than retaining an existing customer.”** _—_[ _Growth IQ_](http://web.archive.org/web/20230609023941/https://www.penguinrandomhouse.com/books/565890/growth-iq-by-tiffani-bova/9780525534402/)
+  9. **“What you need to do when you find yourself in a jam is follow this simple, four-step plan: slow your pace, figure out the immediate cause of the crisis, come up with a solution and, finally, proactively implement it.”** —[ _Dear Founder: Letters of Advice for Anyone Who Leads, Manages, or Wants to Start a Business_](http://web.archive.org/web/20230609023941/https://us.macmillan.com/books/9781250195647)
+  10. **“Every day, write down ten ideas on new ways you could pursue your passions.”** —[ _Reinvent Yourself_](http://web.archive.org/web/20230609023941/https://www.amazon.com/dp/B01NAM6W70/ref=dp-kindle-redirect?_encoding=UTF8&asc_campaign=kinjaquartzlink-20&asc_refurl=https://qz.com/work/1672333/blinkist-shares-the-most-popular-passages-from-its-business-book-summaries&asc_source=&btkr=1&tag=kinjaquartzlink-20)

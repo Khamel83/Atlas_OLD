@@ -1,0 +1,157 @@
+# Money Stuff: You Can SPAC Your SPAC
+
+**Source**: inputs/saved_emails/Money Stuff You Can SPAC Your SPAC_Wed,_19_May_2021_12-50-58_-0400_(EDT)_179858ad05c094cf.eml
+**Type**: email
+**Created**: 2025-08-25T02:54:01.557047
+
+---
+
+Money Stuff
+  
+body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: 0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid #000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {} 
+
+
+
+  
+  
+    
+      
+        
+          
+            
+              
+                
+              
+            
+          
+        
+        
+          
+            
+          
+        
+      
+
+
+    
+        
+            
+                
+            
+        
+    
+
+
+
+
+      
+      
+  
+    
+      SPAC SPAC SPAC all rightEvery time I write about special purpose acquisition companies someone emails me to be like “I am going to launch a SPAC of SPACs,” and it is always pretty half-baked. A SPAC is a blank-check company that raises money to merge with another company, and that is a meta enough idea that people want to make it more meta. “A SPAC that raises money to buy SPACs” is more meta, sure, but it doesn’t make any sense. A SPAC is a tool, it’s a particular way to raise money to take companies public; multiplying the abstraction doesn’t add anything. But  here’s this:It’s the latest twist in the world of blank-check mergers: A company plans to go public with a SPAC and use it to buy back an affiliate that it took public using another SPAC.This circular scenario revolves around a drugmaker called Roivant Sciences Ltd., which wants to merge with a special-purpose acquisition company and then take over a SPAC that acquired Immunovant Inc. from Roivant less than two years ago.What’s more, Roivant says it knows something that everyone else doesn’t about its former unit, and it’s willing to pay a premium for the shares -- perhaps as much as 70% by one estimate.A SPAC-on-SPAC deal is such an oddity that people who follow shell companies can’t remember it happening before, or anything like Roivant’s head-spinning version. “In the years I’ve been analyzing SPACs, I’ve never seen a transaction like this,” said Neil Danics, founder of SPAC Analytics in Toronto and who has been providing research on the industry since 2007. …“If you can raise a bunch of money with a SPAC and then use that relatively cheap cash to buy a company at a valuation they find attractive -- that seems like a rational approach,” says Nikolai Roussanov, a finance professor at the University of Pennsylvania’s Wharton School.The plan goes like this: Roivant has proposed to be acquired by a SPAC called Montes Archimedes Acquisition Corp. in a combination valued at about $7.3 billion, according to filings. Roivant would be the surviving entity, and in turn, would offer a mix of stock and cash to buy up shares that it doesn’t already own in Immunovant, an early-stage drugmaker. Roivant spun that off in 2019 into a SPAC called Health Sciences Acquisitions Corp., in return for shares and other considerations initially valued at $395 million.The reason Roivant is willing to pay up isn’t immediately clear. Human trials on Immunovant’s main prospect, a monoclonal antibody injection aimed at ailments such as myasthenia gravis and thyroid eye disease, were halted February 2 because of concern about potential side effects.The SPAC-on-SPAC angle is funny, but I am not sure one should overemphasize it. Nothing really turns on any of this being a SPAC. The story is that Roivant is a company that operates as a sort of pharmaceutical conglomerate/incubator. It says:We develop drug candidates in subsidiary companies we call “Vants” …. Our Vants continue to benefit from the support of the Roivant platform and technologies that are built to address inefficiencies in the drug discovery, development and commercialization process. … The Vant model also enables a modular approach to the monetization of therapies we advance through development, allowing us to pursue commercialization of some products independently, while selectively establishing partnerships for other Vants or divesting of the Vants entirely.Since our founding in 2014, we have … launched and taken public multiple Vants, resulting in an aggregate ownership stake of $1.1 billion in public Vants as of April 30, 2021, based on a $288 million aggregate investment in those Vants.So it develops drugs in subsidiaries and takes some of those subsidiaries public, while retaining majority stakes in them. Once upon a time it might have done that with initial public offerings, but now obviously the way to take a pre-revenue drug company public is by merging it with a SPAC, so that’s what Roivant did with Immunovant in late 2019.Now Immunovant is public, Roivant owns 57.5% of it, and apparently Roivant knows something that the market does not: “As the Issuer’s controlling shareholder, Roivant has received nonpublic information about the Issuer and its lead product candidate,” says Roivant’s Schedule 13D. So it wants to buy up the Immunovant shares that it doesn’t own, at a premium to their market price. That will require money, perhaps a billion dollars or so, which means going out to investors to raise the money.[1] In today’s market, if you are a pharmaceutical company going to investors to raise money, you might as well go to a SPAC: SPACs have lots of money and are looking to spend it. Obviously IPOing a pre-revenue drug company and then buying it back a year later because you know something about its drug candidate that the market doesn’t is itself an interesting business move! But doing both legs of the deal — IPOing the company and then buying it back — via SPAC is not especially strange. It’s just that SPACs are the hottest all-purpose tool of corporate finance right now, or at least they were a few months ago when all this was dreamed up. If you want to raise money to sell a company, or to buy it back, why not do it with a SPAC?Bitcoin went downHmm,  well:Bitcoin took investors on a wild ride Wednesday, plunging as much as 29% before cutting the drop in half in a bout of selling that drew attention across Wall Street and social media. ...Bitcoin plunged as much as 29%, wiping out more than $500 billion in value from the coin’s peak market value. It was down 15% to $36,700 as of 10:53 a.m. in New York. It has erased all the gains it clocked up following Tesla Inc.’s Feb. 8 announcement that it would use corporate cash to buy the asset and accept it as a form of payment for its vehicles. Ethereum, the second-biggest coin, sank more than 40%, while joke token Dogecoin lost 45%. ...Tesla CEO Elon Musk sparked the wild moves last week. Bitcoin plunged when he announced the carmaker wouldn’t take it as a payment, but then reversed when he said the company had no plans to sell its corporate crypto holdings. He seemed to imply in a tweet Wednesday that Tesla is not selling into the rout.Yeah the way he implied that is by tweeting “Tesla has diamond hands,” only with a diamond emoji and a hands emoji instead of the words “diamond” and “hands.” It would be funny if Tesla was dumping all of its Bitcoins while he was tweeting that. Would it be fraud? Imagine being the Securities and Exchange Commission and trying to bring that case.[2] “Your Honor, clearly the diamond emoji followed by the hands emoji meant that Tesla was not selling any of its Bitcoin holdings, and market participants would have interpreted it that way.” Absolutely true! Yet somehow embarrassing to say. Anyway Musk tweeted that at 10:42 a.m. New York time, and in the following half hour Bitcoin rallied from a bit under $35,000 to a bit over $37,000. He’s still got it!  I wrote, ugh, Monday that Musk has the ability to make Bitcoin go up or down whenever he wants, with his tweets, with no limits on that power. And today there’s a huge Bitcoin crash — caused in part by Musk’s bad-for-Bitcoin tweeting over the weekend, though also by a Chinese regulatory crackdown — and so Musk decided to make Bitcoin go back up. So he tweeted two words and two emojis and, bang, it went back up. The best estimate  I’ve seen for the price that Tesla paid for its Bitcoins is about $34,700, and it has about $1.3 billion of Bitcoins at that price. Bitcoin briefly got as low as $30,000 this morning, which would put Tesla down about $180 million on its Bitcoin stash — which (unlike any unrealized gains) Tesla would have  to report as a loss in its quarterly earnings. It would be kind of weird if Tesla had to report a nine-figure loss this quarter caused primarily by its CEO trash-talking one of its assets. Normal CEOs don’t do that. Fortunately Tesla doesn’t have to report a loss like that, because if the price of Bitcoin ever gets below its cost basis, Musk can just make the price go back up again! Like he just did.Elsewhere, the great thing about decentralized trustless blockchain-based digital assets is that when the price goes down  no one can trade them:The world’s biggest crypto-trading platforms were hit by disruptions as digital currencies from Bitcoin to Ethereum slid in a collapse that wiped out billions of dollars in market value.Binance, the world’s biggest cryptocurrency exchange, temporarily disabled Ethereum withdrawals, citing network congestion, while Coinbase Global Inc. reported “intermittent downtime” on its platform, before saying it had identified and fixed the issue. Kraken said it’s working to fix some client disruptions.
+
+
+    
+        
+            
+                
+                    
+                        
+                            
+                                Paid Post
+                                
+84% of ultra-high-net-worth individuals collect art. It makes sense —contemporary art appreciated 13.6% per year over the last 25 years vs. 8.9% returns for the S&P 500.
+
+Masterworks has fractionalized investments in masterpieces by Basquiat and Banksy. If you're looking for a tangible, non-correlated asset class, 
+check out Masterworks today.  
+
+(See Disclaimer)
+
+                                Masterworks
+                            
+                        
+                    
+                
+            
+        
+    
+
+
+DiscoveryDiscovery Inc. has three classes of stock. There are 162.5 million shares of Series A stock (ticker DISCA), which has one vote per share. There are 6.5 million shares of Series B stock (DISCB), which has 10 votes per share. There are 318.3 million shares of Series C stock (DISCK), which has no votes. How much more would you pay for voting Series A stock than you’d pay for non-voting Series C stock? I dunno; I am not all that convinced that voting rights in a public company are particularly valuable. But there is a market answer to this question. Yesterday the Series A closed at $33.31 per share, while the Series C closed at $31.29, for a spread of $2.02. The median spread in 2021 so far has been $6.10; it got as high as $13.45 on March 16, while yesterday’s $2.02 was its low point for the year. How much more would you pay for super-voting Series B stock than you’d pay for regular-voting Series A stock? Super votes are nice, but generally not as nice as they sound. John C. Malone, the cable-TV mogul and financial-structuring legend who once ran a predecessor of Discovery and is currently on its board of directors, owns 95% of the Series B stock. He has super-voting power, sure; he owns something like 4% of the company but has 26.5% of the votes. But if you buy 1,000 shares of Series B stock, that will not give you much say over the company. In fact, if you buy all 327,099 Series B shares that Malone doesn’t own, that will give you only 3.27 million votes, or about 1.4% of the voting power of Discovery’s shares. Super-voting stock is generally a way to concentrate control in the hands of one or two influential founder types (here, Malone); it is not generally a way for, like, an activist hedge fund to efficiently accumulate a lot of voting power in the open market. Also, as is often true of super-voting shares, the Series B trades much less actively than the Series A (or Series C), so you might expect it to have an illiquidity discount. It’s easier to sell a lot of Series A stock quickly, which you might find valuable.Nonetheless yesterday the Series A closed at $33.31 per share, while the Series B closed at $78, for a premium of $44.69. In 2021 so far, the spread between them has been as high as $84.54 — on March 31, when the Series B closed at $128 and the Series A at $43.46 — and as low as negative $1.52 in January.It’s weird. One rationale you might have had for paying up for the Series B might have gone like this: If I buy Series B stock, I will not have much power over Discovery. But John Malone owns a lot of Series B stock and has a lot of power over Discovery, including some power to push or block a merger. Since he has this power, he will want to get a premium for his Series B shares in any merger. Therefore, if Discovery agrees to a merger, my Series B stock will get paid off much more than Series A stock will, so I should pay more for it now.I don’t know if anyone had this rationale, but if they did it was wrong. Discovery did agree to a merger: On Monday, AT&T Inc. announced that it would spin off its WarnerMedia content assets and combine them with Discovery in “an all-stock, Reverse Morris Trust transaction.” The new combined company will have one class of stock, and every Discovery share — Series A, B and C — will be exchanged for one undifferentiated share of the new company.[3] Malone, in particular, is  not getting anything extra:“I am delighted to fully support this transaction, without asking for or receiving a premium for my high vote shares,” Malone said Tuesday in a statement. “I believe we are creating real value for shareholders and a legacy investment for my grandkids.”That’s from an article titled “Cable Billionaire Malone May Take $280 Million Hit on AT&T-Discovery Deal.” That $280 million is just his 6.2 million high-vote shares times the $44.69 premium at which they traded yesterday; that premium will go away when the merger closes.Why are the Series B shares still trading at a premium? I suppose the main answer is just that they don’t trade that much; only about 17,000 shares traded yesterday, and only about 44,000 traded on Monday when the deal was announced. (On Monday, 89.5 million shares of Series A and 37.5 million shares of Series C traded.) Only so many people have Series B shares and want to sell them, and because they are so concentrated they are hard to borrow, so no one is really shorting them. There is not really an arbitrage. Still, somebody is selling, a little bit, which makes sense; you might as well cash in that premium now while it still exists. The question is why anyone wants to buy them.In other Discovery/AT&T news, here’s how mergers happen in 2021:AT&T’s negotiations with Discovery heated up earlier this year, when Discovery Chief Executive David Zaslav texted [AT&T CEO John] Stankey a series of emojis during the airing of the Pro-Am golf tournament at Pebble Beach, which AT&T sponsors. Talks continued with face-to-face meetings at Mr. Zaslav’s Greenwich Village townhouse in New York City and meals outdoors.What were the emojis? Is there an emoji that is generally understood to mean “merger”? Eventually AT&T and Discovery will file a registration statement and proxy for the merger, and there will be a “Background of the Merger” section with an extensive play-by-play of how the deal was conceived and negotiated. Surely this anecdote will be in the background section. Will it be bland and vague — “on Feb. 11, 2014, Mr. Zaslav contacted Mr. Stankey to propose further discussions about a business combination,” etc. — or will it list the emojis? Will it print the emojis, or describe them in words? “Mr. Zaslav sent Mr. Stankey a text message consisting of the ‘emojis’ for man swinging golf club, hand with thumb up, and smiling face, followed by another text message consisting of the ‘emojis’ for bag with dollar sign on it, bag with dollar sign on it, bag with dollar sign on it, bag with dollar sign on it, bag with dollar sign on it, bag with dollar sign on it, bag with dollar sign on it, telephone, question mark.”Elsewhere in M&AA good general rule of thumb is that if you hire a specialist to invest in an asset class, that person will be good at choosing which particular assets in that class to buy, but bad at deciding how much money to allocate to that asset class overall. If you hire a tech-stocks analyst, she will (you hope) be good at picking which tech stocks will outperform other tech stocks. But if the tech sector as a whole is overvalued, she probably will not come to you and say “you should stop investing in tech stocks.” Her job is investing in tech stocks, and the more tech stocks you buy the more important (and better paid) she is, so her bias is to get you to buy more tech stocks. If she gets you to buy the (relatively) correct tech stocks, but tech stocks as a whole underperform, you may be worse off than if you had never hired a tech specialist.Similarly, some public companies have mergers-and-acquisitions departments, and others don’t. The trade-off is pretty much:	If you have an M&A department, the people in it might do a good job of deciding which acquisitions to pursue, how much to pay for them and how to integrate them, but they will want to do a lot of M&A.	If you don’t have an M&A department, you’ll choose your acquisitions somewhat haphazardly, but you might do fewer of them.One theory of M&A is that acquisitions are corporate finance decisions like any other, and that you should try to do ones with positive expected value and avoid ones with negative value. Another theory of M&A is that acquisitions are largely a way for chief executive officers to “empire build,” aggrandizing themselves by making their companies bigger even at the cost of shareholder value. If you believe the first theory, you might like an M&A department, because it might choose good deals and avoid bad ones. If you believe the second theory, you might hate an M&A department, because it might just increase the number of deals and encourage the CEO’s empire-building.Anyway here's “Do Firms with Specialized M&A Staff Make Better Acquisitions?” by Sinan Gokkaya, Xi Liu and René Stulz (free SSRN version here):We open the black box of the M&A decision process by constructing a comprehensive sample of US firms with specialized M&A staff. We investigate whether specialized M&A staff improves acquisition performance or facilitates managerial empire building instead. We find that firms with specialized M&A staff make better acquisitions when acquisition performance is measured by stock price reactions to announcements, long-run stock returns, operating performance, divestitures, and analyst earnings forecasts. This effect does not hold when the CEO is powerful, overconfident, or entrenched. Acquisitions by firms without specialized staff do not create value, on average. We provide evidence on mechanisms through which specialized M&A staff improves acquisition performance. For identification, we use the staggered recognition of inevitable disclosure doctrine as a source of exogenous variation in the employment of specialized M&A staff.So it’s a bit of both, but mostly M&A departments are good. Also, the reason M&A departments are good is mostly that they are good at picking targets, not that they are great at negotiating prices — though they do seem to be good at keeping down the costs of investment-bank advice:How does specialized M&A staff create value for the acquirer’s shareholders? Our results suggest that specialized M&A staff helps acquirers identify targets that have higher synergies with the acquirer as reflected in higher combined announcement returns and improvements in the combined firm’s abnormal operating performance in the post-acquisition period. We do not find evidence that specialized M&A staff drives a better bargain for the acquirer in that such acquirers capture more of the combined synergy gains or pay lower takeover premiums. Moreover, while these firms do not seem to retain fewer external advisors, we find that they pay lower advisory fees. The lower fees paid by firms with specialized M&A staff further suggest that the specialized M&A staff performs some tasks that otherwise would be performed by the investment bankers. That last part is not obvious: Maybe if you hire an M&A staff, they will talk to investment bankers all day, get used to relying on bankers to do lots of work for them, and feel a sense of fondness and obligation to the bankers that leads to higher fees, while if the CEO just cuts her own deals she will not feel particularly beholden to bankers. But, no, empirically, corporate M&A departments seem to be substitutes for investment bankers, not complements. Shiba InuWell  there’s that answered:Vitalik Buterin, inventor of the Ethereum blockchain, said he won’t get a tax write-off after donating more than 50 trillion of the joke coin Shiba Inu to the India Covid Crypto Relief Fund.Because Shiba Inu, a meta play on the ridiculousness of Doge Coin, has been incredibly volatile lately, the value of Buterin’s donation has fluctuated wildly. At one point it was worth about $2 billion, then fell to around $800 million.Buterin said in an interview that he’s taxed as a citizen of Singapore, whose rules are “significantly cleaner than in the U.S. or Canada.” He’s not eligible for a write-off, he said. I didn’t really think he would get a write-off — jurisdiction aside, does he have $1 billion of taxable income? — but I did  mention the possibility the other day.By the way, when we discussed it, I mentioned that I assumed his basis in the Shiba Inu token was very low or zero — “presumably Buterin didn’t pay very much for it,” I said. That was, uh, an understatement. The way Buterin got 50 trillion Shiba Inu coins was that the developers of Shiba Inu sent them to him, for free, unasked-for. From the — I'm sorry — Shiba Inu woof paper:After we finished minting 1 quadrillion tokens, we put half into Uniswap and threw away the keys. Then, the remaining 50% was “burned” to Vitalik Buterin’s wallet, which was the start of our Army.A footnote adds:Please note that the Shib in VB’s wallet, at the time of this writing, was his #1 HIGHEST valued token, even exceeding the value of the Ethereum there. This is an incredible accomplishment, and we are just getting started.As I understand it, inventors of altcoins sometimes “burn” a chunk of those coins to Buterin as a sort of publicity play. You get to say that Vitalik Buterin owns some of your coin. You get to inflate the “market cap” of your coin: Market cap is the trading price times the amount outstanding, and if you put trillions of coins in the hands of someone who won’t sell or spend them, you can inflate the multiplier and achieve a huge market cap without much trading. And it is assumed by altcoin developers that Buterin won’t sell the altcoins that get “burned” to him, because that would undermine his status as a pure-hearted evangelist for Ethereum, and because he just seems to be too busy to spend any money.I am sure that Buterin finds it a bit annoying to receive billions of dollars’ worth of random altcoins? A few conclusions:	I cannot believe that I typed that sentence; imagine being a person who is annoyed to wake up and find yourself a billion dollars richer. Cryptocurrency economics are so weird.	Feel free to burn half of your billion-dollar altcoins to me instead I guess? 	Buterin’s way of getting around this problem — donating the random altcoins to a worthy cause, and letting the charity sell them — is pretty neat.	That said, it doesn’t exactly solve the underlying problem (the problem of people inventing random altcoins and sending him a bunch), because this donation seems to have been free good publicity for Shiba Inu, even if it did push down the price. Shiba Inu coin is somehow providing hundreds of millions of dollars of Covid relief in India; seems good.Accounting rapHere’s an accounting rap. You presumably know how I feel about this. (Bad, I feel bad about this, never do a corporate rap parody.)Things happenAndrea Orcel and Ana Botín face off in Madrid courtroom over pay row. Bank of America to Raise Minimum Wage to  $25 Per Hour in Race for Talent. Post-Archegos  Hedge Fund Financing Faces Close Scrutiny by BOE. Hertz, the Original Meme Stock, Rewards Its True Believers. Colonial Pipeline’s Computer Network Temporarily  Goes Dark. China Mobile to List in Shanghai as It Departs NYSE. Hedge Funds Increase Bets on Private Companies. Nvidia tries to stop its chips being used for crypto mining. Newly Launched Bitcoin Pizza Brand Doesn’t Accept Bitcoin.If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] To be clear, it will also require *disclosure*: If Roivant and Immunovant agree to a deal, they will need to disclose to Immunovant’s other shareholders any material nonpublic information that Roivant considered in proposing the deal. There will probably always be some information disparity between Roivant — a drug company that started Immunovant and is the majority shareholder — and the Immunovant public shareholders, but if there is big material news then they’ll have to disclose it before closing the deal.[2] Bitcoin is not a security and it would have to be a case about Tesla stock, which seems tricky, but never mind, never mind.[3] This is discussed on page 13 of the investor call transcript.
+    
+  
+
+
+    
+      
+        Follow Us
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+      
+      
+        
+          Get the newsletter
+        
+      
+    
+
+
+      
+      
+  
+    
+       
+    
+    
+      
+    
+    
+      Like Money Stuff? | 
+Get unlimited access to Bloomberg.com, where you'll find trusted, data-based journalism in 120 countries around the world and expert analysis from exclusive daily newsletters.
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+    
+    
+       
+    
+  
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+    
+  
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ce84ns.5vfn/9f537120.gif" alt="" border="0" /></a>

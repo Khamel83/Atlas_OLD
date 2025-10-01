@@ -1,0 +1,559 @@
+# Money Stuff: People Really Want SpaceX Shares
+
+**Source**: inputs/saved_emails/Money Stuff People Really Want SpaceX Shares_Thu,_12_Dec_2024_18-10-15_+0000_193bc10a34f68efe.eml
+**Type**: email
+**Created**: 2025-08-25T02:53:58.919312
+
+---
+
+Money Stuff 
+ How much would you pay for stock in SpaceX or OpenAI? There are data points. 
+SpaceX printed a trade recently at about a $350 billion valuati 
+
+
+ 
+<https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine?cmpid=BBD121224_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241212&utm_campaign=moneystuff>
+ 
+<https://sli.bloomberg.com/click?s=825881&stpe=default&li=12007235&m=21d6dea82d6b16615cf44233be620525&p=12122024>
+
+
+
+Special purpose vehicles
+
+How much would you pay for stock in SpaceX or OpenAI? There are data points. 
+SpaceX printed a trade recently at about a$350 billion valuation 
+<https://www.bloomberg.com/news/articles/2024-12-10/spacex-share-sale-is-said-to-value-company-at-about-350-billion?cmpid=BBD121224_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241212&utm_campaign=moneystuff>
+; OpenAI did one not long ago at$157 billion 
+<https://www.nytimes.com/2024/10/02/technology/openai-valuation-150-billion.html>
+. If you are a big private-markets institutional investor and OpenAI or SpaceX 
+calls you up and asks you to invest, you might take those valuations as a 
+starting point.
+
+But what if you’re not? What if you’re just some dentist 
+<https://www.bloomberg.com/opinion/articles/2018-09-24/earning-the-right-to-get-swindled?cmpid=BBD121224_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241212&utm_campaign=moneystuff>
+, OpenAI and SpaceX aren’t calling you for a funding round, but you want to buy 
+their stock? How much should you pay?Obviously more, is the short answer: Lots 
+of dentists want OpenAI and SpaceX stock, and there isn’t very much available 
+to them.
+
+How much more? A useful data point is DXYZ 
+<https://www.bloomberg.com/opinion/articles/2024-04-09/a-meme-stock-for-private-companies?cmpid=BBD121224_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241212&utm_campaign=moneystuff>
+, the Destiny Tech100 fund, a publicly traded closed-end fund that owns shares 
+of hot private tech companies, including SpaceX. DXYZ trades at something on 
+the order of a 1,000% premium to its net asset value: It owns about $56 million 
+of private tech stocks, but its own shares trade at a market capitalization of 
+about $720 million. One way to think about this is that retail investors are 
+willing to pay $1,100 to invest $100 in hot startups like SpaceX. If I came to 
+you and said “if you give me $800, I will give you $100 worth of SpaceX shares 
+and keep $700 for myself,” I would be offering you, relatively speaking, a 
+pretty good deal. [1]  <>
+
+Here’s a better deal 
+<https://www.theinformation.com/articles/special-funds-offer-shares-of-spacex-and-openai-for-a-price>
+:
+
+In the fall, a Miami-based firm called Sand Hill Road Technologies Fund 
+offered its customers a hot opportunity: a chance to invest in SpaceX, which 
+was arranging a deal for employees to sell some of their shares. But Sand 
+Hill’s prospective investors, wealthy individuals whom the fund reached through 
+online ads on Google and Meta Platforms apps as well as email and text, 
+wouldn’t get the shares directly. And it would cost them.
+
+Sand Hill told prospective investors they could get access to shares of SpaceX 
+for $258 a share, roughly double the $135 that institutional investors at the 
+time were expected to pay. To do this, they would invest in a fund—or special 
+purpose vehicle—that was investing in another SPV buying the shares, according 
+to Sand Hill founder and executive officer Robert Hodgins. If SpaceX ever went 
+public or sold, the investors would also pay 20% of the profit, a fee called 
+carried interest, on the investment, to Sand Hill, said Hodgins.
+
+Such high costs for getting a piece of SpaceX reflect the growing demand from 
+individual investors seeking stakes in private tech startups. Well-off retail 
+investors are turning to intermediaries who promise access through SPVs. For 
+shares of some startups, like OpenAI, demand is so high that investors buy 
+stakes in SPVs that in turn have stakes in other SPVs. But these complex 
+structures, called double- or second-layer SPVs, create opportunities for 
+misrepresentation and even fraud.
+
+They also charge for access. Investors in these second-rung SPVs often pay 
+more in fees than those investing in the first layer or directly in the 
+startup, as venture firms do. Half of the 20% carry fee charged to investors in 
+the second-layer Sand Hill SPV goes to managers in the first fund, according to 
+Hodgins.
+
+The market seems to be sending a signal. The signal is: “A lot of retail 
+investors want to own shares in SpaceX and will pay much more for those shares 
+than SpaceX’s current private-market valuation.” In the olden days, a giant 
+established private company might respond to that market signal bygoing public 
+and selling stock to retail investors itself. But if SpaceX doesn’t want to do 
+that, someone else will step in to meet the demand.
+
+By the way, there’s another trade here. Schematically, if there is a ton of 
+demand for a company’s shares, then two sorts of people can step in to provide 
+more shares. One is the company: SpaceX or OpenAI could go public, sell new 
+stock to retail investors, and get a price that clears the market. SpaceX’s 
+valuation, as a public company, might plausibly be higher than its current 
+private valuation of $350 billion, but lower than the $670 billion implied by 
+that Sand Hill fund price. (Or the, like, $3.5 trillion implied by DXYZ. [2]  <>
+)
+
+The other is short sellers: If a lot of people want to buy a stock, and its 
+price seems too high, short sellers step in to sell extra shares of stock. That 
+is traditionally harder to do in private markets; you can’t borrow private 
+shares and short them like you would in public markets. But you could get 
+pretty close, right? Here is the trade:
+
+ * You set up an SPV that offers people access to SpaceX shares. 
+ * You charge them, say, 300% of the current price of SpaceX: They have to buy 
+at a $1.05 trillion valuation, because demand is high and supply is scarce. 
+ * You don’t buy the SpaceX shares. 
+ * The SPV just holds the investors’ cash, but owes the investors SpaceX 
+shares. 
+ * Eventually SpaceX goes public at some valuation, and you go out and buy the 
+shares in the open market and deliver them to your investors. [3]  <> 
+ * If SpaceX goes public at a valuation of less than $1.05 trillion, you buy 
+back the shares for less than the money in the SPV, and you keep the rest. This 
+is your profit from shorting SpaceX. Not at its current $350 billion private 
+valuation, but at its much higher SPV valuation: You’re not just shorting 
+SpaceX; you’re shorting “intense demand for SpaceX from retail investors.” 
+ * If SpaceX goes public at a valuation of more than $1.05 trillion, you buy 
+back the shares for more than the money in the SPV, and you are out of pocket 
+for the rest. You bet wrong, and this is your loss from shorting SpaceX. 
+ * If SpaceX goes public at a valuation of much more than $1.05 trillion, you 
+don’t have enough money to buy the shares to deliver to your investors, and you 
+probably go to prison. 
+There’s a decent chance you’d go to prison anyway — “an SPV of SpaceX shares 
+that doesn’t own any SpaceX shares”seems like it would be a crime, and there 
+are cases <https://www.sec.gov/newsroom/press-releases/2024-159> — but you 
+could probably find a way to make it work. The real trade is that you set up an 
+SPV that ownsswaps or forward contracts 
+<https://www.bloomberg.com/opinion/articles/2024-04-08/public-markets-are-the-new-private-markets?cmpid=BBD121224_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241212&utm_campaign=moneystuff>
+ on SpaceX, and the swap or forward counterparty is some creditworthy 
+institutional investor that does not own any SpaceX shares but wants to short 
+SpaceX at 3 times its current price. This is not investing or legal advice, but 
+man is there a lot of demand for these shares; someone should make more of them.
+
+ 
+<https://sli.bloomberg.com/click?s=868432&stpe=default&li=12007235&m=21d6dea82d6b16615cf44233be620525&p=12122024>
+
+ 
+<https://sli.bloomberg.com/click?s=868432&stpe=default&li=12007235&m=21d6dea82d6b16615cf44233be620525&p=12122024>
+
+Insider trading on being fired
+
+We talked once 
+<https://www.bloomberg.com/opinion/articles/2024-04-02/a-hedge-fund-that-s-also-a-newspaper?cmpid=BBD121224_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241212&utm_campaign=moneystuff>
+ about an insider trading hypothetical involving being hired as the chief 
+executive officer of a public company. In this hypothetical, you do not yet 
+work at the company, but you have a job interview to be the CEO, and you think 
+it went well. You are a confident person, so you walk out of the interview 
+thinking (1) “that went well and they will definitely hire me,” (2) “I will do 
+a great job and everybody knows it, so the stock will go up” and (3) “I love 
+this company and want to support it by owning its stock.” So you go buy a bunch 
+of stock. A week later, the company does indeed announce that it is hiring you 
+as CEO, and the stock does indeed go up. Are you guilty of insider trading? 
+Ehh, maybe. But to me it mostly seems like charming optimism and alignment of 
+interests, the sort of thing the company should be happy about. (The 
+hypothetical was based on a real situation at the Dutch soccer club AFC Ajax 
+NV, whichsuspended its CEO 
+<https://www.nytimes.com/athletic/5445144/2024/04/25/alex-kroes-ajax-return/> 
+for allegedly doing this.)
+
+What about the reverse hypothetical? You are the current CEO of a public 
+company and one day the board of directors calls you in and says “you’re 
+terrible at this and we are firing you for cause; we’ll put out the press 
+release tomorrow.” You walk out of the boardroom thinking one or more of these 
+things:
+
+ * “I am a great CEO and everybody knows it, so when they announce that 
+they’re firing me the stock will drop”; 
+ * “They’re right, I’m terrible at this, and when the market sees how badly 
+I’ve done the stock will drop”; and/or 
+ * “I hate this company and no longer want to support it by owning its stock.” 
+So you go and sell all your stock. Are you guilty of insider trading? 
+Probably! Still doesn’t it feel a little bit like there should be an exception? 
+Shouldn’t you be allowed, just the once, to insider trade out of pique?
+
+This guy allegedly did it 
+<https://www.sec.gov/newsroom/press-releases/2024-195>:
+
+The Securities and Exchange Commission [Wednesday] announced insider trading 
+charges against Ken Peterman, the former CEO, president, and Chair of the Board 
+of Comtech Telecommunications Corp., in connection with his sale of Comtech 
+shares on the basis of material non-public information about Comtech’s 
+forthcoming negative quarterly earnings results.
+
+According to the SEC complaint, Peterman allegedly received a confidential 
+presentation detailing Comtech’s forthcoming negative quarterly earnings 
+results on March 4, 2024. He was allegedly informed that he was being 
+terminated for cause eight days later, on March 12, 2024. The SEC’s complaint 
+alleges that a few hours after he was terminated, and while subject to two 
+different trading blackouts, Peterman placed an order to sell Comtech stock. On 
+March 18, 2024, Comtech reported its negative quarterly earnings, which caused 
+its stock price to drop more than 25 percent. The complaint alleges that 
+Peterman avoided losses of about $12,445 by trading in advance of Comtech’s 
+negative earnings announcement. Peterman allegedly directed his financial 
+advisor to sell additional Comtech stock he held in a joint account, but the 
+financial advisor was unable to complete the sale because of a trading 
+blackout. Had the sale been completed, Peterman allegedly would have avoided 
+additional losses of about $110,000.
+
+Weirdly, while the company’s quarterly results were terrible and caused the 
+stock to drop by 25%, that’s not why he was fired. (And in fact his firing was 
+announced the morning of March 13, five days before the bad earnings; the stock 
+dropped 27% that day.) Here’swhy he was fired 
+<https://www.sec.gov/files/litigation/complaints/2024/comp-pr2024-195.pdf>:
+
+On March 11, 2024, Peterman was interviewed by Comtech’s outside counsel in 
+connection with an internal investigation.
+
+During the interview, Peterman acknowledged that he had engaged in a sexual 
+relationship with a subordinate employee over the course of several months in 
+2023 and that he had failed to disclose the relationship to Comtech or its 
+Board, including by omitting any mention of this undisclosed sexual 
+relationship in his responses to the Directors and Officers Questionnaire that 
+he signed on October 12, 2023. During the interview, Peterman also acknowledged 
+that in December 2023, he directed the subordinate employee to use his 
+credentials to log in and complete the online annual sexual harassment training 
+required for all Comtech employees.
+
+I feel like if you are having an undisclosed sexual relationship with an 
+employee you should at least take the online sexual harassment training 
+yourself? You might learn something useful.
+
+
+Everything is securities fraud
+
+In 2023, Target Corp. did a Pride Month marketing event that led to a 
+conservative backlash and boycott. Target’s stock went down. As I often say 
+around here, “a company did a thing and its stock went down” is the minimal 
+form of securities fraud, and so people —specifically 
+<bbg://news/stories/RZ3CDGT1UM0W> “America First Legal Foundation, led by 
+former senior Trump adviser Stephen Miller” — sued Target for securities fraud.
+
+Now it cannot be literally true that anything that a company does is 
+securities fraud if its stock goes down. Securities fraud normally requireslying
+to investors, ormisleading them, or at least not mentioning something 
+important. There are two normal forms of “everything is securities fraud.” One 
+is:
+
+ * A company does a bad thing. 
+ * It doesn’t tell anyone about it. 
+ * Eventually it does, and its stock goes down. 
+ * Investors sue, saying “I bought the stock after you did the bad thing but 
+before you told us about it, so I was misled, and when you told us about it, 
+the stock went down. 
+So if the company’s chief executive officer commits sexual harassment for 
+years, and the company never mentions it, and then one day the company fires 
+the CEO and discloses that he was doing harassment, arguably that is fraud.
+
+The other is:
+
+ * A company does a bad thing. 
+ * It immediately discloses the bad thing, and the stock goes down. 
+ * Investors sue, saying “your disclosures before the bad thing made me think 
+that you wouldn’t do the bad thing, but those disclosures were misleading, 
+because you did the bad thing.” 
+So if the company’s CEO commits sexual harassment, and the company discloses 
+it five minutes later and fires him, you can’t really sue the company for lying 
+about his sexual harassment. But if the company had an ethics policy saying “we 
+expect our executives to behave appropriately,” and publicized that policy,
+maybe you can sue the company 
+<https://www.bloomberg.com/news/newsletters/2020-05-01/money-stuff-it-doesn-t-pay-to-be-too-ethical?cmpid=BBD121224_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241212&utm_campaign=moneystuff>
+ because the ethics policy is arguably misleading. “You told me executives 
+would act ethically, and they didn’t.” [4]  <>
+
+In these examples, I am trying to stretch the theory as far as it will go. 
+“You didn’t mention the CEO’s sexual harassment” and “you had an ethics policy 
+but the CEO did harassment anyway” areweak cases of securities fraud. On the 
+theory that everything is securities fraud, I expect people tobring lawsuits 
+like this but not necessarily towin them. Sometimes a judge will dismiss them, 
+saying that the company didn’t actually say anything materially misleading.
+
+The Target case struck me as even weaker. Target did, obviously, tell everyone 
+about its Pride Month marketing event. (It was a marketing event!) Last year,I 
+wrote 
+<https://www.bloomberg.com/opinion/articles/2023-08-09/barstool-sold-high-and-bought-low?cmpid=BBD121224_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241212&utm_campaign=moneystuff>
+ that the complaint “is pretty goofy” and that the plaintiffs “do not try very 
+hard to actually make out a case for securities fraud, which requires not only 
+that a company did a thing that you don’t like but also that itlied about it.” 
+Target never hid its Pride Month event, and its2021 annual report 
+<https://www.sec.gov/ix?doc=/Archives/edgar/data/27419/000002741922000007/tgt-20220129.htm>
+ included a risk factor that pretty clearly warned investors about this sort of 
+risk:
+
+Our reputation is based in large part on perceptions, both about us and others 
+with whom we do business, and broad access to social media makes it easy for 
+anyone to provide public feedback that can influence perceptions of Target. It 
+may be difficult to control negative publicity, regardless of whether it is 
+accurate. Target’s responses to crises and our position or perceived lack of 
+position on environmental, social, and governance (ESG) matters, such as 
+sustainability, responsible sourcing, and diversity, equity, and inclusion 
+(DE&I), and any perceived lack of transparency about those matters, could harm 
+our reputation. While reputations may take decades to build, negative incidents 
+involving us or others with whom we do business can quickly erode trust and 
+confidence and can result in consumer boycotts, workforce unrest or walkouts, 
+government investigations, or litigation.
+
+“Target’s … position … on … diversity, equity, and inclusion … can result in 
+consumer boycotts” strikes me as a pretty good warning that the Pride Month 
+campaign might lead to boycotts.
+
+Target asked a judge to dismiss the case because it didn’t say anything 
+misleading, and last week the judge declined inkind of a wild opinion 
+<https://assets.bwbx.io/documents/users/iqjWHBFdfxIU/rJyBBY1cXyLY/v0> saying 
+that, sure, Target warned investors that its DEI policies might lead to 
+boycotts, but it didn’t warn them specifically thatthis campaign would lead to 
+boycotts (citations omitted):
+
+Defendants’ general warning in their risk disclosure could be materially 
+misleading because it was not specifically tailored to the risks from their 
+2023 Pride Month Campaign. To be clear, the Court is not finding that 
+Defendants’ 2021 disclosure is misleading because such an assertion would be 
+premature at this stage in the proceedings. But, the Court disagrees with 
+Defendants’ argument that this case should be dismissed because Target made a 
+general disclosure that reputational incidents could affect its business. 
+Target’s 2021 disclosure, for the most part, focuses on its general reputation 
+and how negative publicity could result in harm to the business. The disclosure 
+generally mentions that “[i]t may be difficult to control negative publicity, 
+regardless of whether it is accurate.” Target made this statement relating to 
+its inability to control its reputation on social media. The report then states 
+that Target’s “responses to crises and [Target’s] position or perceived lack of 
+position on environmental, social, and governance (ESG) matters, such as 
+sustainability, responsible sourcing and diversity, equity and inclusion 
+(DE&I), and any perceived lack of transparency about those matters, could harm 
+[Target’s] reputation.” The disclosure neither mentions Target’s upcoming 2023 
+Pride Month Campaign nor Target’s plan to avoid any potential reputational 
+damage or control negative publicity associated with the campaign.
+
+This is pretty close to finding that everything really is securities fraud. If 
+you don’t like something that a company has done, and its stock price has gone 
+down, you can sue, and the company can’t defend itself by saying “well we 
+didn’t actually lie about it” or even “well we warned you, in general terms, 
+about the risk.” Benjamin Edwardswrites 
+<https://www.businesslawprofessors.com/2024/12/merchandise-placement-as-securities-fraud/>
+:
+
+The Court also disagreed with Target’s argument that shareholders understood 
+the risk that it could be boycotted for pride campaigns because it had been 
+boycotted for pride campaigns before. It found that the prior campaigns didn’t 
+put shareholders on notice of risks that might arise from “placing potentially 
+controversial merchandise at the center of its stores—could be construed as a 
+change to their ESG/DEI campaigns in prior years.”
+
+I take it from this that if Target were to relocate adult-oriented merchandise 
+from one location to another in the store, it might also be securities fraud? 
+This issue isn’t limited to Target. Could Walmart face securities fraud 
+liability under this theory if it relocates products from one area to another? 
+Do we want retailers to really add risk factor disclosures that they could be 
+boycotted if they do something differently than they did it in the past? How 
+does that substantially alter the total mix of information available?
+
+But it’s worse than that: Even disclosing “we might be boycotted if we do 
+something differently” is not enough; the disclosure needs to be “specifically 
+tailored to the risks” from the particular thing you are doing. Every time you 
+launch an advertising campaign or move merchandise around, you need to put out 
+a risk factor saying “we are launching this new advertising campaign, people 
+might not like it, and if they don’t sales might go down.” Everything you do 
+might not work out! But if you don’t warn investors specifically about each 
+risk, you can get sued.
+
+
+Pivot to AI
+
+Bitcoin mining is basically an abstract process for turning electricity and 
+computer chips into money. Artificial intelligence is also an abstract process 
+for turning electricity and computer chips into money. Bitcoin mining was, for 
+practical purposes, commercialized first, and so there are a lot of Bitcoin 
+miners out there. But AI is plausibly bigger and more lucrative now, so there 
+are some Bitcoin miners who are surprised and relieved to find that, actually, 
+they can get into the AI business. Othersneed a push though 
+<https://www.wsj.com/finance/currencies/activist-starboard-value-takes-stake-in-bitcoin-mining-company-riot-82b3796f>
+:
+
+Activist investor Starboard Value has built a significant position in Riot 
+Platforms and is pushing for changes at the bitcoin-mining operator, according 
+to people familiar with the matter. ...
+
+As a crypto miner, Riot uses high-powered computers to process bitcoin 
+transactions by solving complex mathematical problems, receiving bitcoin as 
+payment.
+
+Starboard has been in discussions with Riot’s management team to push the 
+company to convert some of its bitcoin-mining facilities into capacity for 
+so-called hyperscalers, or large data-center users, the people said.
+
+Hyperscalers are companies that operate large-scale data centers designed to 
+handle massive amounts of computing power and storage capacity. Data centers 
+operated by companies such as Amazon Web Services and Alphabet’s Google Cloud 
+have grown increasingly important as the artificial-intelligence boom gobbles 
+up even more computing power and resources.
+
+It really is an amazing coincidence that not only were crypto and AI roughly 
+consecutive booms led by, often, the same sorts of entrepreneurs and backed by 
+the same sorts of venture capitalists, but also that they run on similar 
+infrastructure. You could imagine the crypto boom collapsing and leaving all of 
+its mining equipment useless — but in fact the mining equipment could turn 
+around and fuel the AI boom.
+
+
+Don’t put it on Goodreads
+
+If you are a US investor and you get an email from Chibuzo Augustine 
+Onyeachonam of Awka, Nigeria, asking you to send him some money to invest in a 
+“Bitcoin pump opportunity,” what would you do? I have a guess!
+
+On the other hand, if you were bopping around online and saw someone on 
+YouTube recommend financial adviser John Doe at Morgan Stanley and pointing you 
+to his website at johndoe.com, [5]  <> and you went to that website and saw him 
+touting his credentials and linking to the Financial Industry Regulatory 
+Authority’s BrokerCheck website, and you went to BrokerCheck and found that 
+John Doe does work at Morgan Stanley and has an impeccable regulatory record, 
+and you went back to johndoe.com and clicked on the “contact me” button and it 
+popped up an email to johndoe@johndoe.com, and you emailed him to say “I have 
+heard about your services and would like to retain you as a financial adviser,” 
+and he wrote back to you with a client intake form, and you filled out the 
+form, and he wrote back saying “great send me $100,000 for a Bitcoin pump 
+opportunity,” would you do it?
+
+No! Come on! I hope not? Don’t contact him through his personal website; go 
+through Morgan Stanley or whatever. Still, you can see why pretending to be a 
+real financial adviser might be effective. Anywayhere’s this 
+<https://www.sec.gov/newsroom/press-releases/2024-194>:
+
+The Securities and Exchange Commission [Wednesday] charged Chibuzo Augustine 
+Onyeachonam, Stanley Chidubem Asiegbu, and Chukwuebuka Martin Nweke-Eze with 
+fraud for impersonating legitimate securities brokers and investment advisers 
+in an elaborate online scheme through which the defendants stole more than $2.9 
+million from at least 28 investors.
+
+As alleged in the SEC’s complaint, from at least 2019 to the present, the 
+three defendants, who reside in Nigeria, created websites impersonating nearly 
+two dozen actual securities brokers and investment adviser representatives 
+(collectively, representatives) at well-known U.S. securities firms as part of 
+a fraudulent scheme to entice potential investors in the United States to 
+invest funds with the defendants. The defendants allegedly lured investors to 
+the websites by placing fictitious comments from purported clients on social 
+media and in investment group chats praising the representatives’ trading 
+success. The SEC’s complaint alleges that the defendants promised monthly 
+returns of up to 25 percent and directed investors to fake online investment 
+platforms they created to make investors think their portfolios were increasing 
+in value. In addition, according to the SEC’s complaint, the defendants 
+purchased voice changing software to talk to investors, as most of the 
+impersonated professionals were women.
+
+Here is the complaint 
+<https://www.sec.gov/files/litigation/complaints/2024/comp-pr2024-194.pdf>, 
+which does feature “Onyeachonam and/or Asiegbu, posing as” a legitimate broker, 
+emailing an investor “a strategy document regarding a ‘bitcoin pump 
+opportunity.’” See, ordinarily a “Bitcoin pump opportunity” would be kind of a 
+red flag, but if it’s a strategy document from someone at a legitimate 
+brokerage firm … maybe?
+
+The complaint also features this amazing piece of detective work:
+
+According to Onyeachonam’s public Goodreads profile, fifteen days after 
+Onyeachonam registered the Lumentrades.com domain in 2018, Onyeachonam readThe 
+Confidence Game: Why We Fall for It . . . Every Time (Penguin Books 2017), a 
+book written by Maria Konnikova and described by The Washington Post as an 
+“unnerving manual for conning and getting conned.”
+
+I have gotten used to securities fraud cases in which the defendants allegedly 
+Googled “how to insider trade without getting caught” or whatever, but this is 
+the first time I have seen someone’s “public Goodreads profile” used as 
+evidence of fraud.
+
+By the way: On Monday the SEC also 
+<https://www.sec.gov/newsroom/press-releases/2024-193> “charged Morgan Stanley 
+Smith Barney LLC (MSSB) with failing to reasonably supervise four investment 
+adviser and registered representatives (hereafter, financial advisors) who 
+stole millions of dollars of advisory clients’ and brokerage customers’ funds,” 
+oops. A legitimate financial adviser has alower probability of stealing your 
+money than someone impersonating a financial adviser, but not zero!
+
+
+Things happen
+
+Appeals Court Strikes Down Nasdaq’s Board-Diversity Rules 
+<https://www.wsj.com/finance/stocks/appeals-court-strikes-down-nasdaqs-board-diversity-rules-0a2eb7ee?mod=hp_lead_pos11>
+. SNB Surprises With Half Point Rate Cut to StemGains in Franc 
+<https://www.bloomberg.com/news/articles/2024-12-12/snb-cuts-rate-by-surprise-half-point-in-show-of-force-on-franc?cmpid=BBD121224_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241212&utm_campaign=moneystuff>
+. New Federal RuleLimits Overdraft Fees 
+<https://www.nytimes.com/2024/12/12/us/politics/bank-overdraft-fees-limits.html>
+ at Large Banks. Their Job Is to Push Computers TowardAI Doom 
+<https://www.wsj.com/tech/ai/ai-safety-testing-red-team-anthropic-1b31b21b?mod=itp_wsj>
+. Police Investigate NYC‘Wanted’ Posters 
+<https://www.bloomberg.com/news/articles/2024-12-11/cops-investigate-wanted-posters-of-executives-around-nyc?cmpid=BBD121224_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241212&utm_campaign=moneystuff>
+ of Finance Executives. Labor Board Classifies ‘Love Is Blind’ Contestants as
+Employees 
+<https://www.nytimes.com/2024/12/11/arts/television/love-is-blind-nlrb-employees-union.html>
+. “Mr. Rodgers has since rebranded C.E.O. to stand forconscious, empathetic and 
+open 
+<https://www.nytimes.com/2024/12/12/business/psychedelic-retreats-ceos.html>.”
+
+If you'd like to get Money Stuff in handy email form, right in your inbox, 
+pleasesubscribe at this link 
+<http://link.mail.bloombergbusiness.com/join/4wm/moneystuff-signup&hash=54223001ca3ffcf40f2629c25acea67a>
+. Or you can subscribe to Money Stuff and other great Bloomberg newslettershere 
+<https://login.bloomberg.com/newsletters>. Thanks!
+
+[1] Unless I was lying about having the SpaceX shares, which does happen. Also 
+to be clear this is *not* exactly the deal that DXYZ is offering: If you invest 
+$1,100 in DXYZ, you get $1,100 of DXYZ shares, which might even go up. But 
+those shares represent $100 of underlying private company shares, plus a lot of 
+premium.
+
+[2] I’m being very casual saying that DXYZ’s 1,000%-ish premium to net asset 
+value implies any sort of price for SpaceX. It’s not like that 1,000% premium 
+means that the market values *each* of DXYZ’s positions at 10 times their 
+balance-sheet value. If anything, it probably values the SpaceX stake 
+disproportionately more than the other stuff.
+
+[3] Or it gets acquired, merges, etc., in which case your obligation is 
+probably converted into cash or public stock and you either pay out cash or buy 
+the stock. Or it goes bankrupt, in which case you keep all the money.
+
+[4] Or if you say “integrity and honesty are at the heart of our business” and 
+then you rip off customers,maybe that is securities fraud 
+<https://www.bloomberg.com/opinion/articles/2021-02-03/goldman-sachs-goes-to-supreme-court-hedge-funds-won-on-gamestop-kkpoe6ws?cmpid=BBD121224_MONEYSTUFF&utm_medium=email&utm_source=newsletter&utm_term=241212&utm_campaign=moneystuff>
+.
+
+[5] “Johndoe.com” is the SEC’s hypothetical example. The SEC does not cite 
+firms that the impersonated brokers worked at; Morgan Stanley is my 
+hypothetical example.
+
+
+ <https://link.chtbl.com/Money-Stuff-Podcast-Newsletter> 
+
+Follow Us  <https://www.facebook.com/bloombergopinion>  
+<https://www.instagram.com/bloombergopinion/>  <https://twitter.com/bopinion>  
+Get the newsletter 
+<https://www.bloomberg.com/account/newsletters/money-stuff?source=NLshare> 
+
+
+Like getting this newsletter?  Subscribe to Bloomberg.com 
+<https://www.bloomberg.com/subscriptions?utm_medium=email&utm_source=newsletter&utm_campaign=moneystuff&utm_content=tout-money-stuff&utm_term=>
+ for unlimited access to trusted, data-driven journalism and subscriber-only 
+insights.
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the 
+Terminal delivers information and analysis that financial professionals can’t 
+find anywhere else.Learn more 
+<https://link.mail.bloombergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab>
+.
+
+Want to sponsor this newsletter?  Get in touch here 
+<https://www.bloombergmedia.com/contact/?utm_medium=email&utm_source=newsletter&utm_campaign=moneystuff>
+.
+
+ You received this message because you are subscribed to Bloomberg's Money 
+Stuff newsletter. 
+Unsubscribe 
+<https://login.bloomberg.com/newsletters?source=newsletter_unsub&email=bloomberg@khamel.com&hash=3878bee49d8b2b98e3953b8420dc7f54053a9a7e>
+ |Bloomberg.com <http://bloomberg.com> | Contact Us 
+<http://www.bloomberg.com/feedback?alcmpid=mostpop> 
+
+ <https://www.liveintent.com/powered-by>  |  
+<https://www.liveintent.com/ad-choices> 
+Bloomberg L.P. 731 Lexington, New York, NY, 10022  
+<https://links.message.bloomberg.com/e/eh?_t=f574328d4d0c4c359b90d8e49b10e21d&_m=447f07328b26479b9e968cf37e988efb&_e=nSzbY-78f39NwhX3t2U9MpPKAsRNFDbrjMO6Yy3r9ydZqCZGEztx4h68EMYmxuoeMs4c0ud7E52ZQwv7I4XNuPYjOyKR4o4W6G1fgRU3UmwuIkH-hsyOYBjyXpJRKjnWXrvKwO8dwvlrA1Dusz9TIdorTM2nK_gAQaDQaUjhEjPXwSgYH-Qy8qREbufwGgq8m4TBVdz0P9HxW_hObo1URVQynAQmw278Vhit5qelLD_3v8XWwv5lVAyw9QW6mOP3u85sQOjhNvrqrOOsMpnNzw%3D%3D>

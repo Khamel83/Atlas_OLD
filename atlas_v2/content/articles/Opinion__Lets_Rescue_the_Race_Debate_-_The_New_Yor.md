@@ -1,0 +1,117 @@
+# Opinion | Let’s Rescue the Race Debate - The New York Times
+
+**Source**: http://www.nytimes.com/2010/11/20/opinion/20blow.html?_r=1&pagewanted=print
+**Type**: article
+**Created**: 2025-08-13T21:49:07.103444
+
+---
+
+title: Opinion | Let’s Rescue the Race Debate - The New York Times
+source: http://www.nytimes.com/2010/11/20/opinion/20blow.html?_r=1&pagewanted=print
+date: 2025-08-13T21:48:52.791462
+tags: []
+---
+“There is another class of colored people who make a business of keeping the
+troubles, the wrongs, and the hardships of the Negro race before the public.
+... Some of these people do not want the Negro to lose his grievances, because
+they do not want to lose their jobs ... There is a certain class of race-
+problem solvers who don’t want the patient to get well.”
+
+This 100-year-old, cobbled-together quote from the “the Great Accommodator”
+Booker T. Washington has gotten quite a bit of circulation in the right-wing
+blogosphere since the Tea Party came under attack over racial issues.
+
+The quote helps support a broader sentiment that the current racial discontent
+is being fueled by a black liberal grievance industry that refuses to
+acknowledge racial progress, accept personal responsibility, or acknowledge
+its own racial transgressions. And that the charge of racism has become a
+bludgeon against anyone white and not in love with President Obama, thereby
+making those whites the most aggrieved  victims of the elusive reverse-racism
+Bigfoot. It’s perfect really: the historic words of a revered black figure
+being used to punch a hole in a present-day black mythology and to turn the
+world of racism upside down.
+
+(The fact that those on the right would glom onto this quote is fascinating
+from a cultural/historical perspective. The quote is a not-so-subtle swipe by
+an aging Washington at his young nemesis, W.E.B. Du Bois, an Obama-like figure
+who advocated a more broad-based, activist movement for racial equality to be
+led by an erudite black intelligentsia. This is so riddled with ironies that I
+couldn’t possibly tackle them all in this column. Maybe another time. Rain
+check, please!)
+
+The argument of these whites minimizes the victimization of others while
+magnifying their own victimization. While their argument may hold for some
+individuals, when you look at blacks writ large, the argument falls apart.
+
+According to an ABC News poll conducted last year, blacks are even more likely
+than whites to admit that they “have at least some feelings of racial
+prejudice.” Thirty-eight percent of blacks admitted to those feelings while
+only 34 percent of whites did. I use the word admit because people notoriously
+underreport negative behaviors on polls, and knowing which groups may
+underreport and to what degree is impossible to gauge. For more objectivity,
+we need more scientific measures like [Project
+Implicit](http://web.archive.org/web/20210322185755/https://implicit.harvard.edu/implicit/),
+a virtual laboratory maintained by Harvard, the University of Washington and
+the University of Virginia that has administered hundreds of thousands of
+online tests designed to detect hidden racial biases. Tests taken from 2000 to
+2006
+[found](http://web.archive.org/web/20210322185755/http://www.nytimes.com/2009/02/21/opinion/21blow.html)
+that a whopping three-quarters of whites have an implicit pro-white/anti-black
+bias, while 40 percent of blacks had a pro-black/anti-white bias, about the
+same amount as those admitting racial prejudice in the poll.
+
+Furthermore, a January poll by the Pew Research Center found that most blacks
+agree that blacks who can’t get ahead are most responsible for their own
+condition. Only about a third said that racial discrimination was the main
+reason.
+
+This whole hollow argument is further evidence that many whites are exhibiting
+the same culture of racial victimization that they decry.
+
+The latest evidence of this comes in a poll released this week that was
+conducted by the nonprofit, nonpartisan Public Religion Research Institute and
+financed by the Ford Foundation. The poll found that 62 percent of whites who
+identified as Tea Party members, 56 percent of white Republicans, and even 53
+percent of white independents said that today discrimination against whites
+has become as big a problem as discrimination against blacks and other
+minorities. Only 30 percent of white Democrats agreed with that statement.
+
+It’s an extraordinary set of responses. And my question is the same one used
+by the right to defend the Tea Party against claims of racism: Where’s the
+proof? There’s a mound of scientific evidence a mile high that documents the
+broad, systematic and structural discrimination against minorities. Where’s
+the comparable mound of documentation for discrimination against whites? There
+isn’t one.
+
+We can find racial prejudices in all segments of the population, but
+pretending that the degree and consequences are comparable is neither true nor
+helpful. And attributing to the agitation of the “colored” masses to the self-
+aggrandizement of a callous few is truly detrimental.
+
+In fact, some on the right seem to be doing with the race issue what they’ve
+done with the climate-change issue: denying the basic facts and muddying the
+waters around them until no one can see clearly enough to have an honest
+discussion or develop thoughtful solutions.
+
+I had thought that the reflexive denials and defenses of many on the right
+were simply an overreaction to, in their view, being unfairly accused of
+racism on too broad a scale. My present worry is that denial may be the new
+normal and that the hot language of the past summer has cooled and hardened
+into a permanently warped perception of the very meaning of discrimination and
+racism. I worry that the last bit of distance between where we are and where
+we want to be on racial reconciliation is being drawn through an ever-
+narrowing, ever-more-treacherous terrain.
+
+In the name of progress, the public must reclaim the facts of the race debate
+in this country. Many racial problems have been solved but many remain. Some
+we must tackle within our individual communities and others must be dealt with
+between them. Racism isn’t everywhere we imagine it, but it is in far more
+places than we admit. If we can start from common points of agreement, we can
+come much closer to common ground. But to do that, everyone must step out of
+the shadows of denial and into the brutal light of honesty.
+
+Booker T. Washington was right that there are some who may not “want the
+patient to get well.” Those people exist on all sides of the debate, and they
+will always be there. But they’re a minority. Cast them aside. Let the rest of
+us start with this point of agreement: The patient is doing better but is
+still sick.

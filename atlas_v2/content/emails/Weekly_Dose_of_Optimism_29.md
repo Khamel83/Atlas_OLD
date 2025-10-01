@@ -1,0 +1,73 @@
+# Weekly Dose of Optimism #29
+
+**Source**: inputs/saved_emails/Weekly Dose of Optimism #29_Fri,_10_Feb_2023_13-43-01_+0000_1863b918a1766b44.eml
+**Type**: email
+**Created**: 2025-08-25T02:54:01.763817
+
+---
+
+View this post on the web at https://www.notboring.co/p/weekly-dose-of-optimism-29
+
+Hi friends 👋,
+Happy Friday and welcome back to our 29th Weekly Dose of Optimism. Not going to lie, this was one of the harder newsletters to write all year. My mind is 100% on the Super Bowl this weekend. But we fight on and publish.
+Before diving in, we wanted to highlight our most recent episode of Anton Teaches Packy AI [ https://substack.com/redirect/223ea5e7-432f-437d-8d9e-dbee6e80a771?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], in which Packy and Anton discuss Chroma’s (Anton’s company) launch of Stable Attribution [ https://substack.com/redirect/2ca86469-d394-4512-a44e-ce0f93ad4eba?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. The tool let's anyone find the humans behind AI generated images.
+Now, let’s get to it.
+The Weekly Dose is brought to you by…Wander [ https://substack.com/redirect/8b685de5-e2aa-4e70-965f-5c1d9e2f901a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Wander [ https://substack.com/redirect/8b685de5-e2aa-4e70-965f-5c1d9e2f901a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] has been one of our most popular sponsors ever…and there’s good reason: the vacation homes are dope (seriously, check out the homes) and it’s Atlas vacation rental REIT presents a unique investment opportunity. 
+Wander [ https://substack.com/redirect/8b685de5-e2aa-4e70-965f-5c1d9e2f901a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is a network of smart vacation homes that come with inspiring views, modern workstations, restful beds, hotel-grade cleaning and 24/7 concierge service –– combining the quality of a luxury hotel with the space and comfort of a vacation home, only better. Don’t take my word for it. Use promo code notboring for $250 off your next trip. (offer expires Monday 2/13 at 11:59pm). Explore now. [ https://substack.com/redirect/8b685de5-e2aa-4e70-965f-5c1d9e2f901a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+But that’s only part of the story. Wander recently launched Atlas [ https://substack.com/redirect/196017e3-5cf7-457d-8234-3fe3ac07b255?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] –– a first-of-its-kind vacation rental REIT that gives you the chance to own a piece of their magical portfolio of homes. With Atlas, accredited investors have the opportunity to earn income and diversify their portfolio without the headache and hassle of buying a property, renting it out, or maintaining it.
+Plus, right now new Atlas investors may get the chance to invest in Wander’s next round of funding. You can learn more on their website:
+(1) Can India industrialize? [ https://substack.com/redirect/b36e744c-b7fa-43b3-bc1d-6bbdba82180c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Noah Smith [ https://substack.com/redirect/49f99192-ba18-4d4c-b64e-e62a33adc4b1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for Noahpinion
+Why is India the most important development story on Earth? Two reasons. First of all, sheer size; as of this year, India is the world’s most populous country, overtaking a now-shrinking China. And its population dwarfs that of every development success story I’ve written about in this series so far, combined. But India isn’t just incomprehensibly enormous; it’s also still quite poor. Despite its remarkable 250% growth over the past three decades, it’s still poorer than almost any other country I’ve discussed so far.
+Noah Smith capped off an amazing series on economic development with his analysis of India, which he claims is the most important development story in the world. Why is it so important? 
+India is home to more poor people than any other country in the world. If India can develop, that changes the entire fabric of society. Or as Smith puts it: “When Malaysia or the Dominican Republic reaches upper middle income status, it’s a good thing and a useful success story; if India did the same, it would shake the world.”
+Smith presents a balanced look at the progress India has made, the challenges it faces, and the opportunities ahead. Broadly, India’s infrastructure has been improving…
+but it should be manufacturing and exporting more. Smith suggests three industrial policies:
+Keep improving infrastructure, and make a big push to improve public education
+“Export discipline” through limited-time export incentives
+Encouraging FDI, especially in the electronics industry, through the use of improved SEZs, targeted deregulations, and taking advantage of “friendshoring”
+Ultimately, Smith is “optimistic about India” — the country has economic and psychological momentum on its side, could benefit from friendshoring and the West’s souring attitude to formerly-largest-country China, and a growing recognition of how important it could become. Chak de India. 
+(2) The Drug Is a ‘Miracle’ but These Families Can’t Get It [ https://substack.com/redirect/7e17a574-559d-4fde-8d92-fa8912d01098?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Stephanie Nolen [ https://substack.com/redirect/56f7f744-cda0-4271-ab45-52732ae5adb9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and Rebecca Robbins [ https://substack.com/redirect/6d08af1b-b1e1-4fb7-8826-1cdf99ba92bb?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for The New York Times
+Until Vertex’s drugs, patients had few options, mainly palliative treatment to help them breathe a bit better, and if they could get one, a lung transplant. Vertex’s drugs addressed the underlying cause of the illness, preventing patients’ lungs from clogging in sludgy mucus.
+Trikafta is stunningly effective at helping patients breathe better [ https://substack.com/redirect/f309b59d-e648-4f7b-8727-2dbf9f3d6c5c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], keeping them out of the hospital and extending their lives. Patients and doctors say that the drug’s power becomes evident almost immediately.
+On the surface, this story is pretty shitty. Another pharma company selling a drug with 98% margins and restricting life-saving access from poor people. This is all true. I hope that Vertex, governments, NGOs, etc. can figure out a way to work together and make Trikafta available and basically free to anyone that needs it.
+The other side of the coin here is that Vertex — a company we mentioned in our piece on Atomic AI [ https://substack.com/redirect/40ec95a3-f50a-49f4-ac23-d67e2fd6cb59?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] — developed a treatment that now all-but cures a disease that, just five years ago, was considered a death sentence by your mid-30s. One of my best friends in the world, Charlie, has cystic fibrosis and struggled to find a treatment for most of his life. Here’s how he described the impact of Trikafta:
+Trikafta completely flipped my life. I went from three, hour-long sessions each day…which still resulted in declining health, to taking two pills twice per day and leading an otherwise “normal” life.
+Charlie is lucky in that he lives in the U.S. and has good insurance. For those outside of the U.S., especially in poorer countries, I am hopeful that organizations and governments can work together to bring this treatment to those that need it. It’s really one of those “ARE YOU FUCKING KIDDING ME JUST GIVE THESE KIDS THE TREATMENT” situations that with enough awareness should be resolved.
+*In the U.S., if you’re looking to support under-insured folks get life saving treatments, I’d recommend taking a look at Healthwell [ https://substack.com/redirect/3de5e73c-19a3-4f1f-8d9b-a2dcb7f691b1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], The Patient Advocate Fund [ https://substack.com/redirect/00d1de3d-0559-4056-b28b-66a217018563?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], and The Assistance Fund [ https://substack.com/redirect/ae5dbeda-efb1-479a-ac22-c249331a9e29?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
+(3) “Florida Man” Wins Seven Marathons on Seven Continents in Seven Days [ https://substack.com/redirect/f4dd8c96-8aca-4ac4-8aa1-9a92c3c82421?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Brian Metzler [ https://substack.com/redirect/8bd60150-293e-4d58-8820-ba6f6582f5f9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for Outside via @0xgaut [ https://substack.com/redirect/f8e1f24a-ea64-484b-9b3b-19cf306c82a2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+David Kilgore just ran—and won—seven marathons in seven days on seven continents. The 31-year-old American runner averaged about 2:56 per marathon, which means he ran 183.4 miles at 6:43 pace per mile.
+Chalk this one up in the category of humans just pulling off wildly impressive stuff. Seven Marathons. In seven Days. On seven Continents. Kilgore ran 183.4 miles in a week at an average pace that would be considered “a good mile time” for your average adult male runner.
+This isn’t the first time, or even the fastest, that someone’s completed the 7/7/7 — “American Mike Wardian, who won the World Marathon Challenge in 2017 and 2019, still holds the record for the fastest average time of 2:45:57” — but when Gaut sent this over, we couldn’t help but feel inspired by what humans can do (and a little lazy). 
+(4) Concrete traps CO2 soaked from air in climate-friendly test [ https://substack.com/redirect/22fe1739-a513-4255-9438-d3cfdbc9ffa9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+The joint effort between Heirloom and Canada's CarbonCure Technologies was the first time that carbon dioxide absorbed from the atmosphere using such Direct Air Capture (DAC) technology had been secured in concrete, where the CO2 will stay put for centuries, several scientists said.
+In a transition to net-zero emissions, two things need to happen. First, we need to emit less CO2. That’s most important. Second, we need to capture and remove CO2 that’s already been emitted. Easier said than done, on both fronts.
+We’ve covered DAC a bit at Not Boring and it’s the focus are of Frontier, the advance market commitment from Stripe, Meta, Alphabet, Shopify, and McKinsey to buy an initial $925M of permanent carbon removal. 
+A number of startups, some backed by Frontier, have taken similar approaches to capturing CO2 and storing it in different materials. The approach covered in this article is notable largely because it’s the first time CO2 pulled from the air via DAC has been secured in concrete, and because how widely concrete is used and how carbon intensive it is. 
+The approach is a double-whammy: 1) concrete can store CO2 for centuries and 2) mixing the CO2 into concrete cuts the need for cement, the part of concrete with the biggest carbon footprint. This first run was just “a thimbleful of emissions abatement,” and the technology needs to scale from kilograms to gigatons to make an real dent, but it’s a good proof point with huge potential. 
+(5) Go Birds 🦅
+We’re sorry, but we’re gonna have to be homers for a minute. It’s Super Bowl Week.
+The Philadelphia Eagles don’t play many away games. They’re on the road as much as any other team in the NFL, but wherever they’re playing, the Eagles fanbase dominates the stadium in such a way that it feels like home. We Philly fans are famous (or infamous) worldwide for our passion.
+It’s tough to describe to someone not from the Philadelphia area what the Eagles mean to the city. We’re having an uncharacteristically great sports year across the board — the Phillies made the World Series and the Sixers are #3 in the East — but the Eagles are the team in Philly. 
+I’d imagine something like ~25% of the population would claim that the 2018 Super Bowl was the best day of their life…and that that number would rise to ~50% for single, children-less populations. For better or worse, the mood of the city ebbs and flows with the success of the Eagles.
+And the mood is pretty damn high right now. For good reason. This Eagles team is lovable:
+Dominant, but doubted all season long
+Overlooked, but poised young quarterback in Jalen Hurts
+Energetic coach that’s adopted his city’s blue collar and underdog persona
+Lovable, veteran leaders in Jason Kelce and Brandon Graham
+Roster constructed of high-flying superstars and unknown guys stepping up
+This O-Line Christmas Album [ https://substack.com/redirect/cca4cfc7-abd4-481e-9994-f7cc979e3f2b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+This list could go on and on, but we'll just leave you with some hype videos below that get the point across more effectively than I ever could.
+If you want something to be a little extra optimistic about this weekend, we invite all of you to be Eagles fans on Sunday.  
+Go Birds baby! 🦅
+Did you enjoy reading this Weekly Dose of Optimism?
+Yes [ https://substack.com/redirect/710ef790-3fd6-45eb-bc8b-f7557569ce99?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] | Meh [ https://substack.com/redirect/710ef790-3fd6-45eb-bc8b-f7557569ce99?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] | No [ https://substack.com/redirect/710ef790-3fd6-45eb-bc8b-f7557569ce99?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+(Powered by Sprig)
+That’s all for this week. We’ll be back in your inbox on Monday.
+Thanks for reading,
+Dan
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVEF4T0Rjd05qRXhMQ0pwWVhRaU9qRTJOell3TXpZMU9URXNJbVY0Y0NJNk1UWTNPRFl5T0RVNU1Td2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5Lkx3V09CRTUwXzZDbk1CcEJhcUJqTUkwaGRhcC1xT25SdkFxZEhaelJGdFEiLCJwIjoxMDE4NzA2MTEsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjc2MDM2NTkxLCJleHAiOjE2Nzg2Mjg1OTEsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.gvb-hR_F7F8o1B4nk0Sp1E9P7GYyKrmyXN2vMBdETPs?

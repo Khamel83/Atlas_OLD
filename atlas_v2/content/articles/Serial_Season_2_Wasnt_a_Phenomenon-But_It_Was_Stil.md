@@ -1,0 +1,68 @@
+# 'Serial' Season 2 Wasn't a Phenomenon-But It Was Still Pretty Phenomenal | GQ
+
+**Source**: http://www.gq.com/story/serial-season-2
+**Type**: article
+**Created**: 2025-08-13T18:15:58.201874
+
+---
+
+title: 'Serial' Season 2 Wasn't a Phenomenon-But It Was Still Pretty Phenomenal | GQ
+source: http://www.gq.com/story/serial-season-2
+date: 2025-08-13T18:15:55.118896
+tags: []
+---
+_Serial_ , in telling his story, ended up experiencing what he experienced.
+Last season was a tightly wound mystery. (Maybe too tightly wound, in
+retrospect.) This one, and I say this lovingly, is kind of a morass. It's a
+fascinating study of that morass. But in reporting it, Koenig and Boal seemed
+to find out what Bergdahl found out: the truth of what happens at war,
+particularly at the lowest levels of war, is so confusing and foggy and
+unverifiable, that many people, including actual soldiers, just shrug their
+shoulders and give up trying to understand it.
+
+This season of _Serial_ was an invaluable document of what it was like to
+serve in the modern, often purposeless wars we've been fighting since 9/11.
+The detail and the thoroughness that Boal and Koenig bring to that experience
+alone made this season worth it. But the reaction to the show—or, more
+precisely, the lack of reaction—tells the tale as much as the tale itself
+does. Last season, _Serial_ was about a murder in Baltimore and half the
+podcast's audience ended up trying to help the show solve it; this season
+_Serial_ retained its vast listenership, as far as I can tell, but the
+audience took one look at the scale and scope of what the show was describing
+and went mute and a little abstract. Exactly the vast existential shrug that
+Berghdahl was trying to somehow trump when he walked off. And the way
+Bergdahl's story grew and knotted to include President Obama and Guantanamo
+and unofficial geopolitical negotiations in Europe and two random intel
+analysts in Florida? _Serial_ grew and knotted to encompass it all, too. It
+was fascinating, watching the form of the show expand and double back on
+itself, in mimicry of the story it was trying to tell.
+
+In fact, one of the most delightful parts of this season was watching Koenig
+and Boal fight, in an amiable way, over which story they were telling in the
+first place. In the show's seventh episode, "Hindsight, Part 2," Koenig and
+Boal have a fascinating conversation. Koenig is trying to figure out,
+basically, whether Bergdahl is a reliable narrator. Is he telling the truth
+about why he did what he did? She's been dubious. But now she's learned that
+Bergdahl has recently been diagnosed with schizotypal personality disorder.
+Bergdahl's account of his own reasoning has been so insane that this
+diagnosis, paradoxically, makes Koenig actually believe him—it makes the
+irrational rational. Boal, well, he's not so sure. "I guess it's an
+interesting data point," he says. "I don't know if it's the north star of the
+story."
+
+To Koenig, her subject is Bergdahl: Who was he, and why did he do what he did?
+To Boal, whose more than 25 hours of interviews with Bergdahl—a low-key
+pleasure of the show is listening to Boal do dishes, chew food, yawn, and
+execute other household tasks while Bergdahl talks and talks and talks—the
+subject is the military and the war. As for Bergdahl—whatever. What Boal is
+after is whether Bergdahl had a point about military leadership and the
+fucked-up way things were happening over there.
+
+The show ended up landing where those goals meet—that hazy zone where one
+person embodies or triggers something so big that no matter how far back you
+pull the camera, you still can't see the whole picture. In yesterday's series
+finale, you don't hear Bergdahl until the episode is almost over, and when you
+do, he doesn't talk about the war, or the court-martial he now faces. He talks
+about the stars—looking up, seeing them, realizing that "Things went so far
+beyond me." Koenig and Boal and Serial, in telling his story, didn't get all
+way up there. But they got close.

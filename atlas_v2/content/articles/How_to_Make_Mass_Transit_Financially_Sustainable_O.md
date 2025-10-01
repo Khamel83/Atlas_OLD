@@ -1,0 +1,138 @@
+# How to Make Mass Transit Financially Sustainable Once and for All - CityLab
+
+**Source**: http://www.citylab.com/commute/2014/06/how-to-make-mass-transit-financially-sustainable-once-and-for-all/372209/
+**Type**: article
+**Created**: 2025-08-13T17:18:05.231747
+
+---
+
+title: How to Make Mass Transit Financially Sustainable Once and for All - CityLab
+source: http://www.citylab.com/commute/2014/06/how-to-make-mass-transit-financially-sustainable-once-and-for-all/372209/
+date: 2025-08-13T17:17:55.951259
+tags: []
+---
+The seven-part case for operating public transportation as a public utility.
+
+The words "transit" and "crisis" have been associated in the [American
+lexicon](http://web.archive.org/web/20170131100743/https://books.google.com/ngrams/graph?content=transit+crisis&year_start=1800&year_end=2000&corpus=15&smoothing=3&share=&direct_url=t1%253B%252Ctransit%20crisis%253B%252Cc0)
+for nearly 60 years. It is time to recognize this as a chronic condition
+rather than a temporary event. Current strategies have not placed transit on a
+financially sustainable path.
+
+From the mid-19th century through the mid-20th, transit was privately
+operated, usually running on public rights-of-way (which companies often were
+obligated to maintain), charging a government-regulated fare. This model was
+hugely profitable for decades, until it wasn't.
+
+The causes for transit's decline are many, but rising incomes,
+suburbanization, and of course a much faster competitor in the automobile and
+highway system are among them. At that point, which ran from the 1930s to the
+1960s depending on where you were in the United States, the private sector
+abandoned transit and the public sector took over.
+
+* * *
+
+#### Series
+
+[![](http://web.archive.org/web/20170131100743im_/http://cdn.theatlantic.com/assets/media/img/citylab/2014/05/promo_sr_transportation_624x384/hero.png)](http://web.archive.org/web/20170131100743/http://www.citylab.com/special-
+report/future-of-transportation/)
+
+* * *
+
+Over the past half century, U.S. transit under public ownership has seen an
+enormous and growing per passenger subsidy. The [debate over the
+merits](http://web.archive.org/web/20170131100743/http://streets.mn/2013/04/22/the-
+case-for-and-against-public-subsidy-for-public-transport/) of subsidy has
+become partisan.
+
+Transit is essential to those who use it on a daily basis. But so are many
+other goods and services that have much lighter public involvement, ranging
+from food production and distribution to electricity and natural gas. Aside
+from the inability of transit operators to make money under the regulatory
+regime of 60 years ago, is there anything about transit that warrants public
+ownership? Let's consider who benefits from transit:
+
+  * Foremost are the riders. Currently, on average riders directly pay about one-third of the operating costs through fares, and none of the capital costs
+  * Second are the employers of subsidized riders, who can pay lower salaries since those employees have some of their transportation costs covered. In some places, employers subsidize transit passes or local transit services for employees.
+  * Third are some highway travelers who face less congestion the more other people use transit. The federal Highway Trust Fund, most of which comes from motor fuel taxes, dedicates 2.86 cents of the 18.3 cent federal gas tax (or 16 percent) to transit capital costs. Many states have similar transfers from highway users to transit systems.
+  * Fourth is society as a whole, which has fewer pollution externalities if more people ride transit instead of driving alone in gasoline powered automobiles.
+
+All of these beneficiaries pay something, but they do not pay in proportion to
+the benefit, because of the misperception that mass transit is a public good,
+like police or fire protection. In principle, a public good is something that
+people cannot be prevented from using, and that does not get worse the more
+people it serves. In reality, transit is more like a club good, since we
+charge users all the time. In fact, it would be technically fairly easy to
+charge users more.
+
+The term "transit crisis" has surged in use since the mid-20th century.
+
+The fear is that if users paid more, they would ride transit less. Undoubtedly
+in the short run, if nothing else changed, a fare hike would lead to a
+[decrease in
+ridership](http://web.archive.org/web/20170131100743/http://streets.mn/2013/06/03/farebox-
+recovery-a-thought-experiment/). Yet many countries ([including
+Canada](http://web.archive.org/web/20170131100743/http://www.cbc.ca/edmonton/interactive/transit-
+prices/)) have higher transit fares (and higher costs for competing modes)
+along with higher transit ridership (and better service). With exchange rates
+and complicated fare structures, however, there is no perfectly fair
+comparison.
+
+There is also the concern that transit is a merit good, so it is aimed at
+serving poor passengers who cannot pay the average cost of transit service.
+Overall, transit riders have lower than average incomes. Yet many routes
+(think: commuter rail and heavy rail systems) have passengers with higher than
+average incomes. If you want to help poor people, give them money; or, failing
+that, give or subsidize transit passes, rather than subsidizing the wealthy
+under guise of aiding the poor.
+
+But the primary problem with transit operations funding is not that poor
+people are subsidized. Since the routes serving low-income travelers are often
+profitable (fares cover operating costs), it is that long-distance,
+inefficient suburban routes are very heavily subsidized by profitable or near-
+profitable urban routes. If the average farebox recovery is one-third, many
+routes are much higher and other routes are much lower. The lowest performing
+routes are typically in suburban districts, where transit dollars are spent as
+part of a political bargain to obtain some form of general revenue funding
+from suburban jurisdictions.
+
+• • • • •
+
+Like any other enterprise, transit should be successful and cover its costs.
+This is entirely feasible if we change the model of transit finance from a
+branch of government to a regulated public utility, as is done in much of
+Europe and Asia. A public utility provides a service, and in exchange, it is
+compensated for that service. The compensation comes from consumers (e.g.
+users, riders), and from the public for any unprofitable services that it
+wishes to maintain for other (e.g. political) reasons.
+
+The words "transit" and "crisis" have been associated in the American lexicon
+for nearly 60 years. It is time to recognize this as a chronic condition
+rather than a temporary event.
+
+Just as the public sector pays the electric utility for street lights, it
+should pay the transit utility for services that the government insists on but
+that the transit provider cannot charge users enough for. The Paris transit
+system, RATP, charges local and national governments a ["compensatory
+indemnity"](http://web.archive.org/web/20170131100743/http://books.google.com/books?id=fz0MJjR3MpkC&lpg=PP1&dq=Financing%20Urban%20Public%20Transportation&pg=PP1#v=onepage&q=Financing%20Urban%20Public%20Transportation&f=false)
+for keeping fares below the break-even price. Governments recover this from an
+employment tax. Once profitable, the perception and mindset of the transit
+organization would change from a drain on society to an economic catalyst.
+
+There are seven ways transit utilities could reverse [the long
+decline](http://web.archive.org/web/20170131100743/http://transportationist.org/2014/02/18/mount-
+transit-mount-auto-mount-next/) the current governance model has provided.
+
+  1. The transit utility can lower costs by **competitive tendering** for routes. Just as bus companies today don't manufacture their own vehicles, there is no economic requirement they run the buses themselves. The London model of bus franchises is instructive. Private firms bid to provide service on routes (and collect revenue) for a franchise period. If the route earns profits, they bid a positive amount. If the route loses money, they bid on how much subsidy is required for them to be willing to operate it. Transport for London monitors quality, collects fares (via the universal Oyster card), determines routes, and manages stops, stations, signage, and branding, so it appears as one unified system to riders. [Bus ridership in London](http://web.archive.org/web/20170131100743/http://www.alanhowesworld.com/topics/support/bus-industry-performance/) has risen significantly since competitive tendering.
+  2. An independent transit utility can **raise fares** , with the approval of a public utilities commission, so that average farebox recovery approaches and eventually exceeds 100 percent. This should be accompanied by full cost pricing for competing transportation modes — in other words, higher gas taxes or road fares. Low-income users should get a direct subsidy from the public, not from the transit utility. This is akin to the universal service fund telephone utilities often offer.
+  3. Transit utilities should **require smart card** use and encourage seasonal passes (perhaps subsidized by employers and universities as a benefit) to lower the marginal cost paid by transit users, reduce boarding times, establish a more stable revenue base, and increase ridership. This is much like unlimited minutes (or bandwidth) by your telecommunications provider.
+  4. Each money-losing route should be **cancelled or operated under contract** by the transit utility in exchange for specific revenue from the jurisdiction that route serves. Transit organizations would at least break-even on the operation of the route. The ["deficit"](http://web.archive.org/web/20170131100743/http://transportationist.org/2011/09/15/towards_financially_sustainabl/) would shift from the transit utility to the public sector, which would have a clearer picture of the costs of its wants.
+  5. Capital costs for new or rebuilt transit systems should be recovered from **land value capture**. Transit services create value they cannot fully capture themselves through the farebox (though they would capture more of this with higher fares). That value spills over to [nearby land owners](http://web.archive.org/web/20170131100743/http://www.brookings.edu/research/papers/2011/04/28-transportation-funding-levinson-istrate), whose property value increases due to the accessibility transit provides and thus the higher rents they can charge. The amount of value [captured by the system](http://web.archive.org/web/20170131100743/http://www.citylab.com/work/2013/11/new-york-three-missed-chances-pay-subway-expansions/7549/) signals whether the investment is worth making. If some of that value were captured, more revenue would be available to make investments. Transit utilities should have the authority to develop land at stops and stations, and to develop air rights over their tracks, and to contract with private developers to coordinate station locations. Local units of government desiring routes and stations should have the authority to implement local taxes to subsidize the transit utility for the cost of building the line. But the line should only be built if it can at least break even operationally. If the route cannot be funded from land value capture and farebox revenues, it should not be built.
+  6. Utilities and transportation services can use **private equity and bond markets** to unlock value. If Uber is [valued at $17 billion](http://web.archive.org/web/20170131100743/http://blogs.wsj.com/digits/2014/05/25/investor-talk-on-ubers-valuation-hits-as-high-as-17-billion/) (or even one-tenth that), how much capital would a well-governed mass transit utility with actual users be able to raise?
+  7. Since transit benefits local areas, it should be primarily **locally funded and managed**. Federal funding for transit has distorted investment to be capital intensive — favoring ribbon-cuttings for politicians — while resulting in neglect for local operations. While the rational local transit organization will take advantage of federal largesse, there is no good reason for federal involvement. Over the next few transportation legislative cycles, it is likely that federal grant programs (funding) will be transformed into loans (financing). Mass transit utilities would be better adapted to this new environment.
+
+__This article is part of['The Future of
+Transportation,'](http://web.archive.org/web/20170131100743/http://www.theatlanticcities.com/special-
+report/future-of-transportation/) a CityLab series made possible with support
+from [The Rockefeller
+Foundation](http://web.archive.org/web/20170131100743/http://www.rockefellerfoundation.org/).__

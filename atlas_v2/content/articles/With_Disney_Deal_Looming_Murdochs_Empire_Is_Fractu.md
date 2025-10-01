@@ -1,0 +1,48 @@
+# With Disney Deal Looming, Murdoch’s Empire Is Fractured - The New York Times
+
+**Source**: https://www.nytimes.com/2018/01/01/business/media/rupert-murdoch-21st-century-fox-disney.html
+**Type**: article
+**Created**: 2025-08-13T16:48:20.564643
+
+---
+
+title: With Disney Deal Looming, Murdoch’s Empire Is Fractured - The New York Times
+source: https://www.nytimes.com/2018/01/01/business/media/rupert-murdoch-21st-century-fox-disney.html
+date: 2025-08-13T16:48:13.465099
+tags: []
+---
+LOS ANGELES — In late summer, Verizon Communications came to Rupert Murdoch
+with a surprise acquisition offer.
+
+Verizon — locked in battle with AT&T, which was then finalizing its $85.4
+billion takeover of Time Warner — wanted to buy pieces of 21st Century Fox,
+Mr. Murdoch’s television and film conglomerate. Representatives of the two
+companies secretly met at least once to discuss a merger.
+
+Mr. Murdoch, 86, shrugged off the talks as uninspiring, according to an
+associate, who spoke on the condition of anonymity because he wanted to
+maintain his access to the media titan. Verizon declined to comment, but the
+overture prompted Mr. Murdoch to start to think seriously — for the first time
+— about selling his Hollywood treasures.
+
+Not only would a sale solve a business problem, it could solve a family one.
+
+Several months later, Mr. Murdoch agreed to sell much of 21st Century Fox to
+the Walt Disney Company. The proposed $52.4 billion deal, which is subject to
+regulatory approval, has the potential to [radically reshape the entertainment
+world](http://web.archive.org/web/20250715182410/https://www.nytimes.com/2017/12/14/business/dealbook/disney-
+fox-deal.html), but it also has many wondering what the future holds for Mr.
+Murdoch and the two sons who seemed to be on the cusp of taking over his vast
+media holdings.
+
+Mr. Murdoch had built an empire by divining where media was headed, and the
+landscape ahead troubled him, according to several people who speak to Mr.
+Murdoch or to others close to him and who insisted on anonymity. Growth for
+21st Century Fox, with its mix of traditional cable networks and movie labels,
+would be increasingly difficult to deliver as technology giants like Apple and
+Amazon pushed deeper into the film and television industries, changing the way
+people get entertainment. Netflix was already becoming big enough to outbid
+Fox and other old-line entertainment companies for scripts. Facebook was
+[coming
+after](http://web.archive.org/web/20250715182410/https://www.recode.net/2017/12/4/16734818/facebook-
+billions-sports-streaming-deals-mark-zuckerberg) sports rights.

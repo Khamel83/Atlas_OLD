@@ -1,0 +1,270 @@
+# George Saunders Goes to Trump Rallies | The New Yorker
+
+**Source**: http://www.newyorker.com/magazine/2016/07/11/george-saunders-goes-to-trump-rallies
+**Type**: article
+**Created**: 2025-08-13T17:57:10.129708
+
+---
+
+title: George Saunders Goes to Trump Rallies | The New Yorker
+source: http://www.newyorker.com/magazine/2016/07/11/george-saunders-goes-to-trump-rallies
+date: 2025-08-13T17:56:52.288823
+tags: []
+---
+As for Trump’s uncivil speech—the insults, the petty meanness, the crudeness,
+the talk about hand size, the assurance, on national TV, that his would-be
+Presidential dick is up to the job, his mastery of the jaw-droppingly untrue
+personal smear (Obama is Kenyan, Ted Cruz’s dad was in cahoots with Lee Harvey
+Oswald, U.S. Muslims knew what was “going on” pre-Orlando), which he often
+dishonorably eases into the world by attaching some form of the phrase “many
+people have said this” (_The world is flat; many people have said this. People
+are saying that birds can play the cello:_ _we need to look into that_)—his
+supporters seem constitutionally reluctant to object, as if the act of
+objecting would mark them as fatally delicate. Objecting to this sort of thing
+is for the coddled, the liberal, the élite. “Yeah, he can really improve, in
+the way he says things,” one woman in Fountain Hills tells me. “But who gives
+a shit? Because if he’s going to get the job done? I’m just saying. You can’t
+let your feelings get hurt. It’s kind of like, get over it, you know what I
+mean? What’s the big picture here? The big picture is we’ve got to get America
+back on track.”
+
+The ability to shrug off the mean crack, the sexist joke, the gratuitous jab
+at the weak is, in some quarters, seen as a form of strength, of “being
+flexible,” of “not taking shit serious.” A woman who wilts at a sexist joke
+won’t last long in certain workplaces. A guy who prioritizes the sensitive
+side of his nature will, trust me, not thrive in the slaughterhouse. This
+willingness to gloss over crudeness becomes, then, an encoded sign of
+competence, strength, and reliability.
+
+Above all, Trump supporters are “not politically correct,” which, as far as I
+can tell, means that they have a particular aversion to that psychological
+moment when, having thought something, you decide that it is not a good
+thought, and might pointlessly hurt someone’s feelings, and therefore decline
+to say it.
+
+## Who are They? (Part II)
+
+I observed, in Trump supporters’ storytelling, a tendency to conflate things
+that, to a non-Trump supporter, might seem unrelated. For example, in 2014,
+Mary Ann Mendoza’s son, Brandon, an openly gay policeman in Mesa, who
+volunteered at the local Boys and Girls Club, was killed in a car accident
+caused by an intoxicated, undocumented Mexican man who had spent at least
+twenty years drifting in and out of the U.S. and had been charged with a
+number of crimes, including assaulting a police officer, and was convicted of
+criminal conspiracy, but was free at the time of the crash, having been shown
+leniency by a Colorado court. At the rally in Fountain Hills, Ms. Mendoza gave
+a moving speech about her son, which she concluded this way: “This was the
+kind of man my son was. . . . _Was_. Not is. _Was_. Because of the lack of
+concern that this Administration has for American citizens. . . . Brandon’s.
+Life. Matters.” The crowd roared. Something key lay in that juxtaposition and
+that roar. What was the connection between her son’s death and the Black Lives
+Matter movement? Couldn’t a person be against the killing of innocent black
+men _and_ against illegal immigration (or drunk driving, or the lax
+enforcement of existing laws, etc.)?
+
+A man comes to Arizona from Vermont and finds that “the illegals” are getting
+all the kitchen jobs for which he’s qualified. “So once Trump started talking
+about the Wall,” he says, “I was like, all right, now I think I’ve got to
+start paying attention to this.” How does he know those workers were
+undocumented? He doesn’t; there’s no way, situationally, that he could.
+Stephanie, an executive administrator for a finance group in Minnesota, gets
+laid off, and the only benefit she qualifies for is “a measly little
+unemployment check.” Standing next to her at the government office are “these
+people, that are from other countries, non-speaking—I’m not biased, I have no
+reason to be—but . . . I’m seeing them getting cash, getting their bills paid,
+and, as a taxpaying citizen, I don’t get anything. And so the border thing
+really resonated with me.” Does she know for a fact that these were illegal
+immigrants? “That’s a good question, and I don’t know the answer,” she says.
+“I’m not a hundred per cent on it.”
+
+Bill Davis, a funny, genial sales rep in the packaging industry, has nothing
+against legal immigration but feels that illegal immigration is “killing” the
+area in Southern California where he lives. How, specifically, is it doing
+this? He mentions a neighbor of his who speaks no English, has two hundred
+chickens running around his yard, goats everywhere, doesn’t “play by the
+rules”—and hence Bill’s property values are going down. Is his neighbor
+undocumented? It doesn’t matter, he says. He’s “not assimilated.” Growing up,
+Davis says, he had a lot of first-generation Hispanic friends. These people
+took pride in assimilating. “Those days are over,” he explains. “So Trump is
+onto something about that. We don’t want you guys throwing your fast-food
+wrappers out your windows when you’re driving down the freeway. Take some
+pride in what you do. And learn to work in this country by the rules and
+regulations that we’ve developed over two hundred and fifty years. I’m not
+opposed to immigration, by any means. Come here, but when you leave
+Mexico—when you leave Germany, when you leave Russia, wherever—you’ve left
+that culture for a reason. It’s America now. So you can have your parties and
+your stuff at your house, but don’t expect us to cater to your culture.”
+
+[![“Well if your allies said that about you then theyre not your
+allies.”](http://web.archive.org/web/20250728161919im_/https://media.newyorker.com/cartoons/593b66e2edb25442b234e76f/master/w_1600%2Cc_limit/160711_a19885.jpg)](http://web.archive.org/web/20250728161919/https://www.newyorker.com/cartoon/a19885)
+
+“Well, if your allies said that about you then they’re not your allies.”
+
+Cartoon by Paul Noth
+
+“Thousands of Cubans coming in,” Kathryn Kobor, a Trump supporter and animal-
+rights activist in her seventies, tells me in Phoenix, as she sits in protest
+of the Hillary Clinton rally across the street, beneath an umbrella provided
+by a Clinton supporter. “Three hundred sixty thousand Guatemalan kids and
+mothers standing at the border, they have to be taken in. We’re going to be
+taking in thousands of Syrians, whom we cannot vet.” I tell her that the
+thought of deporting and dividing families breaks my heart. “Of course it
+does—you’re a human, you care about people. That’s not the question. The
+question is, Do you want to live like India? Sewage running in the streets? .
+. . The infrastructure is crumbling. . . . I’m not speaking for tomorrow. I’m
+not speaking for a year, two years from now. I’ll be gone. I’m speaking for my
+descendants. I have a granddaughter. I have a son. I want them to live a
+decent, clean life. . . . Trump just wants the laws enforced. . . . He’s not a
+mean-spirited person.”
+
+A former marine in line for a Trump rally in Rothschild, Wisconsin, tells me
+that, returning to the U.S. from a deployment overseas, he found himself
+wondering, “Where did my country go?” To clarify, he tells me that he was in
+Qatar on the day that Obama was first elected. “I was actually sitting in the
+chow hall when they announced the results and he gave his speech,” he says. “I
+saw such a division at that time. Every black member of the military was
+cheering. Everybody else was sitting there mute. Like stunned.”
+
+What unites these stories is what I came to think of as usurpation anxiety
+syndrome—the feeling that one is, or is about to be, scooped, overrun, or
+taken advantage of by some Other with questionable intentions. In some cases,
+this has a racial basis, and usurpation anxiety grades into racial nostalgia,
+which can grade into outright racism, albeit cloaked in disclaimer.
+
+In the broadest sense, the Trump supporter might be best understood as a guy
+who wakes up one day in a lively, crowded house full of people, from a dream
+in which he was the only one living there, and then mistakes the dream for the
+past: a better time, manageable and orderly, during which privilege and
+respect came to him naturally, and he had the whole place to himself.
+
+## How Do You Solve a Problem Like Noemi?
+
+Talking to a Trump supporter about Trump’s deportation policy, I’d sometimes
+bring up Noemi Romero, a sweet, soft-spoken young woman I met in Phoenix.
+Noemi was brought to the U.S. when she was three, by undocumented parents. A
+few years ago, she had the idea of applying for legal status through the
+Deferred Action for Childhood Arrivals (_DACA_) program. But the application
+costs four hundred and sixty-five dollars, money her family didn’t have.
+Hearing that a local Vietnamese grocery was hiring, she borrowed her mother’s
+Social Security card and got the job. A few months later, the store was
+raided. Noemi was arrested, charged with aggravated identity theft and
+forgery, and taken to jail and held there, within the general prison
+population, for two months. She was given spoiled milk, and food that, she
+said, had tiny worms in it. Her lawyer arranged a plea bargain; the charges
+were reduced to criminal impersonation. This was a good deal, he told her, the
+best she could hope for. She accepted, not realizing that, as a convicted
+felon, she would be permanently ineligible for _DACA_. Puente, a local
+grassroots organization, intervened and saved her from deportation, but she is
+essentially doomed to a kind of frozen life: can’t work and can’t go to
+college, although she has lived virtually her whole life in the U.S. and has
+no reason to go back to Mexico and nowhere to live if she’s sent there.
+
+I’d ask the Trump supporter, “What do we do about Noemi?” I always found the
+next moment in our exchange hopeful.
+
+Is she a good person? the Trump supporter might ask. I couldn’t feel more
+sorry for her, he might say. That kid is no better or worse than I am and
+deserves the best God can give her. Or he might say that deportation would
+have to be done on a case-by-case basis. Or propose some sort of
+registry—Noemi, having registered, would go back to Mexico and, if all checked
+out, come right back in. There had to be some kind of rule of law, didn’t
+there? Tellingly, the Trump supporter might confess that she didn’t think
+Trump really intended to do this mass-deportation thing anyway—it was all just
+campaign talk. The most extreme supporter might say that, yes, Noemi had to
+go—he didn’t like it, but ultimately the fault lay with her parents.
+
+Sometimes I’d mention a Central American family I met in Texas, while
+reporting another story. In that case, the father and son were documented but
+the mother and daughters weren’t. Would you, I’d ask, split that family up?
+Send those girls to a country in which they’d never spent a single day? Well,
+my Trump-supporting friend might answer, it was complicated, wasn’t it? Were
+they good people? Yes, I’d say. The father, in spare moments between his three
+jobs, built a four-bedroom house out of cinder blocks he acquired two or three
+at a time from Home Depot, working sometimes late into the night. The Trump
+supporter might, at this point, fall silent, and so might I.
+
+In the face of specificity, my interviewees began trying, really trying, to
+think of what would be fairest and most humane for this real person we had
+imaginatively conjured up. It wasn’t that we suddenly agreed, but the tone
+changed. We popped briefly out of zinger mode and began to have some faith in
+one another, a shared confidence that if we talked long enough, respectfully
+enough, a solution could be found that might satisfy our respective best
+notions of who we were.
+
+Well, let’s not get too dreamy about it. We’d stay in that mode for a minute
+or two, then be off again to some new topic, rewrapped in our respective Left
+and Right national flags. Once, after what felt like a transcendent and wide-
+ranging conversation with a Trump supporter named Danny (a former railroad
+worker, now on disability), I said a fond goodbye and went to interview some
+Hillary supporters across the street. A few minutes later, I looked over to
+find Danny shouting at us that Hillary was going to prison, not the White
+House. I waved to him, but he didn’t seem to see me, hidden there in the crowd
+of his adversaries.
+
+## The Elephant in the Room
+
+The average Trump supporter is not the rally pugilist, the white supremacist,
+the bitter conspiracy theorist, though these exist and are drawn to Trump
+(see: _the Internet_)—and, at times, the first flowerings of these tendencies
+were present among some of the rank-and-file supporters I met. A certain
+barely suppressed rage, for example, is evident in the guy in Phoenix who
+wears his gun to a protest against Hillary (“I’m out here with two friends,
+Smith and Wesson”). One of his fellow-protesters tells me that Hillary has had
+oral sex with many female world leaders (“She’s munched with a lot of our
+enemies, man”).
+
+After a rally in Eau Claire, a handful of Trump protesters stand silently in
+the Wisconsin cold as the Trump supporters file out—a spontaneous little lab
+experiment investigating the Trumpies’ response to silent rebuke. “I guess you
+guys don’t read too much,” someone shouts at the protesters. “Or watch the
+news. _Fox News!_ Watch that once in a while!” Other Trump supporters yell
+over incredulously, “Fifteen bucks an hour?” And “Go to socialist Europe! Save
+your checks and move to a socialist country!”
+
+But the line I won’t forget comes from a guy leaving the rally, alone, who
+shout-mutters, if such a thing is possible, “Hey, I’m not paying for your
+shit, I’m not paying for your college, so you go to Hell, go to work, go to
+Hell, suck a dick.”
+
+Not far away, a group of enterprising Girl Scouts is out late, selling cookies
+under a winter-leafless tree. “Cookies for sale, last time this season,” they
+seem to sing. “Girl Scout cookies, last weekend to get them.”
+
+So, yes, there are bigots in the Trump movement, and wackos, and dummies, and
+sometimes I had to remind myself that the important constituency is the
+persuadable middle segment of his supporters, who are not finding in Trump a
+suitable vessel for their hate but are misunderstanding him or overestimating
+him, and moving in his direction out of a misplaced form of hope.
+
+## Who Are They? (Part III)
+
+Sometimes it seemed that they were, like me, just slightly spoiled Americans,
+imbued with unreasonable boomer expectations for autonomy, glory, and
+ascension, and that their grievances were more theoretical than actual, more
+media-induced than experience-related.
+
+Before the rally in San Jose on June 2nd, I talk to a group of construction
+workers, each of whom is in some state of layoff: current, recent, chronic.
+One, who’s hoping to get a job working construction on the Wall, rails against
+millennials, the unions, a minimum-wage hike for fast-food workers, and “these
+people” who get fired, then turn around and sue. I ask for examples. He says
+he isn’t going to give me any names. I say forget the names, just tell me a
+particular story. A guy got fired from his workplace just last week, he says.
+“Is he suing?” I ask. “Well, probably,” he says.
+
+I ask one of his friends, a thoughtful Chinese-American guy, how his life has
+been made worse over the past eight years. He comes up with this: he pays more
+for his insurance because of Obamacare. Anything else? Not really. How has he
+personally been affected by illegal immigration? He hasn’t, he tells me, but
+he’s been fortunate enough to have the resources to keep his family away from
+the danger.
+
+At one point, in line at the Fountain Hills rally, frustrated by a litany of
+anti-Obama grievances being delivered by the woman in front of me, I say that
+I think life is good, pretty good, you know?
+
+“You think this is _good_?” she says.
+
+“I do, yeah,” I say. “We’re out here on a nice day, having a beautiful talk—”
+
+She groans, meaning, You know that’s not what I mean.

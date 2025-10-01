@@ -1,0 +1,225 @@
+# Why Is It So Much Harder to Be Nice to Ourselves Than to Other People?
+
+**Source**: https://melmagazine.com/en-us/story/why-is-it-so-much-harder-to-be-nice-to-ourselves-than-to-other-people
+**Type**: article
+**Created**: 2025-08-13T16:06:16.710651
+
+---
+
+title: Why Is It So Much Harder to Be Nice to Ourselves Than to Other People?
+source: https://melmagazine.com/en-us/story/why-is-it-so-much-harder-to-be-nice-to-ourselves-than-to-other-people
+date: 2025-08-13T16:06:15.952610
+tags: []
+---
+A glaring omission from modern behavioral science is the study of the hand
+movements made by the singers of soulful ballads. For those with eyes to see,
+all of human life’s deepest truths are contained in the expressive
+gesticulations of divas. A perfect example — and a good place to inaugurate
+the formal discipline of what we may as well call hand-throw-pology — is the
+video for Toni Braxton’s 1996 hit [“Un-Break My
+Heart.”](https://en.wikipedia.org/wiki/Un-Break_My_Heart) Sexily grieving for
+her sexy boyfriend (whom we see tragically, yet somehow still sexily, killed
+at the start, in a slow-motion motorcycle accident) by moping around her
+house, bumping into walls and refusing to put on some clothes, Braxton makes a
+number of hand gestures throughout that are equally revealing.
+
+“Don’t leave me alone in the rain…,” she sings while clutching her own upper
+arms in her wispy black mourning negligée. “Uncry these tears…,” she pleads as
+she first presses her palms together, then caresses her hairline in the
+shower. “Undo this hurt that you caused when you walked out the door…,” she
+demands, on stage now and with a few more clothes on, bringing it home and
+purposefully placing both hands over her still un-unbroken heart.
+
+VIDEO
+
+These are all classic chanteuse maneuvers to be sure. But according to actual,
+peer-reviewed research, they’re also power moves in the application of
+psychological self-compassion. For many of us, they might even prove potent
+weapons in combating a particularly unhelpful quirk in our natures: The fact
+that most of us find it easy to be kind to others when they’re in need of
+emotional support, yet will act like callous shitbags when it comes to
+reflecting on our own personal crises and failings.
+
+The good news is that while singers’ hand-choreography isn’t yet the object of
+scientific investigation, this odd dearth of self-compassion is — and progress
+is being made. Having, in 2003, come up with what is now the definitive scale
+psychologists use to quantify and measure people’s self-compassion, [Kristin
+Neff](https://self-compassion.org/about/) is the leader in this emerging
+field. And per a recent study of hers, fully three-quarters of us are
+habitually “significantly” nicer to others than we are to ourselves. While the
+rest, she finds, will show kindness to themselves and others in equal amounts,
+Neff estimates that only “maybe five percent are more compassionate to
+themselves than others. I haven’t studied them yet; I don’t know if they’re
+narcissists, but they’re really weird!”
+
+She has studied the vast majority who seem prone to self-disdain, though, and
+Neff, who is associate professor of human development and culture at the
+University of Texas at Austin — has found that self-comforting hand movements
+are one surprisingly effective way to avoid our unfortunate tendency to do
+ourselves down. “We use physical touch as a really useful [technique] because
+it happens at the preverbal level. We help people find the type of touch that
+feels supportive. For some people, it’s hands on heart; other people, cradling
+their face; some people, holding their own hand.” For T. Braxon _circa_ 1996,
+as we’ve seen, it was all three.
+
+As co-founder of [the educational non-profit Center for Mindful Self-
+Compassion](https://self-compassion.org/), Neff also teaches other methods of
+self-support, including the regular habit of talking to yourself, whether out
+loud or in your head, in warm, encouraging terms. We’ll come on to exactly why
+these tactics might prove so successful in bolstering our mental health — and
+the explanation gets right to the heart of the weird duality that’s at work
+when we’re doling out our sympathies. But first it’s worth outlining what Neff
+and other psychologists who study it mean by self-compassion, and why they
+think it’s such an important trait to acquire.
+
+“When you go into battle, who do you want for your side — an ally or an
+enemy?” asks Neff. “With self-compassion, it’s like you’ve got your own back.”
+It’s much stronger, she says, “to have an ally inside your head than an enemy
+who’s cutting you down and saying, ‘You can’t do it,’ and ‘You’re not good
+enough.’”
+
+She draws a distinction between this cheerleader approach to self-worth and
+the perhaps more familiar notion of self-esteem, which she characterizes more
+in _Mean Girls_ terms, as “a fair-weather friend” and believes is nowhere near
+as helpful to our overall well-being. “Self-esteem, if you think of it just as
+a positive judgement of oneself, can sometimes work and sometimes not. So when
+we fail, for instance, our self-esteem takes a huge hit, right when we need it
+the most. Our self-esteem deserts us.”
+
+### **What’s Self-Love Got To Do with It?**
+
+As a mental-health insurance policy, actively being kind to yourself, compared
+to merely investing pride in yourself, comes with a range of added
+protections. “The research is clear that people who lack self-compassion tend
+to have trouble in many important areas of human flourishing,” says [Taylor
+Kreiss](https://www.taylorkreiss.com/), an L.A.-based life-coach and speaker
+who draws on positive psychology and philosophy to advise clients on “the art
+and science of a happy life.” “People who lack self-compassion,” he continues,
+“tend to experience more stress, less motivation toward valued goals,
+diminished resilience, maladaptive perfectionism, isolation and insecurity.”
+For men in particular, he thinks a reluctance to offer yourself support can
+pose a “devastating hazard,” in that “a lack of self-compassion impedes our
+ability to live authentically; to become the men we want to be.”
+
+If the practice of self-compassion is the answer, though, cradling yourself in
+soothing hands and softly giving yourself pep talks might not seem like the
+guy-est thing to do. “Unfortunately,” says Kreiss, “many men tend to think
+it’s weak or woo-woo bullshit to engage in the elements of self-compassion.”
+Instead, inherited, baked-in ideas of heterosexual masculinity will very often
+prevail: “Many men have been culturally conditioned to berate themselves with
+brutal self-criticism when they find imperfection or weakness. They have your
+stereotypical angry football coach or the gunnery sergeant from _Full Metal
+Jacket_ in their head, just waiting to curse them out whenever they mess up.”
+
+VIDEO
+
+It’s an apt analogy. In addressing the idea that the habits of self-compassion
+might come across as a sign of weakness, Kristin Neff points to a study led by
+the U.S. Department of Veterans Affairs, which assessed levels of post-
+traumatic stress disorder among combat troops who had served in Iraq and
+Afghanistan. In their paper, published in April 2015, the researchers said
+they’d “found a negative association between self-compassion and PTSD symptom
+severity at baseline and 12-month follow-up.” Which means, explains Neff,
+“those soldiers who were kinder and more supportive about what they had
+experienced toward themselves were actually less likely to get PTSD.”
+
+Evidently at least some men, then, even in as towel-snappingly masculine an
+environment as the military, are routinely giving themselves a break. “The
+barriers to self-compassion are akin to the barriers that keep men out of
+therapy,” says Kreiss. But while “they often come up in coaching male clients
+and in everyday life,” he says, “thankfully as a society we’re trying to
+overcome many of these characteristics of toxic masculinity.”
+
+Clearly, though, it’s not just emotionally inhibited men who struggle with
+bestowing appropriate levels of kindness on themselves. Neff suggests that
+cultural norms, particularly in the U.S., mean many might associate self-care
+with other frowned-upon “selfies” like self-indulgence and selfishness. “We
+use the whip with ourselves because we assume that that’s the most effective
+way to motivate ourselves,” she says. “It _kind of_ works but it has all these
+unintended consequences, like to make you depressed and ashamed; it can give
+you performance anxiety; it can make you afraid of failure.”
+
+### **You Are the Wind Beneath Your Wings**
+
+According to positive psychologists, developing a healthy self-compassionate
+disposition is closely associated with mindfulness, a word that might cause
+more than a few to flinch at the self-help hype and Buddhist mystique
+surrounding it. While, according to Neff, being mindful of your suffering is
+an essential ingredient in any act of self-compassion — because you can’t
+extend a helping hand to yourself if you aren’t first aware that you need it —
+she insists you don’t need to be an eighth-level bodhisattva to get the
+benefit. “You don’t have to practice mindfulness meditation to do self-
+compassion; you can just be aware. And you’ve done the practice your whole
+life, probably — where people learn how to be a good friend and how to be a
+support to someone. You can fall back on that.”
+
+Getting practical, Kreiss suggests cultivating kindness by “searching for a
+thought you had earlier in the day that was overly critical, writing it down,
+then turning your criticism into a statement of self-compassion.” His top
+recommendation is “to set a series of alarms on your phone, so that eight
+times a day a message pops up on your screen reminding you to “Practice self
+compassion.” “Try this for two weeks,” he says, “and see if you don’t find
+your spontaneous natural reactions becoming more self-compassionate.”
+Alternatively, of course, you could schedule eight internal choruses of Celine
+Dion’s “My Heart Will Go On” and let your hands do the talking.
+
+VIDEO
+
+Another of the central aspects of Neff’s concept of self-compassion is one we
+should all be able to relate to. To be truly kind to yourself, she argues, is
+to realize that whatever shame, embarrassment, disappointment, sorrow or
+anxiety you might be experiencing, those feelings are being shared, somewhere,
+by someone else. Because they’re all inescapable aspects of being biological
+humans dealing with our universal human shit. And it’s this element, waking up
+to what Neff calls our “common humanity,” that helps explain why some 75
+percent of us are emotionally generous with friends but are continually short-
+changing ourselves.
+
+Our emotional asymmetry, she says, springs from the fact “that self-criticism
+and self-compassion tap in to two different physiological systems.” When we
+self-criticize, explains Neff, it’s often a trigger for our body’s fight-or-
+flight stress response, which is controlled by a neurological network known,
+slightly confusingly, as the sympathetic nervous system. Evolved in our
+hunter-gatherer past to put us in a state of high alertness and heart-thumping
+readiness for action, it’s a system that’s all too quick to activate whenever
+we feel threatened. When the threat arises from ourselves, “because we’ve
+failed or we aren’t good enough,” says Neff, “then we try to fight ourselves,
+control ourselves, so we can be safe. But when my _friend_ fails, I’m not
+directly threatened. So I don’t have to go into that fight, flight or freeze
+mode.”
+
+“The thing we have to remember,” she says, is that our aggressive reaction
+toward ourselves “is all about wanting to be safe.” But it turns out our
+bodies have a second mechanism for helping us do that. This parasympathetic
+nervous system is “a later thing evolutionarily — the mammalian care system,”
+says Neff, which regulates the heart rate and our levels of “feel-good”
+hormones such as oxytocin. This system helps mammals bond with each other “in
+the context of warmth, care, kindness, touch and gentle sounds. That’s what
+motivates children to be near their parents and motivates parents to take care
+of their children.” But compared to the fight-or-flight path to feeling
+secure, this system “doesn’t come online as quickly and it takes a little
+extra effort.”
+
+“So all we’re doing with self-compassion,” says Neff, “is we’re teaching
+people to use this other safety system — the care system — for themselves, to
+help them feel safe. It’s very doable. That’s the crazy thing: It’s not that
+hard for people to do. Because they already have it!”
+
+Which makes sense of why the mannerisms of being nice to yourself — those kind
+words and ballad-singer heart-pressing and head-caressing — might actually
+have a great deal of merit in fortifying our mental defenses. “I don’t want to
+make self-compassion sound like some sort of tonic for all of life’s ills,”
+says Kreiss, “but the research suggests it’s a learnable skill that unlocks
+many of the most sought-after goods of life.”
+
+It’s just as Whitney Houston once sang while lightly tapping on her chest:
+“Learning to love yourself, it is the greatest love of all.” (See? Diva hands:
+_All_ of life’s truths. Someone really should get on this.)
+
+VIDEO
+
+* * *
+
+Chris Bourn is a writer and editor who has writed and edited for many a title,
+including British Maxim and Time Out. He does stories for MEL covering health,
+happiness, and how things came to be.

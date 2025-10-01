@@ -1,0 +1,242 @@
+# =?UTF-8?q?A_Nevelson_Revival,_Louvre_Couture_&_New_York=E2=80=99s_Winter_?=
+
+**Source**: inputs/saved_emails/=UTF-8qA_Nevelson_Revival,_Louvre_Couture_&_New_York=E2=80=99s_Winter_=
+**Type**: email
+**Created**: 2025-08-25T02:54:06.840767
+
+---
+
+=UTF-8qShow=_Sat,_25_Jan_2025_01-15-07_+0000_1949b070fb6f6562.eml
+
+Jan. 24, 2025
+
+Wall Power ( https://puck.news/newsletters/wall-power/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Marion Maneker ( https://puck.news/author/marion-maneker/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Marion Maneker ( https://puck.news/author/marion-maneker/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Welcome back to Wall Power. I’m Marion Maneker,
+just popping in to introduce tonight’s email by Julie Brener Davich. 
+
+ 
+
+I was asked a few months ago (you know who you are…) whether we could provide more coverage of the gallery scene. Since Julie has written some excellent gallery previews, I thought we would try out an occasional Friday email offering a survey of what’s on view. I suspect that you’ll find this to be a useful guide to
+seeing a few shows on Saturday or during the week. 
+
+ 
+
+Going to see art doesn’t have to be a big expedition—just stop by a gallery on your way to do other things. If you see a great show, email Julie at JDavich@puck.news ( jdavich@puck.news?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) and let her know what you think. Now, Julie’s going to take you around Manhattan. 
+
+ 
+
+But first, a quick stop in Paris…
+
+Julie Brener Davich
+Julie Brener Davich
+
+ 
+
+Paris Curates Fashion
+---------------------
+
+This weekend marks the opening of the sumptuous Louvre Couture. Art and
+Fashion: Statement Pieces. The exhibition features more than 100 different looks and accessories from the past 65 years, organized into seven historical periods, from Byzantium and the Middle Ages to the 19th century, on display throughout the museum’s 100,000 square feet of decorative arts galleries.
+
+ 
+
+Each item resonates with the history of decorative arts—the evolving styles, exquisite craftsmanship,
+elaborate ornamentation, etcetera. To wit: You’ll see a pattern from an 18th century André-Charles Boulle armoire, reimagined as brocaded silk damask and Lesage embroidery in a 1990 Givenchy evening trouser suit. The 45 participating brands range from Dries Van Noten to Versace to Vivienne Westwood, with about two-thirds of them coming from Paris. 
+
+ 
+
+This show marks the first time that
+the Louvre, which does not have a permanent fashion collection, has staged a fashion exhibition. Surely its curators saw the success of the Met Costume Institute’s annual exhibition and gala, with its infinite social impressions and celebrities climbing over one another to get invited. Anyway, word from my partner Lauren Sherman in this week’s
+Line Sheet ( https://puck.news/newsletter_content/kardashian-deal-flow-secrets-sephora-sponcon-terry-richardsons-return-2/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) is that fashion brands have snapped up around 30 tables for the gala scheduled for March 4, to kick off Fashion Week. I also hear the museum has already achieved its €1 million fundraising goal, which I think is rather unambitious considering a single table at the Met Gala goes for $350,000—and the fact that, as
+reported ( https://www.artnews.com/art-news/news/louvre-director-memo-overcrowding-leaks-mona-lisa-1234730700/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) in ARTnews today, the Louvre’s infrastructure is literally crumbling.
+
+ 
+
+The Louvre show, on view through July 21, is curated by senior heritage curator Olivier Gabet, who came to the museum just over two years ago from the Musée
+des Arts Décoratifs. Additional events include a live performance by Broadway producer and budding fashion icon Jordan Roth (son of real estate mogul Steven Roth and Broadway producer Daryl Roth) on July 4, timed to couture season.
+
+Dolce Gabbana exhibit
+
+From Du Cœur à La Main, Dolce & Gabbana
+
+Just down the Quai de Tuileries, at the Grand Palais, is the Dolce
+& Gabbana exhibition, Du Coeur à la Main (“From the Heart to the Hand”). It’s a second chance to catch the magic after the show’s sold-out run in Milan last spring. The presentation focuses on the duo’s output since 2012, when they began doing Alta Moda—the Italian term for haute couture. Ten immersive rooms filled with opulent clothing, accessories, and decorative arts take visitors on a grand tour of Italian culture and architecture: columnar dresses in an ancient temple,
+sequined suits in a Byzantine basilica, brightly painted fabrics among Sicilian tiles. 
+
+ 
+
+Since Dolce & Gabbana is a luxury brand that also sells ready-to-wear, the exhibition is a genius customer acquisition and relationship-building tool, especially given its proven success in Milan. The show is on view only through March 31.
+
+Meanwhile, back in New York…
+
+A Nevelson Revival & New York’s Winter Show
+
+A Nevelson Revival & New York’s Winter Show ( https://puck.news/a-louise-nevelson-revival-new-yorks-winter-art-shows/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Louise Nevelson is having a moment, with a show at Pace Gallery and jewelry by
+Celine; meanwhile at the Park Avenue Armory, a trove of treasures gets feted.
+
+Julie Brener Davich ( https://puck.news/author/juliedavich/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Julie Brener Davich ( https://puck.news/author/juliedavich/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Arne Glimcher, the founder of Pace Gallery, was an upstart
+21-year-old when he first encountered Louise Nevelson’s work in the 1960 MoMA show 16 Americans. Nevelson, for her part, was already 60 years old when legendary MoMA curator Dorothy Miller asked her to participate in the exhibition alongside Jasper Johns, Robert Rauschenberg, and Frank Stella. For that show, Nevelson created Dawn’s Wedding Feast—an entire gallery filled with her signature
+sculptures and wall pieces made from wooden scraps and painted a solid color (in this instance white, but more frequently in her career, black). 
+
+ 
+
+Glimcher was enamored. “I’d never seen anything like that before or since,” he told me. “I knew she was the progenitor of installation art in America.” Nevelson took detritus from the city streets and transformed them into architecture. She eradicated their history as
+individual objects, elevating the banal into something sublime—in fact, in 1975, she would be commissioned to adorn a chapel at Saint Peter’s Church.
+
+Louise Nevelson: Shadow Dance, New York. (Photo: Courtesy of Pace Gallery)
+
+Glimcher called up Nevelson’s gallerist at the time, Martha Jackson, and got
+the go-ahead to mount a show of her work at his new Boston gallery. “I think my sincerity was captivating,” he laughed. He rented a U-Haul, packed all the sculptures with cardboard in between, and drove them up to Massachusetts. The show resulted in Nevelson’s first significant sales.
+
+Nevelson Finds a Home
+---------------------
+
+After leaving Jackson, Nevelson did a brief stint at Sidney
+Janis Gallery, where she had one show in which nothing sold. Glimcher then staged a major coup—paying off Nevelson’s debt to Janis and bringing her to his own new gallery in New York, where she remained until her death in 1988. “She was very much the backbone of the gallery,” he said. Over that 25-year period, Glimcher mounted about a dozen solo shows of her work, and then as many posthumously. The most recent show, Shadow Dance, curated by Glimcher and including
+several works from his personal collection, is on view through March 1 at Pace’s New York gallery. 
+
+ 
+
+The show comprises almost entirely works from the late 1960s to the 1980s, some of which have never been shown. Oliver Shultz, Pace’s chief curator, described these later works as “more transgressive and exuberant.” Not only are they more curvilinear than her earlier works, but they
+also have some identifiable objects, like headboards and chairs.
+
+ 
+
+About half of the works in the show are for sale, with the sculptural pieces ranging in price from $375,000 to several million. Nevelson had a strong market during her lifetime, Glimcher told me, but most of her buyers were museums that could accommodate the monumental scale of her pieces. That means there are few works available, especially earlier ones.
+There’s never been a hugely significant work of hers offered at auction, where her record is only $1.35 million. But Glimcher said several pieces have sold privately for up to $4 million. In general, her white pieces are more prized than the black ones.
+
+The Eclipse and the Comeback
+----------------------------
+
+After Nevelson died, “her works went into eclipse,” said Shultz. She was a
+flamboyant, instantly recognizable personality—a style influencer, if you will—and became indistinguishable from her work. “When people stopped seeing her,” continued Shultz, “they stopped seeing the works.” 
+
+ 
+
+But a revival is underway. In 2022, the Louise Nevelson Foundation, founded in 2005 by her granddaughter, Maria Nevelson, organized a show of 60 works at the Venice Biennale. The
+event—championed, of course, by Glimcher—celebrated the 60th anniversary of Nevelson representing the U.S. in the 1962 Biennale. 
+
+ 
+
+More museums are bringing their Nevelson works out of storage; the Centre Pompidou-Metz in Lorraine, France, is staging a solo exhibition of her works this fall. But there is perhaps no greater sign of an artist’s increasing visibility than a fashion brand wanting to bask
+in their aura. So it’s notable that the Celine Artist Jewelry Program, headed by artistic director Hedi Slimane, is selling two limited-edition necklaces ( https://www.celine.com/en-us/celine-maison-de-couture/collaborations/collaboration-nevelson/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) informed by Nevelson’s own jewelry designs for $4,500 (silver) and $5,300 (gold). Gallerist Didier Haspeslagh, who specializes in jewelry made by artists,
+told me that most female artists eschew making jewelry for fear of being seen as too feminine. “Only the really strong, successful female artists make jewelry,” he said.
+
+ 
+
+In town for a couple days? There are a couple other excellent gallery shows that should be on your agenda…
+
+Elsewhere in
+Galleries
+------------
+
+Katie Paterson at James Cohan: On view in Tribeca through February 22 are works by
+Scottish artist Katie Paterson. Inspired by a trip to Iceland when she was a student, Paterson focuses her art on “deep time,” or the history of Earth over millions of years. Each work in her “O” series is a solid circle that looks painted, but is actually made from materials like the ashes of 10,000 trees and salts collected from evaporated oceans. 
+
+Katie Paterson, There Is Another Sky (Photo: Courtesy of Katie Paterson &
+James Cohan)
+
+Other works include a handblown hourglass containing stardust, and a large
+embroidery on linen depicting 352 extinct plants. In the back gallery is a 10.5-foot glass column made from desert sands across the earth, similar to the columns she used in her installation Mirage (2023) for Apple’s campus in Cupertino. The works, many of which come in multiple editions, range in price from £8,500 to £225,000.
+
+ 
+
+Etel Adnan at White Cube: Meanwhile, uptown, a show of works by the
+late Lebanon-born artist and writer Etel Adnan is on display at White Cube. The international art world discovered her less than 15 years ago, and with 45 of her top 50 auction prices achieved after her death in fall 2021, it’s safe to say her market is on a steep upward trajectory. She’s primarily a colorist known for petite canvases that evoke a sense of place, but this exhibition brings together works across various media, including a large-scale, tiled ceramic wall piece;
+leporellos (handheld books folded accordion-like); and colorful tapestries. Both the ceramic work and the tapestries were created posthumously from the artist’s decades-old designs. 
+
+Etel Adnan, This Beautiful Light, 2025 (Photo: Frankie Tyska/Courtesy of
+White Cube)
+
+Given the explosion in prices for her works, it makes sense that White Cube would want to feed
+the hungry market. The tapestries, available for $180,000 each in editions of three, were produced by the French weaver Pinton, which has also worked with Alexander Calder, Sonia Delaunay, and Fernand Léger. Their ability to replicate the look of brushstrokes using thread is uncanny. Marion and I have the same favorite: the 75-inch-square Désert Ensoleillé 1960s (2023).
+
+Winter
+Wonders
+-------
+
+If you want to stay out of the cold and see a lot of art in one concentrated
+place, head to the Armory on 68th Street. The Winter Show, which cast off the mustiness of the word “Antiques” in its title several years ago, opened last night with champagne, caviar, and visits from Michael Bloomberg, Nicky Hilton, and Martha Stewart. Unlike for-profit fairs, The Winter Show was established more than 70 years ago by East Side House Settlement, a community-based organization in the Bronx, as a fundraising
+event. 
+
+ 
+
+Almost 80 dealers from nine countries brought treasures ranging from silver and jewelry to paintings and works on paper to furniture and ceramics. Some of the leading gallerists in their respective fields are on hand, including Koopman Rare Art for silver, Ronald Phillips Ltd. for English furniture, Michele Beiny for ceramics, and Peter Finer for arms and
+armor. 
+
+ 
+
+The fair is “vetted,” which is a term I’ve never really questioned over my 20 years in the art and design field. It turns out, as 18th century English antiques dealer Clinton Howell explained, the day before the fair opened to the public, the objects were examined by more than 120 specialists across 30 disciplines to confirm their authenticity, quality, and value, so buyers can have full
+confidence in what they are buying.
+
+The Winter Show, New York (Photo: Matt Borkowski/Courtesy of BFA.com)
+
+The first booth I happened upon when I previewed the fair yesterday was that
+of Michael Goedhuis, who specializes in Asian art. He shared with me the resurgence in interest in Japanese art, and showed me three rare 17th century bronze flower vessels that he’s selling for $9,000 to $16,000. (Francesco Goedhuis, his son, serves on Puck’s board of directors.) At Finer’s arms-and-armor booth, I learned that half his clients are female. “Weapons are functioning objects, but they’re also art,” he explained, pointing to a rare
+17th-18th century Mughal dagger with a jade, ruby, and gold handle carved in the shape of a horse’s head. 
+
+ 
+
+Beiny, meanwhile, specializes in porcelain and ceramics. Up until 10 years ago that meant Meissen and Sèvres, but now he also deals in modern and contemporary ceramics and glass by the likes of Michael Dickey and Jennifer McCurdy. In fact, the first red dot I saw
+at the fair was at Beiny’s booth, for a purple copper glaze porcelain vase by Brother Thomas Bezanson. The most Instagrammable booth was that of first-time attendee Galerie Gmurzynska. The gallery brought a 6-foot-long wooden Tom Wesselmann sculpture of a smoking cigarette—a recurrent theme in the artist’s practice—priced just under $1 million. 
+
+ 
+
+The final booth that
+caught my eye was that of Didier Ltd., which specializes in jewelry by artists. Capitalizing on the current market craze for Les Lalanne, the Didiers brought an impressive selection of designs by Claude Lalanne, including some galvanized leaf pieces and a child’s gold-and-diamond “papillon” bracelet purchased at Christie’s 2023 Rothschild sale. The most remarkable object is a gold brooch cast from the lips of model Veruschka, whose midriff was
+also memorialized in gold by Yves Saint Laurent.
+
+ 
+
+The Winter Show is on view for 10 days, accompanied by a full slate of events and programming. Don’t miss my friend Christine Donahue Kavanagh of Sotheby’s leading a panel discussion this Sunday afternoon about collection management and legacy planning.
+
+ 
+
+Endnotes…
+-----------
+
+Thank you, Julie. If you liked having a gallery roundup, let me know by
+replying to this email. If we get a good response, we’ll do more. 
+
+ 
+
+I promised you more on the Sotheby’s 2024 results call that took place Thursday morning. I’ll delve into that on Sunday. We’ll also have results from the Jeff Beck guitar sale and Americana week, just to keep us all honest on the previews. 
+
+ 
+
+Till then,
+
+M
+
+Line Sheet ( https://puck.news/newsletters/line-sheet/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Line Sheet ( https://puck.news/newsletters/line-sheet/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The ultimate fashion industry bible, offering incisive reportage on all aspects of the business and its biggest players.
+Anchored by preeminent fashion journalist Lauren Sherman, Line Sheet also features veteran reporter Rachel Strugatz, who delivers unparalleled intel on what’s happening in the beauty industry, and Sarah Shapiro, a longtime retail strategist who writes about e-commerce, brick-and-mortar, D.T.C., and more. 
+
+Puck
+
+Puck
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact us ( fritz@puck.news?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=wall_power&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUmwbRWtH3_PgfuNO3BGY=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_content=Wall+Power+-+SUBSCRIBERS+%281%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+ 
+
+Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

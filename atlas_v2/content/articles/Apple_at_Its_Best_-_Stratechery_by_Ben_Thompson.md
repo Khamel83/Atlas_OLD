@@ -1,0 +1,337 @@
+# Apple at Its Best - Stratechery by Ben Thompson
+
+**Source**: https://stratechery.com/2017/apple-at-its-best/
+**Type**: article
+**Created**: 2025-08-13T16:53:36.170775
+
+---
+
+title: Apple at Its Best - Stratechery by Ben Thompson
+source: https://stratechery.com/2017/apple-at-its-best/
+date: 2025-08-13T16:53:34.701104
+tags: []
+---
+The history of Apple being doomed doesn’t necessarily repeat, but it does
+rhyme.
+
+Take [the latest installment](http://fortune.com/2017/11/02/apple-iphone-x-ai-
+google-amazon/), from Professor Mohanbir Sawhney at the Kellogg School of
+Management (one of my former professors, incidentally):
+
+> Have we reached peak phone? That is, does the new iPhone X represent a
+> plateau for hardware innovation in the smartphone product category? I would
+> argue that we are indeed standing on the summit of peak “phone as hardware”:
+> While Apple’s newest iPhone offers some impressive hardware features, it
+> does not represent the beginning of the next 10 years of the smartphone, as
+> Apple claims…
+>
+> As we have seen, when the vector of differentiation shifts, market leaders
+> tend to fall by the wayside. In the brave new world of AI, Google and Amazon
+> have the clear edge over Apple. Consider Google’s Pixel 2 phone: Driven by
+> AI-based technology, it offers unprecedented photo-enhancement features and
+> deeper hardware-software integration, such as real-time language translation
+> when used with Google’s special headphones…The shifting vector of
+> differentiation to AI and agents does not bode well for Apple…
+>
+> Sheets of glass are simply no longer the most fertile ground for innovation.
+> That means Apple urgently needs to shift its focus and investment to AI-
+> driven technologies, as part of a broader effort to create the kind of
+> ecosystem Amazon and Google are building quickly. However, Apple is falling
+> behind in the AI race, as it remains a hardware company at its core and it
+> has not embraced the open-source and collaborative approach that Google and
+> Amazon are pioneering in AI.
+
+It is an entirely reasonable argument, particularly that last line: I myself
+have argued that [Apple needs to rethink its organizational
+structure](https://stratechery.com/2016/apples-organizational-crossroads/) in
+order to build more competitive services. If the last ten years have shown us
+anything, though, it is that discounting truly great hardware — and the sort
+of company necessary to deliver that — is the surest way to be right in theory
+and wrong in reality.
+
+#### The Samsung Doom
+
+When Stratechery started in 2013, Samsung was ascendent, and the doomsayers
+were out in force. The arguments were, in broad strokes, the same: hardware
+innovation was over, and Android’s good enough features, broader hardware
+base, and lower prices would soon mean that the iPhone would go the way of the
+Mac relative to Windows.1
+
+At that time the flagship iPhone was the iPhone 5; Apple was still only making
+one iPhone a year. That phone — the one that, many claimed, was the peak of
+hardware innovation — featured a larger (relative to previous iPhones) 4 inch
+LED screen, 8MP rear camera and 1.2 MP front camera, and Apple’s A6 32-bit
+system-on-a-chip, the first from the company that was not simply a variation
+on a licensed ARM design. To be sure, the relatively small screen size was a
+readily apparent problem: [one of my first
+articles](https://stratechery.com/2013/apple-samsung-and-the-parable-of-the-
+model-t/) argued that Samsung’s focus on larger-screens was a meaningful
+advantage that Apple should copy.
+
+Obviously Apple eventually did just that with the iPhones 6 and 6 Plus, but
+screen size is hardly the only thing that changed: later that year Apple
+introduced the iPhone 5S, which included the A7 chip that blew away the
+industry by going 64-bit years ahead of schedule; Apple has enjoyed a massive
+performance advantage relative to the rest of the industry ever since. The
+iPhone 5S also included Touch ID, the first biometric authentication method
+that worked flawlessly at scale (and enabled Apple Pay), the usual camera
+improvements, as well as a new ‘M7’ motion chip that laid the groundwork for
+Apple’s fitness focus (and the Apple Watch).
+
+And, even as critics clamored that the pricing of the iPhone 5C, launched
+alongside the 5S, meant the company was going to be disrupted, the iPhone 5S
+sold in record numbers — just like every previous iPhone had.
+
+#### The iPhone X
+
+I’m spoiled, I know: gifted with the rationalization of being a technology
+analyst, I buy an iPhone every year. Even so, I thought the iPhone 7 was a
+solid upgrade: it was noticeably faster, had an excellent screen, and the
+camera was great; small wonder it sold in record number [everywhere but
+China](https://stratechery.com/2017/apples-china-problem/).2 What it lacked,
+though — and I didn’t fully appreciate this until I got an iPhone X — was
+delight:
+
+[![](https://i0.wp.com/stratechery.com/wp-
+content/uploads/2017/11/iphoneXAppleBest.gif?resize=300%2C614&ssl=1)](https://i0.wp.com/stratechery.com/wp-
+content/uploads/2017/11/iphoneXAppleBest.gif?ssl=1)
+
+Face ID isn’t perfect: there are a lot of edge cases where having Touch ID
+would be preferable. By its fourth iteration in the iPhone 7, Touch ID was
+utterly dependable and, like the best sort of technology, barely noticeable.
+
+FaceID takes this a step further: while it takes a bit of time to change
+engrained habits, I’m already at the point where I simply pick up the phone
+and swipe up without much thought;3 authenticating in apps like
+[1Password](https://1password.com) is even more of a revelation — you don’t
+have to actually _do_ anything.
+
+In these instances the iPhone X is reaching the very pinnacle of computing:
+doing a necessary job, in this case security, better than humans can.4 The
+fact that this case _is_ security is particularly noteworthy: it has long been
+taken as a matter of fact that there is an inescapable trade-off between
+security and ease-of-use; TouchID made it far easier to have effective
+security for the vast majority of situations, and FaceID makes it invisible.
+
+The trick Apple pulled, though, was going beyond that: the first time I saw
+notifications be hidden and then revealed (as in the GIF above) through simply
+a glance produced the sort of surprise-and-delight that has traditionally
+characterized Apple’s best products. And, to be sure, surprise-and-delight is
+particularly important to the iPhone X: so much is new, particularly in terms
+of the interaction model, that frustrations are inevitable; in that Apple’s
+attempt to analogize the iPhone X to the original iPhone is more about
+contrasts than comparisons.
+
+#### The Original iPhone and Overshooting
+
+While the iPod wheel may be the most memorable hardware interface in modern
+computing, and the mouse the most important, touch is, for obvious reasons,
+the most natural. That, though, only elevates the original iPhone’s single
+button: everything about touch interfaces needed to be invented, discovered,
+and figured out; it was that button that made it accessible to everyone — when
+in trouble, hit the button to escape.
+
+Over the years that button became laden with ever more functionality: app-
+switching, Siri, TouchID, reachability. It was the physical manifestation of
+another one of those seemingly intractable trade-offs: functionality and ease-
+of-use. Sure, the iPhone 5 I referenced earlier was massively more capable
+than the original iPhone, and the iPhone X vastly more capable still, but in
+fact an argument based on specifications makes the critics’ point: the more
+technology that gets ladled on top, the more inaccessible it is to normal
+users. Clayton Christensen, in the [The Innovators’
+Dilemma](http://www.claytonchristensen.com/books/the-innovators-dilemma/),
+called this “overshooting”:
+
+> Disruptive technologies, though they initially can only be used in small
+> markets remote from the mainstream, are disruptive because they subsequently
+> can become fully performance-competitive within the mainstream market
+> against established products. This happens because the pace of technological
+> progress in products frequently exceeds the rate of performance improvement
+> that mainstream customers demand or can absorb. As a consequence, products
+> whose features and functionality closely match market needs today often
+> follow a trajectory of improvement by which they overshoot mainstream market
+> needs tomorrow. And products that seriously underperform today, relative to
+> customer expectations in mainstream markets, may become directly
+> performance-competitive tomorrow.
+
+This was the reason all of those iPhone critics were so certain that Apple’s
+days were numbered. “Good-enough” Android phones, sold for far less an iPhone,
+would surely result in low-end disruption. Here’s Christensen in [an interview
+with Horace Dediu](https://www.forbes.com/sites/stevedenning/2012/05/07/why-
+clayton-christensen-worries-about-apple/#1bbebcc2558b):
+
+> The transition from proprietary architecture to open modular architecture
+> just happens over and over again. It happened in the personal computer.
+> Although it didn’t kill Apple’s computer business, it relegated Apple to the
+> status of a minor player. The iPod is a proprietary integrated product,
+> although that is becoming quite modular. You can download your music from
+> Amazon as easily as you can from iTunes. You also see modularity organized
+> around the Android operating system that is growing much faster than the
+> iPhone. So I worry that modularity will do its work on Apple.
+
+Shortly after the iPhone 5S/5C launch, I made the case that [Christensen was
+wrong](https://stratechery.com/2013/clayton-christensen-got-wrong/):
+
+> Modularization incurs costs in the design and experience of using products
+> that cannot be overcome, yet cannot be measured. Business buyers — and the
+> analysts who study them — simply ignore them, but consumers don’t. Some
+> consumers inherently know and value quality, look-and-feel, and attention to
+> detail, and are willing to pay a premium that far exceeds the financial
+> costs of being vertically integrated…
+>
+> Not all consumers value — or can afford — what Apple has to offer. A large
+> majority, in fact. But the idea that Apple is going to start losing
+> consumers because Android is “good enough” and cheaper to boot flies in the
+> face of consumer behavior in every other market. Moreover, in absolute
+> terms, the iPhone is significantly less expensive relative to a good-enough
+> Android phone than BMW is to Toyota, or a high-end bag to one you’d find in
+> a department store…
+>
+> Apple is — and, for at least the last 15 years, has been — focused exactly
+> on the blind spot in the theory of low-end disruption: differentiation based
+> on design which, while it can’t be measured, can certainly be felt by
+> consumers who are both buyers and users.
+
+Needless to say, in 2013 we weren’t anywhere close to peak iPhone: in the
+quarter I wrote that article — 4Q 2013, according to Apple’s fiscal calendar,
+the weakest quarter of the year — the company sold 34 million iPhones; the
+next quarter Apple booked $58 billion in revenue. We are now four years on,
+and last quarter — 4Q 2017, again according to Apple’s fiscal quarter — the
+company sold 47 million iPhones; next quarter Apple is forecasting between $84
+and $87 billion in revenue.
+
+More importantly, the _experience_ of using an iPhone X, at least in these
+first few days, has that feeling: consideration, invention, and yes, as the
+company is fond to note, the integration of hardware and software. Look again
+at that GIF above: not only does Face ID depend on deep integration between
+the camera system, system-on-a-chip, and operating system, but the small touch
+of displaying notifications only when the right person is looking at them
+depends on one company doing everything. That still matters.
+
+Moreover, it’s worth noting that the iPhone X is launching into a far
+different market than the original iPhone did: touch is not new, but rather
+the familiar; changing many button paradigms into gestures certainly presents
+a steeper learning curve for first-time smartphone users, but for how many
+users will the iPhone X be their first smartphone?
+
+#### Artificial Intelligence and New Market Disruption
+
+Still, I noted that while Apple doom-sayers rhyme, they don’t repeat. The past
+four years may have thoroughly validated my critique of low-end disruption and
+the iPhone, but there is another kind of disruption: new market disruption.
+Christensen explains the difference in [The Innovator’s
+Solution](http://www.claytonchristensen.com/books/the-innovators-solution/):
+
+> Different value networks can emerge at differing distances from the original
+> one along the third dimension of the disruption diagram. In the following
+> discussion, we will refer to disruptions that create a new value network on
+> the third axis as new-market disruptions. In contrast, low-end disruptions
+> are those that attack the least-profitable and most overserved customers at
+> the low end of the original value network.
+
+Christensen ultimately concluded that the iPhone was a new market disruptor of
+the PC: it was seemingly less capable yet simpler to use, and thus attracted
+non-consumption, and eventually gained sufficient capabilities to attract PC
+users as well. This is certainly true as far as it goes;5 certainly there are
+an order of magnitude more smartphone users than there ever were PC users.
+
+And, to that end, Sawhney’s argument is in this way different from the
+doomsayers of old: it’s not that Apple will be disrupted by “good-enough”
+cheap Android, but rather because a new vector is emerging — artificial
+intelligence:
+
+> The vector of differentiation is shifting yet again, away from hardware
+> altogether. We are on the verge of a major shift in the phone and device
+> space, from hardware as the focus to artificial intelligence (AI) and AI-
+> based software and agents.
+>
+> This means nothing short of redefinition of the personal electronics that
+> matter most to us. As AI-driven phones like Google’s Pixel 2 and virtual
+> agents like Amazon Echo proliferate, smart devices that understand and
+> interact with us and offer a virtual and/or augmented reality will become a
+> larger part of our environment. Today’s smartphones will likely recede into
+> the background.
+
+Makes perfect sense, but for one critical error: consumer usage is not, at
+least in this case, a zero sum game. This is the mistake many make when
+thinking about the way in which orthogonal businesses compete:
+
+[![](https://i0.wp.com/stratechery.com/wp-content/uploads/2017/11/stratechery-
+Year-
+One-330-1.png?resize=640%2C280&ssl=1)](https://i0.wp.com/stratechery.com/wp-
+content/uploads/2017/11/stratechery-Year-One-330-1.png?ssl=1)
+
+The presumption is that the usage of Technology B necessitates no longer using
+Technology A; it follows, then, that once Technology B becomes more important,
+Technology A is doomed.
+
+In fact, though, most paradigm shifts are layered on top of what came before.
+The Internet was used on PCs, social networks are used alongside search
+engines. Granted, as I just noted, smartphones are increasingly replacing PCs,
+but even then most use is additive, not substitutive. In other words, there is
+no reason to expect that the arrival of artificial intelligence means that
+people will no longer care about what smartphone they use. Sure, the latter
+may “recede into the background” in the minds of pundits, but they will still
+be in consumers’ pockets for a long time to come.
+
+There’s a second error, though, that flows from this presumption of zero-
+summedness: it ignores the near-term business imperatives of the various
+parties. Google is the best example: were the company to restrict its services
+to its own smartphone platform the company would be financially decimated. The
+most attractive customers to Google’s advertisers are on the iPhone — just
+look at [how much Google is willing to pay to acquire
+them](https://stratechery.com/2017/googles-earnings-tac-and-apple-googles-
+growing-network/)6 — and while Google could in theory convince them to switch
+by keeping its superior services exclusive, in reality such an approach is
+untenable. In other words, Google is heavily incentivized to preserve the
+iPhone as a competitive platform in terms of Google’s own services; granted,
+Android is still better in terms of easy access and defaults, but the
+advantage is far smaller than it could be.
+
+Apple, meanwhile, is busy building competing services of its own, and while
+it’s easy — and correct — to argue that they aren’t really competitive with
+Google’s, that doesn’t really matter because competition isn’t happening in a
+vacuum. Rather, Apple not only enjoys the cost of switching advantage inherent
+to all incumbents, but also is, as the iPhone X shows, maintaining if not
+extending the user experience advantage that comes from its integrated model.
+That, by extension, means that Apple’s services need only be “good enough” —
+there’s that phrase! — to let the company’s other strengths shine.
+
+[![](https://i0.wp.com/stratechery.com/wp-content/uploads/2017/11/stratechery-
+Year-
+One-331.png?resize=640%2C388&ssl=1)](https://i0.wp.com/stratechery.com/wp-
+content/uploads/2017/11/stratechery-Year-One-331.png?ssl=1)
+
+This results in a far different picture: the “hurdle rate” for meaningful
+Android adoption by Apple’s customer base is far greater than the doom-sayers
+would have you think.
+
+#### Apple’s Durable Advantage
+
+I am no Apple pollyanna: I first made the argument [years
+ago](https://stratechery.com/2015/apple-watch-and-continuous-computing/) that
+the ultimate Apple bear case is the disappearance of hardware that you touch
+(which remains the case); I also complimented the company [for having the
+courage](https://stratechery.com/2016/beyond-the-iphone/) to push towards that
+future.
+
+Indeed, Apple’s aggressiveness in areas like wearables and, at least from a
+software perspective, augmented reality, suggest the company will press its
+hardware advantage to get to the future before its rivals, establishing a
+beachhead that will be that much more difficult for superior services
+offerings to dislodge. Moreover, there is evidence that Google sees the value
+in Apple’s approach: the company’s push into hardware may in part be an
+attempt to [find a new business model](https://stratechery.com/2016/google-
+and-the-limits-of-strategy/), but establishing the capabilities to compete in
+hardware beyond the smartphone is surely a goal as well.
+
+What is fascinating to consider is just how far might Apple go if it decided
+to do nothing but hardware and its associated software: if Google Assistant
+could be the iPhone default, why would any iPhone user even give a second
+thought to Android? I certainly don’t expect this to happen, but that giving
+away control of what seems so important might, in fact, secure Apple’s future
+more strongly than anything else, is the most powerful signal possible that
+the integration of hardware and software — and the organizational knowledge,
+structure, and incentives that come from that being a company’s primary
+business model — remains a far more durable competitive advantage than many
+theorists would have you think.

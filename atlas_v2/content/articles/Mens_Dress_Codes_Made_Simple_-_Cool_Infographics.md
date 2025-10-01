@@ -1,0 +1,39 @@
+# Men's Dress Codes Made Simple - Cool Infographics
+
+**Source**: http://www.coolinfographics.com/blog/2016/2/3/mens-dress-codes-made-simple.html
+**Type**: article
+**Created**: 2025-08-13T18:26:20.994137
+
+---
+
+title: Men's Dress Codes Made Simple - Cool Infographics
+source: http://www.coolinfographics.com/blog/2016/2/3/mens-dress-codes-made-simple.html
+date: 2025-08-13T18:26:13.830938
+tags: []
+---
+[Men's Dress Codes Made
+Simple](http://web.archive.org/web/20220814203508/http://blog.samuel-
+windsor.co.uk/mens-dress-code-infographic) from [Samuel
+Windsor](http://web.archive.org/web/20220814203508/http://blog.samuel-
+windsor.co.uk/mens-dress-code-infographic) will answer your questions about
+men's attire for any function.
+
+> _Want to look the business? This visual guide to men’s dress codes helps you
+> guarantee an impeccable appearance at any function._
+>
+> _Why can’t you wear a watch with white tie? Is a_[ _pinstripe
+> suit_](http://web.archive.org/web/20220814203508/http://www.samuel-
+> windsor.co.uk/shop.cfm/designer-suits/mens-pinstripe-suits/73/6520) _or
+> blazer best for business? Are brogues or_[ _Oxford
+> shoes_](http://web.archive.org/web/20220814203508/http://www.samuel-
+> windsor.co.uk/shop.cfm/designer-shoes/oxford-shoes/73/6538) _most suited to
+> smart casual?_
+>
+> _Our infographic below solves these and other dress code conundrums in
+> seconds._
+
+Simple use of illustrations to help make a dry topic significantly more
+engaging for readers. Infographics don't always need big, numerical datasets
+to be able to visualize information.
+
+Thanks to Jenny for sending in the link!

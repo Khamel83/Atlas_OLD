@@ -1,0 +1,104 @@
+# Veteran critic Alan Sepinwall on how peak TV has changed television criticism | Vox
+
+**Source**: https://www.vox.com/2017/6/21/15845598/alan-sepinwall-interview-podcast
+**Type**: article
+**Created**: 2025-08-13T17:13:09.079028
+
+---
+
+title: Veteran critic Alan Sepinwall on how peak TV has changed television criticism | Vox
+source: https://www.vox.com/2017/6/21/15845598/alan-sepinwall-interview-podcast
+date: 2025-08-13T17:13:08.066263
+tags: []
+---
+Over the course of a 20-plus-year career covering television — a career that
+began with _NYPD Blue_ write-ups in his University of Pennsylvania dorm room
+and is still going strong — one of the most crucial things [Alan
+Sepinwall](http://uproxx.com/sepinwall/) has learned is how ephemeral both
+great TV and television criticism can be. The rise of prestige TV especially
+has led to a change in how he sees his role as a writer.
+
+“Now because of peak TV, there are just so many shows that the thing I hear
+most from people is just, ‘Help me, I don’t know what to watch.’ One of the
+reasons I’ve taken a step back from recapping more things is because I want
+more time to watch more things so I can function as some kind of a gatekeeper
+for the people who say they need that,” Sepinwall tells Vox critic at large
+Todd VanDerWerff on the [latest
+episode](https://cms.megaphone.fm/channel/ithinkyoureinteresting) of
+VanDerWerff’s podcast, [_I Think You’re
+Interesting_](https://cms.megaphone.fm/channel/ithinkyoureinteresting).
+
+In addition to working as the TV critic at Uproxx, Sepinwall has been adding
+to his print bibliography. He wrote [_TV (The Book): Two Experts Pick the
+Greatest American Shows of All Time_](https://www.amazon.com/TV-Book-Experts-
+Greatest-American-ebook/dp/B01A5VQUJS/) with Matt Zoller Seitz, which was
+published in September 2016, and he has [_Breaking Bad 101: The Complete
+Critical Companion_](https://www.amazon.com/Breaking-Bad-101-Complete-
+Companion-ebook/dp/B06XQ2PYTP/) coming later this year. The latter is a
+compilation of his episode recaps written for the New Jersey Star-Ledger and
+HitFix, along with interview snippets from conversations with series creator
+Vince Gilligan and star Bryan Cranston.
+
+Sepinwall says he felt the need to majorly overhaul many of the recaps for
+_Breaking Bad 101_ , including those for the first season and the show’s
+finale; he estimates the recaps were just about 50-50 in terms of needing to
+be changed versus going into the book intact.
+
+“Some of them I didn’t want to touch; I looked at them and it was like, ‘This
+is perfect, I don’t need to do anything with that.’ And then there are a lot
+of others where it was like, this is my reaction from Sunday night or whenever
+I had just watched the screener and turned around and wrote the recap, and
+that’s how I was feeling then. I didn’t know what was coming in the next
+episode; it was a lot of breathless speculation,” Sepinwall explains. “The
+book is still designed to be read as you watch [the episodes]; someone who has
+never seen the show before could buy the book and read each recap as they
+watch the series and be okay with it.”
+
+ _TV: The Book_ , which Sepinwall co-wrote, came out in January. Grand Central
+
+Though he’s been through peaks and valleys since he began covering the
+industry full time for the Star-Ledger back in 1996, Sepinwall says this
+current era of “peak TV” has had a profound effect on both his work and the
+way the medium is perceived by the public.
+
+“I never run out of things to write about. There were definitely times when I
+had a newspaper column in the late ’90s and early 2000s where I was like, ‘I
+don’t know what I’m covering today. I don’t know what I’m covering this week,
+this month.’ Now there’s never a lack of things to do,” Sepinwall says. “When
+I started doing this and I would tell people what I did for a living they
+would say, ‘Oh, really, do you write about movies too?’ And I would say no,
+and they would seem disappointed and like they felt sorry for me. Now I say I
+write about TV and they instantly list off six or seven shows that they love
+that they want to talk about, or they want to know the next big thing they
+should be seeing.”
+
+One of the major changes Sepinwall has noticed over his career is the rise of
+the season-long narrative arc as opposed to the more traditional, episodic
+manner of storytelling. He cites many Netflix originals as well as shows like
+_Game of Thrones_ as being influential in pushing this shift, and says he
+prefers episodes that focus on a single location as opposed to taking the tour
+guide approach and boomeranging the audience around Westeros.
+
+Sepinwall is also tepid on the current trend of TV revivals, saying that
+_Terriers_ is maybe the only one he would wholeheartedly support, even though
+it would follow in the lukewarm footsteps of the _Full House_ and _Gilmore
+Girls_ returns.
+
+“TV is alchemy. Shows are made at a certain moment in the lives of the people
+making them, of the characters on the show, and of the audience watching it.
+If you change any of those things, let alone all three of them, something is
+going to be off,” he says.
+
+Still, Sepinwall is highly enthused about the state of television, and has
+plenty to share on the evolution of his career, what kinds of shows he’d like
+to see make a return, and whom he’d want to see siting on the Iron Throne. You
+can hear about all that and more in the [full
+episode](https://art19.com/shows/i-think-youre-
+interesting/episodes/2613595a-bf83-44e9-9397-223c14ebfa2a), so download today!
+(And don’t forget to rate, review, and subscribe on the podcast app of your
+choice.)
+
+_To hear more interviews with fascinating people from the world of arts and
+culture — from powerful showrunners to web series creators to documentary
+filmmakers —_[ _check out the_ I Think You’re Interesting
+_archives_](http://www.vox.com/i-think-youre-interesting) _._

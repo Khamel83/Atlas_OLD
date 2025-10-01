@@ -1,0 +1,49 @@
+# Republicans asked about voter fraud were also likely to back delaying 2020 elections | Vox
+
+**Source**: https://www.vox.com/policy-and-politics/2017/8/10/16125072/republicans-voter-fraud-delay-2020-elections-poll
+**Type**: article
+**Created**: 2025-08-13T17:06:06.040521
+
+---
+
+title: Republicans asked about voter fraud were also likely to back delaying 2020 elections | Vox
+source: https://www.vox.com/policy-and-politics/2017/8/10/16125072/republicans-voter-fraud-delay-2020-elections-poll
+date: 2025-08-13T17:06:04.879160
+tags: []
+---
+About half of Republicans would support postponing the 2020 election so the
+country can address claims of [voter fraud](/policy-and-
+politics/2016/10/31/13478134/voter-fraud-id-2016-trump), according to a new
+[poll](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/10/in-a-new-
+poll-half-of-republicans-say-they-would-support-postponing-the-2020-election-
+if-trump-proposed-it/?utm_term=.1b0c44bfab0f) by the Washington Post’s Monkey
+Cage blog.
+
+The poll posed a hypothetical question: If Donald Trump were to say that the
+2020 presidential election should be postponed until the country can make sure
+that only eligible American citizens can vote, would you support or oppose
+postponing the election?
+
+Fifty-two percent said that they would support the idea of postponing the 2020
+election until voter fraud is addressed, and 56 percent said they would
+support this decision if both Trump and Republicans in Congress proposed it.
+
+This was just a hypothetical question. Trump claims voter fraud cost him the
+popular vote in 2016 (a claim with no evidence to back it up), but there’s no
+indication that he’d seriously consider postponing the election.
+
+The survey also started with a series of questions about typical arguments
+made by Trump concerning voter fraud, including whether Trump won the popular
+vote in the 2016 election and whether millions of illegal immigrants vote.
+That led to a critique that survey respondents were primed by those questions
+to be more concerned about fraud than they otherwise would be:
+
+Still, the authors — Ariel Malka, an associate professor of psychology at
+Yeshiva, and Yphtach Lelkes, an assistant professor at the University of
+Pennsylvania — suggest the results are worth paying attention to. The findings
+suggest, they [write](https://www.washingtonpost.com/news/monkey-
+cage/wp/2017/08/10/in-a-new-poll-half-of-republicans-say-they-would-support-
+postponing-the-2020-election-if-trump-proposed-it/?utm_term=.1b0c44bfab0f),
+that “a substantial number of Republicans are amenable to violations of
+democratic norms that are more flagrant than what is typically proposed (or
+studied).”

@@ -1,0 +1,107 @@
+# Restaurants Are the New Factories - The Atlantic
+
+**Source**: https://www.theatlantic.com/business/archive/2017/08/restaurant-jobs-boom/536244/
+**Type**: article
+**Created**: 2025-08-13T17:06:08.367385
+
+---
+
+title: Restaurants Are the New Factories - The Atlantic
+source: https://www.theatlantic.com/business/archive/2017/08/restaurant-jobs-boom/536244/
+date: 2025-08-13T17:06:06.985350
+tags: []
+---
+Donald Trump's ideal economy is defined by brawn. He praises steelworkers,
+speaks wistfully of coal mining, and tweets boastfully about new manufacturing
+factories. But 200 days into his presidency, the most promising sector of the
+U.S. labor market isn’t steel-plating. It’s dinner-plating.
+
+Restaurant jobs are on fire in 2017, growing faster than health care,
+construction, or manufacturing. The Bureau of Labor Statistics calls this
+subsector “food services and drinking places,” and the jobs are mostly at sit-
+down restaurants, which make up 50 percent of the category. Fast-food joints
+are the next-largest employer in the category, with 37 percent.
+Bars—wonderful, plentiful, but leanly staffed—account for just 3 percent. So,
+I’m just going to keep saying “restaurants” for short.
+
+* * *
+
+**Restaurants > Health Care**
+
+![](https://cdn.theatlantic.com/thumbor/HPumjM9u6sS5c9PUqrGdXEkY1sc=/0x0:683x358/655x343/media/img/posts/2017/08/Screen_Shot_2017_08_07_at_11.33.40_PM/original.png)BLS
+
+* * *
+
+In some metros, restaurants are powering the entire economy. More than a third
+of Cleveland’s new jobs since 2015 are in restaurants, according to [EMSI
+data](https://www.economicmodeling.com/2017/08/07/credit-the-restaurant-boom-
+for-a-huge-share-of-net-new-jobs-in-cleveland-other-cities/). The same is true
+for New Orleans, but since 2010.
+
+Unlike mining or manufacturing, which tends to cluster in a handful of
+regions, the restaurant boom is spread across the country. New fine-dining
+restaurants, which tend to require more waitstaff, are blooming in all the
+predictable places—San Francisco, Nashville, and Austin (the Texas capital
+leads the country in percent-growth of restaurant jobs). But restaurants are
+dominating local economies in a diverse range of places, from poor metros like
+Little Rock, to rich places like Washington, D.C., and military hubs like
+Virginia Beach.
+
+* * *
+
+**The Restaurants Are Eating the Jobs**
+
+![](https://cdn.theatlantic.com/thumbor/DnXcjN-
+qEQ5qGU6DOZSkvoj3Gl4=/media/img/posts/2017/08/Screen_Shot_2017_08_08_at_3.09.52_PM/original.png)
+Josh Wright / EMSI
+
+* * *
+
+How did this happen? As Justin Fox[ points
+out](https://www.bloomberg.com/view/articles/2017-08-04/factories-are-still-
+giving-way-to-restaurants), the trend didn't appear overnight. For the past
+three decades, restaurants have steadily grown, as part of the most
+fundamental shift in American work—from making things to serving people.
+Between 1990 and 2008, 98 percent of new jobs came from so-called
+"nontradable" industries that aren't sensitive to international trade,
+according to [the economist Michael
+Spence](http://www.economicpopulist.org/content/tradable-jobs).
+
+In 1990, manufacturing was almost three times larger than the food-service
+industry. But restaurants have gradually closed the gap. At current rates of
+growth, more people will work at restaurants than in manufacturing in 2020.
+This mirrors the shift in consumer spending. Restaurants’ share of America’s
+food budget has doubled from 25 percent in the 1950s to [50 percent
+today](https://www.theatlantic.com/business/archive/2017/06/its-the-golden-
+age-of-restaurants-in-america/530955/).
+
+* * *
+
+* * *
+
+The phenomenon is speeding up. Four of the five best years for restaurant
+growth on record have happened since 2011. Restaurant jobs have grown faster
+than the overall economy every month for the past seven years. It’s not just a
+redundant artifact of the service-sector economy, either. Almost every month
+between 1996 and 2000—years when job creation soared in a booming
+economy—restaurant jobs grew slower than the rest of the labor market.
+
+The trend is speeding up, but it’s not clear that we should cheer it—or
+whether it’s sustainable. Jobs are jobs, but these ones don’t pay very well.
+The typical private-sector job pays about $22 an hour. The typical restaurant
+job pays about $12.50. That’s one reason why the Fight for 15 movement to
+raise the minimum wage has targeted the restaurant industry. What’s more,
+although it might feel like a golden age of restaurants in America, the truth
+is that the United States [might have too many
+restaurants](https://www.theatlantic.com/business/archive/2017/06/its-the-
+golden-age-of-restaurants-in-america/530955/), particularly “family-casual”
+chains like Applebee’s, which have struggled to keep up with rising labor
+costs.
+
+But the most important feature of the restaurant-jobs boom is not what it may
+say about the future, but rather the fact that it is happening in the first
+place. Trump and other politicians often say they want to help the common
+worker. But then they talk about the economy as if it were cryogenically
+frozen sometime around 1957. The U.S. still makes stuff, but mostly it serves
+stuff. To help American workers, it helps to begin with an honest accounting
+of what Americans actually do.

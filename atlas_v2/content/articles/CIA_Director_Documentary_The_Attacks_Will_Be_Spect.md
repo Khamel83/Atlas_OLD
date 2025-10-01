@@ -1,0 +1,390 @@
+# CIA Director Documentary: ‘The Attacks Will Be Spectacular’ - POLITICO Magazine
+
+**Source**: http://www.politico.com/magazine/story/2015/11/cia-directors-documentary-911-bush-213353
+**Type**: article
+**Created**: 2025-08-13T18:37:40.948818
+
+---
+
+title: CIA Director Documentary: ‘The Attacks Will Be Spectacular’ - POLITICO Magazine
+source: http://www.politico.com/magazine/story/2015/11/cia-directors-documentary-911-bush-213353
+date: 2025-08-13T18:37:31.719671
+tags: []
+---
+_Chris Whipple is executive producer and writer of The Spymasters: CIA in the
+Crosshairs, airing on Showtime Nov. 28, 9pm to 11pm EST. He is writing a book
+on the White House chiefs of staff. His work can be found
+at[www.chriswhipple.net](http://web.archive.org/web/20250723072450/http://www.chriswhipple.net/)_
+_._
+
+âB _in Laden Determined to Strike in U.__S.â_ The CIAâs famous
+Presidential Daily Brief, presented to George W. Bush on August 6, 2001, has
+always been Exhibit A in the case that his administration shrugged off
+warnings of an Al Qaeda attack. But months earlier, starting in the spring of
+2001, the CIA repeatedly and urgently began to warn the White House that an
+attack was coming.
+
+By May of 2001, says Cofer Black, then chief of the CIAâs counterterrorism
+center, âit was very evident that we were going to be struck, we were gonna
+be struck hard and lots of Americans were going to die.â âThere were real
+plots being manifested,â Coferâs former boss, George Tenet, told me in his
+first interview in eight years. âThe world felt like it was on the edge of
+eruption. In this time period of June and July, the threat continues to rise.
+Terrorists were disappearing [as if in hiding, in preparation for an attack].
+Camps were closing. Threat reportings on the rise.â The crisis came to a
+head on July 10. The critical meeting that took place that day was first
+reported by Bob Woodward in 2006. Tenet also wrote about it in general terms
+in his 2007 memoir _At the Center of the Storm_.
+
+But neither he nor Black has spoken about it publicly in such detail until
+nowâor been so emphatic about how specific and pressing their warnings
+really were. Over the past eight months, in more than a hundred hours of
+interviews, my partners Jules and Gedeon Naudet and I talked with Tenet and
+the 11 other living former CIA directors for [_The
+Spymasters_](http://web.archive.org/web/20250723072450/https://www.youtube.com/watch?v=mH7xPXigM04)
+_,_ a documentary set to air this month on Showtime.
+
+The drama of failed warnings began when Tenet and Black pitched a plan, in the
+spring of 2001, called âthe Blue Sky paperâ to Bushâs new national
+security team. It called for a covert CIA and military campaign to end the Al
+Qaeda threatââgetting into the Afghan sanctuary, launching a paramilitary
+operation, creating a bridge with Uzbekistan.â __ âAnd the word back,â
+says Tenet, ââwas âweâre not quite ready to consider this. We donât
+want the clock to start ticking.ââ (Translation: they did not want a paper
+trail to show that theyâd been warned.) Black, a charismatic ex-operative
+who had helped the French arrest the terrorist known as Carlos the Jackal,
+says the Bush team just didnât get the new threat: âI think they were
+mentally stuck back eight years [before]. They were used to terrorists being
+Euro-leftiesâthey drink champagne by night, blow things up during the day,
+how bad can this be? And it was a very difficult sell to communicate the
+urgency to this.â
+
+That morning of July 10, the head of the agencyâs Al Qaeda unit, Richard
+Blee, burst into Blackâs office. âAnd he says, âChief, this is it.
+Roof's fallen in,ââ recounts Black. âThe information that we had
+compiled was absolutely compelling. It was multiple-sourced. And it was sort
+of the last straw.â Black and his deputy rushed to the directorâs office
+to brief Tenet. All agreed an urgent meeting at the White House was needed.
+Tenet picked up the white phone to Bushâs National Security Adviser
+Condoleezza Rice. âI said, âCondi, I have to come see you,ââ Tenet
+remembers. âIt was one of the rare times in my seven years as director where
+I said, âI have to come see you. We're comin' right now. We have to get
+there.ââ
+
+Tenet vividly recalls the White House meeting with Rice and her team. (George
+W. Bush was on a trip to Boston.) âRich [Blee] started by saying, âThere
+will be significant terrorist attacks against the United States in the coming
+weeks or months. The attacks will be spectacular. They may be multiple. Al
+Qaeda's intention is the destruction of the United States.â" [Condi said:]
+âWhat do you think we need to do?â Black responded by slamming his fist on
+the table, and saying, âWe need to go on a wartime footing now!ââ
+
+âWhat happened?â I ask Cofer Black. âYeah. What _did_ happen?â he
+replies. âTo me it remains incomprehensible still. I mean, how is it that
+you could warn senior people so many times and nothing actually happened?
+Itâs kind of like _The Twilight Zone_.â Remarkably, in her memoir, Condi
+Rice writes of the July 10 warnings: âMy recollection of the meeting is not
+very crisp because we were discussing the threat every day.â Having raised
+threat levels for U.S. personnel overseas, she adds: âI thought we were
+doing what needed to be done.â (When I asked whether she had any further
+response to the comments that Tenet, Black and others made to me, her chief of
+staff said she stands by the account in her memoir.) Inexplicably, although
+Tenet brought up this meeting in his closed-door testimony before the 9/11
+Commission, it was never mentioned in the committeeâs final report.
+
+And there was one more chilling warning to come. At the end of July, Tenet and
+his deputies gathered in the directorâs conference room at CIA headquarters.
+âWe were just thinking about all of this and trying to figure out how this
+attack might occur,â he recalls. âAnd I'll never forget this until the day
+I die. Rich Blee looked at everybody and said, âThey're coming here.â And
+the silence that followed was deafening. You could feel the oxygen come out of
+the room. âThey're coming here.ââ
+
+Tenet, who is perhaps the agencyâs most embattled director ever, can barely
+contain himself when talking about the unheeded warnings he says he gave the
+White House. Twirling an unlit cigar and fidgeting in his chair at our studio
+in downtown Washington, D.C.**,** he says with resignation: âI can only tell
+you what we did and what we said.â And when asked about his own
+responsibility for the attacks on 9/11, he is visibly distraught. âThere was
+never a moment in all this time when you blamed yourself?â I ask him. He
+shifts uncomfortably in his chair. âWell, look, there â¦ I still look at
+the ceiling at night about a lot of things. And I'll keep them to myself
+forever. But we're all human beings."
+
+***
+
+**Only****12****men are alive today** who have made the life-and-death
+decisions that come with running the CIA.
+
+Once a year, the present and former CIA directorsâranging from George H.W.
+Bush, 91, to the current boss, John Brennan, 60âmeet in a conference room at
+CIA headquarters in Langley, Virginia. The ostensible reason: to receive a
+confidential briefing on the state of the world. (Robert Gates, who hates
+setting foot inside the Beltway, is a perennial no-show.) âThey mostly tell
+us stuff we already know, and we pretend weâre learning something,â says
+Tenet, the longest-serving director (lasting seven years, under Presidents
+Clinton and Bush II). But the real point of their annual pilgrimage is to
+renew bonds forged in the trenches of the war on terrorâand to debate the
+agencyâs purpose in the world.
+
+> And I'll never forget this until the day I die. Rich Blee looked at
+> everybody and said, âThey're coming here.ââ
+
+On the burning questions of the day, the directors are profoundly torn: over
+the CIAâs mission,__ its brutal interrogation methods after 9/11, and the
+shifting ârules of engagementâ in the battle against Al Qaeda and the
+Islamic State. What is fair game in the fight against terrorism: Torture?
+Indefinite detention? Setting up âblack sitesâ in foreign countries for
+interrogation? Should the CIA be in the business of killing people with
+remotely piloted drones? Was the agency really to blame for 9/11? Or did the
+White House ignore its repeated warnings?
+
+On these and other questions, the directors were surprisingly candid in the
+interviews they did with meâeven straying into classified territory. (They
+often disagree about what is actually classified; itâs complicated, as
+Hillary Clinton is learning.) A controversial case in point: drone strikes.
+âHe canât talk publicly about _that_ ,â protests Gen. David Petraeus
+when I tell him that one of his counterparts has opened up to me about
+âsignature strikes.â (These are lethal attacks on unidentified targetsâa
+kind of profiling by droneâthat several directors find deeply troubling.)
+Gen. Petraeus might have had good reason to be reticent; only a week before he
+had accepted a plea bargain to avoid prison timeâfor sharing classified
+information with his mistress, Paula Broadwell.
+
+Here are some of the other secrets we learned from the surprisingly outspoken
+men who have run the worldâs most powerful intelligence agency.
+
+OPTICS: The Faces of the Spymasters: Kennerly photographs the CIA directors through the Obama administration. (Click to view gallery.) | David Hume Kennerly/CBS/Showtime
+
+**Even CIA chiefs canât agree about âtortureâ**
+
+âIn the period right after 9/11, we did some things wrong,â said Barack
+Obama. âWe tortured some folks. We did things that were contrary to our
+values.â Jose Rodriguez, who oversaw the CIAâs so-called enhanced
+interrogation program (EIT), has a two-word reply: âThatâs bullshit.â
+Tenet concurs. âPeople are throwing the word âtortureâ aroundâas if
+we're _torturers_ ,â he complains. âWell, I'm not ever gonna accept the
+use of the word âtortureâ for what happened here.â From sleep
+deprivation to waterboarding, Tenet and his lieutenant Rodriguez insist the
+techniques were all approvedâby _everybody._
+
+âThe attorney general of the United States told us that these techniques are
+legal under U.S. law,â says Tenet, âand do not in any way compromise our
+adherence to international torture statutes.â Contrary to the claim by the
+SSCI (Senate Select Committee on Intelligence) Majority Report, Tenet insists:
+âWe briefed members of Congress fully on what we were doing at all times.
+There was never a hint of disapproval.â And Tenet says that George W. Bush
+was so hands-on, âhe read the memo, looked at the techniques, and decided he
+was gonna take two techniques off the table himself.â Tenet says he does not
+recall which EITs the president rejected (Rodriguez believes one of them was
+âmock executions.â)
+
+Tenet and his post-9/11 successorsâPorter Goss, Michael Hayden and acting
+director Michael Morell (sometimes called the âwartime directorsâ)âsay
+the techniques were a necessary evil, justified by the context of the times.
+It was an article of faith at the CIA that the United States was about to be
+struck again in a âsecond waveâ attack. And that âhigh-value
+detainees,â beginning with Al Qaeda leader Abu Zubaydah, knew more than they
+were telling. âEvery day,â says Rodriguez, âthe president was asking
+George Tenet, âWhat is Abu Zubaydah saying about the second wave of attacks
+and about all these other plots?â Well, he was not saying anything. We had
+to do something different.â Tenet says they had persuasive intelligence that
+indicated Osama bin Laden had met with Pakistani nuclear scientistsâand was
+seeking the blueprint for a bomb. There was a credible report, he adds, that a
+nuke had already been planted in New York City. âPeople say, âdidnât you
+think about the moral and ethical consequences of your decision?ââ says
+Tenet. âYeah, we did. We thought that stopping the further loss of American
+life and protecting a just society was equally important.â
+
+Did the techniques produce intelligence that disrupted plots or saved lives?
+The SSCI study looked at 20 cases and said no useful evidence was obtained.
+Tenet insists, âThey are wrong in all 20 of the cases. The report is dead
+wrong on every account, period, end of paragraph.â But Tenetâs fellow spy
+chiefs are sharplyâeven passionatelyâdivided about such procedures. âOur
+Constitution does prohibit âcruel and unusualâ treatment and if itâs
+cruel, we shouldnât be doing it,â says William Webster, 91, regarded by
+his fellow spymasters as a voice of reason (and the only DCI who also served
+as FBI director). âYou cross a line at some point in your effort to get the
+information when you go that route. There have to be limitations and
+monitoring and they must be observed. Our country stands for something and it
+loses something when we donât.â Stansfield Turner, now 91âwho as Jimmy
+Carterâs director authorized the ill-fated attempt to rescue American
+hostages in Tehranâagrees: âI just donât think a country like ours
+should be culpable of conducting torture. I just think itâs beneath our
+dignity.â
+
+The directors who oppose torture are not just bleeding hearts. âNobody was
+responsible for more detainees than I was,â says Gen. Petraeus, who was
+commander of the multinational forces in Iraq. âWe visit violence on our
+enemies, but we should not mistreat them, even though they have done
+unspeakable things to our soldiers and to civilians. That does not justify us
+doing it to them. You will pay a price for what you do, and it will be vastly
+greater than whatever it is you got out of taking this action.â And Director
+Brennan sees no circumstance in which the CIA would torture again: âIf a
+president tomorrow asked me to waterboard a terrorist, I would say, âMr.
+President, sorryâI do not believe that is in our best interest as a
+country.ââ Hayden is even more emphatic. âIf some future president is
+going to decide to waterboard,â he says, âheâd better bring his own
+bucketâbecause heâs going to have to do it himself.â  
+
+  
+**The CIA really _does_****pull the trigger on lethal drone attacks.**
+
+Officially, it is a taboo subject. The CIA has never acknowledged publicly
+that it operates lethal drones. But former Director Leon Panetta gives a
+riveting account of the ethical dilemma he confronted when the CIA had a top
+Al Qaeda terrorist in the cross hairs of a drone over Pakistan. (CIA censors
+forced him to truncate the story in his 2014 memoir.) The target was the Al
+Qaeda mastermind behind a suicide bombing that killed seven officers at the
+CIA station in Khost, Afghanistan, in December 2009. âWe knew who the
+individual was,â Panetta says. âThis was a bad guy. And he was clearly a
+leader who had been involved not only in going after our officers, but in
+killing members of our own forces in Afghanistan.â
+
+Panettaâs dilemma: âUnfortunately, this individual had family and wife and
+children around him, so one of the tough questions was, What should we do? If
+there were women and children in the shot, we normally would not take the
+shot.â Panetta called the White House and spoke with Brennan, then Obamaâs
+counterterrorism adviser. âWhat does Leon say I said?â Brennan asks me,
+arching an eyebrow, when I tell him about Panettaâs out-of-school account
+(which essentially had Brennan bouncing the ball back to him). Brennan wears a
+tight smile that seems to say, _There goes Leon again_.
+
+The judgment call fell to the devoutly Catholic Panetta, once an altar boy.
+âThe White House said, âLook, youâre going to have to make a judgment
+here,ââ he recalls. âSo, I knew at that point it was a decision that I
+was going to have to make. _Iâm_ the one whoâs going to have to say Hail
+Marys here. Suddenly, I found that I was making decisions on life and death as
+director. And those are never easy, and frankly they shouldnât be easy. But
+I felt it was really important in that job to do what I could to protect this
+country. So I passed on the word. I said, âIf you can isolate the individual
+and take the shot without impacting on women or children, then do it. But if
+you have no alternative and it looks like he might get away, then take the
+shot.â And it did involve collateral damage, but we got him.â In the end,
+says Panetta, âWhat you do has to be based on what your gut tells you is
+right. You have to be true to yourselfâand hope that ultimately God agrees
+with you.â
+
+Brennan, the current director, concedes that he is often called upon to make
+judgments with high stakes. âIâm forced to make decisions every day that
+have significant risks, that sometimes can result in deaths,â he says.
+âYou try to make sure that you consider all angles. You take into account
+whatever information, intelligence data that you have available. You weigh the
+pros and cons. And you then make the best decision you can.â How high is the
+bar when deciding to pull the trigger on a lethal drone strike? âThere needs
+to be near certainty of what's called âno collateral,ââ Brennan says.
+âNo noncombatants who will be affected by it.â
+
+But ânear certaintyâ does not always apply. Last January, a drone attack
+on an Al Qaeda compound inadvertently killed an American and an Italian
+hostage, who happened to have been held there. Gen. Hayden, Bushâs third
+director, cautions: âNear certainty: What does that exactly mean? Because
+look, the president [Obama] was very candid after those recent strikes in
+which he talked about the âfog of war.â There is fog even when you think
+youâve got ânear certaintyâ and near certainty is never certainty.â
+
+And what if the strike is deliberately aimed at an American citizen overseas?
+Should the CIA directorâor the president, for that matterâhave a license
+to kill? Itâs been a controversial question ever since Anwar al-Awlaki, the
+militant American jihadist and voice of Al Qaeda, was killed by a U.S. drone
+in Yemen in 2011. Watchdog groups have vilified the practice. It turns out
+they have an unlikely allyâin ex-Director Gates. âI donât have a moral
+problem with it,â says Gates, âbut I believe the precedent of an American
+president being able to kill an American citizen under any circumstances, on
+just his signature, is dangerous.â
+
+Webster is equally critical. âThis was an American citizen and he was
+ultimately taken out, but itâs not something that should be left to one
+person, no matter who that person is,â says Webster. âWe do harm to the
+country, damage to the president and others who are exercising legitimate
+authority by just leaving it up to unprocessed whim to use these instruments
+for destruction.â Gates argues that strikes on Americans should require
+approval by outside expertsâperhaps a panel of judges: âI just think the
+idea of no external review beyond people appointed by the president, and who
+basically are his minions, being able to assess whether the president should
+kill an American citizen without a judicial process, needs to be looked at.â
+
+Though drone strikes came well after his time as director (1976-1977), George
+H.W. Bush, says he can live with the practice: âIf theyâre bad guys and
+theyâre doing us harm, I have no problem with that.â But some of his peers
+wonder if the otherworldly weapons have made the White House trigger happy.
+âWhen you can stare at a target unblinkingly for hours, if not days,â says
+Gen. Hayden, âand then use a weapon against that target that has a 14-pound
+warhead in it, with an accuracy measured in inches, this actually makes
+warfare more precise.
+
+"Thatâs all to the good. Now the dark side: It does make it easier for a
+policymaker to make a judgment to engage.â Indeed, the relative simplicity
+of drone warfare has proved irresistible to the current White House. Under
+Barack Obama, drone strikes have grown dramatically.
+
+**âNo, Mr. Deutch, assassination is _not_****prohibited.â**
+
+In a war against Al Qaeda and the Islamic State, what methods are acceptable?
+Is assassination fair game? Porter Goss, who resigned in frustration as George
+W. Bushâs second director, is still waiting for an answer: âWe do not know
+what the rules of engagement are. Are we dealing with enemy combatants? Are we
+dealing with criminals? Are the rules shoot first? Do we only shoot when we
+get shot at? Can we ask questions? Do we have to Mirandize people?â
+
+âI remember sitting in the Situation Room in the first Clinton term,â
+former CIA Director John Deutch reflects, âand discussing a particularly
+sensitive matter and saying, âBut of course we canât consider
+assassination because that is forbidden by executive order.â And one of the
+Justice Department lawyers said, âNo, Mr. Deutch, only _political_
+assassination is forbidden. Assassination for other purposes is not
+prohibited.ââ
+
+So whatâs the answer? Is assassination, which was distinctly prohibited by
+President Gerald Fordâs Executive Order 12333, still off limits? Well, yes
+and no. In 2008, after a nearly three-decade manhunt, a legendary Hezbollah
+leader who had orchestrated countless assaults on the U.S. and Israel was
+killed in a daring covert operation in Damascus, Syria. A lethal âshape
+charge,â fired by remote control from a parked SUV, blew him to smithereens.
+The operation, reportedly a joint CIA-Mossad mission, is so sensitive that, to
+this day, none of the directors has said anything publicly about it. Except,
+when pressed, the current boss, John Brennan. âIs there anything _at all_
+that you can tell us about what happened to Imad Mughniyah?â I ask him.
+Brennan, who has the lugubrious air of an undertakerâeven in his lighter
+momentsâpauses. Then he replies, âHe died quickly.â
+
+Whatâs the CIAâs mission? Is it a spy agency? Or a secret army?
+âSometimes I think we get ourselves into a frenzyâinto believing that
+killing is the only answer to a problem,â says Tenet. âAnd the truth is,
+it's not. That's not what our reason for existence is.â When Petraeus became
+CIA director, his predecessor, Hayden took him aside. Never before, Hayden
+warned him, had the agency become so focused on covert military operations at
+the expense of intelligence gathering. âAn awful lot of what we now call
+analysis in the American intelligence community is really targeting,â Hayden
+says. âFrankly, that has been at the expense of the broader, more global
+view. Weâre safer because of it, but it has not been cost-free. Some of the
+things we do to keep us safe for the close fightâfor instance, targeted
+killingsâcan make it more difficult to resolve the deep fight, the
+ideological fight. We feed the jihadi recruitment video that these Americans
+are heartless killers.â
+
+Whoâs winning? The CIAâor radical Islam? âThe big picture,â says
+Morell, the two-time acting director, âis a great victory for us and a great
+victory for them. Our great victory has been the degradation, decimation,
+near-defeat of the Al Qaeda core that brought tragedy to our shores on 9/11.
+But _their_ great victory has been the spread of their ideology across a huge
+geographic area. What we havenât done a good job of is stopping new
+terrorists from being created. And until we get our arms around that, this war
+is not going away.â
+
+âYou can't kill your way out of this,â says Tenet. âIt's not
+sustainable. The message to Islam itself is they have to create vibrant civil
+societies that work, that create educational opportunities. But this is
+something they have to do for themselves.â Panetta agrees that the roots of
+terrorism must be dealt with: âYou've got to address what it is that
+produces this frustration and this anger. It is almost _Mission Impossible_
+because, for Godâs sake, we're still trying to figure out how the hell the
+Baltimores of the world happen; how the hell the Detroits of the world happen;
+why there are people that are attracted to gangs in this country.â Until we
+do, Panetta concludes, âwe may have to use these kinds of weapons, but in
+the end, let me tell you something: if we fail to do this and, God forbid,
+this country faces another 9/11, you know what the first question will be:
+âWhy the hell did you let this happen? Why the hell did you let this
+happen?ââ  
+
+###### This article tagged under:

@@ -1,0 +1,396 @@
+# Zenefits Was the Perfect Startup. Then It Self-Disrupted
+
+**Source**: http://www.bloomberg.com/features/2016-zenefits/
+**Type**: article
+**Created**: 2025-08-13T18:08:53.299845
+
+---
+
+title: Zenefits Was the Perfect Startup. Then It Self-Disrupted
+source: http://www.bloomberg.com/features/2016-zenefits/
+date: 2025-08-13T18:08:42.863952
+tags: []
+---
+David Sacks walked into Dolores Park Café in San Francisco to talk to Lars
+Dalgaard, a venture capitalist, about what he should do with his life. Or
+rather, his money. Sacks, who is 43 and has thick gray hair and blue,
+protruding eyes, made his first fortune as an early executive at PayPal, then
+a second as the co-founder of Yammer, a social network for businesses, which
+he sold to Microsoft in 2012 for $1.2 billion. He played in poker tournaments,
+produced the film _Thank You for Smoking_ , and became an early investor in
+Uber and SpaceX. But by the fall of 2014, he was sick of jumping from hobby to
+hobby. He wanted in on a startup again.
+
+Sacks and Dalgaard were business acquaintances—Dalgaard, a general partner at
+Andreessen Horowitz, had once tried to buy Yammer for $300 million. After the
+requisite industry gossip, they got down to business. Dalgaard urged Sacks to
+take a look at Zenefits, a new company in which Andreessen Horowitz had
+recently invested.
+
+![Conrad](/web/20241210100557im_/https://www.bloomberg.com/features/2016-zenefits/img/feat_zenefits20__03b.jpg)
+
+Conrad
+
+Photographer: Amy Harrity
+
+Zenefits makes online software that automates health insurance, payroll, and
+other essential office drudgery—kind of a human resources version of TurboTax.
+It’s not a sexy idea, but with 6 million small businesses in the U.S., it’s
+enormously useful. The company was founded in 2013 by Parker Conrad, who
+realized he could streamline small businesses’ managerial needs, saving them
+hundreds of hours of mind-numbing paperwork—not to mention the cost of
+staffing an HR department—by putting everything online. Conrad was known to be
+a little frenzied and disorganized but fiercely intelligent. “From an
+investment philosophy … we look for the magnitude of the genius, as opposed to
+the lack of issues,” says Andreessen’s founding partner Ben Horowitz. “And in
+a way, [Conrad] was like the prototype.” Conrad had no background in health
+insurance but quickly learned the intricacies of the business as well as any
+veteran. “If you’re an insurance broker,” he said at the TechCrunch Disrupt
+conference in 2013, “we’re going to drink your milkshake.”
+
+As Sacks saw it, the most compelling part of Zenefits was that it gave its
+software away, making most of its money through brokerage commissions that
+insurance companies paid when a client bought one of their plans. Those
+commissions recurred annually: Once a business signed up, Zenefits would
+profit for years to come. “It’s a glaring omission that no one had created
+[something like Zenefits] before,” Sacks says. He and Dalgaard talked at the
+cafe for three hours, stopping only when the waiters started putting chairs on
+the tables. A few days later, Sacks met with Conrad. He joined the company in
+December 2014 as chief operating officer.
+
+Zenefits was everything Silicon Valley loved wrapped up in one company. It had
+a visionary founder. It tackled a stodgy industry ripe for disruption. The
+recurring commissions gave it a steady stream of revenue from the start. And
+Zenefits was the first in the health insurance software space, the Uber to its
+future competitors’ Lyft. The potential for greatness is what allowed Zenefits
+to expand from 15 employees to 1,600 in three years; raise $580 million in
+three fundraising rounds; and become one of Andreessen Horowitz’s biggest
+investments. Last year it was valued at $4.5 billion, which made it, in Valley
+parlance, a “unicorn” several times over.
+
+“You’re looking for disruptive companies,” Conrad said in that same TechCrunch
+Disrupt speech. “We are going to mess stuff up.”
+
+He was right, although not in the way he meant.
+
+Conrad is 36, with a round face, a hefty build, and closely cropped, reddish-
+blond hair usually accompanied by a day’s worth of stubble. He grew up in New
+York City, the son of an environmental activist and a corporate lawyer. He
+went to, flunked out of, reenrolled in, and ultimately graduated from Harvard.
+People who’ve worked with him say he’s prone to emotional highs and lows that
+are amplified under pressure. In 2011 he and a former college roommate
+launched the financial management company SigFig. Conrad’s partner pushed him
+out after a year.
+
+According to
+[interviews](http://web.archive.org/web/20241210100557/http://www.bloomberg.com/news/videos/b/c3faa53e-08b1-4aba-b27f-15c0c48c7292)
+and talks he gave during happier days, Conrad came up with the idea for
+Zenefits in 2012 while trying to offer health insurance to SigFig’s few dozen
+employees. He’d become familiar with the intricacies of the U.S. health-care
+system while battling testicular cancer during his early 20s, and he even
+found navigating SigFig’s health-care options cumbersome. “It was an area that
+was a real pain point for me personally,” he told TechCrunch last year.
+
+Before a company in the U.S. offers health insurance to its employees, it has
+to comb through thousands of plans offered by hundreds of insurers, and then
+select the two or three options that best suit its employees, based on age,
+marital status, and location. The smaller the business, the less likely it is
+to have someone with enough time to sort all that out. “We have 10 employees.
+We’re not big enough to have an HR department,” says Scott Yates, founder and
+chief executive officer of BlogMutt, a content service startup based in
+Boulder, Colo. “We can’t do this on our own.”
+
+Enter the health insurance broker, who helps companies figure out what they
+need. Brokers are paid by insurance companies each time they sell an insurer’s
+plan. Sometimes they’re paid a flat rate, sometimes a cut of the plan’s
+premium. BlogMutt once used a broker. “We had an actual living, breathing
+human come talk to us, and it was great,” Yates says. “But he wasn’t always
+available. The promise of Zenefits has a lot of allure for a company like us.”
+BlogMutt signed up a year and a half ago.
+
+Zenefits launched in April 2013 through startup incubator Y Combinator. Conrad
+had recruited one of SigFig’s top engineers, Laks Srini, to be his co-founder,
+and he expanded Zenefits’ scope to include payroll, 401(k)s, Cobra, offer
+letters, and other HR-related chores. Within eight months the startup was on
+track to make about $1 million in recurring annual revenue and had landed the
+investment from Andreessen Horowitz. (Srini declined to comment. Bloomberg LP,
+which owns _Bloomberg Businessweek_ , is an investor in Andreessen Horowitz.)
+
+That gave Zenefits—and Conrad—legitimacy. Andreessen Horowitz is one of the
+top VC firms in Silicon Valley, the big checkbook behind dozens of success
+stories, from Airbnb to Skype. Conrad was the type of person the firm was
+looking for. He could deliver a lecture on the inner workings of the insurance
+industry as easily as he could tell you what type of company Zenefits could
+become.
+
+“I’m excited about meeting incredible human beings that change the world that
+we walk on, literally, and how we walk on it,” Dalgaard says. “I don’t think
+I’ve ever seen anyone—and I’ve seen a lot of people—think as comprehensively
+as [Conrad] did about the market he was going after and how to build his
+product.”
+
+Andreessen Horowitz led two fundraising rounds totaling $82 million for
+Zenefits in 2014. Dalgaard joined the newly formed board. His job was to help
+Conrad develop Zenefits into a mature corporation. When Conrad set the
+company’s 2014 recurring revenue goal at $10 million, Dalgaard doubled it.
+“Lars sat there in his very Lars fashion and was like, ‘Why are you guys so f
+---ing bush league?” Conrad said at a software conference last year. Then, in
+Conrad’s telling at that conference, Dalgaard told him to add at least 100
+sales reps to make it happen.
+
+“There’s a low-level panic that suffuses the organization, a constant pressure
+to keep moving faster and faster and faster.”
+
+Zenefits started growing. It moved into a highrise in San Francisco’s SoMa
+district and expanded from fewer than 20 people to roughly 500, many on the
+sales side. As far as Silicon Valley perks go, Zenefits was pretty sparse—no
+personal chef, no meeting-room-cum-ball-pit. Conrad had the offices painted
+gray and orange and named each conference room after a character from _Star
+Wars_. By the end of 2014, Zenefits hit Dalgaard’s $20 million recurring
+revenue goal and was making good on its promises to shake up the brokerage
+business.
+
+According to former employees, Conrad oscillated between a conviction that
+Zenefits was conquering the world—at the time, about 2,000 businesses used its
+services—and a near-constant fear that it would never make its numbers and
+he’d be fired. Employees were afraid that any mistake would stop the company’s
+growth. At a talk last year organized by Khosla Ventures, Conrad said,
+“There’s a low-level panic that suffuses the organization, a constant pressure
+to keep moving faster and faster and faster.”
+
+Soon, Zenefits ran into snags. The Utah Insurance Department banned it from
+operating in the state because the agency considered the free HR software to
+be in violation of a law against offering rebates to customers. Zenefits was
+also finding that some insurance companies weren’t technologically advanced
+enough to integrate with its system. “Most of these insurance transactions are
+still done on paper or with e-mailed PDFs,” says Sabrina Corlette, a research
+professor at Georgetown University’s Health Policy Institute. This increased
+the odds of errors—and Zenefits’ employees were often moving too fast to catch
+mistakes. “My dentist said they couldn’t run my insurance claim through, and
+it took three months to get someone at Zenefits to fix it,” says Brittany
+Keppel, a former office manager in Brooklyn who also had trouble getting
+Zenefits to sign her up for Cobra when she was let go from her job in January
+2015. BlogMutt’s Yates says he deals with Zenefits problems every few weeks:
+“Names appear in records incorrectly. Dates are wrong. I don’t know where the
+breakdown is, but the biggest problem is there’s no quality check.”
+
+Zenefits spokeswoman Jessica Hoffman responds: “Our focus on remediation over
+the last three months has included a quality initiative that has dramatically
+reduced error rates.”
+
+This was the mess Sacks encountered when he joined Zenefits in December 2014.
+He showed up on his first day to find that he didn’t have a desk or a
+computer. Head count was approaching 500 employees, but the office management
+company didn’t have an office manager. There wasn’t even an IT person to fix
+the printers. Conrad hadn’t forgotten to fill these positions. The way he saw
+it, Zenefits was full of gifted engineers; if their computers weren’t working,
+they should be able to fix them. Of course, time spent futzing with the Wi-Fi
+was time not spent building the product or dealing with customers. To Conrad,
+that just meant the engineers needed to work harder. “I guess the way I saw
+the chaos at that point was that it was undesirable,” Sacks says, “but if
+there was none of this, then there wouldn’t be a need for me to be at the
+company.”
+
+Sacks says one of his earliest battles with Conrad was over the idea of hiring
+a receptionist. Sacks won—a friendly young woman now greets visitors from
+behind a sleek, white desk—but lost a battle to get Conrad to quit
+micromanaging the company’s HR decisions. Zenefits uses its own product to
+manage its employees, and Conrad controlled the account, which meant he
+personally approved every benefits change or vacation request for hundreds of
+(later, more than 1,000) employees. “We have people in HR now, but they
+actually don’t have access to the HR system,” Conrad said in an interview at
+TechCrunch Disrupt last year. “I do all of it myself. I’m a little crazy.”
+
+![Sacks](/web/20241210100557im_/https://www.bloomberg.com/features/2016-zenefits/img/feat_zenefits20__02b.jpg)
+
+Sacks
+
+Photographer: David Paul Morris/Bloomberg
+
+The problems were much deeper than a disorganized office. Insurance brokers
+must pass a state licensing exam before they can legally sell or advise people
+on insurance. Each state has a different exam and training requirements. In
+California, brokers had to spend at least 52 hours on an online training
+course. Zenefits says Conrad created a Google Chrome browser extension that
+allowed people to bypass the 52-hour rule by making it appear as if they were
+working on the course when they weren’t. The extention was called “the macro.”
+(Conrad declined to comment on the Chrome extension.)
+
+Every state has a different brokerage exam. A person licensed only in
+California can’t legally sell insurance to a company in Kentucky unless he
+applies for a reciprocal license. Zenefits sold its product all over the
+country, and its managerial chaos seems to have kept it from properly tracking
+who passed their state exams or got reciprocal licenses.
+
+Conrad worked closely with Sam Blond, Zenefits’ trim, tanned vice president
+for sales, who liked to party. When their team closed a big account, Blond and
+Conrad poured shots for everyone in the office. Zenefits had kegs in its
+office. In an onstage interview at a tech conference in 2015, Blond told a
+story about how he and Conrad once got so drunk at a San Francisco steakhouse
+that they wrestled each other on the restaurant floor. “Half an hour ago we
+were in the greenroom, and we saw two bottles of unopened drinks,” Blond said
+at the same tech conference while sitting onstage with Conrad. He smiled.
+“They’re no longer unopened.” (Blond declined to comment for this article.)
+Last year the management company that runs Zenefits’ office space complained
+about cups of beer and used condoms found in the stairwells. “Do not use the
+stairwells to smoke, drink, eat, or have sex,” Emily Agin, Zenefits’ director
+of real estate and workplace services, reminded employees in a companywide
+memo.
+
+Sacks wasn’t averse to a little debauchery. A few years ago, according to
+multiple news reports, he hired Snoop Dogg to perform at his Marie Antoinette-
+themed 40th birthday party. Instead of invitations, Sacks sent little cakes.
+He showed up in period dress. But at Zenefits, he was different. Employees say
+he didn’t socialize. He stared at his phone in meetings. He sometimes even
+escaped to an office in a nearby building for alone time.
+
+Most of Zenefits’ problems remained internal. Investors couldn’t see them.
+Those they could see seemed fixable—as demonstrated when Sacks flew to Salt
+Lake City and stood behind the Utah governor while he signed a law allowing
+Zenefits to operate in the state. In May 2015, six months after Sacks joined
+the company, it raised $500 million in a third fundraising round, at a
+valuation of $4.5 billion. Zenefits also said it would quintuple annual
+recurring revenue, to $100 million, by the end of 2015. “They used to say they
+were the No. 1 supplier to Anthem for small-group business [companies with 50
+or fewer employees]. It wasn’t true,” says Darrel Ng, a spokesman for Anthem
+Blue Cross. Zenefits says it regrets any factual exaggerations that occurred
+under prior leadership.
+
+“I was giving [clients] to people who didn’t have their insurance license.…
+Like, it was really illegal”
+
+Still, Zenefits kept growing. By the middle of 2015 it was serving 14,000
+businesses and in the process of hiring more than 1,000 additional employees.
+“They told me that they were expanding so fast that once a month had gone by,
+I was guaranteed to move up,” says Aaron Semaan, 28, who joined as an entry-
+level sales rep in April 2015, making $35,000 a year. The headquarters became
+a hodgepodge of disconnected office space sprawled over two, then three, then
+four floors of the highrise. Zenefits also opened a satellite office in
+Arizona that it packed with low-level sales reps who cold-called prospects.
+One manager in Arizona says he interviewed and hired people so quickly that
+when they showed up for work, he’d often forgotten who they were.
+
+Semaan was one of the few who came to Zenefits already licensed as an
+insurance broker. And yet, for some reason—he still doesn’t know why—he wasn’t
+allowed to sell insurance. He was a coldcaller: When he found an interested
+company, he passed it off to the broker assigned to close the deal. But, as
+the company has publicly acknowledged, not all Zenefits brokers had passed
+their tests. “I was giving [clients] to people who didn’t have their insurance
+license,” Semaan says. “They were selling insurance illegally. Like, it was
+really illegal.” He says that one woman worked at Zenefits as an account
+executive for four months without passing her exam. “I had multiple talks with
+my boss about it. I would tell him, ‘I don’t think it’s fair or right for me
+to be setting people up to make these sales when they don’t even have
+licenses.’ ” His boss didn’t respond to interview requests.
+
+“The company culture of pressuring and bullying employees to cut corners and
+do the wrong thing is over,” says Sacks.
+
+Zenefits began courting what it calls enterprise companies—those with more
+than 100 employees. Unlike small businesses, bigger companies have entire HR
+departments that enjoy long-standing relationships with insurance brokers.
+Sacks says he thought it was unrealistic for Zenefits to pursue them and that
+Conrad disagreed. When sales started to flatline, Sacks says he pushed for a
+hiring freeze and that Conrad thought such a move was unnecessary.
+
+By the fall of 2015, it was clear Zenefits [would
+miss](http://web.archive.org/web/20241210100557/http://www.bloomberg.com/news/articles/2016-02-19/predicting-
+the-future-is-hard-especially-at-a-startup-just-ask-zenefits) its $100 million
+recurring revenue goal (the reality wound up being closer to $63 million).
+Some salaries were cut; Semaan says his dropped to $30,000. Conrad instituted
+a vacation ban, but Sacks ignored it and headed to the Caribbean. He also
+talked to Dalgaard about wanting to leave the company.
+
+Dalgaard played intermediary between Conrad and Sacks. “I was trying to help
+wherever I could,” he says. “I spent more time than is normal just hoping that
+[Conrad] would change, because this could be one of the biggest companies
+we’ve ever heard of in Silicon Valley. And I still think it can.”
+
+Sacks knew there was a problem as soon as he walked into the Jessika Pava
+room, named after an X-wing pilot who fought against the First Order in the
+battle of Starkiller Base. Five lawyers, including a few he’d never met, sat
+grimly in orange swivel chairs. It was late afternoon on Jan. 25, and they’d
+come to Zenefits to present the results of a two-month investigation the
+company had initiated. Sacks knew it doesn’t take five lawyers to deliver good
+news.
+
+Zenefits had hired Cooley, a law firm, along with consulting firm PwC, after
+_BuzzFeed_
+[published](http://web.archive.org/web/20241210100557/https://www.buzzfeed.com/williamalden/zenefits-
+under-scrutiny-for-flouting-insurance-laws?utm_term=.ffOl7AQ4Pj#.akegXnkGpA) a
+series of articles about Zenefits’ use of unlicensed brokers. Washington
+state’s insurance commissioner had already opened a formal investigation into
+the company; according to _BuzzFeed_ , 83 percent of all Zenefits sales in the
+state were made by unlicensed brokers. The company could be fined as much as
+$20,000 for each violation. If this were true in other states, Zenefits was
+looking at millions of dollars in fines.
+
+The lawyers laid out a more damning situation. In California, they found, some
+of the sales team used Conrad’s macro to systematically cheat on the state’s
+training course, which included a section on ethics. “As far as a company
+doing what Zenefits has done, I don’t know that we have seen this before,”
+says Nancy Kincaid, press secretary for the California Department of
+Insurance, which has also opened an investigation. In March, Massachusetts’
+division of insurance opened a third. Zenefits confirms that other states have
+since followed but won’t say which ones or even how many.
+
+The _Star Wars_ -themed conference rooms will soon be renamed after
+inspirational entrepreneurs
+
+Sacks says he knew of the macro but didn’t know its significance or about
+Conrad’s involvement until the lawyers explained it to him in January. Cooley
+confirms Sacks’s account in a memo obtained by _Bloomberg Businessweek_. The
+memo also says that during its investigation, “Mr. Conrad acknowledged that he
+had authored the macro.” Meanwhile, a person close to Conrad claims he had
+told one of Zenefits’ lawyers about the macro more than a year earlier. Some
+of the Zenefits employees who weren’t properly licensed worked as benefits
+advisers, not salespeople. They reported up the chain to Sacks. Sacks says he
+wasn’t aware of their licensing problems until everything else came to light.
+
+On Feb. 1, Zenefits held an emergency board meeting. The licensing problems
+and the macro were discussed. Dalgaard suggested to Conrad that, as the person
+who created the program, he needed to leave. Conrad
+[resigned](http://web.archive.org/web/20241210100557/http://www.bloomberg.com/news/articles/2016-02-09/zenefits-
+ceo-conrad-resigns-amid-regulatory-compliance-issues) from Zenefits on Feb. 8;
+since then he’s spent part of his time at home binge-watching _Star Wars: The
+Clone Wars_ , according to a friend. A person close to Conrad says he regrets
+resigning and is already working on a new company.
+
+Kegs have been replaced with cold-brew coffee
+
+Sacks became CEO and is guiding Zenefits through its crisis cleanup. He has
+banned alcohol at the office and changed the company motto from “Ready. Fire.
+Aim.” to “Operate With Integrity.” In February the company [laid
+off](http://web.archive.org/web/20241210100557/http://www.bloomberg.com/news/articles/2016-02-26/zenefits-
+cuts-about-250-jobs-amid-compliance-investigations) 250 employees, including
+the enterprise team. Sales Vice President Blond, Semaan’s boss, and any
+executive or manager known to have helped disseminate the macro are also gone.
+Zenefits says it has self-reported the findings of its internal investigation
+to all 50 states and is working with those that have opened formal inquiries.
+Fidelity Investments, which owns a stake, has slashed its valuation of
+Zenefits from $4.5 billion to less than $2 billion. There are rows of empty
+desks at the San Francisco office; the company plans to downsize from four
+floors to three. The _Star Wars_ -themed conference rooms will soon be renamed
+after inspirational entrepreneurs. Kegs have been replaced with cold-brew
+coffee. The stairwells are condom-free.
+
+The stairwells are condom-free
+
+And yet, despite his downfall, Conrad is still a coveted name in Silicon
+Valley. People want to meet the man who created a $60 million company in just
+three years and made good on his promise to shake up the insurance industry.
+Dalgaard says he’s been getting e-mails from people eager to work with Conrad
+since the day his resignation went public.
+
+Zenefits might also survive for the one reason that made its product so
+appealing to business owners in the first place: Shopping for health insurance
+remains really frustrating. The company says it now has 20,000 accounts. “As
+long as their problems don’t affect our company, we’ll stay,” says Todd
+Harmond, vice president for finance and operations of the e-book service
+Scribd, which uses Zenefits to offer Kaiser Permanente and Anthem health
+insurance plans to its 85 employees.
+
+“Unless something else goes really wrong with Zenefits, we’ll stick with them
+for a while,” says BlogMutt’s Yates. “It’s too much of a hassle to switch.”
+
+_(Corrects the length of the investigation in the 33rd paragraph.)_

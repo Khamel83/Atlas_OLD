@@ -1,0 +1,104 @@
+# Regulations Aren't What They Used to Be - The Atlantic
+
+**Source**: http://www.theatlantic.com/business/archive/2011/04/regulations-arent-what-they-used-to-be/236916/
+**Type**: article
+**Created**: 2025-08-13T20:59:42.148372
+
+---
+
+title: Regulations Aren't What They Used to Be - The Atlantic
+source: http://www.theatlantic.com/business/archive/2011/04/regulations-arent-what-they-used-to-be/236916/
+date: 2025-08-13T20:59:40.972036
+tags: []
+---
+As the angry debate over Ryan's budget plan wears on, one suggestion I'm
+seeing over and over is that we should just raise personal and corporate
+income tax rates back to where they were in the 1950s, when marginal tax rates
+were 50% on corporate income and up to 90% on personal income, while the
+effective rates were [arguably nearly as
+high](http://www.taxpolicycenter.org/taxfacts/Content/PDF/corporate_historical_bracket.pdf).
+
+  
+
+(Why don't we know exactly how high they were? Because the very high taxes of
+the 1950s encouraged people to consume things in tax-free forms--shareholders
+were happy to used retained earnings for conglomerated empire building rather
+than having them distributed as taxable dividends, while managers were happy
+to take their income in the form of company cars and generous expense
+accounts. These things showed up as actual expenses on the corporate income
+statement, lowering reported personal and corporate income.)
+
+  
+
+But we can't just go back there. For one thing, while the GOP is wrong about
+getting
+
+[Laffer Curve
+effects](http://www.time.com/time/magazine/article/0,9171,1692027,00.html)
+
+when marginal income tax rates are at 30% of income, such effects would
+virtually certainly apply at 90%: we'd slow capital formation and GDP growth
+while encouraging tax refugees and loads of cheating.
+
+  
+
+Why, then, was growth so high back then, with tax revenues flowing like wine?
+Well, nothing's saying growth couldn't have been even higher. But I think the
+more important problem is that lots of regulation is a one shot deal: you can
+get certain effects temporarily, but not permanently.
+
+  
+
+Think about the tax environment of the early 1930s. Top marginal income tax
+rates are 25% on people, 12% on corporations. No doubt you have a fellow who
+does your taxes, and looks for ways to minimize them, but it's not
+particularly urgent--the top bracket kicks in at the equivalent of about $1.3
+million a year.
+
+  
+
+Then FDR ratchets the top bracket on very high incomes into the 80s, and takes
+the corporate income tax into the 40s. Suddenly, minimizing your income taxes
+becomes a much more lucrative endeavor. You can afford to spend quite a lot on
+tax accountants and lobbyists, and still save money as long as they deliver
+tax savings.
+
+  
+
+Over time, an industry grows up dedicated to minimizing taxes. The important
+thing to remember about trying to "reinstate" the conditions of the 1950s is
+that this time, the industry already exists: the army of professionals with
+long experience at parsing IRS rules and developing innovative strategies to
+avoid taxes. So even if we enacted exactly the same tax rules as we had in the
+1950s, we wouldn't raise as much money this time around.
+
+  
+
+This is especially true because capital is more mobile than it was in the
+1950s. That magnifies both the income-shifting effects, and the negative
+economic effects, of high taxes on capital and talent. This time around, if
+you bring income taxes back to 90%, the wealthy have a variety of very
+attractive places where they could move--and there are lots of countries that
+would be happy to accept their investments without demanding a 9/10s cut of
+the proceeds. So we lose not only the taxes, but the benefit of the capital.
+In the early 1950s, a combination of capital controls and war devastation made
+this sort of thing very difficult.
+
+  
+
+This is broadly true of regulation in general: if you think some tax or
+regulation worked in the past, you need to consider the possibility that this
+was simply a temporary effect before companies gained the inevitable talent at
+gaming your regulation. You cannot simply assume away the gaming on the ground
+that companies oughtn't to do that sort of thing--and you should be wary of
+assuming that you can get back to the halcyon days of yore simply by
+"eliminating the loopholes". Heavy regulation encourages people to get good at
+finding loopholes--and since "eliminating the loopholes" usually takes the
+form of making the law more complicated, it is at least as likely to create
+new loopholes as to get rid of them.
+
+  
+
+Over the long run, it is better to seek a simple set of rules than a perfect
+set of rules. The perfect set of rules may get closer to your ideal--but it is
+also likely to be easier to game.

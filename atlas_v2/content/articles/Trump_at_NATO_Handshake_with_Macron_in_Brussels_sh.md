@@ -1,0 +1,58 @@
+# Trump at NATO: Handshake with Macron in Brussels shows his trick doesn't always work
+
+**Source**: https://qz.com/991848/donald-trumps-handshake-with-emmanuel-macron-shows-his-trick-doesnt-work-on-other-peoples-turf/
+**Type**: article
+**Created**: 2025-08-13T17:16:48.674100
+
+---
+
+title: Trump at NATO: Handshake with Macron in Brussels shows his trick doesn't always work
+source: https://qz.com/991848/donald-trumps-handshake-with-emmanuel-macron-shows-his-trick-doesnt-work-on-other-peoples-turf/
+date: 2025-08-13T17:16:38.472534
+tags: []
+---
+_**Update:**_ _This article was updated to include new footage of Donald Trump
+shaking hands with Emmanuel Macron._
+
+While in the United States, president Donald Trump notoriously shakes people’s
+hands to the point where he’s almost twisting their arms out of the sockets,
+often leading to [comically awkward
+scenes](http://web.archive.org/web/20240423224132/https://qz.com/908186/trumps-
+uncomfortably-long-handshake-with-shinzo-abe-was-a-power-play-according-to-a-
+body-language-expert) during photo-ops with heads of states or politicians.
+But during his first overseas trip as president, Trump seems to be losing at
+his own game.
+
+When Trump met Emmanuel Macron today in Brussels, the newly elected French
+president grabbed his hand hard—and wouldn’t let go before Trump did. Press
+images show Trump leaning away and attempting twice to free himself from
+Macron’s death grip. His neck appears stiff and his lips pressed to a thin
+line.
+
+Image: Reuters/Jonathan Ernst
+
+Image: Reuters/Jonathan Ernst
+
+Reuters
+[notes](http://web.archive.org/web/20240423224132/https://www.reuters.com/article/us-
+usa-trump-handshake-idUSKBN18L1OB):
+
+> Each man gripped each other’s right hand so firmly that their knuckles
+> turned white and their jaws seemed to clench.
+>
+> Images from the photo session at the U.S. ambassador’s residence in Brussels
+> showed Trump finally giving up, his fingers loosened while Macron is still
+> holding on tightly.
+
+**Update:** Later footage from the same day suggests that Trump might be
+trying to make up for his lack of home team advantage. During a group photo
+with NATO leaders following his meeting with Macron, Trump exacted revenge
+with an extremely vigorous second shake.
+
+Just a few days earlier (May 22) during the Muslim Leaders Summer in Riyadh,
+the president of Tajikistan, Emomali Rahmon,
+[yanked](http://web.archive.org/web/20240423224132/https://akipress.com/news:592758/)
+Trump’s hand so hard that the US president was pulled forward—exactly the same
+way Trump once [shook
+hands](http://web.archive.org/web/20240423224132/https://www.youtube.com/watch?v=V-fnKKQDGFQ)
+with US Supreme Court judge Neil Gorsuch.

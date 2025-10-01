@@ -1,0 +1,202 @@
+# A Law Professor Explains Why You Should Never Talk to Police - VICE
+
+**Source**: https://www.vice.com/en_us/article/mvkgnp/law-professor-police-interrogation-law-constitution-survival
+**Type**: article
+**Created**: 2025-08-13T16:29:09.876146
+
+---
+
+title: A Law Professor Explains Why You Should Never Talk to Police
+source: https://www.vice.com/en_us/article/mvkgnp/law-professor-police-interrogation-law-constitution-survival
+date: 2025-08-13T16:29:08.224338
+tags: []
+---
+James Duane doesn’t think you should ever talk to the police. Not just, “Don’t
+talk to the police if you’re accused of a crime,” or, “Don’t talk to the
+police in an interrogation setting”—never talk to the cops, period. If you are
+found doing something suspicious by an officer (say, breaking into your own
+house because you locked yourself outside), you are legally obligated to tell
+the cop your name and what you’re doing at that very moment.
+
+Other than that, Duane says, you should fall back on four short words: “I want
+a lawyer.”
+
+In 2008, Duane, a professor at Virginia’s Regent Law School, gave a lecture
+about the risks of talking to police that was filmed and [posted to
+YouTube](https://www.youtube.com/watch?v=i8z7NC5sgik). It’s since been viewed
+millions of times, [enjoying a new viral
+boost](http://www.theblaze.com/stories/2016/01/19/dont-talk-to-the-police-law-
+professors-2008-lecture-about-the-5th-amendment-is-going-viral-in-the-wake-of-
+making-a-murderer-heres-why/) after the Netflix documentary _Making a
+Murderer_ spurred interest in false confessions. His argument, which he’s
+since expanded into a new book called _You Have the Right to Remain Innocent_
+, is that even if you haven’t committed a crime, it’s dangerous to tell the
+police _any_ information. You might make mistakes when explaining where you
+were at the time of a crime that the police interpret as lies; the officer
+talking to you could misremember what you say much later; you may be tricked
+into saying the wrong things by cops under no obligation to tell you the
+truth; and your statements to police could, in combination with faulty
+eyewitness accounts, shoddy “expert” testimony, and sheer bad luck, lead to
+you being convicted of a serious crime.
+
+Duane’s book details several outrageous incidents just like that around the
+country, clearly showing the many ways the system is stacked against suspects.
+These include a proliferation of poorly written laws that make nearly anything
+a potential crime, rules that allow prosecutors to cherry-pick only the most
+damning parts of police interrogations at trials, and a little-known 2013
+Supreme Court ruling allowing prosecutors to tell juries that defendants had
+invoked the Fifth Amendment—in other words, telling an officer you are making
+use of your right to remain silent could wind up being used as evidence
+against you. For that reason, Duane thinks that you shouldn’t even tell the
+police that you are refusing to talk. Your safest course, he says, is to ask
+in no uncertain terms for a lawyer, and keep on asking until the police stop
+talking to you.
+
+Though Duane said in his lecture he would never speak to the police, he has no
+problem speaking to anyone else, and in advance of his book coming out
+Tuesday, VICE talked to him about that lousy Supreme Court ruling, ways to
+reduce false confessions, and why he’s cool with his book helping guilty
+people go free.
+
+**VICE: How did you get into the business of telling people not to talk to the
+cops?**  
+**James Duane:** I never planned or anticipated that this was going to become
+a specialty of mine. I taught a class at my law school in 2008 and decided to
+talk about the Fifth Amendment. The particular precipitating catalyst that
+prompted me to talk about that subject was I had seen some things in the paper
+quoting various individuals—knowledgeable folks, folks who ought to know
+better—who were basically suggesting, “Well, if somebody takes the Fifth
+Amendment, I guess that kind of proves that they’re guilty.” Which is
+monstrously false. I thought, _Why don’t I say something about that?_ That’s
+what prompted me to do that original recording. When it went viral like that,
+I started getting phone calls and letters and emails from different people
+with lots more questions and feedback and many, many invitations to come and
+speak to different groups of lawyers, judges, law students, and college
+students—and I said yes to almost every one of them.
+
+I had a lot to learn, too. The thing I didn’t fully understand, because I had
+been in the business for so long, is how surprising and counterintuitive all
+of this is to the average guy on the street. I spoke to so many sophisticated
+audiences, college students, law students, and they said, “This was
+astonishing, we had no idea, we never heard any of this, we never knew any of
+this.” And that was what reminded me, it’s important to get this message out
+to as many people as possible.  
+
+**In your book, you advise people not to even take the Fifth thanks to a
+Supreme Court ruling. Could you talk a little about why?  
+** Up until about five years ago, lawyers would give out business cards to
+their client and say, “Read this to the police,” and it’d say, “At the advice
+of my attorney I decline to answer on the grounds that it may incriminate me,
+I’m invoking the Fifth Amendment.” And there wasn’t a lot of soul-searching
+and agonizing that went into all of this, because as long as the jury never
+finds out that you took the Fifth, it’s a perfectly sensible solution. But the
+tide turned three years ago in 2013 with this wretched, abominable decision by
+the Supreme Court in _Salinas v. Texas_ that changed everything.
+
+In the _Salinas_ case, a young man was interrogated by the police, and when
+they asked him a bunch of questions that didn’t seem to be very threatening,
+he took the bait and answered them all. Then all of the sudden, they [asked a
+question that made it] obvious they wanted information that might expose him
+to criminal prosecution, and he just got silent. He didn’t say a word. And
+there’s no doubt that he was exercising his Fifth Amendment privilege, but he
+didn’t [formally] assert his Fifth Amendment privilege. So the five Republican
+[appointees] on the Supreme Court said, _Because you didn’t tell the police
+that you were using your Fifth Amendment privilege, your exercise of the
+privilege, or your decision to remain silent can be used against you as
+evidence of guilt._ Which probably had a dozen Supreme Court justices rolling
+over in their grave.
+
+“If you’re kind of clumsy about the way you assert the Fifth Amendment, you’re
+running a lot of different risks.”  
+
+The game has changed now that your choice to use the Fifth Amendment privilege
+can be used against you at trial depending exactly how and where you do it. As
+I explain in the book, now the problem is, if you’re kind of clumsy about the
+way you assert the Fifth Amendment, you’re running a lot of different risks.
+
+**What are some reforms to the interrogation process that could reduce the
+number of innocent people who wind up in prison?**  
+I don’t think there’s any objective observer who would deny we really ought to
+be recording, with high-quality audio equipment, every step of every phase of
+all interaction between the police and the accused. In this day and age, where
+video and audio surveillance is practically ubiquitous wherever you go, it
+ought to be a national scandal that police officers and government agents are
+not generally required to record the entire interview.
+
+“The reality is that over time police officers inevitably come to see
+themselves as part of the prosecutor’s team.”  
+
+Another thing is that I think police officers should be precluded from sharing
+information that they acquire in their investigations with witnesses. The
+Supreme Court has handed down this huge body of case law saying if police
+obtained evidence in violation of the Fourth, Fifth, or Sixth amendments, it’s
+inadmissible in trial. It’s a naïve solution, because right now our law poses
+no restriction of any kind on the ability of the police to take information
+that they’ve acquired illegally and tell their witnesses about it. You’ve got
+a victim who says she saw the defendant’s picture—”Oh, I think that’s the guy,
+but I’m not sure.” You tell her one month later that he confessed that he says
+he did it, but the judge says we can’t use it because of a technicality. As
+soon as this woman hears that the guy confessed, trust me, she’s gonna show up
+at trial, and she’s going to say to the judge or the jury, “There’s no doubt
+about it in my mind, I’m absolutely certain.”
+
+Perhaps the most basic or the most radical suggestion of all is the whole
+business of conducting criminal investigation should not be placed in the
+hands of partisans who are assigned the job of putting together the
+prosecutor’s case. Any police officer will tell you, “We’re here to get to the
+truth.” But the reality is that over time police officers inevitably come to
+see themselves as part of the prosecutor’s team. They work with the
+prosecutors, they testify for the prosecutors, they meet with the prosecutors.
+There are other Western democracies that have legal systems mostly like ours
+but place significant parts of the criminal investigation in the hands and
+under the direct supervision of judges and magistrates who really are neutral.
+
+**What has the response of law enforcement been to your speeches and your
+work?**  
+Believe it or not, the numerous responses that I have received from police
+officers and even more often from former police officers has been
+overwhelmingly positive. I’ve received a great number of emails, and I’ve
+spoken privately and publicly to many police officers about the whole subject,
+and almost without exception, they all say, “It’s true. What you say is true.”
+
+**If everyone buys your book and follows your advice, would that make it
+harder for cops to investigate crimes?**  
+Oh yes, and that’s inevitable. It would be at least a little bit more
+difficult for the police officers to put together successful criminal
+prosecutions against some people who are now being convicted. Some of them are
+guilty, some of them are innocent. But that’s my objective. I’m trying to make
+it more difficult for the police to obtain convictions of innocent people.
+
+**That would likely mean that some guilty people would go free. Would you be
+OK with that?  
+** I would definitely take that tradeoff—no doubt about it at all. The Supreme
+Court has said it’s much better for guilty people to go free from time to time
+if that’s the price we’re going to pay for innocent people not being
+convicted, because one innocent man unjustly convicted is much worse than one
+guilty man going free.
+
+But I must add, it’s far from clear that if everybody read my book that the
+number of guilty people getting off would necessarily increase to any
+significant extent. This book is going to have the most powerful effect on
+shaping the conduct of people who right now are talking to the police. And
+who’s talking to the police right now? Generally the least sophisticated
+people: People who have never been arrested before, people who are innocent.
+Those are the ones who are most likely to say, “Of course I’ll talk, how could
+this go wrong, I’ve got nothing to lose, nothing to hide _.”_ Many of them
+regret it and many of them regret it as the biggest mistake they’ve ever made
+in their life.
+
+The guiltiest people, the worst criminals in our society—by and large, most of
+them have been arrested and prosecuted a couple of times already, and they’ve
+been through the system, and they’ve talked to a lawyer and already learned
+what the book says. So I’m not worried too much that this book is gonna put
+some helpful information in the hands of criminals that they don’t already
+have, because the truth is most of them understand very well how the system
+works.
+
+_This interview has been edited and condensed for clarity._
+
+_Buy_ You Have the Right to Remain Innocent
+_[here](https://www.amazon.com/You-Have-Right-Remain-Innocent/dp/1503933393)._
+
+_Follow Harry Cheadle on[Twitter](https://twitter.com/hcheadle)._

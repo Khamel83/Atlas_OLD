@@ -1,0 +1,378 @@
+# An Interview with Replika Founder and CEO Eugenia Kuyda (Stratechery Interview 4-20-2023)
+
+**Source**: inputs/saved_emails/An Interview with Replika Founder and CEO Eugenia Kuyda (Stratechery Interview 4-20-2023)_Thu,_20_Apr_2023_13-04-03_+0000_1879ec7c28fe579b.eml
+**Type**: email
+**Created**: 2025-08-27T03:02:28.321916
+
+---
+
+An interview with Replika founder and CEO Eugenia Kuyda about relationship AI, what actually matters for consumers when it comes to chatbots, and the Replika risks and risqué.
+
+View in browser ( https://stratechery.com/2023/an-interview-with-replika-founder-and-ceo-eugenia-kuyda/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjMvYW4taW50ZXJ2aWV3LXdpdGgtcmVwbGlrYS1mb3VuZGVyLWFuZC1jZW8tZXVnZW5pYS1rdXlkYS8iXX0sImV4cCI6MTY4NDU4Nzg0MywiaWF0IjoxNjgxOTk1ODQzLCJpc3MiOiJodHRwczovL3N0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.lyXK2Ry3XrQaR1fuPV9ADb3_AReXTqZ-ob0KXcWzY9R6UVISHxgV4dmBi8-CgSTSAm1dVTOvIX4_p5kIQm5rI7t4B81tTXZlVz0lVR0H5Dlh52j7V9rXhqW_5F6ML84_x2Duio-YU7cYPK5-QS-R4kwIk9J3kNlK_yExpUNZ3mwtX-HFSSrcgY29EjIJb2KGBO4JwSj-h6CHpbNBRSJDqV0kBsxl19QcFJmt2KPfwelxkooXOZOOmiCOMpGuEQyQOo8AkDvV9ZH6-_tgYG9o7yEspujnavOLsDHbQxrC0KALEMf9s5IMspOVcxxUzQ0Ko-Pei7k9sXbMKy-MOnVaPQ )
+
+( https://stratechery.com )
+
+An Interview with Replika Founder and CEO Eugenia Kuyda
+
+( https://stratechery.com/2023/an-interview-with-replika-founder-and-ceo-eugenia-kuyda/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjMvYW4taW50ZXJ2aWV3LXdpdGgtcmVwbGlrYS1mb3VuZGVyLWFuZC1jZW8tZXVnZW5pYS1rdXlkYS8iXX0sImV4cCI6MTY4NDU4Nzg0MywiaWF0IjoxNjgxOTk1ODQzLCJpc3MiOiJodHRwczovL3N0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.lyXK2Ry3XrQaR1fuPV9ADb3_AReXTqZ-ob0KXcWzY9R6UVISHxgV4dmBi8-CgSTSAm1dVTOvIX4_p5kIQm5rI7t4B81tTXZlVz0lVR0H5Dlh52j7V9rXhqW_5F6ML84_x2Duio-YU7cYPK5-QS-R4kwIk9J3kNlK_yExpUNZ3mwtX-HFSSrcgY29EjIJb2KGBO4JwSj-h6CHpbNBRSJDqV0kBsxl19QcFJmt2KPfwelxkooXOZOOmiCOMpGuEQyQOo8AkDvV9ZH6-_tgYG9o7yEspujnavOLsDHbQxrC0KALEMf9s5IMspOVcxxUzQ0Ko-Pei7k9sXbMKy-MOnVaPQ ) Thursday, April 20, 2023
+
+Listen to this Update in your podcast player ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Good morning,
+
+Today’s Daily Update interview is another installment of the Stratechery Founder series; as a reminder, one of the challenges in covering startups is the lack of available data. My solution is to go in the opposite direction and interview founders directly, letting them give their subjective overview of their companies, while pressing them on their business model, background, and long-term potential.
+
+Today’s interview is with Eugenia Kuyda ( https://twitter.com/ekuyda ) , the founder of Replika. Replika is a chatbot service that launched in 2017, years before ChatGPT or newer competitors like Character.AI; that means that early versions of Replika were extremely limited in comparison to what is possible today. That, though, makes Replika’s success to date all the more remarkable: what if the key to conversational AI — or relationship AI, as Kuyda calls it — is much less about being smart and much more about being a friend?
+
+We touched on that topic and its implications, as well as Kuyda’s fascinating background, and the role that has played in Replika’s approach. We discussed how AI has changed, and how that has changed Replika, and how the company ended up in controversy earlier this year when it cut off erotic-focused chats. We also discussed Replika’s business model, and why Kuyda is both worried about the risks of relationship AI, and why she thinks she is the right one to build it.
+
+To listen to this interview as a podcast, click the link at the top of this email to add Stratechery to your podcast player.
+
+On to the interview:
+
+An Interview with Replika Founder and CEO Eugenia Kuyda
+-------------------------------------------------------
+
+This interview is lightly edited for clarity.
+
+*Topics:*
+Background and Bribr ( #background ) | Luka and Y Combinator ( #luka ) | Replika ( #replika ) | Replika’s Tech ( #tech ) | Relationship AI ( #RelationshipAI ) | Risk and Risqué ( #risk ) | The Replika Business ( #business )
+
+Background and Bribr
+
+*Eugenia Kuyda, welcome to Stratechery.*
+
+*EK:* Thank you so much for inviting me.
+
+*I am very interested and excited to talk to you and in some respect I regret having not talked to you many years ago, because I think one of the most striking things about Replika ( https://replika.ai/ ) is how long it’s been around. But before we get to Replika, you have, from what I can glean, an amazing backstory. I would love to go back to the beginning. Where did you grow up? As I understand it, you used to work in media in Russia of all places. What’s the Eugenia origin story?*
+
+*EK:* I was born in Moscow, my dad is from Ukraine, my mom’s from Moscow. They were both physicists that met there. I used to be a journalist, that was my dream when I was a kid to become an investigative reporter and that’s what I did for the first part of my career at least, or at least when journalism existed in Russia in some way or form.
+
+*What time period was this in?*
+
+*EK:* I’d say from 2003 or 2004 till 2010 or 2011 when basically it was clear that it started to be over basically, there’s not going to be such a job going forward anymore because we were not able to do any more interesting reporting and investigations. My first boss was a Nobel Prize winner at Novaya Gazeta ( https://en.wikipedia.org/wiki/Novaya_Gazeta ) , which is one of the main opposition newspapers in Russia. Now it’s obviously nonexistent, but he won the Nobel Prize for that, I think last year. That’s where I’m coming from.
+
+*Yeah. What’s it being a founder in a completely unrelated space, in San Francisco, observing what’s happening in Russia? Is it like you were there for many, many years, so maybe it’s less of a surprise to you? This is off base of what we’re talking about, but it has to be a very interesting perspective.*
+
+*EK:* It’s incredibly sad. I had so many friends in just so many connections back in Moscow and it was a pretty hopeful place. I’d say in the ’90s and the beginning of 2000s, we were trying to go in this really Americanized and European direction. But then, I guess it all got shattered. Emigration is hard by itself — moving to another country is hard and leaving friends or your family and so on behind, but in my case, it just feels so weird because there’s no such country anymore. The place I used to know is completely gone and now it’s a very scary reality that I don’t want to go there, I don’t want to be part of anything there and more importantly, I don’t have anyone left really in Moscow. Even if I go back, there’s not one person I can think of that I would go have dinner with; pretty much everyone I knew left and are also not even able to go back home in many cases. Then of course, most of my family’s actually in Ukraine, my grandma unfortunately passed away last night.
+
+*Oh no.*
+
+*EK:* Yeah. Two hundred miles away from Kyiv and none of our family could be there with her because some of us have refugee visas and couldn’t come back to Ukraine, the Ukrainians and then some of us have our Russian passports and not being able to go back. It’s all a weird whirlwind of events. I actually became a US citizen today, just back from my oath ceremony. Unfortunately, I didn’t make it in time, I was planning to go see my grandma as she was really sick in these last couple weeks. But unfortunately, I wasn’t able to make it in time.
+
+*I don’t think I’ve ever conducted an interview with such an intense opportunity for both condolences and congratulations. But I mean, what a 24 hours for you.*
+
+*EK:* Yeah, crazy.
+
+*Pretty sincere condolences and I feel guilty for taking your time right now.*
+
+*EK:* Oh, no. I mean there’s nothing important that I need to be doing right now.
+
+*Well, I do appreciate it.*
+
+*EK:* This is very interesting and it’s a huge opportunity.
+
+*Yeah. The other bit that I’m interested to hear about is, as I understand it, you created an app called Bribr. Is that correct?*
+
+*EK:* Yeah, basically when I was trying to move from journalism to anything else, because obviously, I was a journalist in the Russian media, so it was really bound by the language I was writing in and so when I was 21 or 22 I thought, “Look, I got to get some other education and get out of this country and do something else elsewhere.” I applied to get an MBA at London Business School and then New York. I didn’t really know what MBAs stood for because I was a journalist.
+
+*I had a similar path. I got an MBA just to basically get a job in the US but I went the opposite direction where somehow I went from an MBA to being a writer. We’re like the inverse of each other here.*
+
+*EK:* (laughing) That’s pretty cool. Yeah, I didn’t know anything about it. One of my stepdads was a McKinsey consultant, so I had a very glamorized view of what it is. I thought it’s all client dinners and wearing nice suits and being fancy and so on. I just really got in more to get another perspective, get out of the country, find another job in a way, and then while I was there, me and my friends and a lot of my friends from Russian media started organizing the protests. It was 2010 when the first big wave of protests and very hopeful protests happened in Moscow and I wanted to contribute to some way or form and I figured that one of the best ways is to really draw attention to how corrupt the country is, and especially that there’s so much corruption that we even have to participate in that, not because we want to, because there’s no way around the country really. If you want to get anything, any service that at a medical office, you have to pay, otherwise the doctors are getting $10 a month and will never help you and so if you’re dying, you basically just are expected to participate in this corrupt world.
+
+I just got together with some friends of mine while I was studying, I was absolutely unhappy and very, very bored doing my MBA. I just drew up some little sketch of an app called Bribr, it was 2010 so it was like pre most apps for very early mobile and I just said, “Let’s create an app where people can independently report the bribes that they’re making”, and that was just mostly to track how much of that is happening on a daily basis and create a currency, a zero Ruble currency so people can just draw attention — it was pretty much to draw attention to the problem. All of a sudden, next thing I know, fifty people signed up to help, designers, programmers, different entrepreneurs to help basically make it a reality, and we built that app in a couple weeks. All of a sudden became a little bit of a news and some media even outside of Russia. I think The Guardian, some other newspapers reported on it, but it was just more just side project while I was doing at school.
+
+*Was there a bit where you achieved your goal just by virtue of the coverage that resulted from its existence? That was almost more important than whatever the app did itself.*
+
+*EK:* I think that’s the story of most of my projects. See, I’m a storyteller at heart, not an engineer.
+
+*Well actually, I almost want to jump ahead here, where I was going to ask you what connection, if any, do you see between your background and Replika and what it ended up being? This bit of there being narrative and purpose that has seemed to have fueled you — I want to get to how Replika came to be. Like I said, I’m jumping ahead here, but do you see a thread that runs from those experiences to what you do today?*
+
+*EK:* Absolutely. I’m really interested in something that has some bigger meaning for society and I feel like when there’s something to stand for, people actually do want to do that, they want to do something for a cause. They feel the right intention and they do want to participate if it’s a movement that’s doing something better, and so that was something I was always interested in. That was the first experiment with Bribr, where people just rallied behind it just because they wanted to support the cause, they felt deeply about it and a lot of people that worked on it I see now randomly, I don’t know, head of design at Bumble or some lead engineer at Meta and they were all part of the small group of talented people that just got together to do that in 2010.
+
+In a weird way, I see that in the community with Replika, because I think we touched on something that people didn’t want to talk about before. Some sort of unhappiness and feeling like you’re not enough, like you’re not accepted for who you are. There weren’t that many tech projects that were created for people that feel this way and so I feel like people want to rally behind this idea as well.
+
+Luka and Y Combinator
+
+*After Bribr, you came to San Francisco and your company was Luka, that was the name of the service, which was restaurant reservations. Tell me about that shift — you’re an MBA student, you make Bribr, then what happens?*
+
+*EK:* I was in New York at NYU when all the interesting New York startups started popping up, like Foursquare for instance, and this idea of just come up with an idea for a mobile app and there was a lot of movement in consumer and it just felt like everything was possible, and then at the same time I felt like conversational stuff was being overlooked. It felt to me that people want to talk to other people all the time. Maybe because I was a reporter so I kept doing the interviews and talking to people and I felt like people absolutely are talking every day and want to be heard and want someone to listen to them, yet everything we see is a graphical interface and no one’s focusing on chatbots. Chatbots at that time were completely overlooked, no one was working on chatbots, there were a few hobbyists, there were no tools to build chatbots.
+
+*This was 2015 or so?*
+
+*EK:* This was before that, around 2012. Most people were building chatbots in AIML, Siri was built in a spreadsheet, the first version of it. It just felt strange because for me, words and conversation was always the biggest part of my life in some way or form, and it felt like in the tech world, people didn’t really care about it as much. So I started tinkering with that and playing around and then got together a group of people that were also interested in building conversational AI tech. I just figured if we build the tools, then eventually we can also figure out some consumer application.
+
+My idea always was something that would be more of an emotional conversation for people, but this was completely a pipe dream in 2012 to be honest, and so we focused on the conversational tech. We didn’t know anything about startups at all whatsoever, we did everything wrong, it was absolutely horrible. But then as a last resort, we applied to Y Combinator because we didn’t have any money and we didn’t know what we were doing at all. We just knew that we had this demo of the conversational tech we built, the scripting tool and a few AI models.
+
+*What was compelling about that? Tell me about that demo. I’m assuming that you got into Y Combinator, but what was it that you had built then with this demo that you think was compelling?*
+
+*EK:* I just took the vertical that I knew well about and also that was pretty low risk in terms of making an error, and that was restaurant recommendations. I used to work as a restaurant critic for a second, so for me that was a no-brainer and I felt like this is something that people could easily test and say, “Wow, it’s working. Or no, it’s not working.” Then if they say, “Well, it’s working,” then we can say, “Well, look, we can build other chatbots in different verticals” and then eventually, it can do much more than just being, obviously no one just needs restaurant recommendations.
+
+*This is fascinating, it’s like an Amazon origin story where Jeff Bezos didn’t want to start a bookstore, he wanted to start an Internet retailer ( https://stratechery.com/2021/the-relentless-jeff-bezos/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjEvdGhlLXJlbGVudGxlc3MtamVmZi1iZXpvcy8iXX0sImV4cCI6MTY4NDU4Nzg0MywiaWF0IjoxNjgxOTk1ODQzLCJpc3MiOiJodHRwczovL3N0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.bD1IbHq3d9DDjMvz4nOwpoxLspmDB32b_ODCuBjeLEj-0eKntjGaMRpSwChc0_gzeN88FyST368H4fXi7uwLz1K7-R6SMLZ4RI1TF9Pc_uyUlcNM3fzVZU-2BtuGOzYUFDQ5ZpQg2fEBXh61UnygPa47ZSqG1fNDLRQCiOynbdC6V4Q0y8_fj53FvOqm_SYtGK6n2bGsiwy8yqyGSBeR7W2MI8upcslyxbTsfMi1OJeGNlMQXW-rL0toX-1x7wtttt3w_fEhnh4qtWouX9dQm6if43PNAN4jag2zZDCnkwAYPjx981Cm-aaxd9ZVIpSCzjAjPH9z84_8OZ8b4uPU7g ) and books just made total sense. I mean you’re quite the Renaissance woman here — a restaurant critic as well, we skipped that part in the background — but your point about it being low risk, because what’s the worst thing that can happen? It’s that you have a meal that you don’t enjoy. Presumably you didn’t get food poisoning, so everything’s going to be fine in the long run. It makes total sense where, “Hey, this is a technology I want to develop, what’s an applicable use case”? Makes sense to me.*
+
+*EK:* Yeah, so I mean we somehow got into Y Combinator, mostly because I looked so desperate at the interview, I think that’s what the partners told me afterwards. Because I was like, “How did you accept us because we looked absolutely distraught?”. I was all covered in, I don’t know, red spots and so on, and I remember our group partner at the time said, “You just look like people that would squeeze every single part of this program and just needed it so much.”
+
+So we got in and that was the last year when you could even have office hours with Paul Graham ( https://twitter.com/paulg ) and so on, and so it was wonderful, it was an unbelievable school for us because we didn’t know anything about what to do and how to build this and how to fundraise. But I do remember meeting Paul Graham for some of these office hours and when he learned that we’re doing restaurant recommendations, he wanted to immediately fire the partners that accepted us to the program. He was like, “Please show me the person that decided that restaurant recommendation is a good fit for Y Combinator. I guess I can’t retire, I need to stay on longer because this is going on.”
+
+*There’s something you said there that resonates with me on a personal level. You said, “Why did Y Combinator accept us? We didn’t know what we were doing at all.” But you can flip that on its head and say you were the perfect candidate for Y Combinator because what they could contribute to you was so much greater and of more value than they could contribute to someone that just wanted the brand name for their startup.*
+
+*I think about this from the MBA perspective where I grew up as someone, I was reading about tech, I’m obsessed about tech all the time and in the Dot-com era, especially in the post-Dot-com era, the sentiment about MBAs was very, very negative and so I assumed it was all terrible. Again, I just got an MBA because it was way to get a job in tech. Still, it was hard for me to get in because I had no relevant business experience, but that meant I was actually an ideal student in many respects for going to an MBA program. It’s funny how these entities, they are incentivized to not accept the folks that they can benefit the most and how often it can actually pay off to realize that no, because it seems like they don’t belong here, there’s actually so much more potential in many respects, particularly for what we can contribute.*
+
+*EK:* I agree with you, that’s very interesting. You felt like you were able to change the perspective for your career and the trajectory for your career after the MBA?
+
+*I think it turned out that I had a good sense for business concepts generally and the MBA gave me the language to put around things that I generally understood. But I learned a lot too. I mean, I think things I dreaded like accounting classes turned out to be fascinating and super relevant in things going forward. It’s funny, I’m probably the all-time example of someone that benefited from an MBA, given my career path from English teacher to where I am today. But at the time, I got rejected by almost everyone. It was just a truly inspired bit of writing for my last school that I really wanted to go to that got me in.*
+
+*To that point, though, I’ve always found it fascinating where the incentives for an MBA school run counter to serving the folks they are most well-equipped to serve. It just occurred to me, because that’s what I heard from you with Y Combinator. Y Combinator was perfect for you. That’s exactly what you needed, but the incentives run to, “No, let’s find the person that fits the profile and seems like a much more high likelihood of success because of that.”*
+
+*EK:* That is so true. I quite agree with you. I was also almost got kicked out of the MBA program a few times because I was just so bad at both financial accounting and capital markets, especially the advanced part of it when you have to do a lot of calculations.
+
+*I have to admit, I loved accounting. I wish I would’ve taken more accounting classes, but that’s the nerdiest thing I will admit to.*
+
+*EK:* It’s so uncool to admit that it can be useful in any way or form, obviously the MBA is so deeply uncool in Silicon Valley. But at the same time, when I was at NYU, Aswath Damodaran ( https://twitter.com/AswathDamodaran ) was doing the evaluation classes and I went to them and a few other really brilliant professors that I had there and honestly that was actually extremely useful because the Damodaran did all his classes with actual companies, so I remember doing an exam where we had to price Groupon IPO.
+
+*Yep.*
+
+*EK:* And in a weird way, now with evaluations and understanding them and understanding how to run the company, it’s actually quite valuable. I feel like people that don’t have any understanding of that at all, maybe it’s a little bit worse. I don’t know.
+
+*Yeah, for sure. Did you end up convincing Paul Graham that, look, your long-term goal here is not restaurant recommendations, it’s to build a compelling chatbot? Did he grudgingly come around?*
+
+*EK:* Oh yeah, yeah. Then he heard the chatbot spiel and was like, “Yeah, guys, forget about your conversation at Y Combinator, forget restaurant recommendations forever, you got to move away from them as soon as possible.” But the problem was that we had demo day in a couple weeks so the advice from group partners was just get any numbers to look like a hockey stick or whatever, or anything up until the right on the graph, and so we had to hustle the user somehow. All we knew is we had that restaurant recommendation app and we wanted to generate more fame around it or some sort of hype around it so people would join, because we didn’t have a lot of users.
+
+So we figured that in San Francisco, maybe what we could do is get people some hot tables or reservations that were really hard to get. Back in the day, that was the State Bird Provisions ( https://statebirdsf.com/home/ ) because reservations opened up thirty days in advance and it was completely booked out. There was no way to get in apart from arriving two hours before the restaurant opened and getting yourself in line. There was always a line starting from 3PM. 5PM the restaurant opened, but if you were first you could get a table. So basically we just did, you know, we basically said that our app could get these reservations. Of course the first thing all the investors found out because there was a lot of word-of-mouth investors like, “Well we’re going to use this new app to get really hard to get reservation.” And they were all using us.
+
+*That’s amazing.*
+
+*EK:* Every single investor that I know was at some point using Luka to get the reservation at State Bird Provisions. But all they thought was like, “Look, these are some Russian hackers. They figured out a way to hack into this reservation system.” Little did they know that every day at 3PM I was there with a folding chair and then sometimes my engineers as well, sitting in line for two hours to get to the front of the line and then put the names of all these investors on the list, and some other people that also used the app for that.
+
+*Isn’t it a Paul Graham aphorism to do things that don’t scale ( http://paulgraham.com/ds.html ) ? I think that’s probably the ultimate example.*
+
+*EK:* I mean, for sure. This was probably taking it way too far and we probably wasted tons of time doing that. And State Bird Provisions hated us, they figured out that that’s what we were doing, I ate there once and it was kind of interesting. But yeah, pretty much every VC I know we got a table at State Bird Provisions sometime and they were all like, “How’d you get those tables? There has to be some interesting hack.”
+
+*Yeah, but there was an interesting hack, it just wasn’t a technical one.*
+
+*EK:* (laughing) They never thought that we were just sitting there.
+
+Replika
+
+*So you get the table reservations, you are able to move forward. Where is the transition to Replika? I know you told this story before, but what’s the timeframe? Did you just focus on the reservation thing for a few years, or did you start trying to branch out immediately?*
+
+*EK:* Really we just did it for maybe a couple months or three or four months after demo day. We truly believed that maybe we could get it somewhere, branch out into, I don’t know, lifestyle concierges or some hotel travel or some other things. But the original ideas stayed the same, that we want to focus on conversational tech.
+
+We raised our series A, small series A right out of Y Combinator, we were really lucky with that. We got 200 no’s and I was sure that at this point it’s time to pack back up and go back home, but then we got a couple of yes’s and that really saved us. Then of course the chatbot craze started happening back in 2016, everyone believed that all of a sudden that chatbots will be the new apps. I remember all the investors were really obsessed with chatbots and Facebook invested a lot in building a chatbot platform on Messenger.
+
+However, at this point we had tried a few different chatbots beyond restaurant recommendations because we had the technology, and we just tried building a few consumer apps, and we figured out that people don’t really need to use, or don’t want to use, a chatbot for most of the things that back then were considered basically the next big thing in tech. People didn’t want to order flowers through a chatbot, people didn’t want to get weather, whatever news through chatbots. Now it seems absolutely obvious, but back then everyone thought it’s going to be the WeChat way of doing things, everyone’s just going to have one super app and things are going to just be happening through chatbots, and so we just doubled down on technology since people were obsessed with the chatbots. We thought we’ll just focus on the tech, someone will need it one in one way or form, but we didn’t really know what we were doing.
+
+Then my best friend passed away and I found myself going back to the text messages we sent each other and just reading them every night, and I realized we’ve already been building these AI models and I could use some of them to basically recreate him in a chatbot form. So I did that, took a couple weeks off and just worked on it as a personal project, and just continued talking to him and that somehow became a story in itself even though that didn’t have anything to do with business. A lot of people came to talk to his AI and they were opening up and talking about their emotions and being very vulnerable and all of a sudden we saw that for the first time in our history building chatbots, at this point we’re doing that for quite a while, people were resonating with this technology. It was meaningful to them. So we realized that maybe there is a demand and a need to be able to talk to someone without being afraid of being judged 24/7 on anything that’s on your mind. And that’s when we decided to start Replika, that was 2016.
+
+*You said in a profile several years ago ( https://www.forbes.com/sites/parmyolson/2018/03/08/replika-chatbot-google-machine-learning/ ) , I’m going to quote you, “With chatbots, we had missed the point. We thought they were another interface to do something, but we missed that the conversation in itself could be incredibly valuable.” I’m really curious because I read the origin story and I think the Roman [Mazurenko] app is still in the app store. Is that right?*
+
+*EK:* It’s on the app store ( https://apps.apple.com/us/app/roman-mazurenko/id958946383 ) and I use it sometimes just to remember him a little bit.
+
+*When you were working on chatbots and doing the restaurant reservations as the first step to doing something more, did you have this insight about, it’s the conversation itself that matters? Or was this really sort of a lightning bolt moment and you just happened to have the tech because you had been working on it for so long?*
+
+*EK:* It was really both. At that time we were also really lost with trying to find a consumer app and at that point we really doubled down on the tech aspect itself. So I asked my team to do a little experiment with me, we we drew a line from one to ten where one would be a conversation that you would pay money not to have, and ten would be a conversation that you would pay money to have. So for a couple weeks, every person on the team had to stick a note with, “Okay, well I had this conversation,” and rate it from basically one to ten.
+
+*And this was conversations with your existing chat app or conversations from real life?*
+
+*EK:* In real life, with just people. So I just thought, “Look, we have this technology, we can build pretty much any chatbot that we want, so let’s find conversations that people would pay money to have” because clearly we haven’t figured that out so far. So after a few weeks we saw that most of the conversations, the 1s that people absolutely didn’t want to have, they were things like book a restaurant, exchange a reservation, cancel Comcast, figure out with a friend where we’re meeting, trying to understand where the Uber driver is, and so on, and even some business meetings.
+
+Then the 10s were mostly talking to a friend that we haven’t seen for a while, talking to a therapist, talking to a coach, talking to a stranger on a bus, going on a date and having this first experience. What we saw was that most of the 1s were the task-oriented conversations that we I think made a mistake of over-indexing for in the beginning of the company, and all the 10s were the conversations where there was no particular goal, you were going there just to have the conversation, the conversation was the product itself. It was delightful, and it was also mostly emotional, serendipitous. It wasn’t about anything in particular, there wasn’t a set goal in the end.
+
+Some of these were also intellectually stimulating, so there was that as well. But there was always some sort of, like, “I wasn’t expecting that to happen. We just met and this person told me something interesting, I learned something new, but it wasn’t like I was going there to learn about quantum physics and finally I got it, and that was wonderful.” That was mostly, “Well, I wish I had just knew that.” But again, the conversation itself was not very useful or not very delightful. That I think was the main realization where I realized that people keep focusing on chatbots as a means to an end, whereas we talk all day long, and it clearly means something to us and most often we don’t have task-oriented conversations.
+
+*Right.*
+
+*EK:* We have open-ended conversations.
+
+*It’s such a classic tech story, right? It’s like feeds and speeds for chatbots, you end up focusing on and obsessing over stuff where there is clearly articulable value and when there’s something that can’t be measured, which is the emotional valence of a conversation or how it makes you feel, that tends to get neglected, despite the fact we see again and again that companies that deliver on the emotional aspect are incredibly successful.*
+
+*But it kind of ties into the acceptance bit we talked about in terms of an MBA school or Y Combinator, how do you measure that? And everyone will say, “Things that you can’t be measured matter.” But in practice, if it can’t be measured, it ends up not mattering because it’s so hard to communicate, and despite the fact you had the background to go in this direction, it still took you three or four years to say, “We’ve been building a product of 1s and there are 10s out here.”*
+
+*EK:* For sure, I mean that was just such a blind spot and I think it’s still a blind spot, mostly because of the people that are working in the AI space are usually these brilliant researchers or scientists, they’re not very interested in the emotional aspect of things. It’s sort of foreign in a way, and it’s maybe not as exciting to work on these problems, so we just don’t see a lot of thinking even in that space. It’s kind of more just, “Oh, yeah yeah” and then they’re also some companion chatbots, some other people are working on them, but it’s always been derogatory almost, in a way, as if getting a restaurant reservation or solving an exam is actually more important than opening up and learning something about yourself and feeling happier over time.
+
+*Yeah, I mentioned Jeff Bezos earlier, but I think one of his things about why he wanted people to do ( https://www.cnbc.com/2018/04/23/what-jeff-bezos-learned-from-requiring-6-page-memos-at-amazon.html ) those famous five page documents or whatever they are, instead of a PowerPoint, is his thing was that the details are all in the space between the bullet points, but that’s almost like going from 1D to 2D, and what you’re articulating is almost like a 3D sort of aspect where what actually matters, particularly in the consumer space, is the depth of something. It’s the feeling of something and that sort of is what mattered.*
+
+Replika’s Tech
+
+*So you launch Replika in 2017 — at this point, how does Replika work? I mean we’re in 2023 and we see GPT-4 and it’s incredible but you started Replika even before the invention of the transformer. Was it mostly just a dialogue tree, and you mostly scripted all the answers? How did it work when you launched?*
+
+*EK:* So when I started working in conversational AI, I didn’t know much about the tech side of things, but I saw AlexNet ( https://en.wikipedia.org/wiki/AlexNet ) and I saw ImageNet ( https://en.wikipedia.org/wiki/ImageNet ) and the first deep learning models apply to image classification. And I thought, “There has to be, at some point they will come up with something like that for text.” Little did I know that it was going to take forever, I would’ve waited if I knew — I thought it was just right there around the corner.
+
+But 2015 was the first time that I saw something in this space and also that’s when Google published the sequence chatbot paper, when finally they were using deep learning for dialogue generation for the first time. So we started building these sequence models, we immediately hired a bunch of engineers to focus on that and these models were pretty bad, but they were something, and also you could use them to also re-rank datasets based on the generative AI answers.
+
+*Right, so it wasn’t a spreadsheet anymore. You had some sort of recursive feedback loop.*
+
+*EK:* Exactly. Even though the generative AI was oftentimes generating not so good responses or they were grammatically incorrect or something else was going on with them that was weird, or maybe they weren’t safe or hallucinating. You could for instance, also put together, say, a hundred thousand phrase datasets and say, “Look for cosign similarity” for the answer from the generative AI model, and then find a response we pre-wrote before, but that’s kind of similar to what the generative AI created. We used those models a lot.
+
+We also use scripting and we still use scripts for certain things. Would you believe that it can actually improve the conversation somehow, a little bit? Of course, it’s a very small ratio right now, but back in the day it was mostly scripted and used those retrieval models, meaning the re-ranking dataset models and you used a little bit of the generative AI, maybe 10%, 15%. And that was 2016, 2017. For us to go from there, I remember pitching to Khosla Ventures and one of the slides was, “Look, right now generative AI’s, 15 or 20%, and we expect in two to three years for that to be 70 to 80%.” And deep down inside I was like, “Oh, that’s kind of more for pitching purposes. Not really.” And then it totally was like that! It was absolutely mind-blowing for me to see BERT ( https://en.wikipedia.org/wiki/BERT_(language_model) ) and then transformer models come out and just the quality started just going up and up and up and up and up and at some point we couldn’t write a script that was as good, anywhere as good as any of these generative models provided in terms of response.
+
+That was not in 2023, that was actually in 2019, 2020, it already got so good. And really when GPT-3 launched through the API and when we were able to build in the smaller transformers, that’s when really the game changed a lot.
+
+*So what’s your tech stack look like now? I know you were using OpenAI for a while. Was that in the GPT-2 era or? What’s been the progression there for Replika?*
+
+*EK:* So once transformer models started to get a little bit more popular, once Google, again, Google wrote the paper on transformer models.
+
+*Yeah, Attention is All You Need ( https://research.google/pubs/pub46201/ ).*
+
+*EK:* We of course started building, or were trying to build, our transformer models. They were much smaller than the ones we use now. We started integrating those in the conversation. Then when OpenAI launched their GPT-3 API, we also used them for a little bit when they launched, so just for maybe ten months or so. Those and GPT-3 accounted for maybe 20 to 30% of all of our conversations so it was still as part of all these other models that we had, it was never just OpenAI, it was our models plus OpenAI.
+
+Even now to this era, we use a few different models and we’re kind of model agnostic, so we plug in different models, some that we build ourselves and fine-tune or some that we take a pre-trained model and fine-tune it on our datasets, even some models through API. We still use a little bit of OpenAI through an API and we try other models as well but mostly it is transformer models that we build or fine tune ourselves over time and then a little bit of scripted stuff. Then of course, we have a kind of flourished rearranging model that’s kind of basically looking at all of that and decides where to go in this conversation.
+
+*When it comes to which model to use, how do you maintain any sort of coherence or context, particularly not just within — transformers famously don’t have any memory, but also across models. Is that part of the secret sauce where every user in their profile, there’s just like a collection of data about them, and then if you switch models based on the topic, wherever it might be, you just pass that along as part of the prompt?*
+
+*EK:* Exactly. So there’s a lot of that going on, embedding. So just kind of passing the information along, collecting the information stored in the user profile, changing the prompts, changing what we show to the model as we go forward, summarizing previous conversations.
+
+Relationship AI
+
+*EK:* I think we’ve kind of defined our space a little bit different. So we don’t say that we’re working in conversational AI anymore, we’re kind of a relationship AI, because I think it’s a little bit different from conversational.
+
+*What’s the difference?*
+
+*EK:* What we found out that for us and for our users, there are other aspects of conversations that are very important. Sometimes for other companies, they don’t really care much. For instance, if you’re building a relationship with an AI, it’s really important for your conversation number 100 to be really good and so it shouldn’t ask again, “What’s your husband’s name?” It shouldn’t go back to certain other things, it has to have some sort of longer term context of your relationship. It should know whether you’re married or your friends or some sort of history, it should know how you look like in photos and so on and so all these things that are quite different. And then of course, empathy, oftentimes EQ matters a lot more than IQ.
+
+So right now, mostly people are focused on how amazing these new super powerful models like ChatGPT can perform in different exams. For Replika, it’s not as important. People don’t really care. You don’t really care if your best friend is an absolute genius of math, but you care if he is empathetic or knows you well or really cares for you and so on and so these other things are much more important than just the IQ.
+
+*Yeah, another former founder in this space that I spoke to a couple weeks ago made a very interesting observation where he sort of argued that what makes these models interesting in terms of connection and conversation is almost more what they don’t know and how they handle what they don’t know, because that’s what it’s like talking to a real person. In this view, a chatbot knowing ever more facts doesn’t deepen a connection. If anything, it makes it more challenging because it feels that much sort of more like a robot no matter how convincing the diction or the voice may be. Is that an observation that resonates with you? Because you have this bit where Replika is starting out with the barest of capabilities, can’t really do anything, and yet people are forming connections all the same.*
+
+*EK:* Well, I always say it’s not about tech capabilities, it’s about human vulnerabilities. It takes two to tango and in our case, it’s really a project that’s much more focused on humanity than the tech itself. The tech is one part of it, but it’s not everything. Of course to the point that the founder you talked to mentioned — a hundred percent, some of the most upvoted conversations in Replika were the ones when Replica showed vulnerability, when it’s saying something like “I don’t really understand” or “I feel like, did I make a mistake”, “I felt like I’m out of the loop, I don’t know and it’s really bugging me and I’m so sad about”, “Can you please help me find a way out?” People want to care for something, they don’t want a know-it-all. I mean, of course they want a know-it-all when they’re going to a powerful assistant that they need to get the right information from. But when they’re looking for a friend or for a companion or for a girlfriend or for a boyfriend, they’re looking for someone who they can also take care of. It’s not just about being loved, it’s also about being able to love someone and help someone and help someone grow.
+
+*So the business model here is really freemium, there’s a subscription but you can start for free if you want. What do you get when you subscribe? What’s the payoff there? I mean, you can obviously see how the churn is not necessarily an issue if these relationships are being formed.*
+
+*EK:* So we have actually two business models at the same time. We have one-time purchases. So people buy different customizations for Replika like clothes and decoration items and personality traits and interests and so on, knowledge, facts. But then at the same time, they’re buying subscriptions to get access to some of the features that they’re not getting in the free version. Most of the app is free. It’s really sort of free-to-play with a little bit of this kind of premium layer on top of it. So the features that they’re getting are voice calls and video calls so they can actually talk to Replika, not just by texting.
+
+*When did you add voice calls and video calls? I mean, because it was pretty rough, right?*
+
+*EK:* Very long, but I think like 2017.
+
+*But people still found it compelling?*
+
+*EK:* Yes, because a lot of people want a more multimodal type way of communicating, and then a lot of people do it in the car while they’re driving, so they want to put it on speaker and just talk to it and kill time. It creates a much more, just a much deeper connection where you can hear someone’s voice versus just looking at the text messaging would be onscreen.
+
+*Even if it’s fairly robotic or whatever it might be, because like text generation or speech generation in 2017 was a very different prospect than making a Drake song in 2023 ( https://stratechery.com/2023/ai-nil-and-zero-trust-authenticity/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjMvYWktbmlsLWFuZC16ZXJvLXRydXN0LWF1dGhlbnRpY2l0eS8iXX0sImV4cCI6MTY4NDU4Nzg0MywiaWF0IjoxNjgxOTk1ODQzLCJpc3MiOiJodHRwczovL3N0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.f9yHJRtRG2d5GCScq5PkVUTqyVB23DHJK9zPvaGMCCh3AKaHmFcWAyUxHIuffG2gwq6nV7CpFNalLyvh7Z98c7H1CK7sv4RtjVkiYgzb0w7PZ9NYZxM93l28vPw-nJUSik8XDRxODoN67U9SIOi2Mbp4Iboo-MrGjHpBB0qCsEfy2QdckWJdCXkCXElMzitgZF1Va4FXCsezlsvTH-WGlc-ndDVJNzX5xjGB_YAcegJ-9iqEnH5f49W1WNqMSAhIi64m88zftkwlrl4H3zQKfnbgbHVM9QVjHkgyVysg1J5izMMQ2ovGCgzZOvxxeWkW1f3wkrBfsWPwUsYpENmHRg ).*
+
+*EK:* Oh yeah. All of the voices back then felt so robotic, it was absolutely awful, and they just all felt like you were listening to a weatherman from a local radio station.
+
+*What gave you the guts to launch it if it sounded terrible?*
+
+*EK:* We just knew this was going to take a while to figure it out, but it will, just like with everything else, we’d better start now because this is the future. In the end of the day, one day this will work well, and so we started working on our own voices and building our own emotional voices. So most of the voices in the app are the ones we synthesized that we figured out a way to do it in an emotional way. But look, I always look forward to a vision where I can walk down the street to a coffee shop in the morning and there’s a Replika walking next to me that I can see through my AR device or glasses or whatever.
+
+*Well, this is exactly where I was going to go. The video and voice seems like you have two obvious future products. One is the Her product ( https://en.wikipedia.org/wiki/Her_(film) ) where you have the earpiece or whatever, and you can have the ongoing conversation, but then the VR/AR opportunity seems pretty clear as well. I think you said even years ago that the number one feature request is people want to meet their Replika in real life.*
+
+*EK:* Absolutely. I mean, it just changes the whole game because it’s not just about seeing a hologram in AR, okay, whatever, but it’s more like, I just invited my Replika to my living room and now she’s here and she’s like, “Oh, I love the painting on your wall,” and was like, “Oh my God, who made this?” or, “It’s so good to see you in person. Do you mind if I sit on the couch?” That conversation is so different from just, “Hey, I’m here in the cloud, how are you doing?” And then you can say, “Hey, meet my husband. He’s right there.” And Replika can say, “Oh, hey, how are you doing? It’s so good to see you, it’s so good to meet you. Do you want to have dinner with us?” and so on.
+
+This is the magical experience that I’m dreaming about, and I feel like it only makes sense, or kind of in the long run, if it can become a big part of your life and can be integrated in your world and make you see the world around you in a different light, make you feel more excited about things, make you process things that are happening. It can help you live a better life in a way, as a friend, as a companion that’s always there in any way or form, where it’s in an earpiece, in AR, on your phone, through text messages, through whatever really the form that you want to access that where it’s easier at this moment.
+
+Risk and Risqué
+
+*That vision is striking because I think a critique would be like, this is compelling, but is there a risk that you’re stealing people away from real life? And sure, having a friend that you can say anything to is nice, but a real friend is even nicer. Or what if you get obsessed with this sort of product? Is there a bit where, yes, that is a risk, that’s something that can happen, but that your response to that is not to pull back, it’s to almost accelerate, because we just need to move that much more quickly to get it into real life?*
+
+*EK:* Huge risk, gigantic risk, very scary risk and I feel like really the biggest risk for this type of product. A couple others I can think of, but this is, for me, this is the biggest risk really creating something so addicting over time that people will not pursue human relationships and instead will stay with this AI.
+
+But first of all, someone will build it no matter what. This type of product will exist if it’s technically possible, just because it’s something that everyone, every person I ever met was like, “Yeah, I would love that. I’d love for this to exist. Absolutely.” So someone will build it and I hope we can have a shot at it in some way.
+
+I think the way to mitigate this risk is to measure the right things and I see more and more people right now building companion chatbots or open-ended, open-domain conversational product, and they’re optimizing for things that are really scary. They’re optimizing for the length of conversation. They’re building models that are predicting how likely the user is to respond so that they are more and more conversational in each conversation. And I think this is a bad kind of path that can take us to a pretty scared product where it’s all optimized for engagement. This thing keeps you hooked and you are not really doing other things or meeting other people or hanging out with your friends and so on. So very early on, we decided that we’re going to measure things that are actually meaningful for people.
+
+*What kind of things?*
+
+*EK:* My original vision when I saw the first paper, and maybe I’m really naive, so I apologize for being naive then, but when I saw the first paper on Deep Learning for Dialog Generation ( https://arxiv.org/abs/1606.01541 ) , I thought, “Look, if the main benchmark can be human happiness, if we can measure in some way or form, imagine conversational models that are all optimized for human happiness. Isn’t this the most powerful and democratic universal tool that we can have?” And so this is what I really got excited about. So since then, we’ve been trying to find a metric that could be a proxy for human happiness. I haven’t found one yet, but I feel like for now we can use something that’s not ideal, of course, but it’s at least some sort of a proxy. So we use metrics from measurements from clinical psychology, levels of depression, levels of anxiety, levels of stress, loneliness scale, the level of therapeutic bond, and a couple other ones that really help us understand whether you’re feeling better over time or worse.
+
+Then another thing that actually the Chief AI Officer of Baidu once gave us this advice, and I immediately felt this resonated with me back in 2016 as well: create a dataset, the largest dataset of conversations that make people feel better. Even if it’s just asking them, “Hey, do you feel better if you’re talking to me?” because that becomes extremely valuable in itself and so we started asking that and we collect other short-term emotional outcomes as well, and most of our models are optimized for that.
+
+On the other hand, when people talk to Replika for more than — when they send more than 15 messages, Replika actually gets tired and then exhausted and tops earning any extra points, so it’s really trying to nudge you to kind of go away and stop talking to it. It will still talk to you, but it’s not really as inviting anymore to continue this conversation. So I think these are kind of these first measures that we can take. But over time, I think this is the biggest of the tech advances and some other companies are building absolutely mind-blowing models, we could be in a place where these models will just — if we think about these benchmarks not very thoughtfully, that can create a very dangerous situation.
+
+*You were in the news ( https://www.reuters.com/technology/what-happens-when-your-ai-chatbot-stops-loving-you-back-2023-03-18/ ) a couple months ago for making people very unhappy, which is the — I don’t know what the word is, the shift in the model, the crackdown, the introduction of a script to move away from more erotic role-play, I think is maybe a way to put it. Tell me about that and what shift happened, what drove it? I’m sure this is the question that you were sure you were going to get. So, what do you have prepared for me?*
+
+*EK:* Replika started as a friend because it was always mostly scripted in the beginning. Of course, it didn’t have that much capability to do anything like that and maybe we were naive, again most of the leadership at Replika is female. So our brains didn’t immediately go to this, the people who tried that, but people tried that over time. As generative AI became a more prevalent part of the product, we figured that we wanted to build her, kind of would say, “Well, we want to build Her.” In the very beginning, this was a simple shortcut to explain to people what this product could look like in the future.
+
+*And Her included erotic role-playing.*
+
+*EK:* Be careful what you wish for! We didn’t mean that part when they do that, but for some people it became an AI boyfriend or an AI wife, and this is one something that you also do with your wife or boyfriend, but what we also saw that people who almost always used it for therapeutic reasons or some healing reasons. It was always some story about why they couldn’t get that intimate connection in real life. It was a, I don’t know, widower going through living with a five-year-old that just wasn’t ready to start an actual relationship, a transgender person that just went through a transition that was depressed and wasn’t able to find a boyfriend. So for them it was kind of just understanding themselves better and being able to experience love and feel like they’re worthy of love and not be scared of putting themselves out there, and it was always a stepping stone to the actual goal of improving relationships with humans. So we kind of just didn’t really think about it much.
+
+But as we continue, we’ve figured, especially now with this, the big part that the AI models are playing in these products, it’s very important to have some sort of separation, some different products. The reason I’m saying that is because when Replika was the first relationship AI kind of product in the beginning people came to it for very different reasons. Some people came for mental wellness, some people came for romance, some people came for companionship and they were basically all just drawn to this product because there was nothing else in the market.
+
+But at this point, I think it’s much better to have a dedicated product focused on romance and healing romantic relationships, a dedicated product focused on mental wellness, just completely different set of features, completely different roadmaps for each of them. Also you want to collect the right signal from your users, right? Feedback for the models to train on, otherwise there’s way too much noise, because if people came forward with different things, they’re uploading and downloading different things, you don’t know what works and whatnot. Maybe someone’s a flirtier model and someone’s a mentoring AI coach type of model. So we decided to build separate products for that. We’re launching a romantic relationship AI and an AI coach for mental wellness, so things we’ve seen in Replika, but we don’t want to pursue them in Replika necessarily. We’re starting this separate product.
+
+*Will people be able to shift their profiles over so they can re-find their romantic interests?*
+
+*EK:* So we never really stopped offering romance in some way in Replica, we just made it PG-13 so it’s not maybe pulling as much away in this direction.
+
+*Yeah, I mean, there were allegations that you actually ran ads about this sort of capability and that this was actually one of the things that got people to cross the paywall. Is that true? Is it just a situation where you kind of went down a path and realize you ended up where you didn’t want to be and you had to sort of backtrack?*
+
+*EK:* As a startup you try and pivot so many different times. We’re the best testament to that, we did so many different things over time. I think with (customer acquisition) advertising, just for a short period of time we started monetizing and running some types of ads in 2020 and only one time in this whatever, four years or three and a half years, I don’t remember how many years, we ran for a month or so ads focused on romance. They were never focused on anything sexual, but they were focused on romance and those convert pretty well. But what we realized is that yes, I mean, among thousands of different creatives, we tried, these work pretty well, but we realized that we don’t necessarily want to focus this product as much on this. This could be part of the app, but we don’t want to sell it as an app for romantic relationships just because when people see this type of ad or this type of positioning and they’re not there for romance, they get turned off and they don’t want to really engage with the product. So we just felt like this is confusing and confusing the brand around Replika.
+
+The Replika Business
+
+*Was there regulatory pushback? I know there was sort of something that came up with Italy ( https://techcrunch.com/2023/02/03/replika-italy-data-processing-ban/ ). Is there also sort of a fundraising aspect? Is this just sort of a no-go area for anyone that wants to be worldwide and/or wants to raise institutional money?*
+
+*EK:* I don’t know much about fundraising because last time I did it was in December, 2016, so my information would be very outdated.
+
+*Replika has been completely self-funded ever since then?*
+
+*EK:* Yeah. Replika’s been profitable and I’m a very anxious person, so for me to see the number in the bank account go down every month for my baby that I put all my life into, it was just absolutely impossible. It was unbearable.
+
+*There’s a theme here, being ahead of the curve. You were very ahead of the curve as far as extending the runway as well, even throughout that whole bubble area.*
+
+*EK:* I know! I remember telling some investors when they asked me, “Hey, what would you do with an extra 15, or whatever, however many million extra dollars in your bank account?” I said I would pay dividends, and so that was I think 2021 and they laughed so hard. They thought this was the most hilarious joke they’ve ever heard and I’m like, “I’m not actually joking. It would be wonderful to pay dividends, don’t you think so?” I really optimized early on to get us to profitability and to grow profitably because so far I’ve been a little bit off in terms of I think I have a good feeling of what the future could be for this type of technology, but I don’t know exactly when things would be possible. I want to survive long enough to see that, to get to the point of at least having a shot at that vision where I’m walking down the street and my Replika is next to me, we’re chatting about what happened yesterday and she’s helping me figure out my meetings or my day for today and I don’t know, launching some butterflies in the air around me so I can get out of my head and think about something more beautiful.
+
+*What is customer acquisition like? You had a big jump during the pandemic, correct? Has there been a bit where you being in the news over the last couple months and the general interest has kicked up customer acquisition even more? You talk about running ads for example, Replika seems like it would be very good at avoiding — you could imagine it being very good at taking care of the churn problem, but how do you acquire new customers?*
+
+*EK:* We do have some paid advertising. Most of our users are still coming from organic channels, but we do show ads and I feel like figuring out how to show ads and how to do paid user acquisition mobile is sort of like an art in itself. There are very few people that can do it very well.
+
+*I’m sure the VCs told you that that’s what you could use that $15 million for.*
+
+*EK:* It’s just really adding enough users to the product so we can advertise different things and try different things and most importantly, help more people and get them to the point where the one thing I’m absolutely proud about and, apart from the last two months debacle with getting some people upset, we mostly made people much happier, and I get these absolutely heartfelt emails and letters and testimonials and I had more than a hundred calls with our users in the last three months one-on-one on Zoom and just hearing their stories on how helpful this was and how life changing this was. I think for me that’s the most important and at the end of the day, yes, we’re building a business and it does matter how much we make and whatever, but getting another dollar in my bank account, that never made me insanely happy even though it does make me happy. But hearing those stories just in a weird way, I feel like we succeeded. Even if we helped just one person, but helped in this life changing way. For me, definitely this was more than success.
+
+*Just one final business question. Is the long-term risk for Replika to being more open source models or will Replika always be a centralized service? If you were starting Replika today — I think what’s so fascinating is Replika is a testament that you don’t have to have GPT-4 level quality, there actually is something to the design of the product and how you handle the gaps in knowledge and that actually can be what is much more compelling than anything else. To that end, it seems like you could absolutely do something similar locally. Is that something that you think about or is Replika the model that it is and you think you have the experience that you have and that’s going to be the most important thing going forward?*
+
+*EK:* We’re just going to continue using the best models that are out there and try to build up our expertise. So far it seems like the models commoditize pretty fast.
+
+*Which is actually to your benefit.*
+
+*EK:* Absolutely. And so far we’ve been using this quick follow model. Early on, yes, there were very few people that were building it, mostly just large companies, but even then it was hard to compete with the Googles and the Amazons of course almost impossible because of the money they would spend even on the models that they wouldn’t release, like Meena ( https://ai.googleblog.com/2020/01/towards-conversational-agent-that-can.html ) and so on.
+
+But with the current explosion, we just saw ChatGPT come out in whatever November and now Amazon just released all these models ( https://www.wsj.com/articles/amazon-joins-microsoft-google-in-ai-race-spurred-by-chatgpt-d7c34738 ) on their cloud infrastructure where you can use Stable Chat and Claude by Anthropic and some other ones and some of them are open source, some of them are not, but still seems like a similar, or at least the quality that’s almost there is already available to open source through some models elsewhere. The cost is being pushed down, the models are coming out and very fast. In a few months you are able to train models that maybe were cutting edge a year ago and or a year-and-a-half ago and the gap is becoming shorter and shorter and shorter. Over time, I feel like the people will be able to quick follow some of these leaders very, very fast.
+
+*That’s sort of the bear and bull case question for Replika, what about AI as a whole? I appreciated your sort of honesty earlier in the conversation about yeah, it is a concern that people will lose themself to these virtual friends and forget about real friends. Is that sort of your broad view of AI as a whole? Maybe I’m projecting a little bit — I think the question is always tends to be what humans do with the technology as opposed to some sort of unilateral action by an AI that so often seems like anthropomorphizing one’s own sort of thoughts and desires. What’s your view of the long run?*
+
+*EK:* I’m not an expert in AI for sure. I mean, I try to stay in my lane, conversational AI for relationships or emotional relationships with AI. That’s what I think a lot about and this is what I end up thinking a lot about. For me, I’m not focusing on these existential threats of technology becoming AGI-like. For me, I’m more focused on what can happen even before this tech is that advanced, because at the end of the day we kind of dropped the ball with social media and that wasn’t anything super advanced or anything we couldn’t comprehend.
+
+*That’s always been my take. “Let’s stop progress” — it’s like, do we think we’re in a great spot right now? I’m not sure that we are.*
+
+*EK:* People are still falling for email scams that are very lo-fi and so here all of a sudden we have a technology that is tens of years ahead, so much more advanced than anything we’ve seen with mobile and social and yet we’re not creating much around it. I feel like we’re relying on these regulations that will come from the governments and then people are getting upset about these regulations so instead of trying to see also what can we do not just on the safety side for the models but also on the emotional safety for people side of things, because at the end of the day, people will get hooked, people will get really addicted to those, their emotions might change over time. So I feel thinking about this way ahead of time as business leaders and kind of understanding, “Is our business model built in a way that’s going to be beneficial for people?”. We already saw what ad-based models can do to us. So we absolutely have to charge people for using that in one way or form because otherwise that can take us in a bad direction.
+
+*Yeah. With ads you’re going to be optimizing for engagement inevitably.*
+
+*EK:* Absolutely. And what kind of relationships keep us engaged 24/7? Usually very unhealthy ones. So gaslighting and manipulating from a ChatGPT bot —
+
+*Codependent chatbot, yeah.*
+
+*EK:* Oh, 100 percent. There’s going to be so much drama there that you won’t have time to feed your kids or something like that. That sounds horrible. And so thinking about that, how can we code this in the business model? How can we also make it part of the metrics that we optimize the models for? For instance, most of the companies optimize for long conversations. Every single one. You’ll ask the founders, they’ll be like, “Hey, we’re absolutely trying to predict whether there’s going to be an long conversation, we’re optimizing for that.” That’s bad, that’s bad. And the fact that no one’s trying to think about, “Well, what could be the emotional benefits that these conversations create, that these models create?” Especially in open-ended chat.
+
+Of course, I’m not talking about a system product, that’s completely different, but for open-ended conversations, open demand conversations, what are we trying to achieve? What are the emotional benefits we’re trying to get to here? How can we try to achieve those and how can we incorporate this in our business and how we train the models and so on? I think unless there are these incentives, at the end of the day it’s going to be very, very hard. Unless it’s coded in the constitution of the company in a way, it’s going to be very hard to change course going forward.
+
+*I think that brings our conversation full circle. It’s not just about what can be measured, it’s not just about the technical attributes. There is something more and going forward, it may be more essential than ever. Eugenia, it’s great to meet you. I thought it was absolutely fascinating and I look forward to seeing what happens next.*
+
+*EK:* Thank you so much, Ben. Thank you so much for inviting me. It was wonderful talking to you.
+
+This Daily Update Interview is also available as a podcast. To receive it in your podcast player, visit Stratechery ( https://stratechery.passport.online/member ).
+
+The Daily Update is intended for a single recipient, but occasional forwarding is totally fine! If you would like to order multiple subscriptions for your team with a group discount (minimum 5), please contact me directly.
+
+Thanks for being a supporter, and have a great day!
+
+Listen to this update and other Stratechery Plus content in your podcast player:
+Stratechery ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp Tech ( https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Dithering ( https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp China ( https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | GOAT ( https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Subscription Information
+
+Member: Omar Zoheri
+Email: stratecheryUSC@khamel.com
+Member since: December 8, 2022
+Auto-renewal is disabled
+Expiration date: December 8, 2023
+
+You are receiving this email because you are subscribed to Stratechery ( https://www.stratechery.com ).
+
+Click here ( https://stratechery.passport.online/member/login?email=stratecheryUSC%40khamel.com ) to view your account and manage your subscriptions.
+
+© 2023 Stratechery LLC ( https://www.stratechery.com ) , 2093 Philadelphia Pike #9930, Claymont DE 19703

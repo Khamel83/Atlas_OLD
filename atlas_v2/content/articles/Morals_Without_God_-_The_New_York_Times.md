@@ -1,0 +1,383 @@
+# Morals Without God? - The New York Times
+
+**Source**: http://opinionator.blogs.nytimes.com/2010/10/17/morals-without-god/?pagemode=print
+**Type**: article
+**Created**: 2025-08-13T21:55:01.702514
+
+---
+
+title: Morals Without God? - The New York Times
+source: http://opinionator.blogs.nytimes.com/2010/10/17/morals-without-god/?pagemode=print
+date: 2025-08-13T21:55:00.289308
+tags: []
+---
+[The
+Stone](https://archive.nytimes.com/opinionator.blogs.nytimes.com/category/the-
+stone/) is a forum for contemporary philosophers and other thinkers on issues
+both timely and timeless.
+
+I was born in Den Bosch, the city after which Hieronymus Bosch named himself.
+[1] This obviously does not make me an expert on the Dutch painter, but having
+grown up with his statue on the market square, I have always been fond of his
+imagery, his symbolism, and how it relates to humanity’s place in the
+universe. This remains relevant today since Bosch depicts a society under a
+waning influence of God.
+
+His famous triptych with naked figures frolicking around — “[The Garden of
+Earthly
+Delights](https://en.wikipedia.org/wiki/File:The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg)”
+— seems a tribute to paradisiacal innocence. The tableau is far too happy and
+relaxed to fit the interpretation of depravity and sin advanced by puritan
+experts. It represents humanity free from guilt and shame either before the
+Fall or without any Fall at all. For a primatologist, like myself, the nudity,
+references to sex and fertility, the plentiful birds and fruits and the moving
+about in groups are thoroughly familiar and hardly require a religious or
+moral interpretation. Bosch seems to have depicted humanity in its natural
+state, while reserving his moralistic outlook for the right-hand panel of the
+triptych in which he punishes — _not_ the frolickers from the middle panel —
+but monks, nuns, gluttons, gamblers, warriors, and drunkards.
+
+![Garden of Earthly Delights
+Park](https://static01.nyt.com/images/2010/10/15/opinion/stone_morals1/stone_morals1-custom1.jpg)Hieronymus
+Bosch Hieronymus Bosch’s “Garden of Earthly Delights” depicts hundreds of
+erotic naked figures carrying or eating fruits, but is also full of references
+to alchemy, the forerunner of chemistry. The figures on the right are embedded
+in glass tubes typical of a bain-marie, while the two birds supposedly
+symbolize vapors.
+
+Five centuries later, we remain embroiled in debates about the role of
+religion in society. As in Bosch’s days, the central theme is morality. Can we
+envision a world without God? Would this world be good? Don’t think for one
+moment that the current battle lines between biology and fundamentalist
+Christianity turn around evidence. One has to be pretty immune to data to
+doubt evolution, which is why books and documentaries aimed at convincing the
+skeptics are a waste of effort. They are helpful for those prepared to listen,
+but fail to reach their target audience. The debate is less about the truth
+than about how to handle it. For those who believe that morality comes
+straight from God the creator, acceptance of evolution would open a moral
+abyss.
+
+**Our Vaunted Frontal Lobe**
+
+Echoing this view, Reverend Al Sharpton opined in a recent [videotaped
+debate](https://fora.tv/2007/05/07/Al_Sharpton_and_Christopher_Hitchens): “If
+there is no order to the universe, and therefore some being, some force that
+ordered it, then who determines what is right or wrong? There is nothing
+immoral if there’s nothing in charge.” Similarly, I have heard people echo
+Dostoevsky’s Ivan Karamazov, exclaiming that “If there is no God, I am free to
+rape my neighbor!”
+
+Perhaps it is just me, but I am wary of anyone whose belief system is the only
+thing standing between them and repulsive behavior. Why not assume that our
+humanity, including the self-control needed for livable societies, is built
+into us? Does anyone truly believe that our ancestors lacked social norms
+before they had religion? Did they never assist others in need, or complain
+about an unfair deal? Humans must have worried about the functioning of their
+communities well before the current religions arose, which is only a few
+thousand years ago. Not that religion is irrelevant — I will get to this — but
+it is an add-on rather than the wellspring of morality.
+
+Deep down, creationists realize they will never win factual arguments with
+science. This is why they have construed their own science-like universe,
+known as Intelligent Design, and eagerly jump on every tidbit of information
+that seems to go their way. The most recent opportunity arose with [the Hauser
+affair](https://www.nytimes.com/2010/08/14/education/14harvard.html). A
+Harvard colleague, Marc Hauser, has been accused of eight counts of scientific
+misconduct, including making up his own data. Since Hauser studied primate
+behavior and wrote about morality, Christian Web sites were eager to claim
+that “all that people like Hauser are left with are unsubstantiated
+propositions that are contradicted by millennia of human experience” ([Chuck
+Colson](https://www.crosswalk.com/news/11637614/), Sept. 8, 2010). A major
+newspaper asked “Would it be such a bad thing if Hausergate resulted in some
+intellectual humility among the new scientists of morality?” ([Eric
+Felten](https://online.wsj.com/article/SB10001424052748703846604575447843736639542.html),
+Aug. 27, 2010). Even a
+[linguist](https://www.psychologytoday.com/blog/strange-tongue/201008/hauser-
+and-narrowing-the-cognitive-gap) could not resist this occasion to reaffirm
+the gap between human and animal by warning against “naive evolutionary
+presuppositions.”
+
+These are rearguard battles, however. Whether creationists jump on this
+scientific scandal or linguists and psychologists keep selling human
+exceptionalism does not really matter. Fraud has occurred in many fields of
+science, from epidemiology to physics, all of which are still around. In the
+field of cognition, the march towards continuity between human and animal has
+been inexorable — one misconduct case won’t make a difference. True, humanity
+never runs out of claims of what sets it apart, but it is a rare uniqueness
+claim that holds up for over a decade. This is why we don’t hear anymore that
+only humans make tools, imitate, think ahead, have culture, are self-aware, or
+adopt another’s point of view.
+
+If we consider our species without letting ourselves be blinded by the
+technical advances of the last few millennia, we see a creature of flesh and
+blood with a brain that, albeit three times larger than a chimpanzee’s,
+doesn’t contain any new parts. Even our vaunted prefrontal cortex turns out to
+be of typical size: recent neuron-counting techniques classify the human brain
+as a linearly scaled-up monkey brain.[2] No one doubts the superiority of our
+intellect, but we have no basic wants or needs that are not also present in
+our close relatives. I interact on a daily basis with monkeys and apes, which
+just like us strive for power, enjoy sex, want security and affection, kill
+over territory, and value trust and cooperation. Yes, we use cell phones and
+fly airplanes, but our psychological make-up remains that of a social primate.
+Even the posturing and deal-making among the alpha males in Washington is
+nothing out of the ordinary.
+
+**The Pleasure of Giving**
+
+Charles Darwin was interested in how morality fits the human-animal continuum,
+proposing in “The Descent of Man”: “Any animal whatever, endowed with well-
+marked social instincts … would inevitably acquire a moral sense or
+conscience, as soon as its intellectual powers had become as well developed …
+as in man.”
+
+Unfortunately, modern popularizers have strayed from these insights. Like
+Robert Wright in “The Moral Animal,” they argue that true moral tendencies
+cannot exist — not in humans and even less in other animals — since nature is
+one hundred percent selfish. Morality is just a thin veneer over a cauldron of
+nasty tendencies. Dubbing this position “Veneer Theory” (similar to [Peter
+Railton’s](https://onthehuman.org/2010/07/moral-camouflage-or-moral-monkeys/)
+“moral camouflage”), I have fought it ever since my 1996 book “Good Natured.”
+Instead of blaming atrocious behavior on our biology (“we’re acting like
+animals!”), while claiming our noble traits for ourselves, why not view the
+entire package as a product of evolution? Fortunately, there has been a
+resurgence of the Darwinian view that morality grew out of the social
+instincts. Psychologists stress the intuitive way we arrive at moral judgments
+while activating emotional brain areas, and economists and anthropologists
+have shown humanity to be far more cooperative, altruistic, and fair than
+predicted by self-interest models. Similarly, the latest experiments in
+primatology reveal that our close relatives will do each other favors even if
+there’s nothing in it for themselves.
+
+![Chimpanzees](https://static01.nyt.com/images/2010/10/15/opinion/stone_morals2/stone_morals2-custom1.jpg)Frans
+de Waal Maintaining a peaceful society is one of the tendencies underlying
+human morality that we share with other primates, such as chimpanzees. After a
+fight between two adult males, one offers an open hand to his adversary. When
+the other accepts the invitation, both kiss and embrace.
+
+Chimpanzees and bonobos will voluntarily [open a
+door](https://scienceblogs.com/notrocketscience/2009/05/altruistic_chimpanzees_clearly_help_each_other_out.php)
+to offer a companion access to food, even if they lose part of it in the
+process. And [capuchin
+monkeys](https://blogs.emory.edu/livinglinkscenterblog/2008/08/) are prepared
+to seek rewards for others, such as when we place two of them side by side,
+while one of them barters with us with differently colored tokens. One token
+is “selfish,” and the other “prosocial.” If the bartering monkey selects the
+selfish token, it receives a small piece of apple for returning it, but its
+partner gets nothing. The prosocial token, on the other hand, rewards both
+monkeys. Most monkeys develop an overwhelming preference for the prosocial
+token, which preference is not due to fear of repercussions, because dominant
+monkeys (who have least to fear) are the most generous.
+
+Even though altruistic behavior evolved for the advantages it confers, this
+does not make it selfishly motivated. Future benefits rarely figure in the
+minds of animals. For example, animals engage in sex without knowing its
+reproductive consequences, and even humans had to develop the morning-after
+pill. This is because sexual motivation is unconcerned with the reason why sex
+exists. The same is true for the altruistic impulse, which is unconcerned with
+evolutionary consequences. It is this disconnect between evolution and
+motivation that befuddled the Veneer Theorists, and made them reduce
+everything to selfishness. The most quoted line of their bleak literature says
+it all: “Scratch an ‘altruist,’ and watch a ‘hypocrite’ bleed.”[3]
+
+It is not only humans who are capable of genuine altruism; other animals are,
+too. I see it every day. An old female, Peony, spends her days outdoors with
+other chimpanzees at the Yerkes Primate Center’s Field Station. On bad days,
+when her arthritis is flaring up, she has trouble walking and climbing, but
+other females help her out. For example, Peony is huffing and puffing to get
+up into the climbing frame in which several apes have gathered for a grooming
+session. An unrelated younger female moves behind her, placing both hands on
+her ample behind and pushes her up with quite a bit of effort, until Peony has
+joined the rest.
+
+We have also seen Peony getting up and slowly move towards the water spigot,
+which is at quite a distance. Younger females sometimes run ahead of her, take
+in some water, then return to Peony and give it to her. At first, we had no
+idea what was going on, since all we saw was one female placing her mouth
+close to Peony’s, but after a while the pattern became clear: Peony would open
+her mouth wide, and the younger female would spit a jet of water into it.
+
+![calming
+embrace](https://static01.nyt.com/images/2010/10/15/opinion/stone_morals3/stone_morals3-custom1.jpg)Frans
+de Waal A juvenile chimpanzee reacts to a screaming adult male on the right,
+who has lost a fight, by offering a calming embrace in an apparent expression
+of empathy.
+
+Such observations fit the emerging field of animal empathy, which deals not
+only with primates, but also with canines, elephants, even
+[rodents](https://www.scientificamerican.com/article.cfm?id=do-animals-feel-
+empathy). A typical example is how chimpanzees console distressed parties,
+hugging and kissing them, which behavior is so predictable that scientists
+have analyzed thousands of cases. Mammals are sensitive to each other’s
+emotions, and react to others in need. The whole reason people fill their
+homes with furry carnivores and not with, say, iguanas and turtles, is because
+mammals offer something no reptile ever will. They give affection, they want
+affection, and respond to our emotions the way we do to theirs.
+
+Mammals may derive pleasure from helping others in the same way that humans
+feel good doing good. Nature often equips life’s essentials — sex, eating,
+nursing — with built-in gratification. One study found that pleasure centers
+in the human brain light up when we give to charity. This is of course no
+reason to call such behavior “selfish” as it would make the word totally
+meaningless. A selfish individual has no trouble walking away from another in
+need. Someone is drowning: let him drown. Someone cries: let her cry. These
+are truly selfish reactions, which are quite different from empathic ones.
+Yes, we experience a “warm glow,” and perhaps some other animals do as well,
+but since this glow reaches us _via_ the other, and _only_ via the other, the
+helping is genuinely other-oriented.
+
+**Bottom-Up Morality**
+
+A few years ago Sarah Brosnan and I demonstrated that primates will happily
+perform a task for cucumber slices until they see others getting grapes, which
+taste so much better. The cucumber-eaters become agitated, throw down their
+measly veggies and go on strike. A perfectly fine food has become unpalatable
+as a result of seeing a companion with something better.
+
+We called it _inequity aversion,_ a topic since investigated in other animals,
+including dogs. [A dog](https://www.msnbc.msn.com/id/28112599/) will
+repeatedly perform a trick without rewards, but refuse as soon as another dog
+gets pieces of sausage for the same trick. Recently, Sarah reported an
+unexpected twist to the inequity issue, however. While testing pairs of
+chimps, she found that also the one who gets the _better_ deal occasionally
+refuses. It is as if they are satisfied only if both get the same. We seem to
+be getting close to a [sense of
+fairness](https://www.emory.edu/LIVING_LINKS/empathy/Reviewfiles/fairplay_NS.html).
+
+Such findings have implications for human morality. According to most
+philosophers, we reason ourselves towards a moral position. Even if we do not
+invoke God, it is still a top-down process of us formulating the principles
+and then imposing those on human conduct. But would it be realistic to ask
+people to be considerate of others if we had not already a natural inclination
+to be so? Would it make sense to appeal to fairness and justice in the absence
+of powerful reactions to their absence? Imagine the cognitive burden if every
+decision we took needed to be vetted against handed-down principles. Instead,
+I am a firm believer in the Humean position that reason is the slave of the
+passions. We started out with moral sentiments and intuitions, which is also
+where we find the greatest continuity with other primates. Rather than having
+developed morality from scratch, we received a huge helping hand from our
+background as social animals.
+
+At the same time, however, I am reluctant to call a chimpanzee a “moral
+being.” This is because sentiments do not suffice. We strive for a logically
+coherent system, and have debates about how the death penalty fits arguments
+for the sanctity of life, or whether an unchosen sexual orientation can be
+wrong. These debates are uniquely human. We have no evidence that other
+animals judge the appropriateness of actions that do not affect themselves.
+The great pioneer of morality research, the Finn [Edward
+Westermarck](https://www.kirjasto.sci.fi/ewester.htm), explained what makes
+the moral emotions special: “Moral emotions are disconnected from one’s
+immediate situation: they deal with good and bad at a more abstract,
+disinterested level.” This is what sets human morality apart: a move towards
+universal standards combined with an elaborate system of justification,
+monitoring and punishment.
+
+###### Related
+
+Read previous contributions to this series.
+
+At this point, religion comes in. Think of the narrative support for
+compassion, such as the Parable of the Good Samaritan, or the challenge to
+fairness, such as the Parable of the Workers in the Vineyard, with its famous
+conclusion “The last will be first, and the first will be last.” Add to this
+an almost Skinnerian fondness of reward and punishment — from the virgins to
+be met in heaven to the hell fire that awaits sinners — and the exploitation
+of our desire to be “praiseworthy,” as Adam Smith called it. Humans are so
+sensitive to public opinion that we only need to see a picture of two eyes
+glued to the wall to respond with good behavior, which explains the image in
+some religions of an all-seeing eye to symbolize an [omniscient
+God](https://www.npr.org/templates/story/story.php?storyId=129528196).
+
+**The Atheist Dilemma**
+
+Over the past few years, we have gotten used to a strident atheism arguing
+that God is not great (Christopher Hitchens) or a delusion (Richard Dawkins).
+The new atheists call themselves “brights,” thus hinting that believers are
+not so bright. They urge trust in science, and want to root ethics in a
+naturalistic worldview.
+
+While I do consider religious institutions and their representatives — popes,
+bishops, mega-preachers, ayatollahs, and rabbis — fair game for criticism,
+what good could come from insulting individuals who find value in religion?
+And more pertinently, what alternative does science have to offer? Science is
+not in the business of spelling out the meaning of life and even less in
+telling us how to live our lives. We, scientists, are good at finding out why
+things are the way they are, or how things work, and I do believe that biology
+can help us understand what kind of animals we are and why our morality looks
+the way it does. But to go from there to offering moral guidance seems a
+stretch.
+
+Even the staunchest atheist growing up in Western society cannot avoid having
+absorbed the basic tenets of Christian morality. Our societies are steeped in
+it: everything we have accomplished over the centuries, even science,
+developed either hand in hand with or in opposition to religion, but never
+separately. It is impossible to know what morality would look like without
+religion. It would require a visit to a human culture that is not now and
+never was religious. That such cultures do not exist should give us pause.
+
+Bosch struggled with the same issue — not with being an atheist, which was not
+an option — but science’s place in society. The little figures in his
+paintings with inverted funnels on their heads or the buildings in the form of
+flasks, distillation bottles, and furnaces reference chemical equipment.[4]
+Alchemy was gaining ground yet mixed with the occult and full of charlatans
+and quacks, which Bosch depicted with great humor in front of gullible
+audiences. Alchemy turned into science when it liberated itself from these
+influences and developed self-correcting procedures to deal with flawed or
+fabricated data. But science’s contribution to a moral society, if any,
+remains a question mark.
+
+Other primates have of course none of these problems, but even they strive for
+a certain kind of society _._ For example, female chimpanzees have been seen
+to drag reluctant males towards each other to make up after a fight, removing
+weapons from their hands, and high-ranking males regularly act as impartial
+arbiters to settle disputes in the community. I take these hints of _community
+concern_ as yet another sign that the building blocks of morality are older
+than humanity, and that we do not need God to explain how we got where we are
+today. On the other hand, what would happen if we were able to excise religion
+from society? I doubt that science and the naturalistic worldview could fill
+the void and become an inspiration for the good. Any framework we develop to
+advocate a certain moral outlook is bound to produce its own list of
+principles, its own prophets, and attract its own devoted followers, so that
+it will soon look like any old religion.  
+
+* * *
+
+_Frans de Waal’s essay is the subject of[this week’s forum
+discussion](https://onthehuman.org/2010/10/morals-without-god/) among the
+humanists and scientists at [On the Human](https://onthehuman.org/), a project
+of the National Humanities Center._
+
+__
+
+_Also, view an excerpt from a Bloggingheads.tv discussion about this post
+between Frans de Waal and Robert Wright, author of “The Moral Animal.”_
+
+* * *
+
+Or watch [the entire discussion at
+Bloggingheads.tv](https://bloggingheads.tv/diavlogs/31538).
+
+* * *
+
+**NOTES**
+
+[1] Also known as s’Hertogenbosch, this is a 12th-century provincial capital
+in the Catholic south of the Netherlands. Bosch lived from circa 1450 until
+1516.
+
+[2] Herculano-Houzel, Suzana (2009). The human brain in numbers: A linearly
+scaled-up primate brain. _Frontiers in Human Neuroscience_ 3: 1-11.
+
+[3] Ghiselin, Michael (1974). _The Economy of Nature and the Evolution of
+Sex._ Berkeley, CA: University of California Press.
+
+[4] Dixon, Laurinda (2003). _Bosch._ London: Phaidon.  
+
+* * *
+
+_Frans B. M. de Waal is a biologist interested in primate behavior. He is C.
+H. Candler Professor in Psychology, and Director of the Living Links Center at
+the Yerkes National Primate Research Center at Emory University, in Atlanta,
+and a member of the National Academy of Sciences and the Royal Dutch Academy
+of Sciences. His latest book is “[The Age of
+Empathy](https://www.randomhouse.com/catalog/display.pperl?isbn=9780307407764).”  
+_

@@ -1,0 +1,529 @@
+# Don’t Let It ‘Go’ Away: The Frantic, Furious Making of a Cult Movie Classic - The Ringer
+
+**Source**: https://www.theringer.com/movies/2019/3/29/18283794/go-making-of-doug-liman-john-august-sarah-polley-katie-holmes-no-doubt
+**Type**: article
+**Created**: 2025-08-13T16:17:50.320737
+
+---
+
+title: Don’t Let It ‘Go’ Away: The Frantic, Furious Making of a Cult Movie Classic - The Ringer
+source: https://www.theringer.com/movies/2019/3/29/18283794/go-making-of-doug-liman-john-august-sarah-polley-katie-holmes-no-doubt
+date: 2025-08-13T16:17:46.540007
+tags: []
+---
+[](/\[...wordpressNode\])
+
+#
+
+How one wild night in L.A. was captured by one wild production, headed up by
+an unpredictable auteur, a hungry screenwriter, and a cast of about-to-be
+superstars
+
+[](/\[...wordpressNode\])
+
+#
+
+How one wild night in L.A. was captured by one wild production, headed up by
+an unpredictable auteur, a hungry screenwriter, and a cast of about-to-be
+superstars
+
+Doug Liman had a decision to make. [_Getting
+In_](https://www.youtube.com/watch?v=vlM6ZrnJ7Wc), the movie he’d directed
+right after getting out of USC film school, had gone straight to video. But
+then 1996 brought his indie sensation,
+[_Swingers_](https://www.theringer.com/2017/5/26/16043532/doug-liman-swingers-
+hockey-game-podcast-achievement-oriented-19c7faac0b9a). Made for only
+$250,000, it followed the lives of crying**** and carousing unknown actors in
+Los Angeles. Its release attached a scotch-powered jetpack to the careers of
+Vince Vaughn and Jon Favreau. _Swingers_ earned $4.55 million at the box
+office, though it found an even greater audience once it hit the home video
+market. It’s had such a deep cultural impact that 23 years later, jag-offs are
+still yelling “Vegas, baby!” when their planes touch down at McCarran.
+
+So what was Liman going to do next?
+
+To the delight of his representation, major film studios were offering him
+comedies with budgets in the low $20 millions. He was heading toward
+_Heartbreakers_ , a film about a mother-daughter conwoman team written by the
+guys behind _Liar Liar_ and _The Little Rascals_. Then one day, when Liman was
+leaving his Manhattan apartment, he heard his phone ringing as he stood in the
+hallway waiting for the elevator. He was hoping it was a girl, but it turned
+out to be the producer Mickey Liddell, pitching him to direct a movie called
+_Go_.
+
+The film told three interlocking stories, each tied to an ecstacy deal
+initiated in the checkout line of a cruddy Hollywood supermarket. It featured
+crackling dialogue, a Christmas-themed rave, closeted soap opera stars, a car
+chase on the Vegas strip, _Beverly Hills, 90210_ jokes, iodine poisoning, a
+tantric threesome, and a telepathic cat named Huxley.
+
+Even before the phone call, Liman felt like _Heartbreakers_ was too easy, that
+it was too much money for a comedy. _Go_ had a proposed budget around one-
+fifth of what he’d spend on _Heartbreakers_. His agent cautioned that if Liman
+did another indie and things went down in flames, he wouldn’t get the
+opportunity to work with a major studio again. On the other hand, if he
+completed _Heartbreakers_ now, regardless of how well it did, his career would
+be set.
+
+Unlike other marquee indie directors of the era, Liman wasn’t a writer, so he
+wasn’t generating his own material. It was the ethos driving _Go_ ’s __ script
+that convinced him to pick the project. “I had a charmed youth in that I did a
+lot of crazy things and no one ever got hurt,” Liman says. “I had this belief
+that you have a get-out-of-jail-free card when you’re 18. And I recognize
+there’s a lot of white privilege connected to that get-out-of-jail-free card
+now that I wasn’t as sensitive to at the time because I only knew my own
+experience.”
+
+“What I saw in _Go_ was a story that was celebrating: Do crazy shit while
+you’re young,” he continues. “You can get away with it when you’re young.”
+
+When you talk to people who’ve worked with Liman, they’ll describe him as “a
+character and a half” or “an interesting cat.” What they mean is that he’s a
+weirdo who makes preposterous choices that should result in failure but often
+end in success.
+
+Looking at _Go_ now, 20 years after it was released in April 1999, you can see
+a convergence of several film trends of that era. There’s the absorption of
+the creators of 1990s indie cinema into the mainstream moviemaking landscape.
+There’s a new generation of bright young actors ready to make the leap from
+teenage fare to more adult material. There’s Quentin Tarantino’s cinematic
+quirks becoming modern conventions. Yet throughout the making of _Go_ , there
+was moment after moment that should have led to disaster. Still, things
+managed to work out. Sort of.
+
+_Go_ wasn’t an abject financial disaster, but it was far from a hit. It’s not
+quite a cult classic, but over the years it’s built a contingent of dedicated
+fans. Assistants squealed when I told them which film I wanted to interview
+their bosses about. Lauded careers were launched off of it. Over the two
+ensuing decades, the amount of success that’s come to the people involved in
+the film—from the actors, to the crew, to the studio executives who got
+involved—is incredible.
+
+Liman has made other films that have grossed far more money, like _Mr. & Mrs.
+Smith _and _The Bourne Identity_. Some of his work is more beloved by film
+devotees, like _Swingers_ and _Edge of Tomorrow_. Still, Liman considers _Go_
+his best film. “We’re so trained toward short-term rewards that the true
+success of a movie has to be evaluated in 10 or 20 years after it comes out,
+and so, if you ask how I feel about how [_Go_] was received from where I sit
+today, I couldn’t be more proud of it and it couldn’t have been received
+better,” Liman says. “I do like films, like _Mr. & Mrs. Smith_, where you do
+get some huge opening weekend, but if I had to trade one or the other, it
+lasting and being something that people will watch today is something that is
+more important to me.”
+
+There’s a scrappiness to _Go_ that could only have been generated by a group
+of people who, much like the movie’s characters, often found themselves in
+situations where they were in over their heads. As the film’s editor, Stephen
+Mirrione, says, “One of the things I like about [_Go_] is it’s a movie about
+idiots that’s made by a bunch of goofballs, a bunch of knuckleheads.”
+
+Doug LimanColumbia/TriStar
+
+Sitting inside his home in L.A.’s Hancock Park neighborhood, screenwriter John
+August repeats one of his maxims: “My favorite genre of movie is movies that
+get made.” His filmography includes _Big Fish_ , the _Charlie’s Angels_
+adaptation from 2000, the _Charlie and the Chocolate Factory_ remake, and the
+forthcoming live-action _Aladdin_. But back in 1998, when he was nearing the
+end of his 20s, nothing August wrote had made it to the screen. He’d been
+hired to adapt _How to Eat Fried Worms_ for Ron Howard at Imagine
+Entertainment and _A Wrinkle in Time_ for Dimension/Miramax, neither of which
+was anywhere close to being made. “I was really fortunate to be getting those
+jobs,” he says, “but I was only being considered for movies involving gnomes,
+elves, dwarves, and Christmas.”
+
+To expand the type of offers he was getting, he returned to a script for a
+short film called _X_ that he wrote while enrolled in USC’s graduate film
+program. _X_ is basically the first segment in _Go_. It tracks a young
+supermarket worker on the verge of eviction named Ronna who gets caught up in
+an ecstacy deal and ends up lying in a ditch outside a rave. In his head,
+August had already built out more of a backstory for Adam and Zack, the two
+guys who come into the grocery store looking to score, and Simon, Ronna’s
+English coworker who usually deals to them. For _Go_ he created two more
+segments that focused on these characters and increased the connections among
+all three parts.
+
+There had been movies that had broken up the narrative and told related
+stories from different perspectives before—most famously Akira Kurosawa’s
+_Rashomon_ and Jim Jarmusch’s _Mystery Train_ —but those were the type of
+movies mostly taught at film school or shown at sticky-floored repertory
+theaters. Then 1994 brought Quentin Tarantino’s _Pulp Fiction_ , which managed
+to popularize the concept. “The idea of restarting your movie was fine; it
+wasn’t just an experimental art-film kind of thing,” August explains of _Pulp
+Fiction_ ’s impact. “It was a thing that people could have said, ‘Oh, it’s
+like that.’ The ‘Oh, it’s like that’ has sort of been a blessing and a curse.
+It made it possible to make [_Go_], but also made it really easy to dismiss
+the film or to dismiss that gimmick as ‘ _Pulp Fiction_ did it first.’”
+
+(It might not help that along with the pop-culture-peppered dialogue, _Go_
+also features two Tarantino-style [trunk shots](https://vimeo.com/106708439).)
+
+When August began taking meetings for _Go_ , the big studios were still buying
+spec scripts. But the real motivation was to show them what he was capable of.
+Because of its tonal shifts, _Go_ could be read as an action movie, a comedy,
+a thriller, or whatever sample they needed it to be. Executives would tell
+August they loved his script, but they couldn’t make it. Instead they gave him
+dialogue-polishing work or offered him other gigs that didn’t involve gnomes.
+
+Then Banner Entertainment, a small production company, decided it wanted to
+put together _Go_ as an independent feature with a $3.5 million budget, and it
+would bring August on as a coproducer who would be on set every day. Liman was
+always at the top of the list for director. “Doug, to this day, doesn’t take
+‘no’ for anything, and it’s probably his strongest quality as a director,”
+says August. “He wasn’t scared of anything in the script.”
+
+To assemble the large ensemble, they brought on Joseph Middleton, a casting
+director who was still diversifying his résumé. No one was attached to the
+film, so Middleton had a blank slate when filling out the roles. He had seen
+Taye Diggs in a production of _Rent_ , so he had Liman fly out to New York to
+meet him for the part of Marcus, Simon’s far more capable friend. He booked
+Katie Holmes to play Ronna’s hesitant coworker, Claire, when she had only shot
+the pilot for _Dawson’s Creek_ and before the show turned her into a [_Rolling
+Stone_ cover star](https://www.rollingstone.com/tv/tv-features/katie-holmes-a-
+girl-on-the-verge-231077/). Timothy Olyphant came in to audition for Zack or
+Adam and ended up with the role of the [not too
+menacing](https://www.youtube.com/watch?v=a6e-UHBx__I) drug dealer Todd
+Gaines.**** Middleton even got Melissa McCarthy in her first film role for a
+memorable one-scene appearance.
+
+Middleton, who is now the head of casting for Paramount Pictures, continued
+working with Liman through the 2008 sci-fi action film _Jumper_. “The one
+thing I think about our relationship from the very beginning, and now I’ve
+known him for many years, is that he always made me defend who I thought was
+right,” says Middleton. “In that process I always knew if I was right, because
+I could fight for it.”
+
+Even though _Go_ was an indie, it quickly became a project that lots of young
+actors wanted to be a part of. “When they’re casting these ensembles, you go
+to the audition and you know everybody,” says Breckin Meyer, who won the role
+of Tiny, a white boy who is convinced his mother’s mother’s mother was black.
+“It’s every young actor you know. You go in there and you go, ‘Oh, it’s Seth
+Green. It’s this dude, Scotty Caan.’ And it always comes down to: _We all like
+this thing. I wonder who’s going to get it?_ With _Go_ , everyone knew it was
+a very cool script.”
+
+For the role of Ronna, Liman and Co. were determined to cast Sarah Polley, a
+Canadian teenager who had already soured on Hollywood. Though Christina Ricci
+was considered for the part, Polley remained the target. “I was a little bit
+obsessed,” Middleton confesses. (One of the few major differences between
+August’s [spec script](https://johnaugust.com/downloads_ripley/Go-Spec.pdf)
+and the final film is that in the original, Ronna is African American.)
+
+Katie Holmes and Sarah PolleyTCD/Prod.DB/Alamy Stock Photo
+
+Polley’s performance in Atom Egoyan’s film [_The Sweet
+Hereafter_](https://www.youtube.com/watch?v=upeFO4qwfXM) convinced Liman that
+she was right for Ronna. “She just had this intensity in a young person I had
+never seen before,” he says. “Then when I met with her, clearly she was the
+best young actress working. I’m sure it was like meeting with Meryl Streep
+early in her career.”
+
+But before that meeting, Polley declined the role several times. “Every way in
+which they would’ve been pitching this movie to her is her worst nightmare,”
+says Liman. “Hot up-and-coming director who won MTV’s best new filmmaker
+award. That’s not the kind of movies she’s interested in being in.”
+
+When the producers found out Polley was coming to L.A., they told her agent
+that if she didn’t take a lunch meeting with Liman they wouldn’t see any other
+clients for the film. So the two got together and as Liman described _Go_ ,
+she became intrigued. She told him she would read the script as she flew home
+to Toronto. Liman told her he’d send her a copy, but she explained that a car
+was waiting for her right then to take her to the airport and she was
+incredulous that he hadn’t thought to bring a script with him.
+
+Liman ran to his car and rummaged through the mess in his trunk, looking for a
+copy. He found the script he’d passed to his editor, Mirrione, for notes.
+Liman and Mirrione had been working together since Liman’s student thesis
+film, and while Mirrione is direct with his opinions normally, when
+communicating with Liman he felt the freedom to be particularly harsh. “I look
+at the script because I know [Mirrione] had marked it up a little bit,” Liman
+recalls. “So I open it up and there’s a line circled and he’s written,
+‘Stupid.’ And I flip to the next comment and he’s like, ‘Dumb line.’ I flip a
+few more pages and it says, ‘This makes no sense.’ Flip a few more pages and
+it says, ‘Why???’”
+
+> I do like films, like _Mr. & Mrs. Smith_, where you do get some huge opening
+> weekend, but if I had to trade one or the other, it lasting and being
+> something that people will watch today is something that is more important
+> to me.
+>
+> Doug Liman
+
+With no other options, Liman gave Polley the script anyway. He is now
+convinced that it was this unexpected, and what some might call
+unprofessional, decision that ultimately won her over. “Sarah’s become a very
+close friend,” he says, “Knowing her personality, it was going to take
+something that drastic to get her to see that this was not going to be a
+traditional Hollywood movie.”
+
+Then, with filming set to start in a few weeks, Banner Films producer Liddell
+learned that all the financing had dropped out. Without notifying anyone else,
+he sent the script to Harvey Weinstein, since Miramax had distributed
+_Swingers_. On a Sunday, Weinstein passed on the project, so Liddell informed
+the other producers and Liman that _Go_ was dead. (Liddell declined to comment
+for this article, saying that he was on location in France for a project.)
+
+Undeterred, Liman, August, and producer Paul Rosenberg (who died in 2015),
+came into the film’s office on Monday morning looking for ways to revive the
+project. Liman and August didn’t have the connections to get the movie made,
+but Rosenberg, a former executive, began making calls as production assistants
+Xeroxed copies of the script and ferried them around town. “Paul was just
+calling up anybody he knew, anywhere in the business, and being like, ‘We have
+this amazing cast, a great script,’” says Liman. “Then he’d pass the phone to
+John August or myself to keep talking about the movie and he’d get on the
+phone with somebody else.”
+
+On Tuesday, they met with Ricky Strauss and Andrea Giannetti, two young
+executives at TriStar, a division of Sony Pictures. Strauss and Giannetti
+quickly convinced their bosses to take on _Go_ as what was essentially a
+negative pickup deal, where the studio agrees to purchase an indie for a set
+dollar amount (regardless of whether it goes overbudget) in return for a split
+of the profits. “People were head-scratching a little bit about how high-
+concept [_Go_] was and how marketable it could have been, but it was such a
+good script, and people really wanted to be in business with Doug Liman and
+John and the cast,” says Strauss, who now works as the president of content
+and marketing for the forthcoming Disney+ streaming service.
+
+By Wednesday, Liman was back scouting locations around L.A.
+
+Taye Diggs and Desmond AskewUnited Archives GmbH/Alamy Stock Photo
+
+When Liman signed on, one of the first things the producers told him was that
+the car chase on the Las Vegas Strip that concludes the film’s second act
+would have to be cut for budget reasons. Liman instead decided to shoot the
+car chase as if he were helming a major studio film, dedicating almost a third
+of his budget to the scene and scrimping in other ways throughout the rest of
+the production. (With Sony’s involvement, the budget got bumped up to about $5
+million, but all the extra money went toward making it a union- and Directors
+Guild–compliant shoot.)
+
+He employed many of the cost-saving techniques he’d developed on _Swingers_.
+He shot it on an Aaton 35-millimeter, a camera usually reserved for making
+documentaries in the days before everything went digital. He could reload the
+Aaton**** with film in a matter of seconds, while for traditional cameras it
+took at least four minutes and caused delays in shooting as everyone used
+those opportunities to relight the scene or take breaks. The only problem with
+the Aaton was that it isn’t constructed for recording dialogue and makes as
+much noise as a sewing machine, so Liman would wrap it in a down jacket as he
+filmed. “Jon Favreau used to describe acting in _Swingers_ like acting for a
+big fluffy snowball,” says Liman.
+
+While making _Swingers_ , instead of trying to manufacture settings, Liman
+would just film scenes that took place in parties or at bars in actual parties
+or bars, using unassuming bystanders as extras. Before anyone got too upset or
+the police came, he’d be gone. For _Go_ he adopted a similarly frenetic pace.
+
+Some actors, such as James Duval, whose first films included [Gregg Araki’s
+microbudgeted teen
+apocalypse](https://www.theringer.com/movies/2019/3/8/18255682/sex-drugs-
+prestige-tv-how-culture-came-around-to-gregg-araki) trips _Totally F***cked
+Up_ and _The Doom Generation_ , were used to Liman’s approach. “[_Go_] still
+had a little bit more money, so we were running and gunning it, but not in the
+guerrilla style that I actually was used to,” Duval says. “That was really
+getting kicked out because you didn’t have money for locations. We had permits
+on [_Go_], which was a wonderful thing.”
+
+For others it was an adjustment. Jay Mohr had been booking lots of parts after
+[his role in _Jerry Maguire_](https://www.youtube.com/watch?v=PGaLYBKeX8w),
+but _Go_ was a different type of production. “He showed up exhausted because
+he had been out partying the night before for his first day of shooting,” says
+Liman. “By the end of the day he was like, ‘Jesus Christ, I haven’t been able
+to go back to my trailer once to nap. You literally haven’t stopped
+shooting.’”
+
+Mohr says he came to enjoy Liman’s method because it reminded him of his work
+as a stand-up comic in New York, where he’d have to run around to different
+clubs in the city to get up at as many spots as possible in a night. There was
+only one occasion on _Go_ when he objected to the breakneck speed. Says Mohr,
+“I remember in the scene where Bill Fichtner is naked when I come out of the
+bathroom in his house, I came out one time and he was standing there and I
+said, ‘Just so you guys know, it’s going to take me six takes to even not
+burst out laughing.’ And they said, ‘Well, the sun’s coming up, it can’t be
+six.’ Me not going with the flow for the first time in the movie, I said,
+‘Well, you better put some
+[duvetyne](https://www.filmtools.com/expendables/fabric/duvetyne.html) over
+those windows, because it ain’t happening within six. I know how far I can
+kick this football, and it’s six takes.’”
+
+The production fell behind schedule after only a few days, so the producers
+asked August to lead a small second-unit crew, picking up insert shots or
+handling reshoots once Liman moved on. As a result, August says you can often
+see his hands fill in for other actors on screen, whether it’s a little kid
+taking money from under a hotel room’s door or Scott Wolf rearranging the
+contents in the trunk of his Miata. After principal shooting wrapped, August
+would drive Liman’s Saab convertible around Los Angeles at night as the
+director stole cutaway shots out of the back.
+
+To trim the budget, Liman acted as his own director of photography and often
+operated the camera himself, as he had on _Swingers_. It had an effect on the
+actors’ performances. “Doug had that camera on his shoulder and it had this
+immediacy and this feel to it that felt like there was a third eye that was
+always in the room,” says William Fichtner, who plays the police officer
+Burke.
+
+> There was one point where I went to Doug and I said, ‘Maybe you should stop
+> talking so much, because they can hear everything you’re saying and I think
+> you’re scaring them, because you sound crazy.’
+>
+> Stephen Mirrione
+
+Recalling the scene where the cops tape a recording device onto Scott Wolf’s
+character’s crotch, Fichtner says, “We got in a little tiny bathroom. There
+wasn’t room for anybody. There was a boom in there, the four actors in the
+scene, and Doug with his camera. He would move that camera around so
+seamlessly. I remember that more than anything. And Jay Mohr being a maniac.”
+
+ _Go_ was the first movie that Strauss had championed at TriStar, and he
+visited the set two or three times a week. “It was definitely hectic because
+there were constant changes,” he says. “The pages would come in the morning or
+the night before. People would talk about what the blocking was going to look
+like and how it was going to go, then there were some last-minute changes that
+were made from rehearsals or from Doug maybe changing his mind about lighting
+packages or where the scene should take place. And also we didn’t have a ton
+of money, so it was definitely scrappy, but it was wildly creative.”
+
+Another habit that Liman had developed on _Swingers_ was not turning off the
+camera between takes, so when screening the dailies, everyone could hear his
+conversations with the actors. “Doug, sometimes his brain is working on a
+different frequency than the words that come out, so sometimes what he’s
+saying sounds a little idiotic, so it’s especially frightening if you’re a
+producer and you’re spending a lot of money and have all this responsibility,”
+says Mirrione. “There was one point where I went to Doug and I said, ‘Maybe
+you should stop talking so much, because they can hear everything you’re
+saying and I think you’re scaring them, because you sound crazy.’”
+
+Drugs play a major role in _Go_ , but it’s not a drug movie. Both Liman and
+August say they were never really into mind-altering substances. August says
+that of all the characters he created for the film, he’s most like Katie
+Holmes’s Claire, the wet blanket who manages to have more fun than anyone
+else, despite herself. Liman didn’t see himself in any of the characters, but
+says he had met a lot of people like Simon, the European eager to take in the
+full excitement and ridiculousness of the American experience. Desmond Askew,
+the English actor who plays him, remembers, “I was still growing up at that
+time. I wasn’t shooting bouncers or stealing Ferraris, but I think that’s what
+Doug and I talked about, and he really impressed upon me that that was what
+attracted him to my performance, this kind of wide-eyed sense of wonder. I
+remember him constantly saying, ‘Just think: puppy dog, puppy dog.’”
+
+ _Go_ was also one of the first movies that touched on American dance music
+culture as it spread from its foundational homes in Detroit and Chicago. For
+the soundtrack, Liman brought on Julianne Jordan (neé Kelley), the now-
+celebrated music supervisor who got her first gig in that role on _Swingers_.
+Before shooting began, Liman, Jordan, and some of the producers would go to
+raves around L.A., where the director would surreptitiously steal shots that
+ended up in the [ecstasy-evoking opening
+credits](https://www.youtube.com/watch?v=QdF_3U16SHk).
+
+Jordan was able to license tracks by ascendent electronic music acts Fatboy
+Slim, Leftfield, and Air, but the biggest coup was getting the Orange County
+ska pop band No Doubt to record the song “New” for the soundtrack. “For No
+Doubt, who at that time was massive, to say they will write an original song
+for a 6 million–dollar movie!” says Jordan. “You don’t see Ariana Grande
+saying she’s going to do that.”
+
+For the film’s score, Jordan recommended that Liman work with BT, a young
+music producer and DJ who began playing classical piano when he was 4 and
+enrolled at the Berklee College of Music when he was 15. Liman showed up at
+BT’s house in Rockville, Maryland, unannounced with his dog and a VHS copy of
+rough-cut scenes from _Go_. The artist hadn’t even seen _Swingers_ at that
+point. “We watched it in my living room,” says BT. “I had a studio in the
+upstairs of my house at the time. We kept running back and forth to upstairs
+and I was literally coming up with ideas on the fly.”
+
+Shortly thereafter, BT moved to Los Angeles and still works as a film
+composer. “It was a special project,” he says. “It was something that had no
+[temp score](https://en.wikipedia.org/wiki/Temp_track). I was like, ‘Oh my
+god, all movies are this awesome. They play you a film without any music in it
+and you just write whatever you want.’ Cut to me last week. I’m like pulling
+my frickin’ hair out, the director is going, ‘Can you make it more like the
+temp?’ And I’m like, ‘Yeah, we’re going to get sued if it’s anything more like
+the temp.’”
+
+Scott Wolf, Jay Mohr, and William FichtnerAF archive/Alamy Stock Photo
+
+When John August watched an initial edit of _Go_ , he felt sick. “When you
+talk to screenwriters, the first time you see your first cut of your first
+movie, you do just want to kill yourself,” he says. “It’s just like, nothing
+works the way you wanted it to work.”
+
+Unfortunately the studio felt similarly, and even recommended cutting the
+middle Las Vegas sequence. But the movie did surprisingly well at a test
+screening in the San Fernando Valley. The crowd even said that the Las Vegas
+segment was their favorite.
+
+Still, the production would need reshoots to fix the problems, which included
+having all the segments essentially begin with the same starting point—Simon
+giving his supermarket shift to Ronna. They also altered the ending so that
+Simon brings a comedic climax to Claire and the drug dealer Todd Gaines’s arc,
+which was originally far more violent.
+
+As they continued editing, and as test-screening responses got even better,
+the film began to cohere. “Some of the most interesting editing I was doing in
+that movie was because Doug had no idea how to transition from one thing to
+the next, or he just forgot to get coverage of something,” says Mirrione. “We
+just had to be like, ‘OK, this is the intention, this is what we want to do.
+How can I just repurpose five different things and make something?’ For me,
+the palette of how to do that became the culture. The rave culture, the remix
+DJ culture, where you’re taking all this stuff and ripping it apart and
+deconstructing it, putting it back together in a different way. That was
+partly born out of the necessity of us just not knowing how to plan well
+enough ahead.” (Mirrione says he began working with Steven Soderbergh after
+the director saw _Go_. They’ve since collaborated on nine films together,
+including the _Ocean’s Eleven_ trilogy. Mirrione won an Oscar in 2001 for his
+editing on _Traffic_.)
+
+> Movies about this age are always like, ‘That’s the night that everything
+> changed. I wanted to go against that trope.
+>
+> John August
+
+Sony decided to premiere _Go_ at Sundance in January 1999, which was
+vindication for Liman since the festival had rejected _Swingers_. With 15
+relatives and 10 friends coming in for the showing, he learned he’d get only
+four tickets to the screening. Ever ingenious, he proposed that instead of the
+normal black hand stamps that audience members get when they turned in their
+ticket, they should have special flourescent _Go_ stamps to align with the
+film’s rave theme. When the festival said the theater would need two of the
+special hand stampers, he ordered three and then stamped all his guests’ hands
+at dinner before they went to the movie.
+
+The Sundance reception created anticipation for the film’s April release. When
+it hit theaters, critics were enthusiastic. In an A-rated [review in
+_Entertainment Weekly_](https://ew.com/article/1999/04/16/go-4/), Owen
+Gleiberman wrote, “ _Go_ is a rave-generation joyride, a kind of junior _Pulp
+Fiction_ that courses along on waves of freedom and excitement. For all that,
+there’s a ticklish intimacy to its tone.” Still, it disappointed at the box
+office, bringing in just under $17 million.
+
+“I think that the audience was in the middle of changing its moviegoing
+habits,” says Strauss. “It wasn’t a broad, mainstream, bawdy comedy like
+others that had been successful during that late-’90s time. It was
+distinctive, and sometimes distinctive movies take time to get discovered. But
+it’s always been successful to me.”
+
+Though August has gone on to an accomplished career writing commercial films,
+_Go_ was something different. He’d wanted to create something about young
+people who didn’t learn anything or weren’t severely affected by their
+mistakes. “Movies about this age are always like, ‘That’s the night that
+everything changed,’” he says. “I wanted to go against that trope.”
+
+The movie ends with Mannie, who has just survived an overdose, asking his
+friends Ronna and Claire what their plans are for New Year’s. And for all of
+Liman’s talk about picking _Go_ because it was his last chance to make an
+antiestablishment film, he’s spent the past two decades confounding, and often
+frustrating, Hollywood with his [distinctly unbridled
+approach](https://variety.com/2008/film/columns/a-look-at-liman-s-filmmaking-
+process-1117981300/) to moviemaking, with routinely bigger financial stakes.
+
+“Like the characters in _Go_ who didn’t really grow up by the end of it, I
+made _Bourne Identity_ afterward and if you talk to the people who worked on
+that movie, they wouldn’t think that I learned some lesson about, ‘Now he has
+to play by the rules,’” Liman says. “I think the emotional experience of
+making _Go_ wasn’t necessarily followed entirely by quote-unquote growing up.
+But it was the last time I didn’t have to be self-conscious about being
+rebellious.”
+
+[_Eric Ducker_](https://twitter.com/ericducker?lang=en) _is a writer and
+editor in Los Angeles._
+
+[ Eric Ducker](/creator/eric-ducker)Eric Ducker is a writer and editor in Los
+Angeles.

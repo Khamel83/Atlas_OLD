@@ -1,0 +1,1138 @@
+# How American Health Care Killed My Father - The Atlantic
+
+**Source**: http://www.theatlantic.com/magazine/print/2009/09/how-american-health-care-killed-my-father/7617/
+**Type**: article
+**Created**: 2025-08-13T22:05:20.736663
+
+---
+
+title: How American Health Care Killed My Father - The Atlantic
+source: http://www.theatlantic.com/magazine/print/2009/09/how-american-health-care-killed-my-father/7617/
+date: 2025-08-13T22:05:19.376640
+tags: []
+---
+![](https://cdn.theatlantic.com/static/coma/images/issues/200909/goldhill-
+healthcare-200-3.jpg)  
+---  
+Illustration by Mark Hooper  
+  
+  
+  
+Almost two years ago, my father was killed by a hospital-borne infection in
+the intensive-care unit of a well-regarded nonprofit hospital in New York
+City. Dad had just turned 83, and he had a variety of the ailments common to
+men of his age. But he was still working on the day he walked into the
+hospital with pneumonia. Within 36 hours, he had developed sepsis. Over the
+next five weeks in the ICU, a wave of secondary infections, also acquired in
+the hospital, overwhelmed his defenses. My dad became a statistic—merely one
+of the [roughly 100,000
+Americans](http://www.nytimes.com/2007/08/19/washington/19hospital.html) whose
+deaths are caused or influenced by infections picked up in hospitals. One
+hundred thousand deaths: more than double the number of people killed in car
+crashes, five times the number killed in homicides, 20 times the total number
+of our armed forces killed in Iraq and Afghanistan. Another victim in a
+building American tragedy.
+
+About a week after my father’s death, _The New Yorker_ ran an [article by Atul
+Gawande](http://www.newyorker.com/reporting/2007/12/10/071210fa_fact_gawande)
+profiling the efforts of Dr. Peter Pronovost to reduce the incidence of fatal
+hospital-borne infections. Pronovost’s solution? A simple checklist of ICU
+protocols governing physician hand-washing and other basic sterilization
+procedures. Hospitals implementing Pronovost’s checklist had enjoyed almost
+instantaneous success, reducing hospital-infection rates by two-thirds within
+the first three months of its adoption. But many physicians rejected the
+checklist as an unnecessary and belittling bureaucratic intrusion, and many
+hospital executives were reluctant to push it on them. The story chronicled
+Pronovost’s travels around the country as he struggled to persuade hospitals
+to embrace his reform.
+
+It was a heroic story, but to me, it was also deeply unsettling. How was it
+possible that Pronovost needed to beg hospitals to adopt an essentially cost-
+free idea that saved so many lives? Here’s an industry that loudly protests
+the high cost of liability insurance and the injustice of our tort system and
+yet needs extensive lobbying to embrace a simple technique to save up to
+100,000 people.
+
+And what about us—the patients? How does a nation that might close down a
+business for a single illness from a suspicious hamburger tolerate the carnage
+inflicted by our hospitals? And not just those 100,000 deaths. In April, a
+_[Wall Street
+Journal](http://online.wsj.com/article/SB123854497651476109.html)_[story](http://online.wsj.com/article/SB123854497651476109.html)
+suggested that blood clots following surgery or illness, the leading cause of
+preventable hospital deaths in the U.S., may kill nearly 200,000 patients per
+year. How did Americans learn to accept hundreds of thousands of deaths from
+minor medical mistakes as an inevitability?
+
+My survivor’s grief has taken the form of an obsession with our health-care
+system. For more than a year, I’ve been reading as much as I can get my hands
+on, talking to doctors and patients, and asking a lot of questions.
+
+Keeping Dad company in the hospital for five weeks had left me befuddled. How
+can a facility featuring state-of-the-art diagnostic equipment use less-
+sophisticated information technology than my local sushi bar? How can the ICU
+stress the importance of sterility when its trash is picked up once daily, and
+only after flowing onto the floor of a patient’s room? Considering the
+importance of a patient’s frame of mind to recovery, why are the rooms so
+cheerless and uncomfortable? In whose interest is the bizarre scheduling of
+hospital shifts, so that a five-week stay brings an endless string of new
+personnel assigned to a patient’s care? Why, in other words, has this
+technologically advanced hospital missed out on the revolution in quality
+control and customer service that has swept all other consumer-facing
+industries in the past two generations?
+
+I’m a businessman, and in no sense a health-care expert. But the persistence
+of bad industry practices—from long lines at the doctor’s office to ever-
+rising prices to astonishing numbers of preventable deaths—seems beyond all
+normal logic, and must have an underlying cause. There needs to be a _business
+reason_ why an industry, year in and year out, would be able to get away with
+poor customer service, unaffordable prices, and uneven results—a reason my
+father and so many others are unnecessarily killed.
+
+Like every grieving family member, I looked for someone to blame for my
+father’s death. But my dad’s doctors weren’t incompetent—on the contrary, his
+hospital physicians were smart, thoughtful, and hard-working. Nor is he dead
+because of indifferent nursing—without exception, his nurses were dedicated
+and compassionate. Nor from financial limitations—he was a Medicare patient,
+and the issue of expense was never once raised. There were no greedy
+pharmaceutical companies, evil health insurers, or other popular villains in
+his particular tragedy.
+
+Indeed, I suspect that our collective search for villains—for someone to
+blame—has distracted us and our political leaders from addressing the
+fundamental causes of our nation’s health-care crisis. All of the actors in
+health care—from doctors to insurers to pharmaceutical companies—work in a
+heavily regulated, massively subsidized industry full of structural
+distortions. They all want to serve patients well. But they also all behave
+rationally in response to the economic incentives those distortions create.
+Accidentally, but relentlessly, America has built a health-care system with
+incentives that inexorably generate terrible and perverse results. Incentives
+that emphasize health _care_ over any other aspect of health and well-being.
+That emphasize treatment over prevention. That disguise true costs. That favor
+complexity, and discourage transparent competition based on price or quality.
+That result in a generational pyramid scheme rather than sustainable
+financing. And that—most important—remove consumers from our irreplaceable
+role as the ultimate ensurer of value.
+
+These are the impersonal forces, I’ve come to believe, that explain why things
+have gone so badly wrong in health care, producing the national dilemma of
+runaway costs and poorly covered millions. The problems I’ve explored in the
+past year hardly count as breakthrough discoveries—health-care experts
+undoubtedly view all of them as old news. But some experts, it seems, have
+come to see many of these problems as inevitable in any health-care system—as
+conditions to be patched up, papered over, or worked around, but not problems
+to be solved.
+
+That’s the premise behind today’s incremental approach to health-care reform.
+Though details of the legislation are still being negotiated, its principles
+are a reprise of previous reforms—addressing access to health care by
+expanding government aid to those without adequate insurance, while attempting
+to control rising costs through centrally administered initiatives. Some of
+the ideas now on the table may well be sensible in the context of our current
+system. But fundamentally, the “comprehensive” reform being contemplated
+merely cements in place the current system—insurance-based, employment-
+centered, administratively complex. It addresses the underlying causes of our
+health-care crisis only obliquely, if at all; indeed, by extending the current
+system to more people, it will likely increase the ultimate cost of true
+reform.
+
+I’m a Democrat, and have long been concerned about America’s lack of a health
+safety net. But based on my own work experience, I also believe that unless we
+fix the problems at the foundation of our health system—largely problems of
+incentives—our reforms won’t do much good, and may do harm. To achieve maximum
+coverage at acceptable cost with acceptable quality, health care will need to
+become subject to the same forces that have boosted efficiency and value
+throughout the economy. We will need to reduce, rather than expand, the role
+of insurance; focus the government’s role exclusively on things that only
+government can do (protect the poor, cover us against true catastrophe,
+enforce safety standards, and ensure provider competition); overcome our
+addiction to Ponzi-scheme financing, hidden subsidies, manipulated prices, and
+undisclosed results; and rely more on ourselves, the consumers, as the
+ultimate guarantors of good service, reasonable prices, and sensible trade-
+offs between health-care spending and spending on all the other good things
+money can buy.
+
+These ideas stand well outside the emerging political consensus about reform.
+So before exploring alternative policies, let’s reexamine our basic
+assumptions about health care—what it actually is, how it’s financed, its
+accountability to patients, and finally its relationship to the eternal laws
+of supply and demand. Everyone I know has at least one personal story about
+how screwed up our health-care system is; before spending (another) $1trillion
+or so on reform, we need a much clearer understanding of the causes of the
+problems we all experience.
+
+![](https://cdn.theatlantic.com/static/coma/images/issues/200909/goldhill-
+healthcare-200-1.jpg)  
+---  
+Illustration by Stephen Savage  
+  
+  
+  
+**Health Care Isn’t Health (Or Happiness)**
+
+“Money is honey,” my grandmother used to tell me, “but health is wealth.” She
+said “health,” not “health care.” Listening to debates over health-care
+reform, it is sometimes difficult to remember that there is a difference.
+
+Medical care, of course, is merely one component of our overall health.
+Nutrition, exercise, education, emotional security, our natural environment,
+and public safety may now be more important than care in producing further
+advances in longevity and quality of life. (In 2005, almost half of all deaths
+in the U.S. resulted from heart disease, diabetes, lung cancer, homicide,
+suicide, and accidents—all of which are arguably influenced as much by
+lifestyle choices and living environment as by health care.) And of course
+even health itself is only one aspect of personal fulfillment, alongside
+family and friends, travel, recreation, the pursuit of knowledge and
+experience, and more.
+
+Yet spending on health care, by families and by the government, is crowding
+out spending on almost everything else. As a nation, [we now spend almost 18
+percent](http://www.newsweek.com/id/202015) of our GDP on health care. In
+1966, Medicare and Medicaid made up 1 percent of total government spending;
+now that figure is 20 percent, and [quickly
+rising](http://www.whitehouse.gov/omb/rewrite/budget/fy2009/outlook.html).
+Already, the federal government spends eight times as much on health care as
+it does on education, 12 times what it spends on food aid to children and
+families, 30 times what it spends on law enforcement, 78 times what it spends
+on land management and conservation, 87 times the spending on water supply,
+and 830 times the spending on energy conservation. Education, public safety,
+environment, infrastructure—all other public priorities are being slowly
+devoured by the health-care beast.
+
+It’s no different for families. From 2000 to 2008, the [U.S. economy
+grew](http://www.data360.org/dsg.aspx?Data_Set_Group_Id=230) by $4.4 trillion;
+of that growth, roughly one out of every four dollars was spent on health
+care. Household expenditures on health care already exceed those on housing.
+And health care’s share is growing.
+
+By what mechanism does society determine that an extra, say, $100 billion for
+health care will make us healthier than even $10 billion for cleaner air or
+water, or $25 billion for better nutrition, or $5 billion for parks, or $10
+billion for recreation, or $50 billion in additional vacation time—or all of
+those alternatives combined?
+
+The answer is, no mechanism at all. Health care simply keeps gobbling up
+national resources, seemingly without regard to other societal needs; it’s
+treated as an island that doesn’t touch or affect the rest of the economy. As
+new tests and treatments are developed, they are, for the most part, added to
+our Medicare or commercial insurance policies, no matter what they cost. But
+of course the money must come from somewhere. If the amount we spend on care
+had grown only at the general rate of inflation since 1970, annual health-care
+costs now would be roughly $5,000 less per American—that’s about 10 percent of
+today’s median income, to invest for the future or to spend on all the other
+things that contribute to our well-being. To be sure, our society has become
+wealthier over the years, and we’d naturally want to spend some of this new
+wealth on more and better health care; but how did we choose to spend this
+much?
+
+The housing bubble offers some important lessons for health-care policy. The
+claim that something—whether housing or health care—is an undersupplied social
+good is commonly used to justify government intervention, and policy makers
+have long striven to make housing more affordable. But by making housing
+investments eligible for special tax benefits and subsidized borrowing rates,
+the government has stimulated not only the construction of more houses but
+also the willingness of people to borrow and spend more on houses than they
+otherwise would have. The result is now tragically clear.
+
+As with housing, directing so much of society’s resources to health care is
+stimulating the provision of vastly more care. Along the way, it’s also
+distorting demand, raising prices, and making us all poorer by crowding out
+other, possibly more beneficial, uses for the resources now air-dropped onto
+the island of health care. Why do we view health care as disconnected from
+everything else? Why do we spend so much on it? And why, ultimately, do we get
+such inconsistent results? Any discussion of the ills within the system must
+begin with a hard look at the tax-advantaged comprehensive-insurance industry
+at its center.
+
+**Health Insurance Isn’t Health Care**
+
+How often have you heard a politician say that millions of Americans “have no
+health care,” when he or she meant they have no health _insurance_? How has a
+method of financing health care become synonymous with care itself?
+
+The reason for financing at least some of our health care with an insurance
+system is obvious. We all worry that a serious illness or an accident might
+one day require urgent, extensive care, imposing an extreme financial burden
+on us. In this sense, health-care insurance is just like all other forms of
+insurance—life, property, liability—where the many who face a risk share the
+cost incurred by the few who actually suffer a loss.
+
+But health insurance is different from every other type of insurance. Health
+insurance is the primary payment mechanism not just for expenses that are
+unexpected and large, but for _nearly all_ health-care expenses. We’ve become
+so used to health insurance that we don’t realize how absurd that is. We can’t
+imagine paying for gas with our auto-insurance policy, or for our electric
+bills with our homeowners insurance, but we all assume that our regular
+checkups and dental cleanings will be covered at least partially by insurance.
+Most pregnancies are planned, and deliveries are predictable many months in
+advance, yet they’re financed the same way we finance fixing a car after a
+wreck—through an insurance claim.
+
+Comprehensive health insurance is such an ingrained element of our thinking,
+we forget that its rise to dominance is relatively recent. Modern group health
+insurance was introduced in 1929, and employer-based insurance began to
+blossom during World War II, when wage freezes prompted employers to expand
+other benefits as a way of attracting workers. Still, as late as 1954, only a
+minority of Americans had health insurance. That’s when Congress passed a law
+making employer contributions to employee health plans tax-deductible without
+making the resulting benefits taxable to employees. This seemingly minor tax
+benefit not only encouraged the spread of catastrophic insurance, but had the
+accidental effect of making employer-funded health insurance the most
+affordable option (after taxes) for financing pretty much _any_ type of health
+care. There was nothing natural or inevitable about the way our system
+developed: employer-based, comprehensive insurance crowded out alternative
+methods of paying for health-care expenses only because of a poorly considered
+tax benefit passed half a century ago.
+
+In designing Medicare and Medicaid in 1965, the government essentially adopted
+this comprehensive-insurance model for its own spending, and by the next year
+had enrolled nearly 12 percent of the population. And it is no coinci­dence
+that the great inflation in health-care costs began soon after. We all believe
+we need comprehensive health insurance because the cost of care—even routine
+care—appears too high to bear on our own. But the use of insurance to fund
+virtually all care is itself a major _cause_ of health care’s high expense.
+
+Insurance is probably the most complex, costly, and distortional method of
+financing any activity; that’s why it is otherwise used to fund only rare,
+unexpected, and large costs. Imagine sending your weekly grocery bill to an
+insurance clerk for review, and having the grocer reimbursed by the insurer to
+whom you’ve paid your share. An expensive and wasteful absurdity, no?
+
+Is this really a big problem for our health-care system? Well, for every two
+doctors in the U.S., there is now one health-insurance employee—more than
+470,000 in total. In 2006, it cost almost $500 per person just to administer
+health insurance. Much of this enormous cost would simply disappear if we paid
+routine and predictable health-care expenditures the way we pay for everything
+else—by ourselves.
+
+![](https://cdn.theatlantic.com/static/coma/images/issues/200909/goldhill-
+healthcare-200-2.jpg)  
+---  
+Illustration by Stephen Savage  
+  
+  
+  
+Society’s excess cost from health insurance’s administrative expense pales
+next to the damage caused by “moral hazard”—the tendency we all have to change
+our behavior, becoming spendthrifts and otherwise taking less care with our
+decisions, when someone else is covering the costs. Needless to say, much
+medical care is unavoidable; we don’t choose to become sick, nor do we seek
+more treatment than we think we need. Still, hospitals, drug companies, health
+insurers, and medical-device manufacturers now spend roughly $6 billion a year
+on advertising. If the demand for health care is purely a response to
+unavoidable medical need, why do these companies do so much advertising?
+
+[Medical ads on TV](http://www.youtube.com/watch?v=YXQaMaBxwRg) typically
+inform the viewer that a specific treatment—a drug, device, surgical
+procedure—is available for a chronic condition. Many also note that the
+product or treatment is eligible for Medicare or private-insurance
+reimbursement. In some cases, the advertiser will offer to help the patient
+obtain that reimbursement. The key message: you can benefit from this product
+and pass the bill on to someone else.
+
+Every time you walk into a doctor’s office, it’s implicit that someone else
+will be paying most or all of your bill; for most of us, that means we give
+less attention to prices for medical services than we do to prices for
+anything else. Most physicians, meanwhile, benefit financially from ordering
+diagnostic tests, doing procedures, and scheduling follow-up appointments.
+Combine these two features of the system with a third—the informational
+advantage that extensive training has given physicians over their patients,
+and the authority that advantage confers—and you have a system where
+physicians can, to some extent, generate demand at will.
+
+Do they? Well, [Medicare spends almost twice as much per patient in
+Dallas](http://www.star-telegram.com/business/story/1457180.html), where there
+are more doctors and care facilities per resident, as it does in Salem,
+Oregon, where supply is tighter. Why? Because doctors (particularly
+specialists) in surplus areas order more tests and treatments per capita, and
+keep their practices busy. Many studies have shown that the patients in areas
+like Dallas do not benefit in any measurable way from all this extra care. All
+of the physicians I know are genuinely dedicated to their patients. But at the
+margin, all of us are at least subconsciously influenced by our own economic
+interests. The data are clear: in our current system, physician supply often
+begets patient demand.
+
+Moral hazard has fostered an accidental collusion between providers benefiting
+from higher costs and patients who don’t fully bear them. In this environment,
+trying to control costs is awfully tough. When Medicare cut reimbursement
+rates in 2005 on chemotherapy and anemia drugs, for instance, it saved almost
+20 percent of the previously billed costs. But Medicare’s total cancer-
+treatment costs actually rose almost immediately. As _The New York Times_
+reported, some physicians believed their colleagues simply performed more
+treatments, particularly higher-profit ones.
+
+Want further evidence of moral hazard? The average insured American and the
+average uninsured American spend very similar amounts _of their own money_ on
+health care each year—$654 and $583, respectively. But they spend wildly
+different amounts _of_ _other people’s money_ —$3,809 and $1,103,
+respectively. Sometimes the uninsured do not get highly beneficial treatments
+because they cannot afford them at today’s prices—something any reform must
+address. But likewise, insured patients often get only marginally beneficial
+(or even outright unnecessary) care at mind-boggling cost. If it’s true that
+the insurance system leads us to focus on only our direct share of
+costs—rather than the total cost to society—it’s not surprising that insured
+families and uninsured ones would make similar decisions as to how much of
+their own money to spend on care, but very different decisions on the total
+amount to consume.
+
+The unfortunate fact is, health-care demand has no natural limit. Our society
+will always keep creating new treatments to cure previously incurable
+problems. Some of these will save lives or add productive years to them; many
+will simply make us more comfortable. That’s all to the good. But the cost of
+this comfort, and whether it’s really worthwhile, is never calculated—by
+anyone. For almost all our health-care needs, the current system allows us as
+consumers to ask providers, “What’s my share?” instead of “How much does this
+cost?”—a question we ask before buying any other good or service. And the
+subtle difference between those two questions is costing us all a fortune.
+
+**There’s No One Else to Pay the Bill**
+
+Perhaps the greatest problem posed by our health-insurance-driven regime is
+the sense it creates that someone else is actually paying for most of our
+health care—and that the costs of new benefits can also be borne by someone
+else. Unfortunately, there is no one else.
+
+For fun, let’s imagine confiscating all the profits of all the famously greedy
+health-insurance companies. That would pay for four days of health care for
+all Americans. Let’s add in the profits of the 10 biggest rapacious U.S. drug
+companies. Another 7 days. Indeed, confiscating all the profits of _all_
+American companies, in _every_ industry, wouldn’t cover even five months of
+our health-care expenses.
+
+Somebody else always _seems_ to be paying for at least part of our health
+care. But that’s just an illusion. At $2.4 trillion and growing, our nation’s
+health-care bill is too big to be paid by anyone other than all of us.
+
+In 2007, employer-based health insurance cost, on average, more than $12,000
+per family, up 78 percent since 2001. I’ve run several companies and company
+divisions of various sizes over the course of my career, so I can confidently
+tell you that raises (and even entry-level hiring) are tightly limited by
+rising health-care costs. You may think your employer is paying for your
+health care, but in fact your company’s share of the insurance premium comes
+out of your potential wage increase. Where else _could_ it come from?
+
+Let’s say you’re a 22-year-old single employee at my company today, starting
+out at a $30,000 annual salary. Let’s assume you’ll get married in six years,
+support two children for 20 years, retire at 65, and die at 80. Now let’s make
+a crazy assumption: insurance premiums, Medicare taxes and premiums, and out-
+of-pocket costs will grow no faster than your earnings—say, 3 percent a year.
+By the end of your working days, your annual salary will be up to $107,000.
+And over your lifetime, you and your employer together will have paid $1.77
+million for your family’s health care. $1.77 million! And that’s only after
+assuming the taming of costs! In recent years, health-care costs have actually
+grown 2 to 3 percent faster than the economy. If that continues, your 22-year-
+old self is looking at an additional $2 million or so in expenses over your
+lifetime—roughly $4 million in total.
+
+Would you have guessed these numbers were so large? If not, you have good
+cause: only a quarter would be paid by you directly (and much of that after
+retirement). The rest would be spent by others on your behalf, deducted from
+your earnings before you received your paycheck. And that’s a big reason why
+our health-care system is so expensive.
+
+**The Government Is Not Good at Cost Reduction**
+
+Every proposal for health-care reform has featured some element of cost
+control to “balance” the inflationary impact of expanding access. Yet it goes
+without saying that in the big picture, all government efforts to control
+costs have failed.
+
+Why? One reason is a fixation on prices rather than costs. The government
+regularly tries to cap costs by limiting the reimbursement rates paid to
+providers by Medicare and Medicaid, and generally pays much less for each
+service than private insurers. But as we’ve seen, that can lead providers to
+perform _more_ services, and to steer patients toward higher-priced, more
+lightly regulated treatments. The government’s efforts to expand “access” to
+care while limiting costs are like blowing up a balloon while simultaneously
+squeezing it. The balloon continues to inflate, but in misshapen form.
+
+Cost control is a feature of decentralized, competitive markets, not of
+centralized bureaucracy—a matter of incentives, not mandates. What’s more,
+cost control is _dynamic_. Even the simplest business faces constant variation
+in its costs for labor, facilities, and capital; to compete, management must
+react quickly, efficiently, and, most often, prospectively. By contrast,
+government bureaucracies set regulations and reimbursement rates through
+carefully evaluated and broadly applied rules. These bureaucracies first must
+notice market changes and resource misallocations, and then (sometimes subject
+to political considerations) issue additional regulations or change
+reimbursement rates to address each problem retrospectively.
+
+As a result, strange distortions crop up constantly in health care. For
+example, although the population is rapidly aging, [we have few
+geriatricians](http://www.newyorker.com/reporting/2007/04/30/070430fa_fact_gawande)—physicians
+who address the cluster of common patient issues related to aging, often
+crossing traditional specialty lines. Why? Because under Medicare’s current
+reimbursement system (which generally pays more to physicians who do lots of
+tests and procedures), geriatricians typically don’t make much money. If
+seniors were the true customers, they would likely flock to geriatricians,
+bidding up their rates—and sending a useful signal to medical-school students.
+But Medicare is the real customer, and it pays more to specialists in
+established fields. And so, seniors often end up overusing specialists who are
+not focused on their specific health needs.
+
+Many reformers believe if we could only adopt a single-payer system, we could
+deliver health care more cheaply than we do today. The experience of other
+developed countries suggests that’s true: the government as single payer would
+have lower administrative costs than private insurers, as well as enormous
+market clout and the ability to bring down prices, although at the cost of
+explicitly rationing care.
+
+But even leaving aside the effects of price controls on innovation and
+customer service, today’s Medicare system should leave us skeptical about the
+long-term viability of that approach. From 2000 to 2007, despite its market
+power, Medicare’s hospital and physician reimbursements per enrollee rose by
+5.4 percent and 8.5 percent, respectively, per year. As currently structured,
+Medicare is a Ponzi scheme. The Medicare tax rate has been raised seven times
+since its enactment, and almost certainly will need to be raised again in the
+next decade. The Medicare tax contributions and premiums that today’s
+beneficiaries have paid into the system don’t come close to fully funding
+their care, which today’s workers subsidize. The subsidy is getting larger
+even as it becomes more difficult to maintain: next year there will be 3.7
+working people for each Medicare beneficiary; if you’re in your mid-40s today,
+there will be only 2.4 workers to subsidize your care when you hit retirement
+age. The experience of other rich nations should also make us skeptical.
+Whatever their histories, nearly all developed countries are now struggling
+with rapidly rising health-care costs, including those with single-payer
+systems. From 2000 to 2005, per capita health-care spending in Canada grew by
+33 percent, in France by 37 percent, in the U.K. by 47 percent—all comparable
+to the 40 percent growth experienced by the U.S. in that period. Cost control
+by way of bureaucratic price controls has its limits.
+
+In 2007, health companies in the _Fortune_ 1,000 earned $71 billion. Of the 52
+industries represented on _Fortune_ ’s list, pharmaceuticals and medical
+equipment ranked third and fourth, respectively, in terms of profits as a
+share of revenue. From 2000 to 2007, the annual profits of America’s top 15
+health-insurance companies increased from $3.5 billion to $15 billion.
+
+In competitive markets, high profits serve an important social purpose:
+encouraging capital to flow to the production of a service not adequately
+supplied. But as long as our government shovels ever-greater resources into
+health care with one hand, while with the other restricting competition that
+would ensure those resources are used efficiently, sustained high profits will
+be the rule.
+
+Health care is an exceptionally heavily regulated industry. Health-insurance
+companies are regulated by states, which limits interstate competition. And
+many of the materials, machines, and even software programs used by health-
+care facilities must be licensed by state or federal authorities, or approved
+for use by Medicare; these requirements form large barriers to entry for both
+new facilities and new vendors that could equip and supply them.
+
+Many health-care regulations are justified as safety precautions. But many
+also result from attempts to redress the distortions that our system of
+financing health care has created. And whatever their purpose, almost all of
+these regulations can be shaped over time by the powerful institutions that
+dominate the health-care landscape, and that are often looking to protect
+themselves from competition.
+
+Take the ongoing battle between large integrated hospitals and specialty
+clinics (for cardiac surgery, orthopedics, maternity, etc.). The economic
+threat posed by these facilities is well illustrated by a recent battle in
+Loma Linda, California. When a group of doctors proposed a 28-bed private
+specialty facility, the local hospitals protested to the city council that it
+was unnecessary, and launched a publicity campaign to try to block it; [the
+council backed the facility
+anyway](http://www.accessmylibrary.com/article-1G1-134561731/california-
+regulators-approve-28.html). So the nonprofit Loma Linda University Medical
+Center simply bought the new facility for $80 million in 2008. Traditional
+hospitals got Congress to include an 18-month moratorium on new specialty
+hospitals in [the 2003 Medicare
+law](http://www.nytimes.com/2003/12/09/us/medicare-law-s-costs-and-benefits-
+are-elusive.html?scp=1%amp%sq=Medicare+law%amp%st=nyt), and a second six-month
+ban in 2005.
+
+The hospitals’ argument has some merit: less complicated surgical cases (the
+kind specialty clinics typically take on) tend to be more profitable than
+complex surgeries and nonsurgical admissions. Without those profitable cases,
+hospitals can’t subsidize the cases on which they lose money. But why are
+simple surgeries more profitable? Because of the nonmarket methods by which
+Medicare sets prices.
+
+The net effect of the endless layers of health-care regulation is to stifle
+competition in the classic economic sense. What we have instead is a
+noncompetitive system where services and reimbursement are negotiated above
+consumers’ heads by large private and government institutions. And the primary
+goal of any large noncompetitive institution is not cost control or product
+innovation or customer service: it’s maintenance of the status quo.
+
+In 1751, Benjamin Franklin and Dr. Thomas Bond founded Pennsylvania Hospital,
+the first in America, “to care for the sick-poor and insane who were wandering
+the streets of Philadelphia.” Since then, hospitals have come to dominate the
+American medical landscape. Yet in recent decades, the rationale for
+concentrating so much care under one roof has diminished steadily. Many
+hospitals still exist in their current form largely because they are protected
+by regulation and favored by government payment policies, which effectively
+maintain the existing industrial structure, rather than encouraging
+innovation.
+
+Between 1970 and 2006, annual Medicare payments to hospitals grew by roughly
+3,800 percent, from $5 billion to $192 billion. Total annual hospital-care
+costs for all patients grew from $28 billion to almost $650 billion during
+that same period. Since 1975, hospitals’ enormous revenue growth has occurred
+_despite_ a 35 percent decline in the number of hospital beds, no meaningful
+increase in total admissions, and an almost 50 percent decline in the average
+length of stay. High-tech equipment has been dispersed to medical practices,
+recovery periods after major procedures have shrunk, and pharmaceutical
+therapies have grown in importance, yet over the past 40 years, hospitals have
+managed to retain the same share (roughly one-third) of our nation’s health-
+care bill.
+
+Hospitals have sought to use the laws and regulations originally designed to
+serve patients to preserve their business model. Their argument is the same
+one that’s been made before by regulated railroads, electric utilities,
+airlines, Ma Bell, and banks: new competitors, they say, are using their cost
+advantages to skim off the best customers; without those customers, the
+incumbents will no longer be able to subsidize essential services that no one
+can profitably provide to the public.
+
+Hospitals are indeed required to provide emergency care to any walk-in
+patient, and this obligation is a meaningful public service. But how do we
+know whether the charitable benefit from this requirement justifies the social
+cost of expensive hospital care and poor quality? We don’t know. Our system of
+health-care law and regulation has so distorted the functioning of the market
+that it’s impossible to measure the social costs and benefits of maintaining
+hospitals’ prominence. And again, the distortions caused by a reluctance to
+pay directly for health care—in this case, emergency medicine for the poor—are
+in large part to blame.
+
+Consider the oft-quoted “statistic” that emergency-room care is the most
+expensive form of treatment. Has anyone who believes this ever actually been
+to an emergency room? My sister is an emergency-medicine physician; unlike
+most other specialists, ER docs usually work on scheduled shifts and are paid
+fixed salaries that place them in the lower ranks of physician compensation.
+The doctors and other workers are hardly underemployed: typically, ERs are
+unbelievably crowded. They have access to the facilities and equipment of the
+entire hospital, but require very few dedicated resources of their own. They
+benefit from the group buying power of the entire institution. No expensive
+art decorates the walls, and the waiting rooms resemble train-station waiting
+areas. So what _exactly_ makes an ER more expensive than other forms of
+treatment?
+
+Perhaps it’s the accounting. Since charity care, which is often performed in
+the ER, is one justification for hospitals’ protected place in law and
+regulation, it’s in hospitals’ interest to shift costs from overhead and other
+parts of the hospital to the ER, so that the costs of charity care—the public
+service that hospitals are providing—will appear to be high. Hospitals
+certainly lose money on their ERs; after all, many of their customers pay
+nothing. But to argue that ERs are costly compared with other treatment
+options, hospitals need to claim expenses well beyond the marginal (or
+incremental) cost of serving ER patients.
+
+In a recent IRS survey of almost 500 nonprofit hospitals, nearly 60 percent
+reported providing charity care equal to less than 5 percent of their total
+revenue, and about 20 percent reported providing less than 2 percent.
+Analyzing data from the American Hospital Directory, _The_ _Wall Street
+Journal_ found that the 50 largest nonprofit hospitals or hospital systems
+made a combined “net income” (that is, profit) of[ $4.27 billion in
+2006](http://online.wsj.com/article/SB120726201815287955.html), nearly eight
+times their profits five years earlier.
+
+How do we know whether the value of hospitals’ charitable services compensates
+for the roughly 100,000 deaths from hospital-borne disease, their poor
+standards of customer service, and their extraordinary diseconomies of both
+scale and scope? Might we be better off reforming hospitals, and allowing many
+of them to be eliminated by competition from specialty clinics? As a society,
+couldn’t we just pay directly for the services required by the poor? We don’t
+know how many hospitals would even survive if they were not so favored under
+the law; anyone who has lost a loved one to a preventable hospital death will
+wonder how many should.
+
+What amazed me most during five weeks in the ICU with my dad was the survival
+of paper and pen for medical instructions and histories. In that time, Dad was
+twice taken for surgical procedures intended for other patients (fortunately
+interrupted both times by our intervention). My dry cleaner uses a more
+elaborate system to track shirts than this hospital used to track treatment.
+
+Not every hospital relies on paper-based orders and charts, but most still do.
+Why has adoption of clinical information technology been so slow? Companies
+invest in IT to reduce their costs, reduce mistakes (itself a form of cost-
+saving), and improve customer service. Better information technology would
+have improved my father’s experience in the ICU—and possibly his chances of
+survival.
+
+But my father was not the customer; Medicare was. And although Medicare has
+experimented with new reimbursement approaches to drive better results, no
+centralized reimbursement system can be supple enough to address the many
+variables affecting the patient experience. Certainly, Medicare wasn’t paying
+for the quality of service during my dad’s hospital stay. And it wasn’t really
+paying for the quality of his care, either; indeed, because my dad got sepsis
+in the hospital, and had to spend weeks there before his death, the hospital
+was able to charge a lot more for his care than if it had successfully treated
+his pneumonia and sent him home in days.
+
+Of course, one area of health-related IT has received substantial
+investment—billing. So much for the argument, often made, that privacy
+concerns or a lack of agreed-upon standards has prevented the development of
+clinical IT or electronic medical records; presumably, if lack of privacy or
+standards had hampered the digitization of health records, it also would have
+prevented the digitization of the accompanying bills. To meet the needs of the
+government bureaucracy and insurance companies, most providers now bill on
+standardized electronic forms. In case you wonder who a care provider’s real
+customer is, try reading one of these bills.
+
+For that matter, try discussing prices with hospitals and other providers.
+Eight years ago, my wife needed an MRI, but we did not have health insurance.
+I called up several area hospitals, clinics, and doctors’ offices—all within
+about a one-mile radius—to find the best price. I was surprised to discover
+that prices quoted, for an identical service, varied widely, and that the
+lowest price was $1,200. But what was truly astonishing was that several
+providers refused to quote any price. Only if I came in and actually ordered
+the MRI could we discuss price.
+
+Several years later, when we were preparing for the birth of our second child,
+I requested the total cost of the delivery and related procedures from our
+hospital. The answer: the hospital discussed price only with uninsured
+patients. What about my co-pay? They would discuss my potential co-pay only if
+I were applying for financial assistance.
+
+Keeping prices opaque is one way medical institutions seek to avoid
+competition and thereby keep prices up. And they get away with it in part
+because so few consumers pay directly for their own care—insurers, Medicare,
+and Medicaid are basically the whole game. But without transparency on
+prices—and the related data on measurable outcomes—efforts to give the
+consumer more control over health care have failed, and always will.
+
+Here’s a wonderful example of price opacity. Advocates for the uninsured
+complain that hospitals charge uninsured patients, on average, 2.5 times the
+amount charged to insured patients. Hospitals defend themselves by contending
+that they earn from uninsured patients only 25 percent of the amount they do
+from insured ones. _Both statements appear to be true!_
+
+How is this possible? Well, hospitals bill according to their price lists, but
+provide large discounts to major insurers. Individual consumers, of course,
+don’t benefit from these discounts, so they receive their bills at full list
+price (typically about 2.5 times the bill to an insured patient). Uninsured
+patients, however, pay according to how much of the bill the hospital believes
+they can afford (which, on average, amounts to 25 percent of the amount paid
+by an insured patient). Nonetheless, whatever discount a hospital gives to an
+uninsured patient is entirely at its discretion—and is typically negotiated
+only after the fact. Some uninsured patients have been driven into bankruptcy
+by hospital collections. American industry may offer no better example of
+pernicious “price discrimination,” nor one that entails greater financial
+vulnerability for American families.
+
+It’s astonishingly difficult for consumers to find _any_ health-care
+information that would enable them to make informed choices—based not just on
+price, but on quality of care or the rate of preventable medical errors.
+Here’s one place where legal requirements might help. But only a few states
+require institutions to make this sort of information public in a usable form
+for consumers. So while every city has numerous guidebooks with reviews of
+schools, restaurants, and spas, the public is frequently deprived of the
+necessary data to choose hospitals and other providers.
+
+**The Strange Beast of Health-Care Technology**
+
+One of the most widely held pieces of conventional wisdom about health care is
+that new technology is relentlessly driving up costs. Yet over the past 20
+years, I’ve bought several generations of microwave ovens, personal computers,
+DVD players, GPS devices, mobile phones, and flat-screen TVs. I bank mostly at
+ATMs, check out my own goods at self-serve supermarket scanners, and attend
+company meetings by video­conference. Technology has transformed much of our
+daily lives, in almost all cases by adding quantity, speed, and quality while
+_lowering_ costs. So why is health care different?
+
+Well, for the most part, it isn’t. Whether it’s new drugs to control
+previously untreatable conditions, diagnostic equipment that enhances
+physician productivity, or minimally invasive techniques that speed patient
+recovery, technology-driven innovation has been transforming care at least as
+greatly as it has transformed the rest of our lives.
+
+But most health-care technologies don’t exist in the same world as other
+technologies. Recall the MRI my wife needed a few years ago: $1,200 for 20
+minutes’ use of a then 20-year-old technology, requiring a little electricity
+and a little labor from a single technician and a radiologist. Why was the
+price so high? Most MRIs in this country are reimbursed by insurance or
+Medicare, and operate in the limited-competition, nontransparent world of
+insurance pricing. I don’t even know the price of many of the diagnostic
+services I’ve needed over the years—usually I’ve just gone to whatever
+provider my physician recommended, without asking (my personal contribution to
+the moral-hazard economy).
+
+By contrast, consider LASIK surgery. I still lack the (small amount of)
+courage required to get LASIK. But I’ve been considering it since it was
+introduced commercially in the 1990s. The surgery is seldom covered by
+insurance, and exists in the competitive economy typical of most other
+industries. So people who get LASIK surgery—or for that matter most cosmetic
+surgeries, dental procedures, or other mostly uninsured treatments—act like
+consumers. If you do an Internet search today, you can find LASIK procedures
+quoted as low as $499 per eye—a decline of roughly 80 percent since the
+procedure was introduced. You’ll also find sites where doctors advertise their
+own higher-priced surgeries (which more typically cost about $2,000 per eye)
+and warn against the dangers of discount LASIK. Many ads specify the quality
+of equipment being used and the performance record of the doctor, in addition
+to price. In other words, there’s been an active, competitive market for LASIK
+surgery of the same sort we’re used to seeing for most goods and services.
+
+The history of LASIK fits well with the pattern of all capital-intensive
+services outside the health-insurance economy. If you’re one of the first
+ophthalmologists in your community to perform the procedure, you can charge a
+high price. But once you’ve acquired the machine, the actual cost of
+performing a single procedure (the marginal cost) is relatively low. So, as
+additional ophthalmologists in the neighborhood invest in LASIK equipment, the
+first provider can meet new competition by cutting price. In a fully
+competitive marketplace, the procedure’s price will tend toward that low
+marginal cost, and ophthalmologists looking to buy new machines will exert
+downward pressure on both equipment and procedure prices.
+
+No business likes to compete solely on price, so most technology providers
+seek to add features and performance improvements to new generations of a
+machine—anything to keep their product from becoming a pure commodity. Their
+success depends on whether the consumers will pay enough for the new feature
+to justify its introduction. In most consumer industries, we can see this
+dynamic in action—observe how DVD players have moved in a few years from a
+high-priced luxury to a disposable commodity available at discount stores. DVD
+players have run out of new features for which customers will pay premium
+prices.
+
+Perhaps MRIs have too. After a long run of high and stable prices, you can now
+find ads for discount MRIs. But because of the peculiar way we pay for health
+care, this downward price pressure on technology seems less vigorous. How well
+can insurance companies and government agencies judge the value of new
+features that tech suppliers introduce to keep prices up? Rather than blaming
+technology for rising costs, we must ask if moral hazard and a lack of
+discipline in national health-care spending allows health-care companies to
+avoid the forces that make nonmedical technology so competitive.
+
+In 2002, the U.S. had almost six times as many CT scanners per capita as
+Germany and four times as many MRI machines as the U.K. Traditional reformers
+believe it is this rate of investment that has pushed up prices, rather than
+sustained high prices that have pushed up investment. As a result, many states
+now require hospitals to obtain a Certificate of Need before making a major
+equipment purchase. In its own twisted way, this makes sense: moral hazard,
+driven by insurance, for years allowed providers to create enough demand to
+keep new MRI machines humming at any price.
+
+But Certificates of Need are just another Scotch-tape reform, an effort to
+maintain the current system by treating a symptom rather than the underlying
+disease. Technology is driving up the cost of health care for the same reason
+every other factor of care is driving up the cost—the absence of the forces
+that discipline and even drive down prices in the rest of our economy. Only in
+the bizarre parallel universe of health care could limiting supply be seen as
+a sensible approach to keeping prices _down_.
+
+**The Limits of “Comprehensive” Health-care Reform**
+
+A wasteful insurance system; distorted incentives; a bias toward treatment;
+moral hazard; hidden costs and a lack of transparency; curbed competition;
+service to the wrong customer. These are the problems at the foundation of our
+health-care system, resulting in a slow rot and requiring more and more money
+just to keep the system from collapsing.
+
+How would the health-care reform that’s now taking shape solve these core
+problems? The Obama administration and Congress are still working out the
+details, but it looks like this generation of “comprehensive” reform will not
+address the underlying issues, any more than previous efforts did. Instead it
+will put yet more patches on the walls of an edifice that is fundamentally
+unsound—and then build that edifice higher.
+
+A central feature of the reform plan is the expansion of comprehensive health
+insurance to most of the 46 million Americans who now lack private or public
+insurance. Whether this would be achieved entirely through the extension of
+private commercial insurance at government-subsidized rates, or through the
+creation of a “public option,” perhaps modeled on Medicare, is still being
+debated.
+
+Regardless, the [administration has suggested a cost to taxpayers of $1
+trillion to $1.5 trillion over 10
+years](http://www.foxnews.com/politics/first100days/2009/02/26/obama-budget/).
+That, of course, will mean another $1 trillion or more not spent on other
+things—environment, education, nutrition, recreation. And if the history of
+previous attempts to expand the health safety net are any guide, that estimate
+will prove low.
+
+The reform plan will also feature a variety of centrally administered
+initiatives designed to reduce costs and improve quality. These will likely
+include a major government investment to promote digitization of patient
+health records, an effort to collect information on best clinical practices,
+and changes in the way providers are paid, to better reward quality and deter
+wasteful spending.
+
+All of these initiatives have some theoretical appeal. And within the confines
+of the current system, all may do some good. But for the most part, they
+simply do not address the root causes of poor quality and runaway costs.
+
+Consider information technology, for instance. Of course the health system
+could benefit from better use of IT. The Rand Corporation has estimated that
+the widespread use of electronic medical records would eventually yield annual
+savings of $81 billion, while also improving care and reducing preventable
+deaths, and the White House estimates that creating and spreading the
+technology would cost just $50 billion. But in what other industry would an
+investment with such a massive annual return not be funded by the industry
+itself? (And while $50 billion may sound like a big investment, it’s only
+about 2 percent of the health-care industry’s annual revenues.)
+
+Technology is effective only when it’s properly applied. Since most physicians
+and health-care companies haven’t adopted electronic medical records on their
+own, what makes us think they will appropriately use all this new IT? Most of
+the benefits of the technology (record portability, a reduction in costly and
+dangerous clinical errors) would likely accrue to patients, not providers. In
+a consumer-facing industry, this alone would drive companies to make the
+investments to stay competitive. But of course, we patients aren’t the real
+customers; government funding of electronic records wouldn’t change that.
+
+I hope that whatever reform is finally enacted this fall works—preventing
+people from slipping through the cracks, raising the quality standard of the
+health-care industry, and delivering all this at acceptable cost. But looking
+at the big picture, I fear it won’t. So I think we should at least begin to
+debate and think about larger reforms, and a different direction—if not for
+this round of reform, then for the next one. Politics is, of course, the art
+of the possible. If our health-care crisis does not abate, the possibilities
+for reform may expand beyond their current, tight limits.
+
+The most important single step we can take toward truly reforming our system
+is to move away from comprehensive health insurance as the single model for
+financing care. And a guiding principle of any reform should be to put the
+consumer, not the insurer or the government, at the center of the system. I
+believe if the government took on the goal of better supporting consumers—by
+bringing greater transparency and competition to the health-care industry, and
+by directly subsidizing those who can’t afford care—we’d find that consumers
+could buy much more of their care directly than we might initially think, and
+that over time we’d see better care and better service, at lower cost, as a
+result.
+
+A more consumer-centered health-care system would not rely on a single form of
+financing for health-care purchases; it would make use of different sorts of
+financing for different elements of care—with routine care funded largely out
+of our incomes; major, predictable expenses (including much end-of-life care)
+funded by savings and credit; and massive, unpredictable expenses funded by
+insurance.
+
+For years, a number of reformers have advocated a more “consumer-driven” care
+system—a term coined by the Harvard Business School professor [Regina
+Herzlinger](http://drfd.hbs.edu/fit/public/facultyInfo.do?facInfo=bio%amp%facEmId=rherzlinger),
+who has written extensively on the subject. Many different steps could move us
+toward such a system. Here’s one approach that—although it may sound
+radical—makes sense to me.
+
+First, we should replace our current web of employer- and government-based
+insurance with a single program of catastrophic insurance open to all
+Americans—indeed, all Americans should be required to buy it—with fixed
+premiums based solely on age. This program would be best run as a single
+national pool, without underwriting for specific risk factors, and would
+ultimately replace Medicare, Medicaid, and private insurance. All Americans
+would be insured against catastrophic illness, throughout their lives.
+
+Proposals for true catastrophic insurance usually founder on the definition of
+_catastrophe_. So much of the amount we now spend is dedicated to problems
+that are considered catastrophic, the argument goes, that a separate
+catastrophic system is pointless. A typical catastrophic insurance policy
+today might cover any expenses above, say, $2,000. That threshold is far too
+low; ultimately, a threshold of $50,000 or more would be better. (Chronic
+conditions with expected annual costs above some lower threshold would also be
+covered.) We might consider other mechanisms to keep total costs down: the
+plan could be required to pay out no more in any year than its available
+premiums, for instance, with premium increases limited to the general rate of
+inflation. But the real key would be to restrict the coverage to true
+catastrophes—if this approach is to work, only a minority of us should ever be
+beneficiaries.
+
+How would we pay for most of our health care? The same way we pay for
+everything else—out of our income and savings. Medicare itself is, in a sense,
+a form of forced savings, as is commercial insurance. In place of these
+programs and the premiums we now contribute to them, and along with
+catastrophic insurance, the government should create a new form of health
+savings account—a vehicle that has existed, though in imperfect form, since
+2003. Every American should be required to maintain an HSA, and contribute a
+minimum percentage of post-tax income, subject to a floor and a cap in total
+dollar contributions. The income percentage required should rise over a
+working life, as wages and wealth typically do.
+
+All noncatastrophic care should eventually be funded out of HSAs. But account-
+holders should be allowed to withdraw money for any purpose, without penalty,
+once the funds exceed a ceiling established for each age, and at death any
+remaining money should be disbursed through inheritance. Our current methods
+of health-care funding create a “use it or lose it” imperative. This new
+approach would ensure that families put aside funds for future expenses, but
+would not force them to spend the funds only on health care.
+
+What about care that falls through the cracks—major expenses (an appendectomy,
+sports injury, or birth) that might exceed the current balance of someone’s
+HSA but are not catastrophic? These should be funded the same way we pay for
+most expensive purchases that confer long-term benefits: with credit.
+Americans should be able to borrow against their future contributions to their
+HSA to cover major health needs; the government could lend directly, or
+provide guidelines for private lending. Catastrophic coverage should apply
+with no deductible for young people, but as people age and save, they should
+pay a steadily increasing deductible from their HSA, unless the HSA has been
+exhausted. As a result, much end-of-life care would be paid through savings.
+
+Anyone with whom I discuss this approach has the same question: How am I
+supposed to be able to afford health care in this system? Well, what if I gave
+you $1.77 million? Recall, that’s how much an insured 22-year-old at my
+company could expect to pay—and to have paid on his and his family’s
+behalf—over his lifetime, assuming health-care costs are tamed. Sure, most of
+that money doesn’t pass through your hands now. It’s hidden in company
+payments for premiums, or in Medicare taxes and premiums. But think about it:
+If you had access to those funds over your lifetime, wouldn’t you be able to
+afford your own care? And wouldn’t you consume health care differently if you
+and your family didn’t have to spend that money _only_ on care?
+
+For lower-income Americans who can’t fund all of their catastrophic premiums
+or minimum HSA contributions, the government should fill the gap—in some
+cases, providing all the funding. You don’t think we spend an absurd amount of
+money on health care? If we abolished Medicaid, we could spend the same money
+to make a roughly $3,000 HSA contribution and a $2,000 catastrophic-premium
+payment for 60 million Americans every year. That’s a $12,000 annual HSA plus
+catastrophic coverage for a low-income family of four. Do we really believe
+most of them wouldn’t be better off?
+
+Some experts worry that requiring people to pay directly for routine care
+would cause some to put off regular checkups. So here’s a solution: the
+government could provide vouchers to all Americans for a free checkup every
+two years. If everyone participated, the annual cost would be about $30
+billion—a small fraction of the government’s current spending on care.
+
+Today, insurance covers almost all health-care expenditures. The few consumers
+who pay from their pockets are simply an afterthought for most providers.
+Imagine how things might change if more people were buying their health care
+the way they buy anything else. I’m certain that all the obfuscation over
+prices would vanish pretty quickly, and that we’d see an end to unreadable
+bills. And that physicians, who spend an enormous amount of time on insurance-
+related paperwork, would have more time for patients.
+
+In fact, as a result of our fraying insurance system, you can already see some
+nascent features of a consumer-centered system. Since 2006, [Wal-Mart has
+offered $4 prescriptions](http://www.walmart.com/4prescriptions) for a month’s
+supply of common generic medications. It has also been slowly rolling out
+retail clinics for routine care such as physicals, blood work, and treatment
+for common ailments like strep throat. Prices for each service are easily
+obtained; most are in the neighborhood of $50 to $80. Likewise, “concierge
+care,” or the “boutique” style of medical practice—in which physicians provide
+unlimited services and fast appointments in return for a fixed monthly or
+annual fee—is beginning to spread from the rich to the middle class. Qliance
+Medical Group, for instance, now operates clinics serving some 3,000 patients
+in the Seattle and Tacoma, Washington, areas, charging $49 to $79 a month for
+unlimited primary care, defined expansively.
+
+It’s worth pausing over this last example. Many experts believe that the U.S.
+would get better health outcomes at lower cost if payment to providers were
+structured around the management of health or whole episodes of care, instead
+of through piecemeal fees. Medicare and private insurers have, to various
+degrees, moved toward (or at least experimented with) these sorts of payments,
+and are continuing to do so—but slowly, haltingly, and in the face of much
+obstruction by providers. But aren’t we likely to see just these sorts of
+payment mechanisms develop organically in a consumer-centered health-care
+system? For simplicity and predictability, many people will prefer to pay a
+fixed monthly or annual fee for primary or chronic care, and providers will
+move to serve that demand.
+
+Likewise, what patient, when considering getting an artificial hip, would want
+to deal with a confusion of multiple bills from physicians, facilities, and
+physical therapists? Aren’t providers likely to organize themselves to provide
+a single price to the consumer for care and rehabilitation? And won’t that, in
+itself, put pressure on providers to work together as efficiently as possible,
+and to minimize the medical errors that would eat into their joint fee? I
+suspect we would see a rapid decline in the predominance of the fee-for-
+service model, making way for real innovation and choice in service plans and
+funding. And the payment system would not be set by fiat; it would remain
+responsive to treatment breakthroughs and changes in consumer demand.
+
+Many consumers would be able to make many decisions, unaided, in such a
+system. But we’d also probably see the rise of health-care agents—paid by, and
+responsible to, the consumer—to help choose providers and to act as advocates
+during long and complex care episodes.
+
+How else might the system change? Technological innovation—which is now almost
+completely insensitive to costs, and which often takes the form of slightly
+improved treatments for much higher prices—would begin to concern itself with
+value, not just quality. Many innovations might drive prices down, not up.
+Convenient, lower-cost specialty centers might proliferate. The need for
+unpaid indigent care would go away—everyone, recall, would have both
+catastrophic insurance and an HSA, funded entirely by the government when
+necessary—and with it much of the rationale for protecting hospitals against
+competition.
+
+Of course, none of this would happen overnight. And the government has an
+essential role to play in arming consumers with good information. Congress
+should require maximum transparency on services, prices, and results (and some
+elements of the Obama administration’s reform plan would move the industry in
+this direction). We should establish a more comprehensive system of quality
+inspection of all providers, and publish all the findings. Safety and efficacy
+must remain the cornerstone of government licensing, but regulatory bias
+should favor competition and prevent incumbents from using red tape to
+forestall competition.
+
+Moving from the system we’ve got now to the one I’ve outlined would be
+complicated, and would take a long time. Most of us have been paying into an
+insurance system for years, expecting that our future health-care bills would
+be paid; we haven’t been saving separately for these expenses. It would take a
+full generation to completely migrate from relying on Medicare to saving for
+late-life care; from Medicaid for the disadvantaged to catastrophic insurance
+and subsidized savings accounts. Such a transition would require the slow
+reduction of Medicare taxes, premiums, and benefit levels for those not yet
+eligible, and a corresponding slow ramp-up in HSAs. And the national
+catastrophic plan would need to start with much broader coverage and higher
+premiums than the ultimate goal, in order to fund the care needed today by our
+aging population. Nonetheless, the benefits of a consumer-centered
+approach—lower costs for better service—should have early and large dividends
+for all of us throughout the period of transition. The earlier we start, the
+less a transition will ultimately cost.
+
+Many experts oppose the whole concept of a greater role for consumers in our
+health-care system. They worry that patients lack the necessary knowledge to
+be good consumers, that unscrupulous providers will take advantage of them,
+that they will overspend on low-benefit treatments and under-spend on high-
+benefit preventive care, and that such waste will leave some patients unable
+to afford highly beneficial care.
+
+They are right, of course. Whatever replaces our current system will be
+flawed; that’s the nature of health care and, indeed, of all human
+institutions. Our current system features all of these problems already—as
+does the one the Obama reforms would create. Because health care is so complex
+and because each individual has a unique health profile, no system can be
+perfect.
+
+I believe my proposed approach passes two meaningful tests. It will do a
+better job than our current system of controlling prices, allocating
+resources, expanding access, and safeguarding quality. And it will do a better
+job than a more government-driven approach of harnessing medicine’s dynamism
+to develop and spread the new knowledge, technologies, and techniques that
+improve the quality of life. We won’t be perfect consumers, but we’re more
+likely than large bureaucracies to encourage better medicine over time.
+
+All of the health-care interest groups—hospitals, insurance companies,
+professional groups, pharmaceuticals, device manufacturers, even advocates for
+the poor—have a major stake in the current system. Overturning it would favor
+only the 300 million of us who use the system and—whether we realize it or
+not—pay for it. Until we start asking the type of questions my father’s death
+inspired me to ask, until we demand the same price and quality accountability
+in health care that we demand in everything else, each new health-care reform
+will cost us more and serve us less.
+
+Ten days after my father’s death, the hospital sent my mother a copy of the
+bill for his five-week stay: $636,687.75. He was charged $11,590 per night for
+his ICU room; $7,407 per night for a semiprivate room before he was moved to
+the ICU; $145,432 for drugs; $41,696 for respiratory services. Even the most
+casual effort to compare these prices to marginal costs or to the costs of
+off-the-shelf components demonstrates the absurdity of these numbers, but why
+should my mother care? Her share of the bill was only $992; the balance,
+undoubtedly at some huge discount, was paid by Medicare.
+
+Wasn’t this an extraordinary benefit, a windfall return on American
+citizenship? Or at least some small relief for a distraught widow?
+
+Not really. You can feel grateful for the protection currently offered by
+Medicare (or by private insurance) only if you don’t realize how much you
+truly spend to fund this system over your lifetime, and if you believe you’re
+getting good care in return.
+
+Would our health-care system be so outrageously expensive if each American
+family directly spent even half of that $1.77 million that it will contribute
+to health insurance and Medicare over a lifetime, instead of entrusting care
+to massive government and private intermediaries? Like its predecessors, the
+Obama administration treats additional government funding as a solution to
+unaffordable health care, rather than its cause. The current reform will
+likely expand our government’s already massive role in health-care decision-
+making—all just to continue the illusion that someone else is paying for our
+care.
+
+But let’s forget about money for a moment. Aren’t we also likely to get worse
+care in any system where providers are more accountable to insurance companies
+and government agencies than to us?
+
+Before we further remove ourselves as direct consumers of health care—with all
+of our beneficial influence on quality, service, and price—let me ask you to
+consider one more question. Imagine my father’s hospital had to present the
+bill for his “care” not to a government bureaucracy, but to my grieving
+mother. Do you really believe that the hospital—forced to face the victim of
+its poor-quality service, forced to collect the bill from the real
+customer—wouldn’t have figured out how to make its doctors wash their hands?

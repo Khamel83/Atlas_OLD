@@ -1,0 +1,172 @@
+# Pass, Fail and Politics - NYTimes.com
+
+**Source**: http://www.nytimes.com/2011/09/04/opinion/sunday/bruni-pass-fail-and-politics.html?pagewanted=print
+**Type**: article
+**Created**: 2025-08-13T20:37:22.378557
+
+---
+
+title: Pass, Fail and Politics - NYTimes.com
+source: http://www.nytimes.com/2011/09/04/opinion/sunday/bruni-pass-fail-and-politics.html?pagewanted=print
+date: 2025-08-13T20:37:08.369321
+tags: []
+---
+IT’S a foolish question, asking how smart a politician is.
+
+It’s too vague. It ignores all the different wrinkles of intelligence and ways
+to measure it, along with the debatable link between brain power as it’s
+typically defined and skilled governance in terms of actual results. It’s a
+vessel for prejudices, a stand-in for grievances.
+
+And yet it comes back around almost every election cycle, as it’s doing now.
+
+Meet Rick Perry. At Texas A&M; University, his grades were so poor he was on
+academic probation. He flunked advanced organic chemistry, which, in his
+defense, sounds eminently flunkable. He got a C in animal breeding, which
+doesn’t. For a “principles of economics” course, he attained a glittering D,
+as The Huffington Post
+[detailed](http://web.archive.org/web/20110909112036/http://www.huffingtonpost.com/2011/08/05/rick-
+perry-college-transcript_n_919357.html "HuffPost piece. "). You won’t be
+hearing him mention that much amid all his talk about Texas jobs creation.
+
+His academic background, coupled with his rejection of climate change and
+fondness for gauzy generalities, prompted a [story in
+Politico](http://web.archive.org/web/20110909112036/http://www.politico.com/news/stories/0811/62214.html
+"Politico story. ") last week with this subtle headline: “Is Rick Perry Dumb?”
+
+Based on grades alone, it seems so. But by that yardstick, even a politician
+as outwardly cerebral as Al Gore has some explaining to do. Gore got his very
+[own](http://web.archive.org/web/20110909112036/http://www.washingtonpost.com/ac2/wp-
+dyn?pagename=article&contentId=A37397-2000Mar18 "Wash Post story. ") college D
+— in a course about man’s place in nature, no less. Granted, this was at
+Harvard. But still.
+
+Perry can’t dazzle in policy discussions. That’s also clear. The farther he
+ventures from Texas, the smaller he shrinks. When the radio talk show host
+Laura Ingraham recently
+[tried](http://web.archive.org/web/20110909112036/http://www.politico.com/news/stories/0811/62092.html
+"Politico story. ") to get him to say something specific — _anything_ specific
+— about how America should deal with China, he clung so tightly to banalities
+that she was forced twice to
+[plead](http://web.archive.org/web/20110909112036/http://www.lauraingraham.com/b/AUDIO:-Gov.-Rick-
+Perry-gives-first-national-radio-interview-as-presidential-
+candidate/241509387705714730.html "Audio. "): “What does that mean?”
+
+But he’s savvy enough to have assembled a political team and adopted a
+political strategy that have him leading the (flawed) Republican field in a
+raft of recent polls. There’s something to that. Something more than excellent
+hair.
+
+I’m less troubled by how thickheaded Perry may be than by how wrongheaded we
+already know he is on issues like evolution, which he says is just a
+[theory](http://web.archive.org/web/20110909112036/http://politicalticker.blogs.cnn.com/2011/08/18/perry-
+heckled-as-campaign-shifts-into-new-phase/ "CNN report. "), and homosexuality,
+which he has likened to
+[alcoholism](http://web.archive.org/web/20110909112036/http://swampland.time.com/2011/08/24/perry-
+compared-homosexuality-to-alcoholism-in-2008-book/ "Time story. ").
+
+President Obama has those issues right. And can talk authoritatively about
+them and most others. A former editor of the Harvard Law Review, he has that
+kind of mind, that kind of fluency. In this one poised man, erudition and
+eloquence join hands.
+
+But they don’t save him. Last week, he set himself up once again to look like
+the nation’s deferrer in chief by proposing a
+[date](http://web.archive.org/web/20110909112036/http://www.washingtonpost.com/politics/obama-
+jobs-speech-creates-conflict-with-gop/2011/08/31/gIQAWfsGtJ_story.html "Wash
+Post story. ") for his jobs speech that had the possibility of provoking
+Republican opposition and did precisely that, at which point he retreated. Is
+this the Mother-May-I presidency? With John Boehner in the role of paddle-
+wielding matriarch?
+
+That many Republicans will viciously seize any opportunity to defy and
+undercut Obama is a lesson he should have learned by now. Regardless of who
+was being unreasonable, it was he who actually ended up sending an
+[e-mail](http://web.archive.org/web/20110909112036/http://www.usatoday.com/news/washington/story/2011-09-01/A-frustrated-
+President-Obama-looks-to-turn-things-around/50228106/1 "USA Today story. ") to
+supporters with the one-word subject line “frustrated.” The president of the
+United States is supposed to salve _our_ frustrations, not meekly bemoan his
+own.
+
+Shouldn’t he or someone in his inner circle have foreseen the potential for
+events unfolding in such a humiliating fashion and made sure to avoid it?
+Apparently no one did, and that suggests a deficit of smarts by almost any
+definition of that ludicrously imprecise term.
+
+Worse yet, this was only the latest in a long series of questionable
+calculations. Was it smart/prudent/pick-your-adjective to lavish all that
+precious post-election political capital on health care reform rather than
+economic revitalization and jobs creation, especially if it winds up being the
+first in a chain of dominoes that leads to defeat in 2012 and the repeal of
+that precise legislation?
+
+Was it smart/prudent/pick-your-adjective not to head off a debt-ceiling
+showdown by settling the matter during last year’s lame-duck session of
+Congress, before Republicans took the reins in the House? And, during the
+showdown, didn’t Obama and his advisers misjudge both the zeal of some House
+Republicans and the magnitude of his own powers of persuasion?
+
+Time and again, Obama hasn’t been a prescient or brutal enough tactician and
+hasn’t adjusted his high-minded ways to the low-minded sport of Congressional
+politics. That’s a failure of some kind, and intelligence may be one word for
+it.
+
+“Is Obama Smart?” the Wall Street Journal columnist Bret Stephens
+[asked](http://web.archive.org/web/20110909112036/http://online.wsj.com/article/SB10001424053111904140604576495932704234052.html
+"WSJ column. ") in early August. That was the headline, and it’s at least as
+good a question, in terms of the president’s political efficacy of late, as
+the one Politico posed about Perry.
+
+THAT Perry’s headline contained the harsher adjective — “dumb” — is typical,
+say many Republicans, who complain that journalists tend to equate the anti-
+intellectualism and populist affects of many of their party’s candidates with
+outright stupidity. They cite Ronald Reagan as an example of someone first
+dismissed as a dunce and understood only later to be wise in some basic,
+consequential ways.
+
+And they say that Democrats get a greater pass on gaffes than Republicans do.
+There’s merit to the argument. The recent verbal hiccup with which Joe Biden
+seemed to
+[endorse](http://web.archive.org/web/20110909112036/http://thecaucus.blogs.nytimes.com/2011/08/23/romney-
+condemns-bidens-comments-on-chinas-one-child-policy/ "Times piece. ") China’s
+one-child policy lengthened a formidable list of Bidenisms, including his
+[statement](http://web.archive.org/web/20110909112036/http://www.nytimes.com/2007/01/31/washington/02cnd-
+biden.html?scp=1&sq=biden%20african%20american%20clean&st=cse "Times story. ")
+in 2007 that Obama, as a presidential contender, was “the first mainstream
+African-American who is articulate and bright and clean.” But Biden’s
+intelligence is seldom questioned, not the way it would be if he had a Tea
+Party affiliation and Southern drawl.
+
+Then there’s the whole matter of whether we’re well served by a brainy
+president. In an excellent
+[piece](http://web.archive.org/web/20110909112036/http://www.slate.com/id/1003943/
+"Slate story. ") in Slate in 1999, Jacob Weisberg explored a growing body of
+thought that a president’s supposed brilliance (or lack thereof) has no
+bearing on success in office. By this theory, relatively ordinary smarts
+yielded extraordinary accomplishment (Reagan, Franklin D. Roosevelt, Harry S.
+Truman) while extreme intelligence led to defeat (Jimmy Carter, Richard Nixon,
+Herbert Hoover).
+
+Weisberg rightly noted the huge flaws with this analysis, including the small
+sample size and the subjectivity involved in judging achievement. Here’s
+another: what makes Carter more brilliant than Roosevelt — or, for that
+matter, Reagan?
+
+That assessment reflects a narrow, traditional understanding of smarts as a
+sort of academic aptitude, a facility with facts and language. But a whole
+genre of best-selling books over the last decade and a half insist —
+correctly, I think — that there are various ways to be clever: “[Emotional
+Intelligence](http://web.archive.org/web/20110909112036/http://danielgoleman.info/topics/emotional-
+intelligence/ "Goleman page. "),” “[The Wisdom of
+Crowds](http://web.archive.org/web/20110909112036/http://www.nytimes.com/2004/05/22/books/review/0523books-
+mclemee.html "Times review. "),” a knack for gut responses formed in the span
+of a
+“[Blink](http://web.archive.org/web/20110909112036/http://www.gladwell.com/blink/
+"Gladwell page. ").” None require exemplary SAT scores.
+
+Instead of talking about how smart politicians are or aren’t, we should have
+an infinitely more useful, meaningful conversation about whether we share and
+respect their values and whether they have shown themselves to be effective.
+Someone who rates high on both counts is someone to rally unreservedly around.
+
+Right now, neither Perry nor Obama fits that double bill.

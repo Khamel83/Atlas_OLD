@@ -1,0 +1,152 @@
+# =?UTF-8?b?V0lIKzogUmVnZW5jeeKAmXMgTXVyZG9jaCBQcm9ibGVtICYgTmVvbuKAmXMg?=
+
+**Source**: inputs/saved_emails/=UTF-8bV0lIKzogUmVnZW5jeeKAmXMgTXVyZG9jaCBQcm9ibGVtICYgTmVvbuKAmXMg=
+**Type**: email
+**Created**: 2025-08-25T02:53:57.437542
+
+---
+
+=UTF-8b4oCYQW1hemluZ+KAmSBMYXdzdWl0=_Wed,_26_Jun_2024_00-32-41_+0000_19051f59958b6cf1.eml
+
+Welcome back to What I’m Hearing+, your Tuesday dose of entertainment industry intelligence. I’m still marveling at today’s Paramount town hall, in which the three co-C.E.O.s we’re still not calling the Pep Boys attempted to calm employee nerves while also acknowledging that owner Shari Redstone—not present, of course—is furiously trying to sell the company (I’m told the Edgar Bronfman Jr. group begins due diligence on National Amusements this week), thousands of them will soon be fired, and they’ve hired bankers to offload “certain Paramount-owned assets.”
+
+ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+
+What I'm Hearing + ( https://puck.news/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Welcome back to What I’m Hearing+, your Tuesday dose of entertainment industry intelligence. I’m still marveling at today’s Paramount town hall, in which the three co-C.E.O.s we’re still not calling the Pep Boys attempted to calm employee nerves while also acknowledging that owner Shari Redstone—not present, of course—is furiously trying to sell the company (I’m told the Edgar Bronfman Jr. group begins due diligence on National Amusements this week), thousands of them will soon be fired, and they’ve hired bankers to offload “certain Paramount-owned assets.” How about dignity? Is that still a Paramount-owned asset?
+
+Anyway, Eriq Gardner is here today with a tale of financial woes and a secret legal battle at Arnon Milchan’s New Regency, plus much more. Take it away, Eriq…
+
+Tuesday Thoughts
+
+* A.I. killed the radio star: The major record labels have filed their first big copyright lawsuits over the use of music to train A.I. models (see here ( https://www.riaa.com/wp-content/uploads/2024/06/Suno-complaint-file-stamped20.pdf?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) and here ( https://www.riaa.com/wp-content/uploads/2024/06/Udio-Complaint-6.24.241.pdf?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )). Given their late race to the courtroom and openness to machine learning—conditioned upon receiving licensing fees, of course—I’m betting on an eventual settlement with Suno and Udio rather than principled arguments before a jury. The real
+issue is how A.I. and future licensing agreements disrupt the traditional dynamics between labels and artists. We’ve already seen this in the media sphere, where news organizations like The Wall Street Journal and The Atlantic have arguably ( https://www.theatlantic.com/technology/archive/2024/05/fatal-flaw-publishers-making-openai-deals/678477/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) undermined their own long-term interests by entering into deals with OpenAI.
+
+As for Hollywood studios, I don’t believe they’re anywhere near following record labels into blockbuster lawsuits. On Monday, the Motion Picture Association appointed Larissa Knapp, formerly the fourth-highest-ranking official at the F.B.I., as its new global chief of content protection. The announcement focused on combating piracy, with nary a word about A.I.
+
+One other quick note: While the record label A.I. suits are generating plenty of attention, arguably the more significant legal development came quietly yesterday in Tennessee, where a federal judge transferred a long-pending music publishers’ suit against A.I. company Anthropic over song lyrics out to California. The
+ruling ( https://www.documentcloud.org/documents/24777083-concord?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) may end up being a victory for A.I., since it takes the case away from Nashville, a songwriter Mecca that has traditionally been very friendly to copyright plaintiffs.
+* The streamer arbitration bloodhound: Hollywood may not have invented arbitration, but the film and TV industry came close to perfecting it. So it’s no small irony that streamers are contending with a single law firm that has weaponized mass arbitration against them. Washington, D.C.-based Keller Postman has launched tens of thousands of arbitration cases against streamers like AMC+ and MLB‌.TV, alleging improper disclosure of users’ viewing data to Facebook. But so far, the validity of the claims under the Video Privacy
+Protection Act is taking a back seat to the burden these cases are imposing, since major forums like JAMS and AAA demand hefty up-front fees for each case. As a result, the streamers are forced to choose between a settlement or massive legal costs.
+
+While the entertainment industry is not alone in screaming about this racket, the counterattack has been something to behold. Around the time David Zaslav rebranded HBO Max to Max, for instance, many viewers unwittingly consented to revised terms that shifted disputes to a newer forum, NAM, which offers the grouping of claims and the deferral of fees. Warner Bros. Discovery just launched a court bid to push Keller Postman clients to NAM. Fox’s Tubi has taken an even more confrontational approach, suing Keller Postman itself for tortiously interfering with its relationship with users. Think about that the next time you sign up to a streamer.
+* “Amazing” legal fees: Neon, the indie film
+company, is enjoying an impressive run, having released the past five Palme d’Or winners at the Cannes Film Festival, from Parasite to this year's Anora. Behind the scenes, however, the distributor is facing a very angry group of high-profile filmmakers peeved at what they see as Neon’s inadequate promotion of their movies. Directors Michael Mann (Ferrari) and Ava DuVernay (Origin) are two such auteurs voicing concerns, discussing with peers what they perceive to be the lack of market visibility for their projects, and questioning whether Neon has invested enough resources in everything from consumer awareness to awards campaigns. Despite the dissatisfaction, Neon maintains that it has fulfilled its commitments, spending what was promised, and that the gripes come from a very small segment of the filmmakers they collaborate with.
+
+Meanwhile, the producers of the 2018 Aretha Franklin concert documentary
+Amazing Grace—which include Franklin’s family members, Spike Lee, Alan Elliott, and Jerry Wexler—are embroiled in the latter stages of litigation against Neon. The suit alleges expenses were misrepresented and income was underreported. I’ll have more details about this case at a later point, but for now, I’ll note an accounting statement that’s causing chatter among insiders. The document has Neon deducting $1.7 million in “miscellaneous” expenses, later clarified by the company to be mainly payments for legal services to Quinn Emanuel—the firm defending Neon. In other words, Neon is charging the cost of defending a lawsuit over improper expenses to the very company suing over accounting. A few lawyers have told me this is pretty aggressive.
+
+Notably, the sum surpasses what Neon spent on marketing Amazing Grace in the first place. A Neon spokesperson responds, “While Neon will not comment on confidential matters
+related to its ongoing business practices, Neon is generally permitted to recoup all actual, third-party costs and expenses related to the exercise of its rights granted to films across its library, which necessarily includes its costs and expenses to defend those rights.”
+* Sunday Ticket tremors: The jury in the $20 billion NFL Sunday Ticket trial—the one that could change the face of streaming ( https://puck.news/nfl-20-billion-gamble-on-sunday-ticket/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )—will begin deliberations in L.A. as soon as tomorrow. Keep an eye out for John Ourand’s Varsity newsletter, as he and I will discuss the verdict.
+
+Deal of the Week
+
+It looks like the Julian Assange saga is finally ending: Yesterday, U.S. authorities announced an unusual handshake deal with the WikiLeaks founder, who’s been holed up at the Ecuadorian embassy in Britain for five years after leaking classified national security secrets. This deal avoids a messy extradition and a trial that surely would have escalated into a First Amendment spectacle. If Assange follows through and pleads guilty to espionage, he’ll likely head home to Australia with the equivalent of “time served.” The Biden administration and media advocacy groups can both breathe a sigh of relief.
+
+The Big Problems Behind the ‘Bikeriders’ Backer ( https://puck.news/bikeriders-middling-box-office-isnt-backers-biggest-problem/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Big Problems Behind the ‘Bikeriders’ Backer ( https://puck.news/bikeriders-middling-box-office-isnt-backers-biggest-problem/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Regency needs hits to elevate its narrative after a bungled succession and a series of flops. A new lawsuit suggests the indie production company may be facing real financial challenges, too.
+
+ERIQ GARDNER ( https://puck.news/author/eriq-gardner/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+ERIQ GARDNER ( https://puck.news/author/eriq-gardner/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Plenty could be written about The Bikeriders, the $40 million Austin Butler crime drama that cruised into theaters last weekend and earned a fine-but-not-spectacular $10 million. Cue another round of think pieces pondering the viability of midbudget cinema and next-generation movie stars. Yet, behind the scenes, there’s a much stranger story about New Regency, the film’s main backer, which is in desperate need of a hit.
+
+For decades, Regency has been a beacon of independent production in Hollywood, churning out critical and commercial blockbusters such as Pretty Woman, Fight Club, Heat, L.A. Confidential, The Big Short, and Gone Girl. But the company’s trajectory angled downward a few years ago when its founder, Arnon Milchan, a billionaire former Israeli spy and
+Rupert Murdoch confidant, passed the torch to his son, Yariv. Since then, Regency has released a series of flops—The Creator, Amsterdam, Deep Water, The Northman—compounded by lawsuits challenging Yariv’s management chops.
+
+Adding to the turmoil is a recent case launched by Gavin Polone, the well-known talent manager turned producer, who’s suing Regency over a stalled movie project, Psycho Killer, which Polone intends to be his directorial debut. (The thriller, based on a script by Se7en screenwriter Andrew Kevin Walker, was originally slated to be made back in 2009 by Limp Bizkit frontman Fred Durst.) While the contents of Polone’s litigation are sealed in Los Angeles Superior Court, I’ve learned it centers on his effort to shop rights to the project to a studio other than Regency. It also paints a picture of a production house sinking under the weight of hundreds of millions of
+dollars in recent losses.
+
+Bikeriders might yet help turn the tide for Regency, and for Yariv, who’s flying solo while his father, now 79, is tied up abroad as a witness in Benjamin Netanyahu’s corruption trial. But the production saga behind the movie also suggests that Regency, and Yariv, are in trouble either way. Bikeriders, directed by Jeff Nichols, was initially destined to be released by Disney’s 20th Century Studios label, before being dropped after its Telluride premiere. Alas, as it turns out, Arnon and Rupert may have been inseparable from Regency’s success all along.
+
+A Visit From De Niro
+
+The Regency saga began four decades ago with Arnon Milchan’s mysterious entry into Hollywood—which has long puzzled the press, since he rarely gives interviews. Milchan, whose past included brokering clandestine arms deals for Israel, once described ( https://www.independent.co.uk/news/world/americas/revealed-arnon-milchan-the-hollywood-producer-behind-hits-pretty-woman-fight-club-and-la-confidential-who-became-a-reallife-james-bond-8958234.html?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) his younger self as a James
+Bond figure. As for how this former Israeli intelligence officer caught his big break, I discovered the answer in a deposition he gave where he recalled getting a serendipitous phone call in the early ’80s from Robert De Niro, who was researching a potential film. The actor had heard that Milchan was connected to Moshe Dayan, a storied Israeli general during the 1948 Arab-Israeli War. This prompted a trip to Israel by De Niro and Harvey Keitel. Soon after, Jack Nicholson also expressed interest in the film rights to Dayan’s story, setting off what Milchan described as “an avalanche of movie stars” at his door.
+
+Though the Dayan project never materialized, Milchan had gotten a taste of Hollywood. In Israel, De Niro showed him the script for The King of Comedy, leading him to become a producer on the Martin Scorsese film. Milchan named his company after the Regency Hotel in New York, where he first set up shop and built
+formidable ties with Hollywood’s elite, including Richard Dreyfuss and Sydney Pollack. A friendship with Murdoch proved to be one of his most significant associations. Murdoch’s 20th Century Fox eventually took a 20 percent stake in Regency, for $200 million, and began distributing many of its films, including Oscar winners 12 Years a Slave, Birdman, and The Revenant.
+
+But Regency lost a crucial ally when Murdoch sold Fox’s studio assets to Disney in 2018. Around the same time, Milchan was distancing himself from what he now referred to as the “stinking ( https://www.hollywoodreporter.com/movies/movie-features/a-rare-interview-megaproducer-arnon-904942/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )” movie business, passing the
+baton to his son. It fell to Yariv Milchan to navigate the choppy waters of a changing industry and preserve the relationship with Disney—a relationship that, at least based on the Bikeriders production saga, has taken a turn.
+
+So what happened? Obviously, Disney C.E.O. Bob Iger’s shifting priorities played a role. Major distributors are far less interested in the kind of original films that Regency makes, and Disney is even less interested than other studios. Meanwhile, the market for midbudget fare—Regency’s bread and butter—has also declined.
+
+But there’s also more to the Disney tale, I hear, hidden in redacted portions of the Polone lawsuit. Sources indicate that Regency’s recent failures have diminished its willingness to take risks, and executives there were unsatisfied with Disney’s projections on the film. Meanwhile, some stakeholders—especially representatives for the talent involved—pushed for a sale of
+Bikeriders to a new distributor. In the end, after the film was dropped from the Disney slate, it was shopped around and eventually picked up by Universal’s specialty arm Focus Features.
+
+“I’m Best Friends With Rupert”
+
+Of course, there were signs of trouble for Regency predating the Bikeriders and Polone dramas. In 2017, the indie producer sued Warren Beatty over the legend’s Howard Hughes rom-com biopic Rules Don’t Apply, accusing Beatty and his cohort of big-time investors—names like Terry Semel, Ron Burkle, and Brett Ratner—of failing to cover the shortfall in distribution costs after the film tanked. (Beatty directed and starred, in his first screen role in 15 years, opposite his wife, Annette Bening.)
+
+Beatty’s $50 million countersuit pulled no punches, accusing Arnon Milchan of being distracted from his producer duties by the Netanyahu bribery scandal and cash flow issues. Beatty blamed Milchan’s negligence for the film’s dismal critical and commercial reception, noting that
+he even dozed off during a screening. Beatty was also enraged that the film’s marketing and distribution had been handed over to the novice son, Yariv. Arnon, according to Beatty, had personally assured him he’d be running the show. Instead, Beatty complained, it was difficult to get Arnon to focus on anything but Israel. “He consulted me on many, many matters,” said Beatty, who has long styled himself a political animal. “Many of them were political.”
+
+The sentiment was echoed by other investors, who attested to the notion that, as the late Steve Bing put it, “The only reason to go to Regency is not Yariv Milchan; It’s Arnon Milchan.” Brett Ratner was equally blunt. “Arnon’s pitch always was, you know, ‘Come make a movie with me. … I’m best friends with Rupert,’” he testified. “Your film gets special attention because of the special relationship he had with the studio.”
+
+That obviously changed. In 2019, Regency
+settled with Beatty, and the buzz around the company faded. Now, however, Polone’s suit offers a sequel of sorts to the Beatty case—and another look at whether Regency has anything left in the tank. Although much of the complaint is secret, sources say it gets into a highly contentious back-and-forth over the final cut of Psycho Killer. In his lawsuit, Polone implies that racial animus on Yariv’s part might have something to do with the firing of one of the film’s editors. (A New Regency spokesperson says, “Any insinuation of racial animosity is absolutely false.”) Polone, apparently, also claims that Yariv is reneging on a deal to allow him to recruit investors to buy out Regency’s rights. The case isn’t just a personal feud; it apparently reveals the depths of Regency’s financial troubles, too.
+
+Regency declined to comment on the case, but a person close to the company pointed to the success of Bohemian Rhapsody, which grossed $900
+million in 2019 and won an Oscar under Yariv’s watch. Additionally, the company has had a modest hit on the television front this year with Amazon’s Mr. and Mrs. Smith and has several projects in the works including Netflix’s Man on Fire and an Alex Gibney documentary about Elon Musk. This source also stressed that the company has all the financing it needs for the next few years. In 2023, the investment firm Carlyle closed ( https://www.carlyle.com/media-room/news-release-archive/carlyle-provides-175-million-asset-backed-credit-facility-to-new-regency?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) a $175 million loan to Regency, which included refinancing existing debt.
+
+As for Arnon Milchan,
+he’s now living in Brighton, England, consumed by the Israel-Hamas war, as well as the fate of his friend Bibi. Back in 2018, around the time of the Beatty suit, the Israeli police recommended charging ( https://www.hollywoodreporter.com/business/business-news/israeli-police-recommend-charging-producer-arnon-milchan-prime-minister-bribery-1084390/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Milchan with bribery for having provided the prime minister with boxes of cigars, crates of champagne, and expensive jewelry, allegedly in exchange for tax advantages. Arnon has avoided prosecution and has become a key witness in the ongoing corruption trial against Netanyahu, instead.
+
+That’s it for today. A reminder: No What I’m Hearing on Thursday, see you on Monday.
+
+–Matt
+
+FOUR STORIES WE’RE TALKING ABOUT
+
+Wintour World ( https://puck.news/vogue-world-review-anna-wintour-pre-olympics-bash/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Wintour World ( https://puck.news/vogue-world-review-anna-wintour-pre-olympics-bash/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A front-row dispatch from Vogue World in Paris.
+
+LAUREN SHERMAN
+
+Biden’s Celebrity Jeopardy ( https://puck.news/biden-isnt-cool-will-it-matter/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Biden’s Celebrity Jeopardy ( https://puck.news/biden-isnt-cool-will-it-matter/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Diagnosing Joe Biden’s star power problem.
+
+PETER HAMBY
+
+ESPN’s Stephen A. Games ( https://puck.news/stephen-a-smith-plot-thickens-at-espn/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+ESPN’s Stephen A. Games ( https://puck.news/stephen-a-smith-plot-thickens-at-espn/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Digging into the star broadcaster’s contract showdown.
+
+JOHN OURAND
+
+Costner’s ‘Yellowstone’ Epiphany ( https://puck.news/kevin-costner-finally-admits-obvious-about-yellowstone-finale/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Costner’s ‘Yellowstone’ Epiphany ( https://puck.news/kevin-costner-finally-admits-obvious-about-yellowstone-finale/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+On the final Costner-Sheridan Yellowstone breakup.
+
+MATTHEW BELLONI
+
+Puck ( https://puck.news/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQs
+page ( https://puck.news/faq/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact
+us ( fritz@puck.news?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/global-unsubscribe/?subscription=what_im_hearing_plus&delivery_id=dgT2xgYDAKvRKqrRKgGQUfRhxFtg1VQc5nGXZA8=&utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F25%2F24%29&utm_content=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%286%2F4%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Puck is published by Heat Media LLC. 227 W 17th St New York, NY 10011.

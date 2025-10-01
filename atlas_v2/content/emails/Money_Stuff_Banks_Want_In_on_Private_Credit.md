@@ -1,0 +1,227 @@
+# Money Stuff: Banks Want In on Private Credit
+
+**Source**: inputs/saved_emails/Money Stuff Banks Want In on Private Credit_Thu,_23_May_2024_13-24-52_-0400_(EDT)_18fa67c0d4bdedbc.eml
+**Type**: email
+**Created**: 2025-08-25T02:53:58.756359
+
+---
+
+Just from first principles it is weird that, if you are a company or a private equity sponsor looking to borrow a lot of money, and you go t
+      
+    
+  
+  
+    
+      
+        
+          
+          
+        
+        
+          
+            
+          
+        
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          
+  
+    
+      Private credit
+    
+  
+Just from first principles it is weird that, if you are a company or a private equity sponsor looking to borrow a lot of money, and you go to a gigantic bank like J.P. Morgan Chase & Co., the bank will say “yes, I would be happy to help you find that money.” Whereas if you go to an alternative asset manager like Blue Owl Capital or Ares Management Corp., the alternative asset manager will pull out a bag with a dollar sign on it and say “yes, here is money.” If you asked the average person “who has more money, JPMorgan Chase or Blue Owl,” they would probably say “I guess the biggest bank in America has more money than a company I have never heard of.” Also they would be right! JPMorgan has $4 trillion of assets; Blue Owl manages about $174 billion. And yet from the perspective of a private equity sponsor, JPMorgan is in the business of intermediating loans: When you go to a big bank to get financing for a leveraged buyout, the bank will work with you to market the debt and find investors to buy it; you don’t expect the bank to buy most of the debt itself.
+  [1]
+ Whereas Blue Owl is in the business of providing loans: You go to a private credit manager because you expect it to just hand you the money. Obviously it too is an intermediary — that money doesn’t just belong to Blue Owl; that money is in funds that it manages on behalf of other investors — but it can give you the money much more directly.This is sort of an unusual equilibrium. Once upon a time, if you went to a bank for a loan, the bank would either give you the loan (from its own balance sheet), or it would refuse to give you the loan, and there was not a ton of competition from other lenders. Over time, the modern world of syndicated leveraged lending grew up, so that in, like, 2014, if you went to a bank for financing for a leveraged buyout, it would work with you on a marketing process to sell loans and bonds to investors. This was nice for the banks — they got fees while using less balance sheet and taking less long-term risk — and probably did expand the amount of credit they could provide. (If you went to a bank in 1954 to ask for a loan to fund a large leveraged buyout, it would have just said “no.”) You’d ask for money, the bank would come up with a plan to raise the money, the plan would generally succeed, and you’d be like “yes, thanks, this is good service.”But then in recent years private credit emerged as an alternative to the syndicated market. For borrowers, it has some drawbacks. (It’s generally more expensive, and also, if you want a big loan, you might have to negotiate with multiple private lenders, instead of having one bank to run the syndication process.) But as a matter of customer service the appeal is obvious: It is fast and certain. They just give you the money.There are various possible ways for the banks to respond to this competitive pressure — improve pricing, take on more risk — but the obvious, obvious, obvious one is “just give them the money.” If a private equity sponsor goes to JPMorgan looking to borrow money for a buyout, JPMorgan could just pull out a bag of money and give it to them. JPMorgan has a lot of money!Of course there are details to take care of here, and in practice, for capital and regulatory reasons, JPMorgan might be wary of lending from its balance sheet and more interested in intermediating these loans the way private credit firms do, by raising money from investors and pooling it to make loans. But the big banks mostly do have asset management arms, so that is a possibility. In modern terms, “JPMorgan just lending the money” is called “banks getting into private credit” rather than, like, “banks being banks.”Still, banks are definitely getting into private credit. Bloomberg’s Hannah Levitt and Paula Seligson report:JPMorgan Chase & Co. is on the hunt to buy a private credit firm to augment its $3.6 trillion asset management arm, as the biggest US bank makes more inroads into Wall Street’s buzziest sector.The JPMorgan unit is seeking a private credit shop that could bolster its private capital business, according to people familiar with the matter. As part of the effort, the company held talks to buy Chicago-based Monroe Capital this year, but the two firms ultimately decided not to pursue a deal, the people said, asking not to be named describing private discussions.Spokespeople for JPMorgan and Monroe declined to comment.Interest in the $1.7 trillion private credit industry has exploded in recent years. Alternative-asset titans such as Ares Management Corp. and Apollo Global Management Inc. have poured money into ever-larger deals for their portfolios. Other investors, as well as banks themselves, are also keen to make more wagers.JPMorgan’s investment bank has already earmarked more than $10 billion of the firm’s balance sheet for direct lending. The bank is also putting together a partnership with asset managers to join it in private credit deals, Bloomberg previously reported.I wrote last month:If you are a company looking to borrow money, the best user experience is something like “one person, whom we trust, shows up at our office, gives us a menu of borrowing options, lists the pros and cons of each one, and then goes and gets us the one we choose.” Traditionally that person was an investment banker, and she’d show up with a pitchbook on the pros and cons of bonds and bank loans. The current situation is, I guess, that she shows up, does her pitch, leaves, and then you have appointments with six private lenders who offer alternatives. But that seems unstable. In the long run, the best user experience is probably that the investment banker adds another column, for private credit, to her pitchbook.Honestly, what I was thinking of there was that the extra column was like “if you don’t like bonds or syndicated loans, we can also help you try to find private-credit firms to lend you the money.” But there’s a better way! The extra column can be “we’ll just lend you the money.”Elsewhere in private credit:Capital Group, the stock-picking juggernaut whose American Funds have been a staple in brokerage accounts for nearly a century, is tapping private-equity pioneer KKR to step into the lucrative world of private investments.Capital and KKR are planning a series of hybrid funds that will invest in both publicly and privately traded assets. The first two strategies, expected to launch next year, will hold about 60% in public bonds picked by Capital managers, and 40% in direct and asset-based loans sourced by KKR.The new funds will target mass-affluent clients, or those who invest between $100,000 and $1 million. These customers hold the biggest chunk of the assets in wealth accounts, and represent the next frontier for firms that manage alternative assets such as private companies, loans and real estate.Charging retail investors fees for actively managed stock mutual funds is a business that might be in terminal decline. But there are no private-credit index funds! So the obvious move for active managers is to do private funds. And the obvious move for alternatives managers is to get retail distribution.
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      Staking
+    
+  
+See, to me, spot Ether exchange traded funds are the obvious way to do Ethereum staking? But Bloomberg’s Muyao Shen reports:Many in the crypto market believe that a key change made to some applications for proposed spot-Ether exchange traded funds will be good for the Ethereum blockchain, while putting the prospective ETF products themselves at a disadvantage.Issuers including Fidelity Investments and Ark Investment Management have eliminated plans for “staking” the Ether they would purchase for the proposed funds if they’re approved. Staking is industry jargon for the mechanism that runs Ethereum and other so-called proof-of-stake blockchains. It involves locking up deposits of cryptocurrency in order to help validate transactions and secure the network in exchange for rewards paid for doing that work.Staking has been a hot-button issue for Ether since it allows holders to collect a yield, which raises questions about whether the token should be treated as a security that falls under the purview of US regulators. Some market participants believe that if ETFs don’t stake their tokens, the funds will be less appealing to investors than buying Ether directly in the crypto market, where they are free to stake the tokens.“There will be an immediate opportunity cost to holding Ether via a US ETF from forgone staking rewards,” said Brian Rudick, senior strategist at digital-asset firm GSR.Here’s how I think of it. First, staking. Ethereum is a cryptocurrency network; people do transactions on Ethereum, but rather than some centralized agency (a bank, etc.) keeping the ledger of transactions, the ledger is kept in a decentralized way by lots of computers that run on the network. The way that this works is roughly that people broadcast their proposed transactions on the network, and every 10 seconds one computer on the network (the “proposer”) writes down a list of recent transactions in order, and the other computers on the network (the “validators”) vote to approve that list (a “block”), and if they all agree then the block is enshrined in the permanent ledger (the “blockchain”). We talked about this system last week, because some guys kind of hacked it.The computers that get a vote on this — the proposer and validators — are those with a stake in the network, those with an economic incentive to make sure that it works. Specifically, they are “stakers”: People deposit some Ether, the currency of Ethereum, with the network, to get these voting rights. And then if they do bad stuff — propose fake lists, forget to vote, etc. — they lose some of their deposit, which is called “slashing.” But if they do good stuff — if they reach consensus on their blocks — they get “staking rewards,” in the form of additional Ether, which intuitively come from transaction fees paid by people who want to do transactions on Ether. These rewards are, crudely speaking, proportional to the amount of Ether that the stakers deposit; they tend to be expressed as an annual percentage yield. This morning Coinbase tells me that the rate is about 2.54%. All the stuff about keeping ledgers and voting sounds pretty active, but it doesn’t have to be. It is all algorithmic and done by computers. And so there is a marketplace in which, essentially, (1) I run computers to do the validating stuff, (2) you lend me your Ether to stake, (3) I collect the staking rewards from the validating and (4) I pass most of them on to you. You, here, are just a passive saver; you put your Ether into an account with me and get paid interest. The work of maintaining the Ethereum ledger is distributed among the holders of Ether, and the rewards of that work are also distributed among the holders, but those holders naturally delegate the work to people with more interest in doing it. If you hold Ether you don’t have to be involved in any of this — “about 27% of the all outstanding Ether is staked,” reports Shen — but it is kind of free money? If you hold dollars, you don’t have to put them in a high-yield savings account or a money market fund, but for a lot people that would make sense. Ethereum staking rewards, to many Ether holders, look more or less like bank account interest.Next: “Questions about whether the token should be treated as a security that falls under the purview of US regulators.” There are a couple of levels of this. One is: If I run a staking program, in which I do the validating stuff and pay you a cut of the staking rewards, is that offering a security? In practice, many of the people who run staking programs are crypto exchanges, for pretty natural reasons: Crypto exchanges have lots of retail customers who buy and hold Ether on their platforms. The exchanges are holding the customers’ Ether anyway. If they can put that Ether to work doing staking, they can earn an interest-like return on it, and then pass a lot of that interest on to their customers, making the customers happy. It’s a good product.But the US Securities and Exchange Commission unambiguously believes that that product is a security, that the customers who deposit their Ether with Coinbase or Kraken or whomever, with the promise of earning interest, are buying a security from the exchange. The argument is a standard one in US crypto regulation: The customers are pooling their money based on the promise of profits from someone else’s efforts, which is the definition of a security. So, if the exchange wants to offer that to the public, to retail investors, it needs to register the securities with the SEC. The exchanges do not do that, and so the SEC goes around shutting down exchanges’ staking-as-a-service programs.The other level of this is: If Ethereum, as a network, pays staking rewards, does that make staked Ether (or all Ether) itself a security? This is a harder question, to which I think the rough answer is “in its heart of hearts the SEC absolutely thinks Ether is a security, but it won’t come out and say that, because Ether has been sort of grandfathered in as not a security, and the SEC would get a lot of blowback if it said that Ether trading was illegal.”Finally: ETFs. The situation is roughly:	The SEC hates crypto and would like to block crypto spot ETFs, that is, ETFs that directly hold the underlying cryptocurrency.	But it lost a court case over this and was forced to approve spot Bitcoin ETFs. (Bitcoin has no staking mechanism.)	Now, issuers are asking it to approve spot Ether ETFs, and since it approved Bitcoin ETFs it has no particularly principled reason to say no.	But there is a distinction between Ether and Bitcoin, which is that Ether can be staked.	Potential Ether ETF issuers would love to be able to stake their Ether: The staking rewards would make an Ether ETF more attractive, and might provide some revenue to the issuer.	And they originally proposed that, but then “eliminated plans” for staking from their filings, presumably because the SEC glared at them meaningfully.	So Ether ETFs will launch without staking, so they won’t pay “interest,” which will make them a bit less economically attractive than holding Ether directly and participating in staking.Fine. But. It seems to me that Ether ETFs have a crucial advantage here. They are securities. A spot Ether ETF just is a security. It is registered with the SEC. It is issued by a company — Fidelity, Ark — whose whole business is issuing SEC-registered securities. (Specifically, public funds, but those are securities too.) We talked last week about BlackRock Inc.’s blockchain-based money market fund, BUIDL. I think BUIDL is really interesting. BUIDL, as far as I can tell, is 	a stablecoin,	that pays interest.There are other, bigger stablecoins. They tend to be issued by crypto-y companies (Circle, Tether). They don’t pay interest. Probably the issuers would like to pay interest, for customer-service and competitive reasons. But “a stablecoin that pays interest” is, in the view of the SEC, a security, and even if the crypto-y issuers wanted to register their coins as securities they’d probably have a hard time with the SEC. Whereas BlackRock is BlackRock. It can just do that. BUIDL is institutional-only, not a public fund, but give it time. I wrote:The most natural issuer for a large-scale stablecoin that can operate legally in the US and attract institutional users is a mutual fund company, because the essential technology — “we take your dollar, promise to give it back, invest it in Treasury bills and pay you most of the interest” — is a money market mutual fund.I think there is an analogy to spot Ether ETFs. Right now, those issuers are not going to be able to offer a public Ether ETF with staking rewards, because the whole Ether ETF thing is new and the SEC is glaring at them. The SEC is glaring, not issuing enforcement actions, so I don’t know exactly what the objection is. Presumably it has to do with the security of the staking system, the ETFs’ control of their assets, something like that.But those issues are probably solvable, and the spot Ether ETFs have already solved the harder US regulator issue, which is: They are packaging Ether in an SEC-registered security. Meanwhile every other way to get staking rewards from Ether — staking with a crypto exchange or a decentralized platform, etc. — has not solved that issue. If you hold Ether yourself and deposit them with a crypto exchange to earn staking rewards, the SEC might eventually go after the exchange for issuing unregistered securities. If the SEC has its way, ultimately, nobody will be able to offer Ethereum staking rewards outside of a security. But Ethers in an ETF are inside a security!Shen goes on:At the same time, many industry advocates believe that the removal of staking plans among ETF issuers is actually a net positive for the industry, where the goal is a financial system that is decentralized rather than dependent on a small number of intermediaries.“Staked Ether being part of ETFs could have been a big centralizing force,” said Leo Mizuhara, founder of decentralized-finance institutional asset manager Hashnote. “For example, the amount of Bitcoin now in custody at Coinbase is enormous because of the ETF phenomenon. A similar thing could have happened with ETH staking.” ...The fact that ETF issuers won’t be staking Ether likely aligns with Ethereum’s goals and will help protect the second-largest cryptocurrency from a “long-term institutional takeover,” said GSR’s Rudick.Doesn’t that passage mean “of course the SEC should approve staking in Ether ETFs”? Doesn’t the SEC want Ether to be centralized and under the control of SEC-regulated securities issuers?
+  
+    
+      Insurance ratings
+    
+  
+The way credit ratings work is:	A company wants people to think that it’s creditworthy. It might want to issue bonds or insurance policies, and it knows that people will only lend it money or buy its insurance if they think it’s good for the money.	There are firms — “ratings agencies,” “nationally recognized statistical rating organizations” — that give companies credit ratings on some well-known scale. All the relevant parties know that a bond rated “Aa1” or an insurance company rated “A+” is a safe bet, while one rated “Ca2” or “C” is riskier.	These ratings firms go around giving ratings to companies.	Specifically, though, they go around giving ratings to companies that hire them to give them ratings. The way a company gets a rating is by calling up a ratings firm, saying “hey can you give us a rating,” entering into a customer relationship, and paying the ratings firm for the rating.The conflicts of interest embedded in this system are extremely well known and sometimes blamed for the 2008 financial crisis. But one should not overstate them. Sure, right, the companies are the customers and pay the ratings firms for the ratings; there is a customer relationship, and if the ratings firm gives the customer a bad rating (1) that will be awkward and the ratings firm will get yelled at and (2) it might lose the customer relationship and, thus, money.But on the other hand, the ratings firms are aware that they are playing a long game. The way to maximize revenue this week might be to call up every company and say “hey if you double our fee we’ll give you an AAA+ rating,” but if you actually do that, then your ratings will lose all credibility with the market, and by next week nobody will want to pay you for them. (Also ratings agencies are regulated by the US Securities and Exchange Commission, which pays a *lot* of attention to this conflict, so you’ll get in trouble with the SEC if you do this.)And so the actual incentives of the ratings firms encourage something like “good customer service combined with credibility.” Exactly what that means will vary, but I think that one thing it means is: If you are a ratings firm, you will want to be at least a little bit ahead of any disasters. What you don’t want, after the experience of 2008, is news stories like “even as XYZ Corp. was sliding into bankruptcy, its bonds remained rated AA-.” That is very salient, and very bad for your credibility. If you downgrade the bonds to B- a week before the bankruptcy, you at least avoid those headlines. Arguably your incentives are something like:	Be a touch generous to most of your clients most of the time, and	Be really harsh on clients who you worry might be skating toward disaster.One ratings-firm incentive that I had never really appreciated before, though, is:	If you’re a ratings agency, the company that you’re rating is your client.	You have some sort of client agreement with them, probably promising that you’ll do a good and honest job of rating them.	If they disagree with your rating, they can sue you.777 Partners is an investment firm that has been trying to buy the English Premier League team Everton FC. Earlier this month, a lender to 777 called Leadenhall Capital Partners filed an absolutely wild lawsuit against it, claiming that it had borrowed hundreds of millions of dollars secured by assets that it didn’t own or that it had pledged to multiple lenders. (Here is the extremely fun complaint, featuring an anonymous tip and alleged recorded confessions of guilt.) The lawsuit also alleged that an insurance company called Advantage Capital Holdings, known as A-Cap, had loaned 777 billions of dollars and was secretly controlling it; “a representative for A-Cap said the claims made by Leadenhall are ‘sensational and unfounded.’”A-Cap gets financial ratings from A.M. Best Rating Services Inc., a nationally recognized statistical rating organization. Two A-Cap companies, Atlantic Coast Life Insurance and Sentinel Security Life Insurance, have A.M. Best financial strength ratings of B++, which is “good.” In March, apparently to get out ahead of the 777 stuff, A.M. Best decided to downgrade them to B-, which is “fair.” And the insurance companies sued to stop the downgrade. This week, the Financial Times reports:AM Best, the specialist rating agency for the insurance sector, has said its credibility risks being “irreparably damaged” by a legal bid to prevent it downgrading US insurers exposed to Everton football club bidder 777 Partners.The agency is arguing in a New Jersey court that it has a First Amendment right to publish its opinion on a company’s financial strength, after two US insurers accused it of using “flawed methods, improper assumptions, and demonstrably false data” to downgrade them.“The lifeblood of AM Best’s business is its credibility, and that credibility is irreparably damaged when it is prevented from publishing its opinions about an insurer’s creditworthiness to the public, even if, and often times especially when, that opinion is negative,” the rating agency argued in a response filed with the court this week.Here is the insurers’ lawsuit, which argues that A.M. Best had a customer agreement with them — largely an implicit one, based on their past dealings, rather than an actual written contract — that requires it to listen to their arguments and not act too rashly. So, the insurers argue, the court should review A.M. Best’s decision to make sure it’s not cutting their ratings too hastily.Here is another letter from A.M. Best filed yesterday, citing the Leadenhall lawsuit and saying that “the landscape is moving quickly, and the market deserves and needs to know AM Best’s current evaluation as to ACAP’s creditworthiness and ability to pay claims.” This seems completely right! If you are a ratings agency, and you think that the creditworthiness of a company has declined, you really do have to publish that! That is what the market expects of you; really it is the whole point of being a ratings agency.
+  
+    
+      Braaains
+    
+  
+A common approach in many creative fields is that you spend a lot of time thinking about a problem, learning its details, saturating yourself in it and trying to find solutions. And then you stop thinking about it and go off and do something else, and that’s when you find the solution. “The three B’s,” it is sometimes called: The answers tend to come in bed, the bath or the bus. Active focused thinking cannot fully solve the problem; you need a contribution from some element of the subsconscious mind.Is investing like that? Or weirder? Is the right approach to spend all day examining a stock, and then go to bed and see if you dream of it? I don’t know but here’s a wild paper:The investors’ dream of forecasting the stock market is typically considered to be just that: an unrealistic aspiration. However, we find that forecasting stock performance may in fact not be completely unattainable. Results of our neuroimaging experiment reveal that professional investors fail to accurately predict long-term stock performance. However, while processing complex information pertaining to investment cases, brain activity in a region associated with reward anticipation was increased for stocks that would end up overperforming in the future market. Remarkably, this effect held after controlling for the stock information presented in the investment cases. Our findings add to recent work in “neuroforecasting,” demonstrating that market behavior can be forecasted by brain activity of a small sample, here of professional investors.That’s “Brain activity of professional investors signals future stock performance,” by Leonard van Brussel, Maarten Boksem, Roeland Dietvorst and Ale Smidts, who seem to be business professors (and an investor), not neurosurgeons. (There’s a free version of the paper here.) “As investors processed case information, nucleus accumbens (NAcc) activity was higher for investment cases that ended up overperforming in the market. ” The takeaway, I think, is that if you run a hedge fund, you should:	hire skilled experienced portfolio managers,	have ChatGPT write up simple investment memos for various stocks,	pop the portfolio managers into an MRI machine,	read ChatGPT’s memos to the portfolio managers,	ask the portfolio managers “what do you think,” and	ignore what they say and just buy the stocks that make their nucleus accumbens light up.This is not investing or medical advice, and frankly it seems like it might be hard to hire good investors on those terms. But the result that professional investors are better at picking stocks unconsciously than consciously is pretty weird.
+  
+    
+      Things happen
+    
+  
+Gorman to Step Down as Morgan Stanley Chairman at End of Year. Segantii Hedge Fund to Return Cash Amid Insider Trading Case. Washington’s Pivot on Bank Rules Could Free Up Tens of Billions. Nvidia Stock Surges as Sales Forecast Delivers on AI Hopes. Justice Department to Sue Live Nation, Seek Breakup of Concert and Ticketing Giant. Jamie Dimon admits to ‘tough’ going for JPMorgan in China. Chinese sovereign bond trading suspended after frantic retail buying. Foreigners Are Flocking into Turkish Lira Bonds at Record Pace. FTX’s Sam Bankman-Fried Being Transferred to New Prison. “Everyone already hates Malört, so it’s like, let’s just make it even worse.” Flavor Flav is working to save Red Lobster. World’s only lungless frog species actually does have lungs after all.If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
+        
+      
+    
+  
+
+
+  
+    
+      
+        
+          
+            
+              
+            
+          
+        
+      
+    
+  
+
+
+  
+    
+      
+        
+          
+        
+  [1] Typically the bank will *commit* to buying the debt if no one else does, though with “flex” terms that are worse than the level at which you expect the deal to get done. The commitment is not so much “we buy the debt today and then try to sell it on without your involvement”; it’s more “we’ll backstop a sales process.”
+
+
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+
+
+  
+    
+      
+        
+        
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cl4fmy.5lna/d39acdda.gif" alt="" border="0" /></a>

@@ -1,0 +1,243 @@
+# Luck Is a Bigger Contributor to Success Than People Give It Credit For - The Atlantic
+
+**Source**: http://www.theatlantic.com/magazine/archive/2016/05/why-luck-matters-more-than-you-might-think/476394/
+**Type**: article
+**Created**: 2025-08-13T18:12:30.993691
+
+---
+
+title: Luck Is a Bigger Contributor to Success Than People Give It Credit For - The Atlantic
+source: http://www.theatlantic.com/magazine/archive/2016/05/why-luck-matters-more-than-you-might-think/476394/
+date: 2025-08-13T18:12:29.652565
+tags: []
+---
+I’m a lucky man. Perhaps the most extreme example of my considerable good
+fortune occurred one chilly Ithaca morning in November 2007, while I was
+playing tennis with my longtime friend and collaborator, the Cornell
+psychologist Tom Gilovich. He later told me that early in the second set, I
+complained of feeling nauseated. The next thing he knew, I was lying
+motionless on the court.
+
+He yelled for someone to call 911, and then started pounding on my
+chest—something he’d seen many times in movies but had never been trained to
+do. He got a cough out of me, but seconds later I was again motionless with no
+pulse. Very shortly, an ambulance showed up.
+
+Ithaca’s ambulances are dispatched from the other side of town, more than five
+miles away. How did this one arrive so quickly? By happenstance, just before I
+collapsed, ambulances had been dispatched to two separate auto accidents close
+to the tennis center. Since one of them involved no serious injuries, an
+ambulance was able to peel off and travel just a few hundred yards to me. EMTs
+put electric paddles on my chest and rushed me to our local hospital. There, I
+was loaded onto a helicopter and flown to a larger hospital in Pennsylvania,
+where I was placed on ice overnight.
+
+Doctors later told me that I’d suffered an episode of sudden cardiac arrest.
+Almost 90 percent of people who experience such episodes don’t survive, and
+the few who do are typically left with significant impairments. And for three
+days after the event, my family tells me, I spoke gibberish. But on day four,
+I was discharged from the hospital with a clear head. Two weeks later, I was
+playing tennis with Tom again.
+
+If that ambulance hadn’t happened to have been nearby, I would be dead.
+
+Not all random events lead to favorable outcomes, of course. Mike Edwards is
+no longer alive because chance frowned on him. Edwards, formerly a cellist in
+the British pop band the Electric Light Orchestra, was driving on a rural road
+in England in 2010 when a 1,300-pound bale of hay rolled down a steep hillside
+and landed on his van, crushing him. By all accounts, he was a decent,
+peaceful man. That a bale of hay snuffed out his life was bad luck, pure and
+simple.
+
+Most people will concede that I’m fortunate to have survived and that Edwards
+was unfortunate to have perished. But in other arenas, randomness can play out
+in subtler ways, causing us to resist explanations that involve luck. In
+particular, many of us seem uncomfortable with the possibility that personal
+success might depend to any significant extent on chance. As E. B. White once
+wrote, “Luck is not something you can mention in the presence of self-made
+men.”
+
+Seeing ourselves as self-made leads us to be less generous and public-
+spirited.
+
+My having cheated death does not make me an authority on luck. But it has
+motivated me to learn much more about the subject than I otherwise would have.
+In the process, I have discovered that chance plays a far larger role in life
+outcomes than most people realize. And yet, the luckiest among us appear
+especially unlikely to appreciate our good fortune. According to the Pew
+Research Center, people in higher income brackets are much more likely than
+those with lower incomes to say that individuals get rich primarily because
+they work hard. Other surveys bear this out: Wealthy people overwhelmingly
+attribute their own success to hard work rather than to factors like luck or
+being in the right place at the right time.
+
+That’s troubling, because a growing body of evidence suggests that seeing
+ourselves as self-made—rather than as talented, hardworking, _and_ lucky—leads
+us to be less generous and public-spirited. It may even make the lucky less
+likely to support the conditions (such as high-quality public infrastructure
+and education) that made their own success possible.
+
+Happily, though, when people are prompted to reflect on their good fortune,
+they become much more willing to contribute to the common good.
+
+Psychologists use the term _hindsight bias_ to describe our tendency to think,
+after the fact, that an event was predictable even when it wasn’t. This bias
+operates with particular force for unusually successful outcomes.
+
+In his commencement address to Princeton University’s 2012 graduating class,
+Michael Lewis described the series of chance events that helped make
+him—already privileged by virtue of his birth into a well-heeled family and
+his education at Princeton—a celebrated author:
+
+> One night I was invited to a dinner where I sat next to the wife of a big
+> shot of a big Wall Street investment bank, Salomon Brothers. She more or
+> less forced her husband to give me a job. I knew next to nothing about
+> Salomon Brothers. But Salomon Brothers happened to be where Wall Street was
+> being reinvented—into the Wall Street we’ve come to know and love today.
+> When I got there I was assigned, almost arbitrarily, to the very best job in
+> the place to observe the growing madness: They turned me into the house
+> derivatives expert.
+
+On the basis of his experiences at Salomon, Lewis wrote his 1989 best seller,
+_Liar’s Poker_ , which described how Wall Street financial maneuvering was
+transforming the world.
+
+> All of a sudden people were telling me I was a born writer. This was absurd.
+> Even I could see that there was another, more true narrative, with luck as
+> its theme. What were the odds of being seated at that dinner next to that
+> Salomon Brothers lady? Of landing inside the best Wall Street firm to write
+> the story of the age? Of landing in the seat with the best view of the
+> business? … This isn’t just false humility. It’s false humility with a
+> point. My case illustrates how success is always rationalized. People really
+> don’t like to hear success explained away as luck—especially successful
+> people. As they age, and succeed, people feel their success was somehow
+> inevitable.
+
+Our understanding of human cognition provides one important clue as to why we
+may see success as inevitable: the availability heuristic. Using this
+cognitive shortcut, we tend to estimate the likelihood of an event or outcome
+based on how readily we can recall similar instances. Successful careers, of
+course, result from many factors, including hard work, talent, and chance.
+Some of those factors recur often, making them easy to recall. But others
+happen sporadically and therefore get short shrift when we construct our life
+stories.
+
+Little wonder that when talented, hardworking people in developed countries
+strike it rich, they tend to ascribe their success to talent and hard work
+above all else. Most of them are vividly aware of how hard they’ve worked and
+how talented they are. They’ve been working hard and solving difficult
+problems every day for many years! In some abstract sense, they probably do
+know that they might not have performed as well in some other environment. Yet
+their day-to-day experience provides few reminders of how fortunate they were
+not to have been born in, say, war-torn Zimbabwe.
+
+Our personal narratives are biased in a second way: Events that work to our
+disadvantage are easier to recall than those that affect us positively. My
+friend Tom Gilovich invokes a metaphor involving headwinds and tailwinds to
+describe this asymmetry.
+
+> When you’re running or bicycling into the wind, you’re very aware of it. You
+> just can’t wait till the course turns around and you’ve got the wind at your
+> back. When that happens, you feel _great_. But then you forget about it very
+> quickly—you’re just not aware of the wind at your back. And that’s just a
+> fundamental feature of how our minds, and how the world, works. We’re just
+> going to be more aware of those barriers than of the things that boost us
+> along.
+
+That we tend to overestimate our own responsibility for our successes is not
+to say that we shouldn’t take pride in them. Pride is a powerful motivator;
+moreover, a tendency to overlook luck’s importance may be perversely adaptive,
+as it encourages us to persevere in the face of obstacles.
+
+And yet failing to consider the role of chance has a dark side, too, making
+fortunate people less likely to pass on their good fortune.
+
+The one dimension of personal luck that transcends all others is to have been
+born in a highly developed country. I often think of Birkhaman Rai, the
+Bhutanese man who was my cook when I was a Peace Corps volunteer in Nepal. He
+was perhaps the most resourceful person I’ve ever met. Though he was never
+taught to read, he could perform virtually any task in his environment to a
+high standard, from thatching a roof to repairing a clock to driving a tough
+bargain without alienating people. Even so, the meager salary I was able to
+pay him was almost certainly the high point of his life’s earnings trajectory.
+If he’d grown up in a rich country, he would have been far more prosperous,
+perhaps even spectacularly successful.
+
+Being born in a favorable environment is an enormous stroke of luck. But
+maintaining such an environment requires high levels of public investment in
+everything from infrastructure to education—something Americans have lately
+been unwilling to support. Many factors have contributed to this reticence,
+but one in particular stands out: budget deficits resulting from a long-term
+decline in the United States’ top marginal tax rate.
+
+A recent study by the political scientists Benjamin Page, Larry Bartels, and
+Jason Seawright found that the top 1 percent of U.S. wealth-holders are
+“extremely active politically” and are much more likely than the rest of the
+American public to resist taxation, regulation, and government spending. Given
+that the wealthiest Americans believe their prosperity is due, above all else,
+to their own talent and hard work, is this any wonder? Surely it’s a short hop
+from overlooking luck’s role in success to feeling entitled to keep the lion’s
+share of your income—and to being reluctant to sustain the public investments
+that let you succeed in the first place.
+
+And yet this state of affairs does not appear to be inevitable: Recent
+research suggests that being prompted to recognize luck can encourage
+generosity. For example, Yuezhou Huo, a former research assistant of mine,
+designed an experiment in which she promised subjects a cash prize in exchange
+for completing a survey about a positive thing that had recently happened to
+them. She asked one group of participants to list factors beyond their control
+that contributed to the event, a second group to list personal qualities and
+actions that contributed to it, and a control group to simply explain why the
+good thing had happened. After completing the survey, subjects were given an
+opportunity to donate some or all of their reward to charity. Those who had
+been prompted to credit external causes—many mentioned luck, as well as
+factors such as supportive spouses, thoughtful teachers, and financial
+aid—donated 25 percent more than those who’d been asked to credit personal
+qualities or choices. Donations from the control group fell roughly midway
+between those from the other two groups.
+
+Experiments by David DeSteno, a psychologist at Northeastern University, offer
+additional evidence that gratitude might lead to greater willingness to
+support the common good. In one widely cited study, he and his co-authors
+devised a clever manipulation to make a group of laboratory subjects feel
+grateful, and then gave them an opportunity to take actions that would benefit
+others at their own expense. Subjects in whom gratitude had been stoked were
+subsequently about 25 percent more generous toward strangers than were members
+of a control group. These findings are consistent with those of other academic
+psychologists. Taken together, the research suggests that when we are reminded
+of luck’s importance, we are much more likely to plow some of our own good
+fortune back into the common good.
+
+In an unexpected twist, we may even find that recognizing our luck _increases_
+our good fortune. Social scientists have been studying gratitude intensively
+for almost two decades, and have found that it produces a remarkable array of
+physical, psychological, and social changes. Robert Emmons of the University
+of California at Davis and Michael McCullough of the University of Miami have
+been among the most prolific contributors to this effort. In one of their
+collaborations, they asked a first group of people to keep diaries in which
+they noted things that had made them feel grateful, a second group to note
+things that had made them feel irritated, and a third group to simply record
+events. After 10 weeks, the researchers reported dramatic changes in those who
+had noted their feelings of gratitude. The newly grateful had less frequent
+and less severe aches and pains and improved sleep quality. They reported
+greater happiness and alertness. They described themselves as more outgoing
+and compassionate, and less likely to feel lonely and isolated. No similar
+changes were observed in the second or third groups. Other psychologists have
+documented additional benefits of gratitude, such as reduced anxiety and
+diminished aggressive impulses.
+
+Economists like to talk about scarcity, but its logic doesn’t always hold up
+in the realm of human emotion. Gratitude, in particular, is a currency we can
+spend freely without fear of bankruptcy. Indeed, if you talk with others about
+their experiences with luck, as I have, you may discover that with only a
+little prompting, even people who have never given much thought to the subject
+are surprisingly willing to rethink their life stories, recalling lucky breaks
+they’ve enjoyed along the way. And because these conversations almost always
+leave participants feeling happier, it’s not hard to imagine them becoming
+contagious
+
+* * *
+
+This essay is adapted from Robert H. Frank’s new book, [_Success and Luck:
+Good Fortune and the Myth of Meritocracy_](http://www.amazon.com/Success-Luck-
+Good-Fortune-Meritocracy/dp/0691167400/ref=sr_1_1).

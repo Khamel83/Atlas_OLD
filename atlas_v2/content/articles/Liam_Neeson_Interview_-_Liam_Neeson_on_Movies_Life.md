@@ -1,0 +1,529 @@
+# Liam Neeson Interview - Liam Neeson on Movies, Life &,, Natasha Richardson
+
+**Source**: http://www.esquire.com/print-this/liam-neeson-0311?page=all
+**Type**: article
+**Created**: 2025-08-13T21:10:20.567309
+
+---
+
+title: Liam Neeson Interview - Liam Neeson on Movies, Life &,, Natasha Richardson
+source: http://www.esquire.com/print-this/liam-neeson-0311?page=all
+date: 2025-08-13T21:10:17.659888
+tags: []
+---
+_Originally published in the March issue_
+
+**Liam Neeson and I** last spoke a week before I wrote this sentence. At that
+time, I asked him what he remembered about the interview I'd done with him at
+a restaurant in New York almost three weeks before that. He said, "I remember
+you told me that story about your accident, and that was pretty hard for you.
+I remember that you made me draw that picture of my house, and I remember that
+we talked about Natasha. I started to worry: Why would I tell him that? Why
+did I speak about the hospital? And then I thought, No, he's a man. This is
+not some newspaper story. So I wasn't sorry. Except about your accident. That
+was bloody awful."
+
+Then Liam Neeson asked me what I remembered about the interview. I echoed him:
+"You told me about your accident. You told me about your wife's accident. That
+was hard for _you_. You were upset. You got very quiet. So I traded stories. I
+told you something bad that happened to me. I have the picture of your house
+right here. I remember that your hand was shaking."
+
+"You have to be careful," he told me, "in how you describe it." I told him
+that was my job, to be careful with descriptions.
+
+**Just two days before that,** Liam Neeson called from the Caribbean, at the
+end of a holiday. "I'm remembering some things I said," he told me. The phone
+signal was breaking up. It sounded to me like he was speaking on a satellite
+phone; I pictured him crouched in the body of a small plane. I scratched a
+note — _plane?_ — as we spoke. "I don't know if you've written the piece yet,"
+he said. "I don't know if you'll even remember what I'm worried about."
+
+Neeson was concerned that we had discussed the politics of his native Northern
+Ireland. The Troubles. "I always forget," he told me, "that I can still make
+it hard for my family there by saying something stupid in the press." Then he
+asked to reword one point — to change one word. I told him that I didn't think
+the IRA would receive mention in the piece. "I still have to be careful," he
+said, before the phone crackled loud enough that I had to pull it away from my
+ear. "I have to make it my job to be careful with my family."
+
+He didn't thank me. He didn't care if I used the quote. He just wanted to
+clarify that word. We made arrangements to talk in two days. Then I told him
+I'd seen him on TV during halftime at the Knicks — Heat game, that he looked
+good, that he looked happy. He told me a story about that interview, about his
+son, who was at the game with him. Then the phone died.
+
+I forgot to ask him whether he was on a small plane or not.
+
+**Two weeks before,** after our interview at the restaurant was over, Liam
+Neeson took his fourteen-year-old son to the Knicks — Heat game at Madison
+Square Garden, LeBron James's first game in New York since moving to Miami.
+They sat courtside. At the same time, I was having dinner with my son and his
+friend at a lousy little sushi place on Twenty-third Street. During that
+dinner, my brother texted me: "Your boy Liam Neeson is being interviewed at
+the Knicks game." So I excused myself and went to the bar for a look.
+
+There he was, holding the same bright-blue scarf that he'd worn to our lunch.
+I could not hear him, but he looked happier than he had when we'd left each
+other. He's tall, seemingly born into a black trench coat, but thinner than he
+looks on television. The thing with his face is, he looks past you when he
+speaks. It's not that he can't make eye contact, because he can, and he does,
+but he reserves looking directly at you, as if the distance marauds him in
+particular. It makes him look perpetually concerned. This is why he played so
+well that stern, top-dog Greek god in _Clash of the Titans,_ the wrathful
+father-assassin in the surprise action-hit _Taken,_ and how in a little over
+three decades, he's played every type of epic ass-kicker from Gawain to
+Valjean, Oskar Schindler to Michael Collins. It's the face that's still
+allowing him to stack up movies years ahead of time, with roles and reprises,
+stretching well into the coming decade. A beguiling longevity, since 1) he's
+fifty-eight, and 2) his wife, Natasha Richardson, died unexpectedly in an
+apparently benign skiing accident just two years ago. It's the look Neeson's
+shooting over the shoulder of the interviewer at the Knicks game, in the same
+interview he tells me about later, from somewhere in the Caribbean, maybe from
+a plane.
+
+"I had to do it, Tom, because they gave me those tickets," he says. "Because,
+well, you just get nothing for nothing, right?" Neeson speaks with more brogue
+than you'd expect, and somehow less, so that the same word — _nothing_ —
+sounds both hissed and sung in the same sentence. "And before we go on the
+air, the woman says to me, 'I'm going to throw you a question, something like,
+"Mr. Neeson, if _Star Wars_ is on one channel and _Schindler's List_ is on the
+other, which one do you watch?"' And oh, but that gets me started. I mean, I
+start to tell her, one represents six million people, six million lives, the
+other is just, just ..." — and here he climbs the word as he says it —
+"fantasy! But then my boy steps in and — he's so smart — says, 'Excuse me,
+ma'am. Why don't you say _Star Wars_ on one channel and _Taken_ on the other?'
+That's what made me happy. And I looked that way, because right before I went
+on, my son, he can see I'm still aggravated, so he just steps up to me and
+says, 'Smile, Dad, smile.' And that's my bonny boy. His mother just shines
+through him at moments like that."
+
+![this image is not available](https://hips.hearstapps.com/hmg-
+prod/images/legacy-fre-image-placeholder-1649872437.png?resize=980:*)
+
+Media Platforms Design Team
+
+**Unknown.** That's the last word he says to me, at the conclusion of the
+interview. It's the name of his latest movie, another gritty Euro action-
+thriller, this one set in Berlin. It's the punch line of a joke I've been
+using since we started two and a half hours earlier: _I still don't know the
+name of your movie. It's listed as_ Unknown.It's not that funny. As he walks
+away, he curls the fluorescent-blue scarf around his neck. I yell to him, "I
+still don't know the name of your movie." He smiles, tugs on the scarf, says
+it: "_Unknown!_ " and then turns to face the cold. I think two things just
+then: 1) Not a bad ending, and 2) that's a funny scarf. Too blue, too
+demonstrative and visible. The guy wants to be unseen. He just told me as
+much, with a story about his dead wife's poodle. It must be one of those
+soccer scarfs from England. I bet those are his favorite Premier League team's
+colors. He's promised me a follow-up call in two weeks. I make a note to ask
+him about that scarf.
+
+**Apparently, Liam Neeson** grew up in a box.
+
+That's how he draws it, anyway, on my pad, in the restaurant with half an hour
+to go in the interview. Four lines, four right angles. "Little box," he says.
+"Three up, three down." His childhood home.
+
+"That's it, then," he says.
+
+It's a box.
+
+He had asked me what I was working on, what I'd been drawing when he arrived
+at the restaurant. I showed him the pages of my sketch pad; I've been drawing
+maps of every place I ever lived. Pictures of the rooms, houses, blocks,
+neighborhoods. As the interview wound down, he paged through them, asked me
+questions about my memory of sun porches and closets I haven't seen since
+1967. The experiment of memory appeals to him. "What does this do for you?
+Does it improve your memory some?"
+
+Nah. Since the only things I can remember are places, it's more like a record.
+It doesn't sharpen anything. Not for me. It just passes the time. By then, I
+know I'm acting like Neeson, who is dismissive of memory while still possessed
+by it. He fooled me at first, too, into believing that he'd disconnected from
+the past, by pretending he couldn't remember. But by the time I handed him a
+pencil and asked him to draw the house he grew up in, he'd told me stories for
+two hours, in great and gory detail: the boxing that took him to sixteen. The
+jobs he'd held — forklift driver in a Guinness factory, training to be a
+teacher, blueprint maker for an architect. His motorcycle accident. The
+journey to see his dying wife. This guy ... he remembers.
+
+After he draws that box, he attaches another right next to it.
+
+_What else?_
+
+There's a whole series of them this way.
+
+_So row houses?_
+
+Yeah.
+
+_Where were the windows?_
+
+Up here, like this.
+
+_Where was your room?_
+
+I had a little box room, right up here. My sister slept over here, my parents
+were in the back. This was the first-floor front window. I mean, it was tiny.
+
+_Did it have a little flower box under the window?_
+
+No. (He draws some more.) This was a little garden. Let me see. (More drawing.
+Rapidly now.) Pathway onto the main pavement, a street here, just a tiny
+little street. See? Tiny little garden.
+
+_Flowers or vegetables?_
+
+Ah, Dad had a little border. Flowers here, grass there. Next-door neighbor had
+the same thing, you know?
+
+_What's that building?_
+
+That was our coal shed. And this part was a little shared piece of ground,
+only about as big as this table and that. The next-door neighbor tried to make
+a little walkway out of it, to our coal shed. And our coal shed was their coal
+shed, too.
+
+_What color was the house?_
+
+Pebbled ash white.
+
+_And the roof?_
+
+Slate.
+
+_And behind this was the city?_
+
+Ballymena. Thirty miles from Belfast. This was Corlea Gardens, where we lived.
+Wait. No, this is wrong. (He erases a door, starts in again.) Because there
+was a drainpipe here. A little gutter. I climbed up it because sometimes Dad
+would say, If you're not back by a certain time, I'm locking the door. I mean,
+this was the sixties, seventies, when Northern Ireland was something else.
+
+_Scary?_
+
+Ya, see I was always able to scoot up right here. I forgot about that.
+
+_It's good. You're good. You're a good draw-er._
+
+This is what he drew:
+
+![this image is not available](https://hips.hearstapps.com/hmg-
+prod/images/legacy-fre-image-placeholder-1649872437.png?resize=980:*)
+
+Media Platforms Design Team
+
+I actually said that: "draw-er." I considered the term _artist,_ and then
+decided no, this can't be called art, so what came out of my mouth was the
+diction of a kindergartner: _draw-er._ At this point, Liam Neeson, with his
+black, black eyes, his eternal scruff of hair, his shoulders roped in muscle,
+did an unbearably good — like Jedi-master good, like Bob Newhart good — double
+take. For me or at me, I could not say.
+
+It's a good exercise, he said, of the drawings. It really is.
+
+The interview was clearly almost over. I tapped the drawing, put my finger
+right in his father's garden.
+
+_Did you have a dog?_
+
+Just like that, the spell of the past is broken. Neeson answers in the now, in
+his present. "I do," he says, having misheard me, as if I know the story
+already. "And it's a thing I'm into just now."
+
+Neeson orders more pinot noir. A bottle. Apparently, the interview is not
+almost over. After it arrives, he continues: "It's Natasha's dog. A tiny, tiny
+little poodle. And I don't like walking it. I don't want my picture taken
+walking in the park with her poodle. Too dramatic, too sad. It's her dog.
+Hers. And people know that. So ..." he says, raising an eyebrow here
+impossibly high. For me and at me, I know. "It's a thing for me just now," he
+says, ticking out a small dark laugh.
+
+There is a pause then. We've gotten used to this by now. There were many such
+pauses in the hour prior to this one, as Neeson told the story of Richardson's
+death, related her absence in the life of his family. In some ways, he's
+agreed to this interview to begin to tell the story, and it can't be easy. He
+agreed to it once before, a year and a half ago, more, canceling at the last
+moment. Neeson uses these silences to collect himself. In these moments his
+eyes look empty and sad, but I'd be a damned liar if I didn't say that I at
+least considered the fact that the guy is an actor, that I'd been watching
+these eyes for thirty years now — sad eyes — and that I recognized that no one
+gives that kicked-in-the-head-by-fate look better than Liam Neeson. Whether or
+not I believed the depth of what's going on for him is irrelevant. I did. I
+do. All I can see at the moment is that it really is going on.
+
+This time, he comes out of the silence with a slight grin. "We have a farm
+upstate," he says, leaning forward a bit, picking up his wineglass without the
+least bit of theater or pretense. "The thing nobody knows is, that dog and I
+are like this." He knits his fingers. "She knows. She knows. I mean she
+_knows._ As soon as we're out of the city, she's up in the front seat of the
+car, up in my lap, and she never leaves my side. She waits, Tom. I swear it.
+And we're all over that farm, this little poodle and me. Everywhere. She's
+like a working dog up there. She's given herself over completely. She's just a
+damned good dog." And this is the moment — late in the meal, late in the
+afternoon — when Neeson looks like what he is, what Richardson herself was: an
+ex-smoker. He is a man in deep need of a timely terminal exhale to punctuate
+this story, to separate himself from the next thing he says, now thrice
+repeated. "That's why it's a thing for me just now."
+
+![this image is not available](https://hips.hearstapps.com/hmg-
+prod/images/legacy-fre-image-placeholder-1649872437.png?resize=980:*)
+
+Media Platforms Design Team
+
+**One hour earlier,** he tells the story of a motorcycle accident he lived
+through in 2000. This riffing off a discussion of fear, of getting knocked out
+cold in the ring as a teenager; of the fearsome IRA legend Michael Collins,
+whom he played in the movie; fear upon leaving Belfast for Dublin and Dublin
+for London; fear upon leaving London for L.A. and L.A. for New York — none of
+it sounds really scary. It's just fear as abstraction, fear as thesis
+statement. Sounds like a guy looking back and marking time.
+
+I'm looking at him — ticking off the prisoner in him, the sailor, the knight,
+the scientist, the samurai master, the lighthearted commander of the A-Team,
+the betrayed husband, the husband betrayer, the priest, the hero of the
+oppressed, the Lion God, the Jedi — thinking, This guy is afraid of only one
+thing: recounting, revisiting, returning to the most awful thing. The recent
+past scares him, which is why, right up to the moment he starts to tell the
+following story, he's a little hazy, a smidge reluctant to detail his
+memories. That's how it is, right up until he says:
+
+_You have to know, one wet leaf can ruin you._
+
+_Th' deer come out of nowhere. Front paws straight up the handlebars._
+
+_Look at me. I'm riding like this — you're the deer. We're face-to-face. And
+your legs are in the spokes._
+
+_My peripheral vision sees this grassy verge with trees, and I'm wanting to
+pull over. It was amazing. Not a car in sight. I should have just slammed on
+the brakes, put the thing up on its stand, and quit. For some reason I wanted
+to get off the road. And of course it wasn't a horizontal verge at all. It was
+downhill, twelve feet, and there were a couple of sapling trees. Me and the
+bike and the deer slid down. The bike broke in half. The deer rolled farther
+down into a ditch, where if I had gone, no one would have ever found me. I
+gradually pulled myself up and got to the side of the road. I took off my
+jacket, and I sat there listening to this deer making this awful sound. And I
+was laughing and I was crying, and I looked down at this leg, and it was
+getting bigger, my jeans were getting tighter, so I knew I'd done something.
+But I thought it might not be much. Hoped. This man on a truck, full of muck,
+stopped and called the authorities. They got me to a local hospital, and I got
+this gorgeous shot of morphine. But I'd broken my pelvis in two places. My
+local doctor arranged for transfer to Lenox Hill Hospital in the city, and
+when I got there, they had called my wife._
+
+_I found out later they'd told her I wouldn't last the night. Well, they never
+fucking told me that._
+
+_She was shooting, up in Canada, and she came straightaway to the city. So
+eight hours later, after the bleeding's stopped, I wake up in the operating
+room, before they start the procedure, and it was like a TV movie: five little
+heads looking down at me, and among them was my wife's. And I said, What the
+fuck are you doing here? She said, They called me, I drove down from Canada._
+
+_Then afterwards, it's funny, because afterwards — this is weeks afterwards —
+Natasha and I, we'd get into an argument. I'd try and replay it back. And
+obviously the time is over in some way, it's behind you, but the chronology of
+events — but everything I remembered happening was very large. I couldn't
+understand something. I said, Darlin', if they told you I wasn't going to last
+the night, why'd you not get a priest in? I said, I know I'm a lapsed
+Catholic, but at least give me the last rites, you know? She said, Had I told
+you, then you would have known that you might be dying._
+
+_That's a fair point, I suppose. I had to get my head round that logic. At the
+same time, I coulda died and it woulda been nice to get a little of the old
+extreme unction, as it's called. All the oils._
+
+_Ten years ago, 2000. Terrible thing._
+
+![this image is not available](https://hips.hearstapps.com/hmg-
+prod/images/legacy-fre-image-placeholder-1649872437.png?resize=980:*)
+
+Media Platforms Design Team
+
+**This was exactly halfway** into the interview, when he tells this story.
+Precisely. And of course, I'm working backward here, from the end of the story
+to its start. So of course I know where that middle is, and Liam Neeson did
+not. But even in that moment, this story felt like the middle of things. We
+both knew that his accident was over long ago, so far in the past that there
+was no longer anything to fear. But he tells it as if it were still a dreadful
+thing.
+
+But the details of the story — one spouse working on a film in Canada, an
+accident, a seemingly benign injury, increasing complications, the last-moment
+arrival at what might be the moment of death — stand too close in their
+telling not to bring to mind the end of Natasha Richardson, who died after a
+minor fall during a skiing lesson, while Neeson was in Toronto, filming
+_Chloe._ And just then, it seems, I have the lousy duty of pointing that out.
+
+"It all sounds so much like your wife's accident," I say. "Ten years. Then she
+has this awful accident. You must have felt like all of it had been reversed."
+
+On the recording, at this juncture, there is a giant rush of noise in the
+already noisy restaurant, like a sudden storm of silverware. In retrospect, it
+seems possible that this may be because Liam Neeson — Zeus-like — shakes his
+head, or because he refuses to speak. He says, "I can't. It's ... I'm too
+vulnerable, Tom. I can't go there."
+
+I tell him I'm sorry. We pause. "It's brutal," I say. "Just brutal." Then I
+pause again. "I'm glad, though, that ..." The sentence goes unfinished. I
+can't remember what I was glad about.
+
+Then he is quiet for a full minute. And oddly, the restaurant grows steadily
+quieter, too, on the recording, as if the chatter and gnash of silver and
+china simmers down precisely so that weeks later I can hear the occasional
+tick of Liam Neeson's tears on a plate, or a saucer, or whatever it is that
+sits in front of him as he thinks through what he is about to say. Tick. Tick.
+Long pause. Tick. Just like that.
+
+And then, suddenly, he goes on: "No, no. It's ironic, I know. There I am up in
+Canada, doing a movie." Just as she was when he had his accident. This time,
+Neeson himself flew with her to New York, also to Lenox Hill Hospital, where
+she died.
+
+Liam Neeson looks right at me then, as if remembering something specific, as
+if it just occurred to him, though this cannot be. "I'll tell you one thing,"
+he says. "I'd been to Montreal maybe twice before. And for some reason, I
+thought the city's this size." He holds his hands out in front of him then,
+cupped like he is drinking water.
+
+"I thought that it was this little comfortable little city," he says. "And for
+some reason, I thought the hospital that I was in a taxi racing toward was
+gonna be a nice little hospital, about twice the size of this restaurant. But
+it was this huge, glassy, black place. A Dickensian place, Tom.
+
+"I walked into the emergency — it's like seventy, eighty people, broken arms,
+black eyes, all that — and for the first time in years, nobody recognizes me.
+Not the nurses. The patients. No one. And I've come all this way, and they
+won't let me see her. And I'm looking past them, starting to push — I'm like,
+_Fuck, I know my wife's back there someplace._ I pull out a cell phone — and a
+security guard comes up, starts saying, 'Sorry, sir, you can't use that in
+here,' and I'm about to ask him if he knew me, when he disappears to answer a
+phone call or something. So I went outside. It's freezing cold, and I thought,
+What am I gonna do? How am I going to get past the security?
+
+"And I see two nurses, ladies, having a cigarette. I walk up, and luckily one
+of them recognizes me. And I'll tell you, I was so fucking grateful — for the
+first time in I don't know how long — to be recognized. And this one, she
+says, 'Go in that back door there.' She points me to it. 'Make a left. She's
+in a room there.' So I get there, just in time. And all these young doctors,
+who look all of eighteen years of age, they tell me the worst." He purses his
+lips, mouth dry. "The worst."
+
+This is the point where he stops again. He blinks back tears, takes a long
+look at the table across from us, where members of Natasha Richardson's
+extended family are, coincidentally, having lunch in this same restaurant. (He
+and Natasha, this was their place, so it's only a mild coincidence.) I wait.
+Again, I tell him how sorry I am. Neeson nods. That's when I tell him
+something horrible that happened to me.
+
+He went back to shooting _Chloe,_ after the funeral. "I just think I was still
+in a bit of shock," he says. "But it's kind of a no-brainer to go back to that
+work. It's a wee bit of a blur, but I know the tragedy hadn't just really
+smacked me yet."
+
+Now the no-brainer is staying with the work, the good work, as it piles up on
+him. "I think I survived by running away some. Running away to work. Listen, I
+know how old I am and that I'm just a shoulder injury from losing roles like
+the one in _Taken._ So I stay with the training, I stay with the work. It's
+easy enough to plan jobs, to plan a lot of work. That's effective. But that's
+the weird thing about grief. You can't prepare for it. You think you're gonna
+cry and get it over with. You _make_ those plans, but they never work.
+
+"It hits you in the middle of the night — well, it hits _me_ in the middle of
+the night. I'm out walking. I'm feeling quite content. And it's like suddenly,
+_boom._ It's like you've just done that in your chest." Here Neeson reaches
+out and twists both hands in opposite directions, like he's corkscrewing two
+ends of a soda can, reaches toward me so it's clear: This is in his chest. He
+shakes his head at the thought of this one thing, this single hideous bead on
+the necklace of his life. He speaks as if he were regarding its cruelty anew,
+though this too cannot be. He's too smart to feel singled out by what happened
+to his wife. Her death, with its painfully curious timeline — the simple fall,
+her apparent clearheadedness, followed by the swift, merciless brain
+hemorrhage? Brutal and extraordinary. Neeson's experience at the hospital —
+the mix-up at reception, the chaos of the ER, the arrival of the security
+guard? Vivid and, at the same time, banal. Just another hospital story;
+everyone has them. This doesn't mean they don't hurt. When he says, "It's just
+extraordinary," Neeson is referring to the persistent depth of pain, the
+ruinous visitations of grief, even now, two years later. That stuff is all his
+very own.
+
+![this image is not available](https://hips.hearstapps.com/hmg-
+prod/images/legacy-fre-image-placeholder-1649872437.png?resize=980:*)
+
+Media Platforms Design Team
+
+**At the start,** in the first few minutes of the interview, Liam Neeson is
+chatty about his upcoming work. He's leaving in two weeks, right after his
+family holiday, for Vancouver, to begin shooting _The Grey,_ which he declares
+to be "Jack London meets _Jaws._ " He's got a new movie opening soon. Cue the
+joke. "Yeah," I say, pretending to check my notes. "What's that movie called?
+No one seems to be able to tell me."
+
+"_Unknown,_ " he says.
+
+"You too, eh? I thought for sure they would tell you."
+
+He laughs, at me and with me, probably. I cannot be sure.
+
+He's just finished shooting _Battleship,_ which his costar Brooklyn Decker
+described to me as a "naval war, with aliens." Neeson says that's about right.
+"I'm the admiral of the fleet. But get this, I was in Belfast this summer,
+visiting my family, and my agent kept calling me, saying, Have you read that?
+Are you ready? And I said for what now? The shooting isn't till December. And
+he said no, no, no. It's _Sep_ -tember. They need you this coming Wednesday!
+I'd completely let it slip my mind.
+
+"So I spoke to the director, as he was shooting a scene I was supposed to be
+in, and I thought, _Christ, they're working, they really need me already._
+Anyway, I flew out there, to Hawaii, and I was onboard the USS _Missouri_ the
+next day, dressed up in these naval whites, and all these sailors givin' it
+this." He gives a firm but unexaggerated salute in the middle of the
+restaurant.
+
+Just as he lowers his hand, a besweatered family approaches and greets him. He
+introduces us. This is his wife's family: one of Lynn Redgrave's daughters.
+Some former muckety-muck in British politics. Sundry other cousins. They
+exchange hugs with him.
+
+It feels a little like a setup, as if they timed the arrival, and my first
+thought was that he might want to include them in our lunch as a means of not
+talking — or perhaps talking — about his wife's untimely death. "Do you want
+them to join us?" I mutter, as they find their seats near us. He widens his
+eyes and shakes his head.
+
+I pull out my pad and show him a chart I made, graphing his roles. The y-axis:
+"power." The x-axis: a measurement of the degree to which the character
+appeals to men or women. He laughs at the reaches of it. Aslan on top, Ethan
+Frome below. Qui-Gon Jinn to the left, sensitive widower from _Love Actually_
+on the right. My plotting amuses him. "So many characters," he says. "I can't
+even remember some of these." Forgetting, he tells me, is rapidly becoming one
+of his problems.
+
+**Our lunch is set** for 1:00 P.M., but I get there at 11:00, a little worried
+about a mix-up or a cancellation. So I sit at the bar of the restaurant and
+wait. To pass the time, I take out my pad, draw a schematic of the first house
+my parents bought: Westminster Road, Rochester, New York. It frustrates me
+that I can remember the location of the powder room, which I never used as a
+boy, but I can't remember if there were flower boxes beneath the windows I
+often climbed into at night. _What the hell can I remember, and why?_ I write
+that very thing at the top of the page because it seems like a good question
+to ask Liam Neeson. Below that I make a list of what he's done. I start a
+graph of the characters he's played.
+
+**Five hundred forty-seven days** before that, Liam Neeson is supposed to meet
+me for lunch. Same restaurant, same setup. But just before noon that day in
+2009, as I'm walking to the meeting, he cancels. When I mention this later,
+Neeson remembers. "That was you? I'm sorry about that, Tom," he says. "Truly.
+That was my mistake. I shouldn't have said yes in the first place. It was too
+fresh. I just wasn't ready."
+
+The agenda for that 2009 meeting? _Taken,_ a surprise hit. _Clash of the
+Titans,_ a surefire popcorn movie. Maybe even some discussion of his
+continuing role in _The Chronicles of Narnia,_ since, in essence, he is the
+voice of God. Liam Neeson has a lot of work coming up. And while no one is
+sure if he is ready, there is the sense that I have to ask him about his
+wife's death after a seemingly benign skiing accident.
+
+That was a year and a half ago. More. In the days leading up to that meeting,
+the one that never happened, I dreaded the questions I needed to ask him.

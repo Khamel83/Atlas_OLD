@@ -1,0 +1,313 @@
+# =?utf-8?B?TW9uZXkgU3R1ZmY6IFNtYWxsIEJhbms=?=
+
+**Source**: inputs/saved_emails/=utf-8BTW9uZXkgU3R1ZmY6IFNtYWxsIEJhbms==
+**Type**: email
+**Created**: 2025-08-25T02:54:10.464768
+
+---
+
+=utf-8BcyBEb27igJl0IExpa2UgSGlnaCBSYXRlcw===_Thu,_6_Jul_2023_14-02-33_-0400_(EDT)_1892c5f981ae84b9.eml
+
+
+
+  
+  
+    
+      
+        
+      
+    
+  
+  
+    
+      
+        Programming note: Money Stuff will be off tomorrow and Monday, back on Tuesday.My basic model of banking is that it is a socially beneficial
+      
+    
+  
+  
+    
+      
+        
+          
+          
+        
+        
+          
+            
+          
+        
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          Programming note: Money Stuff will be off tomorrow and Monday, back on Tuesday.
+
+  
+    
+      Deposit beta
+    
+  
+
+My basic model of banking is that it is a socially beneficial trick. People deposit money in the bank, thinking that it is perfectly safe. The bank uses that money to make loans, which are risky. It is good for society, and for economic growth, if people can get money to take risks, but the people who have the money often do not want to take risks with it. The bank is a magic trick that allows risk-averse savers to fund risky projects. Like any magic trick, it requires a certain suspension of disbelief: You can’t just tell people “the way it works is that we take risks with your money, but we tell you it’s safe.” There are some genuine tools (capital, diversification, deposit insurance) to transform the risky loans into safe deposits, but there is also some residue of pure belief, and if people lose that belief then it stops working.
+You can take this a bit further, something like “banks are a way for society to collectively fund nice things, without anybody noticing that they are doing that.” Here is a way to tell the story of local banking:
+	Everybody loves the local bank! It sponsors the Little League team! It lends the local sandwich shop owner the money she needs to expand! It gives you your first mortgage! It’s got a nice building on Main Street! With columns! The president of the bank is a civic fixture, smiling and shaking hands with everybody!	So of course when you have money, you deposit it at the local bank, even though that bank does not pay a competitive (or any) rate of interest.	The bank is making an economic profit on your deposits: It is paying you much less than the market rate of interest. You could get paid 5% on a money-market fund, but instead you’re getting paid 0% at the local bank; the bank would have to pay 5% to borrow from market sources, but instead it’s paying you 0%.	The bank is making an economic loss on the lending and the Little League sponsorships. It is charging the sandwich shop owner less interest on her loan than anyone else (a global megabank headquartered in the Big City, a middle-market lending fund, a loanshark) would charge her, in part because the bank president looked her in the eye and shook her hand and tried a sandwich and trusts her to repay the loan, but also in part because the bank wants to be a valued member of the community and that means taking some risks lending to local businesses. (It is just giving the money away to the Little League team for free, purely for valued-community-member reasons.)	The below-market rate that the bank pays on deposits is subsidizing its civic and local-lending activities.	You can analyze this as marketing: The Little League sponsorship makes local citizens feel good about the bank, so they deposit money there, so they get cheap funding. (Or there is cross-selling: The loan to the sandwich shop owner might require her to keep compensating balances at the bank.)	But you can also analyze it as an indirect form of civic coordination: All of the people in the town with extra money deposit it in the bank; they don’t get much in the way of interest payments, but what they do get is (1) more economic activity in town, as local shop owners can get bank loans to expand and as young couples can get mortgages to buy houses and start families, and (2) a well-equipped Little League team. They feel good about this trade-off. The people in town with extra money subsidize business startups and household formation in the town, the town thrives and everyone is better off.	But it is not overt. Nobody goes around to the people of the town saying “please contribute $20 to the Help the Sandwich Shop Expand Fund,” or the Help the Smiths Buy a House Fund. The town council doesn’t raise taxes to subsidize local businesses or make homes cheaper. It flows through the bank, through the relatively inconspicuous mechanism of paying low interest rates on deposits.
+
+And the basic story of the 2023 problems in US regional banks is that market interest rates have gone up a lot, and the regional banks all expected some form of this story to remain true, and it didn’t. Market interest rates went up, and depositors at US regional banks moved their money, either out of concerns about the banks’ safety or because they could get higher rates elsewhere. And the banks had to raise the rates they pay to keep depositors (or pay higher rates to get funding from market sources or the Federal Reserve or the Federal Home Loan Bank system). And since the interest the banks earn on their assets has gone up more slowly than short-term market rates (because the banks have some long-term fixed-rate assets), they make less money.
+We have talked about this a lot as a financial story, but I suppose it’s worth thinking about it as a civic coordination story too. Here is a Wall Street Journal story titled “Everyone Wants Interest on Their Deposits. That’s Bad for Main Street Banks.”
+
+When the Fed started raising interest rates to fight inflation, the conventional wisdom was that it would be a boon for Main Street banks. They were expected to increase the rates they charged on loans faster than those paid to depositors, pocketing the difference.
+Instead, the opposite is happening. The Fed’s hikes and the failures of a trio of midsize banks are prompting once-loyal customers to pull their money out of checking accounts that pay no interest. Banks are paying much higher rates on the deposits they are retaining, which is eclipsing the benefit of charging more on loans. They also are hoarding cash and tapping high-cost loans in response to the recent failures. 
+In the first quarter, community banks paid on average 1.14% on deposits, up 0.39 percentage point from the prior quarter, according to the Federal Deposit Insurance Corp. They earned 5.36% on loans, up 0.16 percentage point from the prior quarter. ...
+These challenges could eventually speed up ongoing consolidation. There are fewer than 4,700 U.S. banks today, down from about 8,000 in 2010, according to the FDIC. 
+That could leave more communities without the hometown banks that play a key role in small-business lending and sponsor Little Leagues and parades. It could also make loans harder to get. When the local lender disappears, credit often goes away, too. ...
+Businesses and wealthy customers were the first ones to start looking for higher rates last year. Now, every type of customer with extra cash is looking for more interest, said Chip Reeves, CEO of MidWestOne Financial Group, which is based in Iowa City, Iowa. 
+
+If all the burghers of Small Town USA get together and say “we want a local bank that lends to our small businesses and sponsors our parades,” the answer is “okay just keep your money on deposit there earning 0% interest.” And if they say “no we can get 5% on our money-market funds” then the answer is “okay no parades for you then.” (Or: “Fine, but take some of the interest you get from your money-market funds and contribute them to the parade fund, or the Kickstarter for your small businesses.”) You can have the unconscious economic coordination of local banking, or you can use modern technology to squeeze every basis point out of your cash, but not both.
+  [1]
+
+By the way, the same exact analysis applies to Silicon Valley, and to Silicon Valley Bank. If all the venture-capital firms in Silicon Valley had kept their hundreds of millions of dollars of uninsured deposits at SVB earning below-market interest rates despite holes in SVB’s balance sheet, then SVB would have stuck around and been able to make weird bespoke loans to startups and sponsor venture-capital conferences. SVB provided a public good to Silicon Valley, and venture capitalists knew that, and they praised SVB while it was around and lamented it when it was gone. But it was not in their immediate self-interest to keep their money there as rates went up, so they didn’t.
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      Elsewhere in rates
+    
+  
+
+Meanwhile if you are a big global bank with a trading business, rising rates are good for you, in the broad sense that decades of zero-ish interest rates made it kind of boring to trade interest rates, while higher and more volatile rates make for more trading and so more revenue and more jobs:
+
+Societe Generale SA is bolstering its US rates desk as rising interest rates bring lucrative opportunities to the fixed-income market.
+The French bank is in the process of hiring as many as six new traders and salespeople, according to Fouad Farah, head of global markets for the Americas. SocGen is also expanding its rates business for Latin America with new hires in New York.
+“The end of the zero-rates regime creates more opportunities for our platform,” New York-based Farah said in an interview. “Institutional clients like private equity and insurers are actively hedging on the rates side. It’s not temporary and it’s part of our rates strategy in the US.”
+International banks including Barclays Plc and Nomura Holdings Inc. are also making moves to bolster trading operations. In US rates, the biggest banks are set to make $19.2 billion in revenue this year, according to predictions from Vali Analytics.
+
+I wrote the other day that “a whole lot of people in fairly senior roles at a whole lot of financial services companies grew up a world of low interest rates; large expanses of the financial industry collectively forgot that rates could go up,” and that is going to be both financially and sociologically interesting. Probably at some bank there is an interest-rate derivatives desk run by a managing director who has spent a decade selling rate caps that never went in the money. It would be funny if rates traders were like Cobol programmers, if banks were tracking down retired traders and trying to lure them back because no current employees have ever seen 5% interest rates.
+
+  
+    
+      Celsius
+    
+  
+
+I assume that everyone who has paid attention to crypto over the past few years has their own personal top-10 list of “why aren’t those people in jail?” projects. So, so, so, so much of what has gone on in crypto seems clearly to violate US law, and so much of it ended in disaster and huge losses for customers, and I suspect that in quite a few cases the answer to the question “why haven’t the authorities gone after this project?” is “they are too busy going after 20 other projects that also broke the law and failed spectacularly.” We’re gonna be getting crypto enforcement actions for years, but even so there will be a lot of people who did shady things and lost customer money and never face an enforcement action just because time and regulatory resources are finite. Enforcement here just has to be somewhat stochastic; the crypto industry moved so fast and broke so many things that some people will just get away with it.
+Still there are some pretty obvious targets? I am not going to sit here and list my own top 10 or anything. But here is a Bloomberg News story that I read this morning:
+
+Investigators at the Commodity Futures Trading Commission have concluded that bankrupt crypto lender Celsius Network and its former chief executive officer broke US rules before the firm’s implosion, according to people familiar with the matter.
+If a majority of the CFTC’s commissioners agree with that conclusion, the agency could file a case in federal court as soon as this month, said the people, who asked not to be identified discussing the confidential determination. Attorneys in the enforcement unit determined that Celsius misled investors and should have registered with the regulator, and that former CEO Alex Mashinsky also broke regulations, said one of the people. ...
+Meanwhile, the Securities and Exchange Commission and federal prosecutors in Manhattan have also been investigating Celsius, according to bankruptcy filings. Representatives for the SEC and the US Attorney’s Office for the Southern District of New York declined to comment on the status of those probes. 
+
+How ’bout that!
+
+  
+    
+      SBF & TB12
+    
+  
+
+Here is a New York Times story about quarterback Tom Brady; his ex-wife, supermodel Gisele Bündchen; Sam Bankman-Fried, the former head of crypto exchange FTX Trading; and Sina Nader, FTX’s head of partnerships, who recruited Brady and Bündchen to endorse FTX in exchange for almost $50 million of FTX stock:
+
+A former college football player, Mr. Nader was in charge of recruiting Mr. Brady and other stars. In June 2021, Mr. Brady and Ms. Bündchen agreed to a deal with Mr. Bankman-Fried, praising the “revolutionary FTX team.” Mr. Brady seemed genuinely interested in crypto, Mr. Nader said, and occasionally had conversations with Mr. Bankman-Fried.
+“Imagine a tiger and a lion talking,” Mr. Nader said. “They’re slightly different, they do different things, but they’re really formidable in their own arenas.”
+
+Imagine a tiger and a lion talking. Imagine Tom Brady and Sam Bankman-Fried talking. About crypto. Imagine Tom Brady and Sam Bankman-Fried talking about football. Imagine them talking about pandemic preparedness. Nutritional supplements. AI alignment. Succession. Imagine a weekly podcast in which Tom Brady and Sam Bankman-Fried discuss the week’s news and pop culture. I feel like if I were in charge of FTX’s bankruptcy I would be working to develop that podcast and sell it to Spotify. Bankman-Fried is facing a whole lot of prison, and Brady has been sued by disgruntled FTX customers, and I think both of them could improve their legal position significantly if FTX were just able to pay back its customers, and I feel like that podcast could bring in, what, $2 billion?
+  [2]
+ No, no, probably not, but I would listen to it, and I am sad I can’t listen to it now. Imagine a tiger and a lion talking. 
+Crypto and celebrity were an odd symbiosis: A lot of crypto projects were valued mainly on attention; the thing that makes, say, Dogecoin valuable is that a lot of people wanted to trade Dogecoin, not any underlying fundamentals. So paying directly for attention — hiring Tom Brady to just put his face next to an ad saying “here have some crypto” — was a sensible move for crypto firms. “For a while crypto was probably the highest bidder for celebrity and influence,” I wrote the other day, about FTX’s celebrity operation. 
+Similarly, if you were a celebrity during the crypto boom, crypto technology seemed to offer a more lucrative and efficient way to turn celebrity into money than most previous methods. If you are Tom Brady you can autograph a football and sell it to someone but:
+	You gotta get the football, and a pen, and sign it, and ship it.	Not every rich person who loves Tom Brady has a room where they display footballs, and even if they do, the number of people who come to the room is going to be fairly small, putting some limit on the value of this trophy.
+
+Whereas with non-fungible tokens:
+	You can sell someone, like, a digital receipt conveying the information “you bought this receipt from Tom Brady,” which has basically zero marginal cost to you. You can sell an edition of 10,000 of them in five seconds.	The buyers’ marginal cost of displaying that receipt is basically zero; it lives online, and they can broadcast to everyone on Twitter or whatever, “look, I got this Tom Brady NFT.”	For a while a lot of crypto people had a lot of money and spent it on these things; I cannot explain it; even from the vantage point of 2023 it seems so alien.
+
+That Times story also says:
+
+In 2021, Mr. Brady also co-founded Autograph, which helps famous people sell the crypto collectibles known as nonfungible tokens, or NFTs. Autograph raised more than $200 million from investors, and Mr. Bankman-Fried joined the board. …
+Mr. Brady’s other crypto venture has also struggled. Autograph’s revenue sank last year amid the crypto meltdown, a person familiar with its finances said. The start-up has shifted its strategy to focus more on helping celebrities find ways to foster loyalty with their fans, and less on marketing crypto tokens to consumers, the person said. The firm has also removed some crypto language from its marketing, downplaying terms like NFT, another person with knowledge of the company said.
+
+For a split second “help famous people sell NFTs” seemed like a big business. What a weird time 2021 was.
+
+  
+    
+      Slot-machine streaming
+    
+  
+
+People watch the NBA because they enjoy seeing world-class athletes accomplish physical feats that ordinary mortals couldn’t do, and because they enjoy the drama of a hard-fought basketball game. I gather that people watch streamers play video games for basically similar reasons: Some people are good at video games, and if you enjoy video games but are less good at them you might enjoy watching the top players play, and also video games are designed to be fun and exciting, so watching someone play one will give you some dramatic entertainment.
+Similarly, I suppose that if you watched someone who was very good at slot machines play a very exciting slot machine, you would derive similar pleasure from it, but (1) no one is good at slot machines,
+  [3]
+ which are games of random chance with huge house edge,
+  [4]
+ and (2) no slot machines are exciting,
+  [5]
+ so this seems unlikely.  And yet!
+
+A new class of niche celebrities have turned the once-solitary experience of gambling at casino slot machines into a spectator sport with millions of viewers and fan camaraderie. Using monopods or videographers to film the action, the players spend hours talking audiences through the highs and lows of jackpots and losses.
+“It’s fun to watch somebody else play with their money while you’re sitting on your couch drinking a beer,” said Wayne Deck, a 60-year-old in Fairfax, Va., who watches Christopher online and visits casinos in-real-life.
+
+I don’t see how that could be. None of these people (or any other people) are good at slot machines, but I guess they’re good at social media:
+
+Brian Christopher lost $300,000 gambling on slot machines in casinos last year. Hundreds of thousands of people cheered him on, from the comfort of their own homes. … Christopher declined to provide his total revenue, but said he makes enough to turn a profit after paying his staff and the $300,000 in gambling losses. 
+Some celebrity slots players disclose their losses as a badge of honor—a signal they’re being honest about the odds. Francine Maric, a full-time high-roller known as Lady Luck HQ, posts her win-loss statements from casinos. She said she lost $320,000 last year, but still made a profit thanks to advertising revenue and sponsorships.
+
+Well, I am vastly more skilled at slot machines than these people, in that I have never lost $300,000, or even $300, playing slot machines. I should livestream myself not losing $300,000 a year at slot machines. Just like walk by a row of slots with a videographer and turn confidingly to the camera and whisper “my winning strategy here is to keep walking.” It’s correct! And not more boring than watching me play slots.
+
+  
+    
+      Things happen
+    
+  
+
+Instagram Unveils  Threads App, a Threat to Musk’s Twitter. (Follow me on Threads!) Middle market CLOs are now private credit CLOs. Jefferies Sees  Turnaround in Deals After Prolonged Drought. JetBlue, Turning Focus to Spirit Deal, Won’t Try to Save American Partnership. FTX Lawyer Who Made Problems Disappear Is Caught Up in Crypto Firm’s Fallout. Ex-UBS Trader Hayes Wins Chance to  Appeal Libor Conviction. Warren, Booker Press  Bed Bath & Beyond on Worker Severance Pay. Companies Look to Pay Tech Vendors Based on  Business Outcomes, Not Usage.  CFA Level II Success Rate Jumps Above Historic Average to 52%. More Manhattan Homebuyers  Paying Cash in Sign of Luxury Strength. How a Morgan Stanley  Derivatives Salesperson Became a Celebrity Chef. Right-wing  dog food. Colosseum old.
+If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
+        
+  [1] I wrote in May about, basically, higher deposit betas, and proposed several speculative explanations, including: “Relationship businesses in general are on the decline. In a world of electronic communication and global supply chains and work-from-home and the gig economy, business relationships are less sticky and ‘I am going to go into my bank branch and shake the hand of the manager and trust her with my life savings’ doesn’t work. ‘I am going to do stuff for relationship reasons, even if it costs me 0.5% of interest income, or a slightly increased risk of losing my money’ is no longer a plausible thing to think.” You could tell a similar story about civic engagement: “I am going to keep my money at the local bank because they sponsor the Little League” is just less compelling now than it used to be.
+
+
+  [2] I am kidding about Spotify paying that much. It is not clear to me how big the FTX customer shortfall is; the most recent report from its bankruptcy managers says that “as of the petition date, the FTX.com exchange owed customers approximately $8.7 billion,” and “to date, the Debtors have recovered approximately $7 billion in liquid assets, and they anticipate additional recoveries,” suggesting an actual gap of only about $1.7 billion or less and something like an 80% recovery. But that doesn’t *feel* right to me? Also probably most of that money will go to fees.
+
+
+  [3] Ahahaha like half of my readers are going to email me their systems for beating slot machines, and they'll work, because this is that sort of newsletter. I am doing this intentionally; you’re going to tell me how to make a fortune on slots and I’m going to do it and retire. And not livestream it.
+
+
+  [4] I suppose you could watch people play slots to appreciate the *casino’s* skill at separating them from their money.
+
+
+  [5] No one is going to email me to contradict this one.
+
+
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+
+
+  
+    
+      
+        
+        
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cj1z43.5n8t/bf30a8b0.gif" alt="" border="0" /></a>

@@ -1,0 +1,142 @@
+# How 2 state legislatures are quietly making America a better place | Vox
+
+**Source**: https://www.vox.com/policy-and-politics/2017/9/22/16345092/california-new-jersey-state-legislature-advances
+**Type**: article
+**Created**: 2025-08-13T16:59:16.040864
+
+---
+
+title: How 2 state legislatures are quietly making America a better place | Vox
+source: https://www.vox.com/policy-and-politics/2017/9/22/16345092/california-new-jersey-state-legislature-advances
+date: 2025-08-13T16:59:14.942862
+tags: []
+---
+Between January 1 and July 31 this year, the state of New Jersey has seen its
+pretrial jail population — the number of people sitting in detention, awaiting
+trial, without having been convicted of a crime — [fall by 15.8
+percent](https://www.judiciary.state.nj.us/courts/assets/criminal/cjrearlyreport1.pdf).
+
+That’s an astonishing drop in under a year. It means that 2,167 fewer people
+were in pretrial detention on July 31, 2017, than were at the same time in
+2016. That’s more than 2,000 people who have not been convicted of any
+wrongdoing, and who get to live at home with their families rather than in a
+jail cell, who stand a better chance of keeping their jobs and their kids,
+whose lives aren’t unnecessarily disrupted so they can be locked in a cage.
+
+And as this happened, [New Jersey’s crime rate actually
+fell](http://www.njsp.org/ucr/pdf/current/20170915_crimetrend.pdf). Violent
+crime in January through August 2017 was 16.7 percent lower than the same
+period of 2016. Murder fell by 28.6 percent, assault by 13.3 percent, robbery
+by 22 percent. By contrast, violent crime only fell 4.3 percent in
+[2016](http://www.njsp.org/ucr/pdf/current/20170818_2016_crimetrend.pdf), and
+[didn’t budge in 2015](http://www.njsp.org/ucr/2015/pdf/2015_sect_2.pdf). It’s
+far too soon to say if bail reform contributed to the big year-to-year drop.
+But at the very least, bail reform hasn’t been accompanied with some dramatic
+increase in danger or crime. More people are free, and more people are safe.
+
+The jail trends are the result of sweeping bail reforms adopted by the New
+Jersey state legislature, with the help of a voter-approved constitutional
+amendment, in 2014. The reforms effectively abolish cash bail: the practice of
+only letting people out of pretrial detention if they are financially capable
+to pay the state (or, more often, a bail bondsman) to release them. In its
+place, judges now decide which defendants to detain and which to release based
+on a variety of factors, including quantitative [“public safety assessment
+scores”](http://www.arnoldfoundation.org/wp-content/uploads/PSA-Risk-Factors-
+and-Formula.pdf) based on a defendant’s criminal history and past record of
+appearing in court.
+
+The result is that thousands of people who’d [otherwise be in jail for being
+poor](https://www.drugpolicy.org/sites/default/files/New_Jersey_Jail_Population_Analysis_March_2013.pdf)
+are free, and courts are able to detain wealthy people who could’ve been let
+free via bail but are now judged too dangerous for release.
+
+The embarrassing part? I didn’t know about most of this until I moved to New
+Jersey in August. What coverage I saw tended to focus on convicted murderer
+and racial slur enthusiast [Duane “Dog the Bounty Hunter”
+Chapman’s](http://www.njspotlight.com/stories/17/08/01/mother-of-murder-
+victim-sues-to-end-nj-s-criminal-justice-
+reform/?utm_content=buffer0acbf&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+opposition to the law (which should, if anything, make you support it more). I
+was too focused on fights in DC around health care and the fate of deportation
+relief, and not keeping an eye on one state’s criminal justice reforms. Those
+national fights are really important; I would never diminish them for a
+second. Their human stakes are immense.
+
+But so are those of the New Jersey reforms. Thousands of people being uncaged
+is a cause for national celebration, not just parochial interest.
+
+It’s easy to pay lip service to the fact that some of the most important
+government decisions are made at the state, not federal, level. But three
+cases in New Jersey and California, either being implemented or passed this
+year, really underline the point. There’s a real possibility, especially if
+Republican health care efforts fail, that the most significant changes in
+public policy in the United States this year in terms of human impact will
+have been caused by state legislatures, not Congress or President Trump.
+
+## California’s changes are of national importance
+
+As Congress geared up for the latest effort to repeal Obamacare, the
+California state legislature passed a package of bills to address its housing
+crisis. This isn’t just a California concern. As my colleague Matt Yglesias
+has [repeatedly explained](/policy-and-politics/2017/8/18/16162234/regional-
+inequality-cause), the high cost of living in America’s most productive
+regions (like Silicon Valley, Los Angeles, but also New York, DC, and Boston)
+hurts the American economy as a whole.
+
+The University of Chicago’s Chang-Tai Hsieh and UC Berkeley’s Enrico Moretti
+estimate that restrictions on building housing [cut US economic growth in
+half](http://www.nber.org/papers/w21154) from 1964 to 2009. Another paper of
+theirs estimates that if high-productivity cities like San Francisco and San
+Jose were to only restrict housing development as much as the typical city —
+and not the crazy amount they do restrict it — US GDP would grow 9.5 percent.
+Those are bananas numbers, and suggest that removing barriers to development
+in California and other rich areas is of huge national importance.
+
+Luckily, the California legislature has voted to remove some of those
+barriers. Both the assembly and the state Senate have
+[passed](http://www.latimes.com/politics/la-pol-ca-housing-bills-pass-
+assembly-20170914-story.html) [SB
+35](http://sd11.senate.ca.gov/news/20170123-senator-wiener-releases-details-
+sb-35-%E2%80%93-housing-accountability-and-affordability-act), a proposal from
+freshman state Sen. Scott Wiener, who represents San Francisco. The law would
+crack down on cities that undersupply housing by expediting approval for new
+building projects in municipalities that are undershooting their housing
+goals. Gov. Jerry Brown still needs to sign it, but Brown supports the bill
+and it’s all but a done deal.
+
+One bill can’t fix the California housing crisis. But SB 35 is a big step in
+the right direction, and will enable more people to move to hugely productive
+areas of California and grow the American economy as a whole. The whole
+country should be celebrating.
+
+Same goes for the [landmark climate change legislation](/energy-and-
+environment/2017/7/15/15955756/california-climate-brown-ab398-cap-and-trade)
+California passed this year. With bipartisan backing, the state extended its
+cap-and-trade program through to 2030. The legislation built on SB 32, a bill
+passed in 2016 that mandated a 40 percent reduction in emissions relative to
+1990 levels by 2030. “It’s hard to overstate how ambitious this is,” [Brad
+Plumer wrote for Vox](/2016/8/29/12650488/california-climate-law-sb-32) at the
+time. “Few countries have ever achieved cuts this sharp while enjoying robust
+economic growth.” Achieving that goal will be difficult, and would’ve been
+more difficult if the cap and trade program had lapsed, a real possibility due
+to legal challenges. So this year, the legislature protected cap and trade.
+
+These are pretty quick glosses on three complicated policy achievements. Some
+environmental justice groups think California’s climate bills haven’t gone far
+enough, and do little to help people living near polluters. SB 35 doesn’t
+totally eliminate the ability of local policymakers to use zoning and other
+levers to keep out newcomers. Some local leaders, like [Newark Mayor Ras
+Baraka](http://www.nj.com/essex/index.ssf/2017/05/how_bail_reform_is_playing_out_in_njs_largest_city.html),
+have been grumbling that bail reform lets too many accused criminals out on
+the street, despite the accompanying drop in crime; if they grumble louder,
+the reforms could be in danger.
+
+But it’s important to know that big improvements in people’s lives can and do
+happen at the state level. They’re complex and caveated and don’t go far
+enough — but such is the story of all government action. This year, California
+and New Jersey legislators have passed and overseen, respectively, measures
+that will make America as a whole substantially better off. They may not get
+the attention of Republican legislative chicanery in Congress or [state-level
+Republican law to suppress voting](/the-big-idea/2017/5/30/15710628/voting-
+rights-act-new-north-carolina-shelby-voter-identification-id). But these
+efforts deserve attention and commendation.

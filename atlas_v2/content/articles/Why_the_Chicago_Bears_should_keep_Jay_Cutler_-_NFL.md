@@ -1,0 +1,34 @@
+# Why the Chicago Bears should keep Jay Cutler - NFL - ESPN
+
+**Source**: http://insider.espn.go.com/nfl/story/_/id/12196024/why-chicago-bears-keep-jay-cutler-nfl
+**Type**: article
+**Created**: 2025-08-13T19:13:29.175246
+
+---
+
+title: Why the Chicago Bears should keep Jay Cutler - NFL - ESPN
+source: http://insider.espn.go.com/nfl/story/_/id/12196024/why-chicago-bears-keep-jay-cutler-nfl
+date: 2025-08-13T19:13:26.587463
+tags: []
+---
+It didn't take long for new [Chicago Bears](/nfl/team/_/name/chi/chicago-
+bears) coach John Fox to face the question of whether [Jay
+Cutler](http://www.espn.com/nfl/player/_/id/9597/jay-cutler) would be the
+team's starting quarterback in 2015, as he was asked during his introductory
+news conference Tuesday.
+
+Fox wisely gave a noncommittal answer, but the question isn't going away for
+Fox and new general manager Ryan Pace. It also might not even be Chicago's
+biggest roster issue, as the Bears desperately need to turn around a defense
+that in 2012 was our fourth-rated unit at Pro Football Focus and dropped all
+the way to No. 32 in 2013. The Bears improved in 2014 thanks to some savvy
+work in free agency, but the unit was still a major weakness, in large part
+because of terrible pass coverage.
+
+But I actually think the Cutler answer can be a simple one for the Bears: They
+should keep him, but use him differently than Marc Trestman and his staff did
+in 2014. Some marks in favor of Chicago keeping Cutler:
+
+**1\. The contract situation isn't as bleak as it's been made out to be.**
+
+Only $38 million of Cutler's deal is fully guaranteed.

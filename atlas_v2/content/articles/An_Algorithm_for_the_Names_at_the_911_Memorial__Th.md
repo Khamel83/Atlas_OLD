@@ -1,0 +1,109 @@
+# An Algorithm for the Names at the 9/11 Memorial : The New Yorker
+
+**Source**: http://www.newyorker.com/talk/2011/05/16/110516ta_talk_paumgarten?printable=true
+**Type**: article
+**Created**: 2025-08-13T20:35:57.816882
+
+---
+
+title: An Algorithm for the Names at the 9/11 Memorial : The New Yorker
+source: http://www.newyorker.com/talk/2011/05/16/110516ta_talk_paumgarten?printable=true
+date: 2025-08-13T20:35:49.926968
+tags: []
+---
+As long as it took to find and kill Osama bin Laden after the terrorist
+attacks on New York and Washington, it has taken even longer to commemorate
+the thousands he killed. The National September 11 Memorial & Museum, down at
+Ground Zero, remains unfinished. Whether this reflects some discrepancy in
+degree of difficulty depends on how you measure the relative impracticability
+of Central Asian manhunts and New York City building projects. Each requires
+the coöperation of quarrelsome agencies and constituents; the Port Authority
+alone, with its shadowy tribal customs, is a kind of bureaucratic Peshawar.
+
+Nonetheless, last week, a few hours before President Obama paid a visit to
+Ground Zero, Joe Daniels, the president of the foundation in charge of the
+memorial, speaking at an Association for a Better New York breakfast downtown,
+pronounced that the memorial will be open to the public on the day after the
+attacks’ tenth anniversary, four months hence. Like Administration officials
+recounting the milestones in the bin Laden search, Daniels enumerated some of
+the now surmounted obstacles. The big break in the case, it turns out, was the
+invention of an algorithm for sorting the dead.
+
+In 2004, Afghanistan had a new constitution, bin Laden had a new videotape,
+and the 9/11 memorial had a new architect, Michael Arad, whose winning design,
+“Reflecting Absence,” consisted of two cascading pools in the footprints of
+the Twin Towers, and, ringing these pools, a parapet of bronze panels
+inscribed with the names of the dead. Arad began to consider ways to arrange
+them. He ruled out an alphabetical distribution. “Having one pool be A-L and
+the other M-Z—that didn’t feel right,” Arad said last week. Also, there were,
+for example, two men named Michael Francis Lynch, and it seemed off, both
+graphically and emotionally, to have their names appear side by side. A
+chronological order made no sense, either, considering the manner in which
+people died. Whichever system he thought of—by workplace, by floor or seat
+number—seemed to favor some people over others.
+
+In 2006, Mayor Bloomberg, who had become chairman of the foundation, suggested
+that people be loosely grouped according to their location that day. And so
+Arad created nine categories. Around the south pool, he’d list everyone who
+died in the South Tower and at the Pentagon, along with the first responders
+and the passengers on Flights 175, 77, and 93. Around the north pool would be
+those who died in the North Tower and on the plane that crashed into it, along
+with the six who died in the first World Trade Center attack, in 1993.
+
+But how to group these? Arad and Daniels settled on the idea of a distribution
+that would seem random, reflecting the chaotic and arbitrary nature of the
+event itself, but that would have some kind of underlying logic, reflecting
+the bonds that preceded or came of it. “One of the biggest messages of the
+memorial and the museum is that the people who got up and did whatever they
+did that morning, and then died doing it, were no different from the rest of
+us,” Daniels said. “They were us, we are them.” In 2009, the foundation sent
+out letters to the victims’ families, soliciting “meaningful adjacencies”—that
+is, the names of others with whom each victim should be listed.
+
+“It was a big risk,” Arad said. “We didn’t know we’d actually be able to do
+this.”
+
+By the end of that year, the foundation had received twelve hundred requests
+for adjacencies (and these didn’t include the self-contained adjacencies, such
+as, say, Ladder Company 7 or Cantor Fitzgerald, which, with six hundred and
+fifty-eight names, represented the biggest, and most challenging, adjacency
+block of them all). The reasons for these requests were varied. Sometimes the
+victims were cohorts, or best friends. In other cases, the families knew, from
+last phone calls, whom their loved ones had been with in the end—in an
+elevator, on a ledge—and wanted those people listed together. A same-sex
+couple and their three-year-old son all perished on Flight 175; their names,
+certainly, belonged together. One woman, Angela Houtz, died in the Pentagon,
+in a conference room with seven others coördinating a response to the attacks
+in New York. Her mother requested that Angela be listed with these seven.
+Another woman, Abigail Ross Goodman, lost her best friend, who’d been on the
+ninety-sixth floor of the North Tower, when Flight 11, with her father aboard,
+crashed into it—a meaningful adjacency, to be sure.
+
+Arad arranged the requests using index cards. Each pairing set off a chain
+reaction, the strings of connection growing ever more tangled and frayed.
+There were two thousand nine hundred and eighty-two names. The deeper he and
+his staff got into this puzzle, the more complex it became, especially in
+light of the aesthetic requirements: for example, he didn’t want names lining
+up evenly atop each other, lest there be gutters between them. He had to
+factor in the number of letters in each name. He had to consider the leading.
+
+At a certain point, the foundation recognized that this job could use the
+assistance of a computer. Even so, the first few computer scientists and
+statisticians the foundation got in touch with said that it couldn’t be done.
+“It really did seem insurmountable,” Daniels recalled. But then his chief of
+staff called Jake Barton, the principal at the media-design firm Local
+Projects, who took on the assignment, and, with a data artist named Jer Thorp,
+designed an algorithm that could sort the names in keeping with all the
+overlapping requests. Before long, they had a distribution designed to please
+everyone, including Arad.
+
+“It was a computer-science problem, but it was also a big, crazy typography
+problem,” Barton said last week. As a spatial puzzle, it also owed a little
+bit to the so-called “knapsack problem” in mathematics, which involves trying
+to optimize the fit of irregularly shaped or weighted objects in a backpack.
+Their solution was really a combination of algorithms, which they called the
+Names Arrangement. A graphic representation of the computational armature,
+color-coded on a laptop screen, brings to mind Tetris, but the sight of the
+names themselves, inscribed in bronze, linked together by happenstance and
+blood, calculus and font size, is a little like the faint silhouette of a
+cosmic plan, or else of the total absence of one. ♦

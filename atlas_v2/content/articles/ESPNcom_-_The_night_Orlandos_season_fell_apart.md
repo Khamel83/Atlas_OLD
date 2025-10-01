@@ -1,0 +1,445 @@
+# ESPN.com - The night Orlando's season fell apart
+
+**Source**: http://sports.espn.go.com/espn/print?id=5201706&type=Story&imagesPrint=off
+**Type**: article
+**Created**: 2025-08-13T22:06:56.473467
+
+---
+
+title: ESPN.com - The night Orlando's season fell apart
+source: http://sports.espn.go.com/espn/print?id=5201706&type=Story&imagesPrint=off
+date: 2025-08-13T22:06:55.238717
+tags: []
+---
+**Wednesday, May 19, 2010  
+** The night Orlando's season fell apart  
+
+* * *
+
+By Bill Simmons  
+ESPN.com  
+  
+I missed the second half of Tuesday's Magic-Celtics game because I had to
+attend a dinner event for my daughter's school. There are two choices for such
+a conundrum:
+
+1\. Ignore your Blackberry completely, fight off following any road that might
+lead you to finding out the score, avoid any televisions, avoid anyone else
+who's looking at a Blackberry. Sounds great on paper. Never actually works.
+There's always someone who screws it up.
+
+2\. Ignore your Blackberry as much as you can, furtively check it every few
+minutes, and whenever your wife catches you, explain, "I just wanted to make
+sure the babysitter didn't text us." This definitely doesn't work, and if
+anything, it might make your wife angry.
+
+I went for option No. 1, which, again, never works. I don't know anyone who's
+ever pulled it off except my friend Hench, who can hear someone 75 feet away
+say, "Did you catch a score?" and quickly throw his hands up like someone who
+just had a bad call go against him, then start screaming, "I'm TiVo-ing! I'm
+TiVo-ing! I'm TiVo-ing!" and effectively frighten everyone in the room away
+from bringing up sports for the rest of the night. I'm not wired that way.
+Within 35 minutes, I had ESPN's GameCast on auto-refresh (did you enjoy the
+shameless plug?) and was in furtive-glance mode.
+
+But here's where it's good to be me. See, I write about sports for a living.
+That's almost like a get-out-of-jail-free card. Either someone will know what
+I do (and expect me to be looking at my Blackberry), or someone will find out
+what I do and the Blackberry-glancing instantly becomes OK. _He writes a
+sports column, he needs to know the score._ (Actually, I really don't NEED to
+know the score. It's not like something crazy could happen in the game and I
+would have to say, "Everyone, I have to go -- Pierce made a game-winning shot,
+I have to write about it in 45 minutes or I'm going to get fired.") That
+allows me to gently break a social rule or two without any real consequences.
+You know, like eating dinner at a sit-down party with my fork in one hand and
+my Blackberry in the other.
+
+Still, you can't milk it. You have to pick your spots. Which is why I love my
+son (aka the CEO) for what happened Tuesday night. Midway through the third
+quarter, our babysitter texted that the CEO had just thrown up
+"Exorcist"-style all over our TV room. We weren't shocked because there's a
+throw-up virus going around the preschools right now -- by the way, throw-up
+viruses are reason No. 493 not to have kids -- so we quickly made an "If he
+throws up again, we'll have to leave" decision. This allowed me to check my
+Blackberry more frequently than usual. Every time it buzzed with a text, I had
+to glance at it pretending it was the babysitter but knowing it was really
+going to be my father with something like, "Rasheed Wallace just sucks" or
+"How did we blow the lead that fast??????"
+
+I'd like to think my son threw me a solid. Or, I should say, hurled me a
+solid. Now I'm thinking about making sure he throws up every time we go out
+during a big game. (Some day, he will understand.) So that's how I watched the
+Celtics pull out Game 2 -- on auto-refresh, with texts from my father and
+friends, and the whole time I was pulling off a dinner party conversation. But
+I didn't get to WATCH it.
+
+So just for the hell of it, let's retro-diary the second half -- the night
+that Orlando's season fell apart and we inched significantly closer to
+Celtics-Lakers XI: This Time It's For Blood.
+
+**10:20 remaining, third quarter (tied at 55):** Missed three by Vince Carter,
+long rebound to Paul Pierce ... and Dwight Howard stupidly swipes at the ball
+for his fourth foul. We're about 25 more of those away from Stan Van Gundy
+just keeling over like Tommy Boy's dad during the wedding dance scene.
+
+**9:30:** KG shows a high screen for Rajon Rondo, who jumps the gun, zooms by
+Jameer Nelson and Marcin Gortat and gets an easy layup. (Tied at 59.) In last
+year's series, Orlando had distinct advantages at forward (Boston couldn't
+cover both Hedo Turkoglu and Rashard Lewis without KG) and center (once
+Kendrick Perkins got into foul trouble, Boston had nobody to defend Howard);
+also, Rondo wasn't consistently great enough yet to turn point guard into a
+decided checkmark for Boston. Now? The forwards are a wash; Wallace gives
+Boston 12 fouls to use on Howard instead of six; and Rondo has evolved into
+one of the 10 best players in the league. Three battles swung completely. And
+that's before we get to Lewis retiring before the playoffs.
+
+(What? He didn't retire? Are we sure?)
+
+**8:22:** Rondo (17 points, five assists so far) pulls off what can only be
+called "The Rondo" (drive into the lane, flip your right hand out like you're
+passing, cup the ball, keep it, make a running layup). Let the record show
+that Deron Williams kept the "Best Point Guard Alive" belt for about as long
+as the Iron Sheik kept the WWF title between Bob Backlund and Hulk Hogan. In a
+choose-up game, you're taking any other point guard before Rondo right now?
+Please.
+
+**7:15:** After Garnett's jumper puts Boston up by five, Vince Carter (12
+points, 3-for-10 shooting so far) explicably collapses while running down the
+floor. (I say explicably because it's always explicable when Vince Carter
+decides to fall down in a heap. It's not like anyone would ever say, "My God,
+what just happened! Vince Carter fell down!") I had 5:37 of the third quarter
+in ESPN.com's "When will Vince be writhing on the floor in pain?" office pool.
+Did I win? Dammit! David Thorpe was closer. He had 6:38. So close.
+
+**7:15:** Vince continues to writhe in pain.
+
+**7:15:** Still writhing.
+
+**7:15:** Vince heroically stands up, then bends over trying to regroup. Who's
+getting a bigger kick out of this -- Raptors fans or Nets fans?
+
+(Now here's where you say, "Wait a second, don't you root for Paul Pierce?"
+Here's my comeback: 2008 Finals MVP; came back three weeks after nearly
+getting stabbed to death; made a buzzer-beater in the same game in which he
+had his front two teeth knocked out. So there.)
+
+**6:50:** Jeff Van Gundy praises brother Stan for putting Howard back in the
+game with four fouls. I agree: Down five, nobody else scoring, season on the
+line ... gotta do it. And if Howard's not smart enough to tweak his game with
+four fouls, you don't deserve to win the title, anyway.
+
+**5:59:** Down six, Vince heroically returns to the game (Mike Breen: "Sigh of
+relief from the Magic fans") while of course massaging his left wrist to
+remind everyone that, "Hey, if I suck for the rest of this game, just
+remember, I'm hurt." This is why he's Vince Carter.
+
+(Note: This is why ESPN could never make me the third announcer of a three-man
+NBA booth, even though I'd be absolutely fantastic and a hero to Richard
+Deitsch, Richard Sandomir, Neil Best and even that lovable crank Phil Mushnick
+... I just wouldn't be able to hold my tongue in spots like this. If Breen
+said, "Sigh of relief from the Magic fans," I'd HAVE to retort, "Sigh of
+relief? You really thought he was hurt, Breenie? He's Vince Carter! You can't
+possibly think he was really hurt!!!!! Have you not WATCHED Vince Carter????")
+
+**5:05:** On consecutive possessions, Glen Davis stops Howard on a low-post
+move with no help, then takes a charge from Nelson. Celtics by eight. And by
+the way, no matter how this series plays out, we now know the blueprint for
+beating the 2009-10 Magic: defend Howard one-on-one (and use your fouls on
+him), stay home on the 3-point shooters and dare their perimeter guys to beat
+people off the dribble.
+
+**4:50:** KG fakes a jumper, then drives down the paint untouched for a dunk.
+(Kudos to Lewis for somehow avoiding a hard foul or a charge and doing the
+"Ole!" routine.) "And there's the difference right now," Van Gundy says. "Big
+Baby Davis puts his body in front, Garnett from 21 feet drives it, Magic get
+out of the way. No hard foul, no charge, and right now they're teetering on
+the brink." Exactly. Boston 70, Orlando 60.
+
+**4:06:** Howard posts up, executes a nice spin move and gets fouled as Mark
+Jackson repeats his "You're not gonna beat the Celtics by posting up Dwight
+Howard" routine. Couldn't agree more. But if you're Orlando, what's Plan B?
+It's like Sean Grande said on my podcast last week: "Cleveland and Orlando
+spent the past year building teams that could beat each other." They forgot
+about the 2008 champs. And frankly, so did I. Gotta love sports. You just
+never know.
+
+**3:15:** Jameer Nelson sinks a 3-pointer (Orlando's first field goal in six-
+plus minutes) to cut it to seven. Doc Rivers quickly calls a preemptive
+timeout before the crowd gets going. Smart. Once upon a time, the Doc that
+drove me crazy never stuck to a rotation and always called timeouts about
+three plays too late. Now? He sticks to a rotation and doesn't call timeouts
+three plays too late anymore. Maybe he finally passed the 10,000-hour Coaching
+Outlier point.
+
+**3:15:** Joke I would have made if I were writing this diary in real time:
+"Could somebody go to Google Maps and print out directions to the Eastern
+Conference finals for Rashard Lewis?"
+
+**2:36:** Pierce beats Vince off the dribble, upfakes him and draws Vince's
+fourth foul. That's been a mismatch all night. I'd like to thank Stan Van
+Gundy for avoiding his best lineup for this particular series: Nelson, J.J.
+Redick (who does a nice job following Ray Allen through screens), Lewis (whose
+length would bother Pierce defensively), Gortat and Howard (for a little Twin
+Towers action). Those are Orlando's best five guys. We haven't seen them play
+together once.
+
+(Wait, why am I putting this in print? Um ... more Vince! You gotta get him
+the rock more, Stan!)
+
+**2:36:** As Pierce makes his second free throw (Boston by nine), Jackson
+mentions again that Orlando can't beat Boston by posting up Howard, then
+suggests they use him on high screens (like the Magic did against the Cavs
+last spring) to open the floor for him. Good point. By the way, every good
+Jackson point should be accompanied by the graphic, "FYI: He's available for a
+2010-11 coaching job! For further information, please call Steve Kauffman of
+Kauffman Sports Management."
+
+**2:35:** Rasheed just re-entered the game. His plus-minus was minus-65 in the
+first half. I know that sounds impossible, but it's true. He couldn't have
+played worse. Total opposite of how Game 1 went.
+
+(By the way, Rasheed, just a word of advice: Even if Boston beats Orlando
+partly because Dwight Howard brings the best out of you, you really can't brag
+about how Boston got you for the playoffs and the regular season doesn't
+matter. You know why? Because of the thousands of season-ticket holders who
+paid to watch you jog from 3-point line to 3-point line for six months. Unless
+you want to give them a refund. And I doubt it. Anyway, you didn't try, you
+didn't care, we can all agree ... but don't be so damned happy about it.)
+
+**2:00:** Van Gundy calls Lewis "disengaged." At this point in the game, Lewis
+has scored eight points in Games 1 and 2 ... combined. What's worse than
+disengaged? Unengaged? Misengaged? Degaged? Ungaged? Anti-gaged? Comatose?
+Dead? Whatever's worse, that's Lewis. One bright spot: During Game 2, my
+father mistakenly referred to Lewis as "Rasheed" for a record-setting 2,500th
+time. An emotional moment for everyone.
+
+(Note to Lewis: It's only going to get worse when the series shifts back to
+Boston. Let's just say your 10-game suspension may inspire a tweet or two at
+[twitter.com/celticschants](http://twitter.com/celticschants) this weekend.)
+
+**1:02:** Spinning, herky-jerky, foul-line jumper from Pierce (26 points so
+far). Too easy. Celtics by nine. Lewis answers with a 3. Big Baby answers by
+finishing a pretty pass by Pierce. Howard (23 points so far) hits two free
+throws. Rondo hits an end-of-the-quarter jumper. End of the third: Boston 78,
+Orlando 70.
+
+The big retro-question: Is Orlando tough enough to flip this series around?
+Isn't it interesting that this year's happy-go-lucky playoff teams --
+Cleveland and Orlando, both known for having fun in pregame warm-ups,
+organizing funky dances and laughing/strutting with big leads -- suddenly got
+that collective deer-in-the-headlights look as soon as someone punched them in
+the collective mouth? If anything stood out over Boston's past eight games,
+it's been the Celtics' icy professionalism; they just keep coming and coming.
+Not many chest bumps, very few smiles, just a locked-in group of guys. Even in
+2008 (when they won it all), they weren't locked in like this -- they've
+played 13 playoff games so far and stunk in only one of them.
+
+Look, I love chemistry as much as the next guy, but if we've learned anything
+this spring, it's that the "look how much fun we're having!" routine doesn't
+fly in May and June. At some point, you have to suck it up, stay focused, bang
+bodies and make plays. Cleveland couldn't do it last round; Orlando hasn't
+done it through seven quarters of this round. And now ... we're here.
+
+**12:00 remaining fourth quarter:** Stan Van Gundy tells Doris Burke sadly,
+"We can't stop 'em. We haven't held them under 25 in one quarter, we can't
+stop them." If I were Doris, I would have responded, "Don't worry, Stan --
+this 2010 Celtics team loves building a lead for three quarters, then blowing
+that same lead in the fourth. You will have a chance to win this game. Keep
+your head up."
+
+(Sad moment: I didn't realize until I was proof-reading this piece that I
+wrote the entire thing without once comparing Stan to Ron Jeremy or making a
+joke about his clothes. It's like the end of an era. We've known him so long
+now that he's like an uncle with a bad toupee that we see for two holidays a
+year, only it's been so many holidays now that we forget how funny the toupee
+is. Again, a sad day.)
+
+**11:39:** Sheed drains a corner 3. I always liked him! Celtics by 11.
+
+**10:48:** After a Jason Williams 3, Mike Breen keeps his "Oh, Tony Allen,
+nice move ... can't finish!" playoff streak alive at 37 straight games.
+Nineteen away from DiMaggio. (The best part about it -- Breen is always
+surprised when Tony misses the layup. Always kills me.) That's followed by a
+Mickael Pietrus jumper, then Rondo answering with a slithery scoop shot and
+Van Gundy pointing out that the older 2010 Celtics are suddenly every bit as
+good as the younger 2008 Celtics just because Rondo is so much better now. Two
+plays later, Rondo forces a steal, then makes a pretty reverse layup in
+traffic. Celtics by eight.
+
+A few seconds later, there's a TV timeout and we see Pierce and Rondo walking
+toward the bench ... with Pierce's arm draped around Rondo's shoulder like a
+big brother. That's been the biggest change this season. It took the veterans
+six solid months to accept that (A) this was now Rondo's team, and (B) they
+were along for the ride. They fought it, bitched at him, bullied him, resented
+him, griped about him behind the scenes ... then the playoffs rolled around
+and everything fell into place. And really, that's the way it had to be.
+Pierce, Allen and Garnett can't bring it every night. The Celtics can always
+get a big game from one of them, and if they get two of them going, they're
+unstoppable. But Rondo is the constant. It's his team now. If you want to go
+deeper, one reason they struggle down the stretch is because Rondo (a poor
+free throw shooter) doesn't want to get fouled, so he plays the last four
+minutes a little differently than the first 44. Hasn't been a problem in the
+postseason. Yet.
+
+**9:54:** But seriously, how great would it have been if Tiger showed up for
+Game 2 and sat courtside ... only he brought a porn star like Sasha Grey or
+Joslyn James with him, then the camera kept showing them alternately cheering
+and mauling each other during the game as ESPN's announcers struggled for
+things to say? Would that have been the best sports moment of the year, or
+would you still go with the Super Bowl or the Duke-Butler game? I'm torn.
+
+**6:57:** Just finished this sequence: Howard sinks a jump hook; Perkins fouls
+out on the 15,000th moving screen of his career (dubious call); Howard makes a
+second jump hook; Rondo turnover; Redick draws a foul and makes both freebies;
+Boston by ... two??? That was fast. By the way, where did this Orlando crowd
+come from? There are 16,000 people at this game? Since when???
+
+(Retro-note: During dinner, I remember refreshing my Blackberry, seeing the
+score jump from 85-77 to 85-83, then thinking for two seconds, "Should I lie
+to my wife and tell her that the CEO threw up again and we have to rush home?"
+before thinking better of it.)
+
+**3:36:** After Carter and Baby trade baskets, we have an ugly sequence of
+plays: missed Howard jump hook; missed KG 18-footer; bricked Vince 16-footer;
+one of two free throws from Howard; missed Allen 3; missed Lewis 3; Howard
+offensive rebound, foul and two free throws; Rondo traveling violation; Vince
+made 20-footer. Timeout, Boston. Orlando by one.
+
+"And if you're Vince Carter," Jackson says, narrating over the replay of
+Carter's last basket, "This is why they brought you to Orlando."
+
+(The flip side of that quote: You're Vince Carter. We'll get to the meaning of
+that in a second.)
+
+**3:36:** Text from my dad during this timeout: "Magic up by 1 -- bad last 3
+minutes again." I'm just proud that my 62-year-old father can text me with
+crucial updates during basketball games.
+
+**3:07:** After a Celtics miss (good D by Orlando), the Magic clear out for
+Vince, who goes left, thinks about going to the rim, decides against it and
+settles for an awful fadeaway 10-footer. "Gotta keep going to the rim, don't
+shoot the step-back!" Van Gundy gripes. (This goes back to the whole, "If you
+knock down Vince a few times, he'll stop going to the rim and settle for
+jumpers" argument that I've been making all playoffs. That's his career in a
+nutshell. He doesn't want to get hit.) Garnett answers with a pretty fadeaway,
+Davis draws a charge from Redick on a floater (terrible call); Pierce misses a
+jumper (offensive rebound, Garnett); Rondo (25 points) drains a tough
+16-footer. Celtics by three, 1:33 to go.
+
+OK, stop it here.
+
+This is the moment we've wondered about since last summer with the post-
+Turkoglu Magic: Down three, season effectively on the line, less than two
+minutes remaining ... where do they go? Last year, they would have run a high
+screen with Hedo and Howard.
+
+This year? Let's see.
+
+**1:21:** Our answer? A hurried 3-pointer by Nelson with 12 seconds left on
+the shot clock.
+
+\-- Jackson: "I don't like that shot at all."  
+
+\-- Van Gundy (barely hiding his disgust): "No, that's a contested 3 early in
+the clock ... "  
+
+\-- Simmons: "I told you!"
+
+**1:02:** Rondo just misses icing the game when his patented hesitation/scoop
+layup move misses by a quarter-inch. Nelson answers with a transition layup.
+(Boston by one.) Pierce works the clock down, does the herky-jerky, foul-line
+routine and draws a foul. Two free throws. Makes 'em both. Boston by three,
+34.7 seconds left, timeout. Orlando needs to go 2-for-1, which means Vince
+(5-for-15 so far) needs to create a shot quickly. That's why they brought him
+here. Right now.
+
+**0:34:** Closeup of Vince walking back out onto the court as Breen sets the
+stage: "Vince Carter, an eight-time All-Star, all-NBA player, this is first
+conference finals that he's played in ... and these are the moments we said
+that he was acquired for ..."
+
+**0:31:** Great play call by Orlando, forcing Boston to switch off a double-
+screen so Davis is defending Vince atop the key. Vince beats him off the
+dribble, barrels into Pierce and forces Pierce's sixth foul. Couldn't have
+worked out better. You know, assuming he makes these free throws. Which he
+should: 80 percent career, 84 percent this season, 82 percent in the playoffs.
+
+**0:31:** Front of the rim ... off.
+
+**0:31:** Closeup of Vince with a vacant look as every Magic fan gets Nick
+Anderson flashbacks.
+
+**0:31:** Back rim, clang.
+
+Rebound, Davis. Timeout, Boston. Vince walks back to the bench with his head
+down.
+
+Quick tangent: This was one of my greatest Blackberry moments ever. I
+refreshed it at 34 seconds, then saw three seconds elapsed but it was now
+Boston ball, then noticed ...
+
+_**0:31:** Vince Carter missed 1 of 2 free throws.  
+_
+
+**0:31:** Vince Carter missed 2 of 2 free throws.
+
+... and did a silent fist pump. My least favorite NBA player gakking in the
+biggest moment of the series against my favorite team? I felt like pouring
+champagne on myself.
+
+**0:03:** Boston works the shot clock down, gets a good jumper from Garnett
+... off. Redick gets the rebound and wastes four seconds dribbling toward
+midcourt before calling timeout: a double whammy because they lost time _and_
+have to inbound from a goofy spot. That leads to ...
+
+**0:00:** Nelson misses a half-court heave that comes a little too close for
+any Boston fan's liking. Our final score: Boston 95, Orlando 92.
+
+Put it this way: I don't think Orlando has a chance playing the style it
+played, with the lineups it used, against this particular Celtics team. Other
+than Howard's spot, they are worse at every other position. They aren't as
+tough. They can't rebound better or protect the rim better. They can't catch
+fire with 3s because Boston won't let them get open looks. They can't really
+stop Rondo or Pierce. They've lost home-court advantage. They have to come up
+with something drastic -- and I mean, _drastic_ , as in, "Let's go
+Sampson/Olajuwon with Howard/Gortat" -- to change what's happening here. And
+even that probably won't work. Not when the Celtics are locked in like this.
+
+The bigger issue: Faux-urgency, as mentioned in [last Friday's
+column](http://www.espn.com/espn/page2/story?page=simmons/100514&sportCat=nba).
+Charlotte and Atlanta softened this Magic team, boosted their confidence to
+abnormal heights, made them think they were better than they were. Up 20, they
+look like world-beaters. Down by three, they look tight. Making them no
+different than Cleveland, actually.
+
+If you haven't done it before, there will always be five or six moments during
+a postseason when things look bleak and somebody has to step up and say,
+"Don't worry, I got this." For the 2008 Celtics, it happened in Game 7 of the
+Cleveland series (Pierce for most of the game, then P.J. Brown with two huge
+baskets), Game 5 of the Detroit series (Allen and Garnett), Game 6 of the
+Detroit series (Pierce), Game 1 of the L.A. series (Pierce turning the tide in
+what Lakers fans now call the Wheelchair Game, which is funny because this is
+the same fan base that tries to make everyone else think that Kobe Bryant is
+basically a triple-amputee right now), Game 4 (Pierce and Allen obliterating
+the Lakers in the 25-point comeback and ending Sasha Vujacic's career in the
+process) and Game 6 (when KG and Boston's crowd took care of the rest).
+
+Now, look at the 2010 Magic. We'll give them a pass on Game 1 -- rusty,
+lethargic, it happens. But Game 2? Howard didn't touch the ball in the final
+four minutes. Nelson forced that awful 3-pointer with 1:21 left. Vince gakked
+the two free throws. Lewis had his second scoreless fourth quarter of the
+series. Who's left? The Celtics showed up for the 2010 Eastern Conference
+finals on Sunday afternoon. We're still waiting for the Magic.
+
+Bill Simmons is a columnist for ESPN.com and the author of the recent New York
+Times best-seller "[The Book of Basketball](http://www.amazon.com/Book-
+Basketball-NBA-According-
+Sports/dp/034551176X/ref=amb_link_85418331_1?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=center-4&pf_rd_r=0JJ43SAZ0YBCMRBCWY7N&pf_rd_t=101&pf_rd_p=493026531&pf_rd_i=390919011)."
+For every Simmons column and podcast, check out [Sports Guy's
+World](http://www.espn.com/espn/page2/simmons/index). Follow him on Twitter at
+http://twitter.com/sportsguy33.
+
+  
+  
+
+* * *

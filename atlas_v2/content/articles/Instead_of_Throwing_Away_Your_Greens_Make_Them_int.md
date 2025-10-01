@@ -1,0 +1,154 @@
+# Instead of Throwing Away Your Greens, Make Them into "Meatballs"
+
+**Source**: http://food52.com/blog/13543-instead-of-throwing-away-your-greens-make-them-into-meatballs
+**Type**: article
+**Created**: 2025-08-13T18:51:44.415393
+
+---
+
+title: Instead of Throwing Away Your Greens, Make Them into "Meatballs"
+source: http://food52.com/blog/13543-instead-of-throwing-away-your-greens-make-them-into-meatballs
+date: 2025-08-13T18:51:36.064631
+tags: []
+---
+_We're serious about keeping farmers market produce on the menu all year
+long.[Alexandra
+Stafford](/web/20250523052126/https://food52.com/users/16479-alexandra-
+stafford "Alexandra Stafford") of [Alexandra
+Kitchen](http://web.archive.org/web/20250523052126/http://www.alexandracooks.com/
+"Alexandra Cooks") shows us how to store, prep, and make the most of it,
+without wasting a scrap._
+
+_Today: Hold onto your carrot tops! And onion tops! And turnip tops! And beet
+greens, too. You can turn all of those greens into a delicious snack._
+
+[![](http://web.archive.org/web/20250523052126im_/https://images.food52.com/L8byVQYHRrDAEXILD9Zry57x8CM=/394cb96c-2df6-40e7-88d3-983e399c83f0
+--
+19567936818_3d01495a6d_b.jpg)](/web/20250523052126/https://food52.com/recipes/37163-fried-
+greens-meatlessballs)
+
+A few months ago, **I discovered a fritter recipe that both quelled my anxiety
+about the indundation of dark leafy greens and made me wish it would never
+end.**
+
+The recipe comes from [Twelve
+Recipes](http://web.archive.org/web/20250523052126/http://www.amazon.com/Twelve-
+Recipes-Cal-
+Peternell/dp/0062270303/ref=sr_1_1?ie=UTF8&qid=1423665454&sr=8-1&keywords=twelve+recipes?tag=food52-20)
+by Chez Panisse’s [Cal
+Peternell](/web/20250523052126/https://food52.com/users/571196-cal-peternell),
+who, one evening as a snack for his family, fried little balls of sautéed
+greens mixed with stale bread and onions. His family devoured the balls,
+mistaking them for real meatballs and thus earning them the name “fried greens
+meatlessballs.”
+
+In early spring, I made the meatlessballs with chard and kale, the two greens
+Peternell suggests. When [CSA
+season](/web/20250523052126/https://food52.com/blog/13537-the-best-csa-share-
+so-far-what-we-did-with-it) began, I used turnip and beet greens, then
+broccoli rabe and mustard greens. **Every green I tried worked.**
+
+[![](http://web.archive.org/web/20250523052126im_/https://images.food52.com/Nl_Lc9tn7GSCcK5flgzlQH3RQcg=/4b91d988-9a74-4986-bd13-9d022288da0d
+--
+19133380884_4cbb1d0d38_b.jpg)](/web/20250523052126/https://food52.com/recipes/37163-fried-
+greens-meatlessballs)
+
+I soon found myself churning out meatlessballs every Tuesday evening, the day
+I pick up my farmshare. **For once, I found myself using the roots' greens in
+their prime, not salvaging them from the vegetable bin at the end of the
+week.** I discovered, too, I could make the mixture ahead of time and store it
+in the fridge until dinnertime. My family loves them and, as Peternell notes
+in _Twelve Recipes_ , “the hot little balls make a nice snack or appetizer,
+but also are good later, to eat at room temperature out of hand on the go.” I
+like them cold, days later, straight from the fridge.
+
+Unfortunately, just as I found my meatlessballs rhythm, the weather turned,
+and in our weekly CSA newsletter, the farmers assured us we could look forward
+to heat-loving crops—cucumbers, zucchini, peppers, and tomatoes—in the weeks
+ahead. The season of greens was nearing its end.
+
+[![](http://web.archive.org/web/20250523052126im_/https://images.food52.com/K3kRfaYM8jwvbIr5hQZqQs3X_bw=/5d62bcaa-933f-4fd4-9403-f6ccad70d099
+--
+19567941210_df9dafcd2e_b.jpg)](/web/20250523052126/https://food52.com/recipes/37163-fried-
+greens-meatlessballs)
+
+On Tuesday, I picked up my vegetable share to discover the worst had come
+true: not a leaf in site. Despite the warning from the farmer, I wasn’t ready
+for the change, for crunchy [Greek
+salads](/web/20250523052126/https://food52.com/recipes/14896-greek-salad-with-
+fennel), [stewy zucchini
+gratins](/web/20250523052126/https://food52.com/recipes/12430-summer-squash-
+gratin-with-salsa-verde-and-gruyere), [dripping tomato
+tartines](/web/20250523052126/https://food52.com/recipes/30425-roasted-
+tomatoes-and-onions-on-toast).
+
+Could I somehow make the season of meatlessballs persist through the warmer
+months? I scanned my share. There were carrots, green tops intact, and lots of
+onions, pure white oblong bulbs goosenecking into stiff, bright green stalks.
+Perhaps the meatlessballs could have one last hurrah?
+
+[![](http://web.archive.org/web/20250523052126im_/https://images.food52.com/-d1lq5DBEFrPBwDSjytK4iYFSHs=/fabcf641-ddb8-40a6-89c9-8547bd470afd
+--
+19567936698_ee6aa8b461_b.jpg)](/web/20250523052126/https://food52.com/recipes/37163-fried-
+greens-meatlessballs)
+
+I gave it a go, quickly pulsing the carrot and onion greens in the food
+processor—finely chopped greens, I have learned, help the balls hold their
+shape—before sautéing them with the onions, garlic, cumin, and cilantro. I
+folded in the feta, breadcrumbs, and egg, then fried them up as usual, in
+cherry-sized portions, using a fork to turn them every few minutes until they
+turned golden all around.
+
+Once again, the recipe didn’t let me down. This batch tasted a little
+grassier, a little greener, but they were just as delicious and disappeared
+just as quickly. Meatlessballs? I’d say miraculousballs.
+
+[![](http://web.archive.org/web/20250523052126im_/https://images.food52.com/gn2TGTrOOcfRoqgWqOc3ztm2cfY=/d9dd1f59-d746-40d2-bf3f-9bc927c233f8
+--
+19567941680_a140f7a247_b.jpg)](/web/20250523052126/https://food52.com/recipes/37163-fried-
+greens-meatlessballs)
+
+**But once you've made your fair share of fried greens meatlessballs, there's
+more to do with those carrot and onion greens:**
+
+For the carrots:
+
+  * Remove the greens from the roots and store both parts in a bag in the refrigerator. **Carrot greens will tire more quickly than their roots, so they should be used quickly.**
+  * [Purée the greens into pesto, toss with roasted carrots, and drop dollops of burrata over top](/web/20250523052126/https://food52.com/blog/12993-the-edgiest-carrots-have-ever-been)—call it a meal with a loaf of crusty bread.
+  * Carrot greens can also be stuffed into chicken cavities, added to soups and stocks, or minced into chimichurri, salsa verde, and green harissa. Keep in mind that carrot greens can be bitter and adjust seasonings accordingly. 
+
+For the onions:
+
+  * Assuming you are handling recently harvested onions that haven’t been cured for long-term storage, remove the greens from the bulbs and store both in the refrigerator.
+  * The tender portions of the greens can be left attached to the onion bulb, which can be sliced and [braised](/web/20250523052126/https://food52.com/recipes/20302-buttery-braised-leeks-with-a-crispy-panko-topping) or [grilled](/web/20250523052126/https://food52.com/recipes/23915-grilled-leeks-red-onions-with-tomatoes-and-thousand-island-dipping-sauce) or [sautéed](/web/20250523052126/https://food52.com/recipes/19490-jean-georges-s-ginger-fried-rice).
+  * The tender portions can also be removed completely and sautéed alone, as you would use an onion. or finely chopped and used like [fresh scallions](/web/20250523052126/https://food52.com/recipes/36676-asian-inspired-chicken-lettuce-wraps-with-slaw).
+  * The tougher portions of the greens can be frozen and reserved for adding to meat and vegetable stocks. 
+
+[![](http://web.archive.org/web/20250523052126im_/https://images.food52.com/q5XeGlNLLoYD1RFnq9XN28SWpJs=/c1019f1f-6f4c-4e60-82cc-
+cb7f5303f690--
+19760659181_179311f009_b.jpg)](/web/20250523052126/https://food52.com/recipes/37163-fried-
+greens-meatlessballs)
+
+[Fried Greens
+Meatlessballs](/web/20250523052126/https://food52.com/recipes/37163-fried-
+greens-meatlessballs)
+
+_Serves 3 to 4 as an appetizer_
+
+**1 bunch greens  
+3 tablespoons olive oil or grapeseed oil**  
+**1 small yellow onion, diced**  
+**Salt, to taste**  
+**2 cloves garlic, chopped**  
+**1/2 cup cilantro**  
+**1 tablespoon cumin seeds**  
+**1 cup fresh breadcrumbs**  
+**1/4 cup crumbled feta**  
+**1 or 2 eggs**  
+**Oil for frying**
+
+[See the full recipe (and save and print it)
+here.](/web/20250523052126/https://food52.com/recipes/37163-fried-greens-
+meatlessballs)
+
+_Photos by Alexandra Stafford_

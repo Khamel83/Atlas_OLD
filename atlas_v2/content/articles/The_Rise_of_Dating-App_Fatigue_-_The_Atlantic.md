@@ -1,0 +1,435 @@
+# The Rise of Dating-App Fatigue - The Atlantic
+
+**Source**: http://www.theatlantic.com/health/archive/2016/10/the-unbearable-exhaustion-of-dating-apps/505184/
+**Type**: article
+**Created**: 2025-08-13T17:48:52.582188
+
+---
+
+title: The Rise of Dating-App Fatigue - The Atlantic
+source: http://www.theatlantic.com/health/archive/2016/10/the-unbearable-exhaustion-of-dating-apps/505184/
+date: 2025-08-13T17:48:51.642108
+tags: []
+---
+“Apocalypse” seems like a bit much. I thought that last fall when _Vanity
+Fair_ titled Nancy Jo Sales’s article on dating apps “[Tinder and the Dawn of
+the ‘Dating Apocalypse](http://www.vanityfair.com/culture/2015/08/tinder-hook-
+up-culture-end-of-dating)’” and I thought it again this month when Hinge,
+another dating app, advertised its relaunch with a site called
+“thedatingapocalypse.com,” borrowing the phrase from Sales’s article, which
+apparently caused the company shame and was partially responsible for their
+effort to become, as they put it, a “relationship app.”
+
+Despite the difficulties of modern dating, if there is an imminent apocalypse,
+I believe it will be spurred by something else. I don’t believe technology has
+distracted us from real human connection. I don’t believe hookup culture has
+infected our brains and turned us into soulless sex-hungry swipe monsters. And
+yet. It doesn’t do to pretend that dating in the app era hasn’t changed.
+
+The gay dating app Grindr launched in 2009. Tinder arrived in 2012, and
+nipping at its heels came other imitators and twists on the format, like Hinge
+(connects you with friends of friends), Bumble (women have to message first),
+and others. Older online dating sites like OKCupid now have apps as well. In
+2016, dating apps are old news, just an increasingly normal way to look for
+love and sex. The question is not if they work, because they obviously can,
+but how well do they work? Are they effective and enjoyable to use? Are people
+able to use them to get what they want? Of course, results can vary depending
+on what it is people want—to hook up or have casual sex, to date casually, or
+to date as a way of actively looking for a relationship.
+
+“I have had lots of luck hooking up, so if that’s the criteria I would say
+it’s certainly served its purpose,” says Brian, a 44-year-old gay man who
+works in fashion retail in New York City. “I have not had luck with dating or
+finding relationships.”
+
+“I think the way I’ve used it has made it a pretty good experience for the
+most part,” says Will Owen, a 24-year-old gay man who works at a marketing
+agency in New York City. “I haven’t been looking for a serious relationship in
+my early 20s. It’s great to just talk to people and meet up with people.”
+
+“I have a boyfriend right now whom I met on Tinder,” says Frannie Steinlage, a
+34-year-old straight woman who is a health-care consultant in Denver. But “it
+really is sifting through a lot of crap to be able to find somebody.”
+
+Sales’s article focused heavily on the negative effects of easy, on-demand sex
+that hookup culture prizes and dating apps readily provide. And while no one
+is denying the existence of fuckboys, I hear far more complaints from people
+who are trying to find relationships, or looking to casually date, who just
+find that it’s not working, or that it’s much harder than they expected.
+
+“It only has to work once, theoretically. But it feels like you have to put in
+a lot of swiping to get one good date.”
+
+“I think the whole selling point with dating apps is ‘Oh, it’s so easy to find
+someone,’ and now that I’ve tried it, I’ve realized that’s actually not the
+case at all,” says my friend Ashley Fetters, a 26-year-old straight woman who
+is an editor at _GQ_ in New York City.
+
+The easiest way to meet people turns out to be a really labor-intensive and
+uncertain way of getting relationships. While the possibilities seem exciting
+at first, the effort, attention, patience, and resilience it requires can
+leave people frustrated and exhausted.
+
+“It only has to work once, theoretically,” says Elizabeth Hyde, a 26-year-old
+bisexual law student in Indianapolis. Hyde has been using dating apps and
+sites on and off for six years. “But on the other hand, Tinder just doesn’t
+feel efficient. I’m pretty frustrated and annoyed with it because it feels
+like you have to put in a lot of swiping to get like one good date.”
+
+I have a theory that this exhaustion is making dating apps worse at performing
+their function. When the apps were new, people were excited, and actively
+using them. Swiping “yes” on someone didn’t inspire the same excited
+queasiness that asking someone out in person does, but there was a fraction of
+that feeling when a match or a message popped up. Each person felt like a real
+possibility, rather than an abstraction.
+
+The first Tinder date I ever went on, in 2014, became a six-month
+relationship. After that, my luck went downhill. In late 2014 and early 2015,
+I went on a handful of decent dates, some that led to more dates, some that
+didn’t—which is about what I feel it’s reasonable to expect from dating
+services. But in the past year or so, I’ve felt the gears slowly winding down,
+like a toy on the dregs of its batteries. I feel less motivated to message
+people, I get fewer messages from others than I used to, and the exchanges I
+do have tend to fizzle out before they become dates. The whole endeavor seems
+tired.
+
+“I’m going to project a really bleak theory on you,” Fetters says. “What if
+everyone who was going to find a happy relationship on a dating app already
+did? Maybe everyone who’s on Tinder now are like the last people at the party
+trying to go home with someone.”
+
+Now that the shine of novelty has worn off these apps, they aren’t fun or
+exciting anymore. They’ve become a normalized part of dating. There’s a sense
+that if you’re single, and you don’t want to be, you need to _do_ something to
+change that. If you just sit on your butt and wait to see if life delivers you
+love, then you have no right to complain.
+
+“Other than trying to go to a ton of community events, or hanging out at
+bars—I’m not really big on bars—I don’t feel like there’s other stuff to
+necessarily do to meet people,” Hyde says. “So it’s almost like the only
+recourse other than just sort of sitting around waiting for luck to strike is
+dating apps.”
+
+But then, if you get tired of the apps, or have a bad experience on them, it
+creates this ambivalence—should you stop doing this thing that makes you
+unhappy or keep trying in the hopes it might yield something someday? This
+tension may lead to people walking a middle path—lingering on the apps while
+not actively using them much. I can feel myself half-assing it sometimes, for
+just this reason.
+
+Larry Lawal, a 27-year-old straight male software developer in Atlanta, says
+he used to meet up with women from the apps for dinner or drinks several times
+a month, but now, “I don’t know, something happened [since] the earlier days,”
+he says. “I kinda use it now just for entertainment when I’m bored or standing
+in lines. I go in with zero expectations. I noticed a huge shift in my
+intentions.”
+
+Lawal remembers the exact moment it switched for him. At the end of 2014, he
+took a road trip with his friend from Birmingham, Alabama to St. Petersburg,
+Florida to go to a college bowl game. “On the way down there, I spent a lot of
+time on Tinder,” he says. “Every city or every stop the entire way, I would
+just swipe.” He had no intention of meeting up with these people, since he and
+his friend were literally just passing through. And he realized, he says, that
+“the idea of being one swipe away from a potential mate kind of lowers the
+meaning of potential interaction.”
+
+“Since 2014, it seemed like there was this declining satisfaction over time in
+these services. And I think it's really hit a low point.”
+
+Hinge, originally, was a swiping app very similar to Tinder except that it
+only offered you people who were connected to you through Facebook friends.
+But the company’s own research, combined with the _Vanity Fair_ article
+convinced the CEO, Justin McLeod, that they needed to change. (According to
+[_Business Insider_](http://www.businessinsider.com/dating-app-hinge-is-
+building-a-new-product-2016-9) _,_ the app was also “bleeding users” and had
+“plummeted to a 1.5 star rating,” which could have had something to do with
+it.) In advance of their relaunch, they publicized some of their own damning
+statistics on thedatingapocalypse.com. “81 percent of Hinge users have never
+found a long-term relationship on any swiping app”; “54 percent of singles on
+Hinge report feeling lonely after swiping on swiping apps”; “Only 1 in 500
+swipes on Hinge turn into phone numbers exchanged.”
+
+McLeod has noticed the same waning of enthusiasm that I have. “We have people
+in for focus groups all the time, and we do surveys, and since probably like
+2014, it seemed like there was this sort of declining satisfaction over time
+in these services,” he says. “And I think it’s really hit a low point.”
+
+Whenever using a technology makes people unhappy, the question is always: Is
+it the technology’s fault, or is it ours? Is Twitter terrible, or is it just a
+platform terrible people have taken advantage of? Are dating apps exhausting
+because of some fundamental problem with the apps, or just because dating is
+always frustrating and disappointing?
+
+“The process of dating inherently sucks,” says Holly Wood, a PhD candidate at
+Harvard University who’s doing her dissertation on modern dating. “I literally
+am trying to call my dissertation ‘Why Dating Sucks,’ because I want to
+explain that. But I can’t, because they won’t let me.”
+
+Moira Weigel is a historian and author of the recent book _Labor of Love,_ in
+which she chronicles how dating has always been difficult, and always been in
+flux. But there is something “historically new” about our current era, she
+says. “Dating has always been work,” she says. “But what’s ironic is that more
+of the work now is not actually around the interaction that you have with a
+person, it’s around the selection process, and the process of self-
+presentation. That does feel different than before.”
+
+Once you meet someone in person, the app is not really involved in how that
+interaction goes anymore. So if there is a fundamental problem with dating
+apps that burns people out and keeps them from connecting, it must be found
+somewhere in the selection process.
+
+Hinge seems to have identified the problem as one of design. Without the
+soulless swiping, people could focus on quality instead of quantity, or so the
+story goes. On the new Hinge, which launched on October 11, your profile is a
+vertical scroll of photos interspersed with questions you’ve answered, like
+“What are you listening to?” and “What are your simple pleasures?” To get
+another person’s attention, you can “like” or comment on one of their photos
+or answers. Your home screen will show all the people who’ve interacted with
+your profile, and you can choose to connect with them or not. If you do, you
+then move to the sort of text-messaging interface that all dating-app users
+are duly familiar with.
+
+![](https://cdn.theatlantic.com/thumbor/oaOpyZxL03VsgypGmAjyD2qAn44=/158x0:3172x4764/315x498/media/img/posts/2016/10/tinderspot/original.gif)Chelsea
+Beck
+
+When the company beta-tested this model, “we found that this leads first of
+all to more people connecting,” McLeod says. “But more importantly, when there
+was a connection, five times as many turned into two-way conversations, and we
+actually saw seven times the number of phone numbers exchanged relative to the
+number of connections. People are more selective with this model. It takes a
+little bit more brainpower to actually show interest in someone, rather than
+just flicking your thumb to the right.” (In the few days I’ve been using this
+app so far, men have mostly just “liked” my photos in order to indicate
+interest, which I’d argue is not any more effortful than swiping.)
+
+The new Hinge will also cost money—$7 a month, though a three-month free trial
+is currently available. McLeod believes this will make it so that only people
+who are serious about finding someone will use the app. Whether many people
+will be willing to pay for it remains to be seen.
+
+“I really wouldn’t,” Hyde says, noting that Hinge will cost around the same as
+Netflix, “and Netflix brings me much more joy.”
+
+“The thing with design is, at risk of belaboring the obvious, how all of these
+apps make money is by keeping people on the app,” Weigel says. “Yes, there’s
+better and worse design, but there is ultimately this conflict of interest
+between the user of the app and the designer of the app.”
+
+For this story I’ve spoken with people who’ve used all manner of dating apps
+and sites, with varied designs. And the majority of them expressed some level
+of frustration with the experience, regardless of which particular products
+they used.
+
+I don’t think whatever the problem is can be solved by design. Let’s move on.
+
+It's possible dating app users are suffering from the oft-discussed paradox of
+choice. This is the idea that having more choices, while it may seem good… is
+actually bad. In the face of too many options, people freeze up. They can’t
+decide which of the 30 burgers on the menu they want to eat, and they can’t
+decide which slab of meat on Tinder they want to date. And when they do
+decide, they tend to be less satisfied with their choices, just thinking about
+all the sandwiches and girlfriends they could have had instead.
+
+The paralysis is real: According to a [2016
+study](https://arxiv.org/abs/1607.03320) of an unnamed dating app, 49 percent
+of people who message a match never receive a response. That’s in cases where
+someone messages at all. Sometimes, Hyde says, “You match with like 20 people
+and nobody ever says anything.”
+
+“There’s an illusion of plentifulness,” as Fetters put it. “It makes it look
+like the world is full of more single, eager people than it probably is.”
+
+Just knowing that the apps exist, even if you don’t use them, creates the
+sense that there’s an ocean of easily-accessible singles that you can dip a
+ladle into whenever you want.
+
+“It does raise this question of: ‘What was the app delivering all along?’”
+Weigel says. “And I think there's a good argument to be made that the most
+important thing it delivers is not a relationship, but a certain sensation
+that there is possibility. And that's almost more important.”
+
+Whether someone has had luck with dating apps or not, there’s always the
+chance that they _could._ Perhaps the apps’ actual function is less important
+than what they signify as a totem: A pocket full of maybe that you can carry
+around to ward off despair. But the sense of infinite possibility online has
+real-world effects.
+
+For example, Brian says that, while gay dating apps like Grindr have given gay
+men a safer and easier way to meet, it seems like gay bars have taken a hit as
+a result. “I remember when I first came out, the only way you could meet
+another gay man was to go to some kind of a gay organization or to go to a gay
+bar,” he says. “And gay bars back in the day used to be thriving, they were
+the place to be and meet people and have a good time. Now, when you go out to
+the gay bars, people hardly ever talk to each other. They’ll go out with their
+friends, and stick with their friends.”
+
+“Think about what it would feel like to meet someone in a bar without the
+backdrop of ‘Oh, but I could also just go on Tinder.’ It would feel like a lot
+more precious of an opportunity.”
+
+The existence of the apps disincentivizes people from going for more high-
+stakes romantic opportunities. If, for example, you have feelings for a
+friend, but you’re not sure they feel the same, rather than take that risk,
+you might just look for someone on the apps instead. Heck, for that matter,
+you might not ask someone out in a bar, because the apps just feel easier.
+It’s so low-stakes. If doesn’t work out, well, it was only a stranger. You
+didn’t have to make a friendship awkward, or embarrass yourself by asking
+someone out in person.
+
+“I couldn’t tell you how many times this happens to me,” Fetters says. “I’ll
+have a great conversation with a guy at a party or a bar, and [we’ll get to a
+point where] now would be the natural moment for him to ask for my number, or
+for someone to be like ‘Hey, let’s get together.’ I know the contours of these
+things, and I can’t tell you how many times I’ve been like, ‘Um, okay, so I’ll
+see you around.’”
+
+“Think about what it would feel like to meet someone in a bar and hit it off
+with them without the backdrop of ‘Oh, but I could also just go on Tinder,’”
+she continues. “It would feel like a lot more precious of an opportunity.”
+
+Perhaps the problem is just that no one knows what they’re doing. Apps and
+online dating sites “don’t instruct people on how to date, they only offer a
+means of communicating,” Wood says. In the absence of clear norms, people just
+have to wing it. Often there’s no way to know exactly what someone is looking
+for, unless they say so explicitly.
+
+“But right now, people feel like they can’t tell people that,” Wood says.
+“They feel they’ll be punished, for some reason. Men who want casual sex feel
+like they’ll be punished by women because [they think] women don’t want to
+date guys for casual sex. But for women who are long-term relationship-
+oriented, they can’t put that in their profile because they think that’s going
+to scare men away. People don’t feel like they can be authentic at all about
+what they want, because they’ll be criticized for it, or discriminated
+against. Which does not bode well for a process that requires radical
+authenticity.”
+
+This is how “chill” becomes the default setting for dating. Chill, that
+laissez-faire stance of being open to “seeing where things go,” but not
+actually _desiring_ that things go any certain way. “Chill asks us to remove
+the language of courtship and desire lest we appear invested somehow in other
+human beings,” as Alana Massey put it in her [magnificent 2015
+screed](https://medium.com/matter/against-chill-930dfb60a577#.pm4j6cpfz)
+against the non-emotion. “It is a game of chicken where the first person to
+confess their frustration or confusion loses.”
+
+Weigel thinks this could be a result of some residual shame or embarrassment
+about being on the apps in the first place, about being willing to admit to
+others that you’re looking for _something_ , even if you won’t say what it is.
+“I think it fosters this over-compensatory coldness,” she says.
+
+So that’s exhausting. And then, of course, there’s the harassment. Most people
+I spoke with reported getting some kind of rude or harassing messages, some
+more severe than others.
+
+“I get one message pretty often,” Lawal says. “I’m an African-American person,
+and there’s a stereotype that black guys are well-endowed. There are some
+matches that immediately after the ice is broken ask me [about that].”
+
+“There’s a ton of men out there who treat you like you’re just basically a
+walking orifice,” Steinlage says. “Once you’re matched with somebody, the
+rules go out the window.”
+
+The harassment is of course the fault of the people doing the harassing. But
+an environment with few rules or standard social scripts probably doesn’t
+help. The apps show people their options, connect them, and then the rest is
+up to them, for better or worse.
+
+“It’s not the app’s fault that once you go on a date you’re like ‘Ugh,’” says
+David Ashby, a 28-year-old straight man who works for a tech startup in New
+York City. “I think it’s just people. It turns out, humans are hard.”
+
+Humans are hard. So dating is hard. And a common complaint about dating, app-
+facilitated or otherwise, is that people are just too busy to deal with it.
+Because it’s work, it takes time. Time that people either don’t have, or don’t
+want to waste on something that might not work out.
+
+“I think a lot of it is the 24/7 work culture and the obsession with
+productivity [in the U.S.],” Weigel says. “There’s this way in which people
+are more fearful of wasting time than they used to be. I think it feels
+historically new. There's this sense of time being scarce. I think it's tied
+to this fantasy that apps promise of ‘Oh we'll deliver this to you very
+efficiently. So you won't have to waste time.’”
+
+Dating sites and apps promise to save you time. An actual date still takes
+pretty much the same amount of time that it always has, so where the apps cut
+corners is in the lead-up.
+
+A Tinder spokesperson told me in an email that while the app doesn't lessen
+the time it takes to build a relationship, it has "made the first step super
+easy—we get you in front of someone with an efficiency and ease that you
+couldn't before.”
+
+But getting as many people in front of your eyeballs as fast as possible
+doesn’t end up saving time at all. “I have women saying that they spend 10 to
+15 hours a week online dating, because that’s how much work goes into
+producing one date,” Wood says.
+
+So if there’s a fundamental problem with dating apps, one baked into their
+very nature, it is this: They facilitate our culture’s worst impulses for
+efficiency in the arena where we most need to resist those impulses. Research
+has shown that people who you aren’t necessarily attracted to at first sight,
+[can become attractive](http://www.nytimes.com/2015/06/30/science/for-couples-
+time-can-upend-the-laws-of-attraction.html) to you over time, as you get to
+know them better. Evaluating someone’s fitness as a partner within the span of
+a single date—or a single swipe—eliminates this possibility.
+
+Dating apps do not seem like an efficient way to produce relationships. They
+_are_ an efficient way to move through your options.
+
+“I dated somebody for six months off Tinder, but I nearly swiped left because
+his profile picture was iffy,” Hyde says. “But for some reason I swiped right
+and then he was actually really good to talk to.”
+
+And even if there is an initial attraction, there’s a necessary slowness to
+building intimacy. Efficient dating is, in many ways, at odds with effective
+dating.
+
+“I don’t know if there is a real solution, unless we’re going to be paired off
+by the government,” Steinlage says.
+
+“People all the time use this language of efficiency, and I'm always like,
+‘Well efficient for _what_?’” Weigel says. Dating apps do not seem like an
+efficient way to produce relationships, at least no more so than traditional
+dating, and maybe less so, depending on who you ask. They _are_ an efficient
+way to move through your options.
+
+When you use a resource more efficiently, you ultimately use up more of it.
+This is a concept that the 19th century economist William Stanley Jevons came
+up with to talk about coal. The more efficiently coal could be used, the more
+demand there was for coal, and therefore people just used up more coal more
+quickly. This can happen with other resources as well—take food for example.
+As food has become cheaper and more convenient—more efficient to obtain—people
+[have been eating more](http://www.cbsnews.com/news/is-cheap-food-to-blame-
+for-the-obesity-epidemic/). On dating apps, the resource is people. You go
+through them just about as efficiently as possible, as fast as your little
+thumb can swipe, so you use up more romantic possibilities more quickly.
+
+“There’ve been many weeks in my past where I’ve gone out with somebody every
+night of the week,” Steinlage says. “I really wanted a relationship, and I
+wasn’t shy about that, but it’s exhausting. The idea of putting yourself out
+there again and again and again.”
+
+This desire for efficiency plays out outside of the apps as well—if a first
+date is iffy, people may just not bother with a second—but the apps certainly
+facilitate it. And not just swiping apps. Reading through profile after
+profile on OKCupid or the new Hinge amounts to the same thing.
+
+“The whole way these apps are structured, if you think about it,” Weigel says,
+makes it so “it sort of seems foolish to sink too much time into any one
+person you get in front of you if it doesn’t seem exactly right.” Because that
+would be a waste of time. So you end up spending a little effort on a lot of
+people, and I think this is where the burnout comes from. Because it adds up
+to feel like you’ve done a lot of work, but you’re still left with nothing.
+
+“When you have however many people you’re actively talking to, it doesn’t even
+cross your mind that maybe I’m throwing something away a little soon,”
+Steinlage says. “There’s a whole new currency, and the currency is people. And
+if you lose one person one day, that’s fine—you have 500 others at your
+disposal.”
+
+Dating hasn’t become an apocalypse, it’s just become another way modern life
+can make people feel overworked. When the actual apocalypse eventually comes,
+perhaps it will be easier to recognize love when it’s looking at us over the
+rat carcasses we’re roasting on a spit over a trash can fire, when many of our
+options have been killed off by plagues or zombie hordes, for then no time
+we’re given will feel like a waste. Until then, there’s always Tinder.

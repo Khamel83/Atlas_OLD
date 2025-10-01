@@ -1,0 +1,247 @@
+# It’s Trump’s Nomination To Lose* | FiveThirtyEight
+
+**Source**: http://fivethirtyeight.com/features/its-trumps-nomination-to-lose/
+**Type**: article
+**Created**: 2025-08-13T18:10:16.226290
+
+---
+
+title: It’s Trump’s Nomination To Lose* | FiveThirtyEight
+source: http://fivethirtyeight.com/features/its-trumps-nomination-to-lose/
+date: 2025-08-13T18:10:15.145985
+tags: []
+---
+Tuesday night went about as well as possible for Donald Trump.
+
+Two weeks ago, after a rough stretch of states for Trump, [we issued a series
+of delegate projections](https://fivethirtyeight.com/features/a-state-by-
+state-roadmap-for-the-rest-of-the-republican-primary/) that included something
+called a “path-to-1,237” projection, a set of targets that would allow Trump
+to clinch a delegate majority without having to rely on uncommitted delegates.
+With Trump’s [terrific results in New York](https://fivethirtyeight.com/live-
+blog/new-york-primary-presidential-election-2016/?#livepress-update-14437872)
+last week and [even better ones in the five states that voted on
+Tuesday](https://fivethirtyeight.com/live-blog/april-26-primaries-
+presidential-election-2016/), Trump is running a little ahead of that path.
+
+Based on provisional results, it looks as though Trump will sweep every
+pledged delegate in Maryland (as a result of winning every congressional
+district), Connecticut (as a result of winning every congressional district
+and getting more than 50 percent of the vote statewide), Pennsylvania (where
+statewide delegates are awarded winner-take-all) and Delaware (ditto), along
+with 11 of 19 delegates in Rhode Island (which is highly proportional).
+Combined with the New York results, that gives Trump 200 delegates since we
+issued the path-to-1,237 projections, five delegates ahead of his original
+targets.
+
+STATE | PATH-TO-1,237 PROJECTION | ACTUAL TRUMP DELEGATES  
+---|---|---  
+Wyoming | 1 | 0  
+New York | 91 | 90  
+Maryland | 32 | 38  
+Connecticut | 28 | 28  
+Pennsylvania | 17 | 17  
+Delaware | 16 | 16  
+Rhode Island | 10 | 11  
+Total | 195 | 200  
+Trump’s back on a potential path to victory
+
+None of this was assured, or necessarily all that likely, when we surveyed the
+race a few weeks ago. Trump was coming off one of his worst results of the
+campaign in the Wisconsin primary, along with a disastrous series of results
+in state and local Republican delegate-selection conventions (those will
+[still hurt him](https://fivethirtyeight.com/features/its-probably-first-
+ballot-or-bust-for-donald-trump-at-the-gop-convention/) if the Republican
+convention goes to multiple ballots). While the Northeast had long appeared to
+be a reasonably strong region for Trump, the polls two weeks ago suggested it
+was a tossup whether he’d get to 50 percent of the vote in Connecticut;
+instead he won it easily with 58 percent of the vote. It looked as though he’d
+probably lose a couple of congressional districts in the Washington suburbs in
+Maryland even if he won the state; instead, he swept all eight districts.
+
+In other words, something changed for the better for Trump in the past couple
+of weeks. At the time we issued those delegate projections, Trump had yet to
+get 50 percent of the vote in any state and [both his national polls and
+statewide results seemed
+stagnant](https://fivethirtyeight.com/features/trumps-new-magic-number-
+is-40-percent-of-the-vote/). Now he’s gotten over 50 percent in six states in
+a row. Whereas Trump had once been a safe bet to underperform or, at best,
+match his polling averages, [he’s now beaten them in the last six
+states](https://fivethirtyeight.com/live-blog/april-26-primaries-presidential-
+election-2016/?#livepress-update-14131541).
+
+Having moved to a demographically favorable bloc of states is part of the
+equation, but not all of it. Compare Trump’s excellent result in Maryland (55
+percent of the statewide vote) to his mediocre one in demographically similar
+Virginia on Super Tuesday (35 percent). Pennsylvania, where Trump got 57
+percent of the vote on Tuesday, isn’t all that different from Illinois, where
+he got 39 percent on March 15. (The Pennsylvania result is especially
+important given that Trump [also got favorable-seeming results among the 54
+officially uncommitted delegates](https://fivethirtyeight.com/live-
+blog/april-26-primaries-presidential-election-2016/?lpup=22089522#livepress-
+update-22089522) elected in the state on Tuesday night, which will give him a
+cushion if he falls a bit short of 1,237 pledged delegates.)
+
+The question is what’s changed for Trump, whether the change is permanent or
+temporary, and what implications it has for the next set of states to vote.
+More particularly: What it means for Indiana, which votes next week and awards
+its delegates winner-take-all (some statewide and some by congressional
+district), and which the path-to-1,237 projections had Trump winning. As much
+good work as Trump has done over the past two weeks, a loss in Indiana would
+mostly undo it.
+
+One theory, which I [proposed last
+weekend](https://fivethirtyeight.com/features/trumps-system-is-rigged-
+argument-is-working/), is that Trump is benefiting from Republicans who buy
+his argument that the delegate system is “rigged” against him — or if you
+prefer the milder version, that the candidate with the plurality of delegates
+and votes should become the nominee. It’s hard to prove definitively that this
+is what’s behind Trump’s gains, but there’s some good circumstantial evidence
+for it. Polls [suggest](http://www.nbcnews.com/politics/first-
+read/poll-62-say-republican-most-votes-should-be-nominee-n556846) that
+Republican voters mostly take Trump’s side on the question of the nominee’s
+legitimacy, and the timing of Trump’s gains in the polls lines up well with
+when he started pressing the argument.
+
+My original idea was that this sentiment might be moving undecided voters
+toward Trump — Republicans who just wanted to get the race over with and who
+didn’t want to go through the ordeal of a contested convention. After seeing
+the exit polls on Tuesday, however, I’d propose a slightly different version.
+According to the exit polls, Trump [did not perform especially well among
+late-deciding voters](https://fivethirtyeight.com/live-
+blog/april-26-primaries-presidential-election-2016/?lpup=12477731#livepress-
+update-12477731) — no better than John Kasich did. But recent turnout has been
+low as compared with earlier states. Whereas 25.6 percent of the voting-
+eligible population cast a Republican ballot in Wisconsin, according to
+Michael McDonald’s [estimates](http://www.electproject.org/2016P), an average
+of only 9.9 percent of eligible voters have in the six northeastern states to
+vote over the past eight days.
+
+STATE | TURNOUT AS SHARE OF VOTING-ELIGIBLE POPULATION  
+---|---  
+New Hampshire | 27.8%  
+Wisconsin | 25.6  
+Alabama | 23.9  
+Ohio | 22.3  
+Missouri | 20.7  
+South Carolina | 20.3  
+Idaho | 19.7  
+Arkansas | 19.2  
+Mississippi | 19.1  
+Georgia | 18.8  
+Michigan | 17.8  
+Tennessee | 17.6  
+Virginia | 17.0  
+Oklahoma | 16.5  
+Texas | 16.4  
+Florida | 16.3  
+North Carolina | 15.8  
+Pennsylvania | 15.8  
+Illinois | 15.3  
+Massachusetts | 12.8  
+Vermont | 12.5  
+Arizona | 11.4  
+Maryland | 10.6  
+Delaware | 10.0  
+Louisiana | 8.9  
+Connecticut | 8.7  
+Rhode Island | 7.8  
+New York | 6.4  
+GOP turnout has been low in recent primaries
+
+Turnout estimates for states with incomplete reporting are extrapolated based
+on results as of midnight on April 27.
+
+Sources: Electproject.org, New York Times
+
+So it may not be that undecided voters are gravitating to Trump so much as
+anti-Trump Republicans are discouraged. Trump faces [unusually high levels of
+intraparty opposition for a front-
+runner](https://fivethirtyeight.com/features/republican-voters-kind-of-hate-
+all-their-choices/) — or at least he had seemed to until the past two weeks.
+But Kasich and Ted Cruz are also deeply flawed, and somewhat factional,
+candidates. It’s asking a lot of voters to cast a tactical vote against Trump
+when that tactic requires (i) going to a contested convention in order to (ii)
+deny the candidate with the plurality of votes and delegates the nomination in
+order to (iii) give the nomination to a candidate they don’t particularly like
+anyway. The #NeverTrump voters might not be voting for Trump, but they might
+be staying at home.
+
+I mostly buy this argument — I’m as optimistic about Trump’s chances as at any
+point in the election cycle. (Granted, that isn’t saying that much given that
+I spent much of last year being [highly skeptical of Trump’s
+chances](https://fivethirtyeight.com/features/donald-trumps-six-stages-of-
+doom/).)
+
+But I still have a couple of points of caution.
+
+One is that it isn’t uncommon for candidates to run up the score in primaries
+that appear to be noncompetitive. In fact, this happens all the time. Polls
+[usually call the winners right](https://fivethirtyeight.com/live-
+blog/april-26-primaries-presidential-election-2016/?lpup=19106992#livepress-
+update-19106992) in primaries, but they often lowball their margins of
+victory. It isn’t very motivating to turn out for a guy who’s going to lose a
+state by 30 percentage points, even if doing so might win him an extra
+delegate under some obscure provision of the delegate rules. In Indiana, a
+[genuinely
+competitive](https://projects.fivethirtyeight.com/election-2016/primary-
+forecast/indiana-republican/#polls-only), winner-take-all race where Cruz is
+([theoretically](https://fivethirtyeight.com/features/will-the-kasich-cruz-
+alliance-work/)) the clear alternative to Trump, that won’t be such a problem.
+
+The other caveat is that the Republican race has not only defied
+[“momentum”](https://fivethirtyeight.com/live-blog/april-26-primaries-
+presidential-election-2016/?#livepress-update-13228925) but often contradicted
+it. Whenever Trump seemed to be on a glide path to the nomination (such as
+after Super Tuesday or March 15), he’s had a setback. When he’s seemed to be
+vulnerable (such as after losing Iowa or Wisconsin), he’s rebounded.
+
+This maybe — or probably — is just our reading too much into noisy data. But
+it’s possible there’s some sort of thermostatic effect at work. When Trump
+seems to be on the verge of becoming the presumptive nominee, there’s more
+focus on his [awful general election
+numbers](http://www.realclearpolitics.com/epolls/2016/president/us/general_election_trump_vs_clinton-5491.html);
+meanwhile, the media’s incentives for covering him change, with the
+possibility of Trump imploding at a contested convention becoming a more
+attractive story than the man-bites-dog narrative of Trump winning the
+nomination in the first place. When Trump seems to be in trouble, conversely,
+Republicans are forced to contemplate the problems of a contested convention
+and the inadequacies of Cruz and Kasich, and the media becomes more eager to
+tell a Trump comeback or pivot story.
+
+Indiana is important not only because of its delegates, but also because it
+will give us an indication as to whether the apparent change in Republican
+attitudes is temporary or permanent. If Trump wins Indiana despite its
+[middling-to-
+fair](http://www.realclearpolitics.com/articles/2016/04/21/how_the_republican_race_plays_out_from_here_130351.html)
+(from his standpoint)
+[demographics](http://www.nytimes.com/2016/04/20/upshot/the-most-important-
+primary-is-wait-indiana.html), he won’t quite be the _presumptive_ nominee
+because he’ll still need to follow through with a decent performance in
+California. But he’ll at least be in the [liminal zone that Hillary Clinton
+spent a lot of time in](https://fivethirtyeight.com/features/today-is-
+clintons-chance-to-end-the-groundhog-day-campaign/), with the race not quite
+wrapped up mathematically but close enough that something (a gaffe, a scandal)
+would have to intervene to deny him the nomination. Incidentally, Trump’s
+potential support from the uncommitted delegates in Pennsylvania will give him
+more margin of error in that situation.
+
+* * *
+
+_Listen to the latest episode of the FiveThirtyEight[politics
+podcast](http://fivethirtyeight.com/podcasts/)._
+
+If Trump loses Indiana, however, that will suggest the race is still fairly
+volatile week-to-week, that he’s very likely to lose states such as Nebraska
+that vote later in May, and that the [geographic and demographic
+divergences](https://fivethirtyeight.com/features/the-four-corners-of-the-gop-
+donald-trump-owns-three-of-them/) in the GOP haven’t reversed themselves so
+much as they’ve become more exaggerated. It will improve the morale of anti-
+Trump voters and change the tone of press coverage. And mathematically, it
+will make it hard (although not quite impossible) for Trump to win 1,237
+delegates outright; he’d be back to fighting tooth-and-nail for every
+uncommitted delegate.
+
+I don’t know what’s going to happen in Indiana. But Trump’s strong results
+over the past two weeks have changed the Hoosier State from potentially being
+“must-win” for Trump to probably being “must-win” for his opponents.

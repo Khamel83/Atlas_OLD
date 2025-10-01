@@ -1,0 +1,18 @@
+# How Two Guys Lost God and Found $40 Million - Bloomberg
+
+**Source**: http://www.bloomberg.com/news/features/2015-10-06/how-two-guys-lost-god-and-found-40-million
+**Type**: article
+**Created**: 2025-08-13T18:43:44.164587
+
+---
+
+title: How Two Guys Lost God and Found $40 Million - Bloomberg
+source: http://www.bloomberg.com/news/features/2015-10-06/how-two-guys-lost-god-and-found-40-million
+date: 2025-08-13T18:43:34.291393
+tags: []
+---
+# How Two Guys Lost God and Found $40 Million
+
+And sold Wall Street on a shady new kind of finance.
+
+October 6, 2015, 11:00 AM UTC

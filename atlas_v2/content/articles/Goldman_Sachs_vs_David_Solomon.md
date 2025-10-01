@@ -1,0 +1,644 @@
+# Goldman Sachs vs. David Solomon
+
+**Source**: https://nymag.com/intelligencer/article/david-solomon-goldman-sachs-profile.html
+**Type**: article
+**Created**: 2025-08-13T15:20:28.309426
+
+---
+
+title: Goldman Sachs vs. David Solomon
+source: https://nymag.com/intelligencer/article/david-solomon-goldman-sachs-profile.html
+date: 2025-08-13T15:20:14.976612
+tags: []
+---
+David Solomon at Goldman Sachs headquarters in 2018. Photo: Landon Nordeman
+
+This article was featured in [One Great
+Story](http://web.archive.org/web/20250722200926/https://nymag.com/tags/one-
+great-story/),  _New York_ ’s reading recommendation newsletter. [Sign up
+here](http://web.archive.org/web/20250722200926/https://nymag.com/promo/sign-
+up-for-one-great-
+story.html?itm_source=vsitepromo&itm_medium=articlelink&itm_campaign=ogs_tertiary_zone)
+to get it nightly.
+
+**Even people fond** of [David
+Solomon](http://web.archive.org/web/20250722200926/https://nymag.com/tags/david-
+solomon/) acknowledge that his equilibrium state is what most of us would
+consider tense. The voice of the [Goldman
+Sachs](http://web.archive.org/web/20250722200926/https://nymag.com/tags/goldman-
+sachs/) CEO is perpetually hoarse, as if he has permanently worn it out from
+screaming. “He sort of talks in a yelling voice,” says one colleague. “He’s
+not really yelling, but he sort of talks _at_ you.” “When he talks, he
+shouts,” another banker agrees. “He always sounds like he’s shouting —
+always.” It’s a tendency he can’t even suppress in text: Solomon likes to MAKE
+NOTES ON DOCUMENTS IN ALL CAPS. The word a lot of people use about him is
+_bully_.
+
+Solomon, 61, is bald and broad-shouldered, like a thicker and more wizened
+version of Mr. Clean, with eyes so squinted behind doughy features it’s hard
+to tell what color they are. He walks heavily, a venti iced coffee almost
+always in hand, as though the sport of being a banker were a physically taxing
+one. Several years ago, when Goldman’s board was auditioning him for promotion
+to CEO, the bank’s image specialists gave Solomon tips on becoming more
+approachable. They suggested he walk the floors more often and create
+opportunities for small talk — perhaps by stopping at an assistant’s desk to
+take a piece of candy.
+
+“When I told him, ‘You got to stick your hand in the candy bowl,’ he just gave
+me this look like, _Why would I do that? How is that productive?_ ” recalls
+someone involved in the effort. The exercise did not succeed in endearing
+Solomon to the Goldman rank and file. “He would stomp around the floors in a
+really purposeful way, and he’d find the two or three people he knew,” the
+banker says. “He’d knock on their door and they would get scared. The whole
+thing didn’t work.”
+
+You don’t need to be popular to be the CEO of Goldman Sachs, of course. You
+can even be an asshole. The only real nonnegotiable is that you be skilled at
+making money, so when the board tapped Solomon to lead the bank in 2018, it
+was widely understood that as long as earnings got fat, it didn’t matter if
+his bankers liked him personally.
+
+In a way that was a little hard to detect at first — and has lately become the
+most-talked-about story on Wall Street — that dynamic is being put to the
+test. It started during COVID, when Goldman booked spectacular profits trading
+the pandemic markets at the same time that reports of misery among [junior and
+senior
+bankers](http://web.archive.org/web/20250722200926/https://nymag.com/intelligencer/2021/11/goldman-
+sachs-analysts-money-pandemic.html) alike began to leak to the press.
+Executives quit Solomon’s inner circle for rival shops, younger workers
+complained about the 100-plus-hour weeks he expected, and everyone rolled
+their eyes at his newish hobby: DJ-ing huge parties under the stage name [DJ
+D-Sol](http://web.archive.org/web/20250722200926/https://nymag.com/intelligencer/2022/03/goldman-
+sachs-ceo-david-solomon-will-dj-at-lollapalooza.html).
+
+By the fall of 2022, Wall Street was awakening to something extraordinary: The
+negativity heaping on Solomon was reaching a point at which it could threaten
+his job, no matter the state of the business. Solomon had directed Goldman to
+buy a pair of [private
+jets](http://web.archive.org/web/20250722200926/https://nymag.com/intelligencer/2023/07/what-
+its-really-like-to-fly-on-a-private-jet.html), and [Bloomberg
+News](http://web.archive.org/web/20250722200926/https://www.bloomberg.com/news/articles/2021-03-14/goldman-
+ceo-s-year-of-empty-offices-island-getaways-and-strife) reported (with a
+reference to Marie Antoinette) that he flew them seven times in seven weeks to
+places like Barbuda and the Bahamas, even as he was reprimanding workers for
+not logging more hours in the office. Pictures of Solomon in the DJ booth at
+venues from Napa Valley to
+[Lollapalooza](http://web.archive.org/web/20250722200926/https://nymag.com/intelligencer/2022/03/goldman-
+sachs-ceo-david-solomon-will-dj-at-lollapalooza.html) — looking like the “How
+do you do, fellow kids?_”_ meme brought to life — embarrassed the most image-
+sensitive institution in finance. As the media attention began to take its
+toll on Solomon, he called a former colleague to ask if he would say positive
+things about Goldman to reporters. “Can you believe what my life has become?”
+Solomon said. “It’s getting exhausting.”
+
+The single most harmful report came in November when it leaked that Solomon,
+who is divorced, had once boasted to a group of colleagues, “I bet I was the
+only one who got a blowjob last night.” Behind his back, snickering executives
+gave him a mortifying new nickname: BJ D-Sol. More damage came in April, when
+[Insider](http://web.archive.org/web/20250722200926/https://www.businessinsider.com/david-
+solomon-goldman-sachs-corporate-jet-shareholders-meeting-2023-4) reported that
+Solomon had flown Goldman’s planes at least 21 times to his retreat in the
+Bahamas. (He reimbursed the company, per policy.) Solomon was incensed. The
+next day, FAA records show, he registered a new Embraer Phenom jet for his
+personal use, disguising it under an LLC named for one of the wealthiest
+streets in the Hamptons, where he owns a home: Middle Lane.
+
+Solomon dismissed his adverse coverage as “noise,” but by this June, it was
+deafening. [_The Wall Street
+Journal_](http://web.archive.org/web/20250722200926/https://www.wsj.com/articles/goldman-
+sachs-ceo-david-solomon-dj-bonuses-1a47dbf5) _,_ under the headline “Goldman
+Sachs Is at War With Itself,” reported that Solomon’s predecessor, [Lloyd
+Blankfein](http://web.archive.org/web/20250722200926/https://nymag.com/intelligencer/2022/03/lloyd-
+blankfein-on-russia-ukraine-and-sanctions.html), had openly slagged him at the
+bank’s annual strategy conference. “God, I wish he’d spend less time on the
+plane and more time making money,” Blankfein said to a group of about 15
+partners at a hotel bar. Soon, the [New York
+_Post_](http://web.archive.org/web/20250722200926/https://nypost.com/2023/06/15/goldman-
+sachs-board-starting-to-reevaluate-ceo-david-solomon/) claimed Goldman’s board
+was “starting to reevaluate” its CEO. The gargantuan profits that had
+protected him were slipping away. The most recent quarter saw a year-over-year
+decline of more than 60 percent. Senior and arguably irreplaceable talent have
+kept heading for the exits. In August, John Rogers, the bank’s powerful chief
+of staff to generations of CEOs, stepped down from his role — a sign he may be
+transitioning out of the firm.
+
+Goldman veterans say that in some ways, the situation is more toxic than what
+the bank faced in the post-financial-crisis vampire-squid days. “This is
+considerably uglier for Solomon,” says a former insider. “It’s worse because
+it’s much more personal, and it’s all directed at him.”
+
+In other words, at Goldman Sachs, Solomon’s sins are considered more
+unforgivable than contributing to (and profiting from) the near collapse of
+the global economy. Strategic mistakes that might have been tolerated under a
+more respected regime are being read as disastrous, a direct result of his
+personality. Solomon is blamed for mismanaging a push into new territory —
+banking for relatively ordinary customers — that has lost $3 billion and
+counting since 2020. But at Goldman, that’s frankly not a whole lot of money.
+(Note that in 2020 the bank agreed to pay Malaysia $3.9 billion, and the U.S.
+government a further $2.9 billion, to resolve a sprawling scandal in which it
+pleaded guilty to violating the Foreign Corrupt Practices Act.) “I’ve called
+for CEOs to be fired before,” says Mike Mayo, a bank analyst well known for
+his often antagonistic views. “If it’s warranted, I’ll speak up, but I’m not
+seeing it from the outside metrics.” Instead, the mutiny is best understood as
+backlash to Solomon’s attempt to change Goldman’s business and culture.
+
+For most of its 154-year history, the bank was a private partnership, and even
+after going public in 1999, it still operated like one. It was flatter than
+other big banks with more decentralized power — a secretive and exclusive club
+of elites who were admired as the most talented operatives in the game,
+guaranteed to earn more money than their peers at less exalted institutions.
+What those partners failed to appreciate, though, was that at some point after
+the IPO, they didn’t own the place anymore. Shareholders controlled the voting
+rights, and when Goldman’s board promoted Solomon — making him the first CEO
+to enter the bank mid-career — he had a mandate to run the firm more
+transparently and more like a modern corporation. What’s baffling is that the
+board would give such a delicate task to a person almost universally regarded
+as a jerk.
+
+“David’s not likable,” says a longtime colleague — one of the more diplomatic
+comments I heard in talking to more than 30 of the CEO’s current and former
+executives, most of them partners. “He’s a prick,” says another. “Everybody
+thinks and says he’s a dick,” adds a third. “He’s a tough guy with a very
+short fuse”; “He dehumanizes you when he talks to you.”
+
+Morale has sunk to the lowest level in recent memory, in tandem with a sense
+that the bank inspires less envy among its rivals and less esteem among its
+fee-paying clients and governments around the world. “I don’t feel like the
+place is really Goldman Sachs,” says one of the former partners, whose ex-
+colleagues now call him daily to complain. “Goldman had that sort of magical
+cachet of being the smartest guys in the room, and it doesn’t feel that way
+anymore.”
+
+In finance, words like _cachet_ can be euphemisms for compensation. “If you
+are a Master of the Universe,” one former executive told me, “the only proof
+that you are a Master of the Universe is how much money you get paid.” And
+last year, pay sagged around the firm. The bank dispensed $2.5 billion less in
+compensation and benefits than it had the year before, even though the head
+count had gone up 10 percent. “They’re still the highest-paid people on Wall
+Street — that stuff’s true — but it doesn’t feel good to have a down year,”
+says Tony Fratto, the bank’s spokesperson. “These are people who are used to
+their comp going up every year. This is a place where people get upset about
+this.”
+
+The rancor leaves Solomon in a precarious state. Both outcomes seem
+impossible: that he could continue to lead a team that so thoroughly despises
+him, or that what is supposedly the most ruthless outfit in capitalism would
+really oust its boss over hurt feelings.
+
+“If you try and change the company too fast and too bluntly, it’s gonna break
+or you’re gonna break,” says an executive who left the bank recently. “Organ
+rejection.”
+
+Speaking to employees at Goldman Sachs headquarters in September 2018. Photo:
+Landon Nordeman
+
+**Goldman Sachs has** already gotten rid of David Solomon twice. A try-hard
+public-school kid from Scarsdale, he applied to the bank soon after graduating
+from college and was turned down. The second time he sought a job there, he
+made it all the way to a final interview with a senior partner. As Solomon
+recounted dryly in a recent speech, “He looked at me. He looked at my résumé.
+And he looked back up at me and he said, ‘David, let’s face it. You’re really
+not Goldman Sachs material.’ Which, if true, is really bad for Goldman Sachs
+today.”
+
+Solomon went to work for firms like Bear Stearns and Drexel Burnham Lambert
+instead and distinguished himself in Las Vegas dealmaking, impressing
+billionaires like Sheldon Adelson and, eventually, Goldman Sachs. In 1999, the
+bank hired him as a partner — a side-door entry that Solomon’s longer-tenured
+colleagues never let him forget. After he had been at Goldman for a decade,
+Solomon turned to Gregg Lemkau, who had spent his whole career on the inside,
+and asked what he had to do to stop being called a “lateral.”
+
+“If you wanted, you could start over as an analyst,” Lemkau told him. “And
+then people wouldn’t call you that.”
+
+Although Solomon didn’t experience Goldman in its pre-IPO partnership days, he
+rose to lead the investment-banking division, where his rigorous and demanding
+style kept his team at the top of the industry. By some accounts, it had never
+been better run. “I can’t think of  
+a more horrible thing to say about a person, but he’s just kind of an
+executioner,” says a former executive.
+
+Success created cover for Solomon’s rougher qualities. He had a reputation for
+being “very punitive, very sharp-tongued, very hotheaded,” says Jamie Fiore
+Higgins, a former managing director and the author of a 2022 memoir, _Bully
+Market: My Story of Money and Misogyny at Goldman Sachs_. Solomon could also
+be sensitive about his image. After a reporter described him as “paunchy” in a
+2011 article, Solomon confronted her. Grabbing the fleshy inches covering his
+midsection, he demanded, “Do you think this is a paunch?”
+
+Solomon was known to call the partners he disagreed with “idiots” and even
+curse them out. His colleagues didn’t mind the language so much as how he made
+them feel: stupid, as if the only way they could possibly stand behind their
+opinion was if they were dunces who didn’t deserve to be at Goldman Sachs. “He
+would say something to the effect of, ‘Well, you’re just absolutely wrong
+about that,’ and he would just shut the debate,” says a former partner. A
+classic withering Solomon conversation-stopper was “How could you _possibly_
+think that?”
+
+At the same time Solomon was brawling with senior staff, he was cultivating a
+reputation as a relatively enlightened leader, giving junior bankers Saturdays
+off and promoting women into more lucrative positions. When the bank’s
+president, [Gary
+Cohn](http://web.archive.org/web/20250722200926/https://nymag.com/tags/gary-
+cohn/), left in 2016 to join the Trump administration, Solomon was promoted
+into his role. He was also named co-chief operating officer alongside Harvey
+Schwartz, creating a two-man race to one day succeed Blankfein as CEO.
+Schwartz was also a lateral hire, but he had joined the firm earlier than
+Solomon, come up through the same trading division as Blankfein, and was
+considered the front-runner.
+
+Solomon worked to tone himself down a bit. “I think I’ve benefited at the firm
+in my leadership style for being direct and candid but fair,” he said on a
+podcast recently. “I think about that a lot. And people have said that to me:
+‘You know, sometimes you’re very direct, you’re very candid, but you’re fair.’
+And so as long as they say, ‘But you’re fair,’ I feel like I have the balance
+right.”
+
+While Solomon was competing for the CEO job, his marriage was falling apart.
+At 27, he had married an Ogilvy & Mather PR executive named Mary Coffey, and
+the couple raised two daughters. Solomon’s cuff links bore photos of the
+three. Accompanying David to a Rangers game with clients once, Mary turned to
+one of his colleagues and said, “I’m doing four of these this week.” “I think
+she might have gotten bored of life as the wife of the guy trying to run
+Goldman Sachs,” the colleague says. “It was as much of a job for her, and I’m
+not sure she liked that job.” Before their divorce was finalized, they went
+through a public ordeal. In January 2018, the couple’s assistant, Nicolas
+DeMeyer, was arrested for stealing $1.2 million worth of wine from the
+Solomons’ collection. DeMeyer’s mother offered to pay Solomon restitution, but
+he turned her down. Meaning to sound reassuring but coming off as
+condescending, he told her, “Don’t worry about it — I’m not going to give up
+eating.” Nicolas DeMeyer died by suicide, jumping out a window of the Carlyle
+Hotel, on the same afternoon he was expected in court.
+
+Inside Goldman, Solomon’s balancing act was working. With profits down from
+subprime-era highs, the board was under pressure to modernize the place. The
+next CEO would need to pare back some of its theatrical secretiveness and
+expand beyond trading and investment banking into less glamorous areas like
+asset management and credit cards. Solomon prevailed over Schwartz, pitching a
+more efficient and accountable vision of Goldman that included checks on
+spending accounts and business travel as well as quotas to recruit more women
+to each analyst class. In the summer of 2018, the bank announced that Solomon
+would replace Blankfein as CEO.
+
+Solomon, who had been quietly developing his DJ skills under the tutelage of
+the New York producer Liquid Todd, decided to perform in Montauk a month
+before taking office, spinning at Gurney’s for an audience of millennials
+paying thousands of dollars to sip rosé in cabanas. The _Times_ had outed
+Solomon’s sideline a year earlier, and Blankfein was still deciding whether it
+was grounds for amusement or concern. “DJ-ing is not a social hobby,”
+Blankfein told a number of confidants.
+
+DJ-ing at Lollapalooza in the summer of 2022. Photo: Shea Flynn
+
+**The Solomon era** at Goldman Sachs began with outward signs that he might
+rule as a kinder and maybe even “woker” boss. He relaxed the dress code,
+allowing Goldmanites to sometimes wear jeans; scheduled the bank’s first
+“Investor Day,” at which shareholders and analysts could interview senior
+executives, unimaginable in the partnership era; and decreed that the bank
+would no longer arrange IPOs for companies with boards that were all male or
+all white. The people who actually worked for Solomon, though, were skeptical
+that any amount of DJ-ing could help him evolve. “Everyone in banking laughs
+about the D-Sol thing because they were all terrified of him for the last
+many, many, many years,” says a former senior trader.
+
+At the same time, Solomon was stacking his C-suite with close allies,
+including John Waldron as chief operating officer and Stephanie Cohen as chief
+strategy officer, which insulated him from a degree of criticism. Solomon has
+acknowledged feeling a shift. “As a banker, I always would talk to CEOs and
+they’d talk about sometimes the loneliness, the isolation,” he said recently
+on another podcast. “But I was really surprised, when I actually got into the
+seat, how real it is.” He got little more than a year on the job before COVID,
+and during lockdown, he seemed conspicuously lonely. His kids were on the West
+Coast, border restrictions kept him from visiting his girlfriend in Canada,
+and his vacation home in Baker’s Bay in the Bahamas had just been destroyed in
+a hurricane. Solomon was mostly by himself in his penthouse apartment on
+Wooster Street. While the majority of his colleagues locked down or fled the
+city, he continued to take a car the mile or so to Goldman’s headquarters on
+West Street. “I just think he didn’t have anything to do,” says an ex-partner
+who worked closely with him.
+
+Solomon was among the CEOs most forcefully advocating a quick return to the
+office. He relished telling a story about lunching in the Hamptons one summer
+Friday when one of his junior bankers, sitting at a table with other young
+Goldmanites, walked up to make an introduction. To Solomon, the breach of
+protocol embodied everything that was wrong with remote work: If the analysts
+were comfortable breathing one another’s air in East Hampton, they could do so
+at Goldman headquarters. In July 2020, Solomon directed his team to draft
+memos ordering workers back to their desks before the end of the summer. Some
+of his top advisers pushed back, including his PR chief, Jake Siewert, who
+reminded Solomon of the reputational hit the bank would take if it insisted on
+employees’ attendance while their kids were stuck at home and vaccines weren’t
+yet available. Solomon yielded, though the dispute dragged on. According to
+The Messenger, it got so tense that at one point he snapped to staff, “I can’t
+wait for the markets to turn so I can start firing you.”
+
+Many Goldman bankers point to this juncture as when Solomon started to lose
+them. The bank was realizing staggering profits thanks in part to relatively
+junior employees whose workweeks had jumped from 80 to an unsustainable 120
+hours. Solomon didn’t seem to empathize. In the middle of June 2020, he made a
+cameo on an episode of Showtime’s _Billions_ , and the next month he DJ-ed a
+set as the opening act for the Chain-smokers at an outdoor concert in Water
+Mill, where maskless crowds formed in violation of social-distancing rules.
+Governor Andrew Cuomo tweeted that he was “appalled,” and Solomon apologized
+to the Goldman board.
+
+“I really do think he believes he’s cool. But he’s not cool,” says a former
+employee. “The most fascinating thing about it is that what would make him
+cool is if he was liked internally. And if he actually leaned into his
+uncoolness, he’d be more likable.”
+
+Solomon also started to lose Goldman’s female employees. He had become CEO in
+part by pledging to promote more of them from the back office and into
+divisions that make money and bestow power. He also tied bonuses to diversity
+metrics. But during the pandemic and after, those women leaders began leaving
+at a clip that was hard to ignore (though the total number of female partners
+has gone up). Several hired lawyers and alleged various degrees of sexism and
+discrimination. One such complaint included Solomon’s blowjob comment, which
+an insider later leaked to Bloomberg. Goldman’s lawyers paid off the departing
+employees enough times that Solomon tried to turn off the money spigot, asking
+to personally approve each payment. His legal and PR teams understood that the
+cases were losers regardless of merit. “If they went to a jury, the women
+definitely would have won,” says the ex-partner. “Because they would say,
+‘Well, you’re the guy forcing everyone back to the office.’”
+
+Some 200 partners have left the firm since Solomon took over. There’s always a
+level of churn at Goldman, but what’s striking is the seniority of the
+departing bankers, including division heads, members of the C-suite, and
+rising stars considered contenders to serve as future CEOs. They have gone on
+to positions at hedge funds, private companies, and start-ups — all preferable
+to working for Solomon. “It’s an important part of Goldman tradition for
+partners to leave for a wide range of new pursuits, and we wish them well,”
+Siewert said in March 2021, spinning an early wave of departures to the
+_Times_. Two months later, he quit too.
+
+**If Solomon were** always right, no one in finance would care whether he blew
+up at underlings or rejected every opinion but his own. When you run the most
+powerful investment bank in the world, you’re supposed to be decisive. Yours
+is the only ego that matters, and it helps if everyone recognizes that. The
+problem for Solomon is that lately he has been wrong in consequential ways,
+opening the floodgates for criticism of his style of management by
+intimidation.
+
+Post-crisis reforms had capped Goldman’s potential trading profits, and part
+of Solomon’s strategy to reinvent the bank and get it growing again was an
+aggressive push into Main Street banking, a.k.a. retail or consumer banking.
+Blankfein had started a consumer bank called Marcus — after the firm’s
+founder, Marcus Goldman — that would offer personal loans and high-yield
+savings accounts. Solomon accelerated the effort, devoting more resources and
+pushing the executives in charge to expand their ambitions. “David kept on
+telling them, ‘Go bigger, go bigger, go bigger,’ and made them spend more
+money than they should have,” says a person involved in the process.
+
+Goldman also had a flagship venture with Apple to administer its first payment
+card, and Solomon saw it as a tantalizing new business, a chance to innovate
+in a market dominated by Chase’s surging Sapphire brand and American Express.
+For all of Goldman’s consumer products to be viable, he was adamant that
+Marcus offer a checking account. That would be expensive: Goldman was a
+latecomer to retail banking and would essentially need to pay customers to
+bring their money in the door. The executives in charge of Marcus — Harit
+Talwar and his deputy, Omer Ismail — tried to convince Solomon that checking
+was a bad idea, but he told them they lacked vision, according to people who
+witnessed the discussion.
+
+To appeal to this new class of customers, Goldman had to recruit some very un-
+Goldman-like figures: people with experience in credit-card loans and branch
+banking. The new hires could feel the old guard’s condescension, and the two
+tribes were conspicuously separate. Solomon wanted his bankers in the office
+five days a week, but Marcus employees, many of whom came from the tech
+industry, were permitted to sometimes work from home.
+
+Marcus strategy became the subject of frequent clashes. “I think David’s
+management style was leading the place by fear,” says a former partner. “If he
+didn’t like what you were saying, it was very classic ‘Let’s shoot the
+messenger,’ as opposed to ‘Let’s listen to the message.’ There would be a lot
+of yelling, and there would be a lot of public displays of anger.” Talwar
+resigned in late 2020; a few months later, so did Ismail, who took another
+partner with him to a new job.
+
+“How could you do this to me?” Solomon exploded at Ismail, worried about how
+the string of departures would reflect on his leadership. He clawed back a
+significant chunk of the vested stock Ismail had accumulated — a virtually
+unprecedented move that shocked Goldman veterans. Solomon also blacklisted
+Ismail from attending the bank’s social events and alumni gatherings, putting
+him in the same ignominious company as Tim Leissner, a former partner who had
+pleaded guilty to federal charges in the Malaysia scandal. (Goldman disputes
+Ismail was shunned. As for the clawback, Fratto says, “Equity awards are
+governed by the agreement signed by the recipient. In this case, explicit
+terms were clearly violated, and Goldman Sachs upheld the terms.” Ismail and
+Talwar declined to comment.) Solomon’s treatment of Ismail, who had spent his
+entire career at Goldman, underlined to fellow lifers that even after more
+than 20 years, the CEO was still a lateral, someone who simply didn’t get the
+bank’s unwritten codes of loyalty.
+
+In the summer of 2021, Solomon moved his office from the 41st floor — an
+enclave of mahogany and portraiture with sweeping views of the Statue of
+Liberty — to the 12th, adjacent to Goldman’s Sky Lobby, the most trafficked
+area of the firm. Despite the new proximity, many workers found Solomon as
+remote as ever. This was another way the CEO still seemed like an interloper.
+Generations of Goldmanites have learned that problems should be brought to
+bosses immediately; the easiest way to get fired is not to put up your hand
+and ask for help. The firm takes enormous risks on a daily basis, and the only
+responsible way to operate is to make sure you know about as many of them as
+possible. Solomon, though, had conditioned the people around him to avoid
+coming forward. “It’s the David and John show,” Solomon told partners who
+challenged him, referring to Waldron, the COO. Senior leaders felt
+disenfranchised and irrelevant — unacceptable emotions for people used to
+being Masters of the Universe.
+
+Solomon’s insistence on ambitious goals and his intolerance for disappointment
+were a dangerous combination. A managing director who left recently told me
+about hearing a division head’s troubling confession: They had realized that
+targets for the checking-account product were “never going to fly with senior
+leadership, so I just doubled everything.” Some observers were reminded of
+Dick Fuld, the legendary misanthrope CEO of Lehman Brothers, whose deafness to
+dissent helped doom that bank in 2008.
+
+Solomon kept pushing, completing a $1.7 billion acquisition of a start-up,
+GreenSky, that would allow the bank to make home-improvement loans. But the
+Marcus checking account was running far behind schedule, and the division was
+starting to look like a mishmash. Rising interest rates caused defaults on
+Apple cards to spike; more than a quarter of its credit-card borrowers had
+FICO scores under 660; most of its personal-loan customers were using the
+money to pay down other debt. Goldman Sachs suddenly had millions of customers
+who not only weren’t as rich as the bank’s longtime clients, but were
+struggling to make ends meet.
+
+“At that point, the boat was on fire. We were hemorrhaging cash, we were
+operationally insolvent, and we’d made some bizarre deals,” says the former
+managing director. “A lot of people said Marcus had proved Goldman can be
+something different, and that is very much what I was sold. And then people
+were like, ‘No, this is still totally the vampire squid.’ We all just sort of
+got fooled.”
+
+Some critics have suggested that perhaps Solomon was too distracted between
+DJ-ing and taking private planes to the Bahamas to kitesurf to see that Marcus
+had veered off course. But I think that narrative misses the point. Solomon is
+a workaholic, a CEO who never takes longer than three hours to respond to
+emails. It’s not that he wasn’t paying attention; it’s more likely that no one
+told him.
+
+By the summer of 2022, regulators were investigating the credit-card business,
+and rumors were spreading that Goldman would ditch the consumer division
+entirely. In Dallas for an off-site strategy meeting, put up at an airport
+hotel, senior executives connected the dots. “We all suddenly realized we were
+in Texas for a completely fake exercise — planning to run a business that no
+one had any intention of running for another couple of months,” the former
+managing director says. Layoffs came two weeks later, and Solomon has since
+announced that much of the consumer business is for sale.
+
+Goldman’s partners are likely rankled less by the loss of several billion
+dollars and more by the embarrassment. The bank can always make more money.
+It’s a lot harder to earn back prestige.
+
+**One read of** Solomon’s intransigence is that he simply can’t help being
+prickly. He once got mad at me for writing that he had left a Miami nightclub
+at “almost 3 a.m.,” which I’d rounded up from 2:40 (with time-stamped photos
+to prove it). “That woman,” he told his staff in ire, “is an _embellisher._ ”
+Solomon is notoriously literal. On a Goldman Sachs podcast, Siewert tossed him
+an easy question about how Wall Street had changed in his decades of
+experience there, and Solomon went for a geographically pedantic dunk. “I
+actually haven’t physically worked on Wall Street since 1984,” he said.
+
+For much of Solomon’s remarkable career, he has had the financial performance
+to ignore suggestions that he change his personality. His execution during the
+pandemic made 2021 Goldman’s best fiscal year ever with profits of nearly $22
+billion. Not long afterward, a member of the bank’s board learned Solomon was
+scheduled to [play a set at
+Lollapalooza](http://web.archive.org/web/20250722200926/https://nymag.com/intelligencer/2022/03/goldman-
+sachs-ceo-david-solomon-will-dj-at-lollapalooza.html) and confronted him about
+the cringey optics. “Listen, this is my hobby. Your hobby is playing golf,”
+Solomon said. The board member tried to sway the CEO: “No one has ever OD’d at
+Pine Valley or Shinnecock. There’s a reputational thing.” Solomon played the
+event anyway. Last year was Goldman’s second best by revenue, but it was down
+significantly from 2021, and the firm’s hiring spree during that time meant
+there were many more mouths to feed. When the annual review process began,
+employees learned the bonus pool was looking weak. They also heard rumblings
+that thousands of layoffs were likely, and for the first time, headlines about
+the bank’s bad morale began to include the possibility of Solomon’s ouster.
+“Grumbling Grows for Banking Giant Goldman to ‘Sach’ CEO Solomon,” the _Post_
+wrote just before Christmas.
+
+The bank eliminated 3,200 jobs in January. The next month, many of the firm’s
+more than 400 partners flew to Miami for Goldman’s annual strategy meeting.
+They grilled the CEO about why the firm had to cull so many people, whether
+they would have to make further reductions, and most important, when they
+could all expect to make more money again. Solomon responded that he wished
+only that he had followed his instincts to fire people sooner. “As the
+environment was growing more complicated in Q2 of last year, every bone in my
+body believed we should be much more aggressive in slowing hiring and reducing
+head count,” he said, according to the _Financial Times._
+
+Later in February, reporters and analysts took notice when Solomon lost his
+cool onstage at Goldman’s Investor Day gathering: stammering, sighing audibly,
+and turning his back on analysts who pressed him for details on Marcus and the
+consumer-banking disaster. This was the testy and combative side he showed
+frequently behind closed doors but less often in public.
+
+An even more revealing — and all but unnoticed — exchange happened a few days
+later. As chair of the board of trustees at his alma mater, Hamilton College,
+Solomon attended a networking event on campus in early March. Toward the end
+of the reception, a cluster of seniors approached Solomon with questions about
+the university’s energy investments. Three of them wrote a letter to the
+student newspaper, the _Spectator,_ about what happened next. “Solomon’s
+attitude and behavior toward us and our questions carried extremely racist and
+sexist undertones,” they wrote. “His blatant ignorance and disrespect is one
+we feel obligated to share with the campus community.”
+
+According to the students, they spoke with Solomon for 30 minutes, mostly
+about fossil-fuel divestment. The CEO offended them several times, claiming at
+one point that he “does more in a week to help climate change than we will
+ever do in our entire lives” and pointing to a home he bought in Vail that
+runs on geothermal energy.
+
+“​​Solomon then said probably the most clearly racially charged sentiment,”
+the students wrote. “He pointed at each one of us, claiming that all of us
+must be on financial aid; he implied that we should show immense gratitude
+because we are in debt to the college’s endowment and that we should not
+complain about its investment portfolio. Once we all looked shocked at the
+claim, he quickly backtracked, citing the statistic that something like 80
+percent of Hamilton students are on some kind of financial aid. It is
+important to note that the group of six or so people talking to him were all
+non-male and at least half were people of color. We believe that he never
+would have assumed we were all on financial aid if we were the group of white
+male students in suits talking to him 20 minutes prior.”
+
+A Goldman spokesperson disputes the students’ claims as false. But they took
+notes on the encounter, writing down everything Solomon said, and shared them
+with me.
+
+At least one of the students left the encounter in tears. “It was just so
+upsetting and appalling that someone would talk to us with that much blatant
+disrespect and disregard for us,” she told me. “In my life, I had never really
+been talked to like that, which was kind of stunning.”
+
+Solomon appeared to think the interaction was a success. Later that evening,
+he approached one of the students at a campus pub and said that he “really
+enjoyed our conversation earlier.”
+
+Solomon declined to be interviewed for this article, but Goldman’s official
+view is that his temperament is irrelevant as long as the bank is performing
+well. The firm’s press team thinks the partners need to grow a thicker skin
+when going head-to-head with their CEO. “We’ve spent time in politics, and
+this is just normal,” says Fratto, who used to work in the George W. Bush
+administration. “I can’t believe Goldman Sachs people get irritated about
+having to debate an issue when it’s literally what we did all day long back in
+our lives in politics.”
+
+One difference between students at Hamilton and the Goldman executives leaking
+against Solomon to reporters is that the former group has nothing personally
+to gain. If Solomon loses his job, someone will likely move up from the
+inside, and the names that have been floated in the financial press include
+Waldron; Richard Gnodde, the CEO of Goldman Sachs International; Steve Scherr,
+a former chief financial officer; and Marc Nachmann and Jim Esposito, division
+leaders who might rule as co-CEOs. Waldron’s role may make him the leading
+prospect, but his closeness with Solomon — who was in Waldron’s wedding —
+might rule him out if the board were to seek a change. “That’s probably
+David’s greatest protection: lack of anybody that could plausibly take over,”
+says a banker who has been following the horse race.
+
+Solomon serves at the pleasure of the board, not the partners, and voting him
+out might happen only if Goldman’s stock — which is down slightly this year,
+while the overall market is up — takes a major dip. “Investors understand the
+strategy, and it’s mostly been successful. There’s a reason the stock price is
+up 50 percent over the past five years,” says Fratto. But several current and
+former executives who have served on the management committee told me that
+what Solomon has done to lose the goodwill of the staff was serious enough to
+materially affect the future of the bank. “It always matters,” says a former
+partner. “The question is whether he still has the following as a leader
+inside the firm. Capturing the hearts and minds of the organization matters.
+Otherwise, it doesn’t work.”
+
+Solomon has lately tried to win back the partners, hosting “cultural
+stewardship” events all over the world as well as cocktail parties at his
+homes for the firm’s elite and their spouses. But it doesn’t seem to have been
+enough to disabuse many partners of the suspicion, which they find deeply
+offensive, that he has put his own interests above those even of the famously
+self-interested Goldman Sachs. “I think he thought the platform was for his
+benefit, instead of he was serving this platform,” says an executive with
+decades of experience at the bank stretching back to the days when its
+position atop Wall Street was unquestioned. “People didn’t think it was cute.
+They thought it was a breach of contract.”
+
+Thank you for subscribing and supporting our journalism. If you prefer to read
+in print, you can also find this article in the August 14, 2023, issue of New
+York Magazine.
+
+Want more stories like this one? [Subscribe
+now](http://web.archive.org/web/20250722200926/https://subs.nymag.com/magazine/subscribe/official-
+subscription.html?itm_source=disitepromo&itm_medium=siteacquisition&itm_campaign=end-
+of-magazine-article) to support our journalism and get unlimited access to our
+coverage. If you prefer to read in print, you can also find this article in
+the August 14, 2023, issue of New York Magazine.
+
+### One Great Story: A Nightly Newsletter for the Best of _New York_
+
+The one story you shouldn’t miss today, selected by  _New York_ ’s editors.
+
+Vox Media, LLC Terms and Privacy Notice
+
+By submitting your email, you agree to our
+[Terms](http://web.archive.org/web/20250722200926/https://nymag.com/newyork/terms/)
+and [Privacy
+Notice](http://web.archive.org/web/20250722200926/https://nymag.com/newyork/privacy/)
+and to receive email correspondence from us.

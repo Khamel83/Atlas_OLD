@@ -1,0 +1,92 @@
+# Surviving Disruption - Harvard Business Review
+
+**Source**: http://hbr.org/2012/12/surviving-disruption/ar/pr
+**Type**: article
+**Created**: 2025-08-13T20:10:49.780742
+
+---
+
+title: Surviving Disruption - Harvard Business Review
+source: http://hbr.org/2012/12/surviving-disruption/ar/pr
+date: 2025-08-13T20:10:40.052981
+tags: []
+---
+![](/web/20140704185337im_/http://hbr.org/hbrg-
+main/resources/images/article_assets/hbr/1212/R1212C_OLIVEIRA.jpg)
+
+Photography: Nash Baker  
+
+Artwork: Henrique Oliveira, Tapumes, Rice Gallery, Houston, 2009, plywood, 4.7
+x 13.4 x 2 m
+
+Disruptive innovations are like missiles launched at your business. For 20
+years we’ve described missile after missile that took aim and annihilated its
+target: Napster, Amazon, and the Apple Store devastated Tower Records and
+Musicland; tiny, underpowered personal computers grew to replace minicomputers
+and mainframes; digital photography made film practically obsolete.
+
+And all along we’ve prescribed a single response to ensure that when the dust
+settles, you’ll still have a viable business: Develop a disruption of your own
+before it’s too late to reap the rewards of participation in new, high-growth
+markets—as Procter & Gamble did with Swiffer, Dow Corning with Xiameter, and
+Apple with the iPod, iTunes, the iPad, and (most spectacularly) the iPhone.
+That prescription is, if anything, even more imperative in an increasingly
+volatile world.
+
+But it is also incomplete.
+
+Disruption is less a single event than a process that plays out over time,
+sometimes quickly and completely, but other times slowly and incompletely.
+More than a century after the invention of air transport, cargo ships still
+crisscross the globe. More than 40 years after Southwest Airlines went public,
+tens of thousands of passengers fly daily with legacy carriers. A generation
+after the introduction of the VCR, box-office receipts are still an enormous
+component of film revenues. Managers must not only disrupt themselves but also
+consider the fate of their legacy operations, for which decades or more of
+profitability may lie ahead.
+
+We propose a systematic way to chart the path and pace of disruption so that
+you can fashion a more complete strategic response. To determine whether a
+missile will hit you dead-on, graze you, or pass you altogether, you need to:
+
+  * Identify the strengths of your disrupter’s business model;
+
+  * Identify your own relative advantages;
+
+  * Evaluate the conditions that would help or hinder the disrupter from co-opting your current advantages in the future.
+
+To guide you in determining a disrupter’s strengths, we introduce the concept
+of the extendable core—the aspect of its business model that allows the
+disrupter to maintain its performance advantage as it creeps upmarket in
+search of more and more customers. We then explore how a deep understanding of
+what jobs people want your company to do for them—and what jobs the disrupter
+could do better with its extendable core—will give you a clearer picture of
+your relative advantage. We go on to delineate the barriers a disrupter would
+need to overcome to undermine you in the future. This approach will enable you
+to see which parts of your current business are most vulnerable to disruption
+and—just as important—which parts you can defend.
+
+[![](/web/20140704185337im_/http://hbr.org/hbrg-
+main/resources/images/article_assets/hbr/1212/R1212C_A.gif)](/web/20140704185337/http://hbr.org/hbrg-
+main/resources/images/article_assets/hbr/1212/R1212C_A_LG.gif "Click here for
+a larger image")
+
+Illustration: James Graham  
+
+Where Advantage Lies
+
+What makes an innovation disruptive? As our colleague Michael Raynor suggested
+in his book The Innovator’s Manifesto (2011), all disruptive innovations stem
+from technological or business model advantages that can scale as disruptive
+businesses move upmarket in search of more-demanding customers. These
+advantages are what enable the extendable core; they differentiate disruption
+from mere price competition.
+
+To understand this important distinction, consider Raynor’s example of simple
+price competition in the hotel industry: A Holiday Inn provides a bed for the
+night for less (and in less luxury) than does the Four Seasons down the
+street. For the economy hotel chain to appeal to Four Seasons customers, it
+would have to invest in internal improvements, prime real estate, and an
+expensive service staff. Doing so would force it to adopt the same cost
+structure as the Four Seasons, so it would have to charge its customers
+similarly.

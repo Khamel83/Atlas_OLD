@@ -1,0 +1,14 @@
+# A century of facial hair styles - FlowingData
+
+**Source**: http://flowingdata.com/2017/04/13/a-century-of-facial-hair-styles/
+**Type**: article
+**Created**: 2025-08-13T17:23:57.652659
+
+---
+
+title: A century of facial hair styles - FlowingData
+source: http://flowingdata.com/2017/04/13/a-century-of-facial-hair-styles/
+date: 2025-08-13T17:23:46.507873
+tags: []
+---
+#  A century of facial hair styles

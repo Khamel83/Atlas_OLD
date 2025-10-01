@@ -470,6 +470,57 @@ class DatabaseManager:
             "errors": error_count
         }
 
+    async def get_content_details(self, content_id: str) -> Optional[Dict[str, Any]]:
+        """Get content details for processing"""
+        async with aiosqlite.connect(self.db_path) as db:
+            cursor = await db.execute("""
+                SELECT content_id, source_url, source_name, content_type, title, metadata_json
+                FROM content_metadata
+                WHERE content_id = ?
+            """, (content_id,))
+
+            row = await cursor.fetchone()
+            if row:
+                return {
+                    'content_id': row[0],
+                    'source_url': row[1],
+                    'source_name': row[2],
+                    'content_type': row[3],
+                    'title': row[4],
+                    'metadata': json.loads(row[5]) if row[5] else {}
+                }
+            return None
+
+    async def update_content_status(self, content_id: str, status: str, metadata: Dict[str, Any] = None):
+        """Update content processing status and metadata"""
+        async with aiosqlite.connect(self.db_path) as db:
+            # Update processing queue
+            await db.execute("""
+                UPDATE processing_queue
+                SET status = ?, updated_at = ?, completed_at = ?
+                WHERE content_id = ?
+            """, (status, datetime.now().isoformat(),
+                  datetime.now().isoformat() if status == 'completed' else None, content_id))
+
+            # Update content metadata if provided
+            if metadata:
+                # Get existing metadata
+                cursor = await db.execute("""
+                    SELECT metadata_json FROM content_metadata WHERE content_id = ?
+                """, (content_id,))
+                row = await cursor.fetchone()
+
+                existing_meta = json.loads(row[0]) if row and row[0] else {}
+                existing_meta.update(metadata)
+
+                await db.execute("""
+                    UPDATE content_metadata
+                    SET metadata_json = ?, updated_at = ?
+                    WHERE content_id = ?
+                """, (json.dumps(existing_meta), datetime.now().isoformat(), content_id))
+
+            await db.commit()
+
     async def close(self):
         """Clean up database connections"""
         # aiosqlite handles connection cleanup automatically

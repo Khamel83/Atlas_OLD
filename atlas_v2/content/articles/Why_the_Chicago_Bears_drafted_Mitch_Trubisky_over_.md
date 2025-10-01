@@ -1,0 +1,1323 @@
+# Why the Chicago Bears drafted Mitch Trubisky over Patrick Mahomes and Deshaun Watson - Chicago Tribune
+
+**Source**: https://www.chicagotribune.com/sports/bears/ct-chicago-bears-mitch-trubisky-2017-nfl-draft-20191112-mkiclk4l4jb3bndxf7azbtdw6m-story.html
+**Type**: article
+**Created**: 2025-08-13T16:03:42.137726
+
+---
+
+title: Why the Chicago Bears drafted Mitch Trubisky over Patrick Mahomes and Deshaun Watson
+source: https://www.chicagotribune.com/sports/bears/ct-chicago-bears-mitch-trubisky-2017-nfl-draft-20191112-mkiclk4l4jb3bndxf7azbtdw6m-story.html
+date: 2025-08-13T16:03:33.203410
+tags: []
+---
+NFL Commissioner Roger Goodell stepped to the lectern. “With the second pick
+in the 2017 NFL draft ...”
+
+The cameras were rolling behind the scenes on that Thursday night in April. In
+Lake Forest and in Philadelphia. In this document-and-share age, the landmark
+moment required immediate cinematic treatment.
+
+Bears general manager Ryan Pace had sent a jolt through the draft, trading up
+from No. 3 to No. 2 to select North Carolina quarterback Mitch Trubisky.
+
+It was a surprising and pivotal moment, arguably the franchise’s most
+significant move of the past decade. With so much adrenaline pumping, the
+cameras kept rolling, gathering moments that the organization could splice
+together for a fan-enticing social media montage.
+
+The resulting video — 1 minute, 51 seconds — premiered on the Bears’ official
+Twitter account the next morning.
+
+There was Pace, upstairs at Halas Hall, congratulating colleagues in the draft
+room and emphasizing the collective belief the Bears had in identifying
+Trubisky as the quarterback they just couldn’t live without.
+
+“That’s conviction,” Pace said. “On a quarterback.”
+
+There was Trubisky, 790 miles away, backstage at the Philadelphia Museum of
+Art, beaming with pride while on the phone with Bears coach John Fox.
+
+“I’m glad I landed in the right spot,” the 22-year-old quarterback said.
+“We’re going to make it work. It’s going to be perfect.”
+
+April 27, 2017.
+
+[ [Tribune flashback: Bears go all-in, engineer jaw-dropping trade to draft QB
+Mitch
+Trubisky](http://web.archive.org/web/20230928222539/https://www.chicagotribune.com/sports/bears/ct-
+bears-nfl-draft-spt-0428-20170427-story.html#nt=interstitial-manual) ]
+
+The Trubisky selection was the first of three milestone quarterback moves that
+night.
+
+Within a span of 1 hour, 14 minutes, three general managers got what they
+wanted. Each traded up in the first round. Each took a bold swing at a
+franchise quarterback. And after their war-room hugs and high-fives and
+celebrations were complete, each openly detailed that night’s meaningful
+decision.
+
+With an undeniable rush, Pace expounded upon his philosophy of never having
+regrets, about making damn certain he would get the player he truly wanted. He
+highlighted Trubisky’s accuracy, his ability to see and process the entire
+field, his knack for extending plays. He emphasized his unwavering belief that
+Trubisky had great “potential to be a championship quarterback,” the key cog
+in allowing the Bears to enjoy sustained success.
+
+“When you have an opportunity to get a quarterback of this caliber, you can't
+pass on it,” Pace said.
+
+In Kansas City, GM John Dorsey jumped 17 spots — from No. 27 to No. 10 — to
+select Texas Tech’s Patrick Mahomes.
+
+The Chiefs already had a reliable quarterback in veteran Alex Smith and a
+playoff-caliber team that had won 12 games the previous season. Still, in
+Mahomes, Dorsey and his talent evaluation team saw a transcendent talent with
+comic-book arm strength, impressive athleticism and a penchant for creating
+big plays.
+
+Finally, in Houston, the Texans were preparing to plaster Clemson’s Deshaun
+Watson all over the city — on billboards, on media guides, on ticket stubs.
+Who wouldn’t be excited about landing a quarterback who posted a 32-3 record
+as a college starter, becoming a Heisman Trophy runner-up and a national
+champion in the process?
+
+No wonder Texans GM Rick Smith felt compelled to trade up from No. 25 to No.
+12.
+
+As it always goes on draft weekend, each organization felt invigorated,
+sensing unbridled promise for its future. But now, a little more than 2½ years
+later, the review of that night and that entire pre-draft process feels so
+much different.
+
+In Kansas City, Mahomes is the reigning league MVP, a walking YouTube montage
+of touchdown darts and look-away dimes and ambidextrous magic. In his first 27
+starts, including two playoff games, he has posted 16 300-yard passing games,
+16 games with at least three touchdown passes and 11 games with both.
+
+In Houston, Watson’s statistical production and galvanizing leadership have
+the Texans staring through a wide-open window of opportunity with a chance to
+remain Super Bowl contenders for the foreseeable future.
+
+![](http://web.archive.org/web/20230928222539im_/https://arc-anglerfish-
+arc2-prod-tronc.s3.amazonaws.com/public/J4MXNGIV3FGNRI3OKKFDITXDKA.jpg)
+
+##### A special Bear Download podcast
+
+Get more [](%E2%80%9Chttps:)www.chicagotribune.com/sports/bears/ct-chicago-
+bears-mitch-trubisky-podcast-20191114-eo72vwdtgnaztob5vzrycm4u6u-story.html'
+target="_blank">analysis and behind-the-scenes scoop on this story from Rich
+and Dan on the podcast
+
+Here in Chicago? Trubisky’s erratic play has become a major civic crisis with
+the bottom of the Bears’ once-hopeful season in danger of falling out. In the
+most agitated pockets of the fan base, calls for 33-year-old journeyman Chase
+Daniel echoed throughout the recent four-game losing streak.
+
+In mid-November of the quarterbacks’ third seasons, the statistical
+comparisons are startling.
+
+  * Trubisky: 35 starts (including one playoff start), 7,109 passing yards, 40 touchdowns, 22 interceptions, an 87.2 rating and a 19-16 record.
+  * Mahomes: 27 starts (including two playoff starts), 8,580 passing yards, 71 touchdowns, 14 interceptions, a 111.5 rating and a 19-8 record.
+  * Watson: 32 starts (including one playoff start), 8,531 passing yards, 64 touchdowns, 23 interceptions, a 102.7 rating and a 20-12 record.
+
+When the offseason arrives, there’s a strong likelihood Mahomes and Watson
+will sign contract extensions that register as the most lucrative deals in
+league history. Meanwhile, Trubisky’s development has gone wayward with the
+organization’s faith in him being tested.
+
+Not only has curiosity about Trubisky’s second contract evaporated, there’s
+now legitimate reason to question whether he even will remain the starter by
+Christmas.
+
+So what happened? What went into the Bears’ franchise-altering decision-making
+process before the 2017 draft? Why did Pace absolutely have to have Trubisky
+over Mahomes and Watson? And how did the Chiefs and Texans succeed where the
+Bears haven’t in turning their quarterback dice rolls into a major payout?
+
+To piece together the quarterback puzzle of the 2017 NFL draft, the Tribune
+spoke with more than two dozen people connected to the Bears, the league or
+the draft process. The Tribune exchanged anonymity for candor with some
+sources, given the sensitive nature of the situation, which continues to
+develop with much at stake for those involved.
+
+Three quarterbacks. One draft. Three teams. All traveling disparate paths.
+
+In the days after the Bears selected Mitch Trubisky, Ryan Pace felt a powerful
+sense of accomplishment, a proud satisfaction in having a clear vision and
+seeing it through. In a moment of introspection, he scribbled into his
+journal.
+
+The entry was full of energy, the kind of no-regrets gusto that accomplished
+NFL general managers have.
+
+Sure, Pace was hearing the doubters and critics lambasting his trade up from
+No. 3 to No. 2 and wondering why Trubisky was the quarterback he coveted so
+much.
+
+The Bears introduce Mitch Trubisky after drafting him with the No. 2 pick in
+the 2017 NFL draft during a news conference at Halas Hall on April 28, 2017.
+(Chris Walker / Chicago Tribune)
+
+But the Bears GM was unfazed. He was in control of an organization that had
+been so lost at quarterback for so long. In the 25 seasons that preceded the
+2017 draft, the Bears had started 29 quarterbacks. None of them had been named
+to the Pro Bowl as a Bear. Only three — Steve Walsh, Rex Grossman and Jay
+Cutler — had won a playoff game.
+
+As Pace wrote to himself, he hoped the fan base could direct its focus
+accordingly. Wasn’t Chicago begging for its dear football franchise to take a
+big swing at addressing the most important position? And hadn’t he done just
+that?
+
+For Pace, the Trubisky pick was about avoiding the cautious road or the low-
+bar temptation of merely trying to lift the Bears back toward 8-8. Hadn’t
+Chicago been exhausted by Cutler’s eight seasons and the polarizing
+quarterback’s .500 record?
+
+This was about a think-big, believe-big mission to win a Lombardi Trophy.
+
+_“Maybe we can make status quo decisions and please the pundits, or make
+decisions that are predictable and easily accepted positions,” Pace wrote. “Or
+we can (expletive) take chances and be bold and be great. I’m not going to
+look back with regrets. I can’t do that to myself. I can’t do that to this
+building. And bottom line is you don’t achieve greatness in this league
+without great quarterback play.”_
+
+In many ways, Pace’s fearless approach made perfect sense.
+
+The question, though, was why the Bears had become so deeply enamored with
+Trubisky and only Trubisky. With their trade up, it was apparent that, in
+Pace’s mind, the North Carolina quarterback had clearly separated himself from
+Deshaun Watson and Patrick Mahomes.
+
+When multiple teams with quarterback needs began calling the Bears on draft
+day, considering possible trades into the No. 3 slot, Pace reasoned those same
+teams were calling the 49ers about No. 2. His biggest fear of losing the
+quarterback he so badly wanted triggered his aggressive instinct.
+
+He was fixated on Trubisky and unwilling to accept a consolation prize. [To
+move up one spot, he traded four
+picks](http://web.archive.org/web/20230928222539/https://www.chicagotribune.com/sports/bears/ct-
+spt-bears-mitch-trubisky-draft-trade-20180503-story.html): the Bears’ first-,
+third- and fourth-round picks in 2017 and their 2018 third-rounder.
+
+[ [Tribune flashback: Mitchell Trubisky could be first QB drafted despite
+relative
+inexperience](http://web.archive.org/web/20230928222539/https://www.chicagotribune.com/sports/bears/ct-
+mitchell-trubisky-nfl-draft-prospects-
+spt-0402-20170331-story.html#nt=interstitial-manual) ]
+
+Over the previous eight months, Pace knew he had to free himself and the Bears
+from the lengthy limbo that accompanied Cutler’s stay. He admittedly became
+obsessed with college quarterbacks early in the 2016 season. With Cutler’s
+contract out of guaranteed money, the impending sunrise fueled Pace’s focus.
+
+His prototype was and still is Drew Brees. Pace was a 29-year-old pro scout
+with the Saints when they signed Brees as a free agent in 2006. That year,
+Brees and coach Sean Payton led the Saints back from Hurricane Katrina
+oblivion to the NFC championship game. Three seasons later, they all had Super
+Bowl rings.
+
+At Pace’s introductory news conference as Bears GM in 2015, he mentioned Brees
+eight times. His objective, then, was to find the Bears’ version. A
+quarterback who fully commands the game. One capable of erasing good defenses,
+bad play calls, questionable roster decisions and anything else that could go
+wrong with his lightning-quick mind, deadly accuracy and ability to connect
+with everyone around him.
+
+Pace — who declined to be interviewed for this story — and his top lieutenant,
+director of player personnel Josh Lucas, became magnetized to Trubisky by
+midseason and ultimately reconciled some of the bigger issues that deterred
+others, including some within the Bears organization.
+
+Pace wasn’t concerned that Trubisky spent his first two seasons in Chapel
+Hill, N.C., backing up Marquise Williams, who wasn’t drafted. As others
+scrutinized Trubisky’s college inexperience — he threw only 572 passes
+compared with Watson’s 1,207 and Mahomes’ 1,349 — Pace focused on the constant
+spark Trubisky seemed to lend, even when he was in a backup role.
+
+“Every time he got in the game,” Pace said on draft night, “something happened
+in a positive way.”
+
+While Trubisky didn’t ooze charisma like Mahomes and Watson, Pace deeply
+admired his humility. He valued Trubisky’s family support system and dedicated
+approach.
+
+At the Senior Bowl three months before the draft, Pace emphasized the pluses
+of college success for a quarterback. “You want to look for a player who has
+lifted his program for the most part,” he said.
+
+Brees did that at Purdue. That was also one of Watson’s defining
+characteristics. What about Trubisky, whose Tar Heels went 8-5 and lost the
+Sun Bowl in his only season as the starter?
+
+“I think Mitch did that in a lot of ways,” Pace said on draft night.
+
+In Pace’s eyes, Trubisky also demonstrated the most important quarterback
+traits: sharp accuracy, ability to process defenses, poise under pressure.
+Pace saw excellent footwork that would enable Trubisky to win from the pocket
+in the NFL. He told colleagues at Halas Hall that Trubisky seemed like a
+22-year-old Brees.
+
+From the get-go, Ryan Pace believed it was imperative to keep the Bears’
+fixation on quarterbacks a secret. He went incognito to see Mitch Trubisky in
+his final college game, sitting alone in the stands at the Sun Bowl in El
+Paso, Texas, with his hat pulled low.
+
+Later in the pre-draft process, the Bears chose not to host Trubisky, Patrick
+Mahomes or Deshaun Watson at Halas Hall.
+
+Instead, over a four-day span in mid-March, the Bears embarked on a three-
+city, three-quarterback scouting trip. Pace, Josh Lucas, coach John Fox,
+offensive coordinator Dowell Loggains and quarterbacks coach Dave Ragone began
+in Clemson, S.C., at Watson’s pro day. From there they visited Trubisky in
+Chapel Hill and Mahomes in Lubbock, Texas. They hosted dinners and private on-
+campus workouts with Trubisky and Mahomes but not with Watson.
+
+[ [Tribune flashback: How a covert visit to Chapel Hill solidified the Bears'
+conviction in Mitch
+Trubisky](http://web.archive.org/web/20230928222539/https://www.chicagotribune.com/sports/bears/ct-
+mitch-trubisky-bears-chicago-hope-
+spt-0521-20170519-story.html#nt=interstitial-manual) ]
+
+Over dinner at a Chapel Hill steakhouse, Trubisky impressed the Bears with his
+sense of humor and grounded nature. Conversation flowed smoothly. The
+quarterback’s hand-me-down 1997 Toyota Camry amused the Bears brass in a
+positive way.
+
+A day later and 1,500 miles away in Texas, Mahomes showcased his ridiculous
+arm talent in his private workout. He even pulled out some of the no-look
+throws he later flashed during his rise to stardom with the Chiefs. At dinner,
+his swagger was undeniable.
+
+Pace and his staff liked so much about Mahomes and admired his Ben
+Roethlisberger-like ability to make strong downfield throws with defenders
+hanging on him. On the Bears’ final draft board, Mahomes was their No. 2
+quarterback, in the team’s top “cloud” of prospects that also included
+Trubisky, Solomon Thomas, Jamal Adams, Leonard Fournette and Christian
+McCaffrey.
+
+Still, that quarterback tour solidified Pace’s affinity for Trubisky.
+
+He considered it an important piece of the scouting pie. For months, Pace had
+kept his evaluations to himself, not wanting to influence his subordinates. As
+the reports returned — from area scout Chris Prescott, from national scout
+Ryan Kessenich, from college scouting director Mark Sadowski, from Lucas, from
+Loggains — the consensus in support of Trubisky energized Pace.
+
+However, prioritizing secrecy in the pre-draft process created an unusual
+barrier between the personnel department and the coaching staff. Whereas in
+Kansas City and Houston, offensive-minded coaches Andy Reid and Bill O’Brien
+were in the center of the quarterback evaluations, the Bears were, for all
+intents and purposes, drafting Trubisky for the next coaching staff, a group
+that was a full season away from arriving.
+
+Fox, who rated Watson as his top quarterback, didn’t learn of Pace’s intention
+to select a quarterback until the morning of the draft, according to multiple
+people with knowledge of the situation. Other prominent figures in the
+organization received the Trubisky news from Roger Goodell’s mouth as the NFL
+commissioner announced the pick on live TV from a stage in Philadelphia.
+
+For some at Halas Hall, a bit of confusion accompanied the excitement of the
+pick. Mike Glennon — signed 48 days earlier, guaranteed $18.5 million on a
+three-year contract and promised the steering wheel for the 2017 offense — had
+been sent as one of the guests of honor to a team-sponsored public draft party
+at Soldier Field. While there, he watched the Bears select his replacement.
+
+Even in the NFL’s cutthroat and hypersecretive world, that struck some as an
+undeniable sign of disconnect.
+
+On that April weekend, it became clear Fox was a lame duck, his relationship
+with Pace permanently fractured. Still, during multiple news conferences as
+the draft unfolded, Pace asserted there was a unified, collaborative approach
+to selecting Trubisky.
+
+“John and I are arm in arm in all these decisions,” Pace said the night of the
+pick. “So we talked about this thoroughly, and we’re connected on this. John
+is just as excited as I am.”
+
+It is both easy and wholly unfair to apply revisionist history to the 2017
+draft, to argue that the Bears’ selection of Mitch Trubisky over Deshaun
+Watson and Patrick Mahomes was reckless and out of touch with the league
+consensus.
+
+The fact is, NFL talent evaluators and draft analysts were divided and
+perplexed on how to stack the quarterback class.
+
+Mike Mayock, for example, arrived at the scouting combine that February
+touting Notre Dame’s DeShone Kizer as the No. 1 quarterback. Mayock, then an
+NFL Network analyst and now general manager of the Raiders, acknowledged Kizer
+wasn’t ready to be an immediate starter and had inconsistent mechanics. But
+Mayock also raved about Kizer’s ceiling, calling him “the prototype NFL
+quarterback.”
+
+Big arm, Mayock said. Quick release. Smart. Athletic.
+
+Eight weeks later, Mayock had reordered and finalized his quarterback
+rankings: Watson jumped to the top of the list, followed by Trubisky, Mahomes,
+Kizer and California’s Davis Webb.
+
+That’s a small reminder of how fluid these rankings can be, how inexact a
+science the evaluation process and projection game truly is.
+
+Tribune flashback: Rich Campbell and Dan Wiederer discuss the Bears' search
+for a quarterback from the NFL Combine on March 4, 2017. (Chicago Tribune)
+
+In more than a few circles, Trubisky was tabbed as the best pro prospect,
+lauded for his accuracy and quick release, his mobility and pocket awareness.
+
+In the spring of 2017, a wide majority of major publications pegged him as the
+top quarterback in their mock drafts. [Sports
+Illustrated](http://web.archive.org/web/20230928222539/https://www.si.com/nfl/2017/03/22/nfl-
+mock-draft-first-round-picks-trade-rumors). [Fox
+Sports](http://web.archive.org/web/20230928222539/https://www.foxsports.com/nfl/gallery/peter-
+schragers-seven-round-2017-nfl-mock-draft-042517). [The Washington
+Post](http://web.archive.org/web/20230928222539/https://www.washingtonpost.com/news/sports/wp/2017/04/25/2017-nfl-
+mock-draft-qb-uncertainty-creates-chaos-in-final-round-1-projection/). [USA
+Today](http://web.archive.org/web/20230928222539/https://www.usatoday.com/story/sports/nfl/draft/2017/04/24/nfl-
+mock-draft-2017-deshaun-watson-christian-mccaffrey-leonard-
+fournette/100829698/). [CBS
+Sports](http://web.archive.org/web/20230928222539/https://www.cbssports.com/nfl/news/2017-nfl-
+mock-draft-three-round-mock-includes-15-trades-seven-quarterbacks/). [The Los
+Angeles
+Times](http://web.archive.org/web/20230928222539/https://www.latimes.com/sports/nfl/la-
+sp-sam-farmer-mock-draft-20170426-story.html).
+
+ESPN’s Mel Kiper also arrived for draft weekend with Trubisky as his top-rated
+quarterback and No. 19 prospect overall, followed by Mahomes (No. 26), Watson
+(No. 34) and Pittsburgh’s Nathan Peterman (No. 59).
+
+His colleague Todd McShay ranked the top five quarterbacks as Trubisky,
+Watson, Mahomes, Kizer and Tennessee’s Josh Dobbs. But in McShay’s opinion at
+that time, none was worthy of a first-round grade.
+
+NFL Network analyst Daniel Jeremiah agreed. Jeremiah, who spent time as a
+college scout with the Ravens, Browns and Eagles, bunched three quarterbacks
+in his ranking of the top 50 prospects: Watson 28th, Trubisky 32nd and Kizer
+33rd.
+
+Mahomes? Not even on that list.
+
+No one was projecting the Texas Tech quarterback as a surefire long-term
+starter, much less a can’t-miss All-Pro who would win an MVP award in his
+first season as a starter.
+
+The most common compliment was that Mahomes had a rocket arm and an ability to
+make off-balance throws with exciting results. But his habit of ad-libbing was
+worrisome.
+
+“When I was a kid,” Jeremiah said before the draft, “we played a game — ‘Three
+Flies Up’ — where you take a tennis ball and chuck it up in the air. Then
+there’s a scrum of people and whoever catches it three times gets to be the
+thrower. That’s kind of the way he plays a bit down the field, just throwing
+the ball up in the air. … If you charted his best plays, they have nothing to
+do with the play call. It’s just him freelancing and making things happen.
+Which is exciting.
+
+“But I look back on quarterbacks over the years and try to find guys who live
+and thrive outside of the play call, and it’s a very thin list. You could make
+a case that it only contains one guy. That’s (Brett) Favre.”
+
+[ [Tribune flashback: Top QB prospects get only 1 chance to make 1st
+impression at NFL
+combine](http://web.archive.org/web/20230928222539/https://www.chicagotribune.com/sports/ct-
+bears-quarterback-prospects-combine-haugh-
+spt-0305-20170304-column.html#nt=interstitial-manual) ]
+
+Similarly, some evaluators had justifiable concerns about Watson’s deep-ball
+accuracy and wondered how he would handle the significant increase in NFL pre-
+snap responsibilities after coming out of Clemson’s spread offense. The 32
+interceptions he threw during his three years with the Tigers also were
+worrisome.
+
+That spring, Jon Gruden brought seven prospects to his made-for-ESPN “QB Camp”
+at the Wide World of Sports Complex outside Orlando, Fla. In addition to
+Trubisky, Watson and Mahomes, Gruden got on the field and in the film room
+with Kizer, Dobbs, Peterman and Miami’s Brad Kaaya.
+
+In evaluating Trubisky, Gruden — now the Raiders coach — admitted the North
+Carolina quarterback was “a big mystery to a lot of people.” Without question,
+Trubisky’s small body of work, with just 13 starts for the Tar Heels, was a
+red flag.
+
+Furthermore, North Carolina’s shaky finish to its 2016 season bothered Gruden.
+The Tar Heels, he pointed out, lost to Stanford in the Sun Bowl. They lost
+their regular-season finale to rival N.C. State. Two weeks before that, they
+lost another rivalry game to Duke.
+
+And in mid-October, amid miserable conditions caused by Hurricane Matthew,
+Trubisky had gone 13-for-33 for 58 yards with two interceptions in a 20-point
+loss to Virginia Tech.
+
+Still, Gruden emerged from his “QB Camp” visit with Trubisky impressed with
+the way he meshed so naturally with other players at the camp. “He’s a fun guy
+to be around,” Gruden said eight days before the draft.
+
+He also spoke highly of Trubisky’s attentiveness, information retention and
+sharp communication skills.
+
+“What’s not on the show,” Gruden said, “are all the plays we install and all
+the things we challenge them to learn and go out on the grass to execute. He’s
+into it. The thing I liked about Trubisky is that he is really into it.”
+
+Gil Brandt, a Hall of Fame personnel administrator who spent 29 seasons with
+the Cowboys, heralded Trubisky as his top quarterback in the draft, followed
+by Watson and Mahomes.
+
+Former Redskins GM Charley Casserley had the same order: Trubisky first,
+Watson second and Mahomes a very distant third, assessed as a possible bargain
+pick late in the first round or early on Day 2.
+
+“The reason I have Trubisky over Watson,” [Casserley
+explained](http://web.archive.org/web/20230928222539/https://www.redskins.com/video/csn-
+draft-room-casserly-ranks-the-2017-qb-class-18724164), “is he’s a more
+consistent player as far as accuracy and decision-making.”
+
+Seven months later, as Trubisky made his first NFL start in a Monday night
+game against the Vikings at Soldier Field, Gruden was in the ESPN broadcast
+boost. Like the Bears, Gruden had grown increasingly enamored with Trubisky’s
+toughness and his “sincerity to be great.”
+
+Leading up to that game, in an interview with the Tribune, Gruden expressed
+his belief that Trubisky’s future would be bright for a long time.
+
+“I don’t think adversity is going to bother him,” Gruden said. “I don’t think
+success is going to ruin him. I just think he has a lot of real good human
+qualities. And then you couple that with his athletic ability and his arm
+talent and you really have something here.”
+
+Even as a rookie, Trubisky’s leadership traits were leaving an impression. So
+was his willingness to embrace the workload, not to mention the grand
+expectations of a scarred but hopeful fan base.
+
+“He has that iceman quality,” Gruden said. “He’s just not a nervous wreck.
+He’s got that calmness that you have to have. … I don’t think it’s going to be
+too big for him. I like that about him.”
+
+When Chiefs general manager Brett Veach hosted his media session at the 2018
+scouting combine, it was the perfect chance for Chicago reporters to pick his
+brain about one of his best friends — Matt Nagy.
+
+Veach’s former Delaware teammate had jumped from Chiefs offensive coordinator
+to Bears head coach seven weeks earlier.
+
+“Matt — great quarterback, cannon for an arm, but he’s just an awful athlete,”
+Veach cracked. “You see him run, it’s, like, embarrassing.”
+
+Pull up YouTube clips of Blue Hens football circa 2000, and it’s clear that,
+even then, Veach knew how to evaluate a quarterback.
+
+Looking back, Veach’s comments that day included a slice of deeper insight. A
+prophecy, even. While discussing Patrick Mahomes’ offseason promotion to
+starting quarterback, he offered a clue that the face of the NFL was about to
+change.
+
+_“He is one of the best players I have ever seen.”_
+
+Wait, what?
+
+What a thing to say about a quarterback who had started only one NFL game, a
+last-second 27-24 win over the Broncos in Week 17 with the Chiefs resting
+their starters while locked into the AFC’s fourth playoff seed.
+
+One of the best players he had ever seen? How could that be true of a
+quarterback who was widely questioned for his tendency to escape the pocket,
+improvise and take risks with his rocket arm?
+
+As it turned out, Veach’s remark had as much sizzle as a Mahomes fastball, a
+stage-setter for the third 5,000-yard, 50-touchdown season in league history.
+
+More than a year earlier, months before the 2017 draft, Veach became Patient
+Zero in the outbreak of Mahomes Mania inside Chiefs headquarters. As their co-
+director of player personnel at the time, he spread his infatuation with the
+rocket-armed quarterback among the organization’s top power brokers, namely
+coach Andy Reid, then-GM John Dorsey and Chairman Clark Hunt.
+
+Veach had locked on to Mahomes after his sophomore season in 2015. He was
+studying Texas Tech offensive tackle Le’Raven Clark when he was [distracted by
+the uncanny arm talent, improvisational skills and bravado of the Red Raiders
+quarterback](http://web.archive.org/web/20230928222539/https://www.chicagotribune.com/sports/ct-
+spt-chiefs-patrick-mahomes-20190109-story.html).
+
+Veach’s intrigue became obsession by the time the 2017 pre-draft process
+ramped up. Hence his calculated run-in with one of Mahomes’ agents, Chris
+Cabott, outside a Los Angeles hotel ballroom at the NFLPA Collegiate Bowl that
+January. That meeting between two of Mahomes’ biggest believers enriched the
+familiarization process for both sides. Any questions Veach had about Mahomes
+could be answered.
+
+Veach and Cabott communicated for 94 straight days ahead of the draft, [Cabott
+has
+said](http://web.archive.org/web/20230928222539/https://sports.yahoo.com/chiefs-
+finally-found-franchise-quarterback-patrick-mahomes-165452074.html). Phone
+calls. After-midnight text messages. It was true love.
+
+Patrick Mahomes reacts to being drafted by the Kansas City Chiefs with the No.
+10 pick on April 27, 2017. Sirring next to him are Randi Martin and agent
+Leigh Steinberg at a draft watch party in Tyler, Texas. (Chelsea Purgahn / AP)
+
+Veach skipped Mitch Trubisky’s and Deshaun Watson’s pro days but not Mahomes’.
+His infatuation with the Texas Tech quarterback had spawned a vision.
+
+“His talent is unique and special. He is a special person,” Veach told Kansas
+City media on March 14, 2018, the day Mahomes officially was elevated to
+starter after spending his rookie season developing behind Alex Smith.
+
+“You have an innovative head coach and an innovative staff. You have a bunch
+of weapons, and we are looking to have fun. We have the best fans in the NFL
+and … we want them to watch the scoreboard light up.”
+
+Those were the highlights of Veach’s pre-draft sales brochure. Sure, the
+Chiefs’ present was bright after the 2016 season. Smith had won 11 games and a
+division title in 15 starts. But with a proven coach and three future All-Pros
+already in place on offense, Veach saw an even brighter future with Mahomes.
+
+It was imperative for Reid and Dorsey to see that too. Fortunately for Veach,
+history was on his side. He could describe Mahomes’ combination of rawness,
+arm strength and moxie and be certain it would resonate with two men who had
+Super Bowl rings because of another quarterback with similar traits.
+
+[ [Tribune flashback: Patrick Mahomes' big arm has Bears going deep on
+research as draft
+nears](http://web.archive.org/web/20230928222539/https://www.chicagotribune.com/sports/ct-
+patrick-mahomes-bears-draft-biggs-
+spt-0416-20170415-column.html#nt=interstitial-manual) ]
+
+When Brett Favre led the Packers to the title in 1996, Reid was their
+assistant offensive line and tight ends coach, and Dorsey was a college scout
+in the organization.
+
+So it’s no wonder that while many evaluators doubted how Mahomes’
+improvisational tendencies would translate to the NFL, Reid and Dorsey saw
+transcendent potential in his athleticism, arm talent and swagger.
+
+But the franchise-altering question was whether Mahomes could be coached into
+playing from the pocket within the parameters of an offense that required more
+protection calls, hot reads and route adjustments than the Air Raid offense he
+ran at Texas Tech.
+
+To find out, the Chiefs brought him to team headquarters three weeks before
+the draft. Over a six-hour visit, they got their answer.
+
+A pre-draft visit to Andy Reid and the Chiefs amounts to a deluxe car wash.
+Patrick Mahomes, Mitch Trubisky and Deshaun Watson each went through in 2017.
+
+Brad Childress explained the itinerary to the Tribune the day the Bears hired
+Matt Nagy in January 2018. The longtime colleague of Reid and Nagy was the
+Chiefs assistant head coach in 2017. He followed Nagy to the Bears and is now
+a senior offensive assistant.
+
+Reid, Nagy and Childress started with each quarterback by installing four
+plays. They diagrammed each one on the whiteboard and detailed it with route
+depths, splits, protections, the quarterback’s drop, etc. Then the group
+watched video of each play so the quarterback could see them at full speed.
+All of that took a couple of hours.
+
+After breaking for lunch, each prospect was introduced to team staffers and
+toured the facility. Then each quarterback was brought back to the meeting
+room and asked to detail for the coaches the four plays they discussed hours
+ago.
+
+After the series of visits finished in 2017, GM John Dorsey had the coaches
+rank the quarterbacks on how they learned, retained and regurgitated the
+information.
+
+He didn’t believe Mahomes, Trubisky or Watson were Day 1 starters. But for the
+Chiefs to follow Brett Veach’s recommendation and go all-in on Mahomes, Reid
+had to feel confident that Mahomes could learn his complex, quarterback-
+centric system.
+
+“Or we’re going to have to take these massive steps backward,” Reid [told the
+Kansas City
+Star](http://web.archive.org/web/20230928222539/https://www.kansascity.com/sports/spt-
+columns-blogs/vahe-gregorian/article224263285.html) after the fact.
+
+Indeed, Mahomes was No. 1.
+
+“And so he was able to handle it,” Reid told the Star. “I’m not saying the
+other kids couldn’t. But he was able to handle it, and we felt real good about
+that.”
+
+![Patrick Mahomes throws a pass during Texas Tech's pro day at Jones AT&T
+Stadium on March 31,
+2017.](http://web.archive.org/web/20230928222539im_/https://www.chicagotribune.com/resizer/4Vi7uGJ3QYrhYsHmjncppm6cMwY=/1024x0/filters:format\(jpg\):quality\(70\)/arc-
+anglerfish-arc2-prod-
+tronc.s3.amazonaws.com/public/ASFNU4EVPJF2PGPCR2XBLO2VX4.jpg)
+
+Patrick Mahomes throws a pass during Texas Tech's pro day at Jones AT&T;
+Stadium on March 31, 2017. (Mark Rogers / AP)
+
+Nagy was part of the Chiefs’ consensus that identified Mahomes as a once-in-a-
+generation player, certainly the top quarterback in the 2017 class.
+
+Meanwhile, Nagy also appreciated Trubisky’s grinder work ethic, pleasant
+personality and football knowledge. Trubisky impressed him enough, obviously,
+that Nagy was happy to unite with him with the Bears. When he interviewed for
+the coaching vacancy, he showed Ryan Pace his complimentary notes about
+Trubisky from their pre-draft meeting in Kansas City.
+
+“Very impressed with Trubisky’s aptitude,” Childress recalled. “Obviously the
+skills speak for themselves. He was a very good interview.”
+
+But once Mahomes convinced Chiefs brass that his raw talent could be tamed,
+they had to have him.
+
+On draft night, when the Bears’ trade up was announced, the Chiefs were
+relieved Trubisky was the target. Mahomes’ camp knew the Bears liked their
+guy.
+
+Mahomes’ multisport background appealed to some at Halas Hall. The son of a
+former major-league pitcher, Mahomes was drafted by the Tigers in the 37th
+round in 2014 before fully committing to football.
+
+The Chiefs loved that he grew up around big-league clubhouses, where he became
+accustomed to bright lights and big stages. To move up from No. 27 to No. 10,
+they traded three picks: their first- and third-rounders in 2017 and their
+2018 first-rounder.
+
+That night, Dorsey didn’t dare mention Brett Favre’s name. Publicly comparing
+Mahomes to the original gunslinger would have senselessly overinflated
+expectations for a quarterback they planned to keep on the bench for his first
+season.
+
+Then again, Dorsey couldn’t quite help himself.
+
+“I used to know a guy who used to flip it into coverage, too, sometimes,” he
+said during his draft-night news conference. “He made it into the Hall of Fame
+one day. I’m not comparing them, but I’m just saying.”
+
+Dorsey felt the Chiefs had drafted Mahomes into “the perfect situation.”
+Suddenly, the incubator Veach envisioned came into public view.
+
+Most important, perhaps, Alex Smith was a magnanimous mentor to the
+quarterback drafted to supplant him.
+
+Reid appreciated how Mahomes sponged Smith’s daily examples of studying
+opponents and collaborating with coaches on the game plan.
+
+“Patrick could buy him a castle, and it wouldn’t pay for the experience he was
+able to have working with Alex,” Reid told reporters when Mahomes made his
+first start.
+
+[ [Tribune flashback: Matt Nagy's jump to Bears will shift how Mitch Trubisky
+and Patrick Mahomes measure
+up](http://web.archive.org/web/20230928222539/https://www.chicagotribune.com/sports/bears/ct-
+spt-bears-mitch-trubisky-matt-nagy-mahomes-
+watson-20180828-story.html#nt=interstitial-manual) ]
+
+Mahomes also credits offensive quality control coach Mike Kafka, a former
+Eagles and Northwestern quarterback, [for his one-on-one
+dedication](http://web.archive.org/web/20230928222539/https://www.kansascity.com/sports/nfl/kansas-
+city-chiefs/article212360424.html) to helping him grow. Each week, Mahomes and
+Kafka formulated and carried out a plan to improve his mechanics and command
+of the offense. His on-field work had to be detailed. He was that raw.
+
+Three months after the draft, Nagy explained to reporters how Mahomes was so
+amped during his first practice that he screamed play calls in the huddle loud
+enough for the defense to hear.
+
+But beginning with his first game as the full-time starter in 2018, Mahomes
+was unstoppable. He threw for 10 touchdowns with no interceptions in the first
+two games, winning AFC offensive player of the week honors both weeks.
+
+The highlights seemed endless. From his left-handed pass in a Monday night win
+over the Broncos to pedestrian checkdowns, Mahomes had command. He dominated.
+
+His jaw-dropping off-script throws on the run diverted attention from his
+growth in basic areas, such as reading defenses and going through his
+progressions. But the Chiefs clearly saw him thriving as a pocket quarterback.
+
+By January, with the Chiefs powering toward the AFC title game against the
+Patriots, the team’s media department produced a 67-second campaign video
+titled, “[Why Patrick Mahomes is the
+MVP](http://web.archive.org/web/20230928222539/https://www.chiefs.com/video/why-
+patrick-mahomes-is-the-mvp).”
+
+Like selling Girl Scout cookies to a den mother.
+
+The Chiefs’ plan had worked to MVP perfection. Mahomes went from sitting out
+almost all of his rookie season to becoming the NFL’s youngest MVP since Dan
+Marino in 1984.
+
+Not everyone was shocked, though.
+
+“You knew it was inevitable, it was coming,” Veach told reporters after
+Mahomes was crowned. “That’s why I said some of the things I said last year at
+the combine. The thing that surprised me was the ease at which he did it, the
+consistency at which he did it.”
+
+By the time the 2017 draft arrived, Texans general manager Rick Smith had
+worked past Deshaun Watson’s shortcomings. It really didn’t take much. Smith
+had sat inside Raymond James Stadium in Tampa, Fla., 15 weeks earlier for the
+final night of Watson’s college career.
+
+If the Texans had any significant doubts about Watson’s perceived flaws — his
+arm strength or his accuracy or his ability to read the entire field — they
+were all trumped by what Smith had witnessed and felt sitting in the stands
+near field level as Clemson won its first national championship in 35 seasons.
+
+In the pressure-packed moments of a legacy-defining game, Watson had proved to
+be the most special player on the field.
+
+He threw for 420 yards and three touchdowns. He took hit after hit after hit
+and responded with completion after completion after completion. He led a go-
+ahead 88-yard touchdown march late in the fourth quarter.
+
+Deshaun Watson reacts after being picked No. 12 in the 2017 NFL draft by the
+Houston Texans. (Elsa / Getty Images)
+
+And after mighty Alabama responded to take a 31-28 lead with 2:07 remaining,
+Watson instilled an incredible calm confidence in his teammates, then took
+them 68 yards in nine plays for a championship-winning touchdown.
+
+The final pass of Watson’s career was a 2-yard TD dart to Hunter Renfrow with
+one second left.
+
+Clemson 35, Alabama 31.
+
+Smith knew he didn’t have to complicate things or paralyze himself with the
+minutiae on a scouting report.
+
+“Part of the evaluation process does involve and include measurements and
+numbers,” Smith said on draft weekend. “But I went to the national
+championship game. And I watched this guy play against a pretty good defense.
+And I saw him make all the throws necessary with all the velocity at the
+specific times that he needed.”
+
+Above everything else, Smith and Texans coach Bill O’Brien found themselves
+gravitating to two key points. One, when the Texans brought Watson to their
+facility for a pre-draft visit, spending nearly three hours with him in a
+classroom setting with a whiteboard, the quarterback’s memory and retention
+impressed. Later, Watson’s natural engagement with Texans players at the
+facility stood out.
+
+It wasn’t just teammates whom Watson had the power to energize. It was total
+strangers too.
+
+On top of that, his college career had established an indisputable fact.
+
+“In clutch moments, in big games, in games that really meant everything —
+national championship games, big ACC games — the guy came through,” O’Brien
+told reporters during the draft. “When the chips were down, he was able to
+lead his team to victory. That says a lot about a quarterback.”
+
+To be clear, the Texans didn’t have first choice from the 2017 quarterback
+class. They ended up picking behind the Bears and Chiefs. And it never has
+surfaced publicly how Smith, O’Brien and their colleagues established the
+order among Watson, Mitch Trubisky and Patrick Mahomes.
+
+Still, when it came time to act, the Texans’ belief in Watson’s future
+persuaded them to move up 13 spots, needing to send only a 2018 first-round
+pick to the Browns.
+
+The Texans had such confidence in Watson’s special abilities that they made a
+pick that just felt right. Whether Watson became an elite playmaker or settled
+in as a middle-of-the-road starter, the Texans knew they would have little
+regret rolling that dice.
+
+That’s how compelling their belief was in the way Watson elevated everyone
+around him.
+
+“It’s almost an energy level where he is calm and he’s got confidence,” [Smith
+said on Texans Radio the week of Watson’s first
+start](http://web.archive.org/web/20230928222539/https://www.houstontexans.com/video/gm-
+smith-on-what-he-saw-in-watson-more-19425028). “What that does is, in
+stressful environments and situations, when energy gets heightened and people
+lose their ability to stay focused, if you have a calming energy around you,
+then everybody else can settle down and execute and do the things that they’re
+asked to do.”
+
+The scouting report on Deshaun Watson was hardly concern-free. At Halas Hall
+and around the league, there were worries about his slender frame and ability
+to hold up through weeks and months and years of beatings from NFL defenders.
+
+Watson also had thrown 32 interceptions during his college career, 17 in his
+final season. That was an immediate red flag for many teams and a legitimate
+concern for the Bears’ top decision makers.
+
+Jordan Palmer, Watson’s quarterback tutor throughout the pre-draft process,
+kept hearing those knocks and shaking his head. He told anyone who would
+listen the same thing: “Just don’t overthink it.”
+
+Palmer shared that sentiment with the Bears, among many others. Focus, he
+suggested, on what makes Watson so special.
+
+[ [Tribune flashback: The Deshaun Watson debate — will QB's first-rate
+intangibles translate to
+NFL?](http://web.archive.org/web/20230928222539/https://www.chicagotribune.com/sports/bears/ct-
+deshaun-watson-bears-nfl-draft-spt-0409-20170408-story.html#nt=interstitial-
+manual) ]
+
+Palmer knew Watson had so many qualities that would immediately transfer to
+the NFL. His infectious charisma. His fearless playmaking. His stimulating
+leadership.
+
+Watson had been strengthened during childhood as his family fought through
+poverty. He had shown toughness and maturity during his mother’s battle with
+cancer. He had developed an indefatigable work ethic to go with his caring
+nature.
+
+Best of all, Palmer emphasized, there was the national championship game. Two
+national championship games really. A year before Watson held up college
+football’s most coveted trophy, he had endured the heartbreak of a 45-40 loss
+to Alabama, a stinging defeat that overshadowed his brilliant 405-yard, four-
+touchdown performance.
+
+That gave NFL teams tangible evidence of how productive and locked in Watson
+could be under intense high-stakes pressure. They also had seen how Watson
+dealt with that heartbreaking runner-up finish in 2015 and then carried
+Clemson to the top of the mountain.
+
+Almost instantly, Watson’s final college game and final drive became a thing
+of legend. Tigers teammates talked about the almost hypnotizing belief in his
+eyes. Members of a nasty Alabama defense couldn’t comprehend how much they had
+pummeled and battered Watson only to discover his fuel tank still was needling
+toward “F.”
+
+“We were trying to crush him,” Crimson Tide star Jonathan Allen told the
+Tribune before the 2017 draft. “And every time, he came back tougher. It’s
+just that competitiveness.”
+
+To be clear, the Bears never disregarded Watson’s greatest strengths. In the
+stack of reports from scouts, coaches and front-office executives, there was
+universal praise for Watson’s calm under pressure, his athleticism, his
+positive energy, his effect on teammates.
+
+In fact, coach John Fox rated the Clemson star as his top quarterback in the
+2017 class. So did quarterbacks coach Dave Ragone.
+
+But ultimately, Ryan Pace and Josh Lucas had fallen harder for Mitch Trubisky,
+believing the North Carolina quarterback had greater pocket presence and
+accuracy.
+
+Watson sensed early on the Bears’ interest in him was minimal and shrugged
+past it. People in his camp, however, were perplexed. Quincy Avery, one of
+Watson’s private quarterback coaches and a close confidant, scratched his
+head.
+
+“It just seemed like a big mistake on their part,” Avery said.
+
+If the Bears were truly on the hunt for a franchise-changing quarterback,
+Avery wondered, why wouldn’t they do the full gamut of homework on a two-time
+recipient of the Davey O’Brien Award, given to the top quarterback in college
+football? Why hadn’t the Bears held a private workout with Watson or taken him
+to dinner as they had with Trubisky and Patrick Mahomes?
+
+Instead, they met with Watson during the assembly-line interview process at
+the combine and for a bit after his pro-day workout. That was it.
+
+“Honestly,” Avery said, “I thought that either they had some kind of wild
+process where they were going to try to sneak under the radar and grab Deshaun
+because they had heard so many positive things about him. Or it was an
+organization with a bunch of dysfunction that wasn’t prepared to be successful
+or didn’t have the pieces in place to truly take the next steps.”
+
+![Bears coach John Fox and general manager Ryan Pace at their season-ending
+news conference at Halas Hall on Jan. 4,
+2017.](http://web.archive.org/web/20230928222539im_/https://www.chicagotribune.com/resizer/_8c7x2xSqg03YRkVduxzlxDtU6s=/1024x0/filters:format\(jpg\):quality\(70\)/arc-
+anglerfish-arc2-prod-
+tronc.s3.amazonaws.com/public/PK6M7QWAWNE5TPQ54SVUJ5GVJ4.jpg)
+
+Bears coach John Fox and general manager Ryan Pace at their season-ending news
+conference at Halas Hall on Jan. 4, 2017. (Phil Velasquez / Chicago Tribune)
+
+During Watson’s pro-day throwing session at Clemson, Fox spent much of his
+time beside Tigers coach Dabo Swinney, who had famously said a few months
+earlier that passing on Watson in the draft would be like passing on Michael
+Jordan. In his conversation with Fox, Swinney doubled down.
+
+“I don’t know how to articulate the type of greatness that’s inside of
+(Watson),” Swinney said. “And for me, that’s what Michael Jordan represents.
+I’m sure when Michael Jordan was coming out of North Carolina, he probably had
+some flaws. But it’s about who he was. It’s that will, that drive. You can’t
+coach that. And that’s what I want to make sure that I articulate (about
+Watson). This guy is brilliant between the ears. And he’s special in his
+heart.”
+
+Palmer’s pre-draft endorsements, meanwhile, came with important background. He
+had been at Halas Hall as a player for chunks of 2013 and 2014, sharing a
+quarterbacks room with Jay Cutler. He knew firsthand how badly the Bears
+organization needed a true hub of energy, a charging station for everyone in
+the building to plug into on a regular basis.
+
+He knew the fire Watson could light during the week and the explosive
+performances he could deliver on game days. Palmer envisioned how all of
+Chicago would rally around Watson’s think-big nature, intense drive and
+dynamic energy.
+
+Palmer wanted the best for Watson. But he had one predominant wish.
+
+“I want him to go to Chicago,” Palmer said a month before the draft. “It’s the
+perfect fit.”
+
+Then draft night came. The Bears were the first team to select a quarterback.
+They traded up to No. 2 and chose Trubisky.
+
+[ [Tribune flashback: In Mitch Trubisky, Bears make bold, overdue move for top
+QB in NFL
+draft](http://web.archive.org/web/20230928222539/https://www.chicagotribune.com/sports/ct-
+bears-trubisky-biggs-nfl-draft-spt-0428-20170427-column.html#nt=interstitial-
+manual) ]
+
+“Honestly,” Avery said, “I thought they were trying to make something that
+wasn’t there. … Deshaun was a proven winner. The Bears were trying to make
+Mitch Trubisky into a winner. You’re trying to create something that hasn’t
+necessarily been seen.”
+
+By now, Mitch Trubisky’s prolonged 2019 struggles have been well-documented.
+The end-zone interception in the fourth quarter of a Week 1 loss to the
+Packers. The easy completions turned into airmailed bloopers. The jittery
+footwork and anxiety in the pocket. That 9-yard first half by the Bears
+offense in Week 9 in Philadelphia.
+
+Perhaps most significant, the Bears are 4-5 with an offense ranked 29th in the
+NFL in total yards. Three months ago, Super Bowl aspirations felt so real and
+within reach. Now? The Bears are playoff outsiders, a third-place team dealing
+with sharp disappointment. And for the last two months, Trubisky has been
+fighting through a crisis of confidence.
+
+After Sunday’s 20-13 win over the Lions, Trubisky ranks 25th in the NFL in
+passer rating (85.2). Meanwhile, Deshaun Watson (fourth at 107.1) and Patrick
+Mahomes (second at 114.1) have established themselves as MVP candidates on
+division-leading teams.
+
+![Bears quarterback Mitch Trubisky faces reporters during a news conference at
+Halas Hall on Nov. 6,
+2019.](http://web.archive.org/web/20230928222539im_/https://www.chicagotribune.com/resizer/QoElDxo6n9JQWcAovfSRBKvVvvc=/1024x0/filters:format\(jpg\):quality\(70\)/arc-
+anglerfish-arc2-prod-
+tronc.s3.amazonaws.com/public/CDIPBXIVIZGSHHTTAXQYXZRGJE.jpg)
+
+Bears quarterback Mitch Trubisky faces reporters during a news conference at
+Halas Hall on Nov. 6, 2019. (Abel Uribe / Chicago Tribune)
+
+Mahomes’ explosion last season validated what the Chiefs saw in him. Watson,
+meanwhile, enjoyed immediate success with the Texans in six starts as a rookie
+before tearing the ACL in his right knee in practice.
+
+In three seasons, Watson has thrown just 23 interceptions in 1,060 attempts,
+including one playoff game. His synergy with coach Bill O’Brien has been
+undeniable. Watson also has shown savvy, knowing when to use his athleticism
+and creativity to turn nothing into something without being reckless.
+
+In Houston, there’s widespread belief that Watson’s extensive college success
+bought him credibility with teammates and that his natural confidence creates
+a teamwide mindset. None of the Texans’ 11 regular-season losses with Watson
+as their starter have been by more than one score.
+
+The Bears, meanwhile, are still trying to find their formula for success.
+What’s especially maddening is that Trubisky has shown the physical skills and
+mental fortitude to succeed at this level — at times.
+
+They point to his six-touchdown explosion against the Buccaneers last season
+as proof he can make his reads and fire on-time, on-target darts. They
+reference the poise he exhibited in the fourth quarter of last season’s
+playoff loss to the Eagles. They highlight the improbable 36-yard touchdown
+throw he pinpointed on the move and off script to Taylor Gabriel against the
+Redskins in Week 3 this season.
+
+It’s all in there. Somewhere.
+
+[ [Column: Now it’s on Mitch Trubisky and the Bears to prove the 3-TD surge in
+their Week 10 win actually means
+something](http://web.archive.org/web/20230928222539/https://www.chicagotribune.com/sports/bears/ct-
+chicago-bears-mitch-trubisky-lions-
+campbell-20191111-tkims4d3dzdnxaa72jflfyeqeu-story.html#nt=interstitial-
+manual) ]
+
+Even Sunday, after the offense sputtered through most of the first half,
+Trubisky hung in and threw touchdown passes on three consecutive possessions
+in the victory over the Lions.
+
+“What I really appreciated about Mitch was the fact that he never got rattled
+in all that stuff,” coach Matt Nagy said after the win. “It’s hard for
+everybody to see in those moments because there were mistakes today that
+weren’t his fault where it’s easy to become unraveled. And he didn’t do that.
+He stayed composed the whole time.”
+
+GM Ryan Pace has acknowledged that Trubisky needs to play better. But the
+Bears also realize the offense’s problems aren’t confined to quarterback play.
+The line has struggled. Tight end production has been nonexistent. At times,
+the commitment to the running game has wavered and the play-calling has been
+questionable.
+
+Still, behind the scenes, efforts to stabilize and boost Trubisky’s confidence
+have required time and energy on a weekly basis.
+
+In some ways, Bears coaches have learned, Trubisky’s admirable inner drive and
+self-critical nature can be his worst enemy, occasionally creating self-
+induced pressure that becomes suffocating.
+
+In that regard, an argument can be made that the Bears’ 100th season arrived
+at exactly the wrong moment.
+
+![Jim McMahon and Mitch Trubisky pose for photographs after participating in a
+panel conversation during the Bears100 Celebration at the Donald E. Stephens
+Convention Center on June 8,
+2019.](http://web.archive.org/web/20230928222539im_/https://www.chicagotribune.com/resizer/O9KWuYjBIilQqCsT4TJh4vvPDm4=/1024x0/filters:format\(jpg\):quality\(70\)/arc-
+anglerfish-arc2-prod-
+tronc.s3.amazonaws.com/public/VZDZ3QGVJ5FULLQNODIVNDRYKQ.jpg)
+
+Jim McMahon and Mitch Trubisky pose for photographs after participating in a
+panel conversation during the Bears100 Celebration at the Donald E. Stephens
+Convention Center on June 8, 2019. (John J. Kim / Chicago Tribune)
+
+After Trubisky’s bumpy ride through training camp this summer, with too many
+uneven practices and the tenacious defense feasting on an August interception
+binge, the Bears hosted the NFL’s 100th-season kickoff party. That meant a
+big-stage Thursday night battle against the rival Packers.
+
+Amid all the pomp and circumstance and with the whole league watching,
+Trubisky failed to lead the offense to a single touchdown and threw a costly
+interception in the end zone late in the fourth quarter.
+
+The [Bears lost
+10-3](http://web.archive.org/web/20230928222539/https://www.chicagotribune.com/sports/bears/ct-
+cb-bears-packers-10-thoughts-brad-
+biggs-20190906-j6ezjxxgmfedfm7t3vbu2edkm4-story.html).
+
+Trubisky lost some of his self-belief.
+
+And with 10 days before the next game, the opening for an intensely self-
+critical quarterback to stew on his struggles was there.
+
+“Three (extra) days to really dwell on it,” Trubisky said in the middle of the
+next week. “Which you’re not supposed to do.”
+
+A Week 1 Sunday noon game against the Giants — win or lose — probably wouldn’t
+have felt so seismic.
+
+“Maybe so,” offensive coordinator Mark Helfrich said. “That (loss) was a slap
+in the face. But you’ve got to recover.”
+
+The reclamation project at Halas Hall has been demanding, with the Bears
+balancing their efforts to push Trubisky’s knowledge of the offense forward
+with the need to simultaneously stabilize his psyche.
+
+[In Week
+3](http://web.archive.org/web/20230928222539/https://www.chicagotribune.com/sports/bears/ct-
+cb-chicago-bears-10-thoughts-washington-redskins-brad-
+biggs-20190924-jihjs2urazhiphaxafbyrl5kau-story.html), the Bears thought they
+had their remedy against a weak Redskins secondary and a game plan designed to
+provide the psychological jump start the whole offense needed. At halftime
+that night, everything was on script. Trubisky’s first-half stat line:
+20-for-23, 173 yards, three touchdowns. The Bears led 28-0.
+
+Alas, that momentum was short-lived. With a chance to throw his fourth TD pass
+on what should have been a family-picnic toss to Anthony Miller from the 6,
+Trubisky instead made a predetermined read, a poor decision and a worse throw
+to Allen Robinson. Josh Norman picked off the pass. It was a frustrating
+blunder that punctuated an easy victory with a period rather than an
+exclamation point.
+
+Six days later, Trubisky dislocated his left shoulder on the first series
+against the Vikings. Three weeks passed before his next game. His return
+against [the
+Saints](http://web.archive.org/web/20230928222539/https://www.chicagotribune.com/sports/bears/ct-
+cb-chicago-bears-10-thoughts-new-orleans-saints-brad-
+biggs-20191021-cbum4p53jvhaxjlsrqcjlcjo34-story.html) was one of the shakiest
+performances in his three seasons. Ugly losses to the
+[Chargers](http://web.archive.org/web/20230928222539/https://www.chicagotribune.com/sports/bears/ct-
+cb-chicago-bears-10-thoughts-brad-biggs-20191028-hejmdh63cvfhjbedkibskjwaly-
+story.html) and
+[Eagles](http://web.archive.org/web/20230928222539/https://www.chicagotribune.com/sports/bears/ct-
+cb-chicago-bears-10-thoughts-brad-biggs-20191104-mrp7ekszsfe3zeaunicncbvbei-
+story.html) followed.
+
+So much for refueling the self-belief tank.
+
+Even to outsiders, it’s clear Trubisky has felt every ounce of the
+discouragement with the Bears’ lackluster start. Quite simply, the 25-year-old
+quarterback has seemed to struggle mightily with struggling mightily.
+
+The fear of having let an entire city down seems to be blanketing Trubisky’s
+enthusiasm and confidence. Said one source who knows the quarterback well:
+“Think about it. How the (expletive) couldn’t it?”
+
+[ [Can Mitch Trubisky be the one to rewrite Bears history after 99 seasons of
+franchise mediocrity at
+quarterback?](http://web.archive.org/web/20230928222539/https://www.chicagotribune.com/sports/bears/ct-
+bears-quarterbacks-mitch-trubisky-jay-
+cutler-20190903-lvvf7d623bfonb66xpkxwp6r5y-story.html#nt=interstitial-manual)
+]
+
+The arc on Trubisky’s growth chart through two seasons didn’t foreshadow his
+2019 regression. As a rookie, with a receiving corps led by Kendall Wright and
+Josh Bellamy, Trubisky crossed the finish line with encouraging efficiency.
+His promotion to starter came after four games, far earlier than the Bears had
+hoped. But Trubisky’s poise and playmaking flashes reinforced the potential
+Pace saw.
+
+The 2018 season also showed growth and enough production to aid a 12-4 run to
+a division title and to earn an invitation to the Pro Bowl as an alternate.
+
+And it’s not as if Trubisky ever showed signs of being averse to this season’s
+grand expectations. To the contrary, he embraced that opportunity.
+
+“Honestly,” Trubisky said at the [Bears100 convention in
+June](http://web.archive.org/web/20230928222539/https://www.chicagotribune.com/sports/bears/ct-
+spt-bears-100-years-convention-gale-sayers-20190607-story.html), “the simplest
+way I can put it is, ‘Let’s go.’ When your chance comes, you try to make the
+most of it.”
+
+With everything else slowly trending upward, the biggest change in 2019 has
+been the expectation. The high intentions, as Nagy prefers to label it. The
+elevated pressure.
+
+To that end, Trubisky’s college career never provided much evidence of how he
+might respond. He made only 13 starts for an 8-5 Tar Heels team that finished
+second in the ACC’s Coastal Division and lost a nail-biter to Stanford in
+front of 42,166 people at the Sun Bowl.
+
+As one league source put it: “He wasn’t the point guard at North Carolina. He
+was the quarterback at North Carolina. You know?”
+
+In January, on a rainy Sunday in Florida, Patrick Mahomes, Mitch Trubisky and
+Deshaun Watson made good on a pact to gather for a ceremonial photo. They did
+so at Camping World Stadium in Orlando after playing in the season’s
+penultimate game.
+
+Trubisky squeezed between the two AFC quarterbacks with the words above each
+of their jersey numbers seemingly emerging in 3D: “Pro Bowl.”
+
+All three players wore proud smiles, a “we told you so” clapback that Mahomes
+took to social media. In a Twitter post with that photo, the Chiefs
+quarterback wrote: “They said we had a bad Qb draft class! 2 years later...”
+
+For all three, the future seemed so bright, so boundless. The weekend felt
+like the first of many January reunions they would enjoy deep into the 2020s.
+
+Now? Trubisky has been left behind and left to deal with that baggage. And the
+Bears now must make a brutally honest assessment of their predicament,
+revising their evaluations and fallback plans for the rest of this season as
+well as the future.
+
+Ryan Pace and the Bears will never have a souped-up DeLorean that can take
+them back in time to retry the 2017 draft process. Instead, they must focus on
+being solution-oriented and forward-looking, which for the remainder of 2019
+means devising a plan to spark some kind of developmental breakthrough in
+Trubisky.
+
+Internally at Halas Hall, a belief remains that every quarterback experiences
+a unique journey and that players such as Drew Brees or Alex Smith can offer
+Trubisky examples of peers whose emergence didn’t occur immediately.
+
+[Brees was
+benched](http://web.archive.org/web/20230928222539/https://www.sandiegouniontribune.com/sdut-1s9canepa-2010feb09-story.html)
+eight games into his third NFL season in 2003. As the Chargers began 1-7, the
+second-year starter threw 12 interceptions, seven touchdown passes and
+completed only 57% of his passes.
+
+Eli Manning, in the middle of his third season in 2006, was [struggling and
+under fire in New
+York](http://web.archive.org/web/20230928222539/https://www.nytimes.com/2006/11/21/sports/football/21roberts.html),
+with the harshest of critics believing his time as Giants quarterback was
+running out. Now Manning owns two Super Bowl rings, with his Hall of Fame
+candidacy up for debate.
+
+The danger of a premature surrender can’t be ignored.
+
+[ [Should the Bears bench Mitch Trubisky? Making the argument for — and
+against — sitting the starting
+QB.](http://web.archive.org/web/20230928222539/https://www.chicagotribune.com/sports/bears/ct-
+chicago-bears-mitch-trubisky-benched-chase-
+daniel-20191107-xgg3rkryjffydgqul3ixour5m4-story.html#nt=interstitial-manual)
+]
+
+The Bears also recognize the high-profile struggles within the NFL’s 2018
+quarterback class — players such as Baker Mayfield, Sam Darnold, Josh Rosen
+and Josh Allen — and realize the frustrations aren’t exclusive to Chicago.
+
+In the Bears’ ideal world, Trubisky would soon break out of the slump that has
+defined his third season and rod through the mental clog that has impeded his
+growth. All it may take, the organization believes, is one big play or one
+clutch drive or one exciting win to get things pointed back in a positive
+direction.
+
+If and when that turning point comes, the Bears can exhale and try to get
+their quarterback’s development plan back on schedule.
+
+Still, that best-case scenario may be hanging by a thread. Each week, it
+seems, a new what-could-have-been reminder comes from Kansas City or Houston.
+
+In Week 2, for example, while Trubisky and the Bears offense were stumbling
+through the first half of a win over the Broncos, Mahomes erupted for 281
+yards and four touchdown passes against the Raiders — in the second quarter
+alone. (In Trubisky’s 35 career starts, including playoffs, he has only seven
+_games_ with more than 280 passing yards.)
+
+In Week 8, while the Bears were digesting a brutal 17-16 home loss to the
+Chargers that included two fourth-quarter Trubisky turnovers, Watson was
+sparking a 27-24 rally past the Raiders with 279 passing yards and three
+touchdown passes. The last was a Cirque du Soleil trapeze act in which he
+twisted and spun from two defenders, took a cleat to the eye, had his vision
+impaired and regrouped to fire an off-script, off-balance 9-yard scoring dart
+to Darren Fells.
+
+“Doggone Watson,” Raiders coach Jon Gruden said immediately after the loss.
+“He wills it out of his team. And he makes something out of nothing.”
+
+In contrast, a few hours earlier at Soldier Field, Trubisky overthrew what
+should have been a win-sealing 58-yard touchdown pass to Taylor Gabriel, with
+the speedy receiver open down the middle.
+
+“You hit that,” coach Matt Nagy said, “and it’s close to being the dagger.”
+
+“Just missed,” Trubisky admitted.
+
+![Bears general manager Ryan Pace and quarterback Mitch Trubisky talk after
+practice on May 29, 2019 at Halas
+Hall.](http://web.archive.org/web/20230928222539im_/https://www.chicagotribune.com/resizer/PeF85mlkgtZO1ecjVbQa-
+ay8dnQ=/600x0/filters:format\(jpg\):quality\(70\)/arc-anglerfish-arc2-prod-
+tronc.s3.amazonaws.com/public/GSVZ3WIKGJDOLAREG2ONLHDA4Q.jpg)
+
+Bears general manager Ryan Pace and quarterback Mitch Trubisky talk after
+practice on May 29, 2019 at Halas Hall. (Brian Cassella / Chicago Tribune)
+
+It was more undeniable evidence of the gap in playmaking prowess between
+Trubisky and his more accomplished draft classmates.
+
+Heading into the Week 10 games, according to sportsbetting.ag, Watson and
+Mahomes were among the top six favorites for this season’s MVP award, in a
+stratum with Russell Wilson, Lamar Jackson, Aaron Rodgers and Christian
+McCaffrey.
+
+At this stage, the Bears’ pleas for patience are falling on deaf ears, appeals
+seemingly made out of desperation more than realistic wishes. And the reality
+is Trubisky faces an incredible challenge to get himself and the Bears out
+from under the avalanche of criticism that has buried them.
+
+Allusions to Brees or Smith trigger counterpoint references to Blake Bortles
+or Blaine Gabbert or Christian Ponder or Robert Griffin III or Vince Young. In
+some cases, critics point out, an anticipated leap never occurs.
+
+For Trubisky, the next seven weeks will be telling. With nearly three dozen
+starts under his belt, it’s quite possible his body of work is already large
+enough to formulate a verdict. And the Bears, at the very least, must start
+considering alternatives for 2020 and beyond.
+
+Is this season recoverable? Can Trubisky get his career journey out of the
+ditch? Said one league source: “I think so. I really do. But he’s going to
+have to be a tough mother (expletive). We’re going to find out what his DNA
+is. Because that’s a hard thing to pull out of.”
+
+Bears quarterbacks coach Dave Ragone still believes wholeheartedly in
+Trubisky’s approach. “As long as (he) continues to fight and continues to get
+back up and try again and try again and try again,” Ragone said, “eventually,
+in my opinion, we’re going to knock down that wall.”
+
+Whatever the case, that Pro Bowl snapshot now seems like an ancient relic. So
+does that journal entry from Pace and the hype video the team launched a day
+after drafting Trubisky.
+
+Pace has stressed since he arrived in Chicago how valuable a standout
+quarterback is to the long-term direction of the franchise. Without one, he
+has said, “you’re a ship without a sail.”
+
+On draft weekend 2017, Pace was confident he had, at long last, found the
+Bears’ Hope Diamond.
+
+“There are times when you’ve got to be aggressive,” he said then. “And when
+you have conviction on a guy, you can’t sit on your hands. I just don’t want
+to be average around here; I want to be great. And these are the moves you
+have to make.”

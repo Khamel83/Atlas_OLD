@@ -1,0 +1,368 @@
+# Barack Obama has a plan for the Trump era | Vox
+
+**Source**: http://www.vox.com/policy-and-politics/2017/3/13/14750528/barack-obama-trump-post-presidency
+**Type**: article
+**Created**: 2025-08-13T17:28:34.467148
+
+---
+
+title: Barack Obama has a plan for the Trump era | Vox
+source: http://www.vox.com/policy-and-politics/2017/3/13/14750528/barack-obama-trump-post-presidency
+date: 2025-08-13T17:28:32.966854
+tags: []
+---
+In the cafes of New York City and the offices of Chicago, blue America seeks
+his wisdom like he’s a prophet or a sage. What should we do? they ask. Show us
+the path.
+
+He likes to respond with a joke — a dad joke.
+
+“Well, you could move to Wyoming or North Dakota,” Barack Obama has taken to
+telling city liberals, according to one of his senior aides.
+
+Since leaving the White House, Obama has publicly embraced the traditionally
+apolitical role of most former American presidents. “He’s been looking forward
+to a life without the title of president that automatically draws resistance
+and the Pavlovian response of opposition,” says one adviser close to Obama.
+“As a former president, you are liberated from that baggage and can reach
+people in a way that’s not so political.”
+
+But even as Obama tries to transcend partisanship, his jokes suggest political
+aims. This is the tension that already dominates his post-presidency, as
+revealed by interviews with six current and former aides to the former
+president: Obama wants to rise above the partisan muck, but he’s also eager to
+accomplish goals that are inescapably political in nature.
+
+His team has a workaround. Obama’s aides say he believes that if he can take
+politically neutral steps to improve democracy — by bringing people together
+through “civic engagement,” or by giving grassroots activists the tools for
+community organizing — then _that_ will change the political landscape that
+culminated in Donald Trump’s election, while also keeping Obama himself above
+the fray.
+
+Critics to his left and right say this theory is riddled with contradictions.
+They note that it has left Obama largely silent as Trump hacks away at his
+signature achievements, while simultaneously working behind the scenes to
+thwart a branch of activists in his own party.
+
+What may be even more perplexing, critics say, is that Obama is still chasing
+the mirage of a nonpartisan solution to America’s political crisis, after
+eight years of failing to find it in the White House.
+
+But Obama thinks he has a model for success. And it begins with his wife.
+
+## The FLOTUS model: or, why Barack Obama will not be leading the resistance
+
+Photo by Jack Gruber-Pool/Getty Images
+
+Michelle Obama came into the White House beset by criticism, reviled by the
+far right for a speech in which she appeared to criticize the country’s
+history.
+
+She left the White House not just one of the most popular Democrats but among
+the [most popular political figures in the
+country](http://www.gallup.com/poll/202349/president-obama-leaves-white-house-
+favorable-rating.aspx). Somewhere along the way, the first lady executed a
+series of relatively low-profile initiatives — on things like nutrition and
+girls’ education — that the president views as high-impact. She succeeded, he
+believes, in part because those issues didn’t become as polarized as they
+would have if the president had embraced them, according to one senior
+adviser.
+
+Michelle Obama didn’t rely on political support on Capitol Hill, billions of
+dollars in the federal budget, or the vast apparatus of the White House to
+achieve her goals. Instead, aides say, the former president thinks she had
+roughly the same assets as first lady as he has in his post-presidency — the
+bully pulpit, an ability to convene experts and CEOs and top minds from around
+the world, and the freedom to not have to drag along a Senate majority every
+step of the way.
+
+That model, as Obama envisions it, appears to require him avoiding the public
+resistance movement against Trump. Obama views it as a priority to not get
+dragged down into a personal back and forth with the current president, or to
+openly criticize the Republican Party, six aides to the president said in
+separate interviews. Even when Trump asserted without proof that his
+predecessor had “wiretapped” Trump Tower, Obama relied on an aide to knock
+down the charge in a statement rather than speak out publicly himself.
+
+“It’s a return to the president’s core principle of grassroots activism. That
+principle is going to be what drives a lot of his activity in the post-
+presidency,” says Eric Schultz, an Obama adviser.
+
+This plan partly springs from tradition. One aide argued that Obama takes
+seriously the norm of presidents not criticizing their successors, and pointed
+to the president’s pride at turning over control of the White House smoothly.
+In part, it stems from Obama’s desire to allow other Democratic Party leaders
+to fill the void being left by his departure from the scene.
+
+But this is also Obama getting back to his brand. In 2004, he rose to national
+stardom due to a speech in which he talked about the essential similarity of
+red and blue America. In his first term as president, he [made a point of
+going to meetings with conservative pundits to dispel the
+“myth”](http://www.newyorker.com/magazine/2012/01/30/the-obama-memos) that
+“the two political parties were impossibly divided on the big issues
+confronting America,” as the New Yorker’s Ryan Lizza wrote at the time.
+
+Toward the end of his second term, with political polarization still very much
+intact, Obama grew [increasingly
+comfortable](http://www.vox.com/2014/8/6/5974807/the-deep-irony-of-barack-
+obamas-presidency-in-one-sentence) abandoning those ideals to push his
+governing agenda (by unilaterally issuing an executive order on immigration
+widely loathed by Republicans, for instance). His time outside of the White
+House now offers him a second chance at those aspirations, even if analysts
+don’t give him much shot at faring any better this time.
+
+But there’s a big difference between Obama’s aims and his wife’s: she
+carefully chose noncontroversial issues, like nutrition, while many of his
+aims and concerns, particularly post-Trump, are naturally polarizing. Obama’s
+post-presidency will involve leading an an attack with [former Attorney
+General Eric Holder on Republican
+gerrymandering](https://www.nytimes.com/2017/01/11/us/eric-holder-to-lead-
+democrats-attack-on-republican-gerrymandering.html), encouraging young
+progressive political talent, and shaping the Democratic Party — all of which
+threaten his simultaneous desire to rise above messy partisan politics.
+
+“In their post-presidencies, we often see presidents trying to compensate for
+weaknesses or failings in their record,” says Emory University political
+scientist Alan Abramowitz. “It looks like he’s going back to that original
+idea of hoping to rise above the fray. I just don’t think it has much of a
+chance of working.”
+
+## Can the Obama Foundation fix politics without “being political”?
+
+Barack and Michelle Obama are still in “the embryonic stages” of deciding
+exactly what to do with their new post-presidential futures, one aide said.
+There’s some discussion of having them lead a big push against climate change,
+for instance.
+
+Their biggest push will be the Obama Foundation, which is also in charge of
+creating Obama’s presidential library. It fits the president’s FLOTUS model of
+being scrupulously apolitical — but would likely also have repercussions that
+quite clearly are political, and may quickly be politicized.
+
+That internal contradiction is already bubbling to the surface. Among the
+foundation’s goals, for instance, are figuring out to how give grassroots
+organizers and young people the tools to convene meetings or rally around a
+cause. (For now, the foundation’s website, Obama.org, is
+[soliciting](https://www.obama.org/your-voice/) stories from Americans about
+“what it means to be a good citizen.” It will announce exactly what these
+programs are at a later date.)
+
+“It will be a living, working center for citizenship,” says Amy Brundage,
+former White House deputy communications director and now an Obama Foundation
+official.
+
+Adds Mitch Stewart, the battleground states director for President Obama’s
+2012 reelection campaign and the first director of Organizing for America: “He
+wants to try to provide an environment similar to the one he had when he did
+community organizing, because it provided him the tools to be a success in
+public life.”
+
+Praising “citizenship” has been Obama’s go-to move since Trump’s election. His
+farewell address called “participation ... each of us accepting the
+responsibility of citizenship” the foundation of the American republic,
+without which the Constitution would be meaningless. After [protests erupted
+against Trump’s “Muslim ban” in
+January](http://www.politico.com/story/2017/01/obama-supports-protests-
+american-values-are-at-stake-234375), Obama released a statement that he was
+“heartened by the level of engagement taking place in communities around the
+country” and by “citizens exercising their Constitutional right to assemble.”
+
+Obama’s conception of citizenship is pluralistic — he
+[says](http://www.vox.com/policy-and-politics/2017/1/10/14229878/full-
+transcript-president-barack-obama-farewell-speech) it must “start with the
+premise that each of our fellow citizens loves this country just as much as we
+do,” and that it hinges on “presuming a reservoir of goodness in others.”
+
+That doesn’t amount to defining the job of a citizen as voting for the
+Democratic Party. But Trump supporters have been quick to note that Obama’s
+encouragement of civic engagement and grassroots activism may have political
+consequences nonetheless. To them, doing so is already a violation of the
+hands-off tradition of former presidents. (President Bush didn’t openly
+encourage the Tea Party town halls held to protest Obamacare in 2010, for
+instance.)
+
+“Obama’s trying to have it both ways — to appear presidential and nonpartisan,
+and at the same time agitating the grassroots level,” says Roger Stone, a
+former adviser to Trump, in an interview. “What I think Obama is doing is
+publicly trying to appear above the fray while quietly working behind the
+scenes.”
+
+And on the other side, Obama invites the exact opposite criticism —
+progressives to the president’s left wonder if his silence wrongly validates
+Trump while his fundraising will also siphon critical resources away from
+those who are willing to engage in open combat against the current president.
+(The cost of Obama’s [library alone is expected to balloon to more than $1
+billion](http://www.chicagotribune.com/news/opinion/commentary/ct-obama-
+presidential-library-chicago-perspec-0510-jm-20160509-story.html).)
+
+“The president should be doing exactly what everyone else in the Democratic
+Party should be doing: following the resistance, fighting back against Trump,
+or getting out of the way,” says Charles Chamberlain, executive director of
+the left-leaning advocacy group Democracy for America.
+
+“Planned Parenthood, the ACLU, millions of American across the country —
+they’re all out there desperately trying to protect the institutions of
+American democracy,” he says. “I hope Obama can look at that and say, ‘It’s
+time I followed along.’”
+
+The president encouraged DNC members to vote for Michael Blake. Blake was
+elected DNC vice chair in Atlanta last weekend. Photo by Leigh Vogel/Getty
+Images for Concordia Summit
+
+On at least one political front, Obama has stayed deeply engaged: He worked
+the phones to help tip the race for chair of the Democratic National
+Committee.
+
+Rep. Keith Ellison (D-MN) had sewn up the endorsements of dozens of state
+Democratic Party chairs in his campaign against Obama Labor Secretary Tom
+Perez. Ellison had won most of the congressional endorsements, including those
+of the party’s senior leadership. He had the strong support of Bernie Sanders
+and his progressive fans.
+
+Obama helped Perez overcome all that. Perez’s staff produced a list of every
+voting member of the Democratic National Committee and the issue they thought
+was most important to him or her. They sent it to Obama’s team.
+
+The White House veterans quickly drew up a plan, going through the list and
+deciding who in the former president’s orbit was best suited to winning over
+each DNC voting member, sources close to the president said. In the weeks
+before February’s election in Atlanta, Valerie Jarrett, David Simas, and
+Paulette Aniskoff — three longtime Obama political aides — lobbied individual
+DNC members. For others, former Vice President Joe Biden filled in.
+
+“If Obama was the only one who could make a difference,” says one aide to the
+former president, “then he’d be the one to call.”
+
+Before he entered the DNC race, Perez spoke with Obama several times about why
+he should run. Obama personally argued that Perez was particularly qualified
+to win back onetime Obama voters who then supported Trump in November,
+according to one aide.
+
+Ellison requested a meeting with the president, but never got it, according to
+two sources.
+
+Observers have been mystified by the Obama White House’s decision to spark a
+Democratic Party civil war over the DNC chair race so soon after its
+clobbering in November. After all, most agree that Ellison and Perez are
+similarly progressive — and [that there didn’t seem to be any real substantial
+gaps in their strategies](http://www.vox.com/2017/1/3/14084382/keith-ellison-
+dnc-chair) for fixing the Democratic Party.
+
+Obama aides say the intervention was related to the former president’s
+reluctance to openly criticize Trump. By helping ensure a close ally like
+Perez is running the DNC, they said, Obama felt like he was liberating himself
+from having to personally respond to Trump over the next several years.
+
+Obama, in other words, was trying to extricate himself from the partisan fray
+— but by taking action in the DNC race that risked antagonizing his own
+party’s base.
+
+It’s not clear it worked.
+
+“Going out of his way to find a challenger to Keith Ellison, who was the
+consensus candidate and a hero of the progressive grassroots, was selfish and
+counterproductive,” says Adam Green, co-founder of the left-wing organization
+the Progressive Change Campaign Committee.
+
+Some liberals, though, are lining up for Obama’s advice. Often, he’s giving
+it.
+
+## Obama’s team is structuring the personnel and policy of the Democratic
+Party
+
+Photo by Jonathan Ernst-Pool/Getty Images
+
+A few days after Trump’s inauguration, about 15 Obama aides began moving their
+supplies into a one-floor office less than 2 miles from the White House.
+
+The Obamas themselves first visited the space in the first week of February.
+One staffer keeps a sketch of the White House South Lawn near his desk, next
+to a football adorned with the presidential seal. The former president’s
+personal office is located right down the hall from the first lady’s. Visitors
+are greeted with a sign painted in black lettering, “Welcome to the Office of
+President Obama,” ringed with handprints in green, red, and blue. The kitchen
+is stocked with Girl Scout cookies.
+
+“It feels a bit like campaign office meets startup,” one staffer says.
+
+The analogy speaks to the uncertainty about what exactly Obama’s team has been
+assembled to do.
+
+The Obama office is stocked with key Democratic talent, such as Cody Keenan,
+the president’s speechwriter; Anita Decker Breckenridge, his former deputy
+chief of staff; and Caroline Adler Morales, the first lady’s communications
+director.
+
+His team has been in talks with the offices of House Minority Leader Nancy
+Pelosi and Senate Minority Leader Chuck Schumer about once a week, one source
+said. They are also “in regular touch” with officials at the DNC, the Center
+for American Progress, the Democratic Governors Association, and several other
+progressive groups.
+
+When Trump [announced a new regulatory
+freeze](http://thehill.com/regulation/administration/316585-trumps-regulatory-
+freeze-goes-further-than-obamas) on January 29, for instance, Obama aides
+provided congressional Democrats with information about a similar order he had
+issued in 2009. They monitor, and sometimes challenge, Trump’s accusations in
+the news.
+
+On Tuesday night, the Huffington Post
+[reported](http://www.huffingtonpost.com/entry/obama-trump-
+engagement_us_58bde6fde4b0d8c45f45f782?t6dr807qn43kawcdi) about this crew of
+Obama aides assembled in DC’s West End, with a headline declaring that Obama
+has a “bite your tongue policy on Trump.” A few hours later, a different
+headline based on the same reporting [materialized on
+Breitbart](http://www.breitbart.com/big-government/2017/03/07/obama-deploying-
+dozen-strong-team-to-keep-tabs-on-trump-administration/), this time laden with
+ominous undertones: “Obama deploying dozen-strong team to ‘keep tabs’ on Trump
+administration.”
+
+Just a couple of days earlier, Obama aides were stressing to me that the exact
+same office the Huffington Post and Breitbart were arguing over would itself
+be searching for ways to solve the partisan media echo chamber that so worries
+the president.
+
+“Getting back to people talking to each other even if they fundamentally
+disagree is something he’s very interested in, particularly in this on-demand
+media environment where people gravitate toward their corners,” one aide said.
+“He’s very curious: How do we change that?”
+
+Added another, when discussing their goals for the Obama Foundation: “You’ll
+find spaces where independents and Republicans can engage on this issue.”
+
+It’s the essential question for Obama. Should the president worry about
+appearing too partisan to his opponents? Or is it more important for him to be
+forthcoming to his supporters about what he believes?
+
+Ben Wikler, head of MoveOn.org, says Obama’s current approach is smart: Try to
+allow new voices to come to the fore, while subtly trying to look for ways to
+fuel the forces of the opposition.
+
+“The real action now — the most powerful force in politics today — is the
+millions of people marching and demonstrating and demanding the protection of
+their health care,” Wikler says. “Recognizing that power comes from below — as
+opposed to oracular pronouncements from former officials — is a shrewd
+recognition. One reason Obamacare has become so popular is that it’s being
+seen as ‘care’ rather than ‘Obama.’ But that requires him getting out of the
+picture.”
+
+But to others, Obama’s approach merely underscores the core failing not just
+of his post-presidency but of his entire political career.
+
+“We got into the weakest position in decades through Obama’s attempt to live
+in a post-partisan world that doesn’t exist,” says Chamberlain, of DFA.
+
+Even some neutral observers think this may be the wrong moment for Obama’s
+diligent avoidance of the partisan fray. “We can’t get to the point where we
+have these bipartisan or transpartisan discussions until Democrats win some
+elections — because nothing else is going to stop this juggernaut on the
+right,” says Theda Skocpol, a Harvard political scientist.
+
+Democrats will get their first chance to cut into the Republican congressional
+majority next month, when a special election is held in Georgia’s Sixth
+Congressional District, to replace current Health and Human Services Secretary
+Tom Price.
+
+The leading Democratic candidate is Jon Ossoff, a former congressional aide.
+His campaign has not yet heard from Obama.

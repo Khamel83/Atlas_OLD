@@ -1,0 +1,100 @@
+# South Carolina and the individual mandate: Why aren’t conservatives complaining about the state’s insurance law? - Slate Magazine
+
+**Source**: http://www.slate.com/articles/news_and_politics/the_best_policy/2011/09/south_carolina_and_the_individual_mandate_why_aren_t_conservativ.html
+**Type**: article
+**Created**: 2025-08-13T20:32:10.615421
+
+---
+
+title: South Carolina and the individual mandate: Why aren’t conservatives complaining about the state’s insurance law?
+source: http://www.slate.com/articles/news_and_politics/the_best_policy/2011/09/south_carolina_and_the_individual_mandate_why_aren_t_conservativ.html
+date: 2025-08-13T20:32:09.501411
+tags: []
+---
+The “individual mandate” in President Obama’s [Affordable Care
+Act](http://www.healthcare.gov/law/index.html) has provoked incredible
+enthusiasm among the act’s supporters and towering rage in its opponents. The
+obligation either to purchase insurance or to pay a fine whose proceeds would
+be used to offset the cost of care to the uninsured is viewed either as an
+essential part of the architecture of health care reform or as an affront to
+liberty. In few places has the attack on the individual mandate been more
+vociferous than in South Carolina, where both new Governor Nikki Haley and
+Senator Jim DeMint are leading members of the Tea Party movement. They view
+the individual mandate as inimical to our Constitution and the worst
+manifestation of government excess.
+
+So it may surprise you to know that South Carolina has its own individual
+mandate—structured exactly like the federal health care mandate, but for auto
+insurance. Unlike virtually all other states, which require every driver to
+carry liability insurance, South Carolina has a more complex system. Under
+South Carolina state law, in effect for more than a decade, a car owner in the
+state must either have liability insurance _or_ obtain an “[uninsured motorist
+registration](http://www.scdmvonline.com/DMVNew/forms/dmvb-18.pdf).” The fee
+for the uninsured registration is $550 and is deposited into the “uninsured
+drivers fund.” The website of the South Carolina Department of Insurance
+explains that the $550 fee is used to “[offset the costs of uninsured motorist
+coverage](http://doi.sc.gov/Documents/Consumers/Consumer%20-%20Auto%20-%20Auto%20Facts%20and%20Tips.pdf).”
+(Some portion is also used for consumer education programs.) The “uninsured
+motorist coverage” is a cost borne by drivers who have their own liability
+insurance but also need additional insurance to provide for coverage in the
+event they have an accident caused by a driver who does not have liability
+insurance—the “uninsured driver.” By statute—SC Code section 38-77-155—funds
+from the uninsured drivers fund are distributed to insurers who offer this
+uninsured motorist coverage. Bottom line: South Carolina forcibly transfers
+money from drivers who refuse to buy insurance to drivers who do buy insurance
+to cover the costs of risk created by the drivers who don’t buy insurance.
+
+The $550 fee is a rough approximation of the cash needed to insure that those
+who have not purchased insurance pay their fair share to the system.
+Eliminating free riders—those who create risk but don’t pay for it—is the
+worthy objective of South Carolina’s uninsured motorist registration.
+
+South Carolina even has an enforcement mechanism to make sure people abide by
+this structure: Any driver stopped by a police officer who can’t produce an
+insurance certificate or a certificate of “uninsured registration” is charged
+the $550. In other words, if they stop you and catch you, they make sure you
+buy into the system.
+
+Make no mistake, this structure is precisely what the health care act
+requires: Either be insured or pay a fine—a fine calibrated to subsidize the
+costs and risks you create by participating without insurance. And also
+understand: This makes perfect sense. Eliminating “free riders” is the only
+way to make an insurance system work. Everybody from the Heritage Foundation
+to Newt Gingrich to Mitt Romney to President Obama has come to this same
+conclusion.
+
+Opponents of the individual mandate in the health care reform bill have tried
+to deal with the auto insurance analogy before. Senator DeMint and others have
+attempted, valiantly, to distinguish auto insurance by arguing that driving is
+a voluntary act and, therefore, that those who chose not to drive are not
+forced to buy insurance. But this is, as lawyers say, a distinction without a
+difference. The core logic in each case is identical: If you create risk and
+costs to other individuals and society at large by your activity, and yet you
+refuse to pay for those costs and risks, so that others are being forced to
+cover your free-riding, then it is fair to require you to share part of the
+burden. The fact that one can theoretically opt out of driving has no impact
+on this argument. Opponents refuse to acknowledge the logic of the individual
+health-insurance mandate despite their embrace of it in the case of auto
+insurance. (Their other argument about the constitutional authority of
+Congress to impose the health mandate, which I view as being equally lacking
+in merit, will nonetheless have to be resolved by the Supreme Court, most
+probably this term.)
+
+The only escape hatch for Senator DeMint and others would be if they were
+truly willing to let people “opt out” of the health care system. Then only
+those who “opted in” could be forced to participate—as with auto insurance.
+But what would that mean? That if somebody came to an emergency room with a
+heart attack and that person could not pay cash on the barrel, didn’t have
+insurance to cover, or hadn’t paid the equivalent of the “uninsured
+registration fee”—we would really throw them out on the street and say, Sorry,
+no care for you? Having listened to the audience reaction at the recent
+Republican presidential debate, where death seemed to be a popular means to
+resolve social ills, there clearly may be a few fringe voices who have that
+view. But I don’t believe there is a significant number of people who truly
+want us to deny critical or emergency care to the sick based on the absence of
+payment. Indeed, federal law requires that care be provided.
+
+Since opting out is neither morally nor legally possible, we must create a
+system that then requires everybody to participate in covering some portion of
+the costs. That is what South Carolina has done for auto insurance and what
+the nation must do for health care.

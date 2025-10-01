@@ -1,0 +1,67 @@
+# The Conventional Wisdom On Oil Is Always Wrong | FiveThirtyEight
+
+**Source**: inputs/New Docs/html/fivethirtyeight.com_features_the-conventional-wisdom-on-oil-is-always-wrong.html
+**Type**: article
+**Created**: 2025-08-25T02:53:49.106392
+
+---
+
+![](https://fivethirtyeight.com/wp-content/uploads/2014/12/ap291010065646.jpg?w=575)
+
+
+
+Drillers work to maneuver the drill clamp on a coal-bed methane rig outside of Wyarno, Wyo., on June 20, 2007.
+
+Jordan Edgcomb / AP
+
+
+
+A Whiting Petroleum Co. pump jack pulls crude oil from the Bakken region of the Northern Plains near Bainville, Mont., on Nov. 6, 2013.
+
+Matthew Brown
+
+In 2008, I moved to Dallas to cover the oil industry for The Wall Street Journal. Like any reporter on a new beat, I spent months talking to as many experts as I could. They didn’t agree on much. Would oil prices — then over $100 a barrel for the first time — keep rising? Would post-Saddam Iraq ever return to the ranks of the world’s great oil producers? Would China overtake the U.S. as the world’s top consumer? A dozen experts gave me a dozen different answers.
+
+But there was one thing pretty much everyone agreed on: U.S. oil production was in permanent, terminal decline. U.S. oil fields pumped 5 million barrels of crude a day in 2008, half as much as in 1970 and the lowest rate since the 1940s. Experts disagreed about how far and how fast production would decline, but pretty much no mainstream forecaster expected a change in direction.
+
+That consensus turns out to have been totally, hilariously wrong. U.S. oil production has increased by more than 50 percent since 2008 and is now near a three-decade high. The U.S. is on track to surpass Saudi Arabia as the world’s top producer of crude oil; add in ethanol and other liquid fuels, and the U.S.is [already on top](https://fivethirtyeight.com/features/the-law-of-supply-and-demand-suddenly-applies-to-oil-too/).
+
+![casselman-feature-oil-new-1](https://fivethirtyeight.com/wp-content/uploads/2014/12/casselman-feature-oil-new-1.png)
+
+The standard narrative of that stunning turnaround is familiar by now: Even as Big Oil abandoned the U.S. for easier fields abroad, a few risk-taking wildcatters refused to give up on the domestic oil industry. By combining the techniques of hydraulic fracturing (“fracking”) and horizontal drilling, they figured out how to tap previously inaccessible oil reserves locked in shale rock – and in so doing sparked an unexpected energy boom.
+
+That narrative isn’t necessarily wrong. But in my years watching the transformation up close, I took away a lesson: When it comes to energy, and especially shale, the conventional wisdom is almost always wrong.
+
+It isn’t just that experts didn’t see the shale boom coming. It’s that they underestimated its impact at virtually every turn. First, they didn’t think natural gas could be produced from shale (it could). Then they thought production would fall quickly if natural gas prices dropped (they did, and it didn’t). They thought the techniques that worked for gas couldn’t be applied to oil (they could). They thought shale couldn’t reverse the overall decline in U.S. oil production (it did). And they thought rising U.S. oil production wouldn’t be enough to affect global oil prices (it was).
+
+Now, oil prices are cratering, falling below $55 a barrel from more than $100 earlier this year. And so, the usual lineup of experts — the same ones, in many cases, who’ve been wrong so many times in the past — are offering predictions for what plunging prices will mean for the U.S. oil boom. Here’s my prediction: They’ll be wrong this time, too.
+
+To be fair, the drop in oil prices is still too new for the experts to have settled on a clear consensus of what it will mean for U.S. producers. But the range of opinions is narrow, ranging from [“production will be keep growing, but more slowly”](http://www.slate.com/articles/business/moneybox/2014/12/falling_oil_prices_why_an_oil_bust_won_t_hurt_the_american_economy_or_energy.html) to [“it won’t have much effect at all.”](http://www.cnbc.com/id/102234051#.)1 Author and analyst Daniel Yergin, long the embodiment of the conventional wisdom on all things energy2, [put it this way](http://www.wsj.com/articles/daniel-yergin-the-global-shakeout-from-plunging-oil-1417386897?cb=logged0.11228744778782129) in a Wall Street Journal op-ed late last month, when oil was trading for just under $70 a barrel:
+
+> It is now clear that the new U.S. production is more resilient than anticipated. … True, with prices now near or below $70 a barrel, U.S. companies are looking hard at their investment plans — where and how much to cut or postpone. But it will take time for these decisions to affect supply. U.S. oil output will continue to rise in 2015.
+
+I don’t take issue with anything Yergin is saying here. In fact, it makes sense. But that’s the thing about the conventional wisdom: It *always* makes sense at the time. It’s only later that we can see all the reasons it was wrong.
+
+I don’t yet know why the conventional wisdom will be wrong this time, but I can guess. Not about what will happen — I’m no better at these predictions than anyone else — but about the sources of error. Here are a few of the most likely candidates:
+
+
+![casselman-feature-oil-2](https://fivethirtyeight.com/wp-content/uploads/2014/12/casselman-feature-oil-2.png)
+
+It isn’t surprising that experts aren’t good at predicting prices. Global oil markets are a function of countless variables — geopolitics, economics, technology, geology — each with its own inherent uncertainty. And even if you get those estimates right, you never know when a war in the Middle East or an oil boom in North Dakota will suddenly turn the whole formula on its head.
+
+But none of that stops television pundits from making confident predictions about where oil prices will head in the coming months, and then using those predictions as the basis for production forecasts. Based on their track record, you should ignore them.
+
+
+The reality is far more complicated. Not all parts of an oil field are created equal. Wells drilled in a “sweet spot” can be an order of magnitude better than those in less promising areas. Companies will keep drilling in the best areas long after they’ve pulled the plug on more marginal prospects. Break-even prices also change along with the price of oil. As prices fall and companies drill less, that leaves more rigs and equipment available, pushing down the price of drilling a well and allowing companies to stay profitable even at lower oil prices.
+
+With oil under $60 a barrel, it’s a fair bet that many U.S. wells are now unprofitable. But that doesn’t mean companies will stop drilling them, at least right away. Companies often have contracts for rigs and would rather keep drilling than pay a penalty. They also have contracts for the land where they drill. If they don’t drill within a certain period, they lose the right to the land altogether.
+
+Even when drilling does slow, production won’t necessarily follow. Wells keep producing for decades after they’ve been drilled, although at ever-declining rates. Companies prioritize their most promising projects, so the wells that do get drilled will be the best ones. And technology keeps improving, so companies can coax more oil out of each well. Natural gas provides an instructive example: The U.S. is [drilling half as many gas wells](http://phx.corporate-ir.net/phoenix.zhtml?c=79687&p=irol-reportsother) today as it was five years ago and producing [a third more gas](http://www.eia.gov/dnav/ng/hist/n9050us2m.htm).
+
+![casselman-feature-oil-3](https://fivethirtyeight.com/wp-content/uploads/2014/12/casselman-feature-oil-3.png)
+
+
+In recent years, investors have handed energy companies [half a trillion dollars](http://www.bloomberg.com/news/2014-12-11/fed-bubble-bursts-in-550-billion-of-energy-debt-credit-markets.html) in loans. That’s partly because of all the promising new oil fields in North Dakota and Texas, but it’s also because with interest rates near zero, investors are hungry for returns wherever they can find them. Now the Federal Reserve is talking about raising interest rates, which could kill the bond bubble, even as falling oil prices make those loans look riskier than they used to. If Wall Street turns off the money spigot, drilling will slow down no matter what oil prices do.
+
+
+But the policy has [created divisions within OPEC](http://www.wsj.com/articles/falling-oil-prices-test-opec-unity-1416188605), and no one knows when or if the cartel will start pulling back production. Tumbling prices are [wreaking havoc on Russia’s economy](http://www.nytimes.com/2014/12/17/business/russia-ruble-interest-rates.html?hp&action=click&pgtype=Homepage&module=first-column-region&region=top-news&WT.nav=top-news), and they could easily lead to political unrest in other countries as well.

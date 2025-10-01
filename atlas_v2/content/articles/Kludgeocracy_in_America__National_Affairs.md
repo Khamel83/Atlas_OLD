@@ -1,0 +1,701 @@
+# Kludgeocracy in America | National Affairs
+
+**Source**: http://www.nationalaffairs.com/publications/detail/kludgeocracy-in-america
+**Type**: article
+**Created**: 2025-08-13T19:47:55.679138
+
+---
+
+title: Kludgeocracy in America | National Affairs
+source: http://www.nationalaffairs.com/publications/detail/kludgeocracy-in-america
+date: 2025-08-13T19:47:53.672430
+tags: []
+---
+# Kludgeocracy in America
+
+#### _Fall 2013_
+
+In recent decades, American politics has been dominated, at least
+rhetorically, by a battle over the size of government. But that is not what
+the next few decades of our politics will be about. With the frontiers of the
+state roughly fixed, the issues that will define our major debates will
+concern the complexity of government, rather than its sheer scope.
+
+With that complexity has also come incoherence. Conservatives over the last
+few years have increasingly worried that America is, in Friedrich Hayek's
+ominous terms, on the road to serfdom. But this concern ascribes vastly
+greater purpose and design to our approach to public policy than is truly
+warranted. If anything, we have arrived at a form of government with no
+ideological justification whatsoever.
+
+The complexity and incoherence of our government often make it difficult for
+us to understand just what that government is doing, and among the practices
+it most frequently hides from view is the growing tendency of public policy to
+redistribute resources upward to the wealthy and the organized at the expense
+of the poorer and less organized. As we increasingly notice the consequences
+of that regressive redistribution, we will inevitably also come to pay greater
+attention to the daunting and self-defeating complexity of public policy
+across multiple, seemingly unrelated areas of American life, and so will need
+to start thinking differently about government.
+
+Understanding, describing, and addressing this problem of complexity and
+incoherence is the next great American political challenge. But you cannot
+come to terms with such a problem until you can properly name it. While we can
+name the major questions that divide our politics — liberalism or
+conservatism, big government or small — we have no name for the dispute
+between complexity and simplicity in government, which cuts across those more
+familiar ideological divisions. For lack of a better alternative, the problem
+of complexity might best be termed the challenge of "kludgeocracy."
+
+A "kludge" is defined by the Oxford English Dictionary as "an ill-assorted
+collection of parts assembled to fulfill a particular purpose...a clumsy but
+temporarily effective solution to a particular fault or problem." The term
+comes out of the world of computer programming, where a kludge is an inelegant
+patch put in place to solve an unexpected problem and designed to be backward-
+compatible with the rest of an existing system. When you add up enough
+kludges, you get a very complicated program that has no clear organizing
+principle, is exceedingly difficult to understand, and is subject to crashes.
+Any user of Microsoft Windows will immediately grasp the concept.
+
+"Clumsy but temporarily effective" also describes much of American public
+policy today. To see policy kludges in action, one need look no further than
+the mind-numbing complexity of the health-care system (which even Obamacare's
+champions must admit has only grown more complicated under the new law, even
+if in their view the system is now also more just), or our byzantine system of
+funding higher education, or our bewildering federal-state system of governing
+everything from welfare to education to environmental regulation. America has
+chosen to govern itself through more indirect and incoherent policy mechanisms
+than can be found in any comparable country.
+
+The effects of this approach to public policy are widespread and profound. But
+to understand how to treat our government's ailment, we first need to
+understand the symptoms, the character, and the causes of that ailment.
+
+**THE COSTS OF COMPLEXITY**
+
+The most insidious feature of kludgeocracy is the hidden, indirect, and
+frequently corrupt distribution of its costs. Those costs can be put into
+three categories — costs borne by individual citizens, costs borne by the
+government that must implement the complex policies, and costs to the
+character of our democracy.
+
+The price paid by ordinary citizens to comply with governmental complexity is
+the most obvious downside of kludgeocracy. For example, one of the often
+overlooked benefits of the Social Security program — which represents an
+earlier era's approach to public policy — is that recipients automatically
+have taxes taken out of their paychecks, and, then without much effort on
+their part, checks begin to appear upon retirement. It's simple and direct. By
+contrast, 401(k) retirement accounts, IRAs, state-run 529 plans to save for
+college costs, and the rest of our intricate maze of incentivized-savings
+programs require enormous investments of time, effort, and stress to manage
+responsibly. But behavioral economics — not to mention common sense — makes
+clear that few investors are willing to make these investments, and those who
+do are hampered by basic flaws in decision-making.
+
+Health insurance, too, is made nearly impossible to understand by the
+interplay of federal and state rules that only insurance companies fully
+understand. In fact, a recent study by George Loewenstein found that only 14%
+of people with health insurance could correctly answer basic questions about
+the definitions of deductibles and co-pays. Understanding the rules and the
+options involved requires an enormous amount of time (and often money);
+failing to understand them can be even more costly. Straightforward social
+insurance would dramatically reduce the transaction costs in the system — not
+to mention the rents paid to asset managers and health insurers — while
+depending far less on the free time and capacity for calculation of ordinary
+citizens.
+
+The transaction costs of the tax code are just as impressive and disturbing.
+The American tax code is almost certainly the most complicated in the Western
+world. The Internal Revenue Service's taxpayer advocate estimates that in 2008
+the direct and indirect costs of complying with that complexity amount to $163
+billion each year. Included in that cost are the remarkable 6.1 billion hours
+a year that American individuals and businesses spend complying with the
+filing requirements of the tax code.
+
+The web of deductions and credits also pushes up marginal tax rates for
+everyone: The National Commission on Fiscal Responsibility and Reform (more
+commonly known as the Simpson-Bowles commission) estimated that eliminating
+all tax deductions other than the Earned Income Tax Credit, the child tax
+credit, and a few others would allow marginal rates on middle-income taxpayers
+to be cut in half and those on the top earners to be cut by about a third,
+without reducing government revenue. It's highly unlikely we could achieve
+anything like that level of tax simplicity, but it is a striking illustration
+of just how much we are paying in higher marginal tax rates to preserve our
+kludgey tax system.
+
+The compliance costs that kludgeocracy imposes on governments are just as
+impressive as those that confront private citizens. The complexity of our
+grant-in-aid system makes the actual business of governing difficult and
+wasteful, sometimes with tragic results. As Melissa Junge and Sheara Krvaric
+argue in a recent report published by the American Enterprise Institute, the
+multiplicity of overlapping and bewildering federal programs for K-12
+education creates a compliance mentality among school leaders, making them
+wary of new ideas and pushing them to focus on staying on the right side of
+the rules rather than on improving their schools.
+
+Similarly, in a 2007 paper published in _Public Administration Review_ ,
+Martha Derthick showed that the tangled joint administration of the flood-
+protection system in New Orleans played a key role in the system's failure
+during Hurricane Katrina. Derthick quotes Maine senator Susan Collins as
+having found that there was "confusion about the basic question of who is in
+charge of the levees" — the type of problem that is common as a consequence of
+our pervasive, kludgey interweaving of federal and state responsibilities.
+Because administering programs through inter-governmental cooperation
+introduces pervasive coordination problems into even rather simple
+governmental functions, the odds are high that programs involving shared
+responsibility will suffer from sluggish administration, blame-shifting, and
+unintended consequences.
+
+Kludgeocracy is also a significant threat to the quality of our democracy. The
+complexity that makes so much of American public policy vexing and wasteful
+for ordinary citizens and governments is also what makes it so easy for
+organized interests to profit from the state's largesse. The power of such
+interests varies in direct proportion to the visibility of the issue in
+question. As Mark Smith argues in his book _American Business and Political
+Power_ , corporations are most likely to get their way when political issues
+are out of the public gaze. It is when the "scope of conflict" expands that
+the power of organized interests is easiest to challenge. That is why business
+invests so much money in politics — to keep issues _off_ the agenda.
+
+Policy complexity is valuable for those seeking to extract rents from
+government because it makes it hard to see just who is benefitting and how;
+complexity so thoroughly obscures the actual mechanism of political action
+that it is difficult to mobilize against. That is why businesses prefer to
+receive benefits through the tax code or through obscure regulatory advantages
+rather than in straightforward handouts from the state. Politicians may
+posture against "corporate welfare," but kludge-ocracy makes it hard for
+voters to see how much business profits from government, which makes it
+difficult to effectively target their anger. As a consequence, that anger
+diffuses onto our system of government as a whole, leading to a loss of trust
+and to skepticism of the possibility that the public sector could ever be an
+effective instrument of the public good.
+
+Policy complexity also benefits interests other than business. For example,
+the federal government has become increasingly involved in funding K-12
+education over the last 50 years. But instead of just handing over big checks
+to school districts on the basis of need, the federal government showers the
+states with dozens of small programs. There is not much evidence that federal
+funding has improved the quality of schooling, and yet the morass of federal
+grant programs in primary and secondary schooling survives and grows. It
+persists because the system's sheer complexity makes it easier to organize a
+supportive coalition for federal education funding. When that funding is
+divided into individual grants targeted to specific constituencies, those
+recipients will act to secure their particular aid. The complicated structure
+of federal education policy has thus created an army of Lilliputians who lock
+in the multitude of grants even though the work of keeping those grants coming
+often makes it harder to actually run school districts. Kludgeocracy ensures
+that what William Bennett and Chester Finn have called the "blob" of education
+interests wins, while the capacity of the federal government to actually
+improve educational opportunity diminishes.
+
+Neither party is immune to the costs of kludgeocracy — the interests of both
+liberals and conservatives are ill-served by policy complexity. It hurts
+conservatives by concealing the true size of government. As Suzanne Mettler
+argues in her important recent book _The Submerged State_ , our complex,
+hidden welfare state obscures government action, leading citizens to mistake
+as "private" programs that are in fact pervasively shaped by government.
+Mettler's research shows, for instance, that Americans who benefit from
+education-savings programs run through the tax code (like 529 plans) do not
+experience them as government at all, despite the fact that they redistribute
+huge sums of money. The same is true for the deduction for employer-provided
+health care and a variety of other pieces of the welfare state hidden in the
+tax and regulatory codes. This perpetuates the national myth of radical
+individualism and independence while creating the impression that only other,
+less deserving people draw upon government largesse.
+
+Pursuing public goals through regulation and litigation does not eliminate the
+costs of government, but it does make it hard for citizens to see the costs of
+public action, which appear in the prices of goods and services rather than on
+the government's books. Perversely, pushing inevitable government action into
+these lower-profile mechanisms results in trading a type of government
+institution that is well understood and relatively easy to control for one
+that conservatives have always found difficult to rein in. We know, for
+instance, what the government spends down to the dollar and have a reasonably
+centralized means of allocating it, but serious estimates of the costs of
+litigation (like that encouraged by laws such as the Americans with
+Disabilities Act) vary by orders of magnitude, and the individuals imposing
+the costs are often hundreds of very imperfectly coordinated judges and
+juries.
+
+Kludgeocracy also harms liberalism, by creating both the image and the reality
+that government is incompetent and corrupt. The complexity of the tax code,
+for instance, facilitates tax cheating and creative accounting, and along with
+it the impression that tax compliance is lower than it actually is. Much of
+the legitimacy of the law and the willingness of citizens to contribute to
+public goods rests on the perception that others are doing their share.
+Complexity eats away at this perception, which is crucial for maintaining
+public support for the expansion of the kinds of state activity that liberals
+favor.
+
+Because the current political environment nurtures suspicion of government
+action, liberal politicians have developed the sneaky habit of finding back
+doors through which to advance their goals. This habit has had a corrosive
+effect on liberalism. In searching for ways to promote public activism in
+spite of institutional and cultural resistance, liberals have developed a
+pattern of dishonesty and evasiveness instead of openly making the argument
+for a muscular role for government. This is why, despite liberalism's
+legislative victories, very few recent liberal policies have successfully
+provided platforms from which to launch new rounds of policy innovation.
+
+So while liberals are harmed by the opacity of kludgeocracy's successes,
+conservatives are hurt by the inscrutability of its failures. In both cases,
+the complexity of government is not good for our politics. And the fact that
+so much of our welfare state is jointly administered — either inter-
+governmentally or through contracting with private agents — makes it hard for
+Americans to attribute responsibility when things go wrong, thus leading to
+blame being spread over the government in general, rather than targeted
+precisely where it could do some good. Complexity thereby leads to diffuse
+cynicism, an attitude certain to undermine good citizenship — of either the
+conservative or liberal form — in our republic.
+
+**THE CAUSES OF KLUDGEOCRACY**
+
+The costs of kludgeocracy, therefore, are considerable. Addressing the
+problem, however, requires that we understand why American politics turns to
+kludgey solutions so regularly. A condition as chronic as kludgeocracy
+inevitably results from many causes at once, but the key interlocking causes
+in this instance are the structure of American government institutions, the
+public's ambivalent and contradictory expectations of government, and the
+emergence of a "kludge industry" that supplies a constant stream of
+complicated, roundabout policy solutions.
+
+We were all taught in school that American institutions were designed to
+constrain the growth of government. This is, of course, why some on the right
+tend to defend our founding institutional heritage, while many liberals as far
+back as the Progressive era have voiced considerable skepticism about the
+Constitution's architecture. But there are reasons to question the idea that
+federalism and the separation of powers limit the growth of government: A
+great deal of political-science scholarship shows that when we look beyond
+spending and taxation and focus on the policy tools that the United States has
+historically relied on more heavily — such as regulation, litigation, and tax
+expenditures — the activity of the American state is not significantly more
+limited than those of other industrialized countries.
+
+American institutions do, in fact, serve to constrain the most direct forms of
+government taxing and spending. But having done so, they do not dry up popular
+or special-interest demands for government action, nor do they eliminate the
+desire of politicians to claim credit for new government activity. When public
+demand cannot be addressed directly, it is met instead in complicated,
+unpredictable ways that lead to far more complex legislative solutions.
+
+The most obvious reason why American institutions generate policy complexity
+is our system's numerous veto points. The separation of powers means that any
+proposal must generate agreement at three different stages — each house of
+Congress and the president. But opportunities for vetoes turn out to be more
+extensive than the simple text of the Constitution would imply. Most
+legislation has to pass through separate subcommittee and committee stages,
+each of which presents opportunities for legislators to stymie action. Many
+ambitious proposals are considered by Congress under "multiple referrals," in
+which more than one single committee is given jurisdiction. This multiplies
+the number of veto points, as we saw with the Affordable Care Act, which had
+to pass through five separate committees in Congress. Finally, the super-
+majority requirement for breaking a filibuster in the Senate, combined with
+the intense partisanship that accompanies most major policy reforms, means
+that any single member can stall the progress of a piece of legislation, and a
+cohesive minority can kill it.
+
+A superficial analysis would predict that this proliferation of veto points
+would lead to inaction, generating a systematic libertarian bias. In practice,
+however, every veto point functions more like a toll booth, with the toll-
+taker able to extract a price in exchange for his willingness to allow
+legislation to keep moving. Most obviously, the toll-taker gets to add pork-
+barrel projects for his district or state in exchange for letting legislation
+move onto the next step. This increases the cost of legislation, even if, as
+John Ellwood and Eric Patashnik have argued, it might be a reasonable price to
+pay for greasing the wheels of a very complicated legislative machine.
+
+But the price of multiple veto points is much larger than an accounting of
+pork-barrel projects would suggest. First, many of our legislative toll-takers
+have a vested interest in the status quo. In exchange for their willingness to
+allow a bill to proceed, therefore, they often require that legislation leave
+their favored programs safe from substantive changes. Consequently, new ideas
+have to be layered over old programs rather than replace them — the textbook
+definition of a policy kludge. Second, the need to gain consent from so many
+actors makes attaining any degree of policy coherence difficult at best.
+Finally, the enormous number of veto points that legislation must now pass
+through gives legislative strategists a strong incentive to pour everything
+they can into giant omnibus legislation. The multiplication of veto points,
+therefore, does not necessarily stop legislation from passing, but it does
+considerably raise its cost and, more importantly, its complexity.
+
+America's federal system of government also does its part to add to policy
+complexity. In a purely federal system, in which governmental functions were
+clearly differentiated between the national and state governments, federalism
+would not translate directly into complexity. But that is not American
+federalism as it is currently practiced.
+
+Many of our major social programs were created when the South, and to a lesser
+degree urban political machines, exercised a veto over expansions of federal
+spending that failed to leave the details of administration to local
+officials. The decline of these regional power centers did not, however, lead
+to a more streamlined national pattern of policy development. Even as the
+government expanded in the 1960s and '70s in areas ranging from the
+environment to education to health care, the federal government and the states
+continued to share the duties of governing in a complex web of
+responsibilities. While states and localities actually administer essentially
+all programs in these domains, the federal government is deeply involved as a
+funder, regulator, standard-setter, and evaluator. The result is the
+complicated "marble-cake federalism" structure that characterizes almost all
+domestic policy in the United States, making clear lines of responsibility
+hard to establish.
+
+American political culture and ideology have also, in sometimes obscure ways,
+contributed to kludgeocracy. One of the clearest findings in the study of
+American public opinion is that Americans are ideological conservatives and
+operational liberals. That is, they want to believe in the myth of small
+government while demanding that government address public needs and wants
+regarding everything from poverty and retirement security to environmental
+protection and social mobility.
+
+This ambivalence in expectations creates a durable bias in the actual outputs
+of American government. The easiest way to satisfy both halves of the American
+political mind is to create programs that hide the hand of government, whether
+it is through tax preferences, regulation, or litigation, rather than
+operating through the more transparent means of direct taxing and spending.
+
+Housing is perhaps the most striking and perverse example of this pattern of
+government growth through seemingly non-governmental means. The 30-year, fixed
+interest-rate mortgage exists on a mass scale only in the United States, and
+only because of massive distortions of the free market by government-sponsored
+entities like Fannie Mae. Added on top of that are the deduction of mortgage
+interest from taxable income — the third-largest exclusion in the tax code —
+and the delay in capital-gains taxation on home sales when another home is
+purchased. Taken together, the tax code and government-sponsored enterprises
+amount to a massive housing-welfare state. And although it delivers benefits
+to many citizens, this set of programs is fundamentally regressive — vastly
+favoring people in the highest tax brackets and artificially increasing the
+prices of homes, thus increasing barriers for first-time home buyers.
+
+A similar pattern can be found in government subsidies of retirement savings
+(for example, through IRAs and 401(k) plans), employer-provided health
+insurance, and student loans. All of these aspects of what Christopher Howard
+has called our "hidden welfare state" fail to serve their putative goals while
+also redistributing upward. IRAs and 401(k)s, for example, do not appear to
+actually increase personal savings; instead, their main effect is to cause
+wealthier investors to shift their savings from taxable to untaxed accounts
+(from which, again, the wealthy gain the greatest savings since their tax
+rates are highest). But these programs are not generally thought of as "big
+government" because they operate primarily by channeling resources to mutual-
+fund companies, health insurers, and the housing market through the tax code.
+
+Where our government does spend, it increasingly does so indirectly. The myth
+of what George Mason University's Michael Greve calls "our federalism" creates
+a bias toward sending money to the states, even though the cash always comes
+with a laundry list of regulations and requirements attached.
+
+The strategic decisions of conservatives over the last 50 years have abetted
+the growth of such public misunderstanding of government. A half-century ago,
+conservatives found they were unable to stop the growth of the federal
+government's role in education, but, as Patrick McGuinn has shown, what they
+were able to do was force that funding to come in the form of multiple small
+programs, on the theory that these would be less likely to grow than a simple,
+clean handover of cash to poor districts. They turned out to be wrong — this
+division of funding helped facilitate the growth of small, powerful interest
+groups that have made it virtually impossible to untangle our ineffective web
+of federal education programs.
+
+More recently, Republicans have faced similar questions regarding how to deal
+with an irrepressible public demand for government action, and in many cases
+they have decided to concede on the condition that the growth of government
+cut their allies in on the action. During the George W. Bush administration,
+Republicans sued for peace over the popular cry for a prescription-drug
+benefit for the elderly, but had enough power to ensure that the program would
+not be administered through the existing Medicare system. Instead, as Kimberly
+Morgan and Andrea Campbell show in [_The Delegated Welfare
+State_](https://www.amazon.com/dp/0199730350?tag=natioaffai-20), conservatives
+insisted as a condition of their cooperation that the program be administered
+through privately run plans.
+
+This was more than just a payoff to business interests. Republicans hoped that
+by sidestepping the Medicare bureaucracy, they could make the system more
+cost-efficient and encourage better consumer and provider decisions. Just as
+important, however, it would also cut the chains connecting citizens and
+government, leading the elderly to associate the improvement in their standard
+of living with private providers instead of the state. If they couldn't stop
+the program entirely, then programmatic complexity would make it difficult for
+Democrats to take credit for it, and make it less likely that the program
+would increase citizens' support for government overall.
+
+Similar stories could be told in a variety of other policy areas, where
+liberals got bigger government but conservatives funneled benefits to
+business, keeping liberals from taking political credit. The result of the
+last three decades of ideological trench warfare is that the American public
+got a more active, but also incoherent, ineffective, and politically
+intractable state.
+
+Finally, kludgeocracy is now self-generating, as its growth has created a
+"kludge industry" that feeds off the system's appetite for complexity. In the
+name of markets and innovation, and driven by increasingly strict (and often
+arbitrary) limits on government personnel, the United States has created what
+public administrators call a "hollow state," in which core functions of
+government have been hired out to private contractors, operating under the
+oversight of increasingly overwhelmed civil servants. Christopher McKenna, in
+his book [_The World's Newest
+Profession_](https://www.amazon.com/dp/0521757592?tag=natioaffai-20), shows
+that, for over half a century, management consultants brought in to advise
+governments (at great expense) have — not surprisingly — recommended a greater
+role for consultants and contractors.
+
+This army of consultants and contractors then became a lobby for even greater
+transfer of governmental functions to outsiders — including, as Janine Wedel
+shows in [_Shadow
+Elite_](https://www.amazon.com/dp/B003STCNSW?tag=natioaffai-20), the transfer
+of such core roles as formulating policy recommendations and overseeing
+contractors. This kludge industry, having pulled the fundamental knowledge
+needed for government out of the state and into the private sector, has thus
+made itself nearly indispensable. And with its large, generally non-
+competitive profits, the kludge industry has significant resources to invest
+in ensuring that government continues to layer on complex policies, and hence
+continues to need to purchase more services.
+
+As vital as the material interests of consultants and contractors have been in
+encouraging policy complexity, an important role has also been played by the
+army of think-tank analysts on all sides of our politics. As the institutional
+and cultural incentives reinforcing kludgeocracy have gotten ever more
+intense, the suppliers of policy ideas have generally adapted to kludgeocracy
+rather than resisting it.
+
+For example, instead of repeatedly making the case for fairly simple and
+direct mechanisms of social insurance, writers in liberal think tanks have
+pushed for often bewilderingly complicated policies to increase savings under
+the banner of "asset-building" strategies. Conservative policy scholars,
+meanwhile, have seen in the privatization of government's administrative
+functions a way to reduce the power of the bureaucracy.
+
+Much of the preference for complexity comes from trying, against the
+background of permanent austerity, to get the equivalent of two dollars in
+social benefit out of one dollar (or less) in governmental effort. But some of
+it comes from a preference for clever or innovative policy mechanisms;
+relatively simple, direct uses of governmental brute force are just not as
+interesting. Whatever the cause, policy intellectuals are very much a part of
+the kludge-industry problem.
+
+**THE CURE FOR KLUDGEOCRACY**
+
+Kludgeocracy is not an accident — it is a predictable consequence of deeply
+rooted features of the American regime. It would be facile, therefore, to
+pretend that its baleful effects can be reduced without major (and extremely
+unlikely) changes in our larger system of government and political values. But
+institutions can be changed at the margins, values can shift incrementally,
+and, in any case, knowing what one would do to reverse the problem is helpful
+if only to think about how to keep the problem from getting any worse.
+
+The deepest cause of kludgeocracy is the structure of American governing
+institutions, and the incentives that they provide for individual politicians.
+Any attempt to chip away at policy complexity must involve reducing the number
+of extra-constitutional veto points in our system. These are not features of
+the original design of our system of government but are more like barnacles
+that have built up over time. If anything, removing them would lead to
+institutions that function in ways that are truer to the founding design.
+
+The first reform that would tend to reduce kludgeocracy would be to eliminate
+or radically reduce the filibuster in the Senate, which increases the number
+of members who can demand changes in legislation as the price of their vote.
+Second, we should reduce multiple referrals to congressional committees, which
+create extra opportunities for rent seeking and produce policies with
+fundamentally divergent logics that need to be reconciled with one another
+(before they even reach a House-Senate conference). Both of these changes
+would increase the power of the congressional majority, and reduce the power
+of individual members to demand adjustments that add to policy complexity. A
+more majoritarian Congress — regardless of which party had the majority —
+would also be more likely to effectuate wholesale changes in policy, be it to
+the right or left.
+
+These sorts of institutional changes are hardly unimaginable. In fact, in the
+last few years the filibuster has faced greater criticism than at any time
+over the last four decades. And at least in the House, the trend since the
+Gingrich years has been in the direction of greater power for the majority
+leadership and less for committees. If the Senate were to become as
+majoritarian as the House, the institutional hooks that facilitate complexity
+would be reduced considerably.
+
+Public policies would also become less kludgey if Congress shifted the power
+over the "micro-design" of policies away from Capitol Hill and toward the
+agencies that will actually have to administer them once they are passed. This
+is not a plea for greater delegation of congressional power to the executive.
+In some ways, it is the opposite. Congress often avoids actually producing a
+piece of legislation that is worthy of the name — a general, abstract
+statement of authoritative lawmaking and basic policy design — and instead
+passes a wave of specific measures unconnected by any general logic. It does
+too much of what the executive is best equipped to do, and too little of what
+it actually has the authority to command. Giving the people who will actually
+have to administer policies greater power over the design of those policies
+would likely increase their simplicity.
+
+We should also thoroughly reconsider our system of federal grants to the
+states. Michael Greve recently suggested that we adopt a norm of "one problem,
+one sovereign." In other words, in policy areas like education or health care,
+give the problem either to the federal government or to the states to deal
+with, but don't give it to both. If the federal government wants to expand
+access to health care, it should pay the bill and administer the program
+itself. In education, either we should considerably nationalize education (by,
+for example, creating a national voucher paid for out of tax funds that would
+go directly to individuals and pre-empt local funding through property taxes)
+or cut out the complicated web of federal education funding and regulation
+altogether. A realignment of responsibility for both of these problems is
+conceivable; we could relieve states of the costs of Medicaid entirely and
+send education — lock, stock, and barrel — back to the states. This was, in
+fact, what President Reagan proposed back in the 1980s, and it is still a
+sound idea.
+
+This is an area where the conservative majority on the Supreme Court could
+actually generate greater pure nationalism, forcing federal programs to be
+fully and openly run by the federal government, by establishing rules that
+make it harder for Democrats to expand federally supported, state-administered
+social-welfare programs (like Medicaid). Democrats would vociferously object
+in the short term, but over the long term constitutional standards like these
+might actually serve the interests of liberalism as well as conservatism
+better than the law of anything goes. Democrats would be prevented from
+proposing policies that, as Suzanne Mettler has shown, actually fail to serve
+their political interests over the long term by hiding the hand of government
+when it delivers benefits. And they would be forced to rediscover their
+capacity to argue transparently for social action in the interest of social
+justice, rather than trying to come up with ever more complicated kludges.
+
+Another potentially valuable reform would be to change institutional rules in
+Congress to increase the visibility of policy complexity's costs. Shining a
+light on the costs of kludgeocracy would encourage more publicly-spirited
+politicians to seek to minimize them, while their more electorally minded
+colleagues would be made to worry about being held responsible for them. As
+the late senator Daniel Patrick Moynihan argued, what counts is what's
+counted. While Congressional Budget Office deficit scoring powerfully
+influences politicians as they consider policy options, the large compliance
+costs associated with our kludge-ocracy are uncounted, and thus invisible.
+Requiring that CBO issue an estimate of governmental and private compliance
+costs along with its deficit scores may reduce somewhat the incentives to
+lower deficit estimates by substituting more complicated alternatives for
+straightforward programs. Moreover, the addition of an extra "distributive
+score" to CBO estimates would reveal that kludgey policies typically
+redistribute upward rather than downward. Mettler has shown in experimental
+work that tax expenditures are considerably less popular when the fact that
+they disproportionately benefit the wealthy is made clear.
+
+While institutional change is likely to come incrementally, if at all, a more
+direct, near-term strategy is an attack on the kludge industry, given that it
+both lives off of and helps create demand for policy complexity. The best
+place to start could be the Department of Defense: The growth of the private
+military over the last few decades has been explosive, and congressional
+efforts at deficit reduction have put the Pentagon's budget on the chopping
+block. Increasing the salaries of high-level federal workers throughout the
+government and reducing caps on their numbers could also go hand in hand with
+drastically cutting the amounts that agencies can spend on consultants and
+contractors.
+
+Much of the kludge industry has benefitted from the ideological support it has
+garnered from Republicans, who have seen the army of consultants and
+contractors as an attractive alternative to government bureaucrats. But the
+increasingly populist spirit of the Republican Party may be a signal that this
+cozy relationship with the kludge industry is coming to an end. Republicans
+are starting to recognize that companies that receive the vast majority of
+their business from the government are not really in the private sector at
+all. Private profits and public risk is hardly a conservative combination, and
+it is not hard to see how the spirit that has lately led conservatives to
+question government support for the big banks could be turned against the rest
+of modern government's corporate dependents.
+
+Going further than just attacking the crony capitalism inherent in
+kludgeocracy, however, will require deeper reconsiderations of the orthodoxies
+of both conservatives and liberals. While it is hard to imagine in an era of
+tax pledges, Republicans convinced that kludgeocracy is a problem will need to
+rethink their exclusive emphasis on controlling direct federal taxation and
+spending. Resistance to carbon taxation, for example, has not eliminated
+pressure for action on global warming; instead it has deflected it into highly
+inefficient and incomprehensible regulations and subsidies. Limiting growth in
+federal taxation has redirected pressure for social protection into the hidden
+welfare state, rather than encouraging greater self-reliance. Trying to stop
+the growth of nationally administered social and regulatory programs has not
+led to freer markets; it has only encouraged the spread of complex inter-
+governmental kludges.
+
+Conservatives might do better to insist that if we are going to have a
+government of a certain size, it should be national, transparent, and tax
+funded. There is no way in a democratic polity for the public to get less
+government than it wants — demand for state action will always yield a supply.
+But conservatives should insist that voters get only the government they are
+willing to pay for directly and out in the open, and liberals should not be
+able to expand government beyond that point through complicated mechanisms
+that hide the hand of the state. Insisting on constraints that force state
+action into the open would lead to a government with higher levels of outright
+taxing and spending, but one that was less sprawling, less intrusive, more
+democratically accountable, and more transparent than today's kludgeocracy.
+
+Liberals, too, will need to change their thinking in order to claw back
+kludgeocracy. Perhaps above all, they will need to accept constitutional
+constraints that they currently identify with conservatism. Two areas in
+particular come to mind. First, liberals should look more favorably on
+constitutional interpretations that make joint federal-state programs more
+difficult to establish and administer. Such interpretations include Chief
+Justice Roberts's ruling in the 2012 Obamacare cases limiting the penalty on
+states that fail to join the law's Medicaid expansion.
+
+Second, liberals should also come to accept various quasi-constitutional rules
+(like those Congress sometimes imposes on itself) establishing super-majority
+requirements for the creation of any new deductions or credits in the tax
+code. While these rules make it harder to engage in forms of shadowy
+government activism, liberals should insist that, in exchange, majoritarian
+rules govern all other lawmaking. So long as a 60-vote majority is required
+for any meaningful action in the Senate, the inclination to buy votes with
+complex kludges to piece together a super-majority is irrepressible. A
+Congress that operated under rules that restricted _hidden_ taxing and
+spending but enabled more _transparent_ forms of both would probably be one
+that passed fewer, but larger and more effective pieces of major legislation.
+In the long run, this would be in the interests of both liberals and
+conservatives, even if they found it frustrating in the short term.
+
+Few of the reforms sketched out above have much of a chance of being enacted
+at the moment, since the institutions and practices they propose to alter are
+too deeply entrenched to remove quickly. But there are levers for change short
+of major institutional reform, the most important of which is a shift in
+problem definition. Grand "problems" do not naturally appear in politics — it
+is only through research, discussion, deliberation, and argument that we patch
+together smaller, individual problems into a complex whole that comes to be
+defined as a critical "issue." For example, air and water quality, public
+lands, and toxic waste were all thought of as discrete problems until writers
+and a nascent movement made "the environment" a problem that politicians were
+able to discuss as one issue.
+
+Only when Americans give a name to what ails their government, therefore, will
+we be able to achieve a system that is simpler, more effective, and better for
+democracy. Introducing kludgeocracy into the public vocabulary as a recognized
+problem will be an uphill battle. First, ordinary citizens will need help
+seeing the problem and recognizing its manifestations in their daily lives.
+When they get frustrated trying to navigate federal education-aid programs, or
+flustered trying to understand their taxes, or perplexed at the complications
+of our civil-litigation system, they need to recognize their problem as a part
+of a larger set of issues that links to other, seemingly unconnected
+grievances and frustrations. Clarifying such links is the quintessential work
+of public intellectuals, writers, bloggers, researchers, and entrepreneurial
+politicians.
+
+**SELF-GOVERNMENT WORTHY OF THE NAME**
+
+While it might seem like an uphill climb, a simpler, less kludgey government
+is an immensely attractive goal, and should appeal to Americans of all parties
+and ideologies.
+
+Imagine a world in which the tax code was scrubbed clean of byzantine savings
+incentives and Social Security payments were increased instead; in which tax
+deductions for health insurance were eliminated and either Medicare was
+expanded or subsidies for catastrophic insurance in a competitive market were
+established; in which taxes on pollution were imposed but complicated
+regulatory and subsidy schemes were thrown out; in which government
+contractors and consultants were purged and a sharper division was established
+between federal and state responsibilities; and in which a maze of loans,
+grants, and subsidies was replaced with vastly more straightforward programs
+to help Americans pay for college tuition and housing. Imagine a world in
+which constitutional norms forced government to act directly and transparently
+or forgo action altogether. Americans would have a government that did fewer,
+simpler, bigger things, and they would be able to more effectively reward
+politicians for policy successes and to hold them accountable for failures.
+
+The politics of that world would be neither more "liberal" nor more
+"conservative" in any simple sense. Government would be bigger and more
+energetic where it clearly chose to act (and so received public sanction for
+doing so), but smaller and less intrusive outside of that sphere. Unlike the
+kludgey mess that neither party seems willing to take on today, that would be
+a vision of American government worth fighting for.
+
+_Steven M. Teles is an associate professor of political science at Johns
+Hopkins University. An earlier version of this article was published as a
+working paper by the New America Foundation's Next Social Contract Initiative
+and Economic Growth Program._

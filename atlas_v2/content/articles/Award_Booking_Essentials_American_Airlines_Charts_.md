@@ -1,0 +1,268 @@
+# Award Booking Essentials: American Airlines Charts, Regions and Rules | Frugal Travel Guy
+
+**Source**: http://www.frugaltravelguy.com/2015/08/award-booking-essentials-american-airlines-charts-regions-and-rules.html
+**Type**: article
+**Created**: 2025-08-13T18:49:05.903936
+
+---
+
+title: Award Booking Essentials: American Airlines Charts, Regions and Rules | Frugal Travel Guy
+source: http://www.frugaltravelguy.com/2015/08/award-booking-essentials-american-airlines-charts-regions-and-rules.html
+date: 2025-08-13T18:48:58.490650
+tags: []
+---
+Here at FrugalTravelGuy we are always thinking of ways to help our readers
+make sure they have as much information as possible at their disposal to be
+able to redeem their points and miles for the award booking of their dreams.
+Pursuant to these goals, we will be publishing a series of articles titled
+_Award Booking Essentials_. This is Part II of the American Airlines
+AAdvantage edition in which we cover award charts, regions and rules. Click
+here to read Part I of [Award Booking Essentials: American Airlines Award
+Types, Service and
+Partners](http://web.archive.org/web/20160404013425/http://www.frugaltravelguy.com/2015/07/award-
+booking-essentials-american-airlines-award-types-service-and-partners.html).
+
+**Award Charts**
+
+American publishes an award chart for their own flights and one for partner
+flights. In reality, both are almost identical with the main difference being
+that their own flights’ chart includes AAnytime awards and that Off Peak
+offerings vary between the two.
+
+Here are the award charts for economy, business and first class bookings on
+American’s own flights from the contiguous 48 U.S. states: _[Click to enlarge
+all images]_
+
+[![aa3](/web/20160404013425im_/http://www.frugaltravelguy.com/wp-
+content/uploads/2015/08/aa3-300x190.png)](http://web.archive.org/web/20160404013425/http://www.frugaltravelguy.com/wp-
+content/uploads/2015/08/aa3.png)
+
+[![aa4](/web/20160404013425im_/http://www.frugaltravelguy.com/wp-
+content/uploads/2015/08/aa4-300x193.png)](http://web.archive.org/web/20160404013425/http://www.frugaltravelguy.com/wp-
+content/uploads/2015/08/aa4.png)
+
+[![aa5](/web/20160404013425im_/http://www.frugaltravelguy.com/wp-
+content/uploads/2015/08/aa5-300x194.png)](http://web.archive.org/web/20160404013425/http://www.frugaltravelguy.com/wp-
+content/uploads/2015/08/aa5.png)
+
+Here is the award chart for American’s partner flights from the contiguous 48
+U.S. states:
+
+[![aa6](/web/20160404013425im_/http://www.frugaltravelguy.com/wp-
+content/uploads/2015/08/aa6-300x193.png)](http://web.archive.org/web/20160404013425/http://www.frugaltravelguy.com/wp-
+content/uploads/2015/08/aa6.png)
+
+All miles rates displayed above are for one-way awards.
+
+**Award Regions**
+
+American divides the world into the fourteen regions:
+
+  1. Contiguous 48 U.S. states
+  2. Canada and Alaska
+  3. Hawaii
+  4. Caribbean
+  5. Mexico
+  6. Central America
+  7. South America Region 1
+  8. South America Region 2
+  9. Europe
+  10. Middle East/Indian Subcontinent
+  11. Africa
+  12. Asia Region 1
+  13. Asia Region 2
+  14. South Pacific
+
+These are the countries for each region:
+
+[![aa7](/web/20160404013425im_/http://www.frugaltravelguy.com/wp-
+content/uploads/2015/08/aa7-290x300.png)](http://web.archive.org/web/20160404013425/http://www.frugaltravelguy.com/wp-
+content/uploads/2015/08/aa7.png)
+
+[![aa8](/web/20160404013425im_/http://www.frugaltravelguy.com/wp-
+content/uploads/2015/08/aa8-300x274.png)](http://web.archive.org/web/20160404013425/http://www.frugaltravelguy.com/wp-
+content/uploads/2015/08/aa8.png)
+
+**Award Rules**
+
+American has fairly restrictive award rules. They will allow the following
+types of awards:
+
+  * One-ways
+  * Round trips
+  * Multi-city
+
+American does not allow stopovers on awards. There are also no round-the-world
+award options available with American.
+
+When it comes to routings, American will generally not allow you to travel to
+your final destination via a third region. These are the recognized exceptions
+to this rule:
+
+  * Africa to Asia Region 1 via Asia Region 2 or Doha
+  * Africa to Asia Region 2 via Doha
+  * Asia Region 1 to South Pacific via Asia Region 2
+  * Central and South America (both regions) to Middle East/Indian Subcontinent and Africa via Europe
+  * Central and South America Region 1 to South Pacific via South America Region 2
+  * Europe to Asia Region 1 via Asia Region 2 or Doha
+  * Europe to Asia Region 2 via Doha
+  * Europe to South Pacific via Asia (both regions)
+  * Middle East/Indian Subcontinent to Asia Region 1 via Asia Region 2
+  * Middle East/Indian Subcontinent to South Pacific via Asia Region 2
+  * North America to Asia Region 2 via Asia Region 1
+  * North America to Africa via Europe or Doha
+  * North America to Middle East/Indian Subcontinent via Europe
+  * South America Region 2 to Africa via Doha
+
+Based on the third region restrictions, you cannot, for example, fly from the
+U.S. to Japan with a connection in Hong Kong, from the U.S. to Santiago, Chile
+with a connection in Lima or from the U.S. to Australia with a connection in
+Asia as part of the same award. However, please note that American will allow
+you to book separate awards under the same reservation, which means that you
+could book an itinerary that violates American’s routing rules as part of the
+same reservation. American will simply deduct the amount required for both
+awards from your account (not recommended in most cases).
+
+Additionally, you cannot exceed the maximum permitted mileage allowed between
+your point of origin and destination by more than 25%. This means that if the
+maximum permitted mileage between Point A and Point B is 1,000 miles, you
+cannot fly from Point A to Point B on an itinerary that would require 1,300
+miles of travel. The maximum permitted mileage between Point A and Point B in
+this case would be 1,250 miles.
+
+In general, American will require the most direct routing between your point
+of origin and destination. However, I’ve never had an agent decline booking an
+award because the itinerary does not include the “most direct routing” as long
+as all other rules mentioned above were followed.
+
+Stay tuned for Part III of the American Airlines AAdvantage edition of the
+Award Booking Essentials series where we’ll cover AA partner bookings, fees,
+sweet spots and more!
+
+_If you need assistance with an American Airlines award booking or any other
+award booking, please consider_[ _PMM Travel Consulting’s_]() _award booking
+service. Click_[ _here_]() _to get started._
+
+_[Image via Getty]_
+
+[Miguel R.
+Quinones](http://web.archive.org/web/20160404013425/http://www.frugaltravelguy.com/author/miguel-
+quinones "Posts by Miguel R. Quinones")
+
+A lawyer by trade, Miguel is the Founder and President of PMM Travel
+Consulting, which offers a vast array of travel planning, award booking, and
+points and miles credit card assessment services. Thanks mainly to points and
+miles earned...
+
+[All
+Articles](http://web.archive.org/web/20160404013425/http://www.frugaltravelguy.com/author/miguel-
+quinones)
+
+|
+
+[Follow on
+Google+](http://web.archive.org/web/20160404013425/http://www.pmmtravelconsulting.com/english/index.php?rel=author)
+
+![](//web.archive.org/web/20160404013425im_/http://content.linkoffers.net/SharedImages/Products/204650/599888.png)
+
+### Chase Sapphire Preferred® Card
+
+  * Annual Fee: $95 fee waived for the first year
+  * Foreign Fees: No
+  * Card Type: Bank
+
+[Apply
+Now](http://web.archive.org/web/20160404013425/http://track.linkoffers.net/a.aspx?foid=22927319&fot=9999&foc=1)
+[Add to
+Favorites](/web/20160404013425/http://www.frugaltravelguy.com/login?redirect_to=/2015/08/award-
+booking-essentials-american-airlines-charts-regions-and-
+rules.html?fav_c_id=16)
+
+The Sapphire Preferred offers 2x points on dining and travel, and no foreign
+transaction fees, making this the go-to card for travelers.
+
+This card accumulates Ultimate Rewards points, which are very valuable for
+transfer to United and Hyatt. Overall, this card is a great choice for
+maximizing earnings on dining, travel, and every day spend.
+
+  * Earn 50,000 bonus points when you spend $4,000 on purchases in the first 3 months from account opening. That's $625 in travel when you redeem through Chase Ultimate Rewards®
+  * Named a 'Best Credit Card' for Travel Rewards by MONEY Magazine
+  * 2X points on travel and dining at restaurants & 1 point per dollar spent on all other purchases
+  * Sleek metal card design
+  * Earn 5,000 bonus points after you add the first authorized user and make a purchase in the first 3 months from account opening
+  * $0 foreign transaction fees, plus chip-enabled for enhanced security and wider acceptance when used at a chip card reader
+  * 1:1 point transfer to leading frequent travel programs at full value – that means 1,000 Chase Ultimate Rewards points equal 1,000 partner miles/points
+  * Travel confidently with premium Travel Protection Benefits, including Trip Cancellation/Trip Interruption Insurance, Auto Rental Collision Damage Waiver, Trip Delay Reimbursement and more
+
+Breakdown
+
+Earn (pt.)
+
+Spend
+
+First 3 months
+
+50,000
+
+$4,000
+
+Restaurants Purchases
+
+2.00
+
+$1
+
+Coffee Shops Purchases
+
+2.00
+
+$1
+
+Fast Food Purchases
+
+2.00
+
+$1
+
+Alcohol & Bars Purchases
+
+2.00
+
+$1
+
+![](//web.archive.org/web/20160404013425im_/http://content.linkoffers.net/SharedImages/Products/204650/599888.png)
+
+### Chase Sapphire Preferred® Card
+
+  * **Annual Fee:** $95 fee waived for the first year
+  * **Foreign Fees:** No
+  * **Card Type:** Bank
+
+[Apply
+Now](http://web.archive.org/web/20160404013425/http://track.linkoffers.net/a.aspx?foid=22927319&fot=9999&foc=1)
+[Add to
+Favorites](/web/20160404013425/http://www.frugaltravelguy.com/login?redirect_to=/2015/08/award-
+booking-essentials-american-airlines-charts-regions-and-
+rules.html?fav_c_id=16)
+
+FTG Review | Reward Breakdown | Points Breakdown  
+---|---|---  
+The Sapphire Preferred offers 2x points on dining and travel, and no foreign
+transaction fees, making this the go-to card for travelers.This card
+accumulates Ultimate Rewards points, which are very valuable for transfer to
+United and Hyatt. Overall, this card is a great choice for maximizing earnings
+on dining, travel, and every day spend.
+
+  * Earn 50,000 bonus points when you spend $4,000 on purchases in the first 3 months from account opening. That's $625 in travel when you redeem through Chase Ultimate Rewards®
+  * Named a 'Best Credit Card' for Travel Rewards by MONEY Magazine
+  * 2X points on travel and dining at restaurants & 1 point per dollar spent on all other purchases
+  * Sleek metal card design
+  * Earn 5,000 bonus points after you add the first authorized user and make a purchase in the first 3 months from account opening
+  * $0 foreign transaction fees, plus chip-enabled for enhanced security and wider acceptance when used at a chip card reader
+  * 1:1 point transfer to leading frequent travel programs at full value – that means 1,000 Chase Ultimate Rewards points equal 1,000 partner miles/points
+  * Travel confidently with premium Travel Protection Benefits, including Trip Cancellation/Trip Interruption Insurance, Auto Rental Collision Damage Waiver, Trip Delay Reimbursement and more
+
+Breakdown Earn (pt.) Spend First 3 months 50,000 $4,000 Restaurants Purchases
+2.00 $1 Coffee Shops Purchases 2.00 $1 Fast Food Purchases 2.00 $1 Alcohol &
+Bars Purchases 2.00 $1 [Apply
+Now](http://web.archive.org/web/20160404013425/http://track.linkoffers.net/a.aspx?foid=22927319&fot=9999&foc=1)

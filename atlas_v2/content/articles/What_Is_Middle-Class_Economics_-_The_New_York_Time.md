@@ -1,0 +1,122 @@
+# What Is ‘Middle-Class Economics’? - The New York Times
+
+**Source**: http://www.nytimes.com/2015/02/26/upshot/what-is-middle-class-economics.html
+**Type**: article
+**Created**: 2025-08-13T19:08:48.363001
+
+---
+
+title: What Is ‘Middle-Class Economics’? - The New York Times
+source: http://www.nytimes.com/2015/02/26/upshot/what-is-middle-class-economics.html
+date: 2025-08-13T19:08:38.311148
+tags: []
+---
+An awkward truth for politicians looking to help the middle class is that
+there’s much less the government can do for them than for the poor. So, the
+president has picked an opportune time to set his mantra to “middle-class
+economics”: a time when middle-class economic fortunes are already improving
+for reasons not much related to policy.
+
+The last year has been the first really good year for the middle class since
+the crisis. Job growth has risen to a pace of more than three million jobs a
+year, and gasoline prices are through the floor. Consumer confidence is at
+levels not seen since 2007. Wage growth is still not strong but is better than
+it has been in years, and moves by a few large employers — including Walmart,
+which [announced a $9 wage
+floor](http://web.archive.org/web/20250403071205/http://www.nytimes.com/2015/02/20/business/walmart-
+raising-wage-to-at-least-9-dollars.html) that would rise to $10 next year —
+may be signs that broad-based wage increases will come soon.
+
+The big challenge for President Obama — and for Republicans seeking their own
+agenda to woo the middle class — is that middle-income economic fortunes are
+driven mostly by private employers. The government can raise the minimum wage,
+but it can’t make employers raise wages for workers already making well above
+that. It can give out targeted tax cuts, but these can’t have large effects on
+the average family’s income without getting really expensive. It can impose
+labor regulations, but it cannot overcome the fact that employers are powerful
+when many workers chase a small number of jobs.
+
+This is a real contrast to the economic situation of the poor, which the Obama
+administration has affected greatly through policy. Between 2007 and 2012, the
+share of Americans who would have been poor based on their income before taxes
+and transfers rose by five percentage points. But after adjusting for taxes
+and transfers, poverty rose by just a point. Programs like Medicaid and
+unemployment insurance were highly effective in stopping the sharp rise in
+unemployment from turning into a sharp rise in poverty. Most of that policy
+effect was automatic, but a considerable portion was due to specific policy
+initiatives of the president, such as extending unemployment insurance
+benefits.
+
+Having moved past the acute economic crisis, Mr. Obama has laid out three
+pillars of a plan to uplift the middle class, in his [State of the Union
+address](http://web.archive.org/web/20250403071205/http://time.com/3675705/full-
+text-state-union-2015/) last month and the [Economic Report of the
+President](http://web.archive.org/web/20250403071205/http://www.whitehouse.gov/sites/default/files/docs/cea_2015_erp.pdf)
+last week.
+
+The first consists of tax and regulatory provisions aimed at supporting
+middle-income workers. He would offer tax credits for child care and college
+tuition, and a tax credit for the second earner in households where both
+parents work. He’d also require employers to provide paid sick leave, and he’d
+raise the minimum wage. The second pillar is policies aimed at making workers
+more productive, so they can command higher pay. This includes proposals to
+expand access to community college. The third pillar is policies aimed at
+increasing overall economic growth, like infrastructure spending and trade
+deals.
+
+But these proposals are mostly small in scope, with limited near-term effects
+on middle-class economic fortunes. The White House had a telling spat last
+month with the Tax Policy Center, a center-left joint venture of the Urban
+Institute and Brookings Institution that produces estimates of the
+distributional impacts of tax proposals. Len Burman, the center’s co-director,
+who was a Treasury official in the Clinton administration, ran the numbers and
+[found](http://web.archive.org/web/20250403071205/http://taxpolicycenter.org/publications/url.cfm?ID=2000089)
+the president’s plan produced an average tax cut of just $12 for families in
+the middle quintile — a surprising result for a plan aimed at the middle
+class, and one that produced inconvenient headlines.
+
+The Treasury Department says the Tax Policy Center has this wrong: that it is
+greatly overestimating the number of middle-income people who would get hit by
+a capital-gains tax increase the president is aiming at high earners. But it
+doesn’t even matter very much who is right: Treasury’s own numbers show the
+average middle-income family would get a tax cut of about $150 under the
+president’s plan. Whether $12 or $150, the average effects are small — much
+smaller than the several hundred dollars a typical family is saving this year
+because of falling gas prices, and much smaller than the raises Americans
+would get from a tight labor market that induces employers to offer higher
+wages.
+
+The last part should be the crucial issue for policy makers. In recent months,
+the labor market has been tightening. Employers aren’t just announcing wage
+increases; changes in labor practices suggest they finally feel the need to
+sweeten the deal to attract workers. Walmart and Starbucks, under public
+pressure over scheduling practices that can make it hard to juggle a job and a
+family, have announced rules that will give workers more advance notice of
+when they will have to work. So, what can the government do to keep the labor
+market tight, so workers have more power to insist on rules that work for
+them, and so good news like this keeps coming?
+
+A lot of that responsibility lies with the Federal Reserve. If the Fed reacts
+to the first sign of wage growth by raising interest rates, it may dampen the
+labor market recovery that is empowering workers, while continued Fed patience
+could aid the middle-class wage recovery. The president and officials in his
+administration do not talk about this very much, in part because Fed decisions
+are out of their hands. When members of Congress talk about it, it’s usually
+because they’d like the Fed to tighten sooner, which would make the middle
+class worse off.
+
+Another way Washington can push up wages is by making it easier to work less.
+The Affordable Care Act is already doing this by decoupling health insurance
+from full-time work, making it affordable for more parents to work part-time
+and more workers to retire before they reach Medicare eligibility at 65. If
+people no longer feel the need to work just for the health benefits, employers
+will have to induce them into the labor market with higher wages or other
+improvements.
+
+But right now, the best middle-class economic agenda might be to do no harm:
+Let the positive trends on job growth and gas prices continue, watch them flow
+through to wages, and hope the Federal Reserve doesn’t get in the way and that
+Congress and the president can keep policy at an approximate status quo
+without government shutdowns or other manufactured crises. It’s not a very
+ambitious agenda, but it’s one that could produce materially higher living
+standards for Americans over the next two years.

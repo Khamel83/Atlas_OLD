@@ -1,0 +1,82 @@
+# Arcade Fire - One Very, Very Indie Band - Darcy Frey - The New York Times
+
+**Source**: http://www.nytimes.com/2007/03/04/magazine/04arcade.t.html?_r=1&pagewanted=print
+**Type**: article
+**Created**: 2025-08-13T21:10:17.659415
+
+---
+
+title: Arcade Fire - One Very, Very Indie Band - Darcy Frey - The New York Times
+source: http://www.nytimes.com/2007/03/04/magazine/04arcade.t.html?_r=1&pagewanted=print
+date: 2025-08-13T21:10:08.136177
+tags: []
+---
+Damn, this church is getting hectic, what with Régine in the organist’s alcove
+coaxing the backup singers to let loose — Sing like really hungry wolves! Like
+you’re sending a desperate alarm to the other wolves! — and Win down in the
+sanctuary trying to keep the upright double bass and tenor sax from veering
+toward smooth jazz, and Jeremy picking through dozens of black-metal shipping
+crates to make sure the equipment’s all there — Win’s dobro, Régine’s hurdy-
+gurdy, the glockenspiel, the accordions, the giant Asian cymbals and the neon
+Jesus sign — everything packed up tight and ready to be shipped off to London
+for the start of the band’s yearlong world tour. It’s a snowy January night
+just outside Montreal, and each time the front door opens, gusts of frigid air
+blow through the nave: Hey, close the. . . . Oh, it’s Liza! Hey everybody,
+Liza’s here! Earlier, the church got so crowded that Sarah had to record her
+violin part (Régine: Make it weird, like a ghost violin, a sci-fi violin, a
+violin from outer space!) squished into the sound booth while Richie took his
+guitar into the stairwell because someone was playing a Mexican reveille on
+the trumpet and there was a French horn warming up in the kitchen.
+
+When the members of the Arcade Fire, a Montreal art-rock band led by Win
+Butler and his wife, Régine Chassagne, were trying to find studio space to
+record their second full-length album, they took an inventory of their
+instruments — the hurdy-gurdy and the accordions, but also the baby-grand and
+upright pianos, the organ and the harpsichord, the xylophone and the Caribbean
+steel drums. Then they considered the acoustics that would best suit their
+music — a kind of surging, post-punk rock with dense orchestrations cut
+through with painful and, at times, quite beautiful noise collages. Finally,
+they discussed their ambition to record their rousing, emotionally charged
+songs with the entire band playing live, though the band has seven permanent
+members and swells, when strings and horns are added, into an antic carnival
+orchestra. With the men in suspenders and vests and the women in dresses and
+lace fingerless gloves, and everyone employing yelps, hand claps, megaphones
+(for vocal distortion), motorcycle helmets (so they can drum on each other’s
+heads) and the occasional snare drum tossed high into the air, an Arcade Fire
+show has the feel of a Clash concert infiltrated by Cirque du Soleil.
+
+Given its outsize musical ambitions and unabashed theatricality, the Arcade
+Fire could have filled a three-ring recording studio. The place it ultimately
+found to record “Neon Bible,” the band’s follow-up to its successful and
+surprisingly poised 2004 debut album, “Funeral,” was a 19th-century redbrick
+church in a small farm town an hour outside of Montreal. The church already
+had a stage in front, a hundred-foot ceiling that returned rich, live-sounding
+reverberations and a rear balcony that could be turned into a glassed-in sound
+booth. Once they bought the place, moved in their equipment and hired two
+engineers, all they had to do was convert the basement into bedrooms and hire
+Liza (Win’s brother’s fiancée’s younger sister) as their cook so they could
+live out there for most of last year, working roughly three weeks on, one off,
+sometimes playing through the wee hours to get their meticulously arranged and
+recorded songs just right. (“Neon Bible” will be released March 6.)
+
+The church-turned-recording-studio, the year of living undergraduately — those
+were merely the latest unexpected events that have transpired since the Arcade
+Fire started playing hole-in-the-wall clubs in Toronto and Montreal four years
+ago, then put out “Funeral,” an album that, largely because of word-of-blog
+and a gushing review on pitchforkmedia.com, the influential music Web site (an
+album “at last capable of completely and successfully restoring the tainted
+phrase ‘emotional’ to its true origin”), would go on to sell 750,000 copies,
+which is a lot for an album that was recorded for $10,000. Once “Funeral” was
+released, the small gigs started selling out, only to be replaced by larger
+gigs that sold out too, and before long the Arcade Fire was touring North
+America and Europe and playing to rapt audiences in Japan and Brazil. Most of
+the band members are in their mid- to late 20s, but the keyboardist and bass
+player, Will Butler, who is Win’s younger brother, had to ask his professors
+at Northwestern for permission to miss class so he could appear with the band
+on Conan O’Brien. Fortunately, he’d graduated by the time David Byrne wrote
+them a fan letter and joined them onstage for a cover of his song “This Must
+Be The Place,” and David Bowie (who’d been giving “Funeral” to his friends)
+asked them to cover “Queen Bitch” at one of their shows and made a surprise
+appearance in a white suit and straw hat. After the band opened three arena-
+size shows for U2 in Montreal and Ottawa, Bono and his mates pronounced the
+Arcade Fire their favorite new act.

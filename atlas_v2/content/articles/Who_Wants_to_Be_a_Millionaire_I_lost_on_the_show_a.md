@@ -1,0 +1,276 @@
+# Who Wants to Be a Millionaire: I lost on the show, and it almost destroyed me.
+
+**Source**: inputs/New Docs/html/www.slate.com_articles_arts_culturebox_2015_02_who_wants_to_be_a_millionaire_i_lost_on_the_show_and_it_almost_destroyed.html.html
+**Type**: article
+**Created**: 2025-08-25T02:53:46.538260
+
+---
+
+Arts has moved! You can find [new stories here](https://slate.com/culture).
+
+![Justin Peters on Who Wants to Be a Millionaire](/content/dam/slate/articles/arts/culturebox/2015/02/150203_CB_JustinPeters01.jpg.CROP.promo-mediumlarge.jpg "Justin Peters on Who Wants to Be a Millionaire") 
+
+Justin Peters on *Who Wants to Be a Millionaire?*
+
+Photo by Heidi Gutman/Disney-ABC Home Entertainment and TV Distribution
+
+It took about a second for me to realize I had made the biggest mistake of my life.
+
+[Justin Peters](http://freejustinpeters.com/) is a Slate correspondent and the author of [*The Idealist: Aaron Swartz and the Rise of Free Culture on the Internet*](http://www.amazon.com/Idealist-Aaron-Swartz-Culture-Internet/dp/1476767726/?tag=slatmaga-20).
+
+There was a perceptible shift in the energy of the room, a subtle change in Terry Crews’ affect and expression. Like an arthritic sensing impending rain, I simply *knew*. I’d gambled a small fortune on a hunch. The hunch had been a bad one.
+
+“Justin,” Crews said, “I am *so sorry* …”
+
+Advertisement
+
+And then for a moment—less than a moment—I thought it might be a fake-out. That Crews might say something like, “I am *so sorry* that you’re going to be paying a lot of taxes this year, because you just won $500,000!”
+
+But it wasn’t a feint. I had given the wrong answer. I had lost $225,000 in about 10 seconds. My time on *Who Wants to Be a Millionaire?* had come to an end.
+
+*What had I done?*
+
+![Justin Peters](/content/dam/slate/articles/arts/culturebox/2015/02/Justin-Millionaire_Promo14s_opt350.gif.CROP.original-original.gif "Justin-Millionaire_Promo14s_opt350") 
+
+Justin Peters
+
+Courtesy of ABC Home Entertainment
+
+This was last October, when I recorded my appearance on the syndicated game show. For 12 questions, I had killed it. The questions seemed like they’d been put there just for me. The risks I took kept paying off. I had a great rapport with Crews, the show’s host. The audience was with me from the start, and as I continued my run, they were with me even more. They clapped. They cheered. They called my name.
+
+Advertisement
+
+And then they stopped cheering. And all I heard was the roar of a vacuum, sucking all good feelings away.
+
+I got to relive those emotions this week, when my two episodes of *Millionaire* finally aired. The current incarnation isn’t exactly the show you remember from when Regis Philbin hosted it in primetime, with seemingly all of America watching. Now it’s syndicated, appearing in the middle of the day and late at night on different stations in different cities. You may not even have realized it’s still on the air.
+
+The rules are a little different, too: There are 14 questions, with the first 10 worth random amounts ranging from $100 to $25,000. Answer one correctly, and its corresponding dollar-value goes into your bank, which accumulates as you progress. After the 10th question, you move into the “Classic *Millionaire*” stage. The 11th question is worth $100,000; the 12th is worth $250,000; and so on up to $1 million. Get the questions right, and the existing sum in your bank is replaced by the new, larger sum. Get them wrong, and you lose everything except $25,000. At any point in this stage, you can take home all of your money if you don’t think you know the answer to a question.
+
+I got to $250,000. It was a life-changing sum. It was mine, and I could’ve walked away with it. But I was never going to walk away. Before the show I had promised myself that I wouldn’t act tentatively—that I would answer the questions on stage as if I were sitting at home, with no money on the line. I had come to a soundstage in Stamford, Connecticut, to play the game, and, God help me, I was going to play it until I reached either damnation or glory.
+
+Advertisement
+
+I didn’t get to glory.
+
+*What had I done?*
+
+![150203_WWTBAM_Justin-breaker03](/content/dam/slate/articles/arts/culturebox/2015/02/150203_WWTBAM_Justin-breaker03.gif.CROP.original-original.gif "150203_WWTBAM_Justin-breaker03")
+
+Have you ever wondered what it feels like to lose a fortune? To have in your hand the money that would change your life, and then watch that money turn to vapor? When I lost $225,000 in a single second, it was like a needle had been pushed through my cerebral cortex, pinning me to the spot of my failure.
+
+I walked off stage in a daze, my mind still affixed to that cataclysmic moment. The production staff greeted me with awe. This was the best episode of the season, they told me. This was one of the best episodes ever. Nobody *ever* decides to guess with that much cash at stake. “You’re a man, Justin Peters,” my producer said, as she walked me through the backstage area. “You’re more of a man than anyone I know.”
+
+Advertisement
+
+I signed some papers saying that, 30 days after my episodes aired, I would receive a check for $25,000. I stared through the document as I signed it, seeing nothing but that missing zero.
+
+My producer escorted me toward the exit. She took my picture as she bade me farewell. “You’re the best contestant I’ve ever had,” she said.
+
+![Justin Peters](/content/dam/slate/articles/arts/culturebox/2015/02/150204_WWTBAM_justin_close.jpg.CROP.original-original.jpg "150204_WWTBAM_justin_close")
+
+Courtesy of ABC Home Entertainment
+
+I was one of the biggest losers in *Who Wants to be a Millionaire?* history.
+
+*What had I done?*
+
+![150203_WWTBAM_Justin-breaker03](/content/dam/slate/articles/arts/culturebox/2015/02/150203_WWTBAM_Justin-breaker03.gif.CROP.original-original.gif "150203_WWTBAM_Justin-breaker03")
+
+Advertisement
+
+The standard game-show fantasy goes something like this: You’re chosen as a contestant. You have a little luck, then a little more. You win a car, or some household appliances, or enough money to possibly change your life. Forget Horatio Alger: Going on TV and having a celebrity hand you a bag of money you don’t deserve is the *real* American dream.
+
+I am a lazy American man with no business sense or technical aptitude, so it’s no surprise I have always found this fantasy appealing. I remember sitting in my college dorm in 1999, watching [John Carpenter](https://www.youtube.com/watch?v=zI2SXUzMFtQ) win the grand prize on the original version of *Who Wants to Be a Millionaire?* He was a white dude with glasses who was good at trivia. *I* was a white dude with glasses who was good at trivia. Maybe someday that could be me!
+
+A Slate Plus Special Feature:
+
+My Secret Life as a Game Show Contestant
+
+![](http://www.slate.com/content/dam/slate/articles/slate_plus/2015/02/150203_SlatePlus_Justin.jpg.CROP.promo-small2.jpg)
+
+Everything the ***Slate*** office asked me, Justin Peters, about my *Millionaire* appearance.
+
+It’s not that I had any specific need for this money. I have no interest in buying anything I don’t already own, other than “another beer, please.” I have no debt, no children, no unfulfilled obligations to the state. The lure of big money—to me, at least—isn’t the things it’d let me buy, but the things it’d let me do.
+
+What would you do if you had enough money to not have to work for a while? Which unlikely ambitions have you postponed because you couldn’t absorb the loss if you failed? My unlikely ambitions have always been performative. I want to be a comic actor and screenwriter. But I’ve never taken the necessary steps to make it happen.
+
+Advertisement
+
+For the past decade, I’ve spent most of my nights and weekends toiling in New York City’s large and depressing unpaid-comedy scene, performing improv and sketch comedy for audiences composed of people waiting for my show to end so that *they* can get up and perform improv and sketch comedy, before we all go home and wonder why we’re not famous yet. For what it’s worth—which isn’t much—I’m good at what I do. I’m in a very funny improv duo called [From Justin to Kelly](https://fromjustintokelly.wordpress.com/). (Yes, like [that dumb *American Idol* movie](http://www.amazon.com/dp/B00005JM9N/?tag=slatmaga-20).) I’ve written and performed a series of esoteric one-man shows and ensemble pieces, including *Confessions of a Condiment Hustle*r, *A Good Burger Christmas*, and *How to Tape Things Off the Radio*. I’ve got screenplays and pilots to spare.
+
+But I’ve never tried to do anything real with them, even though I’ve always wanted to. I’ve never tried to bring my shows to a bigger audience. I’ve never seriously pursued any acting gigs. I’ve never really gone after comedy-writing jobs, or tried to sell or produce my screenplays. I wouldn’t know where to start, I’ve told myself. I’m happy doing this for free. I don’t need a bigger platform to feel validated.
+
+Deep down, I’ve always known these are excuses. The real reason is that I’m afraid that if I try, I might fail. And if I fail, I’ll get hurt.
+
+And what am I supposed to do? Stop being a journalist to pursue this unlikely ambition? I’m 33. I’m married. Though I don’t have debt or materialistic impulses, do I really want to leave my job and burn through my savings in order to chase a childish dream?
+
+Having a lot of money in the bank would be a built-in cushion that would allow me to follow those implausible ambitions. The money says OK, you can take the shot. It says no worries if you fail.
+
+![150203_WWTBAM_Justin-breaker01](/content/dam/slate/articles/arts/culturebox/2015/02/150203_WWTBAM_Justin-breaker01.png.CROP.original-original.png "150203_WWTBAM_Justin-breaker01")
+
+But I wasn’t thinking about any of this when I auditioned for *Who Wants to Be a Millionaire?* last fall. I did it because I thought it would be fun, and I knew I’d probably get on the show.
+
+The reason I was so confident was because I hadalready been on *Millionaire*. In the summer of 2014, my friend Jon Bander appeared on the program, and he asked me to come along as his in-studio lifeline. (During the Regis Philbin days, contestants were allowed to phone one friend for advice. These days, contestants bring a friend to the studio, and bring him or her down on stage to talk through the question they need help with.) When he asked for my advice on a tough question, I had none to give, but we bantered a bit, and it was sort of funny. After the episode, Bander’s producer was all smiles. “*Guys*,” she said. “We were *dying* back here. That was *gold*.”
+
+Bander walked away with $1,000. I walked away thinking, “I bet they’d put me on the show if I auditioned.” I was right.
+
+There are people who have spent years of their life trying and failing to get on *Who Wants to Be a Millionaire?* I got in on my first try. I went to an open audition in New York City in mid-September. I passed the initial trivia test, then had a brief interview with a producer, then played a practice game.
+
+Two days later, a contestant coordinator called me and invited me to come on the show.
+
+![150203_WWTBAM_Justin-breaker03](/content/dam/slate/articles/arts/culturebox/2015/02/150203_WWTBAM_Justin-breaker03.gif.CROP.original-original.gif "150203_WWTBAM_Justin-breaker03")
+
+*Who Wants to Be a Millionaire?* premiered in Great Britain in 1998 and came to the United States in 1999. With Philbin, the show became a primetime sensation, airing on ABC up to five nights per week at its peak. But Americans eventually lost interest in watching their fellow countrymen become millionaires every night of the week. ABC’s ratings suffered, given that its entire weeknight programming fortunes were pretty much contingent on this one program. Primetime *Millionaire* was canceled in June 2002.
+
+![Regis Philbin](/content/dam/slate/articles/arts/culturebox/2015/02/150203_WWTBAM_regis.jpg.CROP.promo-medium2.jpg "150203_WWTBAM_regis") 
+
+Regis Philbin returned to primetime to host *Super Millionaire* beginning Sunday, May 16, 2004, on ABC.
+
+Photo by Virginia Sherwood/ABC via Getty Images.
+
+The show jumped to syndication that September, and it’s been there ever since. The syndicated version is only half an hour long. It’s cycled through hosts—Meredith Vieira, Cedric the Entertainer, and now Terry Crews, the comic actor and former NFL player. As of this writing, the show has not yet been renewed for a new season, but can you really imagine an America in which *Who Wants to Be a Millionaire?* isn’t on the air? The show perseveres out of familiarity and simplicity, peddling the appealing and inherently dramatic notion that just by spending an hour answering some basic trivia questions, any anonymous slob can become a millionaire.
+
+Well, at least they used to become millionaires. The first American *Millionaire* winner was Carpenter, a 31-year-old IRS employee who [saved all of his lifelines until the million-dollar question](https://www.youtube.com/watch?v=zI2SXUzMFtQ), and won America’s undying affection by using his phone-a-friend option to call his father and tell him he was about to win a million dollars. Could you blame him? His million-dollar question—“Which of these U.S. Presidents appeared on the television series *Laugh-In*?—was easy. (Richard Nixon.) The show used to specialize in easy questions, so much so that, during its first calendar year on the air, six separate people won a million dollars—so much so that the insurance company that paid out the big jackpots [actually sued the show’s creators](http://articles.latimes.com/2000/feb/20/news/mn-751) because the game was too easy.
+
+Since then, millionaires have become rarer, and the questions have gotten harder. The last big winner was [Sam Murray](https://www.youtube.com/watch?v=G9OVpPjlxHw), who took home the ultimate prize after appearing in a special tournament version of the show in 2009. (His question: “According to the Population Reference Bureau, what is the approximate number of people who have ever lived on earth?” Answer: 100 billion.) The last person to correctly answer the million-dollar question in the show’s traditional format was [Nancy Christy](https://www.youtube.com/watch?v=G9OVpPjlxHw), who went all the way in May 2003. (Question: “Who did artist Grant Wood use as the model for the farmer in his classic painting ‘American Gothic’?” Answer: His dentist.) It’s still *possible* to reach the million-dollar question these days; it’s just a lot harder. Instead, the producers seem to focus on making the show work as an entertaining television program rather than a trivia-based get-rich-quick scheme.
+
+When I arrived at the studio on a morning in October, it was obvious the producers liked me. I don’t get nervous in front of crowds, and I wasn’t nervous about the money, because I didn’t expect to make any. Bander had been bounced on a random question that he couldn’t have been expected to know, and I expected something similar to happen to me. So I was able to relax during the day-and-a-half I waited in semisequestration in the contestant-holding area, talking and joking with the producers. And the producers liked me for it.
+
+About 20 minutes before I was supposed to play, my producer came up to me with an idea. “We’ve got a great entrance for you,” she told me, explaining how they wanted me to pretend to lasso Crews with an invisible rope, and then work my way to him hand-over-hand. This seemed really stupid, which is why I loved it. I tested out the move, and the producers clapped and cheered. This is television.
+
+Backstage, right before I was about to play, I joked about how I was going to burn all three of my lifelines on the very first question, and then announce that I was going to take my money and walk away. The producers laughed, and then set me straight.
+
+“We want at least an episode and a half from you,” the supervising producer said.
+
+![150203_WWTBAM_Justin-breaker03](/content/dam/slate/articles/arts/culturebox/2015/02/150203_WWTBAM_Justin-breaker03.gif.CROP.original-original.gif "150203_WWTBAM_Justin-breaker03")
+
+They got it. The night before the show, over several beers and a [hot oil pizza](http://www.colonygrill.com/)—Stamford’s proudest contribution to the annals of indigestion—I had announced to my sister and friends that under no circumstances would I walk away. “The name of the game is *Who Wants to Be a Millionaire?*” I said. “Not *Who Wants to Go Home With $7,000?*” I wasn’t going to be scared into leaving prematurely.
+
+The stage manager cued me into position the next morning. Terry Crews made his entrance. He introduced me as “a part-time beer vendor from Lake Bluff, Illinois.” (Lake Bluff is my hometown, and I sell beer at Wrigley Field during the summers; the producers chose to emphasize this aspect of my biography because they found it entertaining.) Instead of walking over to the podium like a normal person, I lassoed Crews with an invisible rope, just like the producers had taught me. He seemed surprised at first, but then he got into it. Things just got easier from there.
+
+I hesitate to say this, both because of how the game ended and how this makes me sound, but it was easy. It was really easy. I didn’t know the answers to most of my questions with absolute certainty, but they were all written in such a way that I could figure them out. The trick was to trust my instincts, and not let self-doubt force a premature exit.
+
+“You’re playing the game perfectly,” my producer said during a commercial break. And I was. The only real hiccup came halfway through the first day, with this question: “Bought for just $19.95, whose weapon did *Life* magazine call ‘the most infamous mail-order gun of all time?’ ” The obvious answer was Lee Harvey Oswald, but I was overthinking it, and I had to ask my friend Kelly to come down and help me figure it out. I had narrowed it down to either Lee Harvey Oswald or John Hinckley. Kelly reminded me that the question said *infamous*. “I feel like it’s more infamous if a person dies,” she said. She had a good point. I went with Oswald. I was right. The question was worth $25,000. I picked her up and carried her over to Crews for a jubilant group hug. “Terry, we need to take this act on the road,” I said.
+
+![Justin-Millionaire_Promo7s_long_opt](/content/dam/slate/articles/arts/culturebox/2015/02/Justin-Millionaire_Promo7s_long_opt.gif.CROP.original-original.gif "Justin-Millionaire_Promo7s_long_opt")
+
+Courtesy of ABC Home Entertainment
+
+As I approached the big money, the questions only got easier. The last one before the Classic *Millionaire* round was about old-timey magazines. I’d been reading old-timey magazines for a book I’m writing. The $100,000 question required me to know the name of the country that would come first in an alphabetical listing of nations. “It’s Afghanistan,” I blurted immediately after Crews finished reading the question. I knew this because for the previous three years, on a daily basis, I had been going to the website Sporcle and taking the same damn [Alphabetical Countries quiz](http://www.sporcle.com/games/Ben/alphabetical_countries), to the point where I can now list all 197 nations in six minutes. The $250,000 question was about the origin of the World Wide Web. My book is about the World Wide Web. I’ve read like 20 books on the topic.
+
+With every new addition to my bank, my excitement grew. At $100,000 I started laughing uncontrollably. At $250,000, I fell to the floor. In 15 minutes, after answering a couple of questions, I had become rich. And now I was only two questions away from $1 million.
+
+In the history of the syndicated version of *Millionaire*, according to the fan site [wwtbam.biz](http://wwtbam.biz/), 38 other people have seen a terminal $500,000 question. All but four of them have either answered the question correctly or chosen to walk away. The last person to answer the question incorrectly was a 22-year-old California man named Chris Ngoon, in October 2013. Before Ngoon, there hadn’t been a $500,000-question loser since 2004. Most reasonable people, if they get to that point and don't know the answer, choose to take their money and walk away. It’s very hard to justify gambling $225,000 on a hunch.
+
+I was always going to gamble.
+
+The $500,000 question was this: “Drinking alcohol in the British House of Commons is strictly forbidden at all times, with the single exception of a lawmaker doing what?” The potential answers:
+
+A: Declaring war.  
+B: Crowning a royal.  
+C. Taking the oath of office.  
+D: Passing a budget.
+
+If I answered the question right, I’d have $500,000 and the chance to be the program’s first million-dollar winner in years.
+
+I didn’t know the answer. And the question wasn’t worded in such a way that I could try to figure it out through etymology or context clues. And I’d used all three of my lifelines.
+
+![&copy; ABC Home Entertainment](/content/dam/slate/articles/arts/culturebox/2015/02/150204_WWTBAM_JustinEmotions.jpg.CROP.original-original.jpg "150204_WWTBAM_JustinEmotions")
+
+Courtesy of ABC Home Entertainment
+
+But I was confident I could eliminate two of the four choices—A and C—which left me with a 50 percent chance of getting it right. Was that enough to risk $225,000? I felt the nervous energy of the audience. I sensed the “don’t-be-an-idiot-take-the-money-you-fool” vibes coming off Crews.
+
+“It’s B. It’s got to be B,” I said. It seemed reasonable. The coronation of a new monarch was a celebratory occasion, and reason enough to drink. Plus, there was a brand of liquor called Crown Royal. It made sense to me at the time.
+
+“*Justin*,” he said. “*Listen* to me. If you are wrong, you lose *$225,000*.” This was good advice. I would have done well to heed it.
+
+“Can you do me a favor, Terry,” I asked, unreasonably cocky, “and remind me of what happens when I’m right?”
+
+“But if you are *right*, Justin,” he said. I cupped my hand to my ear theatrically. Crews motioned me over to his podium and put his hand on my shoulder. “If you’re right, you get *$500,000* … and *one question away* from $1 million.”
+
+The audience erupted into spontaneous applause. It was probably the worst thing that could have happened.
+
+“Yeah. Why not?” I said.
+
+He looked at me with *Are-you-sure?* eyes.
+
+I thought about it for a second. I didn’t think too hard.
+
+“It’s B. Crowning a royal. Let’s make this a *game*, Terry,” I said.
+
+It was D.
+
+I heard the roar of the vacuum. I felt the needle through my skull.
+
+*What the fuck had I done?*
+
+![150203_WWTBAM_Justin-breaker03](/content/dam/slate/articles/arts/culturebox/2015/02/150203_WWTBAM_Justin-breaker03.gif.CROP.original-original.gif "150203_WWTBAM_Justin-breaker03")
+
+On my way back to New York, I held the steering wheel of my car like the lever on an armed grenade, my grip the only thing stopping an explosion. My sister and friends replayed the show from the passenger seats. “You were *so good*,” my sister said. “Justin, *seriously*. Everyone was *so impressed*.”
+
+Big fucking deal.
+
+“You played the game. Everyone else stops. But you played the game.”
+
+Two-hundred-fifty thousand dollars. Life-changing money.
+
+“I know how this feels,” Kelly said. I cut her off.
+
+“No,” I said. “You do *not* know how this feels.” The rest of the ride passed mostly in silence. I realized now that I had played poorly on the last question. I hadn’t taken the time to talk it through. If I had, I might have realized that *obviously* the House of Commons has nothing to do with the royal coronation. Once I realized that, what would I have done? I played too fast at exactly the wrong moment.
+
+I got back to Brooklyn. I went up to my cramped apartment, where the cold water didn’t work, the front door had no knob, and the landlord hated me. I buried my head in a sofa cushion and cried.
+
+I couldn’t be in New York that night. I decided to drive to Boston, where I have family. I called my sister and begged her to come with me. “I can’t be alone right now,” I said, nearly sobbing. “I just … I just can’t.”
+
+The next day, I stalked the streets of Boston with no destination in mind. My book deadline was impending. But I couldn’t do anything but think about what had happened. I had a great time on television and won $25,000. That’s hardly a tragedy. So why was this hitting me so hard?
+
+And then I remembered something my sister told me.
+
+My sister had sat in the studio audience for two days waiting for me to take my turn. There’s a lot of downtime during television tapings, and apparently, during one of those moments, Crews had told the audience a story about how once, on his high school basketball team, he had had a chance to make a game-winning shot, and he missed it. His team lost. He was crushed. “But you know what I realized eventually?” she remembered him saying. “I took the shot. Someone else might have passed the ball. But I took the shot.”
+
+At the time, when I heard that story, I rolled my eyes. Well, of *course* Crews wants contestants to take the shot. It’s a game show. That’s what makes for interesting television. They’d never have any big winners if nobody ever wanted to play.
+
+But now, for some reason, Crews’ story seemed a lot more meaningful. When was the last time I had actually taken the shot? Had I ever been willing to risk almost everything, and court existential pain and public humiliation, for a chance at some greater reward? I had spent my adult life taking interim steps, half measures. All the things I’d pushed to nights and weekends because I thought I couldn’t afford to work on them full-time. All the times I’d played things safe because I was afraid I would fail.
+
+But I went on national television, and I took the shot.
+
+I called Kelly, my in-studio lifeline. I was semihysterical. “The fact that I went for it. *That’s* what has to change my life. Not the money, but the fact that I made that decision,” I told her. “I need to make this have meaning. I need to derive more meaning from the loss than I would from the win.”
+
+I was screaming on Commonwealth Avenue. I collapsed on the steps of a townhouse.
+
+I had found meaning in my failure. I had removed the needle.
+
+![150203_WWTBAM_Justin-breaker03](/content/dam/slate/articles/arts/culturebox/2015/02/150203_WWTBAM_Justin-breaker03.gif.CROP.original-original.gif "150203_WWTBAM_Justin-breaker03")
+
+In the months since I taped the show, friends and colleagues have routinely asked me for details. “It was an existentially transformative experience,” has been my standard answer. When I say this, people generally assume that I won a lot of money. And I guess I did. Twenty-five thousand dollars is a *lot* of money.
+
+But that’s not what I’ve meant.
+
+I watched my episodes at Walter’s Bar on 29th Street and 8th Avenue in Manhattan this week, alongside some friends and a handful of extremely enthusiastic day-drinkers. It brought back all the old feelings: excitement, regret, self-loathing. “You’ve got a *set* on you, boy,” one of the day-drinkers hollered when I went for the $500,000. I still think that my answer to the $500,000 question was a reasonable guess under the circumstances. I still wish it had actually been correct.
+
+But what I mostly felt was: I can do this. I owned that show. I commanded the stage. It was *my* energy that drove these episodes, not Crews’. I don’t think I’m being delusional when I tell myself I could thrive on television. The proof is right there! “You didn’t even want the money. You just wanted to stay on TV,” my wife said after watching the episode. And she was right. I think I could get acting work off of this tape. I think I’m going to try.
+
+We often say that we’d do great things if we only had the money, but that’s just an excuse. It’s not the money we’re waiting for; it’s the courage to try something without knowing whether we’ll succeed. It’s the tolerance for risk of failure, not financial failure but actual failure—the realization that you can’t actually do that thing you dream of doing.
+
+I have the confidence to do just about anything on stage. So why hasn't that translated into the courage to pursue the thing I love? Maybe it’s because the college graduate in me has always seen the value of hedging, of having contingency plans, of never putting all your money on the line for any single proposition.
+
+![Justin Peters on Who Wants to Be a Millionaire](/content/dam/slate/articles/arts/culturebox/2015/02/150203_CB_JustinPeters03a.jpg.CROP.promo-medium2.jpg "Justin Peters on Who Wants to Be a Millionaire") 
+
+Justin Peters on *Who Wants to Be a Millionaire?*
+
+Photo by Heidi Gutman/Disney-ABC Home Entertainment and TV Distribution
+
+Now I know I’ve had that courage all along. I haven’t tapped it, but it’s been there. I’ve had it in me to continue where others have turned away.
+
+In less than 30 days, I’m supposed to get a check for $25,000. I’m not going to use it to buy a car, or take a trip. I don’t need those things. Instead, I’m going to try and wring as much value out of this money as possible. I’m going to use it to underwrite a journey of risk and discovery, one in which the answer is always “Yes.” I’m going to spend the entire sum taking the shot.
+
+What does this mean, practically? I’m still figuring that out. I’ve booked a West Coast tour for my improv duo, for starters. We’re going next week. We’re playing San Diego, Phoenix, Orange County, Las Vegas, and Los Angeles. I’m going to ask Crews to come to the L.A. show.
+
+This is exciting and sort of daunting for a lot of reasons. There is no established touring circuit for improv comedy. We’re completely unknown, and the audiences for our work don’t exist yet. I’ll probably lose a lot of money.
+
+That doesn’t scare me anymore.
+
+Load Comments
+
+[Powered by Livefyre](http://livefyre.com)

@@ -1,0 +1,124 @@
+# David Remnick: Speaking the Truth About the Egyptian Coup : The New Yorker
+
+**Source**: http://www.newyorker.com/talk/comment/2013/08/26/130826taco_talk_remnick
+**Type**: article
+**Created**: 2025-08-13T20:03:08.881442
+
+---
+
+title: David Remnick: Speaking the Truth About the Egyptian Coup : The New Yorker
+source: http://www.newyorker.com/talk/comment/2013/08/26/130826taco_talk_remnick
+date: 2025-08-13T20:02:56.681769
+tags: []
+---
+From the start of the Arab Spring, it has always been worth remembering that
+the ecstasies of uprising are rarely followed by immediate pacific and
+democratic resolution. The Terror and Bonapartism shadowed the storming of the
+Bastille. The American Revolution did not emancipate the slaves; a gulf of
+nearly two centuries lay between Washington’s march and the March on
+Washington. The hopes of the Prague Spring, in 1968, crushed by Moscow’s
+tanks, did not revive until 1989. And, in the former Soviet imperium,
+democratic Prague is a happy exception. What is Vladimir Putin if not the
+scowling visage of history, a secret policeman who mocks the earnest ambitions
+of liberty?
+
+And yet, after the bloody events in Egypt last week, it strains decency to ask
+historical patience of the bereaved. Nearly seven hundred people were killed
+and four thousand wounded—a slaughter initiated by the military commander,
+General Abdel Fattah el-Sisi, a man no longer willing to countenance protests
+against the coup that brought him to power. The spectacle of defiance—of
+thousands of supporters of the deposed President, Mohamed Morsi, staging sit-
+ins in Cairo, Giza, and elsewhere—had to end, General Sisi declared. Municipal
+traffic could no longer be rerouted. “We bent over backwards to bring in the
+Brotherhood,” an official in Cairo airily informed the _Wall Street_ Journal.
+“No responsible government could take any more of this.”
+
+So it began. On August 14th, Sisi and his allies, claiming unconvincingly that
+the Muslim Brotherhood demonstrators were “terrorists” responsible for
+hoarding huge quantities of arms, acted as a junta is apt to. The Interior
+Ministry promised that security forces would clear the streets with the
+gentleness of lambs, in order “not to shed any Egyptian blood.” Instead, they
+set out, at around 7 A.M., armed with tear gas and bulldozers, and moved
+quickly to live fire. They aimed, according to witnesses, at the head, neck,
+and chest.
+
+You can mistrust the politics and the ambitions of the Muslim Brotherhood. You
+can point out that, during its year at the head of an elected government, it
+exploited its victory to embed its religious ideology and its goals as deeply
+as possible in the new constitution. Its views on women’s rights, its efforts
+to intimidate journalists, and attacks by its supporters on Coptic churches
+and Christian believers are just a few of its deplorable features. The history
+of the Brotherhood and of its impact in the Middle East inspires no
+admiration. But how does a military coup, along with the kidnapping of an
+elected President, and widespread, indiscriminate arrests, announce the
+resumption of democratic practice? Islamists make up roughly a third of the
+Egyptian population. The slaughter on the streets will surely radicalize many
+of them, and set back democratic development throughout the region.
+
+In fact, the temptation is to declare the Arab Spring over—for now, at least.
+Leaders of the secular opposition have been gunned down in Tunisia. Libya,
+dominated by rival militias, flounders in a state of chaos. Thanks largely to
+the ministrations of Iran and Hezbollah, the Syrian autocrat Bashar al-Assad
+is regaining authority in his shattered country with victories over the
+divided, and increasingly jihadist, rebels. The monarchs of Jordan and Morocco
+can reassure themselves that the spectacles of blood and disorder elsewhere in
+the Middle East will help forestall any uprisings and safeguard their thrones.
+
+Leaders and diplomats in the West, meanwhile, have run up against the limits
+of their influence. The task of statesmen is, often enough, to utter the
+indefensible and the insupportable in the greater interest of their nation.
+The Obama Administration has carefully avoided using the word “coup”—a
+linguistic trip wire that would trigger the automatic withdrawal of the $1.3
+billion in aid that Washington annually remits to Egypt. On August 1st, a
+month after the coup, Secretary of State John Kerry declared that the Army was
+“restoring democracy.” In his parsing of events, “The military was asked to
+intervene by millions and millions of people. . . . The military did not take
+over, to the best of our judgment—so far.” The same day, Sisi, talking to the
+Washington _Post_ , showed his gratitude to the friendly obfuscations of the
+Administration by saying, “You turned your back on the Egyptians, and they
+won’t forget that.”
+
+Sisi, who studied at the U.S. Army War College—where he wrote a paper called
+“Democracy in the Middle East”—told the _Post_ that he did not “aspire for
+authority,” as other Egyptian military men had in the past, but he couldn’t
+restrain himself from preening in such a way that suggested his greater sense
+of destiny. “The most important achievement in my life is to overcome this
+circumstance,” he said, to insure “that we live peacefully, to go on with our
+road map and to be able to conduct the coming elections without shedding one
+drop of Egyptian blood.” He added, “When the people love you, this is the most
+important thing for me.”
+
+In recent weeks, the leadership of the E.U. and members of Obama’s Cabinet
+were in regular contact with Sisi, imploring him not to use violence. He took
+a casual attitude toward these admonishments. Already, in July, the security
+forces had killed more than a hundred demonstrators, and the sole U.S.
+sanction had been to delay the delivery of four F-16 fighter jets. Saudi
+Arabia, Kuwait, and the United Arab Emirates were, meanwhile, propping up Sisi
+with many billions more than the Americans have ever offered. And, when last
+week’s slaughter came, Kerry swallowed the bile of outrage and insisted that
+the United States could still make inroads with the Egyptians if given a
+chance. “From my many phone calls with many Egyptians, I believe they know
+full well what a constructive process would look like,” he told reporters. “I
+am convinced that that path is, in fact, still open.” The next day, President
+Obama emerged from a vacation rental on Martha’s Vineyard to rap the General’s
+knuckles, if lightly. He cancelled a biennial joint military exercise with the
+Egyptians. This was a baby step forward, but he again avoided using the word
+“coup” to describe the coup. He called it “the military’s intervention.”
+
+When White House advisers formulate a position that they believe is correct
+but which manages to repel everyone, they say that they have “hit the sweet
+spot.” In Egypt, they have struck it with regularity. Obama has succeeded in
+angering Egypt’s Islamists, its military, and what few liberals remain on the
+scene—this is the price we pay, above all, for decades of fealty to Hosni
+Mubarak. But the Administration also insists on the need to stay engaged, even
+with a military leadership as heedless and as brutal as Sisi’s. After all, it
+says, if the U.S. withholds its relatively modest contribution, Russia, among
+others, will surely rush in to make up the shortfall and gain the kind of
+foothold it has not had in Egypt since it was kicked out by Anwar Sadat, in
+the early nineteen-seventies.
+
+The Administration prides itself on taking the long view in foreign policy,
+forgoing the morally satisfying gesture in pursuit of a cooler calculation of
+outcomes. Yet gestures and words matter, too. There comes a point when a thing
+demands its proper name. A coup is a coup. A despot is a despot. And a
+massacre is a massacre. ♦

@@ -1,0 +1,169 @@
+# How to make the most of Spotify playlists | The Verge
+
+**Source**: http://www.theverge.com/2016/10/18/13306136/spotify-playlists-tips-tricks-discover-weekly-new-releases
+**Type**: article
+**Created**: 2025-08-13T17:49:21.104780
+
+---
+
+title: How to make the most of Spotify playlists | The Verge
+source: http://www.theverge.com/2016/10/18/13306136/spotify-playlists-tips-tricks-discover-weekly-new-releases
+date: 2025-08-13T17:49:19.904176
+tags: []
+---
+A playlist is one of the best gifts you can give yourself.
+
+Playlists — where emotions lurk in every shadow and the mysterious alchemy of
+memory is constantly bubbling and brewing! Playlists — where you can cut the
+filler tracks and go all killer, all the time. Playlists — not only [remind
+you of your past selves](http://jezebel.com/how-i-changed-my-mind-about-bob-
+dylan-1785914944) but existential roadmaps to your future self.
+
+The secret to best consuming music, I believe, is the playlist, formerly known
+as the mixtape, and before that known as “all the songs dad knows how to play
+on the harpsichord.” But if you’re like me, playlists are a bit messy,
+clogging up your Spotify like a mysterious clump of dog hair in your shower
+drain. How did they get here? And how can I clean this up?
+
+Here are some tips for assembling, organizing, and better enjoying playlists
+on Spotify.
+
+Playlists are helpful for organizing songs, but what happens when you have so
+many playlists, you need to organize them? Folders, of course.
+
+You can start the folder process by right-clicking any pre-existing playlist
+and selecting “Create Folder.” From there, fill the folder up by dragging and
+dropping playlists onto the folder.
+
+I find sorting my playlists by seasons to be very helpful, mainly because,
+like many people, seasons are the way I organize musical memories in my brain.
+
+Seasonal folders are useful for when you’re living in one season, but feeling
+another. For example, right now it is October, but I’m in a winter mood due to
+the utter heinousness of this fall. Thanks to my winter playlist folder, it’s
+been easy to find and listen to a lot of Cat Power and moody covers of “Have
+Yourself a Merry Little Christmas,” while really chilling the heck out. Don’t
+let anybody tell you when you can and can’t listen to Christmas music.
+
+If you’re someone for whom memory is less of a constant, persistent pain that
+you need to revisit with your listening habits, you might want to sort your
+playlists by genre or tone.
+
+## **Recover playlists that you deleted by accident, in a fit of rage, or as
+an act of self-disgust**
+
+On your Account page, there’s a handy little option to Recover playlists that
+you’ve deleted. It’s unclear how far back the recovery option goes, but I can
+still see playlists that I deleted in May.
+
+I restored a playlist today just for kicks. I’m very happy to have 37 Jack’s
+Mannequin bonus tracks back in my library.
+
+Why would you do this? Sometimes we delete playlists because they remind us of
+people or moments we’d rather forget. But like banishing every photo of an ex
+from Facebook and Instagram, there may come a time down the line when you
+regret throwing out the memory baby with the bad boyfriend bathwater.
+
+(I really had far too many slightly different Rilo Kiley playlists!)
+
+## **Think of Discover Weekly as Re-discover Weekly**
+
+I’m not sure where the whole “Discover Weekly is incredible” myth got started.
+Maybe by the sponsored tweets that are now cropping up in subway ads, maybe by
+my co-workers who won’t stop talking about it and who have praised it [on this
+website](http://www.theverge.com/2015/9/30/9416579/spotify-discover-weekly-
+online-music-curation-interview) and into my ear day after day.
+
+Discover Weekly isn’t bad. It’s just a little boring, because its algorithms
+serve you music that sounds like the stuff you already like. In fact, that may
+be its most useful application. Discover Weekly, by virtue of knowing what
+you’ve already enjoyed on Spotify, often recommends music you’ve enjoyed
+elsewhere, like on the radio, or at some impossibly trendy boutique, or off
+your parents vinyl collection which they unloaded on you when they
+consolidated to a smaller home when you left for college.
+
+Discover Weekly: the place where you hear Fleetwood Mac’s _Tusk_ for the first
+time in a decade, and think, “Hey, this is still the best.”
+
+Release Radar and New Music Friday are the only Spotify-curated playlists that
+bring me a deep and pure joy. They’re _thrilling_. You can find them in the
+New Releases section of Spotify’s Browse tab, and between the two, you’ll get
+a nice mix of new music from artists you care about and from artists you
+don’t, but may or may not feel socially obligated to. It’s the best way to
+stay on top of things, and it’s how I accidentally became addicted to a Nick
+Jonas song called “Bacon,” which [is or isn’t a sex thing and I still don’t
+know!](http://www.theverge.com/2016/6/3/11850586/nick-jonas-bacon-song-ban-
+men)
+
+The genre-specific “Early Bets” playlists that Spotify curates, located in the
+same area, that can also be useful if you’re looking for the “new thing” in
+indie pop or R&B.
+
+## **Import all of your long-forgotten Shazam finds**
+
+All those songs that briefly piqued your interest at the club or in a Forever
+21 still live in your Shazam account, and you can [bring them home to
+Spotify.](http://www.theverge.com/2015/3/19/8252763/shazam-playlist-spotify-
+iphone-death-to-my-apps) The resulting playlist is like a brief, fragmented
+history of moments in your life that were boring enough to warrant pulling out
+your smartphone and opening Shazam.
+
+In the settings of your Shazam app, just select “Connect to Spotify.” Shazam
+should automatically make you a Shazam-only playlist, which will help you take
+a trip down memory lane and hang out in the overcrowded high school carpools
+of yesteryear for an afternoon.
+
+## **20 remixes of a song you love is a fine workout playlist**
+
+An underrated feature of most streaming services is the absolute glut of
+remixes of popular songs. [Spotify has become known as a
+haven](http://www.theverge.com/2015/9/8/9260675/spotify-cover-songs-taylor-
+swift-adele) for these largely because it doesn’t host album exclusives and
+therefore often lags on getting the rights to big releases. To fill the gap:
+bizarre remixes and covers. They’re great for jogging until your stomach falls
+out your butt! All you have to do to get started is hit the search bar with
+“Can’t Help Falling in Love cover.” (That playlist will be for crying, not
+jogging.)
+
+## **Make playlists for your dad if you can’t afford to buy him a birthday
+present**
+
+Use Song Radio, not Spotify’s designated Genre playlists. That way, if you
+know your dad loves Bruce Springsteen, and you _want_ him to love Frank Ocean,
+you can play a fun game of six degrees of separation (or 12, and you might
+have to fudge it a little bit. It’s still a fun exercise!) and thereby
+manipulate him into getting there. Just go to a track you know your dad
+already likes, click the three white dots all the way to the right, and select
+“Go to Song Radio” to see a bunch of related tracks.
+
+Here’s an example playlist I just made for my dad, Jim:
+
+Don’t forget to add a mission statement for your playlist in the description
+box, and design some custom artwork!
+
+## **Last but not least: import all of your old iTunes playlists**
+
+Now might not feel like the time to step back into your 19-year-old headspace,
+but that’s fine. It might be the time later, and you’re going to want to be
+ready. (File -> Import Playlists -> iTunes.)
+
+[](/2016/10/18/13306136/spotify-playlists-tips-tricks-discover-weekly-new-
+releases#comments)
+
+**Follow topics and authors** from this story to see more like this in your
+personalized homepage feed and to receive email updates.
+
+  * Kaitlyn Tiffany
+  * Entertainment
+
+  * How to
+
+  * Music
+
+  * Reviews
+
+  * Spotify
+
+  * Tech
+
+  * TL;DR

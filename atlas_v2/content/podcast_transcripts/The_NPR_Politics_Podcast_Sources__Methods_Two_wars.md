@@ -1,0 +1,9 @@
+# [The NPR Politics Podcast] Sources & Methods: Two wars escalate abroad, political violence at home
+
+**Source**: https://www.npr.org/2025/09/13/nx-s1-5540093/sources-methods-two-wars-escalate-abroad-political-violence-at-home
+**Atlas ID**: 229859
+**Migrated**: 2025-09-30T16:47:31.019989
+
+---
+
+Firefighters gather on a destroyed roof to inspect a damaged house, after multiple Russian drones struck, in Wyryki near Lublin, Poland, Thursday, Sept. 11, 2025. Czarek Sokolowski/AP Photo hide caption toggle caption Czarek Sokolowski/AP Photo Today, we're sharing another episode from NPR's newest podcast, Sources & Methods . Each Thursday, host Mary Louise Kelly breaks down the week's biggest national security news with NPR's team of reporters covering the military, State Department, and spy agencies. NPR correspondents stationed around the world also join the conversation. This episode, national security correspondent Greg Myre and domestic extremism correspondent Odette Yousef join Mary Louise Kelly discuss how U.S. national security changed after the September 11th attacks. Will the structures put in place to prevent another attack survive the Trump administration’s cuts to intelligence agencies? And did a focus on militant Islamism mean turning away from threats posed by white supremacist groups? And Senator Elissa Slotkin, a Michigan Democrat, argues that America’s political division is its greatest national security threat — and the best defense is rebuilding the middle class. Find new episodes of Sources & Methods on the NPR App or wherever you listen to podcasts. Listen to every episode of the NPR Politics Podcast sponsor-free, unlock access to bonus episodes with more from the NPR Politics team, and support public media when you sign up for The NPR Politics Podcast+ at plus.npr.org/politics . Sponsor Message

@@ -1,0 +1,138 @@
+# Trump’s GOP challengers must step forward now to win in 2020.
+
+**Source**: http://www.slate.com/articles/news_and_politics/politics/2017/06/trump_s_gop_challengers_must_step_forward_now_to_win_in_2020.html
+**Type**: article
+**Created**: 2025-08-13T17:13:49.706996
+
+---
+
+title: Trump’s GOP challengers must step forward now to win in 2020.
+source: http://www.slate.com/articles/news_and_politics/politics/2017/06/trump_s_gop_challengers_must_step_forward_now_to_win_in_2020.html
+date: 2025-08-13T17:13:48.240559
+tags: []
+---
+If you’re an ambitious Republican, it’s time to start thinking about
+challenging Donald Trump for the GOP presidential nomination in 2020. If you
+don’t get going now, you’re doomed to be too late. Unless you’re a celebrity
+with hundreds of millions of dollars at your disposal, you’ll need to lay the
+groundwork for your campaign very, very early. Raising the necessary funds
+will mean assembling the right team, and that will take a lot of wheedling. I
+say start wheedling now. If you fear embarrassment, by all means be discreet
+about your intentions. While one can imagine there being a 2020 primary
+challenger who’s been vociferously opposed to Trump from the get-go, there
+could also be a candidate who runs against Trump more in sorrow than in
+anger—say a former Trump loyalist who wants to do right by the president’s
+base or an earnest conservative who gave Trump the benefit of the doubt for as
+long as she could before reaching the breaking point.
+
+Why is now the right time? It wasn’t so long ago that Donald Trump would
+routinely crow about how well he was doing in the polls. As recently as
+February, the president declared that “[any negative polls are fake
+news](http://money.cnn.com/2017/02/06/media/donald-trump-poll-
+denialism/index.html).” But the crowing has mostly stopped, presumably because
+even Trump realizes that he is profoundly unpopular. As Jonathan Swan of
+_Axios_[reports](https://www.axios.com/axios-sneak-peek-2439756361.html),
+“Sources both inside and close to the White House are worrying about a loss of
+energy among the president’s base.” The most recent Gallup survey finds
+Trump’s approval rating at [36
+percent](http://www.gallup.com/poll/201617/gallup-daily-trump-job-
+approval.aspx), and there are signs that even the president’s most devoted
+supporters [are losing faith](https://fivethirtyeight.com/features/donald-
+trumps-base-is-shrinking/). Meanwhile, Trump’s opponents are growing more
+energized by the day, and Democrats are salivating at the prospect of making
+major gains in next year’s midterms. If Democrats do manage to win the House
+(a big if, admittedly), there could be a mad scramble to challenge Trump. If
+you’re a Republican who has always wanted to run for president, you’d be
+foolish not to give yourself a head start.
+
+Granted, it’s possible Trump will make a major comeback over the coming
+months. I’ve certainly underestimated him in the past. But how will Trump grow
+his base, exactly? As of now, the plan for getting the Trump presidency on
+track seems to be passing something that can be characterized as an Obamacare
+repeal and a massive temporary tax cut, both of which can be done through the
+budget reconciliation process. The trouble is that the GOP’s Obamacare
+overhaul is even more unpopular than Trump himself (indeed, it seems to be
+[dragging down](https://fivethirtyeight.com/features/the-gop-health-care-bill-
+is-unpopular-even-in-republican-districts/) his approval ratings), and a
+massive temporary tax cut aimed at high-income households and corporations
+would powerfully reinforce the notion that Donald Trump is a fake populist.
+That is, even if we assume Trump achieves his chief domestic policy
+objectives, there’s a good chance he’d lose more support than he’d gain.
+
+The underlying reason for Trump’s swoon is that he’s rendered the Republican
+Party dependent on a group of voters who hate Republicans. Shortly after the
+election, Stanley Greenberg and Nancy Zdunkewicz of the Democratic polling
+firm Democracy Corps released [a
+survey](http://www.democracycorps.com/Republican-Party-Project/) of the GOP’s
+potential coalition, which analyzed three groups: GOP base voters who refused
+to back Trump (14 percent of the overall coalition), GOP base voters who did
+vote for him (72 percent), and non-GOP voters who voted for Trump (14
+percent). The GOP defectors were mostly college-educated suburbanites who were
+turned off by Trump’s authoritarian rhetoric, his opposition to free trade,
+and a general sense that he was in politics to line his own pockets. The non-
+GOP Trump voters, meanwhile, were by and large less affluent, less educated,
+and deeply suspicious of conventional Republicans and their priorities. To
+them, Trump’s departures from GOP orthodoxy on taxes and trade were a plus.
+Nevertheless, non-GOP Trump voters were suspicious of Trump’s motivations, and
+they were prepared to abandon him if he, say, reversed his pledge to protect
+entitlements and passed tax cuts that disproportionately benefit corporations
+and the rich. Assuming Greenberg and Zdunkewicz were right, Trump’s domestic
+policy agenda is almost perfectly designed to alienate non-GOP Trump voters.
+Yet his erratic behavior ensures he’s not about to win back the better-off GOP
+defectors either.
+
+There’s obviously no way to know what the world will look like in 2020. But we
+do know that Trump’s base is already shrinking and that every setback he’s
+faced so far is of his own design. We also know that he’s proved unable to
+counter Democratic opponents when they’re not named Hillary Clinton and that
+his domestic policy priorities are deeply unpopular. Is it really so
+unthinkable, then, that a well-funded primary challenger could at least make
+some noise, or maybe even win?
+
+Honestly, I’m not sure it’d matter if this hypothetical challenger were to run
+against Trump as a centrist, a nationalist, or a Reaganite true believer.
+Ideology [matters less to
+voters](http://press.princeton.edu/titles/10671.html) than we ideologues like
+to think. What does seem to matter is that when people aren’t happy with the
+state of the world, they want to punish the people in charge and replace them
+with fresh faces. That’s where populism plays a role. In a 2016 essay in the
+_Brown Journal of World Affairs_ , Harvard sociologist Bart Bonikowski offered
+a [simple
+definition](https://scholar.harvard.edu/files/bonikowski/files/bonikowski_-
+_three_lessons_of_contemporary_populism_in_the_united_states_and_europe.pdf)
+of populism: It is a style of politics that juxtaposes a corrupt elite against
+a morally virtuous citizenry. Populist rhetoric can be married to almost any
+political program. Bernie Sanders combined it with a call for democratic
+socialism, as did Jeremy Corbyn in Britain’s recent general election. For
+years, Republicans from Goldwater to Gingrich combined populist rhetoric with
+calls for shrinking the power of centralized government. In France, Emmanuel
+Macron combined populist rhetoric with a program of technocrat-endorsed
+centrist neoliberalism. In short, populism is less an ideology than the vessel
+for an ideology.
+
+As Bonikowski explains, less experienced candidates use populist rhetoric far
+more often than more experienced ones do, for the simple reason that calling
+yourself an outsider isn’t all that plausible once you’re actually holding
+office. So while Trump was able to win as a populist once, it’s going to be
+awfully difficult for him to do it a second time. Beating him as a populist,
+on the other hand, might be well within reach. That’s clearly what Democrats
+will try to do in 2020. A Republican would be wise to give it a try, too.
+
+The question then is _which_ Republican should give it a try. A few weeks ago,
+there was a lot of talk about Ohio Gov. John Kasich [running against
+Trump](http://www.vanityfair.com/news/2017/04/john-kasich-donald-trump-
+gop-2020) in 2020, but I wouldn’t put too much stock in it, not least because
+Kasich is probably too old and too familiar to make an insurgent candidacy
+work. One intriguing possibility is Ben Sasse, the 45-year-old Nebraska
+senator and former college president who recently published [_The Vanishing
+American Adult_](http://www.amazon.com/dp/1250114403/?tag=slatmaga-20), a
+breezy paean to old-fashioned American values. With his self-effacing style
+and his Gen X appreciation of irony, Sasse would make for a stark contrast
+with Trump. Though he’s solidly conservative, he tends to emphasize centrist,
+post-partisan, good-government themes. He’s the kind of Republican serious
+left wingers loathe but suburban moderates love. My guess is that Sasse is not
+nearly ambitious enough to take something like this on. But Sasse would do
+well to think back to 1976, when a former California governor decided to
+challenge a sitting Republican president. Though Ronald Reagan’s campaign to
+wrest the GOP nomination from Gerald Ford didn’t succeed, it’s rightly
+remembered as the start of something big.

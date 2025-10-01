@@ -1,0 +1,334 @@
+# ‘Do you feel more Arab or more American?’: Two women’s story of being detained and interrogated at Ben Gurion - Mondoweiss
+
+**Source**: http://mondoweiss.net/2012/06/do-you-feel-more-arab-or-more-american-two-arab-american-womens-story-of-being-detained-and-interrogated-at-ben-gurion.html
+**Type**: article
+**Created**: 2025-08-13T20:16:53.401101
+
+---
+
+title: ‘Do you feel more Arab or more American?’: Two women’s story of being detained and interrogated at Ben Gurion - Mondoweiss
+source: http://mondoweiss.net/2012/06/do-you-feel-more-arab-or-more-american-two-arab-american-womens-story-of-being-detained-and-interrogated-at-ben-gurion.html
+date: 2025-08-13T20:16:49.081170
+tags: []
+---
+##### ![ben gurion airport](/images/2012/06/ben-gurion-airport.jpg)  
+Ben Gurion Airport
+
+I am an American citizen. I went to American schools my entire life, graduated
+from an American university and work as an architect in New York City. Why was
+this happening to me? It all started with a simple question. “What is your
+father’s name?”
+
+“Bassam.”
+
+“Okay, please wait a few moments in the waiting room over there.”
+
+Little did I know that my father’s Arab name would make me guilty until proven
+innocent. A “few moments” would turn into a 14-hour nightmare at Ben Gurion
+Airport in Tel Aviv.
+
+##### ![SN2]()![SN2](/images/2012/06/SN2.jpg)  
+Sasha Al-Sarabi and Najwa Doughman
+
+I was hoping they wouldn’t separate me from my friend Sasha, whom I was
+traveling with. We had been warned about possible interrogations and security
+checks but were reassured that since we were both young, female professionals
+from New York City with American passports, it wouldn’t be a problem to enter
+Israel. It was going be my third visit and Sasha’s first.
+
+Sasha was called in to be interrogated by a bleach-blonde pregnant woman and
+was led into a small office to the left of our waiting room. Twenty minutes
+passed until Sasha came out, walking quickly back to her seat.
+
+She attempted to reassure me. “It’s going to be fine. They just want to see if
+we’re lying about anything.” But she was obviously flustered.
+
+Now it was my turn.
+
+“Najwa, come.”
+
+– – –
+
+“Do you feel more Arab or more American?” she asked. I had answered the ten
+previous questions very calmly, but with this question I looked back at the
+security official confused and irritated. She couldn’t have been much older
+than me—her business attire and stern facial expressions did not mask her
+youth.
+
+“I don’t know, I feel both. Why? Does this affect my ability to get in?”
+
+She ignored my question. “Surely you must feel a little more Arab, you’ve
+lived in many Middle Eastern countries.”
+
+I did not see the correlation. I have never felt the need to choose. “Yes I
+have but I also lived in the US for the past seven years, and was born there,
+so I feel both.” My response did nothing to convince her.
+
+“Hm. Will you go to Al-Aqsa?”
+
+“Yeah, maybe.”
+
+“Will you go to Jewish sites as well?”
+
+“Yes, why not? We want to see everything.”
+
+“But you have been here two times already. Why are you coming now for the
+third time? You can go to Venezuela, to Mexico, to Canada. It is much closer
+to New York, and much less expensive!”
+
+I realized the conversation was going nowhere. “Right, but I wanted to come
+back here again. Don’t you have tourists who come back more than once?”
+
+“I’m asking the questions here,” she replied disgruntled.
+
+“Okay, we are going to do something very interesting now!” Her face
+transformed from a harsh stare to a slight smirk. She proceeded to type
+“www.gmail.com” on her computer and then turned the keyboard toward me. “Log
+in,” she demanded.
+
+“What? Really?” I was shocked.
+
+“Log in.”
+
+I typed in my username and password in complete disbelief. She began her
+invasive search: “Israel,” “Palestine,” “West Bank,” “International Solidarity
+Movement.”
+
+Looking back, I realize I shouldn’t have logged in. I should have known that
+nothing I did at this point would change my circumstances, and that this was
+an invasion of my privacy. Yet all the questions, the feeling that I had to
+defend myself for simply wanting to enter the country, and the unwavering eye
+contact of the security officers left me feeling like I had no choice. I was
+worried I would let Sasha down if I refused and that it would be the reason
+for both of our denials into the country.
+
+She sifted through my inbox, reading every single email with those keywords.
+She read sentences out loud to her colleague, sarcastically reenacting and
+mocking old Google Chat conversations between Sasha and me about our future
+trip to Jerusalem. I squirmed in my seat.
+
+The Israeli authorities have a notorious reputation for denying entry to
+Palestinians of all citizenships, and I had received all sorts of advice,
+solicited and unsolicited, on how to cope with the problem. The security
+officer opened an email from a friend living in Jerusalem who had advised me
+to remove myself from internet searches. “They are heavy on googling names at
+the airport recently,” he had written. “See if you can remove yourselves, not
+crucial but helpful.”
+
+The security guard found this especially hilarious. With a laugh, she called
+her blonde colleague over and reread the sentence mockingly. “You can tell
+your friend, not only do we google you, we read your emails, too!”
+
+I was beyond uncomfortable, uncertain of how else they would try to humiliate
+me. “Okay, I think you’ve read enough,” I said. “Is what you’re doing even
+legal? Can you please log out now?”
+
+The guard became even more defensive. “You could ask me to log out, but you
+know what that would mean, right? Tell me to log out,” she dared me.
+
+I was speechless. I felt completely helpless, furious, and exhausted; I was
+now entering my fourth hour of interrogation.
+
+After reading several more emails, they wrote down every contact name, email,
+and phone number they could find. Finally, the interrogator said, “Okay you
+can go.” But before I could even feel the slightest sense of relief she added,
+“Good luck getting into Israel.”
+
+Three more hours passed. A large bald man eventually approached us holding our
+passports. “Come with me,” he ordered. We walked straight across the hall to
+another waiting room, in front of two small offices.
+
+“As of right now, you have been denied from entering Israel.” Despite the
+looming feeling I had after walking out of the interrogation room that my
+hours in this country were numbered, the words still stung with
+disappointment, frustration, and anger.
+
+Sasha had had it. “Okay, I want a lawyer,” she said. “And I want to call the
+American embassy, now.”
+
+The guard was not fazed by her requests. “Yes, yes, call whoever you want,
+after you do procedure.” He turned his back and walked away.
+
+We peered into the office. A stout woman in uniform, about fifty years old,
+was taking pictures and fingerprints of a man sitting in front of her. Sasha
+was called in next. The woman told Sasha to sit in front of the camera.
+
+“Wait, before you take my picture, can you tell me why we have to do this?”
+Sasha asked.
+
+“This is procedure. This is how we do things in Israel,” the woman responded,
+looked back to her camera.
+
+“You’re treating me like a criminal! I don’t want you to take my picture,”
+Sasha said. “We’ve already been denied. Why are you doing this?”
+
+“You will take a picture and then wait in a facility until your flight.”
+
+Sasha was persistent. “What facility? Our flight is in nine days! Why were we
+denied? We need to call the embassy now!”
+
+“You will call after you take your picture. I don’t know why you were denied.
+My job is just to do procedure. When I go to America, the same happens to me.
+I get denied from America,” claimed the woman.
+
+“No,” replied Sasha, “No, you don’t.”
+
+After our pictures were taken, we officially felt like criminals. It didn’t
+help that two new female guards were now assigned to watch us at all times.
+The most humiliating thing was each guard couldn’t have been more than twenty
+years old. Everywhere we went, they were right behind us. Even when Sasha went
+to the restroom, the security guard went with her. After about 30 minutes, six
+more security guards surrounded us to walk us to another room across the
+airport. It was as if all the shepherds had come to herd two small sheep.
+
+We had not committed any crime. Our only sin was being born to Arab parents.
+It was then that we realized what a sheltered life we had lived. We had always
+read about racial profiling and heard accounts from family members and friends
+in college. We always sympathized and were infuriated by it, but never had we
+felt it first hand.
+
+Sasha and I paced back and forth with anxiety while we were made to wait in
+the hallway. At one point I turned my head and noticed the female guards
+pointing at our attire and admiring Sasha’s pants. It hit me then, for the
+first time, that these guards were actually young girls, interested in fashion
+and trends, like we were. Under different circumstances, could we have
+actually been friends?
+
+They led us into the next room, which was painted white and had an
+intimidating, large “Explosive Detection” machine. The guards proceeded to
+open our luggage. They picked through every single piece of clothing and every
+tube of makeup. They inspected my laptop and Sasha’s iPad, wiped each item
+with a cloth, and ran them through the machine. They x-rayed and scanned
+everything—twice.
+
+After they had gone through every one of our belongings, they proceeded to the
+body search. I was taken to the back of the room with one male and two female
+security officers. The room was smaller and closed off with a curtain. The
+older woman seemed to be training the younger one. She would murmur directions
+in Hebrew as the younger officer patted me in different places. The man stood
+right outside the half-open curtain. They scanned my body with a metal
+detector, and it beeped at the button on my jeans. “Take off your pants,” said
+the older officer immediately.
+
+I lost my last nerve. “NO,” I responded. “We’ve already been denied. You
+searched everything. Why do I need to take my pants off after you’ve denied
+me? I will not take my pants off.”
+
+“This is how we do things in Israel,” the woman snapped back. “You have to
+take them off.”
+
+“And if I don’t?”
+
+“Then someone will make you.” They all walked out of the room.
+
+I began crying and shaking as my mind went through a million different
+nightmares. Were they going to get more people to hold me down? What the hell
+is going to happen to us? I wanted to see Sasha and not be alone for a minute
+longer, but was too afraid of the consequences of leaving the room.
+
+The guards returned a few minutes later with shorts taken from my luggage.
+“Fine,” they said. “Wear these.”
+
+I struggled into them with tears streaming down my face. I stood ashamed and
+mortified as she patted me down all over again. I had never felt so
+humiliated, so degraded, and so violated.
+
+Once my “security search” was over, I changed back into my jeans and returned
+to the white room. It was Sasha’s turn to be searched.
+
+When this was over, two men from immigration services approached us holding
+our passports.
+
+“Now you will be taken to a facility.”
+
+“A facility? You mean a jail? Are we arrested? How long are we going to be
+there?”
+
+“This is not jail. It’s a facility. This is where everybody goes that is
+denied entry from the State of Israel.”
+
+They took all of our luggage and our phones and drove us about five minutes
+away from the airport to a gated, white building. All of the windows had
+double bars on them, and none of the doors had doorknobs. We walked through
+the dark halls and passed by open rooms filled with bunk beds.
+
+“You can call your parents from my phone, not yours. Leave your phones here.
+But if it is an international call, use yours. Your flight back is at 8 am
+tomorrow morning.”
+
+We called our parents, and he took us to our room on the second floor. Inside
+were ten bunk beds, four sleeping women, a sink, a bathroom, and a shower.
+
+We both stared at the beds for a minute before lying down. The mattresses
+looked like they were made of duct tape, the room smelled of urine, and there
+was a grey, furry sheet on each bed. We folded my sweater in half to use as a
+pillow, and lay in the three-foot-wide bed together, looking up at the bottom
+of the bunk above us. “FREE PALESTINE, I Shall Return—Maryam 2006” and “21
+Gaza Peace Activists detained” were scribbled on the wood. Reading those
+sentences over and over gave me an odd sense of peace, and we drifted into a
+restless sleep.
+
+At about 5 am, the guard came to wake the Spanish woman in the bed beside
+ours. “Wash your face,” he told her. She sprung up, splashed water on her
+face, and waited for him to come back and unlock the door. We sat up anxiously
+in the bed waiting for our turn to leave.
+
+At 6:15, a guard came and told us that the US embassy was phoning for us. My
+parents had called them from Virginia after our two-minute conversation to
+inform them of what was happening. Sasha answered the phone. “Oh, thank God,
+we’ve been trying to get in touch with you! This is Sasha. We’ve been through
+a lot the past few hours.”
+
+“As I told your friend’s parents yesterday, there is really nothing we can do.
+I’m just glad that you’re going to be able to get on the next flight.” the
+woman said dispassionately.
+
+“This is ridiculous. They went through my friend’s email. Is that legal?”
+
+“Well, they can do whatever they want. There is nothing we can do. They are
+their own country, and they make their own rules.”
+
+“If only you could see the conditions we are in. I just wish you could come
+and smell the room.”
+
+“Oh, I’m really sorry, but at least you’ll be getting on the next flight,” her
+voice was annoyingly monotonous.
+
+“I can’t believe we are funding this system. I understand the special
+relationship between America and Israel, but there is clearly something wrong
+with the way we are being treated”.
+
+“Well, there’s a lot of things wrong with a lot of systems.” She clearly
+wasn’t going to help us.
+
+“You are right. We should all just sit here and be complacent like you. Well,
+thanks for your call.” And Sasha hung up.
+
+We had been desperately waiting for this call, and the amount of frustration
+we felt after receiving it was overwhelming. We had demanded over and over to
+be able to talk to the American embassy, hoping that being American would give
+us some sort of protection or a little sense of security. There is no
+difference between every citizen in America, we thought naively. Surely the US
+Embassy would rescue us and demand that we be treated like human beings.
+Surely they would reprimand the Israelis for their appalling practices and
+demand that they act like the democracy they claim to be.
+
+If we were two American citizens in a Syrian or Iranian “facility,” would the
+American embassy’s reaction be the same? Would Obama himself not have made a
+statement by now, demanding our release? If we were Americans of Polish or
+Chinese descent, would we have been treated this way? American citizens are
+usually given a three-month visa upon arrival. Why were we an exception? There
+are a lot of things wrong with a lot of systems, but when we are funding one
+with billions of our tax dollars, this means that we are supporting it.
+
+An hour later, which seemed like an eternity, the guard showed up. It was now
+7:30 am, which was only thirty minutes before our flight. This turned out to
+be no problem, as we were driven straight to the steps of the airplane. Our
+passports were given to the captain of the Air France flight. When we arrived
+in France, three policemen waited for us at the door of the plane, took our
+passports from the captain, and led us down the stairs of the airplane
+straight into their police car.
+
+“Does this happen often?” Sasha asked.
+
+“Every day,” replied the officer.

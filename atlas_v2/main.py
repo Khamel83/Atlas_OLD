@@ -29,7 +29,7 @@ from apscheduler.triggers.interval import IntervalTrigger
 from typing import Optional, Dict, Any
 import uvicorn
 
-from modules.processor import ContentProcessor
+from modules.real_content_processor import RealContentProcessor as ContentProcessor
 from modules.database import DatabaseManager
 from modules.config_manager import ConfigManager
 from modules.id_generator import generate_content_id
@@ -203,11 +203,12 @@ async def process_single_item(content_id: str):
         # Update status to processing
         await db_manager.update_queue_status(content_id, 'processing')
 
-        # Run through processing pipeline
-        result = await processor.process_content(content_id)
+        # Run through REAL processing pipeline with proper context management
+        async with processor as p:
+            result = await p.process_content(content_id)
 
         if result['status'] == 'success':
-            logger.info(f"✅ Successfully processed {content_id}")
+            logger.info(f"✅ Successfully processed {content_id}: {result['message']}")
             await db_manager.update_queue_status(content_id, 'completed')
         elif result['status'] == 'retry':
             logger.warning(f"🔄 Retrying {content_id}: {result['message']}")

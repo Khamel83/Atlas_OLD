@@ -1,0 +1,37 @@
+# Printable format for High School Economics Topics | Library of Economics and Liberty
+
+**Source**: http://www.econlib.org/cgi-bin/printarticle.pl
+**Type**: article
+**Created**: 2025-08-13T18:10:24.134495
+
+---
+
+title: Printable format for High School Economics Topics | Library of Economics and Liberty
+source: http://www.econlib.org/cgi-bin/printarticle.pl
+date: 2025-08-13T18:10:16.226750
+tags: []
+---
+## Introduction
+
+The [Council for Economic
+Education](http://web.archive.org/web/20170826045459/http://www.councilforeconed.org/)
+(CfEE) has compiled a list of the [51 key economics
+concepts](http://web.archive.org/web/20170826045459/http://ve.councilforeconed.org/features/concepts.php)
+common to all U.S. State requirements for high school classes in economics.
+The readings and podcasts arranged here supplement these recommended CfEE
+topics. These free resources are appropriate for teachers of high school and
+AP economics, social studies, and history classes. They are also appropriate
+for interested students, home schoolers, and newcomers to the topic of
+economics.
+
+Materials have been selected for authoritativeness, quality of writing,
+liveliness, and ease of understanding. Most of the suggested readings and
+podcasts were prepared by internationally respected professors of economics.
+Many are selected from the [_Concise Encyclopedia of Economics
+(CEE)_](/web/20170826045459/http://econlib.org/CEE.html), a widely used
+economics reference first published in 1993. Links to podcasts, original
+source materials, and other web pages are also included.
+
+For an alternative table showing how each of the CfEE's 20 voluntary National
+Standards fits into the key concepts, see [The 51 Key Economics
+Concepts](KeyConcepts.html).

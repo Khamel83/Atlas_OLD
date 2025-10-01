@@ -1,0 +1,409 @@
+# The 53 Best Franchise Players In The NBA | FiveThirtyEight
+
+**Source**: inputs/New Docs/html/fivethirtyeight.com_features_the-53-best-franchise-players-in-the-nba.html
+**Type**: article
+**Created**: 2025-08-25T02:53:50.001141
+
+---
+
+![](https://fivethirtyeight.com/wp-content/uploads/2015/10/gettyimages-468843682-1.jpg?w=575) 
+![](https://fivethirtyeight.com/wp-content/uploads/2015/10/carmelo.png?w=150&h=150&crop=1)
+
+
+
+Anthony “The Brow” Davis of the New Orleans Pelicans during a game against the Portland Trail Blazers on April 4 at the Moda Center Arena in Portland, Oregon.
+
+Sam Forencich / NBAE / Getty Images
+
+
+
+Anthony Davis of the New Orleans Pelicans during a game against the Portland Trail Blazers on April 4 at the Moda Center Arena in Portland, Oregon.
+
+Sam Forencich / NBAE / Getty Images
+
+NBA player rankings, from ESPN’s [#NBARank](http://www.espn.com/nba/story/_/id/13723434/team-team) to [Bill Simmons’s annual trade value column](http://grantland.com/features/2015-nba-trade-value-part-1/), are like the [honey butter chips](https://en.wikipedia.org/wiki/Honey_Butter_Craze) of sportswriting: just way too hard to resist. So — with the regular season starting today — here’s our special recipe, fueled by [CARMELO](https://projects.fivethirtyeight.com/carmelo/), our new NBA player projection system.
+
+What makes our version a little different is that we’re focused on the long term and not just this season. Specifically, we’ve projected the next six seasons of wins above replacement (WAR) for all 572 players in our database. Then we added the cumulative WAR totals over six seasons, with a slight tweak to reflect upside potential.1 You can check out all the rankings in the sortable table (way, way down) below, but we also wanted to count down the top 50 players — well, make that the top 53 players2 — first.
+
+Two things we can’t stress enough: First, these ratings are purely statistical; there’s no manual tweaking involved. And second, focusing on the long term makes a *lot* of difference. [Tim Duncan](https://projects.fivethirtyeight.com/carmelo/tim-duncan/) doesn’t appear in the top 53, but [Jusuf Nurkic](https://projects.fivethirtyeight.com/carmelo/jusuf-nurkic/) does.
+
+A few more notes: Player ages are as of Feb. 1, 2016. And because we’re trying to forecast what the NBA will look like a few years out, these WAR projections do *not* account for injuries or minutes limitations — with the exceptions of [Michael Kidd-Gilchrist](https://projects.fivethirtyeight.com/carmelo/michael-kidd-gilchrist/) and [Joel Embiid](https://projects.fivethirtyeight.com/carmelo/joel-embiid/), who are out for the season and whose WAR figures we’ve zeroed for this year. These upside WAR totals will not necessarily match the raw six-year WAR totals in the player cards.
+
+---
+
+[![joel-embiid](https://fivethirtyeight.com/wp-content/uploads/2015/10/joel-embiid.png)](https://projects.fivethirtyeight.com/carmelo/joel-embiid/)
+
+
+Embiid sneaks onto our list at No. 53. (Where would he rank if he hadn’t been hurt for the past two seasons? A lot higher — probably about where Karl-Anthony Towns does at No. 26.) CARMELO still harbors [dreams](https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F) about how Embiid’s shot-blocking could make him the next Joakim Noah**.** But given Embiid’s injury history, the Greg Oden comp looks increasingly scary.
+
+---
+
+[![cody-zeller](https://fivethirtyeight.com/wp-content/uploads/2015/10/cody-zeller.png)](https://projects.fivethirtyeight.com/carmelo/cody-zeller/)
+
+
+CARMELO’s best guess is that Zeller will produce like a solid starter over the next handful of seasons. But remember, that’s just the *mean* forecast. The variance is wide because Zeller’s closest historical comparables are all over the place. Maybe he’ll develop into a star, like No. 1 comp Jack Sikma,3 Al Horford (No. 3) or Rasheed Wallace (No. 9). Then again, maybe not — Zeller’s comp list is also littered with names like Kwame Brown, Tyrus Thomas and Stromile Swift.
+
+---
+
+[![michael-kidd-gilchrist](https://fivethirtyeight.com/wp-content/uploads/2015/10/michael-kidd-gilchrist.png)](https://projects.fivethirtyeight.com/carmelo/michael-kidd-gilchrist/)
+
+
+Kidd-Gilchrist, like Embiid, will miss the 2015-16 season. The injury could preclude the Hornets from [what might otherwise have been a breakout season](https://fivethirtyeight.com/features/nba-charlotte-hornets-preview-2015-16/). It will also preclude Kidd-Gilchrist from gaining a year of experience he needs to round out his offensive game. So far, he has neither been adept at creating good looks for himself nor shooting the ball well when he has. Nonetheless, Kidd-Gilchrist has precocious defensive abilities and will be just 23 when he returns to competition next season. Health willing, he could develop into a [Matrix-like](https://projects.fivethirtyeight.com/carmelo/shawn-marion/) player.
+
+---
+
+[![victor-oladipo](https://fivethirtyeight.com/wp-content/uploads/2015/10/victor-oladipo.png)](https://projects.fivethirtyeight.com/carmelo/victor-oladipo/)
+
+
+Although CARMELO loves [the other young Magic point guard](https://projects.fivethirtyeight.com/carmelo/elfrid-payton/) (Elfrid Payton) even more, Oladipo’s projection isn’t too shabby. But of course, there’s still some uncertainty about what Oladipo can become: “His first two seasons have been so hard to get a bead on that you can peg him for just about any future you want,” [we wrote](https://fivethirtyeight.com/features/nba-orlando-magic-preview/). Whether Oladipo turns into Ray Allen or Ben Gordon will depend largely on whether he can develop a more consistent shooting stroke.
+
+---
+
+[![paul-millsap](https://fivethirtyeight.com/wp-content/uploads/2015/10/paul-millsap.png)](https://projects.fivethirtyeight.com/carmelo/paul-millsap/)
+
+
+Last year Millsap had a banner season, making his second All-Star team. It came because of all-around excellence: Millsap is a solid defender, like top comp Gerald Wallace, and well-rounded on offense (even if the Julius Erving parallel is a bit much). But as we’ve [pointed out](https://fivethirtyeight.com/features/nba-atlanta-hawks-preview/), Millsap is projected to regress a lot this season; more often than not, a career-best season at age 29 proves to be a career year.
+
+---
+
+[![jahlil-okafor](https://fivethirtyeight.com/wp-content/uploads/2015/10/jahlil-okafor.png)](https://projects.fivethirtyeight.com/carmelo/jahlil-okafor/)
+
+
+Okafor is a great prospect, though possibly also a guy who will look better in the box score than on the court. His lack of elite athleticism and sketchy defensive potential could make him something like Kevin Love without the outside shooting (hence the comp to bust Derrick Williams). But he’s also a great rebounder with nifty post moves, a classic combination for any aspiring big man. And if he does develop like top comp Derrick Favors on defense, the sky could be the limit.
+
+---
+
+[![nicolas-batum](https://fivethirtyeight.com/wp-content/uploads/2015/10/nicolas-batum.png)](https://projects.fivethirtyeight.com/carmelo/nicolas-batum/)
+
+
+Batum’s shooting regressed last season in Portland, but the newly signed Hornet still provides stellar perimeter defense. Hence the two types of comps: shooters such as Robert Horry and Dorell Wright, and defenders such as Tayshaun Prince. Players who combine both of those elements — i.e., the [3-and-D](http://grantland.com/features/players-shane-battier-harder-find-conventional-wisdom-suggests/) player — are all the rage in today’s NBA, but unlike many of his peers in that category, Batum also adds a playmaking dimension to his team’s offense.
+
+---
+
+[![andrew-wiggins](https://fivethirtyeight.com/wp-content/uploads/2015/10/andrew-wiggins.png)](https://projects.fivethirtyeight.com/carmelo/andrew-wiggins/)
+
+
+Wiggins’s top CARMELO comp is … well, Carmelo (Anthony). As [we wrote](https://fivethirtyeight.com/features/nba-minnesota-timberwolves-preview/), the NBA’s reigning Rookie of the Year could be “very good, but between mediocre defense and average efficiency, not quite as good as his box-score stats suggest.” Wiggins’s upside and versatility are apparent in his comp list, though — witness the presence of Derrick Rose (No. 5) and Chris Bosh (No. 8), two stylistically different players who were bona fide superstars at their peaks.
+
+---
+
+[![paul-george](https://fivethirtyeight.com/wp-content/uploads/2015/10/paul-george.png)](https://projects.fivethirtyeight.com/carmelo/paul-george/)
+
+
+George’s future was in jeopardy after he suffered a catastrophic leg injury in the summer of 2014. So his playing at all last season (he came off the bench in six games late in the year) was a moral victory. There’s some further good news: Seriously injured NBA players like George have a [better track record of recovery](https://fivethirtyeight.com/features/what-happens-to-injured-nba-stars-like-paul-george/) than their counterparts in other sports. Nonetheless, the Clark Kellogg comp is scary; a fellow Pacer, he started his career with great promise, only to be rendered a shell of his former self after a series of knee injuries.
+
+---
+
+[![nikola-mirotic](https://fivethirtyeight.com/wp-content/uploads/2015/10/nikola-mirotic.png)](https://projects.fivethirtyeight.com/carmelo/nikola-mirotic/)
+
+
+Mirotic finished second in Rookie of the Year voting, behind Wiggins, and is now a huge building block for the Bulls. The Detlef Schrempf comp is just too perfect: a tall, international forward with an excellent 3-point shot. Now all that’s left is for Mirotic to [guest star](https://www.youtube.com/watch?v=U1LRPff8UQ8) on the 2040 equivalent of “[Parks and Recreation](https://en.wikipedia.org/wiki/Parks_and_Recreation).”
+
+---
+
+[![jared-sullinger](https://fivethirtyeight.com/wp-content/uploads/2015/10/jared-sullinger.png)](https://projects.fivethirtyeight.com/carmelo/jared-sullinger/)
+
+
+With a bevy of crafty post moves, the undersized Sullinger has made an old-school playing style work for him. Although he sometimes struggles to score around the basket, the development of his outside shot keeps the Celtics happy and is one of several reasons CARMELO [expects the Celts to have a breakout season](https://fivethirtyeight.com/features/nba-boston-celtics-preview-carmelo/). The throwback comp to [Lonnie Shelton](https://www.youtube.com/watch?v=JgaAnOBHrL8) is dead on, though Sullinger [has to do some work](http://www.basketball-reference.com/play-index/pcm_finder.cgi?request=1&sum=1&p1=sheltlo01&y1=1978&p2=sullija01&y2=2015&p3=&p4=&p5=&p6=#advanced::none) to move past where Shelton was at the same age.
+
+---
+
+[![kentavious-caldwell-pope](https://fivethirtyeight.com/wp-content/uploads/2015/10/kentavious-caldwell-pope.png)](https://projects.fivethirtyeight.com/carmelo/kentavious-caldwell-pope/)
+
+
+Caldwell-Pope is young and athletic and has a silky-smooth jumper. The problem is that these skills offset weaknesses elsewhere: His shot selection, playmaking and rebounding all need work. As we wrote in our Pistons [preview](https://fivethirtyeight.com/features/2015-16-nba-detroit-pistons-preview-carmelo/): A “second coming of Ray Allen (Caldwell-Pope’s sixth-closest comp) would be a bonanza, but don’t bank on it.” Still, players as young as Caldwell-Pope have lots of opportunities to defy the odds.
+
+---
+
+[![chandler-parsons](https://fivethirtyeight.com/wp-content/uploads/2015/10/chandler-parsons.png)](https://projects.fivethirtyeight.com/carmelo/chandler-parsons/)
+
+
+Parsons is a lanky wing defender with an efficient outside shot. He’s a blend of Tayshaun Prince on defense and Rashard Lewis on offense — and his skill set could become even more diverse if, as [Tim MacMahon writes](https://fivethirtyeight.com/features/nba-dallas-mavericks-preview/), the Mavs have him play more point-forward. The question is whether, at age 27 this season, Parsons can develop a signature skill that transforms him from a well-rounded, above-average player into a star.
+
+---
+
+[![mike-conley](https://fivethirtyeight.com/wp-content/uploads/2015/10/mike-conley.png)](https://projects.fivethirtyeight.com/carmelo/mike-conley/)
+
+
+The Isiah Thomas comp provides a vision of Conley at his best: a gritty, undersized point guard with a great passing instinct and solid jumper. But as [Carl Bialik notes](https://fivethirtyeight.com/features/nba-memphis-grizzlies-preview/), “his defense has dropped off in recent years,” so there is reason to worry he’ll be a worse-shooting Jason Terry in his later career.
+
+---
+
+[![marc-gasol](https://fivethirtyeight.com/wp-content/uploads/2015/10/marc-gasol.png)](https://projects.fivethirtyeight.com/carmelo/marc-gasol/)
+
+
+The big Spaniard (and Conley’s fellow Grizzly) was once again one of the league’s best centers last year, and he’s definitely inherited comp Vlade Divac’s gene for great post passing. But at 31 years old, Gasol has only so many years left. Big men tend not to age as well as wings and point guards, and the Grizz should worry about a decline to Brad Miller levels of production.
+
+---
+
+[![nerlens-noel](https://fivethirtyeight.com/wp-content/uploads/2015/10/nerlens-noel.png)](https://projects.fivethirtyeight.com/carmelo/nerlens-noel/)
+
+
+Noel’s defense was a bright spot among the [garbage heap](https://fivethirtyeight.com/features/nba-philadelphia-76ers-preview/) that was the Sixers. As Ian Levy [wrote](https://fivethirtyeight.com/features/nba-philadelphia-76ers-preview/), Noel ranked “among the top 5 percent of all players in steal rate, block rate and overall defensive plus-minus.” That’s awfully impressive for a guy who was just 20 years old. But with no discernable offensive skills — his [49 percent true shooting percentage](http://www.basketball-reference.com/players/n/noelne01.html#advanced::none) was abominable for a guy who spends so much time around the rim — he gets stuck with a Stromile Swift comp along with more optimistic options like Nene.
+
+---
+
+[![kyle-lowry](https://fivethirtyeight.com/wp-content/uploads/2015/10/kyle-lowry.png)](https://projects.fivethirtyeight.com/carmelo/kyle-lowry/)
+
+
+Lowry is a stout and tough point guard, so his comps to Rod Strickland and John Starks are spot on — and both players aged relatively gracefully. But if he can expect a gentle decline, a breakout season is probably not in the cards. “Many of the guards CARMELO sees as most similar to Lowry had already peaked by his age,” Carl Bialik [noticed](https://fivethirtyeight.com/features/nba-toronto-raptors-preview/). In other words, at 29 years old, Lowry’s probably not getting any better.
+
+---
+
+[![danny-green](https://fivethirtyeight.com/wp-content/uploads/2015/10/danny-green.png)](https://projects.fivethirtyeight.com/carmelo/danny-green/)
+
+
+Green already has overshot low expectations since he was chosen with the 46th pick in 2009. Green is a 3-point threat — comps to Brent Barry and Dan Majerle show that. But he’s also a great wing defender, like Bryon Russell. The only catch is that players who overachieve as much as Green don’t necessarily have much room to get better as they enter their late 20s. CARMELO gives Green only about a 15 percent chance of bettering his career-high 9.2 WAR from last season.
+
+---
+
+[![greg-monroe](https://fivethirtyeight.com/wp-content/uploads/2015/10/greg-monroe.png)](https://projects.fivethirtyeight.com/carmelo/greg-monroe/)
+
+
+Monroe, the newly signed Buck, is “an offensive-minded center who can average a double-double [and] score inside and from the perimeter,” as Ohm Youngmisuk [wrote](https://fivethirtyeight.com/features/nba-milwaukee-bucks-preview/). His skilled footwork in the post makes the Al Jefferson comp perfect. Still, Monroe didn’t improve his productivity between his age-22 season in 2012-13 to his age-24 season last year. He could be a [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) player: someone whose current skill set provides plenty of value to an NBA lineup, but who isn’t a great bet to develop further.
+
+---
+
+[![serge-ibaka](https://fivethirtyeight.com/wp-content/uploads/2015/10/serge-ibaka.png)](https://projects.fivethirtyeight.com/carmelo/serge-ibaka/)
+
+
+As [Royce Young observed](https://fivethirtyeight.com/features/nba-oklahoma-city-thunder-preview-carmelo/): “Ibaka isn’t quite ‘big’ enough to help form a Thunder big three, but he’s without question integral to the team’s success.” But is there any chance Ibaka could develop into more than that: an All-Star talent alongside Kevin Durant and Russell Westbrook? Just maybe. Kevin McHale, Ibaka’s No. 1 comp, is a favorable precedent: He had his best seasons in his late 20s and early 30s as he developed more of an outside shooting stroke. Ibaka, likewise, has improved his outside shooting almost every season and shot .376 from 3-point range last year.
+
+---
+
+[![jrue-holiday](https://fivethirtyeight.com/wp-content/uploads/2015/10/jrue-holiday.png)](https://projects.fivethirtyeight.com/carmelo/jrue-holiday/)
+
+
+Holiday has loads of talent and even made an All-Star team a few years back, but injuries have plagued his development. They’ve also concealed improvement in Holiday’s efficiency, however. When he played last season, Holiday shot the ball better and turned it over less often than during his All-Star campaign in 2012-13. The Pelicans will [limit Holiday’s playing time at the start of the season](http://www.thebirdwrites.com/2015/10/23/9601864/jrue-holiday-season-preview-getting-the-injury-monkey-off-his-back), perhaps recognizing that all that may stand between Holiday and a breakout is being healthy enough to play in 82 games.
+
+---
+
+[![khris-middleton](https://fivethirtyeight.com/wp-content/uploads/2015/10/khris-middleton.png)](https://projects.fivethirtyeight.com/carmelo/khris-middleton/)
+
+
+Middleton is a Swiss army knife. As Ohm Youngmisuk [writes](https://fivethirtyeight.com/features/nba-milwaukee-bucks-preview/), Middleton’s comps indicate that his game is old-school: “Middleton may not be flashy, but he plays hard, and his throwback game is a nice complement to his flashier and younger teammates.” He has one decidedly new-school skill, however: Middleton is a career .403 shooter from 3-point range. There’s a universe where Middleton develops into Peja Stojakovic (his No. 10 comparable) but with much better defense.
+
+---
+
+[![klay-thompson](https://fivethirtyeight.com/wp-content/uploads/2015/10/klay-thompson.png)](https://projects.fivethirtyeight.com/carmelo/klay-thompson/)
+
+
+Thompson’s No. 31 slot on CARMELO’s list might seem disappointing; by contrast, he slots in at No. 16 in [#NBARank](http://www.espn.com/nba/story/_/id/13723434/team-team). His scoring is superlative, of course; Thompson is not only one of the best shooters in the game but [also has the size and quickness to get to the rim](http://grantland.com/the-triangle/the-other-guy-klay-thompson-on-his-sensational-season/). However, his defense and rebounding are below average. You can be an All-Star on the basis of scoring alone, but probably not a superstar.
+
+---
+
+[![ricky-rubio](https://fivethirtyeight.com/wp-content/uploads/2015/10/ricky-rubio.png)](https://projects.fivethirtyeight.com/carmelo/ricky-rubio/)
+
+
+Can Rubio, an [exceptionally gifted passer](https://www.youtube.com/watch?v=Km6Kpp4igs4) and ball thief, ever develop a jump shot like comparable Jason Kidd did in his later years? CARMELO, seeing how Rubio is just 25, is optimistic, projecting him to improve his offensive efficiency to career-high levels. But if not, the shadow of his Brevin Knight comp looms over him.
+
+---
+
+[![derrick-favors](https://fivethirtyeight.com/wp-content/uploads/2015/10/derrick-favors.png)](https://projects.fivethirtyeight.com/carmelo/derrick-favors/)
+
+
+Why are we [optimistic](https://fivethirtyeight.com/features/nba-utah-jazz-preview/) about the Utah Jazz? Because Favors ranks among the top 30 long-term NBA players — and yet, he ranks only third on the list among members of the Jazz frontcourt. Coming off his best year yet, Favors is, as Ian Levy [writes](https://fivethirtyeight.com/features/nba-utah-jazz-preview/), “already one of the better defensive bigs in the game,” with an improving offensive skill set. The Jazz hope he blossoms into the next [Reignman](https://www.youtube.com/watch?v=SVY0UHDT3bI).
+
+---
+
+[![andre-drummond](https://fivethirtyeight.com/wp-content/uploads/2015/10/andre-drummond.png)](https://projects.fivethirtyeight.com/carmelo/andre-drummond/)
+
+
+Drummond is a “100th-percentile rebounder and elite rim protector,” as we wrote in [our Pistons preview](https://fivethirtyeight.com/features/2015-16-nba-detroit-pistons-preview-carmelo/). That’s nice, but it can also be a recipe for being too one-dimensional, and Drummond’s dreadful free-throw shooting limits his value on the offensive end. At age 22, he has reasonable odds of making a leap forward at some point, but he’s an oddball player with comps ranging from Andris Biedrins to Moses Malone.
+
+---
+
+[![jusuf-nurkic](https://fivethirtyeight.com/wp-content/uploads/2015/10/jusuf-nurkic.png)](https://projects.fivethirtyeight.com/carmelo/jusuf-nurkic/)
+
+
+The big Bosnian defies every outmoded stereotype of “soft” European players. Instead he has a [mean streak](https://www.youtube.com/watch?v=1-xdqzQ3-gc) as a bruising defender and talented young rebounder. Aside from Shawn Kemp, the top comps may not wow you, but if Nurkic’s shooting efficiency improves, the Nuggets have landed their franchise center.
+
+---
+
+[![karl-anthony-towns](https://fivethirtyeight.com/wp-content/uploads/2015/10/karl-anthony-towns.png)](https://projects.fivethirtyeight.com/carmelo/karl-anthony-towns/)
+
+
+As we pointed out in [our Timberwolves preview](https://fivethirtyeight.com/features/nba-minnesota-timberwolves-preview/), Karl-Anthony Towns has some discouraging comps. If the No. 1 pick in last year’s draft flames out like Anthony Bennett or Greg Oden, that’s a disaster for Minnesota. But CARMELO projections are based on dozens or hundreds of comparables for each player and not just two — and there are plenty of more optimistic names (such as Anthony Davis and DeMarcus Cousins) farther down Towns’s list.
+
+---
+
+[![dangelo-russell](https://fivethirtyeight.com/wp-content/uploads/2015/10/dangelo-russell.png)](https://projects.fivethirtyeight.com/carmelo/dangelo-russell/)
+
+
+CARMELO would have taken D’Angelo Russell ahead of Towns for the No. 1 pick, however. With good size and strength to round out a nice shot and excellent passing, Russell draws comparisons to other scoring point guards/combo guards such as Derrick Rose and James Harden. Don’t expect much efficiency this year: As Baxter Holmes [wrote](https://fivethirtyeight.com/features/nba-los-angeles-lakers-preview/), the rookie “will probably pile up some head-shaking turnovers” for a Lakers team with miserable discipline. But Russell has superstar upside.
+
+---
+
+[![eric-bledsoe](https://fivethirtyeight.com/wp-content/uploads/2015/10/eric-bledsoe.png)](https://projects.fivethirtyeight.com/carmelo/eric-bledsoe/)
+
+
+Bledsoe is a long way from being “[mini LeBron](http://www.espn.com/blog/truehoop/post/_/id/51549/bledsoe-living-up-to-mini-lebron-alias),” but he has a lot going for him: strength like Kyle Lowry’s alongside the speed of Ty Lawson. What he lacks is a consistent outside shot: His .324 3-point percentage last year ranked just [69th out of 76](http://www.basketball-reference.com/play-index/psl_finder.cgi?request=1&match=single&type=totals&per_minute_base=36&per_poss_base=100&lg_id=NBA&is_playoffs=N&year_min=2015&year_max=2015&franch_id=&season_start=1&season_end=-1&age_min=0&age_max=99&height_min=0&height_max=99&shoot_hand=&birth_country_is=Y&birth_country=&birth_state=&college_id=&draft_year=&is_active=&debut_yr_nba_start=&debut_yr_nba_end=&debut_yr_aba_start=&debut_yr_aba_end=&is_hof=&is_as=&as_comp=gt&as_val=&award=&pos_is_g=Y&pos_is_gf=Y&pos_is_f=Y&pos_is_fg=Y&pos_is_fc=Y&pos_is_c=Y&pos_is_cf=Y&qual=&c1stat=fg3a&c1comp=gt&c1val=250&c2stat=&c2comp=gt&c2val=&c3stat=&c3comp=gt&c3val=&c4stat=&c4comp=gt&c4val=&c5stat=&c5comp=gt&c6mult=1.0&c6stat=&order_by=fg3_pct) players who took at least 250 3-point shots. He turns 26 this season and has passed the point where he can necessarily expect rapid improvement; he might be better off mothballing his 3-pointer and concentrating on the rest of his otherwise well-rounded game.
+
+---
+
+[![rudy-gobert](https://fivethirtyeight.com/wp-content/uploads/2015/10/rudy-gobert.png)](https://projects.fivethirtyeight.com/carmelo/rudy-gobert/)
+
+
+The second member of the Jazz frontcourt to make the top 30, Gobert went from an afterthought in his rookie season to a guy who [leads his draft class](http://www.basketball-reference.com/draft/NBA_2013.html) in WAR. Ian Levy [summed up](https://fivethirtyeight.com/features/nba-utah-jazz-preview/) the [Stifle Tower](https://www.youtube.com/watch?v=Ig5U6xMPoow) nicely: “an elite rebounder and shot-blocker and an efficient finisher around the rim.” He also lacks much in the way of a jump shot, having shot under 22 percent last season on shots more than 3 feet from the basket. But if Gobert proves to be the next DeAndre Jordan or Tyson Chandler, Jazz fans won’t have much basis to complain.
+
+---
+
+[![gordon-hayward](https://fivethirtyeight.com/wp-content/uploads/2015/10/gordon-hayward.png)](https://projects.fivethirtyeight.com/carmelo/gordon-hayward/)
+
+
+The third jewel in the Jazz’s frontcourt crown, Hayward has come an awfully long way for a guy who — we mean this as a compliment — once [came across as a bit of a nerd](http://deadspin.com/5838392/gordon-hayward-is-just-playing-starcraft-all-summer). The question is not whether he’s a legit NBA player (Hayward was already playing at a borderline All-Star level last season), but which path his future might take. His comparables include a mix of versatile, jack-of-all-trades players such as Andre Iguodala and hard-edged scorers such as Chris Mullin. The Mullin comp is particularly interesting given that Mullin (like Hayward) [struggled with 3-point shooting consistency](http://www.basketball-reference.com/players/m/mullich01.html) early in his career.
+
+---
+
+[![kevin-love](https://fivethirtyeight.com/wp-content/uploads/2015/10/kevin-love.png)](https://projects.fivethirtyeight.com/carmelo/kevin-love/)
+
+
+If everyone was a bit too optimistic about what the addition of Love might mean for the Cavs last season, he may be underrated now. Sure, Love had trouble integrating into Cleveland’s system last year and experienced a major decline in the number of shots he generated near the rim, which also had some knock-off effects on his other statistics (for instance, he drew fewer fouls and grabbed fewer offensive rebounds). But as was the case for Dwyane Wade and Chris Bosh, he may be better in his second year playing with LeBron, and he still projects to be a valuable rebounding hawk/stretch power forward.
+
+---
+
+[![bradley-beal](https://fivethirtyeight.com/wp-content/uploads/2015/10/bradley-beal.png)](https://projects.fivethirtyeight.com/carmelo/bradley-beal/)
+
+
+Beal, the Wiz’s 22-year-old shooting guard, doesn’t have any stunning comps among his top five. But look down to No. 10 and you’ll find … Kobe Bryant. Guys who log so much playing time at such a young age can sometimes see radical improvements in their shooting efficiency, and if that happens, Beal will be an All-Star-caliber player.
+
+---
+
+[![giannis-antetokounmpo](https://fivethirtyeight.com/wp-content/uploads/2015/10/giannis-antetokounmpo.png)](https://projects.fivethirtyeight.com/carmelo/giannis-antetokounmpo/)
+
+
+The sky’s the limit for the [Greek Freak](https://www.youtube.com/watch?v=_-1I54Wyhgg). Antetokounmpo has an unusually well-rounded skill set for someone who’s about to turn 21 years old, including certain skills (he’s already a good defender and excellent at drawing fouls) that are usually associated with more mature players. He’s still working out what sort of player he wants to be on the offensive end — he dramatically cut down on his 3-point shot last year (but, oddly enough, took a lot of long twos). All of this leads to an eclectic set of comparables that includes superstars like Kevin Garnett and Tracy McGrady — along with busts like Darius Miles and Marvin Williams.
+
+---
+
+[![deandre-jordan](https://fivethirtyeight.com/wp-content/uploads/2015/10/deandre-jordan.png)](https://projects.fivethirtyeight.com/carmelo/deandre-jordan/)
+
+
+You know what you’re getting here. Jordan’s skills are either elite (rebounding, shot-blocking) or cringe-worthy (shooting, passing). But as we wrote in our [Clippers preview](https://fivethirtyeight.com/features/nba-los-angeles-clippers-preview/), “dunk-and-defense” guys like Jordan, Dale Davis and Tyson Chandler can be cogs in championship-caliber teams.
+
+---
+
+[![jimmy-butler](https://fivethirtyeight.com/wp-content/uploads/2015/10/jimmy-butler.png)](https://projects.fivethirtyeight.com/carmelo/jimmy-butler/)
+
+
+Bulls fans won’t be happy with the omission of Derrick Rose from our list (Rose ranks just 165th after three injury-filled seasons). But that’s OK: The Bulls [have a new star in Jimmy Butler](https://fivethirtyeight.com/features/nba-chicago-bulls-preview/), an athletic wing defender with a growing arsenal of offensive moves. If Butler’s comps seem a little underwhelming, that’s partly because, consistent with the Bulls’ team-oriented philosophy, some of his contributions are subtle and unselfish. He’s outstanding at drawing fouls and avoiding turnovers, for example.
+
+---
+
+[![draymond-green](https://fivethirtyeight.com/wp-content/uploads/2015/10/draymond-green.png)](https://projects.fivethirtyeight.com/carmelo/draymond-green/)
+
+
+Arguably the breakout star of last season, Draymond Green is a defense-first bulldog with versatile offensive skills. A Dan Majerle comp beside a Robert Horry one? Yeah, it’s a strange pairing — but Green is an unusual player. The only caveat was that Green improved *so* much last year that he could be due for a pinch of reversion to the mean. Even so, CARMELO projects that he’ll produce $130 million worth of value to the Warriors over the next five seasons, a great return on his [$85 million contract](http://www.espn.com/nba/story/_/id/13185246/draymond-green-golden-state-warriors-agree-5-year-contract).
+
+---
+
+[![blake-griffin](https://fivethirtyeight.com/wp-content/uploads/2015/10/blake-griffin.png)](https://projects.fivethirtyeight.com/carmelo/blake-griffin/)
+
+
+Griffin would have ranked higher on this list a year ago. There are a few mildly troubling signs in his stats, particularly a decline in his rebound rate last season. Furthermore, a number of his comparables (such as Terry Cummings and Derrick Coleman) had fairly early career peaks. But let’s not get carried away. Although his fame may stem from his ferocious dunks, Griffin has evolved into a great all-around player whom every NBA team would love to have. He’s increasingly stretching opposing defenses with his outside shot, and he’s an underrated passer and defender.
+
+---
+
+[![elfrid-payton](https://fivethirtyeight.com/wp-content/uploads/2015/10/elfrid-payton.png)](https://projects.fivethirtyeight.com/carmelo/elfrid-payton/)
+
+
+So we have bona fide stars like Jimmy Butler, Draymond Green, Blake Griffin … and then we have Elfrid Payton?!? Is this CARMELO’s version of [PECOTA’s infamous Wily Mo Pena projection](http://www.baseballprospectus.com/article.php?articleid=3306)? Time will tell, but Payton logged almost 2,500 minutes as a 20-year-old rookie last year while flashing excellent passing and defensive skills. He can’t shoot at all yet, but one thing we’ve learned from CARMELO is that shooting skills sometimes take a few years to develop. If Payton develops some shooting touch, he could be the next Isiah Thomas; if he doesn’t, then for better or worse, he could be Ricky Rubio or Rajon Rondo.
+
+---
+
+[![marcus-smart](https://fivethirtyeight.com/wp-content/uploads/2015/10/marcus-smart.png)](https://projects.fivethirtyeight.com/carmelo/marcus-smart/)
+
+
+Given how much CARMELO likes Payton, it’s not surprising that it likes Smart also. He fits a broadly similar profile: His shooting just isn’t there yet, but most of his other skills were already league-average or above last season, when he was just 20. The thing about players like these is that they can be superstars if their scoring develops (Smart’s No. 1 comp is James Harden, for instance) but reasonably valuable all-around players even if it doesn’t.
+
+---
+
+[![damian-lillard](https://fivethirtyeight.com/wp-content/uploads/2015/10/damian-lillard1.png)](https://projects.fivethirtyeight.com/carmelo/damian-lillard/)
+
+
+Lillard is now the face of the franchise in Portland. Although he has the complete package on offense as a high-volume, efficient scorer and excellent passer, he’s a middling defender. Since high-usage point guards like Lillard want the ball in their hands as much as possible, the question is whether they’re good enough that you can build a championship-caliber roster around them. The results in Lillard’s case are mixed on that question, according to CARMELO. Lillard draws Steph Curry as a comp, but also Steve Francis and Gilbert Arenas.
+
+---
+
+[![kyrie-irving](https://fivethirtyeight.com/wp-content/uploads/2015/10/kyrie-irving.png)](https://projects.fivethirtyeight.com/carmelo/kyrie-irving/)
+
+
+The upside is obvious: Irving has the killer first step and tight handle of Stephon Marbury. And while he’s not an all-time great passer like Isiah Thomas, he’s every bit as good a shooter. Plus, he’s just 23 years old this season. Advanced stats still don’t like his defense, however, and while Irving became a much more efficient offensive player last season, there’s some question about how much of that can be attributed to playing with LeBron and Love. Still, we have to give Kyrie the benefit of our doubt. More than a year ago, back in our unenlightened, pre-CARMELO days, [we wrote that](https://fivethirtyeight.com/features/when-to-sign-an-nba-player-to-the-max/) Irving probably wasn’t worth his $90 million extension. Now it looks like a good deal for the Cavs.
+
+---
+
+[![john-wall](https://fivethirtyeight.com/wp-content/uploads/2015/10/john-wall.png)](https://projects.fivethirtyeight.com/carmelo/john-wall/)
+
+
+We [wrote about Wall extensively](https://fivethirtyeight.com/features/how-were-predicting-nba-player-career/) in our introduction to CARMELO. Coming off his best season ever, and second All-Star nod, he’s entering what should be his peak. But the variance on his projection is high, with outcomes ranging from future MVP to overrated ball-hog.
+
+---
+
+[![demarcus-cousins](https://fivethirtyeight.com/wp-content/uploads/2015/10/demarcus-cousins1.png)](https://projects.fivethirtyeight.com/carmelo/demarcus-cousins/)
+
+
+Speaking of high upside: Wow. Hakeem, Garnett, Duncan — those are some awfully exciting comps for Cousins. We even have a Shaquille O’Neal sighting on Boogie’s list (Shaq, who rarely appears as a CARMELO comparable because he was such an outlier, is Cousins’s No. 10 comp). But Cousins has never quite gelled into a superstar, as factors ranging from injuries to his [frustration](http://www.nba.com/video/channels/nba_tv/2015/01/07/20150107-starters-cousins.nba/) with Kings management have gotten in the way of his success. He can’t rest on his laurels because so far he’s just an average finisher around the rim, where he’ll need to improve before the Hakeem and Shaq comparisons bear out.
+
+---
+
+[![chris-paul](https://fivethirtyeight.com/wp-content/uploads/2015/10/chris-paul.png)](https://projects.fivethirtyeight.com/carmelo/chris-paul/)
+
+
+Paul is one of just two players in his 30s to make the top 10 (you’ll have no trouble guessing the other). The precedents are reasonably favorable here: Point guards tend to age well compared with players at other positions, and well-rounded players like Paul tend to age better than one-dimensional ones. Given his reputation for postseason struggles, however, we couldn’t help but notice that none of Paul’s top five comps (Mark Price, John Stockton, Gary Payton, Jason Kidd, Terrell Brandon) won an NBA title in his prime.4
+
+---
+
+[![kevin-durant](https://fivethirtyeight.com/wp-content/uploads/2015/10/kevin-durant.png)](https://projects.fivethirtyeight.com/carmelo/kevin-durant/)
+
+
+The 2014 MVP winner was out with injuries most of last season. But even with the [typical reduction in long-term value](https://fivethirtyeight.com/features/what-happens-to-injured-nba-stars-like-paul-george/) for a player who suffers a severe injury, Durant still ranks seventh on our list. At age 27, he remains a scoring monster — a lankier Bernard King, with Ray Allen’s shot. [Royce Young said](https://fivethirtyeight.com/features/nba-oklahoma-city-thunder-preview-carmelo/) it best: “Not only does he want to re-establish his rightful place among the game’s most elite, but also this could possibly, maybe, potentially be his last chance at a title in Oklahoma City.”
+
+---
+
+[![kawhi-leonard](https://fivethirtyeight.com/wp-content/uploads/2015/10/kawhi-leonard.png)](https://projects.fivethirtyeight.com/carmelo/kawhi-leonard/)
+
+
+We might call Leonard a sleeper — except that the rest of the basketball analysis community has woken up to his talents as the best lock-down wing in the game. Leonard won the Defensive Player of the Year award last season, and ESPN’s [#NBARank](http://www.espn.com/nba/story/_/id/13723434/team-team) list places him among the top 10 overall players in the game. Leonard’s offensive game has also developed, and, as [Michael Wright notes](https://fivethirtyeight.com/features/nba-san-antonio-spurs-preview/), he could see fewer double-teams with LaMarcus Aldridge on the Spurs’ roster, leading to even better production. All of this is why Leonard is one of just eight players CARMELO labels as MVP candidates.
+
+---
+
+[![russell-westbrook](https://fivethirtyeight.com/wp-content/uploads/2015/10/russell-westbrook.png)](https://projects.fivethirtyeight.com/carmelo/russell-westbrook/)
+
+
+What is there to say? Westbrook averaged a triple-double per 100 possessions last season. And yet CARMELO gives him about a 40 percent chance of being even more valuable this year. His path to achieving that is obvious enough: by improving on his wildly entertaining (but often just plain wild) shot selection, which can sometimes overshadow the ridiculous box-score stats.
+
+---
+
+[![lebron-james](https://fivethirtyeight.com/wp-content/uploads/2015/10/lebron-james.png)](https://projects.fivethirtyeight.com/carmelo/lebron-james/)
+
+
+LeBron is a multipositional freak of nature, as his Larry Bird-Magic Johnson-Charles Barkley comps demonstrate. (What about Michael Jordan? He’d rank high on LeBron’s list too if he hadn’t spent his age-30 season playing minor league baseball.) Even on the downward slope of his career, the King is still the King and projects to have several good years left. We know that some of you will object to any list that doesn’t have LeBron at No. 1, but consider the following: The only other 31-or-older player to make our long-term value list is Marc Gasol, and LeBron projects to have almost as much career value remaining as three Gasols put together.
+
+---
+
+[![james-harden](https://fivethirtyeight.com/wp-content/uploads/2015/10/james-harden.png)](https://projects.fivethirtyeight.com/carmelo/james-harden/)
+
+
+Harden’s stats were nearly as ridiculous as Westbrook’s last season. Compared with Westbrook, however, it’s not as clear how Harden can improve. He’s already an incredibly efficient offensive player. He can’t stay much healthier, having led the NBA in minutes played last year. So Harden might have to settle for 2014-15 as his career year unless … he keeps working on his defense, which while better than past seasons still rates as league average.
+
+---
+
+[![stephen-curry](https://fivethirtyeight.com/wp-content/uploads/2015/10/stephen-curry.png)](https://projects.fivethirtyeight.com/carmelo/stephen-curry/)
+
+
+Shocker: The 27-year-old reigning MVP has a bright future. An ultra-efficient shooter and a high-usage passing talent, Curry is a legitimate fusion of Ray Allen and Chris Paul — and is one of the few players to draw Michael Jordan as a top five comparable. But let’s pose the same question that we did for Westbrook and Harden: What might Curry do to become even better? The answer is probably to shoot a bit more. His usage rate is a couple of ticks behind Harden’s and well behind Westbrook’s and Jordan’s.
+
+---
+
+[![anthony-davis](https://fivethirtyeight.com/wp-content/uploads/2015/10/anthony-davis.png)](https://projects.fivethirtyeight.com/carmelo/anthony-davis/)
+
+
+The Brow combines Kevin Garnett’s ferociousness in rebounding and on defense with the stretch shooting ability of Chris Bosh. But even those names might understate his upside: There’s never been a player quite like him. (Garnett and Bosh, Davis’s top comparables, have just medium-high similarity scores when compared with him.) In other words, Davis will be terrorizing teams on both ends of the court for the foreseeable future: We’re just not quite sure how. The one thing to watch out for is injuries, which shorten big men’s careers more often than those of guards.
+
+---
+
+Below is a sortable table for all 572 players in our database, as of Oct. 27.
+
+---
+
+---

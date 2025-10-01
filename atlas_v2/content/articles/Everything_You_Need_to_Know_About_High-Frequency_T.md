@@ -1,0 +1,182 @@
+# Everything You Need to Know About High-Frequency Trading - The Atlantic
+
+**Source**: http://www.theatlantic.com/business/archive/2014/04/everything-you-need-to-know-about-high-frequency-trading/360411/
+**Type**: article
+**Created**: 2025-08-13T19:44:55.063066
+
+---
+
+title: Everything You Need to Know About High-Frequency Trading - The Atlantic
+source: http://www.theatlantic.com/business/archive/2014/04/everything-you-need-to-know-about-high-frequency-trading/360411/
+date: 2025-08-13T19:44:54.137350
+tags: []
+---
+The stock market isn't rigged, but it is taxed.
+
+It always has been. As [Justin Fox](http://blogs.hbr.org/2014/04/high-
+frequency-trading-threat-or-menace/) points out, for as long as people have
+been trading stocks, there have been middlemen taking a cut of the action.
+Now, that cut has gotten smaller as markets have gotten bigger and more
+technologically-advanced, but it's still there. It's the implicit fee that
+intermediaries charge for making sure there's a buyer for every seller, and a
+seller for every buyer—for "making markets."
+
+But there's a new kind of middleman today. They don't work at stock exchanges
+or banks. They work at hedge funds, and trade at whiz-bang speeds. These
+"high-frequency traders" (HFT) use computer algorithms—a.k.a., algobots—to
+arbitrage away the most infinitesimal price discrepancies that only exist over
+the most infinitesimal time horizons. You can see just how small and how fast
+we're talking about in the chart below from a [new
+paper](http://faculty.chicagobooth.edu/eric.budish/research/HFT-
+FrequentBatchAuctions.pdf) by Eric Budish and John Shim of the University of
+Chicago and Peter Cramton of the University of Maryland. It uses 2011 data to
+show the price difference between futures (blue) and exchange-traded funds
+(green) that both track the S&P 500. These _should_ be perfectly correlated,
+and they are—at minute intervals. But this correlation disappears at 250
+millisecond intervals, a little more than half the time it takes to blink your
+eyes. This is the "inefficiency" that HFT makes less so.
+
+![](https://cdn.theatlantic.com/assets/media/img/posts/HFTCorrelations.png)
+
+This rise of the robots certainly seems to have helped ordinary investors.
+Bid-ask spreads—the difference between what buyers want to pay and sellers
+want to be paid—have fallen dramatically the past 20 years. Part of this is
+because, since 2001, stock prices have gone from trading in fractions to
+pennies—which has allowed them to be increasingly precise. Another part is
+that [electronic
+trading](http://onlinelibrary.wiley.com/doi/10.1002/fut.20106/abstract),
+though not super-fast, has made markets more liquid. And the last part is that
+HFT has added even more liquidity, eliminating bid-ask spreads that would have
+been too small to do so before. Indeed, researchers found that Canadian bid-
+ask spreads [increased by 9
+percent](http://qed.econ.queensu.ca/pub/faculty/milne/322/IIROC_FeeChange_submission_KM_AP3.pdf)
+in 2012 after the government introduced fees that effectively limited HFT.
+
+That doesn't mean, though, that HFT is unambiguously good. It's not. In fact,
+it might not even be _ambiguously_ good. As [Noah
+Smith](http://noahpinionblog.blogspot.fr/2014/04/no-one-really-knows-if-hft-
+is-good-or.html) points out, we just don't know enough to do any kind of cost-
+benefit analysis. Now, we do know that smaller bid-ask spreads, which cut the
+cost of trading, are one benefit. But how much of one is it? Bid-ask spreads
+are down to around 3 basis points today—from 90 basis points 20 years ago—so
+even if curbing HFT increases them, say, 9 percent like it did in Canada,
+we're not talking about a big effect. There might be diminishing returns to
+liquidity that we've already hit, and then some.
+
+Then there are the costs. Michael Lewis' new book, _[Flash
+Boys](http://www.amazon.com/Flash-Boys-Wall-Street-Revolt/dp/0393244660)_ ,
+describes some of them. In it, there's Lewis' requisite group of plucky
+outsiders—is there another kind?—taking on a rotten status quo. Except this
+time, they're not really outsiders; they're big bank traders. And they've
+figured out that the market doesn't work like it should for big investors,
+like pension and mutual funds, because of the algobots. But it's a little bit
+more complicated than that. Here are the three biggest, though hard to
+quantify, costs of HFT.
+
+**1\. Market-taking, not market-making**. Lewis' protagonist, a trader named
+Brad Katsuyama, had a problem. Every time he tried to buy stock for a client,
+he could only get a little bit of what was supposed to be there at the price
+he saw. Now, oddly enough, he could get all the stock he saw at one particular
+exchange, but he had to pay more at all the others. What was going on?
+
+Well, he was being front-run. HFT firms pay public and private exchanges to
+see their incoming orders. That's why Katsuyama was getting all of his order
+filled at the exchange closest to him—that is, as the fiber optic cable
+lies—but nowhere else. The HFTers were seeing his order at the first exchange
+and then racing to buy all the rest of the stock he wanted everywhere else, so
+they could sell it to him for more. This happens all the time: [Nicholas
+Hirschey](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2238516#.U0Ll4xERgr0.twitter)
+of the London Business School found that HFT funds only tend to buy
+aggressively right before everybody else does.
+
+It's not too different from what HFTers do when they buy [early
+access](http://online.wsj.com/news/articles/SB10001424052702304450904579367050946606562?mod=WSJ_hp_LEFTWhatsNewsCollection)
+to public data. Again, they're paying for a trading advantage that isn't
+really adding liquidity. It's what Barnard professor [Rajiv
+Sethi](http://rajivsethi.blogspot.com/2014/04/superfluous-financial-
+intermediation.html?spref=tw) calls "superfluous financial intermediation."
+HFT firms aren't connecting buyers and sellers who might not find each other.
+They're jumping in between buyers and sellers who would have found each other
+anyways in a few milliseconds. It's not making markets more efficient. [It's
+cheating](https://www.theatlantic.com/business/archive/2014/02/high-speed-
+trading-isnt-about-efficiency-its-about-cheating/283677/).
+
+**2\. Nobody wants to lose to a robot**. "When the market as displayed on his
+screens became illusory," Lewis writes, "[Katsuyama] became less willing to
+take risk in that market—to provide liquidity." It's what economists call
+"[adverse selection](http://idei.fr/doc/wp/2013/wp_idei_769.pdf)," and it's a
+simple idea: HFTers crowd out other traders, because nobody wants to play
+against someone they know they'll lose to.
+
+That includes HFT funds themselves. As [Felix
+Salmon](http://blogs.reuters.com/felix-salmon/2012/10/15/why-theres-less-high-
+frequency-trading/) points out, HFT's share of _all_ trading has fallen from
+61 percent in 2009 to 51 percent in 2012. Why? Well, the algobots are fighting
+against each other now, and those fights don't end in trades. They end in
+fakes quotes—or "[spoofing](http://www.reuters.com/article/2014/04/04/us-sec-
+enforcement-spoofing-idUSBREA331DD20140404)"—that the algobots send to try to
+draw each other out. Indeed, [Johannes
+Breckenfelder](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2264858) of
+the Institute for Financial Research found that HFTs change their strategies
+when they're competing against each other like this. They don't make markets
+as much, and make directional bets on stocks instead—because those are the
+kind of things they can actually beat each other on. The result is actually
+_less_ liquidity and more volatility, at least within each trading day. (HFTs
+don't hold stock overnight, so _inter_ day volatility isn't affected).
+
+**3\. A waste of money and talent**. Lots of HFT is personally profitable, but
+socially pointless—and that pointlessness adds up. Take Spread Networks. Lewis
+describes in colorful detail how it laid fiber optic cable in as straight a
+line as possible between Chicago and New York all to shave _three
+milliseconds_ off the time it took to trade between the two. That meant
+spending $300 million to drill through the Alleghenies, and try to avoid
+laying fiber on both sides of the road, because each time they did, their CEO
+explained, it "cost them one hundred nanoseconds."
+
+Now, [Felix Salmon](http://blogs.reuters.com/felix-salmon/2012/04/04/how-high-
+frequency-traders-benefit-us-all/) is right that there are some positive
+spillovers from all this IT infrastructure spending. But this takes us back to
+the question of diminishing returns. Is it really worth spending so much money
+on what, to anyone other than HFT, are unnoticeable improvements—especially
+compared to what it could have been spent on? Probably not.
+
+The problem, though, is that HFT _has_ to spend this money. It's an arms race,
+and there's no silver medal for finishing second. That's because every HFT
+strategy depends on not only being faster than ordinary investors, _but being
+faster than each other too_. Anytime somebody comes up with a new way to cut a
+few microseconds—that is, a millionth of a second—off of trading time, they
+have to spend whatever it takes to do it. Otherwise, they'll lose out to their
+competitors who do.
+
+But it's an intellectual arms race, too. HFT isn't just about the time it
+takes to send trades through tubes (or [between
+microwaves](http://www.reuters.com/article/2013/05/01/us-highfrequency-
+microwave-idUSBRE9400L920130501)). It's also about how much time it takes your
+algorithms to crunch data. And coming up with the best algorithms means you
+need real math geniuses. Is it really worth diverting so much talent into
+what, to anyone other than HFT, are mostly unnoticeable market improvements?
+Probably not. Budish, Cramton, and Shim point out that even though HFT has
+reduced the duration of arbitrage opportunities from 97 milliseconds in 2005
+to 7 milliseconds in 2011, the profitability of them hasn't changed. HFT isn't
+eliminating these inefficiencies. It's just making them disappear in slightly
+less of a fraction of a blink of an eye.
+
+***
+
+HFT has real costs, but it's hard to add them up. Maybe narrower bid-ask
+spreads make up for them. But maybe not. It's not as if bid-ask spreads would
+go back to where they were in, say, 1999 if we restricted HFT.
+
+Though even that's the wrong way of framing things. We don't have to restrict
+HFT to make markets "fairer." We just have to create market structures that
+make HFT irrelevant. Those might be exchanges, like Katsuyama's IEX, that
+protect order information long enough to keep HFTs from front-running them. Or
+it might be setting up markets that aren't continuous, like Budish, Cramton,
+and Shim want, but use "batch-auctions" every second instead. Basically, have
+investors submit bids every second, rather than leaving bids out there that
+can be filled at any millisecond. These could give us most of the benefits of
+HFT without the costs. At the very least, they're worth trying.
+
+The market has bigger problems than robots, but that doesn't mean we shouldn't
+care about making it a little less taxed. If only because we don't want people
+to be so scared that it is rigged that they stay away.

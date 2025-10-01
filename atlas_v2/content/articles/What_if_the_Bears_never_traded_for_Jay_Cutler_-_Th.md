@@ -1,0 +1,299 @@
+# What if the Bears never traded for Jay Cutler? - The Athletic
+
+**Source**: https://theathletic.com/2436514/2021/03/09/what-if-the-bears-never-traded-for-jay-cutler/
+**Type**: article
+**Created**: 2025-08-13T15:41:02.381721
+
+---
+
+title: What if the Bears never traded for Jay Cutler? - The Athletic
+source: https://theathletic.com/2436514/2021/03/09/what-if-the-bears-never-traded-for-jay-cutler/
+date: 2025-08-13T15:41:00.316142
+tags: []
+---
+[Chicago Bears](https://www.nytimes.com/athletic/nfl/team/bears/) fans spend a
+lot of time digging through the rubble of their team’s quarterback history.
+Not many teams (OK, _maybe_ the
+[Browns](https://www.nytimes.com/athletic/nfl/team/browns/)) could be the
+subject of [almost two dozen
+stories](https://www.nytimes.com/athletic/tag/chicago-bears-qb-series/) about
+the franchise’s inability to figure out the most important position in sports.
+But for all the time Chicagoans have spent lamenting what the Bears _have_
+done at QB, we’ve spent just as much time thinking about what they _haven’t_
+done.
+
+Sometimes those alternate histories are obvious to follow and easy to
+understand. Picturing [Deshaun
+Watson](https://www.nytimes.com/athletic/nfl/player/deshaun-
+watson-2FClGss4NbY7sgLY/) or [Patrick
+Mahomes](https://www.nytimes.com/athletic/nfl/player/patrick-mahomes-
+WWwiw0IQD5ozgrHf/) on the 2020 Bears doesn’t require much imagination. If
+general manager Ryan Pace chooses either one instead of Mitchell Trubisky with
+the second overall pick in the 2017 draft, it alters the franchise’s outlook
+for the next decade, without any other significant maneuvering. By now,
+Chicagoans have heard enough about those alternate histories. We’ve seen more
+altered pictures of Watson in a Bears jersey to fill an entire lifetime. There
+are other unexplored timelines, though, that have rarely been explored. Other
+sliding doors moments that aren’t difficult to imagine and would have altered
+the franchise’s history.
+
+No single move the Bears have made at quarterback has been scrutinized as
+thoroughly as the decision to trade for Jay Cutler in April 2009. Two years
+ago, for the trade’s 10-year anniversary, _The Athletic_ ’s Kevin Fishbain and
+Dan Pompei put together an exhaustive [oral history
+](https://www.nytimes.com/athletic/896072/2019/04/02/the-city-had-finally-
+gotten-a-franchise-quarterback-10-years-ago-the-bears-traded-for-jay-
+cutler/)of the Cutler trade, the initial motivation behind it and its eventual
+fallout. In Chicago, the Cutler deal is like a crime scene that folks tend to
+revisit over and over, scouring the evidence for any new bit of insight about
+why the Cutler era didn’t go as planned. But rather than returning to those
+familiar questions, maybe it’d be more useful to ask a new one. Rather than
+searching for more answers about why the deal didn’t work, what if we explore
+what might’ve happened if the Bears had never made the trade at all?
+
+### The Quarterback
+
+Any alternate timeline about the Cutler trade has to start with Kyle Orton. As
+part of the package for Cutler, Chicago sent Orton, two first-round picks and
+a 2009 third-rounder to the
+[Broncos](https://www.nytimes.com/athletic/nfl/team/broncos/). Based on
+conversations with members of the organization at that time and past comments
+from former Bears general manager Jerry Angelo, the Cutler deal (or another
+move like it) wasn’t always the team’s plan heading into the 2009 offseason.
+Angelo and the front office weren’t dead set on making an upgrade at
+quarterback.
+
+In the fall of 2008, the Bears had signed Orton to an extension through the
+2009 season that reflected his status as the team’s starting quarterback. With
+Orton as the starter in 2008, Chicago finished 22nd in [offensive
+DVOA](https://www.footballoutsiders.com/stats/nfl/team-offense/2008), with
+Orton ranking 24th among qualified quarterbacks in Expected Points Added per
+play. The production wasn’t ideal, but as a former fourth-round pick in his
+second full season as a starter, the Bears saw Orton — and the offense in
+general — as a work in progress.
+
+“We liked Orton,” Angelo told Fishbain and Pompei in 2019. “In hindsight,
+maybe keeping him would have been the best thing. We didn’t feel like we were
+desperate, but Cutler’s position speaks for itself.”
+
+![](https://static01.nyt.com/athletic/uploads/wp/2019/04/01210235/GettyImages-112872228.jpg)
+
+Everyone was smiling after the Bears traded for Jay Cutler in 2009. Cutler
+would outlast both general manager Jerry Angelo (left) and head coach Lovie
+Smith (right) in Chicago. (Phil Velasquez / Chicago Tribune / MCT via Getty
+Images)
+
+Angelo’s interest in Cutler is understandable, even in hindsight. I know I
+said the intention here wasn’t to relitigate the Cutler trade, but let’s at
+least set the framework. When the Bears traded for Cutler, he was a 25-year-
+old QB coming off a Pro Bowl season in which he had thrown for more than 4,500
+yards. That’s not a volume stat, either. Denver had finished seventh in
+passing DVOA in 2008, and Cutler had ranked fifth in EPA/play among
+quarterbacks. Even with concerns about how much Mike Shanahan’s offense had
+fueled Cutler’s success, this was still a former first-round pick with top-10
+production and limitless talent who was just hitting his prime. It would be
+like trading a pair of first-round picks for someone halfway between Watson
+and Baker Mayfield right now. For a franchise that’s spent the better part of
+a century searching for a QB, that’s a deal you make every time.
+
+If the Bears hadn’t made the move for Cutler, it’s not as though some other
+splashy QB acquisition was inevitable. They were comfortable moving forward
+with Orton. In fact, if Orton hadn’t suffered a high-ankle sprain late in the
+2008 season — an injury that caused him to miss Chicago’s Week 10 loss and
+impacted his play down the stretch — it’s possible that the 9-7 Bears would
+have made the playoffs that year and been even less inclined to trade for
+Cutler that spring.
+
+By trading for Cutler, the Bears hoped an upgrade in quarterback talent would
+elevate their entire offense, but that just didn’t happen. Cutler threw a
+league-leading 26 interceptions for a Bears offense that finished 23rd in
+passing DVOA and was actually _worse_ than it had been the prior season.
+Paired with Josh McDaniels in Denver, Orton threw for a career-high 3,802
+yards and piloted an offense that finished 16th in passing DVOA. No one would
+argue that Cutler wasn’t more talented than Orton, but the gap in their
+ability — the same gap that inspired Chicago to move heaven and earth to
+acquire Cutler — didn’t translate to on-the-field production. After the Bears
+hired play-caller Mike Martz to jumpstart the offense in 2010 (a move we’ll
+get to later), Chicago finished 26th in passing DVOA while Cutler was sacked a
+league-leading 52 times.
+
+It’s not hard to see a scenario in which Orton performed as well or better
+than Cutler in 2009 and ’10, all while the Bears still had all their first-
+round picks and significantly more cap space over those two years. Before
+Cutler ever played a snap in Chicago, the Bears gave him a two-year extension
+with $30 million in new money through 2012. Cutler’s deal was a middle-of-the-
+road QB contract that didn’t sink the Bears financially, but his cap hit in
+2009 was about $9 million more than Orton’s. That’s a notable gap during a
+period in which the cap was only $128 million.
+
+Continuing down this timeline, it’s fair to assume that Orton would have been
+Chicago’s starter for at least the 2009 season and maybe longer. For our
+purposes here, I’m going to try to keep as many factors consistent in order to
+prevent the butterfly effect from impacting the sequence of events _too much_.
+To make things simpler, it’s easier to just assume that the Bears would have
+also gone about 7-9 with Orton in 2009 and been picking around the same spot
+(11th overall) in the 2010 draft. If the Bears had decided to use the draft as
+a way to upgrade from Orton that year, they likely would have been
+disappointed.
+
+After Sam Bradford was taken with the No. 1 pick, the next two QBs selected
+were Tim Tebow (25th overall, and ironically, he was Orton’s eventual
+replacement in Denver) and Jimmy Clausen (48th overall). The following year
+would have provided a significantly better chance for Chicago to find a
+longtime starter in the draft. If we assume the Bears would have been picking
+in a similar spot in the 2011 draft (29th overall), both [Andy
+Dalton](https://www.nytimes.com/athletic/nfl/player/andy-dalton-
+jwTarfas19H7mFil/) and Colin Kaepernick would have been available late in the
+first round.
+
+![](https://static01.nyt.com/athletic/uploads/wp/2019/04/01223432/GettyImages-120960391.jpg)
+
+If Jay Cutler weren’t in Chicago, who would’ve been on the cover of Michigan
+Avenue Magazine in the fall of 2009? (Tasos Katopodis / WireImage)
+
+In the alternate universe in which the Bears eventually decided Orton wasn’t
+enough, these are the types of options that would have likely been available.
+Chicago theoretically could have been in play for veterans on the trade market
+like Donovan McNabb (dealt for the 37th overall pick and a conditional third-
+round pick in 2010) and Carson Palmer (traded for first- and second-round
+picks in 2011), but it’s possible that Angelo wouldn’t have considered any of
+the available rookies or veteran options to be substantial upgrades over
+Orton. With Orton under center and the defense experiencing a resurgence in
+2010, it’s likely that the Bears would have struggled to find a clear path to
+adding a high-upside QB of the future, just like they are now.
+
+### The draft picks
+
+Because there’s no way of knowing who the Bears would have taken with the
+picks they shipped to Denver in the Cutler deal, there’s no perfect way to
+measure which players they lost by making the trade. To make things less
+knotty, let’s just assume that the Bears drafted the same players in those
+spots that the Broncos did. That seems like the fairest way to understand the
+value of the draft capital and what sort of players the Bears could have added
+over those two years.
+
+The Bears’ 2009 first-round pick landed at No. 18 and Denver used it to select
+University of Tennessee pass rusher Robert Ayers. The 6-foot-3, 275-pound
+Ayers rode a fantastic week at the Senior Bowl into first-round status but
+struggled to make much of an impact during his first couple years in Denver.
+Ayers may have been more comfortable transitioning to a defensive end spot in
+Lovie Smith’s traditional 4-3 defense than he was acclimating to a stand-up
+linebacker role in Denver’s system, but that isn’t a guarantee.
+
+What is clear, though, is that pass rusher would soon become a need for
+Chicago. In October 2009, Angelo traded a 2010 second-round pick to [Tampa
+Bay](https://www.nytimes.com/athletic/nfl/team/buccaneers/) for former top-
+five pick Gaines Adams, leaving the Bears without its first- and second-
+rounders that year. (Adams passed away three months later after suffering a
+heart attack caused by an enlarged heart.)
+
+With Alex Brown, Adewale Ogunleye, Mark Anderson and Israel Idonije already on
+the roster, it’s arguable that the Bears wouldn’t have considered defensive
+end to be a need in the 2009 first round, but there’s no debate about how
+their 2010 first-rounder would have fit into the picture. Chicago’s pick in
+2010 landed at No. 11 and Denver eventually traded the pick to the
+[49ers](https://www.nytimes.com/athletic/nfl/team/niners/), who used it to
+select Rutgers tackle Anthony Davis.
+
+![](https://static01.nyt.com/athletic/uploads/wp/2019/04/01211418/GettyImages-84005278.jpg)
+
+Kyle Orton was a popular teammate in Chicago. What could the Bears have done
+if he stayed? (Jonathan Daniel / Getty Images)
+
+As a rookie, Davis started all 16 games at right tackle for San Francisco, and
+while he struggled at times over his first two seasons, his play would’ve been
+a considerable upgrade for the Bears. In 2010, Chicago was forced to start
+seventh-round pick J’[Marcus
+Webb](https://www.nytimes.com/athletic/nfl/player/marcus-webb-
+uwO9XynxpMXIPkCT/) for 12 regular-season games and a pair of playoff games.
+While Davis eventually developed into an above-average starter for the Niners,
+Webb was a weak link along the Bears’ offensive line for the next three
+seasons.
+
+Of all the pieces traded away in the Cutler deal, the one that’s often
+forgotten is the 2009 third-rounder that Chicago threw in as a relative
+afterthought. When you’re handing over multiple first-round picks, what’s
+another third, really? The third-round pick that the Bears sent to Denver
+eventually landed at No. 84 overall and was traded from the Broncos to the
+[Steelers](https://www.nytimes.com/athletic/nfl/team/steelers/), who used it
+to select Ole Miss speedster Mike Wallace. Two rounds later, the Bears used
+the fifth-round pick they got from the Broncos to take Abilene Christian
+burner Johnny Knox. The latter wound up having a nice career for the Bears
+before suffering a career-ending back injury in 2011, but Wallace eventually
+amassed more than 8,000 receiving yards and 57 touchdown catches over a
+decade-long career.
+
+So in all, the Bears traded Orton, Ayers, Davis and Wallace for Cutler and
+Knox. If Chicago had stood pat and used their picks on those players (or
+others in that same range), there’s certainly an argument that the Bears would
+have been better positioned as a franchise. Dealing multiple first-round picks
+for a budding star quarterback is only worth it if that quarterback patches up
+the holes those surrendered draft picks ultimately create. Cutler rarely
+showed that he was capable of elevating Chicago’s offense in that way. The
+holes _were_ obvious, and the domino effect those roster shortcomings created
+eventually led to even more moves that the Bears would come to regret.
+
+For example, if Davis (or another tackle) were on the roster in 2011, would
+the Bears have drafted Gabe Carimi with the 29th overall pick in a draft
+loaded with defensive talent (Pittsburgh drafted two-time All-Pro defensive
+lineman Cam Heyward two picks later)? It’s an unanswerable question, of
+course, but it’s safe to say that the Bears would have had a much clearer path
+to a complete roster with those picks in their pocket. With deals like the one
+for Cutler, exploring the alternatives is more than just an interesting
+hypothetical — it’s an exercise in understanding how opportunity cost plays
+into these types of moves.
+
+### The peripheral moves
+
+Anyone who has ever watched a time-travel movie knows how fast things can spin
+out of control. One sports almanac winds up in the wrong hands and the entire
+world goes to hell. I don’t want to go too far down the rabbit hole, but there
+are some fascinating “what ifs” associated with the Cutler deal.
+
+For instance, if the Bears never trade for Cutler and ultimately finish
+somewhere similar in offensive efficiency in 2009 (let’s say 20th or so),
+there’s a very good chance that Chicago doesn’t fire offensive coordinator Ron
+Turner and replace him with Mike Martz after the season. Without the pressure
+brought on by the Cutler trade to produce immediate results on offense, the
+Bears may not have felt compelled to make such a bold move at that point in
+the franchise’s trajectory. If the Bears had stuck with Turner, maybe Webb
+performs better than he did in Martz’s vertical, downfield passing game that
+left his quarterback under siege in 2010. If Martz is never hired, Chicago
+likely doesn’t trade Pro Bowl tight end Greg Olsen to
+[Carolina](https://www.nytimes.com/athletic/nfl/team/panthers/) for a measly
+third-round pick in 2011, only for Olsen to amass 428 receptions and 5,384
+receiving yards over the next six seasons.
+
+![](https://static01.nyt.com/athletic/uploads/wp/2020/02/19094236/GettyImages-1186970103.jpg)
+
+Remember when Mike Martz pushed for the trade of Greg Olsen? (Stacy Revere /
+Getty Images)
+
+A few months after dealing Olsen, the Bears signed Roy Williams (who had
+played for Martz in Detroit) to be the top receiving option in their offense.
+After the Williams move failed to pan out, Chicago wound up trading two third-
+round picks for Brandon Marshall in 2012 — the second of which was acquired in
+the deal for Olsen. You can see how this gets complicated in a hurry.
+
+There’s no real way to understand how one move ultimately informs the others.
+If Chicago doesn’t feel the urgency from the Cutler trade, does the team sign
+Julius Peppers in 2010 and resurrect its championship-caliber defense for the
+next three seasons, making the lack of production from Cutler and the offense
+even more notable? Cutler’s presence shaped not only the end of the
+Angelo/Smith era in Chicago but the Phil Emery/Marc Trestman era as well.
+
+If Smith’s time in Chicago fizzled out with Orton at the controls instead of
+Cutler, would the Bears have just started over with a rookie quarterback in
+2013 or 2014 in the mold of a [Teddy
+Bridgewater](https://www.nytimes.com/athletic/nfl/player/teddy-bridgewater-
+rbVX7fABtdwMJRyM/) or [Derek
+Carr](https://www.nytimes.com/athletic/nfl/player/derek-carr-
+linudLDO0YoIWthi/)? There’s really no way to go too far down that road without
+losing the string. But the lesson here isn’t that the Cutler trade put an
+anchor on nearly a decade of Bears football. It’s that sometimes a team’s
+decisions are best understood by examining the choices they _didn’t_ make. In
+the case of the Cutler deal, there are no guarantees that Chicago’s road to a
+championship level would’ve been easier, but it certainly would’ve looked much
+different.
+
+_(Graphic: Wes McCabe /_ The Athletic _with Getty Images)_

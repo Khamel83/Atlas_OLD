@@ -1,0 +1,190 @@
+# How Podcasts Became a Seductive-and Sometimes Slippery-Mode of Storytelling | The New Yorker
+
+**Source**: https://www.newyorker.com/magazine/2018/11/19/how-podcasts-became-a-seductive-and-sometimes-slippery-mode-of-storytelling
+**Type**: article
+**Created**: 2025-08-13T16:27:46.576870
+
+---
+
+title: How Podcasts Became a Seductive-and Sometimes Slippery-Mode of Storytelling | The New Yorker
+source: https://www.newyorker.com/magazine/2018/11/19/how-podcasts-became-a-seductive-and-sometimes-slippery-mode-of-storytelling
+date: 2025-08-13T16:27:34.206763
+tags: []
+---
+In 1936, Walter Benjamin, the German philosopher and cultural critic,
+published an essay titled “The Storyteller.” The piece, ostensibly about the
+Russian writer Nikolai Leskov, offered its author an opportunity to analyze
+the meaning and function of storytelling. Long ago, Benjamin suggested,
+stories offered listeners practical or moral counsel, much as fairy tales now
+did for children. They transmitted common wisdom, framed by the personal
+experience of the storyteller, which was delivered in such a way that
+listeners could incorporate it into their lives. This kind of storytelling was
+falling victim to the forces of modernity, Benjamin argued. Soldiers returning
+from the battlefields of the Great War, for example, were less likely than
+earlier combatants to speak of what they’d gone through, finding ordinary
+language incommensurate with the horrors of mechanical warfare. But the
+principal cause of storytelling’s decline was a new form of communication:
+“information,” or verifiable and topical news.
+
+The rise of electronic communication meant that news could be instantly
+transmitted around the globe. Although Benjamin noted that this mode of
+communication was not always more accurate than the forms it had overtaken,
+its authority depended on the appearance, at least, of accuracy. “No event any
+longer comes to us without already being shot through with explanation,”
+Benjamin wrote. “By now almost nothing that happens benefits storytelling.”
+
+Eighty-odd years after Benjamin wrote about the decline of storytelling, we
+are living in a new golden age of it, in the form of the podcast: on-demand
+audio that a listener can download and play while commuting or exercising or,
+given the right equipment, showering. A recent study conducted by Edison
+Research found that nearly a quarter of Americans listen to podcasts at least
+once a month. The most popular shows, such as “The Daily,” produced by the
+_Times_ and featuring Michael Barbaro, a former reporter, as a winning,
+accessible interlocutor of his news-gathering colleagues, or “The Joe Rogan
+Experience,” in which the bluff comedian interviews public figures about
+things like masculinity and technology, are downloaded tens of millions of
+times each month. Some of the most acclaimed podcasts, such as Slate’s “Slow
+Burn,” which in its second season plumbed the painful history of President
+Bill Clinton’s impeachment, offer a provocative lens not just on the past but
+also on current events. When the show’s host, Leon Neyfakh, interviews Juanita
+Broaddrick about her claim that, in the nineteen-seventies, she was sexually
+assaulted by Clinton, it makes for sobering listening in the era of #MeToo.
+
+Beyond the top of the charts, there are half a million other podcasts
+available, fashioned for every conceivable interest or taste. If a person
+wants to know more about Walter Benjamin, she can listen to an episode of
+“Thinking Allowed,” a BBC Radio 4 show in which Laurie Taylor, a British
+sociologist, renders Benjamin’s work in plainspoken language; or download the
+National Gallery of Art’s podcast, in which the Princeton art historian Hal
+Foster delivers a Mellon lecture about him; or find the Clocktower podcast,
+dedicated to preserving archival audio, which offers recordings of several
+radio scripts, for children, that Benjamin wrote in the nineteen-thirties; or
+search out an episode of “Giving the Mic to the Wrong Person,” a left-leaning
+podcast, hosted by Jeremy Salmon, that features an off-the-cuff roundtable
+about Benjamin—“he’s one of the Frankfurt School guys, from what I
+understand”—in the context of contemporary politics and culture.
+
+In the first years of podcasts, a decade or so ago, technological limitations
+militated against their widespread adoption: they had to be laboriously
+transferred from a computer to an MP3 player or an iPod. Podcasts were made by
+geeks, for geeks. That changed in 2014, when Apple added a Podcast app to the
+iPhone, making subscribing almost effortless. Even better, it was usually
+free.
+
+Still, the real explosion in the medium was creative rather than
+technological: the release, in 2014, of “Serial,” an investigation into the
+1999 murder of Hae Min Lee, a high-school student in Maryland, hosted by Sarah
+Koenig, an alumna of “This American Life,” the public-radio show, which also
+produced the podcast. “Serial” incorporated interviews conducted over a prison
+phone line with Lee’s onetime boyfriend, Adnan Syed—he had been convicted of
+her murder, despite his protestation of innocence—and also interviews with
+friends, police officials, and a forensic expert, along with archival
+recordings. It became the first podcast that listeners and cultural commenters
+dissected with the kind of avidity formerly reserved for TV dramas such as
+“Breaking Bad” or “Mad Men.”
+
+“Serial” took the form of a quest, but it hardly provided a tidy ending to the
+questions raised about Lee’s murder and Syed’s conviction. The show had a
+distinctive tone: conversational, uncertain, informal, and, occasionally,
+faux-naïve. In the first episode, Koenig describes visiting the office of
+Rabia Chaudry, an immigration lawyer and a friend of Syed’s, who had tipped
+off Koenig about the story. “Her office takes up the corner of a much larger
+open space that I think is a Pakistani travel agency, though it’s hard to
+tell,” Koenig says. Koenig, a former Baltimore _Sun_ reporter, surely knew how
+to determine whether the office was a Pakistani travel agency: by asking.
+(Indeed, it’s hard to believe that she _didn’t_ ask.) But Koenig knew from
+“This American Life,” whose multiple segments are unified by the presence of a
+musing narrator, that she could conjure a cluttered office environment more
+vividly by sharing her initial confusion, rather than by resolving the
+question.
+
+Early in the podcast, Koenig informs her audience that “we are telling this
+story in order,” planting the conceit that listeners were accompanying her on
+all her reportorial wanderings. But the show’s construction was more artful
+than that. The first episode was concerned principally with the observations
+of a classmate of Syed’s, Asia McLain, who claimed to have seen him in the
+library exactly when the prosecution said that he’d murdered Lee. But, as
+Koenig briefly mentions in her narration, she didn’t attempt to track down
+McLain until almost four months after she’d spoken to Rabia Chaudry—a third of
+the way into her yearlong investigation.
+
+The point of “Serial,” which was free but bookended with ads, was not so much
+to solve the mystery as to reveal the process of attempting to solve the
+mystery. This meant sharing granular details of Koenig’s investigation, such
+as an analysis of data from cell towers. (Koenig acknowledged that she handed
+off this research to a producer, Dana Chivvis, “because I am, technologically
+speaking, a moron.”) But the show’s real innovation lay in capturing Koenig’s
+psychological process—her inward struggle about what to believe. “I’ve got
+this thing in my head that I’ll catch him in a lie,” she says in Episode 6,
+midway through the season. Yet, she continues, “I talk to him and talk to him
+and talk to him, and I start to doubt my doubts.” The episode ends with a
+wrenchingly intimate phone call between Koenig and Syed, in which he tells her
+that he wants her to judge him innocent not because he seems too nice to have
+murdered Lee but because she’s found exculpatory evidence.
+
+This highlighting of a reporter’s tormented indecision is why “Serial” made
+for compulsive listening. The tell-as-you-go formula, interspersed with
+banalities—like Chivvis excitedly telling Koenig, during a drive retracing
+Syed’s alleged route after the murder, that a local crab shack was having a
+sale on shrimp—was either charming or annoying, depending on your taste. (A
+YouTuber deftly parodied Koenig’s hand-holding ratiocination: “Adnan made
+phone calls. He also received them. Why? What makes a person _receive_ a phone
+call?”) There was a sense of urgency to “Serial,” heightened by foreboding
+theme music, that belied the fact that it was concerned with events from a
+dozen years earlier, about which there had been no pressing public concern.
+Koenig’s account was so galvanizing that listeners began sending her tips, and
+public officials were obliged to take action: Syed was granted a new trial,
+which has yet to take place.
+
+“Serial,” borrowing equally from the conventions of investigative journalism,
+the memoir, and the potboiler, was a leap in narrative innovation on the scale
+of “In Cold Blood,” Truman Capote’s 1966 “nonfiction novel.” Within a month of
+its launch, “Serial” had reached a million listeners, and since its début the
+season has been downloaded two hundred and forty million times. Season 3 of
+“Serial,” which centers on the criminal-justice system in Cleveland, is
+sponsored exclusively by Zip Recruiter—an arrangement that is reportedly the
+biggest up-front podcast deal to date.
+
+“Serial” was the first show to induce advertisers to take podcasting
+seriously. “It was like money trucks started opening up and pouring out
+money,” Benjamen Walker, the host of “Benjamen Walker’s Theory of Everything,”
+an ideas podcast, told me. The creative and economic accomplishment of
+“Serial” has spawned countless imitators, and many have shamelessly echoed its
+tropes: the wary, exploratory, methodical host; the true-crime incident, or
+other sensational event, which has been plucked from newspaper archives and
+transformed into a twisty narrative. To use the language of Walter Benjamin,
+these podcasts offer the sometimes lurid satisfactions of story bolstered by
+the apparent rectitude of information.
+
+There are now dozens of podcasting companies vying to create a sensation on
+the order of “Serial.” Among them is Pineapple Street Media, based in a
+loftlike space in downtown Brooklyn, which was co-founded, in 2016, by Max
+Linsky, the co-creator of the “Longform Podcast,” which features interviews
+with narrative journalists, and by Jenna Weiss-Berman, formerly an audio
+producer at BuzzFeed. One recent afternoon, a group gathered in Pineapple’s
+conference room to discuss a project that was seen as a potential breakthrough
+hit: a podcast about solitary confinement in American prisons.
+
+The series had been conceived by Adam Sternbergh, a novelist and journalist;
+although he had contributed segments to “This American Life,” it was his first
+attempt at podcasting. The idea was to combine his fictional and reportorial
+skills in a way that traditional journalism didn’t permit. Sternbergh intended
+to create a fictional prisoner in solitary confinement whose experiences and
+recollections would provide the series’s narrative spine. To provide factual
+ballast, the story would be interwoven with interviews of incarceration
+experts, former prisoners, and corrections officials. Sternbergh and Pineapple
+understood that their experiment would work only if the fiction and the
+reportage could be seductively and plausibly integrated.
+
+“You must make it clear to the listener that the story they are following is
+fictional—that it’s not a dramatic reënactment of a real person’s case,”
+Sternbergh explained. He proposed doing wide-ranging reporting on solitary
+confinement, and then “funnelling” the richest findings “into one character.”
+With a flicker of concern, he asked the Pineapple team, “Are you worried that
+that’s going to get too esoteric?”
+
+“No, I _like_ esoteric,” Weiss-Berman said. Podcasts often find an audience by
+exploring an exotic subculture. Weiss-Berman urged Sternbergh to reconsider
+using the dramatic-reënactment form, noting that it could provide a useful
+sense of whiplash: “What if you had an actor playing a real person, and then
+the real person comes in and says, ‘Well, that’s not exactly how it went’?”

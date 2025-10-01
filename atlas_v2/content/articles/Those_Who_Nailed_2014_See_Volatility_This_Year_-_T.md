@@ -1,0 +1,166 @@
+# Those Who Nailed 2014 See Volatility This Year - The New York Times
+
+**Source**: http://www.nytimes.com/2015/01/09/business/expect-volatility-in-2015-say-those-who-called-it-right-last-year.html
+**Type**: article
+**Created**: 2025-08-13T19:14:41.744239
+
+---
+
+title: Those Who Nailed 2014 See Volatility This Year - The New York Times
+source: http://www.nytimes.com/2015/01/09/business/expect-volatility-in-2015-say-those-who-called-it-right-last-year.html
+date: 2025-08-13T19:14:35.037677
+tags: []
+---
+Volatility will be the new normal in 2015.
+
+That’s the overriding theme that emerged in my annual survey of investment
+professionals who got it right last year. And if this week’s market action is
+any indicator, their prediction is already being borne out. Stocks soared on
+Thursday, with the Dow Jones industrial average gaining over 300 points, the
+fourth straight session of triple-digit moves. Interest rates and oil prices
+have also gyrated.
+
+Volatility could also be called the old normal, given how common it was before
+the relatively tranquil years after the financial crisis. “We’re likely to get
+a lot more volatility than we’ve become used to,” said William Miller, who
+runs the Legg Mason Opportunity Trust. “Every time we get a correction or even
+close to it, everybody flips out. I’d say that’s more of an observation than a
+prediction.”
+
+Mr. Miller returns for a fourth consecutive appearance in this column on the
+strength of his forecast for the stock market last year. He was far more
+bullish than most, and said then that he expected the Standard & Poor’s
+500-stock index to gain “in the low to midteens,” which turned out to be
+exactly right. (It gained 13.7 percent.)
+
+“It’s going to be a lot trickier this year,” he told me this week. “But I’m
+very bullish on the United States economy over all. I’m looking at high
+single-digit to low double-digit gains for the S.&P. 500, and I could see the
+S.&P. 500 gain 15 percent if things break the right way. Absent some weird
+geopolitical thing, I’d be very surprised to see negative returns.”
+
+Volatility was also the forecast, if that’s the right word, at the
+AlphaSimplex Group in Cambridge, Mass., the research and asset management firm
+founded by Andrew W. Lo, author of the “adaptive markets hypothesis,” which
+examined whether markets are rational, and director of M.I.T.’s Laboratory for
+Financial Engineering. “We don’t forecast rates or valuations,” said Duncan
+Wilkinson, the firm’s chief executive. That didn’t stop the firm’s Tactical
+U.S. Market Fund from posting a 14.7 percent return last year, a full
+percentage above the S.&P. 500.
+
+All of AlphaSimplex’s funds fall into the relatively new but fast-growing
+category of liquid alternative [mutual
+funds](http://web.archive.org/web/20250717140558/http://topics.nytimes.com/your-
+money/investments/mutual-funds-and-etfs/index.html?inline=nyt-classifier "More
+articles about mutual funds and exchange-traded funds."), and serve many of
+the same purposes as hedge funds but with the lower fees, low minimum
+investments and daily liquidity of mutual funds. The Tactical Market Fund
+engages in market timing, moving from a maximum 130 percent exposure to the
+S.&P. 500 (using derivatives or borrowed capital) when risk is low to all cash
+when risk is high. So in a sense, the firm’s model does predict price
+movements.
+
+The approach helped the fund navigate last year’s market, in which about [80
+percent of active managers
+underperformed](http://web.archive.org/web/20250717140558/http://www.cnbc.com/id/101955148)
+the S.&P. 500. The reason the fund did so well is simple — it replicates the
+S.&P. 500 index, stayed fully invested the entire year, and used derivatives
+to gain 130 percent exposure to the index.
+
+Its quantitative model accurately assessed that risk remained low. “There was
+some turbulence in October, but our model suggested it was only middling, and
+it wasn’t time to do anything,” said Peter Lee, senior research scientist and
+co-portfolio manager of the Tactical Market Fund. “This very disciplined
+approach has stood us in good stead. It takes the emotion out of investing.”
+
+Whether the fund can repeat last year’s success remains to be seen, since it’s
+little more than a year old. (AlphaSimplex has two other liquid alternative
+mutual funds with longer track records and just started a global macrofund.)
+The firm’s model currently shows that risks in the United States market are
+rising. “We’re still at 130 percent but we’re close to ratcheting that down,”
+Mr. Wilkinson said. “We’re watching very carefully for the contagion risk of
+developed non-U.S. markets.”
+
+ _Whither Bonds?_
+
+If 2014 was a tough year for active stock managers, it was even worse for
+fixed-income managers. A year ago, almost everyone expected higher rates,
+including a bearish Bill Gross, a founder of the investment firm Pimco, who
+told me then that investors should expect “slim pickings" and stick to cash or
+low-yielding money market funds. (It was an especially turbulent year for Mr.
+Gross, who abruptly left Pimco and joined Janus Capital Group.) His advice for
+this year is much the same, “Be cautious and content with low positive returns
+in 2015,” he recently wrote in his monthly newsletter.
+
+In what has to be considered the biggest market surprise of 2014, interest
+rates dropped sharply and bonds rallied. The Barclays United States Aggregate
+Bond Index returned just under 6 percent. United States Treasuries with longer
+maturities fared even better.
+
+Douglas Kass, president of Seabreeze Partners Management (and a widely
+followed market analyst), was one of the few to forecast lower rates last year
+in his annual list of “surprises” for 2015.
+
+This year, in what he called “the polar opposite of what I saw last year,”
+he’s predicting no less than the “end of the three-decade bull market in
+bonds,” he told me this week.
+
+“Rates will go lower at first,” he said. “That will shock people, and everyone
+will throw in the towel on higher rates.” (So far, he seems to be right about
+that.) But, he said, once people realize that the European Central Bank’s
+stimulus policies are too little, too late, he expects European rates to rise,
+followed by those in the United States. “You could see a spike in European
+rates without any improvement to their economies,” he said. “Italian sovereign
+debt interest rates are lower than in the United States. That’s insane.”
+
+A fund that capitalized on lower rates last year was Delaware Investments’
+Extended Duration Bond Fund, which returned over 17 percent.
+
+This year, Delaware’s fixed-income specialists are predicting a modest rise in
+rates, to just over 2 percent for 10-year United States Treasuries. “We feel
+the fundamentals suggest rates can stay in the low 2 percent area, and could
+end up lower because of dislocation in other markets,” said Roger A. Early,
+Delaware’s co-head of fixed-income investments.
+
+He said he was “open-minded” about whether the Federal Reserve will raise the
+federal funds rate this year, as nearly everyone expects.
+
+“With some of the stress we’ve seen, relative to energy and commodity prices,
+and with deflationary trends in places like Europe, if those continue, I don’t
+think it’s a given the Fed will move interest rates in the second or third
+quarter.” (The Fed [hinted as
+much](http://web.archive.org/web/20250717140558/http://www.nytimes.com/2015/01/08/business/fed-
+december-2014-meeting-minutes.html) in the minutes of its December meeting
+that were released this week.)
+
+“The market may be surprised that the Fed takes a step back and doesn’t move
+forward so quickly,” Mr. Early continued. “We believe United States economic
+growth is still quite fragile. So current low yields can be sustained for some
+time.”
+
+**Whither Oil Prices?**
+
+In nearly every forecast for the year, the wild card is oil. The steep fall in
+2014, from more than $100 a barrel to less than $50, surprised and rattled
+many investors, stoked fears of deflation and battered emerging market
+economies, even as it put more cash in consumers’ pockets. Almost no one saw
+it coming, but one who did is Michael Levi, senior fellow for energy at the
+Council on Foreign Relations and author of “The Power Surge: Energy,
+Opportunity and the Battle for America’s Future.”
+
+“Early in 2014, oil prices had been high and steady for a long time, and
+people extrapolated that this would be indefinite,” Dr. Levi told me this week
+as prices fell below $50 a barrel. “That didn’t make any sense.”
+
+Looking ahead, “Anything is possible,” he cautioned, “but all the conditions
+for high volatility remain in place. That’s the natural state of the oil
+market unless a cartel is in control. Part of the lesson from last year is
+that a small mismatch in supply and demand can result in a large and rapid
+change in prices. That works in both directions. If there’s an increase in
+global growth, geopolitical disruptions or a faster shutdown in North American
+production, then oil prices could definitely go up.”
+
+Nor, he said, should Saudi Arabia’s potential influence be ignored. He noted
+that the kingdom waited until oil prices got into the $30-a-barrel range
+before curtailing production in the midst of the financial crisis. “Just
+because Saudi Arabia hasn’t acted yet doesn’t mean it never will,” he said.

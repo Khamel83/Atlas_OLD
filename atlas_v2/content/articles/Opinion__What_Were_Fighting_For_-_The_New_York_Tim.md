@@ -1,0 +1,52 @@
+# Opinion | What We’re Fighting For - The New York Times
+
+**Source**: https://www.nytimes.com/2017/02/10/opinion/sunday/what-were-fighting-for.html
+**Type**: article
+**Created**: 2025-08-13T17:32:29.604700
+
+---
+
+title: Opinion | What We’re Fighting For - The New York Times
+source: https://www.nytimes.com/2017/02/10/opinion/sunday/what-were-fighting-for.html
+date: 2025-08-13T17:32:19.283363
+tags: []
+---
+What to make of that oath, anyway? The Constitution seems to mean different
+things at different times and places — whether in my unit’s dusty little
+combat hospital, or in Eric’s interrogation booth, or in a stadium where a
+crowd cheers a presidential candidate vowing to torture his nation’s enemies.
+We live in a democracy, so that document can be bent and twisted and re-formed
+to mean whatever we want it to.
+
+If we choose to believe in a morally diminished America, an America that
+pursues its narrow selfish interests and no more, we can take that course and
+see how far it gets us. But if we choose to believe that America is not just a
+set of borders, but a set of principles, we need to act accordingly. That is
+the only way we ensure that our founding document, and the principles embedded
+within, are alive enough, and honorable enough, to be worth fighting for.
+
+Which brings me back to Brian Chontosh, that man with such incredible skill at
+killing for his country. Years after I left the Corps I was surprised to learn
+that he didn’t really put much stock in his exceptional kill count. He told
+Mr. Zabriskie this about killing: “It’s ugly, it’s violent, it’s disgusting. I
+wish it wasn’t part of what we had to do.”
+
+When people ask him if he’s proud of what he did, he answers: “I’m not proud
+of killing a whole lot of people. That doesn’t make sense to me. I’m proud of
+who I am today because I think I’ve done well. I think I’ve been honorable.
+I’ve been successful for my men, for the cause, for what’s right.”
+
+Brian Chontosh doesn’t dwell on the dead, but he does wonder whether there
+were times when, perhaps, he need not have killed. One of these is that last
+soldier in the trench. He’ll remember him, trying to pretend he’s dead but
+wiggling a bit. “It’s not a haunting image,” he told Mr. Zabriskie. “It’s just
+— man. I wonder. I wonder if I would have just freaking grabbed the dude.
+Grabbed his hand, thrown the grenade away or something. I could have got him
+some medical treatment.”
+
+If he had, then that enemy soldier would have ended up with a unit like mine,
+surrounded by doctors and nurses and Navy corpsmen who would have cared for
+him in accordance with the rules of law. They would have treated him well,
+because they’re American soldiers, because they swore an oath, because they
+have principles, because they have honor. And because without that, there’s
+nothing worth fighting for.

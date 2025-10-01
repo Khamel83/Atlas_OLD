@@ -1,0 +1,455 @@
+# ESPN.com - NBA playoffs are 'Wired': Part 2
+
+**Source**: http://sports.espn.go.com/espn/print?id=6469283&type=story
+**Type**: article
+**Created**: 2025-08-13T20:52:19.864241
+
+---
+
+title: ESPN.com - NBA playoffs are 'Wired': Part 2
+source: http://sports.espn.go.com/espn/print?id=6469283&type=story
+date: 2025-08-13T20:52:19.049284
+tags: []
+---
+**Tuesday, May 3, 2011  
+** NBA playoffs are 'Wired': Part 2  
+
+* * *
+
+By Bill Simmons  
+ESPN.com  
+  
+
+If you missed Part One, [CLICK
+HERE](http://sports.espn.go.com/espn/page2/story?page=simmons/part1/110503&sportCat=nba).
+Here's Part Two.
+
+**30\. "I treated you like a son."  
+31\. "I wasn't made to play the son."**
+
+To Rajon Rondo, if only because this sounds like something he'd say to Doc
+Rivers. I have spent as much time trying to figure out Rondo these last few
+years as either of my kids. He's like a cat: Sometimes he jumps on your lap,
+sometimes you don't see him for days, sometimes he goes down in the basement
+and kills mice for you, sometimes he's kicking over his own kitty litter box,
+sometimes he's inexplicably beating up a poodle, sometimes he's hissing at
+your children … you just never know. The good thing about him: You always know
+in the first quarter. _Did we get Good Rondo today? YES! We got Good Rondo!_
+And lemme tell you something: Boston isn't beating Miami unless Good Rondo
+shows up four times. At least.
+
+**32\. "Mr. Little, how does a man rob drug dealers for 8 or 9 years and live
+to tell about it?"  
+33\. "Day at a time, I suppose."**
+
+To Carlos Boozer, Chicago's big free-agent catch who seems to be gaining
+"Carlos Boozer's 2015 Expiring Contract" potential as the postseason drags
+along. I don't want to overreact except to say that we're going to need more
+rebounding, more 15-footers and more chest hair … and soon. Besides, this
+isn't the Summer of 2010 mistake that's haunting the Bulls.
+
+**34\. ''I admire a man with confidence."  
+35\. "I don't see no sweat in your brow either, bro."**
+
+To Ray Allen, who nailed so many big shots for Boston in four years that it's
+reached "even if you know we're running this double-screen for him, we're
+doing it anyway," status and he's still as reliable as anyone. If Chicago
+doesn't win the 2011 title, it will be because they didn't overwhelm Allen
+with a three-year, $40 million offer last summer. In their defense, I think
+_they_ thought they were a year away -- they never expected Rose to make The
+Leap that soon. But why pursue a J.J. Redick/Kyle Korver tandem for the same
+money that it would have taken to get Ray?
+
+Clearly, they read the tea leaves: Barring injury, Ray should remain at this
+level until he's 38 or 39. One of my favorite parts of this year's "The
+Association" was learning more about Ray's preparation -- how early he gets to
+the arena, where he shoots on the floor, how much thought he puts into
+everything -- and coming away thinking, "Wait, this guy is kind of a lunatic!"
+And I mean that in the nicest way possible -- he wouldn't waver from his
+routine for anything, not even if it meant shooting 3s at 4:00 while they were
+still putting down the floor, or trying to get his drills done as a
+cheerleading squad practiced 20 feet away. He did everything short of shooting
+jumpers while muttering "15 minutes until Wapner, 15 minutes until Wapner" or
+counting 250 toothpicks that just dropped on the floor. As recently as last
+year, arguing "Reggie Miller versus Ray Allen" was as fun as arguing "The
+Sopranos" versus "The Wire" -- you could make compelling cases for each side,
+even if the Reggie/Sopranos backers were arguing with their hearts and not
+their heads (and romanticizing certain things about the player/show that
+became distorted narratives over time). After Allen's 2010-11 season? There is
+no more debate.
+
+**36\. "All Perk can do is foul me. … He's too slow. I don't think nobody in
+the league can stop me. Not only Perk. I tell Perk to his face. I already told
+him before.''**
+
+Whoops, that wasn't from "The Wire" -- that's what Z-Bo said after Game 1
+against Oklahoma City. As if we didn't have enough of a reason to be excited
+about that series -- now here's Z-Bo trying to make Kendrick Perkins' scowl
+actually explode like a grenade.
+
+**36\. "You are a parasite who leeches off the culture of drugs."  
+37\. "Just like you, man."  
+38\. "Excuse me, what?"  
+39\. "I got the shotgun. You got the briefcase. It's all in the game though,
+right?"**
+
+One of the best chess moves of the series (Omar turning the tables on a lawyer
+in court) goes to the best chess move of Round 1: Atlanta's Larry Drew
+adopting Boston's defensive tactic of "Knock yourself out, Dwight, score as
+many points as you want, we're singling you and making sure nobody else gets
+an open jump shot" and daring Howard to put up 50-20s to beat them. It threw
+Orlando off its game and exposed how pedestrian their 2-through-12 guys are …
+and by the way, had anyone tried this with Shaq from 2000 to 2002, he would
+have averaged 50 a game, so Howard's legacy took a small hit even as he was
+throwing up 35-15s. If the other team's game plan is "Get yours, knock
+yourself out," that has to mean something. Right?
+
+**40\. "I'm Proposition Joe. You f**k with me, I'll kill your whole family."**
+
+To David Stern, who might have to work all his magic to prevent the following
+ABC commercial: "Randolph! Horford!!!!!! It's the Grizzlies and the Hawks,
+Game 1 of the 2011 Finals, June 2 on ABC!"
+
+(And you know what? Even though it's totally far-fetched, it's not that far-
+fetched: The Grizzlies are playing better than anyone in the West; the Hawks
+are threatening to become the first team that ever quit on its coach in the
+regular season, then forgot they quit once the playoffs started; and if the
+Bulls continue to look like a regular-season mirage, and Miami and Boston wear
+each other out, who the heck knows what will happen? For the record, I'm not
+willing to give up on the Bulls -- they remind me of the 2008 Celtics in that
+they played the regular season in fifth gear, now they're trying to find that
+Fast and Furious NOS button for an extra burst. If you remember, it took the
+2008 Celts two and a half rounds to find the NOS. I bet the Bulls find it. You
+wait. And yes, I'm making that prediction while being fully aware that their
+only crunch-time play right now is "Get out of Derrick's way.")
+
+**41\. "My name was on the street? When we bounce from this sh*t here, y'all
+going to go down on them corners and let the people know: Word did not get
+back to me. Let them know Marlo step to any motherf**ker. Omar, Barksdale,
+whoever. My name is my name!!!"**
+
+To Dwyane Wade, who obviously got tired of hearing how well Boston played him
+and submitted a pantheon performance in Game 1: scoring at will and ending up
+with 38 points, chasing Ray Allen around dozens of screens, finding time to
+goad Paul Pierce into getting thrown out, even carrying himself with the same
+defiance that Marlo had after finding out that his name was on the street.
+_Command of the room._ That was Wade in Game 1. I continue to be most
+frightened of Miami when Wade is Michael Eisner and LeBron is Frank Wells.
+
+**42\. "We gonna see who got the bigger war chest."**
+
+To our first Dirk/Kobe playoff series ever. I have no idea how this never
+happened before -- it's like Rick Fox never having sex with one of the
+Kardashian sisters, it's practically a statistical impossibility.
+
+**43\. "You think I'm going down dontcha? You-you-you think I'm done. All you
+ungrateful bitches think you can throw me out of the boat."**
+
+To the great Chris Paul, who left his knee brace behind, shifted from third to
+fifth gear and played two of the best games in the history of the point guard
+position (Game 1 and Game 4) against a superior Lakers team. I tweeted this
+before, I'll say it again: We should be burning DVDs of those games and making
+them mandatory viewing for every aspiring point guard at every basketball
+camp. _This is how you play the position: create good shots for other guys,
+keep them involved, keep them playing hard, keep motivating them, take care of
+the ball, make the right decision on every fast break, and when things break
+down, you need to take over and score yourself._ He's the evolutionary Isiah
+Thomas, the best pure point guard who ever played, and if you had to pick ONE
+special subplot of Round 1, it has to be this: Because of his knee issues, we
+didn't know if Paul could get to this level anymore. Wrong.
+
+**44\. "That's my money."  
+45\. "Man, money ain't got no owners. Only spenders."**
+
+Another classic Omar quote (from when he robbed Marlo during a poker game)
+goes to Orlando GM Otis Smith. Hey Otis, do you realize you have $57 million
+committed to seven guys for the 2012-13 season, and none of those guys are
+Dwight Howard??? Do you want to work for TNT, NBA TV or ESPN that year? I'd
+start thinking about it now.
+
+**46\. "That's good. That's like a 40-degree day. Ain't nobody got nuttin to
+say about a 40-degree day. Fifty? Bring a smile to your face. Sixty? Sh*t,
+n****s are damn near barbecuing that motherf**ka. Go down to 20? N****s get
+they bitch on. Get they blood complainin' ... but 40? Nobody give a f**k about
+40. Nobody remember 40, and y'all n****s is giving me way too many 40-degree
+days."**
+
+One of the most colorful monologues in the show's history (Stringer Bell
+yelling at his drug soldiers to step it up) goes to Phil Jackson, whose Lakers
+team is definitely giving him too many 40-degree days. It's OK for a former
+champ to trust your on/off switch and wait until you feel that familiar wall
+against your back (the '88 Lakers, '95 Rockets and '02 Lakers are three good
+examples), but once you start wearing that switch out, you never know when the
+wrong team can catch you … like how the '07 Cavaliers caught the Pistons, or
+how the '11 Grizzlies caught the Spurs last week. That switch has a shelf
+life. These Lakers can beat the Mavs in 40-degree mode, but not the Grizzlies
+or Zombie Sonics (much less the best Eastern team).
+
+Speaking of Stringer, here are three more reasons why "The Wire" was the
+greatest show ever: Not only did it shove the show's lead (McNulty) into the
+background for an entire season, but it killed off the show's single most
+compelling character (Stringer) with two seasons to go AND killed off
+everyone's favorite character (Omar) halfway through its final season. It went
+against everything that's ever worked in television history, but it also fit
+into the premise of the show: There were no winners in Baltimore, only
+survivors, and you never knew when your time was going to be up.
+
+**47\. "Well it seem like I can't say nuttin' to change y'all minds."**
+
+To the NBA, who made the same mistake it makes every year: using local
+announcing feeds in Round 1 over two professional, impartial announcers who
+may have called the game without cheering wildly for one of the two teams. For
+Game 2, the poor Grizzlies fans had to listen to Sean Elliott and his yahoo
+play-by-play partner cheer for the Spurs like Little League parents,
+repeatedly use the word "we," and compare Ginobili's return from an elbow
+injury to Willis Reed's comeback in Game 7 of the 1970 Finals. All so the NBA
+could save a couple of grand in traveling expenses. Here's an idea: Charge an
+extra quarter next year for the NBA Season pass, then spend that extra
+windfall on real play-by-play guys like Ian Eagle and Sean Grande so this
+never happens again. We'll all chip in. I promise you.
+
+**48\. "I see you favor a .45."  
+49\. "Tonight I do. And I keeps one in the chamber in case you ponderin'."**
+
+To Dirk Nowitzki, who reinvented himself over the years as a fiery competitor
+with the single most unstoppable move in basketball: his foul line post-up
+game that always seems to result in (A) him whirling around his defender and
+getting a layup, (B) him spinning around, sticking his elbows right in the
+defender's mug and launching a jumper that starts over Dirk's head, or (C),
+him fading away with an awkward-looking fade-away that has to rank alongside
+Hakeem's Dream Shake and McHale's mega-fallaway in the Shots That Seem
+Technically Impossible But Go In Anyway pantheon. Do you have any idea how
+that shot goes in? Me neither. I also have no idea how to stop that post-up
+game. Double him and he kicks to an open shooter. Single him and he scores.
+You can't win. Two more years at this level and Judge Simmons will
+begrudgingly have to start taking "Would you rather have nine transcendent
+years from Bird or 13 killer Nowitzki years plus the five after that when he
+reinvents himself as the greatest version of mid-1990s Sam Perkins ever?"
+arguments. Crap.
+
+**50\. "What's up playboy, how come you're wearing that suit? For real, it's
+85 f**kin' degrees out here, you tryin' to be like Pat Riley."  
+51\. "Man, look the part, be the part mothaf**ka."**
+
+As badly as I wanted to give this one to Erik Spoelstra, we're giving it to
+Scottie Brooks, who _looks the part_ , and that's about it right now. Why
+can't Brooks get Westbrook under control? Why does Oklahoma City look so
+confused offensively in the last four minutes of close games? Why do they have
+such a nasty habit of falling behind by double digits in games? Why do they
+always make me say, "Wait, is Flip Saunders coaching this team and nobody told
+me?"
+
+**52\. "Mr. Mayor, about Ervin -- if you don't mind me asking -- why keep him
+as a puppet commissioner when you can just fire the guy?"  
+53\. "We mind you asking."**
+
+To the Knicks ... why are they keeping Mike D'Antoni again? I say trade him to
+the Warriors for a second-round pick and let him find his Part 1 of his three-
+part manifest destiny: coaching a team that scores 110 points a game, can't
+get a defensive stop, has two guards scoring 30-plus a game and occasionally
+plays home games that make you say, "158-153 -- is that a bowling score or the
+score of last night's Warriors game?"
+
+(In case you're wondering, Part 2 is "coaching a WAC team that averages 100
+points per game" and Part 3 is "returning to Phoenix to coach the Mercury."
+And … scene!)
+
+**54\. "You're not even worth the skin off my knuckles, junior."**
+
+To Joakim Noah -- it just seems like something he'd say, or even better,
+something a veteran power forward would say after debating for 5 to 6 seconds
+whether to punch him in the face or not. Not since Bill Laimbeer have we seen
+someone deliberately agitate playoff opponents like this -- that's why I
+parlayed the Bulls beating Atlanta with over 2.5 head butts by Zaza Pachulia
+on Noah.
+
+**55\. "As rough as that neighborhood could be, we had us a community. Nobody,
+no victim, who didn't matter. And now all we got is bodies, and predatory
+motherf**kers like you. And out where that girl fell, I saw kids acting like
+Omar, calling you by name, glorifying your ass. Makes me sick, motherf**ker,
+how far we done fell."**
+
+One of the show's most poignant moments (Bunk laying into Omar and everything
+he stands for) goes to the most poignant moment of Round 1: Brandon Roy's
+unfathomable Game 4 performance, when he dragged Portland back from 20 down
+for an astonishing comeback victory that doubled as "The Round 1 Game You
+Would Have Most Wanted To Be In The Building For" and guaranteed him a free
+trip to the 2011 ESPYS. I wrote once that true sports fans feel obligated to
+watch _everything_ hoping they might catch one of those rarer than rare sports
+moments -- something that might happen once every 2,500 times -- and that we
+put up with the other 2,499 times for that 2,500th time when something magical
+might happen. The Brandon Roy game was definitely a 2,500th Time Game. There's
+no question. I will always remember watching it. That specific player, in
+front of those specific fans, at this specific point of his career? I still
+can't believe it happened.
+
+Quick tangent: During the tail end of Larry Bird's career, after his body had
+betrayed him, my father and I went to a playoff game against Detroit when Bird
+couldn't hit anything. Then a bird flew from the rafters, parked himself near
+midcourt and wouldn't leave. The crowd started chanting, "Lar-ree! Lar-ree!
+Lar-ree!" They got rid of the bird. Larry came out and started making jumpers.
+A bunch of them. The fans were beside themselves. We won the game. And as we
+were leaving, my dad looked at me and said, "Did that just happen?" Anyway,
+it's one thing to watch a game like that on television -- but being in the
+building for a "Did that just happen?" game. You never forget. You just don't.
+The Blazers may have lost in Round 1, but their fans will always have that
+game.
+
+**56\. "Sheeeeeeeeeeeeeee-eeeeeeeet."**
+
+Clay Davis' signature line goes to me and my friend Sal, who made one of the
+great wagers in sports history if gambling were legal (we took Memphis in 5 at
+20-to-1 odds), opted against hedging with the Spurs in Game 5 … and you know
+the rest. Put it this way: If Sal and I had bet on the U.S. killing Osama bin
+Laden in 2011, the Navy Seals would have missed him. Sheeeeeeeeee-eeeeeeet.
+
+**57\. "You know what the difference is between me and you? I bleed red and
+you bleed green. I look at you these days, you know what I see? I see a man
+without a country. You're not hard enough for this right here and maybe, just
+maybe, not smart enough for them out there."**
+
+Avon's famous quote to Stringer (the scene when their friendship undeniably
+started to fall apart) goes to Russell Westbrook, who unleashed some serious
+Stringer potential with his Marburyish performance in Game 4 in Denver: 30
+shots and two egregious "don't you know that you have Kevin Durant on your
+team???" bricks in the final two minutes.
+
+I joked all season on Twitter about the Avon/Stringer potential with Durant
+and Westbrook, never seriously thinking it might manifest itself, that a
+balcony scene was looming, that they'd end up wrestling on the floor, or even
+that Durant might give him up to Omar and Brother Mouzone someday. And it may
+have just been a one-game aberration, obviously. But this goes back to the
+"stay in your lane" concept. Westbrook is "hard enough for this right here"
+(you could never question his competitive fury, which ranks up there with
+anybody), but he's not always "smart enough for them out there" (getting
+teammates involved, taking care of the ball, controlling the pace of the game,
+etc.). At least not yet.
+
+**58\. "You know Avon, you gotta think about what we got in this game for,
+man. Was it for the rep? Was it so our names could ring out of some f**king
+ghetto street corners? No man, there's games beyond the f**king game."**
+
+Sorry, I'm not done with Westbrook yet. Oklahoma City has enough talent to win
+the 2011 title -- it's sitting right there for them -- but it's going to hinge
+on how Westbrook runs the show. There's a game beyond the f**king game and I
+don't think he can totally see it yet. He's learning on the fly. A crash
+course, if you will. I don't trust him yet. Stephon Marbury never found that
+balance between scoring and creating; Allen Iverson only found it when they
+moved him off the ball. Can Westbrook find it on the fly? Either way, Durant's
+unreal fourth quarter in Game 5 was the best reality check possible: He
+basically hired Brother Mouzone and Omar to shoot Stringer Westbrook. We'll
+see if he comes back from the dead.
+
+That reminds me, I thought Chuck and Kenny did a spectacular job of breaking
+down Westbrook's struggles in Game 5 -- he took some heat for the first time
+(for Game 4) and it clearly affected him, but as Kenny pointed out (I'm
+paraphrasing), if you want to be great, you need to learn how to handle being
+the hero and being the goat. That's the final stage for a basketball player.
+Durant struggled earlier in the season, took some heat, questioned himself a
+little, and ultimately, it made him stronger. Now it's Westbrook's turn. To be
+continued.
+
+**59\. "Be subtle with it, man. You know what subtle means?"  
+60\. "Laid back and sh*t."**
+
+To Mark Cuban and Phil Jackson, who spent the last decade [sniping at one
+another](http://lakersblog.latimes.com/lakersblog/2011/01/highlighting-the-
+memorable-phil-jacksonmark-cuban-exchanges.html) and finally get to whip it
+out for a playoff series with rulers and everything.
+
+If you're scoring at home, I have "Cuban versus Jackson" ranked as the seventh
+most compelling Mavs-Lakers subplot behind "Dirk versus Kobe"; "Who are the
+Lakers' best five guys?" (somehow we're at Game 89 and they still haven't
+figured it out, which is NOT a good sign if you're a Lakers fan); "Are the
+Mavs deliberately defending Kobe with Kidd so Kobe's eyes will light up and
+he'll shoot 30 times a game?" (I say yes); "If Marc Gasol becomes more
+relevant than Pau, is that the biggest brotherly upset since the time when
+Charlie Murphy briefly became cooler than Eddie?"; "Did you ever think J.J.
+Barea would be an X factor of any professional basketball playoff series that
+wasn't being played in Eastern Europe?"; and "Will Lamar learn to clean up
+after himself on this week's 'Khloe and Lamar'?"
+
+**61\. "Now you make sure you tell old Marlo I burned the money. 'Cause it
+ain't about that paper. It's about me hurtin' his people and messin' with his
+world. Tell that boy he ain't man enough to come down to the street with Omar.
+You tell him that!"**
+
+To the Celtics, who carried themselves with this kind of swagger for much of
+the Garnett Era … then Tony Allen left, the Perkins trade happened, Big Baby
+went into his bizarre swoon, Nenad Krstic turtled into his shell, Jeff Green
+developed the "overwhelmed college kid who just wants to transfer" face and
+Garnett slowly turned into "The Guy Who's Suddenly Not As Much of a Bully
+Because He's Not Totally Sure That Anyone Has His Back." Chicago noticed and
+exploited it during their April 7 game; Miami did the same in Game 1,
+intentionally turning things chippy and knocking Boston out of sorts. The
+Celtics aren't protecting their corners like they once did. That's the bottom
+line. We're heading to the point that Doc Rivers might need to charge the
+court [like Al Attles in the 1974
+Finals](http://www.youtube.com/watch?v=LdRAy7_g5Y0&t=3m2s) to flip this
+around, because I'm not sure anyone else on the team wants to do it.
+
+**62\. "It doesn't matter if he said it or not. People think he said it. Can't
+let that sh*t go."**
+
+To Kobe Bryant, who spent the last few years fueling himself with petty
+slights just like Jordan did once upon a time, only now he's looking at the
+possibility of being the second-best player in two straight series (Round 1
+against New Orleans, Round 2 against Dallas). We've seen Kobe get outplayed in
+a series before -- like Detroit in 2004, or Boston in 2008 -- but not since he
+was playing with 2002 Shaq could we definitely say, "Kobe Bryant is absolutely
+NOT the best player in this series." Chris Paul played better than him;
+Nowitzki might be next. How will Kobe handle that? Will he overcompensate?
+Does he know, deep down, that he's entering a different phase of his career?
+Does he have something left in his apex predator tank and we just haven't seen
+it yet?
+
+I was talking to Someone Who Knows Kobe recently and this person was telling
+me, adamantly, that Kobe only cares about passing Jordan's six titles. The
+all-time scoring record? Blah. Being the best Laker ever? Blah. He measures
+himself by rings. Or so this person claimed. Well, if that's true, and Kobe
+can sense the changing of the guard that's happening right now, with the
+Dirk/Kobe/Garnett/Duncan/Pierce/Kidd generation doing everything it can to
+fend off the Rose/Durant/LeBron/Rondo/Paul/Howard generation -- no different
+than Avon figuring out how to handle Marlo, if you think about it -- then
+Kobe's history suggests that he will start overcompensating soon (more shots,
+more hero complex stuff along the lines of Game 1 against Dallas) and Phil
+Jackson will start planting those thinly veiled digs to bring him back into
+the fold, and they'll be doing their old dance one last time. It couldn't end
+any other way.
+
+**63\. "A life, Jimmy. You know what that is? It's the sh*t that happens while
+you're waiting for moments that never come."**
+
+To LeBron James. We're waiting.
+
+**64\. "Marlo ain't worth it, man. Nobody is."  
+65\. "Marlo's an assh*le. He doesn't get to win. WE get to win!"**
+
+I was going to give this defining Wire moment (a frustrated McNulty just being
+unable to accept that Marlo's kind always ends up winning in the end) to every
+Celtics fan for how we feel about the Heat. Then it struck me: You could give
+this exchange to five or six fan bases. You know what came back for these
+playoffs more than anything else? Good old-fashioned sports hate. Everyone
+hates Miami. Miami fans hate Boston and Chicago. Chicago fans hate Boston,
+Miami and the Lakers. Lakers fans and Dallas fans will learn to hate each
+other -- quickly -- and don't forget, nobody despises a team more than Dallas
+fans hate Miami. And then there are Lakers fans and Celtics fans, who hate
+each other's teams almost religiously at this point. _They don't get to win.
+WE get to win!_ It's the recurring theme of the 2011 playoffs. God bless 'em.
+
+Bill Simmons is a columnist for ESPN.com and the author of the recent New York
+Times No. 1 best-seller "The Book of Basketball," now out in paperback with
+new material and a revised Hall of Fame Pyramid. For every Simmons column and
+podcast, check out [Sports Guy's
+World](http://sports.espn.go.com/espn/page2/simmons/index) or the [BS Report
+page](http://espn.go.com/espnradio/show?showId=bsreport). Follow him on
+Twitter at http://twitter.com/sportsguy33.
+
+[Back to Page 2](http://espn.go.com/espn/page2/)
+
+  
+
+  
+  
+
+* * *

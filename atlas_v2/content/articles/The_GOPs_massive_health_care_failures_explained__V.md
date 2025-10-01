@@ -1,0 +1,322 @@
+# The GOP’s massive health care failures, explained | Vox
+
+**Source**: https://www.vox.com/health-care/2017/7/28/16055284/gop-massive-health-care-failures-explained
+**Type**: article
+**Created**: 2025-08-13T17:07:21.108169
+
+---
+
+title: The GOP’s massive health care failures, explained | Vox
+source: https://www.vox.com/health-care/2017/7/28/16055284/gop-massive-health-care-failures-explained
+date: 2025-08-13T17:07:19.985949
+tags: []
+---
+The remarkable thing is not that [the Health Care Freedom
+Act](/2017/7/27/16054114/health-care-freedom-act-hcfa-obamacare-repeal)
+failed. It’s that it almost passed.
+
+The HCFA, the last-ditch effort to uphold Republicans’ promise to repeal
+Obamacare, was something unusual in politics: a bill that senators would only
+support if they were assured it would never become law. The hastily drafted
+legislation, which was only released three hours before the vote, would have
+detonated the Affordable Care Act’s individual markets without building
+anything in their place — as such, the Congressional Budget Office
+[estimated](/2017/7/27/16054278/senate-healthcare-freedom-act-cbo-score) the
+bill would drive 16 million people into the ranks of the uninsured, and
+estimates of similar bills in the past had projected skyrocketing premiums. No
+one wanted that.
+
+Usually, “no one wants what this bill does to happen” means the bill dies a
+quick death. But the argument for the HCFA was precisely that it would never
+become law. It was proposed as a vehicle to begin negotiations with the House.
+“The skinny bill, as policy, is a disaster,” said Lindsey Graham, a Republican
+senator from South Carolina. Yet he voted for it anyway. By the end of the
+process, Senate Republicans were in the absurd position of begging House
+Speaker Paul Ryan for assurances that he would not let the House pass the bill
+the Senate was sending them.
+
+This never made a lick of sense: If Senate Republicans didn’t want the bill
+they had released to become law, and they wanted to write a better one
+instead, why didn’t they abandon the bill they didn’t want to become law, and
+write a better one instead? How would involving the House — and giving up
+control over both the policy and the process — make their job easier or the
+final bill, in their eyes, better?
+
+There was never an answer to these questions. The bill was garbage, and the
+process was nonsense. And 49 Republican senators voted for it anyway.
+
+## The Senate rejected five different Obamacare replacement bills, not just
+one
+
+It’s important to remember that the Senate did not just reject one health care
+bill during this process. It rejected, depending on how you count, three,
+four, or maybe even five.
+
+There was the American Health Care Act, which passed the House but was
+considered dead on arrival in the Senate.
+
+There was the original version of Majority Leader Mitch McConnell’s Better
+Care Reconciliation Act, which would have failed on the floor and so was
+yanked back for revisions.
+
+There was the Ted Cruz-ified version of the Better Care Reconciliation Act,
+which gutted insurance regulations (including preexisting conditions) and was
+defeated in a 43-57 vote.
+
+There was the Obamacare Repeal and Reconciliation Act, which would have
+repealed Obamacare without specifying a replacement, and which failed 45-55 on
+the floor.
+
+And then there was “skinny repeal” — the Health Care Freedom Act, which would
+have repealed the individual mandate but left the Medicaid expansion. Last
+night, Susan Collins, Lisa Murkowski, John McCain, and every Senate Democrat
+sent the bill to a 49-51 defeat. But that likely overstates the bill’s
+support, given that many of the Republicans who voted for it only did so under
+the assumption that they would move to negotiations with the House and nothing
+like the HCFA would ever become law.
+
+Republicans have, at this point, considered a wide array of Obamacare repeal
+plans. Some of them used income-based tax credits and some used age-based tax
+credits and some kept Obamacare’s tax credits. Some had massive Medicaid cuts,
+and some didn’t. Some gutted Obamacare’s insurance regulations, and others
+largely left them intact. But none of them came anywhere near 51 votes for
+final passage in the Senate.
+
+## Paul Ryan, Mitch McConnell, and Donald Trump all failed in different ways
+
+In different ways and at different times, the Obamacare repeal-and-replace
+process has shredded the myths built around the GOP’s key elected leaders.
+
+House Speaker Paul Ryan, author of the ambitious budgets that had served as
+the GOP’s effective answer to the Obama administration’s plans, was considered
+the party’s great policy mind — the figure who could unite Republicans around
+a single, coherent agenda. But his American Health Care Act was widely
+considered a mess, and the Senate trashed it without a second look.
+
+The expectation then was that Mitch McConnell, the wily leader of the Senate
+Republicans, would save the day. But McConnell, we’ve learned, is far better
+at leading a minority than managing a majority. From the outset, his process
+was all tactics and no strategy: He knew he wanted to pass something, but he
+didn’t know what he wanted to pass, and he wasn’t willing to entrust the
+process to the committees or members with a clearer vision, or a clearer
+process for coming to a vision.
+
+The result was a bill designed in secrecy, built atop backroom deals, and
+crafted with little buy-in from his members. The final text of the final bill
+was not available until mere hours before the vote. Republican senators
+regularly voiced their frustration and disappointment in the process,
+culminating in McCain’s dramatic speech where he blasted the way McConnell had
+managed the health care effort:
+
+> We’ve tried to do this by coming up with a proposal behind closed doors in
+> consultation with the administration, then springing it on skeptical
+> members, trying to convince them it’s better than nothing, asking us to
+> swallow our doubts and force it past a unified opposition. I don’t think
+> that is going to work in the end. And it probably shouldn’t.
+
+McCain’s final vote killing McConnell’s process reflected these concerns.
+“I’ve stated time and time again that one of the major failures of Obamacare
+was that it was rammed through Congress by Democrats on a strict-party line
+basis without a single Republican vote. We should not make the mistakes of the
+past that has led to Obamacare’s collapse,” he said in a
+[statement](https://www.mccain.senate.gov/public/index.cfm/press-
+releases?ID=A952CCCA-66D2-4570-9D57-514561BF3D4D). “We must now return to the
+correct way of legislating and send the bill back to committee, hold hearings,
+receive input from both sides of aisle, heed the recommendations of nation’s
+governors, and produce a bill that finally delivers affordable health care for
+the American people.”
+
+And then there’s President Donald Trump. The dealmaker in chief has proven a
+singular impediment to making a deal. The core problem is Trump has no idea
+what he’s talking about on health care and never bothered to learn. “Nobody
+knew health care could be so complicated,” he famously, and absurdly, said.
+His inability to navigate its complexities meant he couldn’t make persuasive
+arguments on behalf of the bills he supported, and he routinely made
+statements that undercut the legislative process and forced Republicans to
+defend the indefensible.
+
+Trump’s [post-election promise](https://www.washingtonpost.com/politics/trump-
+vows-insurance-for-everybody-in-obamacare-replacement-
+plan/2017/01/15/5f2b1e18-db5d-11e6-ad42-f3375f271c9c_story.html?utm_term=.eeab6b49521b)
+of “insurance for everybody” with “much lower deductibles” set up a standard
+Republicans had no intention of ever meeting but kept having to answer for. At
+his occasional
+[meetings](http://www.politico.com/magazine/story/2017/03/obamacare-vote-paul-
+ryan-health-care-ahca-replacement-failure-trump-214947) with wavering members
+of Congress, he’s made superficial political arguments to people who had deep
+policy concerns. The discussions left legislators feeling insulted and annoyed
+that the president hadn’t bothered to do the barest amount of homework.
+
+Because Trump didn’t understand the legislation or the trade-offs it made, he
+couldn’t make persuasive arguments on its behalf in public or private, and so
+he mostly didn’t try. Trump and his team were not frequent presences in the
+public debate trying to sell the legislation they were so keen to sign. That’s
+one reason the various bills routinely polled around 20 percent: Without Trump
+using the bully pulpit to argue on behalf of the legislation, critics,
+terrible Congressional Budget Office reports, and news of congressional
+infighting filled the void.
+
+When Trump did weigh in, it was often a disaster. Asked by Fox News’s Tucker
+Carlson how he responded to analyses showing the House health bill would hurt
+the people who voted for him, he replied, “Oh, I know,” and said the bill was
+“very preliminary.” Later, after holding a Rose Garden ceremony to celebrate
+the passage of the House health bill, he called it “mean.” But he never
+articulated a standard for a bill that wouldn’t be mean, and he never came up
+with a policy that wouldn’t hurt his supporters.
+
+Perhaps Trump still could have been useful if he had a deep well of support or
+loyalty to draw on with wavering Republican senators. But the reality is quite
+the opposite. He has called McCain a “dummy” and said the former prisoner of
+war is “not a war hero.” When pressed on the point, Trump elaborated, “he’s a
+war hero because he was captured. I like people that weren’t captured.”
+
+Similarly, the Trump administration had spent the past week enraging Lisa
+Murkowski by threatening to punish Alaska for her intransigence. Their
+hardball tactics [only made her
+angrier](https://www.washingtonpost.com/news/powerpost/paloma/daily-202/2017/07/28/daily-202-trump-
+s-hardball-tactics-backfire-as-skinny-repeal-goes-
+down/597a7cf630fb045fdaef0fd5/).
+
+We can’t run the counterfactual of this process occurring under a president
+who had built good relationships with McCain and Murkowski rather than
+alienating them both, but Trump’s actions here clearly weren’t helpful.
+
+So here, then, is what the GOP is left with: a speaker of the House who cannot
+craft the consensus agenda Republicans expected of him, a Senate majority
+leader whose tactical maneuvering is proving ineffective when divorced from a
+larger vision or uniting cause, and a president who can’t make a deal because
+he doesn’t understand how to work with the policies or the personalities
+involved. If and when the GOP moves on to other issues, its key leaders will
+do so with far less trust from their members or their base.
+
+## The GOP’s real problem: Obamacare is working, and they never had an
+alternative vision
+
+It remains too early to call the repeal-and-replace effort dead. But it’s
+clearly troubled. And there are two main reasons for that.
+
+The first is that the Affordable Care is popular, it is working in most
+places, and on every dimension that voters care about, it outperforms the
+Republican alternatives.
+
+[Poll after poll](http://elections.huffingtonpost.com/pollster/us-health-bill)
+shows more people now favor the Affordable Care Act than oppose it. It has
+higher approval ratings than Donald Trump, Mitch McConnell, Paul Ryan, or the
+Republican Party. It _far_ outperforms the Republican replacement plans: A new
+[Washington Post/ABC News
+poll](https://www.washingtonpost.com/page/2010-2019/WashingtonPost/2017/07/16/National-
+Politics/Polling/release_480.xml?tid=a_inl) found voters prefer Obamacare to
+the Republican health bill by a 2-to-1 margin — 50 to 24 percent. You rarely
+see numbers like that in American politics.
+
+These numbers are strange if you listen to Republicans describe the Affordable
+Care Act. In their telling, it is always “imploding,” “failing,” “dying,”
+“disastrous.” How can a law in such crisis command such healthy public
+support? The answer is that the law is, for the most part, not in crisis. The
+bulk of its coverage expansion has been through Medicaid, which is immune to
+the problems of the insurance marketplaces. Surveys find that Medicaid
+enrollees[ really like](/policy-and-politics/2017/6/16/15804170/medicaid-poll-
+surveymonkey) their coverage; they’re just as satisfied as people who get
+health insurance at work. Indeed, the Medicaid expansion has proven so
+popular, and so effective, that Senate Republicans from Medicaid-expanding
+states like Ohio and Nevada have been fighting to preserve it.
+
+Nor are the exchanges in anything close to a state of collapse. More than 10
+million people are buying insurance off Obamacare’s exchanges, and
+[surveys](http://www.commonwealthfund.org/publications/issue-
+briefs/2016/may/ACA-tracking-survey-access-to-care-and-satisfaction) show most
+of them are happy with their plans. While there are some counties at risk of
+beginning 2018 without participating insurers, the total number is quite small
+— 38 out of 3,143 counties, according to [the Kaiser Family
+Foundation](http://www.kff.org/interactive/counties-at-risk-of-having-no-
+insurer-on-the-marketplace-exchange-in-2018/).
+
+Obamacare’s biggest problem is the high cost sharing that frustrates those who
+buy coverage on the marketplaces. But all of the Republican bills would lead
+to higher deductibles, higher copays, sparer insurance, and, on an apples-to-
+apples basis, [higher premiums](https://www.brookings.edu/blog/up-
+front/2017/06/28/how-would-the-senates-health-care-bill-affect-individual-
+market-premiums/). The reasons for this are simple: The GOP bills cancel the
+individual mandate, which pushes young and healthy people to buy health
+insurance, and then in most cases slashed Medicaid and Obamacare’s tax credits
+in order to fund tax cuts and deficit reduction. That’s not a popular trade.
+
+If the Affordable Care Act were truly as bad as Republicans say it is, it
+would be easier to replace. But in reality, every bill the GOP produced ended
+up covering fewer people than Obamacare with worse insurance.
+
+The second problem Republicans face is they don’t know what they want their
+replacement to achieve, and they never have. From early in this process, they
+mistook the slogan of “repeal and replace” for an end unto itself when it is,
+in fact, a means. You repeal and replace in order to build a better health
+care system. But Republicans never united around a vision of what that health
+care system would be.
+
+A vivid example of this was Sen. John Cornyn’s late-in-the-game
+[argument](/policy-and-politics/2017/7/7/15924072/republican-health-bill-bcra-
+uninsured) that more uninsured people actually meant more freedom. A sitting
+US senator celebrating Americans’ freedom to not be able to afford health
+insurance sounds like a socialist satire of American values. But it also
+exposed the deepest problem afflicting the GOP’s health care effort: There was
+no clarity within the Republican Party on what its health bill is meant to
+achieve. Top Republicans couldn’t even agree on whether de-insuring tens of
+millions of people is a moral failing or a bold advance for conservative
+values!
+
+Republicans leaders were trying to find a compromise between the wing of their
+party that wants to cover the poor and the wing of their party that doesn’t;
+between those who thought a 22 million increase in the number of uninsured
+Americans is a moral blight and those who believe it a win for freedom. There
+is no sensible policy that splits the difference between perfectly opposed
+goals.
+
+## Where repeal and replace could go next: a bipartisan effort, run through
+committee
+
+The alternative to McConnell’s bill and his process _is the way the Senate is
+actually supposed to work_.
+
+The committees that would normally write a health care bill are the Finance
+Committee and the Health, Education, Labor, and Pensions Committee. Both are,
+at the moment, well-staffed to take on this task. The Finance Committee is
+chaired by Sen. Orrin Hatch — a Utah conservative known, at least in the past,
+for working across the aisle — and the top Democrat is Oregon’s Ron Wyden,
+author of the bipartisan [Healthy Americans
+Act](https://en.wikipedia.org/wiki/Healthy_Americans_Act) and co-author of [a
+health care proposal](https://www.wyden.senate.gov/news/press-releases/wyden-
+and-ryan-advance-bipartisan-plan-to-strengthen-medicare-and-expand-health-
+care-choices-for-all) with House Speaker Paul Ryan.
+
+The HELP Committee is chaired by Tennessee’s Lamar Alexander. This is
+fortuitous. Alexander is one of McConnell’s closest friends and widely
+considered one of the Senate’s most capable legislators. When I ask Democratic
+senators which Republicans they like working with most, he is nearly always
+mentioned. The ranking Democrat on the HELP committee is Washington’s Patty
+Murray, a member of the Democratic Senate leadership and the author of [a
+successful budget
+compromise](https://en.wikipedia.org/wiki/Bipartisan_Budget_Act_of_2013) with
+House Speaker Ryan. Alexander and Murray are good at working together, too —
+they defied expectations and [managed to reform](/2015/7/15/8970605/every-
+child-achieves-act-no-child-left-behind) No Child Left Behind on a bipartisan
+basis in 2015, and pass [the 21st Century Cures
+Act](https://en.wikipedia.org/wiki/21st_Century_Cures_Act) in 2016.
+
+Could Hatch and Wyden and Alexander and Murray work out a deal that could find
+60 votes? I honestly have no idea. Republicans haven’t tried to endear
+themselves to Democrats amid this process, and the fact that they don’t know
+what they want to achieve on health care makes it hard to know what the space
+for bargaining is. But an actual committee process would be one way to find
+out. Alexander, for one, seems eager to try: He is already [scheduling
+hearings](https://www.usatoday.com/story/news/politics/2017/07/18/alexander-
+convene-hearings-stabilizing-health-insurance-market/489611001/) on
+stabilizing Obamacare’s individual insurance markets.
+
+Meanwhile, Democrats remain afraid that, as happened with the House’s American
+Health Care Act, Republicans will revive their process and end up passing a
+bad bill simply because none of them want to be blamed for killing it. Fear
+can be a powerful motivator for compromise.
+
+The collapse of McConnell’s health care bills does not leave him without
+options. He could, if he chooses, do what he should have done in the first
+place and turn this issue over to the committees that are supposed to own it,
+and see if there’s space for a bipartisan bill.

@@ -1,0 +1,35 @@
+# Economist Emily Oster Is Helping Parents Stay Sane in the Coronavirus Pandemic - Bloomberg
+
+**Source**: https://www.bloomberg.com/news/features/2020-10-08/economist-emily-oster-is-helping-parents-stay-sane-in-the-coronavirus-pandemic
+**Type**: article
+**Created**: 2025-08-13T15:49:28.458448
+
+---
+
+title: Economist Emily Oster Is Helping Parents Stay Sane in the Coronavirus Pandemic - Bloomberg
+source: https://www.bloomberg.com/news/features/2020-10-08/economist-emily-oster-is-helping-parents-stay-sane-in-the-coronavirus-pandemic
+date: 2025-08-13T15:49:21.686444
+tags: []
+---
+Over the course of a few days in mid-May in Providence, in between
+homeschooling her 5- and 9-year-olds, grading undergrad research papers,
+baking bread, revising her first book, and co-chairing Brown University’s
+Healthy Fall 2020 Task Force over Zoom, Emily Oster sat down in front of her
+laptop with a steady supply of coffee. A few months earlier she’d started
+writing a [newsletter called
+_ParentData_](http://web.archive.org/web/20250404200020/https://emilyoster.substack.com/
+"Link to newsletter website"), aimed at the following of pregnant women and
+new parents she’s amassed over the years. It started as a guide to making
+data-driven decisions about such things as side sleeping and sippy cups. But
+as with everything else, the pandemic had taken over. She’d wake up each day
+to an inbox full of frantic questions: Was it safe to visit the grandparents?
+Are play dates off the table? What about sending kids back to school?
+
+Oster, an economics professor, has built a thriving career applying the tools
+of her discipline to everyday life. Her first book, 2013’s _Expecting Better:
+Why the Conventional Pregnancy Wisdom Is Wrong—and What You Really Need to
+Know_ , shot her from academic obscurity to household name. It dug into data
+to bat down blanket bans issued by obstetricians (including hers during her
+pregnancies) on deli meats, sushi, and alcohol. “Economists’ core decision-
+making principles are applicable everywhere,” she wrote. “And that includes
+the womb.”

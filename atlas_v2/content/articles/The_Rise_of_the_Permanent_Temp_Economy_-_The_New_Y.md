@@ -1,0 +1,103 @@
+# The Rise of the Permanent Temp Economy - The New York Times
+
+**Source**: inputs/New Docs/html/opinionator.blogs.nytimes.com_2013_01_26_the-rise-of-the-permanent-temp-economy.html
+**Type**: article
+**Created**: 2025-08-25T02:53:52.301672
+
+---
+
+![The Great Divide](https://static01.nyt.com/images/blogs_v3/opinionator/pogs/greatdivide45.png)
+
+[The Great Divide](https://archive.nytimes.com/opinionator.blogs.nytimes.com/category/the-great-divide/) is a series about inequality.
+
+Politicians across the political spectrum herald “job creation,” but frightfully few of them talk about what kinds of jobs are being created. Yet this clearly matters: According to the Census Bureau, one-third
+of adults who live in poverty are working but do not earn enough to support themselves and their families.
+
+A quarter of jobs in America pay below the federal poverty line for a family of four ($23,050). Not only are many jobs low-wage, they are also temporary and insecure. Over the last three years, the temp industry added
+more jobs in the United States than any other, according to the American Staffing Association, the trade group representing temp recruitment agencies, outsourcing specialists and the like.
+
+Low-wage, temporary jobs have become so widespread that they threaten to become the norm. But for some reason this isn’t causing a scandal. At least in the business press, we are more likely to hear plaudits
+for “lean and mean” companies than angst about the changing nature of work for ordinary Americans.
+
+How did we arrive at this state of affairs? Many argue that it was the inevitable result of macroeconomic forces — globalization, deindustrialization and technological change — beyond our political control.
+Yet employers had (and have) choices. Rather than squeezing workers, they could have invested in workers and boosted product quality, taking what economists call the high road toward more advanced manufacturing
+and skilled service work. But this hasn’t happened. Instead, American employers have generally taken the low road: lowering wages and cutting benefits, converting permanent employees into part-time and contingent
+workers, busting unions and subcontracting and outsourcing jobs. They have done so, in part, because of the extraordinary evangelizing of the temp industry, which rose from humble origins to become a global behemoth.
+
+The story begins in the years after World War II, when a handful of temp agencies were started, largely in the Midwest. In 1947, William Russell Kelly founded Russell Kelly Office Service (later known as Kelly Girl
+Services) in Detroit, with three employees, 12 customers and $848 in sales. A year later, two lawyers, Aaron Scheinfeld and Elmer Winter, founded a similarly small outfit, Manpower Inc., in Milwaukee. At the time,
+the future of these fledgling agencies was no foregone conclusion. Unions were at the peak of their power, and the protections that they had fought so hard to achieve — workers’ compensation, pensions,
+health benefits and more — had been adopted by union and nonunion employers alike.
+
+But temp leaders were creating a new category of work (and workers) that would be exempt from such protections.
+
+> The temp agencies’ Kelly Girl strategy was clever (and successful) because it exploited the era’s cultural ambivalence about white, middle-class women working outside the home.
+
+To avoid union opposition, they developed a clever strategy, casting temp work as “women’s work,” and advertising thousands of images of young, white, middle-class women doing a variety of short-term
+office jobs. The Kelly Girls, Manpower’s White Glove Girls, Western Girl’s Cowgirls, the American Girls of American Girl Services and numerous other such “girls” appeared in the pages
+of Newsweek, Business Week, U.S. News & World Report, Good Housekeeping, Fortune, The New York Times and The Chicago Daily Tribune. In 1961 alone, Manpower spent $1 million to put its White Glove Girls in the
+Sunday issue of big city newspapers across the country.
+
+The strategy was an extraordinary success. Not only did the Kelly Girls become cultural icons, but the temp agencies grew and grew. By 1957, Kelly reported nearly $7 million in sales; in 1962, with 148 branches and
+$24 million in sales, it went public. Meanwhile, by 1956 Manpower had 91 branches in 65 cities (and 10 abroad) and, with sales at $12 million annually, employed some 4,000 workers a day. In 1962, Manpower also went
+public, boasting 270 offices across four continents and over $40 million in sales.
+
+The temp agencies’ Kelly Girl strategy was clever (and successful) because it exploited the era’s cultural ambivalence about white, middle-class women working outside the home. Instead of seeking to replace
+“breadwinning” union jobs with low-wage temp work, temp agencies went the culturally safer route: selling temp work for housewives who were (allegedly) only working for pin money. As a Kelly executive
+told The New York Times in 1958, “The typical Kelly Girl… doesn’t want full-time work, but she’s bored with strictly keeping house. Or maybe she just wants to take a job until she pays
+for a davenport or a new fur coat.”
+
+Protected by the era’s gender biases, early temp leaders thus established a new sector of low-wage, unreliable work right under the noses of powerful labor unions. While greater numbers of employers in the postwar
+era offered family-supporting wages and health insurance, the rapidly expanding temp agencies established a different precedent by explicitly refusing to do so. That precedent held for more than half a century:
+even today “temp” jobs are beyond the reach of many workplace protections, not only health benefits but also unemployment insurance, anti-discrimination laws and union-organizing rights.
+
+By 1967 Manpower employed more workers than corporate giants like Standard Oil of New Jersey and the U.S. Steel Corporation. Manpower and the other temp agencies had gained a foothold, and temporary employment was widely
+considered a legitimate part of the economy. Now eyeing a bigger prize — expansion beyond pink-collar work — temp industry leaders dropped their “Kelly Girl” image and began to argue
+that all employees, not just secretaries, should be replaced by temps. And rather than simply selling temps, they sold a bigger product: a lean and mean approach to business that considered workers to be burdensome
+costs that should be minimized.
+
+For example, in 1971 the recently renamed Kelly Services ran a series of ads in The Office, a human resources journal, promoting the “Never-Never Girl,” who, the company claimed: “Never takes a
+vacation or holiday. Never asks for a raise. Never costs you a dime for slack time. (When the workload drops, you drop her.) Never has a cold, slipped disc or loose tooth. (Not on your time anyway!) Never costs
+you for unemployment taxes and Social Security payments. (None of the paperwork, either!) Never costs you for fringe benefits. (They add up to 30% of every payroll dollar.) Never fails to please. (If your Kelly
+Girl employee doesn’t work out, you don’t pay.)”
+
+Photo
+
+![A Kelly Girl advertisement for "The Never-Never Girl."](https://static01.nyt.com/images/2013/01/27/opinion/27inequality-img/27inequality-img-blog427-v2.jpg)
+
+A Kelly Girl advertisement for "The Never-Never Girl."Credit Source: The Office
+(January 1971): 19.
+
+Around the same time, the New York agency Olsten Temporary Help Services announced a new product: “The Semi-Permanent Employee.” Comparing its innovation to the wireless, the phonograph and the telephone,
+company leaders presented the “Semi-Permanent” as “a new kind of temporary employee…not for days or even weeks, but for two- and three-month periods to help your business grow more profitably.”
+This new “invention,” Olsten told businesses, would boost profits by shrinking the payroll (to “a slim, trim personnel budget, not one which chokes profitability”); by smoothing over
+the ebb and flow of the business cycle (“you needn’t carry ‘dead wood’ for months when business is slow”); and by cutting training costs (employers would get “trained personnel
+without having to engage in expensive and unprofitable retraining”).
+
+By peddling products like the “Semi-Permanent Employee,” the “Never-Never Girl” and more, temp industry leaders promoted a model in which permanent employees were a “costly burden,”
+a “headache” that needed relief. “Stop paying help you don’t use,” Western Services advised in 1969. It even urged employers to convert their own permanent employees to temps,
+as in a 1971 advertisement in The Personnel Journal: “Just say goodbye… then shift them to our payroll and say hello again!”
+
+According to the temp industry, workers were just another capital investment; only the product of the labor had any value. The workers themselves were expendable.
+
+Paradoxically, this model ran counter to the conventional management wisdom of the day. The same year that the “Never-Never Girl” appeared in the pages of national business journals, one of the best-selling
+management books was “Up the Organization: How to Stop the Organization From Stifling People and Strangling Profits,” in which the former Avis Rent-a-Car president Robert Townsend argued for treating
+workers as valuable assets rather than headaches to be squelched. The “human relations” school of management touted employee satisfaction as the best route to boosting profits.
+
+But temp industry leaders continued to encourage companies to “rent” workers rather than “buy” them. And perhaps even more persuasive than their arguments were the practical tools they were
+able to offer: thousands of low-cost temps, without the hassle of having to hire, train, supervise and fire them. Becoming lean and mean had never been easier, and thousands of companies began to go the temping
+route, especially during the deep economic recessions of the 1970s. Temporary employment skyrocketed from 185,000 temps a day to over 400,000 in 1980 — the same number employed each *year* in 1963.
+Nor did the numbers slow when good times returned: even through the economic boom of the ’90s, temporary employment grew rapidly, from less than 1 million workers a day to nearly 3 million by 2000.
+
+The temp industry’s continued growth even in a boom economy was a testament to its success in helping to forge a new cultural consensus about work and workers. Its model of expendable labor became so entrenched,
+in fact, that it became “common sense,” leaching into nearly every sector of the economy and allowing the newly renamed “staffing industry” to become sought-after experts on employment
+and work force development. Outsourcing, insourcing, offshoring and many other hallmarks of the global economy (including the use of “adjuncts” in academia, my own corner of the world) owe no small
+debt to the ideas developed by the temp industry in the last half-century.
+
+A growing number of people call for bringing outsourced jobs back to America. But if they return as shoddy, poverty-wage jobs — jobs designed for “Never-Never Girls” rather than valued employees
+— we won’t be better off for having them. If we want good jobs rather than just any jobs, we need to figure out how to preserve what is useful and innovative about temporary employment while jettisoning
+the anti-worker ideology that has come to accompany it.
+
+---
+
+*[Erin Hatton](https://sociology.buffalo.edu/faculty_staff/faculty/hatton/), an assistant professor of sociology at the State University of New York, Buffalo, is the author of “The Temp Economy: From Kelly Girls to Permatemps in Postwar America.”*

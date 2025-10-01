@@ -1,0 +1,169 @@
+# =?UTF-8?q?Sotheby=E2=80=99s_$1B_=E2=80=9CLifeline,=E2=80=9D_The_Cattelan_?=
+
+**Source**: inputs/saved_emails/=UTF-8qSotheby=E2=80=99s_$1B_=E2=80=9CLifeline,=E2=80=9D_The_Cattelan_=
+**Type**: email
+**Created**: 2025-08-25T02:54:06.705924
+
+---
+
+=UTF-8qMemecoin_&_A_$10M_Basquiat=_Mon,_04_Nov_2024_01-45-09_+0000_192f4d90ab415cbf.eml
+
+Wall Power is back in your inbox—and back from Dallas, where I had an eye-opening three days of nonstop art viewing. Howard Rachofsky, the éminence grise of the Dallas art-collecting scene, invited me to see the Cecily Brown retrospective at the Dallas Museum of Art, where he is a longtime patron, and graciously gave his time to introduce me to a number of collectors in the area.
+
+ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+
+Wall Power ( https://puck.news/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io )
+
+Wall Power ( http://www.arthuranalytics.com/ )
+
+Wall Power is back in your inbox—and back from Dallas, where I had an eye-opening three days of nonstop art viewing. Howard Rachofsky, the éminence grise of the Dallas art-collecting scene, invited me to see the Cecily Brown retrospective at the Dallas Museum of Art, where he is a longtime patron, and graciously gave his time to introduce me to a number of collectors in the area.
+
+Dallas has always been an important and wealthy American city. In recent years, population growth has accelerated—there are now more than 8 million people living in the Dallas-Fort Worth area, a 6 percent increase over the past four years—partly as a product of the pandemic. The low taxes don’t hurt either. More people usually means more money, and where there’s money, there’s art.
+
+In my three days in Dallas, I barely
+scratched the surface on the collecting community. But since Howard and his wife, Cindy, had just held their final fundraiser for amfAR and the Dallas Museum’s collection fund after a 25-year run, this seemed like a good moment to give him and some of his peers their due. More on that tonight, below the fold.
+
+A MESSAGE FROM OUR SPONSOR
+
+$(ad4_title) ( http://www.arthuranalytics.com/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io )
+
+But first…
+
+* If the $1M banana wasn’t absurd enough…: The election may have its prediction market, but the sale of Maurizio Cattelan’s Comedian (2019) now has a crypto memecoin. Comedian ( https://www.coingecko.com/en/coins/comedian?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io ) (Ban) launched on Monday and traded up to a market cap of $37 million. Still highly volatile, its current value, around the time of sending, is $24 million. With more than two weeks to go before the sale of the conceptual artwork, I’m not sure whether the coin
+is worth watching for its predictive abilities or its satiric commentary on the banana-and-duct-tape artwork ( https://puck.news/can-a-banana-duct-taped-to-a-wall-save-the-art-market/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io ).
+* Sotheby’s gets its billion dollars…: On Wednesday morning, Sotheby’s sent several notes announcing that the company had received nearly $1 billion from ADQ, an Abu Dhabi sovereign wealth fund, to pay down $800 million in debt. ADQ will become a minority owner of Sotheby’s, with three seats on a newly constituted board of nine, comprising ADQ’s three representatives; Sotheby’s C.E.O., Charlie Stewart; and five additional board members to be named by majority owner Patrick Drahi. One of those five will be Jean-Luc Berrebi, the former
+C.F.O. of Sotheby’s, who recently stepped down from his role at the company.
+* … And plans to close on the Breuer building: Stewart followed up the ADQ deal announcement with an email and an Instagram post hammering away at the auction house’s regular marketing points. One detail stood out: Despite Sotheby’s insistence to The Wall Street Journal that it wasn’t waiting on the ADQ funds to close on the Breuer building, the message was that the real estate deal would close within two weeks. Even in a very friendly piece ( https://www.vanityfair.com/style/story/sothebys-charlie-stewart-true-colors?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io#: ) in Vanity Fair, the one point of skepticism from Nate Freeman regarded the timing of the closing, just after ADQ’s
+check cleared. “We signed this up way before we were ever talking to the UAE,” Stewart told Vanity Fair, trying to finesse the issue, “but having done the UAE investment, it made sense to close that and then close this because how we would finance it would’ve been different. So it was just sort of a technicality, but it didn’t change the outcome.”
+
+Of course, this reads like they were waiting for the money from the Emiratis to close on the building because they had not put other financing in place—even though they could have. Naturally, Sotheby’s will get better financing terms with $800 million in debt extinguished, so it isn’t entirely clear why Sotheby’s insists the two issues are unrelated, when it clearly works to the firm’s advantage to have waited for ADQ’s investment to have been completed.
+* The Chelsea Hotel art fair: When Stanley Bard ran the Chelsea Hotel in the latter half of the
+20th century, he was known to pamper the resident artists—if he liked them. Sometimes, he would accept paintings in lieu of rent. The work eventually got hung around the hotel, especially in the lobby. The bohemian Chelsea is long gone, but the art is coming back, at least for one day, as the Chelsea Art Fair prepares to run with five galleries showing work on November 23.
+
+The fair is free and will run from 11 a.m. to 6 p.m., with booths set up in the hotel’s event space and lobby bar. It is being organized by Platform, the digital sales entity created by the David Zwirner gallery. “From a strategic perspective,” Platform’s chief operating officer, Richard Thayer, told me, “it’s a great way to build more brand awareness, reach the hotel’s qualified clientele, and expand on our B2B practice with partners in real estate, hospitality, and luxury. And we think it’ll be a big success, sales-wise!”
+
+Sotheby’s $5M Tiffany Window
+
+Tiffany Studios, Danner Memorial Window (1913), estimated at $5 million.
+
+Several trends are coming together with Sotheby’s announcement last week that the auction house will be selling the Danner Memorial Window by Tiffany Studios during its evening sale of modern art with an estimate of $5 million. One reason for its inclusion in the evening sale is that design objects are growing in value and popularity among international art collectors. The works of Louis Comfort Tiffany and Tiffany Studios are now also prized by a global collector base.
+
+The once-common sales of Tiffany works are getting harder to source, though Sotheby’s will have three different Tiffany sales this December, with two single-owner sales and a various-owners sale of Tiffany objects. Sotheby’s Jodi Pollack believes the Danner Memorial Window is the finest Tiffany window to come to auction. Bought in 2000 for $2 million,
+the 16-foot tall window was meant to “leverage the qualities of glass,” Pollack told me, “in an attempt to paint with glass.” As such, the work will be sold in the context of other modern works of art. “It’s a different category of quality and complexity,” Pollack said.
+
+Phillips to Sell $10M Basquiat Double Portrait
+
+Jean-Michel Basquiat, Self-Portrait (1983), estimated at $10 million.
+
+Phillips will be selling a triptych by Jean-Michel Basquiat that contains two self-portraits of the artist with a $10 million estimate this month. The 6-foot-wide work was once owned by Johnny Depp. It last sold at auction in 2016, when it made $4.8 million.
+
+The work is paired with an Andy Warhol double portrait from 1981 that is estimated at $4 million.
+
+De Kooning Does Dallas ( https://puck.news/dallas-is-no-longer-an-art-world-outlier/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io )
+
+De Kooning Does Dallas ( https://puck.news/dallas-is-no-longer-an-art-world-outlier/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io )
+
+No longer an art world outlier, thanks partly to the booming financial services industry, Dallas is home to a trove of contemporary works by Warhol, de Kooning, Agnes Martin, Gerhard Richter, Cy Twombly, Jasper Johns, and other postwar greats, hanging inside the private homes of the city’s longtime art patrons.
+
+MARION MANEKER ( https://puck.news/author/marion-maneker/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io )
+MARION MANEKER ( https://puck.news/author/marion-maneker/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io )
+
+Dallas was historically richer in material wealth than it was hip to the latest trends in the culture. If the city had leading art collectors, they weren’t interested in contemporary art. Certainly, you couldn’t expect the guys at Caterpillar or ExxonMobil to be enthusiastic about seeing the show of an under-represented artist, let alone want to buy their work. That’s changed over the past quarter-century, in part thanks to the efforts of collectors Howard and Cindy Rachofsky, who turned their annual TWO x TWO for AIDS and Art fundraiser into a Dallas institution. More than a mere charity auction, the party has supported the Dallas Museum of Art’s acquisition of cutting-edge art and helped fuel the growing collector community in Dallas, in turn.
+
+Now, that community is at a crossroads. Rachofsky, a fit
+octogenarian former hedge fund manager who favors the kind of colorful shirts we used to call “loud,” has decided to step away and let Dallas step up. A little more than a week before I arrived in Dallas, 500 people—a mix of local collectors, New York gallerists, some museum folks, and art advisors—crammed into a tent next to the Rachofskys’ Richard Meier-designed home, where Alan Cumming was emcee and Sotheby’s auctioneer Michael Macaulay knocked down more than 100 works of art donated by the artists and their galleries.
+
+The auction raised $10.2 million, including $1.6 million from work by Nicolas Party, who was being honored at the auction and shown at Rachofsky’s exhibition space, The Warehouse. At the same time, The Warehouse was showing dozens of artworks that had been acquired by the Dallas museum with funds raised by TWO x TWO. Over at the museum, an exhibition about representation in contemporary art, featuring a
+wide variety of works, many acquired with TWO x TWO funds, further drove home the point that the Rachofskys were a wellspring feeding the transformation of what Dallas considers art. One of the hidden benefits of TWO x TWO is that it’s been instrumental in marketing the idea of collecting contemporary art. That wasn’t so obvious in Dallas a quarter-century ago, when taste in art ran toward classic modernism, if there was a taste for art collecting at all.
+
+More than attracting wealthy professionals to the idea of buying contemporary art, TWO x TWO created a relaxed party atmosphere—Chaka Khan performed this year—where art dealers and potential collectors could develop social relationships that might lead to working relationships. While Dallas has a contemporary art fair in early April, it’s easy to see how much more efficient, cost-effective, and fun it is for a gallery to donate a work by one of its artists to TWO x TWO, in the hope that the
+auction will generate interest from underbidders and onlookers. Instead of shipping a whole booth of art to Dallas—not a cheap endeavor—the gallery owner or director parties in Dallas over a long weekend and makes connections that can be followed up on the next time the Dallas collector is in New York.
+
+The Rachofskys aren’t giving up on Dallas, they just have some FOMO. While everyone else was in Paris for Art Basel, they were hanging art for the auction in their home, which Rachofsky describes as a one-bedroom apartment built atop an art gallery. Next year, they’re hoping to be having fun in Paris, too.
+
+They also think it’s time for the rest of the Dallas collecting community to figure out how to take it from here. As more money flows into Dallas from its growing population and the wealth of its broadening industrial and financial base, one of the challenges for an institution like the Dallas museum is how to tap into the next generation of
+collectors. I’m confident they’ll find a way.
+
+A MESSAGE FROM OUR SPONSOR
+
+$(ad4_title) ( http://www.arthuranalytics.com/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io )
+
+High-Art House Tour
+
+The Rachofskys may be passing the baton, but they’re hardly taking a break from collecting. And neither are their wealthy friends. Early last week, Howard took me on a tour of three collectors’ homes—all supporters of the Dallas museum. As I’ve written many times before, the value of art is primarily social. Collectors all work within a social context, whether taking cues from their peers or contrasting their decisions with the predominant taste.
+
+Our first stop after seeing The Warehouse was the home of Deedie Rose, who, along with Howard and Marguerite Hoffman, had pledged 20 years ago to donate hundreds of works of art to the DMA. Rose lives in a house tucked in the back of the Turtle Creek neighborhood designed to maximize exposure to birds—Rose and her late husband, Rusty, who died in 2016, were
+dedicated birdwatchers—and minimize awareness of traffic. One side of the house is a tiered wall of concrete filled with planters; the other side is a glass wall opening on to a wooded buffer. In between are rooms filled with a wide array of artworks and Deedie’s collection of art jewelry. When we arrived, Rose was on a call with one of her many boards. The assistant who gave us the tour pointed out the astonishing variety of different artists’ work, many of them new names to even Rachofsky, which were hung interspersed with some of the many necklaces from Rose’s collection that easily hold the wall as art.
+
+Our next stop, not far away, was the home of Gayle Stoffel, situated at the edge of a golf course and built like a bridge across Turtle Creek itself. Stoffel and her husband, Paul, who died in 2019, wanted a house where they could live with their art, not visit it. And Stoffel, a kind and exceedingly polite woman, really lives with
+her art. The front door opens into a double-height entryway that seems to have been purpose-built around a mostly red, 8-foot-tall Gerhard Richter abstract painting ( https://www.gerhard-richter.com/en/art/paintings/abstracts/abstracts-19851989-30/a-b-red-7550?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io ) from 1986. Nearby were classic works by Roy Lichtenstein, John Chamberlain, Andy Warhol, Carl Andre, Brice Marden, Ellsworth Kelly, Agnes Martin, and Philip Guston. A Willem de Kooning painting hangs above Stoffel’s bed. Even name-checking so many postwar greats, the house still had room for works by John Baldessari, Alex Israel, Luc Tuymans, and John Currin. But the work I was most impressed by, both
+because it was so good and because it was included prominently in the collection, was the large Reggie Burrows Hodges painting hanging perpendicular to the massive Richter in the front hall. Stoffel is clearly still in the collecting game.
+
+That theme continued when we went to Marguerite Hoffman’s house for drinks. Hoffman is an eclectic art collector, and her front hall contains a murderers’ row of Richter paintings: a 1964 blurred black and grey family portrait, a 1969 cityscape, and an example of a 1982 candle painting (you know, like the one on the Sonic Youth album cover). Hoffman’s husband was enamored with classic postwar works by artists like Jasper Johns and Cy Twombly. Before Robert Hoffman died in 2006, the couple built an exhibition space on the expansive grounds of their home, set off from the road by a meandering 18-foot-tall red brick wall ( https://mvvainc.com/projects/hoffman-garden?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io ) designed by artist Sol LeWitt. Since then, Hoffman has expanded her collecting to include things like antiquities and some extraordinary illuminated manuscripts. (I stood frozen, drink in hand, terrified of spilling, as Hoffman
+flipped through the vellum pages of one such manuscript.)
+
+In the X-shaped exhibition space, Hoffman had a classic Guston abstract painting from the artist’s heyday as an abstract expressionist and a giant Marden from one of his last important series. But there were also new finds and important gets. When you’re a well-established collector, you have access to works that others can’t even buy. Like Rose, in many ways, Hoffman was as excited about the works of unknown or lesser-known artists as she was about the trophies.
+
+If the point of the
+annual TWO x TWO auction is to show newer collectors that art collecting can be fun, and even competitive, while still supporting a larger community effort, Rachofsky and his peers showed me that the collaborative part of art collecting—especially in Dallas—takes place year-round. What Stoffel, Rose, Hoffman, and Rachofsky have done is set an example of how collecting art can be a lifelong, open-ended pursuit.
+
+Endnotes…
+
+I’ve got a lot more of Dallas in store for you. With luck, I’ll be able to squeeze it in over the coming weeks.
+
+In the meantime, let me leave you with a Wall Street Journal real estate story ( https://www.wsj.com/real-estate/luxury-homes/luxury-home-auctions-3975e082?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io ) from earlier in the week that makes you wonder what the paper has against Sotheby’s. Focusing on real estate auction sites, including Concierge, which is owned in part by Sotheby’s, the article took pains to explain how Concierge has a system for giving sellers market intelligence before committing to a no-reserve sale. Though it cited
+one success, the overall tone was negative, more about the sellers’ overestimation of the value of their properties than any failure on the part of the auctions.
+
+The article ends with a couple who decided to use Concierge to sell their Norman Jaffe-designed home on Further Lane in East Hampton. They did so after Sotheby’s Charlie Stewart, who had rented from the couple during the pandemic, recommended the service. The couple believed the 3-acre property—once listed for $27.5 million—was worth $20 million for the land alone. The house and land ended up selling for $15 million, plus fees. The disappointed seller told the Journal, “I think I vomited and blacked out.”
+
+Until Tuesday,
+M
+
+FOUR STORIES WE’RE TALKING ABOUT
+
+Arnault Intrigue ( https://puck.news/alexandre-arnault-american-adventure/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io )
+
+Arnault Intrigue ( https://puck.news/alexandre-arnault-american-adventure/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io )
+
+On the LVMH heir’s pilgrimage to MSG.
+
+LAUREN SHERMAN
+
+Mar-a-Lago Murmurs ( https://puck.news/inside-mar-a-lago-pennsylavania-anxiety-chief-of-staff-games-czar-rfk-jr/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io )
+
+Mar-a-Lago Murmurs ( https://puck.news/inside-mar-a-lago-pennsylavania-anxiety-chief-of-staff-games-czar-rfk-jr/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io )
+
+Documenting the fresh anxiety inside the Trump campaign.
+
+TARA PALMERI
+
+NASCAR in Overdrive ( https://puck.news/nascar-americas-own-motorsports-is-branching-out/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io )
+
+NASCAR in Overdrive ( https://puck.news/nascar-americas-own-motorsports-is-branching-out/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io )
+
+Sitting down with NASCAR president Steve Phelps.
+
+JOHN OURAND
+
+The Mail Room ( https://puck.news/the-mail-room-nobody-wants-this-drama-venu-plans-timothees-salaree/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io )
+
+The Mail Room ( https://puck.news/the-mail-room-nobody-wants-this-drama-venu-plans-timothees-salaree/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io )
+
+Addressing the biggest questions plaguing Hollywood.
+
+MATTHEW BELLONI
+
+Puck ( https://puck.news/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io )
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io )
+
+Need help? Review our FAQs
+page ( https://puck.news/faq/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io ) or contact
+us ( fritz@puck.news?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/global-unsubscribe/?subscription=wall_power&delivery_id=dgT2xgYDAKvRKqrRKgGS9NjWb0vgFpmPLzlgxME=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%2811%2F3%2F24%29&utm_source=customer.io ).
+
+Puck is published by Heat Media LLC. 227 W 17th St New York, NY 10011.

@@ -1,0 +1,151 @@
+# We should care more about the deep sea than we do deep space
+
+**Source**: https://qz.com/1642062/sci-fi-set-in-space-is-posing-a-problem-for-our-oceans/
+**Type**: article
+**Created**: 2025-08-13T16:13:36.565422
+
+---
+
+title: We should care more about the deep sea than we do deep space
+source: https://qz.com/1642062/sci-fi-set-in-space-is-posing-a-problem-for-our-oceans/
+date: 2025-08-13T16:13:25.755473
+tags: []
+---
+For millennia, the ocean has been an inspiration for generations of
+storytellers and poets, novelists and artists. Throughout history, it has
+served as a ubiquitous backdrop for stories of adventure and exploration:
+_Treasure Island_ , _The Rime of the Ancient Mariner,_ and _Twenty Thousand
+Leagues Under the Sea_ to name a few.
+
+In recent decades, however, public interest in the deep sea seems to have been
+replaced by deep space. The internet went wild when the [first published
+photos](http://web.archive.org/web/20250710182648/https://www.nasa.gov/mission_pages/chandra/news/black-
+hole-image-makes-history/) of a black hole were published in April. Every
+SpaceX mission makes global headlines, including the recent
+[launch](http://web.archive.org/web/20250710182648/https://www.spacex.com/news/2019/05/24/starlink-
+mission) of the Starlink constellation of satellites in May. And now even your
+elderly grandmother probably knows about [gravitational
+waves](http://web.archive.org/web/20250710182648/https://www.space.com/gravitational-
+wave-memory.html).
+
+But for the sake of the planet, we need to stop exclusively looking to the
+stars for inspiration and dive a bit deeper instead.
+
+## **A literary sea change**
+
+The golden age of nautical storytelling was born from the real-world golden
+age of nautical exploration. Some milestones in this era include the historic
+voyage of Christopher Columbus across the Atlantic Ocean in 1492, Ferdinand
+Magellan’s circumnavigation of the world in 1519, the invention of the
+submarine in 1620, James Cook’s scientific expedition to the Pacific Ocean in
+1768, and Charles Darwin’s exploration of the Galapagos Islands on the HMS
+Beagle in 1831.
+
+Art imitated life, and during this time nautical fiction was a predominant
+literary genre. Two works that best represent this era are John Milton’s
+_Paradise Lost_ (1667) and Samuel Coleridge’s _The Rime of the Ancient
+Mariner_ (1798). This trend continued into the 19th century, which produced
+Herman Melville’s _Moby-Dick_(1851), Jules Verne’s _Twenty Thousand Leagues
+Under the Sea_(1870), Robert Louis Stevenson’s _Treasure Island_ (1883), and
+Joseph Conrad’s _Heart of Darkness_(1899).
+
+But then something happened in the mid-20th century: The great unknown of
+space overtook the vastness of our ocean, both as a place of wonder and as a
+territory to be conquered. Ships and submarines were replaced by spaceships
+and rockets, and ocean-faring pop-culture references evaporated.
+
+## **The meteoric rise of space stories**
+
+Humanity has always been enamored with the night sky. Gazing at the
+stars—dreaming of what’s out there—is an almost innate aspect of the human
+condition, agnostic of language, geographic location, socioeconomic class, or
+culture.
+
+However, space was rarely a _setting_ for storytelling until the mid-20th
+century. With a few exceptions of prescient writers such as H.G. Wells and
+Jules Verne, the zeitgeist didn’t contain space stories until we became a
+spacefaring species. Once the public realized we could _go_ to space, we
+started telling stories about it. Art began imitating life once again.
+
+In the 1950s and 1960s, we read Ray Bradbury’s _The Martian Chronicles (1950)_
+, Isaac Asimov’s _Foundation_(1951), Kurt Vonnegut Jr.’s _The Sirens of
+Titan_(1959), Robert Heinlein’s _The Moon is a Harsh Mistress (1966)_ , and
+Arthur C. Clarke’s _2001: A Space Odyssey_ (1968). On TV, we watched the
+premiere of _The Jetsons_(1962), _Lost in Space_(1965), and _Star Trek_(1966).
+On the big screen, we saw _The War of the Worlds_ (1953), _Planet of the
+Apes_(1968), _Star Wars_ (1977), _Close Encounters of the Third Kind_ (1977),
+and _Alien_ (1979).
+
+At around the same time as real-world space exploration and the emergence of
+space in popular culture skyrocketed, public interest in the ocean receded
+with the tides.
+
+Why have we moved on? Why does space now capture the imagination and the ocean
+does not?
+
+## **The true final frontier**
+
+What if the Golden Age of ocean exploration is in front of us, not behind us?
+
+An estimated 95% of the ocean [hasn’t been seen by human
+eyes](http://web.archive.org/web/20250710182648/https://www.rd.com/culture/ocean-
+mysteries/). We have better maps of the surface of the Moon—and of Mars—than
+we do of our ocean floor.
+
+The ocean is just as much of an alien environment than the aliens we search
+for in the cosmos. It houses an abundance of life—literally [hundreds of
+thousands of species as yet discovered by
+humans](http://web.archive.org/web/20250710182648/https://www.livescience.com/24805-undiscovered-
+marine-species.html)—geological features unparalleled throughout our entire
+known solar system, and a veritable collection of scientific discoveries and
+pharmacological cures just waiting to be found. While space contains the
+veiled threat of a once-in-a-millennium meteorite, the health of the sea
+directly enables and facilitates all life on Earth _right now;_ more than half
+the oxygen we breathe comes from the ocean, and the ocean absorbs an estimated
+25% of all atmospheric CO2 we emit each year.
+
+The artifacts of thousands of years of human civilization litter the ocean
+floor, making it by far the world’s largest museum, albeit a completely
+inaccessible one. While [571 people have traveled to
+space](http://web.archive.org/web/20250710182648/https://www.worldspaceflight.com/bios/stats.php),
+only four have [descended to the deepest-known point of our
+ocean](http://web.archive.org/web/20250710182648/https://www.livescience.com/65468-explorer-
+breaks-record-deepest-ocean-dive.html), the Mariana Trench, which is more than
+a mile deeper than Mount Everest is tall.
+
+There is a delta in modern times between the level of public interest in space
+compared to the level of public interest in the ocean. As a result, an
+unimaginable amount of money and resources have been devoted to furthering our
+knowledge of space, while only a fraction of that has been invested in
+understanding the ocean.
+
+We need to re-mysticize the ocean—to remind people just how little we know
+about it. We need to re-spark public curiosity, especially at a time when [the
+ocean’s health is in
+danger](http://web.archive.org/web/20250710182648/https://www.sciencetimes.com/articles/22625/20190612/ocean-
+habitats-are-on-a-steep-decline.htm). If public interest in the ocean
+increases, so will the investment in research and exploration, which can
+result in increased awareness and protection.
+
+In a [little-known
+speech](http://web.archive.org/web/20250710182648/https://www.youtube.com/watch?reload=9&v=O-LMa6DENs4&feature=youtu.be)
+by US president John F. Kennedy in 1963, less than four months before his
+assassination, he extoled the value of the ocean, calling its protection “of
+the utmost importance to man everywhere.” He committed the US to a long-term
+“vigorous program” to research and protect the ocean—a program that, due to
+his untimely death, went nowhere.
+
+VIDEO
+
+In an alternate universe (or perhaps in a Stephen King novel), this deep-sea
+program would have been the one that persevered instead of deep space,
+positively impacting and inspiring generations to come about the importance
+and power of our oceans.
+
+But in _this_ universe, in which we went to space instead, we need to re-
+stimulate a public discourse about the ocean. Funding for scientific research
+is critical and international agreements and cooperation are paramount. But we
+must also tell stories—stories that remind us about the mystery and majesty of
+our ocean, and the critical need for discovery and stewardship.
+
+## 📬 Sign up for the Daily Brief

@@ -1,0 +1,1146 @@
+# The Black Revolution (April 8, 1964)
+
+**Source**: http://malcolmxfiles.blogspot.com/2013/07/the-black-revolution-april-8-1964.html
+**Type**: article
+**Created**: 2025-08-13T15:42:27.643816
+
+---
+
+title: The Black Revolution (April 8, 1964)
+source: http://malcolmxfiles.blogspot.com/2013/07/the-black-revolution-april-8-1964.html
+date: 2025-08-13T15:42:26.464171
+tags: []
+---
+Mr. Moderator, ladies and gentlemen, friends and enemies. Tonight I hope that
+we can have a little fireside chat with as few sparks as possible being tossed
+around. Especially because of the very explosive condition that the world is
+in today. Sometimes, when a person’s house is on fire and someone comes in
+yelling fire, instead of the person who is awakened by the yell being
+thankful, he makes the mistake of charging the one who awakened him with
+having set the fire. I hope that this little conversation tonight about the
+black revolution won’t cause many of you to accuse us of igniting it when you
+find it at your doorstep.
+
+I am still a Muslim. That is, my religion is still Islam. I still believe that
+there is no God but Allah and that Muhammad is the Apostle of Allah. That just
+happens to be my personal religion, but in the capacity that I'm functioning
+in today, I have no intention to mix my religion, with the problems of 22
+million black people in this country. just as it's possible for a great man,
+whom I greatly respect, Ben Bella, to be a Muslim and still be a nationalist,
+and another one whom I greatly respect, Gamal Nasser, to be a Muslim and still
+be a nationalist, and Sukharno, of Indonesia, to be a Muslim and still be a
+nationalist, it was nationalism that enabled them to gain freedom for their
+people. I'm still a Muslim but I'm also a nationalist, meaning that my
+political philosophy is black nationalism, my economic philosophy is black
+nationalism, my social philosophy is black nationalism, and when I say that
+this philosophy of black nationalism...to me, this means, that the political
+philosophy of black nationalism is that which is designed to encourage our
+people, black people, to gain complete control over the politics and
+politicians of our own community. Our economic philosophy is that we should
+gain control over the economy of our community, the businesses and other
+things that create employment so that we can provide jobs for our own people
+instead of having to picket and boycott and beg someone else for a job. And in
+short our social philosophy only means that we feel it is time to get together
+among our own kind and eliminate the evils that are destroying the moral fiber
+of our society like drug addiction, drunkeness, welfare problems. We believe
+that we should lift the level or the standard of our own society to a higher
+level wherein we will be satisfied and then not inclined towards pushing
+ourselves into other societies where we're not wanted. All of that aside,
+tonight we're dealing with the black revolution.
+
+During recent years there has been much talk about a population explosion.
+Whenever they are speaking of the population explosion, in my opinion, they
+are referring to the people primarily in Asia or in Africa— the black, brown,
+red, and yellow people. It is seen by people of the West that, as soon as the
+standard of living is raised in Africa and Asia, automatically the people
+begin to reproduce abundantly. And there has been a great deal of fear
+engendered by this in the minds of the people of the West, who happen to be,
+on this earth, a very small minority.
+
+In fact, in most of the thinking and planning of whites in the West today,
+it’s easy to see that fear in their minds, conscious minds and subconscious
+minds, that the masses of dark people in the East, who already outnumber them,
+will continue to increase and multiply and grow until they eventually overrun
+the people of the West like a human sea, a human tide, a human flood. And the
+fear of this can be seen in the minds, and in the actions, of most of the
+people here in the West in practically everything that they do. It governs
+their political views, it governs their economic views and it governs most of
+their attitudes toward the present society.
+
+I was listening to Dirksen, the senator from Illinois, in Washington D.C.
+filibustering the Civil Rights Bill and one of the things that he kept
+stressing over and over and over was that if this bill is passed, it will
+change the social structure of America. Well, I know what he’s getting at, and
+I think that most other people today, and especially our people, know what is
+meant when these whites, who filibuster these bills, express fears of changes
+in the social structure. Our people are beginning to realize what they mean.
+
+Just as we can see that all over the world one of the main problems facing the
+West is race, likewise here in America today, most of your Negro leaders as
+well as the whites agree that 1964 itself appears to be one of the most
+explosive years yet in the history of America on the racial front, on the
+racial scene. Not only is this racial explosion probably to take place in
+America, but all of the ingredients for this racial explosion in America to
+blossom into a world-wide racial explosion present themselves right here in
+front of us. America’s racial powder keg, in short, can actually fuse or
+ignite a world- wide racial powder keg.
+
+And whites in this country who are still complacent when they see the
+possibilities of racial strife getting out of hand. You are complacent simply
+because you think you outnumber the racial minority in this country; what you
+have to bear in mind is wherein you might outnumber us in this country, you
+don’t outnumber us all over the earth.
+
+Any kind of racial explosion that takes place in this country today, in 1964,
+is not a racial explosion that can be confined to the shores of America. It is
+a racial explosion that can ignite the racial powder keg that exists all over
+the planet that we call Earth. Now, I think that anybody would agree that the
+dark masses of Africa and Asia and Latin America are already seething with
+bitterness, animosity, hostility and unrest, and impatience with the racial
+intolerance that they themselves have experienced at the hands of the white
+West.
+
+And just as they themselves have the ingredients of hostility toward the West
+in general, here we also have 22 million African-Americans, black, brown, red,
+and yellow people, in this country who are also seething with bitterness and
+impatience and hostility and animosity over the racial intolerance not only of
+the white West but of white America in particular.
+
+And by the hundreds of thousands today we find that our own people have become
+impatient, and turning away from your white nationalism, which you call
+democracy, toward the militant, uncompromising philosophy of black
+nationalism. And I might point out right here that as soon as we announced we
+were going to start a black nationalist party in this country, we received
+mail from coast to coast, especially from young people at the college level,
+the university level, who expressed complete sympathy and support and a desire
+to take an active part in any kind of political action based upon black
+nationalism, designed to correct or eliminate immediately the evils that our
+people have suffered here for 400 years.
+
+The black nationalists, to many of you, may represent only a minority in the
+community. And therefore you might have a tendency to classify them as
+something insignificant. But just as the fuse is the smallest part or the
+smallest piece in the powder keg, it is yet that little fuse that ignites the
+entire powder keg. The black nationalists, to you, may represent a small
+minority in the so-called Negro community. But yet they just happen to be
+composed of the type of ingredients necessary to fuse or ignite the entire
+black community.
+
+And this is one thing that whites—whether you call yourselves liberals or
+conservatives or racists or whatever you might choose to be—one thing that you
+have to realize is that, where the black community is concerned, although the
+large majority that you come in contact with may impress you as being moderate
+and patient and loving and long-suffering and all that kind of stuff, the
+minority whom you consider to be Muslims or nationalists happen to be made of
+the type of ingredient that can easily spark the black community. This should
+be understood. Because to me a powder keg is nothing without a fuse.
+
+1964 will be America’s hottest year; her hottest year yet; a year of much
+racial violence and much racial bloodshed. But it won’t be blood that’s going
+to flow only on one side. The new generation of black people that have grown
+up in this country during recent years are already forming the opinion, and
+it’s a just opinion, that if there is to be bleeding, it should be
+reciprocal—bleeding on both sides.
+
+It should also be understood that the racial sparks that are ignited here in
+America today could easily turn into a flaming fire abroad, which only means
+it could engulf all the people of this earth into a giant race war. You can't
+confine it to one little neighborhood, or one little community, or one little
+country. What happens to a black man in America today happens to the black man
+in Africa. What happens to the black man in America and Africa happens to the
+black man in Asia and to the man down in Latin America. What happens to one of
+us today happens to all of us. And when this is realized, I think that the
+whites who are intelligent—even if they aren’t moral or aren’t just or aren’t
+impressed by legalities—those who are intelligent will realize that when they
+touch this one, they are touching all of them, and this in itself will have a
+tendency to be a checking factor.
+
+The seriousness of this situation must be faced up to. I was in Cleveland last
+night, Cleveland, Ohio. In fact I was there Friday, Saturday and yesterday.
+Last Friday the warning was given that this is a year of bloodshed, that the
+black man has ceased to turn the other cheek, that he has ceased to be
+nonviolent, that he has ceased to feel that he must be confined by all these
+restraints that are put upon him by white society in struggling for what white
+society says he was supposed to have had a hundred years ago. So today, when
+the black man starts reaching out for what America says are his rights, the
+black man feels that he is within his rights—when he becomes the victim of
+brutality by those who are depriving him of his rights—to do whatever is
+necessary to protect himself. An example of this was taking place last night
+at this same time in Cleveland, where the police were putting water hoses on
+our people there and also throwing tear gas at them—and they met a hail of
+stones, a hail of rocks, a hail of bricks. A couple of weeks ago in
+Jacksonville, Florida, a young teenage Negro was throwing Molotov cocktails.
+
+Now, Negroes didn’t do this ten years ago. But what you should learn from this
+is that they are waking up. It was stones yesterday, Molotov cocktails today,
+it will be hand grenades tomorrow and whatever else is available the next day.
+The seriousness of this situation must be faced up to. You should not feel
+that I am inciting someone to violence. I’m only warning of a powder-keg
+situation. You can take it or leave it. If you take the warning, perhaps you
+can still save yourself. But if you ignore it or ridicule it, well, death is
+already at your doorstep. There are 22 million African-Americans who are ready
+to fight for independence right here. When I say fight for independence right
+here, I don’t mean any nonviolent fight, or turn-the-other-cheek fight. Those
+days are gone. Those days are over.
+
+If George Washington didn’t get independence for this country nonviolently,
+and if Patrick Henry didn’t come up with a nonviolent statement, and you
+taught me to look upon them as patriots and heroes, then it’s time for you to
+realize that I have studied your books well. Our people, 22 million African-
+Americans are fed up with America's hypocritical democracy. And today we care
+nothing about the odds that are against us. Every time a black man gets ready
+to defend himself some Uncle Tom starts telling us, how can you win? That's
+Tom talking, don't listen to him. This is the first thing we hear, the odds
+are against us. You're dealing with black people who don't care anything about
+odds. We care nothing about odds. Again, I go right back to the people who
+founded and who secured the independence of this country from the colonial
+powers of England. When George Washington and the others got ready to come up
+with a Declaration of Independence, they didn't care anything about the odds
+of the British Empire. They were fed up with taxation without representation.
+And you've got 22 million black people in this country today, 1964, who are
+fed up with taxation without representation and will do the same thing. Who
+are ready, willing and justified to do the same thing today to bring about
+independence for our people that your forefathers did to bring about
+independence for your people. And I say your people, because I certainly
+couldn't include myself among those for whom independence was fought in 1776.
+How in the world can a negro talk about the Declaration of Independence and
+he's still singing "We Shall Overcome." Our people increasingly are developing
+the opinion that we just have nothing to lose but the chains of segregation
+and the chains of second-class citizenship.
+
+So 1964 will see the Negro revolt evolve and merge into the worldwide black
+revolution that has been taking place on this earth since 1945. The so-called
+revolt will become a real black revolution. Now the black revolution has been
+taking place in Africa and Asia and Latin America; when I say black, I mean
+non-white—black, brown, red or yellow. Our brothers and sisters in Asia, who
+were colonized by the Europeans, our brothers and sisters in Africa, who were
+colonized by the Europeans, and in Latin America, the peasants, who were
+colonized by the Europeans, have been involved in a struggle since 1945 to get
+the colonialists, or the colonizing powers, the Europeans, off their land, out
+of their country.
+
+This is a real revolution. Revolution is always based on land. Revolution is
+never based on begging somebody for an integrated cup of coffee. Revolutions
+are never fought by turning the other cheek. Revolutions are never based upon
+love-your-enemy and pray-for-those-who-despitefully-use-you. And revolutions
+are never waged singing “We Shall Overcome.” Revolutions are based on
+bloodshed. Revolutions are never compromising. Revolutions are never based
+upon negotiations. Revolutions are never based upon any kind of tokenism
+whatsoever. Revolutions are never even based upon that which is begging a
+corrupt society or a corrupt system to accept us into it. Revolutions overturn
+systems. And there is no system on this earth which has proven itself more
+corrupt, more criminal, than this system that in 1964 still colonizes 22
+million African-Americans, still enslaves 22 million Afro-Americans. There is
+no system more corrupt than a system that represents itself as the example of
+freedom, the example of democracy, and can go all over this earth telling
+other people how to straighten out their house, when you have citizens of this
+country who have to use bullets if they want to cast a ballot.
+
+The greatest weapon the colonial powers have used in the past against our
+people has always been divide-and-conquer. America is a colonial power. She
+has colonized 22 million Afro-Americans by depriving us of first-class
+citizenship, by depriving us of civil rights, actually by depriving us of
+human rights. She has not only deprived us of the right to be a citizen, she
+has deprived us of the right to be human beings, the right to be recognized
+and respected as men and women. And in this country the black can be fifty
+years old and he is still a “boy.” I grew up with white people. I was
+integrated before they invented the word and I have never met white people
+yet—if you are around them long enough—who won’t refer to you as a “boy” or a
+“gal,” no matter how old you are no matter what school you came out of, no
+matter what your intellectual or professional level is. In this society we
+remain “boys.”
+
+So America’s strategy is the same strategy as that which was used in the past
+by the colonial powers: divide and conquer. She plays one Negro leader against
+the other. She plays one Negro organization against the other. She makes us
+think that we have different objectives, different goals. As soon as one Negro
+says something, she runs to this Negro and asks him, “What do you think about
+what he said?” Why, anybody can see through that today—except some of the
+Negro leaders.
+
+All of our people have the same goals, the same objective: freedom, justice,
+equality. All of us want recognition and respect as human beings. We don’t
+want to be integrationists. Nor do we want to be separationists. We want to be
+human beings. Integration is only a method that is used by some groups to
+obtain freedom, justice, equality and respect as human beings. Separation is
+only a method that is used by other groups to obtain freedom, justice,
+equality or human dignity.
+
+Our people have made the mistake of confusing the methods with the objectives.
+As long as we agree on objectives, we should never fall out with each other
+just because we believe in different methods or tactics or strategy to reach a
+common objective.
+
+We have to keep in mind at all times that we aren't fighting for integration,
+nor are we fighting for separation. We are fighting for recognition as human
+beings. We are fighting for the right to live as free humans in this society.
+In fact, we are actually fighting for rights that are even greater than civil
+rights and that is, human rights. We are fighting for human rights in 1964.
+This is a shame. The civil rights struggle has failed to produced concrete
+results because it has kept us barking up the wrong tree. It has made us put
+the cart ahead of the horse. We must have human rights before we can secure
+civil rights. We must be respected as humans before we can be recognized as
+citizens.
+
+Among the so-called Negroes in this country. As a rule the civil rights
+groups, those who believe in civil rights, spend most of their time trying to
+prove they are Americans. Their thinking is usually domestic, confined to the
+boundaries of America, and they always look upon themselves as a minority.
+When they look upon themselves on the American stage, the American stage is a
+white stage. So a black man standing on that stage in America automatically is
+in the minority. He is the underdog, and in his struggle he always uses an
+approach that's a begging, hat-in-hand, compromising approach.
+
+Whereas the other segment or section in America, known as the black
+nationalists, are more interested in human rights than they are in civil
+rights. And they place more stress on human rights than they do on civil
+rights. The difference between the thinking and the scope of the Negroes who
+are involved in the human-rights struggle and those who are involved in the
+civil-rights struggle is that those so-called Negroes involved in the human-
+rights struggle don’t look upon themselves as Americans. They look upon
+themselves as a part of dark mankind. They see the whole struggle, not within
+the confines of the American stage, but they look upon the struggle on the
+world stage. And, in the world context, they see that the dark man outnumbers
+the white man. On the world stage the white man is just a microscopic
+minority.
+
+So in this country you find two different types of Afro-Americans—the type who
+looks upon himself as a minority and you as the majority, because his scope is
+limited to the American scene; and then you have the type who looks upon
+himself as part of the majority and you as part of a microscopic minority. And
+this one uses a different approach in trying to struggle for his rights. He
+doesn’t beg. He doesn’t thank you for what you give him, because you are only
+giving him what he should have had a hundred years ago. He doesn’t think you
+are doing him any favors.
+
+He doesn’t see any progress that he has made since the Civil War. He sees not
+one iota of progress because, number one, if the Civil War had freed him, he
+wouldn’t need civil-rights legislation today. If the Emancipation
+Proclamation, issued by that great shining liberal called Lincoln, had freed
+him, he wouldn’t be singing “We Shall Overcome” today. If the amendments to
+the Constitution had solved his problem, his problem wouldn’t still be here
+today. And if the Supreme Court desegregation decision of 1954 was genuinely
+and sincerely designed to solve his problem, the problem wouldn’t be with us
+today.
+
+So this kind of black man is thinking. He can see where every maneuver that
+America has made, supposedly to solve this problem, has been nothing but
+political trickery and treachery of the worst order. So today he doesn’t have
+any confidence in these so-called liberals. I know that all that have come in
+here tonight don’t call yourselves liberals. Because that’s a nasty name
+today. It represents hypocrisy. So these two different types of black people
+exist in the so-called Negro community and they are beginning to wake up and
+their awakening is producing a very dangerous situation.
+
+So you have whites in the community who express sincerity when they say they
+want to help. Well, how can they help? How can a white person help the black
+man solve his problem? Number one, you can’t solve it for him. You can help
+him solve it, but you can’t solve it for him today. One of the best ways that
+you can help him solve it is to let the so-called Negro, who has been involved
+in the civil-rights struggle, see that the civil-rights struggle must be
+expanded beyond the level of civil rights to the level of human rights. Once
+it is expanded beyond the level of civil rights to the level of human rights,
+it opens the door for all of our brothers and sisters in Africa and Asia, who
+have their independence, to come to our rescue.
+
+Why? When you go to Washington, D.C., expecting those crooks down there—and
+that’s what they are—to pass some kind of civil-rights legislation to correct
+a very criminal situation, what you are doing is encouraging the black man,
+who is the victim, to take his case into the court that’s controlled by the
+criminal that made him the victim. It will never be solved in that way. It's
+like running from the wolf to the fox.
+
+The civil-rights struggle involves the black man taking his case to the white
+man’s court. But when he fights it at the human-rights level, it is a
+different situation. It opens the door for him to take Uncle Sam to the world
+court. The black man shouldn’t have to go to court to be free. Uncle Sam
+should be taken to court and made to tell why the black man is not free in a
+so-called free society. Uncle Sam should be taken into the United Nations and
+charged with violating the UN charter of human rights.
+
+You can forget civil rights. How are you going to get civil rights with men
+like Eastland and men like Dirksen and men like Johnson? It has to be taken
+out of their hands and taken into the hands of those whose power and authority
+exceeds theirs. Washington has become too corrupt. Uncle Sam has become
+bankrupt when it comes to a conscience—it's impossible for Uncle Sam to solve
+the problem of 22 million black people in this country. It is absolutely
+impossible to do it in Uncle Sam’s courts— whether it's the Supreme Court or
+any other kind of court that comes under Uncle Sam’s jurisdiction.
+
+The only alternative that the black man in America has today is to take it out
+of Senator Dirksen’s and Senator Eastland’s and President Johnson’s
+jurisdiction and take it downtown on the East River and place it before that
+body of men who represent international law, and let them know that the human
+rights of black people are being violated in a country that professes to be
+the moral leader of the free world.
+
+Any time you have a filibuster in America, in the Senate, in 1964 over the
+rights of 22 million black people, over the citizenship of 22 million black
+people, or that will affect the freedom and justice and the equality of 22
+million black people, it’s time for that government itself to be taken before
+a world court. How can you condemn South Africa? There's only 11 million of
+our people in South Africa, there are 22 million of them here. And we are
+receiving an injustice which is just as criminal as that which is being done
+to the black people of South Africa.
+
+So today those whites who profess to be liberals— and as far as I am concerned
+it’s just lip-profession—you understand why our people don’t have civil
+rights. You’re white. You can go and hang out with another white liberal and
+see how hypocritical they are. Why a lot of you sitting right here know that
+you’ve seen whites up in a Negro’s face with flowery words, and as soon as
+that Negro walks away you listen to how your white friend talks. We have black
+people who can pass as white. We know how you talk.
+
+We can see that it is nothing but a governmental conspiracy to continue to
+deprive the black people in this country of their rights. And the only way we
+will get those rights restored is by taking it out of Uncle Sam’s hands. Take
+him to court and charge him with genocide, the mass murder of millions of
+black people in this country—political murder, economic murder, social murder,
+mental murder. This is the crime that this government has committed, and if
+you yourself don’t do something about it in time, you are going to open the
+doors for something to be done about it from outside forces.
+
+I read in the paper yesterday where one of the Supreme Court justices,
+Goldberg, was crying about the violation of human rights of three million Jews
+in the Soviet Union. Imagine this. I haven’t got anything against the Jews,
+but that’s their problem. How in the world are you going to cry about problems
+on the other side of the world and you haven’t got the problems straightened
+out here? How can the plight of three million Jews in Russia be qualified to
+be taken to the United Nations by a man who is a justice in this Supreme
+Court, and is supposed to be a liberal, supposed to be a friend of black
+people, and hasn’t opened up his mouth one time about taking the plight of
+black people down there to the United Nations?
+
+Our people are becoming more politically mature. Their eyes are coming open.
+They're beginning to see the trends in all of the American politics today.
+They notice that every time there's an election, it's so close among whites
+that they have to count the votes over again. This happened in Massachusetts
+when they were running for Governor. It happened in Rhode Island. It happened
+in Minnesota and many other places and it happened in the election between
+Kennedy and Nixon. Things are so close that any minority who has a bloc vote
+can swing it either way. And I think most of the students of political science
+agree that it was the 80 per cent support that Kennedy got from the black man
+in this country that enabled him to sit in the White House. He sat down there
+four years and the Negro is still in the dog house. Same ones that we put in
+the white house have continued to keep us in the dog house. The Negro can see
+that he holds the balance of power in this country politically. It is he who
+puts in office the one who gets in office. Yet when the Negro helps that
+person get in office the Negro gets nothing in return. All he gets is a few
+appointments, a few handpicked, Uncle Tom, handkerchief head Negroes are given
+big jobs in Washington D.C. And then those Negroes come back and try and make
+us think that administration is going to lead us to the promised land of
+integration. And the only ones whose problem has been solved have been those
+hand-picked Negroes. A few big Negroes got jobs who didn't even need the job.
+They already were working. But the masses of black people are still
+unemployed.
+
+The present administration, the Democratic administration has been down there
+for four years, yet no meaningful legislation has been passed by them that's
+supposed to benefit black people in this country. Despite the fact that in the
+House they have 257 Democrats and only 177 are Republican, they control two-
+thirds of the house in the Senate there are 67 Democrats and only 33
+Republicans, the Democrats control two-thirds of the government and it's the
+Negro who put him in position to control the government yet they give the
+Negro nothing in return but a few handouts in the form of appointments that
+are only used as window dressing to make it appear that the problem is being
+solved.
+
+No, something is wrong. And when these black people wake up and find out for
+real the trickery and the treachery that has been heaped upon us, you're going
+to have revolution. And when I say a revolution, I don't mean that stuff they
+were talking about last year, about "We Shall Overcome." That's no revolution.
+The Democrats get Negro support, yet the Negroes get nothing in return. The
+Negroes put the Democrats first, yet the Democrats put the Negroes last. And
+the alibi that the Democrats use, they blame the Dixiecrats. A Dixiecrat is
+nothing but a Democrat in disguise. You show me a Dixiecrat and I'll show you
+a Democrat. And chances are, you show me a Democrat and I'll show you a
+Dixiecrat. Because Dixie in reality means all that territory south of the
+Canadian border. There are sixteen senatorial committees that run this
+government. Of the sixteen senatorial committees that run the government, ten
+of them are controlled by chairmen who are from the south. Of the twenty
+congressional committees that help run the government, twelve of them are
+controlled by southern segregationists. Think of this. Ten of the senatorial
+committees are in the hands of the Dixiecrats. Twelve of the twenty
+congressional committees are in the hands of the Dixiecrats. These committees
+control the government. And you gonna tell us that the south lost the Civil
+War. The south controls the government. And they control it because they have
+seniority. And they have seniority because in the states that they come from,
+they deny Negroes the right to vote.
+
+If Negroes could vote south of the—yes, if Negroes could vote south of the
+Canadian border—south South, if Negroes could vote in the southern part of the
+South, Ellender wouldn’t be the head of the Agricultural and Forestry
+Commission, Richard Russell wouldn’t be head of the Armed Services Commission,
+Robertson of Virginia wouldn’t be the head of the Banking and Currency
+Committee. Imagine that, all of the banking and currency of the government is
+in the hands of a cracker.
+
+In fact, when you see how many of these committee men who control the
+government are from the South, you can see that we have nothing but a cracker
+government in Washington, D.C. And their head is a cracker president. I said a
+cracker president. Texas is just as much a cracker state as Mississippi. Even
+more so. In Texas, they lynch you with a Texas accent, in Mississippi, they
+lynch you with a Mississippi accent.
+
+The first thing this man did when he came in office was invite all the big
+Negroes down for coffee. James Farmer was one of the first ones, the head of
+CORE. I have nothing against him. He’s all right—Farmer, that is. But could
+that same president have invited James Farmer to Texas for coffee? And if
+James Farmer went to Texas, could he have taken his white wife with him to
+have coffee with the president? Any time you have a man who can’t straighten
+out Texas, how can he straighten out the country? No, you’re barking up the
+wrong tree.
+
+If Negroes in the South could vote, the Dixiecrats would lose power. When the
+Dixiecrats lost power, the Democrats would lose power. A Dixiecrat lost is a
+Democrat lost. Therefore the two of them have to conspire with each other to
+stay in power. The Northern Dixiecrat puts all the blame on the Southern
+Dixiecrat. It’s a con game, a giant political con game. The job of the
+Northern Democrat is to make the Negro think that he is our friend. He is
+always smiling and wagging his tail and telling us how much he can do for us
+if we vote for him. But at the same time that he’s out in front telling us
+what he’s going to do, behind the door he’s in cahoots with the Southern
+Democrat setting up the machinery to make sure he’ll never have to keep his
+promise.
+
+This is the conspiracy that our people have faced in this country for the past
+one hundred years. And today you have a new generation of black people who
+have come on the scene, who have become disenchanted with the entire system,
+who have become disillusioned over the system, and who are ready now and
+willing to do something about it.
+
+So, in my conclusion, in speaking about the black revolution, America today is
+at a time or in a day or at an hour where she is the first country on this
+earth who can actually have a bloodless revolution. In the past, revolutions
+have been bloody. Historically you just don’t have a peaceful revolution.
+Revolutions are bloody, revolutions are violent, revolutions cause bloodshed
+and death follows in their paths. America is the only country in history in a
+position to bring about a revolution without violence and bloodshed. But
+America is not morally equipped to do so.
+
+Why is America in a position to bring about a bloodless revolution? Because
+the Negro in this country holds the balance of power, and if the Negro in this
+country were given what the Constitution says he is supposed to have, the
+added power of the Negro in this country would sweep all of the racists and
+the segregationists out of office. It would change the entire political
+structure of the country. It would wipe out the Southern segregationism that
+now controls America’s foreign policy, as well as America’s domestic policy.
+
+And the only way without bloodshed that this can be brought about is that the
+black man has to be given full use of the ballot in every one of the fifty
+states. But if the black man doesn’t get the ballot, then you are going to be
+faced with another man who forgets the ballot and starts using the bullet.
+
+Revolutions are fought to get control of land, to remove the absentee landlord
+and gain control of the land and the institutions that flow from that land.
+The black man has been in a very low condition because he has had no control
+whatsoever over any land. He has been a beggar economically, a beggar
+politically, a beggar socially, a beggar even when it comes to trying to get
+some education. In the past type of mentality, that was developed in this
+colonial system among our people, that today is being overcome. And as the
+young ones come up, they know what they want. And as they listen to your
+beautiful preaching about democracy and all those other flowery words, they
+know what they’re supposed to have.
+
+So you got a people today who not only know what they want, but also know what
+they are supposed to have. And they themselves are creating another generation
+that is coming up that not only will know what it wants and know what it
+should have, but also will be ready and willing to do whatever is necessary to
+see that what they should have materializes immediately. Thank you.
+
+* * * 
+
+**[Question about the accuracy of _The Militant_]** **Malcolm X**
+
+: I’ve never found any misquote in
+
+_The Militant_
+
+of us, and I think any white newspaper, and I guess that’s what it is, that
+can quote a black man correctly is certainly a militant newspaper.
+
+**[Question about school integration and the Freedom Now Party]** **  
+****Malcolm X**
+
+: If I understood you correctly you asked two questions: Number one—am I in
+favor of integration in the public schools? And number two—am I in favor of
+the Freedom Now Party? Insofar as integration in the public schools is
+concerned, I don’t know anywhere in America where they have an integrated
+school system, North or South. If they don’t have it in New York City, they
+definitely never will have it in Mississippi. And anything that won’t work I’m
+not in favor of. Anything that’s not practical I’m not in favor of.
+
+This doesn’t mean I’m for a segregated school system. We are well aware of the
+crippled minds that are produced by a segregated school system, and when Rev.
+Galamison was involved in a boycott against this segregated school system, we
+supported it. This doesn’t make me an integrationist, nor does it make me
+believe that integration is going to work; but Galamison and I agree that a
+segregated school system is detrimental to the academic diet, so-called diet,
+of the children who go to that school. But a segregated school system isn’t
+necessarily the same situation that exists in an all-white neighborhood. A
+school system in an all-white neighborhood is not a segregated school system.
+The only time it’s segregated is when it is in a community that is other than
+white, but at the same time is controlled by the whites.
+
+So my understanding of a segregated school system, or a segregated community,
+or a segregated school, is a school that’s controlled by people other than
+those that go there. But in an all-white neighborhood, where you have an all-
+white school, that’s not a segregated school. Usually they have a high-caliber
+education. Anytime someone else can put on you what they want, naturally
+you’re going to have something that’s inferior. So the schools in Harlem are
+not controlled by the people in Harlem, they’re controlled by the man
+downtown. And the man downtown takes all of the tax dollars and spends them
+elsewhere, but he keeps the schools, the school facilities, the
+schoolteachers, and the schoolbooks, material, in Harlem at the very lowest
+level. So this produces a segregated education, which doesn’t do our people
+any good. On the other hand, if we can get an all-black school, that we can
+control, staff it ourselves with the type of teachers that have our good at
+heart, with the type of books that have in them many of the missing
+ingredients that have produced this inferiority complex in our people, then we
+don’t feel that an all-black school is necessarily a segregated school. It’s
+only segregated when it’s controlled by someone from outside.
+
+I hope I’m making my point. I just can’t see where if white people can go to a
+white classroom and there are no Negroes present and it doesn’t affect the
+academic diet they’re receiving, then I don’t see where an all-black classroom
+can be affected by the absence of white children. If the absence of black
+children doesn’t affect white students, I don’t see how the absence of whites
+is going to affect the blacks. So, what the integrationists, in my opinion,
+are saying, when they say that whites and blacks must go to school together,
+is that the whites are so much superior that just their presence in a black
+classroom balances it out. I can’t go along with that. Yes, ma’am?
+
+**[Question again about the Freedom Now Party]** **Malcolm X**
+
+: The Freedom Now Party—I don’t know too much about it, but what I know about
+it, I
+
+like.
+
+**[Question about whites too being hurt by Congressional filibusters]**
+**Malcolm X**
+
+: If I understood you correctly, you were saying that those white senators and
+congressmen there that are filibustering and other things have done whites as
+much harm as they’ve done blacks. I just can’t quite go along with that. You
+see, it’s the black man who sits on the hot stove. You might stand near it but
+you don’t sit on it.
+
+**[Questions in writing—about white radicals and African misleaders]**
+**Malcolm X**
+
+: A question sent up: “Can black people achieve their freedom without the help
+of white radicals, who have more experience at fighting?” And the second
+question is—this is from a real white liberal, “Some black leaders, even in
+Africa, are misleading their people,” and he says, “I mean Nasser too.” I know
+this is from a liberal. I can even tell what geographic area he’s from. In
+regard to the first question—Can black people achieve their freedom without
+the help of white radicals, who have more experience at fighting?—all of the
+freedom that white people have gotten in this country and elsewhere: they
+haven’t gotten it just fighting themselves. You’ve always had someone else to
+do your fighting for you. You perhaps haven’t realized it. England became
+powerful because she had others to fight for her. She used the African against
+the Asian and the Asian against the African. France used the Senegalese. All
+these white powers have had some little lackeys to do their fighting for them,
+and America has had 22 million African-Americans to do your fighting for you.
+It is we who have fought your battles for you, and have picked your cotton for
+you. We built this house that you’re living in. It was our labor that built
+this house. You sat beneath the old cotton tree telling us how long to work or
+how hard to work, but it was our labor, our sweat and our blood that made this
+country what it is, and we’re the only ones who haven’t benefited from it. All
+we’re saying today is, it’s payday—retroactive.
+
+And where this gentleman said some black leaders in Africa also mislead their
+people, I guess you’re talking about black leaders like Tshombe, but not—One
+of the greatest black leaders was Lumumba. Lumumba was the rightful ruler of
+the Congo. He was deposed with American aid. It was America, the State
+Department of this country, that brought Kasavubu to this country, interceded
+for him at the UN, used its power to make certain that Kasavubu would be
+seated as the rightful or recognized ruler of the Congo. And as soon as
+Kasavubu, with American support, became the ruler of the Congo, he went back
+to the Congo, and his first act upon returning home was to turn Lumumba over
+to Tshombe. So you can easily see whose hand it was behind the murder of
+Lumumba. And chickens come home to roost.
+
+And then you mention Nasser. Well, I think that’s a subjective, subconscious
+reaction on your part, the fact that you included Nasser’s name—I know who you
+are. Before the Egyptian revolution, Farouk was a monarch in Egypt who had
+exploited the people with the aid of the West. Naguib and Nasser brought about
+a revolution, and those who have visited the African continent today will tell
+you, if they are objective in their observations, that Egypt is one of the
+most highly industrialized nations on the African continent—the only other
+nation is a white nation and that’s South Africa. But under Nasser the
+Egyptians have become a highly industrialized nation; they’re trying to
+elevate the standard of living of their people.
+
+You’ll find that there’s a tendency in the West to have the attitude toward
+any African leader who has the mass support of his people—usually the West
+classifies him as a dictator. And I can name them. Nkrumah is called a
+dictator because he has his people with him; Nasser is called a dictator, Ben
+Bella is a dictator, Sekou Toure is called a dictator—all of these people who
+are called dictators by the West usually are classified by the West as anti-
+West, because the West can’t tell them what to do. Yes, ma’am?
+
+**[Question about going to the United Nations]** **Malcolm X**
+
+: And this is one of the reasons why— the lady asked do we have any feasible
+plan of bringing this fight to the UN. The very fact that there has been a
+civil rights struggle, since 1954 actually, and at no time have any of the
+Negro civil rights leaders made any effort to take it before the United
+Nations—that right there should give you a hint that there’s a conspiracy
+involved. When every other underdog on this earth—I mean some of the underdogs
+way out in the South Pacific— have had their plight taken to the UN; people
+who don’t even know where the UN is—still the UN is arguing about their
+situation. And here we have 22 million black people surrounding the UN, and
+nothing concerning their plight is taken to the UN. Don’t tell me that it’s
+not an atrocity. Any time a church is bombed—there’s no more outright example
+of the violation of human rights than when you are sitting in church and have
+it bombed, and four little black babies are murdered. And [when] that still
+doesn’t reach the UN, then I say there’s a conspiracy.
+
+So our contention is that the white liberals, so-called liberals, infiltrated
+the civil rights movement, and got the black people barking up the wrong tree.
+Because white people are intelligent enough to know that the problem will
+never be solved in Washington, D.C. There are crooks there, but you can take
+the crooks who are in Washington, D.C., downtown before the world court. If
+they know that you can take them to court, they’ll start acting right. That’s
+the only time they’ll act right. And then they won’t be acting right because
+they believe in legality or morality or anything like that—they have none of
+that in them. They’ll only be acting right because they don’t want you to take
+them to court.
+
+So, yes, there’s a machinery being set up right now. And many of our brothers
+and sisters from Africa and Asia and in other parts of this earth, whose
+nations have emerged and become independent, are capable and well qualified to
+lend all of the support at their disposal to the problem of the black people
+in this country, once it gets into the UN. But they cannot become involved in
+it as long as it’s called a civil rights struggle—because protocol keeps them
+from becoming involved in any of America’s domestic affairs. Civil rights is
+domestic. Human rights is international.
+
+Now, if you consider yourself a true liberal—and me, I haven’t found one. When
+I say that, I’m bearing in mind I haven’t met all white people, but among
+those that I’ve met I haven’t met one yet that would pass the test; I might
+meet somebody else tomorrow—
+
+**[James Wechsler, New York Post editor, takes floor and begins to speak
+before being called on.]** **Malcolm X**
+
+: Sir, why didn’t you put up your hand and wait until I called on you? No, why
+didn’t you find out? Why didn’t you put up your hand till I called on you?
+You’re being rude. You’re proving my point. [Calls on someone else.] Yes, sir?
+
+**[Question about Karl Marx]** **Malcolm X**
+
+: Number one, I don’t know too much about Karl Marx. That’s number one—I just
+don’t know too much about Karl Marx. However, it is true that when a nation
+loses its markets, no matter how capitalistic or highly industrialized it is
+or how much goods it can produce, when it loses those markets, it’s in
+trouble. And this is one of the basic factors behind America’s problem. She
+has lost her world markets. It’s not just automation that’s putting her out,
+giving her a headache. She has no markets. There was a time when the whole
+world was her market. But today she’s hated. Not only is she losing her
+markets because she’s hated, but the European nations are industrialized—they
+can produce goods cheaper than America can. Japan produces goods cheaper than
+she and undersells her. And the nations of Africa and Asia would rather buy
+their manufactured or finished products from other than America.
+
+So it is not so much that automation is causing the unemployment
+situation—which affects the Negro first and foremost because he’s the last
+hired and has to be the first fired. But it’s just the fact that America has
+run out of markets. And it is impossible for her to find new markets anywhere,
+unless there’s some customers on the moon or on some other planet. And as long
+as this situation exists, America’s economy is going to continue to go down,
+her dollar will continue to lose its value, and when her dollar loses its
+value she’s lost all her friends. Because the only friends she has are those
+whom she has bought.
+
+And one further comment is this: as I said, I don’t know too much about Karl
+Marx, but there was this man who wrote
+
+_The Decline of the West_
+
+, Spengler—he had another book that’s a little lesser known, called
+
+_The Hour of Decision_
+
+. In fact, someone gave me the book out in front of this place one night, a
+couple of years ago, because I had never heard of it either. I imagine it
+might be someone who’s in this audience or who had that type of thinking. It
+was at a meeting like this.
+
+And in Spengler’s
+
+_Hour of Decision_
+
+, it’s about world revolution, and his thesis is that the initial stages of
+the world revolution would make people be forced to line up along class lines.
+But then after a while the class lines would run out and it would be a lineup
+based upon race. Well, I think he wrote this in the early thirties. And it has
+actually taken place. Even when the United Nations was put together, the blocs
+were divided up along class or some kind of economic philosophy. But today the
+blocs that exist in the UN are based on race, along color lines. You have your
+Arab-Afro-Asian bloc—they are all black, brown, red, or yellow. You have your
+other blocs and your other blocs, but when you find those blocs you usually
+find everybody in them has something in common and the most that they have in
+common usually is the color of their skin, or the absence of color from their
+skin. Yes, sir?
+
+**[Question about the role of whites]** **Malcolm X**
+
+: Well, if you noticed when I was speaking I said the whites can help, if
+they’re progressive-minded. But my observation and analysis of the kind of
+help they’ve been giving makes me very cautious about the help that they
+offer. And I say that because of this: as I said, I grew up with whites. Most
+of them are intelligent. At least they used to be. No white person would go
+about fighting for freedom in the same manner that he has helped me and you to
+fight for our freedom. No, none of them would. When it comes to black freedom,
+then the white man freedom-rides and sits in, he’s nonviolent, he sings “We
+Shall Overcome” and all that stuff. But when the property of the white man
+himself is threatened, or the freedom of the white man is threatened, he’s not
+nonviolent. He’s only nonviolent when he’s on your side. But when he’s on his
+side he loses all that patience and nonviolence.
+
+So, if the whites are sincere in this struggle they will show the black man
+how to employ or use better tactics, tactics that will get results—and not
+results a hundred years from now. Our people aren’t going to wait ten years.
+If this house is a house of freedom and justice and equality for all, if
+that’s what it is, then let’s have it. And if we can’t all have it, none of us
+will have it.
+
+**[Question in writing—about the ballot]** **Malcolm X**
+
+: Question: “Do you really think the Negro can win with the ballot? If not,
+why not?” The Negro in this country, before he can win with the ballot, has to
+be made more politically mature. Now many Negroes don’t like to be
+criticized—they don’t like for it to be said that we’re not ready. They say
+that that’s a stereotype. We have assets—we have liabilities as well as
+assets. And until our people are able to go in a closet, put you out, and
+analyze ourselves and discover our own liabilities as well as our assets, we
+never will be able to win any struggle that we become involved in. As long as
+the black community and the leaders of the black community are afraid of
+criticism and want to classify all criticism, collective criticism, as a
+stereotype, no one will ever be able to pull our coat. So, first we have to go
+in the closet and find out where we are lacking, and what we need to replace
+that which we are lacking, [or] we never will be able to be successful. We can
+win with the ballot only when we make our people become politically mature.
+
+Those whose philosophy is black nationalism are involved right now, and will
+become involved, with any group—green, blue, yellow, pink—that is set up with
+an organizational apparatus designed to get more of our people involved as
+registered voters. We’re involved in that; we will cooperate with that. But at
+the same time we won’t tell them to register as a Democrat or a Republican.
+Any Negro who registers as a Democrat or a Republican is a traitor to his own
+people.
+
+Registering is all right. That only means “load your gun.” Just because you
+load it doesn’t mean you have to shoot it. You wait until you get a target and
+make certain that you’re in a position to put that thing up next to the
+target, and then you pull the trigger. And just as you don’t waste bullets at
+a target that’s out of reach, you don’t throw ballots just to be throwing
+ballots. Our people need to get registered, need to pile up political power,
+but they need to hold it in abeyance and throw it when they know that throwing
+it is going to get results. Don’t just throw it because you’ve got it.
+
+**[Question in writing—about concrete political plans]** **  
+****Malcolm X**
+
+: This question: “Do you have any immediate concrete plans to take over
+politics and politicians in black communities?” Yes, and when you’ve got
+concrete plans, the best way to keep them concrete is to keep them to
+yourself.
+
+**[Question in writing—about SNCC and the UN]** **Malcolm X**
+
+: The other question written—“Excuse me, but the Student Nonviolent
+Coordinating Committee appealed to the United Nations following the Birmingham
+murders and picketed the UN demanding action for several days.”
+
+That’s not how you get it—you don’t get it picketing the UN. In fact I have
+never seen anybody get anything yet picketing. I haven’t seen anything that
+was gotten picketing. You get what you’re going to get either one way or the
+other. I might add to that. You don’t get anything on the agenda of the UN
+through picketing.
+
+Plus, when the Student Nonviolent Coordinating Committee was picketing the UN
+based upon the murders in Binningham, it was still civil rights. They didn’t
+have enough sense to realize—excuse me for saying they didn’t have enough
+sense, but evidently they didn’t—to realize that as long as they took it from
+a civil rights level the UN can’t accept it. It must be human rights. So the
+best thing for you to do, who are liberals, is to go to the UN and get all of
+the books on human rights.
+
+Do you know that the United States has never signed the Covenant on Human
+Rights? It signed the Declaration of Human Rights, but it couldn’t sign the
+Covenant because in order to sign the Covenant, they’d have to have it
+ratified by the Congress and the Senate. And how’re they going to get ‘a
+covenant ratified by the Congress and the Senate on human rights when they
+can’t even get one through on civil rights? No! And Eleanor Roosevelt,
+supposedly a liberal, was chairman of the Commission on Human Rights. She knew
+all of this. Why didn’t ultra-liberal Eleanor tell these Negroes about the UN
+section on human rights that would enable us to get our problem before the
+world? No, that’s why I say I haven’t met a white liberal. This gentleman over
+here who thinks I’m going to discriminate [against] him— [Recognizes James
+Wechsler]
+
+**[Question about Rev. Bruce Klunder, who was killed by a bulldozer while
+demonstrating against school segregation in Cleveland]** **  
+****Malcolm X**
+
+: I was in Cleveland last night, yesterday, in fact, when this thing took
+place—[Wechsler speaks again] Sir? I didn’t put him under the bulldozer
+either. Uncle Sam put him under the bulldozer. The Supreme Court put him under
+the bulldozer. [Wechsler again.] His death still didn’t desegregate the school
+system.
+
+We’re not going to stand up and applaud any contribution made by some
+individual white person when 22 million black people are dying every day. What
+he did—good, good, great. What he did- good. Hooray, hooray, hooray. Now
+Lumumba was murdered, Medgar Evers was murdered, Mack Parker was murdered,
+Emmett Till was murdered, my own father was murdered. You tell that stuff to
+somebody else. It’s time that some white people started dying in this thing.
+If you’ll forgive me, forgive me for saying so, but many more beside he are
+going when the wagon comes. Yes, sir?
+
+**[Question about the religion of Islam and the partition of India]**
+**Malcolm X**
+
+: If I understand you correctly, number one—you wanted to know why do we,
+black people, turn to Islam. The religion that many of our forefathers
+practiced before we were kidnapped and brought into this country by the
+American white man was the religion of Islam. This has been destroyed in
+textbooks of the American educational system to try and make it appear that we
+were nothing but animals or savages before we were brought here, to hide the
+criminal acts that they had to perpetuate upon us in order to bring us down to
+the level of animals that we’re on today. But when you go back, you’ll find
+that there were large Muslim empires that stretched all the way down into
+equatorial Africa, the Mali Empire, Guinea. All these places—their religion
+was Islam.
+
+So here in America today when you find many of us who are accepting Islam as
+our religion we are only going back to the religion of our forefathers. Plus,
+we believe that this is the religion that will do more to reform us of our
+weaknesses that we’ve become addicted to here in Western society than any
+other religion. Secondly, we can see where Christianity has failed us 100
+percent. They teach us to turn the other cheek, but they don’t turn it.
+
+And concerning the partition of India and Pakistan—I think that’s what you
+meant—I’m not too familiar with it other than the fact that I do know that for
+many years the subcontinent of India was ruled by the British, by the colonial
+powers from Europe. The strategy of the colonial powers has always been to
+divide and conquer. As a rule you’ll find that people in the East, in the
+Orient, can pretty well live together. And I believe when you find them
+fighting each other, you [should] look for that man that’s turning them one
+against the other—divide and conquer. In fact, if Pakistan and India had not
+been at each other’s throats, so to speak, for the past ten or so years, they
+probably could have developed much faster and made more progress than they
+have, and could do something more concrete toward helping us solve most of our
+problems. So these divisions are dangerous.
+
+**[Question about racial divisions in American society]** **Malcolm X**
+
+: Well, we have. And you don’t have to demand it. It’s already divided on
+racial lines. Go to Harlem. All we’re saying now is since we’re already
+divided, the least the government can do is let us control the areas where we
+live. Let the white people control theirs, let us control ours—that’s all
+we’re saying. If the white man can control his, and actually what he’s using
+to control it is white nationalism, let us control ours with black
+nationalism. You find white nationalism in the white communities whether they
+are Catholic, whether they are Jews, whether they are Protestant—they still
+practice white nationalism. So all we’re saying to our people is to forget our
+religious differences. Forget all the differences that have been artificially
+created by the whites who have been over us, and try and work together in
+unity and harmony with the philosophy of black nationalism, which only means
+that we should control our own economy, our own politics, and our own society.
+Nothing is wrong with that.
+
+And then, after we control our society, we’ll work with any segment of the
+white community towards building a better civilization. But we think that they
+should control theirs and we should control ours. Don’t let us try and mix
+with each other because every time that mixture takes place we always find the
+black man low man on the totem pole—low man on the totem pole. If he’s not low
+man, he’s no man at all. Yes, ma’am?
+
+**[Question about the possibilities of support from Africa]** **Malcolm X**
+
+: You’ll find that here today in 1964 there are enough independent nations in
+the UN from Africa and Asia who have become politically mature and also have
+enough independence to do what is necessary to see that some results are
+gotten from any plea, bona fide plea, that’s made on the part of our people.
+It was the control that the United States had in the UN that enabled them to
+get Lumumba murdered and have his murder covered up. But here’s a thing our
+people are beginning to see: as soon as the United States gets through with a
+stooge, she drops him. She dropped Tshombe; when she couldn’t use Tshombe
+anymore, she dropped him. When she couldn’t use the two brothers over in
+Saigon—what’s their names?—Diem and Nhu, she dropped them. When she couldn’t
+use Syngman Rhee anymore, she dropped him. When she couldn’t use Menderes
+anymore, she dropped him. Well, you see, this pattern is being studied by
+these other Uncle Toms. And they’re beginning to see that if they keep on
+going, they’re going to get dropped too. Yes, ma’am?
+
+**[Question about the common interest of old age pensioners and black
+people]** **Malcolm X**
+
+: I don’t see how you can compare their situation with the plight of 22
+million African- Americans. Our people were outright slaves—outright slaves.
+We pulled plows like horses. We were bought and sold from one plantation to
+another like you sell chickens or like you sell a bag of potatoes. I read in
+one book where George Washington exchanged a black man for a keg of molasses.
+Why, that black man could have been my grandfather. You know what I think of
+old George Washington. You can’t compare someone on old age assistance with
+the plight of black people in this country. No comparison whatsoever. And what
+they can do is not comparable to what we can do—not those old folks. Yes,
+sir—way in the back
+
+**[Question about why the audience should stand in honor of Rev. Klunder]**
+**Malcolm X**
+
+: Let’s rise in the honor of Lumumba, let’s rise in the honor of Medgar Evers,
+let’s rise in the honor—No, look; good, what the man did is good. But the day
+is out when you’ll find black people who are going to stand up and applaud the
+contribution of whites at this late date.
+
+One hundred million Africans were uprooted from the African continent—where
+are they today? One hundred million Africans were uprooted, 100 million
+Africans, according to the book
+
+_Anti-Slavery_
+
+, by Professor Dwight Lowell Dumond—excuse me for raising my voice—were
+uprooted from the continent of Africa. At the end of slavery you didn’t have
+25 million Africans in the Western Hemisphere. What happened to those 75
+million? Their bodies are at the bottom of the ocean, or their blood and their
+bones have fertilized the soil of this country. Why, don’t you ever think I
+would use my energy applauding the sacrifice of an individual white man. No,
+that sacrifice is too late.
+
+**[Question in writing—about black nationalism, separatism, integration and
+assimilation...”A pamphlet, Freedom Now, is on sale in the back and it
+contains the statement, “All separatists are nationalists, but not all
+nationalists are separatists.”]** **Malcolm X**
+
+: I don’t know anything about that.
+
+**Question**
+
+: “What is your view on this? Can one be a black nationalist even though not
+interested in a separate independent black nation? Similarly, is every
+integrationist necessarily an assimilationist?”
+
+**Malcolm X**
+
+: Well, as I said earlier, the black people I know don’t want to be
+integrationists, nor do they want to be separationists—they want to be human
+beings. Some of them choose integration, thinking that this method will bring
+them respect as a human being, and others choose separation, thinking that
+that method or tactic will bring them respect as a human being. But they’ve
+had so much trouble attaining their objectives that they’ve gotten their
+methods mixed up with their objectives, And now, instead of calling themselves
+human beings, they’re calling themselves integrationists and separationists,
+and they don’t have either one—no. So I don’t know about the integrationists
+and the assimilationists and the separationists, but I do know about the
+segregationists—that’s the Americans. Yes, sir?
+
+**[Question about Malcolm’s attitude to Robert F. Williams]**
+
+Malcolm X: Well, Robert Williams was exiled to Cuba for advocating guns for
+Negroes. He made some mistakes in carrying out his program, which left the
+door open that allowed the FBI to make him appear to be the criminal that he
+actually is not. When someone in front of you makes a mistake, you should
+learn and benefit from those mistakes.
+
+The black man in this country is within his constitutional rights to have a
+rifle. The white man is, too. The Constitution gives you the right to have a
+rifle or a shotgun. You shouldn’t go out shooting people with it; you
+shouldn’t become involved in acts of aggression that you initiate. But, in
+this country where we have a government, a law enforcement agency at the
+federal, local, and state level- in areas where those agencies show that they
+are unable or unwilling to defend Negroes, Negroes should defend themselves.
+That’s all: should defend themselves. And he’s within his lawful right. This
+doesn’t mean that he should use arms to initiate acts of aggression. But if it
+costs me my life in the morning I will tell you tonight that the time has come
+for the black man to die fighting. If he’s going to die, die fighting. I have
+a rifle; I’ve shown my wife how to work it. And if anybody puts his foot on my
+step, he’s dead. Whether I’m home or not, he’s dead.
+
+This doesn’t mean that we want to live in a society like this. But when you’re
+living in a society of criminals and the law fails to do its duty what must
+one do? Continue to turn the other cheek? Medgar Evers turned his. Those four
+little girls, who were bombed in a church, turned theirs. Negroes have done
+nothing but seen each other turn the other cheek. This generation won’t do it,
+won’t do it any longer. May I just say this, sir? America is faced with a
+situation where in every Negro community in this country, the racial animosity
+that is developing and the disillusionment in the minds of Negroes toward
+white society is such that these communities, these ghettos, these slums that
+we live in, will eventually develop into the same type of Casbah situation
+that you have in Algeria and these other countries—where you won’t be able to
+set your foot in that neighborhood, unless you’ve got a guide to show you the
+way. This is true.
+
+And what else should we do? How can we continue to live in a community that’s
+turned into a police state? Where the police are not there to protect us but
+are there only to protect the property of the merchant who doesn’t even live
+in our community, who has his store there and his house somewhere else.
+They’re there to protect his property. And as Negroes over the years see this,
+we also see that they don’t protect us: in fact, sometimes we need protection
+against them.
+
+This doesn’t mean that the police are always wrong—I’m saying this too. In New
+York, where Negroes are concerned, so-called Negroes, it has been my
+experience in traveling from coast to coast to notice that in Harlem the
+police officer, at least in the past three years up to a short while ago,
+exercised more care in dealing with incidents that could explode into a racial
+situation than is used by police officers in most of the large cities of the
+North. In 1960, ‘61, ‘62, along in there, the police department here did use
+more caution in incidents that were outright involving race. But the recent
+statement by the police commissioner, this man, this Irishman Murphy, is very
+dangerous, because those commissioners who preceded him exercised more
+intelligence in statements that they made, and they were very careful never to
+make a statement that would inflame the white officer against the black
+community. But Murphy is making statements that seem deliberately designed to
+make the average cop on the beat think that he can bust any Negro upside his
+head and not be reprimanded for it. This is dangerous because today when you
+put a club in the direction of a Negro’s head, he’s going to do his best to
+get that club, whether you’ve got a uniform or not.
+
+**[Question, a general attack on Malcolm, followed by a complaint that the
+speaker wants to make a statement rather than ask a question.]** **Malcolm X**
+
+: You can comment right here, this is a meeting.
+
+**[After the speaker denounces Malcolm further, some members of the audience
+begin to protest.]** **Malcolm X**
+
+: Let him have his say—go ahead, doctor.
+
+**[The speaker goes ahead.]** **Malcolm X**
+
+: I’ll take just two minutes to comment on what you’ve said. You notice you
+kept using the expression “talk back” or “have their say.” Now you know how
+our people have felt for 400 years. And your attitude right now is the type of
+attitude that makes Uncle Sam a hated country. You reflect the collective
+attitudes of the American whites.
+
+There are some—he [pointing to the chairman] doesn’t reflect the collective
+attitude. He reflects the unique attitude—he’s quiet, he’s listening, he’s
+taking it all in, he’s analyzing it. And when he stands up to speak, he’s
+going to speak in a much more intelligent manner than you and will win more
+friends than you. Now I might say this right here—in saying this about him,
+I’m not saying this to jive him or pat him on the back. You know me, I think
+you know me, better than that. If I say positive things about him, I mean it.
+He will probably get some of you saved, but you will get most of you killed.
+
+I just want to say one more comment on his remark about me being bloodthirsty.
+I’m not bloodthirsty. I’m one of 22 million black people in this country who’s
+tired of being the victim of hypocrisy by a country that supposedly practices
+democracy. Any black man—you had your say, please be quiet—any black man who
+will stand up and tell you exactly how he feels is doing you a favor because
+most of them don’t tell you how they feel.
+
+I want to thank the Militant Labor Forum for the invitation to speak here this
+evening. I think, as I said earlier, the paper is one of the best that I’ve
+read. We always encourage those who live in Harlem to buy it when we see it up
+there, or wherever else we may see it. It’s a very good paper. I hope they
+continue to have success, make progress. They can probably straighten out a
+lot of white people. Let us straighten out the black people. That’s all I’m
+saying.

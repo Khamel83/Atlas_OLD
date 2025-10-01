@@ -1,0 +1,73 @@
+# Opinion | The Loophole That Turns Your Apps Into Spies - The New York Times
+
+**Source**: https://www.nytimes.com/2019/09/24/opinion/facebook-google-apps-data.html
+**Type**: article
+**Created**: 2025-08-13T16:07:08.437326
+
+---
+
+title: Opinion | The Loophole That Turns Your Apps Into Spies - The New York Times
+source: https://www.nytimes.com/2019/09/24/opinion/facebook-google-apps-data.html
+date: 2025-08-13T16:07:01.749380
+tags: []
+---
+_This article is part of a limited-run newsletter. You can_[ _sign up
+here_](http://web.archive.org/web/20240620214819/https://www.nytimes.com/newsletters/privacy-
+project?action=click&module=inline&pgtype=Article) _._
+
+By now you probably know that your apps ask for permission to tap into loads
+of data. They request device information, like advertiser IDs, which companies
+use to build marketing profiles. There’s data the companies explicitly ask for
+via a pop-up window, like access to contacts or your camera roll. And then
+there’s tracking that is especially invasive, like access to your microphone
+or your phone’s gyroscope or location tracking data.
+
+What you probably didn’t know is that by downloading those apps and entering
+into those contracts, you’re also exposing your sensitive information to
+dozens of other technology companies, ad networks, data brokers and
+aggregators. Sometimes the information is shared with global tech giants;
+other times it’s with small companies you’ve never heard of.
+
+The data is transmitted — or in some cases leaked — via software development
+kits (S.D.K.s). They are essentially developer shortcuts, a set of tools or a
+library of code that developers can import from a third party so that they
+don’t have to build them from scratch.
+
+Because they’re so useful to app developers, S.D.K.s are embedded into
+thousands of apps, ranging from mundane weather services to mobile games and
+even in some health apps. Facebook, Google and Amazon, for example, have
+extremely popular S.D.K.s that allow smaller apps to connect to bigger
+companies’ ad platforms or help provide web traffic analytics or payment
+infrastructure. In exchange, the S.D.K. makers receive user data from that
+app. Just how much data is often unclear. And once the companies have it,
+there are no restrictions on what they can do with it. Theoretically, they
+could turn around and sell that data for profit.
+
+Last [December I reported on how Facebook’s
+S.D.K.](http://web.archive.org/web/20240620214819/https://www.buzzfeednews.com/article/charliewarzel/apps-
+are-revealing-your-private-information-to-facebook-and) was collecting
+information from apps like Tinder and Grindr as well as various pregnancy and
+religious apps. Among the information sent to Facebook: your device IP address
+and type, the time of use and your advertising ID. While the data is
+supposedly anonymized, the advertising ID makes it extremely easy for bigger
+companies like Facebook to identify and link third-party app information to
+existing Facebook users (if you’ve logged into Facebook on your phone or
+downloaded the app, Facebook can theoretically match that advertising ID with
+the ID transmitted through the S.D.K.).
+
+S.D.K.s become particularly concerning when embedded inside apps that contain
+sensitive information. This month [BuzzFeed News
+reported](http://web.archive.org/web/20240620214819/https://www.buzzfeednews.com/article/meghara/period-
+tracker-apps-facebook-maya-mia-fem) that period tracker apps were sending
+highly personal data to Facebook via S.D.K.s, including when women last had
+sex. And it’s not just Facebook; small tech companies and ad networks with
+unknown business practices provide S.D.K.s to apps, and hoover up and
+potentially expose information. In 2018, [a researcher for Kaspersky
+Labs](http://web.archive.org/web/20240620214819/https://searchsecurity.techtarget.com/answer/How-
+do-SDKs-for-ad-networks-cause-data-leaks) “found [four million Android
+apps](http://web.archive.org/web/20240620214819/https://published-
+prd.lanyonevents.com/published/rsaus18/sessionsFiles/8161/ASEC-T08-Leaking-
+Ads-Is-User-Data-Truly-Secure.pdf) were sending unencrypted user profile data,
+such as names, ages, incomes, phone numbers and email addresses — and, in one
+example, dates of birth, user names and GPS coordinates” from the app to the
+advertisers’ servers.

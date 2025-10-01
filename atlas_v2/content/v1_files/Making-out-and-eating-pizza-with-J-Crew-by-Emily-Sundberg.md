@@ -1,0 +1,3 @@
+*Today’s letter is free, and brought to you by J.Crew.*
+
+Good morning everyone. I am slightly hungover from an unnecessary (but fun!) extra glass of wine last night at [Gage & Tollner](https://www.gageandtollner.com/). Last night, we had a Feed Me book club for paid readers in Brooklyn — thank you everyone who came, and talked about sex, divorce, and dating in New York. I’ve been drinking Ma…

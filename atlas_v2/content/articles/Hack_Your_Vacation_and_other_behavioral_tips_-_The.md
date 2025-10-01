@@ -1,0 +1,130 @@
+# Hack Your Vacation (and other behavioral tips) - The Big Picture
+
+**Source**: https://ritholtz.com/2019/07/hack-your-vacation/
+**Type**: article
+**Created**: 2025-08-13T16:12:57.611138
+
+---
+
+title: Hack Your Vacation (and other behavioral tips) - The Big Picture
+source: https://ritholtz.com/2019/07/hack-your-vacation/
+date: 2025-08-13T16:12:43.811571
+tags: []
+---
+What are you doing for your long weekend? What are your expectations?
+
+I ask because we can increase the happiness we derive from our vacations via
+behavioral science. Not just our holiday travel, but our investing, consumer
+purchases, and retirement planning, too. I’ll have more on that on _Monday_ ,
+but since the Fourth of July long holiday weekend begins tomorrow (or even
+today), let’s discuss what you can do to make the most of your time off.
+
+[![](//web.archive.org/web/20241207023743im_/https://ritholtz.com/wp-
+content/plugins/a3-lazy-
+load/assets/images/lazy_placeholder.gif)![](http://web.archive.org/web/20241207023743im_/https://ritholtz.com/wp-
+content/uploads/2019/07/b6f2e7349.jpg)](http://web.archive.org/web/20241207023743/https://www.theatlantic.com/business/archive/2014/10/buy-
+experiences/381132/)Psychologists, and increasingly, economists have developed
+strategies to improve the decision making process. This can help to [increase
+happiness](http://web.archive.org/web/20241207023743/https://research.cornell.edu/news-
+features/intriguing-human-behavior) and satisfaction from the goods and
+services you buy.
+
+Vacations are merely one example. It’s not just consumer goods or services
+that are impacted by your own psychology. [Behavioral
+issues](http://web.archive.org/web/20241207023743/https://ritholtz.com/category/behavioral-
+finance-psychology/) have a giant impact on our investing success and failure.
+Indeed, over the past 20 years, the field of behavioral economics has
+progressed from a backwater of grad school economics departments into a widely
+accepted, transformative science. Its proponents – folks like [Richard
+Thaler](http://web.archive.org/web/20241207023743/https://ritholtz.com/2015/06/mib-
+richard-thaler-on-the-human-side-of-economics/), [Robert
+Shiller](http://web.archive.org/web/20241207023743/https://ritholtz.com/2014/11/masters-
+in-business-the-robert-shiller-interview/), and [Danny
+Kahneman](http://web.archive.org/web/20241207023743/https://ritholtz.com/2016/08/mib-
+kahneman-heuristics-biases-cognition/) have won Nobel prizes by deciphering
+how we think about decision-making.
+
+You can use behavioral science to make better decisions in your financial
+life. Unfortunately, few put this knowledge to good use. Let’s use one example
+of consumer spending as an example to see if we can change that:
+
+**Vacations** : Americans work [longer and
+harder](http://web.archive.org/web/20241207023743/https://20somethingfinance.com/american-
+hours-worked-productivity-vacation/) than ever, and time off is an important
+part of one’s mental health. Vacations are part of a broader trend [towards
+experiences](http://web.archive.org/web/20241207023743/https://www.theatlantic.com/business/archive/2014/10/buy-
+experiences/381132/) over material goods. Four behavioral insights might help
+you get the most of out of them.
+
+> _Anticipation_ : Numerous studies 1 have found that much of the pleasure of
+> consumption is in the anticipation of the actual purchase. Use this to your
+> advantage. Have fun making plans, thinking about your trip, updating your
+> expectations as it gets closer.
+>
+> Talk about how much fun it will be to go to ____, see ____ and do ____. The
+> mere act of thinking about and discussing travel brings pleasure,
+> kickstarting the positive memories even before the trip begins.
+>
+> _Start big, have a great peak_. Two cognitive biases are in play here. The
+> [Primacy/Recency
+> effect](http://web.archive.org/web/20241207023743/https://rapidbi.com/primacy-
+> and-recency-effects-in-learning/) is the tendency to place greater impact on
+> beginnings and ends. We recall first and last items on lists better than
+> those in the middle; we judge presentations in part by how we feel about
+> first and last impressions.
+>
+> That works in tandem with the [Peak-end
+> rule](http://web.archive.org/web/20241207023743/https://www.nngroup.com/articles/peak-
+> end-rule/). This “impacts how people remember past events. _Intense positive
+> or negative moments_ (the “peaks”) are heavily weighted in our mental
+> calculus.” Use this to your advantage by making sure there are strong
+> [emotional
+> peaks](http://web.archive.org/web/20241207023743/https://www.nytimes.com/2018/08/16/well/family/family-
+> vacation-memories-brain.html). It could be something as simple as a family
+> gathering or as complex as scuba exploration of a wreck. As much as I love
+> sitting on a Caribbean beach and reading books for a week, I always make
+> sure there is at least one intense (hopefully positive) experience on
+> vacation.
+>
+> _Finish strong_ : Our final memories of an event– whether it’s a concert, a
+> vacation or even an examination – is disproportionately impacted by how we
+> recall the end of the experience. The final moments of any experience, good
+> or bad, colors our overall impression. Take full advantage of the
+> Primacy/Recency effect by finishing very strong.
+>
+> On a trip to Grand Cayman not too long ago, on our last night on the island,
+> we booked a chef’s tasting menu of food and drink at the Kimpton SeaFire’s
+> [Avecita restaurant at the chef’s
+> counter](http://web.archive.org/web/20241207023743/https://www.bloomberg.com/news/articles/2017-01-27/five-
+> island-resorts-with-food-as-spectacular-as-the-scuba) (Bloomberg’s [Kate
+> Krader](http://web.archive.org/web/20241207023743/https://www.bloomberg.com/news/articles/2017-01-27/five-
+> island-resorts-with-food-as-spectacular-as-the-scuba) agrees with me). A
+> spectacular meal, it was absolutely delightful (and way too much food).
+> After a week of light fare, it was indulgent and memorable. That meal is the
+> first thing I recall when I think about that vacation.
+>
+> _Socialize the experience_ : Part of the reason experiences end up
+> outperforming purchases is that they create last memories, typically with
+> family and friends.2 Unlike the way we adapt to physical goods we purchase,
+> our recollections of specific events tend to improve with time and the rosy
+> glow of nostalgia. Chalk it up to our faulty memories that tend to bring up
+> our most recent recall of an event — our memory of the memory — rather than
+> the event itself. That lends itself to making good experiences seem even
+> better in retrospect, as we overemphasize the positives and forget about the
+> negatives.
+
+Those are a few simple behavioral hacks that will help you get more out of
+your vacations. There is a rich literature on the topic, feel free to go
+exploring.
+
+___________
+
+1\. [Waiting for Merlot: Anticipatory Consumption of Experiential and Material
+Purchases](http://web.archive.org/web/20241207023743/https://doi.org/10.1177/0956797614546556);
+Amit Kumar, Matthew A. Killingsworth, Thomas Gilovich First Published August
+21, 2014 Research Article
+
+2\. [A wonderful life: experiential consumption and the pursuit of
+happiness](http://web.archive.org/web/20241207023743/https://www.sciencedirect.com/science/article/abs/pii/S105774081400093X),
+by Thomas Gilovich, Amit Kumar, Lily Jampol. Journal of Consumer Psychology
+Volume 25, Issue 1, January 2015, Pages 152-165

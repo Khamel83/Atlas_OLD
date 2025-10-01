@@ -1,0 +1,188 @@
+# My Dad Is the Tacoma Cop Who Drove Into the Crowd of Racers - The Stranger
+
+**Source**: https://www.thestranger.com/slog/2021/03/08/55693659/my-dad-is-the-tacoma-cop-who-drove-into-the-crowd-of-racers
+**Type**: article
+**Created**: 2025-08-13T15:41:06.623333
+
+---
+
+title: My Dad Is the Tacoma Cop Who Drove Into the Crowd of Racers - The Stranger
+source: https://www.thestranger.com/slog/2021/03/08/55693659/my-dad-is-the-tacoma-cop-who-drove-into-the-crowd-of-racers
+date: 2025-08-13T15:41:02.382117
+tags: []
+---
+![Demonstrators rallied outside a jail the day after my dad drove through a
+crowd.](https://media1.fdncms.com/stranger/imager/u/original/55696473/1615233383-gettyimages-1230778527.jpg)
+
+Demonstrators rallied outside a jail the day after my dad drove through a
+crowd.  David Ryder / GETTY
+
+Last week marked the anniversary of the police killing of Manuel Ellis. I want
+to apologize to the Ellis family for everything that has happened to them
+because of the Tacoma Police Department. Their loss feels insurmountable.
+
+Police brutality is personal to me, now more than I wish it was.
+
+I’m the son of a Tacoma police officer who [plowed his police cruiser through
+a crowd of
+people](http://www.thenewstribune.com/news/local/article248770435.html) at a
+drag race in January.
+
+Though there were injuries, no one died. And though the incident initially
+trended on social media as a Black Lives Matter event, that wasn’t true.
+
+No real harm done then, right? This brutal behavior wasn’t a targeted, racist
+act. It was just an officer doing his job, an officer who cared deeply about
+protecting Tacoma’s communities from those hoodlums breaking the law.
+
+But if plowing through crowds was just dad doing his job to some people, then
+what does this say about the job law enforcement officers are doing?
+
+A large number of right-wing YouTubers have shared the
+[video](http://www.youtube.com/watch?v=T3aPQAo0ze4) of the incident far and
+wide. They’ve made it an example of cancel culture, and of reactionary
+leftists going overboard. They argue a reasonable way for an officer to
+respond to a non-compliant group of people attacking his car is to drive a ton
+of steel through that group of people.
+
+One [comment](http://www.youtube.com/watch?v=lS08m6tNw6o) read, “HOW DARE HE
+TRY TO RUN FOR HIS LIFE WHEN PEOPLE ARE READY TO DRAG HIM FROM HIS CAR.”
+
+It certainly sounds scary, right? A horde of zombie criminals trying to drag
+you out of their car. Who wouldn’t do what my dad did in the same situation?
+
+Everyone can relate to the drive to survive, but, from my vantage, police take
+advantage of this shared instinct. They spin it into a victim narrative where
+everyone is out to get them. For the police, the world is a place with dangers
+lurking around every corner. If they let down their guard even for a moment,
+they think they’ll be killed.
+
+Was my dad’s life in danger when a bunch of drunk teenagers started
+surrounding his car? It’s not impossible, but was it likely?
+
+It's hard to say in this instance, but, in general, the police perception of
+how dangerous their jobs are and the data on police deaths do not align.
+
+According to _[USA Today](http://www.usatoday.com/story/money/2020/01/24/most-
+dangerous-jobs-25-most-risky-jobs-in-america/41040903/)_ , in 2018 police
+didn’t even make the list of the top-ten most dangerous jobs. Outranking the
+police in terms of dangerous occupations were recycling workers, aircraft
+pilots, fisherman, construction workers, farmers, and truck drivers.
+
+On average, around 100 police officers die on the job per year, or 16 per
+100,000 officers. According to the
+[FBI](http://www.fbi.gov/news/pressrel/press-releases/fbi-
+releases-2019-statistics-on-law-enforcement-officers-killed-in-the-line-of-
+duty), in 2019, 89 officers died. Of those deaths, 40% were accidental, mostly
+traffic accidents. So, in reality, the likelihood of being violently murdered
+on the job by a suspected criminal is low.
+
+In 2020, law enforcement suffered [264
+fatalities](http://www.cnn.com/2021/01/12/us/2020-law-enforcement-line-of-
+duty-deaths-trnd/index.html), which counted as the most ever. Those
+fatalities, however, came from COVID-19. (The TPD recently released a
+[video](http://www.youtube.com/watch?v=T3aPQAo0ze4) featuring officers doing
+the hokey pokey and singing about the importance of social distancing, in
+which, of course, no one was wearing a mask.) In terms of violent deaths at
+the hands of criminal suspects, those stats have remained the same.
+
+None of this is to say I don’t empathize with my dad. When he was sitting in
+that car, I think he probably believed he was in danger—not because that was
+necessarily true, but because that is how police are
+[trained](http://cms.cityoftacoma.org/police/Tacoma_Police_Department_Policies.pdf)
+to read situations.
+
+I know him, and I know his first waking thought isn’t that he wanted to go out
+and maim people two months ago. He is, however, part of a [toxic culture
+](http://www.seattletimes.com/seattle-news/king-county-sheriff-fires-
+detective-who-posted-all-lives-splatter-meme-mocked-racial-justice-
+protesters/)that trivializes violence, and that celebrates it as righteous.
+
+And what’s going on here, I think, is that my dad has been given a limited
+toolset to address complex social situations.
+
+I think there were definitely a number of better ways to handle the situation
+with the racers, but I believe a cop will find it difficult to see those
+possibilities if they only see people as hazards to overcome.
+
+Police in the U.S. see people suspected of crimes in terms of their potential
+as a threat. They’re taught to respond to some threats with tactical
+domination, force, and elimination.
+
+That sort of disposition seems useful when responding, say, to a school
+shooting. But in many other situations the police are called into, that
+mindset and its associated tactics seem unhelpful and impractical. This
+fearful mentality creates paranoia, and makes imagined situations become
+reality through their anticipation.
+
+A good example of such
+[training](http://www.legis.state.pa.us/WU01/LI/TR/Transcripts/2020_0088_0003_TSTMNY.pdf)
+is the [”21-foot rule,” ](http://crosscut.com/2017/06/scrutiny-on-taser-
+practices-training-after-charleena-lyles-shooting) a general principle I
+suspect has gotten people wrongfully shot over the years.
+
+The thesis of the 21-foot rule is that if someone charges a cop—let’s say with
+a knife—within 21 feet, then the cop will be unable to draw, aim, and fire
+their weapon before the suspect can close that distance and potentially kill.
+
+So, in a lot of police encounters, officers who believe in this principle
+create this tiny little perimeter in their head, and if someone starts acting
+aggressively and passes that thin and invisible line, then they are trained to
+believe their life is now in danger.
+
+I highly doubt people in the general public are considering this when
+interacting with the police, because they mistakenly assume the officer is
+seeing them first as a person and not as a training exercise.
+
+Given the rates of police deaths on the job, I’m not sure cops can really
+justify this kind of aggressive stance. And when aggressive stances combine
+with racism, Manuel Ellis dies. I’m a social worker, and even when I have
+faced verbal threats to my physical safety, I’ve never had to raise a hand
+against clients. In my line of work, I take on the responsibility of
+navigating the nuance of negative speech and behavior directed at me.
+
+The cities and communities these cops serve must hold accountable officers who
+treat the public as their enemy.
+
+The calls to fire my dad are just. His job is to serve the public, and people
+were not impressed with his service. We will never bridge the “gap of trust”
+that police claim to care so much about if we don’t have shared standards for
+behavior.
+
+I don’t relish saying this. I love my dad, and he has done everything in his
+power to provide for me, but I want my friends and their families to feel safe
+in the communities he and the TPD polices. I want them to feel as safe as my
+family has felt. Though an
+[investigation](http://www.washingtonpost.com/nation/2021/01/24/least-one-
+hospitalized-after-tacoma-police-officer-drives-into-crowd/) of the incident
+is under way, in my experience, police investing police doesn't lead to the
+accountability necessary to meet that goal.
+
+I have asked my dad to call for any potential future charges to be dropped,
+and to engage the racers in dialogue to resolve the conflict in good faith.
+But that does not seem to be happening. Warrants appear to have been served to
+some of the suspected racers, specifically to confiscate their phones in order
+to access their social networks. This will only stir up more resentment of the
+police, and it does not serve the interest of public safety.
+
+Some might see my position on this issue as metaphorically stabbing my dad in
+the back.
+
+I’m not stabbing him. I’m just refusing to be complicit. A huge issue in
+American culture is that it’s normal for us not to hold our own friends,
+families and social circles accountable for their actions.
+
+I think this is a necessary path for us to walk as a family, to acknowledge
+harm and to make it right instead of waiting for the case to potentially
+fizzle out in silence. We must protect people we love, but part of loving them
+is making sure they do the right thing, even if that means facing something
+unpleasant.
+
+As a society it's time we start really addressing and unpacking the ways we
+normalize and protect a culture of violence. We have to end this, in our time
+with our own hands.
+
+We all have a role to play in protecting each other. To my family, I urge you
+to speak out against this culture of violence. To everyone who lives in
+Tacoma, I ask you to join in the calls for accountability from the Ellis
+family, and to be present in creating change.

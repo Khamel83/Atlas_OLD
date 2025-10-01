@@ -1,0 +1,139 @@
+# =?UTF-8?q?More_Shari_Fallout,_Waldron_in_His_Words_&_Solomon=E2=80=99s_Mi?=
+
+**Source**: inputs/saved_emails/=UTF-8qMore_Shari_Fallout,_Waldron_in_His_Words_&_Solomon=E2=80=99s_Mi=
+**Type**: email
+**Created**: 2025-08-25T02:53:58.447329
+
+---
+
+=UTF-8qc_Drop=_Sun,_16_Jun_2024_21-00-22_+0000_19022d9f40ae46ee.eml
+
+Happy Sunday, and welcome back to Dry Powder. In today’s issue, an inside look at the Goldman Sachs resurgence. After a first quarter that delighted Wall Street analysts, the firm’s stock is at or near its all-time high, and the chorus of David Solomon doubters has gone quiet. I chatted with John Waldron, Solomon’s second-in-command, about the mood in and around the bank—and how, exactly, Goldman got back to being Goldman.
+
+ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+
+Dry Powder ( https://puck.news/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Daily Courant ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B31723783.396386814;dc_trk_aid=587897226;dc_trk_cid=216313589;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Happy Sunday, and welcome back to Dry Powder.
+
+In today’s issue, an inside look at the Goldman Sachs resurgence. After a first quarter that delighted Wall Street analysts, the firm’s stock is at or near its all-time high, and the chorus of David Solomon doubters has gone quiet. I chatted with John Waldron, Solomon’s second-in-command, about the mood in and around the bank—and how, exactly, Goldman got back to being Goldman.
+
+But first…
+
+* The Paramount blame game: In the wake of Sheri Redstone’s shocking decision to blow up the nearly fully negotiated Paramount deal with David Ellison and RedBird Capital, the blame game continues apace. One of the first explanations to emerge, as reported by my partner Matt Belloni, was that former investment banker Charles Phillips, a Paramount board member and a former Oracle co-president who once reported to Larry Ellison, had it in for the Ellisons and thwarted their deal by poisoning the well with Shari in order to possibly become C.E.O. himself.
+
+Now there’s an alternative narrative being peddled on Wall Street, especially among the group of people
+managing the fallout from the failed deal, claiming that Phillips isn’t to blame. According to this theory, Shari deep-sixed the deal because she was miffed that Ellison/RedBird reduced her consideration by a few hundred million dollars as part of the final negotiations in order to give more to the non-Redstone shareholders. She had somehow been counting on her $2 billion net plus, seemingly unfathomably, a full-throated indemnification from Ellison/RedBird, and appears not to have gotten them, understandably, in the final horsetrading.
+
+This counternarrative further posits that the special committee was only involved with the parts of the deal that involved Paramount, not the ones that involved NAI. In fact, I’ve learned that members of the special committee were so shocked by Shari’s call to the committee on Monday morning, killing the deal, that they asked Ropes & Gray, Shari’s attorneys, whether this was her true intention. According
+to this narrative, Shari was listening to her own financial advisor, Byron Trott, at BDT & MSD Partners, and she wasn’t taking advice from Phillips, who never wanted the C.E.O. job at Paramount, as has been posited, because he’s already running Infor, an enterprise software company.
+
+Do we buy all that? Hardly. When I finally tracked Phillips down, I discovered he was off to Europe—no more near-term work to be done on Paramount, I guess—and he declined to comment. But what I’m still hearing, pretty much across the board, is that Phillips was indeed the culprit here. Sorry, Charles.
+
+The Goldman Rush ( https://puck.news/the-goldman-rush/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Goldman Rush ( https://puck.news/the-goldman-rush/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The doubters have dropped away (for now) as David Solomon brings one of Wall Street’s most powerful firms back from its multibillion-dollar consumer banking boondoggle.
+
+WILLIAM D. COHAN ( https://puck.news/author/william-cohan/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+WILLIAM D. COHAN ( https://puck.news/author/william-cohan/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Goldman Sachs is back, baby! Or at least that’s the conclusion of Mike Mayo, the influential Wall Street analyst at Wells Fargo, and it’s hard to disagree. Twenty-five years after the firm’s May 1999 I.P.O., Goldman’s stock is trading at or near its all-time high, and has a market value of almost $150 billion, narrowing the once-yawning valuation gap with rival Morgan Stanley to around $10 billion. Goldman’s first-quarter performance delighted Mayo and other Wall Street research analysts, and the outlook for the rest of the year seems bright, given the pickup in the financing and M&A markets. “They’re crushing it in their legacy business, global banking and markets, and that’s two-thirds of the company,” Mayo told me. “And the other one-third of the company, which is wealth and asset management, is on its way toward a
+mid-teens return.”
+
+A MESSAGE FROM OUR SPONSOR
+
+$(ad2_title) ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B31723783.396386814;dc_trk_aid=587897226;dc_trk_cid=216313589;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Range Rover Sport. As innovative as it is influential.
+
+After years of the chattering class questioning his leadership, Goldman C.E.O. David Solomon, now into his sixth year at the helm, has seemingly overcome the doubters after he abandoned many of Goldman’s ill-advised experiments in retail banking and finance—their “hobbies,” as Mayo called them. Instead, Goldman is back to being Goldman, which means focusing on investment banking—M&A advisory and underwriting stocks and bonds—trading, principal investing (but not so much as to upset the regulators), and wealth and asset management. “If the capital markets recover,” Mayo said, “we have increased confidence that Goldman will take its fair share.” He added the Goldman stock, trading at around $450 a share, is within 10 percent of his price target. “There’s still some upside,” he said, “but it’s not the table
+pounder it was when it was trading at $300 a share.” (Mayo’s investment advice, not mine.)
+
+Goldman has always operated with a kind of provocative boldness that inspires envy on Wall Street—as when the bank made $13.4 billion in profits in 2009 when its competitors were reeling from the global financial crisis, or during the second year of the pandemic, when Goldman minted nearly $22 billion in profits. It has always inspired schadenfreude, too, such as when the bank pleaded guilty to a criminal charge over the money laundering scam of Malaysian financier Jho Low in 2018, or when a number of high-profile Goldmanites walked out the door over the past few years: Gregg Lemkau and Dina Powell, who went to BDT & MSD Partners; Jim Esposito, who left for Citadel Securities; or Stephanie Cohen, who is now at Cloudflare; or Julian Salisbury, who went to Sixth Street. Beth Hammack, another senior banker who left
+Goldman, will become the next president of the Federal Reserve Bank of Cleveland, where she joins former Goldman banker Neel Kashkari, who is the president of the Federal Reserve Bank of Minneapolis.
+
+But “winning cures all,” as Mayo said of the spate of recent big-name exits. (Rob Kaplan, a longtime Goldman banker who was the president of the Federal Reserve Bank of Dallas, rejoined Goldman last month as a vice chairman and a member of the management committee.) In truth, Goldman has always had “a deep bench” of talent, and bankers and traders have been moving in and out of the firm for decades. The general rule at the firm has always been that if you are lucky and good enough to make it to the top, you should begin thinking of leaving after about 10 years or so to make room for the next crop of alphas. Mayo gives Solomon credit for, in effect, professionalizing the firm and making it more shareholder friendly, rather than focusing on
+pleasing the Goldman “partnership,” even at the expense of shedding some talent. “It’s evolved from a partnership to more of a centralized, publicly traded corporation,” he said. “They didn’t really start acting like a public company until David Solomon took over, and that’s going to aggravate people and they’ll leave.”
+
+The Waldron View
+
+Not surprisingly, John Waldron, Goldman’s chief operating officer and Solomon’s second-in-command, agreed with Mayo’s upbeat view of Goldman and its near-term prospects. In a recent interview, he told me that “turning the page” on Goldman’s failed forays into consumer banking “made it clear to everybody, particularly internally” that Goldman Sachs was “narrowing our focus back on areas where we have reasons to be very, very strong.” He said that showing its money-losing financials in the consumer business separately starting in September 2022 led to a useful debate inside the firm and the decision to exit most of that business. (One part of Goldman’s foray into consumer banking that remains intact is “Marcus,” its online deposit-gathering mechanism, which is still an important source of relatively inexpensive
+financing for the bank.)
+
+While parts of the investment banking business, such as equity capital markets, I.P.O.s, and M&A, are still well below their 10-year average volumes, Waldron told me that people at Goldman are busier than they’ve been in the recent past. “Activity is up,” he said. “It just feels better. And we’ve turned the corner on losses in the consumer strategy, which I think was generating a lot of angst.” As a result, I’m sure, in the somewhat convoluted way of thinking on Wall Street, Goldman’s bankers and traders are happier and believe they are going to get bigger bonuses come January.
+
+$(ad3_title) ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B31723783.396386814;dc_trk_aid=587897226;dc_trk_cid=216313589;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+What Waldron says about Goldman and its future matters. At 55, he’s well positioned to succeed the 62-year-old Solomon, a fellow Bear Stearns alum, whenever that transition takes place, having been Solomon’s right-hand man since David succeeded Lloyd Blankfein. (Lloyd, who never went to Washington, is putting the finishing touches on a memoir about his life and time at Goldman, written with Jacob Weisberg, who was also the ghostwriter on Bob Rubin’s memoir.) Goldman’s focus, according to Waldron, is to grow the “wallet share” in its core banking and trading businesses, which have been performing well. He said Goldman wants to become a bigger “financier” of businesses. “We think there’s a huge secular growth opportunity in financing,” he said, whether it be leveraged buyouts or to provide financing to
+alternative asset managers such as Apollo, Blackstone, and KKR. “You’re going to see us be—and we already have become—much more ambitious in our desire to finance,” Waldron said.
+
+Goldman’s prudential regulator, the Federal Reserve, seems not to object to the big Wall Street banks providing financing, because it helps businesses grow and stimulates economic growth. What it doesn’t like, and what Goldman seems to be doing less of these days, is betting on the direction of commodity prices or mortgage yields.
+
+At the partner offsite in Miami this past February, the firm allowed its top leaders to share with the firm’s executives their thoughts about the firm’s strategy. “We sort of reframed that it’s kind of Goldman Sachs being Goldman Sachs,” Waldron said. “Maybe Goldman Sachs being Goldman Sachs, 2.0… We’re going to go back to doing the things that we’re really good at, where we have a right to win, and reinvesting back into
+those capabilities and being one Goldman Sachs in as many places that we can be. The execution of it is not simple, but it’s not that complicated a strategy.”
+
+Waldron also defended Goldman’s rather outspoken demand that people return to the office as quickly as was permissible after the pandemic. “We’re a very human, connected firm,” he said. “We’re not a Zoom firm. We need to be together around the proverbial table.” He said Goldman’s people “pretty much up and down the spectrum” are happy to be back in the office. “I actually think we’ve done a good job navigating that,” he said. “We might have been a little loud initially, and maybe we could have narrated that a little differently as a firm, but I think generally speaking, we were right, and our people are happy to be back, and they recognize that we’re a firm that operates best in that vein.”
+
+He’s optimistic about Goldman and its future prospects, of course,
+especially now that Goldman Sachs is back to being Goldman Sachs. “We’re pleased with where we are,” he said. “There’s a lot of opportunity. Markets are getting better.” He said he thinks investors expect Goldman will get its fair share, or more, of the investment banking business as markets continue to recover and if the economy achieves the much-anticipated soft landing, which certainly seems to be the case at the moment. “We’re executing,” he said. “Our people feel good. They know what we’re trying to do. We’re on our way to continuing to do well there.”
+
+He also told me that Goldman’s banking and trading businesses are generating 16 percent average return-on-equity (a Wall Street measure of profitability and performance), “which is pretty attractive. I don’t think anybody else is doing better in that business than we are.” And he said the banking business has “cyclical growth”—it will rebound as the economy continues to
+grow—while the asset and wealth management side of Goldman’s business is experiencing “secular growth” of two times G.D.P. growth “or maybe a little more,” he said. That’s where, he continued, “we are seeing real significant opportunities for growth.” He concluded, “The fact is, those are the only two things we’re doing. We’re not doing anything else. Those are the two businesses. We’re just going to run that play.”
+
+How it all plays out at Goldman remains to be seen, of course. There are any number of exogenous events that could derail the Goldman playbook, including parts of the financial markets that have less liquidity than Waldron would like to see, or cyberattacks, another worry, or U.S.-China relations, a perennial concern, and of course geopolitics generally surrounding the outcome of the U.S. presidential election. “There’s a lot to worry about,” he said, “but right now, the markets are plowing through all that stuff
+without a lot of risk premium.”
+
+Mayo told me he thinks Goldman has finally turned the corner after a bit of a bad patch. He said the conversation around Goldman has changed in the last year from Can David Solomon survive? to How much money can Goldman make? “When you talk Goldman,” Mayo said, “the discussion now is less, What is Goldman doing to better position itself?, and more: How is the market transpiring to the benefit or detriment of Goldman?. The discussion now is about the markets, not about Goldman Sachs.”
+
+FOUR STORIES WE’RE TALKING ABOUT
+
+Shari’s Shari Problem ( https://puck.news/shari-redstone-hasnt-solved-her-biggest-problem-shari-redstone/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Shari’s Shari Problem ( https://puck.news/shari-redstone-hasnt-solved-her-biggest-problem-shari-redstone/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Notes from the Paramount blast zone.
+
+MATTHEW BELLONI
+
+Malone’s F1 Fantasy ( https://puck.news/malones-new-f1-fantasy/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Malone’s F1 Fantasy ( https://puck.news/malones-new-f1-fantasy/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+On the ageless mogul’s new fixation.
+
+JOHN OURAND
+
+The Doug Bug ( https://puck.news/will-doug-burgum-be-trumps-vice-president/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Doug Bug ( https://puck.news/will-doug-burgum-be-trumps-vice-president/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A close look at Mar-a-Lago’s veepstakes calculation.
+
+TARA PALMERI
+
+Loewe & Behold ( https://puck.news/jonathan-anderson-next-move/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Loewe & Behold ( https://puck.news/jonathan-anderson-next-move/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Inside the latest LVMH micro-drama.
+
+LAUREN SHERMAN
+
+Puck ( https://puck.news/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQs
+page ( https://puck.news/faq/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact
+us ( fritz@puck.news?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/global-unsubscribe/?subscription=dry_powder&delivery_id=dgT2xgYDAKvRKqrRKgGQItmbwyVAc9g-dC8Z-_I=&utm_campaign=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%286%2F16%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Puck is published by Heat Media LLC. 227 W 17th St New York, NY 10011.

@@ -1,0 +1,14 @@
+# hi
+
+**Source**: inputs/saved_html/Podcast app setup_Mon,_4_Jan_2021_19-39-49_+0000_176cee9f14a92f16.html
+**Type**: article
+**Created**: 2025-08-25T02:53:45.634053
+
+---
+
+Open this
+and click the button below:
+
+[Add to podcast app](https://email.mg1.substack.com/c/eJxtUl1vmzAU_TXwlsjmw8ADD6RZOqKFLG2ytX2xjO2AA9gImzbk188j1aZJkyzZvudK595zDiWGV2qY0l4xSrRZDFovNDdj7_ZKG2ymnqfuqPmABUsh8mI_DBKXpSDyaFS6QuPzwHlHRJu6_Vi2ghIjlJy7AfBCt07jAIEIQZScmQ-JT0PCiV_ykAU8giiM7kxkZIJLatnatDam146fOd7GHqlMqQYhq6UeS20IbZZUdRYglKpRmt8vxhafGzj-xqiGS8df82kLqfdjevHaJr-oa3HJg93tBPbPH4L83IB7LQuLWxXujlXw7WHb8q-Z2F--eLtjdtsfd-F-Xem8a290ylEuV_BVgOtunU3Fc65zWdj_XH9_eyxq6h-M5QPsJRPnw7I8fb9e1nW8yMI3pFYcPbTe-pDBS3bTj--v4woX234bx0_45HhoNB3Wahwot5N_7oJnJ_AsrytSD3gQQBDAxE-CZAmX6KP5QKKpK5I4Aegq-I9C7pD-kc7CTU063s6ANQrbuxulMBPmkpQtZ6kZRu6a_yRh5scVl3ywcWGYGJsEkERxAuMEQP9uoHXctfRM2W75l_kXjuXP0Q)
+
+![](https://email.mg1.substack.com/o/eJxtj02OhCAUhE8z7NqA0CgLzkKe8FCiguEnHW_fxEwym1lX1VdVFiquKd_6Ss5Cqa9cyqtgbRdpBbMJTjM5zvwtFMETwmFWjJh7yhmoXaNqmhWbFWWcOE2n0U4LCcX4jI9fk6stR7BQQ4oPjtLxTTbthecKmHAwi9laJrnnXCJITycPiORKpRpoLmC0qEnQIx0ZZVQwxZVQAxvkZ__IsG8rqB9Bz5UNpS2lgt0Hm06SdUx1STnEtcv7Bicej_CQ6311av3neB9suu1sMdTbYITlQKdrbr-b-gnSi1zq_-JfxxeOT3Ha)

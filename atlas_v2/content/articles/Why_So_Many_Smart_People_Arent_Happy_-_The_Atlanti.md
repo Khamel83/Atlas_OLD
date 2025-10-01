@@ -1,0 +1,254 @@
+# Why So Many Smart People Aren’t Happy - The Atlantic
+
+**Source**: http://www.theatlantic.com/business/archive/2016/04/why-so-many-smart-people-arent-happy/479832/
+**Type**: article
+**Created**: 2025-08-13T18:10:00.540137
+
+---
+
+title: Why So Many Smart People Aren’t Happy - The Atlantic
+source: http://www.theatlantic.com/business/archive/2016/04/why-so-many-smart-people-arent-happy/479832/
+date: 2025-08-13T18:09:59.606584
+tags: []
+---
+There are three things, once one’s basic needs are satisfied, that academic
+literature points to as the ingredients for happiness: having meaningful
+social relationships, being good at whatever it is one spends one’s days
+doing, and having the freedom to make life decisions independently.
+
+But research into happiness has also yielded something a little less obvious:
+Being better educated, richer, or more accomplished doesn’t do much to predict
+whether someone will be happy. In fact, it might mean someone is less likely
+to be satisfied with life.
+
+That second finding is the puzzle that Raj Raghunathan, a professor of
+marketing at The University of Texas at Austin’s McCombs School of Business,
+tries to make sense of in his recent book, _[If You’re So Smart, Why Aren’t
+You Happy?](http://www.indiebound.org/book/9781101980736) _Raghunathan’s
+writing does fall under the category of self-help (with all of the pep talks
+and progress worksheets that that entails), but his commitment to scientific
+research serves as ballast for the genre’s glib tendencies.
+
+I recently spoke to Raghunathan about his book. The interview that follows has
+been edited and condensed for the sake of clarity.
+
+* * *
+
+**Joe Pinsker:** One of the premises of your book is that people may have a
+sense of what will make them happy, but they approach those things in ways
+that don’t maximize happiness. Could you provide an example of that
+disconnect?
+
+**Raj Raghunathan:** If you take the need for mastery—the need for
+competence—there are two broad approaches that one can take to becoming very
+good at something. One approach is to engage in what people call social
+comparisons. That is, wanting to be the best at doing something: “I want to be
+the best professor there is,” or something like that.
+
+There are many problems with that, but one big problem with that is that it’s
+very difficult to assess. What are the yardsticks for judging somebody on a
+particular dimension? What are the yardsticks for being the best professor? Is
+it about research, teaching? Even if you take only teaching, is it the ratings
+you get from students, or is it the content that you deliver in class, or the
+number of students who pass an exam or take a test and do really well in it?
+So it gets very difficult to judge, because these yardsticks become
+increasingly ambiguous as a field becomes narrower or more technical.
+
+So what happens in general is that people tend to gravitate toward less
+ambiguous—even if they’re not so relevant—yardsticks. People judge the best
+professors by the number of awards they get, or the salary that they get, or
+the kind of school that they are in, which might on the face of it seem like
+it’s a good yardstick for judging how good somebody is, but at the same time
+it’s not really relevant to the particular field.
+
+And those yardsticks are ones that we adapt to really quickly. So if you get a
+huge raise this month, you might be happy for a month, two months, maybe six
+months. But after that, you’re going to get used to it and you’re going to
+want another big bump. And you’ll want to keep getting those in order to
+sustain your happiness levels. In most people, you can see that that’s not a
+very sustainable source of happiness.
+
+**Pinsker:** What’s the other mindset?
+
+**Raghunathan:** What I recommend is an alternative approach, which is to
+become a little more aware of what it is that you’re really good at, and what
+you enjoy doing. When you don’t need to compare yourself to other people, you
+gravitate toward things that you instinctively enjoy doing, and you’re good
+at, and if you just focus on that for a long enough time, then chances are
+very, very high that you’re going to progress toward mastery anyway, and the
+fame and the power and the money and everything will come as a byproduct,
+rather than something that you chase directly in trying to be superior to
+other people.
+
+If you were to go back to the three things that people need—mastery,
+belonging, and autonomy—I’d add a fourth, after basic necessities have been
+met. It’s the attitude or the worldview that you bring to life. And that
+worldview can be characterized, just for simplicity, in one of two fashions:
+One extreme is a kind of scarcity-minded approach, that my win is going to
+come at somebody else’s loss, which makes you engage in social comparisons.
+And the other view is what I would call a more abundance-oriented approach,
+that there’s room for everybody to grow.
+
+**Pinsker:** I was really interested by the line you were drawing in the book
+between abundance and scarcity, because instantly that makes me think of
+economics: Economics is, in many ways, the study of things that are scarce.
+Can you talk about the mental processes that are at play when people are
+thinking in terms of scarcity?
+
+**Raghunathan:** I’m not trying to argue in the book that the scarcity mindset
+is either shallow or completely useless. If you’re caught in a warzone, if
+you’re in a poverty-stricken area, if you’re fighting for your survival, if
+you’re in a competitive sport like boxing, the scarcity mindset does play a
+very important role.
+
+Most of us are the products of people who survived in what was for a very,
+very long time, in our evolution as a species, a scarcity-oriented universe.
+Food was scarce, resources were scarce, fertile land was scarce, and so on. So
+we do have a very hardwired tendency to be scarcity-oriented. But I think what
+has happened over time is we don’t have to literally fight for our survival
+every day.
+
+I think that as intelligent beings we need to recognize that some of the
+vestiges of our evolutionary tendencies might be holding us back. If I’m at an
+advertising agency, for example, or in software design, those are the kinds of
+fields where it is now being shown in quite a lot of studies that you actually
+perform better if you don’t put yourself under the scarcity mindset, if you
+don’t worry about the outcomes and enjoy the process of doing something,
+rather than the goal.
+
+**Pinsker:** Since we’re hardwired to think in terms of scarcity, I’m very
+interested in what can be done to prod someone into a different mindset. One
+experiment you talked about in the book found that workers who received a
+daily email to remind them to make decisions that maximize happiness reported
+being markedly happier than those who didn’t get the email. Is it really as
+simple as that sort of thing?
+
+**Raghunathan:** On the one hand, we are hardwired to focus more on negative
+things. But at the same time, we are also all hardwired to be seeking a sense
+of happiness and the desire to flourish, and to be the best we can be.
+Ultimately, what we need in order to be happy is at some level pretty simple.
+It requires doing something that you find meaningful, that you can kind of get
+lost in on a daily basis.
+
+When you observe children, they are very good at this. They don’t get
+distracted by all those extrinsic yardsticks. They go for things that really
+bring them a lot of enjoyment. In my book I talk about when we got my son a
+little mechanical car when he was about 3 years old, because he saw a neighbor
+get that car. He was into the car for about three days. After that, he wanted
+to play with the box in which the car came. It was just a box. He didn’t have
+any idea that the car cost more, or was more valuable, or more technologically
+advanced. He was into the box because he saw a character on a TV show called
+Hamilton the pig, who lives inside a box. He wanted to replicate that life for
+himself.
+
+What we were trying to do in that particular study is bring that focus back
+into people’s attention. For example, rather than sitting in front of the TV,
+a father might decide to play a little game of baseball with his son. What
+people might do varies, but when there’s a reminder, what we discover is
+that—and these are studies conducted with Fortune 500 employees, undergraduate
+students—they make seemingly small, you might even call them trivial,
+decisions, but they add up to a happier life overall. This simple reminder on
+an everyday basis is a kind of reality check, which puts things in perspective
+for people.
+
+**Pinsker:** What do you think it is about the messages people receive about
+what it takes to be successful in business that runs counter to this mindset?
+In other words, do you think that working your way up any professional ladder
+requires not thinking in terms of abundance?
+
+**Raghunathan:** Daniel Pink, in his book _Drive_ , talks about how what used
+to be used as motivators to employees—what he calls the carrots and sticks
+approach—are now being replaced by what he calls “Motivation 2.0,” which is
+more trying to figure out what is it that people are really passionate about.
+Google is a famous big company that tries to practice this, and Whole Foods is
+another.
+
+I do think that we carry lots of baggage from how businesses used to operate.
+Simon Sinek, in one of his books, makes the argument that businesses and the
+rules by which businesses operate are structured along the lines of how the
+military used to operate—very hierarchical and scarcity-oriented. But he talks
+about how, actually, if you look a little bit deeper into the best leaders in
+the military, they tend not to be that way. So there’s been a mistaken
+adoption of a certain set of ideas based on how things used to operate in the
+past, but in fact, what’s now emerging as a much more successful approach to
+doing business and to being successful is having a more abundance-oriented
+approach.
+
+In the big picture, the business world’s messages are a little jumbled. In
+business schools, I see that there’s a huge push toward corporate social
+responsibility and finding a passion, but at the same time, if you look at the
+kinds of people who get invited to come give keynote addresses, or what it is
+that we focus on to improve our _Businessweek_ rankings, it’s things that are
+extrinsic. We invite people who made a million bucks, and we look at incoming
+MBA students and their outgoing salaries.
+
+**Pinsker:** You mentioned earlier how easily people adapt to positive changes
+in their lives, and I’m familiar with [the
+research](http://nymag.com/scienceofus/2016/01/classic-study-on-happiness-and-
+the-lottery.html) showing that lottery winners are no happier, a year later,
+than even people who just as recently suffered serious injuries. That
+resonates with me: If you told me back in high school that I was going to be
+writing for a magazine, I’d have been overjoyed. And right now, I am happy in
+many ways, but I still have a lot of the same old insecurities and worries
+about the future. I assume it’s something a lot of others experience too. Can
+you talk about what’s necessary to steer yourself away from that mindset?
+
+**Raghunathan:** That’s the plight of most people in the world, I would say.
+There are expectations that if you achieve some given thing, you’re going to
+be happy. But it turns out that’s not true. And a large part of that is due to
+adaptation, but a large part of it also is that you see this mountain in front
+of you and you want to climb over it. And when you do, it turns out there are
+more mountains to climb.
+
+The one thing that has really, really helped me in this regard is a concept
+that I call “the dispassionate pursuit of passion” in the book, and basically
+the concept boils down to not tethering your happiness to the achievement of
+outcomes. The reason why it’s important to not tie happiness to outcomes is
+that outcomes by themselves don’t really have an unambiguously positive or
+negative effect on your happiness. Yes, there are some outcomes—you get a
+terminal disease, or your child dies—that are pretty extreme, but let’s leave
+those out. But if you think about it, the breakup that you had with your
+childhood girlfriend, or you broke an arm and were in a hospital bed for two
+months, when they occurred, you might have felt, “Oh my goodness, this is the
+end of the world! I’m never going to recover from it.” But it turns out we’re
+very good at recovering from those, and not just that, but those very events
+that we thought were really extremely negative were in fact pivotal in making
+us grow and learn.
+
+Everybody’s got some kind of a belief about whether good things are going to
+happen or bad things are going to happen. There’s no way to scientifically
+prove that one of these beliefs is more accurate than another. But if you
+believe life is benign, you’re going to see lots of evidence for it. If you
+think life is malign, you’re going to see lots of evidence for it. It’s kind
+of like a placebo effect. Given that all of these beliefs are all equally
+valid, why not adopt the belief that is going to be more useful to you in your
+life as you go along?
+
+**Pinsker:** It’s become clear to me after reading your book and talking to
+you that American culture, and maybe even capitalism in general, doesn’t do
+very much to encourage the abundance approach over the scarcity approach. Are
+there any societies or cultures that in your mind have figured this out, or is
+it the case that society will almost always send certain messages, and it’s up
+to individuals to have their own counterprogramming?
+
+**Raghunathan:** On the face of it, it might look like I’m saying that
+capitalism in general is not very good at promoting an abundance mindset. But
+I don’t think that that is entirely accurate. If you were to break capitalism
+down into two very important tenets, one is the freedom of movement of people,
+thought, and goods, and the freedom of choice. The second aspect is a
+distribution of resources according to people’s abilities rather than
+according to people’s needs.
+
+That first tenet of capitalism, I think, is beautiful, and I wouldn’t let go
+of it. And if that ideology comes with the baggage of distribution of
+resources according to abilities, then I take that package, rather than a
+package where you restrict people’s freedom of thought and what kinds of
+choices they can make, even if it’s combined with a distribution of resources
+according to people’s needs.
+
+Ultimately, you can’t force people to adopt an abundance mindset. They’re
+going to have to select it themselves, through self-exploration and soul-
+searching, and looking at the science. Then, some people consciously arrive at
+a more socialistic way of living, by choice. That’s the way in which I think
+this is going to work out best—for capitalism to kind of flip itself on its
+head to arrive at that.

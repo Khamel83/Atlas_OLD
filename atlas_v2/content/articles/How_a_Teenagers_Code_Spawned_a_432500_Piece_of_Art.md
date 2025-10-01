@@ -1,0 +1,72 @@
+# How a Teenager's Code Spawned a $432,500 Piece of Art | WIRED
+
+**Source**: https://www.wired.com/story/teenagers-code-spawned-dollar-432500-piece-of-art
+**Type**: article
+**Created**: 2025-08-13T16:27:34.206284
+
+---
+
+title: How a Teenager's Code Spawned a $432,500 Piece of Art | WIRED
+source: https://www.wired.com/story/teenagers-code-spawned-dollar-432500-piece-of-art
+date: 2025-08-13T16:27:24.571379
+tags: []
+---
+The three members of Obvious dove in. LinkedIn profiles indicate that only one
+has formal training in machine learning. In a [message
+thread](http://web.archive.org/web/20250308222345/https://github.com/robbiebarrat/art-
+DCGAN/issues/3) on Github last year, that member, Hugo Caselles-Dupré,
+repeatedly prodded Barrat to update his code and upload new pretrained
+networks.
+
+On the day of the auction, Obvious tweeted that it didn’t use one of those
+pretrained networks to create the work sold at Christie’s. Instead, [the
+members
+claim](http://web.archive.org/web/20250308222345/https://twitter.com/obv_ious/status/1055423420689727494),
+_Edmond de Belamy_ was made by a version of DCGAN they trained themselves,
+using data gathered with Barrat’s WikiArt scraper.
+
+However they did it, their portraits are strikingly similar to those generated
+by Barrat. The controversy over the Obvious sale prompted New Zealand artist
+and academic Tom White to try the teenager’s pretrained networks for himself.
+The [images he
+produced](http://web.archive.org/web/20250308222345/https://twitter.com/DrBeef_/status/1055285640420483073)
+wouldn’t have looked out of place next to _Edmond de Belamy_ on the wall of
+Christie’s viewing room in New York.
+
+Something Obvious didn’t do was talk about was where it got the recipe, and
+some of the code, that produced its artwork. A blog post from the collective
+in February on its project didn’t mention Barrat at all, according to a
+[version](http://web.archive.org/web/20250308222345/http://web.archive.org/web/20180411124642/https://medium.com/@hello.obvious/ai-
+the-rise-of-a-new-art-movement-f6efe0a51f2e) saved by the Internet Archive in
+April. By
+[September](http://web.archive.org/web/20250308222345/http://web.archive.org/web/20180927031612/https://medium.com/@hello.obvious/ai-
+the-rise-of-a-new-art-movement-f6efe0a51f2e), Barrat had been added.
+
+Barrat's latest algorithms generate somewhat unusual clothes.
+
+Robbie Barrat
+
+Mazzone at College of Charleston said borrowing ideas and images in art is no
+problem—think of Warhol’s soup cans—as long as you don’t try to hide it. “They
+could have solved this problem very easily by saying here’s what we started
+with,” she says. In a
+[tweet](http://web.archive.org/web/20250308222345/https://twitter.com/obv_ious/status/1055352899746840576)
+posted the day before the auction last month, Obvious apologized and told
+Barrat, "You deserve a lot of credit, it's true. We cannot control how big it
+has become."
+
+Barrat continues to work on AI art around his day job applying machine
+learning to biological sciences in a Stanford research lab. He’s currently
+experimenting with using images from fashion shows to generate [glitchy new
+garments](http://web.archive.org/web/20250308222345/https://twitter.com/DrBeef_/status/1056313259601457152),
+and he's working with a clothes designer to get the weird creations made for
+real. He says he expects to keep publishing code and ideas openly, but more
+cautiously.
+
+“Open source is important to me, because this is how I learned to do this
+stuff growing up in the middle of nowhere in West Virginia,” Barrat says. “I‘m
+going to keep doing open source but be more careful about it.”
+
+* * *
+
+More Great WIRED Stories

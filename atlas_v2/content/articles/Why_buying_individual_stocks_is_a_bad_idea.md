@@ -1,0 +1,211 @@
+# Why buying individual stocks is a bad idea
+
+**Source**: http://www.getrichslowly.org/blog/2015/11/04/why-buying-individual-stocks-is-a-bad-idea/
+**Type**: article
+**Created**: 2025-08-13T18:38:28.355214
+
+---
+
+title: Why buying individual stocks is a bad idea
+source: http://www.getrichslowly.org/blog/2015/11/04/why-buying-individual-stocks-is-a-bad-idea/
+date: 2025-08-13T18:38:15.812026
+tags: []
+---
+![couple getting investing
+advice](http://web.archive.org/web/20171017051735im_/http://www.getrichslowly.org/uploadedfiles/2008/07/rsz_gettyimages-479477674_1.jpg)
+
+Even if you’ve never made an overt decision to invest in the stock market,
+stocks form the foundation of your retirement investing. (At least if you’re
+like the vast majority of Americans, they do.) That’s because your 401(k) — or
+equivalent employer retirement plan — is only allowed to invest in mutual
+funds, and most mutual funds invest in the stock market.
+
+If you are investing through a [Roth
+IRA](http://web.archive.org/web/20171017051735/http://www.getrichslowly.org/blog/2007/06/05/what-
+is-a-roth-ira-and-why-should-you-care/) account, though, **you do have
+options.** You can invest in mutual funds (of which [index
+funds](http://web.archive.org/web/20171017051735/http://www.getrichslowly.org/blog/2015/08/18/what-
+is-an-index-fund-exactly/) are a subset) or you can buy stocks individually.
+Does that mean you _should_ buy individual stocks for your Roth IRA?
+
+## Unpredictable, to say the least
+
+Many people own stocks outright. Some acquire stock in their employers at
+favorable terms, either through stock options or directly. Microsoft is a
+famous example of a company which made thousands of its employees millionaires
+through company stock ownership. Not every company is Microsoft, however.
+Enron is a famous example of how that benefit blew up (rather spectacularly)
+in the faces of thousands of employees.
+
+Many buy stocks not associated with their employers. My millionaire-next-door
+neighbor, Jim, has invested in individual stocks all his life, because he
+hates the thought that mutual fund managers will take money from him for doing
+something he can do himself. (Not surprisingly, he also does his own plumbing
+and related home tasks.) On the other hand, another friend of mine (who shall
+remain nameless) regularly loses money buying individual stocks, so he says he
+has stopped doing that. At least until the next no-lose deal comes along, I
+suspect!
+
+You can see that investing in individual stocks can work — or it might not
+work. As with most things in life, it’s the dramatic collapses which grab the
+headlines
+([Volkswagen](http://web.archive.org/web/20171017051735/http://www.getrichslowly.org/blog/2015/09/25/social-
+investing-in-the-wake-of-the-volkswagen-scandal-have-your-say/) and Valeant
+being two of the most recent) while the quiet successes (like Jim’s) go
+largely unreported.
+
+## What does it take to succeed at buying individual stocks?
+
+More importantly, should you do it? (For most people, **the answer is no** ,
+by the way.) To answer that question for yourself, though, you need to think
+about about these five things and decide:
+
+**1\. How to handle risk**
+
+If you had put all your money in Microsoft stock in the ’80s, you might have
+become a millionaire. However, if you put your money in Lotus or any of the
+other high-flying tech stocks of the day, you would have lost money. More
+recently, Facebook stock turned out to be a winner and Twitter ended up a
+loser. How do you know which companies will do well, and which won’t?
+
+You don’t.
+
+There’s a word for our universal inability to predict if a company will turn
+out to be a winner or a loser. It is called “risk,” i.e., the company you
+choose may hit it out of the park, or it may be hit out of the park in
+tatters.
+
+This is your retirement money we’re talking about — do you really want to risk
+losing it (or even a portion of it)? Probably not.
+
+**2\. How to diversify if your income is limited  
+**
+
+The number one way to reduce investing risk is by diversifying, i.e., not
+putting all your eggs in one basket. You achieve diversification by creating a
+portfolio of stocks. That in turn requires buying many different stocks. That
+way, if one goes down, another goes up … and with any luck more go up than go
+down.
+
+Buying many different stocks, though, requires a lot of money. The money that
+you and I are socking away in a [savings
+account](http://web.archive.org/web/20171017051735/http://www.getrichslowly.org/blog/2014/04/02/which-
+online-high-yield-savings-account-is-best/) every month is usually not enough
+to build up a decently diversified portfolio.
+
+**3\. How to acquire the requisite knowledge**
+
+Like most profitable things in life, there is a lot more to buying individual
+stocks than meets the eye. So, you have to know what you are doing. That
+knowledge does not come by osmosis; it takes an intentional effort to acquire
+it. You need to understand:
+
+  * Stock investing in general — things like technicals and fundamentals
+  * How to research individual companies as potential investments — how to read technical charts and/or financial statements
+
+Investing in individual stocks also requires stomaching a certain amount of
+risk (again, nothing for nothing). Another good antidote for risk is
+knowledge, but not everyone is inclined to study something as esoteric as
+stocks.
+
+**4\. How to accommodate your needs**
+
+Time is money. If you do your own plumbing, you might save money — but every
+fix will take a bite out of your time. (And buying all the right tools will
+take some up-front investment.) The same is true of investing.
+
+Despite what index fund apologists say, it is possible to outperform the S&P
+500. Thousands of people do it consistently. However, acquiring the knowledge
+mentioned in the previous point takes time … and it also takes time to keep up
+with it.
+
+Unfortunately, most people have lives to live, lives which consume all or most
+of their time — jobs (with commutes), kids, hobbies, extended family, social
+activities and a whole host of other things. What time is left is usually
+needed to recuperate and hang out with friends. That is why most people have
+their oil changed at a lube shop and their plumbing done by someone who
+charges more than a doctor … and why they leave managing their investments to
+a computer tracking an index.
+
+**5\. How to ignore the talk**
+
+We are humans, and we live in an age with an incessant barrage of news and
+speculation about anything which interests us. If you make the time commitment
+to invest in stocks, you of necessity expose yourself to a lot of chatter
+about companies and their stocks.
+
+Another thing about human nature is that it’s difficult not to get excited
+when everyone else is excited and depressed when everyone else is depressed.
+Generally, that makes for bad investment decision-making. For example, when
+everyone was beating up on Facebook after its IPO, that was the time to buy.
+Not many people can buy when the noise dictates selling.
+
+It takes a certain amount of intestinal fortitude to set a course and stay
+with it, ignoring the ruckus that is always surrounding you. Warren Buffett,
+the grand master of individual stock investing, calls it “the art of doing
+nothing.” Not many people have the temperament to master that art. Until you
+can, you are opening yourself to habitually making mistakes when picking
+companies to buy and sell. Can you walk the walk and ignore the talk?
+
+If the foregoing points make you depressed about investing in stocks, take
+heart.
+
+## There is a viable alternative
+
+The biggest reason to eschew investing in stocks individually is there is a
+better way: You can buy mutual funds in general and index funds in particular.
+Those funds invest in stocks, but you end up in a better place because,
+compared to the five points above mutual funds and index funds…
+
+**1\. Effectively minimize risk**
+
+Index funds achieve the greatest diversification possible — you’re buying the
+entire market, as it were. Granted, you will forego the glamorous gains of the
+Microsofts of this world, but you will also avoid the pitfalls of the
+Volkswagens and Enrons.
+
+Ever since their inception, mutual funds have proven to offer a decent return
+with minimal risk. The only risk they can’t protect you from is when the
+entire market crashes, but time has proven that if you simply stay the course,
+each subsequent correction will end up leaving you in a better place than
+before.
+
+**2\. Don’t require a lot of money  
+**
+
+Anyone can invest in a mutual fund, even with the small amounts we set aside
+every month for our retirement.
+
+**3\. Don’t require a great deal of specific knowledge**
+
+You don’t need any, really. Simply pick the biggest index funds around and
+you’re set.
+
+**4\. Don’t require a lot of time**
+
+All you need is 20 minutes when you get started. Then you automate everything
+and forget about it.
+
+**5\. Effectively eliminates the talk**
+
+You don’t need to pay attention to what anybody says. Nothing allows you to
+master the art of doing nothing like automating your index fund investing.
+
+Some people are simply too geeky to allow other people to do their investing
+for them. (Don’t ask me how I know this.) For the other 99.9 percent of us,
+simply setting up your automated index fund investing program is the most
+efficient way to tap into the [miracle of
+compounding.](http://web.archive.org/web/20171017051735/http://http//www.getrichslowly.org/blog/2008/04/02/power-
+of-compound-interest/) Even the illustrious Mr. Buffett said so!
+
+_**Are you interested to buy individual stocks? If so, how do you address
+risk, diversification on a budget, knowledge, your needs, and the chatter
+about individual stocks? Is there another way to strike an acceptable balance
+other than with mutual and index funds?**_
+
+This article is about
+[Investing](http://web.archive.org/web/20171017051735/http://www.getrichslowly.org/blog/category/investing/)
+[Choices](http://web.archive.org/web/20171017051735/http://www.getrichslowly.org/blog/tag/choices-
+tag/)
+[Investing](http://web.archive.org/web/20171017051735/http://www.getrichslowly.org/blog/tag/investing-
+tag/)

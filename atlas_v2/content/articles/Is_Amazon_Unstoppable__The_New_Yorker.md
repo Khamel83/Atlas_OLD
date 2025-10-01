@@ -1,0 +1,235 @@
+# Is Amazon Unstoppable? | The New Yorker
+
+**Source**: https://www.newyorker.com/magazine/2019/10/21/is-amazon-unstoppable
+**Type**: article
+**Created**: 2025-08-13T16:06:15.951871
+
+---
+
+title: Is Amazon Unstoppable? | The New Yorker
+source: https://www.newyorker.com/magazine/2019/10/21/is-amazon-unstoppable
+date: 2025-08-13T16:06:05.920584
+tags: []
+---
+Although Freed was thriving at Amazon, he could see that there was something
+dizzying about its flywheel mentality. “It was hard,” he said. “That’s the
+culture—do whatever it takes, even if it seems impossible.” Amazon’s obsession
+with expansion made it the corporate equivalent of a colonizer, ruthlessly
+invading new industries and subjugating many smaller companies along the way.
+In 2006, the company had launched Fulfillment by Amazon, an initiative in
+which outside sellers—everyone from mom-and-pop venders to major Chinese
+manufacturers—housed inventory inside Amazon’s giant warehouses and paid a fee
+for Amazon to handle logistics, such as packing and shipping products and
+fielding customer-service calls. Companies enrolled in Fulfillment by Amazon
+often appeared in the Buy Box, the top search listing on Amazon.com. To
+participate, many venders had to pay about two dollars per item. They also had
+to let Bezos collect valuable data on which products were becoming popular and
+which companies were having trouble satisfying demand. Soon, some venders felt
+as though they _had_ to participate in Fulfillment by Amazon; they couldn’t
+otherwise attract much attention on Amazon.com, or ship products inexpensively
+enough to compete with rivals.
+
+Today, Amazon.com lists more than three hundred and thirty million products
+sold by other companies. Scott Needham, whose company, BuyBoxer, sells about
+seventy thousand products on Amazon, ranging from toys to sporting goods, paid
+the company roughly twenty million dollars in fees last year. “There’s really
+no other choice,” Needham said. “There’s a lot of things I don’t like about
+Amazon, but that’s where all the customers are.” Recently, the U.S. House of
+Representatives and the European Union began scrutinizing Fulfillment by
+Amazon and similar programs, out of concern that they impede competition.
+“Amazon is the gatekeeper,” Needham said. “It makes all the rules.”
+
+Tim Wu, a law professor at Columbia, said, “Amazon is a microeconomist’s wet
+dream. If you’re a consumer, it’s perfect for maximizing the efficiency of
+finding what you want and getting it as cheap and fast as possible. But, the
+thing is, most of us aren’t just consumers. We’re also producers, or
+manufacturers, or employees, or we live in cities where retailers have gone
+out of business because they can’t compete with Amazon, and so Amazon kind of
+pits us against ourselves.”
+
+Freed loved how things whizzed along at Amazon headquarters, but he understood
+that the “Speed matters” credo meant something different at the warehouses.
+“Is it the role of a company to only do what’s best for shareholders?” he
+asked me. “Yes, shareholders are critical, but it’s also important to
+understand the impact on employees.” More than a hundred thousand people work
+at Amazon’s fulfillment centers, and nearly everything they do is digitally
+tracked and evaluated, meaning that if someone falls behind—even for just a
+few minutes—it can be grounds for reprimand. Many employees carry handheld
+scanners that deliver a constant stream of instructions, such as a countdown
+clock detailing how many seconds remain until the next item must be plucked
+from a shelf. Workers can walk more than fifteen miles a day, and their
+breaks, including trips to the bathroom, are brief and closely measured. A
+company document explains, “Amazon’s system tracks the rates of each
+individual associate’s productivity and automatically generates any warnings
+or terminations regarding quality of productivity without input from
+supervisors.” A former warehouse employee told me that she knew of people who
+got fired largely “because they were too old, or their knees started acting
+up, or they just had a bad week.” She added, “Managers are always vague about
+what will get you fired, which creates this paranoia.” Employees, she said,
+sometimes ask questions about “what exactly will get them fired, and the
+responses are so vague that you basically know that if you’re not constantly
+moving, you’re probably gone.” Employees line up at vending machines that
+dispense free over-the-counter painkillers. For years, some Amazon warehouses
+lacked sufficient air-conditioning; this changed only after [reports
+emerged](http://web.archive.org/web/20250723093854/https://www.mcall.com/business/mc-
+sg-amazon-warehouse-series-storygallery.html), in 2011, of workers passing out
+and requiring emergency medical treatment for heat-related problems.
+
+William Stolz, who has worked for two years at an Amazon warehouse in
+Shakopee, Minnesota, told me that he’s expected to grab an item every eight
+seconds, and has seen co-workers injure their wrists, knees, shoulders, and
+backs by repeatedly kneeling, or by rushing up and down ladders. “There’s a
+constant pressure to hit your numbers,” he said. If you get four writeups
+within ninety days for falling below the expected productivity rate, you will
+be fired. Stolz said, “I’ve seen people who aren’t even thirty years old get
+injuries they’re going to have for the rest of their lives, but whenever we
+ask for the speed of work or the repetitive motions to be changed we’re told
+that’s not going to happen.”
+
+[![A bird in a human hand yells back to its friend in the
+bush.](http://web.archive.org/web/20250723093854im_/https://media.newyorker.com/cartoons/5d9f46f9e054a100087aa0d8/master/w_1600%2Cc_limit/191021_a23254.jpg)](http://web.archive.org/web/20250723093854/https://www.newyorker.com/cartoon/a23254)
+
+“My situation may not be the greatest, but I’ll tell you this—I’m worth two of
+you!”
+
+Cartoon by Liana Finck
+
+When Safiyo Mohamed moved from Somalia to Minnesota, in 2016, at the age of
+twenty-two, she found work at the Shakopee warehouse, sorting products and
+moving boxes on and off conveyors. The job was taxing and the pressure
+relentless, she said. One day, when she picked up a heavy box, she tore an
+intervertebral disk in her back. The pain was excruciating, but Amazon didn’t
+offer her time off; her managers seemed not to care. “If you can’t work all
+the time, you are nothing to them,” she said. A doctor told her that the
+injury was pinching a nerve, and that the discomfort might never abate. She
+quit Amazon, and got an office job that allows her to pause, or stretch, when
+her back hurts. “How am I going to have a baby when I can’t pick him up, when
+I’m worried about being pregnant?” Mohamed said. “I’m so angry. Amazon doesn’t
+want humans, they want robots. I will have this forever because of them. They
+don’t care at all.”
+
+At Amazon’s corporate headquarters, many executives’ performances are
+similarly quantified and ranked. “It can be a hard place for women,” a former
+executive told me. “If you have a kid, it’s a disadvantage to your career,
+unless your husband is the primary parent.” (Amazon said, in a statement, that
+it “disagrees strongly with this perspective,” and noted that it offers twenty
+weeks of paid parental leave.) A former senior female executive told me she
+counselled younger colleagues that “it’s not the company’s job to create a
+work-life balance—it’s your job,” adding, “The idea of a company as a
+caretaker is _not_ our culture.” There is only one woman on Amazon’s S-Team,
+the group of eighteen executives who largely run the firm. The lack of female
+representation is a sensitive topic at the company. A current high-ranking
+executive told me, “I’m not sure it would be any different for a woman at an
+investment bank or a big law firm. The pace is fast, yes, and it’s not for
+everyone or every stage of life, but these are highly compensated people who
+know they can easily get other jobs. No one works at Amazon—at least, in
+corporate—unless they want to.”
+
+Amazon argues that criticisms of working conditions in its warehouses are
+unfair. Dave Clark, the senior vice-president for worldwide operations, told
+me that work expectations at its facilities “are very achievable for folks.”
+He said that the company has increasingly automated its warehouses, to ease
+physical tasks. “We make mistakes,” Clark said. “And, when we do hear about
+it, we learn from it, and we go out and fix it.” Amazon pays all U.S.-based
+employees at least fifteen dollars an hour—more than the minimum wage in many
+places—and full-time warehouse workers have access to the same health and
+retirement plans as executives. A company statement noted that workers at
+Amazon begin and end every shift with a short meeting and a group stretching
+session; it also said that employee performance is evaluated over extended
+periods, noting, “We would never dismiss an employee without first ensuring
+that they had received our fullest support, including dedicated coaching.”
+
+Many Amazon executives have become defensive about the fact that even centrist
+politicians like Joe Biden see the company as a symbol of capitalism gone
+awry. (On Twitter, Biden [recently said of
+Amazon](http://web.archive.org/web/20250723093854/https://twitter.com/joebiden/status/1139188173131591685?lang=en),
+“No company pulling in billions of dollars of profits should pay a lower tax
+rate than firefighters and teachers.”) Jeff Wilke, one of Bezos’s top
+lieutenants, told me that Amazon “tries to be a good corporate citizen,” and
+added, “We’ve built a for-profit enterprise that is improving the lives of
+customers and taking great care of employees. There’s a lot to be proud of.”
+The company, he said, has committed to spending seven hundred million dollars
+to train its workers in such subjects as coding and robotics. One senior
+Amazon executive said of its warehouses, “It’s a hard economy for people
+without college degrees right now. We can’t run a philanthropy, but we’re
+trying to be the best of those bad kinds of jobs.” Another top executive
+suggested that Amazon was merely a cog in the American economic machine—and
+inevitably reflected how contemporary inequality had created winners and
+losers. “We’re doing what we can,” he said. “But ultimately this is a problem
+only the government can really solve—by changing how the economy works.”
+
+Amazon has always been unabashed about being a cutthroat competitor. When the
+company started, in 1995, with fewer than a dozen employees, Bezos considered
+naming it Relentless. (The company still owns the URL for relentless.com—it
+redirects you to Amazon.com.) Amazonians know that outsiders want them to
+change, but listening to outsiders is not one of the Leadership Principles.
+One executive told me, with barely suppressed resentment, “What has made us
+great for so long is suddenly being seen as something we ought to be _ashamed_
+of!”
+
+In 1913, an employee of the Ford Motor Company went to the Swift & Co.
+meatpacking plant, in Chicago, to study how hogs moved through the facility on
+conveyor belts while butchers stayed in place, making the same cut again and
+again. Someone prepared the carcass; another person cut the left haunch;
+another was responsible for incisions along the shoulder. The knives never
+stopped moving as the animals sped through the plant. When the Ford employee
+returned to headquarters, he told his colleagues, “If they can kill pigs and
+cows that way, we can build cars that way.” The man’s boss, Henry Ford, a
+lifelong tinkerer, had developed a radical new product: an automobile, with an
+inexpensive internal-combustion engine, that could be manufactured in a couple
+of days and sold for less than a thousand dollars. When Ford managers heard
+about the meatpacking plant, they began work on another major innovation: the
+mechanized assembly line. Within four years, Ford’s plants could manufacture a
+car in less than two hours and sell it for about four hundred dollars.
+
+In 1918, a man named Alfred P. Sloan began working as an executive at a much
+smaller company, General Motors. Sloan wasn’t especially interested in
+automobiles. He loved making money—and figuring out how to manage people in
+order to make profits grow faster. Once installed at G.M., Sloan staged a coup
+by way of a memo, “Organization Study,” which eventually reoriented the firm
+around himself and a set of foundational credos that included five
+“objectives.” A chart of eighty-nine boxes connected by a blizzard of lines
+mapped out each executive’s place in the hierarchy. It was the first org chart
+of its kind. Sloan’s theory was that G.M. could codify the processes that
+delivered information up to headquarters and guidance down to managers. “If
+the whole General Motors central organization should be hit by an atomic bomb,
+Pontiac could go on just exactly the same,” Sloan boasted to a reporter. Soon,
+the company had standard procedures for budgeting, hiring, firing,
+prototyping, promoting, and resolving disputes. Within this rigid framework,
+executives were given the freedom to be creative; G.M. essentially became the
+first company to segment the automobile market, selling Chevrolets to the
+middle class and Cadillacs to the wealthy.
+
+When Sloan joined the company, G.M. was on the verge of bankruptcy. Within a
+decade, it had outpaced Ford, becoming the nation’s largest carmaker, and for
+the next eighty years it dominated the auto business and, eventually, a wide
+variety of other industries. Sloan’s systems made G.M. one of the country’s
+biggest loan financiers and a powerful real-estate investor, and placed it
+among the largest manufacturers of refrigerators, industrial magnets, home
+appliances, aeronautic equipment, military gear, and medical equipment. In
+1952, G.M. made the first mechanical heart. Sloan launched a sophisticated
+corporate polling division—another first—that uncovered customer tastes that
+other companies had overlooked; the R. & D. department used this information
+to create new products. The same playbook that dreamed up Cadillac’s space-age
+tail fins was soon designing sleek Frigidaire iceboxes. G.M., in other words,
+was adept at creating flywheels. It sold plenty of cars, but, unlike Ford, it
+wasn’t a product company—it was a process company.
+
+Silicon Valley is filled with product companies. Google invented two
+products—a spectacular search engine and a set of algorithms for matching
+people’s online behavior to ads—that today deliver eighty-five per cent of its
+revenue. Facebook invented (and acquired) addictive social-media products and
+then basically imitated Google’s ad-matching algorithms, and gets ninety-eight
+per cent of its revenue from those products.
+
+Amazon is a process company. Last year, it collected a hundred and twenty-two
+billion dollars from online retail sales, and another forty-two billion by
+helping other firms sell and ship their own goods. The company collected
+twenty-six billion dollars from its Web-services division, which has little to
+do with selling things to consumers, and fourteen billion more from people who
+sign up for such subscription services as Amazon Prime or Kindle Unlimited.
+Amazon is estimated to have taken in hundreds of millions of dollars from
+selling the Echo. Seventeen billion came from sales at such brick-and-mortar
+stores as Whole Foods. And then there’s ten billion from ad sales and other
+activities too numerous to list in financial filings. No other tech company
+does as many unrelated things, on such a scale, as Amazon.

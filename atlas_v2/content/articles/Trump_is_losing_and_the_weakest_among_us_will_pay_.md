@@ -1,0 +1,206 @@
+# Trump is losing, and the weakest among us will pay the price | Vox
+
+**Source**: https://www.vox.com/policy-and-politics/2017/8/3/16089820/trump-losing-immigrants-police
+**Type**: article
+**Created**: 2025-08-13T17:06:25.772173
+
+---
+
+title: Trump is losing, and the weakest among us will pay the price | Vox
+source: https://www.vox.com/policy-and-politics/2017/8/3/16089820/trump-losing-immigrants-police
+date: 2025-08-13T17:06:24.625840
+tags: []
+---
+On December 7, 2015, Iowa’s Monmouth University released its [latest
+poll](https://www.monmouth.edu/polling-
+institute/reports/MonmouthPoll_IA_120715/) of the Iowa primary. For the first
+time, Ted Cruz had pulled ahead of Donald Trump. This followed a series of
+weeks in which Cruz seemed to be surging and Trump seemed to be having trouble
+retaining his hammerlock on media coverage. And so later that day, Trump
+stepped before the cameras and, in an unusually formal statement, wrenched
+back control of the narrative:
+
+“Donald J. Trump is calling for a total and complete shutdown of Muslims
+entering the United States until our country’s representatives can figure out
+what the hell is going on,” he said.
+
+Trump’s sentiment may have been sincere. But the timing reflected a broader
+political problem Trump faced. His anti-immigrant statements had ceased to
+shock. The media was covering his opponents. He had to do something shocking
+enough, severe enough, offensive enough, to recapture the public’s attention.
+Pivoting from Mexicans to Muslims was his solution.
+
+“As the political establishment (and political press) has become frankly
+desperate to stop paying attention to him,” wrote [Dara
+Lind](/2015/12/9/9872908/donald-trump-muslims), “he’s started replacing some
+of his anti-Latino rhetoric with anti-Muslim rhetoric to maintain the media’s
+attention.”
+
+This is a strategy Trump would employ repeatedly, and to great effect. Each
+time he felt himself losing control of the media’s narrative, he would do
+something outrageous enough to wrench it back — even if it meant exposing
+himself to heavy criticism. Better to be attacked on his terms than
+overshadowed on someone else’s.
+
+After Trump decisively lost the first debate to Hillary Clinton (and to his
+own obsession with former Miss Universe contestant Alicia Machado), he came
+into the second debate with a twofold plan to make himself the story, no
+matter the cost. First, he invited a group of women who had accused President
+Bill Clinton of sexual assault to attend as his guests. When that failed to
+rattle his opponent, he announced, onstage, that he intended to jail her if
+elected president:
+
+> I didn’t think I would say this, but I’m going to and I hate to say it. But
+> if I win, I am going to instruct my attorney general to get a special
+> prosecutor to look into your situation. Because there has never been so many
+> lies, so much deception. There has never been anything like it. And we’re
+> gonna have a special prosecutor.
+
+It worked. The headlines were Trump’s again — “Trump threatens to jail Clinton
+if he wins election,” [blared](http://www.cnn.com/2016/10/09/politics/eric-
+holder-nixon-trump-presidential-debate/index.html) CNN — and the debate was
+back to playing out on his terms.
+
+Trump becomes meaner and more dangerous when he’s losing. He looks for
+scapegoats, he embraces illiberal plans for revenge, he retreats to the
+strategy that launched his political career and his presidential campaign:
+capturing press coverage through shock and offense.
+
+Trump is losing. His health reform push is in tatters. Republican senators are
+speaking out against him. Congress is tying his hands on Russia. Bob Mueller’s
+investigation is advancing, and two senators have introduced a bipartisan bill
+to protect it from Trump’s ire. His poll numbers are poor. He just fired his
+chief of staff and communications director.
+
+He needs to regain control. And over the past week, we’ve seen he’ll do it by
+returning to his campaign’s darkest roots: fear of immigrants, defense of
+police brutality, and appeals to white resentment.
+
+## “I said, you can take the hand away, okay?”
+
+On Friday, Trump traveled to Long Island to speak before an audience of police
+officers. In a dark, chilling speech, he described an America beset by roving
+gangs of foreign murderers:
+
+> Think of it. They butcher those little girls. They kidnap, they extort, they
+> rape and they rob. They prey on children. They shouldn’t be here. They stomp
+> on their victims. They beat them with clubs. They slash them with machetes,
+> and they stab them with knives. They have transformed peaceful parks and
+> beautiful, quiet neighborhoods into bloodstained killing fields. They’re
+> animals.
+
+Trump spoke of his task in the language of war. “We’re liberating our American
+towns. Can you believe that I’m saying that? I’m talking about liberating our
+towns.”
+
+It was time, he continued, to unleash the police against these monsters, time
+to remove the guardrails, to meet violence with violence. And here, Trump,
+remarkably, offered a straightforward endorsement of police brutality:
+
+> When you see these thugs being thrown into the back of a paddy wagon — you
+> just see them thrown in, rough — I said, please don’t be too nice. Like when
+> you guys put somebody in the car and you’re protecting their head, you know,
+> the way you put their hand over? Like, don’t hit their head and they’ve just
+> killed somebody — don’t hit their head. I said, you can take the hand away,
+> okay?
+
+As Lind
+[wrote](https://www.washingtonpost.com/news/politics/wp/2017/07/28/trumps-
+speech-encouraging-police-to-be-rough-annotated/?utm_term=.614c2974e32d),
+“It’s the closest Trump has come since inauguration to his infamous calls for
+violence against protesters at campaign rallies during the presidential
+primary. The themes aren’t new — they’re literally the oldest trick in Trump’s
+book — but they’re increasingly explicit. That’s a very bad sign.” Trump’s
+comments were so extreme that the local police department took to Twitter to
+disavow them:
+
+But then, the local police department wasn’t Trump’s target audience.
+
+## Trump’s attack on legal immigration
+
+On Wednesday, Trump rebooted his legislative agenda at a White House event
+where he endorsed Sens. Tom Cotton and David Perdue’s [plan](/policy-and-
+politics/2017/8/3/16089260/trump-raise-act-economic-effect-immigration) to cut
+legal immigration by 50 percent.
+
+“This legislation will not only restore our competitive edge in the 21st
+century, but it will restore the sacred bonds of trust between America and its
+citizens,” Trump said. “This legislation demonstrates our compassion for
+struggling American families who deserve an immigration system that puts their
+needs first and that puts America first.”
+
+It also, Trump emphasized, “prevents new migrants and new immigrants from
+collecting welfare, and protects US workers from being displaced. And that’s a
+very big thing. They’re not going to come in and just immediately go and
+collect welfare.”
+
+Trump’s stated arguments for his policy don’t hold up: Cutting legal
+immigration would [make Americans poorer, not richer](/policy-and-
+politics/2017/8/3/16089260/trump-raise-act-economic-effect-immigration). It
+would not protect our social services or keep our streets free from crime.
+
+But if Trump’s defense of the policy doesn’t fit the evidence, it does fit his
+own political history. As Peter Baker put it at [the New York
+Times](https://www.nytimes.com/2017/08/02/us/politics/trump-immigration.html),
+“Trump returned to a theme that has defined his short political career and
+excites his conservative base at a time when his poll numbers continue to
+sink. Just 33 percent of Americans approved of his performance in the latest
+Quinnipiac University survey, the lowest rating of his presidency, and down
+from 40 percent a month ago.”
+
+Later that night, Trump sent Stephen Miller, his controversial policy aide, to
+brief the press. In a combative, strange event, Miller berated journalists who
+questioned whether legal immigration is really harming American workers. ([It
+isn’t](/policy-and-politics/2017/8/3/16089260/trump-raise-act-economic-effect-
+immigration).) “Maybe we’ll make a carve-out in the bill that says the New
+York Times can hire all the low-skilled, less-paid workers from other
+countries and see how you feel then about low-wage substitution,” he
+[said](/policy-and-politics/2017/8/2/16086108/stephen-miller-jim-acosta-glenn-
+thrush-press-briefing). At another point, Miller, [who grew up in sunny Santa
+Monica](http://www.latimes.com/politics/la-na-pol-trump-speechwriter-
+santamonica-20170117-story.html), accused his interlocutors of “cosmopolitan
+bias.”
+
+When Trump was a long-shot political contender with little support, he began
+his campaign by attacking immigrants and framing himself as the sole
+politician willing to defy the media’s cosmopolitan consensus. Now that he’s
+an embattled president, he is doing the same thing. It’s not a strategy that
+wins Trump a majority, but it is a strategy that wins him the devoted loyalty
+of a passionate minority, and right now Trump needs to excite his loyalists.
+
+## Trump is at his most dangerous when he’s losing
+
+Trump is gentler when he is winning. In victory, his thirst for revenge
+abates, his fear of foreigners diminishes, his imagination for what he and his
+presidency can be enlarges. But Trump is not winning. He is losing, and he is
+losing badly.
+
+And so Trump is returning to the themes, provocations, and scapegoats that
+have always supported him, and that he knows will let him control the
+narrative when all else fails. It is no accident that in this time of trial,
+Trump has turned to John Kelly, his Department of Homeland Security chief, to
+take over his White House. As Lind [writes](/2017/7/29/16060614/trump-john-
+kelly-immigration-dhs):
+
+> Kelly, who caught the president’s attention by [**carrying out Trump’s
+> immigration agenda**](/2017/7/28/16059120/john-kelly-chief-of-staff), is
+> perfectly in line with the brand that first brought Trump to campaign
+> success: the idea that the world is a terrifying place full of people
+> (mostly foreigners) who want to undermine social order and the American way
+> of life, and that the tough American men who stand up to them shouldn’t be
+> too closely questioned about how they keep those threats at bay.
+>
+> That brand has succeeded for Trump — it’s made the right people happy (his
+> base and the cable news networks that generate endless debate over
+> inflammatory remarks), it’s made the right people angry (Democrats and
+> people who go on cable news networks), and if it’s terrified certain groups,
+> they’ve been people who don’t seem to matter to Trump (immigrants and black
+> Americans who vote for Democrats).
+
+As Trump’s presidency flails, it becomes more dangerous — perhaps not to the
+entire country, but to its weakest and most vulnerable members. If Trump
+learned, in the health care debate, that he cannot overcome the interests of
+white Americans who rely on Medicaid and tax subsidies, he will fall back to
+his strategy of trying to unite white Americans against outsiders who are
+coming to take their jobs, to leech off their social services, to bring crime
+to their streets.

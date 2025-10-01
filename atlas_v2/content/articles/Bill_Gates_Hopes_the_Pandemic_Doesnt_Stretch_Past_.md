@@ -1,0 +1,417 @@
+# Bill Gates Hopes the Pandemic Doesn’t Stretch Past 2022
+
+**Source**: https://nymag.com/intelligencer/2020/09/bill-gates-hopes-covid-19-pandemic-doesnt-stretch-past-2022-interview.html
+**Type**: article
+**Created**: 2025-08-13T15:51:20.018300
+
+---
+
+title: Bill Gates Hopes the Pandemic Doesn’t Stretch Past 2022
+source: https://nymag.com/intelligencer/2020/09/bill-gates-hopes-covid-19-pandemic-doesnt-stretch-past-2022-interview.html
+date: 2025-08-13T15:51:17.846541
+tags: []
+---
+Bill Gates. Photo: Jeff Pachoud/AFP via Getty Images
+
+Every year, the Bill and Melinda Gates Foundation releases a Goalkeepers
+report, tracking the world’s progress toward the U.N.’s Sustainable
+Development Goals. The news is almost always pretty good. This year’s edition
+is … not like that. “Almost every time we have opened our mouths or put pen to
+paper,” the Gateses write in the report’s introduction, “we have celebrated
+decades of historic progress in fighting poverty and disease. But we have to
+confront the current reality with candor: This progress has now stopped.”
+Their annual report tracks global progress on 18 different metrics. “In recent
+years, the world has improved on every single one. This year, on the vast
+majority, we’ve regressed.”
+
+For a nonmedical civilian, Bill Gates has occupied an unusually central role
+in the story of the coronavirus pandemic almost since it arose. Gates, who
+spent much of the past decade warning the world about the risks of a
+respiratory pandemic, found himself funding a flu study this spring that was
+among the first documenting community spread of COVID-19 in the U.S. He has
+devoted much of the foundation’s resources to infectious disease and global
+immunization programs over the years and now has funded a lot of expedited
+research into possible coronavirus vaccines and treatments — indeed, he helped
+pre-fund the manufacturing of seven candidate vaccines, long before knowing
+whether they would work. (He also became the center of an unfortunately
+pervasive coronavirus conspiracy theory.) While Gates has been worrying about,
+and working toward, our ability to respond to the coronavirus in the short
+term, judging from the Goalkeepers report, he may be even more worried about
+what the pandemic means for the long-term trajectory of global development.
+
+In early September, I spoke with him about how much damage has been done to
+that trajectory; how the world, and the U.S. in particular, failed so
+spectacularly in containing SARS-CoV-2 barely a decade after very successfully
+containing SARS-CoV-1 (and even more recently containing MERS and H1N1); how
+bleak the fall looks to him in terms of the pandemic; and when, and in what
+form, we can expect real global relief from vaccines to arrive.
+(Unfortunately, not that soon, he says.)
+
+**I thought we should start with the Goalkeepers report itself. To me, this
+report is always a perspective giver — it makes me remember that, however grim
+things look, many things are getting much better in so many areas of the
+world. This year’s report offers a very different message — you talk about
+losing 25 years’ worth of progress on vaccination and the long-term effects of
+missed schooling. In the West, a lot of us tend to think this pandemic is
+going to pass — we’ll get through it and, on the other side, things will
+resemble the way they were before. How do you see the global impact? How big,
+how bad, and how lasting are these setbacks?**  
+It’s a super-good question. As you say, the gradual progress in literacy and
+reducing malnutrition, reducing childhood death, extending life spans — that
+largely goes unnoticed, and it’s the most amazing story there is. This year,
+it’s just bad news.
+
+**But how bad?**  
+In the very best case, two years from now, you would be, for some of the
+health things in particular, ideally back at where you were at the beginning
+of 2020.
+
+**Two years.**  
+That is, if we’re lucky enough that several of these vaccines work, including
+the ones that are low cost enough that we can scale the manufacturing. And if
+we get the factories going and we get the money to buy it for the entire
+world.
+
+**That’s the very best case.**  
+In that case, during 2021, the pandemic is going down, and in 2022, the global
+pandemic comes to an end. Could we sit here two years from now and say, “Okay,
+during that time, not only did we end the pandemic; did we also restore the
+vaccination services and catch up to the kids that got missed? Could we
+restore the malaria work and HIV work that was lost to the pandemic?”
+
+On the economic statistics, these countries don’t have the ability to raise
+their government debt like the rich countries do. And so what we’ve done with
+the CARES Act, the first $3 trillion, there is no equivalent that can take
+place in Nigeria or most of the developing countries. India’s done a bit
+because they’re a low-middle income country, but once you get below the India
+level, there hasn’t been a lot of aid generosity. Poor countries have had to
+deal with this largely on their own. The only good news in developing
+countries is the death rates have been actually fairly low.
+
+**Across sub-Saharan Africa, the fatality rate appears to be**[**much
+lower**](https://www.sciencemag.org/news/2020/08/pandemic-appears-have-spared-
+africa-so-far-scientists-are-struggling-explain-why)**than in Europe, the
+U.S., or Asia.**  
+Ninety percent percent of that is due to the age structure of their
+population. Their societies are about 20 to 25 years younger on average. These
+are very young countries. And even though the newspapers highlight the cases
+of younger people who do get the disease, some of whom die, those are very
+small numbers.
+
+**I saw**[**one
+analysis**](https://www.ft.com/content/92f64ea9-3378-4ffe-9fff-318ed8e3245e)**suggesting
+the disease was 10,000 times more deadly for a 90-year-old than a 9-year-
+old.**  
+Early in the epidemic, where some of the medical personnel were getting huge
+doses, you did have people in their 20s and 30s who had died. That largely has
+stopped. Yes, there are some cases, but it’s like flu, where, in a typical
+year, you have 60,000 deaths in the U.S. from flu. Four hundred of those are
+people under the age of 60. So it’s really very age-specific. This thing, even
+more now, is very age-specific.
+
+India isn’t as young, and the density of their slums is such that they’ve
+actually had a pretty tough epidemic. South America is coming out the worst —
+they’re old enough to have a lot of deaths, and yet they’re poor enough that
+their slums have just super-high density. And of course their health system,
+although they’re better than Africa, they still have been overloaded.
+
+So the education and economic damage from this pandemic may not get solved for
+more than a decade. And yet actually mapping those into something people can
+recognize. GDP — of course GDP is this super-abstract thing. Deaths — people
+understand deaths. But if you said, “Okay, every kid in the U.S. misses two
+years of education,” how would you map that to something where people would
+know to cry? It’s not easy.
+
+**So — how did this happen? In the U.S., we’ve been so focused on the failures
+in the White House and the inability to put together a national strategy. And
+obviously that has been a failure. But we’ve also had failures at the FDA,
+particularly in its supervision of testing, and the CDC, particularly in its
+muddled guidance on things like mask-wearing. And while the U.S. has done
+especially poorly, particularly when judged against expectations, it’s also
+the case that when you look globally, almost nowhere outside of East Asia have
+things been handled very well. As recently as the first SARS, the global
+public-health apparatus was able to contain it — a similar respiratory
+infection, though of course there are important differences. But the response
+to this one has also been different. So what went wrong, in your view?**  
+Well, first, SARS is just not as infectious as coronavirus. And you have
+asymptomatics who can infect people. That’s really bad because they don’t
+self-identify — they’re asymptomatic.
+
+**They don’t know they have the disease and don’t know to avoid contact with
+others.**  
+Polio has this problem. It’s a huge difference between smallpox and polio.
+Smallpox, we handed people a card, and said, “Find somebody with a rash that
+looks like that and we’ll give you a payment.” And even illiterate people
+would bring in people with rashes and say, “Give me my payment.” You could
+find people, and it wouldn’t have spread. Whereas with the asymptomatics, by
+the time you find the kid who’s paralytic, the disease can be a thousand miles
+away. So asymptomatics are really bad and being infectious before you become
+symptomatic is bad too — that’s called presymptomatics; those are really bad.
+You can say that’s all one phenomenon.
+
+Two, we thought this was a coughing disease. All respiratory diseases are
+coughing diseases. They make you cough. Flu, in order to get out and survive,
+it causes you to cough. And this disease isn’t about coughing. About 20
+percent of people do develop a cough, but this thing can spread in many other
+ways.
+
+**Heavy breathing, singing, speaking …**  
+Actually the louder you talk, the more this upper-respiratory-tract super-
+spreader phenomenon takes place. It’s taken us a long time to figure that out.
+And that’s part of the reasons why masks are a big deal, because people who
+aren’t coughing are still spreading this thing. And it wasn’t until sometime
+in April that people started to say, “Wow, these masks are kind of cheap. How
+the hell did this thing spread in that restaurant in China? How the hell are
+we seeing these massive spreading events?” You have a wedding party, and you
+infect 50 people. You have a biogen conference, you infect 50 people.
+
+**It’s hard to imagine a single person coughing directly on 50 different
+people.**  
+We were naïve medically about it. If it had been a flu, we would have been
+less stupid, though we’re way more stupid about flu than we should be. That’s
+why I was doing the Seattle flu study that happened to—
+
+**Happened to catch it — the first detection of community spread in the U.S.**  
+These 40,000 travelers coming back: If you’re not going to test them or
+quarantine them, then why did you do your travel ban? Your travel ban is
+laughable because 40,000 people came from China. And, by the way, these
+Europeans are still coming in and it’s gotten there. And that’s what happened
+out on the East Coast, by and large. So the U.S. response — you would have
+expected the U.S. to have the best response. We have the most [PCR
+machines](https://en.wikipedia.org/wiki/Thermal_cycler) per capita by so much
+it’s unbelievable. I mean, it’s crazy. And yet we end up being as bad as
+health systems that have spent half as much, countries that don’t have a CDC.
+
+So there’s a variety of things that went into our relative underperformance.
+Some countries like Norway, Denmark, they did a lot of things right, but they
+also probably had fewer cases coming into their country. It’s very hard to
+measure that. Vietnam, it’s easy to celebrate — relative to its GDP, it has
+the best education system and the best health system. This is ignoring this
+pandemic. It’s very weird that some of these communist countries in terms of
+global good, the public good, they do very, very well. Cuba, even Kerala,
+which is the most socialistic part of India, has by far the best health
+system.
+
+South Korea is an amazing story of contact tracing. They thought, “Hey, who
+has PCR machines?” And they got testing to be free and quick, and they never
+had long turnarounds on tests. That’s a unique U.S. stupidity, that we let the
+commercial guys get so rich on these tests that they take backlogs. There was
+no benefit to paying anybody for a test that takes more than 24 hours.
+
+**And when you see some results only coming back a week later, the person’s
+whole infectious period may have passed.**  
+It’s just pure throw-the-money-away type insanity. It’s incenting the worst
+behavior. So in the U.S., we’ll be studying the mistakes the CDC actually
+made, and then the muzzling of the CDC, for years to come.
+
+**You walked through Vietnam and South Korea. Those are two very different
+countries with very different income levels. And, really, if you look at all
+of East Asia, you see a real diversity of public-health capacities and
+different levels of wealth. And compared to how the West, defined broadly, has
+done, just about every country in East Asia did remarkably well. They
+contained the disease much better than even the best nations of Europe did.
+What could we have done to make our response work as well as theirs? Why
+didn’t the global public-health apparatus make sure that what was working in
+Asia was advised in the West?**  
+Well, there is no global health apparatus.
+
+**Okay, fair enough.**  
+Well, no, let’s be serious. The WHO has a budget of about $3 billion a year
+that’s split across so many things. You can take their total head count and
+say, “How many of their people were assigned to these things?” Margaret Chan
+was a very good WHO director before Tedros, and Tedros is a very good
+director. But it is a U.N. organization. It has a U.N. personnel system.
+Margaret did her best to work within that framework. So, yeah, it’s not
+perfect, but it hasn’t been chartered to do a lot of fancy things. They don’t
+make vaccines, they don’t have planes, they don’t have factories. The whole
+idea of studying masks, that’s an academic thing that they can gather up the
+academic stuff and just put their stamp on it because they’re the normative
+agency. But to expect them to have done something magical …
+
+I haven’t looked at Cambodia. I haven’t looked at Myanmar. Certainly South
+Asia is really bad. The India epidemic is a horrific epidemic. They just
+became No. 2. They passed Brazil in terms of number of cases, and they test
+less per capita. So it’s —
+
+**Even worse than it looks.**  
+About Asia broadly, there is this theory that cross-protection in that part of
+the world is higher because there’s more bats in that part of the world and so
+more coronaviruses have escaped and people there will have more cross-
+protection.
+
+**That is, some amount of protection, if not immunity, from exposure to other
+coronaviruses.**  
+Who knows if that’s true. And that’s another one that, as we measure T-cell
+responses and B-cell responses — very smart people disagree on this prior
+cross-protection issue. There’s something there, but is that a huge deal in
+terms of when the epidemic starts to drop off or not? Still no agreement.
+There’s many things that look promising.
+
+**What other things, what other factors, are you thinking of?**  
+It looked like people who took various vaccines like BCG or polio vaccine,
+that that explained why it didn’t spread as much, but that data’s all fallen
+apart. It doesn’t look like any vaccine that stimulates your immune system in
+some horizontal way is beneficial. For a while, that looked promising, but
+that has not held up. Otherwise, like the polio vaccine — India wouldn’t be
+experiencing this. Or they have
+[BCG](https://www.who.int/biologicals/areas/vaccines/bcg/en/), which the West
+has largely dropped.
+
+But we will be ready for the next pandemic if it’s like this one. If it’s not
+some bioterrorist evil smallpox thing that spreads super, super fast. If it’s
+this type of spread, we can do PCR testing. The most amazing PCR testing in
+the world is what we do against GMO seeds, because you want to test literally
+millions of these things. The foundation is now funding taking that and
+applying that to respiratory disease, to create what we’d have to call
+megatesting, which is where our country will be able to test over 20 percent
+of the population per week. Now nobody’s ever done that. People have talked
+about that as a way out of this thing. It’s very much a brute-force way.
+There’s nothing elegant about that at all, but to have a standby capacity that
+can do that, actually the costs to do so wouldn’t be prohibitive, because the
+machines are so efficient. We’re still proving out the approach, but it’s very
+likely to work.
+
+**You’d probably have to have the consent of the population to do something
+like that — effectively surveillance-level testing. It would solve some of the
+asymptomatic and presymptomatic issues that you were talking about. But it
+raises other issues. Personally, I think American resistance to top-down
+interventions tends to get somewhat overstated — after all, we did all shelter
+in place for a few months, completely suspending our normal lives, even if
+later some fraction of us refused to wear masks — but might there not be some
+hesitation to accept a testing regime like that? Because the testing regime
+you’re describing, as a way of dealing with future pandemics, would seem to
+require preemptive testing, effectively surveillance testing?**  
+I’m not sure you’d see that much resistance to the idea of taking a swab and
+putting it up the tip of your nose and putting it into a plastic bag. It’s
+different than a vaccine, where that’s a needle going into your arm. If you’re
+potentially going to kill your grandmother, I hope you’re willing to give us a
+little snot just on behalf of your grandma. So, no, I think that would be
+okay. Already, if you’re an NBA player, I think you have to give snot on a
+regular basis.
+
+**And with some of these $1 tests, it wouldn’t even necessarily be that
+expensive.**  
+Yeah. Well, the strip test can be made very inexpensively, but because they’re
+in short supply, they’re being sold more like $5 to $10. Those tests don’t
+have the same accuracy, though. So when you want to get to super-low cost, do
+you do it by super-scaling up the molecular central-lab approach? Or do you go
+with a lateral-flow nitrocellulose strip test, like a pregnancy test? Both
+paths we’re funding. We have work at Flextronics on taking the strip test down
+to more like a 30-to-40-cent marginal cost of production.
+
+**You were talking about being ready for the next pandemic. I’m curious how
+you think about the next phase of this one. The University of Washington’s
+Institute for Health Metrics and Evaluation, which you’re involved with, put
+out this much-talked-about projection a few days ago suggesting that 400,000
+Americans could die by the end of the year. And a lot of that is built on the
+expected seasonality effect, whereby the disease gets worse in the fall after
+having gotten a little bit lighter in the spring and summer. But the infection
+fatality rate has also been steadily falling and is, especially for younger
+people, much, much lower than it was early in the epidemic. So I’m curious how
+you see both of these forces coming together between now and the arrival of a
+vaccine or vaccines? Is it the case that the infection fatality rate is
+falling quickly enough that this disease is becoming less concerning than it
+was in the spring? Or are we really dealing with the same disease and we’ll be
+faced with a quite grim fall because of the seasonality effect? Or somewhere
+in between?** Well, IHME — if you take all the modelers’ views of the fall,
+IHME would be on the pessimistic side. There are some people who are more
+optimistic than they are. I don’t think anybody knows exactly what’s right.
+This is very complex stuff. As you say, the IHME and many modelers see a
+strong seasonal effect. And that’s what drives their projection of the daily
+death rate. In November, it’s at a thousand a day, and it gets up over 2,000.
+
+**That’s 2,000 per day — so considerably worse than we have now, and nearly as
+bad as the very worst of the epidemic in the spring.**  
+They show quite a bleak fall. I hope that’s wrong, but that is serious science
+that has been done there, even though the confidence intervals are absolutely
+gigantic. So the good news is maybe they’re wrong. The other good news is
+maybe medical interventions come along.
+
+**How do you assess that progress?**  
+It’s really mind blowing that the only truly proven drug intervention is
+dexamethazone — the U.K. study we funded is what came up with that. We don’t
+have good news on plasma. The Remdesivir looks like a pretty minor effect. The
+other antivirals, they’re moving along. The one that is a wild card here is
+monoclonal antibodies. That could be a very dramatic effect. And there’s Eli
+Lilly, AstraZeneca, Regeneron; all within the next two months will have data
+for us about monoclonal antibodies.
+
+The foundation, we’ve reserved a lot of the factory capacity for monoclonal
+antibodies to be able to make them for underdeveloping countries in case it
+works. And for it to work for us, it has to be a pretty modest dose that you
+don’t need multi-day IV infusion. We need to be able to do a single shot in
+early disease.
+
+Of course, time is always on your side, in that if you get a really bad
+epidemic, then you get a lot of natural immunity with unknown duration.
+
+**How worried are you about short-lived immunity?**  
+Almost certainly it’s in the multi-year timeframe for most people.
+
+The medical interventions are what I’m mostly focused on and making sure that
+those are available to the entire world. We’re partners with AstraZeneca,
+Novavax, Sanofi, and Johnson & Johnson to get them to allow the manufacture of
+their vaccines in the world’s highest-volume vaccine factories, which are in
+India, controlled by Serum, Bio E, and Bharat. And that’s never been done
+before where you invent a vaccine by company A but most of the volume gets
+actually produced by company B. But in this case, it’s the only way, since the
+demand will be very, very high. And as our report says, if you misallocate, if
+you just allocate based on wealth, using the forecast that things are going to
+stay pretty bad, you get twice as many deaths as if you go out to health
+workers first.
+
+**To me, the vaccine development is one of the silver linings of all of this:
+we’ve invented almost on the fly a method by which we can actually get these
+things going quite quickly. As a result, we’ve come up with some new model
+approaches to building a vaccine. So that’ll presumably benefit us down the
+line with future diseases. But for the time being, I’m curious whether you are
+worried about the rollout of these vaccines both in the U.S. and abroad? How
+it will be administered and to whom is very much an open question.**  
+Well, we won’t use a pure merit-based allocation. The U.S. has funded the R&D
+and trials of these vaccines. It put out more money than everybody else put
+together. That’s nothing to do with this administration. The U.S. always took
+these issues more seriously, probably because we had the CDC. We have the
+scale with NIH and CDC to think about these things. And so the U.S. put out
+over $10 billion in R&D and funding of trials — that is a global benefit.
+There’s no royalty or restriction. But the only manufacturing that the U.S.
+has funded to date is for the United States. And so that makes us look kind of
+selfish. If we would just put in this extra $8 billion, $4 billion to help buy
+vaccines, $4 billion for therapeutics — I’m calling everybody in Congress who
+will listen to me and saying, if there is a supplemental bill or whatever the
+next bill is, give $4 billion to our vaccine alliance Gavi, give $4 billion to
+our Global Fund, so that you complement your R&D with the current money.
+
+We don’t want to create a dilemma for the world where you have, say, vaccines
+that haven’t gone through the FDA that are being made available for free, and
+the ones that have gone through the FDA, there’s no procurement money for
+those vaccines. You don’t want to force the world to make that choice, because
+anything where a vaccine doesn’t work, or has a side effect, worsens people’s
+willingness to take vaccines in general. And the reason we’ve gone from having
+over 10 million kids a year die every year down to less than 5 million, that’s
+because of uptake of vaccines and new vaccines. So that is worth preserving.
+
+**So how quickly do you think we will be able to roll out the vaccines,
+globally and equitably? Are we talking about something that’s going to take
+all of 2021? Will it stretch into 2022?**  
+It’ll stretch. Unless you get herd immunity at really surprising levels, like
+20 or 30 percent, you’ve got 7 billion people, each of them needing two doses
+each — a few of the vaccines might be one dose, but most of these early ones
+look like two doses. So that’s 14 billion doses to administer. We don’t make
+anything at that volume. So even if 80 percent of all the vaccines get
+approved and we get all this capacity, to get the eradication it stretches
+into 2022. You hope it doesn’t stretch past 2022.
+
+**That’s a long time. It’s also globally. What about more locally?**  
+We should be able to bring this to an end, in rich countries, in 2021. Then in
+the world in 2022.
+
+### Sign Up for the Intelligencer Newsletter
+
+Daily news about the politics, business, and technology shaping our world.
+
+Vox Media, LLC Terms and Privacy Notice
+
+By submitting your email, you agree to our
+[Terms](https://nymag.com/newyork/terms/) and [Privacy
+Notice](https://nymag.com/newyork/privacy/) and to receive email
+correspondence from us.

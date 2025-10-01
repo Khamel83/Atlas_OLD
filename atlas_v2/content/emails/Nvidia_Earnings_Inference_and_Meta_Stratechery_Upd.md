@@ -1,0 +1,118 @@
+# Nvidia Earnings, Inference and Meta (Stratechery Update 2-27-2024)
+
+**Source**: inputs/saved_emails/Nvidia Earnings, Inference and Meta (Stratechery Update 2-27-2024)_Tue,_27_Feb_2024_12-30-42_+0000_18dea8bce52f6592.eml
+**Type**: email
+**Created**: 2025-08-27T03:02:24.117675
+
+---
+
+Nvidia's earnings were about unlimited demand and insufficient supply; the big question is what is happening with inference, and the answer might be Meta
+
+View in browser ( https://stratechery.com/2024/nvidia-earnings-inference-and-meta/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L252aWRpYS1lYXJuaW5ncy1pbmZlcmVuY2UtYW5kLW1ldGEvIl19LCJleHAiOjE3MTE2MjkwNDIsImlhdCI6MTcwOTAzNzA0MiwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.r-gRIP0vQi_xgZ8fM3bUVhvaTz3_noCiV7CKVGWgdS2Z2-zRMbeikPrC6M06xHWUmNeUQXNxMozrBTLPH1j-oNyWoizXBuJBr3dSC7SGB6PwE1HPTj0RuaT7hRIKZ4jrPBimDM6_TmGgQDcqNaL9UIAbL2SOrKRboyQXGl66tvPcnWmP6o6VD7kf-sDL1XqPIkNz2ZsMWl_Y77plQeNraenjZhQuwflwMEkrZ3pC0wl3YauCXUDEbVOFu_FjkaJybbUR6jSffv_MevRz4DtkVq75Xm-upd4PorE7mSbBGy5e6O_qLKuSSDW4QXHZQJc_yB3JEYT6ugf1HNf_yewtQw )
+
+( https://stratechery.com )
+
+Nvidia Earnings, Inference and Meta
+
+( https://stratechery.com/2024/nvidia-earnings-inference-and-meta/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L252aWRpYS1lYXJuaW5ncy1pbmZlcmVuY2UtYW5kLW1ldGEvIl19LCJleHAiOjE3MTE2MjkwNDIsImlhdCI6MTcwOTAzNzA0MiwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.r-gRIP0vQi_xgZ8fM3bUVhvaTz3_noCiV7CKVGWgdS2Z2-zRMbeikPrC6M06xHWUmNeUQXNxMozrBTLPH1j-oNyWoizXBuJBr3dSC7SGB6PwE1HPTj0RuaT7hRIKZ4jrPBimDM6_TmGgQDcqNaL9UIAbL2SOrKRboyQXGl66tvPcnWmP6o6VD7kf-sDL1XqPIkNz2ZsMWl_Y77plQeNraenjZhQuwflwMEkrZ3pC0wl3YauCXUDEbVOFu_FjkaJybbUR6jSffv_MevRz4DtkVq75Xm-upd4PorE7mSbBGy5e6O_qLKuSSDW4QXHZQJc_yB3JEYT6ugf1HNf_yewtQw ) Tuesday, February 27, 2024
+
+Listen to this Update in your podcast player ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Good morning,
+
+I mentioned earlier this month ( https://stratechery.com/2024/meta-earnings-meta-ai-and-att-metas-new-playbook/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L21ldGEtZWFybmluZ3MtbWV0YS1haS1hbmQtYXR0LW1ldGFzLW5ldy1wbGF5Ym9vay8iXX0sImV4cCI6MTcxMTYyOTA0MiwiaWF0IjoxNzA5MDM3MDQyLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.nE3kUilB4lUDTM5yaRn7wT_Cep4jfb_mDA8gCWyTUe_ns9lLEmrjqcb2VzVfJtNkv3WJVStshoJ7isDbzLvMmGPo0rXirqnKcsTkigcsAyhLXD3jI_KrTqJpWP3xFyFN4d7OSE3KIaU7KtoGWGioyo52rlieU1GpXLYDj_Uivu2MNvw9a9n5qmJW5NyPMdBG1aRuVE3DyCZKQ9nqr2z7wR5XW79PNY0URhyIFn96Uqjch7-T5qlF0kBc5aTJmY3g7GHD0AOt7ufl_jwoikRR_mZ-p9cZ-5dyOTjGRDg38J1hed7TqOe50zljIApDVouFb1Cq9s088QGkWuNkIlZHyg ) that Stratechery Plus would be raising prices at the end of the month; in a somewhat embarrassing oversight, I forgot that Stratechery’s previous price raise happened on another platform, and we actually need to add that feature to Passport. The plan is still on, but it will be delayed a bit. My apologies for the false delayed alarm.
+
+On to the update:
+
+Nvidia Earnings
+---------------
+
+From the Wall Street Journal ( https://www.wsj.com/business/earnings/nvidia-nvda-q4-earnings-report-2024-cc7c257d ) :
+
+Nvidia’s fourth-quarter results showed that massive spending to build artificial intelligence systems remains strong as the chip maker scrambles to meet demand. Chief Executive Jensen Huang described AI as hitting “the tipping point” and indicated demand for the computing power that underlies AI remained astronomical. “Demand is surging worldwide across companies, industries and nations,” he said. That demand showed up in the company’s results Wednesday. Sales more than tripled in the company’s fiscal fourth quarter from a year earlier and are projected to do so again in the current period. Earnings surged more than eightfold. The results exceeded analyst expectations.
+
+I enjoyed all of the various memes and tweets in the run-up to Nvidia’s earnings joking about the U.S. economy resting on the company’s results, but I was actually surprised they were perceived as such a big deal. The reason comes down to this Huang answer on Nvidia’s earnings call ( https://seekingalpha.com/article/4672199-nvidia-corporation-nvda-q4-2024-earnings-call-transcript ) about supply:
+
+The supply chain is really doing fantastic supporting us. And so overall, the supply is improving. We expect the demand will continue to be stronger than our supply provides through the year and we’ll do our best. The cycle times are improving and we’re going to continue to do our best. However, whenever we have new products, as you know, it ramps from zero to a very large number. And you can’t do that overnight. Everything is ramped up. It doesn’t step up.
+
+And so whenever we have a new generation of products — right now, we are ramping H200’s. There is no way we can reasonably keep up on demand in the short term as we ramp. We’re ramping Spectrum-X. We’re doing incredibly well with Spectrum-X. It’s our brand-new product into the world of ethernet. InfiniBand is the standard for AI-dedicated systems…with all of the new products, demand is greater than supply. And that’s just kind of the nature of new products and so we work as fast as we can to capture the demand. But overall, overall net-net, overall, our supply is increasing very nicely.
+
+Here’s the key point: if Nvidia demand exceeds supply than the company’s sales are, in some respect, controlled by Nvidia’s suppliers, from TSMC on down. Now that’s not completely true, because Nvidia can raise its prices, and it appears they did just that: the company achieved its highest gross margins ever, and forecasted the same thing this quarter. That, though, only accentuates the fact that the company is supply-constrained in a world of astronomical demand.
+
+Moreover, that pricing power should persist: the company is forecasting slightly lower margins later in the year, but that is in the context of ramping the upcoming B100, which will have significantly higher component costs, both in terms of the chip itself ( which will be made on TSMC’s 3nm process ( https://wccftech.com/nvidia-b100-blackwell-gpus-made-on-tsmc-3nm-process-launching-in-q4-2024/ ) ) and in terms of increased amounts of high-bandwidth memory. Only slightly lower margins, even during a ramp, almost certainly means the B100 is going to be a fair bit more expensive than its predecessors.
+
+I suppose, if you want to be generous to investors, there remains nervousness about the market size for AI applications, but I think it is far too early to be worried about that; if anything, the market is still so immature, and the search for product-market fit so fierce, that nearly every buyer is fairly price-insensitive. Indeed, you could make the case that Nvidia hasn’t actually raised prices enough.
+
+Inference and Meta
+------------------
+
+CFO Colette Kress dropped an important new data point in her prepared remarks:
+
+Fourth quarter data center growth was driven by both training and inference of generative AI and large language models across a broad set of industries, use cases and regions. The versatility and leading performance of our data center platform enables a high return on investment for many use cases, including AI training and inference, data processing and a broad range of CUDA accelerated workloads. We estimate in the past year approximately 40% of data center revenue was for AI inference.
+
+To quickly review, there are two parts to generating AI models: the first part is training, and here Nvidia reigns supreme, both in terms of its system architecture and the CUDA software layer. This is also the part of the market that is probably the most price insensitive right now as companies race to build new models or fine-tune existing models for new software applications.
+
+The second part is inference: actually servicing end users accessing a trained model, and Huang expanded on the inference use cases while answering a question about that 40% number:
+
+I’ll go backwards. The estimate is probably understated, but we estimated it. And let me tell you why…when you run the internet, the news, the videos, the music, the products that are being recommended to you because as you know, the internet has trillions — I don’t know how many trillions, but trillions of things out there — and your phone is 3-inches square, so the ability for them to fit all of that information down to something, such a small real estate, is through a system, an amazing system called recommender systems.
+
+These recommender systems used to be all based on CPU approaches. But the recent migration to deep learning and now generative AI has really put these recommender systems now directly into the path of GPU acceleration. It needs GPU acceleration for the embeddings. It needs GPU acceleration for the nearest neighbor search. It needs GPU acceleration for the re-ranking and it needs GPU acceleration to generate the augmented information for you.
+
+So GPUs are in every single step of a recommender system now. And as you know, recommender system is the single largest software engine on the planet. Almost every major company in the world has to run these large recommender systems. Whenever you use ChatGPT, it’s being inferenced. Whenever you hear about Midjourney and just the number of things that they’re generating for consumers, when you when you see Getty, the work that we do with Getty and Firefly from Adobe. These are all generative models. The list goes on. And none of these, as I mentioned, existed a year ago, 100% new.
+
+So that’s a little convoluted, which is a shame because it’s really important to understand what Huang meant; the following is my best shot.
+
+To also back up a bit, the primary use case for inference that jumps into mind is things like generating images in Midjourney or answers in ChatGPT. The size of this market is really important because while there is massive demand for training to figure out use cases for AI, it is the size of the inference market that is indicative of how much AI is actually being used — i.e. how many AI products have product-market fit.
+
+Notice, though, that while Huang ended with generative AI, he started with recommender systems. On one hand, to the extent that GPUs are being used in recommender systems — which, as Huang noted, have traditionally been built on CPUs — that is bullish for Nvidia because it speaks to Huang’s thesis that GPU demand isn’t driven just by generative AI but also by rewriting CPU workloads to run on GPUs. On the other hand, as Huang also notes, recommender systems obviously already have product-market fit: they are the key to navigating the abundance of the Internet. If that is most of the inference market than the generative AI use cases maybe haven’t fully landed yet.
+
+The company that I think is interesting in this regard is Meta. Go back to the stock price nadir in October 2022, when I wrote Meta Myths ( https://stratechery.com/2022/meta-myths/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIyL21ldGEtbXl0aHMvIl19LCJleHAiOjE3MTE2MjkwNDIsImlhdCI6MTcwOTAzNzA0MiwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.Cf1vkJP3b4HDRQ_IEv4Gp0TnNtr_6K5UbYp1PhVnOjg-VE7hPxqRnEmVeEfzT_Q3W9CNKrDietWkrcDZpqrKmSvBAJ__JluJif8Mu5xa7Y-029n0Qhc-4rGqIe-_PuVoE1NL80LoTNk3LypBZPl1VlGB0ZFEA_ZnKsc_0qb0WWw-7W1zOPoKH_p6hKL9xsA5WIn7GRPPXNHhcux7QeZTdzOQtI-AAPv0xev-krrJQ39bPDUyI3kBQu55YQc9OB7anFJK5-9N7l-dtok1JhMyCgMg_K1GI34Rzct5rqZoTREoRMtaG-L63eDUDfi0_r9LKB7XiInsMHYi5zVSD3efqQ ) ; the driver of the decline at that time was actually not Reality Labs — that was already priced in — but rather Meta’s announcement that they would be massively ramping their capital expenditures for Family of Apps. I defended this in “Myth 5: Meta’s Spending is a Waste”:
+
+What also has investors spooked, though, is Facebook’s increasing capital expenditures, which have nothing to do with the Metaverse (Metaverse spending is almost all research and development). Meta expects to spend $32-$33 billion in capital expenditures in 2022, and $34-$39 billion in 2023; that won’t hit the income statement right way (capital expenditures show up as depreciation in cost of revenue), but that just means that longer-term profitability may be increasingly impaired. Facebook’s gross margins were down to 79% last quarter, its lowest mark since 2013, and if revenue growth doesn’t pick back up then those margins will fall further, given that the costs are already built in.
+
+The problem with this line of reasoning is that Meta’s capital expenditures are directly focused on both of the two main reasons for alarm: TikTok and ATT. That is because the answer to both challenges is more AI, and building up AI capacity requires a lot of capital investment.
+
+Start with the second point: Wehner said in his prepared remarks:
+
+We are significantly expanding our AI capacity. These investments are driving substantially all of our capital expenditure growth in 2023. There is some increased capital intensity that comes with moving more of our infrastructure to AI. It requires more expensive servers and networking equipment, and we are building new data centers specifically equipped to support next generation AI-hardware. We expect these investments to provide us a technology advantage and unlock meaningful improvements across many of our key initiatives, including Feed, Reels and ads. We are carefully evaluating the return we achieve from these investments, which will inform the scale of our AI investment beyond 2023.
+
+Meta has huge data centers, but those data centers are primarily about CPU compute, which is what is needed to power Meta’s services. CPU compute is also what was necessary to drive Meta’s deterministic ad model, and the algorithms it used to recommend content from your network.
+
+The long-term solution to ATT, though, is to build probabilistic models that not only figure out who should be targeted (which, to be fair, Meta was already using machine learning for), but also understanding which ads converted and which didn’t. These probabilistic models will be built by massive fleets of GPUs, which, in the case of Nvidia’s A100 cards, cost in the five figures; that may have been too pricey in a world where deterministic ads worked better anyways, but Meta isn’t in that world any longer, and it would be foolish to not invest in better targeting and measurement.
+
+Moreover, the same approach will be essential to Reels’ continued growth: it is massively more difficult to recommend content from across the entire network than only from your friends and family, particularly because Meta plans to recommend not just video but also media of all types, and intersperse it with content you care about. Here too AI models will be the key, and the equipment to build those models costs a lot of money.
+
+Now fast forward to Meta’s earnings earlier this month ( https://stratechery.com/2024/meta-earnings-meta-ai-and-att-metas-new-playbook/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L21ldGEtZWFybmluZ3MtbWV0YS1haS1hbmQtYXR0LW1ldGFzLW5ldy1wbGF5Ym9vay8iXX0sImV4cCI6MTcxMTYyOTA0MiwiaWF0IjoxNzA5MDM3MDQyLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.nE3kUilB4lUDTM5yaRn7wT_Cep4jfb_mDA8gCWyTUe_ns9lLEmrjqcb2VzVfJtNkv3WJVStshoJ7isDbzLvMmGPo0rXirqnKcsTkigcsAyhLXD3jI_KrTqJpWP3xFyFN4d7OSE3KIaU7KtoGWGioyo52rlieU1GpXLYDj_Uivu2MNvw9a9n5qmJW5NyPMdBG1aRuVE3DyCZKQ9nqr2z7wR5XW79PNY0URhyIFn96Uqjch7-T5qlF0kBc5aTJmY3g7GHD0AOt7ufl_jwoikRR_mZ-p9cZ-5dyOTjGRDg38J1hed7TqOe50zljIApDVouFb1Cq9s088QGkWuNkIlZHyg ) ; from CEO Mark Zuckerberg’s prepared remarks ( https://s21.q4cdn.com/399680738/files/doc_financials/2023/q4/META-Q4-2023-Earnings-Call-Transcript.pdf ) :
+
+I recently shared that by the end of this year we’ll have about 350k H100s and including other GPUs that’ll be around 600k H100 equivalents of compute. We’re well-positioned now because of the lessons that we learned from Reels. We initially under-built our GPU clusters for Reels, and when we were going through that I decided that we should build enough capacity to support both Reels and another Reels-sized AI service that we expected to emerge so we wouldn’t be in that situation again. And at the time the decision was somewhat controversial and we faced a lot of questions about capex spending, but I’m really glad that we did this.
+
+The part that people forget about Meta’s nadir is that Nvidia hit a nadir at the same time ( https://stratechery.com/2022/nvidia-in-the-valley/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIyL252aWRpYS1pbi10aGUtdmFsbGV5LyJdfSwiZXhwIjoxNzExNjI5MDQyLCJpYXQiOjE3MDkwMzcwNDIsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.bhefLijyHj0MTRYHXxMb3aPIZC1uslVDGrS2ErimmcuKXTQnmJkmNBFsfGRfZWYai2if3DV9Ky-v2sPwGSsG_Hvn0zRODWL3v3GtqxcRhG2oK_5qss0HIdHvgW6Qxl3oWsMb6Fg7cudgH6dUr5Ivwo77-imkgEH9brkKUX_DR2JVywpl640sd5OqT0CUOIB42QGxKoRq8wUppzU1yMVICIwvFf1O9sDghvLnHnB-KXxPHy-RC41sU7Sqz9ILTk61AcQmzs4cSZrRGfZOeHDoixbeXpNSQaLTYOjervSijYPD2rlJvvWbxXJmpJHUpPmu-RaJHfcK_2EQW74R-LLoEQ ) , to the extent that they were not only writing off inventory, but even writing off future purchase orders! What seems likely in retrospect is that Meta swooped in and secured a massive amount of Nvidia’s order flow for 2023, just weeks before the ChatGPT moment in November 2022 drove Nvidia demand through the roof.
+
+If this is correct — and the timing certainly matches up, along with Meta’s reported capacity — then (1) this is an all-time great call by Zuckerberg in the face of an absolute beating by the stock market and (2) that explains why (a) so much of Nvidia’s sales went to inference and (b) why a lot of that inference was recommender systems, not necessarily generative AI.
+
+That noted, Meta has built their own inference chip ( https://ai.meta.com/blog/meta-training-inference-accelerator-AI-MTIA/ ) ; Zuckerberg clearly stated that GPUs are used for Reels recommendations, but I’m speculating when it comes to ads. On the other hand, Meta (and Google) are rolling out generative AI for ads, and that will clearly happen on GPUs.
+
+More broadly, to repeat what I said above, one of Huang’s core theses is that GPUs will replace CPUs, and to the extent Meta has done just that is good news for Nvidia in the long run, even if the implication of this speculation being true is that the generative AI inference market may not be quite as big as that 40% number suggests.
+
+This Update will be available as a podcast later today. To receive it in your podcast player, visit Stratechery ( https://stratechery.passport.online/member ).
+
+The Stratechery Update is intended for a single recipient, but occasional forwarding is totally fine! If you would like to order multiple subscriptions for your team with a group discount (minimum 5), please contact me directly.
+
+Thanks for being a subscriber, and have a great day!
+
+Listen to this update and other Stratechery Plus content in your podcast player: Stratechery ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp Tech ( https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Dithering ( https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp China ( https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Greatest Of All Talk ( https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Subscription Information
+
+Member: Omar Zoheri
+Email: stratecheryUSC@khamel.com
+Member since: April 23, 2022
+Your subscription renews every year
+Renewal date: December 8, 2024
+
+You are receiving this email because you are subscribed to Stratechery ( https://www.stratechery.com ).
+
+Click here ( https://stratechery.passport.online/member/login?email=stratecheryUSC%40khamel.com ) to view your account and manage your subscriptions.
+Click here ( https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FRseuYE8jgHePpWJf1fAb4C%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1JzZXVZRThqZ0hlUHBXSmYxZkFiNEMvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcxMTYyOTA0MiwiaWF0IjoxNzA5MDM3MDQyLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.uQAtqbiT74_MHrUe6NFFeiYFC8uEUmyRMS_Kd_GHXCvSljLf0ad-SIiO0gA-2af2Px2FzuJMFlhw0k9ammhu4vith-PQMmnppXP77pmmsjOHg8BsBlpxkiosofatT-50pdAXjL62sY3ZYxTbOyw1kfV6Uef1pMbuKxLy8ukhY9KCvQMkyBatSTBSLXG-ql-hLEGjP3uLw7vytFnhqnwOlqySYpSujNNhF64wNj9Btz-K_lftpnooY-0Pc0wj0mIZHnW4iAxyQR6ftYZP9rtko4SZ9wkMySxGqoeiR4qpZOu6egQIbSQ5T79jVbB5E67RtRnasGxV6MdJP7MUc3aotQ%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe ) to unsubscribe.
+
+© 2024 Stratechery LLC ( https://www.stratechery.com ) , 2093 Philadelphia Pike #9930, Claymont DE 19703

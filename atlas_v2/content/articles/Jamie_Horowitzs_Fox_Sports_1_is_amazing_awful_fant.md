@@ -1,0 +1,627 @@
+# Jamie Horowitz’s Fox Sports 1 is amazing, awful, fantastic, execrable.
+
+**Source**: http://www.slate.com/articles/sports/cover_story/2017/03/jamie_horowitz_s_fox_sports_1_is_amazing_awful_fantastic_execrable.html
+**Type**: article
+**Created**: 2025-08-13T17:25:59.006475
+
+---
+
+title: Jamie Horowitz’s Fox Sports 1 is amazing, awful, fantastic, execrable.
+source: http://www.slate.com/articles/sports/cover_story/2017/03/jamie_horowitz_s_fox_sports_1_is_amazing_awful_fantastic_execrable.html
+date: 2025-08-13T17:25:56.881807
+tags: []
+---
+![Jason Whitlock, Colin Cowherd, Shannon Sharpe, Skip
+Bayless,](/content/dam/slate/articles/sports/sports_nut/2017/03/fox_sports/170326_SNUT_Fox-
+Sports.jpg.CROP.promovar-mediumlarge.jpg) From left, Jason Whitlock, Colin
+Cowherd, Shannon Sharpe, Skip Bayless,
+
+Photo illustration by **_Slate_**. Photos by Fox Sports, Tommaso Boddi/Getty
+Images for Alliance for Women in Media, Joe Robbins/Getty Images, and Vince
+Bucci/Fox Sports.
+
+News Corp.’s first stab at creating a national sports TV network did not go
+well. Fox Sports 1 launched in August 2013 with the stated goal of serving as
+[the “fun”
+alternative](https://www.bloomberg.com/news/articles/2013-07-18/fox-
+sports-1s-strategy-vs-dot-espn-jockularity) to industry-leading ESPN. At a
+time when the self-proclaimed Worldwide Leader of Sports barely acknowledged
+the existence of viral videos, FS1’s flagship _Fox Sports Live_ highlight
+show—helmed by a pair of genial, bantering Canadians hired away from TSN’s
+_SportsCentre_ —regularly broadcast wacky material that originated online. The
+network also added progressive producers interested in covering social issues
+like homophobia and racism and showcased the talents of blogger and YouTube
+personality Katie Nolan, who broke out with [a 2014
+commentary](https://www.youtube.com/watch?v=HaHIzIXrS0w&feature=youtu.be) that
+linked the NFL’s botched handling of the Ray Rice domestic violence case to
+the second-class status of women in sports.
+
+In Fox Sports 1’s first 21 months on the air, its programming choices went
+over about as well as a 22-year-old trying to explain dank memes and white
+privilege to his Republican uncle at Thanksgiving. On April 23, 2015, more
+than 600,000 people watched the early evening edition of _SportsCenter_ on
+ESPN while [just 19,000](https://sportstvratings.com/pelicans-warriors-cavs-
+celtics-lead-cable-sports-nets-for-thursday-april-23-2015/2170/ "ç»æ¨ë¿µÄ´")
+tuned into the highest-rated airing of _Fox Sports Live_. That same day, 21st
+Century Fox—News Corp. restructured itself in 2013 after announcing the
+creation of Fox Sports 1—killed the “fun” version of FS1 and hired Jamie
+Horowitz.*
+
+Depending on your perspective, the 40-year-old Horowitz is either the guy who
+ruined sports television, a genius broadcasting executive, or the genius
+broadcasting executive who ruined sports television. As a higher-up at ESPN,
+Horowitz was notorious for producing shows such as _First Take_ —tagline:
+“embrace debate”—on which voluble men aired retrograde opinions on subjects
+related to race and gender. When he signed on as president of Fox Sports
+National Networks, Horowitz immediately announced his intention to model Fox
+Sports 1 after a certain divisive corporate sibling. “There is proof in the
+pudding of what’s happening at Fox News,” [he told an audience at Williams
+College](http://www.berkshireeagle.com/stories/new-fox-sports-head-jamie-
+horowitz-speaks-at-williams-college,326560). “If you put compelling studio
+programming on, with people saying interesting and informative things, people
+find it.”
+
+This was not a one-off comparison. Horowitz later played up the Fox News
+analogy in interviews with the [_Hollywood
+Reporter_](http://www.hollywoodreporter.com/news/fox-sports-exec-likens-
+his-918144) and the [_Wall Street Journal_](https://www.wsj.com/articles/fox-
+sports-1-attempts-makeover-of-its-talk-shows-1460576052), telling the former
+that 21st Century Fox honcho Rupert Murdoch instructed him, “Be wary of the
+allure of the elite.” Horowitz said he took that as a reminder that “you are
+serving sports fans. Don’t produce shows because you want a nice article
+written or you want somebody to say something nice.”
+
+What sports fans wanted to see, in Horowitz’s view, were loudmouthed veterans
+of those debate-embracing ESPN opinion programs. Horowitz hired Colin Cowherd,
+whose ESPN tenure ended soon after he argued that baseball [couldn’t really be
+a “thinking man’s game” if graduates of the Dominican Republic’s school system
+were good at playing it](https://www.washingtonpost.com/news/early-
+lead/wp/2015/07/24/espns-colin-cowherd-blasted-for-remarks-about-dominican-
+players/?utm_term=.118261986df2). He also hired Skip Bayless, who was accused
+of race-baiting by [just about every publication that covers
+sports](https://www.google.com/webhp?sourceid=chrome-
+instant&ion=1&espv=2&ie=UTF-8#q=skip+bayless+race-baiting&*) during his tenure
+on the Horowitz-produced _First Take_. (Bayless’ ESPN exit was [celebrated
+publicly by several of his former
+colleagues](http://www.huffingtonpost.com/entry/skip-bayless-espn-colleagues-
+cold-parting-words_us_576949e8e4b0fbbc8bebaa58).) And he signed Jason
+Whitlock, a paranoid contrarian from the black-teenagers-should-pull-up-their-
+pants school of civil rights discourse who also believes, for some reason,
+that [the American media is controlled by Chinese
+Communists](http://deadspin.com/wed-love-to-hear-more-of-jason-whitlocks-
+ideas-about-co-1783848700). During the first year of Horowitz’s tenure, FS1
+also laid off most of its news and feature reporters. His intention, it
+seemed, was to engineer a machine that belched out hot takes and nothing else.
+
+![Jamie
+Horowitz](/content/dam/slate/articles/sports/sports_nut/2017/03/fox_sports/170326_SNUT_Fox-
+Sports-Jamie-Horowitz.jpg.CROP.promo-xlarge2.jpg) Jamie Horowitz, the
+president of Fox Sports National Networks, at his office in Los Angeles on May
+4.
+
+Jake Michaels/_New York Times_ /Redux
+
+I started keeping tabs on FS1 when Cowherd and Whitlock’s daily debate show,
+_Speak for Yourself_ , began airing in June; Bayless’ _Undisputed_ came on the
+air three months later. I thought I would be documenting the rise of a right-
+wing competitor to ESPN, a network that would try to capitalize on the growing
+belief in conservative circles that [the Worldwide Leader is promoting a
+liberal agenda](https://heatst.com/culture-wars/is-espns-liberal-political-
+agenda-contributing-to-its-serious-viewer-slump/). This would be the sports
+equivalent of Fox News’ 1996 debut under the direction of Republican operative
+Roger Ailes—a venture designed to stoke the most hostile and ungenerous
+impulses of sports fans in the way that Ailes’ operation played to the fears
+and suspicions of news junkies.
+
+That’s not quite what happened. Two years into Jamie Horowitz’s tenure, his
+cable sports network is just as likely to air a bombastically left-wing
+opinion as a bombastically conservative one. And while it was a relief, on one
+level, to discover that Horowitz and Ailes are not fellow travelers, I’m not
+sure that what I did find on FS1 should make anyone feel particularly
+optimistic about the future of sports TV or human civilization.
+
+On Horowitz’s FS1, men wearing suits sit at sleek desks and disagree with one
+another for six-and-a-half hours each day. That’s a lot of daily airtime to
+fill, and by necessity a great deal of it is occupied by the chewing over of
+ephemeral sports mundanity. “Watching that game just made me sick,” [Bayless
+said](https://twitter.com/undisputed/status/844279543162535936) last week on
+his show, _Undisputed_. He was discussing a regular-season contest in which
+the Golden State Warriors beat the Oklahoma City Thunder, and in doing so
+demonstrated his highly developed ability to have the strongest possible
+reaction to the mildest of stimuli. Bayless also commented on [the Dallas
+Cowboys’ quarterback
+situation](https://twitter.com/undisputed/status/843832315818123265),
+declaring his belief that owner Jerry Jones will give veteran Tony Romo a
+chance to win his old job back from young upstart Dak Prescott. For Fox Sports
+1, ESPN, and everywhere else sports yakkers congregate, quarterback
+controversies are the stuff of life. Bayless’ colleague Cowherd has taken [at
+least six different positions since
+November](http://thecomeback.com/freezingcoldtakes/nfl/colin-cowherd-has-been-
+all-over-the-place-about-jimmy-garoppolo-and-tom-
+brady.html?utm_source=dlvr.it&utm_medium=twitter), for instance, about whether
+the Patriots should trade Tom Brady’s backup Jimmy Garoppolo.
+
+Former 49ers quarterback and erstwhile national anthem–kneeler Colin
+Kaepernick was also back in the news after a [_Bleacher Report_
+article](http://bleacherreport.com/articles/2698098-colin-kaepernick-
+sentenced-to-nfl-limbo-for-the-crime-of-speaking-his-mind) alleged that some
+teams are afraid of signing Kaepernick because they are worried about Donald
+Trump whipping up a backlash via Twitter. (Trump subsequently cited the
+article, proudly, at a rally in Louisville, Kentucky.) On _Speak for Yourself_
+, Whitlock responded by mocking Kaepernick in a tirade that involved the movie
+_Get Out_ and Whitlock-as-Kaepernick saying the words, “Mistah white folks, I
+won’t take a knee no mo’.” It was weird:
+
+“Far-left ideology,” Whitlock opines, has left Kaepernick—like “most black
+men”—“unemployed, on a knee, and trying to prove their blackness through
+stunts.” He asserts that Kaepernick’s interest in civil rights is
+overcompensation for having been raised by two adoptive white parents (!)
+before concluding with this advice, directed to the quarterback: “Hire a
+therapist to make you feel black.” (!!)
+
+As Whitlock’s embarrassing monologue showed, Horowitz’s Fox Sports 1 sometimes
+serves as a megaphone for the most outlandish possible opinions, with little
+regard for reason, coherence, or fairness.
+
+Kaepernick and Whitlock are a particularly gruesome combination. Consider the
+_Speak for Yourself_ host’s Jan. 25 comparison of Kaepernick’s protest and
+Brady’s pre–Super Bowl refusal to discuss his relationship with Trump. “To me,
+[Tom Brady] is the anti–Colin Kaepernick,” Whitlock said. “He’s making a
+statement. In the right way, in my opinion. It ain’t about taking a knee; it
+ain’t about doing stuff for social media. He’s standing by his friend.”
+
+In addition to being racially and politically provocative, this take is also
+total garbage, even if you accept the quasi-logic that “standing by [one’s]
+friend” is the opposite of “doing stuff for social media.” Kaepernick, after
+his protest became national news, defended his views in conversations with
+[reporters](http://www.slate.com/blogs/the_slatest/2016/08/29/the_reasons_why_colin_kaepernick_shouldn_t_stand_during_the_national_anthem.html),
+his teammates (who [voted after the season to give him an
+award](http://profootballtalk.nbcsports.com/2016/12/30/colin-kaepernick-wins-
+prestigious-award-voted-on-by-teammates/)), and [even a former football player
+and Green Beret who’d criticized him
+publicly](http://www.espn.com/nfl/story/_/id/17433156/veteran-ex-nfler-nate-
+boyer-defends-colin-kaepernick). Brady, meanwhile, [repeatedly ducked
+questions](http://deadspin.com/im-fed-up-with-tom-brady-1791819550) about his
+relationship with, and level of support for, Trump. Even setting the relative
+political merits of Black Lives Matter and the Trump administration completely
+aside, there is no case to be made that Brady stood by his beliefs more
+steadfastly, or made a more meaningful “statement,” than Kaepernick did.
+
+But if you watch the entirety of the Brady/Kaepernick segment on that January
+episode of _Speak for Yourself_ , you’ll also see former NFL wide receiver
+Cris Carter deliver a compelling—and by TV standards quite subtle—alternative
+argument, observing that if your friends represent values you find abhorrent,
+maybe they aren’t really your friends:
+
+Carter also made the intriguing claim, during another FS1 appearance, that he
+and his teammates on the 1990s Minnesota Vikings made an extra effort to
+appear organized and even-keeled on and off the field when they played for
+[pioneering black head coach Dennis Green](http://www.pro-football-
+reference.com/coaches/GreeDe0.htm), because they were worried Green might be
+subject to the racist assumption that a black coach’s team would behave in an
+undisciplined manner:
+
+On _Undisputed_ , meanwhile, Bayless’ broadcast partner—former NFL star
+Shannon Sharpe—pointed out a few days ago that the risk that Kaepernick would
+be blackballed is what made his protest meaningful in the first place. Beliefs
+that are expressed at great personal cost, Sharpe observed, are the ones that
+deserve to be taken most seriously.
+
+Even among FS1’s top on-air personalities—i.e., the ones with reputations for
+retrograde opinions—Whitlock’s contemptuous response to Kaepernick’s protest
+has been the exception rather than the rule. Cowherd, who seemed agnostic on
+the substance of the quarterback’s complaints about police brutality, still
+[defended](https://twitter.com/SFY/status/775455988514037760) his decision to
+raise the subject via on-field protest. Bayless, meanwhile, deployed his
+trademark all-or-nothing bravado to _support_ Kaepernick, calling racial
+injustice an urgent issue that “needs to get addressed” and praising the 49ers
+quarterback for having the “guts” to challenge the “plantation mentality” that
+a football game wasn’t the right place to do so.
+
+Kaepernick was the perfect kindling for a reactionary bonfire, the first huge
+political sports story to come along in the Horowitz era. If you loathed the
+quarterback on account of everything he didn’t stand for, you could flip over
+to Fox Sports 1 and find that Whitlock was even more outraged than you were.
+But what you wouldn’t find is a right-wing bubble in which conservative voices
+drown out everyone else. Horowitz’s FS1 is not, like Fox News, a channel on
+which non–right-wing perspectives exist solely to be caricatured and then
+blown up with a cannon.
+
+Here I might mention that Jamie Horowitz has a degree in political science
+from Amherst. His right-hand man, FS1 executive vice president of content
+Charlie Dixon, has one in European history from a liberal arts school in
+upstate New York. In addition to overseeing _First Take_ , Horowitz also
+produced _Olbermann_ , the late-night ESPN show that saw erstwhile
+_SportsCenter_ and MSNBC anchor Keith Olbermann train his neo-Cronkite
+gravitas laser on [Tony Dungy](http://ftw.usatoday.com/2014/07/tony-dungy-
+keith-olbermann-michael-sam) (for homophobic comments about Michael Sam) and
+[the police union spokesman who attacked the St. Louis
+Rams](http://sports.politicususa.com/2014/12/01/keith-olbermann-names-darren-
+wilson-supporter-jeff-roorda-worlds-worst-person-in-sports.html) after several
+players made a “hands up, don’t shoot” protest gesture.
+
+Horowitz isn’t himself a macho reactionary or a political partisan. Dixon told
+me that his boss’s greatest talent is drawing out his stars’ own personalities
+and beliefs. “Some producers like to impart their will on talent and force
+them into formats that don’t suit their skill sets,” Dixon said. “Jamie works
+to understand talent and then build shows around their strengths.” Ailes was a
+literal right-wing operative who used Fox News to influence electoral
+politics. Horowitz is a TV guru who teaches his acolytes to find the takes
+that were inside them all along. The fact that Horowitz’s most cavemanlike
+content got the most attention—that _First Take_ was more successful than
+_Olbermann_ —has more to do, in other words, with the state of sports media
+than with Horowitz himself.
+
+The aesthetic of Horowitz’s debate shows owes as much to sports talk radio as
+it does to _SportsCenter_. Three decades after the launch of the first 24-hour
+sports talk radio station, New York’s WFAN, there are more than 600 such
+outlets in the U.S., channels with names like “The Fan” and “The Ticket” that
+employ mostly male, mostly white hosts with nicknames like “Boomer,” “Skin,”
+and “Money” who opine about which wide receivers and shooting guards are
+overrated and which coaches need to be fired because “losing to [name of
+rival] is simply unacceptable.” While WFAN’s [_Mike and the Mad
+Dog_](https://en.wikipedia.org/wiki/Mike_and_the_Mad_Dog) perfected the sports
+radio form, no one has been more influential than Jim Rome, a goateed bolt of
+misdirected masculine energy whose motto is “have a take, don’t suck”—a
+doctrine notable for prioritizing commentary that has amplitude and
+entertainment value over that which has a basis in objective reality.
+
+In 2001, ESPN began airing _Pardon the Interruption_ , a show in which
+_Washington Post_ columnists Tony Kornheiser and Michael Wilbon re-created
+their amiable newsroom banter on air. _First Take_ , which debuted six years
+later, was an unmemorable _PTI_ knockoff until Horowitz took over in 2011. By
+pairing Bayless, who preceded Horowitz’s arrival, with the excitable and
+controversial Stephen A. Smith, the show’s new producer injected _First Take_
+with the hyper-caffeination and resentful tone of The Fan and The Ticket.
+
+![First
+Take](/content/dam/slate/articles/sports/sports_nut/2017/03/fox_sports/170326_SNUT_Fox-
+Sports-First-Take-Set.jpg.CROP.promovar-medium2.jpg) From left, Stephen A.
+Smith, Cari Champion, and Skip Bayless on the set of _First Take_ in January
+2013.
+
+Joe Faraoni/ESPN Images
+
+Smith and Bayless sat opposite each other on a dramatically lit set, split
+like two boxers primed to bash each other’s faces with opinions. On _First
+Take_ , everything was interpretable in the form of an extreme binary. Smith,
+like almost everyone else, [believes LeBron James is the best basketball
+player in the world](http://www.espn.com/video/clip?id=14766030). Bayless,
+therefore, insisted (and is still insisting on FS1) that James is overrated,
+[asserting](http://www.si.com/extra-mustard/2014/06/06/here-are-the-8-most-
+ridiculous-things-skip-bayless-said-about-lebron-james-during-fridays-first-
+take) for instance in 2014 that the then-two-time NBA champion lacks
+“intangibles” and has a tendency to fail “when his team need[s] him the most.”
+Bayless also once said he [wasn’t convinced Andrew Luck would be a better NFL
+quarterback than Tim
+Tebow](https://twitter.com/realskipbayless/status/162974048173826050?lang=en),
+while Smith has [somehow failed to predict which of the two finalists will win
+the NBA title for six years in a
+row](https://www.washingtonpost.com/news/early-lead/wp/2016/06/21/stephen-a-
+smith-is-always-wrong-about-the-nba-finals-heres-the-video-
+evidence/?utm_term=.c6aca69c2f89). But the failure to credibly analyze sports
+didn’t make Horowitz’s broadcasters any less popular. The Bayless/Smith
+iteration of _First Take_ was [generally the highest-rated studio show on
+ESPN2](https://sportstvratings.com/big-list-first-take-viewership-
+for-2014/854/), often drawing a quite-respectable-for-daytime-cable 500,000
+viewers. Bayless and Smith also made frequent guest appearances on other ESPN
+properties, [influenced the entire network’s editorial
+agenda](http://deadspin.com/5929361/how-espn-ditched-journalism-and-followed-
+skip-bayless-to-the-bottom-a-tim-tebow-story), and amassed huge followings on
+Twitter. They are astoundingly effective at occupying real estate in the minds
+of both regular sports fans and high-profile personalities: [Jalen
+Rose](http://deadspin.com/5900701/jalen-rose-called-out-skip-baylesss-high-
+school-hoops-fantasy-and-bayless-confessed), [Richard
+Sherman](http://deadspin.com/5989287/im-better-at-life-than-you-richard-
+sherman-craps-all-over-skip-bayless-on-first-take), and [Mark
+Cuban](https://www.youtube.com/watch?v=H9w_XUQyJJQ) are among the figures who
+appeared on _First Take_ to tell Bayless he was full of crap.
+
+![Colin
+Cowherd](/content/dam/slate/articles/sports/sports_nut/2017/03/fox_sports/170326_SNUT_Fox-
+Sports-Colin-Cowherd.jpg.CROP.promovar-medium2.jpg) Colin Cowherd hosts _The
+Herd_ in Detroit in January 2006.
+
+Al Messerschmidt/Getty Images
+
+Given how richly Smith and Bayless were rewarded for their stick-and-ball-
+based provocations, it’s not surprising that they—and Cowherd, a talk-radio
+veteran who was one of the co-hosts of Horowitz’s first daily ESPN show,
+_SportsNation_ —would stoke controversy when it came to sports and social
+issues. Smith has argued more than once that it shouldn’t be out of bounds to
+ask what victims of domestic violence incidents did to [“provoke” their own
+beatings](http://deadspin.com/first-take-discusses-a-womans-responsibility-to-
+avoid-b-1610831462). Cowherd, for his part, spent [literally
+years](https://www.washingtonpost.com/news/dc-sports-bog/wp/2015/04/21/colin-
+cowherd-cares-about-john-wall-once-doing-the-dougie-more-than-anyone-else-in-
+the-world-cares-about-anything/?tid=a_inl&utm_term=.3fda8aa3de00) complaining
+on his radio show that Washington Wizards star John Wall had performed a “yo
+dawg look at me I’m the man” dance at his first NBA game, suggesting it
+indicated that Wall had a low IQ and grew up without a strong father figure.
+(Cowherd’s radio show, _The Herd_ , is now simulcast on FS1.)
+
+While Cowherd and Bayless arenât conservative ideologues, they know how to
+reach the right wingâs erogenous zones.
+
+At Fox Sports 1, Horowitz is essentially building the entire plane out of the
+_First Take_ black box. While ESPN fills its schedule with a mix of game
+broadcasts, opinion, highlights, news, analysis, documentaries, and
+investigative journalism, FS1 is increasingly all-in on opinion. (Although it
+does have the rights to major-conference college football and basketball,
+Major League Baseball games, and NASCAR races, FS1 is still way behind ESPN in
+the live events department.) The nightly highlight show _Fox Sports Live_ —the
+network’s main tent pole when Horowitz took over—[got canceled in
+February](http://www.sportsbusinessdaily.com/Daily/Issues/2017/02/23/Media/Fox-
+Sports-Live.aspx). And recall that most of FS1’s news and features operation
+was laid off during Horowitz’s first year, a bloodletting one longtime 21st
+Century Fox employee told me amounted to the departures of roughly 75 people.
+(At least some of these layoffs, this source told me, had been in the works
+before Horowitz came on board.) Other producers left on their own, while many
+older Fox Sports veterans took buyouts. (Explained another source: “The old-
+guard producers were more conservative by nature—they’re all about the games,
+and they’re a little more reverent towards sports than Horowitz’s hires are.”)
+Another ex–Fox Sports employee put it this way: “Horowitz got rid of almost
+everyone who was there and replaced them with ESPN people.”
+
+![Skip Bayless /
+ESPN](/content/dam/slate/articles/sports/sports_nut/2017/03/fox_sports/170326_SNUT_Fox-
+Sports-Skip-Bayless.jpg.CROP.promo-xlarge2.jpg) Skip Bayless, seen on screens
+in the control room during the filming of _First Take_ , in August 2013.
+
+Christopher Capozziello/_Washington Post_ via Getty Images
+
+These “ESPN people” included both topline stars snapped up at a significant
+expense—Bayless’ Fox contract reportedly pays him [$26 million over four
+years](https://twitter.com/richarddeitsch/status/725694462463201282?ref_src=twsrc%5Etfw),
+with Cowherd earning [a similar amount
+annually](http://www.sportsbusinessdaily.com/Daily/Issues/2015/07/20/Media/Cowherd.aspx)—as
+well as off-camera producers familiar with the new boss’s ethos. Horowitz also
+inherited writer and radio host Clay Travis, a political correctness obsessive
+who complains about “[black
+privilege](https://www.google.com/webhp?sourceid=chrome-
+instant&ion=1&espv=2&ie=UTF-8#q=clay+travis+%22black+privilege%22),” is a
+defender of such controversial graphic-design items as the [Confederate
+flag](http://www.outkickthecoverage.com/on-the-confederate-flag-062415) and
+[the Washington NFL team’s mascot](http://awfulannouncing.com/2016/twitter-
+wars-clay-travis-vs-bomani-jones-on-redskins-racists-and-pc-bros.html), and
+often uses the catchphrase/hashtag
+[#DBAP](https://twitter.com/ClayTravis/status/797554586563264513?ref_src=twsrc%5Etfw)—Don’t
+Be a Pussy. Travis anchors a [college football
+site](http://www.outkickthecoverage.com/the-7-women-who-have-most-outkicked-
+their-coverage-013013) licensed by Fox Sports, hosts a podcast (Horowitz also
+oversees Fox Sports’ digital operations), and has appeared on Cowherd and
+Whitlock’s _Speak for Yourself_. In spring 2016, shortly before _Speak for
+Yourself_ launched, Travis featured in clips of several test shows that
+[leaked to _Deadspin_](http://deadspin.com/will-fox-sports-1s-all-takes-
+matter-be-any-good-were-a-1781587567). In one of those segments, Travis
+actually said the words “I’m not black, and I’m not from ‘the hood.’ ”
+
+But Horowitz also inherited the liberal-leaning Katie Nolan, who’d been hired
+by the previous regime and hosts a late-night FS1 comedy show called _Garbage
+Time_. And he brought in Shannon Sharpe, who last year became—I’m guessing—one
+of the only sports TV talking heads to cite Frederick Douglass’s speech “[What
+to the Slave Is the Fourth of July?](https://www.thenation.com/article/what-
+slave-fourth-july-frederick-douglass/)”
+
+Horowitz is smart enough to understand it’s good business to play both sides.
+As the _Ringer_ ’s Bryan Curtis [documented in
+February](https://theringer.com/how-sportswriting-became-a-liberal-profession-
+dc7123a5caba), young web-based writers have turned sports writing into a
+liberal profession. On cable, meanwhile, polemicists such as Rachel Maddow and
+John Oliver are proving that liberals can be [ratings
+stars](http://www.hollywoodreporter.com/news/rachel-maddow-tops-cable-news-as-
+ratings-thrive-985789). In the last few years, ESPN has given more airtime to
+the likes of Bomani Jones and Pablo Torre, left-leaning writers and
+broadcasters who are unapologetic about their lack of interest in sticking to
+sports. The network’s supposed partisanship has created a backlash, with
+[politicians](https://twitter.com/bensasse/status/727311715226939392),
+[athletes](http://deadspin.com/curt-schilling-espn-employs-the-biggest-
+racists-in-sp-1773582081), and [some in the media
+itself](http://www.outkickthecoverage.com/espn-profit-plummets-as-network-
+turns-left-020817) complaining that ESPN is engaging in dissent-stifling
+leftist indoctrination when it, for instance, [gives Caitlyn Jenner its Arthur
+Ashe Courage Award.](http://abcnews.go.com/GMA/video/espy-awards-caitlyn-
+jenner-accepts-arthur-ashe-courage-32482615) It’s an exaggeration to say
+right-wing views don’t have a place on ESPN—one of the network’s NFL analysts,
+Trent Dilfer, said Kaepernick should “[be quiet and sit in the
+shadows](http://www.mercurynews.com/2016/09/11/colin-kaepernick-told-by-espns-
+trent-dilfer-to-be-quiet-sit-in-the-shadows/)”—but given that the fan bases of
+most U.S. sports skew male and [slightly
+conservative](http://images.thepostgame.com/sites/default/files/How-Politics-
+Correlate-With-Sports-Interests_FULL.jpg), it is probably fair to say those
+fans are underserved by an East Coast–based sports media overrun by liberal
+arts graduates.
+
+While Cowherd and Bayless aren’t conservative ideologues, they know how to
+reach the right wing’s erogenous zones. Two weeks after the election, [Cowherd
+told Curtis](https://theringer.com/donald-trump-sports-radio-colin-cowherd-
+mike-francesa-190a7f57a543#.vh0ffouqa) that he recognized Trump’s rhetorical
+playbook as his own. On the other side, Horowitz has lined up Sharpe and
+Nolan. It’s not a bad bet—seeking attention by, for example, inviting Richie
+Incognito (the NFL lineman infamous for [calling a black teammate a “half-
+nigger piece of shit”](http://deadspin.com/the-worst-stuff-from-the-dolphins-
+investigation-updati-1522846626)) to sit alongside Sharpe [for a Super Bowl
+preview](https://www.youtube.com/watch?v=XGABHEzyt94). The wider the range of
+opinions you broadcast, the more chances you have to hit the viral buzzer.
+Channeling the sensibility of a particular slice of the TV audience makes a
+lot of sense. Commodifying and encouraging the friction between two opposing
+sensibilities until the end of time is even better.
+
+I spoke to Horowitz by phone on a recent weeknight. He was on the 21st Century
+Fox studio lot in Los Angeles, which also encompasses offices and production
+facilities for FX and the Fox flagship network. While he stands by his
+comparison of FS1 to Fox News, he told me he’s also modeled his sports network
+after FX and Fox, both of which ascended by taking more risks than their more
+established competitors. “That’s been the philosophy that’s driven the entire
+Fox portfolio,” he said. “Do you know how fearless it was when they did _The_
+_Simpsons_ or when they did _Bernie Mac_? Or when [FX President John] Landgraf
+does _Atlanta_ or _The People v. O.J._ or _Louie_? The same type of philosophy
+that leads you to launch _Empire_ is the same one that allows you to bet big
+on Katie Nolan.” Horowitz didn’t mention that FX also brought in Charlie
+Sheen, shortly after his crude public meltdown, to make the sitcom _Anger
+Management_. But that move also fits his thesis: Fox bets big on personalities
+who, for better or worse, get you to pay attention.
+
+![Speak for Yourself, Super Bowl LI: Discovery Green.,Speak for Yourself,
+Super Bowl LI: Discovery
+Green.](/content/dam/slate/articles/sports/sports_nut/2017/03/fox_sports/170326_SNUT_Fox-
+Sports-Speak-For-Yourself.jpg.CROP.promovar-mediumlarge.jpg) _Speak for
+Yourself_ during Super Bowl LI in February.
+
+Fox Sports
+
+While Whitlock and Cowherd’s _Speak for Yourself_ has scuttled along with
+viewership in the tens of thousands, Bayless and Sharpe’s _Undisputed_
+consistently draws an audience of between 100,000 and 200,000 for its morning
+broadcasts. That might sound paltry, but it took enough of a chunk out of
+_First Take_ ’s ratings—the numbers for the post-Bayless version, which pairs
+Smith with Max Kellerman, were down by about 25 percent—that ESPN felt
+pressured to [juice those __ numbers by shifting its flagship debate show from
+ESPN2 to ESPN proper](http://deadspin.com/skip-bayless-is-gaining-on-espn-in-
+a-ratings-war-that-d-1787462009). ESPN also recently launched a 6 p.m. edition
+of _SportsCenter_ , featuring anchors Jemele Hill and Michael Smith, that is
+[more focused on discussion of cultural and political
+topics](http://deadspin.com/skip-bayless-is-gaining-on-espn-in-a-ratings-war-
+that-d-1787462009) than on highlights and analysis. (Hill and Smith first
+partnered up on an ESPN show called _Numbers Never Lie_ , which was created by
+Horowitz.) Meanwhile, a source told me that the per-subscriber “carriage fee”
+that FS1 receives from cable companies has risen from 98 cents in 2015, when
+Horowitz was hired, to $1.30 this year. Given that the network is in 84
+million U.S. homes, that’s a nice chunk of change for 21st Century Fox.
+
+The truth, though, is that ratings for sports talk shows are piddling compared
+to the [9.7 million viewers](https://sportstvratings.com/dodgers-cubs-
+wisconsin-iowa-ole-miss-lsu-top-cable-sports-tv-ratings-for-saturday-
+october-22-2016/6562/) that FS1 drew, for example, for its broadcast of the
+Chicago Cubs’ National League Championship Series–clinching win. FS1 will have
+no chance to compete with ESPN until it outbids the Worldwide Leader—and CBS
+and NBC—for the rights to broadcast big-time live sporting events. So, what’s
+the point of spending so much money on middle-aged men who wear suits and sit
+in a studio? Or, [as _Deadspin_ ’s Kevin Draper put
+it](http://deadspin.com/skip-bayless-is-gaining-on-espn-in-a-ratings-war-
+that-d-1787462009), “If there are no stakes in this game, why, exactly, is
+anyone playing?”
+
+The answer can perhaps be found in a memo that Horowitz sent to the FS1 staff
+last October. In that note, Horowitz praised Bayless, Sharpe, and _Undisputed_
+host Joy Taylor, writing that their “thoughtful takes” are “bringing a
+[younger, more diverse
+audience](http://blacksportsonline.com/home/2016/10/skip-bayless-shannon-
+sharpe-bringing-in-a-significant-amount-of-black-viewers-to-fs1/) to FS1.”
+(The link to the site _Black Sports Online_ is Horowitz’s.) He also noted that
+FS1’s baseball studio team had become a “viral phenomenon” (though he elided
+the fact that this was because Pete Rose [looks like a fairy-tale troll and
+has a habit of leaning into camera shots he’s not supposed to be
+in](http://screengrabber.deadspin.com/pete-rose-is-doing-it-again-1787575753))
+and that UFC impresario Dana White broke the news about Ronda Rousey’s return
+to the ring/octagon on Cowherd’s _The Herd_.
+
+![Shannon Sharpe, Joy Taylor and Skip Bayless, Undisputed.
+](/content/dam/slate/articles/sports/sports_nut/2017/03/fox_sports/170326_SNUT_Fox-
+Sports-Undisputed.jpg.CROP.promovar-mediumlarge.jpg) Shannon Sharpe, Joy
+Taylor, and Skip Bayless on the set of _Undisputed_.
+
+Vince Bucci/Fox Sports
+
+Fixating on the ratings battle between FS1 and ESPN—as both networks, and [the
+media outlets that cover them](http://www.si.com/tech-media/2016/09/25/espn-
+fs1-skip-bayless-jose-fernandez-death-nfl-week-3-presidential-debate) tend to
+do—probably misses the point. FS1 is going to get whomped by ESPN on a daily
+basis because ESPN shows better games. Horowitz, though, can make a reasonable
+argument that he’s losing a battle that’s being waged on an increasingly
+irrelevant medium—that FS1 is setting itself up for a future in which Twitter
+and Facebook (or whatever replaces Twitter and Facebook) are more important
+than TV. (In writing this article, I certainly found that skimming the
+_Undisputed_ and _Speak for Yourself_ Twitter feeds for interesting clips was
+a better use of my time than watching hours and hours of sports talk
+television.)
+
+Fox Sports 1 doesnât explain why our world is the way it is. It just
+declares everything that happens in that world inspirational or disgraceful.
+
+Horowitz envisions FS1 as a channel that appeals to a young and diverse
+audience and is a friendly forum for figures, such as Rousey, who are the
+subjects of intense social media interest. (The Rousey scoop presumably came
+about because FS1 is a UFC broadcasting partner.) I can imagine how a sports-
+league executive might be intrigued—particularly in an era of cord-cutting and
+[unstable network
+ratings](http://www.slate.com/articles/podcasts/hang_up_and_listen/2016/10/mlb_playoffs_nfl_ratings_and_fox_s_pitch_on_hang_up_and_listen.html)—by
+the idea of selling those all-important live broadcast rights to a broadcaster
+that understands how to capture the attention of a diverse and ideologically
+polarized younger generation. Indeed, “the success of FS1 is most assuredly
+dependent on the combination of live rights and signature personalities,”
+Horowitz told me. “The studio shows cast a big shadow over the way people view
+a network.”
+
+Horowitz inadvertently acknowledged that he’s not making any particular effort
+to appeal to the reasonable center. “To throw a bunch of adjectives at you
+that I probably have taken from focus groups across the country when we ask
+people what they’re looking for,” he said, “the words that pop up are
+_independent_ , _original_ , _fearless_ , _thought-provoking_ , _defiant_ ,
+_blunt_ , _rebellious_. I’m looking for people who might be odd or quirky but
+who make the audience listen.”
+
+There are a lot of words in that list, but none of them are _trusted_ ,
+_authoritative_ , _reliable_ , _credible_ , or _knows what the hell they’re
+talking about_. (I’ll leave it to you, the reader, to consider the ways in
+which the prioritization of defiant bluntness over credibility may have
+parallels to developments elsewhere in our society.) On FS1, little effort is
+made to litigate which pundit’s viewpoint is the more reasonable one. And with
+few reporters or topic-specific experts left on the payroll, Fox Sports 1 has
+no ability to explain why our world is the way it is—it just declares
+everything that happens in that world good or bad, right or wrong,
+inspirational or disgraceful. It’s a format that casts an interesting thinker
+such as Sharpe as the straight man who listens to Bayless argue with
+impressive vehemence that [UCLA’s Lonzo Ball is
+currently](https://twitter.com/kyledcheney/status/844959637287915522)—
+_currently_ —a better point guard than two-time NBA MVP Stephen Curry.
+
+![Jason
+Whitlock](/content/dam/slate/articles/sports/sports_nut/2017/03/fox_sports/170326_SNUT_Fox-
+Sports-Jason-Whitlock.jpg.CROP.promo-xlarge2.jpg) Jason Whitlock
+
+Fox Sports
+
+That’s a waste of everyone’s time, and it speaks to the big difference between
+FS1 and FX, the network Horowitz praised to me as “fearless.” _Atlanta_ , _The
+People v. O.J. Simpson_ , and _Louie_ are distinctive shows that embody their
+creators’ personalities. Horowitz’s oeuvre is all pretty much the same.
+Bayless’ sports talk show has the same all-takes-matter format as Whitlock and
+Cowherd’s sports talk show, which has the same rhythm as Cowherd’s simulcast
+sports radio show. Horowitz’s broadcasters have no bigger-picture project in
+the way that, say, Bill Simmons’ project is to document the experience of
+being a diehard fan, or that _Deadspin_ ’s is to deflate the sports world’s
+moralizing and hype, or that ESPN’s Jones aims to change the way we think
+about sports economics. Bayless, Whitlock, and Cowherd may bounce off each
+day’s news in random, oft-novel ways, but they haven’t contributed any lasting
+ideas to our collective understanding of sports and society.
+
+Horowitz’s strategy, in the end, has less in common with FX (a venue for
+creators with individual visions) or Fox News (a venue for a single ideology)
+than it does with present-day CNN, which covers the day’s events by assembling
+[enormous panels of ardent and/or insane
+partisans](http://www.cnn.com/2016/03/01/politics/jeffrey-lord-van-jones-cnn-
+debate/). The best way to present the news in 2017, Horowitz and CNN’s Jeff
+Zucker seem to think, is via prefiltered, oppositional takes that inspire
+people on the internet to express feelings of total validation or extreme
+rage. If every viewpoint is represented, every viewpoint can be consumed and
+shared. Since Zucker took over CNN, incidentally, [its ratings have been
+looking great](http://www.latimes.com/business/hollywood/la-fi-ct-cnn-
+zucker-20170216-story.html).
+
+One way of looking at Fox News is that, from the perspective of the people who
+_hired_ Roger Ailes—Rupert Murdoch and his fellow executives—the network’s
+conservatism was less an end in itself than [a means to reach cable-news
+viewers who skewed old and
+white](http://www.slate.com/articles/news_and_politics/politics/2016/03/the_republican_party_is_old_and_getting_older_that_s_a_huge_problem_for.html).
+Twenty years after Fox News’ launch, in a different America, Horowitz and 21st
+Century Fox seem to be betting that hot takes will buy them a different kind
+of mass audience. Muhammad Ali’s death last year [reminded
+us](http://www.slate.com/articles/sports/sports_nut/2016/06/the_new_york_times_arthur_daley_never_stopped_hating_muhammad_ali.html)
+that there has never been a time when the sports world was cloistered from
+divisive political questions. Horowitz is gambling that FS1 can make its name
+by exploiting and amplifying those divisions. Would you bet against him?
+
+_**Correction, March 27, 2017:** This story misidentified 21st Century Fox as
+News Corp., whose components were restructured and rebranded in 2013.
+(Return.)_

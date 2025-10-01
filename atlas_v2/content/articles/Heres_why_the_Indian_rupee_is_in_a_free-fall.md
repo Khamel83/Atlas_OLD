@@ -1,0 +1,107 @@
+# Here’s why the Indian rupee is in a free-fall
+
+**Source**: https://qz.com/india/1377219/crude-oil-us-china-trade-war-are-reasons-for-indian-rupees-fall/
+**Type**: article
+**Created**: 2025-08-13T16:30:13.572033
+
+---
+
+title: Here’s why the Indian rupee is in a free-fall
+source: https://qz.com/india/1377219/crude-oil-us-china-trade-war-are-reasons-for-indian-rupees-fall/
+date: 2025-08-13T16:30:08.316140
+tags: []
+---
+Asia’s worst-performing currency is simply unable to break its fall.
+
+On Sept. 03 the rupee closed below the Rs71 per dollar mark for the first time
+ever. This came a mere 18 days after it [ended below the key Rs70
+threshold](http://web.archive.org/web/20250616044054/https://www.moneycontrol.com/news/business/markets/indian-
+rupee-slides-26-paise-to-close-below-historic-70-mark-on-trade-deficit-
+worries-2851151.html). Since January, the Indian currency has already
+[depreciated by
+10%](http://web.archive.org/web/20250616044054/https://www.bbc.com/news/business-45369884).
+
+The news that the Indian economy grew at a sprightly 8.2% in the April-June
+period, the highest in nine quarters, provided some cushion, but only so much.
+“[W]ith the environment we are in right now, the rupee is more likely to track
+global cues,” IFA Global, a forex advisory firm, said in a report.
+
+Here are some reasons for the rupee’s incessant slide.
+
+## Crude prices
+
+In the past many weeks, international crude oil price, which had stabilised in
+the April-June quarter, has been on the rise again. In the last fortnight
+alone, it gained [$7 per
+barrel](http://web.archive.org/web/20250616044054/https://economictimes.indiatimes.com/industry/energy/oil-
+gas/fuel-prices-set-new-record-on-fall-in-rupee-surge-in-global-crude-
+oil/articleshow/65650709.cms) and the crude oil futures were trading above
+[$75 per
+barrel](http://web.archive.org/web/20250616044054/https://economictimes.indiatimes.com/markets/commodities/news/brent-
+crude-oil-dips-on-rising-opec-output-looming-sanctions-on-iran-prevent-bigger-
+fall/articleshow/65650846.cms) on Sept. 03. Considering that India imports
+nearly 80% of its fuel needs, rising oil prices leads to a higher dollar bill
+which, in turn, weakens the rupee.
+
+## Current account deficit
+
+Rising oil prices and a weakening rupee mean that India’s current account
+deficit may widen to 2.8% of the GDP this financial year, up from 1.9% last
+year, according to a [report by Nomura
+Research.](http://web.archive.org/web/20250616044054/https://economictimes.indiatimes.com/markets/forex/rupee-
+could-slide-to-73-by-december/articleshow/65651206.cms) This year, the deficit
+has already jumped to a nearly [five-year
+high](http://web.archive.org/web/20250616044054/https://www.moneycontrol.com/news/business/markets/currency-
+woes-five-factors-that-are-dragging-rupee-lower-2856021.html) of $18 billion.
+This only adds further pressure on the rupee.
+
+## International developments
+
+The situation in Turkey is taking a toll on currencies of the emerging
+markets. The Turkish lira has already lost [over 40%
+of](http://web.archive.org/web/20250616044054/https://www.wsj.com/articles/as-
+turkey-teeters-germany-considers-offering-a-financial-lifeline-1535459427) its
+value this year. Last month, the US imposed higher tariffs on imports of
+steel, aluminium, and other commodities from Turkey which has set off
+turbulence in the latter’s economy.
+
+Besides the US-Turkey confrontation, there is also the bigger US-China trade
+war brewing. The [two
+countries](http://web.archive.org/web/20250616044054/https://qz.com/1329777/the-
+us-china-trade-war-could-turn-into-a-currency-war-next) have also been
+increasing duties on each other’s goods. Some observers view this as the
+beginning of a new Cold War.
+
+None of this augurs well for the Indian currency.
+
+## Passive RBI
+
+Typically, when the rupee weakens, the central bank sells dollars from its
+reserves to rescue it. So far, though, the Reserve Bank of India (RBI) has not
+intervened aggressively to shore up the domestic currency.
+
+“The intensity of RBI’s intervention has dissipated,” said Abheek Barua, chief
+economist at HDFC Bank, India’s biggest private lender. “While there is
+complete lack of communication from the RBI, comments from officials from the
+government and quasi-government agencies appear to give the impression that
+they support this fall in the rupee’s value in the interests of
+competitiveness.”
+
+## US economy
+
+The [dollar is
+having](http://web.archive.org/web/20250616044054/https://www.moneycontrol.com/news/business/rupee-
+depreciation-due-to-dollar-strengthening-not-inherent-weakness-
+hsbc-2858361.html) a good run this year due to an uptick in the US’s GDP
+numbers. That country’s economy grew 4.1% in the second quarter of this year,
+the fastest [since late
+2014](http://web.archive.org/web/20250616044054/https://qz.com/1342009/the-us-
+economy-grew-by-4-1-in-the-second-quarter-but-dont-celebrate-too-much). It has
+also been [adding more
+jobs,](http://web.archive.org/web/20250616044054/https://www.reuters.com/article/us-
+usa-economy/u-s-job-growth-seen-strong-in-june-wages-picking-up-idUSKBN1JW0EI)
+while average wages have picked up, too.
+
+By all indications, most of these global cues are unlikely to change much in
+the immediate future. So businesses and individuals in India need to brace
+themselves.

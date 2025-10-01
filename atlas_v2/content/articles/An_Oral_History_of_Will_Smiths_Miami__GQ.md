@@ -1,0 +1,78 @@
+# An Oral History of Will Smith's 'Miami' | GQ
+
+**Source**: http://www.gq.com/story/will-smith-miami-oral-history
+**Type**: article
+**Created**: 2025-08-13T18:18:10.832858
+
+---
+
+title: An Oral History of Will Smith's 'Miami' | GQ
+source: http://www.gq.com/story/will-smith-miami-oral-history
+date: 2025-08-13T18:18:08.711723
+tags: []
+---
+**Smith:** I told Poke and Tone (a.k.a. Trackmasters) that they could come
+hang around, since they produced the track. That was my second mistake. I
+shouldn't talk about the first.
+
+**Tone:** In the video you hear Will say “Alright, Tone, get the plane!” But
+the original line is “What if some day or night a demon were to steal after
+you into your loneliest loneliness and say to you: 'This life as you now live
+it and have lived it, you will have to live once more and innumerable times
+more.' ... Would you not throw yourself down and gnash your teeth and curse
+the demon who spoke thus? Or have you once experienced a tremendous moment
+when you would have answered him: 'You are a god and never have I heard
+anything more divine.’ Let’s go to Miami now.”
+
+**Poke:** Will was a corny man, almost definitely the corniest man in all the
+land. He’d tell you knock-knock jokes and be angry when you didn’t laugh. He
+would do this posh British accent whenever he was getting frustrated, like
+he’d mess up a line in the booth and be like “ _Blimey_!”
+
+**Willow Smith (daughter):** He still says “blimey” when he gets a splinter or
+slams the car door on his hand or falls headfirst down the stairwell. And
+sometimes, instead of snoring, he screams.
+
+**Pinkett-Smith:** [_laughs_] Sadly, night-screaming is most assuredly some
+vintage Will Smith.
+
+**Isham:** When a man screams in his sleep he is not broken, he is merely
+attempting to restore order to a world that exalts only the decadence of
+mayhem. And furthermore, I believe the devil does exist, and that's he's
+probably very boring.
+
+"They were real, but they looked garish, like some idiot’s idea of what a palm
+tree should look like. I knew they would ruin the video’s authenticity. So we
+borrowed a page from _Full Metal Jacket_ and imported our own palm trees."
+
+**Poke:** Man, when we recorded the _Men In Black_ song I almost lost my mind.
+I still have no idea what that song was about. Will insisted it was based on a
+“true story” but that if he told me he’d have to kill me, and not in a “cool”
+way. As far as “Miami” is concerned, yeah, I don’t really remember that one.
+
+**Tone:** It was my idea that the woman would say “Bienvenidos a Miami” which
+at the time Will was not in favor of as it might confuse non-Spanish speakers.
+It was Nas who finally convinced him.
+
+**Nas (Hip-hop legend, alleged ghostwriter):** What? Hell no. I had nothing to
+do with that. Who told you that? Give me their name, their number, and the
+five things they fear most in this world. No, I ain’t fucking kidding. Give me
+that list. My third least favorite thing is asking someone for a list and not
+getting the list. You’d know that if you ever played _Illmatic_ backwards.
+
+**Smith:** The only thing Nas did was give me the idea to shoot the video for
+“Miami” in Miami. We were going to shoot in Bel-Air and make it look like
+Miami, but my Uncle Phil wouldn’t let us use his house. But Miami was better.
+Authenticity. That’s what the Big Willie Style is all about.
+
+* * *
+
+## ON LOCATION
+
+**Smith:** The first day on set I saw this horrible man holding a camera and I
+said, “Oh no, tell me that dweeby nerd is not the cameraman!”
+
+**Daniel C. Pearl (cinematographer):** I said something like “Pleased to meet
+you Mr. Smith I am a very big fan, my name is Dan, I am the cinematographer,”
+and he punched a brick wall and told me to call him the Fresh Prince if I must
+call him anything. I went to Arby’s and wept.

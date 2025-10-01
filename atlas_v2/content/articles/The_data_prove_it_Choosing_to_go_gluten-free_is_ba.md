@@ -1,0 +1,100 @@
+# The data prove it: Choosing to go gluten-free is bad for you
+
+**Source**: https://qz.com/974752/the-data-prove-it-going-gluten-free-to-lose-weight-is-bad-for-your-health/
+**Type**: article
+**Created**: 2025-08-13T17:20:02.220948
+
+---
+
+title: The data prove it: Choosing to go gluten-free is bad for you
+source: https://qz.com/974752/the-data-prove-it-going-gluten-free-to-lose-weight-is-bad-for-your-health/
+date: 2025-08-13T17:19:56.307597
+tags: []
+---
+For most of us, gluten is more or less synonymous with carbs.
+
+This perception isn’t _totally_ false—gluten is a protein [found
+in](http://web.archive.org/web/20250714112358/https://celiac.org/live-gluten-
+free/glutenfreediet/sources-of-gluten/) grains, which include brewer’s yeast,
+and any kind of wheat (and therefore flour), which is a major component of
+breads and pastas. So for a lot of people who try to go gluten-free, what
+they’re really doing is avoiding bread—which can be an [effective
+diet](http://web.archive.org/web/20250714112358/https://www.cureceliacdisease.org/wp-
+content/uploads/341_CDCFactSheets8_FactsFigures.pdf) for those trying to lose
+weight. But while the gluten-free diet has become an increasingly popular
+trend in recent years, research suggests the fad comes with negative health
+consequences.
+
+In September of last year, researchers from Rutgers University found that the
+amount of people living the gluten-free life
+[tripled](http://web.archive.org/web/20250714112358/http://jamanetwork.com/journals/jamainternalmedicine/article-
+abstract/2547202) (paywall) between 2009 and 2014. By looking at trends in the
+US Centers for Disease Control National Health and Nutrition Examination
+Survey, the team collected self-reported data on the eating habits of over
+22,000 individuals. Between 2013 and 2014 interval, roughly 1.7% of folks (128
+people in a group of about 7,600) stuck to a gluten-free diet, up from just
+half a percent between 2009 and 2010 (in a group of about 7,800).
+
+It’s worth noting that, when asked, none of these people reported suffering
+from celiac disease. The number of people diagnosed with that condition
+consistently remained [under
+1%](http://web.archive.org/web/20250714112358/https://www.cureceliacdisease.org/wp-
+content/uploads/341_CDCFactSheets8_FactsFigures.pdf) (pdf) of the US
+population. People with celiac cannot tolerate gluten; when even trace amounts
+of the protein reach their digestive system, they experience severe cramping
+and bloating as well as acne and mood changes that can persist up to weeks on
+end.
+
+Hyun-seok Kim, a physician with a background in public health at Rutgers and
+lead author of the recent gluten diet paper, [told the
+Guardian](http://web.archive.org/web/20250714112358/https://www.theguardian.com/society/2016/sep/06/gluten-
+free-eating-celiac-disease-marketing-trend-diet) that he thought that the
+uptick in gluten-free eating was likely because people trying to lose weight
+saw it as “trendy,” or used “self-diagnosed gluten-sensitivity” to explain
+other GI symptoms.
+
+The problem is, being gluten-free doesn’t automatically mean being healthy.
+Whole grains have a lot of dietary fiber, which make you feel full and may
+lower your chances of stroke or other heart disease by about 30%,
+[according](http://web.archive.org/web/20250714112358/http://www.heart.org/HEARTORG/HealthyLiving/HealthyEating/Nutrition/The-
+Greatness-of-Whole-Grains_UCM_455739_Article.jsp#.WQoYyFPyv-Y) to the American
+Heart Association. A recent [meta-
+review](http://web.archive.org/web/20250714112358/http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0175149)
+led by researchers at Tufts University of more than 500,000 people total found
+that eating roughly 50 grams of whole grains per day (about three servings)
+was associated with lower risks of cardiovascular and heart disease.
+
+On May 2, the BMJ
+[published](http://web.archive.org/web/20250714112358/http://www.bmj.com/content/357/bmj.j1892)
+the results of a study including over 100,000 participants surveyed over 26
+years. Researchers from Columbia University and Harvard Medical School were
+looking for a connection between gluten consumption and heart disease. As part
+of the survey, 64, 714 women and 45,303 men—all of whom worked in health
+care—filled out a food questionnaire every four years about their gluten
+consumption.
+
+The study ultimately did not find that gluten-free diets can be directly
+connected with heart disease, as New York Magazine
+[reports.](http://web.archive.org/web/20250714112358/http://nymag.com/thecut/2017/05/dont-
+go-gluten-free-unless-you-have-celiac-disease-study.html) But the study
+authors still write that the “the promotion of gluten-free diets among people
+without celiac disease should not be encouraged.” In other words, cutting out
+grains from your diet when you don’t need to means that you’re missing out on
+the preventative benefits they provide.
+
+The gluten-free trend can actually hurt people with celiacs, too. “I find that
+my condition was not taken seriously,” Molly Lewis, a 28-year-old with
+celiacs, [told
+NPR](http://web.archive.org/web/20250714112358/http://www.npr.org/sections/thesalt/2015/01/14/375709527/gluten-
+free-craze-is-boon-and-bane-for-those-with-celiac-disease). She said that when
+she goes out to eat, waitstaff frequently assume that she’s just trying to
+avoid carbs, and aren’t careful about making sure her food is kept separate
+from any gluten. When they roll their eyes, she said, “I know I’m going to get
+sick.” People with celiacs can feel symptoms if they encounter just 2o
+milligrams of gluten per kilogram of food.
+
+Ultimately, it’s simply a bad idea to go gluten-free if you don’t have
+celiacs. You’re not doing your heart any favors, and you may be making it
+difficult for people who actually suffer from celiacs.
+
+## 📬 Sign up for the Daily Brief

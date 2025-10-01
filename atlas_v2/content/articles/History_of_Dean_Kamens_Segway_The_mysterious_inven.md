@@ -1,0 +1,978 @@
+# History of Dean Kamen's Segway: The mysterious invention was going to change the world, and I helped kill it.
+
+**Source**: https://slate.com/human-interest/2021/08/dean-kamen-viral-mystery-invention-2001.html
+**Type**: article
+**Created**: 2025-08-13T15:36:17.218790
+
+---
+
+title: History of Dean Kamen's Segway: The mysterious invention was going to change the world, and I helped kill it.
+source: https://slate.com/human-interest/2021/08/dean-kamen-viral-mystery-invention-2001.html
+date: 2025-08-13T15:36:15.081903
+tags: []
+---
+In January of 2001, a startup news website broke a huge technology story: A
+charismatic millionaire was secretly developing an incredible invention, one
+that would change the world, in his lab in New Hampshire. The news came via a
+leaked, secret book proposal, which had just sold to the academic publisher
+Harvard Business School Press for $250,000. Within hours, the story was
+everywhere.
+
+The proposal quoted Steve Jobs saying the invention would be “as significant
+as the personal computer.” Jeff Bezos said it was “revolutionary.” But what
+was surprising about the book deal wasn’t merely the praise the invention and
+its inventor, Dean Kamen, garnered from tech world luminaries. It wasn’t
+merely the substantial investment the inventor had received from famed venture
+capitalist John Doerr, the largest in the firm Kleiner Perkins’ history. What
+stood out most of all was the detail that Harvard was paying a quarter-million
+dollars for the book—and it didn’t even know what the invention was. The
+inventor was paranoid about leaks, and the book’s author withheld that
+information from the proposal. No one—not even the literary agent who had
+submitted the proposal to editors, swearing them to secrecy—knew what the
+invention was. All they knew was the single word of the book’s title: _IT_.
+
+The tech bubble was bursting, and all across Silicon Valley, paper fortunes
+were vanishing. Now here was something different, something that felt new
+because it was old: a real invention, not just lines of HTML. Soon IT was on
+Lycos, on NPR, in the New York Times, on late-night talk shows. An IT message
+board thrown onto the internet by two entrepreneurial brothers received
+100,000 hits in its first 24 hours. The explosion of the IT story in the
+winter and spring of 2001 represented an entirely new kind of media frenzy,
+the birth of virality as we now know it.
+
+And then IT, too, popped. In December 2001, a year after the initial leak, the
+world finally learned what IT was, as Dean Kamen presented his invention on
+_Good Morning America_. With great fanfare, an actual curtain raised to reveal
+a bulky two-wheeled scooter.
+
+“The Segway,” Kamen announced proudly.
+
+“That’s it?” Diane Sawyer asked. “That can’t be _it_.”
+
+The Segway did not change the world. It was not bigger than the PC. It ended
+up a joke, the province of mall cops and G.O.B. Bluth on _Arrested
+Development_. The Segway flopped so badly that one of its first boosters still
+keeps his in the garage, “to remind me,” he said, “of my own fallibility.”
+
+The Segway also reminds me of _my_ fallibility. To this day, thinking about it
+fills me with dread. That’s because in 2001, I was a young literary agent—and
+Dean Kamen’s book was my first-ever big deal. The cascading series of miscues
+that tanked the Segway began with that book proposal, its leak, and the
+ensuing hype. And I’ve always had a sick sense that the leak was somehow my
+fault. So I set out to report the story, to wade back into the mess I made
+when I got in way over my head, and to figure out once and for all the answer
+to a question that’s eaten at me for 20 years: Did I kill the Segway?
+
+[**_Listen to another version of this story on Slate’s Decoder
+Ring:_**](https://slate.com/podcasts/decoder-ring/2021/06/segway-dean-kamen)
+
+I still remember the phone call. My boss, Rafe Sagalyn, was sitting behind his
+desk in the little office in Bethesda, Maryland, where I went to work every
+day. Rafe was, and still is, a big-deal literary agent, representing scores of
+Washington journalists and business consultants. Behind him was the wall of
+books he’d sold over the decades, books whose authors I talked to on the phone
+all the time: David Maraniss, Jane Mayer, Chris Matthews. One shelf held a
+rainbow of international editions of
+[_Megatrends_](http://www.amazon.com/dp/B01K3KH8EW/?tag=slatmaga-20), the
+megaselling 1980s business tome by John Naisbitt that was Rafe’s first big
+hit, the one that, he said, “paid for my house.”
+
+I sat in a chair on the opposite side of Rafe’s desk, the speakerphone between
+us. I’d organized this call, a big deal for me. I’d been working my way
+through grad school as Rafe’s assistant for a few years by then, and he was
+encouraging me to take the next step, to find authors of my own to represent.
+It was 1999, and I was 24 years old, freshly married, ambitious as hell. I
+read every magazine that came into the office, listened to NPR, and combed
+through the slush pile in search of a book idea I could sell.
+
+**Steve Jobs said that the invention would be “as significant as the personal
+computer.” Jeff Bezos said it was “revolutionary.”**
+
+That’s why Steve Kemper was on the phone. Steve was a freelance journalist
+who’d built a modest career writing for newspapers and magazines. He’d long
+wanted to write a book and had bounced around ideas with a few other agents
+but not yet sold a proposal. I read a feature he wrote for Smithsonian
+magazine about the global importance of salt, and thought: That’s a book.
+Microhistories—books that used some small, important innovation, like
+longitude or the pencil, to explain the world—were the big new thing in book
+publishing. An author named Mark Kurlansky had just had a hit with [a book
+about _cod_](https://en.wikipedia.org/wiki/Mark_Kurlansky), of all things,
+making the case that this humble fish unlocked a new understanding about the
+way the oceans and the world economy worked.
+
+I spent a month working with Steve on a proposal for a book about salt, a
+substance that had encouraged the growth of civilization and contributed to
+the rise and fall of empires. Then we learned that a publisher had just made a
+big deal for a history of salt to be written by … Mark Kurlansky.
+
+Never mind that, Steve said. He had another great story, one no one could
+scoop him on. It was about an inventor named Dean Kamen, who had made his name
+by inventing the drug infusion pump and the first portable dialysis machine.
+He was a millionaire many times over, lived in a mansion in New Hampshire, and
+had his own private island. Now he had come up with his greatest invention
+yet.
+
+Steve had once written a profile of Kamen, and recently Kamen had invited
+Steve up to the Manchester headquarters of his R&D company, DEKA—for DEan
+KAmen—telling him, “This is the most exciting thing I’ve ever worked on.”
+
+Now, as Rafe and I listened, Steve told us that the new technology was
+absolutely revolutionary. “This invention is going to change the world,” he
+said, his voice crackling over the speaker from his house in Connecticut. He
+was a mild-mannered guy, generally, but he was fervent about this. “I have
+complete access to the whole thing. The engineers, the designers, Dean.”
+
+“OK, well, what is the invention?” Rafe asked.
+
+“I can’t tell you,” Steve said.
+
+Rafe looked up at me, eyebrows raised. “Well, how do you expect us to get you
+a book deal?” he said.
+
+Dean Kamen hated high school math. The problems were so easy he could do them
+in his head, so teachers were forever accusing him of cheating. His classmates
+would brag about getting A’s on tests and he’d say, _Any chump can get an A on
+that test. Watch me—I’ll get exactly a 57_. And then he did.
+
+What he loved was building things. While he was still in high school on Long
+Island, he built audiovisual and lighting systems for rock shows and corporate
+conferences. A few years out of high school, he made the world’s first drug
+infusion pump in his parents’ basement, out of parts he bought at RadioShack.
+That invention changed health care forever, and soon Kamen did what any rich
+inventor with an anti-authoritarian streak would do: He moved to New
+Hampshire, where taxes were low and regulation was scant. He bought a mansion
+and a helicopter and, when he didn’t love the helicopter, the helicopter
+company. By the 1990s he was rich enough, and well-connected enough, that
+North Dumpling Island—his island off the coast of New York, which Kamen had
+declared its own sovereign kingdom—had signed a mutual nonaggression pact with
+the first George Bush. It even had its own national anthem, sung to the tune
+of “America the Beautiful”:
+
+> _North Dumpling, North Dumpling,_
+>
+> _Keep lawyers far from thee!_
+>
+> _And MBAs, and bureaucrats,_
+>
+> _That we may all be free!_
+
+“Dean was a great character,” Steve Kemper said when I reconnected with him
+this spring. “Dean’s quotable, he’s independent, he’s a little bit crazy.”
+Kamen wore jeans and work boots everywhere, accessorized with an army jacket
+whose pockets Kamen filled with tools and screws that always set off metal
+detectors at, for instance, the White House. He knew everything about science
+and nothing about anything else; after that dinner at the White House, he
+asked friends if they knew anything about the people he’d been seated with,
+who turned out to be Warren Beatty and Shirley MacLaine.
+
+With DEKA, Kamen built a wonderland for ambitious engineers in a set of
+riverside warehouses that Kamen bought for a song. “Dean is the best possible
+boss you can have,” Steve remembered one engineer telling him, “because he
+says, do whatever you want, fail, fail, fail over and over, but learn
+something and then try something else.” To Kamen, experiments that don’t
+work—“frog-kissing,” he called it—are as important to the work of engineering
+as the solutions that do work. “If you’re not failing,” Steve said, “you’re
+not doing the work that Dean wants you to do. He’s expecting spectacular
+failures, because that means you’re thinking big.”
+
+What made Kamen inspiring to work for, Benge Ambrogi recalled, was his
+ambition and his brilliance. Ambrogi was an engineer at DEKA for 13 years. “I
+wouldn’t call Dean an engineer,” he said. “I’d call him an explorer of the
+natural world. He’s amazing in his ability to pull things back to first
+principles”—those physical relationships between matter and energy, the
+Newtonian formulas that represent centuries of understanding of the way the
+world works. “Dean understands that stuff, just, like, in his fiber,” Ambrogi
+said. “And so he can take that fundamental understanding of how the world
+works and then take it five levels up.”
+
+Dean Kamen shows off the iBot, DEKA’s stair-climbing wheelchair, to President
+Bill Clinton in the White House in 2000. Executive Office of the President of
+the United States
+
+Kamen’s bone-deep understanding of first principles meant he was always
+looking for a more elegant solution. Engineers at the company shared stories
+of presenting a prototype and having Kamen suddenly blurt out some totally
+surprising idea that a) was absolutely brilliant and b) would absolutely send
+the whole team down a yearlong rabbit hole and delay the project. One engineer
+told me that Kamen liked to say, “Anything worth doing takes at least a
+decade.”
+
+Like that other lover of first principles, Archimedes, Kamen had his eureka
+moment in the bathtub—or in his case, getting out of the shower. He slipped
+and windmilled his arms to regain his balance, which made him think about how
+humans balance ourselves. We instinctively understand how to shift our weight
+and change our stance; we even, in walking, propel ourself into small,
+controlled falls forward, each interrupted by the next step. If he could build
+a machine that could balance like a person does, it could have incredible
+applications; imagine a wheelchair that can stand up straight on two wheels or
+even climb stairs. How many lives would that change?
+
+In the early 1990s, engineers at DEKA, including Ambrogi, started the long,
+slow work of turning Kamen’s eureka moment into an actual product. The
+seemingly simple idea was fiendishly complicated in practice: Replicating the
+gyroscopes of our inner ears and the processing power of our brains requires a
+machine to make ten thousand measurements and calculations every second.
+
+After a few years of work, the group had a couple of prototypes: a stair-
+climbing machine that could, with great effort, make its way up a set of
+wooden stairs the team had built in the lab. And a load-balancing machine, a
+sort of coffee table on two wheels. You could set something on it, and the
+machine would sense the uneven weight and rotate the wheels enough to balance
+it.
+
+And then, one day, one of the engineers jumped on the coffee table, and away
+he zoomed.
+
+“It was just so primitive, but beautiful,” Ambrogi remembered. “Your body is
+the joystick. You lean forward, it goes forward. The more lean you have, the
+faster it goes. And you lean back and it slows down.” Engineers took turns
+zipping around the lab on their new toy. “It was a complete revelation,”
+Ambrogi said, “how it felt like a natural extension of your body.” The stair-
+climbing wheelchair remained the team’s primary goal, the product they
+imagined would one day make money. But the engineers loved their toy, and
+refining that coffee table on wheels became their nights-and-weekends project.
+
+Soon Kamen decided the time had come to take the wheelchair project behind
+closed doors. He had an inventor’s paranoia that as soon as someone else found
+out about his best ideas, they would steal them. The project needed a code
+name, which came from the odd, elegant, dancing motion the wheelchair made
+when it spun in a circle. “Like Fred Astaire,” someone said, and someone else
+said, “Fred _Up_ stairs,” and so it became Fred. And that name, in turn,
+inspired the name of the spinoff doohickey that engineers loved to ride down
+the halls of DEKA. Who dances with Fred? Ginger, of course.
+
+In 1995, Kamen sold Fred, the wheelchair, to Johnson & Johnson, and turned his
+attention to Ginger. Ginger became its own secret department at DEKA, its
+engineers given resources and attention that made them the envy of other
+employees. This time, though, Kamen didn’t want to sell the idea to some big
+company and move on. No, Ginger was too important. Ginger could solve the
+problem of city travel. It could reduce our dependence on fossil fuels and
+free our cities from the scourge of the automobile. It could change the world.
+Dean Kamen planned to manufacture and sell the product himself.
+
+DEKA filed patent after patent for Ginger’s technology. Kamen hired
+procurement experts, software developers, manufacturing engineers, even a
+small marketing team. Eventually Kamen would lease a 77,000-square-foot
+factory in Manchester that would, he planned, be able to push out 6,000
+Gingers a week. Meanwhile, Ginger’s team worked to transform the janky
+prototypes, made of plastic wagon wheels and store-bought circuit boards, into
+a product someone would buy. An industrial designer preached the gospel of
+elegance and simplicity, pushing the engineers to make things smaller, more
+efficient, more sleek. The code was written, rewritten, refined. Safety was
+paramount: Kamen worried that one high-profile breakdown would sink the
+project, and the engineers at the company used what they’d learned about
+making FDA-regulated medical devices like the dialysis machine to build
+something that could survive anything a rider could throw at it. Kamen even
+hired a lobbyist to begin the process of convincing local and national
+governments that Ginger was safe enough to ride on the sidewalk—that on a
+policy level it would be viewed like a better version of walking, not like a
+bike. After all, said Kamen when he invited Steve Kemper, the journalist, to
+Manchester in 1999: Once people tried a Ginger, “Who’s gonna want to walk?”
+
+Kamen made Steve sign a nondisclosure agreement, then keycarded him into the
+Ginger offices on the top floor of the warehouse. “It was not impressive,”
+Steve remembered. “It was held together with duct tape and there were little
+jagged edges and little toy wheels on it, like from a wagon.” But when he
+stepped onto Ginger and rode it, “it was like a magic carpet.”
+
+Everyone I talked to about the Ginger remembered their wondrous first ride.
+Kamen counted on it. He knew that everyone got this dopey grin once they
+started zooming around. That was when Kamen knew he had his hooks in you. He
+used the same technique on Steve that he was already using on potential
+manufacturing partners, employees he was trying to lure to Manchester, and,
+most importantly, investors. “And then he’s trotting alongside you, still
+pitching,” Steve recalled. “ ‘This is Ginger, people are going to be Gingering
+to the store, Gingering to work, Gingering to the subway. It’s going to be a
+verb. It’s going to be a new concept, a new verb, a new world.’
+
+“Basically, I drank the Kool-Aid,” Steve said, chuckling. “He is the most
+incredible salesperson you’ll ever see in your life. I saw him sell everybody,
+and he sold me for sure.”
+
+Kamen told Steve that he thought the creation of Ginger was so momentous that
+someone ought to write a book about it, and offered to pay Steve to do it.
+Steve said no—but that, as a journalist, he’d write the book if Kamen gave him
+total access and total creative control. He’d write it on spec, until he could
+find a publisher.
+
+That’s when he emailed me.
+
+At the end of our phone call with Steve, Rafe and I walked out to pick up
+lunch at a Cajun sandwich shop we both liked. Steve’s book seemed so exciting,
+and so impossible. But Rafe thought it was worth pursuing, and he told me he
+thought I should be the book’s lead agent. I emailed Steve and told him: Keep
+reporting, and we’ll figure out how to sell this thing. Somehow.
+
+“You just had a real passion for this,” Rafe said when I talked to him this
+spring. My old boss is still an agent, his one-man shop acquired by ICM. “We
+were doing it together, but you were taking the lead.” Rafe had high hopes for
+me at the agency, he told me, and saw me not just as an assistant but as a
+full-fledged agent in waiting. “The question was, does this person have the
+sensibility—intellectual and business—to, you know, elevate to being an agent?
+And I thought you had all those qualities.” He paused. “And, I don’t know, for
+some reason you took a different path.”****
+
+Through 2000, Steve Kemper visited DEKA two days a week, observing the
+engineers hard at work and attending every major investor meeting with Kamen.
+Meanwhile, out on the West Coast, everything was falling apart. The dot-com
+bubble was popping. The Nasdaq reached its highest level in March, and from
+then on dozens of web companies saw their fortunes plummet. Take Pets.com,
+which in January aired an expensive Super Bowl ad, in February launched a
+disappointing IPO, and by November was declaring bankruptcy. In the same
+magazines and websites that had breathlessly touted these companies as the
+businesses of the future, commentators suddenly scoffed at the fact that
+anyone had ever believed in them, said Margaret O’Mara, a historian of Silicon
+Valley and the author of [_The
+Code_](http://www.amazon.com/dp/0399562184/?tag=slatmaga-20). “Of course,
+there’s a lot of rather gleeful, you know, ‘Oh, you guys got too far out over
+your skis,’ ” she said. “It turns out it’s really hard to sell dog food on the
+internet.” The employees who’d moved to the Bay on the promise of stock
+options contributed rumors and gripes to a website called Fucked Company and
+watched their Potemkin fortunes disappear.
+
+Kamen had always taken a dim view of the dot-com boom. “He thought it was a
+ridiculous waste of talent and money, compared to engineering,” Steve said.
+“You couldn’t see what the invention was, you couldn’t touch it.”
+
+But as the titans of Silicon Valley started looking for new projects to invest
+in, Kamen, despite his disdain, started turning to them. Why? He needed money.
+By 2000, DEKA had been working on Ginger for five years, and Kamen was burning
+through a half-million dollars of his own money each month. R&D is expensive,
+especially when you make your engineers chase every brilliant idea you have in
+search of the most elegant solution. With the help of a Harvard Business
+School professor named William Sahlman and the investment firm Credit Suisse,
+Kamen had scraped together $30 million or so, but he needed more.
+
+It started with John Doerr, the legendary head of the venture capital fund
+Kleiner Perkins. Doerr had been an early investor in Amazon, and after Kamen
+pitched him at a TED conference, he flew his private jet out to Manchester. As
+soon as he rode Ginger, he got that same dopey grin. The next day he was
+sending Kamen mash notes over email—“Thanks for the scope of your ambition,
+which is breathtaking, and inspirational”—and pressing to let him invest more
+and more in Ginger. In the end, Kleiner Perkins pledged $38 million for about
+7.5 percent of the company, and Doerr started calling his rich and famous
+friends.
+
+And that’s how, in the fall of 2000, Steve—who’d thought he was chronicling a
+simple engineering story—suddenly found himself in the ballroom of the Hyatt
+Regency near the San Francisco airport, watching a laughing Jeff Bezos ride
+around on a Ginger and Steve Jobs yell about how if they’d hired real
+designers, Ginger would look so cool it would make people shit their pants.
+Then, Steve recalled, they turned on the team of Ginger employees in the room,
+clearly conveying the feeling that they were rubes whose inexperience and
+idiocy would sink this world-changing product. It was an ambush, Steve
+thought, a way for Doerr to persuade Kamen that what his product needed was
+the Silicon Valley expertise and money that only he could deliver.
+
+In a very short period of time, Kamen went from mortgaging his house to pay
+for Ginger to not only having enough—thanks to the Kleiner Perkins
+investment—but having extremely famous people begging to give him even _more_
+millions of dollars. Jobs alone wanted to invest $60 million and couldn’t
+believe it when Kamen turned him down; Kamen didn’t want to give up that much
+control. Jobs agreed to take a spot on the board in hopes of convincing Kamen
+to let him invest in a second round. Doerr predicted that five years after it
+launched, Ginger would be valued at $5 billion.
+
+But Kamen’s obsession with secrecy was slowing everything down. DEKA couldn’t
+hire enough engineers because Kamen only wanted people who would come to
+Manchester on faith. The marketing guys couldn’t conduct market research
+because they couldn’t tell anyone what the product was. (Kamen belittled his
+marketing team, calling them “the Three Marketeers,” and then never gave them
+the resources to do their job.) At this point, nearly everyone wished Kamen
+would stop being so secretive about Ginger so they could begin to get the
+project out the door. Twice, one of Kamen’s investors said to Steve Kemper, “I
+think what we really need is a sexy leak.”
+
+But Kamen wasn’t having it. That inventor’s paranoia again—he was convinced
+that if Honda or Ford got wind of Ginger, they’d build their own and release
+it before he could. He was holding on tight. But Ginger was about to be an
+impossible secret to keep.
+
+When Steve Kemper told Rafe Sagalyn and me about that West Coast ambush, we
+all agreed it was time to sell the book. Steve had been reporting at DEKA for
+a year and a half, and he needed to know that he was going to see a return on
+his time. Suddenly this was no longer a mysterious invention that some
+reporter insisted was going to be big—it was a product that the biggest names
+in the business were fighting to throw money at. It was _news_.
+
+Steve wrote up the hotel meeting by SFO as a sample chapter, carefully
+excising details of what the invention was. “When the doors were locked,” the
+chapter read, Kamen “opened the duffels and the boxes, removed some
+components, and used a screwdriver and hex wrenches to assemble two Gingers.
+He finished in ten minutes, turned one on, and [sorry, blacked out].”
+
+The chapter was funny, dishy, and canny. Now it was up to me to persuade
+publishers to take the risk of buying a book about a secret technology, even
+though Steve couldn’t tell them what it was—even though he hadn’t even told
+_me_ what it was. So Steve and I came up with a book proposal. I still have a
+copy. It’s really good. It includes that juicy sample chapter, but it’s set up
+by a series of ginned-up emails between me and Steve: me playing the doubting
+Thomas, and him convincing me, over time, that this invention was real and
+would indeed change the world.
+
+> To: Steve Kemper
+>
+> From: Dan Kois
+>
+> December 20, 1999
+>
+> Sorry for the delay. I’ve been swamped, and besides, I’m not sure what to
+> say to you. This is very frustrating. All this dramatic vagueness. Kamen is
+> just too secretive. You act like he invented the wheel. Does he have
+> investors? What do they say? Or is that off-limits too? Give me something
+> concrete to tell publishers.
+>
+> **=======**
+>
+> To: Dan Kois
+>
+> From: Steve Kemper
+>
+> Date: March 25, 2000
+>
+> Dan—
+>
+> My turn to apologize. I was gone in January and have been catching up.
+>
+> No, Kamen didn’t invent the wheel, but people far smarter than I who have
+> seen Ginger believe that people will talk about Kamen the way they once
+> talked about Henry Ford. John Doerr thinks Kamen will do for the 21st
+> century what Ford did for the 20th, and he calls Kamen a combination of Ford
+> and Edison.
+
+“Smoke and mirrors,” Steve said when we discussed it this spring. “I just had
+to make it so enticing that instead of an editor saying, ‘Well, this is crazy,
+I don’t know what I’m buying,’ they’d say, ‘This is crazy, and how do I get in
+on it?’ ”
+
+**I emailed the proposal to editors with a note reminding them how secret it
+was._Please don’t share_ , I said.**
+
+By New Year’s 2001, we had the entire package ready to go. Rafe made the list
+of editors we’d submit the book to, but the submission was going to come from
+me. “You taking the lead made it even more perfect,” Rafe said, “because you
+weren’t a known entity to these editors. It was perfectly in theme with what
+we were doing.”
+
+Not only was I an unknown to all the editors I was sending the proposal to; by
+this point I didn’t even live in the continental United States. My wife had
+graduated from law school and gotten a clerkship with a federal judge in
+Honolulu, so we’d just moved to the ground floor of a little house on top of a
+mountain, with a view from [gestures left] Diamond Head to [gestures right]
+Pearl Harbor. For some reason, Rafe let me keep working for him, even though I
+was five time zones behind the East Coast.
+
+So here I was, an unknown agent, on an island in the middle of the Pacific,
+preparing to send this book proposal about a mystery invention out to editors
+I’d never met. At the last minute, Rafe had come up with the title: _IT_.
+Like, just the pronoun _it_. It was so last-minute, we didn’t even tell Steve
+about it.
+
+The day after New Year’s, at 8 a.m. Hawaii time, I sat down in that little
+office and prepared myself. I knew what to do. I’d seen Rafe do it dozens of
+times. I scribbled out a little list of Things to Say to Editors, and I dialed
+a bunch of 212 numbers. When each editor said, “Sure, I’ll take a look,” I’d
+email the proposal with a note reminding them how secret it was. _Please don’t
+share_ , I said.
+
+At the end of the day, after I’d emailed the last editor, I exhaled, drove
+downtown, and met my wife at a bar in Ala Moana for Taco Tuesday. All the
+clerks gossiped about their judges, but I just drank margaritas and smiled
+about this secret thing I was doing.
+
+That night, while I was asleep, I heard the office phone ringing, and when I
+got up the next morning I already had messages on my answering machine. _Holy
+shit_ , I thought. _It’s happening_. Most of the responses were from the big
+trade houses—all those 212 numbers—but I’d also sent the proposal to an editor
+named Hollis Heimbouch at Harvard Business School Press, an academic publisher
+of leadership books and business case studies.
+
+“I just remember reading it and saying, _Wow, this is incredible_ ,”
+Heimbouch, now the publisher of Harper Business, recalled. “I’m thinking,
+_Wow, I’d love to publish this_ , and then thinking, _Wow, could we ever
+publish that here_?”
+
+The big publishers were interested, but with a caveat. Editors wanted to be
+able to get out of the deal if, when they learned what IT was, they didn’t
+think it was cool enough. But Heimbouch wasn’t worried about that, she said.
+“I didn’t really care that much about what it was, truthfully,” she said. “I
+just thought, what an amazing opportunity to see that story unfold, the
+process of innovation.” And so just a few days after sending out the proposal,
+we sold _IT_ to Hollis Heimbouch and Harvard Business School Press for
+$250,000.
+
+Two hundred! And fifty! Thousand dollars! I couldn’t believe it. Rafe, of
+course, was focused on how much we _could’ve_ made if only we could have told
+people what the invention actually was. But I was over the moon. Just like
+Rafe always did when he made a big deal, I emailed a bunch of co-agents and
+foreign rights scouts, the people who help agents make translation deals.
+
+Steve, too, was thrilled. His hard work was paying off, and he was going to
+get to tell an incredible story. “That night, I went up to a big banquet at
+Dean’s house,” he said. “I was very excited, and I told Dean about it, and he
+was very excited. And then like three days later, it all blew up.”
+
+“It was this funny hinge moment, between the old and the new,” said Kurt
+Andersen, a founder of Inside.com, the website that broke the IT story. “It
+was suddenly the future.” The mission of Inside.com, which Andersen founded
+with Michael Hirschorn, was to report on the media, entertainment, and
+technology industries with a gimlet eye. “We had this idea of a kind of
+knowing, smart, fun, journalistic _thing_ ,” Andersen told me, “that would
+cover all these worlds in a way that, it seemed to us, neither the trade
+magazines or the New York magazines of the world covered with sufficient
+rigor, closeness, knowledge, knowingness, whatever.” Andersen and Hirschorn
+hired away reporters and columnists from big outlets—the Wall Street Journal,
+New York—“because it was the dot-com era, and we could convince people to
+leave good jobs” for a startup that seemed internet-adjacent, on the promise
+of stock options.
+
+For the first months of its existence, Inside.com struggled to capture the
+attention of general readers. And then in the first days of 2001, an
+Inside.com writer named PJ Mark heard about our book deal and got his hands on
+the proposal for _IT_. On Jan. 9, three days after the deal, the site ran with
+the story, and ran with it big, with a big headline: “What Is IT? Book
+Proposal Heightens Intrigue About Secret Invention Touted as Bigger Than the
+Internet or PC.”
+
+The post broke down the business details of the deal but mostly focused on the
+proposal’s secrecy. “Though there are no specifics in the proposal as to what
+the invention is, there are some tantalizing clues,” Mark wrote. “Is IT an
+energy source? Some sort of environmentally friendly personal transport
+device? One editor who saw the proposal went as far as to speculate—jokingly
+(perhaps)—that IT was a type of personal hovering craft.”
+
+For Steve, the news came via a phone call from a reporter at his local paper,
+the Hartford Courant, asking him questions that could only have come from the
+book proposal. “How do you know these things?” Steve asked. “Oh,” the reporter
+replied, “you don’t know that your proposal’s been leaked?” Compounding
+Steve’s confusion: The reporter kept referring to the invention as “IT,” until
+Steve, who still didn’t know about our title change, asked, “What is IT?”
+
+It was a perfect scoop for Inside.com, and the perfect story for its moment.
+As the dot-com bubble was bursting, here was an actual invention, from an
+_inventor_ , like Thomas Edison or something. “It wasn’t, you know, bits and
+bytes,” said Andersen. “It was this physical _thing_.” The story got picked up
+everywhere: the New York Times, CNN, the Washington Post, the BBC. On _Good
+Morning America_ , a tech bigmouth named Bob Metcalfe claimed he’d seen IT,
+and IT was bigger than the internet. (Kamen, irritated, told Steve he’d never
+shown Ginger to Bob Metcalfe.) On NPR’s _Talk of the Nation_ , Juan Williams
+asked a Wired editor, “So you think it might be some kind of anti-gravity
+device?” It was one of the first genuinely viral stories on the internet, so
+viral they were talking about it on the _news_.
+
+And on the internet, IT was inescapable. Witness this [trapped-in-amber
+artifact](https://web.archive.org/web/20010405055734/http:/50.lycos.com/011601.html)
+of early–21st century virality, the Lycos 50 blog post, a kind of
+proto–trending topics index of what people were searching for on the Lycos
+search engine. IT was No. 4 for the week ending Jan. 13, behind only
+_Dragonball_ , Britney Spears, and Napster. The blogger, Aaron Schatz, wrote:
+
+> This week was a textbook example of how the Internet speeds information
+> distribution faster than anyone can figure out what the information is. … At
+> the beginning of the week hardly anyone had heard of IT or Dean Kamen. By
+> week’s end, IT became more popular than the **NFL** (#6) or **Las Vegas**
+> (#8), and inventor Kamen outpaced **Pamela Anderson** (#16) and **Eminem**
+> (#18).
+
+Inside.com, seeing the splash its scoop made, moved quickly to flood the zone.
+“It was huge for us,” Andersen said. Inside ran a post with Kamen’s offended
+response to the leak, then another post parsing Kamen’s response for clues. It
+ran a post about IT hype, then another post asking if IT was overhyped. And
+Andersen was ready to use the IT story to build his new startup even bigger.
+He and Hirschorn wanted to launch a print magazine to soak up the print
+advertising money that was flowing to anything that even resembled technology.
+They were friends with John Battelle, the founder of the wildly successful
+Industry Standard, a print magazine about internet culture. “It was a weekly!”
+Andersen marveled. “A weekly, and it was _bulging_ with advertising. They
+literally, I think, didn’t have enough editorial content to put between the
+ads.” He laughed. “We figured, we know how to do magazines. And they’re barely
+online, yet they are making a gazillion dollars with a weekly print magazine.”
+
+One of the patent application images that crashed theitquestion.com’s servers.
+U.S. Patent and Trademark Office/Newsmakers
+
+Inside Magazine’s debut issue published in February. On the cover: “WHAT ‘IT’
+IS.” The author of the story, a freelancer named Adam Penenberg, had combed
+domain-name registrations and public patent records, and was positive he’d
+figured out the answer: IT was a hydrogen-powered scooter. “I was on, like,
+every show for a week,” Penenberg told me. “I was on the _Today_ show with
+Katie Couric. I don’t know how many hundreds of interviews I must have done
+that week.”
+
+Dean Kamen hadn’t been careful enough for the new world of the internet. All
+those patents he filed? His inventor’s paranoia backfired. In an earlier time,
+a journalist would have had to do a lot more legwork to dig up those patents,
+but now they were all right there on the patent office’s website.
+
+Penenberg may have basically worked out that Ginger was a scooter, but plenty
+of people didn’t believe it. Or maybe it was just more fun to speculate like
+crazy. Some of that speculation happened on sites like Slashdot, where one
+poster, for example, correctly pegged that the name Ginger was meaningful—but
+then declared authoritatively that IT was a hoverboard, because the Ginger in
+question was the heroine of the animated movie _Chicken Run_ , who is
+convinced she can teach chickens to fly.
+
+But most of the speculation happened on one IT-specific site run by the
+brothers James and Greg Bottorff. The Bottorffs already ran websites like
+Bargainflix.com, a price comparison tool for online DVD sales, and
+PS2Bargains.com. The sites were successful enough that Greg had quit his job
+as a pharmaceutical rep to manage them full time, but nothing prepared them
+for the frenzy that met theitquestion.com.
+
+In its first 24 hours online, theitquestion.com—just a collection of links and
+a message board for speculation and argument—racked up 100,000 hits. About a
+week after it launched, a user found some drawings of a person riding a
+scooter in a DEKA patent application, and the Bottorffs uploaded the images to
+the site. When Time magazine linked to the images, Greg remembered, the
+servers crashed in the middle of the night. “I had to race out to where our
+servers were physically housed,” he said, “and renegotiate our deal.”
+
+Everyone was so hungry for speculation about IT that the Bottorffs started
+being quoted in the media as experts, Greg recalled. “James and I would laugh
+about the fact that, you know, he’s sitting in Cincinnati, I’m sitting in my
+spare bedroom in Raleigh. We have no idea what’s going on. All we did was put
+a board up and now we’re the world experts on this new invention.”
+
+IT even made it onto _South Park_. In the Season 5 episode “The Entity,” Mr.
+Garrison invents a revolutionary new transportation device called IT, which
+gets over 300 miles to the gallon. “We’re going to have to rethink cities,”
+marvels Steve Jobs, echoing our book proposal. In classic _South Park_ style,
+the only wrinkle is that IT is controlled by the rider with four levers shaped
+like penises: one held in each hand, one in the mouth, and one in the anus,
+“to keep the driver in place.”
+
+All of this hubbub felt completely _new_ ,__ a wild confluence of the internet
+and old media birthing something we’d never had before. A print magazine spun
+off from a website that had scoured online patent applications. Venerable Time
+magazine crashing a tiny little fan site because it didn’t bother uploading
+its own images. TV shows making jokes about things they read online. In the
+wreckage of Web 1.0, the new internet was stirring.
+
+To Rafe Sagalyn, a seasoned agent who’d been through plenty of deals, the
+publicity—though unprecedented and poorly timed for a book that wouldn’t come
+out for years—was a thrill. “It was a once-in-a-lifetime thing, without a
+doubt,” he said. “I just think we were smiling all the way.” But the gulf
+between how Rafe remembers the IT feeding frenzy, and how I remember it, is a
+great clue as to why he has had an enormously successful career as a literary
+agent and I have not. Because I was miserable.
+
+Every morning I woke up out there on my island, stressed and anxious. I was
+supposed to be excited, but instead I felt completely in over my head. I
+didn’t know how the story had leaked, but I was sure it was my fault. I would
+go to theitquestion.com and click around the message boards and read
+everyone’s debates about IT. I still didn’t even know what IT was, but reading
+speculation was a way of avoiding all the emails piled up in my inbox.
+
+A lot of those emails were from Steve Kemper, who was still trying to report
+the book, even though Dean Kamen was going crazy because his secret project
+was now front-page news. The company was in turmoil. One employee told me that
+there were news crews parked outside and journalists hanging out in diners
+hoping to overhear a DEKA employee let slip IT secrets. Within weeks, John
+Doerr, seizing on the mess, had convinced Kamen to get rid of his CEO and head
+of marketing. It didn’t matter that the poor guy had never even had a chance
+to test-market Ginger, because Kamen wouldn’t let him show it to anybody. He
+was gone. On the media side, so was Inside Magazine, which Andersen and
+Hirschorn sold in April. By October, the website was gone, too.
+
+Steve had tried to salvage his relationship with Kamen, and his access. The
+day after that first Inside.com post, Steve drove back up to DEKA to explain
+that he hadn’t leaked anything—at least, not on purpose. He didn’t know how it
+had happened. He had spent 18 months at DEKA and in some ways become part of
+the team. On the wall of the Ginger testing room, where all the engineers
+autographed their notable crashes, there was a big hole labeled, in Sharpie,
+_Steve K_.
+
+Those engineers told Steve they were, honestly, glad that Ginger was finally
+out there. But Kamen was beside himself. The inventor told Steve he still
+thought the book was important but the investors wanted to kill it. The
+reporter reminded Kamen that it was _his_ call, not the investors’ call. When
+Steve walked out of the building, he realized he’d forgotten something and
+tried to open the door, but his key card no longer worked. He was out.
+
+The curtain finally came up on the Segway personal transporter in December
+2001, just under a year after the proposal leaked—when Kamen, in his jeans and
+work boots, went on _Good Morning America_. “It’s sort of like putting on a
+pair of magic sneakers,” he told Diane Sawyer. “You think forward, you go
+forward.” Sawyer might have been dubious at first, but she got that same dopey
+Ginger smile as soon as she got a chance to take the Segway out for a spin.
+
+Steve Kemper watched on his TV in Connecticut. _Segway_ was a name he’d never
+heard before, the product of a high-priced naming consultant, the very idea of
+which he’d heard Dean Kamen mock many times. The thing was bigger than he
+thought it would be, bulkier—not the trim, sporty version he’d ridden, but the
+heavier edition made in hopes it would be adopted by institutions. I watched
+on TV at my mother-in-law’s house in Maryland; my wife’s clerkship was over,
+I’d quit working for Rafe, and we were hunting for an apartment in New York. I
+had hoped and wished that IT would be something incredible, something bigger
+and better than the scooter Inside Magazine had predicted. It was not.
+
+Time magazine put the Segway on the cover and [gave seven pages to the
+invention](http://content.time.com/time/business/article/0,8599,186660,00.html).
+In that story, Kamen said the Segway would be to the car what the car was to
+the horse and buggy. Jay Leno [rode out on a Segway to do his _Tonight Show_
+monologue](https://www.gettyimages.com/detail/news-photo/pictured-actor-
+russell-crow-inventor-dean-kamen-and-host-news-photo/670809748) and then let
+the night’s guests, Russell Crowe and Sting, ride them too. The next week, the
+Segway even appeared on [the cover of the New
+Yorker](https://www.google.com/search?q=the+new+yorker+december+2001+osama+bin+laden&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj5kZyv-
+YjyAhV2GVkFHVAtDHQQ_AUoAXoECAEQAw&biw=1268&bih=688#imgrc=Xs4mHtU0BGOohM):
+Osama bin Laden, riding a Segway along a mountain pass in Afghanistan, fleeing
+coalition forces in style.
+
+Dean Kamen watches Russell Crowe and Jay Leno ride Segways on __ Dec. 13,
+2001. Paul Drinkwater/NBCU Photo Bank/NBCUniversal via Getty Images via Getty
+Images
+
+Yet despite this launch to end all launches, the Segway was not a hit. It was,
+of course, a flop. There are plenty of reasons why. For instance, you couldn’t
+even buy one until a year after this big reveal, and when you could, it cost
+$5,000, dooming the Segway to be a plaything for rich people. No one at DEKA
+had ever been told the price point was too high, because no market research
+had ever been conducted. Kamen had spent years believing that price didn’t
+matter—wasn’t it Jeff Bezos who had told him, “You have a product so
+revolutionary you’ll have no problem selling it”? But now, even as Kamen’s
+regulatory team cleared the way with specially crafted legislation allowing
+Segways on sidewalks in dozens of states and cities, no one was purchasing the
+Segways to ride on those sidewalks. Remember when Kamen leased that factory to
+make 6,000 Segways every week? A year after launch, Wired reported that the
+Segway factory was manufacturing not 6,000, not 600, not 60, but _10_ Segways
+a week.
+
+The company had expected that any softness in consumer sales would be made up
+for by corporate and institutional partnerships, with organizations like
+Disney and the U.S. Postal Service. But that never panned out. Even the police
+department in Segway’s hometown, Manchester, ordered only four, and didn’t use
+them much. They were fine for parking enforcement, the department [told a
+reporter](https://www.wired.com/2003/03/segway/), but mountain bikes were
+cheaper and lighter, and they never ran out of juice.
+
+The Segway’s delays, cost, weight, and battery problems all derived primarily
+from one issue: how beautifully engineered, perhaps overengineered, the Segway
+was. The Segway was almost absurdly well-made, with custom components and
+redundancies built into every system to avoid breakdowns and accidents.
+Segways even had two identical motors, attached to two separate batteries,
+just in case something failed. William Sahlman, the Harvard professor who
+helped Dean Kamen find investors and invested himself, told a story that I’m
+going to quote in full, because it so perfectly explains how the Segway was
+too well-made for the market to bear:
+
+> The Segway had a kickstand. So you would get off, you deploy the kickstand,
+> and it would stand there while you went away. That was all terrific, except
+> that they were concerned the kickstand would deploy while you were riding,
+> and that would be quite unfortunate. So they made the kickstand out of a
+> relatively soft plastic so it would break off. So within the first week of
+> anyone owning one of these devices, the kickstand broke. It just—they would
+> lean on it, and the kickstand broke. So you say, well, that’s not a big
+> problem. It’s a little plastic thing, you screw a new one on. Well, it took
+> a torque-measuring wrench, and a degree in engineering from Caltech, and 45
+> minutes to replace the kickstand.
+
+The effect of all this redundancy and extra weight, of course, was to cause
+the batteries to drain quickly—especially considering how early in the
+development of rechargable batteries 2002 was. Ideally, you’d be able to swap
+a drained battery for a fresh one—except, of course, that the Segway’s battery
+compartment was hermetically sealed to make it waterproof. (William Sahlman:
+“You needed a torque-measuring wrench and a degree from Caltech _and_ MIT to
+get the battery out.”)
+
+There was also the dork problem. Riding a Segway felt cool, but it didn’t look
+cool. Niles Crane looked like a dork, riding one on _Frasier_. G.O.B. Bluth
+looked like a dork, riding one on _Arrested Development_. But no one looked
+more like a dork riding a Segway than Paul Blart, the hero of _[Paul Blart:
+Mall Cop](https://slate.com/culture/2020/11/paul-blart-mall-cop-thanksgiving-
+movie-its-official.html)_ , a movie that made $146 million at the box office
+and cemented, more than any other pop culture product, the gooniness of the
+Segway.
+
+Nick Bakay, who co-wrote _Paul Blart_ with its star, Kevin James, said that as
+soon as they saw a mall cop riding a Segway, they basically knew they had a
+movie. Bakay spoke eloquently about what it is that makes a Segway so uniquely
+_un_ cool. “There’s something about the motion,” he said. “It is more
+_graceful_ than threatening.” He laughed. “You know, you put a big man on one
+of those things and you’re halfway to comedy right there.”
+
+This was never what Kamen was envisioning. Back in 2000, Kamen had met with
+Steven Spielberg and tried to convince him that what his upcoming sci-fi
+mystery _Minority Report_ needed, to accurately depict the future, was to put
+its cops on Segways. Kamen wanted Tom Cruise on a Segway. Instead, he got Paul
+Blart.
+
+Paul Blart (Kevin James) cruises the West Orange Pavilion Mall in _Paul Blart:
+Mall Cop_. Columbia Pictures
+
+But by 2009, when _Paul Blart_ came out, Kamen was almost ready to leave the
+Segway behind. The company had gone through nine CEOs, and Kamen was ready to
+sell. The company was bought by a British millionaire named Jimi Heselden.
+Heselden, who made his fortune selling [a brand-new kind of
+sandbag](https://www.hesco.com/) to the military, loved Segways and had big
+plans for the company. All that ended in 2010, when Heselden accidentally
+drove his Segway off a cliff.
+
+According to an inquest, Heselden backed up to make way for a dog walker on
+the trail, lost his balance, and spun out of control. When I asked Steve about
+this story, he sighed, remembering the long hours he spent watching DEKA’s
+product safety team trying to envision every possible dangerous scenario a
+rider might put their invention in. “The machine is not totally foolproof,” he
+said finally, “because fools are so ingenious, as the saying goes.”
+
+The death of the one guy who still loved Segways enough to invest in Segway,
+killed by his Segway, basically seemed to put a cap on the dark comedy of
+Ginger. It was too expensive, it looked doofy, it was cursed. End of story.
+
+But I still think there was one more factor in Segway’s failure. Every once in
+a while, a product comes to market, and the seas part, and everyone loves it
+immediately. Most of the time, though, new products are flawed, and the
+audience doesn’t quite understand them immediately. They wobble, but they get
+the chance to regain their balance. The Segway, despite its ability to balance
+itself, never got that opportunity.
+
+The problem, I think, was the impossible dreams everyone had for IT. When IT
+was a mystery, it was the coolest invention in the world. Once you saw the
+Segway, it was just a scooter. It could never quite recover from that letdown.
+And that’s why I can’t stop thinking that the Segway might still have had a
+chance but for the hype.
+
+For what it’s worth, Sahlman agrees. “There were no possible chances to live
+up to the hype,” he said. “That’s as much hype as you can get about something,
+period, full stop. And so everyone wanted a magic carpet.”
+
+The Bottorff brothers, who were so excited about IT that they built a website
+so popular it sucked bandwidth from their actual moneymaking websites, agree.
+“All these fantasies that ran through your head, and all these amazing
+breakthroughs that were going to revolutionize the world, are now in front of
+you,” James Bottorff said. “But it didn’t eliminate combustion engines. It
+didn’t do half the things that people were speculating on the board.”
+
+And Kurt Andersen, who put IT on the cover of the first issue of Inside
+Magazine, agrees. “This ‘IT’S GOING TO CHANGE THE WORLD’ nature,” he said,
+“that’s pretty easy to fall short of.”
+
+Which led Andersen to a question: “What if we hadn’t done what we did?” he
+asked. “What if it had just been a thing, and it came out, and Dean Kamen did
+it?”
+
+If a 26-year-old dumbass hadn’t accidentally leaked the proposal, who knows
+what would have happened? Because after all this time, I do think the leak had
+a lot to do with how little I truly understood about book publishing … and how
+little we all understood about what the internet was about to become.
+
+Leave aside the obvious-in-retrospect foolishness of swearing editors to
+secrecy, and then sending them the book proposal by email, a medium that
+absolutely invites immediate dissemination. The real problem was what happened
+after the sale, when I did what I thought agents were supposed to do: I sent
+the proposal to book scouts who worked for foreign publishers. But I was
+playacting. I didn’t really understand the way that ecosystem works—that
+scouts trade material back and forth, they gossip, they _share_ , and once
+something enters their world, it’s everywhere. You ask an editor to keep a
+proposal secret, they’ll do it. You ask a scout? You’re basically telling
+them, “Please don’t do the thing that is the whole point of your job.”
+
+Adam Penenberg, who wrote the Inside Magazine cover story, told me as much. He
+got the proposal from a scout, he said, and everyone he knew got it from
+scouts, too, including the Inside.com reporter PJ Mark, who had once been a
+scout himself. “You know, listen, you blew it as soon as you tried to secure
+foreign rights,” he told me. “As soon as you sent that book proposal out, it
+wasn’t secret anymore.”
+
+Once upon a time, it wouldn’t have mattered if a bunch of book scouts and
+their friends knew about this book proposal. But all of a sudden _sharing_
+leapt the bounds of the real world and went online. The internet was
+transforming—into the all-encompassing, media-eating, real-world-changing
+monster we know now—but _we_ were transforming too, collapsing the boundaries
+between the online and the real so that it would eventually become just about
+impossible to distinguish between the two.
+
+When I talked to Steve Kemper this spring, I finally told him the answer to
+the question that had occupied so much of our attention 20 years ago: Who
+leaked the proposal? It turned out it was me, in Hawaii, I said. By accident,
+but I leaked it all the same.
+
+He let me off the hook. “I believed that you guys knew what you were doing,”
+he said. “And it could have happened to anybody. But I see what you’re saying,
+Dan. I mean, you were naïve like I was naïve.” He took a deep breath. “That’s
+what happens to naïve people. They take one in the forehead, you know?”
+
+I stopped trying to be a literary agent not too long after all the Segway
+stuff happened—for a lot of reasons, but in the back of my mind, there was
+always my sneaking suspicion that it was my carelessness that ruined
+everything for Steve. I didn’t want to do that to another author. I eventually
+moved into journalism—in part, I think, because I so admired what I saw Steve
+do. Amid the swirl of speculation and hype and wild promises, there was always
+his sure reporting. Steve did write the book on the Segway. It’s called
+_Reinventing the Wheel_. It’s a very, very good portrait of innovation, and of
+how a promising project can go completely off the rails. Like everything
+having to do with Segway, it didn’t work out the way everyone thought it
+would; DEKA’s lawyers managed to hold up publication just long enough that by
+the time it came out, “the bloom was off the rose,” Rafe recalled. “It got
+good reviews, but the frenzy was behind us, and I think it probably sold fewer
+than 25,000 copies.”
+
+Now, in 2021, Steve just turned in another book, his fourth. This one’s about
+the last U.S. ambassador to Japan before Pearl Harbor. He told me he thinks
+it’s his final one. When I asked Steve what lesson he took from the ordeal of
+the Segway story, he surprised me. “You don’t get many chances at something
+like I got to do,” he said. “Embed yourself with this kind of group of people,
+this kind of main character, and tell that story from the inside—it just
+doesn’t happen. I wish I’d had another opportunity to do something like it
+again.”
+
+Dean Kamen and DEKA are still up in Manchester. I left about a dozen
+voicemails for Kamen’s longtime administrator, I sent word through friends,
+and he never responded. [The company’s still working on big
+projects](http://www.dekaresearch.com/innovations/), like a portable water
+purifier. It’s still trying to make Fred, the stair-climbing wheelchair,
+work—dubbed the iBot, it bombed for Johnson & Johnson because it was [way too
+expensive](https://www.wbur.org/hereandnow/2011/12/26/ibot-johnson-phase). But
+the next time you go to the movies, you might see a different DEKA innovation:
+the Coca-Cola Freestyle machine, that miracle device that mixes flavors into
+your Diet Coke as precisely as Kamen’s first invention, the drug infusion
+pump, delivered medication at carefully calibrated levels.
+
+And Segways? They’re pretty hard to find these days. A few weeks ago, I walked
+over to [Capital Segway](https://www.capitalsegway.com/), one of those
+companies that runs tours of downtown D.C. The clerk—a Segway expert who had a
+very specific complaint about an inaccuracy in _Paul Blart: Mall Cop 2_ —gave
+me a short lesson, put a helmet on me, and sent me out to Ginger around the
+National Mall.
+
+I could feel my dopey grin growing as I zipped across the gravel. I
+understood, finally, why investor after investor lined up to give Dean Kamen
+money, why people believed they would sell 6,000 Segways a week, why Steve
+Jobs declared that cities would architect themselves around this device. It
+felt absolutely remarkable, riding on it: floating 6 inches above the ground,
+propelled forward by a technology I could never understand in a million
+years—a technology sufficiently advanced as to be indistinguishable from
+magic.
+
+When I returned the Segway, I told the guy at the rental place how I’d learned
+about all the incredible inspiration and innovation and work and skill that
+had gone into the Segway, all to make something that cost 10 times as much as
+a scooter and required a lesson from an expert to ride. He said something I
+cannot stop thinking about. “Yeah,” he said, “a bunch of really smart people
+got together, but you needed one dumb person in the room to keep things on the
+level.”
+
+Capital Segway still receives product support from its parent company, but
+Segway, now owned by the Chinese company Ninebot, is no longer focused on the
+personal transporters. In fact, it doesn’t make them anymore. Instead,
+Segway—which declined to comment for this story—now manufactures a significant
+number of the rental scooters, the Birds and the Limes, that you can see
+zipping around every American city.
+
+In fact, Segway’s children are everywhere: scooters, electric-boosted
+skateboards, all the new backbones of the short urban commute. Benge Ambrogi,
+the longtime DEKA engineer, noted that there’s a picture of a single-wheeled
+hoverboard, the kind you actually see cool people riding around cities, in one
+of DEKA’s old Ginger patents. The DEKA guys scoff at these cheaper, flimsier
+transportation devices. “These hoverboards and stuff, I mean, I wouldn’t get
+on one,” said Mike Ambrogi, Benge’s brother, who also worked at DEKA for
+years. “One hundred things could go wrong that could put your face right in
+the pavement. You see those batteries, they light on fire because they weren’t
+very well-designed. That would never happen with a Segway battery.”
+
+But of course, astronomically more people own and ride cheap scooters and
+junky hoverboards than ever owned or used a Segway. Heading back to my office,
+just walking on my plain old feet, I thought about how the Segway was an
+elegant work of genius when what the world really needed was a good-enough
+piece of crap. Maybe, in the end, I didn’t kill the Segway. It might have had
+a chance, if only I hadn’t been the only dumb guy around.

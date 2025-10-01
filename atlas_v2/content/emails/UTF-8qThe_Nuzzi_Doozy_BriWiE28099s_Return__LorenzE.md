@@ -1,0 +1,150 @@
+# =?UTF-8?q?The_Nuzzi_Doozy,_BriWi=E2=80=99s_Return_&_Lorenz=E2=80=99s_New_?=
+
+**Source**: inputs/saved_emails/=UTF-8qThe_Nuzzi_Doozy,_BriWi=E2=80=99s_Return_&_Lorenz=E2=80=99s_New_=
+**Type**: email
+**Created**: 2025-08-25T02:54:04.800522
+
+---
+
+=UTF-8qWorld=_Thu,_03_Oct_2024_01-30-27_+0000_19250000cd08f499.eml
+
+Greetings from Los Angeles, and welcome back to In the Room, my twice-weekly private email on media and media people. If you missed last night’s Walz-Vance dance on CBS—a paradigm of Midwestern civility, like Norm Gunderson and Jerry Lundegaard running for the local school board—don’t worry, we’ve got you covered. In the wee small hours, Puck superfriends John Heilemann, Peter Hamby, and yours truly reunited again to debrief on the highlights and lowlights, and all their implications (or, as is inevitably the case in a V.P. debate, nonimplications).
+
+ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+
+In The Room ( https://puck.news/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Greetings from Los Angeles, and welcome back to In the Room, my twice-weekly private email on media and media people. If you missed last night’s Walz-Vance dance on CBS—a paradigm of Midwestern civility, like Norm Gunderson and Jerry Lundegaard running for the local school board—don’t worry, we’ve got you covered. In the wee small hours, Puck superfriends John Heilemann, Peter Hamby, and yours truly reunited again to debrief on the highlights and lowlights, and all their implications (or, as is inevitably the case in a V.P. debate, nonimplications). Listen here ( https://puck.news/podcast_episode/christ-have-mercy-puck-superfriends-chop-up-the-vp-debate/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+In tonight’s email, the official in the room and at the table backstory of how Brian Williams and Jonathan Wald hatched their Amazon election special over chicken parm at Elio’s. Plus, some big scoops on who else will be participating in this first-of-its-kind broadcast, and what it may portend for the future of news on streaming.
+
+Also mentioned in this email: Olivia Nuzzi and Ryan Lizza, Ted Sarandos, Mark Thompson, Mike Hopkins and Albert Cheng, Hoda Kotb, Glenn Weiss, James Carville, Taylor Lorenz, Andy Lack, Don Lemon, Chris Licht, Cesar Conde, Kara Swisher, and Bruce Springsteen.
+
+But first…
+
+* The Nuzzi doozy: The sad, pathetic, creepy, completely mesmerizing Olivia Nuzzi-Ryan Lizza sob story took yet another sordid turn this week after the New York political journalist filed a temporary protection order against her ex-fiancé in which she accused him of harassment, blackmail, and an attempt to “destroy” her “life, career, and reputation” by publicizing personal information. In brief, Nuzzi alleges that Lizza stole one of her devices and hacked into others to surveil her, then alerted New York to “damaging information”—the “demure” nudes she sent to R.F.K. Jr., presumably—that she claims may have been doctored. In a statement, Lizza “emphatically” denied those allegations and said he will defend himself against them “vigorously and successfully,” while
+noting, “I am saddened that my ex-fiancée would resort to making a series of false accusations against me as a way to divert attention from her own personal and professional failings.”
+
+The Superior Court of D.C. granted Nuzzi’s protective order on Tuesday, ordered Lizza to “immediately cease using any illegally obtained information,” and granted Nuzzi’s request to have police officers accompany her when she goes to retrieve her belongings from Lizza. Meanwhile, Lizza has taken a leave of absence from Politico while they conduct their own internal investigation. (Inarguably, he too has a conflict of interest here, and probably has for some time—and he, too, should have told his bosses sooner if he had an inkling that he was covering a candidate who was engaged in a digital relationship with his girlfriend.) Nuzzi has also filed her accusations with the F.B.I., though they have not commented on the matter.
+
+As I first reported back when
+this scandal broke, Nuzzi’s camp started quietly advancing these accusations against Lizza the moment the news of her Kennedy situationship became public. As I noted then, there are certain things only certain people know for sure—though, presumably, these formal investigations will provide greater clarity and expose at least one of these two journalists as a demonstrable liar.
+
+Outside the courts, Nuzzi remains the subject of New York’s own internal investigation, which will determine whether she gets to keep her job after lying to her editors about the Kennedy matter and continuing to cover a campaign in which she was obviously emotionally invested. That investigation is ongoing, though it seems increasingly likely that New York and its parentco, Vox Media, may simply be going through the motions. In any event, the blast radius from this whole saga continues to expand outward, with no end in sight.
+* Some personal news
+(Taylor’s version): Elsewhere in the nation’s capital, The Washington Post has severed ties with Taylor Lorenz after determining that she misled them about an Instagram post on her account in which President Biden was labeled as “a war criminal.” The Post conducted a review of the matter and, though its findings have not been made public, I can confirm that the paper determined Lorenz violated the paper’s standards and had no desire to continue employing her. In a statement, the Post very delicately stated that Lorenz had “resigned to pursue a career in independent journalism.”
+
+This is not Taylor’s version, of course. On Tuesday, Lorenz announced that she was leaving the Post to launch her own substack, User Mag, where she would cover technology “from the user side” and examine power dynamics on the internet. “I just wanted to get out of legacy media,” Lorenz told The Hollywood
+Reporter, which accepted that narrative. In a statement to me, Lorenz called my framing of her exit “an extremely stupid attempt to manufacture controversy.” She added: “A big part of why I decided to go independent and found User Mag is so that I can speak directly for myself and not have to deal with bad-faith anonymous ‘sources’ trying to smear me in the media.”
+
+* Mark Thompson’s magic wall: CNN has finally launched its paywall, charging users $3.99 a month after they read a certain number of free articles. (Reuters also launched a paywall this week, at $1 a week.) In addition to unlimited access to the site, CNN Digital chief Alex MacCallum said subscribers would get access to “exclusive election features, original documentaries, a curated daily selection of our most
+distinctive journalism, and fewer digital ads.”
+
+This is a step in the right direction, though one hopes it’s not too little, too late. (Alas, it almost certainly is…) The product MacCallum describes sure feels a lot like the consumer subscription product she and her former colleagues had tried to create nearly three years ago with CNN+. Of course, the advantage of doing that then was that you could build the nascent subscription business alongside a still-robust linear product. Now, CNN is having to wind down the legacy asset to build the new business. Tall order.
+
+And now, to the main course…
+
+Anchorman ( https://puck.news/does-brian-williams-return-offer-a-future-for-cable-news/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Anchorman ( https://puck.news/does-brian-williams-return-offer-a-future-for-cable-news/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Brian Williams’ latest return to television—well, to streaming—is not only a first step toward a possible career revival, but also a potential harbinger of the future of cable news.
+
+DYLAN BYERS ( https://puck.news/author/dylan-byers/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+DYLAN BYERS ( https://puck.news/author/dylan-byers/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Earlier this year, on a brisk February night in New York—so many eons of media cycles ago—I found myself sitting down to dinner at Elio’s, the swell and storied Upper East Side red sauce refuge, with Brian Williams. By then, the well-kept newsman had been in the wilderness for more than two years: idling around his beach house in Bay Head, volunteering at the nearby fire station, traveling with Springsteen, and entertaining advances from friends and strangers who wanted to know when his familiar visage might grace their television screens again. That night, the entreaty came first from the bartender, then from a nearby couple. And, in truth, that’s why I was there, too. When Williams signed off from MSNBC’s 11th Hour, in late 2021, he’d promised “to pop up again somewhere.” Where, I wanted to
+know, and when?
+
+Indeed, Williams’ third act has been an evergreen preoccupation ( https://puck.news/the-brian-williams-guessing-game-begins/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) among media insiders amid the industry’s broader transformation. In many ways, Williams was the nation’s last truly iconic news anchor: a natural broadcast talent, Brokaw disciple, and self-described institutionalist whose Brahminesque baritone embodied the news much the same way Al Michaels’ outerborough nobility embodied the game of football. (I grew up in an NBC household, obviously.) After being driven from the Nightly News due to his helicopter embellishment scandal—humiliating then, positively quaint now—Williams stuck it out at MSNBC long enough to write a second act as
+a more personable, lower-profile institutional authority in late night cable, an after-hours oasis from his network’s Squad-inflected liberal orthodoxy.
+
+Of course, the golden era Williams grew up in was already a distant memory by then, and the demand for a classic anchorman of his ilk was disappearing, at least at his price point. Before his contract came up in 2021, I’m told, then-newish NBC News Group chairman Cesar Conde declined to offer him a raise—a financial austerity measure that presaged Hoda Kotb’s recent pay cut and the impending salary realignment ( https://puck.news/what-hoda-kotbs-today-show-departure-means-for-the-star-anchor-era/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) now transforming the industry.
+
+After nearly 30 years at
+30 Rock, where was Williams supposed to go? As I reported at the time, then-CBS News president Neeraj Khemlani made multiple attempts ( https://puck.news/cbs-news-blues/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to lure him to the network, even indelicately floating Norah O’Donnell’s job as anchor of the Evening News, or perhaps a spot on Sunday mornings. (Good passes on Williams’ part, both of them.) Chris Licht and Mark Thompson, the past and present C.E.O.s of CNN, also made overtures, with the former offering him any hour on the schedule even if it meant displacing one of the network’s marquee talents. (Another reason everyone despised Chris.)
+
+Presumably, Williams had no desire to return to the corrosive nightly news grind at a lower-rated network, much less if it meant stealing someone’s chair.
+Friends wondered if he might wind up with another 11th Hour-style show, or even an actual late night variety show, on a streamer like Netflix or Apple or HBO. Jon Stewart had done it. Letterman, too—with varying success. Of course, no one expected him to test the independent YouTube-X-Insta hustle that Don Lemon is currently pursuing.
+
+My Dinner with Brian
+
+Shortly after arriving at Elio’s, Williams and I were joined by Jonathan Wald, the veteran news producer who had overseen Williams’ 11th Hour while serving as MSNBC’s programming and development chief. A former E.P. of the Today show, Wald’s own three-decade career overindexed on marquee talents who would be forced to navigate life after broadcast, and who have since come to rely on his counsel. Before MSNBC, Wald had worked at Jeff Zucker’s CNN as Lemon’s E.P.—after our dinner, Wald ventured north to watch Lemon interview Kara Swisher at the 92nd Street Y—and, before that, as E.P. for Piers Morgan. Wald left NBC shortly after Williams, and the two inevitably spent a fair amount of their free time batting around ideas for Williams’ third act, none of which ever stuck. (I later learned that
+Wald had tried to encourage Williams to leave NBC earlier, in the summer of 2020, to seek a deal with Netflix or HBO. Alas.)
+
+Over the famously off-menu chicken parm, Williams, Wald, and I discussed the pitiable state of television news, its inexorable decline, and inevitable economic realignment. Would CNN’s highly anticipated pivot to digital be able to sustain all those afternoon and primetime anchors making millions to service an average audience of just hundreds of thousands? Inevitably not. And yet, how could a network like CNN or NBC be expected to program breaking news events or big political nights without those talents?
+
+Wald proffered an unorthodox idea: What if you paid the Anderson Coopers and Jake Tappers less money to work less, freeing them up to pursue extracurricular projects while keeping them on hand for the big news nights, like an election, that really mattered to the brand and
+business. It was imperfect, Wald conceded, perhaps implausible, but not totally irrational. After all, MSNBC had just paid Maddow to work less, on Mondays and during the big news events. (Sure, they’d paid her more to work less, but whatever.)
+
+Suddenly, Wald lit upon another idea. “You could do that,” he said to Williams. “Election Night in America With Brian Williams. One night only.” It would require some investment, sure, but they wouldn’t need to stand up a newsroom or any newsgathering infrastructure. They could simply put Williams behind a desk in a studio, enlist a small team of expert analysts who weren’t already tethered to contributor contracts elsewhere, program around the returns coming out of other networks—almost like an NFL RedZone for Election Night—and distribute it through a streamer. Williams’ interest was piqued by the idea; if memory serves, he likened it to Sinatra’s one-night-only event at the
+Garden.
+
+The Pitch
+
+Fittingly, many of Williams’ most pivotal career moves have been hatched over white-tablecloth Italian meals—indeed, Andy Lack first pitched him ( https://puck.news/the-brian-williams-guessing-game-begins/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) on the post-Choppergate MSNBC redemption effort some 24 blocks south, at Canaletto. And yet, Wald’s idea seemed to hinge on the uncertain premise that streamers like Netflix and Amazon and Apple actually had any interest in live news. Wald acknowledged as much: In order for a streamer to want it, he said, they would have to embrace the idea as their own and be willing to withstand the slings and arrows that come with live news: the
+uncertainty, the scrutiny, etcetera. To date, streamers have wanted nothing to do with news. And yet, those same streamers once claimed to have no interest in live sports, then they went and got in bed with the NFL (and NBA, and MLB, and MLS).
+
+Over the summer, Williams’ agents at CAA floated the idea to Netflix’s Ted Sarandos, who predictably expressed zero interest in news or news-adjacent programming. They then went to Amazon Prime Video chief Mike Hopkins and his V.P. Albert Cheng, who seemed to be more intrigued by the idea. In early August, Williams and Wald flew to Los Angeles to meet with the two executives at Amazon’s new state-of-the-art virtual soundstage in Culver City, which is home to the largest LED wall stage in the U.S., and convinced them that the new venue could yield all sorts of programming innovations, including their Election Night special. Hopkins and Cheng stressed the importance of a broadcast that was
+politically down the middle—easy enough for an institutionalist like Williams—and Amazon and CAA got to work negotiating the terms of the deal.
+
+As I reported ( https://x.com/DylanByers/status/1840006044891726010?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Saturday, that deal is now effectively done. On November 5, Williams will anchor the Election Night special he and Wald first conceived of some seven months earlier. I can also now report that they’ve enlisted Glenn Weiss and Ricky Kirshner, the Emmy-winning production duo behind myriad Oscars and Tonys ceremonies, Super Bowl halftime shows, Kennedy Center Honors, and presidential conventions and inaugurations. They will help produce the show with Wald, who will serve as executive producer and showrunner. I’m also told that Williams and Wald have commitments
+from some notable political commentators, including veteran Democratic strategist James Carville, who will join Williams’ broadcast exclusively, forgoing any invitations from his usual suitors at CNN and NBC.
+
+Naturally, the Williams Election Night special has ignited speculation about Amazon’s ambitions in live news. At present, executives there are stressing that this is merely a one-off, with no newsroom infrastructure, no decision desk, etcetera. And, indeed, it may be a one-night-only affair.
+
+But it’s also not hard to see this as a penny ante that allows Amazon, and other streamers, to consider future innovations in the news space. It’s also hard to ignore that the moment the broadcast begins, it will be available to an audience of some 200 million Amazon subscribers globally—more, in fact, since the special will not be behind the paywall.
+
+You can’t blame the economy’s largest technology companies for laughing at the
+investment that media businesses have made in news-gathering—the capex, the sunk costs, unions, security, newsrooms, etcetera. But you can also see the appeal in reshaping the molecular unit of the industry. Amazon, for their part, doesn’t want to create a news business. Instead, they want to stand up programming for their audience on high-density news nights. And Williams seems like he’s game to take the risk for his third act.
+
+FOUR STORIES WE’RE TALKING ABOUT
+
+Win, Lose, or Drahi ( https://puck.news/what-is-patrick-drahis-plan-for-sothebys/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Win, Lose, or Drahi ( https://puck.news/what-is-patrick-drahis-plan-for-sothebys/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Revealing the anxieties percolating through Sotheby’s.
+
+MARION MANEKER
+
+Russiagate Revisited ( https://puck.news/can-the-justice-department-stop-foreign-election-interference-it-can-try/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Russiagate Revisited ( https://puck.news/can-the-justice-department-stop-foreign-election-interference-it-can-try/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Discussing the extent of U.S. election meddling with Matt Olsen.
+
+JULIA IOFFE
+
+Bettman’s NHL Fantasies ( https://puck.news/nhl-commissioner-gary-bettman-on-rsn-woes-new-markets/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Bettman’s NHL Fantasies ( https://puck.news/nhl-commissioner-gary-bettman-on-rsn-woes-new-markets/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A candid conversation surrounding the league’s media strategy.
+
+JOHN OURAND
+
+Another Lionsgate Flop ( https://puck.news/can-lionsgate-recover-from-megalopolis-an-epic-run-of-mega-flops/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Another Lionsgate Flop ( https://puck.news/can-lionsgate-recover-from-megalopolis-an-epic-run-of-mega-flops/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+On the latest woes for the ‘Megalopolis’ distributor.
+
+SCOTT MENDELSON
+
+swash divider
+
+Puck ( https://puck.news/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQs
+page ( https://puck.news/faq/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact
+us ( fritz@puck.news?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/global-unsubscribe/?subscription=in_the_room&delivery_id=dgT2xgYDAKvRKqrRKgGST_-0RUynZaije2xdS5s=&utm_campaign=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Puck is published by Heat Media LLC. 227 W 17th St New York, NY 10011.

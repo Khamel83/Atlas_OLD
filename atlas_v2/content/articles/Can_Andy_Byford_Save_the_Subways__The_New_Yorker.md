@@ -1,0 +1,236 @@
+# Can Andy Byford Save the Subways? | The New Yorker
+
+**Source**: https://www.newyorker.com/magazine/2018/07/09/can-andy-byford-save-the-subways
+**Type**: article
+**Created**: 2025-08-13T16:32:14.439129
+
+---
+
+title: Can Andy Byford Save the Subways? | The New Yorker
+source: https://www.newyorker.com/magazine/2018/07/09/can-andy-byford-save-the-subways
+date: 2025-08-13T16:32:05.797425
+tags: []
+---
+Cuomo, like most of his predecessors, not to mention de Blasio, is too canny
+to want to be the face of the M.T.A. Byford, on the other hand, is happy to be
+out front, fully identified with the subways and buses and fully accountable.
+When he took the job, Cuomo asked him, “Are you sure you’re up for this?” He
+was. As he told me, with a grin, “I will give it a red-hot go.”
+
+Down the hall from his office, Byford had commandeered a small, windowless
+“war room” in which to concentrate his thinking. The furniture was minimal,
+the lighting bright, and the walls, made of whiteboard, were covered with
+lists, charts, arrows, boxes, job titles, question marks, and exhortations in
+red and black and blue and green Sharpie. “I’m determined to change the
+structure of the organization, make it more lean and decisive,” Byford said,
+pointing at an ornate flowchart with numerous inscrutable acronyms. “I want to
+get it down to eight levels between the president and the front-line worker,
+allow for lateral movement, career advancement. You see?” I did not see. He
+directed my attention to a large planet labelled “Customer,” which was being
+orbited by boxes bearing “Capital” and “Ops Support” and other important
+cargo. “It’s a customer-centric continuous-improvement model,” he said.
+
+Byford’s first hire in New York was for a position he created: chief customer
+officer. Sarah Meyer, who is thirty-four, came from Edelman, the global
+communications firm, and took a pay cut to join N.Y.C. Transit. She’s a native
+New Yorker, and the brick-and-mortar challenge appealed to her. “It’s real
+people,” she said. “They need to get to work.” Meyer rides the subways and
+buses, looking for annoyances, such as incomprehensible signage. If she has to
+ask what B/D means (“both directions”), then it should be spelled out. She’s
+having “Out of Order” signs made to use on rest rooms and MetroCard vending
+machines, replacing the endemic hand-scrawled notes. The subway’s Lost and
+Found turns out to be itself hard to find; she located it in Penn Station,
+behind a set of gates. “We’ll move it,” she said. “Make it easier. But it’s
+amazing what’s in there. Laptops, cell phones. I can’t believe how much cash
+is left in trains. Last week we thought we had an organ. It turned out to be a
+biohazardous spit sample.”
+
+Much of Meyer’s work takes place online, where riders blow off steam. A
+typical tweet, from @TotoroVSBatman, on May 31st: “I want the #mta to stop
+thanking me for my patience. I’d prefer if they just told me to go fuck myself
+. . . because that’s what they really mean anyway.” It’s true that Meyer and
+her colleagues do more than their share of thanking and apologizing. But, she
+said, “the main thing is to explain things clearly and quickly, and to make
+sure the tech is working.”
+
+Byford wants everybody, customers and staff, to imagine a big sign hanging
+across the whole system: “Under New Management.” For seen-it-all New Yorkers,
+that’s a tough sell. As Byford travels the city—introducing himself to train
+crews, bus drivers, tower operators, mechanics—he’s trying to fire people up.
+Some of his impromptu pep talks seem to delight front-line workers, others not
+so much. In a lunchroom for drivers at the Mother Clara Hale Bus Depot, in
+Harlem, he bombed with a sparse crowd of dudes who just wanted to get back to
+their backgammon. Byford, unfazed, headed into the next room, where a general
+supervisor of transportation gave him a huge smile. “Where’d you start?” he
+asked her, a habitual question of his. Bus operator, she said. Twenty-two
+years ago. “Great!” They bumped knuckles. Byford often gets quizzical looks
+from employees when he talks about “this company.” The looks seem to say,
+“What company? I thought I worked for the M.T.A.”
+
+The M.T.A.’s public board meetings, held each month, can be slightly rowdy.
+Byford’s first meeting came four days into the job, and he was greeted by
+protesters from Rise and Resist, a group that, among other things, advocates
+for people with disabilities. They presented him with a framed map of the
+subway system, with blue marks on the stations that are wheelchair-
+accessible—those amounted to fewer than one in four—and invited him to hang
+the map in his office. Byford was enthusiastic. He gave an upbeat speech about
+a “top-to-bottom modernization of every aspect of what we do.”
+
+Some weeks later, Byford met in Times Square, at dawn, with three activists
+from Rise and Resist. They had offered to give him a tour of the subway from
+their perspective. The idea had alarmed some of his colleagues. He told me,
+“People at the office said, ‘They’re militants! They’re suing us!’ That’s the
+wrong attitude. I don’t want to call it ‘hand-wringing,’ but . . .” The
+meeting spot was a subway entrance on the south side of Forty-second Street.
+Three women appeared. April Coughlin, a _SUNY_ New Paltz professor, was in a
+wheelchair. The others were Jennifer Bartlett, a poet who has cerebral palsy,
+and Jessica Murray, a doctoral student at City University. The area around the
+street-level elevator was immaculate and smelled of new paint. The activists
+sensed a setup. “I think you’re right,” Byford said. He made inquiries. In
+fact, the door frames of the Seventh Avenue entrance had been painted just
+hours before. “People can see into my calendar,” Byford said ruefully. “I
+didn’t know I had that much power. Tell you what—you set the route, so you
+won’t think we put all the elevators right.” That suited everyone. First,
+though, Bartlett wanted to point out that the button for opening the
+wheelchair-access gate to this station was around a corner, with no sign.
+Also, this very elevator had been out of service several times that week.
+
+On the 7 train to Grand Central, the activists called attention to the gap
+between the train and the platform, which is problematic for a wheelchair.
+“That won’t do,” Byford said. “We can get rubber fill-ins for those horizontal
+gaps. For vertical gaps, which vary between lighter and heavier trains, we can
+install auto-adjustment. It’s expensive, but necessary.”
+
+Coughlin was paralyzed below the waist in a car accident when she was six.
+Radiating self-possession, she told horror stories of broken elevators, broken
+intercoms, of having to be carried up flights of stairs by kind strangers.
+“Last week, I rolled into an elevator and realized too late that the floor was
+covered with excrement,” she said. “My wheels were coated. I use gloves, but
+come on.” Broken elevators were the bane of her route planning, she said.
+“Sometimes I just give up and push fifteen or twenty blocks to my destination.
+I’ve become a frustrated rider.” She smiled, not quite beatifically.
+
+One model for saving New York’s subways is the London Underground. After the
+Second World War, the Tube suffered neglect and deterioration, a victim of
+capricious, bare-minimum, politics-driven public budgets. In 1987, a
+catastrophic fire started on an escalator at the King’s Cross station, and
+thirty-one people died; a painstaking official inquiry into its causes
+revealed the depth of the neglect. In the following years, Byford was heavily
+involved in a system-wide review, which helped start the modernization of
+London Transport. He also served as the group station manager at King’s Cross,
+the city’s busiest rail station. “To do that job, after the fire, you had to
+be very switched on,” Rob Mason, one of Byford’s superiors then, told me.
+“Football night, Friday night, he’d be out on the platforms.”
+
+[![“I just worry that Trumps giving money laundering and pornography a bad
+name.”](http://web.archive.org/web/20250617155402im_/https://media.newyorker.com/cartoons/5b36c81255194323de6f3dc8/master/w_1600%2Cc_limit/180709_a22040.jpg)](http://web.archive.org/web/20250617155402/https://www.newyorker.com/cartoon/a22040)
+
+“I just worry that Trump’s giving money laundering and pornography a bad
+name.”
+
+A series of reforms gave the Underground a secure, generous source of funds.
+The 2012 Olympics, which London hosted, also helped concentrate minds. Mike
+Brown, the transport commissioner, told me that the run-up to the Games
+provided an ideal opportunity to start changing the company culture—to
+encourage employees to take pride in their jobs and to be more responsive to
+customers. “I briefed all twenty thousand people who worked for me, in a
+hundred and one separate sessions,” Brown said. “We faced some skepticism.
+That’s London. ‘Oh, the Underground will never work. The Olympics will be an
+embarrassment.’ Nothing gave me more pleasure than to prove those people
+wrong.”
+
+The transformation of the Tube has transformed London. Ridership is at an all-
+time high, and automobile traffic has declined. The Tube’s on-time rate is now
+above ninety-seven per cent. Its efficiency and capacity—thirty-six trains can
+run each way each hour on the Victoria Line, for example—are unimaginable in
+New York. A contactless fare system, which allows you to pay by tapping a
+credit card, was introduced in 2003. Boston, Chicago, and Mexico City have
+similar systems. New York is a generation behind.
+
+For a modernization on the scale of London’s, Byford will need a budget that
+politicians cannot touch. In 2013, the New York State Legislature passed a
+“transit lockbox” bill, an attempt to limit the diversion of funds. Governor
+Cuomo vetoed it, and also rolled back other protections. His predecessor
+George Pataki, in 2000, borrowed billions from Wall Street to fund public
+transit, promising that the state would pay the service charges on the debt.
+Cuomo has retired that promise and compelled the M.T.A. to pay the charges.
+
+Cuomo and Mayor de Blasio have different ideas, naturally, about how to
+finance the great subway upgrade. De Blasio wants to impose a “millionaire’s
+tax” on the wealthy. Such a tax will need to be approved by the Legislature,
+and this seems unlikely, particularly without Cuomo’s assent. Cuomo supports
+congestion pricing, in which drivers would pay a stiff charge to enter the
+busiest parts of Manhattan between 6 _a_._m_. and 8 _p_._m_. Congestion
+pricing has worked well in London, Stockholm, and Singapore, but it hasn’t
+been tried in automobile-centric American cities. The Legislature is
+unpersuaded so far, and, though Cuomo seems to rule Albany without constraint
+or peer, his office maintains that he is unable to make it happen.
+
+“I am agnostic,” Byford likes to say, when asked about congestion pricing. “I
+don’t care where the money comes from.” That’s what he told the annual
+conference of the Regional Plan Association, a high-octane civic group, in the
+ballroom of the Grand Hyatt, in April. The conference’s keynote speaker was
+Hillary Clinton, but Byford had a full house in the morning. He gave the
+conference-goers, an affluent-looking tri-state business crowd, a swift tour
+of New York’s transit crisis. “People want to know how much a complete M.T.A.
+modernization will cost,” he said. “Be careful what you wish for.” The crowd
+stirred. “I’ve seen wacky politics before,” he went on. “I walked into the Rob
+Ford—may he rest in peace—mess in Toronto.” People who remembered Toronto’s
+erratic, crack-smoking, now deceased mayor laughed. “People ask me, ‘Are you
+on the Governor’s team? Are you on the Mayor’s team?’ I say, ‘I’m on the
+customer’s team.’ ”
+
+The Canarsie local, a.k.a. the L train, runs from Eighth Avenue and Fourteenth
+Street, in Manhattan, to Canarsie, in southeastern Brooklyn. That’s ten miles,
+twenty-four stops, with a scheduled running time of thirty-seven minutes. The
+L train gets crowded, but its on-time rate, above ninety per cent, is by far
+the best of any line in the system. Its outstanding performance is apparently
+the result of a computerized signalling system, installed more than a decade
+ago, called communications-based train control. C.B.T.C. has provided
+transformative improvements to train service in cities throughout the world,
+but in New York the L is so far the only line using it.
+
+Traditional signalling, known as fixed block, divides the track into segments,
+or blocks—on New York’s subways, they’re usually about a thousand feet long.
+As a train enters a block, it trips a circuit, which prevents following trains
+from entering until it has left. Fixed block has been around since the
+nineteenth century and, barring grievous human error, it is reliable and safe.
+But its understanding of the location of a train is crude. All it knows is
+whether a block is occupied or unoccupied. C.B.T.C., by contrast, uses radio
+signalling to create a moving block, which allows a controller to see each
+train’s precise location and speed. The moving block, constantly updated and
+reconfigured, is smaller than the old fixed block, which means that trains can
+travel closer together—exactly what is needed to solve “overcrowding.”
+C.B.T.C. signalling is also significantly cheaper to maintain and, according
+to most analysts, even safer than fixed block, because it removes the “human
+element.”
+
+On a recent morning, a train operator named Philip Dominguez checked the
+brakes, tooted the horn, and tested the P.A. system. The Canarsie local was
+ready to leave Eighth Avenue. The conductor, whose cab was in the middle of
+the eight-car train, closed the doors, and the train accelerated smoothly out
+of the station, heading east. Dominguez sat in front of two screens that
+showed the train’s speed, its next stop, its destination. But, because these
+were C.B.T.C. screens, their overarching message was that there wasn’t much to
+do: an onboard computer was running the train. The red steel pillars of the
+station hurtled by, and then the grotty cavern walls of the tunnel, its bare
+light bulbs and heavy cables telescoping past.
+
+Dominguez didn’t seem entirely smitten with the system. It was, after all, the
+competition. C.B.T.C. is supposed to make perfect stops at every station. As
+we traversed the L-train stations of Manhattan, following Fourteenth Street,
+Dominguez studied each of the computer’s stopping points critically, and then
+made a face that seemed to say, “Not bad.”
+
+The M.T.A. first started looking into C.B.T.C. after a bad wreck, in 1991,
+just north of Union Square—five people killed, more than two hundred injured,
+in an accident attributed to operator inebriation and excessive speed. Eight
+years later, after a typically thorough set of studies, the M.T.A. hired
+Siemens, the German multinational, to install C.B.T.C. on the Canarsie line.
+The project went hundreds of millions of dollars over budget and missed a
+series of deadlines, but by luck it turned out to be well timed. An
+unanticipated population explosion had taken place along the L line in
+Brooklyn, as young people were driven out of Manhattan by high rents.
+Ridership on the L has tripled since 1990, to more than four hundred thousand
+trips a day. With C.B.T.C., capacity grew from fifteen trains an hour to
+twenty-four, and it is expected to go higher still.

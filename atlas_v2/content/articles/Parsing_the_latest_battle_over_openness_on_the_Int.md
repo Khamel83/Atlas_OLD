@@ -1,0 +1,152 @@
+# Parsing the latest battle over openness on the Internet.
+
+**Source**: http://www.slate.com/id/2276607/pagenum/all/#p2
+**Type**: article
+**Created**: 2025-08-13T21:46:01.760309
+
+---
+
+title: Will Comcast destroy net neutrality?
+source: http://www.slate.com/id/2276607/pagenum/all/#p2
+date: 2025-08-13T21:45:59.585325
+tags: []
+---
+You’re bored on a cold, rainy Sunday afternoon, so you settle onto your divan
+and call up a streaming movie on Netflix— _[Wallace and Gromit: A Matter of
+Loaf and
+Death](http://www.amazon.com/gp/product/B001OC6RZA?ie=UTF8&tag=slatmaga-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B001OC6RZA)_,
+say. What happens then? You might imagine that the film gets shuttled to your
+house from a server in Netflix’s California headquarters. If every Netflix
+customer accessed the same data center, however, it would get overwhelmed with
+streaming requests and the network along the way would likely become clogged
+with Netflix traffic. Your movie, meanwhile, would look glitchy and terrible.
+
+To avoid these problems, Netflix streams video in pretty much the same way
+that it sends you physical DVDs. The company keeps lots of different copies of
+the movie you want to stream in different parts of the country; when you press
+play, it tries to connect you to the closest version. This isn’t unusual—most
+big sites do something like this. To handle the logistics, they often employ
+the services of third-party firms known as [content delivery
+networks](http://en.wikipedia.org/wiki/Content_delivery_network), or CDNs.
+Netflix has long relied on Akamai, one of the largest CDNs, to deliver its
+movies. But early in November it announced that [it had signed a
+deal](http://www.businesswire.com/news/home/20101111005421/en/Netflix-Signs-
+Multi-Year-Deal-Level-3-Streaming) with Level 3 Communications to become its
+new primary distributor.
+
+Less than three weeks after this new arrangement kicked off, [accusations
+started flying](http://mediadecoder.blogs.nytimes.com/2010/11/29/netflix-
+partner-says-comcast-toll-threatens-online-video-delivery/). The trouble
+started when Level 3 began asking Internet service providers to give it more
+access to their networks so they could handle the influx of traffic expected
+to come from Netflix. In particular, Level 3 asked Comcast, the nation’s
+largest ISP, for 30 new “interconnection ports” at major points around
+Comcast’s network. Level 3 did not expect to pay Comcast for these new ports.
+As Level 3 saw it, the ports would be serving Comcast’s customers—if Comcast’s
+customers want to access Netflix movies, then it is Comcast’s responsibility
+to pay for the network capacity. Comcast believed otherwise. The company [gave
+Level 3](http://blog.comcast.com/2010/11/comcasts-letter-to-fcc-on-
+level-3.html) six new interconnection ports for free. But it pointed out that
+every other content network that sends traffic down Comcast’s line pays fees
+for that right (including Akamai, Netflix’s other content network). This is
+standard on the Internet—content networks usually pay ISPs for
+interconnection. If Level 3 wanted more access, it would have to pay up.
+
+So who’s got the stronger case? The answer depends on what you think about
+everyone’s favorite mind-numbingly abstruse tech topic, “[network
+neutrality](http://en.wikipedia.org/wiki/Network_neutrality).” The principle
+of net neutrality states that network providers like AT&T, Comcast, and
+Verizon should let customers access anything on the Internet that they want,
+using whatever devices they want (provided that they aren’t doing anything
+illegal). On Wednesday, FCC chairman Julius Genachowski [unveiled a set of
+proposed neutrality rules](http://www.openinternet.gov/speech-remarks-on-
+preserving-internet-freedom-and-openness.html) that he argues will keep the
+Internet “free and open.” Neutrality advocates are critical of Genachowski’s
+rules, [saying](http://www.freepress.net/press-release/2010/12/1/fcc-peddling-
+fake-net-neutrality) that his plan gives ISPs too much leeway to discriminate
+against certain traffic on their networks. They’d like him to push for far
+tougher standards, including a legal reclassification of broadband networks
+that will let the FCC punish ISPs that block content on their lines.
+
+Those tougher rules aren’t coming anytime soon, though, and you only need to
+look at the Comcast-Level 3 case to understand why. The deeper you dig into
+the fight between these two Internet companies, the less clear it is who’s in
+the right. In the meantime, the FCC needs congressional support to impose
+tougher rules on the ISPs—and already, the incoming Republican committee
+chairs in the House are vowing to [prevent any new neutrality
+rules](http://voices.washingtonpost.com/posttech/2010/12/fcc_republicans_say_they_oppos.html).
+In order to overcome such opposition, network neutrality proponents will need
+a groundswell of public support—but the confusing details of the Comcast-Level
+3 dispute aren’t likely to get many people fired up. With an ambiguous test
+case and an unsympathetic Congress, don’t hold your breath for tough, sweeping
+legislation.
+
+Why should we be pushing for tougher regulations in the first place?
+Neutrality advocates say ISPs have an incentive to double-charge—that is, in
+addition to charging _you_ for monthly access to the Internet, a company like
+Comcast might also begin charging Netflix for access to you. That’s sort of
+like if the Post Office began asking both you and Netflix to buy a stamp for
+every DVD you get in the mail. Such a system would turn the Internet into
+something more like cable TV: If some Web companies have to pay to access your
+Internet line, then your connection might become dominated by content from
+companies with deep pockets—and your access to everything else would be
+greatly diminished.
+
+At first blush, Comcast seems guilty of charging Netflix (via its distributor,
+Level 3) to send videos to Comcast customers (who’ve already paid Comcast for
+unfettered Internet access). Comcast’s actions are even more suspect when you
+consider that it is a direct competitor to Netflix. Easy, cheap streaming
+video might push people to cut their cable subscriptions, after all, so
+Comcast certainly has an incentive to make Netflix pay more for network
+access.
+
+But Comcast’s defense isn’t crazy. Level 3 is an unusual beast. In addition to
+serving as a content delivery network for companies like Netflix, Level 3 also
+operates one of the largest “[Internet
+backbones](http://en.wikipedia.org/wiki/Internet_backbone),” which you can
+think of as the major superhighways of the network. Internet backbones often
+connect to one another for free under so-called “[peering
+agreements](http://en.wikipedia.org/wiki/Peering).” The theory is that it’s
+usually mutually beneficial for two large networks on the Internet to connect
+to one another—customers of each network will be able to get to parts of the
+Internet that are covered by the rival’s backbone. As a result, Comcast and
+Level 3 have long had a peering relationship, and under that agreement they
+tend to send each other roughly equal amounts of traffic, with no money
+passing hands. But now, with the Netflix deal, Comcast says that Level 3 will
+send it five times more traffic than Comcast sends Level 3.
+
+When traffic between Internet companies gets so out of balance, Comcast says,
+they usually sign new agreements that involve some kind of payment. Comcast’s
+case is bolstered by the fact that Level 3 has demanded exactly the same kind
+of payments. In 2005, for example, Level 3 blocked Cogent, another network
+provider, because Cogent was “pushing a lot more traffic our way than we were
+their way,” a spokeswoman [said at the
+time](http://www.internetnews.com/infra/article.php/3554476). (Level 3
+[eventually signed a new deal with
+Cogent](http://www.computerworld.com/s/article/105790/Level_3_Cogent_resolve_peering_dispute_renew_deal)
+with strict rules on the amount of traffic that each side could send the
+other.)
+
+Level 3 and its defenders say that its old dispute with Cogent has no bearing
+here, because that fight didn’t involve traffic that was being generated by
+end users; in this case, by contrast, Level 3’s increased traffic only comes
+about because Comcast’s subscribers will demand lots of Netflix movies. By
+asking Level 3 to pay for something Comcast’s subscribers want, Comcast is
+double-charging for content—a direct violation of network neutrality.
+
+If you’ve followed this argument so far, you deserve a medal. For everyone
+else, don’t worry: This is how network neutrality fights go. When you click to
+watch a streaming movie, you imagine that the path from Netflix to your home
+computer is relatively straightforward. What actually happens, though,
+involves a patchwork of regulation, custom, and long-standing formal and
+informal deals about how the Internet should work. The problem is that the
+Internet continues to evolve, and nobody—not content providers like Netflix,
+network companies like Level 3, ISPs like Comcast, or perhaps especially
+regulators and lawmakers—know what it’s going to look like in the future.
+
+The upshot? Kiss network neutrality goodbye. Not the idea—just the push for
+tough regulation.
+
+_Become a fan of**[Slate](http://www.facebook.com/Slate) **and [Farhad
+Manjoo](http://www.facebook.com/pages/Farhad-Manjoo/99928665447) on Facebook.
+Follow us on [Twitter](http://www.twitter.com/Slate)._

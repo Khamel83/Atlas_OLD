@@ -1,0 +1,120 @@
+# The unapologetic racial profiling of Muslims has become America’s new normal
+
+**Source**: http://qz.com/665317/the-unapologetic-racial-profiling-of-muslims-has-become-americas-new-normal/
+**Type**: article
+**Created**: 2025-08-13T18:11:32.972593
+
+---
+
+title: The unapologetic racial profiling of Muslims has become America’s new normal
+source: http://qz.com/665317/the-unapologetic-racial-profiling-of-muslims-has-become-americas-new-normal/
+date: 2025-08-13T18:11:18.073309
+tags: []
+---
+Better safe than sorry, they say. But what that also means is: Don’t expect an
+apology.
+
+Yet again, a Muslim passenger was [removed from a flight
+](http://web.archive.org/web/20250711112716/https://qz.com/665134/southwest-
+has-an-explanation-for-why-it-kicked-an-arabic-speaker-off-its-plane)because
+his presence set off alarm bells. To be clear, the young man in question was
+not flagged by the US Transportation Security Administration (TSA), which is
+tasked with keeping our skies safe. Khairuldeen Makhzoomi, a Iraqi asylee and
+student at the University of California, Berkeley, was reported by a fellow
+passenger. Makhzoomi’s crime? Speaking Arabic in a way that was “perceived to
+be threatening,” [according to a
+statement](http://web.archive.org/web/20250711112716/http://swamedia.com/releases/statement-
+regarding-customer-situation-on-flight-4620?l=en-
+US&utm_campaign=&utm_content=&utm_medium=&utm_source=&utm_term=) by Southwest
+Airlines.
+
+Of course, Muslim doesn’t mean Arab. But in this brave new world, the nuances
+and differentiation of Islam are rapidly disappearing. Racism treats Islam as
+a visible identity-marker, which may or may not correlate with being
+religiously Muslim. A beard, a generically Middle Eastern appearance (“non-
+Hispanic brown” might be the politically correct descriptor), or a headscarf
+([unless you are the Virgin
+Mary](http://web.archive.org/web/20250711112716/http://sites.psu.edu/ammara4turmoil/2012/10/14/the-
+virgin-mary-her-veil-and-the-muslim-veil/)) are all signs to watch out for
+now. As is, apparently, the willingness to communicate publicly in a language
+associated with Islam.
+
+Makhzoomi’s is not an isolated case. Folks have been removed from flights for
+sounding Muslim or looking Muslim before. But it is an important one.
+
+See a Muslim, think danger. We used to call it “[Flying while
+Muslim](http://web.archive.org/web/20250711112716/http://www.huffingtonpost.com/dean-
+obeidallah/not-flying-while-muslim_b_154872.html).” Right now we’re rapidly
+transitioning to the much more exciting and comprehensive “Existing while
+Muslim.” Even some of the more generous public conversations about Muslims
+[still reduce
+us](http://web.archive.org/web/20250711112716/http://www.vox.com/2016/2/8/10937182/muslim-
+americans-terrorism) to tools in the War on Terror: “well, we shouldn’t
+alienate them, because then they’ll become terrorists,” or the marginally less
+offensive, “we need Muslims to defeat terrorists.” Does this mean that once
+we’ve finished off the terrorists, we won’t need Muslims anymore? Or perhaps
+that once we’re done with Muslims, we won’t have terrorism?
+
+But I digress. Not every Muslim man or women is viewed with suspicion in
+America. And yet, all it takes is a pattern of incidents to create a new
+normal. Not every interaction between a police officer and a black man or
+woman ends violently. But enough of them do to highlight a very real, very
+systemic societal problem. As a result, every black American, regardless of
+class, regardless of context, regardless of circumstance, feels a chilling
+effect.
+
+In short, Khairuldeen Makhzoomi’s mistreatment is just the tip of the iceberg.
+
+Our country is convinced we are locked in a battle to the death with ISIL. But
+ISIL, as dangerous as it is, hardly poses an existential threat to the United
+States. Simultaneously, many Americans seem to believe that terrorists posses
+no sophistication whatsoever. Neither does law enforcement, apparently. As a
+result, the public has dutifully deputized itself in the interests of national
+security.
+
+And speaking Arabic has become a suspicious act.
+
+The truth is, many American Muslims [are African American or South
+Asian](http://web.archive.org/web/20250711112716/http://www.people-
+press.org/2011/08/30/section-1-a-demographic-portrait-of-muslim-americans/).
+Most Muslims worldwide come from Pakistan and the east. In other words, most
+Muslims aren’t even Arabs. But many Muslims do have Arabic names. President
+Barack Hussein Obama is not Arab (or a Muslim), but his first name and middle
+name are of Arabic origin.
+
+My first name is the Arabic pronunciation of “Aharon,” Moses’ brother. In the
+Islamic tradition, Moses and Aaron were prophets, Muslims, and role models.
+Indeed, many Muslims name their kids after heroes from the Islamic tradition,
+much like American parents name their daughters after presidential last names:
+Taylor, Reagan, Madison, Lincoln. (My apologies to any future Trumps.)
+
+Many Muslims also [pepper their everyday
+conversation](http://web.archive.org/web/20250711112716/http://www.latimes.com/nation/la-
+na-inshallah-20160418-snap-htmlstory.html) with Arabic locutions. Is Arabic
+now publicly taboo? How much Arabic is too much Arabic?
+
+What if I say “inshallah,” which in theory means “God willing,” but in
+practice means everything from “I don’t know” to ”we lost your credit card.”
+What if I say “mashallah,” which generally means “whatever God wills,” but can
+actually be used to mean, “congratulations on your child’s completion of her
+medical residency; my envy knows no bounds.”
+
+What if I say hummus, which is a tasty snack dip that some airlines offer for
+sale? What if I ask for a mocha cappuccino. Given that Mocha is a city in
+Yemen, I could be describing a nefarious plot hatched with co-conspirators
+overseas.
+
+Unfortunately, until we know for sure just how deeply our identities have
+become tied up with American insecurities, we Muslims—as well as those [who
+are assumed to be
+Muslim](http://web.archive.org/web/20250711112716/http://www.huffingtonpost.com/entry/sikh-
+murdered-fresno-california_us_568c596de4b0a2b6fb6dbe36)—will continue to
+suffer the consequences. The only thing more offensive than racism is racism
+inconsistently applied. After all, I need to know if I should ask my ride to
+stick around just to make sure I can get on the plane.
+
+Then again, what if my driver is named Muhammad, and gets stopped by a
+suspicious police officer wondering why he’s circling the terminal? I guess
+the answer is just to stay home.
+
+## 📬 Sign up for the Daily Brief

@@ -1,0 +1,84 @@
+# These Asos Warehouse Workers Are Paying The True Price Of Your Order
+
+**Source**: https://www.buzzfeed.com/saraspary/these-asos-workers-are-paying-the-true-price-of-your-order
+**Type**: article
+**Created**: 2025-08-13T17:51:31.885909
+
+---
+
+title: These Asos Warehouse Workers Are Paying The True Price Of Your Order
+source: https://www.buzzfeed.com/saraspary/these-asos-workers-are-paying-the-true-price-of-your-order
+date: 2025-08-13T17:51:30.309957
+tags: []
+---
+Later that week she asked to be moved to a packing role, where "you just stay
+in the same place all day", and which she felt would be less overwhelming.
+Alternatively, she asked if she could avoid working on the top two floors
+where she feared her panic attack might again be triggered.
+
+Her request was supported by a note from her GP, seen by BuzzFeed News, which
+described her as a patient with a “genuine case of anxiety” who the doctor had
+seen on multiple occasions. He urged the company to make “reasonable
+adjustments” to her day to assist her, suggesting that she might be more
+suited to packing rather than picking.
+
+But instead, Goddard's Transline manager not only refused to move her to a
+different role or area, he also told her she could no longer do her original
+picking job as she was “not safe to do the role”.  
+  
+XPO, responding on behalf of Asos and Transline, denied that an assignment
+would be ended on the basis of a panic attack. It said that if a colleague
+were unable to complete a certain role due to health issues, “a reassignment
+would be offered”.  
+  
+However, in recordings obtained by BuzzFeed News, the Transline manager can be
+heard saying they are unable to make adjustments for Goddard and have instead
+decided to end her assignment following the panic attack.  
+  
+“Your sick note says you need amended duties and we haven’t got amended
+duties,” he says. “You don’t feel safe in picking and that’s the role that
+you’ve got. So what I’ll have to look at doing, Joanne, is ending your
+assignment on this site.”
+
+The manager offers to contact another Transline office to see whether there
+are any other jobs in the area. He also says he will call her in future if
+another Asos job becomes available – a phone call that, Goddard said, has
+never come.  
+
+But Goddard, who cannot drive, explains she needs to be in reach of her two
+young children and that Asos is suitable because it is a 10-minute journey
+away.
+
+She then asks if she can go back on to picking to “see how I go”, but the
+manager repeats that he has nothing to offer her.  
+  
+“If you do that you’re just going to have another panic attack, aren’t you?”
+he says.  
+  
+“Well I could have them any time," Goddard is heard replying. "I’ve had two in
+the last four days panicking about this because you’re meant to have been
+ringing me and I don’t know if I’ve lost my job or what. I don’t know what to
+do.  
+  
+“I don’t want to be out of my job, definitely not. Shall we just leave it that
+I’ll go back on pick?”
+
+But the manager informs her she is no longer needed, which Goddard says is
+unfair.  
+
+“What do you mean it’s not fair?” the manager replies. “It’s not fair us
+continuously keeping you employed if you’re not able to do the role and you’re
+not safe to do the role.  
+  
+"It's not fair continuously turning up every day and picking because you're
+not going to be able to hit your performance [targets] – you're going to be
+unsure and you're going to cause yourself more harm by having more panic
+attacks."  
+  
+The manager adds: "It's not the news you wanted to hear and if I'm being
+honest it's not the news I wanted to say to you. I wanted to say, 'Yes, I've
+got this available, let's get you back in tonight,' but I can't, I can't do
+that.  
+  
+He concludes: “Unfortunately I can’t continue your employment here because
+you’re not fit for the role we can offer. I do apologise for that, Joanne.”

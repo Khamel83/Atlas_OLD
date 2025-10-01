@@ -1,0 +1,139 @@
+# Endeavor IPO: How Ari Emanuel's Outsize Dreams Were Dashed | Hollywood Reporter
+
+**Source**: https://www.hollywoodreporter.com/news/how-ari-emanuel-s-outsized-ipo-dreams-were-dashed-1244772
+**Type**: article
+**Created**: 2025-08-13T16:06:32.123690
+
+---
+
+title: Endeavor IPO: How Ari Emanuel's Outsize Dreams Were Dashed | Hollywood Reporter
+source: https://www.hollywoodreporter.com/news/how-ari-emanuel-s-outsized-ipo-dreams-were-dashed-1244772
+date: 2025-08-13T16:06:25.236873
+tags: []
+---
+##  Faced with the potential for its stock to fall below $20 on the first day
+— stripping hundreds of millions from its valuation — top execs pulled the
+plug as its headstrong CEO declares, "We’re not willing to undervalue our
+company."
+
+It was past 4 p.m. on Sept. 26 and the stock market had closed for the day as
+WME president Ari Greenburg and other executives sat in a car making their way
+to the New York Stock Exchange. They were going to preside over the unfurling
+of a banner bearing the name of his agency’s parent, Endeavor Group Holdings,
+that was to be on display when the markets opened the next morning. The
+company was about to make history as the largest Hollywood agency to go public
+and the first to do so since ICM’s brief foray in the '80s.
+
+Then Greenburg got the call: The banner would not be needed. The bold plans of
+Endeavor CEO Ari Emanuel, executive chairman Patrick Whitesell and their
+backers at Silver Lake Partners had abruptly gone from dream to debacle. The
+dramatic last-minute decision to pull the plug on the IPO was not just an
+embarrassment. It was at least a temporary end to the hope of raising capital
+to pay down Endeavor’s heavy debt and finance further expansion. And it has
+created a morale problem for some 400 of Endeavor’s 7,000 employees who hold
+shares and had been convinced by the leadership to sit tight and be rewarded
+by buying mansions (or mega-mansions) with IPO loot.
+
+But as awful as those consequences were, the principals felt pulling the plug
+was far less sickening than watching Endeavor’s stock open low and then
+potentially fall by double digits, stripping hundreds of millions from the
+company’s valuation. Emanuel had hoped to raise as much as $600 million from
+the IPO, which would have valued the company at as much as $8 billion, but
+those numbers shrank as the offering neared. “Endeavor is highly leveraged for
+its size, and that’s a major concern,” notes Tuna Amobi, an analyst with CFRA,
+who adds, "The timing was bad, and [the] large range of pricing for their
+shares … suggests trepidation from the bankers."
+
+The Endeavor team had been through an exhausting slog over the previous two
+weeks: 65 meetings in seven cities to court investors. But it was a tough time
+to try going public. The market was unforgiving (see Uber and WeWork), and
+Endeavor did not have a simple story to tell. (The Writers Guild would claim
+that its standoff with agents created turbulence, too, though a source says
+that never came up during the roadshow.) Despite the potential for trouble, an
+Endeavor insider says Emanuel “doesn’t choose the easy path.” And who knew
+when the market would calm down? “In the world we live in,” says the insider,
+“waiting for a calmer time was not possible.”
+
+And the thing seemed doable. Emanuel, Whitesell, Endeavor president Mark
+Shapiro and board chairman and Silver Lake managing partner Egon Durban had
+desirable buyers lined up. They thought they had overcome doubts on big
+points. Prospective investors had objected to a stock structure that would
+have made it difficult for the board to make management changes. This type of
+structure is not uncommon for companies with superstars at the helm —
+Facebook, for example — and apparently Emanuel and Whitesell were cast in
+those roles.
+
+But that wasn’t the main sticking point, according to an insider who says the
+biggest obstacle for prospective investors was the need to accept that
+Endeavor couldn’t be expected to generate profits as predictably as a company
+in a less volatile business might.
+
+In the decade since Endeavor merged with the William Morris Agency, the
+company had grown (expensively) to include everything from IMG (acquired for
+$2.4 billion) to the UFC ($4 billion) to the Miss Universe Pageant (purchased
+from Emanuel’s ex-client Donald Trump). “How do you model it when you make
+money 20 different ways?” asks a source.
+
+Yes, Endeavor is more than a talent agency, but still, some of its ways of
+making money — the ones involving movies, for example — are highly
+unpredictable. The principals argued that though Endeavor was not so easy to
+explain as a quarter-to-quarter business, it would make sense year to year.
+The morning of Sept. 26, the key players gathered at the Goldman Sachs
+offices, planning to move ahead. They believed the stock could start at $28 or
+even $30 a share. The idea was to price it low enough that it would go up
+about 10?percent on the first day of trading, signaling its attractiveness.
+But even before the market opened, it became clear that fitness company
+Peloton’s rough IPO was going to cause problems. Endeavor’s listing price
+range was adjusted from $30 to $32 a share to $26 to $28.
+
+Then Peloton launched, and instead of starting at the projected $29 a share,
+it traded at $27. Instead of shooting up to maybe $35, by the end of the
+trading session its share price had fallen more than 10?percent in the third-
+worst public debut of the past 10 years. The Goldman advisers said, in
+essence: “The market’s gone crazy. What about going out at $26, $25?” It was
+doable, but a quick canvass revealed that Endeavor would not attract the right
+quality of investor. The principals saw the horrifying potential for the stock
+to drop below $20 on its first day, pulverizing the company’s valuation. They
+pulled the plug, opening themselves to recriminations within the agency and
+kicking off something of a schadenfreude festival in Hollywood. Emanuel sent
+an email to staff soon after the decision was made, around 5?p.m. ET. It read
+in part, “While I know this may be disappointing, we’re not willing to
+undervalue our company.”
+
+Says one WME agent of the move: “Everyone was told before it was announced in
+the press. We were told in the most respectful way possible. And everyone was
+supportive of the decision. There were no negative feelings at all, despite
+what is being reported. Everyone wants to count us out. But Ari is as bullish
+as ever.”
+
+Still, Emanuel, Whitesell and Shapiro made phone calls to staff through the
+weekend to reassure jittery insiders. Endeavor has used stock to compensate
+many employees, who were expecting to cash in after a one-year lockup period
+ended. The company has permitted them to sell some of their stock at certain
+points and will launch another such program in 2020 to help prevent some from
+heading for the exits. (Emanuel himself has taken more than $160 million out
+of the company, according to its S-1 filing.)
+
+Endeavor sources say the company has enough cash to service its debt and the
+failed IPO will crimp potential acquisitions but will not level the company.
+Some suggest deconsolidation and layoffs might now be in the cards. “A path
+forward for Ari [Emanuel] and Endeavor means changing its culture and
+aspirations. It means getting smaller by unloading units and people that are
+not profitable,” says Gene Del Vecchio, an adjunct professor of marketing at
+the USC Marshall School of Business.
+
+Several factors conspired to doom the Endeavor IPO, for now, says Mary Ann
+Halford of OC&C Strategy Consultants: Industry risk due to the battle with the
+WGA; the financial risk of debt that is about eight times EBITDA; and the
+market risk caused by “recent IPO failures.”
+
+As for the question of trying again, a source says Endeavor will take a
+breather and revisit it, perhaps in six months. The company issued a
+statement, saying, perhaps wistfully, “Endeavor will continue to evaluate the
+timing for the proposed offering as market conditions develop.”
+
+_Tatiana Siegel and Paul Bond contributed reporting._
+
+_This story first appeared in the Oct. 2 issue of The Hollywood Reporter
+magazine. To receive the magazine,[click here to
+subscribe](http://web.archive.org/web/20210308095701/https://subscribe.hollywoodreporter.com/sub/?p=THR&f=saleb&s=IH1402HR20)._

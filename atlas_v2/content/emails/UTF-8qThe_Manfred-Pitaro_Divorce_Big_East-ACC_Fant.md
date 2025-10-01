@@ -1,0 +1,229 @@
+# =?UTF-8?q?The_Manfred-Pitaro_Divorce,_Big_East-ACC_Fantasies_&_Peyton?=
+
+**Source**: inputs/saved_emails/=UTF-8qThe_Manfred-Pitaro_Divorce,_Big_East-ACC_Fantasies_&_Peyton=
+**Type**: email
+**Created**: 2025-08-25T02:53:58.784100
+
+---
+
+=UTF-8q=E2=80=99s_New_Deal=_Tue,_25_Feb_2025_03-00-11_+0000_1953b0c582c5ab35.eml
+
+Feb 24, 2025
+
+The Varsity ( https://puck.news/newsletters/the-varsity/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Range
+Rover Sport ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.411909786;dc_trk_aid=603875947;dc_trk_cid=228426969;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+John Ourand ( https://puck.news/author/john-ourand/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+John Ourand ( https://puck.news/author/john-ourand/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Welcome back to The Varsity, my twice-weekly private email on the
+sports industrial complex. I’m John Ourand. 
+
+ 
+
+Alas, we have entered one of the most barren windows on the sports calendar—after the Super Bowl and before March Madness, the start of baseball season, and the NBA’s pre-playoff push. Marchand is hawking a new light therapy lamp for all interested. The first 300 people who buy one also get a signed copy of Mar &
+Away, his new harlequin fan fiction novel.
+
+ 
+
+🚨 Pod alert: Make sure you listen to Big East commissioner Val Ackerman on the latest episode of the Varsity podcast ( https://puck.news/podcast_episode/big-east-hoop-dreams-2/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). Ackerman, a former Virginia basketball star and the first commissioner of the
+WNBA, offers an unvarnished look at the changing landscape of college sports. (You can check out excerpts from our conversation below.) This Wednesday, The Athletic’s Evan Drellich and I will dissect the ESPN-MLB kerfuffle. 
+
+ 
+
+What are the odds?: Over the weekend, The Fresno Bee reported ( https://www.fresnobee.com/news/article300791964.html?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) that three Fresno State basketball players had been benched for a game against Air Force while the school and NCAA investigated gambling allegations. The Bulldogs are 5-23, setting a school record for ineptitude in a season. Proponents of legalized gambling say the current landscape makes it easier to spot and fix these types of problems. But it also seems certain that we’re going to continue to see more of these incidents pop up. 
+
+A MESSAGE FROM OUR SPONSOR
+
+Range
+Rover Sport ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.411909786;dc_trk_aid=603875947;dc_trk_cid=228426969;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Range
+Rover Sport ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.411909786;dc_trk_aid=603875947;dc_trk_cid=228426969;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+PERFORMANCE UNLEASHED
+With a distinct sporting personality, the Range Rover Sport is a peerless
+performer.
+EXPLORE ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.411909786;dc_trk_aid=603875947;dc_trk_cid=228426969;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Starting Five
+-----------------
+
+* Peace in Gotham City: On Saturday afternoon, MSG Networks and Altice USA finally announced a truce, and the cable operator will resume carrying the regional sports networks MSG and MSG+ on its Optimum systems. The deal ends a two-month blackout of local Knicks, Rangers, and Islanders games and keeps MSG in the forlorn regional sports business—at least for now. Ultimately, however, MSG convinced Optimum to use a glide path strategy, including the
+R.S.N.s in its “Everything TV” digital package for new subscribers.
+
+As part of the deal, however, Optimum will reportedly lower its carriage fee from $10 per subscriber per month to $8—a nice reciprocal grinfucking maneuver to save face. The agreement will effectively reduce Altice’s payments to MSG from $125 million per year to about $96 million, according to a note from Guggenheim. “We understand the negative reaction today, as investors have expressed they would like [MSG
+Networks] to walk away from the R.S.N. business, and today’s announcement makes that slightly less likely,” the note continued. Guggenheim also predicted that MSG’s teams “will likely agree to a haircut on their local media rights” because the R.S.N. business is so untenable at the moment.
+* Regarding that Big East-ACC merger talk: Recently, Mike Krzyzewski mused on his SiriusXM show about a merger between the Big East and ACC,
+envisioning a college basketball behemoth replete with big brands and historic programs that could compete with the football-heavy Big Ten and SEC. “I’d like to see something innovative,” Coach K said. “We need to at least talk about stuff like that. Imagine our footprint.” St. John’s coach Rick Pitino agreed, telling Krzyzewski, “I jumped on your bandwagon with the suggestion you had about combining with the ACC because I’ve been trying to get them to start a super-league
+basketball league.”
+
+I floated the idea to Big East commissioner Val Ackerman on yesterday’s edition of the Varsity podcast ( https://puck.news/podcast_episode/big-east-hoop-dreams-2/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). Frankly, I was surprised that she didn’t dismiss it outright. “When you’ve got two Hall of Famers opining not only about the history of college basketball, but the future of college basketball, you have to
+listen,” Ackerman told me. “We’ve got some related ideas that we’re hatching here about alliances, about who we should be working with, as we look to secure not only the future of the Big East, but the future of college basketball.”
+
+Ackerman brought up the “Challenge” games that the Big East used to play against teams from the Big Ten and Big 12. “There have been conversations about what we could all be doing together … to make sure college basketball stays strong and relevant, as
+football interests continue to dominate much of the headlines and much of the bandwidth of the leagues that we consider peer conferences.”
+* Conference realignment promiscuity: Ackerman also addressed future conference realignment—a subject that hits close to home for her given UConn’s recent discussions about a move to the Big 12. “I will be curious to see over time how enlarged conferences continue to evolve relative to geography, and what
+cross-country travel will mean long term for athletes who play multiple games a week,” Ackerman said. “Is that a sustainable model for student athlete well-being? Remains to be seen.”
+
+Ackerman told me she’s had conversations about West Coast schools joining the Big East. “Geography has always gotten in the way for us,” she said. “Nobody wanted to take on the cross-country travel that would be involved.” Despite her reservations, Ackerman remains cautiously optimistic about realignment,
+especially once a revenue-sharing model is set. “Right now, the revenue-sharing model allows opt-in by the non-defending conferences. All of our schools are going to opt in to the model. That’s been established for our league,” she said. “I think, in other leagues, there’s still questions about … whether certain schools are in and certain schools are out. So I think you may see realignment on the basis of who’s opting in and who isn’t.”
+* Bakish on
+broadcast: Former Paramount C.E.O. Bob Bakish is pessimistic about the future of local broadcast stations, according to a report ( https://www.semafor.com/newsletter/02/23/2025/semafor-media-family-matters?utm_source=headernewsletterlink&utm_medium=media&utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) from Max Tani at Semafor last night. Bakish said that local TV stations have the same issues as larger cable companies, and that: “[Bakish]
+recalled meetings with some CBS affiliates who told him that if it keeps going this way, we’ll be upside-down by 2028.” 
+
+Bakish also criticized Comcast’s decision to spin off its cable assets, saying it didn’t go far enough. “Right idea, wrong execution,” he said. “I do worry about the spin, because it’s not a spin that structurally makes sense, because they’re holding on to the broadcaster,” Bakish said. “And Bravo—I can’t figure that out. So I don’t know. It’s the right
+idea, but the way they’re doing it doesn’t seem optimal.”
+* Peyton’s new place: Peyton Manning’s Omaha Productions kick off its first ticketed live event tonight at the NFL Combine in Indianapolis, with the hopes of opening up a new line of business for the legendary quarterback’s production company, best known for producing The ManningCast, Quarterback, Starting 5, etcetera. Omaha and Live Nation will
+reunite Manning’s teammates from the Colts’ 2007 Super Bowl team for a “Night of Champions” at the 2,600-seat Murat Theater in downtown Indy. Manning, Marvin Harrison, Reggie Wayne, Jeff Saturday, Dwight Freeney, Dallas Clark, and coach Tony Dungy will be on hand for a panel discussion and audience Q&A. Fittingly, Jim Nantz, who called that Super Bowl for CBS, will moderate.
+
+And now, the main event…
+
+Inside the Manfred-Pitaro Divorce ( https://puck.news/inside-the-mlb-espn-split/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Inside the Manfred-Pitaro Divorce ( https://puck.news/inside-the-mlb-espn-split/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The play-by-play on the dissolution of Major League Baseball’s broadcasting
+partnership with ESPN.
+
+John Ourand ( https://puck.news/author/john-ourand/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+John Ourand ( https://puck.news/author/john-ourand/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Weeks ago, long before the news leaked to The Athletic or any defiant press
+release was issued, Jimmy Pitaro visited Rob Manfred to deliver the news in person that ESPN was likely going to opt out of the last three years of its broadcast deal with Major League Baseball. The ESPN chairman didn’t want to get out of baseball entirely, but he did want to work out a deal that either resulted in a lower rights fee payment, or additional programming—like local rights streams or bringing back midweek games for linear
+and streaming—for roughly the same amount, about $550 million per year.
+
+ 
+
+Pitaro and Manfred had always had a good working relationship. Indeed, the commissioner had hosted Pitaro’s senior executive team at the World Series in October. But when Pitaro started to bring up potential contract changes, Manfred stopped him and indicated that he couldn’t be asked for a chit he couldn’t deliver. Baseball’s owners,
+after all, were already irritated with executives in Bristol. Back in 2021, when it signed its current deal, ESPN gave up weekday MLB games, allowing the network to negotiate downward its $750 million per year deal to an average of $550 million. MLB couldn’t allow ESPN to negotiate a lower rate again, especially not after Manfred and team owners watched ESPN pay handsome increases to keep the NFL ($2.7 billion per year), NBA ($2.6 billion), and College Football Playoff ($1.3
+billion). 
+
+ 
+
+Plus, Manfred believed he had leverage. He and his team had been speaking with other mediacos and were optimistic that MLB would find other bidders—surely for 2028, when the league’s national rights deals with Fox and Warner Bros. Discovery expire. To that end, MLB has been talking to streamers like Amazon and Netflix, and has had informal talks with officials from Skydance, which is in the process of buying
+CBS (and streamer Paramount+). NBC has shown some interest as well. In any event, it appeared that MLB was keen to establish relationships with more media companies in advance of 2028, even if it meant accepting lower rights fees for the next few years. But Manfred was not going to take a lowball bid from ESPN back to his owners.
+
+A MESSAGE FROM OUR SPONSOR
+
+Range
+Rover Sport ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.411909786;dc_trk_aid=603875947;dc_trk_cid=228426969;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Range
+Rover Sport ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.411909786;dc_trk_aid=603875947;dc_trk_cid=228426969;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+PERFORMANCE UNLEASHED
+With a distinct sporting personality, the Range Rover Sport is a peerless
+performer.
+EXPLORE ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.411909786;dc_trk_aid=603875947;dc_trk_cid=228426969;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+During their meeting, Manfred told Pitaro that if ESPN exercised its opt-out
+clause, MLB would take the rights to the open market. Pitaro understood the risks, but he also answered to Disney’s board, which had grown apoplectic over the rights deals MLB signed after 2021: Apple secured a package of Friday night games for around $85 million per year, and Roku picked up a package of Sunday morning games for $10 million annually. Sure, ESPN’s Sunday Night Baseball was an exclusive window, compared to the Friday night and Sunday morning windows that have to compete
+with local games. But Disney and ESPN executives felt strongly that MLB had reset the rights market with those deals.
+
+ 
+
+And, frankly, baseball was not as important to ESPN as it once had been. (ESPN canceled the studio show Baseball Tonight way back in 2017.) Executives in Bristol believed that they could put plenty of other sports in that Sunday night window that would do just as well: After all, NBA and
+NHL playoffs run through June, and the NFL and college football start in August. To plug the gap, was ESPN better off investing in smaller upstarts like TGL than relying on a league that had defined its past? Alas, these are the sorts of unsentimental decisions that drive the sports media business these days.
+
+Flagship On
+Deck
+-----------
+
+ESPN still liked being associated with baseball, however, and Bristol
+executives were hopeful they could work out a deal. Pitaro was also mindful of the direct-to-consumer service that ESPN plans to launch this fall, code-named Flagship, which would ideally carry local MLB streams. ESPN had told MLB executives that its weekly national MLB game on ESPN+ helped drive subscribers, and adding in local streams would facilitate Flagship’s launch.
+
+ 
+
+Manfred and his owners were
+unmoved. If ESPN wanted to work out a new deal for the streaming rights, it would have to negotiate those separately. If ESPN exercised the out clause, it potentially would be ending the whole relationship.
+
+ 
+
+Pitaro knew the risks last Thursday morning when he called Manfred to tell him that he would be exercising the out. Pitaro told Manfred that, per the contract, he would overnight an official letter
+formalizing the move.
+
+Manfred subsequently sent his owners a memo saying that the upcoming season would be ESPN’s last with baseball. ESPN’s production of Sunday Night Baseball, the Home Run Derby, and the wild card playoff games would end after this year. The weekly ESPN+ game ended immediately.
+
+ 
+
+Manfred’s letter to owners rankled some ESPNers for its aggressiveness,
+particularly when he bashed pay TV as a “shrinking platform.” After all, other pay TV channels that carry MLB playoff games, like FS1 and TBS, aren’t exactly growing in the streaming age. Anyway, sources tell me that ESPN is still willing to negotiate a new deal. Sources inside the league, however, suggest that MLB is hellbent on drawing more companies into the ’28 auction, even if it results in smaller, short-term deals for the Sunday Night Baseball package. Either way, this is
+certainly the most notable baseball divorce since Marilyn and DiMaggio… or at least the McCourts.
+
+ 
+
+From the Cheap Seats
+--------------------
+
+On Varsity podcast guest Val Ackerman: “I hope she will write a book
+on a career that went from working with David Stern to USAB to launching the WNBA to relaunching the Big East and traveling to soccer and field hockey Big East events. She could share stories of being the only woman in the room on many days. Now, she’s dealing with Hurley, Pitino, and Geno’s egos. She has done it all with great class and grace: a girl from Western N.J. with a dad who was a coach and A.D.” —A sports business veteran
+
+ 
+
+On changing the CFP seeding structure: “The most logical solution is to still give the top four conference champions a bye, but then reseed based on straight rankings after the first round—even if that means two teams with a bye end up matched up (i.e., Oregon-ASU this year). This would still reward champions, give them their extra money, and retain the integrity of seeding from the
+second round onward.” —A Varsity subscriber
+
+ 
+
+On NASCAR’s current five media partners structure: “I always get a kick out of people complaining about not being able to find what channel a CFB or NFL game or a NASCAR race is on, as if it’s 1986 and the only schedule was in TV Guide. I use the CBS Sports app, it tells me what channel every game is on, you can set your YouTube TV to
+record every Purdue basketball game, and you can probably tell your remote to go to the NASCAR race if you have Xfinity.” —A tech wizard and Varsity subscriber
+[Ed. note: This sounds like a good job for Marchand.]
+
+ 
+
+On Thursday’s edition of The Varsity: “Your open rate and reader attention would have greatly
+benefited from a between-second-and-third-periods send during this playoff-style hockey game.” —A media veteran
+
+ 
+
+See you Thursday,
+
+John
+
+In the Room ( https://puck.news/newsletters/in-the-room/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Ace media reporter Dylan Byers brings readers into the C-suite as he chronicles the biggest stories in the
+industry: the future of cable news in the streaming era, the transformation of legacy publishers, the tech giants remaking the market, and all the egos involved.
+
+The MLB-ESPN Breakup
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The MLB-ESPN Breakup ( https://puck.news/why-the-espn-mlb-deal-blew-up/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DYLAN BYERS
+
+Dems’ Bernie Breakthrough
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Dems’ Bernie Breakthrough ( https://puck.news/elon-musk-is-showing-himself-to-be-a-soft-target-for-democrats/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+LEIGH ANN CALDWELL
+
+Sorkin’s 1929 Warning
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Sorkin’s 1929 Warning ( https://puck.news/andrew-ross-sorkin-on-his-new-book-about-the-great-1929-crash/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+WILLIAM D. COHAN
+
+Puck
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact us ( fritz@puck.news?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVOwwVz-ygmjG5eHKQ2GU=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F24%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+ 
+
+Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY
+10006

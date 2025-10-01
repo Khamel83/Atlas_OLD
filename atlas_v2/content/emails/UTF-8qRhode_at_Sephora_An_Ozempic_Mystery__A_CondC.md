@@ -1,0 +1,238 @@
+# =?UTF-8?q?Rhode_at_Sephora,_An_Ozempic_Mystery_&_A_Cond=C3=A9_Beef?=
+
+**Source**: inputs/saved_emails/=UTF-8qRhode_at_Sephora,_An_Ozempic_Mystery_&_A_Cond=C3=A9_Beef=_Wed,_29_Jan_2025_23-30-19_+0000_194b466e9f87404d.eml
+**Type**: email
+**Created**: 2025-08-25T02:54:09.225948
+
+---
+
+Jan 29, 2025
+
+Line Sheet ( https://puck.news/newsletters/line-sheet/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Lauren Sherman ( https://puck.news/author/lauren-sherman/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Lauren Sherman ( https://puck.news/author/lauren-sherman/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Hi, and welcome back to Line Sheet. Another season of Couture is behind us.
+Chanel looked really good ( https://wwd.com/fashion-news/shows-reviews/gallery/chanel-spring-2025-couture-1236888697/chanel-spring-2025-couture-at-paris-fashion-week-6/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), and I’m sorry if you disagree. (We can all agree on the goodness of Schiaparelli ( https://www.wmagazine.com/fashion/schiaparelli-couture-spring-2025-paris-runway-photos?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). The Valentino
+photo treatment ( https://wwd.com/fashion-news/shows-reviews/gallery/valentino-spring-2025-couture-1236892638/valentino-spring-2025-couture-5/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) was 👌.) Also: Congrats to Glenn Martens, who was finally named creative director of Maison Margiela, an appointment first flagged by me ( https://puck.news/newsletter_content/the-givenchy-news-a-16-million-polo-bar-east-alaias-moment-2/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) way back in September 2024. (As I’d also suggested previously 
+( https://puck.news/what-matthieu-blazys-appointment-means-for-chanel/?1738169541&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), Martens will stay on as creative director of another OTB-owned label, Diesel.) Best of luck to him. 
+
+ 
+
+Today, Rachel
+“Rachel@puck.news ( rachel@puck.news?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )” Strugatz is here to share truly extraordinary sales data from Rhode, Hailey Bieber’s beauty juggernaut, as well as her plan for breaking into multibrand retail. (Guess where she’s headed first?) Up top, I’ve got the latest on Condé Nast’s battle with Nervora, its longtime Middle Eastern partner, and some intel on how GLP-1s are changing the world of
+plus-size modeling. Plus, Sarah “SShapiro@puck.news ( sshapiro@puck.news?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )” Shapiro breaks down the latest results from Lyst’s ranking of the most searched and shopped fashion brands online. Per usual, it says a lot about the state of the market. 
+
+ 
+
+Mentioned in this issue: Hailey Beiber, Rhode,
+Sephora, Selena Gomez, Rare Beauty, Ariana Grande, Kim Kardashian, Jens Grede, Skims, Anna Wintour, Tate McRae, Vogue, Claudia Schiffer, Matilda Djerf, Michael D. Ratner, Victoria’s Secret, Makeup by Mario, Glow Recipe, Manuel Arnaut, Ozempic, Coach, Prada, Saint Laurent, and many
+more…   
+
+ 
+
+Three Things You Should Know…
+-------------------------------
+
+* It’s
+like it never happened: Last year, Condé Nast decided to take its Middle Eastern business in-house, dissolving a decade-long partnership with local outfit Nervora ( https://puck.news/gq-china-july-issue-might-get-buried-amid-conde-nast-moves/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), which published Vogue Arabia under a licensing agreement. Naturally, Nervora fought back in court, claiming that Advance, Condé Nast’s parent company, did not engage “in the good
+faith negotiations for renewal of the license mandated by that license agreement, but rather has only engaged in sham discussion while it plotted to undermine the protections.” And yet, Condé Nast proceeded with the breakup, earlier this month appointing Manuel Arnaut—that’s right, no L—as head of editorial content at Vogue Arabia. 
+
+Arnaut was named editor-in-chief of Vogue Arabia in 2017, and has worked at various Condé magazines on the
+licensing partner side. “Joining the parent company has always been a dream of mine,” he wrote in an Instagram post in early January. For someone like Arnaut, who’s been relegated to the B-team for much of his career, working with Anna Wintour is the ultimate achievement. But not everyone is thrilled about the change, if only because years of work have been erased from existence: Everything published under the title Vogue Arabia before 2025 has been taken
+offline. (Actually, all the Condé brands in the Middle East—Architectural Digest, GQ, Condé Nast Traveler, too—have started their websites from scratch.) 
+
+My presumption is that Nervora owned and operated the business while simply paying a brand-licensing fee to its American partner, and therefore has no obligation to keep the articles and images online. (I reached out to Nervora to better understand the dynamic but didn’t hear back.) Whatever happened,
+it’s likely typical of this sort of deal structure, and simply surprising to the writers. Also, Condé probably does not care about much of the content, and maybe even has some disdain for it, despite the S.E.O. benefits of those U.R.L.s. Of course, the pesky Nervora situation is nothing compared to what C.E.O. Roger Lynch is dealing with in China. More on that another day…
+* Plus-size modeling in the age of Ozempic: A friend on
+the body inclusivity beat texted me the other day, noting that a famously plus-size model had lost quite a bit of weight in the past year, and then named a couple of others who are also looking incredibly slender. “I’m sort of fascinated by what happens to their careers if mid-size and plus-size models go full-Ozempic or even partial-Ozempic,” my friend remarked, referring to the folks who are microdosing GLP-1s in order to stealthily lose weight slowly, over time. 
+
+I, too,
+had been thinking about this phenomenon, as I watched one of my favorite size 16 models walk a recent show, her body shrunk down to a 10. What if she gets really thin? Like, really really thin? Will she have the same market value?
+
+As you can probably tell, I’m reluctant to name names here for a variety of reasons—but mostly because what one chooses to do with their own body is personal. And as much as I love to joke about rich people taking GLP-1s to lose 10 lbs, these drugs are
+making large swaths of the population healthier, by some measure, at least. That said, for these models, their body is their means of making money, and my friend posed an important question: Are they bankable if they’re not plus-size, anymore?
+
+It depends. One issue with the whole concept of body inclusivity in the modeling industry is that the top plus-size models still represent unattainable beauty standards. Their waist-to-hip ratio, cleavage, and magnificent faces fall in line
+with what society at large deems attractive. So while they may be communicating that it’s okay not to be skinny, they’re also representing the fact that it’s still important to be beautiful. In reality, the top plus-size models will work no matter what because they are incredibly gorgeous—and, at this point, famous. 
+
+But the business is morphing. I reached out to some people on the talent representation side of the business to see if the rise of GLP-1s is messing with
+industry dynamics. The answer is, yes, models are getting thinner (even straight-size girls are on Ozempic and Mounjaro), but brands are also requesting smaller models. Anecdotally, agents are seeing more specs for models sized 6/8 or 8/10 (known as mid-size) instead of 16, 18, 20.
+
+Why the change? Fashion brands may be projecting that the average size of their shoppers is trending downward as more people gain access to these drugs. But it’s more likely that being leaner
+but not too skinny is on-trend right now. After all, nobody wants a campaign star with Ozempic face.
+
+Sarah Shapiro
+Sarah Shapiro
+
+* The Brooklyn Bag
+bump: The latest Lyst Index ( https://www.lyst.com/the-lyst-index/2024/q4/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), a ranking of the most popular fashion brands and products online, just dropped—and 4Q24 delivered some eyebrow-raising developments. On the brand ranking, Coach leapt 10 spots to claim the fifth position, powered by the unstoppable Brooklyn Bag ( https://go.shopmy.us/p-12541131?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) (which topped the
+product chart) and its sidekick Cherry Bag Charm ( https://go.shopmy.us/p-12541273?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) (bag charms are still happening, I guess). According to Lyst, the brand generated a 332 percent increase in demand compared to last year—the type of meaningful leap that brands work hard for.
+
+Miu Miu retained the top spot (their fleece ( https://www.miumiu.com/us/en/p/fleece-sweatshirt/MJL042_15V3_F0031_S_OOO?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) may prove to be the last vestige of the current logomania era), while Saint Laurent slid up to No. 2, thanks to their strong range of holiday-giftable accessories (a slim envelope chain bag; ’90s-style sunglasses). Prada held steady at No. 3. It’s worth pointing out that, besides Coach and Ugg at No. 10, all the top 10 brands are all luxury labels.
+
+I love seeing a winning collab in the rankings, and Skims x The North Face helped push Skims up to No. 11.
+(The puffer also made the popular products ranking.) Other top items included Cos’s dupe sweater ( https://go.shopmy.us/p-12541454?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) (it’s basically always sold out, though, so here isa similar option ( https://go.shopmy.us/p-12541556?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )). Massimo Dutti—it’s to (Zara-owner) Inditex what Cos is to the H&M Group—made waves with a
+penny loafer ( https://go.shopmy.us/p-12541614?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). (Massimo is currently in expansion mode in the U.S. and gaining major traction.) Also, fashion-person favorite &Daughter ( https://go.shopmy.us/p-12541653?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )’s button cardi snuck in there, too.
+
+Rhode to Retail
+
+Rhode to Retail ( https://puck.news/rhode-rides-into-sephora/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Hailey Bieber’s beauty juggernaut is all blue sky and peptide lip treatments, with some
+deceptively simple messaging, and a brand playbook straight from Skims. A new Sephora partnership could take the business to another level.
+
+Rachel Strugatz ( https://puck.news/author/rachel-strugatz/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Rachel Strugatz ( https://puck.news/author/rachel-strugatz/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Never before has a celebrity-owned D.T.C. beauty company cracked the marketing code
+quite like Hailey Bieber’s Rhode. According to YipitData, the 2.5-year-old brand made about $90 million in revenue from its website in the final two months of 2024—close to what Rhode was once projecting for the entire year. I can’t think of another D.T.C. beauty brand that’s been able to generate these kinds of numbers so early… or really ever.
+
+ 
+
+There are many
+reasons for Rhode’s success: clear messaging (its clever naming conventions aren’t groundbreaking, but they’re extremely effective), top-tier talent, and Kardashian-esque marketing. But regardless of its strength as a D.T.C. business, the path to critical mass requires a major retailer to ride shotgun. For months, I’ve been hearing that Rhode was going to partner with Sephora, and a person close to the retailer confirmed that the deal was finally official. Multiple
+sources told me that Rhode will be available at your local Sephora later this year.
+
+ 
+
+So why did it take so long? After all, Rhode launched almost three years ago. One theory is that it was related to the “drama” around Selena Gomez, once a potential Mrs. Bieber herself. Rare Beauty, after all, is one of Sephora’s most important brands, and bringing in an ostensible rival could upset the
+partnership. “If it’s the right business decision, Sephora will navigate the drama,” one person close to Sephora’s business told me. But another high-level source confirmed that Gomez was definitely the reason for the delay, plus “general reticence” overall with respect to celebrity brands. “It took them close to a decade to bring in Ariana Grande’s fragrance,” this source noted, adding that although Gomez’s Rare Beauty is “great,” the business is still maturing. “They
+need new hits constantly.” (Sephora did not respond to a request for comment.)
+
+ 
+
+Of course, the partnership with Sephora—which currently commands 30 percent of the U.S. beauty retail market—has huge implications for Bieber’s business. Sephora distribution will cannibalize Rhode’s e-commerce site, which is the inevitable downside when strong D.T.C. brands expand into offline retail. But the exposure to new customers, and the
+opportunity to get in front of the millions of people who only shop for beauty I.R.L., is invaluable. At the very least, it will recenter the years-long rivalry between Bieber and Gomez as they fight for floor space and Gen Z wallet share.
+
+Rhode and Rare will be in more direct competition than ever, especially since the former has pushed into color. (Rhode already has tinted gloss, blush, and lip liners, and I’ve heard that bronzer and other makeup is on the horizon.) And while it will
+almost certainly never happen, it would be cool if the two brands collaborated on a Rare x Rhode Soft Touch Pocket Blush.
+
+The
+Skims Effect
+------------
+
+Meanwhile, I’m still amazed at how seamlessly Rhode is morphing into the Skims of
+beauty—and how little anyone seems to care. Last week, Rhode took a page from Kim Kardashian and Jens Grede’s playbook again while teasing the launch of a lip liner creatively renamed as a “Peptide Lip Shape,” which goes on sale Thursday. The entire campaign is so incredibly Skims-coded, from the way it’s shot, to the lighting, to the monochromatic color palette, and even to its star: Tate McRae, the 21-year-old pop singer
+Vogue just anointed a fashion icon. Yes, it’s not the first time another famous face has appeared in Rhode’s ads––Claudia Schiffer and Matilda Djerf collaborated with Bieber last year––but McRae is the most au courant, and proof that Skims isn’t the only brand in touch with the zeitgeist. 
+
+ 
+
+That said, the mimicry makes sense. I hear that
+Grede and Michael D. Ratner, Hailey’s business partner and a producer on the Justin Bieber: Seasons docuseries, are pals. Also, Grede & Co.’s genius has an outsize, unavoidable influence beyond beauty. But you have to wonder if the Grede-Bieber connection is privately grating to Kim and the other Skims stakeholders, particularly as Rhode adopts more and more of the Skims brand playbook. My understanding is that it’s not—or not yet, anyway. Rhode plays in an entirely
+different category, and so the two brands aren’t competing for market share.
+
+ 
+
+I’ve already written about ( https://puck.news/can-rhode-be-more-than-founder-hailey-biebers-personality/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the obvious parallels between Bieber and Kardashian’s respective marketing tactics, but with Rhode’s impending launch, it’s worth considering how their approach
+differs, too. For Rhode, talent and visuals are only part of the strategy: A lot of the brand’s success comes down to how it messages what it’s selling. Obviously, Sephora already carries several similar makeup and skincare lines—like Makeup by Mario, Rare Beauty, Tower 28, and Glow Recipe—but Rhode’s more creative terminology gives the illusion of market differentiation. One of the more discerning insiders I know praised Bieber’s ability to make
+“peptides” and “lip peptide treatments” a thing, instead of just calling Rhode’s bestselling item a lip gloss, which is exactly what it is. (Also, the “peptide” terminology helps create a skincare-makeup throughline for customers, which is important since Rhode started as a skincare brand and still considers itself one, although at this point I’d beg to differ.)
+
+Among other things, the strategy seems to concede that
+everything already exists, and that simply repackaging an established product and marketing it better is enough to stand out. (Why can’t skincare brands stop trying to top one another with pseudoscience-y claims about their efficacy and health benefits, and just do the same thing?) A retail pro I know suggested that not calling it a “liner” could hurt S.E.O., consumer understanding, adoption, etcetera, but that the messaging upside seems to outweigh the risks. That said, they
+did just make $90 million in two months online, so someone must be searching for “peptide.”
+
+ 
+
+Anyway, come Thursday, don’t even think of calling Peptide Lip Shape a liner. A person close to the brand told me the brand does not consider this a liner, but rather a “contouring stick, but for lips.” Liner is supposed to contain the bleed—beauty speak for when lipstick unpleasantly migrates
+beyond the borders of your natural, un-lined lips—and Rhode’s version is meant to be used as a “shaper” to make lips more full. It’s also dual-ended and has a little silicone smudger to “diffuse” color or “tidy up the edges.” Rhode’s really sticking to this spiel, and I love it, but to be clear: This product’s main function is lip lining.
+
+ 
+
+What
+Rachel’s Reading…
+---------------------
+
+I had no idea what Quince was until late last year, and now I can’t escape their
+washable cashmere sweatsuits. The company just announced that it raised a $120 million Series C. [LinkedIn ( https://www.linkedin.com/posts/onequince_were-kicking-off-the-new-year-with-a-major-activity-7290126513071366144-pynB?utm_source=share&utm_medium=member_desktop&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+ 
+
+Nine-year-olds are having their birthday parties at Sephora.
+[BoF ( https://www.businessoffashion.com/articles/beauty/kids-are-having-birthday-parties-at-sephora-now/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+ 
+
+Jil Sander relaunched fragrance with a collection of six scents. I know that “collections” are the trend now—they mitigate risk, there’s something for everyone, etcetera—but it also makes it harder for a “hero” to emerge.
+[WWD ( https://wwd.com/beauty-industry-news/fragrance/jil-sander-launching-haute-parfumerie-line-fragrance-niche-1236881174/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+ 
+
+This dinner, which Lauren previewed ( https://puck.news/the-los-angeles-fires-fashion-the-red-carpet/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) a couple of weeks ago, was the best-attended thing at Paris
+Fashion Week. [Vogue ( https://www.vogue.com/slideshow/tiffany-and-co-titan-pharrell-williams-dinner-party-paris-2025?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+ 
+
+Victoria Beckham Beauty has a new C.E.O. [WWD ( https://wwd.com/beauty-industry-news/beauty-features/victoria-beckham-beauty-new-ceo-1236883463/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+ 
+
+And finally… We have been alerted that Gap Inc. C.E.O. Richard
+Dickson was at… Davos. See, actions do speak louder than words! 
+
+ 
+
+Until tomorrow, 
+
+Lauren 
+
+ 
+
+P.S.: We are using affiliate links because we are a business. We may make a couple bucks off them.
+
+Fashion People ( https://puck.news/podcasts/fashion-people/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Fashion People ( https://puck.news/podcasts/fashion-people/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Puck fashion correspondent Lauren Sherman and a rotating cast of industry insiders take you deep behind the scenes of this
+multitrillion-dollar biz, from creative director switcheroos to M&A drama, D.T.C. downfalls, and magazine mishaps. Fashion People is an extension of Line Sheet, Lauren’s private email for Puck, where she tracks what’s happening beyond the press releases in fashion, beauty, and media. New episodes publish every Tuesday and Friday.
+
+Wall Power ( https://puck.news/newsletters/wall-power/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Wall Power ( https://puck.news/newsletters/wall-power/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Puck’s daily art market email, anchored by industry expert Marion Maneker, offers unparalleled access to the mega-auctions and
+galleries, elite buyers and sellers, and the power players who run this opaque world. Wall Power also features Julie Brener Davich, a veteran of Christie’s and Sotheby’s, who provides unique insights into how the business really works.
+
+Hollywood P.R. Warfare
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Hollywood P.R. Warfare ( https://puck.news/phillies-owner-ordered-to-sell-mansion-to-cover-unpaid-bill/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ERIQ GARDNER
+
+Larroudé Awakening
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Larroudé Awakening ( https://puck.news/larroudes-innovative-approach-to-selling-shoes/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SARAH SHAPIRO
+
+The
+Dems’ Wilderness Map
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Dems’ Wilderness Map ( https://puck.news/jennifer-palmieri-on-new-dem-leaders-in-the-trump-2-0-era/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+JOHN OURAND
+
+Puck
+
+Puck
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact us ( fritz@puck.news?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUtGaJRda5Ty2_lGr91ko=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%281%2F29%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+ 
+
+Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

@@ -1,0 +1,130 @@
+# "I, too, Am America" book tells stories of Muslims in the US
+
+**Source**: https://qz.com/africa/1474064/i-too-am-america-book-tells-stories-of-muslims-in-the-us/
+**Type**: article
+**Created**: 2025-08-13T16:26:50.570001
+
+---
+
+title: "I, too, Am America" book tells stories of Muslims in the US
+source: https://qz.com/africa/1474064/i-too-am-america-book-tells-stories-of-muslims-in-the-us/
+date: 2025-08-13T16:26:45.213638
+tags: []
+---
+The streets of Little Senegal in Harlem, New York and the Cedar-Riverside
+neighborhood in Minneapolis share a common trait: they are both home to
+thriving African immigrant communities from west and east Africa, many of whom
+practice Islam. From halal meat stores to restaurants, fabric stores and shops
+selling religious articles, these buzzing enclaves offer a telling portrait of
+Islam in America.
+
+More than any other issue, immigration is the one factor that has defined the
+diversity and demographics of the US Muslim population. With a total of about
+3.45 million people or 1% of the US population, three-quarters of Muslims in
+the United States are first-generation Americans who were [born in another
+country](http://web.archive.org/web/20230927181132/http://www.pewforum.org/2017/07/26/demographic-
+portrait-of-muslim-americans/#muslims-in-the-us), according to the Pew
+Research Center. Most of these immigrants and their children come mostly from
+countries in the Middle East and South Asia like Pakistan, India, and Iraq.
+But they also [come from all across
+Africa](http://web.archive.org/web/20230927181132/https://qz.com/africa/911271/there-
+are-now-more-than-two-million-african-immigrants-living-in-the-us), [gain an
+education](http://web.archive.org/web/20230927181132/https://qz.com/africa/1259998/african-
+immigrants-in-the-us-are-more-educated-than-anywhere-else) at higher rates,
+and eventually serve in the highest echelons of politics, science, and
+business worlds.
+
+Some of the stories of these inspiring individuals are captured in the newly-
+published book [_I, Too, Am
+America_](http://web.archive.org/web/20230927181132/https://www.amazon.com/Too-
+Am-America-Stories-American-
+ebook/dp/B07JNCFRDN?asc_campaign=kinjaquartzlink-20&asc_refurl=https://qz.com/africa/1474064/i-too-
+am-america-book-tells-stories-of-muslims-in-the-
+us&asc_source=&tag=kinjaquartzlink-20). The collection of 50 stories by the
+veteran journalist Lekan Oguntoyinbo, celebrate the journeys and the
+remarkable contributions of Muslims—both African and otherwise—to the
+advancement of the United States. The book’s title is a play on the Langston
+Hughes poem [_I,
+Too_](http://web.archive.org/web/20230927181132/https://www.poetryfoundation.org/poems/47558/i-too)
+, which affirms the concept of patriotism and captures a hankering for
+equality through diligence and resolve.
+
+Marathoner Khalid KhannouchiImage: Action Images / David Slater
+
+The book’s publication comes as both Muslims and Africans in America face
+greater scrutiny and increasing hostility in the form of violence. President
+Trump, who has [retweeted anti-Muslim
+videos](http://web.archive.org/web/20230927181132/https://www.bbc.com/news/world-
+us-canada-42166663) from a British far-right group, has also [instituted a
+travel
+ban](http://web.archive.org/web/20230927181132/https://qz.com/africa/898322/trumps-
+immigrant-ban-adds-to-the-horrifying-ordeals-somalian-refugees-face) that
+includes Muslim-majority African states like Somalia and Libya. His
+administration has also [deported a record
+number](http://web.archive.org/web/20230927181132/https://qz.com/africa/1204111/trumps-
+immigration-ice-kicked-out-more-africans-than-ever-while-reducing-overall-
+removals) of Africans from Senegal and Ghana in the west to Egypt and Morocco
+in the north.
+
+Following the 9/11, 2001 attacks and the subsequent war on terror, Muslims
+have grappled with their place in American society and have faced backlash on
+issues ranging from their patriotism to [whether they could
+construct](http://web.archive.org/web/20230927181132/https://www.aclu.org/issues/national-
+security/discriminatory-profiling/nationwide-anti-mosque-activity) places of
+worship
+
+Dr. Nawal NourImage: AP Photo/Lisa Poole
+
+In the face of all this, Muslims continue to defy the odds and are
+increasingly becoming a visible and important tapestry in communities across
+the US. This month, a former Somali refugee Ilhan Omar became [one of two
+first Muslim
+women](http://web.archive.org/web/20230927181132/https://qz.com/africa/1453905/election-2018-ilhan-
+omar-first-somali-muslim-woman-in-us-congress) elected to Congress, an
+election win that many [Somali candidates
+replicated](http://web.archive.org/web/20230927181132/https://qz.com/africa/1452266/election-
+day-2018-somalis-in-minnesota-to-make-electoral-history) in the state of
+Minnesota. Yet the current wins aren’t void of Islam’s roots in America, which
+[dates
+back](http://web.archive.org/web/20230927181132/https://www.nationalgeographic.com/magazine/2018/05/being-
+muslim-in-america/) to the 16th century: [way
+ahead](http://web.archive.org/web/20230927181132/https://www.ft.com/content/5be3bbbc-41ca-11e5-b98b-87c7270955cf)
+of the Transatlantic slave trade and the arrival of shackled Africans from
+present-day West Africa.
+
+Physician, scientist, radiologist and biomedical engineer Elias ZerhouniImage:
+REUTERS/Charles Platiau
+
+Beyond politics, African Muslims have served in industries as diverse as
+journalism, medicine, law, and scientific research. There’s Mohamed El-Erian,
+originally from Egypt, who is the chief economic advisor of at Allianz SE, the
+parent company of Pimco which he successfully headed between 2007 and 2014.
+There’s Khalid Khannouchi from Morocco, who once [scrubbed
+dishes](http://web.archive.org/web/20230927181132/https://www.nytimes.com/1998/05/16/sports/running-
+from-morocco-to-brooklyn-a-runner-s-road-to-the-top.html) in Brooklyn but rose
+to [set world
+records](http://web.archive.org/web/20230927181132/https://www.nytimes.com/1999/10/25/sports/marathon-
+khannouchi-sets-world-record-in-only-his-third-marathon.html) in marathons.
+
+Mohamed El-Erian, the chief economic adviser at AllianzImage: REUTERS/Phil
+McCarten
+
+There’s Nawal Nour from Sudan, credited with [creating the first
+clinic](http://web.archive.org/web/20230927181132/https://www.macfound.org/fellows/716/)
+to address [female genital
+mutilation](http://web.archive.org/web/20230927181132/https://qz.com/1473729/us-
+judge-the-ban-on-female-genital-mutilation-is-unconstitutional) in the United
+States. Elias Zerhouni, born in Algeria, was a director at the National
+Institutes of Health and served as one of the first two science envoys
+appointed by Obama. The distinguished poet Khaled Mattawa from Libya has been
+lauded for exploring the intersection of culture, narrative, and memory. And
+there’s singer Akon, born to a musical family from Senegal, who later nurtured
+his global music career.
+
+Space scientist Farouk El-BazImage: AP Photo/Stephan Savoia
+
+Despite its brevity, Oguntoyinbo’s book stands as a primer on Islam in modern-
+day America. It acts to prove what theologians like Amir Hussain
+[asserted](http://web.archive.org/web/20230927181132/https://www.baylorpress.com/9781481306232/muslims-
+and-the-making-of-america/): “There has never been an America without
+Muslims.”

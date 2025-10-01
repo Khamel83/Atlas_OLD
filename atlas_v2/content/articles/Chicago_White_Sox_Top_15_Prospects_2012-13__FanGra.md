@@ -1,0 +1,494 @@
+# Chicago White Sox Top 15 Prospects (2012-13) | FanGraphs Baseball
+
+**Source**: http://www.fangraphs.com/blogs/index.php/chicago-white-sox-top-15-prospects-2012-13/
+**Type**: article
+**Created**: 2025-08-13T20:09:09.662916
+
+---
+
+title: Chicago White Sox Top 15 Prospects (2012-13) | FanGraphs Baseball
+source: http://www.fangraphs.com/blogs/index.php/chicago-white-sox-top-15-prospects-2012-13/
+date: 2025-08-13T20:09:07.350786
+tags: []
+---
+The Chicago White Sox organization ranked 30th on the Top 30 minor league
+systems list entering 2012 but this is a much improved system after a couple
+of solid drafts and a number of prospects took big steps forward in their
+development. It’s an organization on the rise.
+
+#1 [Courtney
+Hawkins](http://www.fangraphs.com/statss.aspx?playerid=sa657904&position=OF)
+(OF)
+
+* * *
+
+Age | PA | H | 2B | HR | BB | SO | SB | AVG | OBP | SLG | wOBA  
+---|---|---|---|---|---|---|---|---|---|---|---  
+18 | 249 | 66 | 15 | 8 | 11 | 56 | 11 | .288 | .328 | .485 | .362  
+  
+“He came out guns a blazing,” a talent evaluator said about Hawkins’ pro debut
+after being selected 13th overall in the 2012 amateur draft. The Texas
+teenager played at three levels and topped out in high-A ball, which is almost
+unprecedented for such an inexperienced player. I’m told even the White Sox
+underestimated how advanced he was and he should open 2013 back in the
+Carolina League (high-A). It wouldn’t be a shock if he ended up in double-A by
+the end of the season.
+
+Despite all the excitement, Hawkins still has work to do at the plate. He
+needs to strengthen his pitch recognition, tighten his plate discipline and
+learn how to work counts. Standing 6’3” and weighing 220 lbs with good bat
+speed, Hawkins has plus power potential and is very athletic for his size,
+which should allow him to steal some bases.
+
+The outfield prospect should be average or better in right field with a strong
+arm but, again, he’s still polishing his game and learning to take better
+routes to the ball. He played center field in high school and could fill in
+there at the big league level, if needed.
+
+Hawkins is well known for doing a back flip on TV after being drafted by the
+White Sox but now it’s the organization that’s doing back flips over the young
+outfielder’s future in Chicago. As my contact stated, “Talent-wise, ability-
+wise, the sky is the limit for him.”
+
+#2 [Carlos
+Sanchez](http://www.fangraphs.com/statss.aspx?playerid=sa507106&position=2B/SS)
+(2B/SS)
+
+* * *
+
+Age | PA | H | 2B | HR | BB | SO | SB | AVG | OBP | SLG | wOBA  
+---|---|---|---|---|---|---|---|---|---|---|---  
+20 | 687 | 195 | 29 | 1 | 50 | 110 | 37 | .320 | .376 | .398 | .357  
+  
+Just 20 years old, Sanchez seemingly came out of nowhere to zoom through the
+minor league system and reach triple-A despite his youth. In reality, though,
+the second baseman was in his fourth pro season and spent two years in the
+Dominican Summer League before making his North American debut in 2011.
+
+A contact I spoke with about Sanchez said added experience helped the hitter
+become a better all-around player. “He had all the tools.” At the plate, he’s
+a switch-hitter who is more advanced from the left side. He has some speed and
+stole 26 bases in 2012 but he needs to become a smarter base runner.
+
+Defensively, he showed good range to his right but made a few poor decisions
+that I chalked up to lack of experience and perhaps the game going a little
+faster than he was used to in A-ball. At the plate he showed a quick bat but
+was quite aggressive and certainly doesn’t like to leave the bat on his
+shoulder for too long. He laid down a solid sac bunt, which is encouraging
+since he profiles as a top-of-the-order — possibly No.2 — hitter.
+
+Defensively, Sanchez is an instinctive player whom the contact said “has a
+knack of finding the baseball.” He’s athletic and does a nice job of putting
+himself into good positions to field the baseball. The Venezuela native could
+play some shortstop but looks much better at the keystone. “He has a chance to
+be a really good second baseman,” the talent evaluator said.
+
+Although it’s perhaps an unfair comparison to make, watching Sanchez on the
+field reminded me of Yankee great Derek Jeter — not necessarily on defense or
+at the plate, but by the way the infield prospect carried himself on the
+field. Sanchez should open 2013 in triple-A and is a huge threat to incumbent
+big league second baseman Gord Beckham, who needs to show some life if he’s
+going to hold off the quick-charging prospect.
+
+#3 [Erik
+Johnson](http://www.fangraphs.com/statss.aspx?playerid=sa577734&position=P)
+(P)
+
+* * *
+
+Age | G | GS | IP | H | HR | K/9 | BB/9 | ERA | FIP  
+---|---|---|---|---|---|---|---|---|---  
+22 | 17 | 17 | 92.1 | 82 | 3 | 8.48 | 2.83 | 2.53 | 2.78  
+  
+The White Sox system continues to be rejuvenated with a string of solid drafts
+over the past two seasons and Johnson, a 2011 second rounder, is another
+example of that. The organization loves large, strong pitchers and the right-
+hander stands 6’3” and weighs in at 240 lbs. He missed the start of the 2012
+with an injury but made up for lost time, pitching well at both A-ball levels.
+
+A talent evaluator I spoke with was not surprised with the success that
+Johnson has had to this point in pro ball. “We knew what he was capable of… He
+really, really throws the ball well,” he said. “He gets on the mound and he’s
+a bulldog, very focused and competitive.” That same contact stated that the
+key for Johnson’s success is improved fastball command and to tighten up his
+slider. “He has a live fastball, good slider, good curveball and is working on
+a changeup.”
+
+Johnson, 23, split the 2012 season between two A-ball levels and probably
+showed enough in high-A ball to earn an assignment to double-A to begin the
+coming season. He has the ceiling of a No. 2 or 3 starter, depending on how
+well his repertoire rounds out. Johnson, a former second rounder, has a shot
+at reaching the majors in late 2013.
+
+#4 [Trayce
+Thompson](http://www.fangraphs.com/statss.aspx?playerid=sa500820&position=OF)
+(OF)
+
+* * *
+
+Age | PA | H | 2B | HR | BB | SO | SB | AVG | OBP | SLG | wOBA  
+---|---|---|---|---|---|---|---|---|---|---|---  
+21 | 655 | 141 | 31 | 27 | 72 | 183 | 23 | .250 | .337 | .469 | .361  
+  
+The first in a long line of athletic — but raw — outfielders in the White Sox
+system, Thompson was pushed aggressively through the system in 2012 and
+reached triple-A after beginning the season in high-A ball. A former second
+round pick out of a California high school, he’s still just 21 years old and
+has a lot of polishing to do on his overall game.
+
+Thompson strikes out a lot (28% in high-A in 2012) and needs to shorten his
+stroke and improve his pitch recognition. A talent evaluator I spoke with
+feels the outfielder can be an impact player even if he has high strikeout
+totals because of his power to all fields. “His power numbers offset it a bit…
+There’s a chance he cuts down on the strikeouts if he gets more aggressive
+early in the counts,” he said. “He just needs to learn himself and slow things
+down.”
+
+Defensively, Thompson shows outstanding range in center field thanks to his
+speed, jumps and strong routes. He also has a strong, accurate arm. “He has
+all the tools to be a really, really good outfielder,” the contact said.
+
+I had the opportunity to watch Thompson play a few times during the season and
+I felt he was too bent over at the plate and was therefore susceptible to
+pitches on the inner half. He was also swinging around the ball rather than
+through it, which would shorten his swing. He displayed good range with smooth
+actions in centerfield.
+
+Thompson ended the 2012 season by hitting .208 in 16 Arizona Fall League games
+and might best be served with an assignment to double-A to begin 2013 with an
+eye on challenging for a starting big league role in 2014. If everything
+clicks, he could be a fun player to watch. As my contact said, “He has a
+chance to be a special player both defensively and offensively.”
+
+#5 [Keenyn
+Walker](http://www.fangraphs.com/statss.aspx?playerid=sa501943&position=OF)
+(OF)
+
+* * *
+
+Age | PA | H | 2B | HR | BB | SO | SB | AVG | OBP | SLG | wOBA  
+---|---|---|---|---|---|---|---|---|---|---|---  
+21 | 488 | 109 | 22 | 4 | 74 | 143 | 55 | .267 | .378 | .379 | .355  
+  
+In some ways, Walker is similar to fellow former first rounder Jared Mitchell
+(found lower on this list). Selected in the supplemental first round of the
+2011 amateur draft out of an Arizona community college, the outfielder is very
+athletic but he’s learning how to properly utilize his impressive tools on the
+baseball diamond. A talent evaluator stated, “He needs a ton of at-bats. He
+was a multi-sport athlete and he hasn’t played much baseball.”
+
+Walker strikes out a lot but talks a lot of walks, has plus speed (56 steals
+in 71 tries in 2012) and plays very good defense. The center-fielder, though,
+has less power than Mitchell and needs to shorten his stroke and use the whole
+field. He also needs to learn to identify breaking balls and the switch-hitter
+needs to significantly improve from the right side of the plate. “I think he’s
+going to learn to trim the strikeouts and put the ball in play more,” my
+contact stated.
+
+Walker spent most of the 2012 in the Southern League but also appeared in 37
+games in the Carolina League (high-A). He should return to that level in 2013
+but could see double-A by the end of the season. He has the makings of a
+impact base runner and defender with an average hit tool.
+
+#6 [Scott
+Snodgress](http://www.fangraphs.com/statss.aspx?playerid=sa577934&position=P)
+(P)
+
+* * *
+
+Age | G | GS | IP | H | HR | K/9 | BB/9 | ERA | FIP  
+---|---|---|---|---|---|---|---|---|---  
+22 | 27 | 27 | 141.0 | 112 | 6 | 8.17 | 4.09 | 3.00 | 3.47  
+  
+It seems like we’re seeing more and more interesting prospects come out of
+Stanford University and Snodgress is yet another example. Standing 6’5”, the
+left-hander is an imposing sight on the mound and he’s shown flashes of
+dominance. He started off 2012 a little slowly but improved as the year went
+on. “He came on strong this year,” a contact stated. “Coming into spring
+training he was a little out of whack… He made some adjustments in his arm
+action, got some more length, and really took off.”
+
+Snodgress needs to learn to use his height to his advantage on a more
+consistent basis. His fastball wanders up in the zone too much at times and he
+needs to keep a good downward plane on his pitches to increase his ground-ball
+rate. The lefty didn’t log a ton of innings in college so he’s still learning
+to command the fastball and I’m told he needs to use his curveball earlier in
+the count. “He just needs to become more of a pitcher than a thrower,” my
+contact stated. “He’s a horse, though.”
+
+Snodgress, 23, spent most of 2012 in the Southern League but also made seven
+starts in the Carolina League posting a 1.50 ERA. As a result, he may be
+ticketed for double-A in 2013 and will be challenged by the more advanced
+hitters. He has the makings of a No. 2 or 3 starter if he continues to make
+adjustments.
+
+#7 [Andre
+Rienzo](http://www.fangraphs.com/statss.aspx?playerid=sa504232&position=P) (P)
+
+* * *
+
+Age | G | GS | IP | H | HR | K/9 | BB/9 | ERA | FIP  
+---|---|---|---|---|---|---|---|---|---  
+24 | 24 | 24 | 128.0 | 99 | 2 | 9.63 | 4.01 | 2.95 | 2.62  
+  
+When I asked about the ceiling on Rienzo I was told that the organization is
+still trying to figure out exactly what it has with the right-hander from
+Brazil but as a contact stated, “We all know he has the capabilities of being
+a good pitcher.” The organization also feels he’ll be a successful big league
+starter, although there has been outside talk that he’s better suited to
+relieving.
+
+Now 24, Rienzo spent five years in the low levels of the minors which is not a
+surprise considering how raw he was when he signed out of a country not known
+for developing baseball players. He really took off in 2012 and played in
+high-A, double-A and triple-A. He missed 50 games early in the season due to a
+suspension but made up for the lost innings by appearing in both the Arizona
+Fall League and the Venezuela Winter League.
+
+Rienzo has a thin frame so there is some concern over his durability but the
+right-hander gets his heater up to 95 mph at times. He also features a good
+curveball and a developing cutter but he lacks a changeup. The contact I spoke
+with said the Brazilian has the mentality of a strikeout pitcher but he needs
+to limit his pitch count. “He’s learning to get more early contact.” He also
+needs to improve his fastball command. Rienzo will almost certainly open 2013
+in triple-A but he could be in the majors by the end of the year.
+
+When I saw Rienzo pitch I noticed he had a bit of a long arm action. His arm
+slot when throwing his curveball was higher than the arm slot for his
+fastball. His curveball had an inconsistent break to it and it got loopy at
+times. His slider was better in this game but he struggled to throw it for
+strikes.
+
+#8 [Christopher
+Beck](http://www.fangraphs.com/statss.aspx?playerid=sa503060&position=P) (P)
+
+* * *
+
+Age | G | GS | IP | H | HR | K/9 | BB/9 | ERA | FIP  
+---|---|---|---|---|---|---|---|---|---  
+21 | 15 | 6 | 40.1 | 51 | 3 | 8.03 | 2.68 | 4.69 | 3.27  
+  
+Beck entered 2012 with the potential to be a first round selection but an
+inconsistent junior year at Georgia Southern caused him to slip to the second
+round (76th overall). Prior to 2012, the right-hander showed the ability to
+work in the mid-90s but he was mostly 87-91 (touching 93) mph this past
+season. A contact I spoke with said that Beck worked out in the weight room
+too much and he got too thick and heavy. His high-three-quarter arm slot fell
+to low-three-quarter.
+
+I’m told Beck had an excellent fall instructional league with the White Sox
+and had his fastball back up to 95 mph. “He’s loosened up and his arm strength
+is back,” a talent evaluator stated. His slider is also becoming more
+consistent again. Beck also has a cutter and changeup. He could open 2013 in
+high-A ball if he has a strong spring training. His ceiling is that of an
+innings-eating middle-of-the-rotation arm.
+
+#9 [Keon
+Barnum](http://www.fangraphs.com/statss.aspx?playerid=sa657864&position=1B)
+(1B)
+
+* * *
+
+Age | PA | H | 2B | HR | BB | SO | SB | AVG | OBP | SLG | wOBA  
+---|---|---|---|---|---|---|---|---|---|---|---  
+19 | 49 | 12 | 1 | 3 | 5 | 13 | 0 | .279 | .347 | .512 | .380  
+  
+Barnum was a surprise pick with the 48th overall selection of the 2012 draft
+and was considered by many to be a third-to-fifth-round option, especially
+given his commitment to the University of Miami. A talent evaluator I spoke
+with said the big first baseman is definitely talented but he was a difficult
+player to scout at times because of sporadic views of him since he did not
+appear in any of the major amateur showcases.
+
+The prospect’s strongest tool is his power, which is a 65-70 grade. My contact
+stated that the ball has a different sound coming off of Barnum’s bat. “His
+raw power is something special. It’s a lot of fun to watch.” The rest of his
+game, though, is raw and I was told that it would take quite some time for him
+to develop. In the field, he could become a solid fielder at first base and
+even has the potential to play some left field thanks to a strong arm and
+45-50 speed. “He is some kind of athlete,” the talent evaluator said. “He
+doesn’t get the credit he deserves.”
+
+After signing, the left-handed hitter slugged three home runs in 13 games but
+also struck out 13 times. Two comps I received for Barnum were Cliff Floyd and
+Fred McGriff. I was also told that he had a very impressive fall instructional
+league for the White Sox. Barnum will probably open 2013 in extended spring
+training before being assigned to a short-season club in June.
+
+#10 [Joey
+Demichele](http://www.fangraphs.com/statss.aspx?playerid=sa621612&position=2B)
+(2B)
+
+* * *
+
+Age | PA | H | 2B | HR | BB | SO | SB | AVG | OBP | SLG | wOBA  
+---|---|---|---|---|---|---|---|---|---|---|---  
+21 | 308 | 77 | 16 | 7 | 22 | 62 | 8 | .275 | .334 | .479 | .365  
+  
+From an offensive standpoint, DeMichele is very close to being ready for the
+Major Leagues. As one contact stated, “He’s probably the most advanced hitter
+[the White Sox] drafted… He can really swing the bat and has an uncanny
+ability to put the barrel on the ball.” He added that his defensive
+development will dictate just how quickly he reaches the big leagues.
+
+While at Arizona State University, DeMichele spent most of his time at DH as a
+freshman before playing a lot of first base as a sophomore and then moving to
+second base as a junior. The 21-year-old infielder has a lot of polishing to
+do with his defense but he should develop into an average fielder at the
+position. If he’s unable to stick at the keystone, first base is not an option
+due to his lack of height (5’11”) and offensive profile. Left field would be
+an option but, again, he lacks the prototypical power that clubs seek from
+that position.
+
+After signing in 2012 as a third round draft pick, the left-handed hitter
+spent most of his time in A-ball. He was a little worn down after a long year
+but still managed to hold his own and show good pop for his size. I was told
+that DeMichele will likely skip over high-A ball and open 2013 in double-A. If
+he doesn’t stick as a regular at second base he could end up as a Scott
+Spiezio type part-time contributor.
+
+#11 [Jared
+Mitchell](http://www.fangraphs.com/statss.aspx?playerid=sa327116&position=OF)
+(OF)
+
+* * *
+
+Age | PA | H | 2B | HR | BB | SO | SB | AVG | OBP | SLG | wOBA  
+---|---|---|---|---|---|---|---|---|---|---|---  
+23 | 549 | 108 | 24 | 11 | 78 | 179 | 21 | .237 | .358 | .420 | .358  
+  
+The 23rd overall selection of the 2009 amateur draft out of Louisiana State
+University, Mitchell hasn’t developed as hoped. A lost year due to an ankle
+injury in 2010 did not help and he hasn’t hit more than .240 since returning.
+Despite his inability to hit for average — tied mostly to his massive
+strikeout rates of more than 30% — Mitchell offers some power, speed and takes
+a large number of walks. He also plays good defense in center field.
+
+I watched Mitchell this summer and he showed a more aggressive approach than I
+was expecting. He hit with a well-balanced, open stance but his swing was not
+exactly the smoothest. He pulled his hands back, stopped, and then started
+forward again after a pause rather than in one full sweeping motion. I was
+impressed with the pop off his bat, thanks to solid bat speed, and he showed
+opposite-field power with a double.
+
+Still just 24, Mitchell should spend the entire year in triple-A working to
+improve his approach at the plate. He could stand to shorten his swing and he
+needs to become more aggressive early in the count. At this point Mitchell
+looks like a future fourth outfielder or possibly a platoon outfielder who’s
+shielded from tough left-handed pitching.
+
+#12 [Jacob
+Petricka](http://www.fangraphs.com/statss.aspx?playerid=sa503042&position=P)
+(P)
+
+* * *
+
+Age | G | GS | IP | H | HR | K/9 | BB/9 | ERA | FIP  
+---|---|---|---|---|---|---|---|---|---  
+24 | 29 | 29 | 140.1 | 156 | 9 | 7.12 | 5.19 | 5.39 | 4.25  
+  
+It wasn’t a pretty year for Petricka, whose ERA was more than 5.00 at two
+levels in 2012. His command completely deserted him at double-A and he posted
+a walk rate of 5.46 BB/9 and a strikeout rate of just 4.21 K/9 in 57.2
+innings. Petricka, 24, has a mid-90s fastball, as well as a below-average
+slider and a changeup. He gets by with so-so secondary stuff because he
+induces a lot of ground balls.
+
+When I watched Petricka pitch — who is tall and lanky with room to fill out —
+he showed the need for better balance on the mound through his delivery. He
+was falling forward too early during his delivery at times and dragged his arm
+behind him, which would help to explain the control issues he had in 2012. He
+definitely struggled with his fastball command and was getting behind in
+counts, which kept him from utilizing his secondary pitches. He became the
+victim of a big inning and completely fell apart, perhaps suggesting he needs
+to show a little more mental toughness on the mound.
+
+With improved pitching depth in the system, Chicago doesn’t have to pin its
+hopes on Petricka developing into starting pitcher. His future is likely in
+the bullpen due to his lack of secondary pitches. He could return to double-A
+to open 2013 but should see triple-A at some point. Petricka has the ceiling
+of an eighth inning reliever.
+
+#13 [Sammy
+Ayala](http://www.fangraphs.com/statss.aspx?playerid=sa658324&position=C/DH)
+(C/DH)
+
+* * *
+
+Age | PA | H | 2B | HR | BB | SO | SB | AVG | OBP | SLG | wOBA  
+---|---|---|---|---|---|---|---|---|---|---|---  
+17 | 92 | 17 | 3 | 1 | 5 | 23 | 0 | .202 | .261 | .274 | .253  
+  
+Ayala was considered a third-to-fifth-round talent but slid to the White Sox
+in the 17th round and looked like he would follow through on his commitment to
+UC Santa Barbara but the club got him signed for just under $260,000. Some
+clubs questioned both his defense and his power potential but White Sox
+officials got a lot of looks at the California native and felt comfortable in
+his projection.
+
+A left-handed hitting catcher and high school football player, the
+organization hopes his game will really take off as he focuses on baseball
+24/7. Like a lot of young hitters, Ayala struggles against soft stuff and
+needs a game plan at the plate but a contact I spoke with saw a lot of
+potential. “He’s a big, strong guy… The bat will not be a question and there
+is some power in it.”
+
+Ayala split time playing both the outfield and catcher in high school so his
+game behind the dish still needs a lot of polish but he could also play left
+field — or first base — in pro ball, if he cannot stick as a backstop. The
+contact I spoke with thinks the young player will stick as a catcher and just
+needs experience. I was told that Ayala has at least an average arm and needs
+to improve his foot work, which will help him throwing out runners. With a
+football physique, he’ll also have to make sure he doesn’t get too thick in
+the lower half and lose his mobility.
+
+Still just 18, Ayala will open 2013 in extended spring training before being
+assigned to a short-season club in June. He’s a long-term project but could
+develop into a solid starting catcher or Ryan Doumit type contributor.
+
+#14 [Andy
+Wilkins](http://www.fangraphs.com/statss.aspx?playerid=sa392173&position=1B)
+(1B)
+
+* * *
+
+Age | PA | H | 2B | HR | BB | SO | SB | AVG | OBP | SLG | wOBA  
+---|---|---|---|---|---|---|---|---|---|---|---  
+23 | 600 | 128 | 32 | 20 | 71 | 116 | 8 | .244 | .333 | .424 | .348  
+  
+A former fifth round draft pick out of the University of Arkansas, Wilkins has
+swiftly risen through the system and reached double-A in his third pro season.
+He struggled a bit in 2012 in terms of hitting for average but he continued to
+show some impressive left-handed power while also taking his fair share of
+free passes.
+
+Primarily a first baseman, Wilkins can also play a little third base. He’s not
+overly gifted defensively at either position but he has a strong arm, which
+helps him compensate for his shortcomings at the hot corner. Because he
+doesn’t hit southpaws well, Wilkins may end up as a platoon player or
+dangerous bat off the bench. He should move up to triple-A for 2013 and won’t
+unseat incumbent veteran first baseman Paul Konerko but could reach the majors
+in the coming season as an injury replacement.
+
+#15 [Brandon
+Brennan](http://www.fangraphs.com/statss.aspx?playerid=sa550121&position=P)
+(P)
+
+* * *
+
+Age | G | GS | IP | H | HR | K/9 | BB/9 | ERA | FIP  
+---|---|---|---|---|---|---|---|---|---  
+20 | 14 | 7 | 37.1 | 44 | 2 | 7.47 | 3.86 | 4.34 | 3.68  
+  
+Brennan was selected in the fourth round of the 2012 amateur draft and
+currently projects as an innings eater thanks to his big, strong frame — or
+possibly a high-leverage reliever. The right-hander generally works in the
+low-90s but he can touch the mid-90s and he may reach it on a more consistent
+basis with a permanent move to the ‘pen. He get a good downward plane on his
+fastball and induced a high number of ground-ball outs. Brennan, 21, needs to
+improve his slider and also work to develop a changeup.
+
+The California native will work out of the starting rotation for now and will
+be assigned to A-ball to open 2013. He’s not quite as developed as fellow 2012
+draft pick Chris Beck and could spend the entire year in A-ball. He’s probably
+two to three years from reaching the majors.

@@ -1,0 +1,191 @@
+# An Egyptian activist mourns: Egypt’s hopes for a democratic future have been replaced by a war zone.
+
+**Source**: http://www.slate.com/articles/news_and_politics/foreigners/2013/08/an_egyptian_liberal_mourns_egypt_s_hopes_for_a_democratic_future_have_been.html
+**Type**: article
+**Created**: 2025-08-13T20:02:56.680998
+
+---
+
+title: An Egyptian activist mourns: Egypt’s hopes for a democratic future have been replaced by a war zone.
+source: http://www.slate.com/articles/news_and_politics/foreigners/2013/08/an_egyptian_liberal_mourns_egypt_s_hopes_for_a_democratic_future_have_been.html
+date: 2025-08-13T20:02:55.170732
+tags: []
+---
+_This article originally appeared on[madamasr.com](http://www.madamasr.com/)._
+
+I sit, for the 12th hour now, alone and struggling for what to do. For the
+first time since I got on a plane for Egypt on Jan. 29, 2011, I am at a loss.
+
+Worse days than today lie ahead of us.
+
+We thought we could change the world. We know now that that feeling was not
+unique to us, that every revolutionary moment courses with the pulse of a
+manifest destiny. How different things feel today. I will not bury our
+convictions, but that feeling—youthful optimism? naiveté? idealism?
+foolishness?—is now truly and irrevocably dead.
+
+I mourn the dead and I despise those killing them. I mourn the dead and I
+despise those sending them to their deaths. I mourn the dead and I despise
+those who excuse their murder. How did it come to this? How did we get here?
+What is this place?
+
+It is Feb. 12, 2011. Hosni Mubarak has fallen. In the morning I will fly to
+America to finish a job, before moving permanently to Cairo to help build the
+new country. I am sitting on my mother’s balcony. We are smoking cigarettes
+and drinking tea to keep out the cold and talking about all that we’ve seen
+and done, about all that we’re going to do. Everything, on that night, was
+possible. Our conversation ranges from the grandiose of the global revolution
+to the practical rethinking of ministerial appointments to the minutiae of the
+requirements of the film school that should be established. We talked through
+the night. I took notes.
+
+It is, perhaps, this memory that hurts me the most.
+
+By the time I returned from America, the Army had cleared two sit-ins from
+Tahrir Square, begun court-martialing civilians en masse, and assaulting women
+protesters with “virginity tests.” The revolution now is smaller, but serious,
+focused, and under sustained attack. The unfallen state, the deep state, the
+client state; once a month, every month, it attacks. It clears Tahrir in
+March, April, August, and December. It attacks protesters at the Israeli
+Embassy. It envelops downtown Cairo in a November mist of Pennsylvanian tear
+gas. It rains down rocks and Molotov cocktails from the roof of the Cabinet
+building. It welds shut the doors of the Port Said Stadium death trap. Every
+month, people die fighting it.
+
+A wounded boy is treated on the floor of the Taamin Sehi field hospital during
+clashes in Cairo on Aug. 16, 2013.
+
+Photo by Virginie Nguyen Hoang/AFP/Getty Images
+
+There were moments when we could have broken the Army’s grip on the country.
+We should have stayed in Tahrir after Mubarak was ousted. Tahrir was in the
+driver’s seat and hadn’t yet acquired the politicians to sell it out. But we
+left. Everyone said they would be back the next day, and then, somehow, they
+weren’t. People wanted to shower and to sleep in their own beds. Then
+spontaneous cleaning brigades of earnest patriots spread through the city and
+by midday everything was nice and tidy and gone.
+
+In November 2011 and in January 2012, the streets echoed with chants demanding
+the end of military rule. But now it had become the self-appointed role of the
+politicians to translate street action into political gain. Now, the Army had
+people to talk to. Had all the forces that were supposedly against the
+military—the revolutionaries, the liberals, the Brotherhood, and the
+Salafis—ever truly united, where might we be today? Dead, possibly. But maybe
+not. Maybe somewhere closer to a civilian state.
+
+A real, ideological alliance was never possible. But a tactical, practical one
+just might have worked. But rather than work together, each party repeatedly
+met with and made deals with the Army, consistently placing the generals in
+the strongest tactical position. Everyone was to blame. The old, moneyed
+liberals who presented themselves as allied with the revolution lived in
+relative comfort, had historical ties to the military, and routinely demonized
+the Brotherhood. The revolutionaries’ disdain for high politics meant that
+they effectively removed themselves from the equation. The Salafis were only
+ever interested in the deal that brought them the most power and their prized
+ministries—education and health. And the Brotherhood, long enamored of its
+ability to put numbers on the street, was arrogant and duplicitous from the
+beginning—making serious electoral promises to the liberals, lobbying America,
+and offering the Army immunity and oversight of itself.
+
+When in power, Mohammed Morsi refused to take on the Ministry of Interior.
+Instead, he appointed Ahmad Gamal Eddin, who, as chief of the Assiut Security
+Directorate, almost killed off the revolution in January 2011 and then was the
+Supreme Council of the Armed Forces’ chief of general security at the time of
+the Mohamed Mahmoud and the ultras massacres.
+
+The main enemy of the people has always been the security state—the police and
+the military. We will never get anywhere until they are dismantled entirely.
+There was a moment when that could have been achieved, when a civilian state
+could have been built. But Morsi and the Muslim Brotherhood would have had to
+choose the challenge of working with the disparate and bickering forces of the
+left and the liberals over dealing with the organized certainty of the
+military.
+
+* * *
+
+I write now from Sarajevo. I sat yesterday in the Srebrenica memorial museum.
+While men were jumping off Cairo’s October 6 Bridge to escape the gunfire
+closing in on them from all sides, Gen. Ratko Mladic was staring at the
+camera, speaking to history:
+
+“Here we are on July 11, 1995, in Serbian Srebrenica, just before a great Serb
+holy day. We give this town to the Serbian nation; in memory of the uprising
+against the Turks. The time has now come to take revenge on the Muslims.”
+
+I wander the streets alone. Every building is still mapped with the scars of
+war. I drink alone at the opening gala of the film festival I am attending,
+thinking of a woman in the museum video.
+
+If I had cried out, if I had screamed that they couldn’t take him. If I had
+grabbed him. If I had done something. I don’t know. Maybe I would be able to
+live with myself.
+
+* * *
+
+It’s June 27, 2013. We’re sitting in Estoril, at the corner table under the
+television. Of the six of us, three genuinely believe that the marches on June
+30 will be very seriously attacked; that it is the perfect moment for the old
+National Democratic Party networks to throw the country into chaos and force
+the military to take control again. There is talk of kill lists. I spend
+hundreds of pounds on goggles I hope will keep the birdshot out of our eyes. I
+don’t want to march that day. I want Morsi gone, but the voices we are hearing
+are all remnants of the old regime, what we call _feloul_ , and online
+instructions are circulating insisting no one chant against the military or
+the police. But all my friends are going, so what choice do I have? To watch
+them die on television?
+
+We read it wrong. The blood that the Army, the regime wanted was not ours. Not
+this time. Is it because we are now irrelevant? Or because the backlash would
+have been too strong?
+
+And on July 3, just as they did on Feb. 11, 2011, the military staged a coup.
+In February they removed Mubarak to sap public pressure and demobilize people.
+And it worked. What happened this time? Did the street pressure force the Army
+to act, or did the Army create the street pressure through Tamarod to get what
+they wanted?
+
+* * *
+
+Can the side without guns ever win?
+
+An Iranian friend once assured me that reform, rather than revolution, is what
+we want. That revolutions are only won by those most violent.
+
+The first thing I read when I woke up today was Adam Shatz. He wrote, “Egypt’s
+revolutionaries mistook their belief in the revolution for the existence of a
+revolution.”
+
+Mourners attend the funeral of Ammar Badie, son of Muslim Brotherhood Supreme
+Guide Mohammed Badie, at the Katameya cemetery in Cairo on Aug. 18, 2013.  
+
+Photo by Ed Giles/Getty Images
+
+But what do we have if not our beliefs? They are the foundation of our
+actions, of our identities. And it was transformative: the belief we all
+shared, for a moment, in each other. In an eternity of disappointment and
+greed and malice, that moment, that moment in which being human was finally
+worth something, in which having a community was preferable to being alone
+with a book, had a value that will never be lost. You cannot underestimate how
+important these two and half years have been for people, how empowered, how
+unafraid people were. The existence of the revolution should not be confused
+with the existence of a political leadership and process. The revolution is
+dead when we say it’s dead. The revolution is dead when we will no longer die
+for it.
+
+My apartment in Cairo is in Bab al-Louq, and every time I go to the
+supermarket I see the doorway I hid in on Nov. 22, 2011, during the first
+battle of Mohamed Mahmoud Street. I smell the cloud of tear gas filling the
+street, see the locked glass door, and the flashes of police gunfire coming
+closer and closer in the reflection. I hear the crack of a shotgun reloading,
+louder and louder. And I hear, with perfect clarity, my thoughts:
+
+_Turn. Take it in the back. Maybe you’ll survive. Stand up straight. Stand up.
+They will remember you. It’s your turn now. People have given more. People
+have given their eyes. Alaa is in jail. They faced it bravely. Bravely. Stand
+up straight. They will remember you._
+
+I cannot stand up to death today. Today I am a coward who can only write. I
+see the revolution being dragged away to be shot over a shallow grave and I
+don’t know what to do. But I do know that, before it’s too late, we will grab
+it, we will fight for it. We have to, or we will never be able to live with
+ourselves.

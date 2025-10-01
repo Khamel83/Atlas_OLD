@@ -1,0 +1,26 @@
+# What Are the Best Excursions in Princeville, Kauai, Hawaii?
+
+**Source**: http://thepointsguy.com/2015/02/what-are-the-best-excursions-in-princeville-kauai-hawaii/
+**Type**: article
+**Created**: 2025-08-13T19:09:16.586700
+
+---
+
+title: What Are the Best Excursions in Princeville, Kauai, Hawaii?
+source: http://thepointsguy.com/2015/02/what-are-the-best-excursions-in-princeville-kauai-hawaii/
+date: 2025-08-13T19:09:09.599285
+tags: []
+---
+### Advertiser Disclosure
+
+Many of the credit card offers that appear on the website are from credit card
+companies from which ThePointsGuy.com receives compensation. This compensation
+may impact how and where products appear on this site (including, for example,
+the order in which they appear). This site does not include all credit card
+companies or all available credit card offers. Please view our [advertising
+policy page](/web/20210516174221/https://thepointsguy.com/advertising-policy/)
+for more information.
+
+Editorial Note: Opinions expressed here are the author’s alone, not those of
+any bank, credit card issuer, airlines or hotel chain, and have not been
+reviewed, approved or otherwise endorsed by any of these entities.

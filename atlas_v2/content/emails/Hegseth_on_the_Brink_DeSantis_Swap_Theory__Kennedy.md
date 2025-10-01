@@ -1,0 +1,166 @@
+# Hegseth on the Brink, DeSantis Swap Theory & Kennedy Kinks
+
+**Source**: inputs/saved_emails/Hegseth on the Brink, DeSantis Swap Theory & Kennedy Kinks_Fri,_06_Dec_2024_04-01-04_+0000_1939a20f96c3e25c.eml
+**Type**: email
+**Created**: 2025-08-25T02:54:00.449925
+
+---
+
+Welcome back to The Best & The Brightest. Mar-a-Lago has stepped up leak patrol ever since Todd Blanche, the nominee for deputy A.G., was spotted at Swifty’s in Palm Beach on Tuesday having a poolside lunch with CNN’s Kaitlan Collins, who has been sourcing up around town. Raheem Kassam, the editor of The National Pulse and the guy who tweeted photos of the two, has been pressured by Trump aides to delete the post out of fear that it could tank Blanche’s standing with the president-elect and thus, his chance of even making it to the confirmation process. After all, Trump gets furious about leakers, perhaps because he prefers to pick up the phone and do the leaking himself.
+
+ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+
+The Best & Brightest ( https://puck.news/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Image ( https://familycenter.meta.com/instagram-safety/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Welcome back to The Best & The Brightest. I’m Tara Palmeri.
+
+Mar-a-Lago has stepped up leak patrol ever since Todd Blanche, the nominee for deputy A.G., was spotted at Swifty’s in Palm Beach on Tuesday having a poolside lunch with CNN’s Kaitlan Collins, who has been sourcing up around town. Raheem Kassam, the editor of The National Pulse and the guy who tweeted photos of the two, has been pressured by Trump aides to delete the post out of fear that it could tank Blanche’s standing with the president-elect and thus, his chance of even making it to the confirmation process. After all, Trump gets furious about leakers, perhaps because he prefers to pick up the phone and do the leaking himself.
+
+In tonight’s issue, news and notes on the faltering nomination of Pete Hegseth and the potential
+domino effect it might have on other problematic Trump nominees.
+
+But first…
+
+🎧 Somebody’s Gotta Win: A quick plug for my podcast yesterday with Joe Hack, the former Republican chief of staff turned lobbyist, about the kinks in the confirmation process for Trump’s most controversial nominees. Joe knows more than almost anyone about which senators to watch as the deliberations unfold. Listen here ( https://open.spotify.com/episode/0VvULVeHMeosSwzr7xa6j3?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or here ( https://podcasts.apple.com/us/podcast/will-the-republican-senate-deny-trump-his-carnival-cabinet/id1111751047?i=1000679195893&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+A MESSAGE FROM INSTAGRAM
+
+$(ad4_title) ( https://familycenter.meta.com/instagram-safety/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Instagram Teen Accounts: a protected experience for teens, guided by parents
+
+Instagram Teen Accounts are designed to address parents’ biggest concerns, providing automatic protections for who can contact their teens and the content they can see.
+
+The impact: Built-in limits give parents more peace of mind when it comes to protecting their teens.
+
+Learn More ( https://familycenter.meta.com/instagram-safety/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+💉Speaking of: A few friends reached out to direct my attention to the… unusual application form to work for R.F.K. Jr., and then presumably at the Department of Health and Human Services, the agency he’s been nominated to lead. The Make America Healthy Again intake form is certifiably comedic—and a little gross.
+
+The form asks candidates to answer questions by selecting responses such as:
+
+* “I don’t have much interest in having sexual experiences with another person”
+* “I believe in things many others don’t—like having a ‘sixth sense,’ clairvoyance, and telepathy—and as an adolescent, I had bizarre fantasies or
+preoccupations” and
+* “I consistently use my physical appearance to draw attention to myself.”
+
+You can check the application out yourself here ( https://iasassessment.com/session/register/gen112413181mvst?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). When I reached out to the Trump transition team for comment, spokesman Brian Hughes confirmed the page is real and being used by Kennedy’s team. “Many nominees and appointees are soliciting résumés and then submitting them to the transition for the consideration and process,” he told me.
+
+And now, on to the main event…
+
+The Hegseth Sitch & Trump Confirmation Dominoes ( https://puck.news/if-pete-hegseth-withdraws-who-could-be-next/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Hegseth Sitch & Trump Confirmation Dominoes ( https://puck.news/if-pete-hegseth-withdraws-who-could-be-next/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The president-elect has stopped working the phones for Pete Hegseth, and Ron DeSantis may be on deck, amid cascading scrutiny of Trump’s most controversial nominees.
+
+TARA PALMERI ( https://puck.news/author/tara-palmeri/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+TARA PALMERI ( https://puck.news/author/tara-palmeri/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Last month, when Donald Trump first began his rapid-fire nomination of baggage-laden, barely vetted political allies to fill out his cabinet, Washington presumed a certain method to his madness. Sure, the likes of Matt Gaetz, Pete Hegseth, Tulsi Gabbard, and Robert F. Kennedy Jr. seemed obviously unqualified. But Trump’s straight-from-the-gut, spaghetti-at-the-wall decision-making at least suggested a patina of strategy. Republican senators, stunned into submission by the onslaught, appeared ready to capitulate in a humbling demonstration of loyalty. “If Donald Trump says jump three feet high and scratch your head, we all jump three feet high and scratch our heads,” Rep. Troy Nehls declared, one week after the election. “And that’s it.”
+
+Now, of course, a new conventional
+wisdom is emerging. Gaetz, under investigation for drug use and sexual misconduct with a minor, withdrew himself from contention for attorney general. Chad Chronister, nominated to run the D.E.A., also took himself out of consideration. And Republican senators—it will only take four to tank a nominee come January—have become somewhat more emboldened with each new fallen domino.
+
+The next Trump nominee to go down may be Hegseth, who’s been tapped to run the Pentagon. After failing to win over Joni Ernst during his Capitol Hill charm campaign yesterday, I’m told by Senate sources that he may be forced to withdraw from consideration by the end of the week. Ernst, a combat veteran and sexual assault survivor, had told reporters she would need to have a serious conversation with Hegseth, who has been accused of sexual assault and stated publicly that women should not serve in combat. (Hegseth has denied the accusations of assault.) Earlier today on
+Fox News, Ernst said she wasn’t ready to ratify him. “The vetting will continue,” she added.
+
+A MESSAGE FROM INSTAGRAM
+
+$(ad2_title) ( https://familycenter.meta.com/instagram-safety/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Instagram Teen Accounts: automatic protections for teens
+
+Parents want safer online experiences for their teens. That's why Instagram is introducing Teen Accounts, with automatic protections for who can contact teens and the content they can see.
+
+A key factor: Only parents can approve safety setting changes for teens under 16.
+
+Learn More ( https://familycenter.meta.com/instagram-safety/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Meanwhile, Hegseth said on Wednesday that Trump had called him beforehand to express his unequivocal support. But it appears the president-elect is at least entertaining the idea of moving on. According to a quintuple-bylined story ( https://abcnews.go.com/Politics/hegseth-fights-head-pentagon-trump-working-phones-save/story?id=116484726&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) on ABC News, Trump’s team has been discussing the possibility that Hegseth’s nomination is no longer viable, and Trump himself isn’t working the phones for the former Fox & Friends co-host like he did for Gaetz. “Trump’s never had a huge
+degree of loyalty,” a senior Senate source told me. “If it becomes a problem for him, like the Gaetz thing, they’re done.”
+
+Notably, I’m told that Trump isn’t much bothered that Hegseth has been accused of sexual assault (an experience they share). Instead, according to a source in Trumpworld, it’s the tales of Hegseth’s excessive drinking that may have become a dealbreaker. For all his sins, Trump is famously a teetotaler—as are many of his closest aides—and he blames alcoholism for the death of his brother, Fred, at only 42. “His naysayers are focusing on the women, but that doesn’t matter to Trump,” this source said. The issue is the booze.
+
+Indeed, reports that Trump was flirting with tapping Ron DeSantis as Hegseth’s replacement only surfaced after current and former coworkers at Fox News, and the veterans nonprofits he led, told NBC News they’d smelled alcohol ( https://www.nbcnews.com/politics/national-security/pete-hegseths-drinking-worried-colleagues-fox-news-sources-tell-nbc-ne-rcna181471?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) on Hegseth at work, or had seen him drunk at work functions—allegations that a spokesperson for the transition called “completely unfounded and false.”
+
+There’s no doubt that DeSantis would be confirmable. The secretary of defense manages a global workforce of nearly 3 million people, and operates with a budget close to $850 million. DeSantis has spent the last several years as the governor of a state with some 22.6 million people, and is a military veteran himself. He’s also been thoroughly vetted by the public and by the
+press. Meanwhile, Hegseth’s managerial experience is limited to running two nonprofits, reportedly quite poorly.
+
+Would DeSantis want the job if it were offered to him? There’s always the specter of Mitt Romney, who lobbied for the secretary of state job at a very public dinner with Trump at Jean-Georges in New York, only to have Trump snatch away the proverbial football. (I’m told Senator Bill Hagerty, who was previously considered for Defense, is still waiting in the wings.) DeSantis is on better terms with Trump—he already completed his genuflections last year—but it’s not as if he has tons of allies inside Mar-a-Lago. Susie Wiles, the Florida super-operative and Trump’s incoming chief of staff, isn’t a fan of her former boss. And while Trump’s “first buddy” Elon Musk donated $10 million to DeSantis’s primary campaign, he hasn’t won many personnel fights of late.
+
+There’s family
+politics to consider, too. As governor, it would fall to DeSantis to appoint a replacement for Senator Marco Rubio, assuming he is confirmed as secretary of state, which seems likely. I’m told that Trump sees DeSantis as someone he can pressure to get his daughter-in-law, Lara Trump, in that seat, extending the family dynasty and installing another loyalist in the upper chamber. Lieutenant Governor Jeanette Nuñez, who would replace DeSantis if he were to join the Trump administration, might not be quite as malleable.
+
+Confirmation Dominoes
+
+Alas, deep-sixing the Hegseth problem might only create other headaches for the Trump team. “Once Hegseth gets out, there will be pressure on the next one,” said the senior Senate source. “It’s going to be one story after the next.”
+
+Tulsi Gabbard, Trump’s pick for director of national intelligence, could be the next domino to fall, even before getting a committee hearing. Gabbard’s history of pro-Putin and pro-Assad statements—including, among other things, blaming NATO for Russia’s invasion of Ukraine and a goodwill trip to Syria in 2017, after Assad gassed his own people—have alarmed members of both parties.
+
+$(ad3_title) ( https://familycenter.meta.com/instagram-safety/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Then there’s Trump’s would-be F.B.I. director, Kash Patel, who comes armed with an enemies list but little in the way of credentials. There were encouraging signs for Kash today when Sen. John Cornyn said ( https://www.politico.com/live-updates/2024/12/05/congress/kash-patel-fbi-cornyn-00192805?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) on the Hugh Hewitt Show that “he will” be confirmed to lead the bureau. On the other hand, it’s still early, and everyone’s been a bit too distracted with other noms to fully focus on Patel. Within the bureau, the reaction to Patel’s selection is decidedly mixed, according to a
+recently retired senior official at the F.B.I. Most F.B.I. officers and agents are politically conservative, like many in law enforcement, this person noted, and many would welcome a shake-up—especially one that empowers field offices at the expense of D.C., where then-director Robert Mueller centralized many functions in the wake of 9/11.
+
+But relocating key F.B.I. functions outside the capital is actually among the least controversial of Patel’s proposals for the agency. He’s also vowed to prosecute political opponents and members of the media, and to fashion himself as a sort of blunt weapon of Trump’s campaign of retribution. I’m already hearing justifications from some Trump allies, who note that the Obama administration did indeed ( https://freedom.press/issues/obama-used-espionage-act-put-record-number-reporters-sources-jail-and-trump-could-be-even-worse/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) put record numbers of leakers in prison and investigated but never prosecuted multiple journalists. The recently retired F.B.I. official speculated that Patel and Trump’s new choice for attorney general, Pam Bondi, would
+investigate select leaks, and potentially subpoena reporters.
+
+Even so, there’s plenty there to make Republican senators second-guess the wisdom of putting Patel in charge of federal law enforcement. (Remember, it only takes four senators to kill a nomination—and Susan Collins, Lisa Murkowski, and Mitch McConnell are just a few of several wild cards ( https://puck.news/will-the-senate-actually-confirm-pete-hegseth/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), as my partner Abby Livingston has reported.) That may take the pressure off the later round of Trump allies who will have to face the Senate, such as Heather Nauert, who served as Trump’s acting undersecretary of state for public diplomacy and public affairs and is now being considered for a foreign policy position. (Nauert withdrew from consideration to be Trump’s ambassador to the U.N., in 2019, when
+it was revealed that she’d employed a nanny without the proper visa a decade prior—a scandal that seems positively quaint by 2024 standards.)
+
+Others are hanging around the hoop, waiting for a second or third round of cabinet flameouts to make their move. To wit: I’m told that Ric Grenell, Trump’s former acting director of national intelligence and ambassador to Germany, who has lobbied for a
+decade to be secretary of state, turned down an offer to serve as special envoy for resolving the Russia-Ukraine conflict. An ally familiar with his thinking said he didn’t want to look like a “squish” to the MAGA base. Instead, I’m told, he plans to remain in Trump’s orbit and wait for Rubio to crash back to earth.
+
+FOUR STORIES WE’RE TALKING ABOUT
+
+WaPo Editor Hunting ( https://puck.news/msnbc-exit-strategies-washington-post-new-executive-editor/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+WaPo Editor Hunting ( https://puck.news/msnbc-exit-strategies-washington-post-new-executive-editor/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Plus, the story of Rashida Jones’s impending MSNBC exit.
+
+DYLAN BYERS
+
+Musk Fever Dreams ( https://puck.news/trumps-pre-inaugural-stock-slump/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Musk Fever Dreams ( https://puck.news/trumps-pre-inaugural-stock-slump/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Can a reverse merger save Trump’s mediaco?
+
+WILLIAM D. COHAN
+
+Beauty’s M&A Drought ( https://puck.news/no-exit-for-glossier-rare-summer-fridays-beauty-m-and-a-lost-year/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Beauty’s M&A Drought ( https://puck.news/no-exit-for-glossier-rare-summer-fridays-beauty-m-and-a-lost-year/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+On a year to forget for beauty industry dealmakers.
+
+RACHEL STRUGATZ
+
+The F.B.I. Kluster ( https://puck.news/the-fbis-kash-patel-conundrum/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The F.B.I. Kluster ( https://puck.news/the-fbis-kash-patel-conundrum/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A conversation about Kash Patel and the state of the bureau.
+
+JOHN HEILEMANN
+
+swash divider
+
+Puck ( https://puck.news/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQs
+page ( https://puck.news/faq/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact
+us ( fritz@puck.news?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/global-unsubscribe/?subscription=the_best_and_the_brightest&delivery_id=dgT2xgYDAKvRKqrRKgGTmiATlDIbc78Nj9kBq74=&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F5%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F3%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Puck is published by Heat Media LLC. 227 W 17th St New York, NY 10011.

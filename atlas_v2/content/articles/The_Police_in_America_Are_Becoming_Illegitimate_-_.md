@@ -1,0 +1,188 @@
+# The Police in America Are Becoming Illegitimate - Rolling Stone
+
+**Source**: http://www.rollingstone.com/politics/news/the-police-in-america-are-becoming-illegitimate-20141205
+**Type**: article
+**Created**: 2025-08-13T19:20:38.169779
+
+---
+
+title: The Police in America Are Becoming Illegitimate - Rolling Stone
+source: http://www.rollingstone.com/politics/news/the-police-in-america-are-becoming-illegitimate-20141205
+date: 2025-08-13T19:20:27.280331
+tags: []
+---
+Nobody's willing to say it yet. But after Ferguson, and especially after the
+Eric Garner case that exploded in New York yesterday after yet another non-
+indictment following a minority death-in-custody, the police suddenly have a
+legitimacy problem in this country.
+
+Law-enforcement resources are now distributed so unevenly, and justice is
+being administered with such brazen inconsistency, that people everywhere are
+going to start questioning the basic political authority of law enforcement.
+And they're mostly going to be right to do it, and when they do, it's going to
+create problems that will make the post-Ferguson unrest seem minor.
+
+The Garner case was a perfect symbol of everything that's wrong with the
+proactive police tactics that are now baseline policy in most inner cities.
+Police surrounded the 43-year-old Garner after he broke up a fight. The
+officers who responded to that call then decided to get in Garner's face for
+the preposterous crime of selling "loosies," i.e. single cigarettes from a
+pack.
+
+When the police announced that they were taking him in to run him for the
+illegal tobacco sale, Garner [balked and demanded to be left
+alone](http://web.archive.org/web/20180425001425/http://www.theguardian.com/us-
+news/video/2014/dec/04/i-cant-breathe-eric-garner-chokehold-death-video). A
+few minutes later he was in a choke hold, gasping "I can't breathe," and en
+route to fatal cardiac arrest.
+
+On the tape you can actually hear the echo of Garner's years of experience
+with Broken Windows-style policing, a strategy based on a never-ending stream
+of small intrusive confrontations between police and residents in target
+neighborhoods.
+
+The ostensible goal of Broken Windows is to quickly and efficiently weed out
+people with guns or outstanding warrants. You flood neighborhoods with police,
+you stop people for anything and everything and demand to see IDs, and before
+long you've both amassed mountains of intelligence about who hangs with whom,
+and made it genuinely difficult for fugitives and gunwielders to walk around
+unmolested.
+
+You can make the argument that the policies work, as [multiple
+studies](http://web.archive.org/web/20180425001425/http://www.jjay.cuny.edu/Telep_Weisburd.pdf)
+have cited "hot spot" policing as a cause of urban crime-rate declines (other
+studies disagree, but let's stipulate).
+
+But the psychic impact of these policies on the massive pool of everyone else
+in the target neighborhoods is a rising sense of being seriously pissed off.
+They're tired of being manhandled and searched once a week or more for riding
+bikes the wrong way down the sidewalk (about [25,000 summonses a
+year](http://web.archive.org/web/20180425001425/http://www.streetsblog.org/2013/07/09/nypd-
+issues-more-tickets-for-sidewalk-riding-than-speeding-on-local-streets/) here
+in New York), smoking in the wrong spot, selling loosies, or just "obstructing
+pedestrian traffic," a.k.a. walking while black.
+
+This is exactly what you hear Eric Garner complaining about in the last
+moments of his life. "Every time you see me, you want to mess with me," he
+says. "It stops today!"
+
+This is the part white Middle American news audiences aren't hearing about
+these stories. News commentators like the _New York Post's_ Bob McManus
+("[Blame Only the Man Who Tragically Decided to
+Resist](http://web.archive.org/web/20180425001425/http://nypost.com/2014/12/04/eric-
+garner-was-a-victim-of-himself-for-deciding-to-resist/)"), predictably in
+full-on blame-the-victim mode, are telling readers that the mistake made by
+Eric Garner was resisting the police in a single moment of obstinacy over what
+admittedly was not a major offense, but a crime nonetheless. McManus writes:
+
+**He was on the street July 17, selling untaxed cigarettes one at a time —
+which, as inconsequential as it seems, happens to be a crime.  
+**
+
+The press and the people who don't live in these places want you to focus only
+on the incidents in question. It was technically a crime! Annoying, but he
+should have complied! His fault for dying – and he was a fat guy with asthma
+besides!
+
+But the real issue is almost always the hundreds of police interactions that
+take place before that single spotlight moment, the countless aggravations
+large and small that pump up the rage gland over time.
+
+Over the last three years, while working on a book about the criminal justice
+gap that ended up being called _The Divide,_ I spent a lot of time with people
+like Eric Garner _._ There's a shabby little courthouse at 346 Broadway in
+lower Manhattan that's set up as the place you go to be sentenced and fined
+for the kind of ticket Staten Island cops were probably planning on giving
+Garner.
+
+I sat in that courtroom over and over again for weeks and listened to the
+stories. I met one guy, named Andre Finley, who kept showing up to court in an
+attempt to talk his way _into_ jail as a way out of the $100 fine he'd got for
+riding a bike on a sidewalk in Bedford-Stuyvesant. He couldn't afford the
+hundred bucks. It took a year and multiple all-day court visits to clear up.
+
+I met a woman who had to hire a sitter so she could spend all day in court
+waiting to be fined for drinking wine on her own front porch. And in the case
+of a Bed-Stuy bus driver named Andrew Brown, it was that old "obstructing
+traffic" saw: the same "offense" that first flagged Ferguson police to stop
+Michael Brown.
+
+In Andrew's case, police thought the sight of two black men standing in front
+of a project tower at 1 a.m. was suspicious and stopped them. In reality,
+Andrew was listening to music on headphones with a friend on his way home
+after a long shift driving a casino shuttle. When he balked at being stopped,
+just like Garner balked, cops wrote him up for "obstructing" a street
+completely empty of pedestrians, and the court demanded 50 bucks for his
+crime.
+
+This policy of constantly badgering people for trifles generates bloodcurdling
+anger in "hot spot" neighborhoods with industrial efficiency. And then
+something like the Garner case happens and it all comes into relief. Six armed
+police officers tackling and _killing_ a man for selling a 75-cent cigarette.
+
+That was economic regulation turned lethal, a situation made all the more
+ridiculous by the fact that we no longer prosecute the countless serious
+economic crimes committed in this same city. A ferry ride away from Staten
+Island, on Wall Street, the pure unmolested freedom to fleece whoever you want
+is considered the sacred birthright of every rake with a briefcase.
+
+If Lloyd Blankfein or Jamie Dimon had come up with the concept of selling
+loosies, they'd go to their graves defending it as free economic expression
+that "creates liquidity" and should never be regulated.
+
+Taking it one step further, if Eric Garner had been selling naked credit
+default swaps instead of cigarettes – if in other words he'd set up a
+bookmaking operation in which passersby could bet on whether people made their
+home mortgage payments or companies paid off their bonds – the police by
+virtue of a federal law called the Commodity Futures Modernization Act would
+have been barred from even approaching him.
+
+There were more cops surrounding Eric Garner on a Staten Island street this
+past July 17th then there were surrounding all of AIG during the period when
+the company was making the toxic bets that nearly destroyed the world economy
+years ago. Back then AIG's regulator, the OTS, had [just one insurance expert
+on
+staff](http://web.archive.org/web/20180425001425/http://www.gao.gov/htext/d07154.html),
+policing a company with over 180,000 employees.
+
+This is the crooked math that's going to crash American law enforcement if
+policies aren't changed. We flood poor minority neighborhoods with police and
+tell unwitting officers to aggressively pursue an interventionist strategy
+that sounds like good solid policing in a vacuum.
+
+But the policy looks worse when a white yuppie like me can live in the same
+city as Garner for 15 years and never even be asked the time by someone in
+uniform. And at the very highest levels of society, where corruption has
+demonstrably been soaring in recent years, the police have almost been
+legislated out of existence.
+
+The counter-argument to all this is that the police are sent where there's the
+most crime. But that argument doesn't hold up for long in a city that not only
+has recently become the [unpunished economic
+corruption](http://web.archive.org/web/20180425001425/http://www.cbsnews.com/news/prosecuting-
+wall-street/) capital of the Western world – it's also a place where white
+professionals on the Upper East and West Sides can have their coke and weed
+safely home-delivered with their Chinese food, while minorities in Bed-Stuy
+and Harlem are catching real charges and jail time for the same thing.
+
+City police have tough, brutal, dangerous jobs. Even in the "hot spots,"
+residents know this and will cut officers a little slack for being paranoid
+and quick to escalate.
+
+Still, being quick to draw in a dark alley in a gang chase is one thing. But
+if some overzealous patrolman chokes a guy all the way to death, on video, in
+a six-on-one broad daylight situation, for selling a _cigarette_ , forget
+about a conviction – someone at least has to go to trial.
+
+Because you can't send hundreds of thousands of people to court every year on
+broken-taillight-type misdemeanors and expect people to sit still while yet
+another [coroner-declared
+homicide](http://web.archive.org/web/20180425001425/http://www.nydailynews.com/new-
+york/nyc-crime/eric-garner-death-ruled-homicide-medical-examiner-
+article-1.1888808) goes unindicted. It just won't hold. If the law isn't the
+same everywhere, it's not legitimate. And in these neighborhoods, what we have
+doesn't come close to looking like one single set of laws anymore.
+
+When that perception sinks in, it's not just going to be one Eric Garner
+deciding that listening to police orders "ends today." It's going to be
+everyone. And man, what a mess that's going to be.

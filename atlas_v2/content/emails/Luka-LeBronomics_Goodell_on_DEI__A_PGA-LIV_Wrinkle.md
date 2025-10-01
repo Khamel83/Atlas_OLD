@@ -1,0 +1,218 @@
+# Luka-LeBronomics, Goodell on D.E.I. & A PGA-LIV Wrinkle
+
+**Source**: inputs/saved_emails/Luka-LeBronomics, Goodell on D.E.I. & A PGA-LIV Wrinkle_Tue,_04_Feb_2025_02-02-53_+0000_194ceb25b44fb6cb.eml
+**Type**: email
+**Created**: 2025-08-25T02:54:08.976559
+
+---
+
+Feb 03, 2025
+
+The Varsity ( https://puck.news/newsletters/the-varsity/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+John Ourand ( https://puck.news/author/john-ourand/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+John Ourand ( https://puck.news/author/john-ourand/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Welcome back to The Varsity, my twice-weekly private email on the
+deals and egos that power the sports media business. I’m flying into New Orleans on Wednesday for four days of back-to-back meetings (and at least one Jelly Roll concert). Let me know if you’ll be in town. But don’t blow my cover with Marchand—I told him I’m canoeing in Greenbrier Lake. (Andrew, stop pressing your ear to my office door. You can hear the buzzer just fine from downstairs…)
+
+ 
+
+Given that one of the leitmotifs of The Varsity has been the collective lurch of professional sports leagues and mediacos into the wagering trade, I was taken by a recent triple-bylined Journal story ( https://www.wsj.com/sports/basketball/terry-rozier-illegal-betting-probe-nba-63a7170b?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) noting that federal prosecutors are investigating a potential illegal betting scheme in the
+NBA. This one involves veteran player Terry Rozier, who pulled himself out of a March 2023 game after nine minutes—and as a result did not hit any of the prop bets for individual points or rebounds.
+
+ 
+
+Two sentences in the story should give pause to the burgeoning sports betting business. “The inquiry into Rozier is part of a wider government probe into a sprawling ring of gamblers and poker
+players who have allegedly rigged games across the sports landscape,” the Journal noted. Also, “the government’s investigation will likely continue to grow: Authorities are exploring the gambling ring’s potential ties to college basketball as well.” (By the way, isn’t the Journal just so much better in the Emma Tucker era…?)
+
+Sports betting proponents will argue that this story merely proves the system
+works. U.S. Integrity, the company that works with the leagues and sportsbooks to root out suspicious activity, moved quickly and thoroughly. And yet no league wants to countenance the possibility that players and referees could be accepting bribes or throwing games. Quelle horreur!
+
+🚨🚨A Brady Meter–adjacent alert: Before we get started, I’d be remiss if I didn’t point out that Tom Brady is starting his own
+private email! If being an NFL owner and broadcaster wasn’t enough, Fox Sports’ $37.5 million man announced late last week that his newsletter, 199 (Brady was the 199th pick in the 2000 draft), will focus on “sports, wellness, health, competitiveness, and business.” I signed up, and expect to see The Varsity Meter within the first few issues.
+
+Finally: R.I.P. to former MLB commissioner Fay Vincent, someone who tried to maintain his
+independence even though he worked for the owners. If you have to choose one obit, I suggest this one ( https://www.nytimes.com/athletic/5937951/2025/02/02/fay-vincent-obituary/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) from The Athletic’s Tyler Kepner.
+
+ 
+
+The Starting Five
+-----------------
+
+* Goodell’s presser: At his annual Super Bowl press conference, Roger Goodell didn’t break much ground when it came to the out clause that the NFL holds in its media deals (expect the league to exercise it), the expansion to 18 games (it’ll happen), or the league’s international expansion (it will continue). But I was most interested in Goodell’s responses to questions about how the NFL will handle its D.E.I. policies in a
+Trump-fueled political environment. I counted at least six questions on this topic.
+
+Goodell’s answers were polished. “There are no quotas in our system. This is about opening that funnel and bringing the best talent into the NFL, and so we are confident with that,” he told one journalist. “We got into diversity efforts because we felt it was the right thing for the National Football League, and we’re going to continue those efforts,” he told another. Then, speaking of the
+Rooney Rule, which mandates that teams interview diverse candidates before hiring a new coach, the commissioner said, “There’s no requirement to hire a particular individual on basis of race or gender. It’s simply on the basis of looking at a canvas of candidates that reflect our communities and to look at the kind of talent that exists there. And then you make the best decision on who is hired.”
+* An LA Golf war: TGL, the golf league launched by Tiger Woods and Rory McIlroy in partnership with the PGA, is getting some heat from LA Golf, a company that makes golf clubs, apparel, and merch. LA Golf has filed a lawsuit in California accusing TGL of trademark infringement by naming its Los Angeles team—whose players include Justin Rose, Tommy Fleetwood, Collin Morikawa, and Sahith Theegala—the “Los Angeles Golf Club.”
+The case seems to be another PGA Tour vs. LIV skirmish. LA Golf has been LIV’s “official golf shaft partner” since 2023, and names two of the Saudi-backed disruptor’s most popular golfers, Dustin Johnson and Bryson DeChambeau, as “equity investors and ambassadors.”
+* An NBA health check: When the NBA’s ratings fell early in the season, everybody had a pet theory about what had gone
+wrong. To wit, among the many theories proffered: The league’s top stars were getting older; its offenses were being predictable and too dependent on three-pointers; the season was interminable. As I reported at the time, NBA executives have been circumspect about the ratings softness—unworried, sure, but not living under a rock. Commissioner Adam Silver, in particular, has been open to tweaks, even suggesting that the league shorten its quarters from 12 to 10 minutes.
+This would ostensibly diminish the wear on players without games being cut from the schedule, or players being held out of certain games, both of which piss off fans and media partners.
+
+This topic came up on yesterday’s episode of The Varsity. Former NBA coach and current broadcaster Stan Van Gundy told me that he thought the overall health of the NBA was strong. “We’ve got an exciting product. The players are more skilled than they have ever been,” he told me.
+But he also reflected on the recent rule changes in Major League Baseball, which expedited play and reenergized fan enthusiasm through a series of well-covered rules changes. “I envy baseball, a sport that is as slow to adapt as anybody. And now we have a pitch clock,” he said. “People who lead sports can’t just sit back and say, this is the way we’ve always done it. They have to look at ways to make it better.”
+* Super Bowl sure bet:
+Here’s an easy ratings prediction: The Super Bowl will reach a record audience next Sunday, besting the 123.7 million that CBS/Nickelodeon/Univision/Paramount+ averaged during the Chiefs’s overtime victory against the 49ers, and not just because of Patrick Mahomes’s quest for a threepeat and Taylor Swift’s adjacency. This morning, Nielsen announced the change that The Varsity
+exclusively reported ( https://puck.news/newsletter_content/nfl-media-lobbying-netflixs-needs-chiefs-fatigue-nonsense-3/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) last week, and which all but ensures a larger viewer count: This year, Nielsen will count out-of-home viewers—those watching from bars, restaurants, hotels, and so forth—from all of its markets. For last year’s game, the out-of-home contribution came from 66 percent of its markets. Provided that the game
+stays close—and it should—Fox is looking at a record Sunday.
+* Amazon’s NBA hire: An interesting job opening hit my LinkedIn feed last week: Amazon is seeking a Head of NBA Strategy to come up with the streamer’s strategy “for positioning, pricing, packaging, and planning of Amazon’s advertising across all NBA properties.” The gig pays between $174,300 and $288,200, and looks to be based in New York. Amazon, of course, signed an 11-year
+deal with the NBA last year, which includes 66 regular season games, the Emirates NBA Cup, and the league’s play-in games. The deal, which costs Amazon about $1.8 billion per year, starts this fall.
+
+The Secret Culprit in the Luka-A.D. Trade
+
+The Secret Culprit in the Luka-A.D. Trade ( https://puck.news/the-luka-doncic-anthony-davis-trade-has-a-secret-culprit/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+You’re not going to believe it…
+
+John Ourand ( https://puck.news/author/john-ourand/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+John Ourand ( https://puck.news/author/john-ourand/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Early Sunday morning, shortly after the Lakers defeated the Knicks in Madison
+Square Garden, ESPN’s Shams Charania broke a stunning piece of news: The Los Angeles Lakers and Dallas Mavericks were swapping their all-league players, Anthony Davis and Luka Dončić, with the Jazz participating in the deal to make the economics work. Quickly, the normally overreactive NBA hype machine went into full-blown overdrive, wondering aloud on social media who knew what, and when. 
+
+ 
+
+Had LeBron James, whose camp signaled that he learned about the deal at a post-game family dinner, actually been in on the plot? Talmudic readers would note that LeBron’s postgame assessment of A.D., who’d been sitting out due to an injury, was a little too effusive. Also, Lakers owner Jeanie Buss and general manager Rob Pelinka would never blindside their biggest star
+with a personnel move of this magnitude, would they? After all, LeBron essentially picks his coaches—plus, his son is on the team, and was presumably a party to the ostensible postgame dinner alibi.
+
+ 
+
+Also unusual: Dallas Mavericks general manager Nico Harrison, whose team reached the NBA Finals the previous season, had put out a hasty post-deal narrative suggesting that Davis had become his
+own white whale—a two-way player who worked hard, conditioned his body, and fit his culture. Yes, yes, that’s all well and good. Indeed, Davis is a generational talent, a historic defender, an NBA champ, and a former top pick, and he has a relationship with Harrison from the latter’s stint at Nike. Notably absent from Harrison’s spiel, however, were the persnickety observations that Davis has had his own injury problems and, in a past life, forced his trade to L.A. by storming his way out of New
+Orleans—not quite culture-bearer stuff.
+
+Anyway, these curiosities laddered up to more existential questions… in fact, to a very simple question: How had this happened? Superstars on winning teams are never exchanged midseason. And generational scorers like Luka—especially in secondary NBA markets, such as Dallas, and especially on winning teams—are prized possessions. To wit: Mavs owner Mark Cuban, who recently sold down his position in the
+team, ensured that Dirk Nowitzki retired in Dallas. In the end, though, the answer—or at least part of the answer—appears to be deceptively simple: media economics.
+
+The Spectrum Deal
+-----------------
+
+The Los Angeles Dodgers have become the villains of Major League Baseball,
+consistently signing top free agents every off-season, because the team can afford to spend more on player salaries than any other MLB club. This financial advantage is conferred by the fact that the Dodgers have a local media deal that is impervious to the secular problems negatively impacting regional sports networks throughout the industry. Amid a time when cable distributors are forcing teams to lonelier price tiers, Charter is paying the Dodgers an average of $334 million a year through
+2038—the most team-friendly deal in the sport.
+
+ 
+
+The Lakers’ local deal, also with Charter, is not nearly as lucrative as the Dodgers’. But the team’s local rights fee deal with Spectrum SportsNet is also the richest in its league, and will approach $200 million this year, sources have told me. Like the Dodgers, the Lakers’ deal is long-term and runs until the late 2030s. The Dallas Mavericks,
+meanwhile, are at the opposite end of the local rights spectrum. Before this season, the Mavericks walked away from a deal with Bally Sports that would have paid the team around $45 million per year.
+
+ 
+
+In its place, the team signed a deal with the local broadcast group, Tegna, that carries games on over-the-stations in the area. Local broadcast channels provide more reach than R.S.N.s, but they rarely come close to the rights
+fees that R.S.N.s pay. The Mavs also started a direct-to-consumer business called Mavs TV, though it is not known how many subscribers have signed up for it. Nevertheless, sources have suggested that the Lakers local media rights haul is seven or eight times higher than the Mavericks.
+
+As the R.S.N. business continues to crater, the local media environments in both markets certainly played a part in this deal. Luka, after all, was on pace to demand a five-year $345 million deal this
+summer. Sure, the NBA’s $77 billion national media deals will kick in next season, but it’s hard to see how the Mavs could afford to keep the star Slovenian guard while countenancing the dislocation of its local rights situation. There’s a growing belief inside professional sports circles that Cuban, who sold the bulk of the team to the Adelson family last year, foresaw this scenario unfolding and cashed out in advance. Indeed, when Cuban bought the team in 2000, he helped the
+NBA ownership understand the financial upside of their media potential. The next wave of ownership economics will likely be defined by real estate dealings—hotels, casino development, interactive stadiums, etcetera. It’s hardly a wonder why Cubes is out and the Adelsons are in charge now.
+
+Domino Effects
+--------------
+
+On a national level, media companies seem genuinely excited about the idea
+that the Lakers, the league’s marquee team, will be led by a telegenic superstar after LeBron’s eventual retirement. Matt Kenny, vice president of programming and acquisitions at ESPN, told me that he was in Vegas for his daughter’s volleyball tournament when he learned about the trade from his son back home. Naturally, Kenny immediately got up and checked the schedule to find out when the new-look Lakers would be on ESPN. (TNT has two games this week.) Kenny noted a March 8
+game at the Celtics that will be on ABC and an April 9 game when Luka returns to Dallas.
+
+ 
+
+By Sunday morning, he had a summary typed up: ESPN has eight more Mavs appearances for the rest of the season and seven Lakers games, with an option to add an eighth that I presume he’ll pick up. Before the trade, Lakers national TV game ratings had been up 1 percent year over year, including a 5 percent hike on ESPN.
+“There’s a narrative out there, of course, that this cements the Lakers stature in the league with an all-NBA dominant superstar for the next decade,” Kenny said. “As those of us in the business know, you just never know. But what this means in the short term is just an incredible shot in the arm for the NBA as it heads into All-Star weekend. And it certainly has a rising tide effect on both teams.”
+
+ 
+
+Jared
+Stacy, Prime’s director of global live sports production, told me he woke up to more than 100 texts. Perhaps because Amazon doesn’t begin its new NBA deal till next season, Stacy initially worried that the inbound had to do with the fires. (Stacy, who lives in L.A., actually used to work for the Lakers.) “The first text I saw was a text from my cousin that simply said WTF,” Stacy told me today. “I start looking, and I see in my thread pictures of Luka in a Lakers uniform, and
+my mind pivots from terrible fire stuff to, wait… the Lakers got Luka?”
+
+ 
+
+He was excited for his team and his city, of course, but also Amazon.
+
+“The idea that one of the league’s great stars, at the age of 25, is coming to L.A.? That’s pretty exciting for us,” he said. “As I’m digesting it, I started to think that if we were on the air right now, we would be able to go and
+bring in Dirk Nowitzki for his thoughts. I started to think about how we would cover it a year from now.”
+
+ 
+
+From the Cheap Seats
+--------------------
+
+On MLS Season Pass: “It’s not true to say, as you did, that ‘the
+Apple deal… puts almost every game on Apple TV+.’ The often misunderstood fact is that MLS typically only puts an average of six of its 14 weekly games on Apple TV+, which is $9.99 per month. Sometimes it’s as few as two. To get the rest, Apple forces everyone (including Apple TV+ subscribers) to add on MLS Season Pass for an additional $14.99 per month. And they don’t reveal which games are placed outside of the Season Pass paywall until a couple days before each game. This is actually
+the most frequent gripe that we soccer fans have about the MLS-Apple deal.” —A Varsity subscriber
+
+On Greg Olsen’s next move: “Should Amazon so desire, they could easily stroke a check to fulfill Herbstreit’s contract and go after Olsen. However, I doubt Greg is doing himself any favors by calling attention to his displeasure. Everyone already knows he’s better than
+Brady right now.” —A Varsity subscriber
+
+The Romo Meter: “I guess I’m in the minority over the past two years in that I still enjoy Tony Romo’s commentary. What others seem to dislike about him—his occasional rambling and atypical personality—is exactly why I like him. After decades of listening to the same stodgy style from major broadcasters (Troy Aikman and Joe Buck are functional
+but boring!), I get a kick out of Romo’s goofball sensibilities. What he lacks in precision, he still makes up for in in-game nuance. He definitely deflates in blowout games, but no one matches his level of passion and fire in close contests. I’ll trade away the lower floor for the higher ceiling.” —A Varsity subscriber
+
+On Fox’s Super Bowl sellout: “Thank god things are going well for Lachlan Murdoch. Was worried his family’s destruction of much of Western
+civilization and democracy was gonna catch up with him some day.” —A Varsity subscriber
+
+On Twenty Thousand Leagues Under the ACC: “The intern that writes your headlines deserves a raise. Did she read the series in original French or the English version from 1872?” —A cable guy
+
+On Marchand: “Gewürztraminer! I know all about that German wine. I tried it in 1993 for Cornell’s legendary Introduction to Wines class. Ask Pitaro about it. He had to have
+taken that class, too.” —A sports media veteran
+
+ 
+
+See you Thursday from New Orleans,
+
+John
+
+The Grill Room ( https://puck.news/podcasts/the-grill-room/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Grill Room ( https://puck.news/podcasts/the-grill-room/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Finally, a media podcast about what’s actually happening in the media—not the oversanitized,
+legal-and-standards-approved version you read online. Join Dylan Byers, Puck’s veteran media reporter, as he sits down with TV personalities, moguls, pundits, and industry executives for raw, honest, sometimes salacious conversations about the business of media and its biggest egos. New episodes publish every Tuesday and Friday.
+
+Dry Powder ( https://puck.news/newsletters/dry-powder/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Dry Powder ( https://puck.news/newsletters/dry-powder/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Unique and privileged insight into the private conversations taking place inside boardrooms and corner offices up and down
+Wall Street, relayed by best-selling author, journalist, and former M&A senior banker William D. Cohan.
+
+Masa’s A.I. Gamble
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Masa’s A.I. Gamble ( https://puck.news/masayoshi-sons-legendary-career-as-told-by-his-biographer/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+WILLIAM D. COHAN
+
+Shari Shrugged
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Shari Shrugged ( https://puck.news/shari-redstone-joins-fellow-moguls-paying-trump-to-go-away/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DYLAN BYERS
+
+Gabbard’s Hell Week
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Gabbard’s Hell Week ( https://puck.news/will-kash-patel-tulsi-gabbard-rfk-jr-be-confirmed/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+LEIGH ANN CALDWELL
+
+Puck
+
+Puck
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact us ( fritz@puck.news?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
+here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUzrInL9WZP8TIG9_Liko=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+ 
+
+Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

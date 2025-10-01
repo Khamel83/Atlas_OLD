@@ -1,0 +1,199 @@
+# Conflating “skinny shaming” and “fat shaming” of women masks the often forgotten issue of thin privilege
+
+**Source**: https://qz.com/1079537/body-shaming-why-skinny-shaming-is-not-the-same-as-fat-shaming-and-masks-thin-privilege/
+**Type**: article
+**Created**: 2025-08-13T16:59:59.690130
+
+---
+
+title: Conflating “skinny shaming” and “fat shaming” of women masks the often forgotten issue of thin privilege
+source: https://qz.com/1079537/body-shaming-why-skinny-shaming-is-not-the-same-as-fat-shaming-and-masks-thin-privilege/
+date: 2025-08-13T16:59:42.678416
+tags: []
+---
+Thin celebrities are partly responsible for inventing**** a new term: ”[skinny
+shaming](http://web.archive.org/web/20250708122152/http://www.telegraph.co.uk/women/life/holly-
+willoughby-thin-shaming-trend-shames-us/).”
+
+Prominent model Jaime King (pictured above) accused French fashion houses LVMH
+and Kering, who own brands like Gucci, Louis Vuitton, and Dior, of [“body
+shaming”](http://web.archive.org/web/20250708122152/http://nypost.com/2017/09/09/jaime-
+king-wants-people-to-stop-body-shaming-skinny-models/) earlier this month,
+after they announced a ban of [size-zero
+models](http://web.archive.org/web/20250708122152/https://www.google.co.uk/amp/s/amp.theguardian.com/fashion/2017/sep/06/french-
+fashion-giants-pledge-to-stop-using-underage-and-size-zero-models) from their
+catwalks. After decades facing accusations of promoting unhealthy body images,
+not to mention well-documented [health issues among
+models](http://web.archive.org/web/20250708122152/http://bjp.rcpsych.org/content/192/4/243),
+companies are now complying with the French government’s new law that requires
+models to obtain a [doctor’s
+certificate](http://web.archive.org/web/20250708122152/http://www.independent.co.uk/news/world/europe/france-
+bans-unhealthily-thin-model-bmi-doctors-certificate-photoshopped-
+images-a7721211.html) before they walk down the runway.
+
+“I think it would be radically unfair to say if you’re a size zero, then you
+can’t work, just like it’s unfair to say that if you’re a size 16, you can’t
+work,” King told the New York Post. “I’m naturally really thin and sometimes
+it’s really hard for me to gain weight. When people on Instagram say, ‘Go eat
+a hamburger’, I’m like, ‘Wow, they’re body shaming me for the way I look’.”
+
+“Body shaming,” the act of humiliating someone for their size, can happen to
+anyone. However, equating the trials and tribulations of a model told to “eat
+a hamburger,” with the treatment of someone perceived as overweight is a
+dangerous conflation. To be called “thin,” in much of the Western world, is
+generally a compliment. To be “fat,” by contrast, means facing a stigma on a
+daily basis, particularly about one’s health. Though studies have shown that
+those with an elevated Body Mass Index (BMI) have a [higher mortality
+rate](http://web.archive.org/web/20250708122152/http://jamanetwork.com/journals/jama/fullarticle/2520627),
+the health concerns of overweight and obese people are [highly
+complex](http://web.archive.org/web/20250708122152/http://www.nature.com/news/the-
+big-fat-truth-1.13039).
+
+(The BMI is [a
+calculation](http://web.archive.org/web/20250708122152/http://www.diabetes.co.uk/bmi.html)
+to determine if someone is underweight, normal weight, overweight, obese, or
+morbidly obese. Even though there are [huge problems and
+limitations](http://web.archive.org/web/20250708122152/https://qz.com/1002707/bmi-
+calculators-arent-accurate-but-our-body-fat-calculator-is) of using BMI to
+measure for “ideal” weight, doctors, scientists, and researchers continue to
+use it. Because of the BMI’s ubiquity in the scientific and medical
+literature, its classifications are common definitions of “fat,” and therefore
+used in this article.)
+
+To be fair, King’s livelihood depends on an industry that is regulating her
+body out of it. Even if your work promotes fantastical and unrealistic ideals
+for the female form, that is a bitter pill to swallow. But as with any
+privilege, it’s difficult for those favored to see their advantages. Privilege
+doesn’t protect anyone, King included, from personal upsets, hardship, or
+traumas. Privilege, by definition, incurs more advantages, more opportunities,
+the benefit of the doubt, and quicker recovery from setbacks.
+
+Being fat, on the other hand, is more likely to hurt your career, wealth,
+mental health, and love life. To conflate “skinny shaming” and “fat shaming”
+is to obscure the real shame in that.
+
+## Being overweight makes it harder to get a job
+
+UK-based****[Crossland Employment
+Solicitors](http://web.archive.org/web/20250708122152/http://www.personneltoday.com/hr/obesity-
+discrimination-study-reveals-prejudice-among-employers/) polled people with
+hiring responsibilities at 1,000 employers in 2015 and found that almost half
+of those surveyed (45%) said they were less inclined to recruit a candidate at
+the interview stage if the applicant was obese. “They wouldn’t be able to do
+the job required” and “they’re lazy” were just two of the reasons cited.
+
+A 2016 study by psychologist Stuart W. Flint of Britain’s [Sheffield Hallam
+University](http://web.archive.org/web/20250708122152/https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4853419/)
+found that obese women were less likely to be hired than obese men, and both
+groups were at a disadvantage to thinner people because employers believed the
+obese were “less physically capable and slothful.” In 2009, Dan-Olof Rooth of
+Kalmar University in Sweden**** sent fake applications to real job openings,
+using pairs of photos of the same person but digitally altered them to look
+more or less obese. He found that the callback response for obese women was
+[eight percentage points
+lower](http://web.archive.org/web/20250708122152/https://www.jstor.org/stable/20648914?seq=1#page_scan_tab_contents)
+than their thinner counterparts.
+
+## Being overweight makes it harder to get a promotion
+
+In a 2016 study, Eden King of George Mason University and others __ showed
+that being overweight has an [adverse
+impact](http://web.archive.org/web/20250708122152/http://onlinelibrary.wiley.com/doi/10.1002/hrm.21667/abstract)
+on the perceived leadership performance of top managers. The larger the waist,
+the more it undermines evaluations of leadership ability, therefore hurting
+the chances of a promotion.
+
+What’s more, a study Eva Muenster of the [University of
+Mainz](http://web.archive.org/web/20250708122152/https://bmcpublichealth.biomedcentral.com/articles/10.1186/1471-2458-11-162)
+and others showed that overweight and obese people believe their jobs are at
+risk more than those who are thin. “Job insecurity might lead employees into a
+vicious cycle,” the researchers wrote in a paper published in 2011. “Job
+insecurity might represent an important psychological burden which again might
+trigger obesity and other diseases.”
+
+## Overweight women are more likely to earn less
+
+A 2004 study by John Cawley of Cornell University found that a 65-pound weight
+gain in white women was associated with a [9%
+drop](http://web.archive.org/web/20250708122152/http://www.jstor.org/stable/3559022?seq=1#page_scan_tab_contents)
+in wages. The effect of weight on other gender-ethnic group combinations were
+not as statistically significant.
+
+A study by Jennifer Shinall at [Vanderbilt Law
+School](http://web.archive.org/web/20250708122152/https://news.vanderbilt.edu/2014/10/21/overweight-
+women-labor-market/), meanwhile, revealed in 2014 that overweight women are
+“more likely to work in lower-paying and more physically demanding jobs; less
+likely to get higher-wage positions that include interaction with the public;
+and make less money in either case compared to average size women and all
+men.”
+
+## The system is stacked against the overweight from the beginning
+
+Overweight people don’t just have to fight the system during their working
+life; the battles start in childhood. A 2005 study led by Janet Latner of the
+University of Canterbury in New Zealand showed children and adolescents are
+[less
+accepting](http://web.archive.org/web/20250708122152/https://www.ncbi.nlm.nih.gov/pubmed/16076992)
+of overweight and obese peers than adults.
+
+Before reaching adulthood, overweight or obese young people are likely to
+experience [psychological
+problems](http://web.archive.org/web/20250708122152/https://www.ncbi.nlm.nih.gov/pubmed/20433644),
+such as depression and low self-esteem. A 2015 study led by Tilda Farhat of
+the US National Institutes of Health hammered home just how much overweight
+and obese people are [set up to be
+vulnerable](http://web.archive.org/web/20250708122152/https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4681276/)
+later in life:
+
+> Overweight status in adolescence has been associated with sexual risk
+> behavior ([Akers et al.,
+> 2009](http://web.archive.org/web/20250708122152/https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4681276/#R2)),
+> social exclusion ([Chen & Brown,
+> 2005](http://web.archive.org/web/20250708122152/https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4681276/#R3)),
+> peer victimization ([Pearce et al.,
+> 2002](http://web.archive.org/web/20250708122152/https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4681276/#R27)),
+> and a lower likelihood of establishing romantic relationships ([Chen &
+> Brown,
+> 2005](http://web.archive.org/web/20250708122152/https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4681276/#R3);
+> [Halpern, King, Oslak, & Richard Udry,
+> 2005](http://web.archive.org/web/20250708122152/https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4681276/#R12);
+> [Pearce et al.,
+> 2002](http://web.archive.org/web/20250708122152/https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4681276/#R27)),
+> all developmental milestones particularly salient for adolescence.
+
+And there is no respite when overweight people start dating. The pool of
+people they are likely to get to know intimately is shallow, and the
+relationships they fall into have [a higher chance of being
+abusive](http://web.archive.org/web/20250708122152/http://onlinelibrary.wiley.com/doi/10.1111/1467-9507.00187/abstract).
+
+## The non-thin are told every waking moment they’re not ideal
+
+They may have to endure the occasional request to “eat a hamburger,” but at
+least skinny people do not wake up every day constantly being told that they
+need to change themselves, unless they are [clinically
+underweight](http://web.archive.org/web/20250708122152/http://www.nhs.uk/Livewell/Goodfood/Pages/Underweightadults.aspx),
+which can lead to weakened immune systems, fragile bones, and organ failure.
+
+It’s hardly surprising that the overweight are trying to take up less space in
+the world. In popular entertainment, there’s the [fat best friend
+trope](http://web.archive.org/web/20250708122152/http://tvtropes.org/pmwiki/pmwiki.php/Main/FatBestFriend),
+who usually provides comic relief or is simply [a bit
+crazy](http://web.archive.org/web/20250708122152/http://www.salon.com/2014/07/14/how_melissa_mccarthy_sold_out_overweight_women/).
+And there’s often only room for one or two token big girls, epitomized by
+Taylor Swift and her “girl squad” tacking on [Lena
+Dunham](http://web.archive.org/web/20250708122152/http://www.dailymail.co.uk/femail/article-3161374/I-shan-
+t-walking-runway-Lena-Dunham-admits-performing-alongside-Taylor-Swift-svelte-
+supermodel-friends-feel-chubby-short.html) in the role of the token one that
+does not look like a catwalk model.
+
+So the next time someone tries to appropriate the term “body shaming” to
+equate it to “skinny shaming,” remember it isn’t the same and that thin
+privilege is very real. In fact, as many doctors and scientists have pointed
+out, [discriminating against fat
+people](http://web.archive.org/web/20250708122152/https://www.ncbi.nlm.nih.gov/pubmed/10729890)
+is the last form of [acceptable social
+bias](http://web.archive.org/web/20250708122152/http://www.obesityaction.org/educational-
+resources/resource-articles-2/weight-bias/weight-discrimination-a-socially-
+acceptable-injustice).
+
+## 📬 Sign up for the Daily Brief

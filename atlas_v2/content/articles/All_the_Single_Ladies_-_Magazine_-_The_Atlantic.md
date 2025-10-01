@@ -1,0 +1,1154 @@
+# All the Single Ladies - Magazine - The Atlantic
+
+**Source**: http://www.theatlantic.com/magazine/print/2011/11/all-the-single-ladies/8654/
+**Type**: article
+**Created**: 2025-08-13T20:30:37.075337
+
+---
+
+title: All the Single Ladies - The Atlantic
+source: http://www.theatlantic.com/magazine/print/2011/11/all-the-single-ladies/8654/
+date: 2025-08-13T20:30:35.599668
+tags: []
+---
+In 2001, when I was 28, I broke up with my boyfriend. Allan and I had been
+together for three years, and there was no good reason to end things. He was
+(and remains) an exceptional person, intelligent, good-looking, loyal, kind.
+My friends, many of whom were married or in marriage-track relationships, were
+bewildered. I was bewildered. To account for my behavior, all I had were two
+intangible yet undeniable convictions: something was missing; I wasn’t ready
+to settle down.
+
+The period that followed was awful. I barely ate for sobbing all the time. (A
+friend who suffered my company a lot that summer sent me a birthday text this
+past July: “A decade ago you and I were reuniting, and you were crying a
+lot.”) I missed Allan desperately—his calm, sure voice; the sweetly fastidious
+way he folded his shirts. On good days, I felt secure that I’d done the right
+thing. Learning to be alone would make me a better person, and eventually a
+better partner. On bad days, I feared I would be alone forever. Had I made the
+biggest mistake of my life?
+
+**Also see:**[The End of
+Men](https://www.theatlantic.com/magazine/archive/2010/07/the-end-of-
+men/8135/%0D%0A)
+
+Earlier this year, women became the majority of the workforce for the first
+time in U.S. history. A report on the unprecedented role reversal now under
+way—and its vast cultural consequences. By Hanna Rosin
+
+[Delayed
+Childbearing](https://www.theatlantic.com/magazine/archive/1995/06/delayed-
+childbearing/5964/%0D%0A)
+
+Though career counselors and wishful thinkers may say otherwise, women who put
+off trying to have children until their mid-thirties risk losing out on
+motherhood altogether.
+
+[Marry Him!](https://www.theatlantic.com/magazine/archive/2008/03/marry-
+him/6651/%0D%0A)
+
+The case for settling for Mr. Good Enough. By Lori Gottlieb
+
+[In Search of Mr.
+Right](https://www.theatlantic.com/magazine/archive/2002/12/in-search-of-mr-
+right/6587/%0D%0A)
+
+Barbara Dafoe Whitehead, the author of Why There Are No Good Men Left, on the
+challenges facing today's single women
+
+[Let's Call the Whole Thing
+Off](https://www.theatlantic.com/magazine/archive/2009/07/let-8217-s-call-the-
+whole-thing-off/7488/%0D%0A)
+
+The author is ending her marriage. Isn't it time you did the same? By Sandra
+Tsing Loh
+
+[The Wifely Duty](https://www.theatlantic.com/magazine/archive/2003/01/the-
+wifely-duty/2659/%0D%0A)
+
+Marriage used to provide access to sex. Now it provides access to celibacy. By
+Caitlin Flanagan
+
+[Sex and the College
+Girl](https://www.theatlantic.com/magazine/archive/1957/11/sex-and-the-
+college-girl/5753/%0D%0A)
+
+"This is clearly a mess and not one that is going to clear up with magic speed
+on the wedding night." By Nora Johnson
+
+[A Successful Bachelor (June
+1898)](https://www.theatlantic.com/magazine/archive/1898/06/bachelors/6487/%0D%0A)
+
+"More interest should be taken in bachelors. Their need is greater, and their
+condition really deplorable. It comes near to being a disgrace not to be
+married at all."
+
+Ten years later, I occasionally ask myself the same question. Today I am 39,
+with too many ex-boyfriends to count and, I am told, two grim-seeming options
+to face down: either stay single or settle for a “good enough” mate. At this
+point, certainly, falling in love and getting married may be less a matter of
+choice than a stroke of wild great luck. A decade ago, luck didn’t even cross
+my mind. I’d been in love before, and I’d be in love again. This wasn’t hubris
+so much as naïveté; I’d had serious, long-term boyfriends since my freshman
+year of high school, and simply couldn’t envision my life any differently.
+
+Well, there was a lot I didn’t know 10 years ago. The decision to end a stable
+relationship for abstract rather than concrete reasons (“something was
+missing”), I see now, is in keeping with a post-Boomer ideology that values
+emotional fulfillment above all else. And the elevation of independence over
+coupling (“I wasn’t ready to settle down”) is a second-wave feminist idea I’d
+acquired from my mother, who had embraced it, in part, I suspect, to correct
+for her own choices.
+
+I was her first and only recruit, marching off to third grade in tiny green or
+blue T-shirts declaring: A Woman Without a Man Is Like a Fish Without a
+Bicycle, or: A Woman’s Place Is in the House—and the Senate, and bellowing
+along to Gloria Steinem & Co.’s feminist-minded children’s album, Free to Be …
+You and Me (released the same year Title IX was passed, also the year of my
+birth). Marlo Thomas and Alan Alda’s retelling of “Atalanta,” the ancient
+Greek myth about a fleet-footed princess who longs to travel the world before
+finding her prince, became the theme song of my life. Once, in high school,
+driving home from a family vacation, my mother turned to my boyfriend and me
+cuddling in the backseat and said, “Isn’t it time you two started seeing other
+people?” She adored Brian—he was invited on family vacations! But my future
+was to be one of limitless possibilities, where getting married was something
+I’d do when I was ready, to a man who was in every way my equal, and she
+didn’t want me to get tied down just yet.
+
+This unfettered future was the promise of my time and place. I spent many a
+golden afternoon at my small New England liberal-arts college debating with
+friends the merits of leg-shaving and whether or not we’d take our husband’s
+surname. (Even then, our concerns struck me as retro; hadn’t the women’s
+libbers tackled all this stuff already?) We took for granted that we’d spend
+our 20s finding ourselves, whatever that meant, and save marriage for after
+we’d finished graduate school and launched our careers, which of course would
+happen at the magical age of 30.
+
+That we would marry, and that there would always be men we wanted to marry, we
+took on faith. How could we not? One of the many ways in which our lives
+differed from our mothers’ was in the variety of our interactions with the
+opposite sex. Men were our classmates and colleagues, our bosses and
+professors, as well as, in time, our students and employees and
+subordinates—an entire universe of prospective friends, boyfriends, friends
+with benefits, and even ex-boyfriends-turned-friends. In this brave new world,
+boundaries were fluid, and roles constantly changing. Allan and I had met when
+we worked together at a magazine in Boston (full disclosure: this one), where
+I was an assistant and he an editor; two years later, he quit his job to
+follow me to New York so that I could go to graduate school and he could focus
+on his writing. After the worst of our breakup, we eventually found our way to
+a friendship so deep and sustaining that several years ago, when he got
+engaged, his fiancée suggested that I help him buy his wedding suit. As he and
+I toured through Manhattan’s men’s-wear ateliers, we enjoyed explaining to the
+confused tailors and salesclerks that no, no, _we_ weren’t getting married.
+Isn’t life funny that way?
+
+I retell that moment as an aside, as if it’s a tangent to the larger story,
+but in a way, it is the story. In 1969, when my 25-year-old mother, a college-
+educated high-school teacher, married a handsome lawyer-to-be, most women her
+age were doing more or less the same thing. By the time she was in her
+mid-30s, she was raising two small children and struggling to find a
+satisfying career. She’d never had sex with anyone but my father. Could she
+have even envisioned herself on a shopping excursion with an ex-lover, never
+mind one who was getting married while she remained alone? And the ex-lover’s
+fiancée being so generous and open-minded as to suggest the shopping trip to
+begin with?
+
+What my mother could envision was a future in which I made my own choices. I
+don’t think either of us could have predicted what happens when you multiply
+that sense of agency by an entire generation.
+
+But what transpired next lay well beyond the powers of everybody’s
+imagination: as women have climbed ever higher, men have been falling behind.
+We’ve arrived at the top of the staircase, finally ready to start our lives,
+only to discover a cavernous room at the tail end of a party, most of the men
+gone already, some having never shown up—and those who remain are leering by
+the cheese table, or are, you know, the ones you don’t want to go out with.
+
+In the 1990s, Stephanie Coontz, a social historian at Evergreen State College
+in Washington, noticed an uptick in questions from reporters and audiences
+asking if the institution of marriage was falling apart. She didn’t think it
+was, and was struck by how everyone believed in some mythical Golden Age of
+Marriage and saw mounting divorce rates as evidence of the dissolution of this
+halcyon past. She decided to write a book discrediting the notion and proving
+that the ways in which we think about and construct the legal union between a
+man and a woman have always been in flux.
+
+What Coontz found was even more interesting than she’d originally expected. In
+her fascinating _Marriage, a History: From Obedience to Intimacy, or How Love
+Conquered Marriage_ , she surveys 5,000 years of human habits, from our days
+as hunters and gatherers up until the present, showing our social arrangements
+to be more complex and varied than could ever seem possible. She’d long known
+that the Leave It to Beaver–style family model popular in the 1950s and ’60s
+had been a flash in the pan, and like a lot of historians, she couldn’t
+understand how people had become so attached to an idea that had developed so
+late and been so short-lived.
+
+For thousands of years, marriage had been a primarily economic and political
+contract between two people, negotiated and policed by their families, church,
+and community. It took more than one person to make a farm or business thrive,
+and so a potential mate’s skills, resources, thrift, and industriousness were
+valued as highly as personality and attractiveness. This held true for all
+classes. In the American colonies, wealthy merchants entrusted business
+matters to their landlocked wives while off at sea, just as sailors,
+vulnerable to the unpredictability of seasonal employment, relied on their
+wives’ steady income as domestics in elite households. Two-income families
+were the norm.
+
+Not until the 18th century did labor begin to be divided along a sharp line:
+wage-earning for the men and unpaid maintenance of household and children for
+the women. Coontz notes that as recently as the late 17th century, women’s
+contributions to the family economy were openly recognized, and advice books
+urged husbands and wives to share domestic tasks. But as labor became
+separated, so did our spheres of experience—the marketplace versus the
+home—one founded on reason and action, the other on compassion and comfort.
+Not until the post-war gains of the 1950s, however, were a majority of
+American families able to actually afford living off a single breadwinner.
+
+All of this was intriguing, for sure—but even more surprising to Coontz was
+the realization that those alarmed reporters and audiences might be onto
+something. Coontz still didn’t think that marriage was falling apart, but she
+came to see that it was undergoing a transformation far more radical than
+anyone could have predicted, and that our current attitudes and arrangements
+are without precedent. “Today we are experiencing a historical revolution
+every bit as wrenching, far-reaching, and irreversible as the Industrial
+Revolution,” she wrote.
+
+Last summer I called Coontz to talk to her about this revolution. “We are
+without a doubt in the midst of an extraordinary sea change,” she told me.
+“The transformation is momentous—immensely liberating and immensely scary.
+When it comes to what people actually want and expect from marriage and
+relationships, and how they organize their sexual and romantic lives, all the
+old ways have broken down.”
+
+For starters, we keep putting marriage off. In 1960, the median age of first
+marriage in the U.S. was 23 for men and 20 for women; today it is 28 and 26.
+Today, a smaller proportion of American women in their early 30s are married
+than at any other point since the 1950s, if not earlier. We’re also marrying
+less—with a significant degree of change taking place in just the past decade
+and a half. In 1997, 29 percent of my Gen X cohort was married; among today’s
+Millennials that figure has dropped to 22 percent. (Compare that with 1960,
+when more than half of those ages 18 to 29 had already tied the knot.) These
+numbers reflect major attitudinal shifts. According to the Pew Research
+Center, a full 44 percent of Millennials and 43 percent of Gen Xers think that
+marriage is becoming obsolete.
+
+Even more momentously, we no longer need husbands to have children, nor do we
+have to have children if we don’t want to. For those who want their own
+biological child, and haven’t found the right man, now is a good time to be
+alive. Biological parenthood in a nuclear family need not be the be-all and
+end-all of womanhood—and in fact it increasingly is not. Today 40 percent of
+children are born to single mothers. This isn’t to say all of these women
+preferred that route, but the fact that so many upper-middle-class women are
+choosing to travel it—and that gays and lesbians (married or single) and older
+women are also having children, via adoption or in vitro fertilization—has
+helped shrink the stigma against single motherhood. Even as single motherhood
+is no longer a disgrace, motherhood itself is no longer compulsory. Since
+1976, the percentage of women in their early 40s who have not given birth has
+nearly doubled. A childless single woman of a certain age is no longer
+automatically perceived as a barren spinster.
+
+Of course, between the diminishing external pressure to have children and the
+common misperception that our biology is ours to control, some of us don’t
+deal with the matter in a timely fashion. Like me, for instance. Do I want
+children? My answer is: I don’t know. But somewhere along the way, I decided
+to not let my biology dictate my romantic life. If I find someone I really
+like being with, and if he and I decide we want a child together, and it’s too
+late for me to conceive naturally, I’ll consider whatever technological aid is
+currently available, or adopt (and if he’s not open to adoption, he’s not the
+kind of man I want to be with).
+
+Do I realize that this further narrows my pool of prospects? Yes. Just as I am
+fully aware that with each passing year, I become less attractive to the men
+in my peer group, who have plenty of younger, more fertile women to pick from.
+But what can I possibly do about that? Sure, my stance here could be read as a
+feint, or even self-deception. By blithely deeming biology a nonissue, I’m
+conveniently removing myself from arguably the most significant decision a
+woman has to make. But that’s only if you regard motherhood as the defining
+feature of womanhood—and I happen not to.
+
+Foremost among the reasons for all these changes in family structure are the
+gains of the women’s movement. Over the past half century, women have steadily
+gained on—and are in some ways surpassing—men in education and employment.
+From 1970 (seven years after the Equal Pay Act was passed) to 2007, women’s
+earnings grew by 44 percent, compared with 6 percent for men. In 2008, women
+still earned just 77 cents to the male dollar—but that figure doesn’t account
+for the difference in hours worked, or the fact that women tend to choose
+lower-paying fields like nursing or education. A 2010 study of single,
+childless urban workers between the ages of 22 and 30 found that the women
+actually earned 8 percent more than the men. Women are also more likely than
+men to go to college: in 2010, 55 percent of all college graduates ages 25 to
+29 were female.
+
+By themselves, the cultural and technological advances that have made my
+stance on childbearing plausible would be enough to reshape our understanding
+of the modern family—but, unfortunately, they happen to be dovetailing with
+another set of developments that can be summed up as: the deterioration of the
+male condition. As Hanna Rosin laid out in these pages last year ([“The End of
+Men,”](https://www.theatlantic.com/magazine/archive/2010/07/the-end-of-
+men/8135/) July/August 2010), men have been rapidly declining—in income, in
+educational attainment, and in future employment prospects—relative to women.
+As of last year, women held 51.4 percent of all managerial and professional
+positions, up from 26 percent in 1980. Today women outnumber men not only in
+college but in graduate school; they earned 60 percent of all bachelor’s and
+master’s degrees awarded in 2010, and men are now more likely than women to
+hold only a high-school diploma.
+
+No one has been hurt more by the arrival of the post-industrial economy than
+the stubbornly large pool of men without higher education. An analysis by
+Michael Greenstone, an economist at MIT, reveals that, after accounting for
+inflation, male median wages have fallen by 32 percent since their peak in
+1973, once you account for the men who have stopped working altogether. The
+Great Recession accelerated this imbalance. Nearly three-quarters of the 7.5
+million jobs lost in the depths of the recession were lost by men, making 2010
+the first time in American history that women made up the majority of the
+workforce. Men have since then regained a small portion of the positions
+they’d lost—but they remain in a deep hole, and most of the jobs that are
+least likely ever to come back are in traditionally male-dominated sectors,
+like manufacturing and construction.
+
+The implications are extraordinary. If, in all sectors of society, women are
+on the ascent, and if gender parity is actually within reach, this means that
+a marriage regime based on men’s overwhelming economic dominance may be
+passing into extinction. As long as women were denied the financial and
+educational opportunities of men, it behooved them to “marry up”—how else
+would they improve their lot? (As Maureen Dowd memorably put it in her 2005
+book, _Are Men Necessary?_ , “Females are still programmed to look for older
+men with resources, while males are still programmed to look for younger women
+with adoring gazes.”) Now that we can pursue our own status and security, and
+are therefore liberated from needing men the way we once did, we are free to
+like them more, or at least more idiosyncratically, which is how love ought to
+be, isn’t it?
+
+My friend B., who is tall and gorgeous, jokes that she could have married an
+NBA player, but decided to go with the guy she can talk to all night—a graphic
+artist who comes up to her shoulder. C., the editorial force behind some of
+today’s most celebrated novels, is a modern-day Venus de Milo—with a boyfriend
+14 years her junior. Then there are those women who choose to forgo men
+altogether. Sonia Sotomayor isn’t merely a powerful woman in a black
+robe—she’s also a stellar example of what it can mean to exercise authority
+over every single aspect of your personal life. When Gloria Steinem said, in
+the 1970s, “We’re becoming the men we wanted to marry,” I doubt even she
+realized the prescience of her words.
+
+But while the rise of women has been good for everyone, the decline of males
+has obviously been bad news for men—and bad news for marriage. For all the
+changes the institution has undergone, American women as a whole have never
+been confronted with such a radically shrinking pool of what are traditionally
+considered to be “marriageable” men—those who are better educated and earn
+more than they do. So women are now contending with what we might call the new
+scarcity. Even as women have seen their range of options broaden in recent
+years—for instance, expanding the kind of men it’s culturally acceptable to be
+with, and making it okay not to marry at all—the new scarcity disrupts what
+economists call the “marriage market” in a way that in fact narrows the
+available choices, making a good man harder to find than ever. At the rate
+things are going, the next generation’s pool of good men will be significantly
+smaller. What does this portend for the future of the American family?
+
+Every so often, society experiences a “crisis in gender” (as some academics
+have called it) that radically transforms the social landscape.
+
+Take the years after the Civil War, when America reeled from the loss of close
+to 620,000 men, the majority of them from the South. An article published last
+year in The Journal of Southern History reported that in 1860, there were 104
+marriageable white men for every 100 white women; in 1870, that number dropped
+to 87.5. A generation of Southern women found themselves facing a “marriage
+squeeze.” They could no longer assume that they would become wives and
+mothers—a terrifying prospect in an era when women relied on marriage for
+social acceptability and financial resources.
+
+Instead, they were forced to ask themselves: Will I marry a man who has poor
+prospects (“marrying down,” in sociological parlance)? Will I marry a man much
+older, or much younger? Will I remain alone, a spinster? Diaries and letters
+from the period reveal a populace fraught with insecurity. As casualties
+mounted, expectations dropped, and women resigned themselves to lives without
+husbands, or simply lowered their standards. (In 1862, a Confederate nurse
+named Ada Bacot described in her diary the lamentable fashion “of a woman
+marring a man younger than herself.”) Their fears were not unfounded—the mean
+age at first marriage did rise—but in time, approximately 92 percent of these
+Southern-born white women found someone to partner with. The anxious climate,
+however, as well as the extremely high levels of widowhood—nearly one-third of
+Southern white women over the age of 40 were widows in 1880—persisted.
+
+Or take 1940s Russia, which lost some 20 million men and 7 million women to
+World War II. In order to replenish the population, the state instituted an
+aggressive pro-natalist policy to support single mothers. Mie Nakachi, a
+historian at Hokkaido University, in Japan, has outlined its components:
+mothers were given generous subsidies and often put up in special sanatoria
+during pregnancy and childbirth; the state day-care system expanded to cover
+most children from infancy; and penalties were brandished for anyone who
+perpetuated the stigma against conceiving out of wedlock. In 1944, a new
+Family Law was passed, which essentially freed men from responsibility for
+illegitimate children; in effect, the state took on the role of “husband.” As
+a result of this policy—and of the general dearth of males—men moved at will
+from house to house, where they were expected to do nothing and were treated
+like kings; a generation of children were raised without reliable fathers, and
+women became the “responsible” gender. This family pattern was felt for
+decades after the war.
+
+Indeed, Siberia today is suffering such an acute “man shortage” (due in part
+to massive rates of alcoholism) that both men and women have lobbied the
+Russian parliament to legalize polygamy. In 2009, _The Guardian_ cited Russian
+politicians’ claims that polygamy would provide husbands for “10 million
+lonely women.” In endorsing polygamy, these women, particularly those in
+remote rural areas without running water, may be less concerned with
+loneliness than with something more pragmatic: help with the chores. Caroline
+Humphrey, a Cambridge University anthropologist who has studied the region,
+said women supporters believed the legalization of polygamy would be a
+“godsend,” giving them “rights to a man’s financial and physical support,
+legitimacy for their children, and rights to state benefits.”
+
+Our own “crisis in gender” isn’t a literal imbalance—America as a whole
+currently enjoys a healthy population ratio of 50.8 percent females and 49.2
+percent males. But our shrinking pool of traditionally “marriageable” men is
+dramatically changing our social landscape, and producing startling dynamics
+in the marriage market, in ways that aren’t immediately apparent.
+
+In their 1983 book, _Too Many Women? The Sex Ratio Question_ , two
+psychologists developed what has become known as the Guttentag-Secord theory,
+which holds that members of the gender in shorter supply are less dependent on
+their partners, because they have a greater number of alternative
+relationships available to them; that is, they have greater “dyadic power”
+than members of the sex in oversupply. How this plays out, however, varies
+drastically between genders.
+
+In societies where men heavily outnumber women—in what’s known as a “high-sex-
+ratio society”—women are valued and treated with deference and respect and use
+their high dyadic power to create loving, committed bonds with their partners
+and raise families. Rates of illegitimacy and divorce are low. Women’s
+traditional roles as mothers and homemakers are held in high esteem. In such
+situations, however, men also use the power of their greater numbers to limit
+women’s economic and political strength, and female literacy and labor-force
+participation drop.
+
+One might hope that in low-sex-ratio societies—where women outnumber men—women
+would have the social and sexual advantage. (After all, didn’t the mythical
+all-female nation of Amazons capture men and keep them as their sex slaves?)
+But that’s not what happens: instead, when confronted with a surplus of women,
+men become promiscuous and unwilling to commit to a monogamous relationship.
+(Which, I suppose, might explain the Amazons’ need to keep men in slave
+quarters.) In societies with too many women, the theory holds, fewer people
+marry, and those who do marry do so later in life. Because men take advantage
+of the variety of potential partners available to them, women’s traditional
+roles are not valued, and because these women can’t rely on their partners to
+stick around, more turn to extrafamilial ambitions like education and career.
+
+In 1988, the sociologists Scott J. South and Katherine Trent set out to test
+the Guttentag-Secord theory by analyzing data from 117 countries. Most aspects
+of the theory tested out. In each country, more men meant more married women,
+less divorce, and fewer women in the workforce. South and Trent also found
+that the Guttentag-Secord dynamics were more pronounced in developed rather
+than developing countries. In other words—capitalist men are pigs.
+
+**Also see:**[The Return of the
+Pig](https://www.theatlantic.com/magazine/archive/2003/04/the-return-of-the-
+pig/2699/%0D%0A)
+
+The revival of blatant sexism in American culture has many progressive
+thinkers flummoxed. By David Brooks
+
+[Are We not Men? ](https://www.theatlantic.com/magazine/archive/2007/01/are-
+we-not-men/5550/%0D%0A)
+
+Down the ladder from
+
+_Playboy_
+
+to
+
+_Maxim_
+
+.
+
+I kid! And yet, as a woman who spent her early 30s actively putting off
+marriage, I have had ample time to investigate, if you will, the prevailing
+attitudes of the high-status American urban male. (Granted, given my taste for
+brainy, creatively ambitious men—or “scrawny nerds,” as a high-school friend
+describes them—my sample is skewed.) My spotty anecdotal findings have
+revealed that, yes, in many cases, the more successful a man is (or thinks he
+is), the less interested he is in commitment.
+
+Take the high-powered magazine editor who declared on our first date that he
+was going to spend his 30s playing the field. Or the prominent academic who
+announced on our fifth date that he couldn’t maintain a committed emotional
+relationship but was very interested in a physical one. Or the novelist who,
+after a month of hanging out, said he had to get back out there and tomcat
+around, but asked if we could keep having sex anyhow, or at least just one
+last time. Or the writer (yes, another one) who announced after six months
+together that he had to end things because he “couldn’t continue fending off
+all the sexual offers.” And those are just the honest ones.
+
+To be sure, these men were the outliers—the majority of my personal experience
+has been with commitment-minded men with whom things just didn’t work out, for
+one reason or another. Indeed, another of my anecdotal-research discoveries is
+of what an ex calls “marriage o’clock”—when a man hits 35 and suddenly,
+desperately, wants a wife. I’ll never forget the post-first-date e-mail
+message reading: “I wanted to marry you last night, just listening to you.”
+Nor the 40-ish journalist who, on our second date, driving down a long country
+road, gripped the steering wheel and asked, “Are you The One? Are you The
+One?” (Can you imagine a woman getting away with this kind of behavior?) Like
+zealous lepidopterists, they swoop down with their butterfly nets, fingers
+aimed for the thorax, certain that just because they are ready for marriage
+and children, I must be, too.
+
+But the non-committers are out there in growing force. If dating and mating is
+in fact a marketplace—and of course it is—today we’re contending with a new
+“dating gap,” where marriage-minded women are increasingly confronted with
+either deadbeats or players. For evidence, we don’t need to look to the past,
+or abroad—we have two examples right in front of us: the African American
+community, and the college campus.
+
+In August I traveled to Wilkinsburg, Pennsylvania, a small, predominantly
+African American borough on the eastern edge of Pittsburgh. A half-century
+ago, it was known as “The Holy City” for its preponderance of churches. Today,
+the cobblestoned streets are lined with defeated clapboard houses that look as
+if the spirit’s been sucked right out of them.
+
+I was there to spend the afternoon with Denean, a 34-year-old nurse who was
+living in one such house with three of her four children (the eldest is 19 and
+lived across town) and, these days, a teenage niece. Denean is pretty and
+slender, with a wry, deadpan humor. For 10 years she worked for a health-care
+company, but she was laid off in January. She is twice divorced; no two of her
+children share a father. In February, when she learned (on Facebook) that her
+second child, 15-year-old Ronicka, was pregnant, Denean slumped down on her
+enormous slate-gray sofa and didn’t get up for 10 hours.
+
+“I had done everything I could to make sure she didn’t end up like me, and now
+this,” she told me.
+
+It was a clear, warm day, and we were clustered on the front porch—Denean,
+Ronicka, and I, along with Denean’s niece, Keira, 18, and Denean’s friend
+Chantal, 28, a single mother whose daughter goes to day care with Denean’s
+youngest. The affection between these four high-spirited women was light and
+infectious, and they spoke knowingly about the stigmas they’re up against.
+“That’s right,” Denean laughed, “we’re your standard bunch of single black
+moms!”
+
+Given the crisis in gender it has suffered through for the past half century,
+the African American population might as well be a separate nation. An
+astonishing 70 percent of black women are unmarried, and they are more than
+twice as likely as white women to remain that way. Those black women who do
+marry are more likely than any other group of women to “marry down.” This is
+often chalked up to high incarceration rates—in 2009, of the nearly 1.5
+million men in prison, 39 percent were black—but it’s more than that. Across
+all income levels, black men have dropped far behind black women
+professionally and educationally; women with college degrees outnumber men
+2-to-1. In August, the unemployment rate among black men age 20 or older
+exceeded 17 percent.
+
+In his book, _Is Marriage for White People?_ , Ralph Richard Banks, a law
+professor at Stanford, argues that the black experience of the past half
+century is a harbinger for society at large. “When you’re writing about black
+people, white people may assume it’s unconnected to them,” he told me when I
+got him on the phone. It might seem easy to dismiss Banks’s theory that what
+holds for blacks may hold for nonblacks, if only because no other group has
+endured such a long history of racism, and racism begets singular ills. But
+the reality is that what’s happened to the black family is already beginning
+to happen to the white family. In 1950, 64 percent of African American women
+were married—roughly the same percentage as white women. By 1965, African
+American marriage rates had declined precipitously, and Daniel Patrick
+Moynihan was famously declaring black families a “tangle of pathology.” Black
+marriage rates have fallen drastically in the years since—but then, so have
+white marriage rates. In 1965, when Moynihan wrote with such concern about the
+African American family, fewer than 25 percent of black children were born out
+of wedlock; in 2011, considerably more than 25 percent of white children are.
+
+This erosion of traditional marriage and family structure has played out most
+dramatically among low-income groups, both black and white. According to the
+sociologist William Julius Wilson, inner-city black men struggled badly in the
+1970s, as manufacturing plants shut down or moved to distant suburbs. These
+men naturally resented their downward mobility, and had trouble making the
+switch to service jobs requiring a very different style of self-presentation.
+The joblessness and economic insecurity that resulted created a host of
+problems, and made many men altogether unmarriable. Today, as manufacturing
+jobs disappear nationwide (American manufacturing shed about a third of its
+jobs during the first decade of this century), the same phenomenon may be
+under way, but on a much larger scale.
+
+Just as the decline of marriage in the black underclass augured the decline of
+marriage in the white underclass, the decline of marriage in the black middle
+class has prefigured the decline of marriage in the white middle class. In the
+1990s, the author Terry McMillan climbed the best-seller list (and box-office
+charts) with novels like _Waiting to Exhale_ and _How Stella Got Her Groove
+Back_ , which provided incisive glimpses of life and frustrated romance among
+middle-class black women, where the prospect of marrying a black man often
+seemed more or less hopeless. (As she writes in Waiting to Exhale:
+“[Successful black men have] taken these stupid statistics about us to heart
+and are having the time of their lives. They do not hold themselves
+accountable to anybody for anything, and they’re getting away with murder …
+They lie to us without a conscience, they fuck as many of us at a time as they
+want to.”) Today, with the precipitous economic and social decline of men of
+all races, it’s easy to see why women of any race would feel frustrated by
+their romantic prospects. (Is it any wonder marriage rates have fallen?)
+Increasingly, this extends to the upper-middle class, too: early last year, a
+study by the Pew Research Center reported that professionally successful,
+college-educated women were confronted with a shrinking pool of like-minded
+marriage prospects.
+
+“If you’re a successful black man in New York City, one of the most appealing
+and sought-after men around, your options are plentiful,” Banks told me. “Why
+marry if you don’t have to?” (Or, as he quotes one black man in his book, “If
+you have four quality women you’re dating and they’re in a rotation, who’s
+going to rush into a marriage?”) Banks’s book caused a small stir by
+suggesting that black women should expand their choices by marrying outside
+their race—a choice that the women of Terry McMillan’s novels would have found
+at best unfortunate and at worst an abhorrent betrayal. As it happens, the
+father of Chantal’s child is white, and Denean has dated across the color
+line. But in any event, the decline in the economic prospects of white men
+means that marrying outside their race can expand African American women’s
+choices only so far. Increasingly, the new dating gap—where women are forced
+to choose between deadbeats and players—trumps all else, in all socioeconomic
+brackets.
+
+The early 1990s witnessed the dawn of “hookup culture” at universities, as
+colleges stopped acting in loco parentis, and undergraduates, heady with
+freedom, started throwing themselves into a frenzy of one-night stands.
+Depending on whom you ask, this has either liberated young women from being
+ashamed of their sexual urges, or forced them into a promiscuity they didn’t
+ask for. Young men, apparently, couldn’t be happier.
+
+According to Robert H. Frank, an economist at Cornell who has written on
+supply and demand in the marriage market, this shouldn’t be surprising. When
+the available women significantly outnumber men, which is the case on many
+campuses today, “courtship behavior changes in the direction of what men
+want,” he told me recently. If women greatly outnumber men, he says, social
+norms against casual sex will weaken. He qualifies this by explaining that no
+matter how unbalanced the overall sex ratio may become (in either direction),
+“there will always be specific men and women who are in high demand as
+romantic partners—think Penélope Cruz and George Clooney.” But even Cruz and
+Clooney, Frank says, will be affected by changing mores. The likelihood
+increases “that even a highly sought-after woman will engage in casual sex,
+even though she would have sufficient market power to defy prevailing norms.”
+If a woman with the “market power” of a Penélope Cruz is affected by this,
+what are the rest of us to do?
+
+Whether the sexual double standard is cultural or biological, it’s finding
+traction in the increasingly lopsided sexual marketplace that is the American
+college campus, where women outnumber men, 57 percent to 43 percent. In 2010,
+_The New York Times_ ran a much-discussed article chronicling this phenomenon.
+“If a guy is not getting what he wants, he can quickly and abruptly go to the
+next one, because there are so many of us,” a University of Georgia co-ed told
+_The Times_ , reporting that at college parties and bars, she will often see
+two guys being fawned over by six provocatively dressed women. The alternative
+is just to give up on dating and romance because “there are no guys,” as a
+University of North Carolina student put it.
+
+Last year, a former management consultant named Susan Walsh tried to dig a
+little deeper. She applied what economists call the Pareto principle—the idea
+that for many events, roughly 20 percent of the causes create 80 percent of
+the effects—to the college dating market, and concluded that only 20 percent
+of the men (those considered to have the highest status) are having 80 percent
+of the sex, with only 20 percent of the women (those with the greatest sexual
+willingness); the remaining 80 percent, male and female, sit out the hookup
+dance altogether. (Surprisingly, a 2007 study commissioned by the Justice
+Department suggested that male virgins outnumber female virgins on campus.) As
+Walsh puts it, most of the leftover men are “have nots” in terms of access to
+sex, and most of the women—both those who are hooking up and those who are
+not—are “have nots” in terms of access to male attention that leads to
+commitment. (Of course, plenty of women are perfectly happy with casual, no-
+strings sex, but they are generally considered to be in the minority.) Yet the
+myth of everyone having sex all the time is so pervasive that it’s assumed to
+be true, which distorts how young men and women relate. “I think the 80/20
+principle is the key to understanding the situation we find ourselves in—one
+in which casual sex is the cultural norm, despite the fact that most people
+would actually prefer something quite different,” Walsh told me.
+
+I became aware of Walsh this past summer when I happened upon her blog,
+HookingUpSmart.com, and lost an evening to one of those late-night Internet
+binges, each link leading to the next, drawn into a boy-girl conversation to
+end all boy-girl conversations. A frumpy beige Web-site palette and pragmatic
+voice belie a refreshingly frank, at times even raunchy, dialogue; postings in
+the comments section can swell into the high hundreds—interestingly, the
+majority of them from men. I felt as if I’d stumbled into the online
+equivalent of a (progressive) school nurse’s office.
+
+A Wharton M.B.A. and stay-at-home mother of two, Walsh began her career as a
+relationship adviser turned blogger six years ago, when her daughter, then a
+student at an all-girls high school, started dating. She began seeking counsel
+from Walsh, and liked what she heard, as did her friends when she told them;
+in time, the girls were regularly gathering around Walsh’s kitchen table to
+pick her brain. Soon enough, a childhood friend’s daughter, a sophomore at
+Boston University, started coming over with her friends. Walsh started
+thinking of these ’70s-style rap sessions as her own informal “focus groups,”
+the members of one still in high school, those of the other in college, but
+all of them having similar experiences. In 2008, after the younger group had
+left home, Walsh started the blog so they could all continue the conversation.
+
+In July, I traveled to Walsh’s home, a handsome 19th-century Victorian hidden
+behind tall hedges in a quiet corner of Brookline, Massachusetts, to sit in on
+one of these informal roundtables. I came of age with hookup culture, but not
+of it, having continued through college my high-school habit of serial long-
+term relationships, and I wanted to hear from the front lines. What would
+these sexual buccaneers be like? Bold and provocative? Worn-out and
+embittered?
+
+When Walsh opened the door, I could immediately see why young women find her
+so easy to talk to; her brunette bob frames bright green eyes and a warm, easy
+smile. Once everyone had arrived—five recent college graduates, all of them
+white and upper middle class, some employed and some still looking for work,
+all unmarried—we sat down to a dinner of chicken and salad in Walsh’s high-
+ceilinged, wood-paneled dining room to weigh in on one of the evening’s
+topics: man whores.
+
+“How do you all feel about guys who get with a ton of girls?,” Walsh asked.
+“Do you think they have ‘trash dick’?” She’d run across this term on the
+Internet.
+
+One of Walsh’s pet observations pertains to what she calls the “soft harem,”
+where high-status men (i.e., the football captain) maintain an “official”
+girlfriend as well as a rotating roster of neo-concubines, who service him in
+the barroom bathroom or wherever the beer is flowing. “There used to be more
+assortative mating,” she explained, “where a five would date a five. But now
+every woman who is a six and above wants the hottest guy on campus, and she
+can have him—for one night.”
+
+**Also see:**[Hard Core
+](https://www.theatlantic.com/magazine/archive/2011/01/hard-core/8327/%0D%0A)
+
+The new world of porn is revealing eternal truths about men and women. By
+Natasha Vargas-Cooper
+
+As I’d expected, these denizens of hookup culture were far more sexually
+experienced than I’d been at their age. Some had had many partners, and they
+all joked easily about sexual positions and penis size (“I was like, ‘That’s a
+pinkie, not a penis!’”) with the offhand knowledge only familiarity can breed.
+Most of them said that though they’d had a lot of sex, none of it was
+particularly sensual or exciting. It appears that the erotic promises of the
+1960s sexual revolution have run aground on the shoals of changing sex ratios,
+where young women and men come together in fumbling, drunken couplings fueled
+less by lust than by a vague sense of social conformity. (I can’t help
+wondering: Did this de-eroticization of sex encourage the rise of pornography?
+Or is it that pornography endows the inexperienced with a toolbox of socially
+sanctioned postures and tricks, ensuring that one can engage in what amounts
+to a public exchange according to a pre-approved script?) For centuries,
+women’s sexuality was repressed by a patriarchal marriage system; now what
+could be an era of heady carnal delights is stifled by a new form of male
+entitlement, this one fueled by demographics.
+
+Most striking to me was the innocence of these young women. Of these
+attractive and vivacious females, only two had ever had a “real” boyfriend—as
+in, a mutually exclusive and satisfying relationship rather than a series of
+hookups—and for all their technical know-how, they didn’t seem to be any wiser
+than I’d been at their age. This surprised me; I’d assumed that growing up in
+a jungle would give them a more matter-of-fact or at least less conventional
+worldview. Instead, when I asked if they wanted to get married when they grew
+up, and if so, at what age, to a one they answered “yes” and “27 or 28.”
+
+“That’s only five or six years from now,” I pointed out. “Doesn’t that
+seem—not far off?”
+
+They nodded.
+
+“Take a look at me,” I said. “I’ve never been married, and I have no idea if I
+ever will be. There’s a good chance that this will be your reality, too. Does
+that freak you out?”
+
+Again they nodded.
+
+“I don’t think I can bear doing this for that long!” whispered one, with
+undisguised alarm.
+
+I remember experiencing that same panicked exhaustion around the time I turned
+36, at which point I’d been in the dating game for longer than that alarmed
+22-year-old had, and I wanted out. (Is there an expiration date on the fun,
+running-around period of being single captured so well by movies and
+television?) I’d spent the past year with a handsome, commitment-minded man,
+and these better qualities, along with our having several interests in common,
+allowed me to overlook our many thundering incompatibilities. In short, I was
+creeping up on marriage o’clock, and I figured, Enough already—I had to make
+something work. When it became clear that sheer will wasn’t going to save us,
+I went to bed one night and had a rare dream about my (late) mother.
+
+“Mom,” I said. “Things aren’t working out. I’m breaking up with him tomorrow.”
+
+“Oh, honey,” she said. “I am so sorry. We were rooting for this one, weren’t
+we? When something doesn’t work, though, what can you do?”
+
+This, I found irritating. “Mom. I am getting old.”
+
+“Pwhah!” she scoffed. “You’re fine. You’ve got six more years.”
+
+Six more years. I woke up. In six more years, I’d be 42. All this time, I’d
+been regarding my single life as a temporary interlude, one I had to make the
+most of—or swiftly terminate, depending on my mood. Without intending to, by
+actively rejecting our pop-culture depictions of the single woman—you know the
+ones—I’d been terrorizing myself with their specters. But now that 35 had come
+and gone, and with yet another relationship up in flames, all bets were off.
+It might never happen. Or maybe not until 42. Or 70, for that matter. Was that
+so bad? If I stopped seeing my present life as provisional, perhaps I’d be a
+little … happier. Perhaps I could actually get down to the business of what it
+means to be a real single woman.
+
+It’s something a lot of people might want to consider, given that now, by
+choice or by circumstance, more and more of us (women and men), across the
+economic spectrum, are spending more years of our adult lives unmarried than
+ever before. The numbers are striking: The Census Bureau has reported that in
+2010, the proportion of married households in America dropped to a record low
+of 48 percent. Fifty percent of the adult population is single (compared with
+33 percent in 1950)—and that portion is very likely to keep growing, given the
+variety of factors that contribute to it. The median age for getting married
+has been rising, and for those who are affluent and educated, that number
+climbs even higher. (Indeed, Stephanie Coontz told me that an educated white
+woman of 40 is more than twice as likely to marry in the next decade as a less
+educated woman of the same age.) Last year, nearly twice as many single women
+bought homes as did single men. And yet, what are our ideas about single
+people? Perverted misanthropes, crazy cat ladies, dating-obsessed shoe
+shoppers, etc.—all of them some form of terribly lonely. (In her 2008 memoir,
+Epilogue, a 70-something Anne Roiphe muses: “There are millions of women who
+live alone in America. Some of them are widows. Some of them are divorced and
+between connections, some of them are odd, loners who prefer to keep their
+habits undisturbed.” That’s a pretty good representation of her generation’s
+notions of unmarried women.)
+
+Famous Bolick family story: When I was a little girl, my mother and I went for
+a walk and ran into her friend Regina. They talked for a few minutes, caught
+up. I gleaned from their conversation that Regina wasn’t married, and as soon
+as we made our goodbyes, I bombarded my mother with questions. “No husband?
+How could that be? She’s a grown-up! Grown-ups have husbands!” My mother
+explained that not all grown-ups get married. “Then who opens the pickle jar?”
+(I was 5.)
+
+Thus began my lifelong fascination with the idea of the single woman. There
+was my second-grade teacher, Mrs. Connors, who was, I believe, a former nun,
+or seemed like one. There was the director of my middle-school gifted-and-
+talented program, who struck me as wonderfully remote and original. (Was she a
+lesbian?) There was a college poetry professor, a brilliant single woman in
+her 40s who had never been married, rather glamorously, I thought. Once, I
+told her I wanted to be just like her. “Good God,” she said. “I’ve made a mess
+of my life. Don’t look to me.” Why did they all seem so mysterious, even
+marginalized?
+
+Back when I believed my mother had a happy marriage—and she did for quite a
+long time, really—she surprised me by confiding that one of the most blissful
+moments of her life had been when she was 21, driving down the highway in her
+VW Beetle, with nowhere to go except wherever she wanted to be. “I had my own
+car, my own job, all the clothes I wanted,” she remembered wistfully. Why
+couldn’t she have had more of that?
+
+When I embarked on my own sojourn as a single woman in New York City—talk
+about a timeworn cliché!—it wasn’t dating I was after. I was seeking something
+more vague and, in my mind, more noble, having to do with finding my own way,
+and independence. And I found all that. Early on, I sometimes ached, watching
+so many friends pair off—and without a doubt there has been loneliness. At
+times I’ve envied my married friends for being able to rely on a spouse to
+help make difficult decisions, or even just to carry the bills for a couple of
+months. And yet I’m perhaps inordinately proud that I’ve never depended on
+anyone to pay my way (today that strikes me as a quaint achievement, but there
+you have it). Once, when my father consoled me, with the best of intentions,
+for being so unlucky in love, I bristled. I’d gotten to know so many
+interesting men, and experienced so much. Wasn’t that a form of luck?
+
+All of which is to say that the single woman is very rarely seen for who she
+is—whatever that might be—by others, or even by the single woman herself, so
+thoroughly do most of us internalize the stigmas that surround our status.
+
+Bella DePaulo, a Harvard-trained social psychologist who is now a visiting
+professor at the University of California at Santa Barbara, is America’s
+foremost thinker and writer on the single experience. In 2005, she coined the
+word singlism, in an article she published in Psychological Inquiry. Intending
+a parallel with terms like racism and sexism, DePaulo says singlism is “the
+stigmatizing of adults who are single [and] includes negative stereotyping of
+singles and discrimination against singles.” In her 2006 book, Singled Out,
+she argues that the complexities of modern life, and the fragility of the
+institution of marriage, have inspired an unprecedented glorification of
+coupling. (Laura Kipnis, the author of Against Love, has called this “the
+tyranny of two.”) This marriage myth—“matrimania,” DePaulo calls it—proclaims
+that the only route to happiness is finding and keeping one all-purpose, all-
+important partner who can meet our every emotional and social need. Those who
+don’t have this are pitied. Those who don’t want it are seen as threatening.
+Singlism, therefore, “serves to maintain cultural beliefs about marriage by
+derogating those whose lives challenge those beliefs.”
+
+In July, I visited DePaulo in the improbably named Summerland, California,
+which, as one might hope, is a charming outpost overlooking a glorious stretch
+of the Pacific Ocean. DePaulo, a warm, curious woman in her late 50s,
+describes herself as “single at heart”—meaning that she’s always been single
+and always will be, and that’s just the way she wants it. Over lunch at a
+seafood restaurant, she discussed how the cultural fixation on the couple
+blinds us to the full web of relationships that sustain us on a daily basis.
+We are far more than whom we are (or aren’t) married to: we are also friends,
+grandparents, colleagues, cousins, and so on. To ignore the depth and
+complexities of these networks is to limit the full range of our emotional
+experiences.
+
+Personally, I’ve been wondering if we might be witnessing the rise of the
+aunt, based on the simple fact that my brother’s two small daughters have
+brought me emotional rewards I never could have anticipated. I have always
+been very close with my family, but welcoming my nieces into the world has
+reminded me anew of what a gift it is to care deeply, even helplessly, about
+another. There are many ways to know love in this world.
+
+This is not to question romantic love itself. Rather, we could stand to
+examine the ways in which we think about love; and the changing face of
+marriage is giving us a chance to do this. “Love comes from the motor of the
+mind, the wanting part that craves that piece of chocolate, or a work
+promotion,” Helen Fisher, a biological anthropologist and perhaps this
+country’s leading scholar of love, told me. That we want is enduring; what we
+want changes as culture does.
+
+Our cultural fixation on the couple is actually a relatively recent
+development. Though “pair-bonding” has been around for 3.5 million years,
+according to Helen Fisher, the hunters and gatherers evolved in egalitarian
+groups, with men and women sharing the labor equally. Both left the camp in
+the morning; both returned at day’s end with their bounty. Children were
+raised collaboratively. As a result, women and men were sexually and socially
+more or less equals; divorce (or its institution-of-marriage-preceding
+equivalent) was common. Indeed, Fisher sees the contemporary trend for
+marriage between equals as us “moving forward into deep history”—back to the
+social and sexual relationships of millions of years ago.
+
+It wasn’t until we moved to farms, and became an agrarian economy centered on
+property, that the married couple became the central unit of production. As
+Stephanie Coontz explains, by the Middle Ages, the combination of the couple’s
+economic interdependence and the Catholic Church’s success in limiting divorce
+had created the tradition of getting married to one person and staying that
+way until death do us part. It was in our personal and collective best
+interest that the marriage remain intact if we wanted to keep the farm afloat.
+
+That said, being too emotionally attached to one’s spouse was discouraged;
+neighbors, family, and friends were valued just as highly in terms of
+practical and emotional support. Even servants and apprentices shared the
+family table, and sometimes slept in the same room with the couple who headed
+the household, Coontz notes. Until the mid-19th century, the word love was
+used to describe neighborly and familial feelings more often than to describe
+those felt toward a mate, and same-sex friendships were conducted with what we
+moderns would consider a romantic intensity. When honeymoons first started, in
+the 19th century, the newlyweds brought friends and family along for the fun.
+
+But as the 19th century progressed, and especially with the sexualization of
+marriage in the early 20th century, these older social ties were drastically
+devalued in order to strengthen the bond between the husband and wife—with
+contradictory results. As Coontz told me, “When a couple’s relationship is
+strong, a marriage can be more fulfilling than ever. But by overloading
+marriage with more demands than any one individual can possibly meet, we
+unduly strain it, and have fewer emotional systems to fall back on if the
+marriage falters.”
+
+Some even believe that the pair bond, far from strengthening communities
+(which is both the prevailing view of social science and a central tenet of
+social conservatism), weakens them, the idea being that a married couple
+becomes too consumed with its own tiny nation of two to pay much heed to
+anyone else. In 2006, the sociologists Naomi Gerstel and Natalia Sarkisian
+published a paper concluding that unlike singles, married couples spend less
+time keeping in touch with and visiting their friends and extended family, and
+are less likely to provide them with emotional and practical support. They
+call these “greedy marriages.” I can see how couples today might be driven to
+form such isolated nations—it’s not easy in this age of dual-career families
+and hyper-parenting to keep the wheels turning, never mind having to maintain
+outside relationships as well. And yet we continue to rank this arrangement
+above all else!
+
+Now that women are financially independent, and marriage is an option rather
+than a necessity, we are free to pursue what the British sociologist Anthony
+Giddens termed the “pure relationship,” in which intimacy is sought in and of
+itself and not solely for reproduction. (If I may quote the eminently quotable
+Gloria Steinem again: “I can’t mate in captivity.”) Certainly, in a world
+where women can create their own social standing, concepts like “marrying up”
+and “marrying down” evaporate—to the point where the importance of
+conventional criteria such as age and height, Coontz says, has fallen to an
+all-time low (no pun intended) in the United States.
+
+Everywhere I turn, I see couples upending existing norms and power structures,
+whether it’s women choosing to be with much younger men, or men choosing to be
+with women more financially successful than they are (or both at once). My
+friend M., a successful filmmaker, fell in love with her dog walker, a man 12
+years her junior; they stayed together for three years, and are best friends
+today. As with many such relationships, I didn’t even know about their age
+difference until I became a member of their not-so-secret society. At a
+rooftop party last September, a man 11 years my junior asked me out for
+dinner; I didn’t take him seriously for one second—and then the next thing I
+knew, we were driving to his parents’ house for Christmas. (When I mentioned
+what I considered to be this scandalous age difference to the actress Julianne
+Moore after a newspaper interview that had turned chatty and intimate, she
+e-mailed me to say, “In terms of scandalously young—I have been with my
+9-years-younger husband for 15 years now—so there you go!”) The same goes for
+couples where the woman is taller. Dalton Conley, the dean for the social
+sciences at New York University, recently analyzed data from the Panel Study
+of Income Dynamics and found a 40 percent increase, between 1986 and 2003, in
+men who are shorter than their wives. (Most research confirms casual
+observation: when it comes to judging a prospective mate on the basis of
+looks, women are the more lenient gender.)
+
+Perhaps true to conservative fears, the rise of gay marriage has helped
+heterosexuals think more creatively about their own conventions. News stories
+about polyamory, “ethical nonmonogamy,” and the like pop up with increasing
+frequency. Gay men have traditionally had a more permissive attitude toward
+infidelity; how will this influence the straight world? Coontz points out that
+two of the hallmarks of contemporary marriage are demands for monogamy on an
+equal basis, and candor. “Throughout history, there was a fairly high
+tolerance of [men’s] extramarital flings, with women expected to look the
+other way,” she said. “Now we have to ask: Can we be more monogamous? Or
+understand that flings happen?” (She’s also noticed that an unexpected
+consequence of people’s marrying later is that they skip right over the
+cheating years.) If we’re ready to rethink, as individuals, the ways in which
+we structure our arrangements, are we ready to do this as a society?
+
+In her new book, Unhitched, Judith Stacey, a sociologist at NYU, surveys a
+variety of unconventional arrangements, from gay parenthood to polygamy to—in
+a mesmerizing case study—the Mosuo people of southwest China, who eschew
+marriage and visit their lovers only under cover of night. “The sooner and
+better our society comes to terms with the inescapable variety of intimacy and
+kinship in the modern world, the fewer unhappy families it will generate,” she
+writes.
+
+The matrilineal Mosuo are worth pausing on, as a reminder of how complex
+family systems can be, and how rigid ours are—and also as an example of
+women’s innate libidinousness, which is routinely squelched by patriarchal
+systems, as Christopher Ryan and Cacilda Jethá point out in their own analysis
+of the Mosuo in their 2010 book, Sex at Dawn. For centuries, the Mosuo have
+lived in households that revolve around the women: the mothers preside over
+their children and grandchildren, and brothers take paternal responsibility
+for their sisters’ offspring.
+
+Sexual relations are kept separate from family. At night, a Mosuo woman
+invites her lover to visit her babahuago (flower room); the assignation is
+called sese (walking). If she’d prefer he not sleep over, he’ll retire to an
+outer building (never home to his sisters). She can take another lover that
+night, or a different one the next, or sleep every single night with the same
+man for the rest of her life—there are no expectations or rules. As Cai Hua, a
+Chinese anthropologist, explains, these relationships, which are known as
+açia, are founded on each individual’s autonomy, and last only as long as each
+person is in the other’s company. Every goodbye is taken to be the end of the
+açia relationship, even if it resumes the following night. “There is no
+concept of açia that applies to the future,” Hua says.
+
+America has a rich history of its own sexually alternative utopias, from the
+19th-century Oneida Community (which encouraged postmenopausal women to
+introduce teenage males to sex) to the celibate Shakers, but real change can
+seldom take hold when economic forces remain static. The extraordinary
+economic flux we’re in is what makes this current moment so distinctive.
+
+In the months leading to my breakup with Allan, my problem, as I saw it, lay
+in wanting two incompatible states of being—autonomy and intimacy—and this
+struck me as selfish and juvenile; part of growing up, I knew, was making
+trade-offs. I was too ashamed to confide in anyone, and as far as I could
+tell, mine was an alien predicament anyhow; apparently women everywhere wanted
+exactly what I possessed: a good man; a marriage-in-the-making; a “we.”
+
+So I started searching out stories about those who had gone off-script with
+unconventional arrangements. I had to page back through an entire century,
+down past the riot grrrls, then the women’s libbers, then the flappers, before
+I found people who talked about love in a way I could relate to: the free-
+thinking adventurers of early-1900s Greenwich Village. Susan Glaspell, Neith
+Boyce, Edna St. Vincent Millay—they investigated the limits and possibilities
+of intimacy with a naive audacity, and a touching decorum, that I found
+familiar and comforting. I am not a bold person. To read their essays and
+poems was to perform a shy ideological striptease to the sweetly insistent
+warble of a gramophone.
+
+“We are not designed, as a species, to raise children in nuclear families,”
+Christopher Ryan, one of the Sex at Dawn co-authors, told me over the
+telephone late last summer. Women who try to be “supermoms,” whether single or
+married, holding down a career and running a household simultaneously, are
+“swimming upstream.” Could we have a modernization of the Mosuo, Ryan mused,
+with several women and their children living together—perhaps in one of the
+nation’s many foreclosed and abandoned McMansions—bonding, sharing expenses,
+having a higher quality of life? “In every society where women have
+power—whether humans or primates—the key is female bonding,” he added.
+
+Certainly letting men off the hook isn’t progress. But as we talked, I
+couldn’t help thinking about the women in Wilkinsburg—an inadvertent all-
+female coalition—and how in spite of it all, they derived so much happiness
+from each other’s company. That underprivileged communities are often forced
+into matrilineal arrangements in the absence of reliable males has been well
+documented (by the University of Virginia sociologist W. Bradford Wilcox,
+among others), and I am not in any way romanticizing these circumstances. Nor
+am I arguing that we should discourage marriage—it’s a tried-and-true model
+for raising successful children in a modern economy. (Evidence suggests that
+American children who grow up amidst the disorder that is common to single-
+parent homes tend to struggle.) But we would do well to study, and to endorse,
+alternative family arrangements that might provide strength and stability to
+children as they grow up. I am curious to know what could happen if these de
+facto female support systems of the sort I saw in Wilkinsburg were recognized
+as an adaptive response, even an evolutionary stage, that women could be proud
+to build and maintain.
+
+I definitely noticed an increase in my own contentment when I began to develop
+and pay more attention to friendships with women who, like me, have never been
+married. Their worldviews feel relaxingly familiar, and give me the space to
+sort through my own ambivalence. That’s an abstract benefit. More concretely,
+there’s what my brother terms our “immigrant bucket brigade”—my peer group’s
+habit of jumping to the ready to help each other with matters practical and
+emotional. This isn’t to say that my married friends aren’t as supportive—some
+of my best friends are married!—it’s just that, with families of their own,
+they can’t be as available.
+
+Indeed, my single friends housed me as I flew around the world to research
+this article; by the end, I had my own little (unwritten) monograph on the
+very rich lives of the modern-day single woman. Deb gave me the use of her
+handsome mid-century apartment in Chelsea when she vacated town for a
+meditation retreat; Courtney bequeathed her charming Brooklyn aerie while she
+traveled alone through Italy; Catherine put me up at her rambling Cape Cod
+summer house; when my weekend at Maria’s place on Shelter Island unexpectedly
+ballooned into two weeks, she set me up in my own little writing room; when a
+different Courtney needed to be nursed through an operation, I stayed for four
+days to write paragraphs between changing bandages.
+
+The sense of community we create for one another puts me in mind of the 19th-
+century availability of single-sex hotels and boarding houses, which were a
+necessity when women were discouraged from living alone, and then became an
+albatross when they finally weren’t. So last year, inspired by visions of New
+York’s “women only” Barbizon Hotel in its heyday, I persuaded my childhood
+friend Willamain to take over the newly available apartment in my building in
+Brooklyn Heights. We’ve known each other since we were 5, and I thought it
+would be a great comfort to us both to spend our single lives just a little
+less atomized. It’s worked. These days, I think of us as a mini-neo-single-sex
+residential hotel of two. We collect one another’s mail when necessary, share
+kitchenware, tend to one another when sick, fall into long conversations when
+we least expect it—all the benefits of dorm living, without the gross
+bathrooms.
+
+Could we create something bigger, and more intentional? In August, I flew to
+Amsterdam to visit an iconic medieval bastion of single-sex living. The
+Begijnhof was founded in the mid-12th century as a religious all-female
+collective devoted to taking care of the sick. The women were not nuns, but
+nor were they married, and they were free to cancel their vows and leave at
+any time. Over the ensuing centuries, very little has changed. Today the
+religious trappings are gone (though there is an active chapel on site), and
+to be accepted, an applicant must be female and between the ages of 30 and 65,
+and commit to living alone. The institution is beloved by the Dutch, and
+gaining entry isn’t easy. The waiting list is as long as the turnover is low.
+
+I’d heard about the Begijnhof through a friend, who once knew an American
+woman who lived there, named Ellen. I contacted an old boyfriend who now lives
+in Amsterdam to see if he knew anything about it (thank you, Facebook), and he
+put me in touch with an American friend who has lived there for 12 years: the
+very same Ellen.
+
+The Begijnhof is big—106 apartments in all—but even so, I nearly pedaled right
+past it on my rented bicycle, hidden as it is in plain sight: a walled
+enclosure in the middle of the city, set a meter lower than its surroundings.
+Throngs of tourists sped past toward the adjacent shopping district. In the
+wall is a heavy, rounded wood door. I pulled it open and walked through.
+
+Inside was an enchanted garden: a modest courtyard surrounded by classic Dutch
+houses of all different widths and heights. Roses and hydrangea lined walkways
+and peeked through gates. The sounds of the city were indiscernible. As I
+climbed the narrow, twisting stairs to Ellen’s sun-filled garret, she leaned
+over the railing in welcome—white hair cut in a bob, smiling red-painted lips.
+A writer and producer of avant-garde radio programs, Ellen, 60, has a chic,
+minimal style that carries over into her little two-floor apartment, which
+can’t be more than 300 square feet. Neat and efficient in the way of a ship,
+the place has large windows overlooking the courtyard and rooftops below. To
+be there is like being held in a nest.
+
+We drank tea and talked, and Ellen rolled her own cigarettes and smoked
+thoughtfully. She talked about how the Dutch don’t regard being single as
+peculiar in any way—people are as they are. She feels blessed to live at the
+Begijnhof and doesn’t ever want to leave. Save for one or two friends on the
+premises, socially she holds herself aloof; she has no interest in being
+ensnared by the gossip on which a few of the residents thrive—but she loves
+knowing that they’re there. Ellen has a partner, but since he’s not allowed to
+spend the night, they split time between her place and his nearby home. “If
+you want to live here, you have to adjust, and you have to be creative,” Ellen
+said. (When I asked her if starting a relationship was a difficult decision
+after so many years of pleasurable solitude, she looked at me meaningfully and
+said, “It wasn’t a choice—it was a certainty.”)
+
+When an American woman gives you a tour of her house, she leads you through
+all the rooms. Instead, this expat showed me her favorite window views: from
+her desk, from her (single) bed, from her reading chair. As I perched for a
+moment in each spot, trying her life on for size, I thought about the years
+I’d spent struggling against the four walls of my apartment, and I wondered
+what my mother’s life would have been like had she lived and divorced my
+father. A room of one’s own, for each of us. A place where single women can
+live and thrive as themselves.

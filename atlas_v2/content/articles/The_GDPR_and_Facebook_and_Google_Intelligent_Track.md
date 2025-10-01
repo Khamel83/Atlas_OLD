@@ -1,0 +1,243 @@
+# The GDPR and Facebook and Google, Intelligent Tracking Prevention, Data Portability and Social Graphs - Stratechery by Ben Thompson
+
+**Source**: https://stratechery.com/2017/the-gdpr-and-facebook-and-google-intelligent-tracking-prevention-data-portability-and-social-graphs/
+**Type**: article
+**Created**: 2025-08-13T17:00:01.326937
+
+---
+
+title: The GDPR and Facebook and Google, Intelligent Tracking Prevention, Data Portability and Social Graphs - Stratechery by Ben Thompson
+source: https://stratechery.com/2017/the-gdpr-and-facebook-and-google-intelligent-tracking-prevention-data-portability-and-social-graphs/
+date: 2025-08-13T16:59:59.690863
+tags: []
+---
+Good morning,
+
+My apologies about the extra email notification last night, and its awkward
+wording: I knew for a fact that some number of mails were directed into spam,
+and wasn’t trying to guilt anyone into clicking! In fact, open rates for
+Stratechery mails are extremely predictable. Even so, I do appreciate everyone
+who responded to assure me that they read my notes. I didn’t mean to beg for
+compliments but it’s still nice to hear!
+
+As far as yesterday’s topic, I have been predicting for years that the tech
+giants were going to face regulatory pushback at some point in the future; the
+rub, as I’ve noted, is that generally these companies succeed by offering
+consumers a product they like for free, which is helpful politically. That,
+though, is why these Russian ads are so interesting despite the tiny amount of
+money at play: to say that the last election inflamed passions that have yet
+to die down is perhaps the biggest understatement in the history of
+Stratechery; said passions — on both sides — may be enough to overcome the
+inherent bias the public may have to support Facebook and Google, which means
+the question of what sort of regulation might work is an increasingly pressing
+one.
+
+To that end, my goal yesterday was to further define exactly what these two
+entities in particular are, and why they are unprecedented: without
+understanding, regulation can have unintended consequences.
+
+On to the update:
+
+#### The GDPR and Facebook and Google
+
+At the very end of yesterday’s article I noted that, generally speaking,
+regulation often acts as a moat for incumbents, and used the EU’s General Data
+Protection Regulation (GDPR) as an example:
+
+> There is lot of excitement about how this regulation will limit Google and
+> Facebook in particular, by, for example, limiting the use of personal data
+> and enforcing data portability (and not just a PDF of your data — services
+> will be required to build API access for easy export).
+>
+> The reality, though, is that given that Google and Facebook make most of
+> their money on their own sites, they will be hurt far less than competitive
+> ad networks that work across multiple sites; that means that even more
+> digital advertising money — which will continue to grow, regardless of
+> regulation — will flow to Google and Facebook. Similarly, given that the
+> data portability provisions explicitly exclude your social network —
+> exporting your friends requires explicit approval from your friends — it
+> will be that much harder to bootstrap a competitor.
+
+I received some amount of pushback on this point, with folks wondering why it
+is that Google and Facebook would have opposed many of the provisions in GDPR
+if, as I argue, it will in fact secure their position?
+
+To quickly review, the [General Data Protection
+Regulation](http://ec.europa.eu/justice/data-
+protection/reform/files/regulation_oj_en.pdf) is a massive new set of
+regulations set to go into effect in the European Union next spring, that
+significantly limits what companies can do with your private data without
+explicit consent (i.e. not generic user agreements) and, on the flipside,
+mandates that your data be easily portable. Sounds bad for Google and
+Facebook, right?
+
+Indeed it is; [this
+article](https://pagefair.com/blog/2017/gdpr_risk_to_the_duopoly/#_ftnref25)
+from PageFair has a decent overview of which Google and Facebook businesses
+will be impacted; DoubleClick and Facebook Audience Network are most at risk
+because using user data to target ads on 3rd-party websites is clearly not
+what users agree to when they sign up for Google or Facebook accounts, which
+means said permission has to be granted explicitly. Good luck with that!
+
+The problem with that article, though, is the title: “How the GDPR Will
+Disrupt Google and Facebook”. Leaving aside the fact that this perhaps the
+most inappropriate use of “disrupt” yet, the unacknowledged reality is that
+the GDPR is going to devastate nearly every other ad network. This drawing
+from [2015’s Popping the Publishing
+Bubble](https://stratechery.com/2015/popping-the-publishing-bubble/) explains
+why quite nicely:
+
+[![](https://i0.wp.com/stratechery.com/wp-content/uploads/2015/09/stratechery-
+Year-
+One-239.png?resize=640%2C480&ssl=1)](https://stratechery.com/2015/popping-the-
+publishing-bubble/)
+
+The entire point of advertising networks is to, instead of using sites as a
+proxy for users, target users directly. Said ad networks, though, have no
+relationship with the users they are tracking, so how can they ask for
+permission? And are individual sites really going to want to bear the burden
+of asking for permission for these third party services? Keep in mind, “ad
+networks” is dramatically simplifying the web of ad-tech companies that go
+into service ads, all of which will now need explicit user permission.
+
+Google and Facebook, meanwhile, will still have their core businesses — search
+ads and News Feed ads — which, quite obviously, run on their own sites and
+rely on data integral to those same sites; for logged-in users in particular
+it is likely that targeting data will only be subject to an opt-out provision,
+not opt-in (and in the case of Google, the most important piece of data — user
+intent — isn’t protected data at all). To use another image from that article:
+
+[![](https://i0.wp.com/stratechery.com/wp-content/uploads/2015/09/stratechery-
+Year-
+One-240.png?resize=640%2C434&ssl=1)](https://stratechery.com/2015/popping-the-
+publishing-bubble/)
+
+The net result should be obvious: GDPR will be a pain for Google and Facebook,
+but it will be lethal for many of their competitors, which means digital ad
+revenue post-GDPR…will go to Facebook and Google. That, of course, is already
+happening, which is why Google and Facebook haven’t embraced GDPR; it’s not
+like they need the help in building a moat, but they will get it none the
+less. Meanwhile, the inexorable shift of users to digital services and away
+from traditional advertising venues — which will result in the shift in
+advertising dollars to digital — is not going to slow down.
+
+#### Intelligent Tracking Prevention
+
+This analysis, by the way, applies to iOS 11’s [Intelligent Tracking
+Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/),
+which further limits (and will sometimes remove) third-party cookies in
+Safari; advertising groups wrote [an open
+letter](http://www.adweek.com/digital/every-major-advertising-group-is-
+blasting-apple-for-blocking-cookies-in-the-safari-browser/) complaining that
+Apple was breaking the economic model of the web.
+
+Guess whose models aren’t broken, though? These limitations won’t have any
+effect on advertising on Facebook and Google properties, and while their 3rd
+party networks could again be affected, both have far more plausible
+workarounds given how often people use their sites (visiting the top-level
+domain of a cookie is necessary for that cookie to be used in a 3rd-party
+context, so Google, for example, could theoretically change the top-level
+domain of DoubleClick cookies to Google.com, a domain most visit daily).
+
+To be clear, I’m not saying GDPR is good or bad, or Intelligent Tracking
+Prevention for that matter (as a user both sound quite attractive). What I am
+saying is that, like most regulation, it is the incumbents that are most able
+to bear the costs, and, at least in the case of GDPR, simply survive (as
+someone concerned about Facebook and Google’s relative power, that sounds much
+less attractive!).
+
+#### Data Portability and Social Graphs
+
+In [Manifestos and Monopolies](https://stratechery.com/2017/manifestos-and-
+monopolies/) I suggested a number of ways that Facebook’s power could be
+weakened; the first said that Facebook should not be allowed to buy another
+network-based app, and the third said that Facebook’s data collection
+practices should be easier to opt out of (to the GDPR’s credit it addresses
+this point, and I should have mentioned so at the time).
+
+The second one, though, is both the most powerful from a remediative point of
+view, but also the most problematic:
+
+> Secondly, all social networks should be required to enable social graph
+> portability — the ability to export your lists of friends from one network
+> to another. Again Instagram is the perfect example: the one-time photo-
+> filtering app launched its network off the back of Twitter by enabling the
+> wholesale import of your Twitter social graph. And, after it was acquired by
+> Facebook, Instagram has only accelerated its growth by continually importing
+> your Facebook network. Today all social networks have long since made this
+> impossible, making it that much more difficult for competitors to arise.
+
+Several folks have suggested that the GDPR’s requirements around data
+portability, including that it be machine accessible (i.e. not just a PDF)
+will help new networks form, but in fact the opposite is the case. Note this
+section from the [Guidelines on the right to data
+portability](https://iapp.org/media/pdf/resource_center/WP29-2017-04-data-
+portability-guidance.pdf):
+
+> Third condition: the right to data portability shall not adversely affect
+> the rights and freedoms of others
+>
+> With respect to personal data concerning other data subjects:
+>
+> The third condition is intended to avoid the retrieval and transmission of
+> data containing the personal data of other (non-consenting) data subjects to
+> a new data controller in cases where these data are likely to be processed
+> in a way that would adversely affect the rights and freedoms of the other
+> data subjects (Article 20(4) of the GDPR).
+>
+> Such an adverse effect would occur, for instance, if the transmission of
+> data from one data controller to another, would prevent third parties from
+> exercising their rights as data subjects under the GDPR (such as the rights
+> to information, access, etc.).
+>
+> The data subject initiating the transmission of his or her data to another
+> data controller, either gives consent to the new data controller for
+> processing or enters into a contract with that controller. Where personal
+> data of third parties are included in the data set another legal basis for
+> the processing must be identified. For example, a legitimate interest may be
+> pursued by the data controller under Article 6(1)(f), in particular when the
+> purpose of the data controller is to provide a service to the data subject
+> that allows the latter to process personal data for a purely personal or
+> household activity. The processing operations initiated by the data subject
+> in the context of personal activity that concern and potentially impact
+> third parties remain under his or her responsibility, to the extent that
+> such processing is not, in any manner, decided by the data controller…
+>
+> Therefore, to prevent adverse effects on the third parties involved, the
+> processing of such personal data by another controller is allowed only to
+> the extent that the data are kept under the sole control of the requesting
+> user and is only managed for purely personal or household needs. A receiving
+> ‘new’ data controller (to whom the data can be transmitted at the request of
+> the user) may not use the transmitted third party data for his own purposes
+> e.g. to propose marketing products and services to those other third party
+> data subjects. For example, this information should not be used to enrich
+> the profile of the third party data subject and rebuild his social
+> environment, without his knowledge and consent. Neither can it be used to
+> retrieve information about such third parties and create specific profiles,
+> even if their personal data are already held by the data controller.
+> Otherwise, such processing is likely to be unlawful and unfair, especially
+> if the third parties concerned are not informed and cannot exercise their
+> rights as data subjects.
+
+This forbids what I proposed: the easy re-creation of one’s social graph on
+other networks. Moreover, it’s an understandable regulation: my friend on
+Facebook didn’t give permission for their information to be given to Snapchat,
+for example. It does, though, make it that much more difficult to bootstrap a
+Facebook competitor: the most valuable data (from a business perspective,
+anyways) is the social graph, not the updates and pictures that must now be
+portable, which means that again, thanks to (reasonable!) regulation,
+Facebook’s position is that much more secure.
+
+* * *
+
+I made a dumb mistake [on Thursday](https://stratechery.com/2017/the-
+iphone-8-price-rise-the-cellular-apple-watch-apple-tv-4k-and-disney/); that
+Apple now sells 4k movies is not in any way unique relative to Amazon or
+anyone else, who have been selling 4k movies for some time. My bad for having
+reached for a reason for Apple TV relevance!
+
+The Daily Update is intended for a single recipient, but occasional forwarding
+is totally fine! If you would like to order multiple subscriptions for your
+team with a group discount (minimum 5), please contact me directly.
+
+Thanks for being a supporter, and have a great day!

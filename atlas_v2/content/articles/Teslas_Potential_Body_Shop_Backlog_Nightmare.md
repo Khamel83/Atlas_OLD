@@ -1,0 +1,35 @@
+# Tesla's Potential Body Shop Backlog Nightmare
+
+**Source**: inputs/New Docs/reader/jalopnik.com_teslas-potential-body-shop-backlog-nightmare-1793269803.html
+**Type**: article
+**Created**: 2025-08-25T02:53:45.398689
+
+---
+
+Tesla owners who spoke with Jalopnik described similar experience, with delays for repairs lasting several months—an issue that can be particularly problematic when it comes to loaner vehicles, which insurance companies typically only cover for 30-45 days.  
+  
+It's typical for any car to be outsourced to a body shop after a wreck, but only certain shops are approved by Tesla to work on their cars. And unlike nearly all other automakers, Tesla does not have a dealer network to conduct other repairs since it relies on a direct sales model, and instead has regional service centers for that kind of work.  
+  
+These customers' complaints deal mostly with body shops, but it goes both ways, since some shops say Tesla takes too long to send parts for repairs.  
+  
+Jon Levy, a 40-year-old attorney in Miami, said he purchased a Model S 70 about a year ago because he was attracted to the environmental benefits of the sleek electric vehicle.  
+  
+Levy told Jalopnik the accident happened when his car was left at an airport parking lot; while he was away, somebody had backed into the bumper.  
+  
+"It was fairly perceptible," he said. "But as I learned from having the car repaired, there's a whole more that goes under the bumper than meets the eye." A security guard witnessed the incident, so Levy was fortunate enough that a police report was filed. "Insurance covered the whole thing except my deductible," he said.  
+  
+The body shop estimated a roughly $7,500 bill to fix the damage, with a turnaround of seven-to-eight weeks. The problem, he said, was it's the only Tesla-approved body shop within 30-60 miles of his home.  
+  
+"Had I known then what I know now, I would've asked them to take the car apart and determine what's necessary and... put the car back together," Levy said, as the Model S could at least drive. "Instead, it sat two months in a body shop."  
+  
+Levy said he ended up paying out of pocket for a car rental, as well as gas "that I otherwise wouldn't pay for, and at the same time, paying a premium for the car in a body shop."  
+  
+Within the last several weeks, Levy said he vented about the situation on Reddit, which prompted a surprise reply from a forum member who said her husband works at Tesla. The woman asked for his VIN number, Levy said, and asked her husband "if he'd put my order to the top."  
+  
+"A week or two later," Levy said, "the car was done."  
+  
+While that's an optimistic note to end on, Levy said he may have been dissuaded from purchasing a Tesla vehicle in the first place if he had a better understanding of the potential situation he found himself in. (When he purchased his vehicle, Levy said he wasn't made aware that only one body shop exists in the Miami area.)  
+  
+"I'm a 100 percent ambassador for Tesla," he said. "I love the car, I love everything about it ... But I do warn people in advance who ask me, because I've referred a few people to get a car and I've just told them, that's my experience."  
+  
+"Something as insignificant as a fender bender can cost me several thousand dollar and two months," he added. "There's something wrong with that picture."

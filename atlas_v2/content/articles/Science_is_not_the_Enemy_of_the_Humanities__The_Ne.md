@@ -1,0 +1,60 @@
+# Science is not the Enemy of the Humanities | The New Republic
+
+**Source**: http://www.newrepublic.com/article/114127/science-not-enemy-humanities
+**Type**: article
+**Created**: 2025-08-13T20:00:16.244573
+
+---
+
+title: Science is not the Enemy of the Humanities | The New Republic
+source: http://www.newrepublic.com/article/114127/science-not-enemy-humanities
+date: 2025-08-13T20:00:15.442587
+tags: []
+---
+Unfortunately, this entente unravels as soon as you begin to examine it. The
+moral worldview of any scientifically literate person—one who is not blinkered
+by fundamentalism—requires a radical break from religious conceptions of
+meaning and value.
+
+To begin with, the findings of science entail that the belief systems of all
+the world’s traditional religions and cultures—their theories of the origins
+of life, humans, and societies—are factually mistaken. We know, but our
+ancestors did not, that humans belong to a single species of African primate
+that developed agriculture, government, and writing late in its history. We
+know that our species is a tiny twig of a genealogical tree that embraces all
+living things and that emerged from prebiotic chemicals almost four billion
+years ago. We know that we live on a planet that revolves around one of a
+hundred billion stars in our galaxy, which is one of a hundred billion
+galaxies in a 13.8-billion-year-old universe, possibly one of a vast number of
+universes. We know that our intuitions about space, time, matter, and
+causation are incommensurable with the nature of reality on scales that are
+very large and very small. We know that the laws governing the physical world
+(including accidents, disease, and other misfortunes) have no goals that
+pertain to human well-being. There is no such thing as fate, providence,
+karma, spells, curses, augury, divine retribution, or answered prayers—though
+the discrepancy between the laws of probability and the workings of cognition
+may explain why people believe there are. And we know that we did not always
+know these things, that the beloved convictions of every time and culture may
+be decisively falsified, doubtless including some we hold today.
+
+In other words, the worldview that guides the moral and spiritual values of an
+educated person today is the worldview given to us by science. Though the
+scientific facts do not by themselves dictate values, they certainly hem in
+the possibilities. By stripping ecclesiastical authority of its credibility on
+factual matters, they cast doubt on its claims to certitude in matters of
+morality. The scientific refutation of the theory of vengeful gods and occult
+forces undermines practices such as human sacrifice, witch hunts, faith
+healing, trial by ordeal, and the persecution of heretics. The facts of
+science, by exposing the absence of purpose in the laws governing the
+universe, force us to take responsibility for the welfare of ourselves, our
+species, and our planet. For the same reason, they undercut any moral or
+political system based on mystical forces, quests, destinies, dialectics,
+struggles, or messianic ages. And in combination with a few unexceptionable
+convictions— that all of us value our own welfare and that we are social
+beings who impinge on each other and can negotiate codes of conduct—the
+scientific facts militate toward a defensible morality, namely adhering to
+principles that maximize the flourishing of humans and other sentient beings.
+This humanism, which is inextricable from a scientific understanding of the
+world, is becoming the de facto morality of modern democracies, international
+organizations, and liberalizing religions, and its unfulfilled promises define
+the moral imperatives we face today.

@@ -1,0 +1,69 @@
+# Opinion | The Elusive Big Idea - The New York Times
+
+**Source**: http://www.nytimes.com/2011/08/14/opinion/sunday/the-elusive-big-idea.html?_r=1&pagewanted=all
+**Type**: article
+**Created**: 2025-08-13T20:39:45.716726
+
+---
+
+title: Opinion | The Elusive Big Idea - The New York Times
+source: http://www.nytimes.com/2011/08/14/opinion/sunday/the-elusive-big-idea.html?_r=1&pagewanted=all
+date: 2025-08-13T20:39:38.204961
+tags: []
+---
+We prefer knowing to thinking because knowing has more immediate value. It
+keeps us in the loop, keeps us connected to our friends and our cohort. Ideas
+are too airy, too impractical, too much work for too little reward. Few talk
+ideas. Everyone talks information, usually personal information. Where are you
+going? What are you doing? Whom are you seeing? These are today’s big
+questions.
+
+It is certainly no accident that the post-idea world has sprung up alongside
+the social networking world. Even though there are sites and blogs dedicated
+to ideas, Twitter, Facebook, Myspace, Flickr, etc., the most popular sites on
+the Web, are basically information exchanges, designed to feed the insatiable
+information hunger, though this is hardly the kind of information that
+generates ideas. It is largely useless except insofar as it makes the
+possessor of the information feel, well, informed. Of course, one could argue
+that these sites are no different than conversation was for previous
+generations, and that conversation seldom generated big ideas either, and one
+would be right.
+
+BUT the analogy isn’t perfect. For one thing, social networking sites are the
+primary form of communication among young people, and they are supplanting
+print, which is where ideas have typically gestated. For another, social
+networking sites engender habits of mind that are inimical to the kind of
+deliberate discourse that gives rise to ideas. Instead of theories, hypotheses
+and grand arguments, we get instant 140-character tweets about eating a
+sandwich or watching a TV show. While social networking may enlarge one’s
+circle and even introduce one to strangers, this is not the same thing as
+enlarging one’s intellectual universe. Indeed, the gab of social networking
+tends to shrink one’s universe to oneself and one’s friends, while thoughts
+organized in words, whether online or on the page, enlarge one’s focus.
+
+To paraphrase the famous dictum, often attributed to Yogi Berra, that you
+can’t think and hit at the same time, you can’t think and tweet at the same
+time either, not because it is impossible to multitask but because tweeting,
+which is largely a burst of either brief, unsupported opinions or brief
+descriptions of your own prosaic activities, is a form of distraction or anti-
+thinking.
+
+The implications of a society that no longer thinks big are enormous. Ideas
+aren’t just intellectual playthings. They have practical effects.
+
+An artist friend of mine recently lamented that he felt the art world was
+adrift because there were no longer great critics like Harold Rosenberg and
+Clement Greenberg to provide theories of art that could fructify the art and
+energize it. Another friend made a similar argument about politics. While the
+parties debate how much to cut the budget, he wondered where were the John
+Rawlses and Robert Nozicks who could elevate our politics.
+
+One could certainly make the same argument about economics, where John Maynard
+Keynes remains the center of debate nearly 80 years after propounding his
+theory of government pump priming. This isn’t to say that the successors of
+Rosenberg, Rawls and Keynes don’t exist, only that if they do, they are not
+likely to get traction in a culture that has so little use for ideas,
+especially big, exciting, dangerous ones, and that’s true whether the ideas
+come from academics or others who are not part of elite organizations and who
+challenge the conventional wisdom. All thinkers are victims of information
+glut, and the ideas of today’s thinkers are also victims of that glut.

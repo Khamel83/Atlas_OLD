@@ -1,0 +1,107 @@
+# Jenna Lyons is leaving J.Crew. Long live Jenna Lyons
+
+**Source**: https://qz.com/949498/jenna-lyons-is-leaving-j-crew-but-the-jenna-lyons-era-of-american-fashion-is-not-over/
+**Type**: article
+**Created**: 2025-08-13T17:25:12.184606
+
+---
+
+title: Jenna Lyons is leaving J.Crew. Long live Jenna Lyons
+source: https://qz.com/949498/jenna-lyons-is-leaving-j-crew-but-the-jenna-lyons-era-of-american-fashion-is-not-over/
+date: 2025-08-13T17:25:04.916977
+tags: []
+---
+The world of fashion is filled with comings and goings. Nowadays, it’s common
+for a creative director to spend a few years with one label, before moving on
+to another. Who’s designing at Dior now? And what of Valentino? For everyday
+American women—even those who love to get dressed—the answer isn’t relevant.
+
+But most could name the creative force behind J.Crew: Jenna Lyons. Which is
+why yesterday, when my phone dinged with a message from a colleague: “Did you
+see this?” and a link to the news that [Lyons would be leaving
+J.Crew](http://web.archive.org/web/20250710143347/https://qz.com/948798/jenna-
+lyons-is-out-at-j-crew), after 26 years rising through the company’s ranks to
+the role of president and creative director—second only to CEO Mickey
+Drexler—it felt, almost laughably, like a moment I might look back on: ”Where
+were you when you found out Jenna was leaving?” (I was, no kidding, at the
+Trevi Fountain in Rome, wearing my navy J.Crew menswear-style wool jacket.
+This brand is always with us.)
+
+J.Crew is a company that many people, myself included, feel a deeply personal
+connection with. As a high-schooler in St. Louis, MO in the 1990s, I would
+wait for the catalogue and turn down the corners of pages showing the barn
+jackets, rugby shirts, and roll-neck sweaters I longed for. Twenty years
+later, I repeatedly lamented that a favorite piece from that era—a simple,
+scoopback one-piece swimsuit—was impossible to find. At the time, J.Crew was
+making headlines by [directly
+responding](http://web.archive.org/web/20250710143347/http://www.businessinsider.com/mickey-
+drexler-personally-calls-customer-2013-7?IR=T) to customer feedback, and my
+editor at The Cut encouraged me to write an open letter to Lyons. The Cut
+published [my
+letter](http://web.archive.org/web/20250710143347/http://nymag.com/thecut/2013/08/open-
+letter-resurrect-jcrews-perfect-swimsuit.html), and Lyons’ reply landed
+swiftly in my inbox, alluding to a possible return of the style the following
+summer: “I really do appreciate your letter—could never have described that
+swimsuit better and it is a great reminder to us all that we still have some
+relics from our past collections that are worth revisiting.”
+
+The following summer, the swimsuit was resurrected, [with
+fanfare](http://web.archive.org/web/20250710143347/http://www.adweek.com/creativity/j-crew-
+brings-back-discontinued-swimsuit-just-because-one-superfan-asked-
+nicely-156910/). The outpouring of tweets, emails, and texts I received from
+gushing and grateful fellow fans of the scoop-back tank suit was overwhelming.
+Jenna Lyons made me a hero. (Truth told, I suspect she might have had plans to
+resurrect that swimsuit regardless.)
+
+It was my first glimpse behind the scenes at Jenna Lyon’s J.Crew—a place more
+progressive, playful, and fashion-forward than the J.Crew of my childhood,
+though its preppy spirit remained very much intact. I returned there last
+February, when I was invited to participate in a cast of non-professional
+models in the brand’s Fall 2017 show. A few days before, I arrived to J.Crew’s
+offices for my fitting. There, I found oldies piping through the speakers, and
+racks upon racks of rainbow-ordered tweeds, furs, sweaters, and plaids.
+
+My outfit—or “look,” in industry parlance—had already been selected and hung
+waiting for me: medium-wash blue jeans, a striped wrap blouse, a slate velvet
+blazer, and a vibrant red wool coat. I put it all on, and Somsack
+Sikhounmuong—then head of womenswear, and now the chief design officer—and
+Gayle Spannaus, J.Crew’s longtime superstar stylist, worked in tandem with
+Lyons. I was drowning in layers, so I first removed the red coat. Wrong move;
+Lyons could see we needed the color. The blazer came off, and when I went to
+put my arm through the red coat’s sleeve, Lyons stopped me and tossed it over
+my shoulders instead. A silk foulard scarf appeared, and I stepped into a pair
+of plaid block heels. Spannaus advised skipping a bra come show day: It’s
+better to see a human breast than a bra, she said. Lyons told me not to bother
+with a manicure.
+
+“We want you to look like you,” she said, snugging the coat around my
+shoulders.
+
+One could easily see Lyons’ departure as the end of an era. But the mark she
+left goes far beyond J.Crew, or even fashion. Jenna Lyons’ impact is about
+style and attitude as much as it is about clothing. To watch her work—or to
+[read about
+it](http://web.archive.org/web/20250710143347/http://nymag.com/thecut/2014/01/how-
+to-be-powerful-likable-and-female.html)—is to see the way she empowers those
+around her, whether by making the resurrection of a classic swimsuit seem like
+it was your genius idea, or emboldening women to treat leopard spots as a
+neutral, menswear as womenswear, and pajamas as clothes.
+
+Lyons will stay on at J.Crew as a creative advisor through the end of the
+year, but please let’s not eulogize the Jenna Lyons era of American fashion.
+As far as I’m concerned, it’s far from over. Lyons has left us with [loads of
+lessons](http://web.archive.org/web/20250710143347/http://www.manrepeller.com/2017/04/jenna-
+lyons-exits-jcrew.html): Perfect is boring; socks and bras are overrated;
+stripes are underrated; if you’re super-formal on the bottom (ie: ballgown
+skirt) go more casual up top. And above all, getting dressed should be fun,
+and make you feel like you.
+
+I suspect Lyons’ very qualified cohorts at J.Crew will be channeling their
+“inner Jenna” for years to come—asking themselves “What would Jenna do?”
+(WWJD)—just as I did yesterday at a vintage store in Rome, when I fell in love
+with a lusciously soft wool checked blazer that was just a smidge too big for
+me.
+
+I pulled my arms out of the sleeves, and tossed it over my shoulders instead.
+
+## 📬 Sign up for the Daily Brief

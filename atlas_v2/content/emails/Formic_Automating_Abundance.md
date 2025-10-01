@@ -1,0 +1,71 @@
+# Formic: Automating Abundance
+
+**Source**: inputs/saved_emails/Formic Automating Abundance_Mon,_24_Oct_2022_12-55-29_+0000_1840a10de6b6812f.eml
+**Type**: email
+**Created**: 2025-08-25T02:54:04.895088
+
+---
+
+View this post on the web at https://www.notboring.co/p/formic-automating-abundance
+
+Welcome to the 1,977 newly Not Boring people who have joined us since last Monday! If you haven’t subscribed, join 160,388 smart, curious folks by subscribing here: 
+🎧  For the audio version, click the play button or listen on Spotify [ https://substack.com/redirect/f10509c6-64f0-4778-9d3e-641bfc946327?r=9p0gt ] or Apple Podcasts [ https://substack.com/redirect/65640555-4384-4117-9195-0203aeffc070?r=9p0gt ]
+Today’s Not Boring, the whole thing, is brought to you by… Formic [ https://substack.com/redirect/f5ff6d39-e065-48dd-822e-c46f2dfb2721?r=9p0gt ]
+Formic [ https://substack.com/redirect/93ec02e9-5d27-4c5f-a754-2f9fafd9b3e8?r=9p0gt ] delivers Robots by the Hour to manufacturers. It’s making small and medium American businesses stronger, fighting inflation, and creating abundance. If you want to help bring about an abundant future — or if you just really want to work with cutting edge robots — good news: Formic is hiring [ https://substack.com/redirect/f5ff6d39-e065-48dd-822e-c46f2dfb2721?r=9p0gt ].
+Hi friends 👋, 
+Happy Monday! The Phillies are heading to the World Series. What a way to kick the week into gear. Speaking of kicking things into gear… 
+If you’ve been reading Not Boring this year, you’ll know that I’ve become obsessed with the idea of abundance. Specifically, I believe that technology can push humanity forward and produce a higher standard of living for everyone. This idea has been the topic of essays like Optimism [ https://substack.com/redirect/6e1d4af5-e31b-4de3-a460-5dea152268d5?r=9p0gt ], Working Harder and Smarter [ https://substack.com/redirect/63fad152-a1b6-4fb2-803b-26fb2d070d14?r=9p0gt ], and The Invisible Hand’s Visible Swarm [ https://substack.com/redirect/fda67c59-e83b-4b16-8d0a-b0be51ace82f?r=9p0gt ]. 
+Of course, looking around, it’s hard to get super excited right now. There’s inflation, war, climate change, and looming recession. We have no flying cars. Maybe it’s my optimism speaking, but I firmly believe that the cavalry is coming – in the form of abundant renewable energy, biotech breakthroughs, and much more. I unabashedly root for the Hard Startups [ https://substack.com/redirect/7dcff299-4032-4246-9463-2f4c337ce1b6?r=9p0gt ] building solutions to our biggest challenges. 
+So when Garry Tan [ https://substack.com/redirect/f98093bf-0851-4b3c-bf38-41df45817385?r=9p0gt ], now the President of Y Combinator, reached out to tell me that there was a founder I had to meet, Saman Farid [ https://substack.com/redirect/46471763-3266-403f-af85-7e385b8d0017?r=9p0gt ], who was building a really interesting American manufacturing robotics company called Formic [ https://substack.com/redirect/93ec02e9-5d27-4c5f-a754-2f9fafd9b3e8?r=9p0gt ], I jumped at the introduction. 
+Formic doesn’t make robots. It makes it easy for manufacturers to adopt robots. Given the huge gap between their potential impact and actual deployment, I think it’s the most important part of the stack. If Formic succeeds, we’ll manufacture more, better things, more cheaply, in the US.
+This essay is a Sponsored Deep Dive. I haven’t put many of these in the Monday slot, but I think that Formic is a company you need to know about, and that fits so well into Not Boring’s main themes that it deserves to be the main event. You can read more about how I choose which companies to do deep dives on, and how I write them here [ https://substack.com/redirect/aa3b85f3-255b-4234-9fbe-8830fc5074b4?r=9p0gt ].
+Now throw this on to get in the mood: 
+And let’s get to it.
+Formic: Automating Abundance
+The goal is abundance.
+We want more and better things, more cheaply. We want those things to be made closer to home. We want less fragile supply chains, so that those things are always available when we need them. We want more good jobs, and more time unlocked to maximize our human potential. 
+Over the long-term, there are a lot of things we can do to create abundance. Generate clean, cheap, renewable electricity. Improve the education system. Build more houses. Change laws.
+In the immediate term, the answer is robots.
+No, not those robots, at least not yet. These robots.
+Automating parts of the manufacturing process with robots is no longer a sci-fi-ish nice-to-have. With 10.1 million unfilled jobs in America as of August, inflation running rampant, supply chains breaking everywhere, and reshoring of manufacturing, robots are a necessity. As Noah Smith wrote in American workers need lots and lots of robots [ https://substack.com/redirect/7285cd1c-af49-4e41-99c4-80b296540b5f?r=9p0gt ]: 
+If we really want to change our economy in all the ways we’ve been hoping — reshoring manufacturing from China, securing supply chains, preventing inflationary bottlenecks, and so on — we’re going to need quite a lot of automation. Indeed, if the progressive project is to be revived in America, it will need robots to carry it forward.
+Robots also happen to be very good for the businesses that employ them, expanding shifts, reducing turnover hassles, and increasing profits.
+It’s hard to think of an industry with stronger tailwinds than robotic automation:
+Improving AI/ML. Robots can do more complex things better now than they could just a few years ago, and will continue to improve at a rapid clip from here on out.
+Labor Shortages. As of August, the Bureau of Labor Statistics reported [ https://substack.com/redirect/75edf5b7-149c-46b4-b9fa-32fd0d585970?r=9p0gt ] that there were 10.1 million unfilled jobs in America, of which about 1.5 million are in manufacturing.
+Inflation. Things are getting more expensive across the board, and labor costs are a big piece of the puzzle. According to the BLS [ https://substack.com/redirect/0a6dd67a-7efb-46b3-863c-0ae903e0aa82?r=9p0gt ], private industry labor costs rose 5.5% over the 12 months ending June 2022, after rising 3.1% in the 12 months prior. 
+Supply Chains Breaking. Due to a combination of labor shortages, component shortages, shipping, and more, broken supply chains and delayed products are a fact of life in post-COVID America. 
+Reshoring American Manufacturing. After decades of globalization, America is bringing manufacturing back home. As that plays out, there will be even more jobs that need to be filled (and higher prices at American wages, all else equal). 
+Rising Geopolitical Tensions. The Biden Administration recently dealt a blow to China’s chip manufacturing efforts, the latest move in an ongoing trade war between the two powers. It’s hard to imagine that China – from whom we bought an all-time high $50 billion worth of goods in August according to the US Census Bureau [ https://substack.com/redirect/398ac574-1ee6-4133-9375-20046f933c4c?r=9p0gt ] – won’t retaliate.
+There are more. In my piece on Hadrian [ https://substack.com/redirect/5a176ad2-35c2-41e2-9cff-d37b02613aec?r=9p0gt ], we covered the aging manufacturing base, and the fact that the next generation either can’t or doesn’t want to take over the family business. Thanks to a cocktail of COVID and politics, US immigration has been declining since a peak in early 2016 [ https://substack.com/redirect/0fe3f458-a907-4707-9238-c9078c2150e5?r=9p0gt ]. 
+All to say, robots are no longer some futuristic technology that only automakers and avant garde companies like Amazon can afford to play with. Robots are a necessity if we want to maintain our standard of living, and do so at affordable prices. 
+It’s not (or shouldn’t be) controversial to suggest that we’re going to need, and get, a lot more robots in the coming years. Manufacturing Digital [ https://substack.com/redirect/ec9bd3a7-3b2d-4186-ac97-b9c6855d09b9?r=9p0gt ] projects that the manufacturing robotics market will more than double from $24.3 billion in 2022 to $52.8 billion in 2026.
+The big strategic question is: what’s the best way to ride those tailwinds and accelerate deployment? 
+One way is direct: make the thing. In this case, make robots. A flood of companies are building robots with all sorts of capabilities, and driving quality up and hardware prices down. 
+A second is to sell picks & shovels. Make the things that go into making the robots. From software to fixturing to vision systems, startups and incumbents alike are creating new inputs, again improving quality and lowering costs. 
+A third way is to sit on top of all of the hustle and bustle and competition below, to abstract all of that complexity away and just give customers exactly what they want, wrapped in a bow: as-a-service.
+Formic [ https://substack.com/redirect/93ec02e9-5d27-4c5f-a754-2f9fafd9b3e8?r=9p0gt ] is taking the third path, delivering Robots by the Hour to customers who don’t care who makes the robot or how, just that the job gets done well. Their customers don’t even want robots, really, they want reliable labor. That’s what Formic gives them. 
+The model, and the company, is the brainchild of Saman Farid [ https://substack.com/redirect/e3409d1e-68da-4010-8784-7077ffd154bf?r=9p0gt ] and Misa Ilkhechi [ https://substack.com/redirect/ae087b16-c10c-4895-86ce-b40d5527717d?r=9p0gt ]. Misa’s LinkedIn model puts the societal value proposition clearly: Robots = Unlimited Labor.
+Saman grew up in factories after his dad moved the family to Beijing when he was six-years-old. After an Engineering degree from The Cooper Union, Saman got his MBA from a joint program between MIT and China’s Tsinghua University. He’s spent most of his professional life building and investing at the intersection of AI/ML and the real world. 
+Garry Tan [ https://substack.com/redirect/f98093bf-0851-4b3c-bf38-41df45817385?r=9p0gt ], the Y Combinator President who led Formic’s Seed round while at Initialized Capital, explained how Saman’s background led to Formic:
+Saman is a very special example of someone who has seen things most people don't see, and then has followed his intuition to figure out what society, at many levels, needs. His experience with China is relevant, since American vibrance is predicated on strong manufacturing, and automation is the keystone to that.
+Specifically, he saw what embracing automation could do to boost an economy. “In China from the 1980s to the 2000s, I saw the impact of rapid and massive industrialization. When I moved to the US, I saw the same thing happening in reverse: legacy institutions, particularly industrial ones, were starting to crumble.”
+As an investor at Baidu Ventures, and a board member at multiple robotics companies, he saw first-hand that robotic automation was a thing, that the technology works, and that robots have a great ROI. He also saw that no one outside of Silicon Valley and Detroit was deploying them.
+Formic was born to address that deployment gap. It’s not building a new, technically superior robot – there are plenty of brilliant minds working on those, and competitive dynamics are quickly commoditizing that layer – but a suite of software, financial products, and services designed to get all of those robots deployed en masse. Saman told me that Formic wants to “build the world’s largest robotic workforce.”
+It’s early, but the model is working. Founded in 2020 and launched in August 2021, Formic has 50+ robots in various stages of deployment, and has grown its revenue 12x year-over-year. For a sense of scale, the largest purchasers in the country buy about 250-300 robots. One more 12x and they’re buying more robots than anyone. 
+Importantly, Formic is doing more than riding tailwinds; it’s expanding the market. Manufacturers that wouldn’t have deployed robots before Formic are finally automating because the company exists. Formic’s customers include companies that make metal parts for car chassis, aluminum parts for planes, chocolate chip cookies, shredded lettuce that ends up in KFC / Taco Bell, plastic parts for lawn mowers and golf carts, Matcha and protein powder, and spare parts for agricultural equipment. One customer, Polar, has been around so long that it used to make parts for the Ford Model T. The list demonstrates both the breadth of the robots’ capabilities and Formic’s focus on a few beachhead categories, which we’ll explore.
+And Formic is well-capitalized to expand. In March 2021, Tan’s Initialized Capital led a $5.5 million Seed round. In January 2022, Lux Capital’s Shahin Farschi led a $26.5 million Series A. In between, the company put in place $150 million of debt facilities, a critical component of Formic’s business model, to fund expansion. 
+We’ll go into that business model, and much more, to unpack automation and Formic’s role in the ecosystem:
+The Rise of the Robots 
+Formic: Unlimited-Labor-as-a-Service
+Formic’s Business Model
+Robotic Powers
+Automating Abundance 
+But first, a little bit more on the robots. To root for Formic as hard as you should, you need to understand why more robots = unequivocally good.
+Those gifs took up a lot of email space! (Worth it). To read the full post…
+Thanks to Saman [ https://substack.com/redirect/46471763-3266-403f-af85-7e385b8d0017?r=9p0gt ] for working with me on the piece, Garry [ https://substack.com/redirect/f98093bf-0851-4b3c-bf38-41df45817385?r=9p0gt ] for the intro, and Dan [ https://substack.com/redirect/f9bc854c-3446-4f5f-abb6-05ffb4d6c15a?r=9p0gt ] for editing! 
+That’s all for today. See you back here Friday for your Weekly Dose of Optimism. Have a great week.
+Thanks for reading,
+Packy
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZPREF5TmpVMU1UTXNJbWxoZENJNk1UWTJOall4TmpFME1pd2laWGh3SWpveE5qWTVNakE0TVRReUxDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKa2FYTmhZbXhsWDJWdFlXbHNJbjAuRFRIbmJob2xNQUZCMzd0d28zX1hhYy1NQ2tFQWp3OFFZUlZRcDFPaTRYNCIsInAiOjgwMjY1NTEzLCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY2NjYxNjE0MiwiZXhwIjoxNjY5MjA4MTQyLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.D3n7PfGyB8de2TpSpA1BCGQ6VSbBwU9Fg73QomEjUb8?

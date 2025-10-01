@@ -1,0 +1,379 @@
+# A Plan to Win Universal Health Care
+
+**Source**: http://jacobinmag.com/2017/06/trumpcare-obamacare-repeal-ahca-single-payer
+**Type**: article
+**Created**: 2025-08-13T17:12:47.859975
+
+---
+
+title: A Plan to Win Universal Health Care
+source: http://jacobinmag.com/2017/06/trumpcare-obamacare-repeal-ahca-single-payer
+date: 2025-08-13T17:12:46.286229
+tags: []
+---
+Last week, the Republican-controlled Senate
+[released](http://www.npr.org/sections/health-shots/2017/06/22/533942041/who-
+wins-who-loses-with-senate-health-care-bill) its version of the American
+Health Care Act (AHCA). It is a brutal assault on Medicaid that would strip
+health insurance from untold millions. If the AHCA passes, people will die.
+
+Now is the time to redouble the fight for truly universal health care in the
+United States. We must defeat Trumpcare, force the question into the 2018
+midterm election, and make universal health care the definitive question of
+2020.
+
+There is a clear and urgent moral argument for universal health care, and you
+know it already: no one should be forced into poverty by illness. Every one of
+us has a civil right to life without the burdens of crippling medical debt.
+And in the wealthiest nation in the history of nations, we have the means to
+achieve this.
+
+The clear and urgent argument for universal health care is also the most
+practical. The single-payer state is the only actor that bears the costs of
+providing health care and the costs of _not_ providing health care. Why is it,
+then, that to speak the words “universal health care” aloud is to invite the
+worst ghouls in America — self-serving [corporate insurance
+lobbyists](https://leginfo.legislature.ca.gov/faces/billAnalysisClient.xhtml?bill_id=201720180SB562),
+cruel [neoconservative think-tankers](http://www.heritage.org/health-care-
+reform/report/single-payer-why-government-run-health-care-will-harm-both-
+patients-and), and the [just plain
+craven](https://www.washingtonpost.com/opinions/single-payer-health-care-
+would-have-an-astonishingly-high-price-
+tag/2017/06/18/9c70dae6-52d2-11e7-be25-3a519335381c_story.html) — to rise up
+to oppose it?
+
+Anyone who argues in 2017 that single-payer health care is
+[unfeasible](https://www.jacobinmag.com/2017/06/single-payer-health-care-
+universal-medicare-for-all) is either ignorant, malignant, depraved enough to
+rationalize profit from human suffering, or absent of the basic moral
+imagination to aspire to something better. Delivering care — performing
+surgery, diagnosing diseases, comforting the sick — is complicated. Paying for
+that care is simple.
+
+But the craven and the cowardly will seize upon the first snag in the single-
+payer movement to validate their cold vision of the world. The Democrats and
+liberal pundits who tell us that single-payer will “[never, ever come to
+pass](https://www.jacobinmag.com/2017/03/single-payer-health-care-medicare-
+obamacare-sanders-clinton-democrats/)” will take any trouble in its
+implementation as justification for their reluctance to fight. When we seize
+universal health care from corporate America, we must do it in such a way that
+those who would oppose its implementation have no option but to champion its
+success.
+
+The fight for universal health care requires the normalization of aggressive
+price regulation and broad coverage expansion — a series of movements that
+both provide better care for as many people as possible while creating the
+political momentum that makes opposing single-payer politically unappealing.
+
+Below I outline one such series of these reforms, which merges the successes
+of international health care movements and the capabilities of our own federal
+infrastructure. Here is a five-step process through which we can win universal
+health care in the United States.
+
+### 1\. Expand the federal and state health programs that already exist.
+
+To understand the potential of Medicaid and Medicare and how they can be
+morphed into a single-payer program, we must understand the idea of the “risk
+pool.” It starts with a simple fact: caring for sick people is expensive, but
+most people are not sick. Of the people who are sick, most are less sick, and
+some are extremely sick.
+
+In 2010, according to the [Kaiser Family
+Foundation](http://www.kff.org/health-costs/slide/concentration-of-health-
+care-spending-in-the-u-s-population-2010/), over one-fifth of all American
+health care spending was concentrated in 1 percent of patients, the sickest of
+the sick, and half of all spending was concentrated in 5 percent of patients.
+Contrast that to the least expensive 50 percent, who accounted for less than 3
+percent of total medical costs.
+
+A risk pool is the group of sick people who need care and the healthy people
+whose contributions are used to pay for it. The larger the risk pool, and the
+higher the percentage of healthy people within it, the more sustainable it
+becomes.
+
+In private insurance, the risk pool is the total mass of people covered by a
+given insurer. If the risk pool is sicker, higher care costs need to be met;
+per-person costs then increase, and insurers raise their premiums to preserve
+their profit margin.
+
+In a universal health care system, the risk pool is composed of everyone — the
+healthy and the ill, the young and the elderly, the East Coast and the West
+Coast, the Badlands and the Deep South, from whom and to whom money flows to
+meet each others’ needs.
+
+This universal risk pool is significantly more resilient than private ones.
+That pool is able to divide costs across a much larger number of people.
+Regional private insurance, meanwhile, can be shaken by even a single very
+sick person racking up millions of dollars of costs with a particularly
+complicated emergency.
+
+Medicare and Medicaid were originally designed to liberate private insurers
+from needing to include the elderly and the poor, who are generally sicker
+than other people, from their risk pools. These programs can be used to give
+greater leverage to a future federal single-payer.
+
+One crucial piece of such an expansion would be to expand Medicaid in states
+that have failed to do so since 2012. [2.6 million
+people](http://kff.org/uninsured/issue-brief/the-coverage-gap-uninsured-poor-
+adults-in-states-that-do-not-expand-medicaid/), mostly in the South, live in
+states where the governor or state legislature has elected not to expand
+benefits using federal money. We must put the pressure on governors and state
+representatives, who as Medicaid administrators are more sensitive to local
+constituencies. They’re vulnerable — four Republican governors have [spoken
+against](https://www.usatoday.com/story/news/politics/2017/03/17/four-
+republican-governors-come-out-against-obamacare-repeal-plan/99301698/) the
+draconian American Health Care Act — and we must capitalize upon their Obama-
+era sins.
+
+Another interesting idea, [advanced by Matt
+Bruenig](https://www.jacobinmag.com/2016/06/bernie-sanders-new-york-times-
+schmitt-single-payer/), is to expand Medicare to children and young adults
+under age twenty-six. This large demographic group is, for the most part,
+inexpensive. Adding them to Medicare rolls accomplishes two immediate and
+obvious tasks: one, it more than triples the size of the Medicare risk pool
+while adding relatively low incremental medical costs, thus driving overall
+per-capita Medicare spending down.
+
+Two, since Medicare patients [like
+Medicare](http://www.gallup.com/poll/186527/americans-government-health-plans-
+satisfied.aspx) more than the privately insured like private insurance,
+Medicare expansion [builds a loyal
+constituency](https://editor.jacobin.com/2017/05/obama-foreclosure-crisis-
+recession-hamp) for federal health care. This is the core of the “Medicare for
+All” argument: a [rejection of the
+myth](https://www.jacobinmag.com/2016/11/donald-trump-democratic-party-
+welfare-state/) that Americans hate federal services, a rejection of the idea
+that these services are bloated or inefficient, and a belief that enough
+people, given the choice between being jerked around by a private insurer that
+needs to minimize its costs and a properly calibrated public Medicare that can
+absorb them, will find the latter more appealing.
+
+This natural extension of Lyndon Johnson’s “[kiddie
+care](https://books.google.com/books?id=v6DaAwAAQBAJ&pg=PA639&lpg=PA639&dq=kiddiecare+history+medicare&source=bl&ots=BUSMuwRXSa&sig=Rlr8_pJlTrMFm3qorgnfbLqKdtk&hl=en&sa=X&ved=0ahUKEwif0fSC4aXUAhVFJCYKHWEcDvcQ6AEIPDAD#v=onepage&q=kiddiecare%20history%20medicare&f=false)”
+movement can show a vulnerable constituency a better vision of health care as
+they experience freedom from crushing premiums, challenges in in-network
+hospital selection, and out-of-pocket costs.
+
+Most importantly, expanding Medicare to the young and healthy begins to
+disentangle health care from employment. Under the American health care model,
+one’s health and risk of crippling medical debt is dependent on one’s employer
+(and, in a post-[_Hobby Lobby v.
+Burwell_](https://www.supremecourt.gov/qp/13-00354qp.pdf) world, an employer’s
+religious affiliations).
+
+It is cruel that the poorest among us are coerced into remaining in unsafe or
+unjust working environments for fear of losing health care access; crueler
+still is that children’s health costs are shackled to the quality of their
+parents’ employer.
+
+This is an invented problem. By severing health care access from employment,
+we reduce this cruelty and help reduce employers’ domination of workers.
+
+### 2\. Regulate prices.
+
+In America, not only do we leave [a quarter](http://www.kff.org/report-
+section/the-burden-of-medical-debt-section-1-who-has-medical-bill-problems-
+and-what-are-the-contributing-factors/) of our citizens unable to afford care
+— we also have runaway health care costs. Fortunately, these problems can be
+addressed at once: we can use a larger, more powerful Medicare to start the
+process of aggressive cost regulation to make care and medicine cheaper.
+
+This is hardly a radical proposition. Every universal health care program
+across the globe depends upon national price regulation.
+
+Almost all medical spending in the United States is derived as a function of
+Medicare costs. Your local hospital probably negotiates rates with insurance
+companies based on Medicare pricing — for example, a given procedure is billed
+at “3.4x Medicare” or “1.3x Medicare.” With 44 million members, Medicare is
+the largest health care payer in the United States.
+
+This size gives the Centers for Medicare & Medicaid Services (CMS) tremendous
+leverage in negotiating prices. They can set a low price, and a large share of
+America’s providers and hospitals accept it because they don’t want to turn
+their backs on such an enormous group of people (and an enormous amount of
+money).
+
+If we give Medicare broader, healthier membership with lower per-person costs,
+it will have even greater pricing leverage and should be able to exert strong
+downward pressure on health care costs throughout the country.
+
+To best use this leverage, the Department of Health and Human Services needs
+to clean house and reduce Medicare’s dependence on the American Medical
+Association. The AMA, which purports to represent all doctors but more
+accurately represents only [15 percent of
+them](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3153537/), is a parasitic
+organization with unusual policy influence.
+
+Every year, its Rules Update Committee assembles a list of recommended changes
+to Medicare reimbursement rates — often predicated on low-volume member
+surveys that amount to little more than pseudoscientific
+[skulduggery](http://content.healthaffairs.org/content/31/5/965.full). These
+are generally accepted wholesale by the Centers for Medicare and Medicaid
+Services.
+
+In effect, every year the AMA compels CMS to approve higher prices for
+specialty procedures, then shifts the scope of procedures performed to
+maximize revenue — increasing the reimbursement rates of specialists like
+anesthesiologists while devaluing the work of front-line primary care
+providers.
+
+An advocacy organization like the AMA should not determine the government’s
+payment rates for procedures. The group is a cartel. It is harmful to health
+care justice.
+
+There is also the issue of pharmaceutical costs — surfaced most recently by
+the failure of Bernie Sanders’s [Affordable and Safe Prescription Drug
+Importation Act](https://www.sanders.senate.gov/newsroom/press-
+releases/affordable-and-safe-prescription-drug-importation-act-introduced-to-
+help-lower-skyrocketing-cost-of-medicine). While drug prices compose 15
+percent of annual health care spending, their excesses are ready in the minds
+of many Americans — abetted in the national imagination by the open greed of
+world-class asshole Martin Shkreli.
+
+Only the “Big Four” federal programs are permitted to negotiate the cost of
+pharmaceuticals — the Department of State, Veterans’ Affairs, the Coast Guard,
+and Public Health Service. This is an invented problem and can be resolved
+with only a little political courage.
+
+Reimportation of drugs originally manufactured in the United States then sent
+abroad is only a partial solution: instead, we must demand of our
+representatives that the federal government permit itself to negotiate drug
+prices. There is no justification — other than “shareholder interest” — for
+why Hepatitis C medications cost Medicaid
+[$85,000](http://www.reuters.com/article/us-gilead-sovaldi-
+idUSKBN0H72KR20140912), the Coast Guard
+[$17,000](http://www.sfchronicle.com/health/article/SF-working-on-ambitious-
+plan-to-eliminate-10944594.php), and [$336 in
+India](http://www.chicagotribune.com/business/ct-drug-price-sofosbuvir-
+sovaldi-india-us-20160104-story.html).
+
+Pharmaceutical companies will claim they need their exorbitant margins to
+cover the cost of research and development and FDA approval. Why should public
+money be used to subsidize pharmaceutical companies’ corporate
+responsibilities? And if pharmaceuticals are so expensive to profit from
+without restricting access to them through high prices, shouldn’t we just
+nationalize the industry altogether?
+
+### 3\. Develop localized models of community health care.
+
+With the foundations of a contemporary health care system in place, we finally
+have the opportunity to define what health care could look like across
+America.
+
+The relationship between the federal government and state Medicaid officials
+provides a model for universal health care. The Social Security Act defines a
+list of requirements for every Medicaid program — coverage requirements,
+treated conditions, access — and state Medicaid programs must submit their
+plans to CMS, which affirms they meet federal criteria.
+
+States can submit waivers to use federal funds to explore new models of care.
+Under a conservative federal administrator, these programs can be used to
+restrict care or impose barbaric punishments on the sick — like the proposed
+MacArthur amendment to the AHCA, which permits insurers to dramatically
+increase costs for people with preexisting conditions whose insurance lapses.
+
+But under a sufficiently demanding set of federal requirements, prohibiting
+waiver projects from sloughing off their responsibilities to the entire
+enrollment in their state, Medicaid waivers let communities build public
+health care plans specific to their needs (one of the few times that “states’
+rights” isn’t being screamed by doughy racists).
+
+Some waivers are small and gentle — appropriating federal money to develop new
+ways of caring for the poor and elderly without institutionalizing them.
+Others are broad blueprints to a better world.
+
+In Maryland, a waiver program leveraged state power to pay the dominant
+hospital system in the western, Appalachian part of the state a fixed annual
+income, contingent on providing care to all who sought it. Make your own
+profit margins, the state argued. The hospital complied, and set up primary
+care centers absent in its community.
+
+Why does this matter? Because although primary care is invaluable in reducing
+health care costs, it’s a low-margin and high-volume service, so few people
+want to give it a shot outside of urban centers. By shifting more of their
+resources to primary care, this Maryland hospital provided more care to more
+people at a lower cost — residents were healthier, able to access better
+treatment more quickly, and expensive hospital admissions decreased.
+
+This is a good model — a properly empowered state with a strict federal
+mandate to cover its citizens can bear down on its local providers and compel
+them to provide better care, for more people, for less money.
+
+Health care is regional and will remain so for the foreseeable future. So let
+New York City develop the health care model that works for New York City; let
+rural Kentucky develop the health care model that works for rural Kentucky —
+and let the federal government enact strict and detailed standards of care
+which ensure that all enrollees are cared for across all programs, without
+exception.
+
+### 4\. Build a public option.
+
+Opponents of the public option in the Affordable Care Act feared it might be
+too aggressive a competitor with insurance companies. They didn’t know the
+half of it.
+
+It is reasonable to expect that people might be wary of joining a public
+option, especially considering the massive resistance from the insurance,
+pharmaceutical, and provider lobbies. But by now, after strong federal
+regulations and expansions to the risk pool have paved the way, there should
+be a body of evidence making it clear that the public option is preferable to
+paying premiums to private insurers.
+
+At this point, the twenty-six-year-olds on Medicare will see the private
+options afforded to them after their next birthday and be eager for
+continuation of federal care. The larger, healthier Medicare population will
+have been an effective tool for aggressive cost regulation, and the more
+robust Medicaid program will have further developed the community
+relationships and local models of care. There is, at this point, a federal
+health care network that is effective, efficient, and humane — and it is ready
+for more members.
+
+It is time to develop a public option to compete in the private insurance
+marketplace. Since the public option can use Medicare-negotiated prices, and
+is in the same risk pool as an expanded Medicare, overall per-person costs
+will be significantly lower than what private insurers can wrangle.
+
+Of course, this needs funding — and it needs to prevent people from feeling
+shirked by paying into benefits they don’t receive. Thus, a public option must
+be created with an aggressive piece of legislation: remove the requirement for
+corporations to provide insurance for their employees and instead levy a
+corporate tax to pay for the public option.
+
+Because per-person cost is lower under single-payer than private insurance,
+overall cost to corporations under this approach is  _less_ than what they
+currently pay to cover their employees, without the shell games involved in
+finding ways to deny employee coverage. And more importantly, employees will
+be freed from employer coverage (which, since it covers a smaller risk pool,
+more often than not comes with stringent deductibles and challenging
+premiums).
+
+### 5\. Outcompete and nationalize.
+
+The neoliberal insistence on letting the private market dictate health care in
+America rebels against government intervention — except when that intervention
+(like removing the elderly and poor from risk pools) made it easier for
+insurers and providers to reap a profit. It is ironic, but just, that the
+single-payer movement uses that same market to beat the private insurers at
+their own game.
+
+The administrative functions of the insurance industry are legitimate and
+essential even to a federal single-payer program, and a healthy public option
+with a large, diverse risk pool and federal price regulation will annihilate
+any private insurer who contests it.
+
+A cowed insurance industry would then be ripe for nationalization.
+
+As Enrique Diaz-Alvarez [has argued](https://www.jacobinmag.com/2013/12/the-
+backroom-deal-that-couldve-led-to-single-payer/), nationalizing a weakened
+insurer is cost-efficient and essential. After ingesting the software
+architecture and claims and billing processes of the insurance industry, and
+dissolving the [$375
+billion](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4283267/) in unnecessary
+annual costs from our current duplicative, multi-payer system, the dream will
+become real: we will have a comprehensive, universal federal-payer system.
+
+There will still be work to do — obvious next steps include removing
+redundancies across the three federal programs — but finally, we will have a
+national health care program, the beginning of a universal risk pool, and an
+end to our long national pastime of humiliation and degradation of people’s
+health for corporate profit.

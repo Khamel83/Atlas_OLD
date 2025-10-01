@@ -1,0 +1,170 @@
+# An Inconclusive Exploration of Paul Goldschmidt’s Passivity | FanGraphs Baseball
+
+**Source**: http://www.fangraphs.com/blogs/an-inconclusive-exploration-of-paul-goldschmidts-passivity/
+**Type**: article
+**Created**: 2025-08-13T18:26:43.370572
+
+---
+
+title: An Inconclusive Exploration of Paul Goldschmidt’s Passivity | FanGraphs Baseball
+source: http://www.fangraphs.com/blogs/an-inconclusive-exploration-of-paul-goldschmidts-passivity/
+date: 2025-08-13T18:26:40.179827
+tags: []
+---
+I don’t believe I’m out of line when I say that, of life’s most enjoyable
+pleasures, many are to be used, collected, consumed, or practiced in
+moderation. “You can have too much of a good thing,” they say. Food and
+alcohol, for example. Both delightful. Both substances which, were I unaware
+of the consequences of surplus consumption, I would regularly consume in
+excess. Both substances, in fact, which I _do_ regularly consume in excess,
+_despite_ being completely aware of the consequences. Likewise, I’ve taken
+nary a vacation which I didn’t find overindulgent. Don’t get me wrong — a
+break from the norm for a bit of traveling is always welcome, but I’m
+perpetually exhausted by the degree of stimulation that comes with falling
+asleep and waking up in a new bed, having to process an unfamiliar environment
+and having to create and enact routines that differ from the ones to which I
+am accustomed. Perhaps I’m just outing myself as a homebody, but without fail,
+I long for the comforts of a familiar bed, environment, and routine
+approximately 24-48 hours prior to the conclusion of any extended trip.
+
+I recently sought to find an example of overindulgence in a baseball. A player
+whose approach, for example, was perhaps hindered by too much of a good thing.
+It was sort of an offshoot of the post I wrote yesterday which concerned
+[Miguel
+Sano](http://www.fangraphs.com/statss.aspx?playerid=12164&position=DH)’s
+surprisingly [disciplined approach](http://www.fangraphs.com/blogs/miguel-
+sanos-other-elite-skill/) against breaking balls. In that post, I found, among
+other things, that Sano took plenty of early at-bat breaking pitches for
+balls, and so he found himself in plenty of hitter’s counts, and not only
+that, but he capitalized on his abundant hitter’s counts by amping up his
+aggression and attacking pitchers when he had the upper hand.
+
+It’s a fairly fundamental strategy, but there’s a most extreme everything, and
+_someone_ had to be on the other end. There has to be someone who finds
+themselves in plenty of hitter’s counts but, for whatever reason, actually
+becomes notably _less_ aggressive and _less_ attack-oriented when they hold
+count leverage over the pitcher.
+
+So I ran some [BaseballSavant](http://baseballsavant.com/pitchfx_search.php)
+queries and I produced a couple lists in a spreadsheet that showed me overall
+swing rate, and ahead-in-the-count swing rate, and I calculated the difference
+between the two. Some interesting names popped up near the top — [Xander
+Bogaerts](http://www.fangraphs.com/statss.aspx?playerid=12161&position=SS),
+[Matt
+Carpenter](http://www.fangraphs.com/statss.aspx?playerid=8090&position=3B),
+[Anthony
+Rizzo](http://www.fangraphs.com/statss.aspx?playerid=3473&position=1B) — but
+something seemed off, and I realized an unaccounted-for variable in my search:
+not all batters are pitched the same when they’re ahead in the count. Certain
+hitters get far more or fewer pitches to hit when ahead in the count, and so
+their swing rates are partly dictated by the pitcher. To control for this, it
+would be wiser to search only for the difference between overall _in-zone_
+swing rate and ahead-in-the-count in-zone swing rate. This was a search that
+yielded a particularly intriguing result.
+
+![](http://www.fangraphs.com/blogs/wp-
+content/uploads/2015/08/FG_logo_transparency.png)
+
+Most Passive Hitters in Hitter’s Counts
+
+Perhaps I’m unfairly characterizing Ben Zobrist here, but the bottom-five of
+the leaderboard essentially contains four slap-hitters and one of the very
+best hitters in all of baseball.
+
+It _seems_ sub-optimal for a hitter like Goldschmidt to reduce his in-zone
+swing rate by such an extreme amount when he has the upper hand in the count.
+It’s also hard to question anything Goldschmidt does at the plate,
+considering, y’know, that “one of the very best hitters in all of baseball”
+thing.
+
+So I wanted to explore a bit more. First thing I did was run a [Play
+Index](http://www.baseball-reference.com/play-index/) search that netted me a
+leaderboard of the best and worst hitters, when ahead in the count, relative
+to their overall performance. The mystery continues:
+
+![](http://www.fangraphs.com/blogs/wp-
+content/uploads/2015/08/FG_logo_transparency.png)
+
+Worst Hitter’s Count OPS, Relative to Overall OPS
+
+It’s not the most intuitive table, but think of it this way: on average,
+hitters see about a 30% increase in OPS when they’re ahead in the count. Zero
+of 141 qualified batters last year got _worse_ in hitter’s counts, but the
+player who gained the _smallest_ advantage was Andrelton Simmons, whose OPS
+increased by just 2% when he had count leverage. Again, it’s a table mostly
+populated by slap-hitters and then Goldschmidt, whose 13% production increase
+was 11th-worst among 141 batters.
+
+Weird! I needed more. Here’s a Goldschmidt quote from a [Dayn
+Perry](https://twitter.com/daynperry) article [at
+CBSSports](http://www.cbssports.com/mlb/eye-on-baseball/24620975/its-
+complicated-but-paul-goldschmidt-keeps-it-simple) from last year’ All-Star
+Weekend:
+
+> “If you’re ahead in the count, you can afford to be a little more patient…”
+
+OK! We have confirmation of intent. Maybe it’s just that Goldschmidt isn’t
+crazy about the thought of wasting a hitter’s count by putting a borderline
+strike in play. Maybe he’s fine taking a borderline pitch that gets called for
+a strike, knowing that he still possesses the pitch recognition, bat-to-ball
+and power skills to remain productive in even or two-strike counts. Maybe,
+even in hitter’s counts, rather than going into full-out aggression mode, he’s
+still looking for the perfect pitch.
+
+Observe, Goldschmidt’s called strikes, in hitter’s counts, from last year:
+
+![newplot\(1\)](http://www.fangraphs.com/blogs/wp-
+content/uploads/2016/02/newplot1.png)
+
+An abundance of pitches low-and-away! Goldschmidt doesn’t hit low-and-away
+pitches well — [nobody does](http://www.fangraphs.com/blogs/down-and-away-the-
+best-location/), really — and so the brunt of these seem like good pitches to
+take, even for a called strike in a hitter’s count.
+
+And the swings?
+
+![newplot](http://www.fangraphs.com/blogs/wp-
+content/uploads/2016/02/newplot.png)
+
+Lot more down the middle, lot more up-and-in, which is where Goldschmidt [most
+thrives](http://www.fangraphs.com/zonegrid.aspx?playerid=9218&position=1B&ss=2015&se=2015&type=5&hand=all&count=all&blur=1&grid=10&view=bat).
+Could be that, even within the zone, Goldschmidt is pitched more carefully
+than most other hitters, and his pitch recognition allows him to be
+selectively aggressive in hitter’s counts. It’s not like he wasn’t good in
+hitter’s counts, anyway — his OPS was over 1 — he just didn’t see a huge
+improvement.
+
+Just one more thing that popped up in a search of mine that may or may not be
+related:
+
+That’s a different situation entirely, but it’s an interesting stat, and it
+caused me to do one more bit of research, and this surprised me:
+
+![](http://www.fangraphs.com/blogs/wp-
+content/uploads/2015/08/FG_logo_transparency.png)
+
+Paul Goldschmidt vs. Joey Votto, Plate Discipline
+
+[Joey Votto](http://www.fangraphs.com/statss.aspx?playerid=4314&position=1B) | 19% | 59% | 37% | 70% | 83% | 79% | 46%  
+---|---|---|---|---|---|---|---  
+Paul Goldschmidt | 22% | 61% | 39% | 68% | 82% | 77% | 45%  
+  
+Votto is seen as having one of the most unique approaches in the game, one for
+which he’s sometimes (misguidedly) criticized. For however unique Votto’s
+passive approach may be, he and Goldschmidt are near-clones in this regard,
+and it might just be me, but I guess I never realized just how passive
+Goldschmidt is at the plate. It’s not the same approach with which he entered
+the league — each year, he’s become more and more patient, his profile more
+resembling Votto every year.
+
+These things are complex, and go far beyond certain counts or certain swings
+or certain pitches, and all the cries over the years for Votto to change his
+approach are silly, for any one change in a certain count or against a certain
+pitch could have a butterfly effect that would throw off the equilibrium of
+all that makes Votto such an elite hitter. The same could be said for
+Goldschmidt, who’s become more and more Votto-like every year, to the point of
+their approaches being indistinguishable. And so everything’s fine, and if
+Goldschmidt can repeat what he did last year — which, there’s no reason to
+believe he won’t — then nothing should change. But boy, is it fun to fantasize
+about a world where he _also_ sees that big boost in hitter’s counts. And
+scary. Imagine that: Paul Goldschmidt, even scarier to the pitchers.

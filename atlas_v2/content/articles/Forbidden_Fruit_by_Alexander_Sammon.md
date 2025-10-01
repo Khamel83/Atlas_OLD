@@ -1,0 +1,233 @@
+# Forbidden Fruit, by Alexander Sammon
+
+**Source**: https://harpers.org/archive/2023/11/forbidden-fruit-avocado-militias-michoacan-mexico/
+**Type**: article
+**Created**: 2025-08-25T02:53:32.318537
+
+---
+
+[November 2023 Issue](https://harpers.org/archive/2023/11)
+[[Letter from CherÃ¡n]](/sections/letter-from-cheran/)
+
+# Forbidden Fruit
+
+The anti-avocado militias of Michoacán
+
+by [**Alexander Sammon**](https://harpers.org/author/alexandersammon/),
+
+![](https://harpers.org/wp-content/uploads/2023/10/CUT-15head-900x0-c-default.jpg)
+
+An avocado farm in Yoricostio, MichoacÃ¡n. All photographs from Mexico, August 2023, by Balazs Gardi for *Harperâs Magazine* Â© The artist
+
+[[Letter from CherÃ¡n]](/sections/letter-from-cheran/)
+
+# Forbidden Fruit
+
+The anti-avocado militias of Michoacán
+
+by [**Alexander Sammon**](https://harpers.org/author/alexandersammon/),
+
+Adjust
+
+Share
+
+Phone service was downâa fuse had blown in the cell tower during a recent stormâand even though my arrival had been cleared with the government of CherÃ¡n in advance, the armed guard manning the highway checkpoint, decked out in full fatigues, the wrong shade to pass for Mexican military, refused to wave me through. My guide, Uli Escamilla, assured him that we had an appointment, and that we could prove it if only we could call or text our envoy. The officer gripped his rifle with both hands and peered into the windows of our rental car. We tried to explain ourselves: we were journalists writing about the townâs war with the avocado, and had plans to meet with the local council. We finally managed to recall the first name of our point person on the councilâMarcosâand after repeating it a number of times, we were let through.
+
+To reach CherÃ¡nâs militarized outskirts, we had driven for hours on the two-lane highway that laces through the cool, mountainous highlands of MichoacÃ¡n, in south-central Mexico. We passed through clumps of pine, rows of corn, and patches of raspberry bushes. But mostly we saw avocado trees: squat and stocky, with rust-flecked leaves, sagging beneath the weight of their dark fruit and studding the hillsides right up to the edge of the road. In the small towns along the way, there too were avocados: painted on concrete walls and road signs, atop storefronts, and on advertisements for distributors, seeds, and fertilizers.
+
+MichoacÃ¡n, where around four in five of all avocados consumed in the United States are grown, is the most important avocado-producing region in the world, accounting for nearly a third of the global supply. This cultivation requires a huge quantity of land, much of it found beneath native pine forests, and an even more startling quantity of water. It is often said that it takes about twelve times as much water to grow an avocado as it does a tomato. Recently, competition for control of the avocado, and of the resources needed to produce it, has grown increasingly violent, often at the hands of cartels. A few years ago, in nearby Uruapan, nineteen people were found hanging from an overpass, piled beneath a pedestrian bridge, or dumped on the roadside in various states of undress and dismembermentâa particularly gory incident that some experts believe emerged from cartel clashes over the multibillion-dollar trade.
+
+In CherÃ¡n, however, there was no such violence. Nor were there any avocados. Twelve years ago, the townâs residents prevented corrupt officials and a local cartel from illegally cutting down native forests to make way for the crop. A group of locals took loggers hostage while others incinerated their trucks. Soon, townspeople had kicked out the police and local government, canceled elections, and locked down the whole area. A revolutionary experiment was under way. Months later, CherÃ¡n reopened with an entirely new state apparatus in place. Political parties were banned, and a governing council had been elected; a reforestation campaign was undertaken to replenish the barren hills; a military force was chartered to protect the trees and the townâs water supply; some of the countryâs most advanced water filtration and recycling programs were created. And the avocado was outlawed.
+
+Citing the Mexican constitution, which guarantees indigenous communities the right to autonomy, CherÃ¡n petitioned the state for independence. In 2014, the courts recognized the municipality, and it now receives millions of dollars a year in state funding. Today, it is an independent zone where the purples and yellows of the PurÃ©pecha flag, representing the indigenous nation in the region, is as common as the Mexican standard. What started as a public safety initiative has become a radical oddity, a small arcadia governed by militant environmentalism in the heart of avocado country.
+
+But the environmental threats posed by the fruit have grown only more pressing since then. In the United States, avocado consumption has roughly doubled, while domestic productionâmostly confined to drought-stricken corners of central and southern Californiaâhas begun to collapse. The resulting cost increases have encouraged further expansion in Mexico, attracting upstarts that are sometimes backed by cartels, whose members tear up fields and burn down native trees to make way for lucrative new groves. Some landholders and corporations are getting very rich. I had come to CherÃ¡n to see whether this breakaway eco-democracy could endure in the face of a booming industry.
+
+As we drove into the center of town, home to some twenty thousand people, the narrow streets hummed with activity. Colorful murals commemorated various anniversaries of the uprising. Exhortations to protect the earth adorned white stucco walls. Vendors sold mushrooms, vegetables, and grilled corn. Stray dogs traipsed through the plaza. We parked in a gravel lot down a side street and began asking around for Marcos. Eventually, a diminutive man wearing a parka emerged from a nearby building. As we shook hands, Uli joked about our holdup at the checkpoint, but Marcos didnât laugh. He scanned the square suspiciously, as though worried weâd been tailed.
+
+Marcos led us into the town hall, and I followed him up a staircase and came face-to-face with a floor-to-ceiling portrait of Emiliano Zapata, the Mexican revolutionary and champion of land reform. Above the doorways of offices hung photos of CherÃ¡nâs own armed *comuneros* next to photos of pine saplings. In the modest legislative chamber, I took a seat in front of a U-shaped banquet table, where the elected council meets. Half of its dozen members were seated, attending to paperwork. When they saw me, they began a second interrogation, asking what my motivations were and what exactly I was there to see. They squinted at the business card in a plastic sleeve that I was passing off as a press credential, handing it back and forth. Another life-size portrait of Zapata frowned at me from the wall.
+
+I understood their suspicion. Just weeks prior, the neighboring state of Jalisco had sent its first-ever shipment of avocados to the United States. Violence in the sector was increasing, with reports of drone-bombed fields. A few months earlier, inspectors from the U.S.Â Department of Agriculture, which verifies the fruitâs quality for export, had received threatening messages. And there were plenty of reasons for avocado groups to size up CherÃ¡n: its fertile soil, its abundant water. Besides, what revolutionary regime isnât a little paranoid?
+
+But the council eventually agreed to show me the full sweep of its operations. I was told to report by 7Â am for rounds with the patrol unit that surveys the region and wards off threats. Together we would head to the front lines.
+
+![https://harpers.org/wp-content/uploads/2023/10/CUT-16new.jpg](https://harpers.org/wp-content/uploads/2023/10/CUT-16new-1400x0-c-default.jpg)
+
+Left: A member of the community police at CherÃ¡nâs entry checkpoint.
+Right: CherÃ¡n
+
+![https://harpers.org/wp-content/uploads/2023/10/CUT-18.jpg](https://harpers.org/wp-content/uploads/2023/10/CUT-18-1400x0-c-default.jpg)
+
+Council members in the CherÃ¡n town hall
+
+
+
+[Previous](#gallery-gallery-2)
+[Next](#gallery-gallery-2)
+
+The avocado has been grown and eaten in Mexico for centuries. The glyph representing the Mayan calendarâs fourteenth month features the fruit, and Aztec nobles often received it as tribute. âLooks like an orange, and when it is ready for eating turns yellowish,â observed the Spanish colonizer MartÃ­n FernÃ¡ndez de Enciso in 1519. âSo good and pleasing to the palate.â
+
+Some four hundred years later, the fruit was rediscovered by Californiaâs real estate industry. The state was in the midst of a speculative land frenzy that was always threatening to go bust. The citrus craze, an advertising hit that had helped sell the southern California promise of certain riches from backyard harvests, had started to sour, and land developers were desperate for a new marketing ploy. âThe lichee, the loquat, the kumquat, the cherimoya, the feijoa, and the sapote,â writes the historian Jeff Charles, âwere all announced with great fanfare as potential moneymakers for anyone who could plant a tree.â Out of this haze of hucksterism emerged the avocado. Soon the peculiar stone fruit was being used to upsell wide-eyed buyers on overpriced mortgages, pledging that just two or three trees would bear enough fruit to pay them off. A 1935 *Business Week* article marveled at the âchance at independent incomes with enormous profits from a few acres of land suitable for avocados.â
+
+For the better part of the twentieth century, however, the fruit failed to catch on. Among the challenges faced by marketers were the fruitâs many names: alligator pear, aguacate, avocado, Calavoâthe last a portmanteau of California and avocado. (The name in Nahuatl, an indigenous language, *ahuacatl,* is slang for testicle, and was never really an option.) Money was poured into advertising to fix the problem, and the state funded research on farming techniques, though these still didnât solve for the novel taste. Growing ranks of producers, and the small consumer base, led to ruinous drops in price while costs kept increasing. Water and land got more expensive as new housing developments demanded more and more.
+
+By the late Sixties, only farms that produced more than five thousand pounds of the fruit per acre each year were profitable; just five growers in San Diego, the industryâs epicenter, depended on avocados for their entire income. Agribusiness began to look south of the border in the Seventies. The California Avocado Society, a collective founded by growers, deployed multiple research missions to MichoacÃ¡n, where envoys made careful note of the regionâs plentiful water. âIn this area, water is free,â marveled their report from a trip in 1970. Local avocado growersâ only concern was âhow to divert the water into channels on their property and to get the water to the trees.â At that point, imports of fresh avocados from Mexico to the United States were prohibited by federal regulation (established in 1914 to protect California farmers), but the large avocado firms began investing in the region anyway, with designs on selling the fruit elsewhere.
+
+The North American Free Trade Agreement, when it went into effect in 1994, largely kept the ban in place, but crippling droughts and exorbitant land and water costs eventually pushed Californiaâs industries into accepting a slow repeal of protections. Many small domestic growers were facing bankruptcy; the larger firms that werenât had already invested in Mexico. After decades of malaise, the avocado became a surprise winner, and a cipher of the promise of free tradeââNAFTAâs shining star,â as one consultant later put it. Hill+Knowlton Strategies, the advertising firm best known for its role in goading the United States into the first Gulf War on behalf of the Kuwaiti government, helped rebrand the fruit. After achieving notoriety as one of the most spectacular commercial food failures of the twentieth century, the avocado finally entered the mainstreamâas salad centerpiece, Mediterranean delicacy, and tropical delight. Guacamole and avocado toast became two of the most successful gustatory trends of the twenty-first century, pushed with prime-time Super Bowl ads. MichoacÃ¡nâs avocado production went from around 800,000 metric tons in 2003 to more than 1.8Â million metric tons in 2022. Over the same period, Americaâs avocado consumption quadrupled.
+
+Today, groundwater in MichoacÃ¡n is disappearing, and its bodies of water are drying up. Lake ZirahuÃ©n is polluted by agricultural runoff. Nearly 85 percent of the country was experiencing a drought in 2021, and experts project that the stateâs Lake Cuitzeo, the second largest in all of Mexico, could disappear within a decade. In part because of the conversion from pine to avocado trees, the rainy season has shrunk from around six months to three. So profound is the drain on the regionâs aquifers that small earthquakes have newly become commonplace. The one-hundred-mile avocado corridor has, in effect, become the only live theater of what is often referred to as âCaliforniaâs water wars.â
+
+Itâs unclear whether the avocado can survive this changing climate. But in MichoacÃ¡n, the more pressing question is whether its residents can survive the avocado.
+
+![](https://harpers.org/wp-content/uploads/2023/10/CUT-19new-1340x0-c-default.jpg)
+
+Left: Frutas Finas, an avocado packing plant in TancÃ­taro, MichoacÃ¡n
+Right: An engineer at Frutas Finas monitors avocados on the packaging line
+
+At 6:45 the next morning, Uli and I reported to the town jail, where weâd been told we would find the *ronda tradicional communal,* the community police. The detailâby some counts the townâs largest agency, and the only one for which jobs do not rotate every three yearsâis tasked with all security, manning the checkpoints, guarding against poachers, and even punishing public drunkenness. Through the darkness I could make out a commander meting out orders to officers wearing flak jackets, helmets, and fatigues. It was almost time for a shift change. An unfamiliar truck by the sand mine would need to be investigated; everyone was reminded to keep their weapons on them at all times.
+
+The *ronda* is most heavily armed while guarding the forest. The job is to monitor the entire 27,000-hectare region of CherÃ¡n, ensuring that there is no illegal logging, no burning, and no planting of avocado trees. I was assigned to join a unit of four people, each carrying a rifle and handgun. We piled into a white Mitsubishi pickup, emblazoned with the word guardabosque, two of the members perched in the bed. I squeezed into the back seat, where an AR-15 was wedged between the driverâs seat and console. A toy rifle hung from the rearview mirror.
+
+We were headed to the northeast border, where a new avocado grove had recently appeared. But thirty minutes into our drive, an order came through redirecting us to the townâs nursery. We parked before a sign reading the planting of avocados is strictly prohibited. After some back-and-forth with local farmers and nursery workers, we learned that some loggers were laying claim to a patch of forest near CapÃ¡cuaro, a town to CherÃ¡nâs southwest. The *ronda* would have to intervene and try to forge some sort of agreement that would protect the trees.
+
+The confrontation sounded tame enough, I thought, but the crew felt differently. Any group of local loggers could be backed by monied avocado interests, or cartels, and it didnât take much for bullets to start flying. Our safety couldnât be ensured, they said, and our seats in the truck would be needed to transport reinforcements. They deposited us back at the jail, where we waited to be assigned to another patrol group.
+
+After a few hours, a second pickup arrived, manned by a team of three. We loaded back in and headed out of town on a sunken dirt road, up into the mountains. As the truck lurched over potholes, we passed spindly pinesâsome replanted, others old-growthâas well as another sign, this one in red: the community in general is prohibited from planting avocados.
+
+The truckâs driver*,* Edgar, had spent eight years in the *ronda,* enlisting not long after the uprising. Heâd done construction work in South Carolina before getting deported. I asked if heâd encountered illegal avocados in CherÃ¡n. He said he had. Everyone knows the rules, he told me, âbut there is still tension here, even now.â When avocados are discovered, patrols dig up the trees and destroy them. The offending planter will be sent to the town jail, where heâll be forced to issue a formal apology and pay a fee. A repeat offender can have his land requisitioned by the government.
+
+We drove until the road ran out, then parked above a sweeping hillside. A barbed-wire fence ran along a dirt trench, marking the division with the neighboring municipality of Zacapu. At our backs were a wall of pines; in front of us, rows of juvenile avocados. The trees grew right to the edge of the muddy border. All of this had been old-growth forest until four years ago, Edgar told me. He pointed to a barren hillside in the distance. Eight months prior it had been full of pines, but it had recently been clear-cut, marking the next stage of the forward march. Soon, it too would be covered with avocados.
+
+![https://harpers.org/wp-content/uploads/2023/10/CUT-21new.jpg](https://harpers.org/wp-content/uploads/2023/10/CUT-21new-1400x0-c-default.jpg)
+
+Left: Officers patrolling the forest near CherÃ¡n. Right: Rows of juvenile avocado trees just beyond a fence marking CherÃ¡nâs border
+
+![https://harpers.org/wp-content/uploads/2023/10/CUT-23new.jpg](https://harpers.org/wp-content/uploads/2023/10/CUT-23new-1400x0-c-default.jpg)
+
+Left: Avocados for sale in CherÃ¡n. Center: The forest near CherÃ¡n. Right: A donkey pulls wood collected in a nearby forest
+
+
+
+[Previous](#gallery-gallery-6)
+[Next](#gallery-gallery-6)
+
+There was something else Edgar wanted me to see if I was willing to venture with him into the woods. We returned to the truck and drove cautiously through deeper and deeper puddles until the trail was completely washed out. We parked, left some nonessentials, and began our trek with three militants in full protective gear.
+
+As we passed into denser forest, the patrolmen sometimes paused to rustle the pine needles blanketing the forest floor, exposing the mushrooms that grow naturally in the area. On occasion, one of them would find a bright orange lobster mushroom, which I was told tasted just like pork. Those were pocketed for dinner. Finally, we emerged into a blackened clearing, which abruptly gave way to a ravine. All around us, the trees and shrubs were charred.
+
+A few months earlier, Edgar explained, this area had combusted. Loggers had been fast at work clear-cutting the forest, in anticipation, I was told, of avocados. To expedite the process, they set fire to some stumps, which can be especially flammable in the dry season. The blaze quickly jumped the town line of pine trees and took off in CherÃ¡nâs forest. Edgar, along with volunteers and dozens of members of the *ronda*âeighty people in allâattempted to quell the conflagration.
+
+They dug a perimeter right below where we stood. Having no ready water source, they tossed dirt onto the flames with shovels. Edgar spent three days and two nights on the fire line, long enough for the containment effort to succeed. But the losses continued to mount, as many of the rescued trees succumbed to blight in the weeks that followed. Eventually, the sickly trees were cleared. Four hectares of pines were lost.
+
+Wildfires are a major concern in the region, and an estimated 40 percent of them are now purposefully set to clear the way for avocado groves, at a rate of some twenty thousand hectares of wild forest each year. Forests are set ablaze or leveled by chainsaws, quickly and indiscriminately; planters then suture avocado saplings onto the barren earth. Reforestation has since become a critical component of CherÃ¡nâs economic strategy. In only a decade, the town has managed to reforest much of the townâs twenty thousand hectares with native pines. It underwrites these efforts by selling juvenile pines, bred in a nursery, to nearby landscapers and farmers, and by harvesting pine resin that is used in everything from turpentine to oil to chewing gum. At the townâs mill, dead and diseased trees are turned into two-by-fours for construction, or fitted into wood pallets to be sold to trucking companies.
+
+The reforestation campaign is also a water policy. Recent studies have suggested that the vapors released by pine trees can help seed clouds, substantiating in some sense the folksier notionâwhich I heard repeatedlyâthat trees bring rain. The deeper root structure of tall pines also helps convert precipitation into groundwater, providing a pathway for rain to travel to the water table during the rainy season. Avocado trees, short and appetent, are a drain on the water table throughout the entire year. A mature avocado tree demands as much water as fourteen adult pines. The forestry strategy, I was told by Edgar and others, was one of the chief reasons that CherÃ¡n had been able to escape the water problems that afflict the rest of the region. âYou see, the clouds are only in our town,â Edgar half-joked as the afternoon sky darkened.
+
+While we drove back to town, Edgar asked me if Iâd like to stop by the spring in CherÃ¡n where the revolution began. Twelve years earlier, the loggers turned their saws on the large pines growing on the ridge above; the imminent threat to the water source was what spurred the town to action. It was no longer the only water source, but its importance remained.
+
+We stopped in front of a red metal archway. A hundred yards beyond the gate sat two long, concrete basins full of water, one feeding into the other. Above them, protected by a low chain-link fence and shrouded in branches, was a small mossy cave. We clambered over the fence to get a better look at the source. A few drops of water beaded up and fell silently onto the dark stones in front of us.
+
+âIâve never seen it that low,â Edgar said, shaking his head. The conditions were dire enough to necessitate an official report. We rode back to town in silence.
+
+![https://harpers.org/wp-content/uploads/2023/10/CUT-26new.jpg](https://harpers.org/wp-content/uploads/2023/10/CUT-26new-1400x0-c-default.jpg)
+
+La CofradÃ­a, the spring where CherÃ¡nâs revolution began
+
+![https://harpers.org/wp-content/uploads/2023/10/CUT-27.jpg](https://harpers.org/wp-content/uploads/2023/10/CUT-27-1400x0-c-default.jpg)
+
+Silvia Capiz and Guadalupe Garcia plant pine saplings at the CherÃ¡n nursery
+
+![https://harpers.org/wp-content/uploads/2023/10/CUT-28.jpg](https://harpers.org/wp-content/uploads/2023/10/CUT-28-1400x0-c-default.jpg)
+
+Noemi Mondragon and Marilu Ponce at Noemiâs farm in Yoricostio
+
+
+
+[Previous](#gallery-gallery-8)
+[Next](#gallery-gallery-8)
+
+CherÃ¡nâs uprising became an inspiration, leading to a wave of copycat outbursts across MichoacÃ¡n in what became known as the *autodefensas* movement. Vigilante groups took up arms and notched a number of victories, succeeding where the state had proven inept or corrupt. Community policing initiatives followed. For a time, this approach even enjoyed the tacit support of then-president Enrique PeÃ±a Nieto.
+
+But the movement quickly dissolved. Many *autodefensa* organizations were infiltrated by former cartel members; some began selling drugs to raise money for weapons. Others were bankrolled by wealthy avocado interests sick of paying bribes or seeing shipments robbed. By 2018, the *autodefensa* system had, in many ways, become indistinguishable from cartel control.
+
+Take one especially perverse example: In 2020, a group of avocado farmers formed a group called Pueblos Unidos, claiming to be protecting their livelihood against cartel extortion. The groupâs membership ballooned to around three thousand in a short amount of time, even scoring some international media coverage for their attempts to clean up the avocado supply chain. They lacked CherÃ¡nâs environmental commitments from the get-go, and were soon linked to the Knights Templar Cartel. On the day I left MichoacÃ¡n, they were involved in a standoff with authorities that resulted in the kidnapping of national guardsmen, the torching of a car, and over one hundred arrests. According to Mexican officials, it was one of the biggest cartel busts ever.
+
+The CherÃ¡n council told me that dozens of other localities in MichoacÃ¡n have adopted its model of governance, forming an archipelago of radical environmental resistance. While each town has its own method of implementation, the charter remains basically the same: a democratically elected council, a militarized commitment to environmental protection, and no political parties or avocados.
+
+Twenty minutes from CherÃ¡n is the town of Arantepacua, which achieved official independence in 2018. When we drove over, a small team of laborers was at work building a checkpoint. No one stopped our car for questioning.
+
+The town square was flanked by a crumbling church and a peach-colored municipal building. We parked alongside a Chevy Silverado pickup, with police lights mounted atop the cab. I was trying to get in touch with the mayor, Alberto Martinez, but he wasnât responding on WhatsApp. I asked a woman if she knew where I might find him. âHeâs right there,â she pointed, âthe small one in the green.â
+
+Standing on the corner was an excitable man, his hair neatly combed, wearing a pressed polo shirt tucked into khakis. He shook my hand vigorously before Iâd even spit out an introduction, and pulled me into the administrative building behind him, where a portrait of Zapata again loomed above the entrance.
+
+Sitting at one of the two desks in Albertoâs corner office, bottle-feeding her four-month-old child, was Maria Elena Soria Morales, a thirty-three-year-old school teacher who is currently serving a two-year term as the head of security, elected alongside another woman. She oversees the *kuariches,* the townâs version of CherÃ¡nâs *ronda*.
+
+But Arantepacuaâs adoption of the CherÃ¡n model, Maria told me, had little to do with environmental despoliation, at least at first. On AprilÂ 5, 2017, MichoacÃ¡n state troopers came to retrieve what they said were stolen vehicles. The town had had a long-standing feud with the state government because of territorial disputes and what I was told was overzealous policing.
+
+Officers with shotguns kicked down the door of the house that Maria had taken shelter in, she told me, one shooting at her and another pointing a gun at her sister. A helicopter circled overhead. A terrified schoolboy in a red sweater, running toward the forest, was shot, his body flying through the air âlike a kite,â Maria said, fighting tears. Four people were killed.
+
+The next day, the town set up a makeshift checkpoint at its highway exit to prevent the police from returning. Then they began to overhaul the government. âAfter that, we got organized to elect our own authorities,â she told me. âIf we donât organize ourselves, this will never stop. We have to do it like CherÃ¡n.â
+
+Arantepacuaâs new government made environmental protection a priority, and outlawed avocado cultivation on communal forest land. âIt harms the soil,â Maria told me. âWhen we drive on the road to Uruapan, we can feel the chemicals in the air and we know how bad it is. So we donât allow it.â
+
+Now one of her top concerns is the water supply. In recent years, the water level in the townâs well has sunk lower and lower, while the neighboring town of CapÃ¡cuaro cuts down its forests, and nearby TurÃ­cuaro expands its avocado operation. âWe hear that theyâre doing it on the top of the mountains,â she said. Still, she told me, the town was doing its best. Her baby burst into tears, and she whisked him away for a nap.
+
+![](https://harpers.org/wp-content/uploads/2023/10/CUT-29-1340x0-c-default.jpg)
+
+Left: Ernesto Ponce in Yoricostio. Right: An assault rifle in Ernestoâs toolshed
+
+I wanted to see what life was like in the thick of the avocado corridor, a stretch of fertile soil and clement weather that yields an astonishing year-round harvest. At one end is the town of TancÃ­taro, where one of the avocado-themed statues depicts the earth as a pit. At the other end is Uruapan, home to a professional soccer team called the Aguacateros. Uruapan hosts an annual avocado festival; while I was there, TancÃ­taro held  
+a world record for plating an 8,351.1-pound serving of guacamole. (This would be surpassed by a 10,961-pound serving in a nearby community a few months later.) Each town claims to be the avocado capital of the world.
+
+They are, in less vaunted terms, the urban centers where avocados are packed and processed; the fruit is grown in the surrounding countryside. I made plans to head to the outskirts of Yoricostio, to a farming hamlet full of avocado orchards that are neither dangerous nor difficult to access. I pulled into a parking lot in front of a church where two farmers were leaning against a pickup truck.
+
+They took me on a tour of the groves, which, by every indication, made them a handsome profit, and then to the home of Ernesto, a local avocado farmer who was hosting a number of his neighbors. Avocados werenât the only thing being farmed on Ernestoâs holdings; there were also pepper plants, beans, and pumpkins.
+
+Three decades ago, he didnât grow avocados at all. âI remember thirty-one years ago when Ernesto planted the first tree,â Marilu, his wife, told me. âHis father told us there was no point.â But the decision paid off, and they had expanded their footprint steadily. Now they were selling avocados for export to the United States and had hired additional workers to harvest the crop. Theirs was a midsize operation, and the money seemed to be good enoughâtheir pickup truck was new and their two-story home beautiful. They had plans for renovations. But there were problems of late. The year prior, for the first time, they had to dig retaining ponds and set up rain barrels to secure enough water for a desiccated avocado harvest. The other crops, too, needed to be watered by hand. âThe climate has changed,â Marilu told me. âItâs hotter, drier. We used to water all our plants just with the rain. Not anymore.â
+
+Above the town was a small dam, and a reservoir to draw from in case of drought. That winter a work crew, armed with expensive heavy machinery, had begun laying a pipe at the foot of the dam. They claimed to be acting on behalf of the local water authority, but their story kept changing. Some of the farmers complained to the local government, to no avail. Others alleged corruption.
+
+âYou donât have to be very smart to figure out where the water is going,â said Noemi Mondragon, a local farmer. The unfinished pipeline seemed to be pointed toward a new two-hundred-hectare avocado grove. âPeople say that the avocado is the devil,â Noemi told me. âThat isnât true. There are ways to raise it sustainably.â As she saw it, the biggest problem with the avocado was that âit brought greed, which brings ambition, which brings scarcity.â Water levels at the dam had already reached new lows. âLook at the size of the pipe,â she added. âIf they get that water, the dam will be empty in two weeks.â
+
+The farmers told me that they had scared off the construction crew the day before Christmas, with a shovel-wielding Marilu at the lead. Staring down a menacing foreman and a line of tractors, she told me, sheâd filled in the basin where the pipe was being laid. Noemi and other neighbors joined, shoulder to shoulder, until the group grew large enough to drive the workers away.
+
+Given the exceptional amount of avocado-related violence in the region, the story struck me as surprisingly tame. Earlier that year, a prominent anti-avocado activist had been kidnapped and beaten in another part of the state. Months later, I expressed some confusion about the account, and found out that the farmers had also been stockpiling guns, many of which were illegal. Theyâd left that detail out.
+
+Still, the situation reminded me of CherÃ¡nâs path: the alleged municipal corruption, the threatened water supply, the uprising. It seemed like the town might be open to a radical environmental overhaul, to save their community and some elements of their way of life. It wasnât hard to envision a near future in which that was one of very few viable outcomes. But when I mentioned CherÃ¡n, no one praised it as an inspiration; no one seemed to know what it was at all. And there were critical differences. CherÃ¡n had been a relatively poor, indigenous community, cut off from the green-gold rush. The farmers of Yoricostio had managed to tap into a global flow of water and wealth. Was there a way forward for these farmers that wasnât also a step down? If the climate or the industry abandoned them, which way would they point their guns?
+
+Later that afternoon, the farmers gathered around a grill, where Ernesto was searing carne asada. They placed a big bowl of guacamole at the center of a long picnic table and passed around a jug of mezcal, encouraging me to pour myself a drink, and then another. The clouds gathered overhead, and light rain began to fall. Then it stopped.
+
+![](https://harpers.org/wp-content/uploads/2023/10/CUT-31-1340x0-c-default.jpg)
+
+Ernesto sampling one of his avocados
+
+
+ is a writer based in New York.
+
+### Tags
+
+[Agriculture and politics](https://harpers.org/tag/agriculture-and-politics/)
+[Autodefensas](https://harpers.org/tag/autodefensas/)
+[Avocado](https://harpers.org/tag/avocado/)
+[Cartels](https://harpers.org/tag/cartels/)
+[CherÃ¡n](https://harpers.org/tag/cheran/)
+[Hill+Knowlton Strategies](https://harpers.org/tag/hillknowlton-strategies/)
+[Mexico](https://harpers.org/tag/mexico/)
+[MichoacÃ¡n](https://harpers.org/tag/michoacan/)
+[Sustainable agriculture](https://harpers.org/tag/sustainable-agriculture/)
+
+#### Get the Weekly Review in your inbox
+
+A weekly email taking aim at the relentless absurdity of the 24-hour news cycle.
+
+Email address
+
+
+
+Sign Up
+
+### Got it! Thanks for signing up!
+
+Adjust
+
+Share

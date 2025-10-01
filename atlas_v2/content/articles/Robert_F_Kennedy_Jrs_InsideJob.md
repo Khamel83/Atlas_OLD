@@ -1,0 +1,243 @@
+# Robert F. Kennedy Jr.’s Inside Job
+
+**Source**: inputs/old stuff/Docs/Robert F Kennedy Jrs InsideJob_070623.html
+**Type**: article
+**Created**: 2025-08-25T02:53:45.418891
+
+---
+
+# Robert F. Kennedy Jr.’s Inside Job
+
+[New York Magazine](https://nymag.com/intelligencer/article/robert-f-kennedy-jr-2024-presidential-campaign-democratic-primary.html)
+·
+by Rebecca Traister
+·
+June 30, 2023
+
+![](https://pyxis.nymag.com/v1/imgs/0ee/7fb/98ba5468417cd0f2ae4bf504f63014af2f-Montgomery-NYMAG-RFKJR-Final-01.rhorizontal.w1100.jpg)
+
+RFK Jr. at the JFK statue in Nashua, New Hampshire, on June 20, 2023.
+Photo: Philip Montgomery
+
+This article was featured in [One Great Story](https://nymag.com/tags/one-great-story/), *New York*’s reading recommendation newsletter. [Sign up here](https://nymag.com/promo/sign-up-for-one-great-story.html?itm_source=disitepromo&itm_medium=articlelink&itm_campaign=ogs_tertiary_zone) to get it nightly.
+
+
+“They were doing phony, crooked studies to develop a cure that killed people,” he said of the scientists laboring through the 1980s on the array of protease inhibitors and other anti-retroviral drugs that would eventually stem mass death in countries where access to the medicines was made available, “without really being able to understand what HIV was, and pumping up fear about it constantly, not really understanding whether it was causing AIDS.”
+
+That HIV infection causes AIDS is long-established science. But the conspiracy theory Kennedy is laying out, alongside several of its associated tendrils — that HIV is a free rider on a more dangerous virus, that scientists stifled debate in order to profit from the production of AZT, the first drug approved by the FDA to treat HIV and AIDS in 1987 — has deep roots and has borne tragic fruit. For instance, Thabo Mbeki, the president of South Africa from 1999 to 2008, shared Kennedy’s skepticism, and his distrust kept crucial therapies unavailable in his country for years, resulting in an estimated hundreds of thousands of needless deaths. Still, Kennedy — who has in other instances acknowledged that HIV causes AIDS — insisted to me over lunch, “There are much better candidates than HIV for what causes AIDS.”
+
+These mythologies are the chronological starting points for opinions Kennedy puts forth in his 2021 book, [*The Real Anthony Fauci: Bill Gates, Big Pharma, and the Global War on Democracy and Public Health*](https://www.amazon.com/Real-Anthony-Fauci-Democracy-Childrens/dp/1510766804)*.* Kennedy, an environmental lawyer who has spent the past two decades ever more beholden to repeatedly disproved arguments about a link between vaccines and autism, jumped thirstily into the COVID fray, becoming a vocal critic of almost every government-funded or endorsed COVID-mitigation approach, from masking to social distancing to vaccine development and mandates. His chosen nemesis was [Fauci](https://nymag.com/tags/anthony-fauci/), the immunologist veteran of the AIDS fight, director of the National Institute of Allergy and Infectious Diseases from 1984 to 2022, and chief medical adviser to [Joe Biden](https://nymag.com/intelligencer/tags/joe-biden/) from 2021 to 2022.
+
+## Cover Story
+
+## Inside Job
+
+[![](https://pyxis.nymag.com/v1/imgs/db3/193/6cf747fb79864475a035c4c68baed9dceb-1423Cov-4x5-RFKJR--2-.2x.rvertical.w330.jpg)](https://nymag.com/magazine/toc/2023-07-03.html)
+
+[More From This Issue](https://nymag.com/magazine/toc/2023-07-03.html)
+xml version="1.0" encoding="utf-8"?
+
+In his book, Kennedy characterizes Fauci as “the powerful technocrat who helped orchestrate and execute 2020’s historic coup d’etat against Western democracy” and claims that his “remedies,” including the COVID vaccines that stopped people from dying, were “often more lethal than the diseases they pretend to treat.”
+
+COVID, like the AIDS epidemic before it, provided fertile ground for conspiracy theorizing. A new disease of unknown origin, it exploded lives and families and the global economy; it provoked fear and a longing for answers that those in charge could not initially provide. Public-health officials and political leaders made choices, some of which proved misguided, some of which led to solutions. And, of course, as Kennedy himself will eagerly explain, corporate entities — from Amazon to Pfizer to Moderna — profiteered, in grotesque fashion, from people’s pain, loss, and confusion.
+
+But they aren’t the only ones who took exploitative advantage of the suffering of millions: Kennedy’s vilification of Fauci as a fascist sold more than 1 million copies, and his public profile grew with his every outsize utterance, including that vaccine mandates “will make you a slave” and that “even in Hitler’s Germany, you could cross the Alps to Switzerland. You could hide in an attic like Anne Frank did,” a nadir so low that even his wife, the actress Cheryl Hines, had to issue a statement condemning it.
+
+But however off-kilter he sounded — indeed, precisely because he was extra off-kilter in his attacks on lockdowns and vaccines and masks — Kennedy’s COVID performance became the springboard that launched [his current campaign against Biden](https://nymag.com/intelligencer/2023/06/democrats-shouldnt-ignore-rfk-jr-they-should-expose-him.html) for the [Democratic nomination for the presidency in 2024](https://nymag.com/intelligencer/2023/02/what-would-2024-look-like-for-democrats-if-biden-retired.html). Kennedy kicked off his bid in Boston in April, addressing a roomful of people cheering and holding signs with his name in the air. He had the look of a man getting the reception he’d been waiting for his whole life, and his extemporaneous remarks stretched to almost two hours, his expensive education and resemblance to his famous forebears covering for quite a bit of rambling. “He can look and sound so thoughtful and contemplative,” said one person who has known him a very long time. “And he’s just bursting with madness.” Kennedy soon began polling at an eye-catching nearly 20 percent in multiple surveys, and though a recent New Hampshire poll showed him at [9 percent](https://www.anselm.edu/about/anselmian-hub/news/sacsc-june-poll-shows-voters-believe-bidentrump-matchup-would-be-clear-sign-broken-party-system) in June, he earned higher favorability numbers in an [*Economist*-YouGov poll](https://docs.cdn.yougov.com/rj3bg6ve06/econTabReport.pdf) than either Biden or [Donald Trump](https://nymag.com/tags/donald-trump/).
+
+He has spent the summer traveling to every dark-web–cancel-cultured–just-asking-questions–anti-woke whistle-stop that’ll have him, appearing on podcasts with [Bari Weiss](https://nymag.com/tags/bari-weiss/), [Joe Rogan](https://nymag.com/tags/joe-rogan/), [Russell Brand](https://nymag.com/intelligencer/tags/russell-brand/), and [Jordan Peterson](https://nymag.com/tags/jordan-peterson/), among others. He can count among his reply guys and fans (and, in some cases, early endorsers) a clutch of Silicon Valley CEOs and financiers, including hedge-fund manager [Bill Ackman](https://nymag.com/tags/bill-ackman/); venture capitalists [Chamath Palihapitiya](https://nymag.com/tags/chamath-palihapitiya/) and [David Sacks](https://nymag.com/intelligencer/2023/05/twitter-will-drive-conservatives-mad-and-further-right.html); and [Elon Musk](https://nymag.com/tags/elon-musk/) and [Jack Dorsey](https://nymag.com/tags/jack-dorsey/), the current and former overlords of Twitter, respectively. He has been friendly with many in the media, including Salon founder and former editor-in-chief [David Talbot](https://nymag.com/tags/david-talbot/) and *Rolling Stone* co-founder and longtime editor [Jann Wenner](https://nymag.com/tags/jann-wenner/). Kennedy’s campaign manager is [Dennis Kucinich](https://nymag.com/intelligencer/tags/dennis-kucinich/), the former Cleveland mayor and Ohio congressman. A super-PAC called American Values 2024 has reportedly raised millions in [support of Kennedy’s campaign](https://nymag.com/intelligencer/2023/05/do-rfk-jr-s-supporters-really-know-who-he-is.html), and Sacks held a fundraising dinner for him in June for which diners paid $10,000 a ticket. Kennedy’s drive to speak his mind has been praised by those on the far right, including [Tucker Carlson](https://nymag.com/intelligencer/tags/tucker-carlson/) and [Steve Bannon](https://nymag.com/tags/steve-bannon/), and some on the self-described left, like [Matt Taibbi](https://nymag.com/intelligencer/2021/10/what-happened-to-matt-taibbi.html) and Max Blumenthal.
+
+Kennedy crowed to me about his horseshoe coalition gathered round a campaign he views as fundamentally populist. And it’s quite a band he has put together: crunchy Whole Foods–shopping anti-vaxxers, paunchy architects of hard-right authoritarianism looking to boost a chaos agent, Nader-Stein third-party perma-gremlins, some Kennedy-family superfans, and rich tech bros seeking a lone wolf to legitimize them. Their convening can give the impression of weightiness, but if you so much as blew on them, the alliance would shatter into a million pieces. The only thing that seems to bind them is Kennedy, the current embodiment of a warped fantasy of marginalization and martyrdom that has become ever more appealing — and thus politically significant — in an age of disinformation and distrust in government and institutions.
+
+That’s not to say Kennedy’s campaign is a joke. He is both an addled conspiracy theorist and an undeniable manifestation of our post-pandemic politics. He is an aging but handsome scion of America’s most storied political family, facing off against an incumbent who many in his own party worry is too old and too unpopular to win a second term. Far from an exile, he is an extremely well-connected person with unparalleled access to the centers of influence in New York, Hollywood, and Washington, D.C., who either has no idea what kind of fire he’s playing with, or does and is therefore an arsonist.
+
+He is running a surprisingly potent campaign that, thanks to the lurid dynamics of social media and the boosts he is receiving from some of the wealthiest, most listened-to people in America, stands to grow even more disruptive, his deep thoughts on [Rogan’s podcast](https://nymag.com/intelligencer/2020/05/why-did-spotify-pay-so-much-for-joe-rogans-podcast.html) translating into overflow crowds at his rallies. Lesser threats than Kennedy have played spoilers in elections before, and if he succeeds in helping burn us all to the ground, it will not be because he is an outsider, as he claims, but because of a political and media culture that has protected and encouraged and fawned over him his whole life — handing a perpetual problem child, now 69 and desperate for attention, accelerant and matches.
+
+![](https://pyxis.nymag.com/v1/imgs/73a/914/8e7c0ff0fe5b15cfafa1b3ff28fe567ff6-Montgomery-NYMAG-RFKJR-Final-06.rvertical.w570.jpg)
+
+Robert F. Kennedy Jr. in Burlington, Vermont.
+Photo: Philip Montgomery
+
+
+More recently, Kennedy’s uncle [John Fitzgerald Kennedy](https://nymag.com/intelligencer/2021/06/jfk-accomplished-little-but-his-historic-myth-endures.html) served as president of the United States from 1961 to November 1963, when he was shot and killed in Dallas. Kennedy’s father, Bobby, was John’s campaign manager and attorney general and, after John’s death, the senator from New York. In 1968, Bobby Sr. ran a thrilling campaign for the Democratic presidential nomination but was assassinated in a hotel kitchen in June of that year. Kennedy’s uncle Ted was the senator from Massachusetts from 1962 until his death in 2009. In 1980, Ted launched a righteous presidential campaign to the left of incumbent [Jimmy Carter](https://nymag.com/tags/jimmy-carter/); he took the fight to the convention in an election year that ended very badly for Democrats and the nation.
+
+Robert F. Kennedy Jr. was 14 when his father was killed, but even before that, his life had been tumultuous. As he has written, “from the moment I climbed from my crib, chaos followed me like a loyal hound.” A feral student who was drawn more to snakes, birds, riverbeds, and wooded trails than to school, he has written that he once drove his seventh-grade tutor, a pacifist Jesuit, so bananas that the tutor punched him in the nose. Kicked out of an elite roster of prep schools, he still managed to arrive at Harvard in 1972, already using drugs that would lead him into a 14-year battle with addiction that dogged him throughout law school at the University of Virginia and culminated with a charge of possessing heroin after he was found ill in an airplane bathroom on the way to rehab in 1983.
+
+After a brief stint as an assistant district attorney in New York, Kennedy joined Riverkeeper and the Natural Resources Defense Council. He founded Pace Law School’s Environmental Litigation Clinic and the Waterkeeper Alliance and is by many measures responsible for the mighty job of having restored the Hudson River to some semblance of health, vigorously prosecuting polluters and working to acknowledge the relationship between Indigenous communities and the land that had been stolen from them and then poisoned.
+
+Kennedy’s trajectory juddered in the early aughts when parents who believed their children’s autism diagnoses might have been tied to vaccines approached him and persuaded him of their view. Kennedy became one of the loudest voices blaring false links between vaccination and autism. In 2005, Salon, in partnership with [*Rolling Stone*](http://web.archive.org/web/20070626115932/http:/www.rollingstone.com/politics/story/7395411/deadly_immunity)*,* published a long reported story by Kennedy that pointed toward the mercury compound thimerosal, used as a preservative in vaccines, as the autism culprit. The story included significant errors, and in 2011 Salon removed it from the site.
+
+In his current incarnation, Kennedy seems anxious not to linger on the vaccine question; his supporters consider the term [*anti-vaxx*](https://nymag.com/intelligencer/2023/04/rfk-jr-is-running-in-the-democratic-president-primary-2024.html) a smear and argue that his campaign has been for “vaccine safety.” When I told him I have every available vaccine and booster coursing through my veins, he shrugged. “I don’t care what people think about that,” he said, chasing his indifference with a tiny poisoned pill. “Generally, the only people who really understand the issue are the parents of injured children because it takes so much commitment and time to learn it. I’m one of the few people I’ve ever met who got into it just because I read the science. I don’t blame people for having faith in vaccines.”
+
+His vaccine beliefs hooked him up with a broader world of conspiracy theorizing. In 2006, Kennedy wrote a lengthy story, again for [*Rolling Stone*](https://web.archive.org/web/20060701011840/http://www.rollingstone.com/news/story/10432334/was_the_2004_election_stolen)*,* claiming the Republican Party had “mounted a massive, coordinated campaign to subvert the will of the people in 2004,” stealing the election in Ohio via Diebold voting machines — a specious claim that was seductive to Democrats who simply could not believe [George W. Bush](https://nymag.com/tags/george-w.-bush/) had won his reelection bid against [John Kerry](https://nymag.com/tags/john-kerry/). Kennedy’s doubts in electoral results have persisted, and he recently equivocated to the [Washington *Post*](https://www.washingtonpost.com/politics/2023/06/05/rfk-jr-democratic-primary-biden/)’s Michael Scherer about the 2020 election, saying, “I don’t know. I think that Biden won.”
+
+Kennedy has also come to believe many other things that run the gamut from unproven to ludicrous to dangerously irresponsible. They begin with his conviction that the CIA played a role in the murders of both his uncle and his father and that Bobby Sr. was killed not by [Sirhan Sirhan](https://nymag.com/intelligencer/tags/sirhan-sirhan/) but by a security guard assigned to protect him; he actively campaigned for Sirhan’s release from prison against the wishes of most of the Kennedy family, including his mother.
+
+In 2016, Kennedy published [*Framed*](https://www.amazon.com/Framed-Michael-Skakel-Decade-Prison/dp/151070177X)*,* a book that argues not just for the innocence of his cousin [Michael Skakel](https://nymag.com/tags/michael-skakel/), who served more than a decade for the 1975 murder of his Connecticut neighbor [Martha Moxley](https://nymag.com/nymetro/news/crimelaw/features/6131/), but also points a finger at two New York City teens hanging around Greenwich, one Black and one of mixed race, who he had decided were the real killers.
+
+Kennedy has also suggested that 5G high-speed-internet towers are being used to “harvest our data and control our behavior”; posited a link between mass shootings and antidepressant use; told Rogan that Wi-Fi pierces “the blood-brain barrier,” causing “leaky brain”; and claimed the presence of atrazine in the water supply has contributed to depression and gender dysphoria among boys since atrazine is known to clinically castrate frogs when dumped into their tanks.
+
+Again: [Robert F. Kennedy Jr.](https://nymag.com/intelligencer/2023/05/do-rfk-jr-s-supporters-really-know-who-he-is.html) has been polling as high as 20 percent.
+
+## The Long Strange Trip of Robert F. Kennedy Jr.
+
+1. ![](https://pyxis.nymag.com/v1/imgs/710/3e8/634f0bbed174224edbeca8eba108aaf6b0-1959-Hyannis-Port.2x.rhorizontal.w670.jpg)
+
+
+   **1959:** At left, with his parents and siblings.
+2. ![]()
+
+
+   **1960:** With his uncle John F. Kennedy.
+3. ![]()
+
+
+   **1968:** As his father’s pallbearer.
+4. ![]()
+
+
+   **1972:** As a Harvard freshman.
+5. ![]()
+
+
+   **1979:** At Studio 54.
+6. ![]()
+
+
+   **1997:** With his second wife, Mary Richardson Kennedy.
+7. ![]()
+
+
+   **2000:** With Chelsea and Hillary Clinton.
+8. ![]()
+
+
+   **2013:** With his current wife, Cheryl Hines.
+9. ![]()
+
+
+   **2023:** On *Tucker Carlson Tonight*.
+10. ![]()
+
+
+    **2023:** With podcaster Joe Rogan.
+11. ![]()
+
+
+    **2023:** Doing push-ups for a campaign video.
+
+
+
+/
+11
+
+
+Kennedy *loves* a podcast. He treats them with the same energy he brought to his launch speech, with every affirming nod or assenting grunt from a friendly host prompting him to hold forth at greater philosophical length; his exchange with Rogan stretched to three hours. “People really feel like they’re getting to know you, and they’re listening,” he told me of the benefits of the format.
+
+They may be able to meet him, but, I asked, what about the part where he would hear from them? For that, Kennedy, like many boomers before him, has discovered Twitter, where he posts homemade videos and attacks scientists and tags Taibbi all day long. “I get all the responses,” he told me. “It’s like taking a poll every day.” He says his daughter-in-law, Amaryllis Fox, a former CIA agent whom he often cites as a key adviser, has instructed him that “they like it when you do the Twitter before you take your shower; don’t comb your hair, just do it when you’re ragged so that they’re getting a glimpse of your real life.” Some of those glimpses of his real life — like the videos of the “dog car” he drives to his hikes in Southern California, which doesn’t have seat belts because his German short-haired pointer, Attila, has eaten the buckles — show him as charismatic, funny, and appealingly self-deprecating. Others, such as a series of shirtless workout posts, display a red-faced, manic desperation.
+
+In a mid-May conversation, Kennedy noted with clear satisfaction how well he was polling and was adamant that he intends to be president. I asked what he was doing to prepare. Was he paying attention to the election results from Turkey? Which Supreme Court decision was he awaiting with particular concern?
+
+He cut me off. “I’ve done that. I have a lifetime of doing that,” he said, noting that his first foreign-policy essay was published in *The Atlantic* when he was a sophomore at Harvard. “In 2016, I had one of the most-read essays on [Politico](https://www.politico.com/magazine/story/2016/02/rfk-jr-why-arabs-dont-trust-america-213601/) on the Syrian war. I’ve written countless articles on foreign policy since.”
+
+I asked how the job of essay writing might differ from sitting in the Oval Office. “That is what I think about all the time,” he replied. “How do you unravel corporate capture in these agencies? I have been thinking about the CIA for most of my life. That’s a captured agency too, but they’re captured by the military-industrial complex; their function is to provide this constant pipeline of wars to feed the military-industrial complex.” Kennedy believes his father had decided to upend the CIA in the weeks before his death: “I know what my father was going to do, and I know how to fix that agency.”
+
+But what about economic policy, what about affordable health care, what about steering the country through a [post-*Dobbs*](https://www.thecut.com/article/abortion-democratic-party-2024-elections.html) landscape when it comes to abortion? Kennedy is pro-choice and told me he supports the availability of [mifepristone](https://nymag.com/tags/abortion-pill/) and [misoprostol](https://nymag.com/tags/abortion-pill/). “I don’t think there’s anybody in the country who has fought harder for bodily autonomy and medical freedom to be free from the government telling us what we can and cannot do with our bodies,” he said.
+
+There was an infinitesimal pause.
+
+“But the big issue is that 80 percent of health-care funding goes to chronic disease, and that’s the issue I intend to fix. Why are Americans the sickest people on earth? Why isn’t the NIH telling us the answer to that question? Because there are powerful interests. There are chemical companies, there are oil companies, there are food processors, industrial-agriculture and pharmaceutical companies.”
+
+Kennedy is not wrong that the kinds of toxic exposures faced by millions thanks to generations of unchecked polluting for profit have left our planet and our bodies in trouble. He is also not wrong about the profit-seeking malevolence and rot of pharmaceutical companies or the repugnant influence they wield over Washington. This is one place Kennedy’s message resonates for lots of reasonable voters on the left and the right.
+
+But he does not really emphasize reducing costs and making medicine and health-care treatments more broadly available to more people. If this were important to him, he would not have allowed Rogan to pit him against Dr. Peter Hotez, the Texas physician-scientist making open-source, patent-free vaccines available to poor populations around the world, undercutting the extortionate pharma companies. Kennedy’s fight is about vilifying lifesaving medical treatments in favor of others that he has decided, based on inscrutable metrics of his own, are more holistic.
+
+“There are lots and lots of things out there that people are doing,” said Kennedy, who during COVID spoke about how alternative treatments like ivermectin, zinc, hydroxychloroquine, and azithromycin were not being studied properly, even though they were in fact studied and found ineffective against COVID. “I see what works and what doesn’t work. The worst thing is the pharmaceutical solutions.”
+
+
+Talbot sees Kennedy’s relationship to two-party American politics as analogous to his own relationship to mainstream political journalism. “I thought the media moved in lockstep; no one wants to stick their neck out. Starting Salon was my effort to really let the inmates run the asylum for once,” he said, noting that in Kennedy he saw “someone who thinks like I do, outside the box, willing to take risks.” Talbot added, “If I were to desert him now, if I were to wimp out on Bobby now because I don’t agree with him 100 percent about everything, I would not be able to live with myself.”
+
+Wenner said by phone that he is a “firm supporter of President Biden” but expressed affection and admiration for Kennedy. “He is a crusader,” he said. “He’s much like his father: pursuing justice and fairness for people. He’s got his father’s sense of righteousness and anger and his skills and his impetuousness. He’s following in his dad’s footsteps, personally and psychologically, which is not at all unusual. The acorn doesn’t fall far from the tree.”
+
+Wenner defended the journalism Kennedy had done for him, specifically citing “[Crimes Against Nature](https://www.maryellenmark.com/bibliography/magazines/article/rolling-stone/crimes-against-nature-637526337990109730/R),” a 2003 attack on the Bush administration’s horrific environmental policies, as a “beautiful and eloquent piece.” He said he recently read a reexamination of Kennedy’s argument that the 2004 election was stolen in Ohio, determining, “I cannot find any discrediting of the piece. I find it very believable, and at worst it’s an open case.” As for the vaccine story, Wenner said, “I find it now impossible to refute the nearly unanimous wisdom of the science” that vaccines are safe. “We have a lot to feel aggrieved about, but we’re not going to get justice with the wrong facts and a meat cleaver.”
+
+And indeed, when you get more granular than Kennedy’s banner ideas about the environment and corporate capture and the forever-wars industry, what you find is not just wrong facts, or even just the “nutcase” or “anti-vaxx” stuff, but inconsistency, hypocrisy, and a deference to the status quo.
+
+The candidate’s environmental commitments, for example, go sideways when it comes to cryptocurrency. Kennedy delivered the keynote address at the Bitcoin 2023 conference this year, in which he said he would prevent bitcoin from being regulated as a security, even though it has proved wildly volatile and produces considerable CO2 emissions, which one 2022 study estimated to be comparable to those of the entire country of Greece. He has acknowledged the environmental pitfalls yet is still accepting campaign donations in bitcoin.
+
+While he has railed at billionaires, he has described Sacks and Musk as “incredibly patriotic and incredibly committed to democracy.” He seems largely uninterested in many progressive economic-policy ideas, including a wealth tax, universal basic income, or a federal jobs guarantee, and regularly reaffirms that he is “a free-market-capitalism kind of guy.”
+
+Kennedy’s anti-interventionist commitments seem to stop at his support for Israel, which he continually asserts. His positions on immigration and guns are so outside the liberal-left mainstream that people have suggested he is running in the wrong primary. When recently asked at a town hall what he would do to halt the proliferation of semi-automatic weapons, he replied, “I’m not going to take people’s guns away.” And during the Twitter Spaces conversation with Musk and Sacks in June, he said he was going to “seal the border permanently.” He told the *Breaking Points* podcast that he wants to shift spending out of a military-industrial interventionist mind-set and into “Fortress America — arming ourselves to the teeth at home.”
+
+Kennedy insists, “I still consider myself a Democrat, and I have all the values that I grew up with, nothing changed.” When I told him I am often a critic of Biden from the left, he nodded and said, “Me too.” But when I asked which other members of the party he finds promising, he came up blank. When I noted that there are lawmakers in the party, like the Squad, who do give voice to many of the leftist-sounding critiques he makes, he shrugged them off as having “caved” on U.S. support of Ukraine before immediately changing the subject to the “warmongers” Biden and [Hillary Clinton](https://nymag.com/tags/hillary-clinton/). Kennedy recently bumped into Clinton at a Las Vegas event. “I knew it was going to be awkward,” he said, “because her Zeitgeist is pro-war and pro-vaccine … But I went up and said hello.” Clinton just looked at him, he told me, “and said, ‘I don’t know what to say.’” Reached for comment, Clinton said, “I still don’t.”
+
+If Kennedy has a hard time saying anything nice about any other Democrat, he speaks with nimble warmth about members of the team he would ostensibly be trying to beat should he find himself in the general election. Kennedy called Tucker Carlson “breathtakingly courageous.” This spring, he posted a photo of himself with far-right activist James O’Keefe, who has used deceptively edited videos as attack vehicles against ACORN, Planned Parenthood, and NPR.
+
+He told me he would rather run against Trump than Ron DeSantis because “I feel like I can really beat Trump at debates. I have an advantage that nobody else has because I can hold him responsible for the lockdowns.” Like many in his party, Kennedy had been friendly with Trump. He met with him soon after he was elected president to discuss the danger of vaccines. “Then he sold out to Pfizer,” he told me. “And I would love to bring that up to his face and confront him with that and his cowardice in terms of not standing up to Fauci, which I don’t think anybody else can.” He added, “I’ve known him for years. I’ve beat him twice in lawsuits back in the old days, and I feel like I’ll enjoy that part.”
+
+“Look at my Twitter,” he said. “It’s one after the other: ‘I’m a Republican, I voted for Trump. I’m going to vote for you.’” For his part, Trump, a connoisseur of primary dynamics who is clearly enjoying the heartburn Kennedy’s campaign is causing, said recently, “You know, he’s a commonsense guy and so am I, so whether you’re conservative or liberal, common sense is common sense.”
+
+Kennedy has publicly expressed his sympathies for DeSantis’s stated desire to “burn” the NIH “to the ground,” casually aligning himself with a governor who has gutted Florida’s education system, all but banned abortion there, and signed a law that permits the state to remove minors who have been given access to gender-affirming health care from their families. To me, he said, “All of my interactions with DeSantis have been extremely friendly, and I really like his wife, Casey, and I’ve had good relationships with him, and I agree with a lot of the stuff he did during COVID.” On the other hand, he went on, “My wife can’t stand him; she’s from Florida, and she is *done,* so I can’t even mention his name in our house.”
+
+
+*American Values* is also a laundering of a lot of dirty Kennedy linen. There is but one mention of Chappaquiddick and lots of florid encomiums about how devoted everyone was to one another with little mention of the famously chronic infidelity that ran rampant in the family. He lauds ancient Grandma Rose for her “curiosity about people of all backgrounds,” including “fishermen, actors, cabbies, political leaders, bus drivers, tourists, movie stars, heads of state, strangers in elevators,” a list that suggests that the full and dazzling range of humanity may fall into three categories: famous people, people who transport them to places, and others they may meet by chance on Cape Cod.
+
+When I asked him over lunch about why he wanted me to read that book over all the others — about mercury, about how his cousin definitely didn’t murder his neighbor in 1975, about Fauci, about Francis of Assisi — Kennedy said, “That’s my favorite.”
+
+He is leaning hard into his family in this contest; his logo even borrows the iconography of his father’s 1968 campaign. It makes it all the more awkward that almost no members of the Kennedy family are supporting him. Many have already publicly endorsed Biden, who employs at least three Kennedys in his administration. Kennedy’s sister, the filmmaker Rory Kennedy, told CNN, “Due to a wide range of Bobby’s positions, I’m supporting President Biden.” On the day Kennedy filed his paperwork with the Federal Election Commission, his cousin Bobby Shriver tweeted that it was “a good day” to remind everyone he had been an early supporter of Biden in the 2016 primary.
+
+I asked Kennedy about his relationships with the relatives who disapprove of his campaign. “I understand people are going to disagree with me,” he said, “and that I just need to maintain my spiritual center and love people, even though I sometimes have to love them from a distance.” He then started searching his phone to show me “breakup texts” from friends, most of which he received during his COVID activism. He tells me at least one was from his longtime family friend and adviser Tim Hagan. (Hagan did not respond to multiple requests for comment.) He gave me a hangdog look and said, “A lot of times you make decisions that are the correct decisions, but they hurt people you really love. Breaking up with the girlfriend, whatever, they’re hurtful and they feel terrible, but it’s the right thing to do. I feel like I have to make up my mind about what’s the right thing and then do it and try to comfort people who are hurt by it and not return hate with hate or anything like that, but keep walking, keep up the positive high vibrations and not descending to lower vibrations.” The people I spoke to for this piece who have been close to Kennedy and his family, all of whom declined to speak on the record, described the distress and heartache his candidacy is causing among those who care for him.
+
+Much has been made of the awkward position in which his campaign puts his wife, a star of *Curb Your Enthusiasm* who has spent her career among fellow Hollywood liberals. To me, he said that Hines’s opinion is the only one he cares about, that he plays to “an audience of one.” He peppers his conversation with jokes about how much his wife disagrees with him, telling me she couldn’t read his Fauci book, despite trying several times, because “it just made her depressed.” Yet he is out here running for president. And for all her protestations, she is out there publicly supporting him.
+
+The assumption that Kennedy would enter politics has been long-standing; this magazine put him on its cover in 1995, labeling him “a New York political player with a future.” He recalled he had considered running in 2000 for [Daniel Patrick Moynihan](https://nymag.com/news/politics/68317/)’s vacated New York Senate seat, the one Clinton wound up winning. “Because I was having family problems, I decided not to,” he said. Then when Clinton was tapped to head the State Department in 2008, Governor [David Paterson](https://nymag.com/intelligencer/tags/david-paterson/) “called me and offered me her Senate seat,” he said. But Kennedy declined, saying he wanted to spend more time with his wife and six children. (Paterson [denies](https://twitter.com/nygovpaterson55/status/1681019685456826368?s=46&t=FMp59rJjlKR_ATJkUW6X1g) ever making this offer.)**\*** I asked if he regretted that choice.
+
+No, he said. “It was the right decision at the time. My wife took her own life not long after. My kids needed me. There’s a lot of things that I would do differently if I could do the whole thing over again, but you don’t get that choice, and that’s not one of them.”
+
+Kennedy and his second wife, [Mary Richardson Kennedy](https://nymag.com/tags/mary-richardson-kennedy/), the best friend of his sister Kerry, announced their separation in 2010. In 2012, Mary hanged herself in an outbuilding of their home in Mount Kisco. More than a year later, the New York *Post* published excerpts of a diary from earlier in his marriage in which he kept an account of the 16 women he’d had sex with that year. In 2014, he married Hines.
+
+
+He was in fact banned from Instagram during the depths of the pandemic, though his account has since been reinstated. Still, reality doesn’t match up with his self-depiction as a rejected outsider. To date, his campaign has been covered at length in profiles in [*Time*](https://time.com/6287001/rfk-jr-interview-2024-campaign/)*,* the Washington [*Post*](https://www.washingtonpost.com/politics/2023/06/05/rfk-jr-democratic-primary-biden/)*,* the New York [*Times*](https://www.nytimes.com/2023/06/28/us/politics/rfk-democrats-election.html)*,* [*The Atlantic*](https://www.theatlantic.com/politics/archive/2023/06/robert-f-kennedy-jr-presidential-campaign-misinformation-maga-support/674490/)*,* and now this magazine. His books are distributed by Simon & Schuster, and he has promoted those books on Bill Maher’s show and Fox News.
+
+Being shunned in any way for ideas that, when it comes to vaccines, are not just about individual choice but about our collective responsibility is perhaps anathema to people raised to assume their voices would be heard and understood as legitimate. Public-health directives during COVID were crude and sometimes wrong — messaging on masking changed repeatedly, masking outdoors now seems silly, the school closures lasted longer than they should have — but the objections made by people like Kennedy were not rooted in special advance scientific knowledge. Rather, they stemmed from the fury of normally powerful people affronted by the argument that their individual impulses put them on the wrong side of a moral question of communal engagement and compassion. It is a dynamic many managed to reframe as their willingness to stand in patriotic challenge to weak-minded, compliant, vaccinated sheep. And it is the type of environment in which men born with immense wealth and power — the kind who casually mention that governors have called and offered them Senate seats that they have turned down — can recast themselves as martyred heroes.
+
+“He’s been pilloried in the press,” [John Gilmore](https://time.com/6287001/rfk-jr-interview-2024-campaign/), head of his super-PAC, told *Time.* “He’s lost jobs. He’s been pushed out of organizations, he gets trashed sometimes by members of his own family. So he’s not a poser, to say the least.”
+
+But of course he’s a poser. This entire campaign is a pose, as is his outsider stance. He is a Kennedy. He is the fifth member of his family to run for president. His sister Kerry was married to the man who would become the governor of New York, whose brother was a television journalist; his cousin Maria was married to the governor of California, who also happened to be a movie star. His grandfather owned a movie studio. He has written, in *American Values,* of attending the 1960 Democratic convention at which his uncle was nominated; he was 6, and his family stayed at the home of Marion Davies, the actress and the mistress of his grandfather’s good friend William Randolph Hearst. At that convention, Frank Sinatra hosted cocktail parties celebrating his family. Kennedy’s own wife is a star whom he met through another television star, his friend [Larry David](https://nymag.com/tags/larry-david/), who recently offered the *Times* this classic clarification about his relationship with the candidate: “Yes love and support, but I’m not ‘supporting’ him.”
+
+Over lunch in New Hampshire, I asked Kennedy how his conversation with Republican New Hampshire governor Chris Sununu had gone following his address to the state legislature; Kennedy told me, “It was nice. I knew his father” — who was also governor. It can seem as if Robert F. Kennedy Jr. knows the father of every powerful person in America. Perhaps more important, they knew his father and his uncles and his grandfathers.
+
+So he gets traction where no one else would. His relationship with the political media, which has published him, written about him, and seen him as a full and flawed and interesting human, has always been guided by his core identity as an *insider,* a member of the family that this country was taught to love above all others and to pity in their many public tragedies. As a journalist who has been told for decades that my empathy for the female candidates I often cover is probably overemotional and built too strongly on personal identification, let me just tell you that you should never stand between a white male political journalist over the age of 40 and his *feelings* about the Kennedys.
+
+I was a young person in journalism in New York at the turn of the millennium when a lot of people I worked for and with were Kennedy’s dining companions, buddies, and neighbors. Peter Kaplan (another of my former bosses), then editor of the New York *Observer,* had been his roommate at Harvard and was one of his best friends. Kennedy and his cousin John Jr. — who ran the magazine *George* — were big handsome puppies who frolicked among a generation of political junkies who had grown up worshipping their dads and then wound up at the same schools, jobs, and parties as the sons. I saw this at *Talk* and the *Observer* and Salon; it was true at *The New Yorker* and the New York *Times* and *The New Republic* and *The Atlantic* and the places that published Kennedy from the 1970s on, providing him the mainstream credentials he cited when I asked him about his preparation for the presidency. For what it’s worth, in those same years, I was often asked to cover Trump, then a local celebrity and bargain-basement version of a Kennedy himself, an easy call to get a quote to fill a column, with every mention making his name more recognizable, his words more legitimate. *How do we think these guys got here?*
+
+
+If he can have that effect on me, what must his draw be for those who have not spent hours reading about thimerosal and AZT and Diebold machines just double-checking that all this stuff he says with such assuredness is, indeed, nonsense? Imagine how strong it could be for millions of scared Americans who look at him and see shadows of people they’ve lost, of men the country has lost.
+
+If he were your uncle, you would likely consider that he is fighting some serious psychological headwinds. His own uncle was assassinated when Bobby was 9. He was pulled from school at 14 and flown to the deathbed of his father, also assassinated. His cousin drove a plane into the sea on the way to Bobby’s sister’s wedding. One brother died in a skiing accident, another of a drug overdose. His wife died by suicide. All this in a family in which his grandfather’s dictum was “There will be no crying in this house.”
+
+If he were your uncle, you also might try hard not to pick a fight with him at Thanksgiving, or maybe you would eagerly pick a fight with him at Thanksgiving. And maybe you would tussle lightly with your parents and siblings and cousins about whether you felt sorry for him or whether he was actually just an asshole.
+
+But if he were your uncle, he would not be performing surprisingly well in a Democratic presidential primary and gobbling the attention of the national press with his every word. That he is tells us as much about this country’s broken systems as any of his diatribes do.
+
+And it’s not benign. Because while, no, he is certainly not likely to win the Democratic nomination or ever become president, he could do well in a rogue New Hampshire primary in which Biden is declining to participate, and his performance in that state could trigger further distrust in our elections and throw more fuel on the legitimacy crisis that is raging across this democracy — a crisis that is dangerous, insurrectionist, violent, and terrifying. This campaign will mean his views gain a broader audience, and that too is terrifying when it comes to the erosion of the public’s understanding of disease, science, and public-health measures.
+
+And then there is the bracing reality that, here in Trump’s America, another clearly damaged man, a man whose own close-knit family has waved red flags about his fitness for office, is getting this far in the anti-Trump party.
+
+Talbot observed to me that Kennedy’s forerunners had a brain trust around them: “They had people who told them when they were going too far, gave them advice — Ted Sorensen, Arthur Schlesinger Jr., Peter Edelman.” Kennedy used to have that kind of protective support from the journalists and politically powerful friends who shined him up, in many cases literally editing his words. But Kaplan died, his cousin died, and Hagan broke up with him.
+
+Now his brain trust appears to be the hyperonline, hard-right masculinity influencers who give him the approval he craves and encourage him to do things like post videos of himself shirtless, his chest and arms improbably pumped, doing nine janky push-ups.
+
+Not so distant from this performance of retro white machismo is the fact that at least some of the blame for this wretched state of affairs lies with Biden and the Democratic Party. When elected, Biden promised to be a bridge president: to formulate, alongside the equally senescent leadership of his party, a succession plan of some sort. But these aging leaders have not done that, so here we are with some of the anti-Biden energies among Democratic voters getting directed toward a man who looks like the saviors of old, a glitchy hologram of fabled politicians who once represented youth and hope.
+
+He never, ever, ever should have been here. In this position. In these pages, in this context. He should never have been a politician or a public figure at all. He should have been a veterinarian.
+
+In *American Values,* amid all his bizarre hagiography of his family members and rehashing of the Bay of Pigs, is story after story after story of pure delight and joy and love and fulfillment: There are the falcons and hawks and pigeons, the Komodo dragons, the matricidal coati, a red-tailed hawk named Morgan. There’s a California sea lion, Sandy, who “took up residence in our swimming pool” and “ate mackerel by the barrel, devouring everything but the eyeballs, which we found scattered like marbles across the pool, patio and lawn.” One day, after causing a traffic jam on the Georgetown Pike, Sandy, like the dragons, winds up at the National Zoo. And how about Carruthers, the 16-pound leopard tortoise brought back from Africa under the diplomatic protection of his uncle Sargent Shriver in Ethel Kennedy’s Gucci suitcase? Carruthers spent 21 years roaming the house at Hickory Hill in Virginia alongside “ten horses, eleven dogs, a donkey, two goats, pigs … a 4-H cow, chickens, pheasants, ducks, geese, forty closely related rabbits” and Hungarian homing pigeons, a nocturnal honey bear who “slept away his days in the playroom crawl space,” and a jill ferret who “fed her pups under the kitchen stove.”
+
+“In those days,” he writes of his childhood, “whenever anybody asked me about my future plans, I replied without hesitation: I wanted to be a veterinarian or a scientist.” But as he would tell Tablet, “When my dad died, my priorities reoriented, and I felt kind of an obligation to pick up the torch. So I went on a different path, which ended up in law school.” Only as he was getting sober, in his telling, did he realize he had to find some sort of middle ground and turned to environmental law.
+
+This guy could have been patching up owl wings in Virginia, California, or New Hampshire, just like George W. Bush (the guy he’s sure stole the 2004 election) might have enjoyed a modest career painting in Kennebunkport or Texas.
+
+But this country, with its political system built around white patriarchal ideals of who powerful men are supposed to be, and its very limited view of what other kinds of power might look like, has created too irresistible an opportunity for someone with a famous name, a tremendous ego, and a persecution complex. So here we are, eight years after Trump descended the elevator in Trump Tower, listening to a man talking about ivermectin and the fascism of Fauci and the castration of frogs and watching him run riot in a Democratic primary.
+
+*\*This article has been updated to reflect* *that former New York governor David Paterson claims he did not offer Kennedy an open Senate seat.*
