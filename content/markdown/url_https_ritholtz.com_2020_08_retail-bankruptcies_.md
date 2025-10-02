@@ -1,7 +1,7 @@
 # Retail Bankruptcies
 
 **Source**: https://ritholtz.com/2020/08/retail-bankruptcies/
-**Extracted**: 2025-10-02T22:12:06.518996+00:00
+**Extracted**: 2025-10-02T22:16:15.821410+00:00
 
 ---
 

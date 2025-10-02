@@ -1,7 +1,7 @@
 # How Decentralized Really Are Blockchains.Html
 
 **Source**: https://marginalrevolution.com/marginalrevolution/2022/01/how-decentralized-really-are-blockchains.html
-**Extracted**: 2025-10-02T22:12:43.759267+00:00
+**Extracted**: 2025-10-02T22:15:55.952544+00:00
 
 ---
 

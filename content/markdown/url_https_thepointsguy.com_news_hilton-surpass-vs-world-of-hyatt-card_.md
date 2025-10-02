@@ -1,7 +1,7 @@
 # Hilton Surpass Vs World Of Hyatt Card
 
 **Source**: https://thepointsguy.com/news/hilton-surpass-vs-world-of-hyatt-card/
-**Extracted**: 2025-10-02T22:12:06.776878+00:00
+**Extracted**: 2025-10-02T22:16:16.195020+00:00
 
 ---
 

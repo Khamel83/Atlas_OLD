@@ -1,7 +1,7 @@
 # George Church Diy Coronavirus Vaccine
 
 **Source**: https://www.technologyreview.com/2020/07/29/1005720/george-church-diy-coronavirus-vaccine/
-**Extracted**: 2025-10-02T22:12:09.033280+00:00
+**Extracted**: 2025-10-02T22:15:14.825693+00:00
 
 ---
 

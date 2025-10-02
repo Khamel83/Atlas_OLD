@@ -1,7 +1,7 @@
 # Geoengineering Is The Only Solution To Our Climate Calamities
 
 **Source**: https://www.wired.com/story/geoengineering-is-the-only-solution-to-our-climate-calamities/
-**Extracted**: 2025-10-02T22:12:03.450065+00:00
+**Extracted**: 2025-10-02T22:16:11.900000+00:00
 
 ---
 

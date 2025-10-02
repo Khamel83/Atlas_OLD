@@ -1,7 +1,7 @@
 # Us Cities Shrinking Why New York Los Angeles.Html
 
 **Source**: https://slate.com/business/2021/02/us-cities-shrinking-why-new-york-los-angeles.html
-**Extracted**: 2025-10-02T22:11:57.332030+00:00
+**Extracted**: 2025-10-02T22:16:04.865903+00:00
 
 ---
 

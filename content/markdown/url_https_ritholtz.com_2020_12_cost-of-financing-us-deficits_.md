@@ -1,7 +1,7 @@
 # Cost Of Financing Us Deficits
 
 **Source**: https://ritholtz.com/2020/12/cost-of-financing-us-deficits/
-**Extracted**: 2025-10-02T22:12:02.034264+00:00
+**Extracted**: 2025-10-02T22:16:10.421173+00:00
 
 ---
 
