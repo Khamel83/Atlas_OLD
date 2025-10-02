@@ -1,7 +1,7 @@
 # Alila Ventana Big Sur Goes All Inclusive
 
 **Source**: https://thepointsguy.com/news/alila-ventana-big-sur-goes-all-inclusive/
-**Extracted**: 2025-10-01T05:34:32.974325+00:00
+**Extracted**: 2025-10-02T22:12:09.859552+00:00
 
 ---
 

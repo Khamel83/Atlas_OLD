@@ -1,7 +1,7 @@
 # What If You Could Do It All Over
 
 **Source**: https://www.newyorker.com/magazine/2020/12/21/what-if-you-could-do-it-all-over
-**Extracted**: 2025-10-01T05:34:23.409323+00:00
+**Extracted**: 2025-10-02T22:12:00.836276+00:00
 
 ---
 

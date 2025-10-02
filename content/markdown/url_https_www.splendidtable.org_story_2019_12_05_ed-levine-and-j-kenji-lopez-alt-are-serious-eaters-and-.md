@@ -1,7 +1,7 @@
 # Ed Levine And J Kenji Lopez Alt Are Serious Eaters And Dedicated Food Nerds
 
 **Source**: https://www.splendidtable.org/story/2019/12/05/ed-levine-and-j-kenji-lopez-alt-are-serious-eaters-and-dedicated-food-nerds
-**Extracted**: 2025-10-01T05:34:27.022140+00:00
+**Extracted**: 2025-10-02T22:12:04.194557+00:00
 
 ---
 

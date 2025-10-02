@@ -29,7 +29,7 @@ logger = logging.getLogger(__name__)
 class DatabaseManager:
     """Manages all database operations for Atlas v2"""
 
-    def __init__(self, db_path: str = "data/atlas_v2.db"):
+    def __init__(self, db_path: str = "../data/atlas.db"):
         self.db_path = Path(db_path)
         self.db_path.parent.mkdir(parents=True, exist_ok=True)
 

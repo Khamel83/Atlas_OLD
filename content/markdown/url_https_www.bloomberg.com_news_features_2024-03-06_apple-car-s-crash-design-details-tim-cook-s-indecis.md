@@ -1,7 +1,7 @@
 # Apple Car S Crash Design Details Tim Cook S Indecision Failed Tesla Deal
 
 **Source**: https://www.bloomberg.com/news/features/2024-03-06/apple-car-s-crash-design-details-tim-cook-s-indecision-failed-tesla-deal
-**Extracted**: 2025-10-01T05:33:57.148653+00:00
+**Extracted**: 2025-10-02T22:12:32.888982+00:00
 
 ---
 

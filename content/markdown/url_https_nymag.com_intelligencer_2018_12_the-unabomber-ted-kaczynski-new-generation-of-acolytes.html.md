@@ -1,7 +1,7 @@
 # The Unabomber Ted Kaczynski New Generation Of Acolytes.Html
 
 **Source**: https://nymag.com/intelligencer/2018/12/the-unabomber-ted-kaczynski-new-generation-of-acolytes.html
-**Extracted**: 2025-10-01T05:34:33.648559+00:00
+**Extracted**: 2025-10-02T22:12:10.596775+00:00
 
 ---
 

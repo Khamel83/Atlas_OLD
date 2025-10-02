@@ -1,7 +1,7 @@
 # Ron Perelman.Html
 
 **Source**: https://www.nytimes.com/2022/01/07/style/ron-perelman.html
-**Extracted**: 2025-09-30T20:04:43.951444+00:00
+**Extracted**: 2025-10-01T13:40:27.081980+00:00
 
 ---
 

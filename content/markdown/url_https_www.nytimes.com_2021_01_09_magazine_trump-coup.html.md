@@ -1,7 +1,7 @@
 # Trump Coup.Html
 
 **Source**: https://www.nytimes.com/2021/01/09/magazine/trump-coup.html
-**Extracted**: 2025-09-30T20:04:00.388349+00:00
+**Extracted**: 2025-10-01T13:40:31.908850+00:00
 
 ---
 

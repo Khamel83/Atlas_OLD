@@ -1,7 +1,7 @@
 # The Parallel Universe Of Ivanka Trump Americas Disassociated Princess
 
 **Source**: https://www.vanityfair.com/news/2020/06/the-parallel-universe-of-ivanka-trump-americas-disassociated-princess
-**Extracted**: 2025-10-01T05:34:33.108447+00:00
+**Extracted**: 2025-10-02T22:12:10.064276+00:00
 
 ---
 

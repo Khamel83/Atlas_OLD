@@ -30,7 +30,14 @@ class RealContentProcessor:
     async def __aenter__(self):
         self.session = aiohttp.ClientSession(
             timeout=aiohttp.ClientTimeout(total=30),
-            headers={'User-Agent': 'Mozilla/5.0 (compatible; Atlas-Content-Processor/1.0)'}
+            headers={
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+                'Accept-Language': 'en-US,en;q=0.5',
+                'Accept-Encoding': 'gzip, deflate',
+                'Connection': 'keep-alive',
+                'Upgrade-Insecure-Requests': '1',
+            }
         )
         return self
 
@@ -50,10 +57,13 @@ class RealContentProcessor:
 
             # Get content details from database
             content_info = await self.db_manager.get_content_details(content_id)
+            logger.info(f"🔍 db_manager.get_content_details result: {content_info}")
+
             if not content_info:
+                logger.info(f"🔍 Trying fallback query for {content_id}")
                 # Try getting from processing_queue directly
                 import aiosqlite
-                async with aiosqlite.connect("atlas_v2/data/atlas_v2.db") as conn:
+                async with aiosqlite.connect(self.db_manager.db_path) as conn:
                     cursor = await conn.execute("""
                         SELECT content_id, source_url, source_name, content_type
                         FROM processing_queue
@@ -61,8 +71,10 @@ class RealContentProcessor:
                     """, (content_id,))
 
                     row = await cursor.fetchone()
+                    logger.info(f"🔍 Fallback query result: {row}")
 
                 if not row:
+                    logger.error(f"❌ Content not found in either table for {content_id}")
                     return {"status": "failure", "message": "Content not found"}
 
                 content_info = {
@@ -73,6 +85,7 @@ class RealContentProcessor:
                     'title': row[2],
                     'metadata': {}
                 }
+                logger.info(f"🔍 Built content_info from fallback: {content_info}")
 
             source_url = content_info.get('source_url')
             content_type = content_info.get('content_type')
@@ -114,6 +127,7 @@ class RealContentProcessor:
             # Try transcript-specific URLs first
             transcript_url = self.get_transcript_url(url)
             actual_url = transcript_url if transcript_url else url
+            logger.info(f"🔗 Converted to transcript URL: {actual_url}")
 
             async with self.session.get(actual_url) as response:
                 if response.status != 200:
@@ -175,9 +189,10 @@ class RealContentProcessor:
             else:
                 if transcript_content:
                     logger.warning(f"Found transcript but too short: {len(transcript_content)} characters")
+                    return {"status": "no_content", "message": f"Transcript too short: {len(transcript_content)} characters"}
                 else:
                     logger.warning("No transcript content found")
-                return {"status": "failure", "message": "No substantial transcript found"}
+                    return {"status": "no_content", "message": "No transcript available for this episode"}
 
         except Exception as e:
             logger.error(f"❌ Transcript extraction failed: {e}")
@@ -357,7 +372,7 @@ class RealContentProcessor:
         """Store the extracted content"""
         try:
             # Create markdown file
-            content_dir = f"atlas_v2/content/transcripts"
+            content_dir = f"../atlas_v2/content/transcripts"
             import os
             os.makedirs(content_dir, exist_ok=True)
 
@@ -383,20 +398,15 @@ class RealContentProcessor:
             async with aiosqlite.connect(self.db_manager.db_path) as db:
                 await db.execute("""
                     INSERT OR REPLACE INTO processed_content
-                    (content_id, content_type, content, metadata_json, created_at)
-                    VALUES (?, ?, ?, ?, ?)
+                    (content_id, title, url, source, content_type, raw_path, created_at)
+                    VALUES (?, ?, ?, ?, ?, ?, ?)
                 """, (
                     content_id,
+                    result.get('title', content_info.get('title', 'Unknown')),
+                    content_info.get('source_url', result.get('source_url')),
+                    content_info.get('source_name', 'Unknown'),
                     content_info.get('content_type', 'unknown'),
-                    result['content'],
-                    json.dumps({
-                        'title': result.get('title'),
-                        'source_url': result.get('source_url'),
-                        'file_path': filepath,
-                        'content_length': len(result['content']),
-                        'extraction_method': 'real_processor',
-                        'processed_at': datetime.now().isoformat()
-                    }),
+                    filepath,
                     datetime.now().isoformat()
                 ))
                 await db.commit()

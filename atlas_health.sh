@@ -1,141 +1,101 @@
 #!/bin/bash
-# Atlas Real-Time Health Score - Log-Stream Version
-# Provides single KPI metric using new log-stream analytics
+"""
+Atlas Health Check - Single KPI Metric
+Provides instant status without searching through logs
 
-echo "🔍 Atlas Health Score - Log-Stream Analytics"
-echo "=============================================="
+Returns:
+- Health score (0-100)
+- Status category
+- Brief explanation
+- Auto-fix status
+"""
 
-# Check if analytics engine exists
-if [ ! -f "atlas_analytics.py" ]; then
-    echo "❌ Analytics engine not found"
-    exit 1
-fi
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ATLAS_DIR="$SCRIPT_DIR/atlas_v2"
 
-# Get health score from analytics engine
-HEALTH_DATA=$(python3 -c "
-from atlas_analytics import AtlasAnalytics
-import json
-try:
-    analytics = AtlasAnalytics()
-    health = analytics.get_health_score()
-    print(json.dumps(health))
-except Exception as e:
-    print(json.dumps({'error': str(e)}))
-")
+# Colors for output
+RED='\033[0;31m'
+YELLOW='\033[1;33m'
+GREEN='\033[0;32m'
+BLUE='\033[0;34m'
+NC='\033[0m' # No Color
 
-# Check if we got valid data
-if echo "$HEALTH_DATA" | grep -q "error"; then
-    echo "❌ Error getting health data"
-    echo "$HEALTH_DATA" | python3 -c "import sys, json; data=json.load(sys.stdin); print(f'   Error: {data.get(\"error\", \"unknown\")}')"
-    exit 1
-fi
+# Health check function
+check_atlas_health() {
+    local health_score=0
+    local status="UNKNOWN"
+    local message=""
+    local auto_fix_status="disabled"
 
-# Extract health score and status
-HEALTH_SCORE=$(echo "$HEALTH_DATA" | python3 -c "import sys, json; data=json.load(sys.stdin); print(int(data.get('health_score', 0)))")
-HEALTH_STATUS=$(echo "$HEALTH_DATA" | python3 -c "import sys, json; data=json.load(sys.stdin); print(data.get('status', 'UNKNOWN'))")
+    # Check if Atlas is running
+    if pgrep -f "python.*main.py" > /dev/null; then
+        health_score=$((health_score + 30))
+        status_running="✅"
+    else
+        status_running="❌"
+    fi
 
-# Color codes for status
-if [ "$HEALTH_SCORE" -ge 80 ]; then
-    COLOR="🟢"
-elif [ "$HEALTH_SCORE" -ge 60 ]; then
-    COLOR="🟡"
-elif [ "$HEALTH_SCORE" -ge 40 ]; then
-    COLOR="🟠"
-elif [ "$HEALTH_SCORE" -ge 20 ]; then
-    COLOR="🔴"
+    # Check API health
+    if curl -s http://localhost:8001/health > /dev/null 2>&1; then
+        health_score=$((health_score + 40))
+        status_api="✅"
+    else
+        status_api="❌"
+    fi
+
+    # Check recent activity (logs from last 10 minutes)
+    if [ -f "$ATLAS_DIR/logs/atlas_output.log" ]; then
+        recent_activity=$(find "$ATLAS_DIR/logs" -name "*.log" -mmin -10 | wc -l)
+        if [ "$recent_activity" -gt 0 ]; then
+            health_score=$((health_score + 20))
+            status_activity="✅"
+        else
+            status_activity="⚠️"
+        fi
+    else
+        status_activity="❓"
+    fi
+
+    # Check if auto-fix is enabled
+    if [ -n "$OPENROUTER_API_KEY" ]; then
+        auto_fix_status="enabled"
+        health_score=$((health_score + 10))  # Bonus for having auto-fix
+    fi
+
+    # Determine status category
+    if [ "$health_score" -ge 80 ]; then
+        status="${GREEN}ACTIVE${NC}"
+        emoji="🟢"
+    elif [ "$health_score" -ge 60 ]; then
+        status="${YELLOW}RUNNING${NC}"
+        emoji="🟡"
+    elif [ "$health_score" -ge 40 ]; then
+        status="${YELLOW}IDLE${NC}"
+        emoji="🟠"
+    elif [ "$health_score" -ge 20 ]; then
+        status="${RED}DEGRADED${NC}"
+        emoji="🔴"
+    else
+        status="${RED}STOPPED${NC}"
+        emoji="⚫"
+    fi
+
+    # Generate status message
+    message="Running: $status_running, API: $status_api, Activity: $status_activity, Auto-Fix: $auto_fix_status"
+
+    # Output the result
+    echo "$emoji Atlas Health Score: $health_score/100 ($status)"
+    echo "📊 $message"
+
+    # Return just the score for programmatic use
+    return $health_score
+}
+
+# Main execution
+if [ "$1" = "--score" ]; then
+    check_atlas_health > /dev/null
+    echo $?
 else
-    COLOR="⚫"
-fi
-
-# Display health score
-echo "Health Score: $COLOR $HEALTH_SCORE/100 ($HEALTH_STATUS)"
-
-# Get additional metrics
-METRICS=$(python3 -c "
-from atlas_analytics import AtlasAnalytics
-import json
-try:
-    analytics = AtlasAnalytics()
-    metrics = analytics.get_real_time_metrics()
-    print(json.dumps({
-        'discovered': metrics['totals']['discovered'],
-        'processed': metrics['totals']['processed'],
-        'failed': metrics['totals']['failed'],
-        'success_rate': metrics['totals']['success_rate'],
-        'recent_activity': metrics['recent_activity']['current_hour_processed'],
-        'sources': len(metrics['top_sources'])
-    }))
-except Exception as e:
-    print(json.dumps({'error': str(e)}))
-")
-
-if ! echo "$METRICS" | grep -q "error"; then
-    echo ""
-    echo "📊 Additional Metrics:"
-    echo "$METRICS" | python3 -c "
-import sys, json
-data = json.load(sys.stdin)
-print(f'   Discovered: {data[\"discovered\"]} episodes')
-print(f'   Processed: {data[\"processed\"]} episodes')
-print(f'   Failed: {data[\"failed\"]} episodes')
-print(f'   Success Rate: {data[\"success_rate\"]}%')
-print(f'   Current Hour: {data[\"recent_activity\"]} processed')
-print(f'   Active Sources: {data[\"sources\"]}')
-"
-fi
-
-# Check log files
-echo ""
-echo "📋 System Status:"
-LOG_FILE="atlas_operations.log"
-if [ -f "$LOG_FILE" ]; then
-    LOG_SIZE=$(du -h "$LOG_FILE" | cut -f1)
-    LOG_LINES=$(wc -l < "$LOG_FILE")
-    echo "   Log File: $LOG_FILE ($LOG_SIZE, $LOG_LINES lines)"
-else
-    echo "   Log File: Not found"
-fi
-
-# Check if Atlas manager is running
-if pgrep -f "atlas_manager.py" > /dev/null; then
-    echo "   Atlas Manager: ✅ Running"
-else
-    echo "   Atlas Manager: ❌ Not running"
-fi
-
-# Check if Universal URL processor is running
-if pgrep -f "universal_url_processor.py" > /dev/null; then
-    echo "   Universal URL Processor: ✅ Running"
-else
-    echo "   Universal URL Processor: ❌ Not running"
-fi
-
-# Quick performance test
-echo ""
-echo "⚡ Performance Test:"
-START_TIME=$(date +%s.%N)
-python3 -c "from atlas_analytics import AtlasAnalytics; analytics = AtlasAnalytics(); analytics.update_cache()" 2>/dev/null
-END_TIME=$(date +%s.%N)
-ANALYTICS_TIME=$(echo "$END_TIME - $START_TIME" | bc -l)
-
-if (( $(echo "$ANALYTICS_TIME < 1.0" | bc -l) )); then
-    echo "   Analytics Response: ⚡ ${ANALYTICS_TIME}s (fast)"
-elif (( $(echo "$ANALYTICS_TIME < 3.0" | bc -l) )); then
-    echo "   Analytics Response: 🐢 ${ANALYTICS_TIME}s (normal)"
-else
-    echo "   Analytics Response: 🐌 ${ANALYTICS_TIME}s (slow)"
-fi
-
-# Return health score for scripting
-echo ""
-echo "HEALTH_SCORE=$HEALTH_SCORE"
-echo "HEALTH_STATUS=$HEALTH_STATUS"
-
-# Exit with appropriate code
-if [ "$HEALTH_SCORE" -ge 60 ]; then
-    exit 0  # Good
-elif [ "$HEALTH_SCORE" -ge 40 ]; then
-    exit 1  # Warning
-else
-    exit 2  # Critical
+    check_atlas_health
 fi
