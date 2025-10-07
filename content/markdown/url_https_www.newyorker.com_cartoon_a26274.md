@@ -1,0 +1,8 @@
+# A26274
+
+**Source**: https://www.newyorker.com/cartoon/a26274
+**Extracted**: 2025-10-04T00:16:23.460495+00:00
+
+---
+
+A Cartoon from The New Yorker Skip to main content Newsletter Search Search The Latest News Books &amp; Culture Fiction &amp; Poetry Humor &amp; Cartoons Magazine Puzzles &amp; Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu Facebook X Email Shopping Cartoon by David Ostow Daily Humor The Daily Cartoon, Shouts, and other funny stuff from our Dept. of Hoopla. Sign Up By signing up, you agree to our User Agreement and Privacy Policy & Cookie Statement . This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. News Books &amp; Culture Fiction &amp; Poetry Humor &amp; Cartoons Magazine Crossword Video Podcasts 100th Anniversary Goings On Manage Account Shop The New Yorker Buy Covers and Cartoons Condé Nast Store Digital Access Newsletters Jigsaw Puzzle RSS About Careers Contact F.A.Q. Media Kit Press Accessibility Help User Agreement Privacy Policy Your California Privacy Rights © 2025 Condé Nast. All rights reserved. The New Yorker may earn a portion of sales from products that are purchased through our site as part of our Affiliate Partnerships with retailers. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Condé Nast. Ad Choices Instagram Tiktok Threads X Facebook LinkedIn YouTube

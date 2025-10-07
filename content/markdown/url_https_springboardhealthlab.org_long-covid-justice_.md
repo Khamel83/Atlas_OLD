@@ -1,0 +1,8 @@
+# Long Covid Justice
+
+**Source**: https://springboardhealthlab.org/long-covid-justice/
+**Extracted**: 2025-10-03T23:35:30.777760+00:00
+
+---
+
+Home - Long COVID Justice Skip to content Search Toggle About About Us Our Team Funders &#038; Partners Contact Us Events Projects Projects BIPOC Fellowship and Long COVID Communicators program HIV Complexities Project Listening for the Long Haul Breathing for Justice Long COVID Essentials Naming The Lost NYC Needs Assessment &amp; Action Plan Pandemics Are Chronic (pledge) Reports and Recommendations Resourcing the HIV Community to Face COVID &#038; Long COVID Resources What is Long COVID? Resources + Toolkits Resist mask bans Direct action resource guide Resources for healthcare providers &amp; researchers ME and Long COVID Long COVID is a trans issue Webinars Support Groups Recursos en español Action &#038; Advocacy Action Alerts Donate! Get Involved/Join Us Press Releases &amp; Advocacy Letters Press Resources for Journalists Media &#038; Press Inquiries Menu Search for: Submit Long COVID Justice A Project of Strategies for High Impact We are leading collective efforts to confront the Long COVID crisis, while centering racial, social, economic and disability justice. Our work is done by and for chronically ill and disabled people, our families and communities.&nbsp; Join our Action Network to get action alerts, resources &amp; more! Instagram Bluesky Facebook YouTube Join our Action Network list Open Facebook in a new tab Open Instagram in a new tab Open LinkedIn in a new tab Open YouTube in a new tab Open Bluesky in a new tab &copy; 2025&nbsp; Long COVID Justice

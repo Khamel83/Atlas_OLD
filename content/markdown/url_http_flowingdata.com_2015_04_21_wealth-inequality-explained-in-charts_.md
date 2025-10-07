@@ -1,0 +1,8 @@
+# Wealth Inequality Explained In Charts
+
+**Source**: http://flowingdata.com/2015/04/21/wealth-inequality-explained-in-charts/
+**Extracted**: 2025-10-04T00:31:15.818516+00:00
+
+---
+
+Wealth inequality explained in charts &#8211; FlowingData Membership Books Projects Learning Newsletters Member Login Wealth inequality explained in charts April 21, 2015 Topic Statistical Visualization &nbsp;/&nbsp; economy , income , wealth --> Wealth inequality is a real thing that is complex and a result of various factors. It&#8217;s difficult to capture everything in one chart, so Urban Institute explained wealth inequality in nine charts instead . They start with an animated chart that shows growing inequality over the years (basically a rising spike on the right) and then move into demographic breakdowns for age and race. Then they go into more detail for possible explanations for why certain groups lag behind others. Finishing with a handful of policy recommendations that might shrink wealth inequality, the piece is a nice progression of overview first to more details later. FlowingData Delivered to Your Inbox Email Address Weekly Digest Send me a summary for the week. Related Income inequality, real and personal Posted to Infographics --> Unemployment for different groups Posted to Statistical Visualization --> Shifting Clinton and Trump support for different demographic groups Posted to Infographics --> Get access to courses, tutorials, and more resources. Become a member &rarr; About Contact LinkedIn Instagram Bluesky RSS Copyright &copy; 2007-Present FlowingData. All rights reserved.

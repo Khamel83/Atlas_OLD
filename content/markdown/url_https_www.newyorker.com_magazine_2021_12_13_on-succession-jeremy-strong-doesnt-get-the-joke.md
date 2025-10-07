@@ -1,7 +1,7 @@
 # On Succession Jeremy Strong Doesnt Get The Joke
 
 **Source**: https://www.newyorker.com/magazine/2021/12/13/on-succession-jeremy-strong-doesnt-get-the-joke
-**Extracted**: 2025-10-02T22:15:58.607456+00:00
+**Extracted**: 2025-10-04T01:10:09.609829+00:00
 
 ---
 

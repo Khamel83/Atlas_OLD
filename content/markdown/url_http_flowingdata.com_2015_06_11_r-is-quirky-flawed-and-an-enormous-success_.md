@@ -1,0 +1,8 @@
+# R Is Quirky Flawed And An Enormous Success
+
+**Source**: http://flowingdata.com/2015/06/11/r-is-quirky-flawed-and-an-enormous-success/
+**Extracted**: 2025-10-03T23:19:39.772767+00:00
+
+---
+
+R is quirky, flawed, and an enormous success &#8211; FlowingData Membership Books Projects Learning Newsletters Member Login R is quirky, flawed, and an enormous success June 11, 2015 Topic Coding &nbsp;/&nbsp; lunch talk , R --> Most people who use R on the regular learned the language in the context of a subject outside of programming. They learned R as they learned statistical methods, or they picked up bits of R as they learned about visualization. However, if you learn R purely as just a language &mdash; without the domain-specificity &mdash; or you already program in a different language, R might seem strange at times. In this talk, John D. Cook explains some of the &#8220;quirks&#8221; in R and why, maybe, they&#8217;re not so strange. I picked up R after three semesters of computer science in college, and that little bit of background actually seemed to make learning R a lot easier for me. So maybe the key is to be a horrible programmer at first (I was and still am in some ways), and R won&#8217;t seem so quirky. [via Revolutions ] FlowingData Delivered to Your Inbox Email Address Weekly Digest Send me a summary for the week. Related A guide for applying to data science jobs Posted to Statistics --> Swivel Gets a Data Guy Posted to Apps --> Chromebook Data Science Posted to Statistics --> Get access to courses, tutorials, and more resources. Become a member &rarr; About Contact LinkedIn Instagram Bluesky RSS Copyright &copy; 2007-Present FlowingData. All rights reserved.

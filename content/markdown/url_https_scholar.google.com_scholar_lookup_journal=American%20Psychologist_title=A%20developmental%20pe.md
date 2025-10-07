@@ -1,0 +1,8 @@
+# Scholar Lookup
+
+**Source**: https://scholar.google.com/scholar_lookup?journal=American%20Psychologist&title=A%20developmental%20perspective%20on%20antisocial%20behavior&author=GR%20Patterson&author=BD%20DeBaryshe&author=E%20Ramsey&volume=44&issue=2&publication_year=1989&pages=329-335&pmid=2653143&doi=10.1037//0003-066x.44.2.329&
+**Extracted**: 2025-10-04T00:49:00.094890+00:00
+
+---
+
+Google Scholar Loading... The system can&#39;t perform the operation now. Try again later. Cite Advanced search Find articles with all of the words with the exact phrase with at least one of the words without the words where my words occur anywhere in the article in the title of the article Return articles authored by e.g., "PJ Hayes" or McCarthy Return articles published in e.g., J Biol Chem or Nature Return articles dated between &nbsp;—&nbsp; e.g., 1996 Saved to My library Done Remove article Sorry, some features may not work in this version of Internet Explorer. Please use Google Chrome or Mozilla Firefox for the best experience. Articles Case law Profiles My profile My library Alerts Metrics Advanced search Settings Sign in Sign in Articles Scholar 1 result ( 0.03 sec) My profile My library Lookup [CITATION] [C] Adevelopmental perspective on antisocial behavior GR Patterson, BD DeBaryshe, E Ramsey - American Psychologist, 1989 Save Cite Cited by 38 Related articles Privacy Terms Help About Scholar Search help

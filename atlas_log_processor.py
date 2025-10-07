@@ -243,14 +243,14 @@ class AtlasLogProcessor:
         podcast_name = episode_data.get('podcast_name', '')
         episode_title = episode_data.get('title', '')
         episode_url = episode_data.get('link', '')
-        
+
         print(f"🔍 Searching for transcript: {podcast_name} - {episode_title}")
-        
+
         # First check if we have sources in the discovery matrix
         if hasattr(self, 'discovered_sources') and podcast_name in self.discovered_sources:
             podcast_sources = self.discovered_sources[podcast_name].get('sources', [])
             print(f"Found {len(podcast_sources)} sources in discovery matrix for {podcast_name}")
-            
+
             for src in podcast_sources[:3]:  # Try top 3 sources
                 if src.get('status') == 'working':
                     try:
@@ -266,7 +266,7 @@ class AtlasLogProcessor:
                     except Exception as e:
                         print(f"❌ Failed to fetch {src['url']}: {e}")
                         continue
-        
+
         # Fallback: Use Universal Discovery System
         try:
             print("🌐 Using Universal Discovery System...")
@@ -332,7 +332,7 @@ class AtlasLogProcessor:
         except Exception as e:
             print(f"❌ Local discovery failed: {e}")
 
-            
+
         print(f"❌ No transcript found for {podcast_name} - {episode_title}")
         return None
 

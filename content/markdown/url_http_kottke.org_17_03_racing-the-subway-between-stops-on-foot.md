@@ -1,0 +1,8 @@
+# Racing The Subway Between Stops On Foot
+
+**Source**: http://kottke.org/17/03/racing-the-subway-between-stops-on-foot
+**Extracted**: 2025-10-04T00:51:39.203693+00:00
+
+---
+
+Racing the Subway Between Stops on Foot KOTTKE DOT ORG KOTTKE DOT ORG MENU Member Login Home Membership Newsletter Goods Archive + Tags About/Contact dark mode light mode Advertise here with Carbon Ads Socials & More Newsletter RSS Feed Bluesky Mastodon This site is made possible by member support . 💞 Big thanks to Arcustech for hosting the site and offering amazing tech support. When you buy through links on kottke.org, I may earn an affiliate commission. Thanks for supporting the site! kottke.org. home of fine hypertext products since 1998. Beloved by 86.47% of the web. 🍔 &nbsp; 💀 &nbsp; 📸 &nbsp; 😭 &nbsp; 🕳️ &nbsp; 🤠 &nbsp; 🎬 &nbsp; 🥔 × close posted Mar 15 @ 10:02 AM by Jason Kottke &ensp;·&ensp; gift link Racing the Subway Between Stops on Foot In 2012, Francois De La Taille posted a video of himself racing a Paris Metro train from one station to the next, on foot. He exited the train, dashed out of the station, sprinted down the street (after pausing for a bus crossing the road), ran into the next station (after falling on the stairs), and hopped back onto the same train he&#8217;d just gotten off of. Two years later, James Heptonstall did the same thing on the London Tube and, after a slow start, it went viral. Soon, people from all over the world were racing their hometown subway trains: Taiwan , Stockholm , Hong Kong , etc. If you&#8217;re wondering whether such a thing would be possible in NYC, the answer is yes, even if you pick the wrong door to start with: (via @ftrain ) London London Underground NYC Paris running sports subway video Share

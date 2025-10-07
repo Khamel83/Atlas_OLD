@@ -1,0 +1,8 @@
+# Composite Photos Of Airplanes In Flight
+
+**Source**: http://flowingdata.com/2016/10/20/composite-photos-of-airplanes-in-flight/
+**Extracted**: 2025-10-03T22:49:35.139539+00:00
+
+---
+
+Composite photos of airplanes in flight &#8211; FlowingData Membership Books Projects Learning Newsletters Member Login Composite photos of airplanes in flight October 20, 2016 Topic Data Art &nbsp;/&nbsp; compositing , flights , photography --> Photographer Mike Kelley visited airports around the world, took pictures of airplanes leaving, and then pieced the photos together in a series of composite photos. The result was Airportraits . A bit about the arduous process : I often get asked exactly just how &#8216;real&#8217; these images are. And on one hand, they are as real as they get. I&#8217;d sit in one place for an entire day, and take a burst of pictures of each plane as it crossed in front of me. I’d then take one of those captures, wherever I thought I&#8217;d like that plane to be, and put it on my base image. Every plane in every picture was actually right in front of me at that point in time, and they are all exactly where they were relative to other planes in the frame. If you went to some of these spots, you’d see the exact same thing that I saw. I want to buy a camera. FlowingData Delivered to Your Inbox Email Address Weekly Digest Send me a summary for the week. Related Looking for patterns and structures from the sky Posted to Data Art --> Contrailz: Detailed flight patterns at major airports Posted to Maps --> Where the tourists really flock Posted to Maps --> Get access to courses, tutorials, and more resources. Become a member &rarr; About Contact LinkedIn Instagram Bluesky RSS Copyright &copy; 2007-Present FlowingData. All rights reserved.

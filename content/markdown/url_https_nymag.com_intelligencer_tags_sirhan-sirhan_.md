@@ -1,0 +1,8 @@
+# Sirhan Sirhan
+
+**Source**: https://nymag.com/intelligencer/tags/sirhan-sirhan/
+**Extracted**: 2025-10-03T23:23:21.583777+00:00
+
+---
+
+Sirhan Sirhan - Intelligencer Intelligencer The Cut Vulture The Strategist Curbed Grub Street Magazine Subscribe to the Magazine Give a Gift Subscription Buy Back Issues Current Issue Contents New York Shop Subscribe Sign In Account Profile Saved for later Sign Out Subscribe Give A Gift save d Find this story in your account&#x2019;s &#x2018;Saved for Later&#x2019; section. Comment save d Find this story in your account&#x2019;s &#x2018;Saved for Later&#x2019; section. Displaying all articles tagged: Sirhan Sirhan June 5, 2018 The Powerful Myth of the Would-Be President RFK, 50 Years Later Robert F. Kennedy promised a kind of mind-bending coalition of minorities and white working-class voters that progressives still crave. By Ed Kilgore anniversaries Nov. 23, 2013 Kennedy’s Killer Switches Prisons Coincidence or conspiracy? By Caroline Bankoff not sure what to make of this Feb. 28, 2011 Sirhan Sirhan Doesn’t Remember That Time He Killed RFK People seem to believe he’s not lying. By Dan Amira Like Us Follow Us Follow Follow About Intelligencer About New York Magazine Newsletters Help Contact Press Media Kit We’re Hiring Privacy Terms Ad Choices Accessibility Do not sell or share my personal data intelligencer is a Vox Media Network . &copy; 2025 Vox Media, LLC. All rights reserved.

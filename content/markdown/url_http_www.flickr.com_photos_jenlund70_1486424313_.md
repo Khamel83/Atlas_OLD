@@ -1,0 +1,8 @@
+# 1486424313
+
+**Source**: http://www.flickr.com/photos/jenlund70/1486424313/
+**Extracted**: 2025-10-03T22:59:46.167035+00:00
+
+---
+
+4.366 Braille | 10/04/07 Taken from 37th floor downtown. Loo… | Flickr Explore What’s New New! Recent Photos Trending Events &nbsp; The Commons Flickr Galleries World Map Camera Finder New! Flickr Blog Prints The Print Shop Prints &amp; Wall Art Photo Books ✨ Get Pro Pro Plans Stats Dashboard Get Auto-Uploadr Log In Sign Up ✨ Get Pro Log In Explore What’s New New! Camera Finder New! Trending Events The Commons Flickr Galleries Flickr Blog The Print Shop Prints &amp; Wall Art Photo Books About Jobs Blog Advertise Developers Guidelines Help Privacy Legal Terms Cookies English &larr; &rarr; Back to photostream Jen Lund jenlund70 4.366 Braille 10/04/07 Taken from 37th floor downtown. Looking at Joe's Parking. I liked the pattern of parked cars, it looks like braille. Done 2,302 views 21 faves 8 comments Uploaded on October 5, 2007 Taken on October 4, 2007 Jen Lund By: Jen Lund 4.366 Braille 10/04/07 Taken from 37th floor downtown. Looking at Joe's Parking. I liked the pattern of parked cars, it looks like braille. Done 2,302 views 21 faves 8 comments Uploaded on October 5, 2007 Taken on October 4, 2007 Some rights reserved About Jobs Blog Advertise Developers Cookies Guidelines Privacy Terms Help Report abuse English Legal Privacy Terms Connecting people through photography. About Jobs Blog Advertise Developers Cookies Guidelines Report abuse Privacy Terms English Legal Privacy Terms Connecting people through photography.

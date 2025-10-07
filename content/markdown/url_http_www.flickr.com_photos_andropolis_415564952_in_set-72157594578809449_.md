@@ -1,0 +1,8 @@
+# Set 72157594578809449
+
+**Source**: http://www.flickr.com/photos/andropolis/415564952/in/set-72157594578809449/
+**Extracted**: 2025-10-03T23:07:49.653763+00:00
+
+---
+
+Santa Monica Sunset | This is probably my favorite sunset pi… | Flickr Explore What’s New New! Recent Photos Trending Events &nbsp; The Commons Flickr Galleries World Map Camera Finder New! Flickr Blog Prints The Print Shop Prints &amp; Wall Art Photo Books ✨ Get Pro Pro Plans Stats Dashboard Get Auto-Uploadr Log In Sign Up ✨ Get Pro Log In Explore What’s New New! Camera Finder New! Trending Events The Commons Flickr Galleries Flickr Blog The Print Shop Prints &amp; Wall Art Photo Books About Jobs Blog Advertise Developers Guidelines Help Privacy Legal Terms Cookies English &larr; &rarr; Back to album Andrew Johnson andropolis Santa Monica Sunset This is probably my favorite sunset picture that I took, simply because it's so unusual. I really like the different bands of shape, color and form throughout the image. Done 1,254 views 7 faves 8 comments Uploaded on March 9, 2007 Taken on March 8, 2007 Andrew Johnson By: Andrew Johnson Santa Monica Sunset This is probably my favorite sunset picture that I took, simply because it's so unusual. I really like the different bands of shape, color and form throughout the image. Done 1,254 views 7 faves 8 comments Uploaded on March 9, 2007 Taken on March 8, 2007 All rights reserved About Jobs Blog Advertise Developers Cookies Guidelines Privacy Terms Help Report abuse English Legal Privacy Terms Connecting people through photography. About Jobs Blog Advertise Developers Cookies Guidelines Report abuse Privacy Terms English Legal Privacy Terms Connecting people through photography.

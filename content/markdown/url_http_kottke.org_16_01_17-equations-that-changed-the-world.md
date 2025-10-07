@@ -1,0 +1,8 @@
+# 17 Equations That Changed The World
+
+**Source**: http://kottke.org/16/01/17-equations-that-changed-the-world
+**Extracted**: 2025-10-03T23:28:20.033803+00:00
+
+---
+
+17 equations that changed the world KOTTKE DOT ORG KOTTKE DOT ORG MENU Member Login Home Membership Newsletter Goods Archive + Tags About/Contact dark mode light mode Advertise here with Carbon Ads Socials & More Newsletter RSS Feed Bluesky Mastodon This site is made possible by member support . 💞 Big thanks to Arcustech for hosting the site and offering amazing tech support. When you buy through links on kottke.org, I may earn an affiliate commission. Thanks for supporting the site! kottke.org. home of fine hypertext products since 1998. Beloved by 86.47% of the web. 🍔 &nbsp; 💀 &nbsp; 📸 &nbsp; 😭 &nbsp; 🕳️ &nbsp; 🤠 &nbsp; 🎬 &nbsp; 🥔 × close posted Jan 28 @ 10:50 AM by Jason Kottke &ensp;·&ensp; gift link 17 equations that changed the world In the book In Pursuit of the Unknown , Ian Stewart discusses how equations from the likes of Pythagoras, Euler, Newton, Fourier, Maxwell, and Einstein have been used to build the modern world. I love how as time progresses, the equations get more complicated and difficult for the layperson to read (much less understand) and then Boltzmann and Einstein are like, boom!, entropy is increasing and energy is proportional to mass, suckas! books Ian Stewart In Pursuit of the Unknown mathematics Share

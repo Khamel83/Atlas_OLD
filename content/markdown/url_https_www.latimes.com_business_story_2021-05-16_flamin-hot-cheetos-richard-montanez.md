@@ -1,7 +1,7 @@
 # Flamin Hot Cheetos Richard Montanez
 
 **Source**: https://www.latimes.com/business/story/2021-05-16/flamin-hot-cheetos-richard-montanez
-**Extracted**: 2025-10-02T22:16:02.296498+00:00
+**Extracted**: 2025-10-04T01:10:10.625304+00:00
 
 ---
 

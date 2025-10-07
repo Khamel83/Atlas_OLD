@@ -1,166 +1,68 @@
-# Atlas Development Status - September 28, 2025
+# Atlas Development Status - October 2, 2025
 
-## 📚 **CRITICAL SYSTEM DOCUMENTATION**
-**Reference**: `ATLAS_SYSTEM_DOCUMENTATION.md` - Complete architecture, intent, and lessons learned
-**Purpose**: Comprehensive documentation for understanding system design, data model, and reconstruction guidance
-**Key Asset**: Database with 9,566 extracted transcripts - preserve at all costs
+## 🚨 **CRITICAL SYSTEM AUDIT REQUIRED - BROKEN STATE**
+**Reference**: `rebuild_100225.md` - Comprehensive audit and rebuild analysis
+**Status**: **SYSTEM BROKEN** - Multiple competing processes, zero new content processing
+**Key Asset**: Database with **25,831 content records** (15,977 substantial) - **PRESERVE AT ALL COSTS**
 
-## 🚀 COMPLETE AUTOMATED ATLAS MANAGEMENT SYSTEM + UNIVERSAL URL PROCESSING
+## 🔥 CURRENT CRISIS - SYSTEM IN CHAOS
 
-### ✅ FULLY AUTOMATED - ZERO MANUAL INTERVENTION REQUIRED
-- **9,566 transcripts** extracted and stored
-- **5,167 episodes** queued for continuous processing
-- **312,462 URLs** in universal processing queue
-- **Continuous processing** running 24/7 with auto-restart
-- **374 RSS feeds** monitored (96% expansion from 191)
+### 🚨 BROKEN - IMMEDIATE ATTENTION REQUIRED
+- **ZERO new content** processed since October 2, 2025
+- **Process death spiral**: Atlas gets SIGTERM every 30 seconds
+- **Multiple competing systems**: atlas_manager.py, atlas_v2, systemd services interfering
+- **SystemD auto-restart hell**: Services restart each other in endless loops
+- **Success rate: 0.0%** - No episodes processed successfully
 
-### 🤖 CORE AUTOMATION SYSTEM
-- **`atlas_manager.py`** - Main automation engine with continuous processing
-- **`enhanced_monitor_atlas_fixed.sh`** - Auto-restart and health monitoring
-- **`monitoring_service.py`** - Real-time dashboard on port 7445
-- **`atlas_health.sh`** - Single KPI metric for real-time status
+### 💾 WHAT'S SALVAGEABLE
+- **25,831 content records** in working database (`data/atlas.db`)
+- **15,977 substantial pieces** of extracted content
+- **RSS discovery working** - Can find podcast episodes
+- **User-Agent fixed** - No more HTTP 403 errors
 
-### 📊 REAL-TIME HEALTH MONITORING
-- **Single KPI Command**: `./atlas_health.sh`
-- **Health Score**: 0-100% real-time activity (not historical)
-- **Status Categories**: ACTIVE (80+), RUNNING (60+), IDLE (40+), DEGRADED (20+), STOPPED (<20)
-- **What it measures**: Current system activity + service health + processing activity
+## 📋 REBUILD OPTIONS (See `rebuild_100225.md`)
 
-### 🎯 CURRENT OPERATIONAL STATUS
-- **Database**: 9,566 transcripts successfully extracted
-- **Queue**: 5,167 episodes pending processing
-- **RSS Feeds**: 374 active feeds (expanded from 191)
-- **Services**: Atlas Manager + Monitoring + Enhanced Monitor
-- **Activity**: Real-time processing with auto-restart capabilities
+### Option A: MINIMAL FIX (Recommended - 70% Success)
+- Kill all competing processes
+- Run single `atlas_manager.py` without systemd interference
+- Fix SIGTERM signal source
+- **Time**: 1-2 hours
 
-## SYSTEM ARCHITECTURE - FULLY AUTOMATED
+### Option B: CLEAN SLATE (90% Success)
+- Backup database, delete all code
+- Single simple script for content processing
+- **Time**: 4-6 hours
 
-### Core Components
-```
-atlas/
-├── atlas_manager.py                    # MAIN PROCESSING ENGINE
-├── enhanced_monitor_atlas_fixed.sh     # AUTO-RESTART & HEALTH MONITORING
-├── monitoring_service.py               # REAL-TIME DASHBOARD (port 7445)
-├── atlas_health.sh                     # SINGLE KPI METRIC
-├── config/
-│   ├── podcast_config.csv              # 374 podcast configurations
-│   ├── podcast_rss_feeds.csv           # RSS feed mappings
-│   ├── podcast_sources.json            # 5-source registry
-│   └── article_sources.json            # 9-source registry
-└── logs/
-    ├── atlas_output.log                # Main processing logs
-    ├── enhanced_monitor.log             # Auto-restart logs
-    └── monitoring_output.log            # Dashboard logs
-```
+### Option C: HYBRID SALVAGE (80% Success)
+- Keep database + core logic, rebuild infrastructure
+- **Time**: 6-8 hours
 
-### Real-Time Health Check
-```bash
-# Ask Claude: "What's the Atlas health score?"
-# Claude runs: ./atlas_health.sh
-# Returns: Single number 0-100% + status explanation
-```
+## 🔧 CORE SYSTEM FILES (When Working)
+- **`atlas_manager.py`** - Main entry point (currently dying from SIGTERM)
+- **`universal_url_processor.py`** - Content extraction (User-Agent FIXED)
+- **`data/atlas.db`** - Database with 25,831 records (PRESERVE!)
+- **`monitoring_service.py`** - Dashboard (currently interfering)
+- **`atlas_health.sh`** - Health check (currently useless)
 
-### Automation Workflow
-1. **Continuous Operation**: 24/7 background processing with auto-restart
-2. **Episode Discovery**: Automatic RSS feed parsing from 374 sources
-3. **Queue Management**: Episode-level tracking with status monitoring
-4. **Transcript Extraction**: 5-source registry with quality validation
-5. **Database Storage**: Automatic transcript storage and deduplication
-6. **Health Monitoring**: Real-time activity tracking and service monitoring
-7. **Auto-Recovery**: Immediate restart on service failure
+## 🚨 CURRENT BROKEN STATUS
+- **Database**: 25,831 content records (working) + 15,977 substantial content
+- **New Processing**: **ZERO** - No content processed since 14:00 today
+- **Services**: Multiple competing processes causing chaos
+- **SIGTERM**: Processes killed every 30 seconds by unknown source
+- **SystemD**: Disabled all auto-restart services
+- **Atlas v2**: Disabled (renamed to `atlas_v2_DISABLED_20251002_134357`)
 
-## OPERATIONAL FEATURES
+## 🛠️ IMMEDIATE NEXT STEPS
+1. **Read**: `rebuild_100225.md` for complete audit
+2. **Choose**: Rebuild option (A, B, or C)
+3. **Execute**: Selected rebuild strategy
+4. **Verify**: Content processing works end-to-end
+5. **Monitor**: Ensure no more SIGTERM death spiral
 
-### 🔄 Continuous Processing
-- **Auto-Restart**: Services restart automatically within 2 minutes of failure
-- **Queue Processing**: 5,167 episodes continuously processed
-- **Duplicate Prevention**: No reprocessing of existing content
-- **Quality Filtering**: Network-specific transcript validation
-- **Rate Limiting**: Respectful source access timing
-
-### 📊 Real-Time Monitoring
-- **Health Score**: Single KPI metric (0-100%) for instant status
-- **Activity Tracking**: Recent log activity + service health + queue pressure
-- **Dashboard**: WebSocket monitoring at http://localhost:7445/monitoring/
-- **Alert System**: Critical resource monitoring and automatic recovery
-
-### 🎯 Performance Metrics
-- **Processing Rate**: ~32% transcript extraction success rate
-- **Service Uptime**: Auto-restart ensures continuous operation
-- **Queue Health**: 5,167 episodes pending processing
-- **Source Coverage**: 5 major podcast networks + 9 article sources
-
-## USAGE & OPERATION
-
-### Quick Health Check
-```bash
-# Single command for Atlas status
-./atlas_health.sh
-# Returns: Health score 0-100% + detailed breakdown
-```
-
-### Service Management
-```bash
-# Start continuous operation
-./enhanced_monitor_atlas_fixed.sh
-
-# Monitor in real-time
-tail -f logs/enhanced_monitor.log
-curl http://localhost:7445/health
-```
-
-### Status Interpretation
-- **80-100%**: 🟢 ACTIVE - Atlas actively processing
-- **60-79%**: 🟡 RUNNING - Atlas working but could be more active
-- **40-59%**: 🟠 IDLE - Atlas running but not very active
-- **20-39%**: 🔴 DEGRADED - Services missing or not responding
-- **0-19%**: ⚫ STOPPED - Not working, needs immediate attention
-
-## TECHNICAL SPECIFICATIONS
-
-### Real-Time KPI Calculation
-```bash
-# Components (0-100 scale):
-# - Recent Activity (0-50): Log entries in current hour
-# - System Health (0-50): Running services (Atlas=30, Monitor=10, Enhanced=10)
-# - Queue Pressure (0-10): Bonus for having work to do
-# = Real-time activity score (ignores historical success)
-```
-
-### Database Schema
-- **content table**: 9,566 transcripts with metadata
-- **episode_queue table**: 5,167 episodes with processing status
-- **Status tracking**: pending, found, not_found, error states
-- **Timestamps**: Created/updated times for all operations
-
-### Auto-Restart System
-- **Health Checks**: Every 2 minutes
-- **Service Monitoring**: Process + responsiveness validation
-- **Resource Alerts**: CPU, memory, disk usage thresholds
-- **Automatic Recovery**: Immediate restart on service failure
-
-## DEPLOYMENT STATUS
-
-### ✅ PRODUCTION READY
-- **Continuous Operation**: Auto-restart ensures 24/7 operation
-- **Real-Time Monitoring**: Single KPI metric for instant status
-- **Scalable Architecture**: Handles thousands of episodes
-- **Comprehensive Logging**: Full visibility into operations
-- **Zero Manual Intervention**: Fully automated operation
-
-### 🎯 CURRENT METRICS
-- **Health Score**: Real-time 0-100% activity metric
-- **Processing Queue**: 5,167 episodes pending
-- **Success Rate**: ~32% transcript extraction
-- **RSS Feeds**: 374 sources monitored
-- **Services**: Auto-restart every 2 minutes
-
-### 🚀 CORE PRINCIPLE
-**Atlas is always running. Every episode is either done or in progress. Real-time health monitoring ensures immediate detection of any issues.**
+**BOTTOM LINE**: System has valuable content (25,831 records) but is completely broken due to process management chaos. Atlas v2 made things worse. Need to go back to basics and get ONE working system.
 
 ---
 
-**BOTTOM LINE**: Atlas operates continuously with real-time health monitoring. Ask "What's the Atlas health score?" for instant, accurate status without searching or guessing.
-
-**Last Updated**: 2025-09-28 12:47 UTC
-**Status**: 🚀 CONTINUOUS OPERATION - Real-time monitoring active
+**Last Updated**: 2025-10-02 15:15 UTC
+**Status**: 🚨 BROKEN - Requires immediate rebuild
+**Action**: See `rebuild_100225.md` for complete audit and rebuild options

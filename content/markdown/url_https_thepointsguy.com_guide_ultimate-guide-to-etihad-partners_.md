@@ -1,7 +1,7 @@
 # Ultimate Guide To Etihad Partners
 
 **Source**: https://thepointsguy.com/guide/ultimate-guide-to-etihad-partners/
-**Extracted**: 2025-10-02T22:15:16.147715+00:00
+**Extracted**: 2025-10-04T01:10:30.562303+00:00
 
 ---
 

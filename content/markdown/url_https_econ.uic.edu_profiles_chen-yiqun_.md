@@ -1,0 +1,8 @@
+# Chen Yiqun
+
+**Source**: https://econ.uic.edu/profiles/chen-yiqun/
+**Extracted**: 2025-10-03T22:52:00.588968+00:00
+
+---
+
+Chen, Yiqun | Economics | University of Illinois Chicago University of Illinois Chicago Search the site Toggle Menu Search University of Illinois Chicago Economics About Expand About menu Our Values Who We Are News Department Spotlight Events Contact Us Undergraduate Expand Undergraduate menu Why Economics? Academic Programs Admissions Advising Research Opportunities Student Awards Economics Club Graduate Expand Graduate menu Ph.D. in Economics Admissions Current Students Courses People Expand People menu Faculty Staff Emeritus Faculty Job Market Candidates Seminars UIC LAS +Give UIC.edu Campus Map Search Economics College of Liberal Arts and Sciences Yiqun Chen, PhD Assistant Professor Economics Contact Building &amp; Room: 708 UH Address: 601 S. Morgan St. Email: yqchen@uic.edu CV Link: Yiqun Chen, PhD Related Sites: Yiqun Chen's Homepage About Fields of Interest: Health Economics, Applied Microeconomics &nbsp; &nbsp; Education Ph.D. in Health Policy, Stanford University, 2020 College of Liberal Arts and Sciences Contact Department of Economics 601 S. Morgan St., 725 UH Chicago, IL 60607 Phone: (312) 996-2684 Fax: (312) 996-5533 econ@uic.edu Facebook X UIC.edu Academic Calendar Athletics Campus Directory Disability Resources Emergency Information Event Calendar Job Openings Library Maps UIC Safe Mobile App UIC Today UI Health Veterans Affairs Report a Concern Powered by Red 3.0.51 &copy; 2025 The Board of Trustees of the University of Illinois | Privacy Statement University of Illinois System Urbana-Champaign Springfield Chicago

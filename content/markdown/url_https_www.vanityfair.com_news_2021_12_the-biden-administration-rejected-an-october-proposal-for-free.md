@@ -1,7 +1,7 @@
 # The Biden Administration Rejected An October Proposal For Free Rapid Tests For The Holidays
 
 **Source**: https://www.vanityfair.com/news/2021/12/the-biden-administration-rejected-an-october-proposal-for-free-rapid-tests-for-the-holidays
-**Extracted**: 2025-10-02T22:15:58.301930+00:00
+**Extracted**: 2025-10-04T01:10:08.176692+00:00
 
 ---
 

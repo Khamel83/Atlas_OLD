@@ -1,0 +1,8 @@
+# How To Make A Hattori Hanzo Sword From Kill Bill
+
+**Source**: http://kottke.org/15/07/how-to-make-a-hattori-hanzo-sword-from-kill-bill
+**Extracted**: 2025-10-04T01:02:59.277637+00:00
+
+---
+
+How to make a Hattori Hanzo sword from Kill Bill KOTTKE DOT ORG KOTTKE DOT ORG MENU Member Login Home Membership Newsletter Goods Archive + Tags About/Contact dark mode light mode Advertise here with Carbon Ads Socials & More Newsletter RSS Feed Bluesky Mastodon This site is made possible by member support . 💞 Big thanks to Arcustech for hosting the site and offering amazing tech support. When you buy through links on kottke.org, I may earn an affiliate commission. Thanks for supporting the site! kottke.org. home of fine hypertext products since 1998. Beloved by 86.47% of the web. 🍔 &nbsp; 💀 &nbsp; 📸 &nbsp; 😭 &nbsp; 🕳️ &nbsp; 🤠 &nbsp; 🎬 &nbsp; 🥔 × close posted Jul 21 @ 10:55 AM by Jason Kottke &ensp;·&ensp; gift link How to make a Hattori Hanzo sword from Kill Bill Man at Arms is a YouTube show in which real-life weapons from movies and TV shows are recreated. Recently they made the Bride&#8217;s Hattori Hanzo sword from Kill Bill. They started from scratch by building a furnace from before the Edo period (before 1603) to smelt the iron ore. I know zero about swords, but it looks like these guys really did their homework in making as close to a traditional katana blade as they could. (via devour ) how to Kill Bill movies video Share

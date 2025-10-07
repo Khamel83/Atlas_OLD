@@ -1,0 +1,8 @@
+# Vermeer And Authenticity
+
+**Source**: http://kottke.org/14/07/vermeer-and-authenticity
+**Extracted**: 2025-10-04T00:09:19.476406+00:00
+
+---
+
+Vermeer and authenticity KOTTKE DOT ORG KOTTKE DOT ORG MENU Member Login Home Membership Newsletter Goods Archive + Tags About/Contact dark mode light mode Advertise here with Carbon Ads Socials & More Newsletter RSS Feed Bluesky Mastodon This site is made possible by member support . 💞 Big thanks to Arcustech for hosting the site and offering amazing tech support. When you buy through links on kottke.org, I may earn an affiliate commission. Thanks for supporting the site! kottke.org. home of fine hypertext products since 1998. Beloved by 86.47% of the web. 🍔 &nbsp; 💀 &nbsp; 📸 &nbsp; 😭 &nbsp; 🕳️ &nbsp; 🤠 &nbsp; 🎬 &nbsp; 🥔 × close posted Jul 10 @ 03:21 PM by Jason Kottke &ensp;·&ensp; gift link Vermeer and authenticity In the first two installments of a series about artistic authenticity, Rex Sorgatz writes about five different people&#8217;s efforts to own a Vermeer and how you can get your very own masterpiece . It&#8217;s possible that Vermeer — an artist who many consider the greatest painter of all time — could paint with no more acuity than you or me. Vermeer may have been a simple technologist — but a technologist who could recreate the world with scintillating photographic intensity, centuries before photography was invented, which might actually be a bigger deal than being a good painter. I loved these articles. I wish I would have written them&#8230;I am fascinated with both Vermeer and art forgeries. Good stuff. art crime Johannes Vermeer Rex Sorgatz Share

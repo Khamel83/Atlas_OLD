@@ -1,0 +1,8 @@
+# Intro.Html
+
+**Source**: https://developer.apple.com/library/archive/samplecode/TextEdit/Introduction/Intro.html
+**Extracted**: 2025-10-03T23:43:28.240262+00:00
+
+---
+
+TextEdit Documentation Archive Developer Search Search Documentation Archive TextEdit PDF Companion File Table of Contents Jump To&#133; Download Sample Code Next TextEdit Last Revision: Version 1.9, 2013-08-26 Updated for OS X v10.9 Mavericks. (Full Revision History) Build Requirements: Xcode 5.0 or later, OS X v10.9 or later Runtime Requirements: OS X v10.9 or later. Important: &nbsp;This document is no longer being updated. For the latest information about Apple SDKs, visit the documentation website . This sample contains the source code for the TextEdit application. TextEdit is a simple text editor based on the text system in Cocoa. Next Copyright &#x00a9; 2013 Apple Inc. All Rights Reserved. Terms of Use | Privacy Policy | Updated: 2013-08-26 Sending feedback&hellip; We&rsquo;re sorry, an error has occurred. Please try submitting your feedback later. Thank you for providing feedback! Your input helps improve our developer documentation. How helpful is this document? * Very helpful Somewhat helpful Not helpful How can we improve this document? Fix typos or links Fix incorrect information Add or update code samples Add or update illustrations Add information about... * * Required information To submit a product bug or enhancement request, please visit the Bug Reporter page. Please read Apple's Unsolicited Idea Submission Policy before you send us your feedback.

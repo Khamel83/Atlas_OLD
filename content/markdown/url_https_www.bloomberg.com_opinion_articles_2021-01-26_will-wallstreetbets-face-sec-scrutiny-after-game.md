@@ -1,7 +1,7 @@
 # Will Wallstreetbets Face Sec Scrutiny After Gamestop Rally
 
 **Source**: https://www.bloomberg.com/opinion/articles/2021-01-26/will-wallstreetbets-face-sec-scrutiny-after-gamestop-rally
-**Extracted**: 2025-10-02T22:16:05.635764+00:00
+**Extracted**: 2025-10-04T01:10:15.062056+00:00
 
 ---
 

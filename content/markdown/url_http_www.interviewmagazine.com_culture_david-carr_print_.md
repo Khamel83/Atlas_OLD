@@ -1,0 +1,8 @@
+# Print
+
+**Source**: http://www.interviewmagazine.com/culture/david-carr/print/
+**Extracted**: 2025-10-04T00:54:30.771249+00:00
+
+---
+
+Printed Matter - Interview Magazine X X Art Music Fashion Culture Film Shop Masthead Contact Us Newsletter Subscribe Get the magazine! Newsletter Sign up! Art Music Fashion Culture Film Shop Printed Matter By Stephanie Strauss Photographed by Wenjun Liang Photography wenjun liang --> November 14, 2013 ABOVE: JEANS (FROM LEFT): ETOILE ISABEL MARANT, STELLA McCARTNEY, ACNE STUDIOS, 7 FOR ALL MANKIND,DIESEL BLACK GOLD, KENZO, AND J BRAND. STYLING: STEPHANIE STRAUSS. Printed, patterned, and razor skinny, the new jean is a canvas for broadcasting one thing: attitude. MAKEUP AND HAIR: CHRISTINA CORWAY FOR CHANEL/ORIBE/SEE MANAGEMENT. MODELS: ANNE BARRETO/ONE, LI BIND/ REQUEST, RACHEL HILBERT/REQUEST, MARINA ALBINO/TRUMP. CASTING:EDWARD KIM/THE EDIT DESK. Levi McConaughey Is Hungry and Thirsty Annie Lennox Finally Opened Up Her Archive. We Got An Exclusive Look. “You Were Chosen for a Reason”: Chase Infiniti Talks to Her Movie Mom Teyana Taylor The Swiftologist Has a Message For Gaylor Conspiracy Theorists “I Love a Bisexual Man!”: Doja Cat Takes Us Inside Her Vie Era Related Posts Liv Tyler and Mel Ottenberg Review Loewe&#8217;s New Look Iris Law on Ice Cream, Isabel Marant, and Holding Hands in Bed Business Women and Birkin Cookies: Taylore&#8217;s PFW Diary, Day Four “I’m Seeing the Moodboard”: Mel Ottenberg on Balmain SS26 &#8220;Glamour Is Resistance&#8221;: On the Grounds at Jonathan Anderson&#8217;s Dior Womenswear Debut “Kinda Nasty. Kinda Unsettling. Kinda Good?”: Taylore’s PFW Diary Newsletter Masthead | Privacy | Terms | Contact Copyright &copy; 2025 Interview Magazine. All Rights Reserved.

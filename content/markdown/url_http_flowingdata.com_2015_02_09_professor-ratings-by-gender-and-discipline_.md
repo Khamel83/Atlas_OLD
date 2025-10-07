@@ -1,0 +1,8 @@
+# Professor Ratings By Gender And Discipline
+
+**Source**: http://flowingdata.com/2015/02/09/professor-ratings-by-gender-and-discipline/
+**Extracted**: 2025-10-04T00:13:05.483329+00:00
+
+---
+
+Professor ratings by gender and discipline &#8211; FlowingData Membership Books Projects Learning Newsletters Member Login Professor ratings by gender and discipline February 9, 2015 Topic Statistical Visualization &nbsp;/&nbsp; education , gender --> Based on about 14 million reviews on RateMyProfessor, this tool by Ben Schmidt lets you compare words used to describe professors, categorized by gender and discipline . For example, the above is the usage rate of &#8220;smart&#8221; in reviews, and you see lower rates with professors who are women than for men, for every discipline. This is true when you look at all reviews at once, just positive ones, or just negative ones. Telling. And just the beginning. Do your own search and find out more about the data and models on Schmidt&#8217;s FAQ . FlowingData Delivered to Your Inbox Email Address Weekly Digest Send me a summary for the week. Related Flawed Rotten Tomatoes ratings Posted to Mistaken Data --> Bible sentiment analysis Posted to Visualization --> Gender and time comparisons on Twitter Posted to Apps --> Get access to courses, tutorials, and more resources. Become a member &rarr; About Contact LinkedIn Instagram Bluesky RSS Copyright &copy; 2007-Present FlowingData. All rights reserved.

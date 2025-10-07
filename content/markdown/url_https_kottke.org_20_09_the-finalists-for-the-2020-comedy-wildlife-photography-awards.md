@@ -1,0 +1,8 @@
+# The Finalists For The 2020 Comedy Wildlife Photography Awards
+
+**Source**: https://kottke.org/20/09/the-finalists-for-the-2020-comedy-wildlife-photography-awards
+**Extracted**: 2025-10-03T23:38:51.150381+00:00
+
+---
+
+The Finalists for the 2020 Comedy Wildlife Photography Awards KOTTKE DOT ORG KOTTKE DOT ORG MENU Member Login Home Membership Newsletter Goods Archive + Tags About/Contact dark mode light mode Advertise here with Carbon Ads Socials & More Newsletter RSS Feed Bluesky Mastodon This site is made possible by member support . 💞 Big thanks to Arcustech for hosting the site and offering amazing tech support. When you buy through links on kottke.org, I may earn an affiliate commission. Thanks for supporting the site! kottke.org. home of fine hypertext products since 1998. Beloved by 86.47% of the web. 🍔 &nbsp; 💀 &nbsp; 📸 &nbsp; 😭 &nbsp; 🕳️ &nbsp; 🤠 &nbsp; 🎬 &nbsp; 🥔 × close posted Sep 21 @ 04:19 PM by Jason Kottke &ensp;·&ensp; gift link The Finalists for the 2020 Comedy Wildlife Photography Awards Each year, photographers entering the Comedy Wildlife Photography Awards capture animals in various hilarious (and often anthropomorphic) situations and this year&#8217;s finalists can hopefully provide you with some relief from the absolute shitstorm that&#8217;s raging outside our skulls here in 2020. [Uh, how about something a little more upbeat next time? -ed] (via digg ) best of best of 2020 photography Share

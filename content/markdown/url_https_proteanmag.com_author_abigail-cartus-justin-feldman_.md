@@ -1,0 +1,8 @@
+# Abigail Cartus Justin Feldman
+
+**Source**: https://proteanmag.com/author/abigail-cartus-justin-feldman/
+**Extracted**: 2025-10-04T01:10:55.292054+00:00
+
+---
+
+Abigail Cartus, Ph.D, MPH Justin Feldman, Sc.D, MPH, Author at Protean Magazine An independent, ad-free leftist magazine of critical essays, poetry, fiction, and art. Categories Critique &amp; Essays News Analysis Reviews Interviews Poetry Fiction Shop Products Cart About Us Submissions Support Us Abigail Cartus, Ph.D, MPH is an epidemiologist at Brown University. She focuses on perinatal health and overdose prevention in her work at The People, Place &amp; Health Collective, a Brown School of Public Health research laboratory. Justin Feldman, Ph.D, MPH is an epidemiologist and a Health and Human Rights Fellow at the Harvard FXB Center for Health and Human Rights. Criticism &amp; Essays Motivated Reasoning: Emily Oster&#8217;s COVID Narratives and the Attack on Public Education Free-market interests used fights over COVID protocols to further privatize K-12 education. Economist Emily Oster, whose research is funded by those groups, has laundered their ideologies and given them the imprimatur of science, write epidemiologists Abigail Cartus and Justin Feldman. JOIN US Facebook Twitter Instagram About Us Submissions Support Us Critique &amp; Essays News Analysis Reviews Interviews Fiction Poetry Shop Cart My Account CLOSE &nbsp; Loading Comments... &nbsp; Write a Comment... Email (Required) Name (Required) Website
