@@ -75,19 +75,19 @@ check_uv_environment() {
     return 0
 }
 
-# Check 2: Environment variables from centralized source (optional)
+# Check 2: Environment variables from centralized source
 check_environment_variables() {
     log_info "Checking environment variable setup..."
 
-    # Check if 1Password CLI is available and signed in (optional)
+    # Check if 1Password CLI is available and signed in
     if ! command -v op &> /dev/null; then
-        log_warning "1Password CLI (op) is not installed - skipping optional env check"
-        return 0
+        log_error "1Password CLI (op) is not installed"
+        return 1
     fi
 
     if ! op whoami &> /dev/null; then
-        log_warning "Not signed into 1Password CLI - skipping optional env check"
-        return 0
+        log_error "Not signed into 1Password CLI. Run: op signin"
+        return 1
     fi
 
     log_success "1Password CLI is available and signed in"
@@ -97,8 +97,8 @@ check_environment_variables() {
     local item="${OP_ITEM:-bootstrap-env}"
 
     if ! op item get "$item" --vault "$vault" &> /dev/null; then
-        log_warning "Cannot access environment item '$item' in vault '$vault' - continuing anyway"
-        return 0
+        log_error "Cannot access environment item '$item' in vault '$vault'"
+        return 1
     fi
 
     log_success "Environment variables are accessible from 1Password"
