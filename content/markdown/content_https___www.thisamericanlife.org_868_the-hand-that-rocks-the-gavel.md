@@ -8,10 +8,10 @@
 <!DOCTYPE html>
 <html
   lang="en"
-  
+
   data-color-mode="auto" data-light-theme="light" data-dark-theme="dark"
   data-a11y-animated-images="system" data-a11y-link-underlines="true"
-  
+
   >
 
 
@@ -26,7 +26,7 @@
   <link rel="preconnect" href="https://github.githubassets.com" crossorigin>
   <link rel="preconnect" href="https://avatars.githubusercontent.com">
 
-  
+
 
   <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/light-6448649c7147.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/light_high_contrast-42fc7e3b06b7.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/dark-d17b946fc2c5.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/dark_high_contrast-1b924088c83a.css" /><link data-color-theme="light" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light-6448649c7147.css" /><link data-color-theme="light_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_high_contrast-42fc7e3b06b7.css" /><link data-color-theme="light_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_colorblind-44cfaf0c8f7b.css" /><link data-color-theme="light_colorblind_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_colorblind_high_contrast-979217efd93e.css" /><link data-color-theme="light_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_tritanopia-4d5383026bfa.css" /><link data-color-theme="light_tritanopia_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_tritanopia_high_contrast-ff6ff8532348.css" /><link data-color-theme="dark" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark-d17b946fc2c5.css" /><link data-color-theme="dark_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_high_contrast-1b924088c83a.css" /><link data-color-theme="dark_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_colorblind-654786382462.css" /><link data-color-theme="dark_colorblind_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_colorblind_high_contrast-ecca008c6f6e.css" /><link data-color-theme="dark_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_tritanopia-fff376053989.css" /><link data-color-theme="dark_tritanopia_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_tritanopia_high_contrast-49adf52571e5.css" /><link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_dimmed-66d97c13c98a.css" /><link data-color-theme="dark_dimmed_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_dimmed_high_contrast-c58f1d0432b9.css" />
 
@@ -47,7 +47,7 @@
   <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/repository-5d735668c600.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/code-9c9b8dc61e74.css" />
 
-  
+
 
   <script type="application/json" id="client-env">{"locale":"en","featureFlags":["alternate_user_config_repo","api_insights_show_missing_data_banner","attestations_filtering","attestations_sorting","billing_fixed_amount_metered_configured_discounts","billing_use_current_discounts_list_dialog_v2","client_version_header","codespaces_prebuild_region_target_update","contact_requests_implicit_opt_in","contact_sales_locale_utm_medium","contentful_lp_enterprise","contentful_lp_footnotes","copilot_agent_cli_public_preview","copilot_agent_tasks_btn_code_nav","copilot_agent_tasks_btn_code_view","copilot_agent_tasks_btn_code_view_lines","copilot_agent_tasks_btn_file_reference","copilot_api_agentic_issue_marshal_yaml","copilot_api_draft_issue_code_search","copilot_chat_attach_multiple_images","copilot_chat_file_redirect","copilot_chat_multi_file_picker_attachment","copilot_chat_reduce_quota_checks","copilot_chat_search_bar_redirect","copilot_chat_selection_attachments","copilot_chat_vision_in_claude","copilot_chat_vision_skip_thread_create","copilot_coding_agent_diff_stats","copilot_coding_agent_ga","copilot_custom_copilots","copilot_custom_copilots_feature_preview","copilot_duplicate_thread","copilot_extensions_deprecation_notice","copilot_features_raycast_logo","copilot_file_block_ref_matching","copilot_free_to_paid_telem","copilot_ftp_hyperspace_upgrade_prompt","copilot_ftp_settings_upgrade","copilot_ftp_upgrade_to_pro_from_models","copilot_ftp_your_copilot_settings","copilot_global_overlay_v2","copilot_immersive_agent_branch_selection","copilot_immersive_structured_model_picker","copilot_no_floating_button","copilot_read_shared_conversation","copilot_show_copilot_sub_issues_button_on_issues_page","copilot_spaces_duplicate","copilot_spaces_ga","copilot_spark_allow_empty_commit","copilot_spark_loading_webgl","copilot_spark_progressive_error_handling","copilot_spark_read_iteration_history_from_git_v2","copilot_spark_single_user_iteration","copilot_spark_use_billing_headers","copilot_spark_write_iteration_history_to_git","copilot_stable_conversation_view","copilot_workbench_agent_seed_tool","copilot_workbench_cache","copilot_workbench_connection_reload_banner","copilot_workbench_preview_analytics","copilot_workbench_ratelimit_fallback","copilot_workbench_refresh_on_wsod","copilot_workbench_synthetic_generation","dashboard_public_preview","direct_to_salesforce","dotcom_chat_client_side_skills","failbot_report_error_react_apps_on_page","ghost_pilot_confidence_truncation_25","ghost_pilot_confidence_truncation_40","global_search_multi_orgs","hpc_improve_dom_insertion_observer","hyperspace_diff_view","inp_reduced_threshold","insert_before_patch","issue_fields_report_usage","issues_copilot_cross_repo_assign","issues_copilot_repo_search_in_org","issues_react_blur_item_picker_on_close","issues_react_bots_timeline_pagination","issues_react_prohibit_title_fallback","issues_react_remove_placeholders","issues_sticky_sidebar","lifecycle_label_name_updates","link_contact_sales_swp_marketo","marketing_pages_search_explore_provider","mcp_registry_install","memex_mwl_filter_field_delimiter","migrate_toasts_to_banners_web_notifications","new_traffic_page_banner","override_pulse_legacy_url","primer_react_segmented_control_tooltip","primer_react_unified_portal_root","record_sso_banner_metrics","releases_update_ref_selector","remove_child_patch","repos_insights_remove_new_url","sample_network_conn_type","scheduled_reminders_updated_limits","show_edit_on_default_option","site_homepage_collaborate_video","site_homepage_contentful","site_msbuild_webgl_hero","spark_commit_on_default_branch","spark_show_data_access_on_publish","spark_sync_repository_after_iteration","viewscreen_sandbox","webp_support","workbench_default_sonnet4","workbench_store_readonly"],"copilotApiOverrideUrl":"https://api.githubcopilot.com"}</script>
 <script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/high-contrast-cookie-f3788027bd8d.js"></script>
@@ -106,7 +106,7 @@
 <script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/copilot-coding-agent-status-5f878b7667cc.js" defer="defer"></script>
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react.ad9424369aeb6fec9e91.module.css" />
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/copilot-coding-agent-status.18a276928d4b7c45824e.module.css" />
-  
+
   <script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_lit-labs_react_index_js-node_modules_primer_styled-react_dist_index_js-n-6066db-b92ee15c1e46.js" defer="defer"></script>
 <script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/packages_notifications-subscriptions-menu_entry_ts-packages_promise-with-resolvers-polyfill_p-df0233-37157a955eee.js" defer="defer"></script>
 <script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/notifications-subscriptions-menu-113a2e7708e8.js" defer="defer"></script>
@@ -124,7 +124,7 @@
   <meta name="route-action" content="disambiguate" data-turbo-transient>
   <meta name="fetch-nonce" content="v2:6d4df4d3-2790-2cfb-2c1c-497396870cec">
 
-    
+
   <meta name="current-catalog-service-hash" content="f3abb0cc802f3d7b95fc8762b94bdcb13bf39634c40c357301c4aa1d67a256fb">
 
 
@@ -135,7 +135,7 @@
 
 
   <meta name="github-keyboard-shortcuts" content="repository,copilot" data-turbo-transient="true" />
-  
+
 
   <meta name="selected-link" value="repo_source" data-turbo-transient>
   <link rel="assets" href="https://github.githubassets.com/">
@@ -146,18 +146,18 @@
 
   <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-turbo-transient="true" />
 
-  
+
 
 
 
 
     <meta name="user-login" content="">
 
-  
+
 
     <meta name="viewport" content="width=device-width">
 
-    
+
 
       <meta name="description" content="A small Node.js application to download transcripts of This American Life&#39;s 500+ episodes. Then parse it into a CSV file. - SciutoAlex/thisAmericanLifeTranscripts">
 
@@ -169,7 +169,7 @@
 
       <meta name="twitter:image" content="https://opengraph.githubassets.com/9953cb63f470b52a325ca3277b427b3dd53bbaa7f30b93fa80497d7d21ff97ab/SciutoAlex/thisAmericanLifeTranscripts" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="GitHub - SciutoAlex/thisAmericanLifeTranscripts: A small Node.js application to download transcripts of This American Life&#39;s 500+ episodes. Then parse it into a CSV file." /><meta name="twitter:description" content="A small Node.js application to download transcripts of This American Life&#39;s 500+ episodes. Then parse it into a CSV file. - SciutoAlex/thisAmericanLifeTranscripts" />
   <meta property="og:image" content="https://opengraph.githubassets.com/9953cb63f470b52a325ca3277b427b3dd53bbaa7f30b93fa80497d7d21ff97ab/SciutoAlex/thisAmericanLifeTranscripts" /><meta property="og:image:alt" content="A small Node.js application to download transcripts of This American Life&#39;s 500+ episodes. Then parse it into a CSV file. - SciutoAlex/thisAmericanLifeTranscripts" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="GitHub - SciutoAlex/thisAmericanLifeTranscripts: A small Node.js application to download transcripts of This American Life&#39;s 500+ episodes. Then parse it into a CSV file." /><meta property="og:url" content="https://github.com/SciutoAlex/thisAmericanLifeTranscripts" /><meta property="og:description" content="A small Node.js application to download transcripts of This American Life&#39;s 500+ episodes. Then parse it into a CSV file. - SciutoAlex/thisAmericanLifeTranscripts" />
-  
+
 
 
 
@@ -222,7 +222,7 @@
 
   <body class="logged-out env-production page-responsive" style="word-wrap: break-word;">
     <div data-turbo-body class="logged-out env-production page-responsive" style="word-wrap: break-word;">
-      
+
 
 
 
@@ -231,8 +231,8 @@
 
       <span data-view-component="true" class="progress-pjax-loader Progress position-fixed width-full">
     <span style="width: 0%;" data-view-component="true" class="Progress-item progress-pjax-loader-bar left-0 top-0 color-bg-accent-emphasis"></span>
-</span>      
-      
+</span>
+
       <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/keyboard-shortcuts-dialog.2de9c7d6456a311fce49.module.css" />
 
 <react-partial
@@ -241,7 +241,7 @@
   data-attempted-ssr="false"
   data-react-profiling="false"
 >
-  
+
   <script type="application/json" data-target="react-partial.embeddedData">{"props":{"docsUrl":"https://docs.github.com/get-started/accessibility/keyboard-shortcuts"}}</script>
   <div data-target="react-partial.reactRoot"></div>
 </react-partial>
@@ -250,11 +250,11 @@
 
 
 
-      
 
-          
 
-              
+
+
+
 <script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_gsap_index_js-23c9606618ce.js" defer="defer"></script>
 <script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-94fd67-04dd9f3c4754.js" defer="defer"></script>
 <script crossorigin="anonymous" type="application/javascript" src="https://github.githubassets.com/assets/sessions-ac148cb2a2f3.js" defer="defer"></script>
@@ -311,7 +311,7 @@
   data-attempted-ssr="false"
   data-react-profiling="false"
 >
-  
+
   <script type="application/json" data-target="react-partial.embeddedData">{"props":{}}</script>
   <div data-target="react-partial.reactRoot"></div>
 </react-partial>
@@ -357,7 +357,7 @@
         Write better code with AI
       </div>
 
-    
+
 </a></li>
 
                       <li>
@@ -377,7 +377,7 @@
         Build and deploy intelligent apps
       </div>
 
-    
+
 </a></li>
 
                       <li>
@@ -397,7 +397,7 @@
         Manage and compare prompts
       </div>
 
-    
+
 </a></li>
 
                       <li>
@@ -414,7 +414,7 @@
         Find and fix vulnerabilities
       </div>
 
-    
+
 </a></li>
 
                       <li>
@@ -431,7 +431,7 @@
         Automate any workflow
       </div>
 
-    
+
 </a></li>
 
                   </ul>
@@ -455,7 +455,7 @@
         Instant dev environments
       </div>
 
-    
+
 </a></li>
 
                       <li>
@@ -472,7 +472,7 @@
         Plan and track work
       </div>
 
-    
+
 </a></li>
 
                       <li>
@@ -489,7 +489,7 @@
         Manage code changes
       </div>
 
-    
+
 </a></li>
 
                       <li>

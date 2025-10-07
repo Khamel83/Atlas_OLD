@@ -5,14 +5,14 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        
+
 
         <link rel="icon" href="https://themovementmaestro.com/wp-content/themes/gesso/favicon.ico" />
         <link rel="apple-touch-icon" href="https://themovementmaestro.com/wp-content/themes/gesso/icon.png">
         <meta name="msapplication-config" content="https://themovementmaestro.com/wp-content/themes/gesso/ieconfig.xml" />
 
         	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 		<!-- All in One SEO 4.5.5 - aioseo.com -->
 		<title>Full Transcript: MOTM #452 4 Unexpected Issues You Will Encounter as an Entrepreneur - The Movement Maestro</title>
 		<meta name="description" content="Full Transcript for Maestro on the Mic Episode #452: 4 Unexpected Issues You Will Encounter as an Entrepreneur" />
@@ -117,7 +117,7 @@
 							} else {
 								__gtagDataLayer('event', name, parameters);
 							}
-							
+
 						} else {
 							__gtagDataLayer.apply(null, arguments);
 						}
@@ -252,7 +252,7 @@
 					})();
 									}
 			</script>
-			
+
 							<!-- / Google Analytics by MonsterInsights -->
 		<script type="text/javascript">
 /* <![CDATA[ */
