@@ -20,6 +20,7 @@ import re
 import logging
 import requests
 import os
+import uuid
 from datetime import datetime
 from aiosmtpd.controller import Controller
 from aiosmtpd.handlers import AsyncMessage
@@ -33,6 +34,7 @@ SMTP_HOST = '0.0.0.0'
 SMTP_PORT = 2525  # Use non-privileged port first
 ATLAS_URL = os.getenv('ATLAS_URL', 'https://atlas.khamel.com')
 ATLAS_INGEST_ENDPOINT = os.getenv('ATLAS_INGEST_ENDPOINT', '/ingest')
+ATTACHMENTS_DIR = '/home/ubuntu/dev/atlas/attachments'
 
 # Logging
 logging.basicConfig(
@@ -76,22 +78,75 @@ def extract_urls(text):
     urls = URL_REGEX.findall(text)
     return list(set(urls))  # Remove duplicates
 
-def extract_email_content(email_message):
-    """Extract text content from email message"""
+def save_email_attachment(attachment_data, filename, content_type):
+    """Save email attachment to attachments directory"""
+    try:
+        # Generate unique filename
+        file_id = str(uuid.uuid4())
+        timestamp = datetime.now().isoformat()
+        safe_filename = re.sub(r'[^a-zA-Z0-9._-]', '_', filename)
+        stored_filename = f"email_{file_id}_{safe_filename}"
+
+        # Save file
+        file_path = os.path.join(ATTACHMENTS_DIR, stored_filename)
+        with open(file_path, 'wb') as f:
+            f.write(attachment_data)
+
+        # Create metadata
+        metadata = {
+            'file_id': file_id,
+            'original_filename': filename,
+            'stored_filename': stored_filename,
+            'content_type': content_type,
+            'size': len(attachment_data),
+            'uploaded_at': timestamp,
+            'file_path': file_path,
+            'source': 'email'
+        }
+
+        logger.info(f"📎 Saved email attachment: {filename} -> {stored_filename} ({len(attachment_data)} bytes)")
+        return metadata
+
+    except Exception as e:
+        logger.error(f"❌ Failed to save email attachment {filename}: {e}")
+        return None
+
+def extract_email_content_and_attachments(email_message):
+    """Extract text content and save attachments from email message"""
     content = ""
+    attachments = []
 
     if email_message.is_multipart():
         for part in email_message.walk():
-            if part.get_content_type() == "text/plain":
+            content_type = part.get_content_type()
+
+            if content_type == "text/plain":
                 payload = part.get_payload(decode=True)
                 if payload:
                     content += payload.decode('utf-8', errors='ignore') + "\n"
+
+            # Handle attachments
+            elif part.get_filename():
+                filename = part.get_filename()
+                payload = part.get_payload(decode=True)
+                if payload and filename:
+                    metadata = save_email_attachment(payload, filename, content_type)
+                    if metadata:
+                        attachments.append(metadata)
+
+                        # Extract URLs from text attachments
+                        if content_type.startswith('text/'):
+                            try:
+                                text_content = payload.decode('utf-8', errors='ignore')
+                                content += f"\n[Attachment: {filename}]\n{text_content}\n"
+                            except:
+                                pass
     else:
         payload = email_message.get_payload(decode=True)
         if payload:
             content = payload.decode('utf-8', errors='ignore')
 
-    return content
+    return content, attachments
 
 class AtlasEmailHandler(AsyncMessage):
     """Custom email handler for Atlas URL ingestion"""
@@ -106,8 +161,14 @@ class AtlasEmailHandler(AsyncMessage):
             logger.info(f"📧 Received email from {mailfrom}")
             logger.info(f"📝 Subject: {subject[:100]}...")
 
-            # Extract body content
-            body = extract_email_content(message)
+            # Extract body content and process attachments
+            body, attachments = extract_email_content_and_attachments(message)
+
+            # Log attachment processing
+            if attachments:
+                logger.info(f"📎 Processed {len(attachments)} attachment(s)")
+                for attachment in attachments:
+                    logger.info(f"  📁 {attachment['original_filename']} ({attachment['size']} bytes)")
 
             # Combine subject and body for URL extraction
             full_text = f"{subject}\n{body}"
@@ -116,11 +177,14 @@ class AtlasEmailHandler(AsyncMessage):
             urls = extract_urls(full_text)
 
             if urls:
-                logger.info(f"🔗 Found {len(urls)} URL(s) in email")
+                logger.info(f"🔗 Found {len(urls)} URL(s) in email and attachments")
                 for url in urls:
                     send_to_atlas(url, mailfrom)
             else:
-                logger.info("❌ No URLs found in email")
+                if attachments:
+                    logger.info("📎 Email with attachments processed (no URLs found)")
+                else:
+                    logger.info("❌ No URLs or attachments found in email")
 
         except Exception as e:
             logger.error(f"💥 Error processing email: {e}")

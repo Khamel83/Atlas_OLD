@@ -49,7 +49,8 @@ class AtlasV3Database:
                 unique_id TEXT PRIMARY KEY,
                 url TEXT NOT NULL,
                 created_at TEXT NOT NULL,
-                source TEXT DEFAULT 'velja'
+                source TEXT DEFAULT 'velja',
+                content_type TEXT DEFAULT 'unknown'
             )
         """)
 
@@ -72,9 +73,9 @@ class AtlasV3Database:
 
             # Simple insert
             cursor.execute("""
-                INSERT INTO ingested_urls (unique_id, url, created_at, source)
-                VALUES (?, ?, ?, ?)
-            """, (unique_id, url, timestamp, source))
+                INSERT INTO ingested_urls (unique_id, url, created_at, source, content_type)
+                VALUES (?, ?, ?, ?, ?)
+            """, (unique_id, url, timestamp, source, 'unknown'))
 
             conn.commit()
             conn.close()
