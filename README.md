@@ -120,11 +120,20 @@ Atlas is your **fully automated podcast transcript management system** that cont
 - **Maintenance Tasks**: Automatic cleanup of old errors and database optimization
 - **Graceful Shutdown**: Signal handling for safe restarts and updates
 
+### 📧 Gmail Integration (NEW)
+- **Real-time Email Processing**: Gmail push notifications with sub-5-second processing
+- **iOS Shortcut Support**: Perfect integration with `khamel83+atlas@gmail.com` workflow
+- **Dual Label Processing**: Handles both "Atlas" and "Newsletter" labels
+- **URL & Attachment Extraction**: Automatically extracts URLs and downloads attachments
+- **Content Categorization**: Separate processing for manual bookmarks vs newsletters
+- **See**: [GMAIL_INTEGRATION.md](GMAIL_INTEGRATION.md) for complete setup guide
+
 ### 🎯 High-Quality Sources
 - **Premium Podcasts**: Lex Fridman, EconTalk, Acquired, Conversations with Tyler
 - **Academic Content**: 99% Invisible, Planet Money, Practical AI
 - **Business & Technology**: Thousands of episodes across multiple domains
 - **Community Contributions**: GitHub, Medium, Archive.org sources
+- **Personal Bookmarks**: Gmail-sourced content via iOS shortcuts and newsletters
 
 ## 🏗️ Architecture
 

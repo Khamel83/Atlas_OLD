@@ -26,6 +26,9 @@ from helpers.metrics_collector import get_metrics_collector, get_health_summary,
 from helpers.logging_config import get_logger, PerformanceLogger
 from helpers.alerting_service import get_alerting_service, Alert
 from helpers.monitoring_dashboard_service import router as monitoring_router
+from modules.gmail.auth import GmailAuthManager
+from modules.gmail.processor import GmailProcessor
+from modules.gmail.webhook import GmailWebhookManager
 
 
 # Configure logging
@@ -53,6 +56,12 @@ app.add_middleware(
 
 # Include monitoring dashboard router
 app.include_router(monitoring_router)
+
+
+# Gmail integration instances
+gmail_auth_manager = GmailAuthManager()
+gmail_processor = GmailProcessor(gmail_auth_manager)
+gmail_webhook_manager = GmailWebhookManager(gmail_auth_manager, gmail_processor)
 
 
 # Pydantic models for API
@@ -124,6 +133,19 @@ class SystemInfoResponse(BaseModel):
     cpu_usage_percent: float
     load_average: List[float]
     timestamp: str
+
+
+class GmailWebhookResponse(BaseModel):
+    """Response model for Gmail webhook operations"""
+    status: str
+    message: str
+
+
+class GmailAuthResponse(BaseModel):
+    """Response model for Gmail authentication operations"""
+    success: bool
+    email_address: Optional[str] = None
+    error: Optional[str] = None
 
 
 # Dependency to get database instance
@@ -803,6 +825,104 @@ async def test_alert_notification():
         }
     except Exception as e:
         logger.error(f"Failed to send test alert: {e}", component="api", endpoint="/alerts/test")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+# Gmail integration endpoints
+@app.post("/gmail/webhook", response_model=GmailWebhookResponse)
+async def gmail_webhook(request):
+    """Handle Gmail Pub/Sub webhook notifications."""
+    try:
+        # Extract headers and body
+        headers = dict(request.headers)
+        body = await request.body()
+
+        # Process the webhook
+        result = await gmail_webhook_manager.handle_webhook(headers, body)
+
+        return result
+    except Exception as e:
+        logger.error(f"Gmail webhook error: {e}", component="api", endpoint="/gmail/webhook")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/gmail/auth/status", response_model=GmailAuthResponse)
+async def gmail_auth_status():
+    """Check Gmail authentication status."""
+    try:
+        if gmail_auth_manager.is_authenticated():
+            # Test the connection
+            test_result = await gmail_auth_manager.test_connection()
+            if test_result["success"]:
+                return GmailAuthResponse(
+                    success=True,
+                    email_address=test_result["email_address"]
+                )
+            else:
+                return GmailAuthResponse(
+                    success=False,
+                    error=test_result["error"]
+                )
+        else:
+            return GmailAuthResponse(
+                success=False,
+                error="Not authenticated"
+            )
+    except Exception as e:
+        logger.error(f"Gmail auth status check error: {e}", component="api", endpoint="/gmail/auth/status")
+        return GmailAuthResponse(
+            success=False,
+            error=str(e)
+        )
+
+
+@app.post("/gmail/auth", response_model=GmailAuthResponse)
+async def gmail_authenticate():
+    """Start Gmail OAuth2 authentication flow."""
+    try:
+        # This will trigger the OAuth flow if not authenticated
+        test_result = await gmail_auth_manager.test_connection()
+
+        if test_result["success"]:
+            return GmailAuthResponse(
+                success=True,
+                email_address=test_result["email_address"]
+            )
+        else:
+            return GmailAuthResponse(
+                success=False,
+                error=test_result["error"]
+            )
+    except Exception as e:
+        logger.error(f"Gmail authentication error: {e}", component="api", endpoint="/gmail/auth")
+        return GmailAuthResponse(
+            success=False,
+            error=str(e)
+        )
+
+
+@app.get("/gmail/stats")
+async def gmail_stats(db=Depends(get_db)):
+    """Get Gmail integration statistics."""
+    try:
+        # Get Gmail content statistics
+        gmail_content = db.search_content(
+            query="content_type:gmail_atlas OR content_type:gmail_newsletter",
+            limit=1000
+        )
+
+        atlas_count = len([c for c in gmail_content if c.content_type == "gmail_atlas"])
+        newsletter_count = len([c for c in gmail_content if c.content_type == "gmail_newsletter"])
+
+        return {
+            "total_gmail_content": len(gmail_content),
+            "atlas_content": atlas_count,
+            "newsletter_content": newsletter_count,
+            "authenticated": gmail_auth_manager.is_authenticated(),
+            "timestamp": datetime.utcnow().isoformat()
+        }
+    except Exception as e:
+        logger.error(f"Gmail stats error: {e}", component="api", endpoint="/gmail/stats")
         raise HTTPException(status_code=500, detail=str(e))
 
 
