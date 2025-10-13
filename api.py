@@ -58,10 +58,28 @@ app.add_middleware(
 app.include_router(monitoring_router)
 
 
-# Gmail integration instances
-gmail_auth_manager = GmailAuthManager()
-gmail_processor = GmailProcessor(gmail_auth_manager)
-gmail_webhook_manager = GmailWebhookManager(gmail_auth_manager, gmail_processor)
+# Gmail integration instances (lazy loading to avoid import issues)
+gmail_auth_manager = None
+gmail_processor = None
+gmail_webhook_manager = None
+
+def get_gmail_auth_manager():
+    global gmail_auth_manager
+    if gmail_auth_manager is None:
+        gmail_auth_manager = GmailAuthManager()
+    return gmail_auth_manager
+
+def get_gmail_processor():
+    global gmail_processor
+    if gmail_processor is None:
+        gmail_processor = GmailProcessor(get_gmail_auth_manager())
+    return gmail_processor
+
+def get_gmail_webhook_manager():
+    global gmail_webhook_manager
+    if gmail_webhook_manager is None:
+        gmail_webhook_manager = GmailWebhookManager(get_gmail_auth_manager(), get_gmail_processor())
+    return gmail_webhook_manager
 
 
 # Pydantic models for API
@@ -838,7 +856,8 @@ async def gmail_webhook(request):
         body = await request.body()
 
         # Process the webhook
-        result = await gmail_webhook_manager.handle_webhook(headers, body)
+        webhook_manager = get_gmail_webhook_manager()
+        result = await webhook_manager.handle_webhook(headers, body)
 
         return result
     except Exception as e:
@@ -850,9 +869,10 @@ async def gmail_webhook(request):
 async def gmail_auth_status():
     """Check Gmail authentication status."""
     try:
-        if gmail_auth_manager.is_authenticated():
+        auth_manager = get_gmail_auth_manager()
+        if auth_manager.is_authenticated():
             # Test the connection
-            test_result = await gmail_auth_manager.test_connection()
+            test_result = await auth_manager.test_connection()
             if test_result["success"]:
                 return GmailAuthResponse(
                     success=True,
@@ -881,7 +901,8 @@ async def gmail_authenticate():
     """Start Gmail OAuth2 authentication flow."""
     try:
         # This will trigger the OAuth flow if not authenticated
-        test_result = await gmail_auth_manager.test_connection()
+        auth_manager = get_gmail_auth_manager()
+        test_result = await auth_manager.test_connection()
 
         if test_result["success"]:
             return GmailAuthResponse(
@@ -914,11 +935,13 @@ async def gmail_stats(db=Depends(get_db)):
         atlas_count = len([c for c in gmail_content if c.content_type == "gmail_atlas"])
         newsletter_count = len([c for c in gmail_content if c.content_type == "gmail_newsletter"])
 
+        auth_manager = get_gmail_auth_manager()
+
         return {
             "total_gmail_content": len(gmail_content),
             "atlas_content": atlas_count,
             "newsletter_content": newsletter_count,
-            "authenticated": gmail_auth_manager.is_authenticated(),
+            "authenticated": auth_manager.is_authenticated(),
             "timestamp": datetime.utcnow().isoformat()
         }
     except Exception as e:
